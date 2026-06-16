@@ -30,6 +30,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Prepare Vite entrypoint
+        run: cp index.source.html index.html
+
       - name: Build
         run: npm run build
         env:
@@ -41,6 +44,6 @@ jobs:
           cp -R dist/. .
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html assets favicon.svg robots.txt sitemap.xml _redirects
+          git add index.html assets favicon.svg robots.txt sitemap.xml _redirects CNAME
           git diff --cached --quiet || git commit -m "Build static site"
           git push

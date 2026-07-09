@@ -76,7 +76,7 @@ function Hero() {
           <SectionLabel>Bienvenido a Nebula</SectionLabel>
           <h1 className="mt-6 font-display text-4xl font-bold leading-[1.05] sm:text-5xl md:text-6xl lg:text-7xl">
             Cuando la asignatura, el examen o la entrevista{" "}
-            <span className="nebula-gradient-text">no admiten improvisación.</span>
+            <span className="nebula-gradient-text">no admite improvisación.</span>
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-base text-muted-foreground md:text-lg">
             Enseñanza privada para universidad, exámenes internacionales, Selectividad y transición

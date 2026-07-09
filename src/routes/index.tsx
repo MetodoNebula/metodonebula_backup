@@ -70,7 +70,6 @@ function Hero() {
   return (
     <section id="top" className="relative overflow-hidden">
       <div className="absolute inset-0 nebula-aurora pointer-events-none" />
-      <ConstellationBg />
       <div className="relative mx-auto max-w-7xl px-6 pt-20 pb-28 md:pt-28 md:pb-36">
         <div className="mx-auto max-w-4xl text-center">
           <SectionLabel>Bienvenido a Nebula</SectionLabel>
@@ -123,52 +122,6 @@ function AuthorityChip({ label }: { label: string }) {
       <ShieldCheck className="h-3.5 w-3.5 text-gold" />
       {label}
     </span>
-  );
-}
-
-function ConstellationBg() {
-  // Generate deterministic nodes
-  const nodes = Array.from({ length: 22 }).map((_, i) => {
-    const x = (i * 137.5) % 100;
-    const y = (i * 73.3) % 100;
-    return { x, y, r: 0.6 + ((i * 13) % 10) / 18 };
-  });
-  return (
-    <svg
-      className="pointer-events-none absolute inset-0 h-full w-full opacity-[0.35]"
-      viewBox="0 0 100 100"
-      preserveAspectRatio="none"
-      aria-hidden="true"
-    >
-      <defs>
-        <radialGradient id="dot" cx="50%" cy="50%" r="50%">
-          <stop offset="0%" stopColor="#2CEBFF" stopOpacity="0.9" />
-          <stop offset="100%" stopColor="#2CEBFF" stopOpacity="0" />
-        </radialGradient>
-        <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stopColor="#2F6BFF" stopOpacity="0.5" />
-          <stop offset="100%" stopColor="#7C5CFF" stopOpacity="0" />
-        </linearGradient>
-      </defs>
-      {nodes.map((n, i) =>
-        nodes
-          .slice(i + 1, i + 3)
-          .map((m, j) => (
-            <line
-              key={`${i}-${j}`}
-              x1={n.x}
-              y1={n.y}
-              x2={m.x}
-              y2={m.y}
-              stroke="url(#line)"
-              strokeWidth="0.08"
-            />
-          )),
-      )}
-      {nodes.map((n, i) => (
-        <circle key={i} cx={n.x} cy={n.y} r={n.r} fill="url(#dot)" />
-      ))}
-    </svg>
   );
 }
 

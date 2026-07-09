@@ -190,8 +190,6 @@
 }
 
 @utility nebula-aurora {
-  background:
-    radial-gradient(60% 50% at 20% 20%, oklch(0.62 0.22 265 / 28%), transparent 70%),
-    radial-gradient(40% 40% at 80% 10%, oklch(0.65 0.2 295 / 18%), transparent 70%),
-    radial-gradient(50% 40% at 70% 80%, oklch(0.79 0.12 85 / 14%), transparent 70%);
+  /* Single soft spotlight glowing from the top-centre — clean and restrained. */
+  background: radial-gradient(60% 50% at 50% 0%, oklch(0.62 0.22 265 / 20%), transparent 72%);
 }

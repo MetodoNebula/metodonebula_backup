@@ -1,7 +1,7 @@
 ---
 title: Regresión lineal y ANOVA: cuándo utilizar cada método y cómo interpretar los resultados
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-07-11
+updated: 2026-07-11
 description: Diferencias entre regresión lineal y ANOVA: cuándo usar cada método, cómo interpretar coeficientes, medias, F y resultados en universidad.
 tag: Estadística
 category: Estadística

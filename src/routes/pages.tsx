@@ -2,9 +2,15 @@ import { type ReactNode } from "react";
 import { ArrowRight, BookOpen, CheckCircle2, Mail, MessageCircle } from "lucide-react";
 
 import { EMAIL, EMAIL_URL, WHATSAPP_NUMBER, useCopyPhone } from "../lib/contact";
-import { absoluteUrl, siteData, type CorePage, type ServicePage } from "../lib/site-data";
+import {
+  absoluteUrl,
+  blogCategoryPath,
+  siteData,
+  type CorePage,
+  type ServicePage,
+} from "../lib/site-data";
 import { usePageMeta } from "../lib/seo";
-import { getPost } from "../lib/posts";
+import { getAllPosts, getPost } from "../lib/posts";
 import { Footer, PageShell, PrimaryCTA, SectionLabel } from "../components/site";
 import { Link } from "../lib/router";
 
@@ -475,6 +481,121 @@ export function ContactPage() {
             Cuéntanos asignatura, fecha de examen, temario y punto de partida. Con esa información
             revisamos si Nebula encaja y qué plan tendría más sentido.
           </p>
+        </div>
+      </section>
+    </PageShell>
+  );
+}
+
+export function SitemapPage() {
+  const posts = getAllPosts();
+  const page = {
+    h1: "Mapa del sitio",
+    intro:
+      "Todas las páginas principales de Método Nebula organizadas para encontrar servicios, categorías y artículos.",
+  };
+
+  usePageMeta({
+    title: `Mapa del sitio | ${siteData.site.displayName}`,
+    description:
+      "Mapa HTML de Método Nebula con enlaces a servicios, categorías del blog y artículos publicados.",
+    path: "/mapa-del-sitio/",
+  });
+
+  return (
+    <PageShell>
+      <PageHero
+        label="Índice"
+        page={page}
+        breadcrumbs={[{ label: "Mapa del sitio", href: "/mapa-del-sitio/" }]}
+      />
+      <section className="py-16 md:py-20">
+        <div className="mx-auto grid max-w-7xl gap-8 px-6 lg:grid-cols-3">
+          <section className="rounded-3xl border border-white/8 bg-white/[0.02] p-6">
+            <AccentHeading className="text-2xl">Páginas principales</AccentHeading>
+            <ul className="mt-5 space-y-3 text-sm">
+              <li>
+                <Link to="/" className="text-link transition-colors hover:text-link">
+                  Inicio
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/clases-particulares/universidad/"
+                  className="text-link transition-colors hover:text-link"
+                >
+                  Clases desde ESO
+                </Link>
+              </li>
+              <li>
+                <Link to="/metodologia/" className="text-link transition-colors hover:text-link">
+                  Metodología
+                </Link>
+              </li>
+              <li>
+                <Link to="/sobre-nebula/" className="text-link transition-colors hover:text-link">
+                  Sobre Nebula
+                </Link>
+              </li>
+              <li>
+                <Link to="/contacto/" className="text-link transition-colors hover:text-link">
+                  Contacto
+                </Link>
+              </li>
+            </ul>
+          </section>
+
+          <section className="rounded-3xl border border-white/8 bg-white/[0.02] p-6">
+            <AccentHeading className="text-2xl">Servicios</AccentHeading>
+            <ul className="mt-5 space-y-3 text-sm">
+              {siteData.servicePages.map((service) => (
+                <li key={service.path}>
+                  <Link to={service.path} className="text-link transition-colors hover:text-link">
+                    {service.h1}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+
+          <section className="rounded-3xl border border-white/8 bg-white/[0.02] p-6">
+            <AccentHeading className="text-2xl">Categorías</AccentHeading>
+            <ul className="mt-5 space-y-3 text-sm">
+              <li>
+                <Link to="/blog/" className="text-link transition-colors hover:text-link">
+                  Blog
+                </Link>
+              </li>
+              {siteData.blogCategories.map((category) => (
+                <li key={category.slug}>
+                  <Link
+                    to={blogCategoryPath(category.slug)}
+                    className="text-link transition-colors hover:text-link"
+                  >
+                    {category.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        </div>
+
+        <div className="mx-auto mt-8 max-w-7xl px-6">
+          <section className="rounded-3xl border border-white/8 bg-white/[0.02] p-6">
+            <AccentHeading className="text-2xl">Artículos publicados</AccentHeading>
+            <div className="mt-6 grid gap-3 md:grid-cols-2 lg:grid-cols-3">
+              {posts.map((post) => (
+                <Link
+                  key={post.slug}
+                  to={`/blog/${post.slug}/`}
+                  className="rounded-2xl border border-white/8 p-4 text-sm transition-colors hover:border-action/35 hover:bg-action/5"
+                >
+                  <span className="block font-medium text-link">{post.title}</span>
+                  <span className="mt-1 block text-xs text-muted-foreground">{post.category}</span>
+                </Link>
+              ))}
+            </div>
+          </section>
         </div>
       </section>
     </PageShell>

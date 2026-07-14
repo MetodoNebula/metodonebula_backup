@@ -1,7 +1,7 @@
 ---
 title: Física y Química: cómo plantear problemas antes de calcular
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-05-23
+updated: 2026-05-23
 description: Un método común para problemas de Física y Química: datos, magnitudes, modelo, unidades y comprobación final.
 tag: Ciencia
 category: Física y Química

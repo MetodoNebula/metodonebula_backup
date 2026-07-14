@@ -1,7 +1,7 @@
 ---
 title: Cómo aprobar Cálculo I en primero de Ingeniería: plan de estudio de seis semanas
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-06-13
+updated: 2026-06-13
 description: Plan de seis semanas para aprobar Cálculo I en Ingeniería: límites, derivadas, integrales, práctica y simulacros de examen.
 tag: Cálculo
 category: Matemáticas universitarias

@@ -1,7 +1,7 @@
 ---
 title: IB y GCSE: cómo preparar exámenes internacionales con rúbrica y calendario
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-06-10
+updated: 2026-06-10
 description: Una forma ordenada de preparar IB, GCSE e IGCSE: syllabus, rúbrica, práctica cronometrada, errores y revisión semanal.
 tag: Exámenes
 category: Exámenes internacionales

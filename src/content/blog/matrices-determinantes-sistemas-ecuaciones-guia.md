@@ -1,7 +1,7 @@
 ---
 title: Matrices, determinantes y sistemas de ecuaciones: guía completa para primero de carrera
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-06-25
+updated: 2026-06-25
 description: Guía de matrices, determinantes y sistemas de ecuaciones para primero de carrera: rango, Gauss, inversa y discusión de soluciones.
 tag: Álgebra Lineal
 category: Matemáticas universitarias

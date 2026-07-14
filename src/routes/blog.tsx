@@ -6,16 +6,20 @@ import { MarkdownContent } from "../lib/markdown";
 import {
   formatDate,
   getAllPosts,
+  getPageItems,
   getPost,
   getPostsByCategory,
   getRelatedPosts,
+  getTotalPages,
   type Post,
 } from "../lib/posts";
 import { Link } from "../lib/router";
 import { usePageMeta } from "../lib/seo";
 import {
   absoluteUrl,
+  blogCategoryPagePath,
   blogCategoryPath,
+  blogPagePath,
   findBlogCategory,
   siteData,
   type BlogCategory,
@@ -56,10 +60,87 @@ function PostMeta({ post }: { post: Post }) {
   );
 }
 
-export function BlogIndex() {
+function PaginationNav({
+  currentPage,
+  totalPages,
+  pathForPage,
+  label = "Paginación del blog",
+}: {
+  currentPage: number;
+  totalPages: number;
+  pathForPage: (page: number) => string;
+  label?: string;
+}) {
+  if (totalPages <= 1) return null;
+
+  const pages = Array.from({ length: totalPages }, (_, index) => index + 1);
+  const linkClass =
+    "inline-flex h-10 min-w-10 items-center justify-center rounded-full border border-white/10 px-3 text-sm font-medium text-link transition-colors hover:border-action/35 hover:bg-action/5";
+  const activeClass =
+    "inline-flex h-10 min-w-10 items-center justify-center rounded-full border border-action/50 bg-action px-3 text-sm font-semibold text-primary-foreground";
+
+  return (
+    <nav className="mt-12 flex flex-wrap items-center justify-center gap-2" aria-label={label}>
+      {currentPage > 1 && (
+        <Link to={pathForPage(currentPage - 1)} className={linkClass} rel="prev">
+          Anterior
+        </Link>
+      )}
+      {pages.map((page) =>
+        page === currentPage ? (
+          <span key={page} className={activeClass} aria-current="page">
+            {page}
+          </span>
+        ) : (
+          <Link key={page} to={pathForPage(page)} className={linkClass}>
+            {page}
+          </Link>
+        ),
+      )}
+      {currentPage < totalPages && (
+        <Link to={pathForPage(currentPage + 1)} className={linkClass} rel="next">
+          Siguiente
+        </Link>
+      )}
+    </nav>
+  );
+}
+
+export function BlogIndex({ pageNumber = 1 }: { pageNumber?: number }) {
   const posts = getAllPosts();
+  const totalPages = getTotalPages(posts);
+  const currentPage = Number.isInteger(pageNumber) ? pageNumber : 1;
+  if (currentPage < 1 || currentPage > totalPages) {
+    return <PostNotFound />;
+  }
+  return <BlogIndexView posts={posts} currentPage={currentPage} totalPages={totalPages} />;
+}
+
+function BlogIndexView({
+  posts,
+  currentPage,
+  totalPages,
+}: {
+  posts: Post[];
+  currentPage: number;
+  totalPages: number;
+}) {
   const page = siteData.corePages.find((item) => item.kind === "blog")!;
-  usePageMeta({ title: page.title, description: page.description, path: page.path });
+  const path = blogPagePath(currentPage);
+  const paginatedPosts = getPageItems(posts, currentPage);
+  usePageMeta({
+    title:
+      currentPage === 1
+        ? page.title
+        : `${page.h1}, página ${currentPage} | ${siteData.site.displayName}`,
+    description:
+      currentPage === 1
+        ? page.description
+        : `Página ${currentPage} del blog de Método Nebula: guías académicas, problemas resueltos y estrategias de estudio.`,
+    path,
+    prevPath: currentPage > 1 ? blogPagePath(currentPage - 1) : undefined,
+    nextPath: currentPage < totalPages ? blogPagePath(currentPage + 1) : undefined,
+  });
 
   return (
     <PageShell>
@@ -69,7 +150,7 @@ export function BlogIndex() {
           "@type": "Blog",
           name: page.h1,
           description: page.description,
-          url: absoluteUrl(page.path),
+          url: absoluteUrl(path),
           publisher: { "@type": "EducationalOrganization", name: siteData.site.displayName },
         }}
       />
@@ -79,11 +160,13 @@ export function BlogIndex() {
         <div className="relative mx-auto max-w-7xl px-6 pt-16 pb-14 md:pt-24 md:pb-16">
           <div className="max-w-3xl">
             <BlogLabel>Blog</BlogLabel>
-            <h1 className="mt-5 font-display text-4xl font-bold leading-[1.05] text-foreground md:text-6xl">
+            <h1 className="mt-5 font-display text-4xl font-bold leading-[1.05] nebula-gradient-text md:text-6xl">
               {page.h1}
             </h1>
             <p className="mt-5 max-w-2xl text-base text-muted-foreground md:text-lg">
-              {page.intro}
+              {currentPage === 1
+                ? page.intro
+                : `Página ${currentPage} de ${totalPages} del archivo del blog.`}
             </p>
           </div>
         </div>
@@ -91,48 +174,59 @@ export function BlogIndex() {
 
       <section className="py-16 md:py-20">
         <div className="mx-auto max-w-7xl px-6">
-          <div className="mb-12">
-            <h2 className="font-display text-2xl font-semibold nebula-heading-text">Categorías</h2>
-            <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-              {siteData.blogCategories.map((category) => (
-                <Link
-                  key={category.slug}
-                  to={blogCategoryPath(category.slug)}
-                  className="rounded-2xl border border-white/8 bg-white/[0.02] p-4 transition-colors hover:border-action/35 hover:bg-action/5"
-                >
-                  <span className="text-sm font-semibold text-link">{category.name}</span>
-                  <span className="mt-1 block text-xs text-muted-foreground">
-                    {category.description}
-                  </span>
-                </Link>
-              ))}
+          {currentPage === 1 && (
+            <div className="mb-12">
+              <h2 className="font-display text-2xl font-semibold nebula-heading-text">
+                Categorías
+              </h2>
+              <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+                {siteData.blogCategories.map((category) => (
+                  <Link
+                    key={category.slug}
+                    to={blogCategoryPath(category.slug)}
+                    className="rounded-2xl border border-white/8 bg-white/[0.02] p-4 transition-colors hover:border-action/35 hover:bg-action/5"
+                  >
+                    <span className="text-sm font-semibold text-link">{category.name}</span>
+                    <span className="mt-1 block text-xs text-muted-foreground">
+                      {category.description}
+                    </span>
+                  </Link>
+                ))}
+              </div>
             </div>
-          </div>
+          )}
 
           {posts.length === 0 ? (
             <p className="text-muted-foreground">Todavía no hay entradas publicadas.</p>
           ) : (
-            <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-              {posts.map((post) => (
-                <Link
-                  key={post.slug}
-                  to={`/blog/${post.slug}/`}
-                  className="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1"
-                >
-                  <PostMeta post={post} />
-                  <h2 className="mt-5 font-display text-xl font-semibold leading-snug nebula-heading-text transition-colors group-hover:text-link">
-                    {post.title}
-                  </h2>
-                  <p className="mt-3 grow text-sm leading-relaxed text-muted-foreground">
-                    {post.description}
-                  </p>
-                  <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">
-                    Leer entrada
-                    <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-                  </span>
-                </Link>
-              ))}
-            </div>
+            <>
+              <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+                {paginatedPosts.map((post) => (
+                  <Link
+                    key={post.slug}
+                    to={`/blog/${post.slug}/`}
+                    className="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1"
+                  >
+                    <PostMeta post={post} />
+                    <h2 className="mt-5 font-display text-xl font-semibold leading-snug text-foreground transition-colors group-hover:text-spark">
+                      {post.title}
+                    </h2>
+                    <p className="mt-3 grow text-sm leading-relaxed text-muted-foreground">
+                      {post.description}
+                    </p>
+                    <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">
+                      Leer entrada
+                      <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+                    </span>
+                  </Link>
+                ))}
+              </div>
+              <PaginationNav
+                currentPage={currentPage}
+                totalPages={totalPages}
+                pathForPage={blogPagePath}
+              />
+            </>
           )}
         </div>
       </section>
@@ -140,22 +234,59 @@ export function BlogIndex() {
   );
 }
 
-export function BlogCategoryPage({ slug }: { slug: string }) {
+export function BlogCategoryPage({ slug, pageNumber = 1 }: { slug: string; pageNumber?: number }) {
   const category = findBlogCategory(slug);
-
   if (!category) {
     return <PostNotFound />;
   }
 
-  return <BlogCategoryView category={category} />;
+  const posts = getPostsByCategory(category.name);
+  const totalPages = getTotalPages(posts);
+  const currentPage = Number.isInteger(pageNumber) ? pageNumber : 1;
+  if (currentPage < 1 || currentPage > totalPages) {
+    return <PostNotFound />;
+  }
+
+  return (
+    <BlogCategoryView
+      category={category}
+      posts={posts}
+      currentPage={currentPage}
+      totalPages={totalPages}
+    />
+  );
 }
 
-function BlogCategoryView({ category }: { category: BlogCategory }) {
-  const posts = getPostsByCategory(category.name);
-  const path = blogCategoryPath(category.slug);
-  const title = `${category.name}: artículos y guías | ${siteData.site.displayName}`;
-  const description = `${category.description} Artículos prácticos de Método Nebula para estudiar con más estructura.`;
-  usePageMeta({ title, description, path });
+function BlogCategoryView({
+  category,
+  posts,
+  currentPage,
+  totalPages,
+}: {
+  category: BlogCategory;
+  posts: Post[];
+  currentPage: number;
+  totalPages: number;
+}) {
+  const path = blogCategoryPagePath(category.slug, currentPage);
+  const paginatedPosts = getPageItems(posts, currentPage);
+  const title =
+    currentPage === 1
+      ? `${category.name}: artículos y guías | ${siteData.site.displayName}`
+      : `${category.name}: artículos y guías, página ${currentPage} | ${siteData.site.displayName}`;
+  const description =
+    currentPage === 1
+      ? `${category.description} Artículos prácticos de Método Nebula para estudiar con más estructura.`
+      : `Página ${currentPage} de la categoría ${category.name}: artículos prácticos de Método Nebula para estudiar con más estructura.`;
+
+  usePageMeta({
+    title,
+    description,
+    path,
+    prevPath: currentPage > 1 ? blogCategoryPagePath(category.slug, currentPage - 1) : undefined,
+    nextPath:
+      currentPage < totalPages ? blogCategoryPagePath(category.slug, currentPage + 1) : undefined,
+  });
 
   return (
     <PageShell>
@@ -201,7 +332,9 @@ function BlogCategoryView({ category }: { category: BlogCategory }) {
             {category.name}
           </h1>
           <p className="mt-5 max-w-2xl text-base text-muted-foreground md:text-lg">
-            {category.description}
+            {currentPage === 1
+              ? category.description
+              : `Página ${currentPage} de ${totalPages} de esta categoría.`}
           </p>
         </div>
       </section>
@@ -211,27 +344,35 @@ function BlogCategoryView({ category }: { category: BlogCategory }) {
           {posts.length === 0 ? (
             <p className="text-muted-foreground">Todavía no hay entradas en esta categoría.</p>
           ) : (
-            <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-              {posts.map((post) => (
-                <Link
-                  key={post.slug}
-                  to={`/blog/${post.slug}/`}
-                  className="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1"
-                >
-                  <PostMeta post={post} />
-                  <h2 className="mt-5 font-display text-xl font-semibold leading-snug nebula-heading-text transition-colors group-hover:text-link">
-                    {post.title}
-                  </h2>
-                  <p className="mt-3 grow text-sm leading-relaxed text-muted-foreground">
-                    {post.description}
-                  </p>
-                  <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">
-                    Leer entrada
-                    <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-                  </span>
-                </Link>
-              ))}
-            </div>
+            <>
+              <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+                {paginatedPosts.map((post) => (
+                  <Link
+                    key={post.slug}
+                    to={`/blog/${post.slug}/`}
+                    className="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1"
+                  >
+                    <PostMeta post={post} />
+                    <h2 className="mt-5 font-display text-xl font-semibold leading-snug text-foreground transition-colors group-hover:text-spark">
+                      {post.title}
+                    </h2>
+                    <p className="mt-3 grow text-sm leading-relaxed text-muted-foreground">
+                      {post.description}
+                    </p>
+                    <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">
+                      Leer entrada
+                      <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+                    </span>
+                  </Link>
+                ))}
+              </div>
+              <PaginationNav
+                currentPage={currentPage}
+                totalPages={totalPages}
+                pathForPage={(page) => blogCategoryPagePath(category.slug, page)}
+                label={`Paginación de ${category.name}`}
+              />
+            </>
           )}
         </div>
       </section>
@@ -351,7 +492,7 @@ function PostView({ post }: { post: Post }) {
                   className="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1"
                 >
                   <PostMeta post={p} />
-                  <h3 className="mt-4 font-display text-lg font-semibold nebula-subheading-text transition-colors group-hover:text-link">
+                  <h3 className="mt-4 font-display text-lg font-semibold text-foreground transition-colors group-hover:text-spark">
                     {p.title}
                   </h3>
                   <p className="mt-2 text-sm leading-relaxed text-muted-foreground">

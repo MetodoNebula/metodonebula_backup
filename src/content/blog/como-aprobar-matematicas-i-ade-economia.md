@@ -1,7 +1,7 @@
 ---
 title: Cómo aprobar Matemáticas I en ADE y Economía
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-07-04
+updated: 2026-07-04
 description: Guía para aprobar Matemáticas I en ADE y Economía: funciones, derivadas, optimización, elasticidad, matrices y estrategia de examen.
 tag: Economía
 category: Economía y ADE

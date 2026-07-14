@@ -6,6 +6,7 @@ const ROOT = process.cwd();
 const DIST = path.join(ROOT, "dist");
 const SITE_DATA = JSON.parse(fs.readFileSync(path.join(ROOT, "src/content/site.json"), "utf8"));
 const SITE_URL = SITE_DATA.site.url;
+const BLOG_PAGE_SIZE = 9;
 
 function escapeHtml(value = "") {
   return String(value)
@@ -31,6 +32,27 @@ function absoluteUrl(route) {
 
 function blogCategoryPath(slug) {
   return `/blog/categoria/${slug}/`;
+}
+
+function blogPagePath(page) {
+  return page <= 1 ? "/blog/" : `/blog/pagina/${page}/`;
+}
+
+function blogCategoryPagePath(slug, page) {
+  return page <= 1 ? blogCategoryPath(slug) : `/blog/categoria/${slug}/pagina/${page}/`;
+}
+
+function totalPages(items, pageSize = BLOG_PAGE_SIZE) {
+  return Math.max(1, Math.ceil(items.length / pageSize));
+}
+
+function pageItems(items, page, pageSize = BLOG_PAGE_SIZE) {
+  const start = (page - 1) * pageSize;
+  return items.slice(start, start + pageSize);
+}
+
+function pageNumbers(count) {
+  return Array.from({ length: count }, (_, index) => index + 1);
 }
 
 function outputFileForRoute(route) {
@@ -294,6 +316,8 @@ function headMarkup({
   image = "/favicon.svg",
   robots = "index,follow",
   jsonLd = [],
+  prev,
+  next,
 }) {
   const url = absoluteUrl(route);
   const imageUrl = absoluteUrl(image);
@@ -311,11 +335,15 @@ function headMarkup({
     `<meta name="twitter:title" content="${escapeHtml(title)}">`,
     `<meta name="twitter:description" content="${escapeHtml(description)}">`,
     `<meta name="twitter:image" content="${escapeHtml(imageUrl)}">`,
+    prev ? `<link rel="prev" href="${escapeHtml(absoluteUrl(prev))}">` : "",
+    next ? `<link rel="next" href="${escapeHtml(absoluteUrl(next))}">` : "",
     ...jsonLd.map(
       (item) =>
         `<script type="application/ld+json">${JSON.stringify(item).replace(/</g, "\\u003c")}</script>`,
     ),
-  ].join("\n    ");
+  ]
+    .filter(Boolean)
+    .join("\n    ");
 }
 
 function cleanHead(html) {
@@ -325,6 +353,8 @@ function cleanHead(html) {
     .replace(/<meta\s+name=["']author["'][^>]*>\s*/gi, "")
     .replace(/<meta\s+name=["']robots["'][^>]*>\s*/gi, "")
     .replace(/<link\s+rel=["']canonical["'][^>]*>\s*/gi, "")
+    .replace(/<link\s+rel=["']prev["'][^>]*>\s*/gi, "")
+    .replace(/<link\s+rel=["']next["'][^>]*>\s*/gi, "")
     .replace(/<meta\s+property=["']og:[^"']+["'][^>]*>\s*/gi, "")
     .replace(/<meta\s+name=["']twitter:[^"']+["'][^>]*>\s*/gi, "")
     .replace(/<script\s+type=["']application\/ld\+json["'][\s\S]*?<\/script>\s*/gi, "");
@@ -343,11 +373,11 @@ function renderPage(template, page) {
   fs.writeFileSync(outFile, withRoot);
 }
 
-function shell({ label, h1, intro, children, breadcrumbs = [], theme = "nebula" }) {
+function shell({ label, h1, intro, children, breadcrumbs = [], theme = "nebula", h1Class }) {
   const isBlog = theme === "blog";
   const titleLineClass = isBlog ? "blog-title-line" : "nebula-title-line";
   const labelClass = "border-spark/35 bg-spark/10 text-spark";
-  const h1Class = isBlog ? "text-foreground" : "nebula-gradient-text";
+  const resolvedH1Class = h1Class ?? (isBlog ? "text-foreground" : "nebula-gradient-text");
   const crumbLinkClass = "text-link transition-colors hover:text-link";
   const crumbs = [
     `<a class="${crumbLinkClass}" href="/">Inicio</a>`,
@@ -365,13 +395,21 @@ function shell({ label, h1, intro, children, breadcrumbs = [], theme = "nebula" 
         <div class="relative mx-auto max-w-7xl">
           <nav aria-label="Migas de pan" class="text-sm text-muted-foreground">${crumbs}</nav>
           <p class="mt-8 inline-flex rounded-full border px-3 py-1 text-sm uppercase tracking-[0.18em] ${labelClass}">${escapeHtml(label)}</p>
-          <h1 class="mt-5 max-w-4xl font-display text-4xl font-bold ${h1Class}">${escapeHtml(h1)}</h1>
+          <h1 class="mt-5 max-w-4xl font-display text-4xl font-bold ${resolvedH1Class}">${escapeHtml(h1)}</h1>
           <p class="mt-5 max-w-2xl text-lg text-muted-foreground">${escapeHtml(intro)}</p>
         </div>
       </section>
       <section class="px-6 py-14">
         <div class="mx-auto max-w-7xl [&_a]:font-medium [&_a]:text-link [&_a]:underline-offset-4 [&_a]:transition-colors [&_a:hover]:text-link">${children}</div>
       </section>
+      <footer class="border-t border-white/5 px-6 py-8 text-sm text-muted-foreground">
+        <nav class="mx-auto flex max-w-7xl flex-wrap gap-x-5 gap-y-2" aria-label="Navegación secundaria">
+          <a class="text-link transition-colors hover:text-link" href="/mapa-del-sitio/">Mapa del sitio</a>
+          <a class="text-link transition-colors hover:text-link" href="/blog/">Blog</a>
+          <a class="text-link transition-colors hover:text-link" href="/clases-particulares/universidad/">Clases desde ESO</a>
+          <a class="text-link transition-colors hover:text-link" href="/contacto/">Contacto</a>
+        </nav>
+      </footer>
     </main>
   `;
 }
@@ -433,12 +471,11 @@ function blogMetaHtml(post, includeCategory = true) {
 
 function blogCardHtml(post, headingLevel = 2) {
   const tag = `h${headingLevel}`;
-  const headingClass =
-    headingLevel === 2 ? "nebula-heading-text text-xl" : "nebula-subheading-text text-lg";
+  const headingClass = headingLevel === 2 ? "text-xl" : "text-lg";
   return `
     <a href="/blog/${post.slug}/" class="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1">
       ${blogMetaHtml(post)}
-      <${tag} class="mt-5 font-display font-semibold leading-snug ${headingClass} transition-colors group-hover:text-link">${escapeHtml(post.title)}</${tag}>
+      <${tag} class="mt-5 font-display font-semibold leading-snug text-foreground ${headingClass} transition-colors group-hover:text-spark">${escapeHtml(post.title)}</${tag}>
       <p class="mt-3 grow text-sm leading-relaxed text-muted-foreground">${escapeHtml(post.description)}</p>
       <span class="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">Leer entrada</span>
     </a>
@@ -452,6 +489,29 @@ function blogCategoryCardHtml(category) {
       <span class="mt-1 block text-xs text-muted-foreground">${escapeHtml(category.description)}</span>
     </a>
   `;
+}
+
+function paginationHtml(currentPage, total, pathForPage, label = "Paginación del blog") {
+  if (total <= 1) return "";
+  const links = [];
+  if (currentPage > 1) {
+    links.push(
+      `<a rel="prev" href="${pathForPage(currentPage - 1)}" class="inline-flex h-10 min-w-10 items-center justify-center rounded-full border border-white/10 px-3 text-sm font-medium text-link transition-colors hover:border-action/35 hover:bg-action/5">Anterior</a>`,
+    );
+  }
+  for (const page of pageNumbers(total)) {
+    links.push(
+      page === currentPage
+        ? `<span aria-current="page" class="inline-flex h-10 min-w-10 items-center justify-center rounded-full border border-action/50 bg-action px-3 text-sm font-semibold text-primary-foreground">${page}</span>`
+        : `<a href="${pathForPage(page)}" class="inline-flex h-10 min-w-10 items-center justify-center rounded-full border border-white/10 px-3 text-sm font-medium text-link transition-colors hover:border-action/35 hover:bg-action/5">${page}</a>`,
+    );
+  }
+  if (currentPage < total) {
+    links.push(
+      `<a rel="next" href="${pathForPage(currentPage + 1)}" class="inline-flex h-10 min-w-10 items-center justify-center rounded-full border border-white/10 px-3 text-sm font-medium text-link transition-colors hover:border-action/35 hover:bg-action/5">Siguiente</a>`,
+    );
+  }
+  return `<nav class="mt-12 flex flex-wrap items-center justify-center gap-2" aria-label="${escapeHtml(label)}">${links.join("")}</nav>`;
 }
 
 function homePage() {
@@ -491,51 +551,87 @@ function homePage() {
   };
 }
 
-function blogIndexPage(posts) {
+function blogIndexPage(posts, pageNumber = 1) {
   const page = SITE_DATA.corePages.find((item) => item.kind === "blog");
-  const categories = SITE_DATA.blogCategories
-    .map((category) => blogCategoryCardHtml(category))
+  const pages = totalPages(posts);
+  const route = blogPagePath(pageNumber);
+  const categories =
+    pageNumber === 1
+      ? SITE_DATA.blogCategories.map((category) => blogCategoryCardHtml(category)).join("")
+      : "";
+  const postCards = pageItems(posts, pageNumber)
+    .map((post) => blogCardHtml(post))
     .join("");
-  const postCards = posts.map((post) => blogCardHtml(post)).join("");
+  const title =
+    pageNumber === 1
+      ? page.title
+      : `${page.h1}, página ${pageNumber} | ${SITE_DATA.site.displayName}`;
+  const description =
+    pageNumber === 1
+      ? page.description
+      : `Página ${pageNumber} del blog de Método Nebula: guías académicas, problemas resueltos y estrategias de estudio.`;
   return {
     ...page,
-    route: page.path,
+    title,
+    description,
+    route,
+    priority: pageNumber === 1 ? page.priority : "0.5",
+    prev: pageNumber > 1 ? blogPagePath(pageNumber - 1) : undefined,
+    next: pageNumber < pages ? blogPagePath(pageNumber + 1) : undefined,
     jsonLd: [
       {
         "@context": "https://schema.org",
         "@type": "Blog",
         name: page.h1,
-        description: page.description,
-        url: absoluteUrl(page.path),
+        description,
+        url: absoluteUrl(route),
       },
     ],
     body: shell({
       label: "Blog",
       h1: page.h1,
-      intro: page.intro,
+      intro:
+        pageNumber === 1 ? page.intro : `Página ${pageNumber} de ${pages} del archivo del blog.`,
       theme: "blog",
+      h1Class: "nebula-gradient-text",
       breadcrumbs: [{ label: "Blog", href: page.path }],
       children: `
-        ${styledHeading("Categorías", 2, "content", "blog")}
-        <div class="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">${categories}</div>
-        ${styledHeading("Artículos recientes", 2, "content", "blog")}
+        ${
+          pageNumber === 1
+            ? `${styledHeading("Categorías", 2, "content", "blog")}
+        <div class="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">${categories}</div>`
+            : ""
+        }
+        ${styledHeading(pageNumber === 1 ? "Artículos recientes" : `Artículos, página ${pageNumber}`, 2, "content", "blog")}
         <div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">${postCards}</div>
+        ${paginationHtml(pageNumber, pages, blogPagePath)}
       `,
     }),
   };
 }
 
-function blogCategoryPage(category, posts) {
-  const route = blogCategoryPath(category.slug);
+function blogCategoryPage(category, posts, pageNumber = 1) {
   const categoryPosts = posts.filter((post) => post.category === category.name);
-  const postCards = categoryPosts.map((post) => blogCardHtml(post)).join("");
-  const title = `${category.name}: artículos y guías | ${SITE_DATA.site.displayName}`;
-  const description = `${category.description} Artículos prácticos de Método Nebula para estudiar con más estructura.`;
+  const pages = totalPages(categoryPosts);
+  const route = blogCategoryPagePath(category.slug, pageNumber);
+  const postCards = pageItems(categoryPosts, pageNumber)
+    .map((post) => blogCardHtml(post))
+    .join("");
+  const title =
+    pageNumber === 1
+      ? `${category.name}: artículos y guías | ${SITE_DATA.site.displayName}`
+      : `${category.name}: artículos y guías, página ${pageNumber} | ${SITE_DATA.site.displayName}`;
+  const description =
+    pageNumber === 1
+      ? `${category.description} Artículos prácticos de Método Nebula para estudiar con más estructura.`
+      : `Página ${pageNumber} de la categoría ${category.name}: artículos prácticos de Método Nebula para estudiar con más estructura.`;
   return {
     title,
     description,
     route,
-    priority: "0.6",
+    priority: pageNumber === 1 ? "0.6" : "0.5",
+    prev: pageNumber > 1 ? blogCategoryPagePath(category.slug, pageNumber - 1) : undefined,
+    next: pageNumber < pages ? blogCategoryPagePath(category.slug, pageNumber + 1) : undefined,
     jsonLd: [
       {
         "@context": "https://schema.org",
@@ -557,14 +653,17 @@ function blogCategoryPage(category, posts) {
     body: shell({
       label: "Categoría",
       h1: category.name,
-      intro: category.description,
+      intro:
+        pageNumber === 1
+          ? category.description
+          : `Página ${pageNumber} de ${pages} de esta categoría.`,
       theme: "blog",
       breadcrumbs: [
         { label: "Blog", href: "/blog/" },
         { label: category.name, href: route },
       ],
       children: categoryPosts.length
-        ? `${styledHeading(`Artículos de ${escapeHtml(category.name)}`, 2, "content", "blog")}<div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">${postCards}</div>`
+        ? `${styledHeading(`Artículos de ${escapeHtml(category.name)}`, 2, "content", "blog")}<div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">${postCards}</div>${paginationHtml(pageNumber, pages, (page) => blogCategoryPagePath(category.slug, page), `Paginación de ${category.name}`)}`
         : `<p>Todavía no hay entradas en esta categoría.</p>`,
     }),
   };
@@ -695,6 +794,68 @@ function servicePage(page, posts) {
           .join("")}
         <h2>Lecturas relacionadas</h2><ul>${related}</ul>
         <p><a href="/contacto/">Solicitar diagnóstico</a></p>
+      `,
+    }),
+  };
+}
+
+function htmlSitemapPage(posts) {
+  const mainLinks = [
+    ["/", "Inicio"],
+    [SITE_DATA.serviceOverview.path, "Clases desde ESO"],
+    ["/metodologia/", "Metodología"],
+    ["/sobre-nebula/", "Sobre Nebula"],
+    ["/contacto/", "Contacto"],
+  ]
+    .map(([href, label]) => `<li><a href="${href}">${escapeHtml(label)}</a></li>`)
+    .join("");
+  const serviceLinks = SITE_DATA.servicePages
+    .map((service) => `<li><a href="${service.path}">${escapeHtml(service.h1)}</a></li>`)
+    .join("");
+  const categoryLinks = SITE_DATA.blogCategories
+    .map(
+      (category) =>
+        `<li><a href="${blogCategoryPath(category.slug)}">${escapeHtml(category.name)}</a></li>`,
+    )
+    .join("");
+  const articleLinks = posts
+    .map(
+      (post) =>
+        `<a href="/blog/${post.slug}/" class="rounded-2xl border border-white/8 p-4 text-sm transition-colors hover:border-action/35 hover:bg-action/5"><span class="block font-medium text-link">${escapeHtml(post.title)}</span><span class="mt-1 block text-xs text-muted-foreground">${escapeHtml(post.category)}</span></a>`,
+    )
+    .join("");
+
+  return {
+    title: `Mapa del sitio | ${SITE_DATA.site.displayName}`,
+    description:
+      "Mapa HTML de Método Nebula con enlaces a servicios, categorías del blog y artículos publicados.",
+    route: "/mapa-del-sitio/",
+    priority: "0.5",
+    body: shell({
+      label: "Índice",
+      h1: "Mapa del sitio",
+      intro:
+        "Todas las páginas principales de Método Nebula organizadas para encontrar servicios, categorías y artículos.",
+      breadcrumbs: [{ label: "Mapa del sitio", href: "/mapa-del-sitio/" }],
+      children: `
+        <div class="grid gap-8 lg:grid-cols-3">
+          <section class="rounded-3xl border border-white/8 bg-white/[0.02] p-6">
+            ${styledHeading("Páginas principales", 2, "card")}
+            <ul class="mt-5 space-y-3 text-sm">${mainLinks}</ul>
+          </section>
+          <section class="rounded-3xl border border-white/8 bg-white/[0.02] p-6">
+            ${styledHeading("Servicios", 2, "card")}
+            <ul class="mt-5 space-y-3 text-sm">${serviceLinks}</ul>
+          </section>
+          <section class="rounded-3xl border border-white/8 bg-white/[0.02] p-6">
+            ${styledHeading("Categorías", 2, "card")}
+            <ul class="mt-5 space-y-3 text-sm"><li><a href="/blog/">Blog</a></li>${categoryLinks}</ul>
+          </section>
+        </div>
+        <section class="mt-8 rounded-3xl border border-white/8 bg-white/[0.02] p-6">
+          ${styledHeading("Artículos publicados", 2, "card")}
+          <div class="mt-6 grid gap-3 md:grid-cols-2 lg:grid-cols-3">${articleLinks}</div>
+        </section>
       `,
     }),
   };
@@ -870,13 +1031,21 @@ if (!fs.existsSync(templatePath)) {
 }
 const template = fs.readFileSync(templatePath, "utf8");
 const posts = loadPosts();
+const blogPages = pageNumbers(totalPages(posts)).map((page) => blogIndexPage(posts, page));
+const categoryPages = SITE_DATA.blogCategories.flatMap((category) => {
+  const categoryPosts = posts.filter((post) => post.category === category.name);
+  return pageNumbers(totalPages(categoryPosts)).map((page) =>
+    blogCategoryPage(category, posts, page),
+  );
+});
 const pages = [
   homePage(),
-  blogIndexPage(posts),
-  ...SITE_DATA.blogCategories.map((category) => blogCategoryPage(category, posts)),
+  ...blogPages,
+  ...categoryPages,
   ...posts.map((post) => postPage(post, posts)),
   serviceOverviewPage(),
   ...SITE_DATA.servicePages.map((page) => servicePage(page, posts)),
+  htmlSitemapPage(posts),
   corePage("about"),
   corePage("method"),
   corePage("contact"),

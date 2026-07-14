@@ -84,6 +84,14 @@ export function blogCategoryPath(slug: string): string {
   return `/blog/categoria/${slug}/`;
 }
 
+export function blogPagePath(page: number): string {
+  return page <= 1 ? "/blog/" : `/blog/pagina/${page}/`;
+}
+
+export function blogCategoryPagePath(slug: string, page: number): string {
+  return page <= 1 ? blogCategoryPath(slug) : `/blog/categoria/${slug}/pagina/${page}/`;
+}
+
 export function findBlogCategory(slug: string): BlogCategory | undefined {
   return siteData.blogCategories.find((category) => category.slug === slug);
 }

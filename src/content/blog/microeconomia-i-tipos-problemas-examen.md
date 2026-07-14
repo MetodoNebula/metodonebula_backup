@@ -1,7 +1,7 @@
 ---
 title: Microeconomía I: diez tipos de problemas que debes dominar antes del examen
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-07-05
+updated: 2026-07-05
 description: Diez tipos de problemas de Microeconomía I para preparar el examen: demanda, elasticidad, consumidor, costes, competencia y monopolio.
 tag: Microeconomía
 category: Economía y ADE

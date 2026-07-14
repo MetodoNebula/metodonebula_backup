@@ -32,6 +32,17 @@ function findFiles(dir) {
   return out;
 }
 
+function findFilesByExtension(dir, extension) {
+  const out = [];
+  if (!fs.existsSync(dir)) return out;
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const filePath = path.join(dir, entry.name);
+    if (entry.isDirectory()) out.push(...findFilesByExtension(filePath, extension));
+    else if (entry.name.endsWith(extension)) out.push(filePath);
+  }
+  return out;
+}
+
 function getFirst(pattern, html) {
   return pattern.exec(html)?.[1]?.trim() ?? "";
 }
@@ -44,6 +55,7 @@ const failures = [];
 const htmlFiles = findFiles(DIST);
 const titleMap = new Map();
 const generatedRoutes = new Set(["/404/"]);
+const pagesWithKatex = [];
 
 for (const file of htmlFiles) {
   const relative = path.relative(DIST, file).replace(/\\/g, "/");
@@ -108,8 +120,12 @@ for (const file of htmlFiles) {
     const [targetPath] = target.split("#");
     if (!targetPath || targetPath === "/") continue;
     if (targetPath.startsWith("/assets/")) {
-      if (!fs.existsSync(path.join(DIST, targetPath.replace(/^\//, "")))) {
+      const assetPath = path.join(DIST, targetPath.replace(/^\//, ""));
+      if (!fs.existsSync(assetPath)) {
         fail(`${relative}: missing asset ${targetPath}`);
+      } else if (targetPath.startsWith("/assets/latex/") && targetPath.endsWith(".svg")) {
+        const svg = fs.readFileSync(assetPath, "utf8");
+        if (!svg.includes("<svg")) fail(`${relative}: invalid LaTeX SVG asset ${targetPath}`);
       }
       continue;
     }
@@ -121,6 +137,30 @@ for (const file of htmlFiles) {
       fail(`${relative}: broken internal link ${target}`);
     }
   }
+}
+
+const blogSourceDir = path.join(ROOT, "src/content/blog");
+for (const file of findFilesByExtension(blogSourceDir, ".md")) {
+  const source = fs.readFileSync(file, "utf8");
+  if (!/(\\\(|\\\[|\$\$|\$[^$\n]+\$)/.test(source)) continue;
+  const slug = path.basename(file, ".md");
+  const htmlPath = routeToFile(`/blog/${slug}/`);
+  if (!fs.existsSync(htmlPath)) {
+    fail(`${path.relative(ROOT, file)}: math source has no generated HTML`);
+    continue;
+  }
+  const html = fs.readFileSync(htmlPath, "utf8");
+  if (!html.includes('class="katex')) {
+    fail(`${path.relative(DIST, htmlPath).replace(/\\/g, "/")}: math was not rendered with KaTeX`);
+  } else {
+    pagesWithKatex.push(htmlPath);
+  }
+}
+
+if (pagesWithKatex.length) {
+  const cssFiles = findFilesByExtension(path.join(DIST, "assets"), ".css");
+  const hasKatexCss = cssFiles.some((file) => fs.readFileSync(file, "utf8").includes(".katex"));
+  if (!hasKatexCss) fail("KaTeX HTML generated, but no published CSS asset contains .katex");
 }
 
 const sitemapPath = path.join(DIST, "sitemap.xml");

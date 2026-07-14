@@ -1,11 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
+      <title>Álgebra Lineal en la universidad: qué estudiar primero y qué errores penalizan más</title>
+      <link>https://metodonebula.es/blog/algebra-lineal-universidad-que-estudiar-primero-errores/</link>
+      <guid>https://metodonebula.es/blog/algebra-lineal-universidad-que-estudiar-primero-errores/</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Guía para estudiar Álgebra Lineal en la universidad: orden de temas, matrices, espacios vectoriales, diagonalización y errores frecuentes.</description>
+    </item>
+    <item>
+      <title>Cómo aprobar Cálculo I en primero de Ingeniería: plan de estudio de seis semanas</title>
+      <link>https://metodonebula.es/blog/como-aprobar-calculo-i-ingenieria-seis-semanas/</link>
+      <guid>https://metodonebula.es/blog/como-aprobar-calculo-i-ingenieria-seis-semanas/</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Plan de seis semanas para aprobar Cálculo I en Ingeniería: límites, derivadas, integrales, práctica y simulacros de examen.</description>
+    </item>
+    <item>
+      <title>Derivadas e integrales universitarias: prueba de nivel con ejercicios resueltos</title>
+      <link>https://metodonebula.es/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos/</link>
+      <guid>https://metodonebula.es/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos/</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Prueba de nivel de derivadas e integrales universitarias con ejercicios resueltos para detectar errores antes del examen de Cálculo.</description>
+    </item>
+    <item>
       <title>Economía y ADE: cómo estudiar matemáticas sin perder el sentido económico</title>
       <link>https://metodonebula.es/blog/economia-ade-matematicas-sin-perderse/</link>
       <guid>https://metodonebula.es/blog/economia-ade-matematicas-sin-perderse/</guid>
       <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
       <description>Cómo estudiar matemáticas, estadística y modelos de Economía y ADE conectando gráfica, fórmula e interpretación.</description>
+    </item>
+    <item>
+      <title>Ecuaciones diferenciales: cómo identificar el método correcto paso a paso</title>
+      <link>https://metodonebula.es/blog/ecuaciones-diferenciales-identificar-metodo-correcto/</link>
+      <guid>https://metodonebula.es/blog/ecuaciones-diferenciales-identificar-metodo-correcto/</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Aprende a identificar el método correcto en ecuaciones diferenciales: separables, lineales, exactas y de segundo orden con ejemplos.</description>
     </item>
     <item>
       <title>Estadística desde cero: cómo elegir un contraste sin aplicar recetas</title>
@@ -27,6 +55,20 @@
       <guid>https://metodonebula.es/blog/ib-gcse-como-preparar-examenes-internacionales/</guid>
       <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
       <description>Una forma ordenada de preparar IB, GCSE e IGCSE: syllabus, rúbrica, práctica cronometrada, errores y revisión semanal.</description>
+    </item>
+    <item>
+      <title>Matrices, determinantes y sistemas de ecuaciones: guía completa para primero de carrera</title>
+      <link>https://metodonebula.es/blog/matrices-determinantes-sistemas-ecuaciones-guia/</link>
+      <guid>https://metodonebula.es/blog/matrices-determinantes-sistemas-ecuaciones-guia/</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Guía de matrices, determinantes y sistemas de ecuaciones para primero de carrera: rango, Gauss, inversa y discusión de soluciones.</description>
+    </item>
+    <item>
+      <title>Probabilidad condicionada y teorema de Bayes: problemas universitarios resueltos</title>
+      <link>https://metodonebula.es/blog/probabilidad-condicionada-bayes-problemas-resueltos/</link>
+      <guid>https://metodonebula.es/blog/probabilidad-condicionada-bayes-problemas-resueltos/</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Problemas resueltos de probabilidad condicionada y teorema de Bayes para universidad, con fórmulas, árboles y errores frecuentes.</description>
     </item>
     <item>
       <title>Python y SQL para empezar en datos: qué aprender primero</title>

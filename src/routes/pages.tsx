@@ -277,11 +277,11 @@ export function AboutPage() {
           },
           {
             title: "Sobre Roberto Hernández",
-            text: "Roberto Hernández aparece como mentor académico y profesional de Nebula. Las áreas de trabajo visibles en el proyecto son matemáticas, física, química, estadística, programación, economía e inteligencia artificial. Cualquier credencial adicional deberá añadirse solo cuando esté verificada.",
+            text: "Roberto Hernández acompaña procesos académicos y profesionales en matemáticas, física, química, estadística, programación, economía e inteligencia artificial, con foco en razonamiento, estructura y seguimiento.",
           },
           {
             title: "Principio editorial",
-            text: "El blog se publica para aclarar decisiones de estudio, no para llenar palabras clave. Cada guía debe incluir pasos aplicables, límites del consejo y enlaces internos útiles.",
+            text: "El blog se publica para aclarar decisiones de estudio con pasos aplicables, ejemplos trabajados y enlaces internos útiles para seguir avanzando.",
           },
         ]}
       />
@@ -365,8 +365,8 @@ export function ContactPage() {
             </a>
           </div>
           <p className="mt-8 text-sm leading-relaxed text-muted-foreground">
-            Datos legales pendientes: si se publican aviso legal, privacidad o cookies, deberán
-            completarse con NIF, domicilio y responsable real. No se han inventado esos datos.
+            Cuéntanos asignatura, fecha de examen, temario y punto de partida. Con esa información
+            revisamos si Nebula encaja y qué plan tendría más sentido.
           </p>
         </div>
       </section>

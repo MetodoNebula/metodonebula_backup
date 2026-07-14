@@ -161,7 +161,9 @@
         }
       ],
       "relatedPosts": [
-        "como-estudiar-matematicas-sin-memorizar"
+        "como-estudiar-matematicas-sin-memorizar",
+        "que-son-las-derivadas-y-para-que-se-utilizan",
+        "que-son-las-integrales-y-para-que-se-utilizan"
       ],
       "priority": "0.75"
     },
@@ -218,7 +220,7 @@
         "Copiar código sin entender el flujo.",
         "Bloquearse ante errores de compilación o ejecución.",
         "No saber dividir un problema en funciones.",
-        "Llegar a prácticas sin habito de depuración."
+        "Llegar a prácticas sin hábito de depuración."
       ],
       "topics": [
         "Python y fundamentos",
@@ -226,7 +228,7 @@
         "Estructuras de datos",
         "APIs y Git",
         "Proyectos pequeños completos",
-        "Preparacion de entrevistas básicas"
+        "Preparación de entrevistas básicas"
       ],
       "method": [
         "Diagnóstico de nivel y lenguaje.",
@@ -255,7 +257,7 @@
     {
       "path": "/clases-particulares/fisica-ingenieria/",
       "title": "Clases particulares de Física para Ingeniería | Método Nebula",
-      "description": "Clases de física para ingeniería con foco en problemas, unidades, modelos, razonamiento y preparacion de exámenes.",
+      "description": "Clases de física para ingeniería con foco en problemas, unidades, modelos, razonamiento y preparación de exámenes.",
       "h1": "Clases particulares de Física para Ingeniería",
       "audience": "Para estudiantes que necesitan pasar de fórmulas aisladas a modelos físicos claros antes de resolver problemas.",
       "problems": [
@@ -341,7 +343,7 @@
     {
       "path": "/clases-particulares/quimica/",
       "title": "Clases particulares de Química | Método Nebula",
-      "description": "Clases de química para bachillerato, universidad inicial y preparacion de exámenes con razonamiento, ejercicios y seguimiento.",
+      "description": "Clases de química para bachillerato, universidad inicial y preparación de exámenes con razonamiento, ejercicios y seguimiento.",
       "h1": "Clases particulares de Química",
       "audience": "Para alumnos que necesitan entender reacciones, equilibrio, cálculos y teoría antes de memorizar procedimientos.",
       "problems": [
@@ -384,7 +386,7 @@
     {
       "path": "/clases-particulares/selectividad/",
       "title": "Clases particulares para Selectividad y PAU | Método Nebula",
-      "description": "Preparacion de Selectividad y PAU con calendario, simulacros, bloques de estudio y seguimiento hasta el examen.",
+      "description": "Preparación de Selectividad y PAU con calendario, simulacros, bloques de estudio y seguimiento hasta el examen.",
       "h1": "Clases particulares para Selectividad y PAU",
       "audience": "Para alumnos que necesitan convertir el temario de bachillerato en un plan semanal realista hasta el examen.",
       "problems": [
@@ -427,7 +429,7 @@
     {
       "path": "/clases-particulares/gcse-ib/",
       "title": "Clases particulares para GCSE, IGCSE e IB | Método Nebula",
-      "description": "Preparacion personalizada para GCSE, IGCSE e IB en asignaturas cuantitativas con rúbrica, calendario y práctica guiada.",
+      "description": "Preparación personalizada para GCSE, IGCSE e IB en asignaturas cuantitativas con rúbrica, calendario y práctica guiada.",
       "h1": "Clases particulares para GCSE, IGCSE e IB",
       "audience": "For students who need structured academic support in international programmes while keeping explanations clear in Spanish or English when needed.",
       "problems": [

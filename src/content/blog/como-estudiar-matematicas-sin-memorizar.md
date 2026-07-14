@@ -6,7 +6,7 @@ description: Un método práctico para dejar de estudiar matemáticas a base de 
 tag: Método
 category: Matemáticas universitarias
 relatedService: /clases-particulares/matematicas-universidad/
-relatedPosts: estadistica-desde-cero-para-elegir-contrastes,preparar-selectividad-con-calendario
+relatedPosts: que-son-las-derivadas-y-para-que-se-utilizan,que-son-las-integrales-y-para-que-se-utilizan
 image: /favicon.svg
 ---
 
@@ -44,12 +44,15 @@ Imagina un ejercicio de optimización: "encuentra el área máxima". Muchos alum
 Una forma compacta de verlo es escribir la condición de óptimo como \(A'(x)=0\), pero solo después de haber construido la función objetivo:
 
 $$
-A(x)=x(20-2x), \qquad A'(x)=20-4x
+\begin{aligned}
+A(x)&=x(20-2x)\\
+A'(x)&=20-4x
+\end{aligned}
 $$
 
-La siguiente gráfica está generada desde un fichero LaTeX/TikZ y compilada a SVG. La incluimos como ejemplo de cómo deben verse las gráficas técnicas en el blog: centradas, con fondo claro, tamaño limitado y texto legible.
+La gráfica resume la idea: primero se construye la función, después se estudia dónde cambia su crecimiento y, por último, se interpreta el punto crítico dentro del contexto del problema.
 
-![Gráfica de optimización generada con LaTeX y TikZ](/assets/latex/quadratic-optimization.svg)
+![Parábola de área con máximo en el vértice](/assets/latex/quadratic-optimization.svg)
 
 ## Errores que conviene detectar
 

@@ -616,11 +616,11 @@ function corePage(kind) {
       ],
       [
         "Sobre Roberto Hernández",
-        "Roberto Hernández aparece como mentor académico y profesional de Nebula. Las áreas visibles son matemáticas, física, química, estadística, programación, economía e inteligencia artificial.",
+        "Roberto Hernández acompaña procesos académicos y profesionales en matemáticas, física, química, estadística, programación, economía e inteligencia artificial, con foco en razonamiento, estructura y seguimiento.",
       ],
       [
-        "Política editorial",
-        "El blog debe aclarar decisiones de estudio con pasos aplicables, sin inventar resultados, precios ni credenciales.",
+        "Criterio editorial",
+        "El blog prioriza guías aplicables, explicaciones claras y enlaces internos útiles para seguir estudiando con orden.",
       ],
     ],
     method: [
@@ -633,11 +633,11 @@ function corePage(kind) {
       ],
     ],
     contact: [
-      ["WhatsApp", "Teléfono visible en la web para iniciar el diagnóstico."],
-      ["Email", "Canal de admisiones para explicar asignatura, examen o cambio profesional."],
+      ["WhatsApp", "Canal directo para explicar tu asignatura, examen o cambio profesional."],
+      ["Email", "Una vía cómoda para enviar temario, fechas y contexto antes del diagnóstico."],
       [
-        "Datos legales pendientes",
-        "Aviso legal, privacidad y cookies requieren datos empresariales reales; no se han inventado.",
+        "Primer diagnóstico",
+        "Revisamos objetivo, punto de partida y calendario antes de proponer un plan de trabajo.",
       ],
     ],
   };

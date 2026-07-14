@@ -113,7 +113,7 @@ function renderKatex(tex, displayMode = false) {
 }
 
 function displayMathHtml(tex) {
-  return `<div class="my-7 overflow-x-auto rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-5 text-center">${renderKatex(tex, true)}</div>`;
+  return `<div class="nebula-math my-7 overflow-x-auto rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-5 text-center">${renderKatex(tex, true)}</div>`;
 }
 
 function isLatexGraph(src) {
@@ -149,9 +149,13 @@ function inlineMarkdown(text) {
       out.push(imageHtml(parts[2], parts[1]));
     } else if (token.startsWith("[")) {
       const parts = /\[([^\]]+)\]\(([^)]+)\)/.exec(token);
-      out.push(`<a href="${escapeHtml(parts[2])}">${escapeHtml(parts[1])}</a>`);
+      out.push(
+        `<a class="font-medium text-gold underline underline-offset-4 transition-colors hover:text-foreground" href="${escapeHtml(parts[2])}">${escapeHtml(parts[1])}</a>`,
+      );
     } else if (token.startsWith("`")) {
-      out.push(`<code>${escapeHtml(token.slice(1, -1))}</code>`);
+      out.push(
+        `<code class="rounded bg-white/10 px-1.5 py-0.5 font-mono text-[0.85em] text-gold">${escapeHtml(token.slice(1, -1))}</code>`,
+      );
     } else if (token.startsWith("**") || token.startsWith("__")) {
       out.push(`<strong>${escapeHtml(token.slice(2, -2))}</strong>`);
     } else {
@@ -173,6 +177,19 @@ function markdownToHtml(md) {
     const line = lines[i];
     if (!line.trim()) {
       i++;
+      continue;
+    }
+    if (line.trim().startsWith("```")) {
+      const code = [];
+      i++;
+      while (i < lines.length && !lines[i].trim().startsWith("```")) {
+        code.push(lines[i]);
+        i++;
+      }
+      i++;
+      out.push(
+        `<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">${escapeHtml(code.join("\n"))}</code></pre>`,
+      );
       continue;
     }
     if (line.trim().startsWith("$$") || line.trim().startsWith("\\[")) {
@@ -209,26 +226,30 @@ function markdownToHtml(md) {
     const heading = /^(#{1,6})\s+(.*)$/.exec(line);
     if (heading) {
       const level = Math.min(6, Math.max(2, heading[1].length));
-      out.push(`<h${level}>${inlineMarkdown(heading[2].trim())}</h${level}>`);
+      out.push(styledHeading(inlineMarkdown(heading[2].trim()), level, "content", "blog"));
       i++;
       continue;
     }
     if (/^\s*[-*]\s+/.test(line)) {
       const items = [];
       while (i < lines.length && /^\s*[-*]\s+/.test(lines[i])) {
-        items.push(`<li>${inlineMarkdown(lines[i].replace(/^\s*[-*]\s+/, ""))}</li>`);
+        items.push(
+          `<li class="flex items-start gap-3 text-foreground/85"><span class="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold"></span><span>${inlineMarkdown(lines[i].replace(/^\s*[-*]\s+/, ""))}</span></li>`,
+        );
         i++;
       }
-      out.push(`<ul>${items.join("")}</ul>`);
+      out.push(`<ul class="my-5 space-y-2 pl-1">${items.join("")}</ul>`);
       continue;
     }
     if (/^\s*\d+\.\s+/.test(line)) {
       const items = [];
       while (i < lines.length && /^\s*\d+\.\s+/.test(lines[i])) {
-        items.push(`<li>${inlineMarkdown(lines[i].replace(/^\s*\d+\.\s+/, ""))}</li>`);
+        items.push(
+          `<li class="flex items-start gap-3 text-foreground/85"><span class="font-display text-sm font-semibold text-gold">${items.length + 1}.</span><span>${inlineMarkdown(lines[i].replace(/^\s*\d+\.\s+/, ""))}</span></li>`,
+        );
         i++;
       }
-      out.push(`<ol>${items.join("")}</ol>`);
+      out.push(`<ol class="my-5 space-y-2">${items.join("")}</ol>`);
       continue;
     }
     if (/^---+$/.test(line.trim())) {
@@ -242,7 +263,9 @@ function markdownToHtml(md) {
         quote.push(lines[i].replace(/^\s*>\s?/, ""));
         i++;
       }
-      out.push(`<blockquote>${inlineMarkdown(quote.join(" "))}</blockquote>`);
+      out.push(
+        `<blockquote class="my-6 border-l-2 border-gold/70 bg-white/[0.02] py-2 pr-4 pl-5 text-foreground/80 italic">${inlineMarkdown(quote.join(" "))}</blockquote>`,
+      );
       continue;
     }
     const para = [];
@@ -250,6 +273,7 @@ function markdownToHtml(md) {
       i < lines.length &&
       lines[i].trim() &&
       !/^#{1,6}\s+/.test(lines[i]) &&
+      !lines[i].trim().startsWith("```") &&
       !/^\s*[-*]\s+/.test(lines[i]) &&
       !/^\s*\d+\.\s+/.test(lines[i]) &&
       !lines[i].trim().startsWith(">")
@@ -315,7 +339,13 @@ function renderPage(template, page) {
   fs.writeFileSync(outFile, withRoot);
 }
 
-function shell({ label, h1, intro, children, breadcrumbs = [] }) {
+function shell({ label, h1, intro, children, breadcrumbs = [], theme = "nebula" }) {
+  const isBlog = theme === "blog";
+  const titleLineClass = isBlog ? "blog-title-line" : "nebula-title-line";
+  const labelClass = isBlog
+    ? "border-gold/35 bg-gold/10 text-gold"
+    : "border-violet/30 bg-violet/10 text-violet";
+  const h1Class = isBlog ? "text-foreground" : "nebula-gradient-text";
   const crumbs = [
     `<a href="/">Inicio</a>`,
     ...breadcrumbs.map((item, index) =>
@@ -326,11 +356,13 @@ function shell({ label, h1, intro, children, breadcrumbs = [] }) {
   ].join(" / ");
   return `
     <main class="min-h-screen bg-background text-foreground antialiased">
-      <section class="relative border-b border-white/5 px-6 py-16">
-        <div class="mx-auto max-w-7xl">
+      <section class="relative overflow-hidden border-b border-white/5 px-6 py-16">
+        <div class="nebula-aurora pointer-events-none absolute inset-0 opacity-60"></div>
+        <div class="pointer-events-none absolute inset-x-0 bottom-0 h-px ${titleLineClass} opacity-70"></div>
+        <div class="relative mx-auto max-w-7xl">
           <nav aria-label="Migas de pan" class="text-sm text-muted-foreground">${crumbs}</nav>
-          <p class="mt-8 text-sm uppercase tracking-[0.18em] text-gold">${escapeHtml(label)}</p>
-          <h1 class="mt-4 font-display text-4xl font-bold">${escapeHtml(h1)}</h1>
+          <p class="mt-8 inline-flex rounded-full border px-3 py-1 text-sm uppercase tracking-[0.18em] ${labelClass}">${escapeHtml(label)}</p>
+          <h1 class="mt-5 max-w-4xl font-display text-4xl font-bold ${h1Class}">${escapeHtml(h1)}</h1>
           <p class="mt-5 max-w-2xl text-lg text-muted-foreground">${escapeHtml(intro)}</p>
         </div>
       </section>
@@ -341,9 +373,81 @@ function shell({ label, h1, intro, children, breadcrumbs = [] }) {
   `;
 }
 
+function styledHeading(title, level = 2, variant = "content", theme = "nebula") {
+  const tag = `h${level}`;
+  const spacing =
+    variant === "card"
+      ? ""
+      : level <= 2
+        ? "mt-12 mb-4 "
+        : level === 3
+          ? "mt-10 mb-3 "
+          : "mt-8 mb-2 ";
+  const className =
+    theme === "blog"
+      ? level <= 2
+        ? `${spacing}border-l-2 border-gold pl-4 font-display font-semibold text-foreground`
+        : level === 3
+          ? `${spacing}font-display font-semibold text-gold`
+          : `${spacing}font-display font-semibold text-muted-foreground`
+      : level <= 2
+        ? `${spacing}border-l-2 border-violet pl-4 font-display font-semibold nebula-heading-text`
+        : level === 3
+          ? `${spacing}font-display font-semibold nebula-subheading-text`
+          : `${spacing}font-display font-semibold text-muted-foreground`;
+  return `<${tag} class="${className}">${title}</${tag}>`;
+}
+
+function coreSectionHtml(title, text, index) {
+  const cleanTitle = title.replace(/^\d+\.\s*/, "");
+  return `
+    <article class="nebula-card relative overflow-hidden rounded-3xl p-7">
+      <span class="absolute inset-x-0 top-0 h-1 nebula-title-line"></span>
+      <span class="font-display text-sm font-semibold text-violet">${String(index + 1).padStart(2, "0")}</span>
+      ${styledHeading(escapeHtml(cleanTitle), 2, "card")}
+      <p class="mt-3 leading-relaxed text-muted-foreground">${escapeHtml(text)}</p>
+    </article>
+  `;
+}
+
 function cardList(items, ordered = false) {
   const tag = ordered ? "ol" : "ul";
   return `<${tag}>${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</${tag}>`;
+}
+
+function blogMetaHtml(post, includeCategory = true) {
+  const category = includeCategory
+    ? `<span class="rounded-full border border-gold/40 bg-gold/10 px-3 py-1 font-medium uppercase tracking-[0.18em] text-gold">${escapeHtml(post.category)}</span>`
+    : "";
+  return `
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
+      ${category}
+      <span>${escapeHtml(post.date)}</span>
+      <span>${post.readingMinutes} min de lectura</span>
+    </div>
+  `;
+}
+
+function blogCardHtml(post, headingLevel = 2) {
+  const tag = `h${headingLevel}`;
+  const headingClass = headingLevel === 2 ? "text-foreground text-xl" : "text-foreground text-lg";
+  return `
+    <a href="/blog/${post.slug}/" class="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1">
+      ${blogMetaHtml(post)}
+      <${tag} class="mt-5 font-display font-semibold leading-snug ${headingClass} transition-colors group-hover:text-gold">${escapeHtml(post.title)}</${tag}>
+      <p class="mt-3 grow text-sm leading-relaxed text-muted-foreground">${escapeHtml(post.description)}</p>
+      <span class="mt-6 inline-flex items-center gap-2 text-sm font-medium text-gold">Leer entrada</span>
+    </a>
+  `;
+}
+
+function blogCategoryCardHtml(category) {
+  return `
+    <a href="${blogCategoryPath(category.slug)}" class="rounded-2xl border border-white/8 bg-white/[0.02] p-4 transition-colors hover:border-gold/35 hover:bg-gold/5">
+      <span class="text-sm font-semibold text-gold">${escapeHtml(category.name)}</span>
+      <span class="mt-1 block text-xs text-muted-foreground">${escapeHtml(category.description)}</span>
+    </a>
+  `;
 }
 
 function homePage() {
@@ -386,22 +490,9 @@ function homePage() {
 function blogIndexPage(posts) {
   const page = SITE_DATA.corePages.find((item) => item.kind === "blog");
   const categories = SITE_DATA.blogCategories
-    .map(
-      (category) =>
-        `<li><a href="${blogCategoryPath(category.slug)}"><strong>${escapeHtml(category.name)}</strong></a>: ${escapeHtml(category.description)}</li>`,
-    )
+    .map((category) => blogCategoryCardHtml(category))
     .join("");
-  const postCards = posts
-    .map(
-      (post) => `
-        <article>
-          <p>${escapeHtml(post.category)} · ${escapeHtml(post.date)}</p>
-          <h2><a href="/blog/${post.slug}/">${escapeHtml(post.title)}</a></h2>
-          <p>${escapeHtml(post.description)}</p>
-        </article>
-      `,
-    )
-    .join("");
+  const postCards = posts.map((post) => blogCardHtml(post)).join("");
   return {
     ...page,
     route: page.path,
@@ -418,8 +509,14 @@ function blogIndexPage(posts) {
       label: "Blog",
       h1: page.h1,
       intro: page.intro,
+      theme: "blog",
       breadcrumbs: [{ label: "Blog", href: page.path }],
-      children: `<h2>Categorías</h2><ul>${categories}</ul><h2>Artículos recientes</h2>${postCards}`,
+      children: `
+        ${styledHeading("Categorías", 2, "content", "blog")}
+        <div class="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">${categories}</div>
+        ${styledHeading("Artículos recientes", 2, "content", "blog")}
+        <div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">${postCards}</div>
+      `,
     }),
   };
 }
@@ -427,17 +524,7 @@ function blogIndexPage(posts) {
 function blogCategoryPage(category, posts) {
   const route = blogCategoryPath(category.slug);
   const categoryPosts = posts.filter((post) => post.category === category.name);
-  const postCards = categoryPosts
-    .map(
-      (post) => `
-        <article>
-          <p>${escapeHtml(post.date)} · ${post.readingMinutes} min de lectura</p>
-          <h2><a href="/blog/${post.slug}/">${escapeHtml(post.title)}</a></h2>
-          <p>${escapeHtml(post.description)}</p>
-        </article>
-      `,
-    )
-    .join("");
+  const postCards = categoryPosts.map((post) => blogCardHtml(post)).join("");
   const title = `${category.name}: artículos y guías | ${SITE_DATA.site.displayName}`;
   const description = `${category.description} Artículos prácticos de Método Nebula para estudiar con más estructura.`;
   return {
@@ -467,12 +554,13 @@ function blogCategoryPage(category, posts) {
       label: "Categoría",
       h1: category.name,
       intro: category.description,
+      theme: "blog",
       breadcrumbs: [
         { label: "Blog", href: "/blog/" },
         { label: category.name, href: route },
       ],
       children: categoryPosts.length
-        ? `<h2>Articulos de ${escapeHtml(category.name)}</h2>${postCards}`
+        ? `${styledHeading(`Artículos de ${escapeHtml(category.name)}`, 2, "content", "blog")}<div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">${postCards}</div>`
         : `<p>Todavía no hay entradas en esta categoría.</p>`,
     }),
   };
@@ -488,9 +576,7 @@ function postPage(post, posts) {
     .slice(0, 3)
     .map((slug) => posts.find((candidate) => candidate.slug === slug))
     .filter(Boolean);
-  const relatedHtml = related
-    .map((item) => `<li><a href="/blog/${item.slug}/">${escapeHtml(item.title)}</a></li>`)
-    .join("");
+  const relatedHtml = related.map((item) => blogCardHtml(item, 3)).join("");
   return {
     title: `${post.title} | ${SITE_DATA.site.displayName}`,
     description: post.description,
@@ -529,16 +615,20 @@ function postPage(post, posts) {
       label: post.category,
       h1: post.title,
       intro: post.description,
+      theme: "blog",
       breadcrumbs: [
         { label: "Blog", href: "/blog/" },
         { label: post.title, href: route },
       ],
       children: `
-        <p><time datetime="${escapeHtml(post.date)}">${escapeHtml(post.date)}</time> · ${post.readingMinutes} min de lectura</p>
+        ${blogMetaHtml(post, false)}
         <article>${markdownToHtml(post.body)}</article>
-        <h2>Lecturas relacionadas</h2>
-        <ul>${relatedHtml}</ul>
-        <p><a href="${post.relatedService}">Ver apoyo relacionado</a> · <a href="/contacto/">Contactar</a></p>
+        <section class="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8 text-center">
+          <h2 class="font-display text-2xl font-semibold text-foreground">¿Quieres aplicar esto a tu caso?</h2>
+          <p class="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">Empezamos con una llamada de diagnóstico para entender tu objetivo, tu punto de partida y tu fecha. Sin compromiso.</p>
+          <p class="mt-6"><a class="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground" href="${post.relatedService}">Ver apoyo relacionado</a></p>
+        </section>
+        ${relatedHtml ? `${styledHeading("Lecturas relacionadas", 2, "content", "blog")}<div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">${relatedHtml}</div>` : ""}
       `,
     }),
   };
@@ -642,7 +732,7 @@ function corePage(kind) {
     ],
   };
   const sections = sectionMap[kind]
-    .map(([title, text]) => `<h2>${escapeHtml(title)}</h2><p>${escapeHtml(text)}</p>`)
+    .map(([title, text], index) => coreSectionHtml(title, text, index))
     .join("");
   const jsonLd =
     kind === "about"
@@ -670,7 +760,7 @@ function corePage(kind) {
       h1: page.h1,
       intro: page.intro,
       breadcrumbs: [{ label: page.h1, href: page.path }],
-      children: sections,
+      children: `<div class="grid gap-5 md:grid-cols-2">${sections}</div>`,
     }),
   };
 }

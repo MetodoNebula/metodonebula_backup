@@ -91,7 +91,12 @@ $$
 Tomando \(u=x^2\), queda \(du=2x\,dx\). Entonces:
 
 $$
-\int 2x\cos(x^2)\,dx=\int \cos(u)\,du=\sin(u)+C=\sin(x^2)+C
+\begin{aligned}
+\int 2x\cos(x^2)\,dx
+&=\int \cos(u)\,du \\
+&=\sin(u)+C \\
+&=\sin(x^2)+C
+\end{aligned}
 $$
 
 La clave está en ver la derivada de la función interna. Si no buscas esa relación, el cambio parece magia.

@@ -1,6 +1,7 @@
+import { type ReactNode } from "react";
 import { ArrowLeft, ArrowRight, CalendarDays, Clock } from "lucide-react";
 
-import { PageShell, PrimaryCTA, SectionLabel } from "../components/site";
+import { PageShell, PrimaryCTA } from "../components/site";
 import { MarkdownContent } from "../lib/markdown";
 import {
   formatDate,
@@ -23,6 +24,15 @@ import {
 function JsonLd({ data }: { data: object }) {
   return (
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} />
+  );
+}
+
+function BlogLabel({ children }: { children: ReactNode }) {
+  return (
+    <span className="inline-flex items-center gap-2 rounded-full border border-gold/35 bg-gold/10 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-gold">
+      <span className="h-1.5 w-1.5 rounded-full bg-gold" />
+      {children}
+    </span>
   );
 }
 
@@ -65,10 +75,11 @@ export function BlogIndex() {
       />
       <section className="relative overflow-hidden border-b border-white/5">
         <div className="nebula-aurora pointer-events-none absolute inset-0 opacity-60" />
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-px blog-title-line opacity-70" />
         <div className="relative mx-auto max-w-7xl px-6 pt-16 pb-14 md:pt-24 md:pb-16">
           <div className="max-w-3xl">
-            <SectionLabel>Blog</SectionLabel>
-            <h1 className="mt-5 font-display text-4xl font-bold leading-[1.05] md:text-6xl">
+            <BlogLabel>Blog</BlogLabel>
+            <h1 className="mt-5 font-display text-4xl font-bold leading-[1.05] text-foreground md:text-6xl">
               {page.h1}
             </h1>
             <p className="mt-5 max-w-2xl text-base text-muted-foreground md:text-lg">
@@ -81,7 +92,7 @@ export function BlogIndex() {
       <section className="py-16 md:py-20">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-12">
-            <h2 className="font-display text-2xl font-semibold">Categorías</h2>
+            <h2 className="font-display text-2xl font-semibold text-foreground">Categorías</h2>
             <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
               {siteData.blogCategories.map((category) => (
                 <Link
@@ -109,13 +120,13 @@ export function BlogIndex() {
                   className="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1"
                 >
                   <PostMeta post={post} />
-                  <h2 className="mt-5 font-display text-xl font-semibold leading-snug group-hover:text-gold">
+                  <h2 className="mt-5 font-display text-xl font-semibold leading-snug text-foreground transition-colors group-hover:text-gold">
                     {post.title}
                   </h2>
                   <p className="mt-3 grow text-sm leading-relaxed text-muted-foreground">
                     {post.description}
                   </p>
-                  <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-electric">
+                  <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-gold">
                     Leer entrada
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
                   </span>
@@ -174,6 +185,7 @@ function BlogCategoryView({ category }: { category: BlogCategory }) {
       />
       <section className="relative overflow-hidden border-b border-white/5">
         <div className="nebula-aurora pointer-events-none absolute inset-0 opacity-50" />
+        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-px blog-title-line opacity-70" />
         <div className="relative mx-auto max-w-7xl px-6 pt-12 pb-12 md:pt-16">
           <Link
             to="/blog/"
@@ -183,9 +195,9 @@ function BlogCategoryView({ category }: { category: BlogCategory }) {
             Todas las categorías
           </Link>
           <div className="mt-8">
-            <SectionLabel>Categoría</SectionLabel>
+            <BlogLabel>Categoría</BlogLabel>
           </div>
-          <h1 className="mt-5 font-display text-4xl font-bold leading-[1.05] md:text-6xl">
+          <h1 className="mt-5 font-display text-4xl font-bold leading-[1.05] text-foreground md:text-6xl">
             {category.name}
           </h1>
           <p className="mt-5 max-w-2xl text-base text-muted-foreground md:text-lg">
@@ -207,13 +219,13 @@ function BlogCategoryView({ category }: { category: BlogCategory }) {
                   className="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1"
                 >
                   <PostMeta post={post} />
-                  <h2 className="mt-5 font-display text-xl font-semibold leading-snug group-hover:text-gold">
+                  <h2 className="mt-5 font-display text-xl font-semibold leading-snug text-foreground transition-colors group-hover:text-gold">
                     {post.title}
                   </h2>
                   <p className="mt-3 grow text-sm leading-relaxed text-muted-foreground">
                     {post.description}
                   </p>
-                  <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-electric">
+                  <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-gold">
                     Leer entrada
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
                   </span>
@@ -286,6 +298,7 @@ function PostView({ post }: { post: Post }) {
       <article>
         <header className="relative overflow-hidden border-b border-white/5">
           <div className="nebula-aurora pointer-events-none absolute inset-0 opacity-50" />
+          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-px blog-title-line opacity-70" />
           <div className="relative mx-auto max-w-3xl px-6 pt-12 pb-12 md:pt-16">
             <Link
               to="/blog/"
@@ -297,7 +310,7 @@ function PostView({ post }: { post: Post }) {
             <div className="mt-8">
               <PostMeta post={post} />
             </div>
-            <h1 className="mt-5 font-display text-3xl font-bold leading-[1.1] md:text-5xl">
+            <h1 className="mt-5 font-display text-3xl font-bold leading-[1.1] text-foreground md:text-5xl">
               {post.title}
             </h1>
             {post.description && (
@@ -310,7 +323,7 @@ function PostView({ post }: { post: Post }) {
           <MarkdownContent markdown={post.body} />
 
           <div className="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8 text-center">
-            <h2 className="font-display text-2xl font-semibold">
+            <h2 className="font-display text-2xl font-semibold text-foreground">
               ¿Quieres aplicar esto a tu caso?
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">
@@ -327,7 +340,7 @@ function PostView({ post }: { post: Post }) {
       {related.length > 0 && (
         <section className="border-t border-white/5 py-16">
           <div className="mx-auto max-w-7xl px-6">
-            <h2 className="font-display text-2xl font-semibold">Seguir leyendo</h2>
+            <h2 className="font-display text-2xl font-semibold text-foreground">Seguir leyendo</h2>
             <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
               {related.map((p) => (
                 <Link
@@ -336,7 +349,7 @@ function PostView({ post }: { post: Post }) {
                   className="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1"
                 >
                   <PostMeta post={p} />
-                  <h3 className="mt-4 font-display text-lg font-semibold group-hover:text-gold">
+                  <h3 className="mt-4 font-display text-lg font-semibold text-foreground transition-colors group-hover:text-gold">
                     {p.title}
                   </h3>
                   <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
@@ -362,7 +375,7 @@ function PostNotFound() {
   return (
     <PageShell>
       <section className="mx-auto max-w-3xl px-6 py-28 text-center">
-        <SectionLabel>Blog</SectionLabel>
+        <BlogLabel>Blog</BlogLabel>
         <h1 className="mt-5 font-display text-3xl font-bold md:text-4xl">
           No encontramos esta entrada
         </h1>

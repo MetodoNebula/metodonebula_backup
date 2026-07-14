@@ -148,4 +148,4 @@ Antes de resolver, revisa:
 - La aceleración está en el eje correcto.
 - La normal y el rozamiento están justificados.
 
-Si este paso te cuesta, vuelve a la guía de [Física I sin memorizar fórmulas](/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas/) o revisa [clases particulares de Física para Ingeniería](/clases-particulares/fisica-ingenieria/).
+Si este paso te cuesta, vuelve a la guía de [Física I sin memorizar fórmulas](/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas/) o revisa [clases particulares de Física para Bachillerato e Ingeniería](/clases-particulares/fisica-ingenieria/).

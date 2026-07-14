@@ -210,4 +210,4 @@ La condición inicial se aplica al final, no al principio. Primero se encuentra 
 - Integrar una exacta sin comprobar exactitud.
 - Sustituir condiciones iniciales antes de terminar la solución general.
 
-Si necesitas practicar con una colección ordenada de problemas, puedes empezar por la guía de [cómo estudiar matemáticas sin memorizar fórmulas](/blog/como-estudiar-matematicas-sin-memorizar/) o pedir un diagnóstico en [clases particulares de Matemáticas universitarias](/clases-particulares/matematicas-universidad/).
+Si necesitas practicar con una colección ordenada de problemas, puedes empezar por la guía de [cómo estudiar matemáticas sin memorizar fórmulas](/blog/como-estudiar-matematicas-sin-memorizar/) o pedir un diagnóstico en [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).

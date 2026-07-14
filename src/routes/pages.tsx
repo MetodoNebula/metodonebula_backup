@@ -13,7 +13,7 @@ function Breadcrumbs({ items }: { items: Array<{ label: string; href: string }> 
     <nav aria-label="Migas de pan" className="text-xs text-muted-foreground">
       <ol className="flex flex-wrap items-center gap-2">
         <li>
-          <Link to="/" className="hover:text-foreground">
+          <Link to="/" className="text-link transition-colors hover:text-link">
             Inicio
           </Link>
         </li>
@@ -23,7 +23,7 @@ function Breadcrumbs({ items }: { items: Array<{ label: string; href: string }> 
             {index === items.length - 1 ? (
               <span className="text-foreground/80">{item.label}</span>
             ) : (
-              <Link to={item.href} className="hover:text-foreground">
+              <Link to={item.href} className="text-link transition-colors hover:text-link">
                 {item.label}
               </Link>
             )}
@@ -50,7 +50,7 @@ function PageHero({
       <div className="relative mx-auto max-w-7xl px-6 pt-12 pb-14 md:pt-20 md:pb-18">
         <Breadcrumbs items={breadcrumbs} />
         <div className="mt-8 max-w-4xl">
-          <span className="inline-flex items-center gap-2 rounded-full border border-violet/30 bg-violet/10 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-violet">
+          <span className="inline-flex items-center gap-2 rounded-full border border-spark/30 bg-spark/10 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-spark">
             <BookOpen className="h-3.5 w-3.5" />
             {label}
           </span>
@@ -104,18 +104,19 @@ export function ServiceOverviewPage() {
         }}
       />
       <PageHero
-        label="Clases universitarias"
+        label="Clases desde ESO"
         page={page}
-        breadcrumbs={[{ label: "Clases universitarias", href: page.path }]}
+        breadcrumbs={[{ label: "Clases desde ESO", href: page.path }]}
       />
       <section className="py-16 md:py-20">
         <div className="mx-auto grid max-w-7xl gap-6 px-6 lg:grid-cols-[0.9fr_1.1fr]">
           <div>
-            <AccentHeading>Un mapa para asignaturas difíciles</AccentHeading>
+            <AccentHeading>Un mapa para cada etapa</AccentHeading>
             <p className="mt-4 text-muted-foreground">
-              La página de universidad centraliza las materias que suelen exigir más estructura:
-              matemáticas, estadística, programación, física, química y economía. Cada itinerario se
-              adapta al temario real del alumno y a la fecha de examen.
+              Trabajamos desde ESO y Bachillerato hasta Selectividad, programas internacionales, FP,
+              Universidad y perfiles técnicos. Matemáticas, estadística, programación, física,
+              química y economía se adaptan al temario real del alumno, a su etapa y a la fecha de
+              examen.
             </p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
@@ -125,11 +126,11 @@ export function ServiceOverviewPage() {
                 to={service.path}
                 className="nebula-card group rounded-2xl p-5 transition-transform hover:-translate-y-1"
               >
-                <h3 className="font-display text-lg font-semibold group-hover:text-gold">
+                <h3 className="font-display text-lg font-semibold group-hover:text-link">
                   {service.h1}
                 </h3>
                 <p className="mt-2 text-sm text-muted-foreground">{service.description}</p>
-                <span className="mt-4 inline-flex items-center gap-2 text-sm text-electric">
+                <span className="mt-4 inline-flex items-center gap-2 text-sm text-link">
                   Ver programa <ArrowRight className="h-4 w-4" />
                 </span>
               </Link>
@@ -166,7 +167,7 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
             {
               "@type": "ListItem",
               position: 2,
-              name: "Clases universitarias",
+              name: "Clases desde ESO",
               item: absoluteUrl(siteData.serviceOverview.path),
             },
             { "@type": "ListItem", position: 3, name: page.h1, item: absoluteUrl(page.path) },
@@ -177,7 +178,7 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
         label="Servicio"
         page={{ h1: page.h1, intro: page.audience }}
         breadcrumbs={[
-          { label: "Clases universitarias", href: siteData.serviceOverview.path },
+          { label: "Clases desde ESO", href: siteData.serviceOverview.path },
           { label: page.h1, href: page.path },
         ]}
       />
@@ -207,8 +208,8 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
             <div className="nebula-card rounded-3xl p-6">
               <AccentHeading className="text-xl">Diagnóstico inicial</AccentHeading>
               <p className="mt-3 text-sm text-muted-foreground">
-                Cuéntanos asignatura, universidad, fecha y punto de partida. Te devolvemos una
-                propuesta de trabajo ajustada al caso.
+                Cuéntanos asignatura, etapa, curso, centro o universidad, fecha y punto de partida.
+                Te devolvemos una propuesta de trabajo ajustada al caso.
               </p>
               <PrimaryCTA href="/contacto/" className="mt-5 w-full">
                 Contactar
@@ -225,7 +226,9 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
                         to={`/blog/${post.slug}/`}
                         className="block rounded-2xl border border-white/8 p-4 text-sm hover:border-white/20"
                       >
-                        <span className="text-gold">{post.category}</span>
+                        <span className="inline-flex rounded-full border border-spark/35 bg-spark/10 px-2.5 py-1 text-xs font-medium uppercase tracking-[0.16em] text-spark">
+                          {post.category}
+                        </span>
                         <span className="mt-1 block font-medium">{post.title}</span>
                       </Link>
                     ) : null,
@@ -257,9 +260,9 @@ function ContentBlock({
         {items.map((item, index) => (
           <li key={item} className="flex items-start gap-3 rounded-2xl border border-white/8 p-4">
             {ordered ? (
-              <span className="font-display text-sm font-semibold text-gold">{index + 1}.</span>
+              <span className="font-display text-sm font-semibold text-action">{index + 1}.</span>
             ) : (
-              <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-gold" />
+              <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-action" />
             )}
             <span className="text-sm text-foreground/85">{item}</span>
           </li>
@@ -276,7 +279,7 @@ export function AboutPage() {
     "Máster en Big Data e Inteligencia Artificial.",
     "Experiencia profesional en tecnología.",
     "Más de 6 años dando clases.",
-    "Trabajo con universidad, bachillerato, exámenes internacionales y perfiles técnicos.",
+    "Trabajo desde ESO y Bachillerato hasta Universidad, exámenes internacionales y perfiles técnicos.",
   ];
   const method = [
     {
@@ -364,7 +367,7 @@ export function AboutPage() {
               <ul className="mt-5 space-y-3">
                 {highlights.map((item) => (
                   <li key={item} className="flex items-start gap-3 text-sm">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-gold" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-action" />
                     <span className="text-foreground/90">{item}</span>
                   </li>
                 ))}
@@ -446,20 +449,20 @@ export function ContactPage() {
               className="flex w-full items-center justify-between rounded-2xl border border-white/10 bg-white/[0.03] p-5 text-left transition-colors hover:border-white/25"
             >
               <span className="flex items-center gap-3">
-                <MessageCircle className="h-5 w-5 text-electric" />
+                <MessageCircle className="h-5 w-5 text-action" />
                 <span>
                   <span className="block font-semibold">WhatsApp</span>
                   <span className="text-sm text-muted-foreground">{WHATSAPP_NUMBER}</span>
                 </span>
               </span>
-              <span className="text-sm text-gold">{copied ? "Copiado" : "Copiar"}</span>
+              <span className="text-sm text-action">{copied ? "Copiado" : "Copiar"}</span>
             </button>
             <a
               href={EMAIL_URL}
               className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition-colors hover:border-white/25"
             >
               <span className="flex items-center gap-3">
-                <Mail className="h-5 w-5 text-primary" />
+                <Mail className="h-5 w-5 text-action" />
                 <span>
                   <span className="block font-semibold">Email</span>
                   <span className="text-sm text-muted-foreground">{EMAIL}</span>
@@ -488,7 +491,7 @@ function SimpleContent({ sections }: { sections: Array<{ title: string; text: st
             className="nebula-card relative overflow-hidden rounded-3xl p-7"
           >
             <span className="absolute inset-x-0 top-0 h-1 nebula-title-line" />
-            <span className="font-display text-sm font-semibold text-violet">
+            <span className="font-display text-sm font-semibold text-violet-soft">
               {String(index + 1).padStart(2, "0")}
             </span>
             <h2 className="mt-3 font-display text-2xl font-semibold nebula-heading-text">
@@ -516,8 +519,8 @@ export function NotFoundPage() {
         <SectionLabel>404</SectionLabel>
         <h1 className="mt-5 font-display text-4xl font-bold">Página no encontrada</h1>
         <p className="mt-4 text-muted-foreground">
-          El enlace puede haber cambiado. Puedes volver al inicio, revisar las clases universitarias
-          o contactar para explicar tu caso.
+          El enlace puede haber cambiado. Puedes volver al inicio, revisar las clases desde ESO o
+          contactar para explicar tu caso.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-3">
           <PrimaryCTA href="/">Inicio</PrimaryCTA>
@@ -531,7 +534,7 @@ export function NotFoundPage() {
             href="/clases-particulares/universidad/"
             className="inline-flex items-center rounded-full border border-white/15 px-6 py-3 text-sm font-medium"
           >
-            Clases universitarias
+            Clases desde ESO
           </a>
           <a
             href="/contacto/"

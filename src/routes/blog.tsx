@@ -29,8 +29,8 @@ function JsonLd({ data }: { data: object }) {
 
 function BlogLabel({ children }: { children: ReactNode }) {
   return (
-    <span className="inline-flex items-center gap-2 rounded-full border border-gold/35 bg-gold/10 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-gold">
-      <span className="h-1.5 w-1.5 rounded-full bg-gold" />
+    <span className="inline-flex items-center gap-2 rounded-full border border-spark/35 bg-spark/10 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-spark">
+      <span className="h-1.5 w-1.5 rounded-full bg-spark" />
       {children}
     </span>
   );
@@ -39,7 +39,7 @@ function BlogLabel({ children }: { children: ReactNode }) {
 function PostMeta({ post }: { post: Post }) {
   return (
     <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
-      <span className="rounded-full border border-gold/40 bg-gold/10 px-3 py-1 font-medium uppercase tracking-[0.18em] text-gold">
+      <span className="rounded-full border border-spark/40 bg-spark/10 px-3 py-1 font-medium uppercase tracking-[0.18em] text-spark">
         {post.category || post.tag}
       </span>
       {post.date && (
@@ -92,15 +92,15 @@ export function BlogIndex() {
       <section className="py-16 md:py-20">
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-12">
-            <h2 className="font-display text-2xl font-semibold text-foreground">Categorías</h2>
+            <h2 className="font-display text-2xl font-semibold nebula-heading-text">Categorías</h2>
             <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
               {siteData.blogCategories.map((category) => (
                 <Link
                   key={category.slug}
                   to={blogCategoryPath(category.slug)}
-                  className="rounded-2xl border border-white/8 bg-white/[0.02] p-4 transition-colors hover:border-gold/35 hover:bg-gold/5"
+                  className="rounded-2xl border border-white/8 bg-white/[0.02] p-4 transition-colors hover:border-action/35 hover:bg-action/5"
                 >
-                  <span className="text-sm font-semibold text-gold">{category.name}</span>
+                  <span className="text-sm font-semibold text-link">{category.name}</span>
                   <span className="mt-1 block text-xs text-muted-foreground">
                     {category.description}
                   </span>
@@ -120,13 +120,13 @@ export function BlogIndex() {
                   className="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1"
                 >
                   <PostMeta post={post} />
-                  <h2 className="mt-5 font-display text-xl font-semibold leading-snug text-foreground transition-colors group-hover:text-gold">
+                  <h2 className="mt-5 font-display text-xl font-semibold leading-snug nebula-heading-text transition-colors group-hover:text-link">
                     {post.title}
                   </h2>
                   <p className="mt-3 grow text-sm leading-relaxed text-muted-foreground">
                     {post.description}
                   </p>
-                  <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-gold">
+                  <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">
                     Leer entrada
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
                   </span>
@@ -189,7 +189,7 @@ function BlogCategoryView({ category }: { category: BlogCategory }) {
         <div className="relative mx-auto max-w-7xl px-6 pt-12 pb-12 md:pt-16">
           <Link
             to="/blog/"
-            className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
+            className="inline-flex items-center gap-2 text-sm text-link transition-colors hover:text-link"
           >
             <ArrowLeft className="h-4 w-4" />
             Todas las categorías
@@ -219,13 +219,13 @@ function BlogCategoryView({ category }: { category: BlogCategory }) {
                   className="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1"
                 >
                   <PostMeta post={post} />
-                  <h2 className="mt-5 font-display text-xl font-semibold leading-snug text-foreground transition-colors group-hover:text-gold">
+                  <h2 className="mt-5 font-display text-xl font-semibold leading-snug nebula-heading-text transition-colors group-hover:text-link">
                     {post.title}
                   </h2>
                   <p className="mt-3 grow text-sm leading-relaxed text-muted-foreground">
                     {post.description}
                   </p>
-                  <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-gold">
+                  <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">
                     Leer entrada
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
                   </span>
@@ -302,7 +302,7 @@ function PostView({ post }: { post: Post }) {
           <div className="relative mx-auto max-w-3xl px-6 pt-12 pb-12 md:pt-16">
             <Link
               to="/blog/"
-              className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
+              className="inline-flex items-center gap-2 text-sm text-link transition-colors hover:text-link"
             >
               <ArrowLeft className="h-4 w-4" />
               Todas las entradas
@@ -323,7 +323,7 @@ function PostView({ post }: { post: Post }) {
           <MarkdownContent markdown={post.body} />
 
           <div className="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8 text-center">
-            <h2 className="font-display text-2xl font-semibold text-foreground">
+            <h2 className="font-display text-2xl font-semibold nebula-heading-text">
               ¿Quieres aplicar esto a tu caso?
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">
@@ -340,7 +340,9 @@ function PostView({ post }: { post: Post }) {
       {related.length > 0 && (
         <section className="border-t border-white/5 py-16">
           <div className="mx-auto max-w-7xl px-6">
-            <h2 className="font-display text-2xl font-semibold text-foreground">Seguir leyendo</h2>
+            <h2 className="font-display text-2xl font-semibold nebula-heading-text">
+              Seguir leyendo
+            </h2>
             <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
               {related.map((p) => (
                 <Link
@@ -349,7 +351,7 @@ function PostView({ post }: { post: Post }) {
                   className="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1"
                 >
                   <PostMeta post={p} />
-                  <h3 className="mt-4 font-display text-lg font-semibold text-foreground transition-colors group-hover:text-gold">
+                  <h3 className="mt-4 font-display text-lg font-semibold nebula-subheading-text transition-colors group-hover:text-link">
                     {p.title}
                   </h3>
                   <p className="mt-2 text-sm leading-relaxed text-muted-foreground">

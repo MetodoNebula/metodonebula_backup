@@ -8,7 +8,6 @@ import {
   Copy,
   Sparkles,
   GraduationCap,
-  Briefcase,
   Code2,
   LineChart,
   Atom,
@@ -83,9 +82,9 @@ function Hero() {
             <span className="nebula-gradient-text">no admite improvisación.</span>
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-base text-muted-foreground md:text-lg">
-            Enseñanza privada para universidad, exámenes internacionales, Selectividad y transición
-            al sector IT. Diagnóstico claro, plan de trabajo con fechas y un mentor que sostiene el
-            proceso de principio a fin.
+            Enseñanza privada desde ESO y Bachillerato hasta Universidad, exámenes internacionales,
+            Selectividad y transición al sector IT. Diagnóstico claro, plan de trabajo con fechas y
+            un mentor que sostiene el proceso de principio a fin.
           </p>
           <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <PrimaryCTA href="/contacto/">Reservar diagnóstico</PrimaryCTA>
@@ -102,16 +101,16 @@ function Hero() {
 
         <div className="mx-auto mt-16 grid max-w-5xl grid-cols-2 gap-3 sm:grid-cols-4">
           {[
+            { icon: BookOpen, label: "ESO · Bachillerato" },
+            { icon: Calendar, label: "PAU · IB · GCSE" },
             { icon: GraduationCap, label: "Universidad" },
-            { icon: Calendar, label: "IB · GCSE · PAU" },
             { icon: Code2, label: "Programación · IA" },
-            { icon: Briefcase, label: "Transición IT" },
           ].map((it) => (
             <div
               key={it.label}
               className="nebula-card flex items-center gap-3 rounded-2xl px-4 py-3"
             >
-              <it.icon className="h-5 w-5 text-electric" />
+              <it.icon className="h-5 w-5 text-action" />
               <span className="text-sm text-foreground/90">{it.label}</span>
             </div>
           ))}
@@ -124,7 +123,7 @@ function Hero() {
 function AuthorityChip({ label }: { label: string }) {
   return (
     <span className="inline-flex items-center gap-1.5">
-      <ShieldCheck className="h-3.5 w-3.5 text-gold" />
+      <ShieldCheck className="h-3.5 w-3.5 text-action" />
       {label}
     </span>
   );
@@ -159,7 +158,7 @@ function Positioning() {
           <SectionLabel>¿Por qué Nebula?</SectionLabel>
           <h2 className="mt-5 text-3xl font-semibold leading-tight md:text-5xl">
             Si ya has probado academias y clases sueltas,{" "}
-            <span className="text-gold">ya sabes por qué no funcionan</span>
+            <span className="nebula-gradient-text">ya sabes por qué no funcionan</span>
           </h2>
           <p className="mt-5 text-base text-muted-foreground md:text-lg">
             Más horas no resuelven el problema. Lo que falta casi siempre es diagnóstico, método y
@@ -173,8 +172,8 @@ function Positioning() {
               key={c.title}
               className="nebula-card group rounded-3xl p-7 transition-transform hover:-translate-y-1"
             >
-              <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary/15 ring-1 ring-primary/30">
-                <c.icon className="h-5 w-5 text-primary" />
+              <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-action/15 ring-1 ring-action/30">
+                <c.icon className="h-5 w-5 text-action" />
               </div>
               <h3 className="mt-5 text-lg font-semibold">{c.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{c.text}</p>
@@ -215,15 +214,15 @@ function Services() {
       icon: Atom,
       title: "Clases particulares premium",
       subtitle:
-        "Para alumnos que arrastran una asignatura técnica y necesitan dejar de ir a remolque del temario.",
+        "Para alumnos desde ESO hasta Universidad que arrastran una asignatura técnica y necesitan dejar de ir a remolque del temario.",
       list: {
         label: "Asignaturas",
         items: [
-          "Matemáticas: Álgebra, Estadística, Cálculo",
-          "Física",
-          "Química",
+          "ESO: Matemáticas, Física y Química",
+          "Bachillerato: Matemáticas, Física, Química y Economía",
+          "Universidad: Cálculo, Álgebra, Estadística y asignaturas técnicas",
           "Programación",
-          "Economía",
+          "Economía y ADE",
           "Inteligencia Artificial",
         ],
       },
@@ -321,8 +320,8 @@ function Services() {
             </h2>
           </div>
           <p className="max-w-md text-sm text-muted-foreground">
-            Tres caminos según tu objetivo: una asignatura, un examen con fecha o un cambio
-            profesional al sector IT.
+            Tres caminos según tu objetivo: una asignatura de ESO, Bachillerato o Universidad, un
+            examen con fecha o un cambio profesional al sector IT.
           </p>
         </div>
 
@@ -339,20 +338,25 @@ function Services() {
 function accentClasses(a: Accent) {
   switch (a) {
     case "gold":
-      return { dot: "bg-gold", text: "text-gold", ring: "ring-gold/30", soft: "bg-gold/10" };
+      return {
+        dot: "bg-action",
+        text: "text-action",
+        ring: "ring-action/30",
+        soft: "bg-action/10",
+      };
     case "electric":
       return {
-        dot: "bg-electric",
-        text: "text-electric",
-        ring: "ring-electric/30",
-        soft: "bg-electric/10",
+        dot: "bg-action",
+        text: "text-action",
+        ring: "ring-action/30",
+        soft: "bg-action/10",
       };
     default:
       return {
-        dot: "bg-primary",
-        text: "text-primary",
-        ring: "ring-primary/30",
-        soft: "bg-primary/10",
+        dot: "bg-action",
+        text: "text-action",
+        ring: "ring-action/30",
+        soft: "bg-action/10",
       };
   }
 }
@@ -512,8 +516,8 @@ function Method() {
           {steps.map((s) => (
             <li key={s.n} className="nebula-card group relative rounded-3xl p-7">
               <div className="flex items-center justify-between">
-                <span className="font-display text-3xl font-bold text-gold/80">{s.n}</span>
-                <s.icon className="h-5 w-5 text-electric" />
+                <span className="font-display text-3xl font-bold text-action/80">{s.n}</span>
+                <s.icon className="h-5 w-5 text-action" />
               </div>
               <h3 className="mt-4 text-lg font-semibold">{s.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{s.text}</p>
@@ -544,7 +548,7 @@ function Authority() {
     "Máster en Big Data e Inteligencia Artificial.",
     "Experiencia profesional en tecnología.",
     "Más de 6 años dando clases.",
-    "Alumnos universitarios, bachillerato, exámenes internacionales y perfiles técnicos.",
+    "Alumnos desde ESO y Bachillerato hasta Universidad, exámenes internacionales y perfiles técnicos.",
     "Especialización en asignaturas difíciles y procesos exigentes.",
   ];
   return (
@@ -554,8 +558,8 @@ function Authority() {
           <div>
             <SectionLabel>Conoce a Nebula</SectionLabel>
             <h2 className="mt-5 text-3xl font-semibold leading-tight md:text-5xl">
-              Formación con <span className="text-gold">rigor académico</span> y visión real del
-              sector tecnológico
+              Formación con <span className="nebula-gradient-text">rigor académico</span> y visión
+              real del sector tecnológico
             </h2>
             <p className="mt-5 text-base text-muted-foreground md:text-lg">
               No es lo mismo aprender con alguien que solo explica la asignatura que con alguien que
@@ -582,7 +586,7 @@ function Authority() {
               <ul className="mt-8 grid gap-3 sm:grid-cols-2">
                 {bullets.map((b) => (
                   <li key={b} className="flex items-start gap-2 text-sm">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-gold" />
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-action" />
                     <span className="text-foreground/90">{b}</span>
                   </li>
                 ))}
@@ -637,7 +641,10 @@ function Comparison() {
           <SectionLabel>Nebula vs lo habitual</SectionLabel>
           <h2 className="mt-5 text-3xl font-semibold leading-tight md:text-5xl">
             ¿Por qué Nebula no funciona como una{" "}
-            <span className="text-muted-foreground line-through decoration-gold/40">academia</span>?
+            <span className="text-muted-foreground line-through decoration-action/40">
+              academia
+            </span>
+            ?
           </h2>
         </div>
 
@@ -662,13 +669,13 @@ function Comparison() {
           <div className="nebula-card nebula-glow rounded-3xl p-7">
             <div className="flex items-center gap-2">
               <NebulaLogo className="h-5 w-5" />
-              <p className="text-xs uppercase tracking-[0.2em] text-gold">Modelo Nebula</p>
+              <p className="text-xs uppercase tracking-[0.2em] text-spark">Modelo Nebula</p>
             </div>
             <h3 className="mt-2 font-display text-xl font-semibold">Enseñanza privada premium</h3>
             <ul className="mt-6 space-y-3">
               {nebula.map((n) => (
                 <li key={n} className="flex items-start gap-3 text-sm text-foreground/90">
-                  <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-gold" />
+                  <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-action" />
                   {n}
                 </li>
               ))}
@@ -722,14 +729,14 @@ function Testimonials() {
           <div className="max-w-2xl">
             <SectionLabel>Resultados reales</SectionLabel>
             <h2 className="mt-5 text-3xl font-semibold leading-tight md:text-5xl">
-              Historias de <span className="text-gold">progreso</span>
+              Historias de <span className="nebula-gradient-text">progreso</span>
             </h2>
           </div>
           <a
             href="https://www.tusclasesparticulares.com/profesores/nebula-lambda.htm"
             target="_blank"
             rel="noreferrer"
-            className="text-xs uppercase tracking-[0.18em] text-muted-foreground underline-offset-4 transition-colors hover:text-gold hover:underline"
+            className="text-xs uppercase tracking-[0.18em] text-muted-foreground underline-offset-4 transition-colors hover:text-link hover:underline"
           >
             Opiniones verificadas en TusClasesParticulares
           </a>
@@ -742,7 +749,7 @@ function Testimonials() {
               className="nebula-card flex h-full flex-col justify-between rounded-3xl p-7"
             >
               <div>
-                <div className="flex items-center gap-1 text-gold">
+                <div className="flex items-center gap-1 text-foreground/70">
                   {Array.from({ length: 5 }).map((_, i) => (
                     <Star key={i} className="h-4 w-4 fill-current" />
                   ))}
@@ -835,10 +842,10 @@ function Programs() {
             return (
               <article
                 key={p.name}
-                className={`nebula-card relative flex h-full flex-col overflow-hidden rounded-3xl p-8 ${p.featured ? "nebula-glow ring-1 ring-gold/30" : ""}`}
+                className={`nebula-card relative flex h-full flex-col overflow-hidden rounded-3xl p-8 ${p.featured ? "nebula-glow ring-1 ring-action/30" : ""}`}
               >
                 {p.featured && (
-                  <span className="absolute right-5 top-5 rounded-full border border-gold/40 bg-gold/10 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.2em] text-gold">
+                  <span className="absolute right-5 top-5 rounded-full border border-spark/40 bg-spark/10 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.2em] text-spark">
                     Más solicitado
                   </span>
                 )}
@@ -893,7 +900,7 @@ function Contact() {
         <div className="mx-auto max-w-3xl">
           <SectionLabel>Hablemos</SectionLabel>
           <h2 className="mt-5 text-3xl font-semibold leading-tight md:text-5xl">
-            Empieza con una <span className="text-gold">llamada de diagnóstico</span>
+            Empieza con una <span className="nebula-gradient-text">llamada de diagnóstico</span>
           </h2>
           <p className="mt-5 text-base text-muted-foreground md:text-lg">
             Una conversación corta para entender tu objetivo, tu punto de partida y tu fecha. Si
@@ -907,7 +914,7 @@ function Contact() {
               className="flex w-full items-center justify-between rounded-2xl border border-white/10 bg-white/[0.03] p-5 text-left transition-colors hover:border-white/25 hover:bg-white/[0.06]"
             >
               <div className="flex items-center gap-3">
-                <MessageCircle className="h-5 w-5 text-electric" />
+                <MessageCircle className="h-5 w-5 text-action" />
                 <div>
                   <p className="text-sm font-semibold">Copiar número de WhatsApp</p>
                   <p className="text-xs text-muted-foreground">
@@ -926,7 +933,7 @@ function Contact() {
               className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition-colors hover:border-white/25 hover:bg-white/[0.06]"
             >
               <div className="flex items-center gap-3">
-                <Mail className="h-5 w-5 text-primary" />
+                <Mail className="h-5 w-5 text-action" />
                 <div>
                   <p className="text-sm font-semibold">Email de admisiones</p>
                   <p className="text-xs text-muted-foreground">{EMAIL}</p>
@@ -941,7 +948,7 @@ function Contact() {
               className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition-colors hover:border-white/25 hover:bg-white/[0.06]"
             >
               <div className="flex items-center gap-3">
-                <Instagram className="h-5 w-5 text-gold" />
+                <Instagram className="h-5 w-5 text-action" />
                 <div>
                   <p className="text-sm font-semibold">@nebula.lambda</p>
                   <p className="text-xs text-muted-foreground">Instagram</p>
@@ -967,8 +974,8 @@ function FAQ() {
       a: "Trabajamos principalmente online para flexibilidad y eficiencia. Sesiones presenciales puntuales según ubicación y necesidad.",
     },
     {
-      q: "¿Trabajas con alumnos universitarios?",
-      a: "Sí. Es uno de los perfiles principales: carreras técnicas, ingenierías, ADE, economía, matemáticas y ciencias.",
+      q: "¿Desde qué curso das clase?",
+      a: "Trabajamos desde ESO en adelante: ESO, Bachillerato, Selectividad, programas internacionales, FP, Universidad y perfiles técnicos.",
     },
     {
       q: "¿Puedo preparar un examen con poco tiempo?",

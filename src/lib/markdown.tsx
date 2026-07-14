@@ -103,7 +103,7 @@ function renderInline(text: string): ReactNode[] {
         <a
           key={i}
           href={href}
-          className="font-medium text-gold underline underline-offset-4 transition-colors hover:text-foreground"
+          className="font-medium text-link underline underline-offset-4 transition-colors hover:text-link"
           {...(external ? { target: "_blank", rel: "noreferrer" } : {})}
         >
           {parts[1]}
@@ -113,7 +113,7 @@ function renderInline(text: string): ReactNode[] {
       nodes.push(
         <code
           key={i}
-          className="rounded bg-white/10 px-1.5 py-0.5 font-mono text-[0.85em] text-gold"
+          className="rounded bg-white/10 px-1.5 py-0.5 font-mono text-[0.85em] text-foreground"
         >
           {token.slice(1, -1)}
         </code>,
@@ -220,14 +220,17 @@ function parseBlocks(md: string): ReactNode[] {
         out.push(
           <h2
             key={key++}
-            className="mt-12 mb-4 border-l-2 border-gold pl-4 font-display text-2xl font-semibold text-foreground md:text-3xl"
+            className="mt-12 mb-4 border-l-2 border-action pl-4 font-display text-2xl font-semibold nebula-heading-text md:text-3xl"
           >
             {content}
           </h2>,
         );
       } else if (level === 3) {
         out.push(
-          <h3 key={key++} className="mt-10 mb-3 font-display text-xl font-semibold text-gold">
+          <h3
+            key={key++}
+            className="mt-10 mb-3 font-display text-xl font-semibold nebula-subheading-text"
+          >
             {content}
           </h3>,
         );
@@ -260,7 +263,7 @@ function parseBlocks(md: string): ReactNode[] {
       out.push(
         <blockquote
           key={key++}
-          className="my-6 border-l-2 border-gold/70 bg-white/[0.02] py-2 pr-4 pl-5 text-foreground/80 italic"
+          className="my-6 border-l-2 border-action/70 bg-white/[0.02] py-2 pr-4 pl-5 text-foreground/80 italic"
         >
           {renderInline(quote.join(" "))}
         </blockquote>,
@@ -278,7 +281,7 @@ function parseBlocks(md: string): ReactNode[] {
         <ul key={key++} className="my-5 space-y-2 pl-1">
           {items.map((item, idx) => (
             <li key={idx} className="flex items-start gap-3 text-foreground/85">
-              <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold" />
+              <span className="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-action" />
               <span>{renderInline(item)}</span>
             </li>
           ))}
@@ -297,7 +300,7 @@ function parseBlocks(md: string): ReactNode[] {
         <ol key={key++} className="my-5 space-y-2">
           {items.map((item, idx) => (
             <li key={idx} className="flex items-start gap-3 text-foreground/85">
-              <span className="font-display text-sm font-semibold text-gold">{idx + 1}.</span>
+              <span className="font-display text-sm font-semibold text-action">{idx + 1}.</span>
               <span>{renderInline(item)}</span>
             </li>
           ))}

@@ -27,7 +27,7 @@ function MathMarkup({ tex, displayMode = false }: { tex: string; displayMode?: b
   if (displayMode) {
     return (
       <div
-        className="my-7 overflow-x-auto rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-5 text-center"
+        className="nebula-math my-7 overflow-x-auto rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-5 text-center"
         dangerouslySetInnerHTML={{ __html: html }}
       />
     );
@@ -103,7 +103,7 @@ function renderInline(text: string): ReactNode[] {
         <a
           key={i}
           href={href}
-          className="font-medium text-electric underline underline-offset-4 transition-colors hover:text-gold"
+          className="font-medium text-gold underline underline-offset-4 transition-colors hover:text-foreground"
           {...(external ? { target: "_blank", rel: "noreferrer" } : {})}
         >
           {parts[1]}
@@ -113,7 +113,7 @@ function renderInline(text: string): ReactNode[] {
       nodes.push(
         <code
           key={i}
-          className="rounded bg-white/10 px-1.5 py-0.5 font-mono text-[0.85em] text-electric"
+          className="rounded bg-white/10 px-1.5 py-0.5 font-mono text-[0.85em] text-gold"
         >
           {token.slice(1, -1)}
         </code>,
@@ -202,9 +202,11 @@ function parseBlocks(md: string): ReactNode[] {
       out.push(
         <pre
           key={key++}
-          className="my-6 overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"
+          className="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"
         >
-          <code className="font-mono text-foreground/90">{code.join("\n")}</code>
+          <code className="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">
+            {code.join("\n")}
+          </code>
         </pre>,
       );
       continue;
@@ -216,19 +218,25 @@ function parseBlocks(md: string): ReactNode[] {
       const content = renderInline(heading[2].trim());
       if (level <= 2) {
         out.push(
-          <h2 key={key++} className="mt-12 mb-4 font-display text-2xl font-semibold md:text-3xl">
+          <h2
+            key={key++}
+            className="mt-12 mb-4 border-l-2 border-gold pl-4 font-display text-2xl font-semibold text-foreground md:text-3xl"
+          >
             {content}
           </h2>,
         );
       } else if (level === 3) {
         out.push(
-          <h3 key={key++} className="mt-10 mb-3 font-display text-xl font-semibold">
+          <h3 key={key++} className="mt-10 mb-3 font-display text-xl font-semibold text-gold">
             {content}
           </h3>,
         );
       } else {
         out.push(
-          <h4 key={key++} className="mt-8 mb-2 font-display text-lg font-semibold">
+          <h4
+            key={key++}
+            className="mt-8 mb-2 font-display text-lg font-semibold text-muted-foreground"
+          >
             {content}
           </h4>,
         );
@@ -252,7 +260,7 @@ function parseBlocks(md: string): ReactNode[] {
       out.push(
         <blockquote
           key={key++}
-          className="my-6 border-l-2 border-gold/60 bg-white/[0.02] py-2 pr-4 pl-5 text-foreground/80 italic"
+          className="my-6 border-l-2 border-gold/70 bg-white/[0.02] py-2 pr-4 pl-5 text-foreground/80 italic"
         >
           {renderInline(quote.join(" "))}
         </blockquote>,

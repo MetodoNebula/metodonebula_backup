@@ -1,3 +1,4 @@
+import { type ReactNode } from "react";
 import { ArrowRight, BookOpen, CheckCircle2, Mail, MessageCircle } from "lucide-react";
 
 import { EMAIL, EMAIL_URL, WHATSAPP_NUMBER, useCopyPhone } from "../lib/contact";
@@ -45,11 +46,15 @@ function PageHero({
   return (
     <header className="relative overflow-hidden border-b border-white/5">
       <div className="nebula-aurora pointer-events-none absolute inset-0 opacity-60" />
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-px nebula-title-line opacity-70" />
       <div className="relative mx-auto max-w-7xl px-6 pt-12 pb-14 md:pt-20 md:pb-18">
         <Breadcrumbs items={breadcrumbs} />
-        <div className="mt-8 max-w-3xl">
-          <SectionLabel>{label}</SectionLabel>
-          <h1 className="mt-5 font-display text-4xl font-bold leading-[1.08] md:text-6xl">
+        <div className="mt-8 max-w-4xl">
+          <span className="inline-flex items-center gap-2 rounded-full border border-violet/30 bg-violet/10 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-violet">
+            <BookOpen className="h-3.5 w-3.5" />
+            {label}
+          </span>
+          <h1 className="mt-5 font-display text-4xl font-bold leading-[1.08] nebula-gradient-text md:text-6xl">
             {page.h1}
           </h1>
           <p className="mt-5 max-w-2xl text-base text-muted-foreground md:text-lg">{page.intro}</p>
@@ -62,6 +67,23 @@ function PageHero({
 function JsonLd({ data }: { data: object }) {
   return (
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} />
+  );
+}
+
+function AccentHeading({
+  children,
+  className = "text-3xl",
+}: {
+  children: ReactNode;
+  className?: string;
+}) {
+  return (
+    <div>
+      <span className="block h-1 w-14 rounded-full nebula-title-line" />
+      <h2 className={`mt-3 font-display font-semibold nebula-heading-text ${className}`}>
+        {children}
+      </h2>
+    </div>
   );
 }
 
@@ -89,9 +111,7 @@ export function ServiceOverviewPage() {
       <section className="py-16 md:py-20">
         <div className="mx-auto grid max-w-7xl gap-6 px-6 lg:grid-cols-[0.9fr_1.1fr]">
           <div>
-            <h2 className="font-display text-3xl font-semibold">
-              Un mapa para asignaturas difíciles
-            </h2>
+            <AccentHeading>Un mapa para asignaturas difíciles</AccentHeading>
             <p className="mt-4 text-muted-foreground">
               La página de universidad centraliza las materias que suelen exigir más estructura:
               matemáticas, estadística, programación, física, química y economía. Cada itinerario se
@@ -168,11 +188,11 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
             <ContentBlock title="Bloques que podemos trabajar" items={page.topics} />
             <ContentBlock title="Cómo funciona el método" items={page.method} ordered />
             <section>
-              <h2 className="font-display text-2xl font-semibold">Perfil docente</h2>
+              <AccentHeading className="text-2xl">Perfil docente</AccentHeading>
               <p className="mt-3 leading-relaxed text-muted-foreground">{page.profile}</p>
             </section>
             <section>
-              <h2 className="font-display text-2xl font-semibold">Preguntas frecuentes</h2>
+              <AccentHeading className="text-2xl">Preguntas frecuentes</AccentHeading>
               <div className="mt-5 divide-y divide-white/8 rounded-2xl border border-white/8 bg-white/[0.02]">
                 {page.faq.map((item) => (
                   <div key={item.q} className="p-5">
@@ -185,7 +205,7 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
           </div>
           <aside className="space-y-5">
             <div className="nebula-card rounded-3xl p-6">
-              <h2 className="font-display text-xl font-semibold">Diagnóstico inicial</h2>
+              <AccentHeading className="text-xl">Diagnóstico inicial</AccentHeading>
               <p className="mt-3 text-sm text-muted-foreground">
                 Cuéntanos asignatura, universidad, fecha y punto de partida. Te devolvemos una
                 propuesta de trabajo ajustada al caso.
@@ -196,7 +216,7 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
             </div>
             {relatedPosts.length > 0 && (
               <div className="rounded-3xl border border-white/8 bg-white/[0.02] p-6">
-                <h2 className="font-display text-xl font-semibold">Lecturas relacionadas</h2>
+                <AccentHeading className="text-xl">Lecturas relacionadas</AccentHeading>
                 <div className="mt-4 space-y-3">
                   {relatedPosts.map((post) =>
                     post ? (
@@ -232,7 +252,7 @@ function ContentBlock({
   const List = ordered ? "ol" : "ul";
   return (
     <section>
-      <h2 className="font-display text-2xl font-semibold">{title}</h2>
+      <AccentHeading className="text-2xl">{title}</AccentHeading>
       <List className="mt-5 grid gap-3 sm:grid-cols-2">
         {items.map((item, index) => (
           <li key={item} className="flex items-start gap-3 rounded-2xl border border-white/8 p-4">
@@ -299,7 +319,7 @@ export function AboutPage() {
         <div className="mx-auto grid max-w-7xl gap-10 px-6 lg:grid-cols-[1fr_0.85fr]">
           <div className="space-y-8">
             <section>
-              <h2 className="font-display text-3xl font-semibold">Quién soy</h2>
+              <AccentHeading>Quién soy</AccentHeading>
               <div className="mt-4 space-y-4 leading-relaxed text-muted-foreground">
                 <p>
                   Método Nebula es un proyecto de mentoría académica y profesional. El trabajo está
@@ -316,7 +336,7 @@ export function AboutPage() {
             </section>
 
             <section>
-              <h2 className="font-display text-3xl font-semibold">Cómo entiendo la enseñanza</h2>
+              <AccentHeading>Cómo entiendo la enseñanza</AccentHeading>
               <p className="mt-4 leading-relaxed text-muted-foreground">
                 Enseñar no es resolver por el alumno. Es ayudarle a ver el mapa: qué pregunta
                 plantea el problema, qué herramientas sirven, por qué aparece cada paso y cómo
@@ -324,8 +344,11 @@ export function AboutPage() {
               </p>
               <div className="mt-6 grid gap-4 md:grid-cols-3">
                 {method.map((item) => (
-                  <article key={item.title} className="rounded-2xl border border-white/8 p-5">
-                    <h3 className="font-semibold">{item.title}</h3>
+                  <article
+                    key={item.title}
+                    className="rounded-2xl border border-white/8 bg-white/[0.02] p-5"
+                  >
+                    <h3 className="font-semibold nebula-subheading-text">{item.title}</h3>
                     <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
                       {item.text}
                     </p>
@@ -337,7 +360,7 @@ export function AboutPage() {
 
           <aside className="space-y-5">
             <div className="nebula-card rounded-3xl p-6">
-              <h2 className="font-display text-2xl font-semibold">En pocas líneas</h2>
+              <AccentHeading className="text-2xl">En pocas líneas</AccentHeading>
               <ul className="mt-5 space-y-3">
                 {highlights.map((item) => (
                   <li key={item} className="flex items-start gap-3 text-sm">
@@ -348,7 +371,7 @@ export function AboutPage() {
               </ul>
             </div>
             <div className="rounded-3xl border border-white/8 bg-white/[0.02] p-6">
-              <h2 className="font-display text-xl font-semibold">Áreas de trabajo</h2>
+              <AccentHeading className="text-xl">Áreas de trabajo</AccentHeading>
               <div className="mt-4 flex flex-wrap gap-2">
                 {siteData.site.author.knowsAbout.map((item) => (
                   <span
@@ -459,9 +482,18 @@ function SimpleContent({ sections }: { sections: Array<{ title: string; text: st
   return (
     <section className="py-16 md:py-20">
       <div className="mx-auto grid max-w-5xl gap-5 px-6 md:grid-cols-2">
-        {sections.map((section) => (
-          <article key={section.title} className="nebula-card rounded-3xl p-7">
-            <h2 className="font-display text-2xl font-semibold">{section.title}</h2>
+        {sections.map((section, index) => (
+          <article
+            key={section.title}
+            className="nebula-card relative overflow-hidden rounded-3xl p-7"
+          >
+            <span className="absolute inset-x-0 top-0 h-1 nebula-title-line" />
+            <span className="font-display text-sm font-semibold text-violet">
+              {String(index + 1).padStart(2, "0")}
+            </span>
+            <h2 className="mt-3 font-display text-2xl font-semibold nebula-heading-text">
+              {section.title.replace(/^\d+\.\s*/, "")}
+            </h2>
             <p className="mt-3 leading-relaxed text-muted-foreground">{section.text}</p>
           </article>
         ))}

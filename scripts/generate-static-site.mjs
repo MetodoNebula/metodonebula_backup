@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import katex from "katex";
 
 const ROOT = process.cwd();
 const DIST = path.join(ROOT, "dist");
@@ -99,15 +100,56 @@ function loadPosts() {
     .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
 }
 
+const INLINE_PATTERN =
+  /(\\\([\s\S]+?\\\))|(\$[^$\n]+\$)|(!\[[^\]]*\]\([^)]+\))|(\[[^\]]+\]\([^)]+\))|(`[^`]+`)|(\*\*[^*]+\*\*)|(__[^_]+__)|(\*[^*]+\*)|(_[^_]+_)/g;
+
+function renderKatex(tex, displayMode = false) {
+  return katex.renderToString(tex, {
+    displayMode,
+    throwOnError: false,
+    strict: false,
+    trust: false,
+  });
+}
+
+function displayMathHtml(tex) {
+  return `<div class="my-7 overflow-x-auto rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-5 text-center">${renderKatex(tex, true)}</div>`;
+}
+
 function inlineMarkdown(text) {
-  return escapeHtml(text)
-    .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" loading="lazy">')
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
-    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
-    .replace(/__([^_]+)__/g, "<strong>$1</strong>")
-    .replace(/`([^`]+)`/g, "<code>$1</code>")
-    .replace(/\*([^*]+)\*/g, "<em>$1</em>")
-    .replace(/_([^_]+)_/g, "<em>$1</em>");
+  const out = [];
+  let lastIndex = 0;
+  let match;
+
+  while ((match = INLINE_PATTERN.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      out.push(escapeHtml(text.slice(lastIndex, match.index)));
+    }
+    const token = match[0];
+
+    if (token.startsWith("\\(")) {
+      out.push(renderKatex(token.slice(2, -2)));
+    } else if (token.startsWith("$")) {
+      out.push(renderKatex(token.slice(1, -1)));
+    } else if (token.startsWith("![")) {
+      const parts = /!\[([^\]]*)\]\(([^)]+)\)/.exec(token);
+      out.push(`<img src="${escapeHtml(parts[2])}" alt="${escapeHtml(parts[1])}" loading="lazy">`);
+    } else if (token.startsWith("[")) {
+      const parts = /\[([^\]]+)\]\(([^)]+)\)/.exec(token);
+      out.push(`<a href="${escapeHtml(parts[2])}">${escapeHtml(parts[1])}</a>`);
+    } else if (token.startsWith("`")) {
+      out.push(`<code>${escapeHtml(token.slice(1, -1))}</code>`);
+    } else if (token.startsWith("**") || token.startsWith("__")) {
+      out.push(`<strong>${escapeHtml(token.slice(2, -2))}</strong>`);
+    } else {
+      out.push(`<em>${escapeHtml(token.slice(1, -1))}</em>`);
+    }
+
+    lastIndex = INLINE_PATTERN.lastIndex;
+  }
+
+  if (lastIndex < text.length) out.push(escapeHtml(text.slice(lastIndex)));
+  return out.join("");
 }
 
 function markdownToHtml(md) {
@@ -118,6 +160,31 @@ function markdownToHtml(md) {
     const line = lines[i];
     if (!line.trim()) {
       i++;
+      continue;
+    }
+    if (line.trim().startsWith("$$") || line.trim().startsWith("\\[")) {
+      const opener = line.trim().startsWith("$$") ? "$$" : "\\[";
+      const closer = opener === "$$" ? "$$" : "\\]";
+      const math = [];
+      let current = line.trim().slice(opener.length);
+      if (current.endsWith(closer) && current.length > closer.length) {
+        math.push(current.slice(0, -closer.length));
+        i++;
+      } else {
+        if (current) math.push(current);
+        i++;
+        while (i < lines.length) {
+          current = lines[i].trim();
+          if (current.endsWith(closer)) {
+            math.push(current.slice(0, -closer.length));
+            i++;
+            break;
+          }
+          math.push(lines[i]);
+          i++;
+        }
+      }
+      out.push(displayMathHtml(math.join("\n").trim()));
       continue;
     }
     const heading = /^(#{1,6})\s+(.*)$/.exec(line);

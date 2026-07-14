@@ -45,6 +45,16 @@ Imagina un ejercicio de optimización: "encuentra el área máxima". Muchos alum
 
 Ese pequeño protocolo evita la mitad de los errores típicos: derivar una función incompleta, olvidar restricciones o aceptar un valor que no pertenece al intervalo.
 
+Una forma compacta de verlo es escribir la condicion de optimo como \(A'(x)=0\), pero solo despues de haber construido la funcion objetivo:
+
+$$
+A(x)=x(20-2x), \qquad A'(x)=20-4x
+$$
+
+La siguiente grafica esta generada desde un fichero LaTeX/TikZ y compilada a SVG para publicarla como asset estatico:
+
+![Grafica de optimizacion generada con LaTeX y TikZ](/assets/latex/quadratic-optimization.svg)
+
 ## Errores frecuentes que conviene detectar
 
 - Resolver el primer ejercicio mirando la solución y creer que ya está aprendido.

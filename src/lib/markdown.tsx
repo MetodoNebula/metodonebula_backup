@@ -1,15 +1,80 @@
+import katex from "katex";
 import { type ReactNode } from "react";
+import "katex/dist/katex.min.css";
 
 /**
- * Minimal, dependency-free Markdown renderer tuned for blog prose. It returns
- * styled React elements (no `dangerouslySetInnerHTML`) and supports the common
+ * Minimal Markdown renderer tuned for blog prose. It returns
+ * styled React elements and supports the common
  * constructs used when writing posts: headings, paragraphs, bold/italic,
  * inline code, links, images, ordered/unordered lists, blockquotes, code
  * fences and horizontal rules.
  */
 
 const INLINE_PATTERN =
-  /(!\[[^\]]*\]\([^)]+\))|(\[[^\]]+\]\([^)]+\))|(`[^`]+`)|(\*\*[^*]+\*\*)|(__[^_]+__)|(\*[^*]+\*)|(_[^_]+_)/g;
+  /(\\\([\s\S]+?\\\))|(\$[^$\n]+\$)|(!\[[^\]]*\]\([^)]+\))|(\[[^\]]+\]\([^)]+\))|(`[^`]+`)|(\*\*[^*]+\*\*)|(__[^_]+__)|(\*[^*]+\*)|(_[^_]+_)/g;
+
+function renderKatex(tex: string, displayMode = false): string {
+  return katex.renderToString(tex, {
+    displayMode,
+    throwOnError: false,
+    strict: false,
+    trust: false,
+  });
+}
+
+function MathMarkup({ tex, displayMode = false }: { tex: string; displayMode?: boolean }) {
+  const html = renderKatex(tex, displayMode);
+  if (displayMode) {
+    return (
+      <div
+        className="my-7 overflow-x-auto rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-5 text-center"
+        dangerouslySetInnerHTML={{ __html: html }}
+      />
+    );
+  }
+  return (
+    <span
+      className="mx-0.5 whitespace-nowrap align-baseline"
+      dangerouslySetInnerHTML={{ __html: html }}
+    />
+  );
+}
+
+function isLatexGraph(src: string): boolean {
+  return src.startsWith("/assets/latex/") && src.endsWith(".svg");
+}
+
+function MarkdownImage({ src, alt }: { src: string; alt: string }) {
+  if (isLatexGraph(src)) {
+    return (
+      <figure
+        data-graph="latex"
+        className="mx-auto my-8 max-w-2xl rounded-2xl border border-white/10 bg-white p-4 shadow-[0_10px_40px_-10px_oklch(0.62_0.22_265/0.35)]"
+      >
+        <img
+          src={src}
+          alt={alt}
+          loading="lazy"
+          className="mx-auto max-h-[420px] w-full object-contain"
+        />
+        {alt && (
+          <figcaption className="mt-3 text-center text-xs leading-relaxed text-slate-700">
+            {alt}
+          </figcaption>
+        )}
+      </figure>
+    );
+  }
+
+  return (
+    <img
+      src={src}
+      alt={alt}
+      loading="lazy"
+      className="my-6 w-full rounded-2xl border border-white/10"
+    />
+  );
+}
 
 function renderInline(text: string): ReactNode[] {
   const nodes: ReactNode[] = [];
@@ -23,16 +88,13 @@ function renderInline(text: string): ReactNode[] {
     }
     const token = match[0];
 
-    if (token.startsWith("![")) {
+    if (token.startsWith("\\(")) {
+      nodes.push(<MathMarkup key={i} tex={token.slice(2, -2)} />);
+    } else if (token.startsWith("$")) {
+      nodes.push(<MathMarkup key={i} tex={token.slice(1, -1)} />);
+    } else if (token.startsWith("![")) {
       const parts = /!\[([^\]]*)\]\(([^)]+)\)/.exec(token)!;
-      nodes.push(
-        <img
-          key={i}
-          src={parts[2]}
-          alt={parts[1]}
-          className="my-6 w-full rounded-2xl border border-white/10"
-        />,
-      );
+      nodes.push(<MarkdownImage key={i} src={parts[2]} alt={parts[1]} />);
     } else if (token.startsWith("[")) {
       const parts = /\[([^\]]+)\]\(([^)]+)\)/.exec(token)!;
       const href = parts[2];
@@ -92,6 +154,39 @@ function parseBlocks(md: string): ReactNode[] {
     const line = lines[i];
 
     if (isBlank(line)) {
+      i++;
+      continue;
+    }
+
+    if (line.trim().startsWith("$$") || line.trim().startsWith("\\[")) {
+      const opener = line.trim().startsWith("$$") ? "$$" : "\\[";
+      const closer = opener === "$$" ? "$$" : "\\]";
+      const math: string[] = [];
+      let current = line.trim().slice(opener.length);
+      if (current.endsWith(closer) && current.length > closer.length) {
+        math.push(current.slice(0, -closer.length));
+        i++;
+      } else {
+        if (current) math.push(current);
+        i++;
+        while (i < lines.length) {
+          current = lines[i].trim();
+          if (current.endsWith(closer)) {
+            math.push(current.slice(0, -closer.length));
+            i++;
+            break;
+          }
+          math.push(lines[i]);
+          i++;
+        }
+      }
+      out.push(<MathMarkup key={key++} tex={math.join("\n").trim()} displayMode />);
+      continue;
+    }
+
+    const image = /^!\[([^\]]*)\]\(([^)]+)\)\s*$/.exec(line.trim());
+    if (image) {
+      out.push(<MarkdownImage key={key++} src={image[2]} alt={image[1]} />);
       i++;
       continue;
     }

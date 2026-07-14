@@ -2,27 +2,130 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://metodonebula.es/</loc>
-    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://metodonebula.es/blog/</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/como-estudiar-matematicas-sin-memorizar</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/preparar-selectividad-con-calendario</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://metodonebula.es/blog/categoria/estadistica/</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/transicion-al-sector-it-en-6-meses</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://metodonebula.es/blog/categoria/programacion-y-datos/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/categoria/fisica-y-quimica/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/categoria/economia-y-ade/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/categoria/selectividad/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/categoria/carrera-tecnologica/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/estadistica-desde-cero-para-elegir-contrastes/</loc>
+    <lastmod>2026-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/python-y-sql-para-empezar-en-datos/</loc>
+    <lastmod>2026-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/fisica-y-quimica-como-plantear-problemas/</loc>
+    <lastmod>2026-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/economia-ade-matematicas-sin-perderse/</loc>
+    <lastmod>2026-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/ib-gcse-como-preparar-examenes-internacionales/</loc>
+    <lastmod>2026-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/que-son-las-derivadas-y-para-que-se-utilizan/</loc>
+    <lastmod>2026-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/que-son-las-integrales-y-para-que-se-utilizan/</loc>
+    <lastmod>2026-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/transicion-al-sector-it-en-6-meses/</loc>
+    <lastmod>2026-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/preparar-selectividad-con-calendario/</loc>
+    <lastmod>2026-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/como-estudiar-matematicas-sin-memorizar/</loc>
+    <lastmod>2026-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/clases-particulares/universidad/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/clases-particulares/matematicas-universidad/</loc>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/clases-particulares/estadistica-universidad/</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/clases-particulares/programacion-universidad/</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/clases-particulares/fisica-ingenieria/</loc>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/clases-particulares/economia-ade/</loc>
+    <priority>0.68</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/clases-particulares/quimica/</loc>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/clases-particulares/selectividad/</loc>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/clases-particulares/gcse-ib/</loc>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/sobre-nebula/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/metodologia/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/contacto/</loc>
     <priority>0.6</priority>
   </url>
 </urlset>

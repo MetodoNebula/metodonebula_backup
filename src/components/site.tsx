@@ -79,12 +79,23 @@ export function NebulaLogo({ className = "" }: { className?: string }) {
 /* -------------------------------------------------------------------------- */
 
 const NAV_LINKS = [
-  { href: "/#metodo", label: "Método" },
-  { href: "/#servicios", label: "Servicios" },
-  { href: "/#programas", label: "Programas" },
-  { href: "/blog", label: "Blog" },
-  { href: "/#contacto", label: "Contacto" },
+  { href: "/metodologia/", label: "Método" },
+  { href: "/clases-particulares/universidad/", label: "Servicios" },
+  { href: "/sobre-nebula/", label: "Sobre Nebula" },
+  { href: "/blog/", label: "Blog" },
+  { href: "/contacto/", label: "Contacto" },
 ];
+
+export function PageShell({ children }: { children: React.ReactNode }) {
+  return (
+    <div className="min-h-screen bg-background text-foreground antialiased">
+      <Navbar />
+      <main>{children}</main>
+      <Footer />
+      <WhatsAppFloat />
+    </div>
+  );
+}
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
@@ -107,7 +118,7 @@ export function Navbar() {
           ))}
         </nav>
         <div className="hidden md:block">
-          <PrimaryCTA href="/#contacto">Reservar diagnóstico</PrimaryCTA>
+          <PrimaryCTA href="/contacto/">Reservar diagnóstico</PrimaryCTA>
         </div>
         <button
           onClick={() => setOpen((v) => !v)}
@@ -132,7 +143,7 @@ export function Navbar() {
                 {l.label}
               </Link>
             ))}
-            <PrimaryCTA href="/#contacto" className="w-full">
+            <PrimaryCTA href="/contacto/" className="w-full">
               Reservar diagnóstico
             </PrimaryCTA>
           </div>
@@ -169,11 +180,11 @@ export function Footer() {
             <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Navegación</p>
             <ul className="mt-4 space-y-2 text-sm">
               {[
-                ["/#metodo", "Método"],
-                ["/#servicios", "Servicios"],
-                ["/#programas", "Programas"],
-                ["/blog", "Blog"],
-                ["/#contacto", "Contacto"],
+                ["/metodologia/", "Método"],
+                ["/clases-particulares/universidad/", "Clases universitarias"],
+                ["/sobre-nebula/", "Sobre Nebula"],
+                ["/blog/", "Blog"],
+                ["/contacto/", "Contacto"],
               ].map(([h, l]) => (
                 <li key={h}>
                   <Link to={h} className="text-foreground/80 hover:text-foreground">
@@ -223,13 +234,13 @@ export function Footer() {
         <div className="mt-12 flex flex-col items-start justify-between gap-3 border-t border-white/5 pt-6 text-xs text-muted-foreground md:flex-row md:items-center">
           <p>© {new Date().getFullYear()} Nebula. Todos los derechos reservados.</p>
           <div className="flex gap-5">
-            <a href="#" className="hover:text-foreground">
+            <a href="/contacto/" className="hover:text-foreground">
               Aviso legal
             </a>
-            <a href="#" className="hover:text-foreground">
+            <a href="/contacto/" className="hover:text-foreground">
               Privacidad
             </a>
-            <a href="#" className="hover:text-foreground">
+            <a href="/contacto/" className="hover:text-foreground">
               Cookies
             </a>
           </div>

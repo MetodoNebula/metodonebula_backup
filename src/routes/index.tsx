@@ -30,6 +30,8 @@ import {
 } from "lucide-react";
 
 import { EMAIL, EMAIL_URL, INSTAGRAM_URL, WHATSAPP_NUMBER, useCopyPhone } from "../lib/contact";
+import { usePageMeta } from "../lib/seo";
+import { siteData } from "../lib/site-data";
 import {
   Footer,
   GhostCTA,
@@ -41,6 +43,9 @@ import {
 } from "../components/site";
 
 export default function NebulaLanding() {
+  const page = siteData.corePages.find((item) => item.kind === "home")!;
+  usePageMeta({ title: page.title, description: page.description, path: page.path });
+
   return (
     <div className="min-h-screen bg-background text-foreground antialiased">
       <Navbar />
@@ -83,8 +88,8 @@ function Hero() {
             proceso de principio a fin.
           </p>
           <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <PrimaryCTA href="#contacto">Reservar diagnóstico</PrimaryCTA>
-            <GhostCTA href="#programas">Ver programas</GhostCTA>
+            <PrimaryCTA href="/contacto/">Reservar diagnóstico</PrimaryCTA>
+            <GhostCTA href="/clases-particulares/universidad/">Ver programas</GhostCTA>
           </div>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-muted-foreground">
             <AuthorityChip label="Matemático" />
@@ -437,7 +442,7 @@ function ServiceCard({ service }: { service: Service }) {
           </div>
 
           <div className="mt-auto">
-            <PrimaryCTA href="#contacto">{service.cta}</PrimaryCTA>
+            <PrimaryCTA href="/contacto/">{service.cta}</PrimaryCTA>
           </div>
         </div>
       </div>
@@ -522,7 +527,7 @@ function Method() {
             <span className="text-foreground">Preparación sin improvisación.</span> Método,
             calendario y seguimiento.
           </p>
-          <PrimaryCTA href="#contacto">Reservar diagnóstico</PrimaryCTA>
+          <PrimaryCTA href="/contacto/">Reservar diagnóstico</PrimaryCTA>
         </div>
       </div>
     </section>
@@ -683,7 +688,7 @@ function Testimonials() {
   const items = [
     {
       quote:
-        "Contactamos con Roberto para ayudar a nuestro hijo Igor. Empezó ingeniería informática y no lo llevaba nada bien. Roberto nos presentó su método para aprender desde cero y ha conseguido que Igor se interese mucho en la carrera. Contaremos con él para este curso y el siguiente. 100% recomendable.",
+        "Contactamos con Nebula para ayudar a nuestro hijo Igor. Empezó ingeniería informática y no lo llevaba nada bien. Nos presentaron un método para aprender desde cero y han conseguido que Igor se interese mucho en la carrera. Contaremos con ellos para este curso y el siguiente. 100% recomendable.",
       name: "Luis",
       date: "Junio de 2026",
       meta: "Padre de alumno · Ingeniería Informática",
@@ -697,14 +702,14 @@ function Testimonials() {
     },
     {
       quote:
-        "Contacté con Roberto para repaso de matemáticas de mi hija; la experiencia ha sido muy muy satisfactoria. Mi hija ha mejorado mucho con la asignatura y ahora disfruta y le gusta la materia. Roberto sabe transmitir bien al alumno, les aporta los recursos necesarios y explica con paciencia los contenidos hasta asegurar su comprensión. Se preocupa por sus resultados. Lo recomiendo 100%.",
+        "Contacté con Nebula para repaso de matemáticas de mi hija; la experiencia ha sido muy muy satisfactoria. Mi hija ha mejorado mucho con la asignatura y ahora disfruta y le gusta la materia. Saben transmitir bien al alumno, aportan los recursos necesarios y explican con paciencia los contenidos hasta asegurar su comprensión. Se preocupan por sus resultados. Lo recomiendo 100%.",
       name: "Cristina H L",
       date: "Junio de 2026",
       meta: "Madre de alumna · Matemáticas",
     },
     {
       quote:
-        "Muy buena experiencia con Roberto. Explica los conceptos de forma clara y ordenada, incluso los temas más complejos. Tiene paciencia para resolver dudas y se nota que domina la materia. Sus clases y material me han ayudado para preparar los exámenes de la uni y he ganado más confianza al hacer ejercicios y proyectos. Recomiendo totalmente sus clases.",
+        "Muy buena experiencia con Nebula. Explican los conceptos de forma clara y ordenada, incluso los temas más complejos. Hay paciencia para resolver dudas y se nota el dominio de la materia. Sus clases y material me han ayudado para preparar los exámenes de la uni y he ganado más confianza al hacer ejercicios y proyectos. Recomiendo totalmente sus clases.",
       name: "Álvaro Cebrián Sierra",
       date: "Junio de 2026",
       meta: "Alumno universitario",
@@ -859,7 +864,7 @@ function Programs() {
                     Planes personalizados según objetivo, nivel y calendario.
                   </p>
                   <a
-                    href="#contacto"
+                    href="/contacto/"
                     className="mt-4 inline-flex w-full items-center justify-center gap-2 rounded-full border border-white/15 bg-white/[0.03] px-5 py-3 text-sm font-medium transition-colors hover:border-white/30 hover:bg-white/[0.06]"
                   >
                     Solicitar diagnóstico
@@ -1009,7 +1014,7 @@ function FAQ() {
         </div>
 
         <div className="mt-10 text-center">
-          <PrimaryCTA href="#contacto">Reservar diagnóstico</PrimaryCTA>
+          <PrimaryCTA href="/contacto/">Reservar diagnóstico</PrimaryCTA>
         </div>
       </div>
     </section>

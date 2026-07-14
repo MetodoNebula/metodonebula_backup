@@ -5,12 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "vite build",
+    "build": "node scripts/build-site.mjs",
     "preview": "vite preview --host 127.0.0.1",
+    "latex:assets": "node scripts/compile-latex-assets.mjs",
+    "seo:validate": "node scripts/validate-static-site.mjs",
+    "blog:visual": "node --experimental-websocket scripts/visual-blog-audit.mjs",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
   "dependencies": {
+    "katex": "^0.17.0",
     "lucide-react": "0.575.0",
     "react": "19.2.0",
     "react-dom": "19.2.0"

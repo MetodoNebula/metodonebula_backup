@@ -1,5 +1,5 @@
 import NebulaLanding from "./routes";
-import { BlogIndex, BlogPost } from "./routes/blog";
+import { BlogCategoryPage, BlogIndex, BlogPost } from "./routes/blog";
 import {
   AboutPage,
   ContactPage,
@@ -16,6 +16,9 @@ export default function App() {
   const path = pathname.replace(/\/+$/, "") || "/";
 
   if (path === "/blog") return <BlogIndex />;
+  if (path.startsWith("/blog/categoria/")) {
+    return <BlogCategoryPage slug={decodeURIComponent(path.slice("/blog/categoria/".length))} />;
+  }
   if (path.startsWith("/blog/")) {
     return <BlogPost slug={decodeURIComponent(path.slice("/blog/".length))} />;
   }

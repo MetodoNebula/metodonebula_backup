@@ -28,6 +28,10 @@ function absoluteUrl(route) {
   return `${SITE_URL}${withTrailingSlash(route) === "/" ? "/" : withTrailingSlash(route)}`;
 }
 
+function blogCategoryPath(slug) {
+  return `/blog/categoria/${slug}/`;
+}
+
 function outputFileForRoute(route) {
   const clean = withTrailingSlash(route);
   if (clean === "/") return path.join(DIST, "index.html");
@@ -298,7 +302,7 @@ function blogIndexPage(posts) {
   const categories = SITE_DATA.blogCategories
     .map(
       (category) =>
-        `<li id="${category.slug}"><strong>${escapeHtml(category.name)}</strong>: ${escapeHtml(category.description)}</li>`,
+        `<li><a href="${blogCategoryPath(category.slug)}"><strong>${escapeHtml(category.name)}</strong></a>: ${escapeHtml(category.description)}</li>`,
     )
     .join("");
   const postCards = posts
@@ -330,6 +334,60 @@ function blogIndexPage(posts) {
       intro: page.intro,
       breadcrumbs: [{ label: "Blog", href: page.path }],
       children: `<h2>Categorias</h2><ul>${categories}</ul><h2>Articulos recientes</h2>${postCards}`,
+    }),
+  };
+}
+
+function blogCategoryPage(category, posts) {
+  const route = blogCategoryPath(category.slug);
+  const categoryPosts = posts.filter((post) => post.category === category.name);
+  const postCards = categoryPosts
+    .map(
+      (post) => `
+        <article>
+          <p>${escapeHtml(post.date)} Â· ${post.readingMinutes} min de lectura</p>
+          <h2><a href="/blog/${post.slug}/">${escapeHtml(post.title)}</a></h2>
+          <p>${escapeHtml(post.description)}</p>
+        </article>
+      `,
+    )
+    .join("");
+  const title = `${category.name}: articulos y guias | ${SITE_DATA.site.displayName}`;
+  const description = `${category.description} Articulos practicos de Metodo Nebula para estudiar con mas estructura.`;
+  return {
+    title,
+    description,
+    route,
+    priority: "0.6",
+    jsonLd: [
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        name: title,
+        description,
+        url: absoluteUrl(route),
+        isPartOf: {
+          "@type": "Blog",
+          name: SITE_DATA.corePages.find((item) => item.kind === "blog").h1,
+        },
+      },
+      breadcrumbJsonLd([
+        ["Inicio", "/"],
+        ["Blog", "/blog/"],
+        [category.name, route],
+      ]),
+    ],
+    body: shell({
+      label: "Categoria",
+      h1: category.name,
+      intro: category.description,
+      breadcrumbs: [
+        { label: "Blog", href: "/blog/" },
+        { label: category.name, href: route },
+      ],
+      children: categoryPosts.length
+        ? `<h2>Articulos de ${escapeHtml(category.name)}</h2>${postCards}`
+        : `<p>Todavia no hay entradas en esta categoria.</p>`,
     }),
   };
 }
@@ -631,6 +689,7 @@ const posts = loadPosts();
 const pages = [
   homePage(),
   blogIndexPage(posts),
+  ...SITE_DATA.blogCategories.map((category) => blogCategoryPage(category, posts)),
   ...posts.map((post) => postPage(post, posts)),
   serviceOverviewPage(),
   ...SITE_DATA.servicePages.map((page) => servicePage(page, posts)),

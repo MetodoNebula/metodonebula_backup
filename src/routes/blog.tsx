@@ -2,10 +2,23 @@ import { ArrowLeft, ArrowRight, CalendarDays, Clock } from "lucide-react";
 
 import { PageShell, PrimaryCTA, SectionLabel } from "../components/site";
 import { MarkdownContent } from "../lib/markdown";
-import { formatDate, getAllPosts, getPost, getRelatedPosts, type Post } from "../lib/posts";
+import {
+  formatDate,
+  getAllPosts,
+  getPost,
+  getPostsByCategory,
+  getRelatedPosts,
+  type Post,
+} from "../lib/posts";
 import { Link } from "../lib/router";
 import { usePageMeta } from "../lib/seo";
-import { absoluteUrl, siteData } from "../lib/site-data";
+import {
+  absoluteUrl,
+  blogCategoryPath,
+  findBlogCategory,
+  siteData,
+  type BlogCategory,
+} from "../lib/site-data";
 
 function JsonLd({ data }: { data: object }) {
   return (
@@ -71,22 +84,120 @@ export function BlogIndex() {
             <h2 className="font-display text-2xl font-semibold">Categorías</h2>
             <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
               {siteData.blogCategories.map((category) => (
-                <a
+                <Link
                   key={category.slug}
-                  href={`/blog/#${category.slug}`}
-                  className="rounded-2xl border border-white/8 bg-white/[0.02] p-4"
+                  to={blogCategoryPath(category.slug)}
+                  className="rounded-2xl border border-white/8 bg-white/[0.02] p-4 transition-colors hover:border-gold/35 hover:bg-gold/5"
                 >
                   <span className="text-sm font-semibold text-gold">{category.name}</span>
                   <span className="mt-1 block text-xs text-muted-foreground">
                     {category.description}
                   </span>
-                </a>
+                </Link>
               ))}
             </div>
           </div>
 
           {posts.length === 0 ? (
             <p className="text-muted-foreground">Todavía no hay entradas publicadas.</p>
+          ) : (
+            <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+              {posts.map((post) => (
+                <Link
+                  key={post.slug}
+                  to={`/blog/${post.slug}/`}
+                  className="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1"
+                >
+                  <PostMeta post={post} />
+                  <h2 className="mt-5 font-display text-xl font-semibold leading-snug group-hover:text-gold">
+                    {post.title}
+                  </h2>
+                  <p className="mt-3 grow text-sm leading-relaxed text-muted-foreground">
+                    {post.description}
+                  </p>
+                  <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-electric">
+                    Leer entrada
+                    <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+                  </span>
+                </Link>
+              ))}
+            </div>
+          )}
+        </div>
+      </section>
+    </PageShell>
+  );
+}
+
+export function BlogCategoryPage({ slug }: { slug: string }) {
+  const category = findBlogCategory(slug);
+
+  if (!category) {
+    return <PostNotFound />;
+  }
+
+  return <BlogCategoryView category={category} />;
+}
+
+function BlogCategoryView({ category }: { category: BlogCategory }) {
+  const posts = getPostsByCategory(category.name);
+  const path = blogCategoryPath(category.slug);
+  const title = `${category.name}: articulos y guias | ${siteData.site.displayName}`;
+  const description = `${category.description} Articulos practicos de Metodo Nebula para estudiar con mas estructura.`;
+  usePageMeta({ title, description, path });
+
+  return (
+    <PageShell>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          name: title,
+          description,
+          url: absoluteUrl(path),
+          isPartOf: {
+            "@type": "Blog",
+            name: siteData.corePages.find((item) => item.kind === "blog")?.h1,
+          },
+        }}
+      />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Inicio", item: absoluteUrl("/") },
+            { "@type": "ListItem", position: 2, name: "Blog", item: absoluteUrl("/blog/") },
+            { "@type": "ListItem", position: 3, name: category.name, item: absoluteUrl(path) },
+          ],
+        }}
+      />
+      <section className="relative overflow-hidden border-b border-white/5">
+        <div className="nebula-aurora pointer-events-none absolute inset-0 opacity-50" />
+        <div className="relative mx-auto max-w-7xl px-6 pt-12 pb-12 md:pt-16">
+          <Link
+            to="/blog/"
+            className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
+          >
+            <ArrowLeft className="h-4 w-4" />
+            Todas las categorias
+          </Link>
+          <div className="mt-8">
+            <SectionLabel>Categoria</SectionLabel>
+          </div>
+          <h1 className="mt-5 font-display text-4xl font-bold leading-[1.05] md:text-6xl">
+            {category.name}
+          </h1>
+          <p className="mt-5 max-w-2xl text-base text-muted-foreground md:text-lg">
+            {category.description}
+          </p>
+        </div>
+      </section>
+
+      <section className="py-16 md:py-20">
+        <div className="mx-auto max-w-7xl px-6">
+          {posts.length === 0 ? (
+            <p className="text-muted-foreground">Todavia no hay entradas en esta categoria.</p>
           ) : (
             <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
               {posts.map((post) => (

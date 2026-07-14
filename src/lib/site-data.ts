@@ -80,6 +80,14 @@ export function findCorePage(path: string): CorePage | undefined {
   return [...siteData.corePages, siteData.serviceOverview].find((page) => page.path === normal);
 }
 
+export function blogCategoryPath(slug: string): string {
+  return `/blog/categoria/${slug}/`;
+}
+
+export function findBlogCategory(slug: string): BlogCategory | undefined {
+  return siteData.blogCategories.find((category) => category.slug === slug);
+}
+
 export function findServicePage(path: string): ServicePage | undefined {
   const normal = withTrailingSlash(path);
   return siteData.servicePages.find((page) => page.path === normal);

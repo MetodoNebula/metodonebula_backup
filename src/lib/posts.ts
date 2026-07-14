@@ -98,6 +98,10 @@ export function getPost(slug: string): Post | undefined {
   return posts.find((post) => post.slug === slug);
 }
 
+export function getPostsByCategory(categoryName: string): Post[] {
+  return posts.filter((post) => post.category === categoryName);
+}
+
 export function getRelatedPosts(post: Post, limit = 3): Post[] {
   const explicit = post.relatedPosts
     .map((slug) => getPost(slug))

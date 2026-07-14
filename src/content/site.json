@@ -199,7 +199,7 @@
           "a": "No. Se orienta, explica y revisa el razonamiento, sin sustituir el trabajo academico del estudiante."
         }
       ],
-      "relatedPosts": ["como-estudiar-matematicas-sin-memorizar"],
+      "relatedPosts": ["estadistica-desde-cero-para-elegir-contrastes"],
       "priority": "0.7"
     },
     {
@@ -240,7 +240,7 @@
           "a": "Se explica el enfoque y se revisan dudas, pero no se entrega trabajo que deba realizar el alumno."
         }
       ],
-      "relatedPosts": ["transicion-al-sector-it-en-6-meses"],
+      "relatedPosts": ["python-y-sql-para-empezar-en-datos", "transicion-al-sector-it-en-6-meses"],
       "priority": "0.7"
     },
     {
@@ -281,7 +281,7 @@
           "a": "A menudo si. Se integran las herramientas necesarias sin convertirlo en otra asignatura."
         }
       ],
-      "relatedPosts": ["como-estudiar-matematicas-sin-memorizar"],
+      "relatedPosts": ["fisica-y-quimica-como-plantear-problemas"],
       "priority": "0.68"
     },
     {
@@ -322,7 +322,7 @@
           "a": "Si el calendario lo permite, se priorizan los bloques con mayor impacto en examen."
         }
       ],
-      "relatedPosts": ["como-estudiar-matematicas-sin-memorizar"],
+      "relatedPosts": ["economia-ade-matematicas-sin-perderse"],
       "priority": "0.68"
     },
     {
@@ -363,7 +363,7 @@
           "a": "Se atienden asignaturas introductorias si encajan con el temario y calendario."
         }
       ],
-      "relatedPosts": ["preparar-selectividad-con-calendario"],
+      "relatedPosts": ["fisica-y-quimica-como-plantear-problemas"],
       "priority": "0.65"
     },
     {
@@ -445,7 +445,7 @@
           "a": "Si. Se practica contenido, tiempo, rubrica y forma de justificar respuestas."
         }
       ],
-      "relatedPosts": ["preparar-selectividad-con-calendario"],
+      "relatedPosts": ["ib-gcse-como-preparar-examenes-internacionales"],
       "priority": "0.65"
     }
   ]

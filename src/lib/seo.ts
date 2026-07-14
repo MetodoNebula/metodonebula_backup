@@ -9,6 +9,8 @@ type MetaInput = {
   type?: "website" | "article";
   image?: string;
   robots?: string;
+  prevPath?: string;
+  nextPath?: string;
 };
 
 function upsertMeta(selector: string, attrs: Record<string, string>) {
@@ -32,6 +34,15 @@ function upsertLink(rel: string, href: string) {
   el.setAttribute("href", href);
 }
 
+function upsertOptionalLink(rel: string, href?: string) {
+  const el = document.head.querySelector<HTMLLinkElement>(`link[rel="${rel}"]`);
+  if (!href) {
+    el?.remove();
+    return;
+  }
+  upsertLink(rel, href);
+}
+
 export function usePageMeta({
   title,
   description,
@@ -39,6 +50,8 @@ export function usePageMeta({
   type = "website",
   image = siteData.site.logo,
   robots = "index,follow",
+  prevPath,
+  nextPath,
 }: MetaInput) {
   useEffect(() => {
     const url = absoluteUrl(path);
@@ -66,5 +79,7 @@ export function usePageMeta({
     });
     upsertMeta('meta[name="twitter:image"]', { name: "twitter:image", content: imageUrl });
     upsertLink("canonical", url);
-  }, [description, image, path, robots, title, type]);
+    upsertOptionalLink("prev", prevPath ? absoluteUrl(prevPath) : undefined);
+    upsertOptionalLink("next", nextPath ? absoluteUrl(nextPath) : undefined);
+  }, [description, image, nextPath, path, prevPath, robots, title, type]);
 }

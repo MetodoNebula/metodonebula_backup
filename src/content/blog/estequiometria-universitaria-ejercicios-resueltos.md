@@ -1,7 +1,7 @@
 ---
 title: Estequiometría universitaria: ejercicios resueltos de dificultad progresiva
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-07-07
+updated: 2026-07-07
 description: Ejercicios resueltos de estequiometría universitaria con masa molar, reactivo limitante, rendimiento, disoluciones y errores frecuentes.
 tag: Química
 category: Física y Química

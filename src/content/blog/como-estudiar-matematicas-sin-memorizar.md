@@ -1,7 +1,7 @@
 ---
 title: Cómo estudiar matemáticas sin memorizar fórmulas
-date: 2026-06-20
-updated: 2026-07-14
+date: 2026-05-20
+updated: 2026-05-20
 description: Un método práctico para dejar de estudiar matemáticas a base de memoria: concepto, problema tipo, explicación en voz alta y variaciones.
 tag: Método
 category: Matemáticas universitarias

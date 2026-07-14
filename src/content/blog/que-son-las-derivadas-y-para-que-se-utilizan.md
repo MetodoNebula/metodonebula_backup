@@ -1,7 +1,7 @@
 ---
 title: Qué son las derivadas y para qué se utilizan
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-06-19
+updated: 2026-06-19
 description: Una guía clara para entender las derivadas como pendiente, ritmo de cambio y herramienta para optimizar funciones.
 tag: Cálculo
 category: Matemáticas universitarias

@@ -1,7 +1,7 @@
 ---
 title: Derivadas e integrales universitarias: prueba de nivel con ejercicios resueltos
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-06-23
+updated: 2026-06-23
 description: Prueba de nivel de derivadas e integrales universitarias con ejercicios resueltos para detectar errores antes del examen de Cálculo.
 tag: Cálculo
 category: Matemáticas universitarias

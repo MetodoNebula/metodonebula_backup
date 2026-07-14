@@ -1,7 +1,7 @@
 ---
 title: Cómo aprobar Estadística en Psicología sin tener una buena base matemática
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-07-08
+updated: 2026-07-08
 description: Guía para aprobar Estadística en Psicología aunque tengas poca base matemática: conceptos, pruebas, interpretación y plan de estudio.
 tag: Psicología
 category: Estadística

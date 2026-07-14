@@ -1,7 +1,7 @@
 ---
 title: Álgebra Lineal en la universidad: qué estudiar primero y qué errores penalizan más
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-06-15
+updated: 2026-06-15
 description: Guía para estudiar Álgebra Lineal en la universidad: orden de temas, matrices, espacios vectoriales, diagonalización y errores frecuentes.
 tag: Álgebra Lineal
 category: Matemáticas universitarias

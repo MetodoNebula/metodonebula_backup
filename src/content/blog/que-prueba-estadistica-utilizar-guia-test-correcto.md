@@ -1,7 +1,7 @@
 ---
 title: Qué prueba estadística utilizar: guía para elegir el test correcto
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-07-09
+updated: 2026-07-09
 description: Guía práctica para elegir la prueba estadística correcta según la pregunta, el tipo de variable, el número de grupos y el diseño del estudio.
 tag: Estadística
 category: Estadística

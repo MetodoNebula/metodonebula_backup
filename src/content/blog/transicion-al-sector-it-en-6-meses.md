@@ -1,7 +1,7 @@
 ---
 title: Transición al sector IT en 6 meses: una ruta realista
-date: 2026-07-04
-updated: 2026-07-14
+date: 2026-06-04
+updated: 2026-06-04
 description: Una ruta de seis meses para entrar en tecnología con fundamentos, proyecto propio, portfolio y entrevistas preparadas.
 tag: Carrera IT
 category: Carrera tecnológica

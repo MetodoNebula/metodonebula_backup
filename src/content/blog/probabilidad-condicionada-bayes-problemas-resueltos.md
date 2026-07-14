@@ -1,7 +1,7 @@
 ---
 title: Probabilidad condicionada y teorema de Bayes: problemas universitarios resueltos
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-06-27
+updated: 2026-06-27
 description: Problemas resueltos de probabilidad condicionada y teorema de Bayes para universidad, con fórmulas, árboles y errores frecuentes.
 tag: Estadística
 category: Estadística

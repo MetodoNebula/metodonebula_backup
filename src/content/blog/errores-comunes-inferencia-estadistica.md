@@ -1,7 +1,7 @@
 ---
 title: Errores más comunes en Inferencia Estadística
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-07-12
+updated: 2026-07-12
 description: Lista explicada de errores frecuentes en Inferencia Estadística: hipótesis, p-valores, intervalos, supuestos, tamaño muestral e interpretación.
 tag: Inferencia
 category: Estadística

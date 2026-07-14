@@ -1,7 +1,7 @@
 ---
 title: Economía y ADE: cómo estudiar matemáticas sin perder el sentido económico
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-05-26
+updated: 2026-05-26
 description: Cómo estudiar matemáticas, estadística y modelos de Economía y ADE conectando gráfica, fórmula e interpretación.
 tag: Economía
 category: Economía y ADE

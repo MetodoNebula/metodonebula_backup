@@ -1,7 +1,7 @@
 ---
 title: Preparar la Selectividad con un calendario que sí se cumple
-date: 2026-06-28
-updated: 2026-07-14
+date: 2026-06-07
+updated: 2026-06-07
 description: Cómo convertir el temario de Selectividad o PAU en una hoja de ruta semanal con bloques, simulacros y margen real.
 tag: Exámenes
 category: Selectividad

@@ -1,7 +1,7 @@
 ---
 title: Circuitos eléctricos de corriente continua: problemas resueltos de nivel universitario
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-07-03
+updated: 2026-07-03
 description: Problemas resueltos de circuitos de corriente continua: ley de Ohm, resistencias equivalentes, Kirchhoff, potencia y errores habituales.
 tag: Física
 category: Física y Química

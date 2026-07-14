@@ -1,7 +1,7 @@
 ---
 title: Econometría desde cero: cómo interpretar una regresión correctamente
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-07-06
+updated: 2026-07-06
 description: Guía de Econometría desde cero para interpretar una regresión: coeficientes, significación, R², supuestos y errores frecuentes.
 tag: Econometría
 category: Estadística

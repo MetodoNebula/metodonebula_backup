@@ -1,7 +1,7 @@
 ---
 title: p-valor, intervalo de confianza y tamaño del efecto explicados con un mismo ejemplo
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-07-10
+updated: 2026-07-10
 description: Explicación clara de p-valor, intervalo de confianza y tamaño del efecto usando un mismo ejemplo aplicado a Psicología y Estadística.
 tag: Inferencia
 category: Estadística

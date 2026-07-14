@@ -30,6 +30,8 @@ export type Post = {
   body: string;
 };
 
+export const BLOG_PAGE_SIZE = 9;
+
 type Frontmatter = Record<string, string>;
 
 function parseFrontmatter(raw: string): { data: Frontmatter; body: string } {
@@ -92,6 +94,15 @@ const posts: Post[] = Object.entries(modules)
 
 export function getAllPosts(): Post[] {
   return posts;
+}
+
+export function getTotalPages(items: unknown[], pageSize = BLOG_PAGE_SIZE): number {
+  return Math.max(1, Math.ceil(items.length / pageSize));
+}
+
+export function getPageItems<T>(items: T[], page: number, pageSize = BLOG_PAGE_SIZE): T[] {
+  const start = (page - 1) * pageSize;
+  return items.slice(start, start + pageSize);
 }
 
 export function getPost(slug: string): Post | undefined {

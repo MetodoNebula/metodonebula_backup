@@ -1,7 +1,7 @@
 ---
 title: Cómo aprobar Física I en Ingeniería sin memorizar todas las fórmulas
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-06-29
+updated: 2026-06-29
 description: Método para aprobar Física I en Ingeniería entendiendo modelos, unidades, diagramas y leyes básicas sin depender de memorizar fórmulas.
 tag: Física
 category: Física y Química

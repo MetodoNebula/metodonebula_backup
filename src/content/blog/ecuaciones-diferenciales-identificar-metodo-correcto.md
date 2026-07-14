@@ -1,7 +1,7 @@
 ---
 title: Ecuaciones diferenciales: cómo identificar el método correcto paso a paso
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-06-17
+updated: 2026-06-17
 description: Aprende a identificar el método correcto en ecuaciones diferenciales: separables, lineales, exactas y de segundo orden con ejemplos.
 tag: Ecuaciones diferenciales
 category: Matemáticas universitarias

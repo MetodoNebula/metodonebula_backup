@@ -1,7 +1,7 @@
 ---
 title: Estadística desde cero: cómo elegir un contraste sin aplicar recetas
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-05-29
+updated: 2026-05-29
 description: Una guía práctica para elegir pruebas estadísticas a partir de la pregunta, las variables, los supuestos y la interpretación.
 tag: Estadística
 category: Estadística

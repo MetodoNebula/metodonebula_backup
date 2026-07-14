@@ -185,6 +185,7 @@ export function Footer() {
                 ["/clases-particulares/universidad/", "Clases desde ESO"],
                 ["/sobre-nebula/", "Sobre Nebula"],
                 ["/blog/", "Blog"],
+                ["/mapa-del-sitio/", "Mapa del sitio"],
                 ["/contacto/", "Contacto"],
               ].map(([h, l]) => (
                 <li key={h}>

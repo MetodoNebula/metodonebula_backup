@@ -1,7 +1,7 @@
 ---
 title: Diagramas de cuerpo libre: método paso a paso con errores frecuentes
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-07-01
+updated: 2026-07-01
 description: Aprende a hacer diagramas de cuerpo libre paso a paso: fuerzas reales, ejes, normal, rozamiento, tensión y errores frecuentes en Ingeniería.
 tag: Física
 category: Física y Química

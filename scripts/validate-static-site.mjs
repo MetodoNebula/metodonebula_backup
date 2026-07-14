@@ -56,6 +56,7 @@ const htmlFiles = findFiles(DIST);
 const titleMap = new Map();
 const generatedRoutes = new Set(["/404/"]);
 const pagesWithKatex = [];
+const indexableCanonicals = new Set();
 
 for (const file of htmlFiles) {
   const relative = path.relative(DIST, file).replace(/\\/g, "/");
@@ -79,6 +80,7 @@ for (const file of htmlFiles) {
     html,
   );
   const canonical = getFirst(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["'][^>]*>/i, html);
+  const robots = getFirst(/<meta\s+name=["']robots["']\s+content=["']([^"']+)["'][^>]*>/i, html);
   const h1Count = (html.match(/<h1[\s>]/gi) ?? []).length;
 
   if (!title) fail(`${relative}: missing title`);
@@ -94,6 +96,7 @@ for (const file of htmlFiles) {
     if (titleMap.has(title))
       fail(`${relative}: duplicate title also used by ${titleMap.get(title)}`);
     titleMap.set(title, relative);
+    if (canonical && !/noindex/i.test(robots)) indexableCanonicals.add(canonical);
   }
 
   for (const match of html.matchAll(
@@ -180,9 +183,17 @@ if (!fs.existsSync(sitemapPath)) {
   fail("missing sitemap.xml");
 } else {
   const sitemap = fs.readFileSync(sitemapPath, "utf8");
+  const sitemapUrls = new Set();
   for (const match of sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)) {
+    sitemapUrls.add(match[1]);
     const route = withTrailingSlash(routeFromUrl(match[1]));
     if (!generatedRoutes.has(route)) fail(`sitemap loc has no generated file: ${match[1]}`);
+  }
+  for (const canonical of indexableCanonicals) {
+    if (!sitemapUrls.has(canonical)) fail(`canonical URL missing from sitemap: ${canonical}`);
+  }
+  for (const url of sitemapUrls) {
+    if (!indexableCanonicals.has(url)) fail(`sitemap URL is not an indexable canonical: ${url}`);
   }
 }
 

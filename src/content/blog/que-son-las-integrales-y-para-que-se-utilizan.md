@@ -1,7 +1,7 @@
 ---
 title: Qué son las integrales y para qué se utilizan
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-06-21
+updated: 2026-06-21
 description: Una explicación práctica de las integrales como acumulación, área bajo la curva y herramienta para medir cantidades totales.
 tag: Cálculo
 category: Matemáticas universitarias

@@ -1,7 +1,7 @@
 ---
 title: Python y SQL para empezar en datos: qué aprender primero
-date: 2026-07-14
-updated: 2026-07-14
+date: 2026-06-01
+updated: 2026-06-01
 description: Una ruta inicial para estudiar programación y datos sin saltar entre cursos: SQL, Python, fundamentos y un proyecto pequeño.
 tag: Programación
 category: Programación y datos

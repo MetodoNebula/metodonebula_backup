@@ -1,59 +1,83 @@
 ---
-title: Estadistica desde cero: como elegir un contraste sin aplicar recetas
+title: Estadística desde cero: cómo elegir un contraste sin aplicar recetas
 date: 2026-07-14
 updated: 2026-07-14
-description: Una guia practica para dejar de elegir pruebas estadisticas al azar y empezar por variable, pregunta, supuestos e interpretacion.
-tag: Estadistica
-category: Estadistica
+description: Una guía práctica para elegir pruebas estadísticas a partir de la pregunta, las variables, los supuestos y la interpretación.
+tag: Estadística
+category: Estadística
 relatedService: /clases-particulares/estadistica-universidad/
-relatedPosts: como-estudiar-matematicas-sin-memorizar,economia-ade-matematicas-sin-perderse
+relatedPosts: economia-ade-matematicas-sin-perderse,como-estudiar-matematicas-sin-memorizar
 image: /favicon.svg
 ---
 
-Uno de los bloqueos mas frecuentes en estadistica no esta en calcular, sino en decidir. El alumno conoce varias pruebas, ha visto tablas y formulas, pero cuando aparece un enunciado nuevo no sabe si toca una media, una proporcion, una regresion o un contraste de independencia.
+En Estadística muchos alumnos no se bloquean al calcular, sino al decidir. Conocen varias pruebas, han visto tablas y fórmulas, pero cuando aparece un enunciado nuevo no saben si toca comparar medias, proporciones, una regresión o un contraste de independencia.
 
-La solucion no es memorizar una lista mas larga. Es construir una secuencia de decision.
+La solución no es memorizar otra lista. Es construir una secuencia de decisión.
 
 ## Empieza por la pregunta
 
-Antes de tocar una formula, escribe en una frase que quieres responder:
+Antes de elegir técnica, escribe en una frase qué quieres responder:
 
-1. Quiero comparar dos medias.
-2. Quiero comprobar si dos variables categoricas estan relacionadas.
-3. Quiero estimar un valor con incertidumbre.
-4. Quiero explicar una variable a partir de otra.
+1. Comparar dos medias.
+2. Estimar un parámetro con incertidumbre.
+3. Comprobar si dos variables categóricas están relacionadas.
+4. Explicar una variable mediante otra.
 
-Esa frase reduce mucho el espacio de opciones. Sin ella, cualquier contraste parece posible.
+Sin esa frase, cualquier contraste parece posible. Con ella, el abanico se reduce mucho.
 
-## Mira el tipo de variable
+## Identifica variables y muestra
 
-El segundo filtro es la naturaleza de los datos:
+El segundo filtro es la estructura de los datos:
 
-- Variable cuantitativa: notas, tiempos, ingresos, pesos.
-- Variable categorica: aprobado/suspenso, grupo A/B, tipo de cliente.
+- Variable cuantitativa o categórica.
+- Una muestra, dos muestras o más de dos grupos.
 - Muestras independientes o emparejadas.
-- Tamano muestral y supuestos razonables.
+- Tamaño muestral y supuestos razonables.
 
-No se elige la prueba por el capitulo del temario. Se elige por la pregunta y por la estructura de los datos.
+No se elige una prueba por el capítulo del temario. Se elige por la pregunta y por la forma de los datos.
 
-## Interpreta antes de cerrar
+## Hipótesis antes que cálculo
 
-Un p-valor no es una frase magica. Despues de calcular, debes poder explicar:
+Un contraste se entiende mejor cuando las hipótesis están escritas antes de operar. Por ejemplo:
 
-- Que hipotesis estabas comparando.
-- Que significaria rechazar o no rechazar.
-- Que limitaciones tiene la conclusion.
-- Si el resultado tiene importancia practica o solo significacion estadistica.
+$$
+H_0:\mu_1=\mu_2, \qquad H_1:\mu_1\neq\mu_2
+$$
 
-## Un protocolo simple
+Después puedes calcular, pero el resultado debe volver a una frase: qué evidencia hay, qué decisión tomas y qué limitación mantiene la conclusión.
 
-Cuando no sepas que hacer, usa este orden:
+## Interpreta el p-valor
+
+Un p-valor no significa "probabilidad de que la hipótesis nula sea cierta". Significa que, si el modelo y \(H_0\) fueran adecuados, observar un resultado tan extremo sería más o menos compatible con lo esperado.
+
+Por eso conviene terminar cada ejercicio con interpretación:
+
+- Qué hipótesis comparaste.
+- Qué criterio de decisión usaste.
+- Qué conclusión práctica puedes defender.
+- Qué supuestos podrían cambiar la lectura.
+
+## Protocolo simple
+
+Cuando no sepas qué hacer, sigue este orden:
 
 1. Redacta la pregunta.
 2. Identifica variable respuesta y variable explicativa.
 3. Clasifica el tipo de variables.
-4. Revisa independencia, normalidad o tamano muestral.
-5. Elige tecnica.
+4. Revisa independencia, normalidad o tamaño muestral.
+5. Elige técnica.
 6. Interpreta en lenguaje natural.
 
-Si estas preparando probabilidad, inferencia o regresion, puedes revisar la pagina de [clases particulares de Estadistica universitaria](/clases-particulares/estadistica-universidad/) o [contarnos tu caso](/contacto/).
+## Señales de que estás aplicando recetas
+
+Hay algunos avisos claros:
+
+- Empiezas por buscar una fórmula antes de leer la pregunta.
+- No sabes decir qué representa cada variable.
+- El resultado numérico no termina en una conclusión escrita.
+- Cambia el enunciado y ya no sabes si el mismo contraste sigue siendo válido.
+- Te aprendes "si pasa esto, hago aquello" sin revisar supuestos.
+
+La estadística universitaria se vuelve mucho más manejable cuando separas decisión, cálculo e interpretación. Cada parte tiene su dificultad, pero también su método de estudio.
+
+Si estás preparando probabilidad, inferencia, regresión o estadística para TFG/TFM, revisa [clases particulares de Estadística universitaria](/clases-particulares/estadistica-universidad/) o [cuéntanos tu caso](/contacto/).

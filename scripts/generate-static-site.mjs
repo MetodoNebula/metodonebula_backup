@@ -116,6 +116,19 @@ function displayMathHtml(tex) {
   return `<div class="my-7 overflow-x-auto rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-5 text-center">${renderKatex(tex, true)}</div>`;
 }
 
+function isLatexGraph(src) {
+  return src.startsWith("/assets/latex/") && src.endsWith(".svg");
+}
+
+function imageHtml(src, alt) {
+  const safeSrc = escapeHtml(src);
+  const safeAlt = escapeHtml(alt);
+  if (isLatexGraph(src)) {
+    return `<figure data-graph="latex" class="mx-auto my-8 max-w-2xl rounded-2xl border border-white/10 bg-white p-4 shadow-[0_10px_40px_-10px_oklch(0.62_0.22_265/0.35)]"><img src="${safeSrc}" alt="${safeAlt}" loading="lazy" class="mx-auto max-h-[420px] w-full object-contain"><figcaption class="mt-3 text-center text-xs leading-relaxed text-slate-700">${safeAlt}</figcaption></figure>`;
+  }
+  return `<img src="${safeSrc}" alt="${safeAlt}" loading="lazy" class="my-6 w-full rounded-2xl border border-white/10">`;
+}
+
 function inlineMarkdown(text) {
   const out = [];
   let lastIndex = 0;
@@ -133,7 +146,7 @@ function inlineMarkdown(text) {
       out.push(renderKatex(token.slice(1, -1)));
     } else if (token.startsWith("![")) {
       const parts = /!\[([^\]]*)\]\(([^)]+)\)/.exec(token);
-      out.push(`<img src="${escapeHtml(parts[2])}" alt="${escapeHtml(parts[1])}" loading="lazy">`);
+      out.push(imageHtml(parts[2], parts[1]));
     } else if (token.startsWith("[")) {
       const parts = /\[([^\]]+)\]\(([^)]+)\)/.exec(token);
       out.push(`<a href="${escapeHtml(parts[2])}">${escapeHtml(parts[1])}</a>`);
@@ -185,6 +198,12 @@ function markdownToHtml(md) {
         }
       }
       out.push(displayMathHtml(math.join("\n").trim()));
+      continue;
+    }
+    const image = /^!\[([^\]]*)\]\(([^)]+)\)\s*$/.exec(line.trim());
+    if (image) {
+      out.push(imageHtml(image[2], image[1]));
+      i++;
       continue;
     }
     const heading = /^(#{1,6})\s+(.*)$/.exec(line);
@@ -352,13 +371,13 @@ function homePage() {
       },
     ],
     body: shell({
-      label: "Metodo Nebula",
+      label: "Método Nebula",
       h1: page.h1,
       intro: page.intro,
       children: `
         <h2>Servicios principales</h2>
         <ul>${serviceLinks}</ul>
-        <p><a href="/blog/">Leer el blog</a> · <a href="/contacto/">Reservar diagnostico</a></p>
+        <p><a href="/blog/">Leer el blog</a> · <a href="/contacto/">Reservar diagnóstico</a></p>
       `,
     }),
   };
@@ -400,7 +419,7 @@ function blogIndexPage(posts) {
       h1: page.h1,
       intro: page.intro,
       breadcrumbs: [{ label: "Blog", href: page.path }],
-      children: `<h2>Categorias</h2><ul>${categories}</ul><h2>Articulos recientes</h2>${postCards}`,
+      children: `<h2>Categorías</h2><ul>${categories}</ul><h2>Artículos recientes</h2>${postCards}`,
     }),
   };
 }
@@ -412,15 +431,15 @@ function blogCategoryPage(category, posts) {
     .map(
       (post) => `
         <article>
-          <p>${escapeHtml(post.date)} Â· ${post.readingMinutes} min de lectura</p>
+          <p>${escapeHtml(post.date)} · ${post.readingMinutes} min de lectura</p>
           <h2><a href="/blog/${post.slug}/">${escapeHtml(post.title)}</a></h2>
           <p>${escapeHtml(post.description)}</p>
         </article>
       `,
     )
     .join("");
-  const title = `${category.name}: articulos y guias | ${SITE_DATA.site.displayName}`;
-  const description = `${category.description} Articulos practicos de Metodo Nebula para estudiar con mas estructura.`;
+  const title = `${category.name}: artículos y guías | ${SITE_DATA.site.displayName}`;
+  const description = `${category.description} Artículos prácticos de Método Nebula para estudiar con más estructura.`;
   return {
     title,
     description,
@@ -445,7 +464,7 @@ function blogCategoryPage(category, posts) {
       ]),
     ],
     body: shell({
-      label: "Categoria",
+      label: "Categoría",
       h1: category.name,
       intro: category.description,
       breadcrumbs: [
@@ -454,7 +473,7 @@ function blogCategoryPage(category, posts) {
       ],
       children: categoryPosts.length
         ? `<h2>Articulos de ${escapeHtml(category.name)}</h2>${postCards}`
-        : `<p>Todavia no hay entradas en esta categoria.</p>`,
+        : `<p>Todavía no hay entradas en esta categoría.</p>`,
     }),
   };
 }
@@ -542,7 +561,7 @@ function serviceOverviewPage() {
       h1: page.h1,
       intro: page.intro,
       breadcrumbs: [{ label: "Clases universitarias", href: page.path }],
-      children: `<h2>Materias</h2><ul>${links}</ul><p><a href="/contacto/">Solicitar diagnostico</a></p>`,
+      children: `<h2>Materias</h2><ul>${links}</ul><p><a href="/contacto/">Solicitar diagnóstico</a></p>`,
     }),
   };
 }
@@ -581,7 +600,7 @@ function servicePage(page, posts) {
           .map((item) => `<h3>${escapeHtml(item.q)}</h3><p>${escapeHtml(item.a)}</p>`)
           .join("")}
         <h2>Lecturas relacionadas</h2><ul>${related}</ul>
-        <p><a href="/contacto/">Solicitar diagnostico</a></p>
+        <p><a href="/contacto/">Solicitar diagnóstico</a></p>
       `,
     }),
   };
@@ -614,7 +633,7 @@ function corePage(kind) {
       ],
     ],
     contact: [
-      ["WhatsApp", "Telefono visible en la web para iniciar el diagnostico."],
+      ["WhatsApp", "Teléfono visible en la web para iniciar el diagnóstico."],
       ["Email", "Canal de admisiones para explicar asignatura, examen o cambio profesional."],
       [
         "Datos legales pendientes",
@@ -654,9 +673,9 @@ function corePage(kind) {
 
 function notFoundPage() {
   return {
-    title: "Pagina no encontrada | Metodo Nebula",
+    title: "Página no encontrada | Método Nebula",
     description:
-      "La pagina solicitada no existe. Vuelve al inicio, consulta el blog o contacta con Metodo Nebula.",
+      "La página solicitada no existe. Vuelve al inicio, consulta el blog o contacta con Método Nebula.",
     route: "/404/",
     robots: "noindex,follow",
     body: shell({
@@ -737,7 +756,7 @@ function writeRss(posts) {
     .join("");
   fs.writeFileSync(
     path.join(DIST, "rss.xml"),
-    `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>Blog de Metodo Nebula</title><link>${SITE_URL}/blog/</link><description>Guias academicas y de carrera de Metodo Nebula.</description>${items}\n</channel></rss>\n`,
+    `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>Blog de Método Nebula</title><link>${SITE_URL}/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>${items}\n</channel></rss>\n`,
   );
 }
 

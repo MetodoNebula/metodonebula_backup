@@ -2,66 +2,68 @@
 title: Preparar la Selectividad con un calendario que sí se cumple
 date: 2026-06-28
 updated: 2026-07-14
-description: Estudiar sin plan es la receta perfecta para llegar tarde. Cómo convertir el temario en una hoja de ruta semanal con simulacros y margen real.
+description: Cómo convertir el temario de Selectividad o PAU en una hoja de ruta semanal con bloques, simulacros y margen real.
 tag: Exámenes
 category: Selectividad
 relatedService: /clases-particulares/selectividad/
-relatedPosts: como-estudiar-matematicas-sin-memorizar,transicion-al-sector-it-en-6-meses
+relatedPosts: como-estudiar-matematicas-sin-memorizar,ib-gcse-como-preparar-examenes-internacionales
 image: /favicon.svg
 ---
 
-Cuando quedan pocas semanas para la Selectividad (PAU), el enemigo no es el temario: es la **falta de dirección**. Se estudia lo que apetece, se repasa lo que ya se domina y se evita justo lo que más se atasca.
+Cuando se acerca la Selectividad, el riesgo no es solo tener mucho temario. El riesgo es estudiar sin dirección: repasar lo que ya sale bien, aplazar lo difícil y llegar a los simulacros demasiado tarde.
 
-Un buen calendario resuelve eso. No hace magia, pero **ordena el esfuerzo** para que cada hora cuente.
+Un calendario útil no es una tabla bonita. Es un sistema de decisiones: qué toca esta semana, qué evidencia demuestra progreso y qué se corrige antes de seguir.
 
 ## Empieza por el final
 
-Antes de tocar un solo tema, fija tres cosas:
+Antes de repartir temas, fija tres datos:
 
-- La **fecha del examen** de cada asignatura.
-- Tu **nota objetivo** realista según de dónde partes.
-- Las **semanas disponibles** hasta entonces.
+- Fecha de cada examen.
+- Nota objetivo y margen realista.
+- Semanas disponibles hasta la prueba.
 
-Con eso ya puedes repartir el temario hacia atrás desde el día del examen, en lugar de avanzar a ciegas desde hoy.
+Con eso puedes trabajar hacia atrás desde el día del examen. No todas las asignaturas necesitan el mismo peso y no todos los temas tienen el mismo retorno. El calendario debe reflejarlo.
 
-## Bloques de contenido, no maratones
+## Bloques pequeños y medibles
 
-Dividir el estudio en bloques cortos y concretos funciona mucho mejor que las sesiones eternas:
+Un bloque de estudio productivo debería terminar con una salida concreta:
 
-1. **Repaso activo** del tema (resumen a mano, sin mirar apuntes).
-2. **Ejercicios tipo examen** de ese tema.
-3. **Corrección honesta**: marcar qué falló y por qué.
+1. Resumen activo del tema sin copiar apuntes.
+2. Ejercicios tipo examen.
+3. Corrección con lista de errores.
+4. Un mini objetivo para la siguiente sesión.
 
-> Estudiar no es leer apuntes hasta que "suenan". Es ponerte a prueba y corregir lo que falla.
+La pregunta no es "¿cuántas horas he estudiado?", sino "¿qué soy capaz de resolver mejor que ayer?".
 
-## Reserva tiempo para simulacros
+## Simulacros antes de la última semana
 
-Un error clásico: dejar los exámenes de años anteriores para el final. Los simulacros no son el repaso, **son el entrenamiento**. Hazlos con tiempo cronometrado desde varias semanas antes para acostumbrarte a la presión y detectar lagunas mientras aún hay margen para arreglarlas.
+Dejar los exámenes de años anteriores para el final es un error frecuente. Los simulacros sirven para entrenar tiempo, presión, formato y gestión de errores. Si aparecen tarde, ya no hay margen para corregir patrones.
 
-## Ejemplo de semana de trabajo
+Empieza con simulacros parciales y aumenta la duración cuando el contenido esté más asentado. Después de cada simulacro, separa fallos en tres grupos: concepto, procedimiento y tiempo.
 
-Una semana útil no se organiza por "estudiar Matemáticas" o "repasar Física", sino por entregables:
+## Ejemplo de semana
 
-1. Lunes: bloque de teoría y formulario activo de un tema.
-2. Martes: cinco ejercicios tipo examen del mismo bloque.
+Una semana razonable podría organizarse así:
+
+1. Lunes: repaso activo y formulario de un tema.
+2. Martes: ejercicios tipo examen del mismo bloque.
 3. Miércoles: corrección y lista de errores.
 4. Jueves: segundo bloque o tema débil.
 5. Viernes: mini simulacro cronometrado.
-6. Fin de semana: una sesión corta para recuperar lo que se haya retrasado.
+6. Fin de semana: recuperación de retrasos o repaso ligero.
 
-Este esquema se ajusta a cada asignatura, pero mantiene una idea: cada semana debe dejar evidencia de progreso, no solo horas tachadas.
+El calendario debe tener colchón. Si no hay huecos, se romperá el primer día que un tema sea más difícil de lo previsto.
 
-## Deja margen para lo imprevisto
+## Señales de que el plan no funciona
 
-Un calendario sin huecos se rompe el primer día que te encuentras mal o se complica un tema. Deja **una tarde libre a la semana** como colchón. Si no la necesitas, repasas; si la necesitas, te salva el plan entero.
+- Avanzas temas sin corregir ejercicios.
+- Repasas siempre lo que ya dominas.
+- No sabes qué errores se repiten.
+- Los simulacros llegan al final.
+- El plan exige una energía que no puedes sostener.
 
-## Errores frecuentes
+## Cómo lo trabajamos
 
-- Empezar por los temas que ya salen bien para sentir avance.
-- No corregir los simulacros con una lista de fallos reutilizable.
-- Copiar calendarios ajenos sin adaptarlos a notas objetivo y calendario real.
-- No reservar descanso: un plan agotador rara vez se cumple.
+En Nebula el calendario se construye con asignaturas, nota objetivo, fechas y punto de partida. Después se revisa semanalmente para ajustar prioridades.
 
----
-
-En Nebula montamos este calendario contigo y revisamos el progreso cada semana. Si te juegas el curso en este examen, revisa la página de [clases particulares para Selectividad y PAU](/clases-particulares/selectividad/) o [reserva un diagnóstico](/contacto/) y lo preparamos juntos.
+Si necesitas preparar PAU, Matemáticas, Física, Química u otra materia con un plan medible, revisa [clases particulares para Selectividad y PAU](/clases-particulares/selectividad/) o [reserva un diagnóstico](/contacto/).

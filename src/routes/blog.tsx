@@ -142,8 +142,8 @@ export function BlogCategoryPage({ slug }: { slug: string }) {
 function BlogCategoryView({ category }: { category: BlogCategory }) {
   const posts = getPostsByCategory(category.name);
   const path = blogCategoryPath(category.slug);
-  const title = `${category.name}: articulos y guias | ${siteData.site.displayName}`;
-  const description = `${category.description} Articulos practicos de Metodo Nebula para estudiar con mas estructura.`;
+  const title = `${category.name}: artículos y guías | ${siteData.site.displayName}`;
+  const description = `${category.description} Artículos prácticos de Método Nebula para estudiar con más estructura.`;
   usePageMeta({ title, description, path });
 
   return (
@@ -180,10 +180,10 @@ function BlogCategoryView({ category }: { category: BlogCategory }) {
             className="inline-flex items-center gap-2 text-sm text-muted-foreground transition-colors hover:text-foreground"
           >
             <ArrowLeft className="h-4 w-4" />
-            Todas las categorias
+            Todas las categorías
           </Link>
           <div className="mt-8">
-            <SectionLabel>Categoria</SectionLabel>
+            <SectionLabel>Categoría</SectionLabel>
           </div>
           <h1 className="mt-5 font-display text-4xl font-bold leading-[1.05] md:text-6xl">
             {category.name}
@@ -197,7 +197,7 @@ function BlogCategoryView({ category }: { category: BlogCategory }) {
       <section className="py-16 md:py-20">
         <div className="mx-auto max-w-7xl px-6">
           {posts.length === 0 ? (
-            <p className="text-muted-foreground">Todavia no hay entradas en esta categoria.</p>
+            <p className="text-muted-foreground">Todavía no hay entradas en esta categoría.</p>
           ) : (
             <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
               {posts.map((post) => (
@@ -355,7 +355,7 @@ function PostView({ post }: { post: Post }) {
 function PostNotFound() {
   usePageMeta({
     title: `Entrada no encontrada | ${siteData.site.displayName}`,
-    description: "No encontramos esta entrada del blog de Metodo Nebula.",
+    description: "No encontramos esta entrada del blog de Método Nebula.",
     path: "/blog/",
     robots: "noindex,follow",
   });

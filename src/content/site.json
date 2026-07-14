@@ -1,7 +1,7 @@
 {
   "site": {
-    "name": "Metodo Nebula",
-    "displayName": "Metodo Nebula",
+    "name": "Método Nebula",
+    "displayName": "Método Nebula",
     "url": "https://metodonebula.es",
     "language": "es-ES",
     "logo": "/favicon.svg",
@@ -11,12 +11,12 @@
       "path": "/sobre-nebula/",
       "jobTitle": "Mentor academico y profesional",
       "knowsAbout": [
-        "Matematicas",
-        "Fisica",
-        "Quimica",
-        "Estadistica",
-        "Programacion",
-        "Economia",
+        "Matemáticas",
+        "Física",
+        "Química",
+        "Estadística",
+        "Programación",
+        "Economía",
         "Inteligencia Artificial"
       ]
     }
@@ -34,10 +34,10 @@
     {
       "path": "/blog/",
       "kind": "blog",
-      "title": "Blog de Matematicas, Ciencia y Universidad | Metodo Nebula",
-      "description": "Guias practicas sobre matematicas, ciencia, universidad, Selectividad, programacion y carrera tecnologica escritas desde el metodo Nebula.",
-      "h1": "Blog de matematicas, ciencia, universidad y carrera tecnologica",
-      "intro": "Articulos para estudiar con metodo, preparar examenes con calendario y tomar decisiones academicas con mas criterio.",
+      "title": "Blog de Matemáticas, Ciencia y Universidad | Método Nebula",
+      "description": "Guías prácticas sobre matemáticas, ciencia, universidad, Selectividad, programación y carrera tecnológica escritas desde el método Nebula.",
+      "h1": "Blog de matemáticas, ciencia, universidad y carrera tecnológica",
+      "intro": "Artículos para estudiar con método, preparar exámenes con calendario y tomar decisiones académicas con más criterio.",
       "priority": "0.8"
     },
     {
@@ -70,29 +70,29 @@
   ],
   "blogCategories": [
     {
-      "name": "Matematicas universitarias",
+      "name": "Matemáticas universitarias",
       "slug": "matematicas-universitarias",
-      "description": "Calculo, algebra, demostraciones y estrategias para estudiar asignaturas cuantitativas con metodo."
+      "description": "Cálculo, álgebra, demostraciones y estrategias para estudiar asignaturas cuantitativas con método."
     },
     {
-      "name": "Estadistica",
+      "name": "Estadística",
       "slug": "estadistica",
-      "description": "Inferencia, probabilidad, modelos, TFG y TFM con lectura critica de resultados."
+      "description": "Inferencia, probabilidad, modelos, TFG y TFM con lectura crítica de resultados."
     },
     {
-      "name": "Programacion y datos",
+      "name": "Programación y datos",
       "slug": "programacion-y-datos",
-      "description": "Python, SQL, proyectos, fundamentos de software y preparacion tecnica."
+      "description": "Python, SQL, proyectos, fundamentos de software y preparación técnica."
     },
     {
-      "name": "Fisica y Quimica",
+      "name": "Física y Química",
       "slug": "fisica-y-quimica",
-      "description": "Problemas tipo, unidades, razonamiento fisico y quimica para examenes."
+      "description": "Problemas tipo, unidades, razonamiento físico y química para exámenes."
     },
     {
-      "name": "Economia y ADE",
+      "name": "Economía y ADE",
       "slug": "economia-y-ade",
-      "description": "Matematicas, estadistica, microeconomia y modelos aplicados a grados de empresa."
+      "description": "Matemáticas, estadística, microeconomía y modelos aplicados a grados de empresa."
     },
     {
       "name": "Selectividad",
@@ -100,14 +100,14 @@
       "description": "Calendarios, simulacros y estrategia para PAU y pruebas de acceso."
     },
     {
-      "name": "Examenes internacionales",
+      "name": "Exámenes internacionales",
       "slug": "examenes-internacionales",
-      "description": "IB, GCSE e IGCSE con foco en rubricas, practica y gestion del tiempo."
+      "description": "IB, GCSE e IGCSE con foco en rúbricas, práctica y gestión del tiempo."
     },
     {
-      "name": "Carrera tecnologica",
+      "name": "Carrera tecnológica",
       "slug": "carrera-tecnologica",
-      "description": "Rutas de aprendizaje, portfolio, entrevistas y transicion profesional a tecnologia."
+      "description": "Rutas de aprendizaje, portfolio, entrevistas y transición profesional a tecnología."
     }
   ],
   "serviceOverview": {

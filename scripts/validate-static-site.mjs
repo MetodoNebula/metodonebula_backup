@@ -97,6 +97,18 @@ for (const file of htmlFiles) {
   }
 
   for (const match of html.matchAll(
+    /<img\s+[^>]*src=["']([^"']*\/assets\/latex\/[^"']+\.svg)["'][^>]*>/gi,
+  )) {
+    const beforeImage = html.slice(Math.max(0, match.index - 260), match.index);
+    if (!beforeImage.includes('data-graph="latex"')) {
+      fail(`${relative}: LaTeX graph ${match[1]} is missing the production graph wrapper`);
+    }
+    if (!match[0].includes("max-h-[420px]") || !match[0].includes("object-contain")) {
+      fail(`${relative}: LaTeX graph ${match[1]} is missing size-safe image classes`);
+    }
+  }
+
+  for (const match of html.matchAll(
     /<script\s+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi,
   )) {
     try {

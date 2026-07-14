@@ -40,6 +40,42 @@ function MathMarkup({ tex, displayMode = false }: { tex: string; displayMode?: b
   );
 }
 
+function isLatexGraph(src: string): boolean {
+  return src.startsWith("/assets/latex/") && src.endsWith(".svg");
+}
+
+function MarkdownImage({ src, alt }: { src: string; alt: string }) {
+  if (isLatexGraph(src)) {
+    return (
+      <figure
+        data-graph="latex"
+        className="mx-auto my-8 max-w-2xl rounded-2xl border border-white/10 bg-white p-4 shadow-[0_10px_40px_-10px_oklch(0.62_0.22_265/0.35)]"
+      >
+        <img
+          src={src}
+          alt={alt}
+          loading="lazy"
+          className="mx-auto max-h-[420px] w-full object-contain"
+        />
+        {alt && (
+          <figcaption className="mt-3 text-center text-xs leading-relaxed text-slate-700">
+            {alt}
+          </figcaption>
+        )}
+      </figure>
+    );
+  }
+
+  return (
+    <img
+      src={src}
+      alt={alt}
+      loading="lazy"
+      className="my-6 w-full rounded-2xl border border-white/10"
+    />
+  );
+}
+
 function renderInline(text: string): ReactNode[] {
   const nodes: ReactNode[] = [];
   let lastIndex = 0;
@@ -58,14 +94,7 @@ function renderInline(text: string): ReactNode[] {
       nodes.push(<MathMarkup key={i} tex={token.slice(1, -1)} />);
     } else if (token.startsWith("![")) {
       const parts = /!\[([^\]]*)\]\(([^)]+)\)/.exec(token)!;
-      nodes.push(
-        <img
-          key={i}
-          src={parts[2]}
-          alt={parts[1]}
-          className="my-6 w-full rounded-2xl border border-white/10"
-        />,
-      );
+      nodes.push(<MarkdownImage key={i} src={parts[2]} alt={parts[1]} />);
     } else if (token.startsWith("[")) {
       const parts = /\[([^\]]+)\]\(([^)]+)\)/.exec(token)!;
       const href = parts[2];
@@ -152,6 +181,13 @@ function parseBlocks(md: string): ReactNode[] {
         }
       }
       out.push(<MathMarkup key={key++} tex={math.join("\n").trim()} displayMode />);
+      continue;
+    }
+
+    const image = /^!\[([^\]]*)\]\(([^)]+)\)\s*$/.exec(line.trim());
+    if (image) {
+      out.push(<MarkdownImage key={key++} src={image[2]} alt={image[1]} />);
+      i++;
       continue;
     }
 

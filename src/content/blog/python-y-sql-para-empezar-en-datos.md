@@ -1,57 +1,78 @@
 ---
-title: Python y SQL para empezar en datos: que aprender primero
+title: Python y SQL para empezar en datos: qué aprender primero
 date: 2026-07-14
 updated: 2026-07-14
-description: Una ruta inicial para estudiar programacion y datos sin saltar entre cursos: fundamentos, SQL, Python y un proyecto pequeno.
-tag: Programacion
-category: Programacion y datos
+description: Una ruta inicial para estudiar programación y datos sin saltar entre cursos: SQL, Python, fundamentos y un proyecto pequeño.
+tag: Programación
+category: Programación y datos
 relatedService: /clases-particulares/programacion-universidad/
 relatedPosts: transicion-al-sector-it-en-6-meses,estadistica-desde-cero-para-elegir-contrastes
 image: /favicon.svg
 ---
 
-Aprender datos suele empezar con una duda razonable: "que estudio primero, Python, SQL, estadistica, Power BI, cloud o machine learning". El problema aparece cuando intentas estudiar todo a la vez y no terminas nada.
+Aprender datos suele empezar con una duda razonable: ¿qué estudio primero, Python, SQL, estadística, Power BI, cloud o machine learning? La confusión aparece cuando intentas estudiar todo a la vez y no cierras nada.
 
-Para una base solida, conviene ordenar la ruta.
+Para construir una base sólida, conviene ordenar la ruta.
 
-## SQL antes de complicarte
+## Empieza por SQL
 
-SQL te obliga a pensar en tablas, filtros, agrupaciones y relaciones. Es directo, muy usado y permite resultados rapidos:
+SQL te obliga a pensar en tablas, filtros, agrupaciones y relaciones. Es directo, muy usado y permite comprobar rápido si entiendes los datos.
+
+Los primeros bloques deberían ser:
 
 - Seleccionar columnas.
 - Filtrar filas.
 - Agrupar y resumir.
 - Unir tablas.
-- Leer datos con criterio.
+- Leer resultados con criterio.
 
-Si no entiendes una tabla, Python no va a salvar el analisis.
+Si no entiendes una tabla, Python no va a arreglar el análisis. Solo hará que el error tenga más código alrededor.
 
-## Python como herramienta de trabajo
+## Usa Python como herramienta
 
-Despues entra Python, pero con foco:
+Después entra Python, pero con foco:
 
 1. Variables, listas, diccionarios y funciones.
 2. Lectura de errores.
 3. Pandas para cargar y transformar datos.
-4. Graficos sencillos para responder preguntas.
+4. Gráficos sencillos para responder preguntas.
 5. Scripts o notebooks reproducibles.
 
-No hace falta aprender todo el lenguaje para empezar. Hace falta saber resolver problemas pequenos sin copiar.
+No hace falta aprender todo el lenguaje para empezar. Hace falta resolver problemas pequeños sin copiar y saber explicar cada decisión.
 
-## El proyecto minimo
+## Construye un proyecto mínimo
 
-Un buen primer proyecto de datos puede ser sencillo:
+Un primer proyecto de datos puede ser suficiente si está cerrado:
 
-- Un dataset limpio.
-- Tres preguntas de negocio o contexto.
+- Dataset limpio y documentado.
+- Tres preguntas concretas.
 - Consultas SQL o transformaciones en Python.
-- Visualizaciones basicas.
-- Un README que explique decisiones y limitaciones.
+- Visualizaciones básicas.
+- README con decisiones, limitaciones y próximos pasos.
 
-Lo importante es que puedas defender el proceso de principio a fin.
+El objetivo no es impresionar por tamaño. Es demostrar que puedes pasar de una pregunta a una respuesta defendible.
 
-## Como estudiar sin dispersarte
+## Evita la dispersión
 
-Dedica dos semanas a SQL, dos a Python basico y dos a un mini proyecto. Si una semana no produce una salida visible, ajusta el alcance.
+Una ruta razonable puede ser:
 
-Para acompanar esta base puedes ver [clases particulares de Programacion universitaria](/clases-particulares/programacion-universidad/) o leer tambien la ruta de [transicion al sector IT en 6 meses](/blog/transicion-al-sector-it-en-6-meses/).
+1. Dos semanas de SQL.
+2. Dos semanas de Python básico.
+3. Dos semanas de mini proyecto.
+4. Una semana para documentar y explicar.
+
+Si una semana no produce una salida visible, reduce alcance. Mejor terminar algo pequeño que abandonar algo enorme.
+
+## Cómo saber si avanzas
+
+No midas el progreso por horas de vídeo. Mídelo por entregables:
+
+- Puedes escribir una consulta sin mirar una solución.
+- Lees un error de Python y entiendes dónde buscar.
+- Tu notebook se ejecuta desde arriba hasta abajo.
+- El README explica qué hiciste y por qué.
+- Puedes contar el proyecto en tres minutos sin perderte en detalles.
+
+Esa evidencia es la que convierte el estudio en una base profesional.
+
+Para acompañar esta base puedes revisar [clases particulares de Programación universitaria](/clases-particulares/programacion-universidad/) o leer la ruta de [transición al sector IT en 6 meses](/blog/transicion-al-sector-it-en-6-meses/).

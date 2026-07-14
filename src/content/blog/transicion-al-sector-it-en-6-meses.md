@@ -2,65 +2,59 @@
 title: Transición al sector IT en 6 meses: una ruta realista
 date: 2026-07-04
 updated: 2026-07-14
-description: Ni magia ni cursos infinitos. Un plan de seis meses para cambiar de sector con un proyecto real, un perfil sólido y entrevistas preparadas.
+description: Una ruta de seis meses para entrar en tecnología con fundamentos, proyecto propio, portfolio y entrevistas preparadas.
 tag: Carrera IT
-category: Carrera tecnologica
+category: Carrera tecnológica
 relatedService: /clases-particulares/programacion-universidad/
-relatedPosts: como-estudiar-matematicas-sin-memorizar,preparar-selectividad-con-calendario
+relatedPosts: python-y-sql-para-empezar-en-datos,estadistica-desde-cero-para-elegir-contrastes
 image: /favicon.svg
 ---
 
-Cambiar de sector para entrar en tecnología es posible, pero **no de cualquier manera**. El error más habitual es acumular cursos sueltos: uno de Python, otro de SQL, un tutorial de IA a medias... y seis meses después seguir sin nada que enseñar.
+Cambiar de sector para entrar en tecnología es posible, pero no funciona acumulando cursos sin criterio. El error más habitual es estudiar un poco de Python, otro poco de SQL, algo de IA y varios tutoriales sueltos sin terminar nada defendible.
 
-La diferencia entre quien lo consigue y quien se queda por el camino casi nunca es el talento. Es **tener una ruta y seguirla**.
+La diferencia entre avanzar y quedarse dando vueltas suele ser una ruta clara: un destino, fundamentos suficientes, un proyecto terminado y práctica para explicar decisiones.
 
-## Elige un destino, no diez
+## Elige una dirección
 
-"Quiero entrar en IT" es demasiado amplio. Antes de estudiar nada, decide una dirección:
+"Quiero entrar en IT" es demasiado amplio. Para seis meses necesitas foco:
 
-- **Data / Analytics**: SQL, Python, visualización.
-- **Desarrollo**: un lenguaje, fundamentos web, Git.
-- **Cloud / DevOps**: Linux, redes, un proveedor (AWS o GCP).
+- **Datos y analytics:** SQL, Python, limpieza de datos, visualización y comunicación.
+- **Desarrollo:** fundamentos de programación, Git, web básica, pruebas y despliegue.
+- **Cloud o DevOps inicial:** Linux, redes, automatización y un proveedor concreto.
 
-No hace falta acertar "para siempre". Hace falta **elegir una** y comprometerte los próximos meses.
+No hace falta acertar para siempre. Hace falta elegir una dirección durante el tiempo suficiente para generar evidencia.
 
-## Los seis meses, por fases
+## La ruta de seis meses
 
-1. **Mes 1-2 — Fundamentos.** Lo básico del stack elegido, sin saltar etapas.
-2. **Mes 3-4 — Proyecto real.** Algo que resuelva un problema concreto y que puedas subir a GitHub.
-3. **Mes 5 — Perfil.** CV, LinkedIn y portfolio construidos alrededor de ese proyecto.
-4. **Mes 6 — Entrevistas.** Práctica técnica y simulacros hasta que estructurar una respuesta sea automático.
+1. **Meses 1 y 2: fundamentos.** Aprende lo mínimo que se repite en cualquier proyecto: control de flujo, estructuras, lectura de errores, Git y terminal.
+2. **Meses 3 y 4: proyecto.** Construye algo pequeño pero completo. Debe tener objetivo, datos o entradas, código reproducible y README.
+3. **Mes 5: perfil.** Ordena CV, LinkedIn, GitHub y relato profesional alrededor del proyecto.
+4. **Mes 6: entrevistas.** Practica preguntas técnicas, explicación de decisiones y simulaciones.
 
-> Un proyecto terminado del que sabes hablar vale más que diez cursos a medias en tu certificado.
+Un proyecto terminado del que sabes hablar vale más que diez certificados que no conectan entre sí.
 
-## El proyecto lo cambia todo
+## Qué debe demostrar tu proyecto
 
-Tu proyecto es la prueba de que sabes hacer, no solo estudiar. Que sea **pequeño pero completo**: mejor un análisis de datos bien hecho de principio a fin que una aplicación enorme sin terminar.
+Un primer proyecto no tiene que ser enorme. Tiene que ser claro:
 
-Y sobre todo: aprende a **contarlo**. En la entrevista no van a leer tu código, van a escuchar cómo piensas.
+- Qué problema resuelve.
+- Qué decisiones tomaste.
+- Cómo se ejecuta.
+- Qué limitaciones tiene.
+- Qué mejorarías en una segunda versión.
 
-## Ejemplo de proyecto defendible
-
-Un proyecto inicial de datos puede ser suficiente si está cerrado:
-
-1. Pregunta concreta: por ejemplo, analizar patrones de demanda, precios o rendimiento.
-2. Dataset limpio y documentado.
-3. Notebook o script reproducible.
-4. Consultas SQL o transformaciones explicadas.
-5. Visualizaciones que respondan a la pregunta.
-6. README con decisiones, limitaciones y siguientes pasos.
-
-No hace falta que sea enorme. Hace falta que puedas explicar por qué tomaste cada decisión y qué harías si el proyecto creciera.
+En una entrevista no basta con enseñar código. Tienes que explicar cómo pensaste.
 
 ## Errores frecuentes
 
-- Aprender tres lenguajes a la vez sin terminar ningún proyecto.
-- Subir repositorios sin README ni instrucciones de ejecución.
-- Preparar entrevistas solo leyendo preguntas, sin simular respuestas.
-- Ocultar la experiencia previa en vez de traducirla a valor profesional.
+- Aprender tres lenguajes a la vez.
+- No terminar ningún proyecto.
+- Subir repositorios sin README ni instrucciones.
+- Preparar entrevistas leyendo preguntas sin responder en voz alta.
+- Ocultar experiencia previa en vez de traducirla a valor.
 
-## No lo hagas en solitario
+## Cómo sostener el ritmo
 
-La parte más dura no es el temario, es **sostener el ritmo** cuando nadie te pide cuentas. Ahí es donde un mentor marca la diferencia: ordena la ruta, revisa el proyecto y te prepara las entrevistas.
+La parte dura no es solo el temario. Es mantener continuidad cuando aparecen dudas, cansancio o comparación con perfiles más avanzados. Por eso conviene revisar progreso cada semana y cerrar entregables pequeños.
 
-Si estás pensando en dar el salto, puedes empezar por la página de [programación universitaria y fundamentos](/clases-particulares/programacion-universidad/) o [contarnos tu caso](/contacto/) para trazar una ruta a medida.
+Si estás empezando desde cero, puedes leer [Python y SQL para empezar en datos](/blog/python-y-sql-para-empezar-en-datos/) o revisar [clases de programación universitaria y fundamentos](/clases-particulares/programacion-universidad/).

@@ -1,0 +1,452 @@
+{
+  "site": {
+    "name": "Metodo Nebula",
+    "displayName": "Metodo Nebula",
+    "url": "https://metodonebula.es",
+    "language": "es-ES",
+    "logo": "/favicon.svg",
+    "social": ["https://instagram.com/nebula.lambda"],
+    "author": {
+      "name": "Roberto Hernandez",
+      "path": "/sobre-nebula/",
+      "jobTitle": "Mentor academico y profesional",
+      "knowsAbout": [
+        "Matematicas",
+        "Fisica",
+        "Quimica",
+        "Estadistica",
+        "Programacion",
+        "Economia",
+        "Inteligencia Artificial"
+      ]
+    }
+  },
+  "corePages": [
+    {
+      "path": "/",
+      "kind": "home",
+      "title": "Clases particulares para Universidad y Selectividad | Metodo Nebula",
+      "description": "Clases particulares premium para universidad, Selectividad, IB, GCSE y transicion IT con diagnostico, plan de estudio y seguimiento personalizado.",
+      "h1": "Clases particulares para Universidad, Selectividad y objetivos academicos exigentes",
+      "intro": "Metodo Nebula combina rigor academico, planificacion y acompanamiento individual para estudiar con direccion, no a base de improvisacion.",
+      "priority": "1.0"
+    },
+    {
+      "path": "/blog/",
+      "kind": "blog",
+      "title": "Blog de Matematicas, Ciencia y Universidad | Metodo Nebula",
+      "description": "Guias practicas sobre matematicas, ciencia, universidad, Selectividad, programacion y carrera tecnologica escritas desde el metodo Nebula.",
+      "h1": "Blog de matematicas, ciencia, universidad y carrera tecnologica",
+      "intro": "Articulos para estudiar con metodo, preparar examenes con calendario y tomar decisiones academicas con mas criterio.",
+      "priority": "0.8"
+    },
+    {
+      "path": "/sobre-nebula/",
+      "kind": "about",
+      "title": "Sobre Metodo Nebula y Roberto Hernandez",
+      "description": "Conoce el enfoque docente de Metodo Nebula: diagnostico, plan individual, explicacion rigurosa y seguimiento academico personalizado.",
+      "h1": "Sobre Metodo Nebula",
+      "intro": "Metodo Nebula es una propuesta de ensenanza privada para alumnos que necesitan claridad, estructura y criterio tecnico en asignaturas exigentes.",
+      "priority": "0.6"
+    },
+    {
+      "path": "/metodologia/",
+      "kind": "method",
+      "title": "Metodologia de estudio y seguimiento | Metodo Nebula",
+      "description": "La metodologia Nebula ordena el estudio en diagnostico, plan, clases, material propio, practica y seguimiento semanal.",
+      "h1": "Metodologia Nebula",
+      "intro": "El objetivo no es sumar horas, sino convertir cada sesion en una decision dentro de un plan medible.",
+      "priority": "0.6"
+    },
+    {
+      "path": "/contacto/",
+      "kind": "contact",
+      "title": "Contacto y diagnostico academico | Metodo Nebula",
+      "description": "Contacta con Metodo Nebula para explicar tu asignatura, examen o cambio profesional y recibir una propuesta de trabajo personalizada.",
+      "h1": "Contacto y diagnostico",
+      "intro": "El primer paso es una conversacion breve para entender objetivo, punto de partida, calendario y encaje real del acompanamiento.",
+      "priority": "0.6"
+    }
+  ],
+  "blogCategories": [
+    {
+      "name": "Matematicas universitarias",
+      "slug": "matematicas-universitarias",
+      "description": "Calculo, algebra, demostraciones y estrategias para estudiar asignaturas cuantitativas con metodo."
+    },
+    {
+      "name": "Estadistica",
+      "slug": "estadistica",
+      "description": "Inferencia, probabilidad, modelos, TFG y TFM con lectura critica de resultados."
+    },
+    {
+      "name": "Programacion y datos",
+      "slug": "programacion-y-datos",
+      "description": "Python, SQL, proyectos, fundamentos de software y preparacion tecnica."
+    },
+    {
+      "name": "Fisica y Quimica",
+      "slug": "fisica-y-quimica",
+      "description": "Problemas tipo, unidades, razonamiento fisico y quimica para examenes."
+    },
+    {
+      "name": "Economia y ADE",
+      "slug": "economia-y-ade",
+      "description": "Matematicas, estadistica, microeconomia y modelos aplicados a grados de empresa."
+    },
+    {
+      "name": "Selectividad",
+      "slug": "selectividad",
+      "description": "Calendarios, simulacros y estrategia para PAU y pruebas de acceso."
+    },
+    {
+      "name": "Examenes internacionales",
+      "slug": "examenes-internacionales",
+      "description": "IB, GCSE e IGCSE con foco en rubricas, practica y gestion del tiempo."
+    },
+    {
+      "name": "Carrera tecnologica",
+      "slug": "carrera-tecnologica",
+      "description": "Rutas de aprendizaje, portfolio, entrevistas y transicion profesional a tecnologia."
+    }
+  ],
+  "serviceOverview": {
+    "path": "/clases-particulares/universidad/",
+    "kind": "service-overview",
+    "title": "Clases particulares universitarias | Metodo Nebula",
+    "description": "Clases particulares universitarias de matematicas, estadistica, programacion, fisica, quimica y economia con plan individual.",
+    "h1": "Clases particulares universitarias con diagnostico, plan y seguimiento",
+    "intro": "Para estudiantes que necesitan ordenar una asignatura tecnica, preparar un examen o recuperar criterio despues de semanas de bloqueo.",
+    "priority": "0.8"
+  },
+  "servicePages": [
+    {
+      "path": "/clases-particulares/matematicas-universidad/",
+      "title": "Clases particulares de Matematicas universitarias | Metodo Nebula",
+      "description": "Clases de matematicas universitarias para Calculo, Algebra, Ecuaciones Diferenciales y asignaturas cuantitativas con metodo de problemas.",
+      "h1": "Clases particulares de Matematicas universitarias",
+      "audience": "Para estudiantes de ingenieria, ciencias, economia o grados tecnicos que entienden partes sueltas del temario, pero se bloquean al resolver ejercicios nuevos.",
+      "problems": [
+        "Memorizar formulas sin saber cuando aplicarlas.",
+        "Perderse en los cambios de variable, limites, derivadas o integrales.",
+        "No reconocer el metodo adecuado ante un problema de examen.",
+        "Llegar a practicas o parciales sin mapa de temas."
+      ],
+      "topics": [
+        "Calculo diferencial e integral",
+        "Algebra lineal",
+        "Ecuaciones diferenciales",
+        "Matematica discreta",
+        "Optimizacion",
+        "Problemas tipo de examen"
+      ],
+      "method": [
+        "Diagnostico de lagunas por bloques.",
+        "Mapa de metodos y condiciones de uso.",
+        "Resolucion guiada de problemas representativos.",
+        "Ejercicios propios para repetir el razonamiento sin copiar soluciones.",
+        "Seguimiento semanal hasta ganar autonomia."
+      ],
+      "profile": "Roberto Hernandez trabaja las matematicas desde el razonamiento: entender por que aparece cada paso antes de automatizarlo.",
+      "faq": [
+        {
+          "q": "¿Sirve si empiezo desde muy bajo?",
+          "a": "Si, siempre que haya calendario suficiente. El diagnostico separa lo urgente de lo estructural."
+        },
+        {
+          "q": "¿Preparais examenes concretos?",
+          "a": "Se trabaja con el temario, ejercicios tipo y formato de examen que aporte el alumno."
+        }
+      ],
+      "relatedPosts": ["como-estudiar-matematicas-sin-memorizar"],
+      "priority": "0.75"
+    },
+    {
+      "path": "/clases-particulares/estadistica-universidad/",
+      "title": "Clases particulares de Estadistica universitaria | Metodo Nebula",
+      "description": "Clases de estadistica universitaria para probabilidad, inferencia, contrastes, regresion y analisis de datos con interpretacion rigurosa.",
+      "h1": "Clases particulares de Estadistica universitaria",
+      "audience": "Para estudiantes que necesitan entender que prueba utilizar, como interpretar resultados y como evitar aplicar recetas sin criterio.",
+      "problems": [
+        "Confundir probabilidad, inferencia y descriptiva.",
+        "Elegir contrastes sin comprobar supuestos.",
+        "Interpretar p-valores o intervalos de confianza de forma mecanica.",
+        "No saber traducir un enunciado a hipotesis y variables."
+      ],
+      "topics": [
+        "Probabilidad",
+        "Variables aleatorias",
+        "Estimacion e intervalos",
+        "Contrastes de hipotesis",
+        "Regresion",
+        "Estadistica para TFG y TFM"
+      ],
+      "method": [
+        "Diagnostico de notacion, conceptos y software.",
+        "Arbol de decision para elegir tecnicas.",
+        "Ejemplos con interpretacion verbal.",
+        "Practica con ejercicios y resultados.",
+        "Revision de errores frecuentes antes de examen."
+      ],
+      "profile": "El enfoque prioriza entender que pregunta responde cada tecnica y que conclusiones se pueden defender.",
+      "faq": [
+        {
+          "q": "¿Ayudais con software estadistico?",
+          "a": "Se puede trabajar la logica del analisis y el uso de herramientas cuando el alumno aporta el entorno de la asignatura."
+        },
+        {
+          "q": "¿Haceis trabajos por el alumno?",
+          "a": "No. Se orienta, explica y revisa el razonamiento, sin sustituir el trabajo academico del estudiante."
+        }
+      ],
+      "relatedPosts": ["como-estudiar-matematicas-sin-memorizar"],
+      "priority": "0.7"
+    },
+    {
+      "path": "/clases-particulares/programacion-universidad/",
+      "title": "Clases particulares de Programacion universitaria | Metodo Nebula",
+      "description": "Clases de programacion universitaria desde cero para Python, SQL, fundamentos, proyectos y asignaturas de informatica.",
+      "h1": "Clases particulares de Programacion universitaria",
+      "audience": "Para estudiantes que se atascan al pasar de ver ejemplos a escribir codigo propio, depurar errores y explicar decisiones tecnicas.",
+      "problems": [
+        "Copiar codigo sin entender el flujo.",
+        "Bloquearse ante errores de compilacion o ejecucion.",
+        "No saber dividir un problema en funciones.",
+        "Llegar a practicas sin habito de depuracion."
+      ],
+      "topics": [
+        "Python y fundamentos",
+        "SQL",
+        "Estructuras de datos",
+        "APIs y Git",
+        "Proyectos pequenos completos",
+        "Preparacion de entrevistas basicas"
+      ],
+      "method": [
+        "Diagnostico de nivel y lenguaje.",
+        "Problemas pequenos con feedback inmediato.",
+        "Lectura de errores y depuracion guiada.",
+        "Refactorizacion para mejorar claridad.",
+        "Proyecto o practica defendible por el alumno."
+      ],
+      "profile": "La programacion se trabaja como pensamiento estructurado, no como coleccion de sintaxis.",
+      "faq": [
+        {
+          "q": "¿Puedo empezar sin base?",
+          "a": "Si. Se empieza por variables, control de flujo, funciones y lectura de errores."
+        },
+        {
+          "q": "¿Preparais practicas universitarias?",
+          "a": "Se explica el enfoque y se revisan dudas, pero no se entrega trabajo que deba realizar el alumno."
+        }
+      ],
+      "relatedPosts": ["transicion-al-sector-it-en-6-meses"],
+      "priority": "0.7"
+    },
+    {
+      "path": "/clases-particulares/fisica-ingenieria/",
+      "title": "Clases particulares de Fisica para Ingenieria | Metodo Nebula",
+      "description": "Clases de fisica para ingenieria con foco en problemas, unidades, modelos, razonamiento y preparacion de examenes.",
+      "h1": "Clases particulares de Fisica para Ingenieria",
+      "audience": "Para estudiantes que necesitan pasar de formulas aisladas a modelos fisicos claros antes de resolver problemas.",
+      "problems": [
+        "No identificar fuerzas, sistema o energia relevante.",
+        "Mezclar unidades o signos sin control.",
+        "Aprender formulas sin interpretar el fenomeno.",
+        "No saber plantear el diagrama inicial."
+      ],
+      "topics": [
+        "Mecanica",
+        "Electricidad y magnetismo",
+        "Ondas",
+        "Termodinamica",
+        "Fisica general",
+        "Problemas de examen"
+      ],
+      "method": [
+        "Diagnostico de conceptos y herramientas matematicas.",
+        "Planteamiento grafico antes de calcular.",
+        "Control de unidades y ordenes de magnitud.",
+        "Practica guiada con variantes.",
+        "Simulacros parciales."
+      ],
+      "profile": "El trabajo busca que el alumno sepa justificar el modelo antes de operar.",
+      "faq": [
+        {
+          "q": "¿Se trabaja desde apuntes de mi universidad?",
+          "a": "Si, se parte del temario y formato de ejercicios de la asignatura."
+        },
+        {
+          "q": "¿La fisica requiere reforzar matematicas?",
+          "a": "A menudo si. Se integran las herramientas necesarias sin convertirlo en otra asignatura."
+        }
+      ],
+      "relatedPosts": ["como-estudiar-matematicas-sin-memorizar"],
+      "priority": "0.68"
+    },
+    {
+      "path": "/clases-particulares/economia-ade/",
+      "title": "Clases particulares de Economia y ADE | Metodo Nebula",
+      "description": "Apoyo en economia, ADE, matematicas financieras, estadistica, microeconomia y asignaturas cuantitativas de empresa.",
+      "h1": "Clases particulares de Economia y ADE",
+      "audience": "Para estudiantes de ADE, Economia o dobles grados que necesitan ordenar la parte cuantitativa y entender modelos.",
+      "problems": [
+        "Ver las matematicas como obstaculo separado de la economia.",
+        "No entender graficas, derivadas o elasticidades.",
+        "Confundir procedimientos de estadistica aplicada.",
+        "Estudiar teoria sin practicar problemas representativos."
+      ],
+      "topics": [
+        "Matematicas para ADE",
+        "Microeconomia",
+        "Estadistica aplicada",
+        "Econometria introductoria",
+        "Matematica financiera",
+        "Optimizacion"
+      ],
+      "method": [
+        "Diagnostico de base matematica.",
+        "Conexion entre modelo, grafica y calculo.",
+        "Problemas tipo con interpretacion economica.",
+        "Material de repaso por bloques.",
+        "Plan de examen con prioridades."
+      ],
+      "profile": "Se busca que el alumno entienda que representa cada formula dentro del problema economico.",
+      "faq": [
+        {
+          "q": "¿Sirve para grados no tecnicos?",
+          "a": "Si, especialmente cuando la dificultad esta en traducir matematicas a decisiones economicas."
+        },
+        {
+          "q": "¿Preparais recuperaciones?",
+          "a": "Si el calendario lo permite, se priorizan los bloques con mayor impacto en examen."
+        }
+      ],
+      "relatedPosts": ["como-estudiar-matematicas-sin-memorizar"],
+      "priority": "0.68"
+    },
+    {
+      "path": "/clases-particulares/quimica/",
+      "title": "Clases particulares de Quimica | Metodo Nebula",
+      "description": "Clases de quimica para bachillerato, universidad inicial y preparacion de examenes con razonamiento, ejercicios y seguimiento.",
+      "h1": "Clases particulares de Quimica",
+      "audience": "Para alumnos que necesitan entender reacciones, equilibrio, calculos y teoria antes de memorizar procedimientos.",
+      "problems": [
+        "Confundir formulas con significado quimico.",
+        "No controlar estequiometria o unidades.",
+        "Perderse en equilibrio, acido-base o redox.",
+        "Estudiar teoria sin suficientes problemas corregidos."
+      ],
+      "topics": [
+        "Estequiometria",
+        "Enlace y estructura",
+        "Equilibrio quimico",
+        "Acido-base",
+        "Redox",
+        "Quimica para examenes"
+      ],
+      "method": [
+        "Diagnostico de conceptos basicos.",
+        "Traduccion del enunciado a datos y reaccion.",
+        "Ejercicios graduados.",
+        "Correccion de pasos y unidades.",
+        "Repaso final con problemas mixtos."
+      ],
+      "profile": "El enfoque evita memorizar reacciones sin entender condiciones, magnitudes y conservacion.",
+      "faq": [
+        {
+          "q": "¿Se prepara Selectividad de Quimica?",
+          "a": "Si, cuando se trabaja con calendario, ejercicios de examen y revision de errores."
+        },
+        {
+          "q": "¿Tambien universidad?",
+          "a": "Se atienden asignaturas introductorias si encajan con el temario y calendario."
+        }
+      ],
+      "relatedPosts": ["preparar-selectividad-con-calendario"],
+      "priority": "0.65"
+    },
+    {
+      "path": "/clases-particulares/selectividad/",
+      "title": "Clases particulares para Selectividad y PAU | Metodo Nebula",
+      "description": "Preparacion de Selectividad y PAU con calendario, simulacros, bloques de estudio y seguimiento hasta el examen.",
+      "h1": "Clases particulares para Selectividad y PAU",
+      "audience": "Para alumnos que necesitan convertir el temario de bachillerato en un plan semanal realista hasta el examen.",
+      "problems": [
+        "Estudiar lo comodo y evitar lo que baja nota.",
+        "No saber repartir asignaturas por semanas.",
+        "Dejar simulacros para el final.",
+        "Llegar al examen sin estrategia de tiempo."
+      ],
+      "topics": [
+        "Matematicas II",
+        "Matematicas aplicadas",
+        "Fisica",
+        "Quimica",
+        "Calendario PAU",
+        "Simulacros y correccion"
+      ],
+      "method": [
+        "Diagnostico de asignaturas y nota objetivo.",
+        "Calendario inverso desde las fechas de examen.",
+        "Bloques de contenido y ejercicios tipo.",
+        "Simulacros cronometrados.",
+        "Ajustes semanales segun progreso."
+      ],
+      "profile": "El acompanamiento se centra en convertir presion y temario en decisiones semanales concretas.",
+      "faq": [
+        {
+          "q": "¿Cuanto antes conviene empezar?",
+          "a": "Cuanto antes, mas margen para consolidar. Con poco tiempo se prioriza lo que mas impacto tiene."
+        },
+        {
+          "q": "¿Se trabaja con examenes de anos anteriores?",
+          "a": "Si, como entrenamiento y diagnostico, no solo como repaso final."
+        }
+      ],
+      "relatedPosts": ["preparar-selectividad-con-calendario"],
+      "priority": "0.75"
+    },
+    {
+      "path": "/clases-particulares/gcse-ib/",
+      "title": "Clases particulares para GCSE, IGCSE e IB | Metodo Nebula",
+      "description": "Preparacion personalizada para GCSE, IGCSE e IB en asignaturas cuantitativas con rubrica, calendario y practica guiada.",
+      "h1": "Clases particulares para GCSE, IGCSE e IB",
+      "audience": "For students who need structured academic support in international programmes while keeping explanations clear in Spanish or English when needed.",
+      "problems": [
+        "No entender la rubrica o el tipo de respuesta esperado.",
+        "Practicar ejercicios sin medir tiempo ni criterio.",
+        "Cambiar entre curriculos y terminologia.",
+        "Llegar a mocks sin revision de errores acumulados."
+      ],
+      "topics": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Exam technique",
+        "Internal assessment support",
+        "Revision planning"
+      ],
+      "method": [
+        "Diagnostic review of syllabus, level and exam board.",
+        "Calendar aligned with mocks and final exams.",
+        "Worked examples and independent practice.",
+        "Rubric-aware feedback.",
+        "Progress tracking until exam week."
+      ],
+      "profile": "El enfoque combina estructura academica y claridad bilingue cuando el programa lo requiere.",
+      "faq": [
+        {
+          "q": "¿Las clases pueden adaptarse al temario internacional?",
+          "a": "Si, siempre partiendo del syllabus y materiales concretos que aporte el alumno."
+        },
+        {
+          "q": "¿Se trabaja tecnica de examen?",
+          "a": "Si. Se practica contenido, tiempo, rubrica y forma de justificar respuestas."
+        }
+      ],
+      "relatedPosts": ["preparar-selectividad-con-calendario"],
+      "priority": "0.65"
+    }
+  ]
+}

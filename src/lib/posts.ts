@@ -19,8 +19,13 @@ export type Post = {
   slug: string;
   title: string;
   date: string;
+  updated: string;
   description: string;
   tag: string;
+  category: string;
+  image: string;
+  relatedService: string;
+  relatedPosts: string[];
   readingMinutes: number;
   body: string;
 };
@@ -67,8 +72,18 @@ const posts: Post[] = Object.entries(modules)
       slug,
       title: data.title ?? slug,
       date: data.date ?? "",
+      updated: data.updated ?? data.date ?? "",
       description: data.description ?? "",
       tag: data.tag ?? "Blog",
+      category: data.category ?? data.tag ?? "Blog",
+      image: data.image ?? "/favicon.svg",
+      relatedService: data.relatedService ?? "/contacto/",
+      relatedPosts: data.relatedPosts
+        ? data.relatedPosts
+            .split(",")
+            .map((slug) => slug.trim())
+            .filter(Boolean)
+        : [],
       readingMinutes: readingMinutes(body),
       body,
     };
@@ -81,6 +96,17 @@ export function getAllPosts(): Post[] {
 
 export function getPost(slug: string): Post | undefined {
   return posts.find((post) => post.slug === slug);
+}
+
+export function getRelatedPosts(post: Post, limit = 3): Post[] {
+  const explicit = post.relatedPosts
+    .map((slug) => getPost(slug))
+    .filter((candidate): candidate is Post => Boolean(candidate));
+  const fallback = posts.filter(
+    (candidate) =>
+      candidate.slug !== post.slug && !explicit.some((item) => item.slug === candidate.slug),
+  );
+  return [...explicit, ...fallback].slice(0, limit);
 }
 
 export function formatDate(date: string): string {

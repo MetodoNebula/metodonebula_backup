@@ -1,0 +1,653 @@
+import fs from "node:fs";
+import path from "node:path";
+
+const ROOT = process.cwd();
+const DIST = path.join(ROOT, "dist");
+const SITE_DATA = JSON.parse(fs.readFileSync(path.join(ROOT, "src/content/site.json"), "utf8"));
+const SITE_URL = SITE_DATA.site.url;
+
+function escapeHtml(value = "") {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function stripTags(html = "") {
+  return html.replace(/<[^>]+>/g, "");
+}
+
+function withTrailingSlash(route) {
+  if (route === "/") return "/";
+  return `${route.replace(/\/+$/, "")}/`;
+}
+
+function absoluteUrl(route) {
+  if (/^https?:\/\//.test(route)) return route;
+  return `${SITE_URL}${withTrailingSlash(route) === "/" ? "/" : withTrailingSlash(route)}`;
+}
+
+function outputFileForRoute(route) {
+  const clean = withTrailingSlash(route);
+  if (clean === "/") return path.join(DIST, "index.html");
+  return path.join(DIST, clean.replace(/^\//, ""), "index.html");
+}
+
+function ensureDir(filePath) {
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+}
+
+function parseFrontmatter(raw) {
+  const match = /^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(raw);
+  if (!match) return { data: {}, body: raw.trim() };
+  const data = {};
+  for (const line of match[1].split("\n")) {
+    const idx = line.indexOf(":");
+    if (idx === -1) continue;
+    const key = line.slice(0, idx).trim();
+    let value = line.slice(idx + 1).trim();
+    if (
+      (value.startsWith('"') && value.endsWith('"')) ||
+      (value.startsWith("'") && value.endsWith("'"))
+    ) {
+      value = value.slice(1, -1);
+    }
+    if (key) data[key] = value;
+  }
+  return { data, body: raw.slice(match[0].length).trim() };
+}
+
+function readingMinutes(body) {
+  const words = body.trim().split(/\s+/).filter(Boolean).length;
+  return Math.max(1, Math.round(words / 200));
+}
+
+function loadPosts() {
+  const dir = path.join(ROOT, "src/content/blog");
+  return fs
+    .readdirSync(dir)
+    .filter((file) => file.endsWith(".md"))
+    .map((file) => {
+      const raw = fs.readFileSync(path.join(dir, file), "utf8");
+      const { data, body } = parseFrontmatter(raw);
+      const slug = file.replace(/\.md$/, "");
+      return {
+        slug,
+        title: data.title ?? slug,
+        date: data.date ?? "",
+        updated: data.updated ?? data.date ?? "",
+        description: data.description ?? "",
+        tag: data.tag ?? "Blog",
+        category: data.category ?? data.tag ?? "Blog",
+        image: data.image ?? "/favicon.svg",
+        relatedService: data.relatedService ?? "/contacto/",
+        relatedPosts: data.relatedPosts
+          ? data.relatedPosts
+              .split(",")
+              .map((item) => item.trim())
+              .filter(Boolean)
+          : [],
+        readingMinutes: readingMinutes(body),
+        body,
+      };
+    })
+    .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+}
+
+function inlineMarkdown(text) {
+  return escapeHtml(text)
+    .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" loading="lazy">')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+    .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+    .replace(/__([^_]+)__/g, "<strong>$1</strong>")
+    .replace(/`([^`]+)`/g, "<code>$1</code>")
+    .replace(/\*([^*]+)\*/g, "<em>$1</em>")
+    .replace(/_([^_]+)_/g, "<em>$1</em>");
+}
+
+function markdownToHtml(md) {
+  const lines = md.replace(/\r\n/g, "\n").split("\n");
+  const out = [];
+  let i = 0;
+  while (i < lines.length) {
+    const line = lines[i];
+    if (!line.trim()) {
+      i++;
+      continue;
+    }
+    const heading = /^(#{1,6})\s+(.*)$/.exec(line);
+    if (heading) {
+      const level = Math.min(6, Math.max(2, heading[1].length));
+      out.push(`<h${level}>${inlineMarkdown(heading[2].trim())}</h${level}>`);
+      i++;
+      continue;
+    }
+    if (/^\s*[-*]\s+/.test(line)) {
+      const items = [];
+      while (i < lines.length && /^\s*[-*]\s+/.test(lines[i])) {
+        items.push(`<li>${inlineMarkdown(lines[i].replace(/^\s*[-*]\s+/, ""))}</li>`);
+        i++;
+      }
+      out.push(`<ul>${items.join("")}</ul>`);
+      continue;
+    }
+    if (/^\s*\d+\.\s+/.test(line)) {
+      const items = [];
+      while (i < lines.length && /^\s*\d+\.\s+/.test(lines[i])) {
+        items.push(`<li>${inlineMarkdown(lines[i].replace(/^\s*\d+\.\s+/, ""))}</li>`);
+        i++;
+      }
+      out.push(`<ol>${items.join("")}</ol>`);
+      continue;
+    }
+    if (/^---+$/.test(line.trim())) {
+      out.push("<hr>");
+      i++;
+      continue;
+    }
+    if (line.trim().startsWith(">")) {
+      const quote = [];
+      while (i < lines.length && lines[i].trim().startsWith(">")) {
+        quote.push(lines[i].replace(/^\s*>\s?/, ""));
+        i++;
+      }
+      out.push(`<blockquote>${inlineMarkdown(quote.join(" "))}</blockquote>`);
+      continue;
+    }
+    const para = [];
+    while (
+      i < lines.length &&
+      lines[i].trim() &&
+      !/^#{1,6}\s+/.test(lines[i]) &&
+      !/^\s*[-*]\s+/.test(lines[i]) &&
+      !/^\s*\d+\.\s+/.test(lines[i]) &&
+      !lines[i].trim().startsWith(">")
+    ) {
+      para.push(lines[i]);
+      i++;
+    }
+    out.push(`<p>${inlineMarkdown(para.join(" "))}</p>`);
+  }
+  return out.join("\n");
+}
+
+function headMarkup({
+  title,
+  description,
+  route,
+  type = "website",
+  image = "/favicon.svg",
+  robots = "index,follow",
+  jsonLd = [],
+}) {
+  const url = absoluteUrl(route);
+  const imageUrl = absoluteUrl(image);
+  return [
+    `<title>${escapeHtml(title)}</title>`,
+    `<meta name="description" content="${escapeHtml(description)}">`,
+    `<meta name="robots" content="${escapeHtml(robots)}">`,
+    `<link rel="canonical" href="${escapeHtml(url)}">`,
+    `<meta property="og:title" content="${escapeHtml(title)}">`,
+    `<meta property="og:description" content="${escapeHtml(description)}">`,
+    `<meta property="og:type" content="${escapeHtml(type)}">`,
+    `<meta property="og:url" content="${escapeHtml(url)}">`,
+    `<meta property="og:image" content="${escapeHtml(imageUrl)}">`,
+    `<meta name="twitter:card" content="summary_large_image">`,
+    `<meta name="twitter:title" content="${escapeHtml(title)}">`,
+    `<meta name="twitter:description" content="${escapeHtml(description)}">`,
+    `<meta name="twitter:image" content="${escapeHtml(imageUrl)}">`,
+    ...jsonLd.map(
+      (item) =>
+        `<script type="application/ld+json">${JSON.stringify(item).replace(/</g, "\\u003c")}</script>`,
+    ),
+  ].join("\n    ");
+}
+
+function cleanHead(html) {
+  return html
+    .replace(/<title>[\s\S]*?<\/title>\s*/i, "")
+    .replace(/<meta\s+name=["']description["'][^>]*>\s*/gi, "")
+    .replace(/<meta\s+name=["']author["'][^>]*>\s*/gi, "")
+    .replace(/<meta\s+name=["']robots["'][^>]*>\s*/gi, "")
+    .replace(/<link\s+rel=["']canonical["'][^>]*>\s*/gi, "")
+    .replace(/<meta\s+property=["']og:[^"']+["'][^>]*>\s*/gi, "")
+    .replace(/<meta\s+name=["']twitter:[^"']+["'][^>]*>\s*/gi, "")
+    .replace(/<script\s+type=["']application\/ld\+json["'][\s\S]*?<\/script>\s*/gi, "");
+}
+
+function renderPage(template, page) {
+  const html = cleanHead(template).replace("</head>", `    ${headMarkup(page)}\n  </head>`);
+  const withRoot = html.replace(/<div id="root"><\/div>/, `<div id="root">${page.body}</div>`);
+  const outFile =
+    page.route === "/404/" ? path.join(DIST, "404.html") : outputFileForRoute(page.route);
+  ensureDir(outFile);
+  fs.writeFileSync(outFile, withRoot);
+}
+
+function shell({ label, h1, intro, children, breadcrumbs = [] }) {
+  const crumbs = [
+    `<a href="/">Inicio</a>`,
+    ...breadcrumbs.map((item, index) =>
+      index === breadcrumbs.length - 1
+        ? `<span>${escapeHtml(item.label)}</span>`
+        : `<a href="${item.href}">${escapeHtml(item.label)}</a>`,
+    ),
+  ].join(" / ");
+  return `
+    <main class="min-h-screen bg-background text-foreground antialiased">
+      <section class="relative border-b border-white/5 px-6 py-16">
+        <div class="mx-auto max-w-7xl">
+          <nav aria-label="Migas de pan" class="text-sm text-muted-foreground">${crumbs}</nav>
+          <p class="mt-8 text-sm uppercase tracking-[0.18em] text-gold">${escapeHtml(label)}</p>
+          <h1 class="mt-4 font-display text-4xl font-bold">${escapeHtml(h1)}</h1>
+          <p class="mt-5 max-w-2xl text-lg text-muted-foreground">${escapeHtml(intro)}</p>
+        </div>
+      </section>
+      <section class="px-6 py-14">
+        <div class="mx-auto max-w-7xl">${children}</div>
+      </section>
+    </main>
+  `;
+}
+
+function cardList(items, ordered = false) {
+  const tag = ordered ? "ol" : "ul";
+  return `<${tag}>${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</${tag}>`;
+}
+
+function homePage() {
+  const page = SITE_DATA.corePages.find((item) => item.kind === "home");
+  const serviceLinks = SITE_DATA.servicePages
+    .map((item) => `<li><a href="${item.path}">${escapeHtml(item.h1)}</a></li>`)
+    .join("");
+  return {
+    ...page,
+    route: page.path,
+    jsonLd: [
+      {
+        "@context": "https://schema.org",
+        "@type": "EducationalOrganization",
+        name: SITE_DATA.site.displayName,
+        url: SITE_URL,
+        logo: absoluteUrl(SITE_DATA.site.logo),
+        sameAs: SITE_DATA.site.social,
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        name: SITE_DATA.site.displayName,
+        url: SITE_URL,
+      },
+    ],
+    body: shell({
+      label: "Metodo Nebula",
+      h1: page.h1,
+      intro: page.intro,
+      children: `
+        <h2>Servicios principales</h2>
+        <ul>${serviceLinks}</ul>
+        <p><a href="/blog/">Leer el blog</a> · <a href="/contacto/">Reservar diagnostico</a></p>
+      `,
+    }),
+  };
+}
+
+function blogIndexPage(posts) {
+  const page = SITE_DATA.corePages.find((item) => item.kind === "blog");
+  const categories = SITE_DATA.blogCategories
+    .map(
+      (category) =>
+        `<li id="${category.slug}"><strong>${escapeHtml(category.name)}</strong>: ${escapeHtml(category.description)}</li>`,
+    )
+    .join("");
+  const postCards = posts
+    .map(
+      (post) => `
+        <article>
+          <p>${escapeHtml(post.category)} · ${escapeHtml(post.date)}</p>
+          <h2><a href="/blog/${post.slug}/">${escapeHtml(post.title)}</a></h2>
+          <p>${escapeHtml(post.description)}</p>
+        </article>
+      `,
+    )
+    .join("");
+  return {
+    ...page,
+    route: page.path,
+    jsonLd: [
+      {
+        "@context": "https://schema.org",
+        "@type": "Blog",
+        name: page.h1,
+        description: page.description,
+        url: absoluteUrl(page.path),
+      },
+    ],
+    body: shell({
+      label: "Blog",
+      h1: page.h1,
+      intro: page.intro,
+      breadcrumbs: [{ label: "Blog", href: page.path }],
+      children: `<h2>Categorias</h2><ul>${categories}</ul><h2>Articulos recientes</h2>${postCards}`,
+    }),
+  };
+}
+
+function postPage(post, posts) {
+  const route = `/blog/${post.slug}/`;
+  const related = [
+    ...post.relatedPosts,
+    ...posts.filter((candidate) => candidate.slug !== post.slug).map((candidate) => candidate.slug),
+  ]
+    .filter((slug, index, arr) => arr.indexOf(slug) === index)
+    .slice(0, 3)
+    .map((slug) => posts.find((candidate) => candidate.slug === slug))
+    .filter(Boolean);
+  const relatedHtml = related
+    .map((item) => `<li><a href="/blog/${item.slug}/">${escapeHtml(item.title)}</a></li>`)
+    .join("");
+  return {
+    title: `${post.title} | ${SITE_DATA.site.displayName}`,
+    description: post.description,
+    route,
+    type: "article",
+    image: post.image,
+    lastmod: post.updated || post.date,
+    jsonLd: [
+      {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        headline: post.title,
+        description: post.description,
+        author: {
+          "@type": "Person",
+          name: SITE_DATA.site.author.name,
+          url: absoluteUrl(SITE_DATA.site.author.path),
+        },
+        datePublished: post.date,
+        dateModified: post.updated,
+        mainEntityOfPage: absoluteUrl(route),
+        image: absoluteUrl(post.image),
+        publisher: {
+          "@type": "EducationalOrganization",
+          name: SITE_DATA.site.displayName,
+          logo: { "@type": "ImageObject", url: absoluteUrl(SITE_DATA.site.logo) },
+        },
+      },
+      breadcrumbJsonLd([
+        ["Inicio", "/"],
+        ["Blog", "/blog/"],
+        [post.title, route],
+      ]),
+    ],
+    body: shell({
+      label: post.category,
+      h1: post.title,
+      intro: post.description,
+      breadcrumbs: [
+        { label: "Blog", href: "/blog/" },
+        { label: post.title, href: route },
+      ],
+      children: `
+        <p><time datetime="${escapeHtml(post.date)}">${escapeHtml(post.date)}</time> · ${post.readingMinutes} min de lectura</p>
+        <article>${markdownToHtml(post.body)}</article>
+        <h2>Lecturas relacionadas</h2>
+        <ul>${relatedHtml}</ul>
+        <p><a href="${post.relatedService}">Ver apoyo relacionado</a> · <a href="/contacto/">Contactar</a></p>
+      `,
+    }),
+  };
+}
+
+function serviceOverviewPage() {
+  const page = SITE_DATA.serviceOverview;
+  const links = SITE_DATA.servicePages
+    .map(
+      (service) =>
+        `<li><a href="${service.path}">${escapeHtml(service.h1)}</a>: ${escapeHtml(service.description)}</li>`,
+    )
+    .join("");
+  return {
+    ...page,
+    route: page.path,
+    jsonLd: [serviceJsonLd(page)],
+    body: shell({
+      label: "Clases universitarias",
+      h1: page.h1,
+      intro: page.intro,
+      breadcrumbs: [{ label: "Clases universitarias", href: page.path }],
+      children: `<h2>Materias</h2><ul>${links}</ul><p><a href="/contacto/">Solicitar diagnostico</a></p>`,
+    }),
+  };
+}
+
+function servicePage(page, posts) {
+  const related = page.relatedPosts
+    .map((slug) => posts.find((post) => post.slug === slug))
+    .filter(Boolean)
+    .map((post) => `<li><a href="/blog/${post.slug}/">${escapeHtml(post.title)}</a></li>`)
+    .join("");
+  return {
+    ...page,
+    route: page.path,
+    jsonLd: [
+      serviceJsonLd(page),
+      breadcrumbJsonLd([
+        ["Inicio", "/"],
+        ["Clases universitarias", SITE_DATA.serviceOverview.path],
+        [page.h1, page.path],
+      ]),
+    ],
+    body: shell({
+      label: "Servicio",
+      h1: page.h1,
+      intro: page.audience,
+      breadcrumbs: [
+        { label: "Clases universitarias", href: SITE_DATA.serviceOverview.path },
+        { label: page.h1, href: page.path },
+      ],
+      children: `
+        <h2>Problemas habituales</h2>${cardList(page.problems)}
+        <h2>Bloques que podemos trabajar</h2>${cardList(page.topics)}
+        <h2>Como funciona el metodo</h2>${cardList(page.method, true)}
+        <h2>Perfil docente</h2><p>${escapeHtml(page.profile)}</p>
+        <h2>Preguntas frecuentes</h2>${page.faq
+          .map((item) => `<h3>${escapeHtml(item.q)}</h3><p>${escapeHtml(item.a)}</p>`)
+          .join("")}
+        <h2>Lecturas relacionadas</h2><ul>${related}</ul>
+        <p><a href="/contacto/">Solicitar diagnostico</a></p>
+      `,
+    }),
+  };
+}
+
+function corePage(kind) {
+  const page = SITE_DATA.corePages.find((item) => item.kind === kind);
+  const sectionMap = {
+    about: [
+      [
+        "Que aporta Nebula",
+        "Diagnostico, estructura, explicacion profunda y seguimiento para alumnos con asignaturas exigentes.",
+      ],
+      [
+        "Sobre Roberto Hernandez",
+        "Roberto Hernandez aparece como mentor academico y profesional de Nebula. Las areas visibles son matematicas, fisica, quimica, estadistica, programacion, economia e inteligencia artificial.",
+      ],
+      [
+        "Politica editorial",
+        "El blog debe aclarar decisiones de estudio con pasos aplicables, sin inventar resultados, precios ni credenciales.",
+      ],
+    ],
+    method: [
+      ["Diagnostico", "Revision de nivel, objetivo, fecha, temario y tipo de examen."],
+      ["Plan", "Bloques semanales con prioridad, practica y evidencia de progreso."],
+      ["Clase y material", "Explicacion, practica guiada y material conectado con el objetivo."],
+      [
+        "Seguimiento",
+        "Ajustes cuando aparecen errores repetidos, retrasos o cambios de calendario.",
+      ],
+    ],
+    contact: [
+      ["WhatsApp", "Telefono visible en la web para iniciar el diagnostico."],
+      ["Email", "Canal de admisiones para explicar asignatura, examen o cambio profesional."],
+      [
+        "Datos legales pendientes",
+        "Aviso legal, privacidad y cookies requieren datos empresariales reales; no se han inventado.",
+      ],
+    ],
+  };
+  const sections = sectionMap[kind]
+    .map(([title, text]) => `<h2>${escapeHtml(title)}</h2><p>${escapeHtml(text)}</p>`)
+    .join("");
+  const jsonLd =
+    kind === "about"
+      ? [
+          {
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: SITE_DATA.site.author.name,
+            jobTitle: SITE_DATA.site.author.jobTitle,
+            knowsAbout: SITE_DATA.site.author.knowsAbout,
+            url: absoluteUrl(page.path),
+          },
+        ]
+      : [];
+  return {
+    ...page,
+    route: page.path,
+    jsonLd,
+    body: shell({
+      label: page.kind,
+      h1: page.h1,
+      intro: page.intro,
+      breadcrumbs: [{ label: page.h1, href: page.path }],
+      children: sections,
+    }),
+  };
+}
+
+function notFoundPage() {
+  return {
+    title: "Pagina no encontrada | Metodo Nebula",
+    description:
+      "La pagina solicitada no existe. Vuelve al inicio, consulta el blog o contacta con Metodo Nebula.",
+    route: "/404/",
+    robots: "noindex,follow",
+    body: shell({
+      label: "404",
+      h1: "Pagina no encontrada",
+      intro: "El enlace puede haber cambiado. Estas rutas siguen disponibles.",
+      children: `
+        <ul>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/blog/">Blog</a></li>
+          <li><a href="/clases-particulares/universidad/">Clases universitarias</a></li>
+          <li><a href="/contacto/">Contacto</a></li>
+        </ul>
+      `,
+    }),
+  };
+}
+
+function serviceJsonLd(page) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    name: page.h1,
+    description: page.description,
+    provider: { "@type": "EducationalOrganization", name: SITE_DATA.site.displayName },
+    areaServed: "España",
+    url: absoluteUrl(page.path),
+  };
+}
+
+function breadcrumbJsonLd(items) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map(([name, route], index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name,
+      item: absoluteUrl(route),
+    })),
+  };
+}
+
+function writeSitemap(pages) {
+  const urls = pages
+    .filter((page) => page.robots !== "noindex,follow")
+    .map((page) => {
+      const lastmod = page.lastmod ? `\n    <lastmod>${page.lastmod}</lastmod>` : "";
+      const priority = page.priority ? `\n    <priority>${page.priority}</priority>` : "";
+      return `  <url>\n    <loc>${absoluteUrl(page.route)}</loc>${lastmod}${priority}\n  </url>`;
+    })
+    .join("\n");
+  fs.writeFileSync(
+    path.join(DIST, "sitemap.xml"),
+    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`,
+  );
+}
+
+function writeRobots() {
+  fs.writeFileSync(
+    path.join(DIST, "robots.txt"),
+    `User-agent: *\nAllow: /\n\nSitemap: ${SITE_URL}/sitemap.xml\n`,
+  );
+}
+
+function writeRss(posts) {
+  const items = posts
+    .map(
+      (post) => `
+    <item>
+      <title>${escapeHtml(post.title)}</title>
+      <link>${absoluteUrl(`/blog/${post.slug}/`)}</link>
+      <guid>${absoluteUrl(`/blog/${post.slug}/`)}</guid>
+      <pubDate>${new Date(post.date).toUTCString()}</pubDate>
+      <description>${escapeHtml(post.description)}</description>
+    </item>`,
+    )
+    .join("");
+  fs.writeFileSync(
+    path.join(DIST, "rss.xml"),
+    `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>Blog de Metodo Nebula</title><link>${SITE_URL}/blog/</link><description>Guias academicas y de carrera de Metodo Nebula.</description>${items}\n</channel></rss>\n`,
+  );
+}
+
+function copyStaticFiles() {
+  fs.writeFileSync(path.join(DIST, "CNAME"), "metodonebula.es\n");
+  fs.writeFileSync(path.join(DIST, ".nojekyll"), "");
+  fs.writeFileSync(path.join(DIST, "_redirects"), "/* /index.html 200\n");
+}
+
+const templatePath = path.join(DIST, "index.html");
+if (!fs.existsSync(templatePath)) {
+  throw new Error("Run vite build before generate-static-site.");
+}
+const template = fs.readFileSync(templatePath, "utf8");
+const posts = loadPosts();
+const pages = [
+  homePage(),
+  blogIndexPage(posts),
+  ...posts.map((post) => postPage(post, posts)),
+  serviceOverviewPage(),
+  ...SITE_DATA.servicePages.map((page) => servicePage(page, posts)),
+  corePage("about"),
+  corePage("method"),
+  corePage("contact"),
+  notFoundPage(),
+];
+
+for (const page of pages) {
+  renderPage(template, page);
+}
+writeSitemap(pages);
+writeRobots();
+writeRss(posts);
+copyStaticFiles();
+
+console.log(
+  `Generated ${pages.length} static pages, sitemap.xml, rss.xml, robots.txt and 404.html.`,
+);

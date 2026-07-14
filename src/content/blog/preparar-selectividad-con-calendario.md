@@ -1,8 +1,13 @@
 ---
 title: Preparar la Selectividad con un calendario que sí se cumple
 date: 2026-06-28
+updated: 2026-07-14
 description: Estudiar sin plan es la receta perfecta para llegar tarde. Cómo convertir el temario en una hoja de ruta semanal con simulacros y margen real.
 tag: Exámenes
+category: Selectividad
+relatedService: /clases-particulares/selectividad/
+relatedPosts: como-estudiar-matematicas-sin-memorizar,transicion-al-sector-it-en-6-meses
+image: /favicon.svg
 ---
 
 Cuando quedan pocas semanas para la Selectividad (PAU), el enemigo no es el temario: es la **falta de dirección**. Se estudia lo que apetece, se repasa lo que ya se domina y se evita justo lo que más se atasca.
@@ -33,10 +38,30 @@ Dividir el estudio en bloques cortos y concretos funciona mucho mejor que las se
 
 Un error clásico: dejar los exámenes de años anteriores para el final. Los simulacros no son el repaso, **son el entrenamiento**. Hazlos con tiempo cronometrado desde varias semanas antes para acostumbrarte a la presión y detectar lagunas mientras aún hay margen para arreglarlas.
 
+## Ejemplo de semana de trabajo
+
+Una semana útil no se organiza por "estudiar Matemáticas" o "repasar Física", sino por entregables:
+
+1. Lunes: bloque de teoría y formulario activo de un tema.
+2. Martes: cinco ejercicios tipo examen del mismo bloque.
+3. Miércoles: corrección y lista de errores.
+4. Jueves: segundo bloque o tema débil.
+5. Viernes: mini simulacro cronometrado.
+6. Fin de semana: una sesión corta para recuperar lo que se haya retrasado.
+
+Este esquema se ajusta a cada asignatura, pero mantiene una idea: cada semana debe dejar evidencia de progreso, no solo horas tachadas.
+
 ## Deja margen para lo imprevisto
 
 Un calendario sin huecos se rompe el primer día que te encuentras mal o se complica un tema. Deja **una tarde libre a la semana** como colchón. Si no la necesitas, repasas; si la necesitas, te salva el plan entero.
 
+## Errores frecuentes
+
+- Empezar por los temas que ya salen bien para sentir avance.
+- No corregir los simulacros con una lista de fallos reutilizable.
+- Copiar calendarios ajenos sin adaptarlos a notas objetivo y calendario real.
+- No reservar descanso: un plan agotador rara vez se cumple.
+
 ---
 
-En Nebula montamos este calendario contigo y revisamos el progreso cada semana. Si te juegas el curso en este examen, [reserva un diagnóstico](/#contacto) y lo preparamos juntos.
+En Nebula montamos este calendario contigo y revisamos el progreso cada semana. Si te juegas el curso en este examen, revisa la página de [clases particulares para Selectividad y PAU](/clases-particulares/selectividad/) o [reserva un diagnóstico](/contacto/) y lo preparamos juntos.

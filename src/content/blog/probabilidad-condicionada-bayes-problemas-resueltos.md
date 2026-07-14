@@ -155,4 +155,4 @@ Sigue siempre estos pasos:
 4. Construye el denominador con probabilidad total.
 5. Interpreta el resultado en el contexto.
 
-Si estás preparando Estadística universitaria, también puedes leer [Estadística desde cero para elegir contrastes](/blog/estadistica-desde-cero-para-elegir-contrastes/) o revisar la página de [clases particulares de Estadística universitaria](/clases-particulares/estadistica-universidad/).
+Si estás preparando Estadística, también puedes leer [Estadística desde cero para elegir contrastes](/blog/estadistica-desde-cero-para-elegir-contrastes/) o revisar la página de [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).

@@ -56,7 +56,7 @@ Ejemplo:
 - Variable explicativa: horas de estudio.
 - Pregunta: ¿cómo cambia la nota esperada por cada hora adicional?
 
-Si \(\hat{\beta}_1=0.4\), interpretamos que una hora adicional se asocia con 0.4 puntos más en la nota esperada, según el modelo.
+Si \(\hat{\beta}\_1=0.4\), interpretamos que una hora adicional se asocia con 0.4 puntos más en la nota esperada, según el modelo.
 
 ## La conexión entre ANOVA y regresión
 
@@ -82,8 +82,8 @@ $$
 \hat{Y}=\hat{\beta}_0+\hat{\beta}_1X
 $$
 
-- \(\hat{\beta}_0\): valor esperado de \(Y\) cuando \(X=0\), si tiene sentido.
-- \(\hat{\beta}_1\): cambio esperado en \(Y\) por cada unidad adicional de \(X\).
+- \(\hat{\beta}\_0\): valor esperado de \(Y\) cuando \(X=0\), si tiene sentido.
+- \(\hat{\beta}\_1\): cambio esperado en \(Y\) por cada unidad adicional de \(X\).
 - \(R^2\): proporción de variabilidad explicada por el modelo.
 
 Si hay varios predictores, añade "manteniendo constantes las demás variables".

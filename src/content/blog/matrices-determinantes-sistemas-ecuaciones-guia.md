@@ -172,4 +172,4 @@ No hagas solo sistemas numéricos. Mezcla:
 - Matriz inversa.
 - Problemas donde haya que decidir si usar Gauss, determinante o interpretación geométrica.
 
-Si este bloque te cuesta, empieza por [Álgebra Lineal en la universidad](/blog/algebra-lineal-universidad-que-estudiar-primero-errores/) y revisa la página de [clases particulares de Matemáticas universitarias](/clases-particulares/matematicas-universidad/).
+Si este bloque te cuesta, empieza por [Álgebra Lineal en la universidad](/blog/algebra-lineal-universidad-que-estudiar-primero-errores/) y revisa la página de [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).

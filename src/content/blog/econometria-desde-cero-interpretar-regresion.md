@@ -30,7 +30,7 @@ $$
 salario_i=\beta_0+\beta_1 educacion_i+u_i
 $$
 
-Si \(\hat{\beta}_1=1200\), una interpretación posible es: un año adicional de educación se asocia con 1200 unidades monetarias más de salario esperado, según el modelo.
+Si \(\hat{\beta}\_1=1200\), una interpretación posible es: un año adicional de educación se asocia con 1200 unidades monetarias más de salario esperado, según el modelo.
 
 La palabra "se asocia" importa. Para hablar de causalidad necesitas supuestos más fuertes.
 
@@ -116,4 +116,4 @@ Una buena respuesta incluye:
 5. Interpretación económica.
 6. Cautela sobre causalidad y supuestos.
 
-Para reforzar la base estadística, revisa [Estadística desde cero para elegir contrastes](/blog/estadistica-desde-cero-para-elegir-contrastes/) y [clases particulares de Estadística universitaria](/clases-particulares/estadistica-universidad/).
+Para reforzar la base estadística, revisa [Estadística desde cero para elegir contrastes](/blog/estadistica-desde-cero-para-elegir-contrastes/) y [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).

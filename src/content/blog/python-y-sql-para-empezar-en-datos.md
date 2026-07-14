@@ -75,4 +75,4 @@ No midas el progreso por horas de vídeo. Mídelo por entregables:
 
 Esa evidencia es la que convierte el estudio en una base profesional.
 
-Para acompañar esta base puedes revisar [clases particulares de Programación universitaria](/clases-particulares/programacion-universidad/) o leer la ruta de [transición al sector IT en 6 meses](/blog/transicion-al-sector-it-en-6-meses/).
+Para acompañar esta base puedes revisar [clases particulares de Programación desde cero](/clases-particulares/programacion-universidad/) o leer la ruta de [transición al sector IT en 6 meses](/blog/transicion-al-sector-it-en-6-meses/).

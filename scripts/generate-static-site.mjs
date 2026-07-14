@@ -150,11 +150,11 @@ function inlineMarkdown(text) {
     } else if (token.startsWith("[")) {
       const parts = /\[([^\]]+)\]\(([^)]+)\)/.exec(token);
       out.push(
-        `<a class="font-medium text-gold underline underline-offset-4 transition-colors hover:text-foreground" href="${escapeHtml(parts[2])}">${escapeHtml(parts[1])}</a>`,
+        `<a class="font-medium text-link underline underline-offset-4 transition-colors hover:text-link" href="${escapeHtml(parts[2])}">${escapeHtml(parts[1])}</a>`,
       );
     } else if (token.startsWith("`")) {
       out.push(
-        `<code class="rounded bg-white/10 px-1.5 py-0.5 font-mono text-[0.85em] text-gold">${escapeHtml(token.slice(1, -1))}</code>`,
+        `<code class="rounded bg-white/10 px-1.5 py-0.5 font-mono text-[0.85em] text-foreground">${escapeHtml(token.slice(1, -1))}</code>`,
       );
     } else if (token.startsWith("**") || token.startsWith("__")) {
       out.push(`<strong>${escapeHtml(token.slice(2, -2))}</strong>`);
@@ -234,7 +234,7 @@ function markdownToHtml(md) {
       const items = [];
       while (i < lines.length && /^\s*[-*]\s+/.test(lines[i])) {
         items.push(
-          `<li class="flex items-start gap-3 text-foreground/85"><span class="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-gold"></span><span>${inlineMarkdown(lines[i].replace(/^\s*[-*]\s+/, ""))}</span></li>`,
+          `<li class="flex items-start gap-3 text-foreground/85"><span class="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-action"></span><span>${inlineMarkdown(lines[i].replace(/^\s*[-*]\s+/, ""))}</span></li>`,
         );
         i++;
       }
@@ -245,7 +245,7 @@ function markdownToHtml(md) {
       const items = [];
       while (i < lines.length && /^\s*\d+\.\s+/.test(lines[i])) {
         items.push(
-          `<li class="flex items-start gap-3 text-foreground/85"><span class="font-display text-sm font-semibold text-gold">${items.length + 1}.</span><span>${inlineMarkdown(lines[i].replace(/^\s*\d+\.\s+/, ""))}</span></li>`,
+          `<li class="flex items-start gap-3 text-foreground/85"><span class="font-display text-sm font-semibold text-action">${items.length + 1}.</span><span>${inlineMarkdown(lines[i].replace(/^\s*\d+\.\s+/, ""))}</span></li>`,
         );
         i++;
       }
@@ -264,7 +264,7 @@ function markdownToHtml(md) {
         i++;
       }
       out.push(
-        `<blockquote class="my-6 border-l-2 border-gold/70 bg-white/[0.02] py-2 pr-4 pl-5 text-foreground/80 italic">${inlineMarkdown(quote.join(" "))}</blockquote>`,
+        `<blockquote class="my-6 border-l-2 border-action/70 bg-white/[0.02] py-2 pr-4 pl-5 text-foreground/80 italic">${inlineMarkdown(quote.join(" "))}</blockquote>`,
       );
       continue;
     }
@@ -332,7 +332,11 @@ function cleanHead(html) {
 
 function renderPage(template, page) {
   const html = cleanHead(template).replace("</head>", `    ${headMarkup(page)}\n  </head>`);
-  const withRoot = html.replace(/<div id="root"><\/div>/, `<div id="root">${page.body}</div>`);
+  const rootPattern = /<div id="root">[\s\S]*<\/div>\s*(?=<\/body>)/;
+  if (!rootPattern.test(html)) {
+    throw new Error("Unable to locate #root in Vite template.");
+  }
+  const withRoot = html.replace(rootPattern, `<div id="root">${page.body}</div>\n  `);
   const outFile =
     page.route === "/404/" ? path.join(DIST, "404.html") : outputFileForRoute(page.route);
   ensureDir(outFile);
@@ -342,16 +346,15 @@ function renderPage(template, page) {
 function shell({ label, h1, intro, children, breadcrumbs = [], theme = "nebula" }) {
   const isBlog = theme === "blog";
   const titleLineClass = isBlog ? "blog-title-line" : "nebula-title-line";
-  const labelClass = isBlog
-    ? "border-gold/35 bg-gold/10 text-gold"
-    : "border-violet/30 bg-violet/10 text-violet";
+  const labelClass = "border-spark/35 bg-spark/10 text-spark";
   const h1Class = isBlog ? "text-foreground" : "nebula-gradient-text";
+  const crumbLinkClass = "text-link transition-colors hover:text-link";
   const crumbs = [
-    `<a href="/">Inicio</a>`,
+    `<a class="${crumbLinkClass}" href="/">Inicio</a>`,
     ...breadcrumbs.map((item, index) =>
       index === breadcrumbs.length - 1
         ? `<span>${escapeHtml(item.label)}</span>`
-        : `<a href="${item.href}">${escapeHtml(item.label)}</a>`,
+        : `<a class="${crumbLinkClass}" href="${item.href}">${escapeHtml(item.label)}</a>`,
     ),
   ].join(" / ");
   return `
@@ -367,7 +370,7 @@ function shell({ label, h1, intro, children, breadcrumbs = [], theme = "nebula" 
         </div>
       </section>
       <section class="px-6 py-14">
-        <div class="mx-auto max-w-7xl">${children}</div>
+        <div class="mx-auto max-w-7xl [&_a]:font-medium [&_a]:text-link [&_a]:underline-offset-4 [&_a]:transition-colors [&_a:hover]:text-link">${children}</div>
       </section>
     </main>
   `;
@@ -386,12 +389,12 @@ function styledHeading(title, level = 2, variant = "content", theme = "nebula") 
   const className =
     theme === "blog"
       ? level <= 2
-        ? `${spacing}border-l-2 border-gold pl-4 font-display font-semibold text-foreground`
+        ? `${spacing}border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text`
         : level === 3
-          ? `${spacing}font-display font-semibold text-gold`
+          ? `${spacing}font-display font-semibold nebula-subheading-text`
           : `${spacing}font-display font-semibold text-muted-foreground`
       : level <= 2
-        ? `${spacing}border-l-2 border-violet pl-4 font-display font-semibold nebula-heading-text`
+        ? `${spacing}border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text`
         : level === 3
           ? `${spacing}font-display font-semibold nebula-subheading-text`
           : `${spacing}font-display font-semibold text-muted-foreground`;
@@ -403,7 +406,7 @@ function coreSectionHtml(title, text, index) {
   return `
     <article class="nebula-card relative overflow-hidden rounded-3xl p-7">
       <span class="absolute inset-x-0 top-0 h-1 nebula-title-line"></span>
-      <span class="font-display text-sm font-semibold text-violet">${String(index + 1).padStart(2, "0")}</span>
+      <span class="font-display text-sm font-semibold text-violet-soft">${String(index + 1).padStart(2, "0")}</span>
       ${styledHeading(escapeHtml(cleanTitle), 2, "card")}
       <p class="mt-3 leading-relaxed text-muted-foreground">${escapeHtml(text)}</p>
     </article>
@@ -417,7 +420,7 @@ function cardList(items, ordered = false) {
 
 function blogMetaHtml(post, includeCategory = true) {
   const category = includeCategory
-    ? `<span class="rounded-full border border-gold/40 bg-gold/10 px-3 py-1 font-medium uppercase tracking-[0.18em] text-gold">${escapeHtml(post.category)}</span>`
+    ? `<span class="rounded-full border border-spark/40 bg-spark/10 px-3 py-1 font-medium uppercase tracking-[0.18em] text-spark">${escapeHtml(post.category)}</span>`
     : "";
   return `
     <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
@@ -430,21 +433,22 @@ function blogMetaHtml(post, includeCategory = true) {
 
 function blogCardHtml(post, headingLevel = 2) {
   const tag = `h${headingLevel}`;
-  const headingClass = headingLevel === 2 ? "text-foreground text-xl" : "text-foreground text-lg";
+  const headingClass =
+    headingLevel === 2 ? "nebula-heading-text text-xl" : "nebula-subheading-text text-lg";
   return `
     <a href="/blog/${post.slug}/" class="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1">
       ${blogMetaHtml(post)}
-      <${tag} class="mt-5 font-display font-semibold leading-snug ${headingClass} transition-colors group-hover:text-gold">${escapeHtml(post.title)}</${tag}>
+      <${tag} class="mt-5 font-display font-semibold leading-snug ${headingClass} transition-colors group-hover:text-link">${escapeHtml(post.title)}</${tag}>
       <p class="mt-3 grow text-sm leading-relaxed text-muted-foreground">${escapeHtml(post.description)}</p>
-      <span class="mt-6 inline-flex items-center gap-2 text-sm font-medium text-gold">Leer entrada</span>
+      <span class="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">Leer entrada</span>
     </a>
   `;
 }
 
 function blogCategoryCardHtml(category) {
   return `
-    <a href="${blogCategoryPath(category.slug)}" class="rounded-2xl border border-white/8 bg-white/[0.02] p-4 transition-colors hover:border-gold/35 hover:bg-gold/5">
-      <span class="text-sm font-semibold text-gold">${escapeHtml(category.name)}</span>
+    <a href="${blogCategoryPath(category.slug)}" class="rounded-2xl border border-white/8 bg-white/[0.02] p-4 transition-colors hover:border-action/35 hover:bg-action/5">
+      <span class="text-sm font-semibold text-link">${escapeHtml(category.name)}</span>
       <span class="mt-1 block text-xs text-muted-foreground">${escapeHtml(category.description)}</span>
     </a>
   `;
@@ -626,7 +630,7 @@ function postPage(post, posts) {
         <section class="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8 text-center">
           <h2 class="font-display text-2xl font-semibold text-foreground">¿Quieres aplicar esto a tu caso?</h2>
           <p class="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">Empezamos con una llamada de diagnóstico para entender tu objetivo, tu punto de partida y tu fecha. Sin compromiso.</p>
-          <p class="mt-6"><a class="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground" href="${post.relatedService}">Ver apoyo relacionado</a></p>
+          <p class="mt-6"><a class="inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-action/90" href="${post.relatedService}">Ver apoyo relacionado</a></p>
         </section>
         ${relatedHtml ? `${styledHeading("Lecturas relacionadas", 2, "content", "blog")}<div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">${relatedHtml}</div>` : ""}
       `,
@@ -647,11 +651,11 @@ function serviceOverviewPage() {
     route: page.path,
     jsonLd: [serviceJsonLd(page)],
     body: shell({
-      label: "Clases universitarias",
+      label: "Clases desde ESO",
       h1: page.h1,
       intro: page.intro,
-      breadcrumbs: [{ label: "Clases universitarias", href: page.path }],
-      children: `<h2>Materias</h2><ul>${links}</ul><p><a href="/contacto/">Solicitar diagnóstico</a></p>`,
+      breadcrumbs: [{ label: "Clases desde ESO", href: page.path }],
+      children: `<h2>Etapas y materias</h2><p>Trabajamos desde ESO y Bachillerato hasta Selectividad, programas internacionales, FP, Universidad y perfiles técnicos.</p><ul>${links}</ul><p><a href="/contacto/">Solicitar diagnóstico</a></p>`,
     }),
   };
 }
@@ -669,7 +673,7 @@ function servicePage(page, posts) {
       serviceJsonLd(page),
       breadcrumbJsonLd([
         ["Inicio", "/"],
-        ["Clases universitarias", SITE_DATA.serviceOverview.path],
+        ["Clases desde ESO", SITE_DATA.serviceOverview.path],
         [page.h1, page.path],
       ]),
     ],
@@ -678,7 +682,7 @@ function servicePage(page, posts) {
       h1: page.h1,
       intro: page.audience,
       breadcrumbs: [
-        { label: "Clases universitarias", href: SITE_DATA.serviceOverview.path },
+        { label: "Clases desde ESO", href: SITE_DATA.serviceOverview.path },
         { label: page.h1, href: page.path },
       ],
       children: `
@@ -710,7 +714,7 @@ function corePage(kind) {
       ],
       [
         "Formación y experiencia",
-        "Graduado en Matemáticas, máster en Big Data e Inteligencia Artificial, experiencia profesional en tecnología y más de 6 años dando clases a estudiantes universitarios, bachillerato, exámenes internacionales y perfiles técnicos.",
+        "Graduado en Matemáticas, máster en Big Data e Inteligencia Artificial, experiencia profesional en tecnología y más de 6 años dando clases a alumnos desde ESO y Bachillerato hasta Universidad, exámenes internacionales y perfiles técnicos.",
       ],
     ],
     method: [
@@ -780,7 +784,7 @@ function notFoundPage() {
         <ul>
           <li><a href="/">Inicio</a></li>
           <li><a href="/blog/">Blog</a></li>
-          <li><a href="/clases-particulares/universidad/">Clases universitarias</a></li>
+          <li><a href="/clases-particulares/universidad/">Clases desde ESO</a></li>
           <li><a href="/contacto/">Contacto</a></li>
         </ul>
       `,

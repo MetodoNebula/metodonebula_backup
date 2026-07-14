@@ -111,4 +111,4 @@ Antes del examen deberías poder responder sin mirar apuntes:
 
 Si alguno de estos puntos solo lo reconoces cuando ves una solución, todavía no está consolidado.
 
-Para trabajar Álgebra Lineal con problemas guiados y corrección de errores, puedes revisar la página de [clases particulares de Matemáticas universitarias](/clases-particulares/matematicas-universidad/).
+Para trabajar Álgebra Lineal con problemas guiados y corrección de errores, puedes revisar la página de [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).

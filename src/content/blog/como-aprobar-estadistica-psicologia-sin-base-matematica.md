@@ -107,4 +107,4 @@ Vas bien cuando puedes mirar un enunciado y decir:
 4. Qué prueba encaja.
 5. Cómo escribirías la conclusión.
 
-Para seguir con el mapa de decisión, lee [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o revisa [clases particulares de Estadística universitaria](/clases-particulares/estadistica-universidad/).
+Para seguir con el mapa de decisión, lee [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).

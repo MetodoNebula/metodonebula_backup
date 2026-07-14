@@ -101,4 +101,4 @@ Una conclusión estadística completa debería incluir:
 
 La última frase importa: no prometas más de lo que el diseño permite.
 
-Para reforzar este bloque, revisa [p-valor, intervalo de confianza y tamaño del efecto](/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/) o [clases particulares de Estadística universitaria](/clases-particulares/estadistica-universidad/).
+Para reforzar este bloque, revisa [p-valor, intervalo de confianza y tamaño del efecto](/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/) o [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).

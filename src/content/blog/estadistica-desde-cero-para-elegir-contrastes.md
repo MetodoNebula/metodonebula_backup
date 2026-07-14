@@ -80,4 +80,4 @@ Hay algunos avisos claros:
 
 La estadística universitaria se vuelve mucho más manejable cuando separas decisión, cálculo e interpretación. Cada parte tiene su dificultad, pero también su método de estudio.
 
-Si estás preparando probabilidad, inferencia, regresión o estadística para TFG/TFM, revisa [clases particulares de Estadística universitaria](/clases-particulares/estadistica-universidad/) o [cuéntanos tu caso](/contacto/).
+Si estás preparando probabilidad, inferencia, regresión o estadística para Bachillerato, Universidad, TFG o TFM, revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/) o [cuéntanos tu caso](/contacto/).

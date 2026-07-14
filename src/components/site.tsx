@@ -10,8 +10,8 @@ import { Link } from "../lib/router";
 
 export function SectionLabel({ children }: { children: React.ReactNode }) {
   return (
-    <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-muted-foreground">
-      <span className="h-1.5 w-1.5 rounded-full bg-gold" />
+    <span className="inline-flex items-center gap-2 rounded-full border border-spark/30 bg-spark/10 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-spark">
+      <span className="h-1.5 w-1.5 rounded-full bg-spark" />
       {children}
     </span>
   );
@@ -29,7 +29,7 @@ export function PrimaryCTA({
   return (
     <a
       href={href}
-      className={`group inline-flex items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[0_10px_40px_-10px_oklch(0.62_0.22_265/0.7)] transition-all hover:translate-y-[-1px] hover:bg-primary/90 ${className}`}
+      className={`group inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[0_10px_40px_-10px_oklch(0.62_0.22_265/0.7)] transition-all hover:translate-y-[-1px] hover:bg-action/90 ${className}`}
     >
       {children}
       <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
@@ -111,7 +111,7 @@ export function Navbar() {
             <Link
               key={l.href}
               to={l.href}
-              className="text-sm text-muted-foreground transition-colors hover:text-foreground"
+              className="text-sm text-muted-foreground transition-colors hover:text-link"
             >
               {l.label}
             </Link>
@@ -138,7 +138,7 @@ export function Navbar() {
                 key={l.href}
                 to={l.href}
                 onClick={() => setOpen(false)}
-                className="text-sm text-muted-foreground"
+                className="text-sm text-muted-foreground transition-colors hover:text-link"
               >
                 {l.label}
               </Link>
@@ -169,7 +169,8 @@ export function Footer() {
               <span className="font-display text-lg font-semibold">Nebula</span>
             </div>
             <p className="mt-4 max-w-sm text-sm text-muted-foreground">
-              Enseñanza privada premium para objetivos académicos y profesionales exigentes.
+              Enseñanza privada premium desde ESO hasta Universidad y objetivos profesionales
+              exigentes.
             </p>
             <p className="mt-6 text-xs text-muted-foreground">
               Rigor académico con visión tecnológica.
@@ -181,13 +182,13 @@ export function Footer() {
             <ul className="mt-4 space-y-2 text-sm">
               {[
                 ["/metodologia/", "Método"],
-                ["/clases-particulares/universidad/", "Clases universitarias"],
+                ["/clases-particulares/universidad/", "Clases desde ESO"],
                 ["/sobre-nebula/", "Sobre Nebula"],
                 ["/blog/", "Blog"],
                 ["/contacto/", "Contacto"],
               ].map(([h, l]) => (
                 <li key={h}>
-                  <Link to={h} className="text-foreground/80 hover:text-foreground">
+                  <Link to={h} className="text-link transition-colors hover:text-link">
                     {l}
                   </Link>
                 </li>
@@ -203,27 +204,27 @@ export function Footer() {
                   href={INSTAGRAM_URL}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-2 text-foreground/80 hover:text-foreground"
+                  className="inline-flex items-center gap-2 text-link transition-colors hover:text-link"
                 >
-                  <Instagram className="h-4 w-4 text-gold" />
+                  <Instagram className="h-4 w-4 text-action" />
                   @nebula.lambda
                 </a>
               </li>
               <li>
                 <button
                   onClick={copy}
-                  className="inline-flex items-center gap-2 text-foreground/80 hover:text-foreground"
+                  className="inline-flex items-center gap-2 text-link transition-colors hover:text-link"
                 >
-                  <MessageCircle className="h-4 w-4 text-electric" />
+                  <MessageCircle className="h-4 w-4 text-action" />
                   {WHATSAPP_NUMBER}
                 </button>
               </li>
               <li>
                 <a
                   href={EMAIL_URL}
-                  className="inline-flex items-center gap-2 text-foreground/80 hover:text-foreground"
+                  className="inline-flex items-center gap-2 text-link transition-colors hover:text-link"
                 >
-                  <Mail className="h-4 w-4 text-primary" />
+                  <Mail className="h-4 w-4 text-action" />
                   {EMAIL}
                 </a>
               </li>
@@ -234,13 +235,13 @@ export function Footer() {
         <div className="mt-12 flex flex-col items-start justify-between gap-3 border-t border-white/5 pt-6 text-xs text-muted-foreground md:flex-row md:items-center">
           <p>© {new Date().getFullYear()} Nebula. Todos los derechos reservados.</p>
           <div className="flex gap-5">
-            <a href="/contacto/" className="hover:text-foreground">
+            <a href="/contacto/" className="text-link transition-colors hover:text-link">
               Aviso legal
             </a>
-            <a href="/contacto/" className="hover:text-foreground">
+            <a href="/contacto/" className="text-link transition-colors hover:text-link">
               Privacidad
             </a>
-            <a href="/contacto/" className="hover:text-foreground">
+            <a href="/contacto/" className="text-link transition-colors hover:text-link">
               Cookies
             </a>
           </div>
@@ -262,7 +263,7 @@ export function WhatsAppFloat() {
       aria-label="Copiar número de WhatsApp"
       className="fixed bottom-6 right-6 z-40 inline-flex cursor-pointer items-center gap-2 rounded-full border border-white/15 bg-background/80 px-4 py-3 text-sm font-medium shadow-[0_10px_40px_-10px_oklch(0.62_0.22_265/0.8)] backdrop-blur-md transition-all hover:translate-y-[-1px] hover:border-white/30"
     >
-      <MessageCircle className="h-4 w-4 text-electric" />
+      <MessageCircle className="h-4 w-4 text-action" />
       {copied ? "Copiado" : "Copiar teléfono"}
     </button>
   );

@@ -163,4 +163,4 @@ Antes de enfrentarte a problemas de Cálculo I deberías poder:
 - Interpretar integrales definidas.
 - Revisar si un resultado tiene sentido por signo, unidades o gráfica.
 
-Para profundizar, puedes leer las guías sobre [qué son las derivadas](/blog/que-son-las-derivadas-y-para-que-se-utilizan/) y [qué son las integrales](/blog/que-son-las-integrales-y-para-que-se-utilizan/). Si quieres un diagnóstico más completo, revisa [clases particulares de Matemáticas universitarias](/clases-particulares/matematicas-universidad/).
+Para profundizar, puedes leer las guías sobre [qué son las derivadas](/blog/que-son-las-derivadas-y-para-que-se-utilizan/) y [qué son las integrales](/blog/que-son-las-integrales-y-para-que-se-utilizan/). Si quieres un diagnóstico más completo, revisa [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).

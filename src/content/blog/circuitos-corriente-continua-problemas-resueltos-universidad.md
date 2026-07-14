@@ -146,4 +146,4 @@ Un signo negativo en una corriente no significa que el problema esté mal: signi
 - No definir sentido de corrientes antes de Kirchhoff.
 - Confundir potencia con energía.
 
-Si estás preparando circuitos dentro de Física I o Electricidad, puedes revisar [clases particulares de Física para Ingeniería](/clases-particulares/fisica-ingenieria/) y practicar primero la guía de [cómo plantear problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/).
+Si estás preparando circuitos dentro de Física I o Electricidad, puedes revisar [clases particulares de Física para Bachillerato e Ingeniería](/clases-particulares/fisica-ingenieria/) y practicar primero la guía de [cómo plantear problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/).

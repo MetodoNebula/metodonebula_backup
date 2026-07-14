@@ -391,9 +391,9 @@ function SimpleContent({ sections }: { sections: Array<{ title: string; text: st
 
 export function NotFoundPage() {
   usePageMeta({
-    title: "Página no encontrada | Metodo Nebula",
+    title: "Página no encontrada | Método Nebula",
     description:
-      "La página solicitada no existe. Vuelve al inicio, consulta el blog o contacta con Metodo Nebula.",
+      "La página solicitada no existe. Vuelve al inicio, consulta el blog o contacta con Método Nebula.",
     path: "/404/",
     robots: "noindex,follow",
   });

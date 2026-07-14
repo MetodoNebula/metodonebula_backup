@@ -594,7 +594,7 @@ function servicePage(page, posts) {
       children: `
         <h2>Problemas habituales</h2>${cardList(page.problems)}
         <h2>Bloques que podemos trabajar</h2>${cardList(page.topics)}
-        <h2>Como funciona el metodo</h2>${cardList(page.method, true)}
+        <h2>Cómo funciona el método</h2>${cardList(page.method, true)}
         <h2>Perfil docente</h2><p>${escapeHtml(page.profile)}</p>
         <h2>Preguntas frecuentes</h2>${page.faq
           .map((item) => `<h3>${escapeHtml(item.q)}</h3><p>${escapeHtml(item.a)}</p>`)
@@ -611,22 +611,22 @@ function corePage(kind) {
   const sectionMap = {
     about: [
       [
-        "Que aporta Nebula",
-        "Diagnostico, estructura, explicacion profunda y seguimiento para alumnos con asignaturas exigentes.",
+        "Qué aporta Nebula",
+        "Diagnóstico, estructura, explicación profunda y seguimiento para alumnos con asignaturas exigentes.",
       ],
       [
-        "Sobre Roberto Hernandez",
-        "Roberto Hernandez aparece como mentor academico y profesional de Nebula. Las areas visibles son matematicas, fisica, quimica, estadistica, programacion, economia e inteligencia artificial.",
+        "Sobre Roberto Hernández",
+        "Roberto Hernández aparece como mentor académico y profesional de Nebula. Las áreas visibles son matemáticas, física, química, estadística, programación, economía e inteligencia artificial.",
       ],
       [
-        "Politica editorial",
+        "Política editorial",
         "El blog debe aclarar decisiones de estudio con pasos aplicables, sin inventar resultados, precios ni credenciales.",
       ],
     ],
     method: [
-      ["Diagnostico", "Revision de nivel, objetivo, fecha, temario y tipo de examen."],
-      ["Plan", "Bloques semanales con prioridad, practica y evidencia de progreso."],
-      ["Clase y material", "Explicacion, practica guiada y material conectado con el objetivo."],
+      ["Diagnóstico", "Revisión de nivel, objetivo, fecha, temario y tipo de examen."],
+      ["Plan", "Bloques semanales con prioridad, práctica y evidencia de progreso."],
+      ["Clase y material", "Explicación, práctica guiada y material conectado con el objetivo."],
       [
         "Seguimiento",
         "Ajustes cuando aparecen errores repetidos, retrasos o cambios de calendario.",
@@ -680,7 +680,7 @@ function notFoundPage() {
     robots: "noindex,follow",
     body: shell({
       label: "404",
-      h1: "Pagina no encontrada",
+      h1: "Página no encontrada",
       intro: "El enlace puede haber cambiado. Estas rutas siguen disponibles.",
       children: `
         <ul>

@@ -257,9 +257,9 @@ function PostView({ post }: { post: Post }) {
           headline: post.title,
           description: post.description,
           author: {
-            "@type": "Person",
-            name: siteData.site.author.name,
-            url: absoluteUrl(siteData.site.author.path),
+            "@type": "EducationalOrganization",
+            name: siteData.site.displayName,
+            url: absoluteUrl("/"),
           },
           datePublished: post.date,
           dateModified: post.updated,

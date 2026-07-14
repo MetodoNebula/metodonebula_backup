@@ -505,9 +505,9 @@ function postPage(post, posts) {
         headline: post.title,
         description: post.description,
         author: {
-          "@type": "Person",
-          name: SITE_DATA.site.author.name,
-          url: absoluteUrl(SITE_DATA.site.author.path),
+          "@type": "EducationalOrganization",
+          name: SITE_DATA.site.displayName,
+          url: absoluteUrl("/"),
         },
         datePublished: post.date,
         dateModified: post.updated,
@@ -611,16 +611,16 @@ function corePage(kind) {
   const sectionMap = {
     about: [
       [
-        "Qué aporta Nebula",
-        "Diagnóstico, estructura, explicación profunda y seguimiento para alumnos con asignaturas exigentes.",
+        "Quién soy",
+        "Método Nebula es un proyecto de mentoría académica y profesional. El trabajo está en la intersección entre la matemática, la ciencia, la programación y la forma en que una persona aprende cuando tiene una fecha, un examen o una decisión importante delante.",
       ],
       [
-        "Sobre Roberto Hernández",
-        "Roberto Hernández acompaña procesos académicos y profesionales en matemáticas, física, química, estadística, programación, economía e inteligencia artificial, con foco en razonamiento, estructura y seguimiento.",
+        "Cómo entiendo la enseñanza",
+        "Enseñar no es resolver por el alumno. Es ayudarle a ver el mapa: qué pregunta plantea el problema, qué herramientas sirven, por qué aparece cada paso y cómo comprobar si el resultado tiene sentido.",
       ],
       [
-        "Criterio editorial",
-        "El blog prioriza guías aplicables, explicaciones claras y enlaces internos útiles para seguir estudiando con orden.",
+        "Formación y experiencia",
+        "Graduado en Matemáticas, máster en Big Data e Inteligencia Artificial, experiencia profesional en tecnología y más de 6 años dando clases a estudiantes universitarios, bachillerato, exámenes internacionales y perfiles técnicos.",
       ],
     ],
     method: [
@@ -649,10 +649,14 @@ function corePage(kind) {
       ? [
           {
             "@context": "https://schema.org",
-            "@type": "Person",
-            name: SITE_DATA.site.author.name,
-            jobTitle: SITE_DATA.site.author.jobTitle,
-            knowsAbout: SITE_DATA.site.author.knowsAbout,
+            "@type": "AboutPage",
+            name: page.h1,
+            description: page.description,
+            about: {
+              "@type": "EducationalOrganization",
+              name: SITE_DATA.site.displayName,
+              knowsAbout: SITE_DATA.site.author.knowsAbout,
+            },
             url: absoluteUrl(page.path),
           },
         ]

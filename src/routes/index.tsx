@@ -688,7 +688,7 @@ function Testimonials() {
   const items = [
     {
       quote:
-        "Contactamos con Roberto para ayudar a nuestro hijo Igor. Empezó ingeniería informática y no lo llevaba nada bien. Roberto nos presentó su método para aprender desde cero y ha conseguido que Igor se interese mucho en la carrera. Contaremos con él para este curso y el siguiente. 100% recomendable.",
+        "Contactamos con Nebula para ayudar a nuestro hijo Igor. Empezó ingeniería informática y no lo llevaba nada bien. Nos presentaron un método para aprender desde cero y han conseguido que Igor se interese mucho en la carrera. Contaremos con ellos para este curso y el siguiente. 100% recomendable.",
       name: "Luis",
       date: "Junio de 2026",
       meta: "Padre de alumno · Ingeniería Informática",
@@ -702,14 +702,14 @@ function Testimonials() {
     },
     {
       quote:
-        "Contacté con Roberto para repaso de matemáticas de mi hija; la experiencia ha sido muy muy satisfactoria. Mi hija ha mejorado mucho con la asignatura y ahora disfruta y le gusta la materia. Roberto sabe transmitir bien al alumno, les aporta los recursos necesarios y explica con paciencia los contenidos hasta asegurar su comprensión. Se preocupa por sus resultados. Lo recomiendo 100%.",
+        "Contacté con Nebula para repaso de matemáticas de mi hija; la experiencia ha sido muy muy satisfactoria. Mi hija ha mejorado mucho con la asignatura y ahora disfruta y le gusta la materia. Saben transmitir bien al alumno, aportan los recursos necesarios y explican con paciencia los contenidos hasta asegurar su comprensión. Se preocupan por sus resultados. Lo recomiendo 100%.",
       name: "Cristina H L",
       date: "Junio de 2026",
       meta: "Madre de alumna · Matemáticas",
     },
     {
       quote:
-        "Muy buena experiencia con Roberto. Explica los conceptos de forma clara y ordenada, incluso los temas más complejos. Tiene paciencia para resolver dudas y se nota que domina la materia. Sus clases y material me han ayudado para preparar los exámenes de la uni y he ganado más confianza al hacer ejercicios y proyectos. Recomiendo totalmente sus clases.",
+        "Muy buena experiencia con Nebula. Explican los conceptos de forma clara y ordenada, incluso los temas más complejos. Hay paciencia para resolver dudas y se nota el dominio de la materia. Sus clases y material me han ayudado para preparar los exámenes de la uni y he ganado más confianza al hacer ejercicios y proyectos. Recomiendo totalmente sus clases.",
       name: "Álvaro Cebrián Sierra",
       date: "Junio de 2026",
       meta: "Alumno universitario",

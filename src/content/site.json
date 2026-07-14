@@ -9,7 +9,7 @@
       "https://instagram.com/nebula.lambda"
     ],
     "author": {
-      "name": "Roberto Hernández",
+      "name": "Método Nebula",
       "path": "/sobre-nebula/",
       "jobTitle": "Mentor académico y profesional",
       "knowsAbout": [
@@ -45,10 +45,10 @@
     {
       "path": "/sobre-nebula/",
       "kind": "about",
-      "title": "Sobre Método Nebula y Roberto Hernández",
-      "description": "Conoce el enfoque docente de Método Nebula: diagnóstico, plan individual, explicación rigurosa y seguimiento académico personalizado.",
+      "title": "Sobre Método Nebula | Mentoría académica y profesional",
+      "description": "Conoce el enfoque de Método Nebula: formación matemática, experiencia tecnológica y acompañamiento personalizado para objetivos académicos exigentes.",
       "h1": "Sobre Método Nebula",
-      "intro": "Método Nebula es una propuesta de enseñanza privada para alumnos que necesitan claridad, estructura y criterio técnico en asignaturas exigentes.",
+      "intro": "Ayudamos a estudiantes y profesionales a ordenar asignaturas exigentes, entender el razonamiento de fondo y avanzar con un plan claro.",
       "priority": "0.6"
     },
     {
@@ -149,7 +149,7 @@
         "Ejercicios propios para repetir el razonamiento sin copiar soluciones.",
         "Seguimiento semanal hasta ganar autonomía."
       ],
-      "profile": "Roberto Hernández trabaja las matemáticas desde el razonamiento: entender por qué aparece cada paso antes de automatizarlo.",
+      "profile": "En Método Nebula trabajamos las matemáticas desde el razonamiento: entender por qué aparece cada paso antes de automatizarlo.",
       "faq": [
         {
           "q": "¿Sirve si empiezo desde muy bajo?",

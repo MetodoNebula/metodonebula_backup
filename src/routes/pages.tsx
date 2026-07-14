@@ -251,40 +251,121 @@ function ContentBlock({
 
 export function AboutPage() {
   const page = siteData.corePages.find((item) => item.kind === "about")!;
+  const highlights = [
+    "Graduado en Matemáticas.",
+    "Máster en Big Data e Inteligencia Artificial.",
+    "Experiencia profesional en tecnología.",
+    "Más de 6 años dando clases.",
+    "Trabajo con universidad, bachillerato, exámenes internacionales y perfiles técnicos.",
+  ];
+  const method = [
+    {
+      title: "Primero entiendo el bloqueo",
+      text: "Antes de llenar una clase de ejercicios, reviso qué falta: base matemática, método de estudio, lectura del enunciado, práctica real o calendario.",
+    },
+    {
+      title: "Después ordeno el camino",
+      text: "Cada sesión tiene una función dentro del plan: explicar, practicar, corregir errores, preparar examen o construir autonomía.",
+    },
+    {
+      title: "Finalmente medimos progreso",
+      text: "No basta con salir de clase con buena sensación. El objetivo es que puedas resolver, justificar y repetir el razonamiento sin depender de una solución delante.",
+    },
+  ];
+
   usePageMeta({ title: page.title, description: page.description, path: page.path });
   return (
     <PageShell>
       <JsonLd
         data={{
           "@context": "https://schema.org",
-          "@type": "Person",
-          name: siteData.site.author.name,
-          jobTitle: siteData.site.author.jobTitle,
-          knowsAbout: siteData.site.author.knowsAbout,
+          "@type": "AboutPage",
+          name: page.h1,
+          description: page.description,
+          about: {
+            "@type": "EducationalOrganization",
+            name: siteData.site.displayName,
+            knowsAbout: siteData.site.author.knowsAbout,
+          },
           url: absoluteUrl(page.path),
         }}
       />
       <PageHero
-        label="Autoridad"
+        label="Sobre Nebula"
         page={page}
         breadcrumbs={[{ label: "Sobre Nebula", href: page.path }]}
       />
-      <SimpleContent
-        sections={[
-          {
-            title: "Qué aporta Nebula",
-            text: "El proyecto nace para alumnos que necesitan algo más exigente que una clase suelta: diagnóstico, estructura, explicación profunda y seguimiento. El foco está en entender el razonamiento para poder aplicarlo en exámenes, prácticas y decisiones profesionales.",
-          },
-          {
-            title: "Sobre Roberto Hernández",
-            text: "Roberto Hernández acompaña procesos académicos y profesionales en matemáticas, física, química, estadística, programación, economía e inteligencia artificial, con foco en razonamiento, estructura y seguimiento.",
-          },
-          {
-            title: "Principio editorial",
-            text: "El blog se publica para aclarar decisiones de estudio con pasos aplicables, ejemplos trabajados y enlaces internos útiles para seguir avanzando.",
-          },
-        ]}
-      />
+      <section className="py-16 md:py-20">
+        <div className="mx-auto grid max-w-7xl gap-10 px-6 lg:grid-cols-[1fr_0.85fr]">
+          <div className="space-y-8">
+            <section>
+              <h2 className="font-display text-3xl font-semibold">Quién soy</h2>
+              <div className="mt-4 space-y-4 leading-relaxed text-muted-foreground">
+                <p>
+                  Método Nebula es un proyecto de mentoría académica y profesional. El trabajo está
+                  en la intersección entre la matemática, la ciencia, la programación y la forma en
+                  que una persona aprende cuando tiene una fecha, un examen o una decisión
+                  importante delante.
+                </p>
+                <p>
+                  Método Nebula nace de una idea sencilla: muchas veces el alumno no necesita solo
+                  más horas, sino un diagnóstico honesto, una explicación clara y una estructura que
+                  convierta el esfuerzo en progreso.
+                </p>
+              </div>
+            </section>
+
+            <section>
+              <h2 className="font-display text-3xl font-semibold">Cómo entiendo la enseñanza</h2>
+              <p className="mt-4 leading-relaxed text-muted-foreground">
+                Enseñar no es resolver por el alumno. Es ayudarle a ver el mapa: qué pregunta
+                plantea el problema, qué herramientas sirven, por qué aparece cada paso y cómo
+                comprobar si el resultado tiene sentido.
+              </p>
+              <div className="mt-6 grid gap-4 md:grid-cols-3">
+                {method.map((item) => (
+                  <article key={item.title} className="rounded-2xl border border-white/8 p-5">
+                    <h3 className="font-semibold">{item.title}</h3>
+                    <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+                      {item.text}
+                    </p>
+                  </article>
+                ))}
+              </div>
+            </section>
+          </div>
+
+          <aside className="space-y-5">
+            <div className="nebula-card rounded-3xl p-6">
+              <h2 className="font-display text-2xl font-semibold">En pocas líneas</h2>
+              <ul className="mt-5 space-y-3">
+                {highlights.map((item) => (
+                  <li key={item} className="flex items-start gap-3 text-sm">
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-gold" />
+                    <span className="text-foreground/90">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="rounded-3xl border border-white/8 bg-white/[0.02] p-6">
+              <h2 className="font-display text-xl font-semibold">Áreas de trabajo</h2>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {siteData.site.author.knowsAbout.map((item) => (
+                  <span
+                    key={item}
+                    className="rounded-full border border-white/10 px-3 py-1 text-xs text-foreground/80"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
+              <PrimaryCTA href="/contacto/" className="mt-6 w-full">
+                Contar mi caso
+              </PrimaryCTA>
+            </div>
+          </aside>
+        </div>
+      </section>
     </PageShell>
   );
 }

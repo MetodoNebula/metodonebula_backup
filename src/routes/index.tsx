@@ -5,10 +5,9 @@ import {
   CheckCircle2,
   Compass,
   Calendar,
-  Copy,
-  Sparkles,
-  GraduationCap,
   Code2,
+  Copy,
+  GraduationCap,
   LineChart,
   Atom,
   FlaskConical,
@@ -17,9 +16,7 @@ import {
   ClipboardList,
   BookOpen,
   Repeat,
-  Trophy,
   ShieldCheck,
-  Quote,
   Star,
   MessageCircle,
   Instagram,
@@ -47,8 +44,11 @@ export default function NebulaLanding() {
 
   return (
     <div className="min-h-screen bg-background text-foreground antialiased">
+      <a href="#contenido" className="skip-link">
+        Saltar al contenido
+      </a>
       <Navbar />
-      <main>
+      <main id="contenido">
         <Hero />
         <Positioning />
         <Services />
@@ -74,14 +74,14 @@ function Hero() {
   return (
     <section id="top" className="relative overflow-hidden">
       <div className="absolute inset-0 nebula-aurora pointer-events-none" />
-      <div className="relative mx-auto max-w-7xl px-6 pt-20 pb-28 md:pt-28 md:pb-36">
-        <div className="mx-auto max-w-4xl text-center">
+      <div className="relative mx-auto max-w-7xl px-6 pt-10 pb-20 md:pt-14 md:pb-24">
+        <div className="mx-auto max-w-5xl text-center">
           <SectionLabel>Bienvenido a Nebula</SectionLabel>
           <h1 className="mt-6 font-display text-4xl font-bold leading-[1.05] sm:text-5xl md:text-6xl lg:text-7xl">
             Cuando la asignatura, el examen o la entrevista{" "}
-            <span className="nebula-gradient-text">no admite improvisación.</span>
+            <span className="block nebula-gradient-text">no admite improvisación.</span>
           </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-base text-muted-foreground md:text-lg">
+          <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
             Enseñanza privada desde ESO y Bachillerato hasta Universidad, exámenes internacionales,
             Selectividad y transición al sector IT. Diagnóstico claro, plan de trabajo con fechas y
             un mentor que sostiene el proceso de principio a fin.
@@ -92,14 +92,18 @@ function Hero() {
           </div>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-muted-foreground">
             <AuthorityChip label="Matemático" />
-            <span className="opacity-30">·</span>
+            <span aria-hidden="true" className="opacity-30">
+              ·
+            </span>
             <AuthorityChip label="+6 años enseñando" />
-            <span className="opacity-30">·</span>
+            <span aria-hidden="true" className="opacity-30">
+              ·
+            </span>
             <AuthorityChip label="Profesional del sector tecnológico" />
           </div>
         </div>
 
-        <div className="mx-auto mt-16 grid max-w-5xl grid-cols-2 gap-3 sm:grid-cols-4">
+        <div className="mx-auto mt-14 grid max-w-5xl grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
           {[
             { icon: BookOpen, label: "ESO · Bachillerato" },
             { icon: Calendar, label: "PAU · IB · GCSE" },
@@ -155,15 +159,14 @@ function Positioning() {
     <section className="relative border-y border-white/5 bg-background py-24">
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-3xl">
-          <SectionLabel>¿Por qué Nebula?</SectionLabel>
+          <SectionLabel>Diferencia de Método Nebula</SectionLabel>
           <h2 className="mt-5 text-3xl font-semibold leading-tight md:text-5xl">
-            Si ya has probado academias y clases sueltas,{" "}
-            <span className="nebula-gradient-text">ya sabes por qué no funcionan</span>
+            No vendemos horas. <span className="nebula-gradient-text">Diseñamos planes.</span>
           </h2>
           <p className="mt-5 text-base text-muted-foreground md:text-lg">
-            Más horas no resuelven el problema. Lo que falta casi siempre es diagnóstico, método y
-            alguien que te ordene el camino. Nebula nace justo para eso: convertir esfuerzo disperso
-            en progreso medible.
+            El acompañamiento empieza entendiendo el punto de partida, continúa con un calendario y
+            se revisa con evidencias de progreso. La clase no es una hora aislada: es una decisión
+            dentro de un plan.
           </p>
         </div>
         <div className="mt-12 grid gap-5 md:grid-cols-3">
@@ -196,6 +199,7 @@ type Service = {
   icon: LucideIcon;
   title: string;
   subtitle: string;
+  href: string;
   list: {
     label: string;
     items: string[];
@@ -210,60 +214,51 @@ type Service = {
 function Services() {
   const services: Service[] = [
     {
-      tag: "Servicio 01",
+      tag: "Línea principal",
       icon: Atom,
-      title: "Clases particulares premium",
+      title: "Clases particulares",
       subtitle:
-        "Para alumnos desde ESO hasta Universidad que arrastran una asignatura técnica y necesitan dejar de ir a remolque del temario.",
+        "Para alumnos que necesitan ordenar una asignatura concreta y ganar criterio al resolver problemas.",
+      href: "/clases-particulares/universidad/",
       list: {
         label: "Asignaturas",
-        items: [
-          "ESO: Matemáticas, Física y Química",
-          "Bachillerato: Matemáticas, Física, Química y Economía",
-          "Universidad: Cálculo, Álgebra, Estadística y asignaturas técnicas",
-          "Programación",
-          "Economía y ADE",
-          "Inteligencia Artificial",
-        ],
+        items: ["Matemáticas", "Física", "Estadística", "Química", "Economía", "Programación"],
       },
       pain: [
-        "Voy perdido desde la segunda semana del curso.",
-        "Entiendo en clase, pero al sentarme solo no sé empezar.",
-        "Me bloqueo justo en el paso clave del problema.",
-        "Tengo el examen cerca y no llego con lo que estudio por mi cuenta.",
+        "El alumno entiende partes sueltas, pero no sabe elegir el método.",
+        "Los ejercicios cambian un poco y aparece el bloqueo.",
+        "La asignatura necesita práctica corregida, no solo más teoría.",
       ],
       promise:
-        "Pasas de estudiar a ciegas a tener un mapa de la asignatura: qué cae, cómo se piensa y qué pasos seguir en cada problema tipo.",
-      cta: "Quiero preparar una asignatura",
+        "Se construye un mapa de la asignatura: qué entra, cómo se razona y qué tipos de problema conviene dominar primero.",
+      cta: "Solicitar diagnóstico",
       accent: "primary",
     },
     {
-      tag: "Servicio 02",
+      tag: "Con fecha cerrada",
       icon: Calendar,
       title: "Preparación con calendario",
       subtitle:
-        "Para alumnos con fecha encima donde cada semana mal usada se nota en la nota final.",
+        "Para Selectividad, recuperaciones, exámenes universitarios e internacionales con una fecha que condiciona el plan.",
+      href: "/clases-particulares/selectividad/",
       list: {
         label: "Procesos",
         items: [
-          "IB / Bachillerato Internacional",
-          "GCSE / IGCSE",
           "Selectividad / PAU",
-          "TFG / TFM",
-          "GMAT",
-          "Exámenes finales",
+          "Exámenes universitarios",
           "Recuperaciones",
+          "IB",
+          "GCSE / IGCSE",
           "Pruebas de acceso",
         ],
       },
       pain: [
-        "Sé qué tengo que estudiar, pero no en qué orden ni cuándo.",
-        "Cada vez que abro el temario me agobio y cambio de tema.",
-        "Llevo semanas estudiando y no sé si voy bien o voy tarde.",
-        "Me juego el curso (o la carrera) en este examen.",
+        "Hay mucho temario y pocas semanas reales.",
+        "Faltan simulacros, prioridades y revisión de errores.",
+        "El alumno necesita saber qué estudiar esta semana y qué dejar para después.",
       ],
       promise:
-        "Convertimos un calendario tenso en una hoja de ruta semanal con prioridades, simulacros y revisión, para que llegues al examen con margen, no con prisa.",
+        "El calendario se convierte en una hoja de ruta con bloques, simulacros y ajustes semanales según progreso.",
       mini: [
         "Diagnóstico",
         "Calendario",
@@ -272,39 +267,36 @@ function Services() {
         "Revisión",
         "Ajuste final",
       ],
-      cta: "Quiero preparar un examen",
+      cta: "Solicitar diagnóstico",
       accent: "gold",
     },
     {
-      tag: "Servicio 03",
+      tag: "Línea independiente",
       icon: BrainCircuit,
-      title: "Formación para entrar o crecer en IT",
+      title: "Formación tecnológica",
       subtitle:
-        "Para profesionales que quieren cambiar de sector o subir de nivel sin perderse entre 200 cursos sueltos.",
+        "Para programación académica, Python, SQL, datos, IA y transición IT con una ruta diferenciada.",
+      href: "/clases-particulares/programacion-universidad/",
       list: {
-        label: "Stack & skills",
+        label: "Áreas",
         items: [
           "Python",
           "SQL",
-          "Data Engineering",
+          "Datos",
           "Inteligencia Artificial",
-          "AWS · GCP",
-          "Git · Docker · APIs",
-          "Proyectos reales · GitHub",
-          "CV · LinkedIn · Portfolio",
+          "Git y APIs",
+          "Proyectos",
           "Entrevistas técnicas",
-          "Soft skills",
         ],
       },
       pain: [
-        "Llevo años en un trabajo que ya no me motiva ni me paga lo que valgo.",
-        "Quiero entrar en IT, pero no sé si estudiar data, dev, cloud o IA.",
-        "He hecho cursos sueltos y sigo sin un proyecto del que hablar.",
-        "Llego a las entrevistas técnicas y no sé estructurar la respuesta.",
+        "Hay demasiados cursos y poca secuencia.",
+        "El código se copia, pero cuesta depurar y explicarlo.",
+        "La transición profesional necesita proyecto, criterio y defensa técnica.",
       ],
       promise:
-        "Construimos una ruta realista a 3-6 meses: qué aprender, qué proyecto construir, cómo contarlo en LinkedIn y cómo defenderlo en una entrevista técnica.",
-      cta: "Quiero mejorar mi perfil IT",
+        "La formación tecnológica queda separada del apoyo académico general y se trabaja como ruta técnica con objetivos propios.",
+      cta: "Solicitar diagnóstico",
       accent: "electric",
     },
   ];
@@ -314,14 +306,15 @@ function Services() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
           <div className="max-w-2xl">
-            <SectionLabel>Lo que hacemos por ti</SectionLabel>
+            <SectionLabel>Oferta organizada</SectionLabel>
             <h2 className="mt-5 text-3xl font-semibold leading-tight md:text-5xl">
-              No vendemos horas. <span className="nebula-gradient-text">Diseñamos planes.</span>
+              Tres entradas para no mezclar{" "}
+              <span className="nebula-gradient-text">objetivos distintos</span>
             </h2>
           </div>
           <p className="max-w-md text-sm text-muted-foreground">
-            Tres caminos según tu objetivo: una asignatura de ESO, Bachillerato o Universidad, un
-            examen con fecha o un cambio profesional al sector IT.
+            La formación académica mantiene prioridad visual. La línea tecnológica aparece como una
+            ruta independiente cuando el objetivo es programación, datos o transición profesional.
           </p>
         </div>
 
@@ -426,13 +419,13 @@ function ServiceCard({ service }: { service: Service }) {
         <div className="flex flex-col gap-6">
           <div>
             <p className="text-xs font-medium uppercase tracking-[0.18em] text-muted-foreground">
-              Si te suena esto…
+              Encaje típico
             </p>
             <ul className="mt-3 space-y-2">
               {service.pain.map((p: string) => (
                 <li key={p} className="flex items-start gap-2 text-sm text-foreground/80">
-                  <Quote className={`mt-0.5 h-3.5 w-3.5 shrink-0 ${a.text}`} />
-                  <span className="italic">"{p}"</span>
+                  <CheckCircle2 className={`mt-0.5 h-4 w-4 shrink-0 ${a.text}`} />
+                  <span>{p}</span>
                 </li>
               ))}
             </ul>
@@ -447,6 +440,13 @@ function ServiceCard({ service }: { service: Service }) {
 
           <div className="mt-auto">
             <PrimaryCTA href="/contacto/">{service.cta}</PrimaryCTA>
+            <a
+              href={service.href}
+              className="ml-4 inline-flex items-center gap-2 text-sm font-medium text-link underline-offset-4 hover:underline"
+            >
+              Ver detalle
+              <ArrowRight className="h-4 w-4" />
+            </a>
           </div>
         </div>
       </div>
@@ -464,37 +464,37 @@ function Method() {
       n: "01",
       icon: Compass,
       title: "Diagnóstico",
-      text: "Sesión inicial para entender tu punto de partida real, tu objetivo concreto y la fecha en la que se juega.",
+      text: "Revisión de nivel, temario, materiales, fecha y tipo de evaluación.",
     },
     {
       n: "02",
       icon: Target,
-      title: "Estrategia",
-      text: "Te entregamos un plan escrito: qué trabajar cada semana, en qué orden y con qué entregable medible.",
+      title: "Objetivo",
+      text: "Definición de prioridad: aprobar, subir nota, recuperar base o preparar una prueba.",
     },
     {
       n: "03",
-      icon: Sparkles,
-      title: "Clases de alto impacto",
-      text: "Cada sesión tiene objetivo, explicación, práctica guiada y ejercicio para resolver solo. Nada de relleno.",
+      icon: ClipboardList,
+      title: "Plan por bloques",
+      text: "Orden semanal de contenidos, práctica y evidencias de progreso.",
     },
     {
       n: "04",
       icon: BookOpen,
-      title: "Material propio",
-      text: "Apuntes, esquemas, ejercicios y simulacros diseñados para tu asignatura o examen, no PDFs genéricos.",
+      title: "Trabajo guiado",
+      text: "Explicación, resolución acompañada y lectura de errores frecuentes.",
     },
     {
       n: "05",
       icon: LineChart,
-      title: "Seguimiento",
-      text: "Revisamos progreso semana a semana y ajustamos el plan donde aparece la fricción real, no donde tocaba en el guion.",
+      title: "Práctica y seguimiento",
+      text: "Ejercicios, simulacros o tareas revisables entre sesiones.",
     },
     {
       n: "06",
-      icon: Trophy,
-      title: "Resultado",
-      text: "Aprobar, subir nota, defender un TFG, cerrar un examen con fecha o entrar en tu primera oferta IT.",
+      icon: Repeat,
+      title: "Revisión",
+      text: "Ajuste del plan cuando aparecen errores repetidos o cambios de calendario.",
     },
   ];
   return (
@@ -504,11 +504,11 @@ function Method() {
         <div className="max-w-3xl">
           <SectionLabel>Cómo trabajamos</SectionLabel>
           <h2 className="mt-5 text-3xl font-semibold leading-tight md:text-5xl">
-            El método <span className="nebula-gradient-text">Nebula</span>
+            El método de <span className="nebula-gradient-text">Método Nebula</span>
           </h2>
           <p className="mt-5 text-base text-muted-foreground md:text-lg">
-            Aprender bien no es estudiar más: es estudiar con dirección. Estos seis pasos son los
-            mismos en todos los planes, lo que cambia es a quién se aplican y con qué intensidad.
+            El proceso se mantiene estable para que el alumno sepa qué se está trabajando y por qué.
+            Lo que cambia es la intensidad, la materia y el calendario.
           </p>
         </div>
 
@@ -531,7 +531,7 @@ function Method() {
             <span className="text-foreground">Preparación sin improvisación.</span> Método,
             calendario y seguimiento.
           </p>
-          <PrimaryCTA href="/contacto/">Reservar diagnóstico</PrimaryCTA>
+          <PrimaryCTA href="/contacto/">Solicitar diagnóstico</PrimaryCTA>
         </div>
       </div>
     </section>
@@ -556,7 +556,7 @@ function Authority() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid gap-10 lg:grid-cols-[1fr_1.1fr] lg:gap-16">
           <div>
-            <SectionLabel>Conoce a Nebula</SectionLabel>
+            <SectionLabel>Perfil de Método Nebula</SectionLabel>
             <h2 className="mt-5 text-3xl font-semibold leading-tight md:text-5xl">
               Formación con <span className="nebula-gradient-text">rigor académico</span> y visión
               real del sector tecnológico
@@ -638,9 +638,9 @@ function Comparison() {
     <section className="border-y border-white/5 bg-background py-24">
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-3xl">
-          <SectionLabel>Nebula vs lo habitual</SectionLabel>
+          <SectionLabel>Método Nebula vs lo habitual</SectionLabel>
           <h2 className="mt-5 text-3xl font-semibold leading-tight md:text-5xl">
-            ¿Por qué Nebula no funciona como una{" "}
+            ¿Por qué Método Nebula no funciona como una{" "}
             <span className="text-muted-foreground line-through decoration-action/40">
               academia
             </span>
@@ -669,7 +669,7 @@ function Comparison() {
           <div className="nebula-card nebula-glow rounded-3xl p-7">
             <div className="flex items-center gap-2">
               <NebulaLogo className="h-5 w-5" />
-              <p className="text-xs uppercase tracking-[0.2em] text-spark">Modelo Nebula</p>
+              <p className="text-xs uppercase tracking-[0.2em] text-spark">Modelo Método Nebula</p>
             </div>
             <h3 className="mt-2 font-display text-xl font-semibold">Enseñanza privada premium</h3>
             <ul className="mt-6 space-y-3">
@@ -749,7 +749,7 @@ function Testimonials() {
               className="nebula-card flex h-full flex-col justify-between rounded-3xl p-7"
             >
               <div>
-                <div className="flex items-center gap-1 text-foreground/70">
+                <div className="flex items-center gap-1 text-spark">
                   {Array.from({ length: 5 }).map((_, i) => (
                     <Star key={i} className="h-4 w-4 fill-current" />
                   ))}
@@ -807,8 +807,8 @@ function Programs() {
       featured: true,
     },
     {
-      name: "Plan IT Career",
-      tagline: "Para entrar al sector tech o subir de nivel sin perderte entre cursos sueltos.",
+      name: "Plan Tecnología",
+      tagline: "Para programación académica, datos o transición IT con una ruta ordenada.",
       icon: BrainCircuit,
       items: [
         "Ruta personalizada a 3-6 meses",
@@ -846,7 +846,7 @@ function Programs() {
               >
                 {p.featured && (
                   <span className="absolute right-5 top-5 rounded-full border border-spark/40 bg-spark/10 px-3 py-1 text-[10px] font-medium uppercase tracking-[0.2em] text-spark">
-                    Más solicitado
+                    Con fecha
                   </span>
                 )}
                 <div
@@ -904,12 +904,13 @@ function Contact() {
           </h2>
           <p className="mt-5 text-base text-muted-foreground md:text-lg">
             Una conversación corta para entender tu objetivo, tu punto de partida y tu fecha. Si
-            Nebula encaja, te enviamos una propuesta concreta. Si no, te decimos qué haríamos en tu
-            lugar.
+            Método Nebula encaja, te enviamos una propuesta concreta. Si no, te decimos qué haríamos
+            en tu lugar.
           </p>
 
           <div className="mt-8 space-y-3">
             <button
+              type="button"
               onClick={copy}
               className="flex w-full items-center justify-between rounded-2xl border border-white/10 bg-white/[0.03] p-5 text-left transition-colors hover:border-white/25 hover:bg-white/[0.06]"
             >
@@ -1003,7 +1004,7 @@ function FAQ() {
     },
     {
       q: "¿Puedo hacer una primera llamada de diagnóstico?",
-      a: "Sí. Es el punto de partida. Es donde definimos si Nebula encaja con tu objetivo.",
+      a: "Sí. Es el punto de partida. Es donde definimos si Método Nebula encaja con tu objetivo.",
     },
   ];
   return (
@@ -1021,7 +1022,7 @@ function FAQ() {
         </div>
 
         <div className="mt-10 text-center">
-          <PrimaryCTA href="/contacto/">Reservar diagnóstico</PrimaryCTA>
+          <PrimaryCTA href="/contacto/">Solicitar diagnóstico</PrimaryCTA>
         </div>
       </div>
     </section>

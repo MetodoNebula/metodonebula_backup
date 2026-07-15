@@ -21,6 +21,8 @@ export type BlogCategory = {
   name: string;
   slug: string;
   description: string;
+  relatedService: string;
+  pillarPost: string;
 };
 
 export type ServicePage = {
@@ -33,6 +35,10 @@ export type ServicePage = {
   topics: string[];
   method: string[];
   profile: string;
+  differentiator: string;
+  studentInput: string;
+  reasonableOutcomes: string;
+  nextStep: string;
   faq: Array<{ q: string; a: string }>;
   relatedPosts: string[];
   priority: string;
@@ -72,7 +78,11 @@ export function withTrailingSlash(path: string): string {
 
 export function absoluteUrl(path: string): string {
   if (/^https?:\/\//.test(path)) return path;
-  return `${SITE_URL}${withTrailingSlash(path) === "/" ? "/" : withTrailingSlash(path)}`;
+  const normalized = path.startsWith("/") ? path : `/${path}`;
+  if (/\/[^/?#]+\.[^/?#]+(?:[?#].*)?$/.test(normalized)) {
+    return `${SITE_URL}${normalized}`;
+  }
+  return `${SITE_URL}${withTrailingSlash(normalized) === "/" ? "/" : withTrailingSlash(normalized)}`;
 }
 
 export function findCorePage(path: string): CorePage | undefined {

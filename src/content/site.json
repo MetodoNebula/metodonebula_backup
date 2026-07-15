@@ -29,24 +29,24 @@
       "kind": "home",
       "title": "Clases particulares desde ESO hasta Universidad | Método Nebula",
       "description": "Clases particulares premium desde ESO, Bachillerato y Selectividad hasta universidad, IB, GCSE y transición IT con diagnóstico, plan y seguimiento.",
-      "h1": "Clases particulares desde ESO hasta Universidad, Selectividad y objetivos exigentes",
-      "intro": "Método Nebula acompaña a alumnos de ESO, Bachillerato, Universidad y programas internacionales con rigor académico, planificación y seguimiento individual.",
+      "h1": "Cuando la asignatura, el examen o la entrevista no admite improvisación.",
+      "intro": "Enseñanza privada desde ESO y Bachillerato hasta Universidad, exámenes internacionales, Selectividad y transición al sector IT. Diagnóstico claro, plan de trabajo con fechas y un mentor que sostiene el proceso de principio a fin.",
       "priority": "1.0"
     },
     {
       "path": "/blog/",
       "kind": "blog",
-      "title": "Blog de Matemáticas, Ciencia y Estudio | Método Nebula",
-      "description": "Guías prácticas sobre matemáticas, ciencia, ESO, Bachillerato, universidad, Selectividad, programación y carrera tecnológica escritas desde el método Nebula.",
-      "h1": "Blog de matemáticas, ciencia, estudio y carrera tecnológica",
-      "intro": "Artículos para estudiar con método, preparar exámenes con calendario y tomar decisiones académicas con más criterio.",
+      "title": "Blog académico de Matemáticas, Estadística y Física | Método Nebula",
+      "description": "Guías principales y artículos de apoyo sobre Matemáticas, Estadística, Física, Selectividad, programación académica y carrera tecnológica.",
+      "h1": "Guías académicas de Matemáticas, Estadística, Física y estudio",
+      "intro": "Un archivo editorial organizado por áreas: guías pilar, artículos prácticos y contenidos de apoyo para estudiar con método y elegir el siguiente paso.",
       "priority": "0.8"
     },
     {
       "path": "/sobre-nebula/",
       "kind": "about",
       "title": "Sobre Método Nebula | Mentoría académica y profesional",
-      "description": "Conoce el enfoque de Método Nebula: formación matemática, experiencia tecnológica y acompañamiento personalizado desde ESO hasta Universidad.",
+      "description": "Conoce el enfoque de Método Nebula: enseñanza privada con formación matemática, experiencia tecnológica y acompañamiento académico personalizado.",
       "h1": "Sobre Método Nebula",
       "intro": "Ayudamos a estudiantes y profesionales a ordenar asignaturas exigentes, entender el razonamiento de fondo y avanzar con un plan claro.",
       "priority": "0.6"
@@ -54,9 +54,9 @@
     {
       "path": "/metodologia/",
       "kind": "method",
-      "title": "Metodología de estudio y seguimiento | Método Nebula",
-      "description": "La metodología Nebula ordena el estudio en diagnóstico, plan, clases, material propio, práctica y seguimiento semanal.",
-      "h1": "Metodología Nebula",
+      "title": "Método de estudio, diagnóstico y seguimiento | Método Nebula",
+      "description": "El método de enseñanza privada de Método Nebula ordena el estudio en diagnóstico, objetivo, plan por bloques, práctica guiada y seguimiento.",
+      "h1": "Método de diagnóstico, planificación y seguimiento",
       "intro": "El objetivo no es sumar horas, sino convertir cada sesión en una decisión dentro de un plan medible.",
       "priority": "0.6"
     },
@@ -64,7 +64,7 @@
       "path": "/contacto/",
       "kind": "contact",
       "title": "Contacto y diagnóstico académico | Método Nebula",
-      "description": "Contacta con Método Nebula para explicar tu asignatura, examen o cambio profesional y recibir una propuesta de trabajo personalizada.",
+      "description": "Solicita un diagnóstico académico en Método Nebula para explicar asignatura, examen, calendario y recibir una propuesta de trabajo personalizada.",
       "h1": "Contacto y diagnóstico",
       "intro": "El primer paso es una conversación breve para entender objetivo, punto de partida, calendario y encaje real del acompañamiento.",
       "priority": "0.6"
@@ -74,51 +74,67 @@
     {
       "name": "Matemáticas universitarias",
       "slug": "matematicas-universitarias",
-      "description": "Cálculo, álgebra, demostraciones y estrategias para estudiar asignaturas cuantitativas con método."
+      "description": "Cálculo, álgebra, demostraciones y estrategias para estudiar asignaturas cuantitativas con método.",
+      "relatedService": "/clases-particulares/matematicas-universidad/",
+      "pillarPost": "como-aprobar-calculo-i-ingenieria-seis-semanas"
     },
     {
       "name": "Estadística",
       "slug": "estadistica",
-      "description": "Inferencia, probabilidad, modelos, TFG y TFM con lectura crítica de resultados."
+      "description": "Inferencia, probabilidad, modelos, TFG y TFM con lectura crítica de resultados.",
+      "relatedService": "/clases-particulares/estadistica-universidad/",
+      "pillarPost": "que-prueba-estadistica-utilizar-guia-test-correcto"
     },
     {
       "name": "Programación y datos",
       "slug": "programacion-y-datos",
-      "description": "Python, SQL, proyectos, fundamentos de software y preparación técnica."
+      "description": "Python, SQL, proyectos, fundamentos de software y preparación técnica.",
+      "relatedService": "/clases-particulares/programacion-universidad/",
+      "pillarPost": "python-y-sql-para-empezar-en-datos"
     },
     {
       "name": "Física y Química",
       "slug": "fisica-y-quimica",
-      "description": "Problemas tipo, unidades, razonamiento físico y química para exámenes."
+      "description": "Problemas tipo, unidades, razonamiento físico y química para exámenes.",
+      "relatedService": "/clases-particulares/fisica-ingenieria/",
+      "pillarPost": "fisica-y-quimica-como-plantear-problemas"
     },
     {
       "name": "Economía y ADE",
       "slug": "economia-y-ade",
-      "description": "Matemáticas, estadística, microeconomía y modelos aplicados a grados de empresa."
+      "description": "Matemáticas, estadística, microeconomía y modelos aplicados a grados de empresa.",
+      "relatedService": "/clases-particulares/economia-ade/",
+      "pillarPost": "economia-ade-matematicas-sin-perderse"
     },
     {
       "name": "Selectividad",
       "slug": "selectividad",
-      "description": "Calendarios, simulacros y estrategia para PAU y pruebas de acceso."
+      "description": "Calendarios, simulacros y estrategia para PAU y pruebas de acceso.",
+      "relatedService": "/clases-particulares/selectividad/",
+      "pillarPost": "preparar-selectividad-con-calendario"
     },
     {
       "name": "Exámenes internacionales",
       "slug": "examenes-internacionales",
-      "description": "IB, GCSE e IGCSE con foco en rúbricas, práctica y gestión del tiempo."
+      "description": "IB, GCSE e IGCSE con foco en rúbricas, práctica y gestión del tiempo.",
+      "relatedService": "/clases-particulares/gcse-ib/",
+      "pillarPost": "ib-gcse-como-preparar-examenes-internacionales"
     },
     {
       "name": "Carrera tecnológica",
       "slug": "carrera-tecnologica",
-      "description": "Rutas de aprendizaje, portfolio, entrevistas y transición profesional a tecnología."
+      "description": "Rutas de aprendizaje, portfolio, entrevistas y transición profesional a tecnología.",
+      "relatedService": "/clases-particulares/programacion-universidad/",
+      "pillarPost": "transicion-al-sector-it-en-6-meses"
     }
   ],
   "serviceOverview": {
     "path": "/clases-particulares/universidad/",
     "kind": "service-overview",
-    "title": "Clases particulares por etapa y asignatura | Método Nebula",
-    "description": "Clases particulares de matemáticas, estadística, programación, física, química y economía para ESO, Bachillerato, Selectividad y Universidad.",
-    "h1": "Clases particulares desde ESO hasta Universidad",
-    "intro": "Para alumnos de ESO, Bachillerato, Selectividad, programas internacionales y Universidad que necesitan ordenar una asignatura, preparar un examen o recuperar criterio.",
+    "title": "Clases particulares y preparación académica | Método Nebula",
+    "description": "Servicios de enseñanza privada para Matemáticas, Física, Estadística, Química, Economía, Programación, Selectividad, IB y GCSE.",
+    "h1": "Clases particulares, preparación de exámenes y formación tecnológica",
+    "intro": "Tres líneas de trabajo diferenciadas: apoyo académico en asignaturas, preparación con fecha cerrada y formación tecnológica para perfiles que necesitan una ruta propia.",
     "priority": "0.8"
   },
   "servicePages": [
@@ -151,6 +167,10 @@
         "Seguimiento semanal hasta ganar autonomía."
       ],
       "profile": "En Método Nebula trabajamos las matemáticas desde el razonamiento: entender por qué aparece cada paso antes de automatizarlo.",
+      "differentiator": "No se limita a resolver ejercicios delante del alumno. Cada bloque conecta teoría, método de elección, práctica guiada y repetición autónoma para que el alumno pueda defender el procedimiento sin depender de una solución modelo.",
+      "studentInput": "Temario, ejercicios de clase, fechas de evaluación y muestras de errores recientes. Con eso se prioriza qué base reforzar y qué tipos de problema entrenar primero.",
+      "reasonableOutcomes": "Un mapa claro de la asignatura, más seguridad al elegir método y una rutina de práctica orientada a examen. El resultado depende del calendario disponible, la base inicial y la constancia entre sesiones.",
+      "nextStep": "Solicitar diagnóstico con curso, asignatura, fecha de examen y dos o tres ejercicios que representen el bloqueo actual.",
       "faq": [
         {
           "q": "¿Sirve si empiezo desde muy bajo?",
@@ -196,6 +216,10 @@
         "Revisión de errores frecuentes antes de examen."
       ],
       "profile": "El enfoque prioriza entender qué pregunta responde cada técnica y qué conclusiones se pueden defender.",
+      "differentiator": "La prioridad no es memorizar fórmulas ni menús de software, sino construir criterio: variable, hipótesis, supuesto, prueba, interpretación y límite de la conclusión.",
+      "studentInput": "Guía docente, prácticas, software exigido, enunciados de examen o borrador del análisis. No se sustituye el trabajo académico del alumno.",
+      "reasonableOutcomes": "Mejor elección de técnicas, interpretación más defendible de resultados y menos errores de supuesto o lectura. En TFG y TFM, el objetivo es orientar el razonamiento y la revisión.",
+      "nextStep": "Solicitar diagnóstico indicando carrera, tema estadístico, herramienta usada y fecha de entrega o examen.",
       "faq": [
         {
           "q": "¿Ayudáis con software estadístico?",
@@ -237,6 +261,10 @@
         "Proyecto o práctica defendible por el alumno."
       ],
       "profile": "La programación se trabaja como pensamiento estructurado, no como colección de sintaxis.",
+      "differentiator": "Se trabaja leyendo errores, separando problemas en piezas pequeñas y justificando decisiones. La línea tecnológica se presenta como itinerario propio, no mezclada con las clases académicas principales.",
+      "studentInput": "Lenguaje, entorno, enunciado de práctica, errores reproducibles y objetivo: aprobar asignatura, construir base o preparar una transición profesional.",
+      "reasonableOutcomes": "Más autonomía para escribir, depurar y explicar código sencillo. En perfiles profesionales, una ruta técnica realista y un proyecto defendible si el alcance lo permite.",
+      "nextStep": "Solicitar diagnóstico con lenguaje, nivel actual, práctica o proyecto y objetivo concreto.",
       "faq": [
         {
           "q": "¿Puedo empezar sin base?",
@@ -278,6 +306,10 @@
         "Simulacros parciales."
       ],
       "profile": "El trabajo busca que el alumno sepa justificar el modelo antes de operar.",
+      "differentiator": "Antes de aplicar fórmulas se trabaja el modelo físico: sistema, diagrama, magnitudes, unidades y orden de magnitud. La cuenta llega después del planteamiento.",
+      "studentInput": "Lista de temas, fórmulas permitidas, ejercicios resueltos por el profesor y problemas donde aparece el bloqueo.",
+      "reasonableOutcomes": "Mejor planteamiento inicial, menos errores de unidades y más capacidad para reconocer variantes de un mismo problema. La mejora exige práctica entre sesiones.",
+      "nextStep": "Solicitar diagnóstico con curso, bloque de Física y fecha del próximo parcial o examen.",
       "faq": [
         {
           "q": "¿Se trabaja desde apuntes de mi centro o universidad?",
@@ -319,6 +351,10 @@
         "Plan de examen con prioridades."
       ],
       "profile": "Se busca que el alumno entienda qué representa cada fórmula dentro del problema económico.",
+      "differentiator": "La parte cuantitativa se conecta con interpretación económica: gráfica, fórmula, supuesto y decisión. No se estudian matemáticas como si fueran un obstáculo aislado.",
+      "studentInput": "Programa de la asignatura, colección de problemas, tipo de calculadora o software y criterios del profesor.",
+      "reasonableOutcomes": "Más claridad al traducir enunciados, interpretar gráficas y priorizar problemas de alto impacto. Las recuperaciones se enfocan por bloques si el tiempo es corto.",
+      "nextStep": "Solicitar diagnóstico con asignatura, grado, temas más débiles y fecha de evaluación.",
       "faq": [
         {
           "q": "¿Sirve para grados no técnicos?",
@@ -360,6 +396,10 @@
         "Repaso final con problemas mixtos."
       ],
       "profile": "El enfoque evita memorizar reacciones sin entender condiciones, magnitudes y conservación.",
+      "differentiator": "Cada ejercicio se descompone en datos, reacción, proporciones, unidades y sentido químico. El objetivo es reducir el aprendizaje mecánico.",
+      "studentInput": "Temario, tabla de formulación o apuntes, problemas tipo y errores corregidos si existen.",
+      "reasonableOutcomes": "Más control sobre estequiometría, equilibrio y problemas mixtos, con una pauta de revisión antes de examen. No se prometen resultados sin calendario y práctica.",
+      "nextStep": "Solicitar diagnóstico indicando nivel, bloque de Química y materiales de referencia.",
       "faq": [
         {
           "q": "¿Se prepara Selectividad de Química?",
@@ -401,6 +441,10 @@
         "Ajustes semanales según progreso."
       ],
       "profile": "El acompañamiento se centra en convertir presión y temario en decisiones semanales concretas.",
+      "differentiator": "Se organiza el estudio hacia una fecha real: calendario inverso, bloques prioritarios, simulacros y revisión de errores. No es una sucesión de repasos sueltos.",
+      "studentInput": "Comunidad autónoma o prueba concreta, asignaturas, nota objetivo, calendario oficial y exámenes de años anteriores si se usan en clase.",
+      "reasonableOutcomes": "Una planificación semanal más realista, criterios de prioridad y práctica cronometrada. La nota final depende del punto de partida, tiempo disponible y trabajo propio.",
+      "nextStep": "Solicitar diagnóstico con asignaturas, fechas y nota objetivo aproximada.",
       "faq": [
         {
           "q": "¿Cuánto antes conviene empezar?",
@@ -442,6 +486,10 @@
         "Progress tracking until exam week."
       ],
       "profile": "El enfoque combina estructura académica y claridad bilingüe cuando el programa lo requiere.",
+      "differentiator": "El trabajo se adapta al syllabus y a la rúbrica, con práctica de contenido, timing y forma de justificar respuestas. La explicación puede alternar español e inglés cuando aporte claridad.",
+      "studentInput": "Programa, exam board, nivel, calendario de mocks, rúbricas y ejemplos de respuestas corregidas si existen.",
+      "reasonableOutcomes": "Más alineación con la rúbrica, mejor gestión del tiempo y práctica enfocada a examen. Las expectativas se ajustan al calendario y al nivel inicial.",
+      "nextStep": "Solicitar diagnóstico con programa, asignatura, exam board y fecha de mock o examen final.",
       "faq": [
         {
           "q": "¿Las clases pueden adaptarse al temario internacional?",

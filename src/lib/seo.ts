@@ -24,6 +24,10 @@ function upsertMeta(selector: string, attrs: Record<string, string>) {
   }
 }
 
+function removeMeta(selector: string) {
+  document.head.querySelector(selector)?.remove();
+}
+
 function upsertLink(rel: string, href: string) {
   let el = document.head.querySelector<HTMLLinkElement>(`link[rel="${rel}"]`);
   if (!el) {
@@ -48,14 +52,14 @@ export function usePageMeta({
   description,
   path,
   type = "website",
-  image = siteData.site.logo,
+  image,
   robots = "index,follow",
   prevPath,
   nextPath,
 }: MetaInput) {
   useEffect(() => {
     const url = absoluteUrl(path);
-    const imageUrl = absoluteUrl(image);
+    const imageUrl = image && image !== siteData.site.logo ? absoluteUrl(image) : undefined;
     document.title = title;
     document.documentElement.lang = siteData.site.language;
     upsertMeta('meta[name="description"]', { name: "description", content: description });
@@ -67,17 +71,25 @@ export function usePageMeta({
     });
     upsertMeta('meta[property="og:url"]', { property: "og:url", content: url });
     upsertMeta('meta[property="og:type"]', { property: "og:type", content: type });
-    upsertMeta('meta[property="og:image"]', { property: "og:image", content: imageUrl });
+    if (imageUrl) {
+      upsertMeta('meta[property="og:image"]', { property: "og:image", content: imageUrl });
+    } else {
+      removeMeta('meta[property="og:image"]');
+    }
     upsertMeta('meta[name="twitter:card"]', {
       name: "twitter:card",
-      content: "summary_large_image",
+      content: imageUrl ? "summary_large_image" : "summary",
     });
     upsertMeta('meta[name="twitter:title"]', { name: "twitter:title", content: title });
     upsertMeta('meta[name="twitter:description"]', {
       name: "twitter:description",
       content: description,
     });
-    upsertMeta('meta[name="twitter:image"]', { name: "twitter:image", content: imageUrl });
+    if (imageUrl) {
+      upsertMeta('meta[name="twitter:image"]', { name: "twitter:image", content: imageUrl });
+    } else {
+      removeMeta('meta[name="twitter:image"]');
+    }
     upsertLink("canonical", url);
     upsertOptionalLink("prev", prevPath ? absoluteUrl(prevPath) : undefined);
     upsertOptionalLink("next", nextPath ? absoluteUrl(nextPath) : undefined);

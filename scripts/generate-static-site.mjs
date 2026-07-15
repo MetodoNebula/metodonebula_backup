@@ -7,6 +7,11 @@ const DIST = path.join(ROOT, "dist");
 const SITE_DATA = JSON.parse(fs.readFileSync(path.join(ROOT, "src/content/site.json"), "utf8"));
 const SITE_URL = SITE_DATA.site.url;
 const BLOG_PAGE_SIZE = 9;
+const FEATURED_POST_SLUGS = [
+  "que-prueba-estadistica-utilizar-guia-test-correcto",
+  "como-aprobar-calculo-i-ingenieria-seis-semanas",
+  "preparar-selectividad-con-calendario",
+];
 
 function escapeHtml(value = "") {
   return String(value)
@@ -20,6 +25,16 @@ function stripTags(html = "") {
   return html.replace(/<[^>]+>/g, "");
 }
 
+function headingId(text = "") {
+  return stripTags(text)
+    .replace(/[*_`]/g, "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
 function withTrailingSlash(route) {
   if (route === "/") return "/";
   return `${route.replace(/\/+$/, "")}/`;
@@ -27,7 +42,11 @@ function withTrailingSlash(route) {
 
 function absoluteUrl(route) {
   if (/^https?:\/\//.test(route)) return route;
-  return `${SITE_URL}${withTrailingSlash(route) === "/" ? "/" : withTrailingSlash(route)}`;
+  const normalized = route.startsWith("/") ? route : `/${route}`;
+  if (/\/[^/?#]+\.[^/?#]+(?:[?#].*)?$/.test(normalized)) {
+    return `${SITE_URL}${normalized}`;
+  }
+  return `${SITE_URL}${withTrailingSlash(normalized) === "/" ? "/" : withTrailingSlash(normalized)}`;
 }
 
 function blogCategoryPath(slug) {
@@ -120,6 +139,14 @@ function loadPosts() {
       };
     })
     .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+}
+
+function findPost(posts, slug) {
+  return posts.find((post) => post.slug === slug);
+}
+
+function findService(route) {
+  return SITE_DATA.servicePages.find((service) => service.path === route);
 }
 
 const INLINE_PATTERN =
@@ -313,14 +340,14 @@ function headMarkup({
   description,
   route,
   type = "website",
-  image = "/favicon.svg",
+  image,
   robots = "index,follow",
   jsonLd = [],
   prev,
   next,
 }) {
   const url = absoluteUrl(route);
-  const imageUrl = absoluteUrl(image);
+  const imageUrl = image && image !== SITE_DATA.site.logo ? absoluteUrl(image) : "";
   return [
     `<title>${escapeHtml(title)}</title>`,
     `<meta name="description" content="${escapeHtml(description)}">`,
@@ -330,11 +357,11 @@ function headMarkup({
     `<meta property="og:description" content="${escapeHtml(description)}">`,
     `<meta property="og:type" content="${escapeHtml(type)}">`,
     `<meta property="og:url" content="${escapeHtml(url)}">`,
-    `<meta property="og:image" content="${escapeHtml(imageUrl)}">`,
-    `<meta name="twitter:card" content="summary_large_image">`,
+    imageUrl ? `<meta property="og:image" content="${escapeHtml(imageUrl)}">` : "",
+    `<meta name="twitter:card" content="${imageUrl ? "summary_large_image" : "summary"}">`,
     `<meta name="twitter:title" content="${escapeHtml(title)}">`,
     `<meta name="twitter:description" content="${escapeHtml(description)}">`,
-    `<meta name="twitter:image" content="${escapeHtml(imageUrl)}">`,
+    imageUrl ? `<meta name="twitter:image" content="${escapeHtml(imageUrl)}">` : "",
     prev ? `<link rel="prev" href="${escapeHtml(absoluteUrl(prev))}">` : "",
     next ? `<link rel="next" href="${escapeHtml(absoluteUrl(next))}">` : "",
     ...jsonLd.map(
@@ -416,6 +443,7 @@ function shell({ label, h1, intro, children, breadcrumbs = [], theme = "nebula",
 
 function styledHeading(title, level = 2, variant = "content", theme = "nebula") {
   const tag = `h${level}`;
+  const id = level <= 3 ? ` id="${escapeHtml(headingId(title))}"` : "";
   const spacing =
     variant === "card"
       ? ""
@@ -436,7 +464,7 @@ function styledHeading(title, level = 2, variant = "content", theme = "nebula") 
         : level === 3
           ? `${spacing}font-display font-semibold nebula-subheading-text`
           : `${spacing}font-display font-semibold text-muted-foreground`;
-  return `<${tag} class="${className}">${title}</${tag}>`;
+  return `<${tag}${id} class="${className}">${title}</${tag}>`;
 }
 
 function coreSectionHtml(title, text, index) {
@@ -482,6 +510,33 @@ function blogCardHtml(post, headingLevel = 2) {
   `;
 }
 
+function postHeadings(body) {
+  return Array.from(body.matchAll(/^##\s+(.+)$/gm))
+    .slice(0, 8)
+    .map((match) => {
+      const text = match[1].replace(/\*\*/g, "").trim();
+      return { id: headingId(text), text };
+    });
+}
+
+function tocHtml(post) {
+  const headings = postHeadings(post.body);
+  if (headings.length < 4) return "";
+  return `
+    <nav aria-label="Índice del artículo" class="mb-10 rounded-3xl border border-white/8 bg-white/[0.02] p-6 text-sm">
+      <p class="font-display font-semibold text-foreground">Índice</p>
+      <ol class="mt-4 space-y-2">
+        ${headings
+          .map(
+            (heading) =>
+              `<li><a class="text-link underline-offset-4 hover:underline" href="#${escapeHtml(heading.id)}">${escapeHtml(heading.text)}</a></li>`,
+          )
+          .join("")}
+      </ol>
+    </nav>
+  `;
+}
+
 function blogCategoryCardHtml(category) {
   return `
     <a href="${blogCategoryPath(category.slug)}" class="rounded-2xl border border-white/8 bg-white/[0.02] p-4 transition-colors hover:border-action/35 hover:bg-action/5">
@@ -516,8 +571,45 @@ function paginationHtml(currentPage, total, pathForPage, label = "Paginación de
 
 function homePage() {
   const page = SITE_DATA.corePages.find((item) => item.kind === "home");
-  const serviceLinks = SITE_DATA.servicePages
-    .map((item) => `<li><a href="${item.path}">${escapeHtml(item.h1)}</a></li>`)
+  const serviceGroups = [
+    {
+      title: "Clases particulares",
+      text: "Matemáticas, Física, Estadística, Química, Economía y Programación con diagnóstico y seguimiento.",
+      links: [
+        "/clases-particulares/matematicas-universidad/",
+        "/clases-particulares/fisica-ingenieria/",
+        "/clases-particulares/estadistica-universidad/",
+        "/clases-particulares/quimica/",
+        "/clases-particulares/economia-ade/",
+        "/clases-particulares/programacion-universidad/",
+      ],
+    },
+    {
+      title: "Preparación con fecha",
+      text: "Selectividad, recuperaciones, exámenes universitarios, IB, GCSE, IGCSE y pruebas de acceso.",
+      links: ["/clases-particulares/selectividad/", "/clases-particulares/gcse-ib/"],
+    },
+    {
+      title: "Formación tecnológica",
+      text: "Python, SQL, datos, IA, proyectos y entrevistas técnicas como línea independiente.",
+      links: ["/clases-particulares/programacion-universidad/"],
+    },
+  ];
+  const serviceHtml = serviceGroups
+    .map((group) => {
+      const links = group.links
+        .map((route) => findService(route))
+        .filter(Boolean)
+        .map((service) => `<li><a href="${service.path}">${escapeHtml(service.h1)}</a></li>`)
+        .join("");
+      return `
+        <section class="border-t border-white/8 pt-6">
+          ${styledHeading(escapeHtml(group.title), 2, "card")}
+          <p class="mt-2 text-sm text-muted-foreground">${escapeHtml(group.text)}</p>
+          <ul class="mt-4 grid gap-2 text-sm sm:grid-cols-2">${links}</ul>
+        </section>
+      `;
+    })
     .join("");
   return {
     ...page,
@@ -527,6 +619,7 @@ function homePage() {
         "@context": "https://schema.org",
         "@type": "EducationalOrganization",
         name: SITE_DATA.site.displayName,
+        description: page.description,
         url: SITE_URL,
         logo: absoluteUrl(SITE_DATA.site.logo),
         sameAs: SITE_DATA.site.social,
@@ -537,15 +630,29 @@ function homePage() {
         name: SITE_DATA.site.displayName,
         url: SITE_URL,
       },
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        name: `${SITE_DATA.site.displayName} - Enseñanza privada`,
+        description: page.description,
+        url: SITE_URL,
+      },
     ],
     body: shell({
-      label: "Método Nebula",
+      label: "Bienvenido a Nebula",
       h1: page.h1,
       intro: page.intro,
       children: `
-        <h2>Servicios principales</h2>
-        <ul>${serviceLinks}</ul>
-        <p><a href="/blog/">Leer el blog</a> · <a href="/contacto/">Reservar diagnóstico</a></p>
+        ${styledHeading("No vendemos horas. Diseñamos planes.", 2)}
+        <div class="grid gap-5 md:grid-cols-3">
+          <article class="rounded-2xl border border-white/8 p-5"><h3>Diagnóstico</h3><p>Revisión de nivel, temario, fecha y bloqueo principal.</p></article>
+          <article class="rounded-2xl border border-white/8 p-5"><h3>Planificación</h3><p>Bloques de trabajo con prioridades y calendario.</p></article>
+          <article class="rounded-2xl border border-white/8 p-5"><h3>Seguimiento</h3><p>Práctica, revisión de errores y ajustes semanales.</p></article>
+        </div>
+        ${styledHeading("Oferta organizada", 2)}
+        <div class="space-y-6">${serviceHtml}</div>
+        ${styledHeading("Siguiente paso", 2)}
+        <p><a href="/contacto/">Solicitar diagnóstico</a> · <a href="/blog/">Leer guías académicas</a> · <a href="/metodologia/">Ver el método</a></p>
       `,
     }),
   };
@@ -558,6 +665,21 @@ function blogIndexPage(posts, pageNumber = 1) {
   const categories =
     pageNumber === 1
       ? SITE_DATA.blogCategories.map((category) => blogCategoryCardHtml(category)).join("")
+      : "";
+  const featuredCards =
+    pageNumber === 1
+      ? FEATURED_POST_SLUGS.map((slug) => findPost(posts, slug))
+          .filter(Boolean)
+          .map((post) => blogCardHtml(post))
+          .join("")
+      : "";
+  const guideCards =
+    pageNumber === 1
+      ? SITE_DATA.blogCategories
+          .map((category) => findPost(posts, category.pillarPost))
+          .filter(Boolean)
+          .map((post) => blogCardHtml(post, 3))
+          .join("")
       : "";
   const postCards = pageItems(posts, pageNumber)
     .map((post) => blogCardHtml(post))
@@ -598,11 +720,15 @@ function blogIndexPage(posts, pageNumber = 1) {
       children: `
         ${
           pageNumber === 1
-            ? `${styledHeading("Categorías", 2, "content", "blog")}
+            ? `${styledHeading("Contenidos destacados", 2, "content", "blog")}
+        <div class="mt-6 grid gap-5 lg:grid-cols-3">${featuredCards}</div>
+        ${styledHeading("Guías principales", 2, "content", "blog")}
+        <div class="mt-6 grid gap-5 md:grid-cols-2 lg:grid-cols-4">${guideCards}</div>
+        ${styledHeading("Categorías", 2, "content", "blog")}
         <div class="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">${categories}</div>`
             : ""
         }
-        ${styledHeading(pageNumber === 1 ? "Artículos recientes" : `Artículos, página ${pageNumber}`, 2, "content", "blog")}
+        ${styledHeading(pageNumber === 1 ? "Artículos recientes" : `Archivo, página ${pageNumber}`, 2, "content", "blog")}
         <div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">${postCards}</div>
         ${paginationHtml(pageNumber, pages, blogPagePath)}
       `,
@@ -614,6 +740,25 @@ function blogCategoryPage(category, posts, pageNumber = 1) {
   const categoryPosts = posts.filter((post) => post.category === category.name);
   const pages = totalPages(categoryPosts);
   const route = blogCategoryPagePath(category.slug, pageNumber);
+  const pillarPost = findPost(posts, category.pillarPost);
+  const relatedService = findService(category.relatedService);
+  const clusterIntro =
+    pageNumber === 1
+      ? `
+        <div class="mb-12 grid gap-5 lg:grid-cols-[1fr_0.8fr]">
+          ${
+            pillarPost
+              ? `<section>${styledHeading("Guía principal", 2, "content", "blog")}<div class="mt-5">${blogCardHtml(pillarPost)}</div></section>`
+              : ""
+          }
+          ${
+            relatedService
+              ? `<aside class="rounded-3xl border border-white/8 bg-white/[0.02] p-7">${styledHeading("Apoyo relacionado", 2, "card", "blog")}<p class="mt-3 text-sm leading-relaxed text-muted-foreground">Si esta categoría conecta con una asignatura o examen real, la página de servicio explica el acompañamiento, los contenidos y el siguiente paso.</p><a class="mt-6 inline-flex text-sm font-medium text-link underline-offset-4 hover:underline" href="${relatedService.path}">${escapeHtml(relatedService.h1)}</a></aside>`
+              : ""
+          }
+        </div>
+      `
+      : "";
   const postCards = pageItems(categoryPosts, pageNumber)
     .map((post) => blogCardHtml(post))
     .join("");
@@ -663,7 +808,7 @@ function blogCategoryPage(category, posts, pageNumber = 1) {
         { label: category.name, href: route },
       ],
       children: categoryPosts.length
-        ? `${styledHeading(`Artículos de ${escapeHtml(category.name)}`, 2, "content", "blog")}<div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">${postCards}</div>${paginationHtml(pageNumber, pages, (page) => blogCategoryPagePath(category.slug, page), `Paginación de ${category.name}`)}`
+        ? `${clusterIntro}${styledHeading(`Artículos de ${escapeHtml(category.name)}`, 2, "content", "blog")}<div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">${postCards}</div>${paginationHtml(pageNumber, pages, (page) => blogCategoryPagePath(category.slug, page), `Paginación de ${category.name}`)}`
         : `<p>Todavía no hay entradas en esta categoría.</p>`,
     }),
   };
@@ -671,6 +816,8 @@ function blogCategoryPage(category, posts, pageNumber = 1) {
 
 function postPage(post, posts) {
   const route = `/blog/${post.slug}/`;
+  const relatedService = findService(post.relatedService);
+  const category = SITE_DATA.blogCategories.find((item) => item.name === post.category);
   const related = [
     ...post.relatedPosts,
     ...posts.filter((candidate) => candidate.slug !== post.slug).map((candidate) => candidate.slug),
@@ -680,6 +827,26 @@ function postPage(post, posts) {
     .map((slug) => posts.find((candidate) => candidate.slug === slug))
     .filter(Boolean);
   const relatedHtml = related.map((item) => blogCardHtml(item, 3)).join("");
+  const blogPosting = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.description,
+    author: {
+      "@type": "EducationalOrganization",
+      name: SITE_DATA.site.displayName,
+      url: absoluteUrl("/"),
+    },
+    datePublished: post.date,
+    dateModified: post.updated,
+    mainEntityOfPage: absoluteUrl(route),
+    publisher: {
+      "@type": "EducationalOrganization",
+      name: SITE_DATA.site.displayName,
+      logo: { "@type": "ImageObject", url: absoluteUrl(SITE_DATA.site.logo) },
+    },
+    ...(post.image && post.image !== SITE_DATA.site.logo ? { image: absoluteUrl(post.image) } : {}),
+  };
   return {
     title: `${post.title} | ${SITE_DATA.site.displayName}`,
     description: post.description,
@@ -688,26 +855,7 @@ function postPage(post, posts) {
     image: post.image,
     lastmod: post.updated || post.date,
     jsonLd: [
-      {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        headline: post.title,
-        description: post.description,
-        author: {
-          "@type": "EducationalOrganization",
-          name: SITE_DATA.site.displayName,
-          url: absoluteUrl("/"),
-        },
-        datePublished: post.date,
-        dateModified: post.updated,
-        mainEntityOfPage: absoluteUrl(route),
-        image: absoluteUrl(post.image),
-        publisher: {
-          "@type": "EducationalOrganization",
-          name: SITE_DATA.site.displayName,
-          logo: { "@type": "ImageObject", url: absoluteUrl(SITE_DATA.site.logo) },
-        },
-      },
+      blogPosting,
       breadcrumbJsonLd([
         ["Inicio", "/"],
         ["Blog", "/blog/"],
@@ -725,12 +873,26 @@ function postPage(post, posts) {
       ],
       children: `
         ${blogMetaHtml(post, false)}
+        ${tocHtml(post)}
         <article>${markdownToHtml(post.body)}</article>
         <section class="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8 text-center">
-          <h2 class="font-display text-2xl font-semibold text-foreground">¿Quieres aplicar esto a tu caso?</h2>
-          <p class="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">Empezamos con una llamada de diagnóstico para entender tu objetivo, tu punto de partida y tu fecha. Sin compromiso.</p>
-          <p class="mt-6"><a class="inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-action/90" href="${post.relatedService}">Ver apoyo relacionado</a></p>
+          <h2 class="font-display text-2xl font-semibold text-foreground">¿Quieres aplicar esto a tu asignatura o examen?</h2>
+          <p class="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">Empezamos con una llamada de diagnóstico para entender tu objetivo, tu punto de partida y tu fecha. El servicio relacionado ayuda a aterrizarlo en un plan concreto.</p>
+          <p class="mt-6 flex flex-col justify-center gap-3 sm:flex-row"><a class="inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-action/90" href="/contacto/">Solicitar diagnóstico</a>${
+            relatedService
+              ? `<a class="inline-flex items-center justify-center rounded-full border border-white/15 px-6 py-3 text-sm font-medium text-link transition-colors hover:border-white/30 hover:bg-white/[0.05]" href="${relatedService.path}">Ver apoyo relacionado</a>`
+              : ""
+          }</p>
         </section>
+        ${
+          category
+            ? `<section class="mt-12 border-t border-white/5 pt-8 text-sm text-muted-foreground">Este artículo forma parte del clúster de <a href="${blogCategoryPath(category.slug)}">${escapeHtml(category.name)}</a>.${
+                relatedService
+                  ? ` Servicio relacionado: <a href="${relatedService.path}">${escapeHtml(relatedService.h1)}</a>.`
+                  : ""
+              }</section>`
+            : ""
+        }
         ${relatedHtml ? `${styledHeading("Lecturas relacionadas", 2, "content", "blog")}<div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">${relatedHtml}</div>` : ""}
       `,
     }),
@@ -739,11 +901,35 @@ function postPage(post, posts) {
 
 function serviceOverviewPage() {
   const page = SITE_DATA.serviceOverview;
-  const links = SITE_DATA.servicePages
-    .map(
-      (service) =>
-        `<li><a href="${service.path}">${escapeHtml(service.h1)}</a>: ${escapeHtml(service.description)}</li>`,
-    )
+  const groups = [
+    [
+      "Clases particulares",
+      [
+        "/clases-particulares/matematicas-universidad/",
+        "/clases-particulares/fisica-ingenieria/",
+        "/clases-particulares/estadistica-universidad/",
+        "/clases-particulares/quimica/",
+        "/clases-particulares/economia-ade/",
+      ],
+    ],
+    [
+      "Preparación con fecha",
+      ["/clases-particulares/selectividad/", "/clases-particulares/gcse-ib/"],
+    ],
+    ["Formación tecnológica", ["/clases-particulares/programacion-universidad/"]],
+  ];
+  const links = groups
+    .map(([title, routes]) => {
+      const serviceLinks = routes
+        .map((route) => findService(route))
+        .filter(Boolean)
+        .map(
+          (service) =>
+            `<li><a href="${service.path}">${escapeHtml(service.h1)}</a>: ${escapeHtml(service.description)}</li>`,
+        )
+        .join("");
+      return `${styledHeading(escapeHtml(title), 2)}<ul>${serviceLinks}</ul>`;
+    })
     .join("");
   return {
     ...page,
@@ -754,7 +940,7 @@ function serviceOverviewPage() {
       h1: page.h1,
       intro: page.intro,
       breadcrumbs: [{ label: "Clases desde ESO", href: page.path }],
-      children: `<h2>Etapas y materias</h2><p>Trabajamos desde ESO y Bachillerato hasta Selectividad, programas internacionales, FP, Universidad y perfiles técnicos.</p><ul>${links}</ul><p><a href="/contacto/">Solicitar diagnóstico</a></p>`,
+      children: `<h2>Un mapa para cada objetivo</h2><p>La oferta se separa para que un alumno de asignatura, una preparación con fecha y una ruta tecnológica no compitan por la misma atención.</p>${links}<p><a href="/contacto/">Solicitar diagnóstico</a></p>`,
     }),
   };
 }
@@ -788,11 +974,15 @@ function servicePage(page, posts) {
         <h2>Problemas habituales</h2>${cardList(page.problems)}
         <h2>Bloques que podemos trabajar</h2>${cardList(page.topics)}
         <h2>Cómo funciona el método</h2>${cardList(page.method, true)}
+        <h2>Qué diferencia este acompañamiento</h2><p>${escapeHtml(page.differentiator)}</p>
+        <h2>Qué debe aportar el alumno</h2><p>${escapeHtml(page.studentInput)}</p>
+        <h2>Resultados razonables</h2><p>${escapeHtml(page.reasonableOutcomes)}</p>
         <h2>Perfil docente</h2><p>${escapeHtml(page.profile)}</p>
         <h2>Preguntas frecuentes</h2>${page.faq
           .map((item) => `<h3>${escapeHtml(item.q)}</h3><p>${escapeHtml(item.a)}</p>`)
           .join("")}
         <h2>Lecturas relacionadas</h2><ul>${related}</ul>
+        <h2>Siguiente paso</h2><p>${escapeHtml(page.nextStep)}</p>
         <p><a href="/contacto/">Solicitar diagnóstico</a></p>
       `,
     }),
@@ -818,11 +1008,14 @@ function htmlSitemapPage(posts) {
         `<li><a href="${blogCategoryPath(category.slug)}">${escapeHtml(category.name)}</a></li>`,
     )
     .join("");
-  const articleLinks = posts
-    .map(
-      (post) =>
-        `<a href="/blog/${post.slug}/" class="rounded-2xl border border-white/8 p-4 text-sm transition-colors hover:border-action/35 hover:bg-action/5"><span class="block font-medium text-link">${escapeHtml(post.title)}</span><span class="mt-1 block text-xs text-muted-foreground">${escapeHtml(post.category)}</span></a>`,
-    )
+  const articleGroups = SITE_DATA.blogCategories
+    .map((category) => {
+      const links = posts
+        .filter((post) => post.category === category.name)
+        .map((post) => `<li><a href="/blog/${post.slug}/">${escapeHtml(post.title)}</a></li>`)
+        .join("");
+      return `<section class="border-t border-white/8 pt-5"><h3 class="font-display text-lg font-semibold text-violet-soft">${escapeHtml(category.name)}</h3><ul class="mt-3 space-y-2 text-sm">${links}</ul></section>`;
+    })
     .join("");
 
   return {
@@ -853,8 +1046,8 @@ function htmlSitemapPage(posts) {
           </section>
         </div>
         <section class="mt-8 rounded-3xl border border-white/8 bg-white/[0.02] p-6">
-          ${styledHeading("Artículos publicados", 2, "card")}
-          <div class="mt-6 grid gap-3 md:grid-cols-2 lg:grid-cols-3">${articleLinks}</div>
+          ${styledHeading("Artículos por categoría", 2, "card")}
+          <div class="mt-6 grid gap-6 lg:grid-cols-2">${articleGroups}</div>
         </section>
       `,
     }),

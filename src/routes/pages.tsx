@@ -96,6 +96,29 @@ function AccentHeading({
 export function ServiceOverviewPage() {
   const page = siteData.serviceOverview;
   usePageMeta({ title: page.title, description: page.description, path: page.path });
+  const groups = [
+    {
+      title: "Clases particulares",
+      text: "Asignaturas concretas con diagnóstico, práctica guiada y seguimiento.",
+      paths: [
+        "/clases-particulares/matematicas-universidad/",
+        "/clases-particulares/fisica-ingenieria/",
+        "/clases-particulares/estadistica-universidad/",
+        "/clases-particulares/quimica/",
+        "/clases-particulares/economia-ade/",
+      ],
+    },
+    {
+      title: "Preparación con fecha",
+      text: "Selectividad, recuperaciones y programas internacionales con calendario inverso.",
+      paths: ["/clases-particulares/selectividad/", "/clases-particulares/gcse-ib/"],
+    },
+    {
+      title: "Formación tecnológica",
+      text: "Programación académica, Python, SQL, datos e itinerarios técnicos diferenciados.",
+      paths: ["/clases-particulares/programacion-universidad/"],
+    },
+  ];
 
   return (
     <PageShell>
@@ -115,31 +138,50 @@ export function ServiceOverviewPage() {
         breadcrumbs={[{ label: "Clases desde ESO", href: page.path }]}
       />
       <section className="py-16 md:py-20">
-        <div className="mx-auto grid max-w-7xl gap-6 px-6 lg:grid-cols-[0.9fr_1.1fr]">
+        <div className="mx-auto grid max-w-7xl gap-8 px-6 lg:grid-cols-[0.75fr_1.25fr]">
           <div>
-            <AccentHeading>Un mapa para cada etapa</AccentHeading>
+            <AccentHeading>Un mapa para cada objetivo</AccentHeading>
             <p className="mt-4 text-muted-foreground">
-              Trabajamos desde ESO y Bachillerato hasta Selectividad, programas internacionales, FP,
-              Universidad y perfiles técnicos. Matemáticas, estadística, programación, física,
-              química y economía se adaptan al temario real del alumno, a su etapa y a la fecha de
-              examen.
+              La oferta se separa para que un alumno de asignatura, una preparación con fecha y una
+              ruta tecnológica no compitan por la misma atención. Cada entrada conserva diagnóstico,
+              plan y seguimiento.
             </p>
+            <PrimaryCTA href="/contacto/" className="mt-6">
+              Solicitar diagnóstico
+            </PrimaryCTA>
           </div>
-          <div className="grid gap-4 sm:grid-cols-2">
-            {siteData.servicePages.map((service) => (
-              <Link
-                key={service.path}
-                to={service.path}
-                className="nebula-card group rounded-2xl p-5 transition-transform hover:-translate-y-1"
+          <div className="space-y-5">
+            {groups.map((group) => (
+              <section
+                key={group.title}
+                className="border-t border-white/8 pt-6 first:border-t-0 first:pt-0"
               >
-                <h3 className="font-display text-lg font-semibold group-hover:text-link">
-                  {service.h1}
-                </h3>
-                <p className="mt-2 text-sm text-muted-foreground">{service.description}</p>
-                <span className="mt-4 inline-flex items-center gap-2 text-sm text-link">
-                  Ver programa <ArrowRight className="h-4 w-4" />
-                </span>
-              </Link>
+                <h2 className="font-display text-xl font-semibold nebula-heading-text">
+                  {group.title}
+                </h2>
+                <p className="mt-2 text-sm text-muted-foreground">{group.text}</p>
+                <div className="mt-5 grid gap-4 sm:grid-cols-2">
+                  {group.paths.map((servicePath) => {
+                    const service = siteData.servicePages.find((item) => item.path === servicePath);
+                    if (!service) return null;
+                    return (
+                      <Link
+                        key={service.path}
+                        to={service.path}
+                        className="group rounded-2xl border border-white/8 p-5 transition-colors hover:border-action/35 hover:bg-action/5"
+                      >
+                        <h3 className="font-display text-lg font-semibold group-hover:text-link">
+                          {service.h1}
+                        </h3>
+                        <p className="mt-2 text-sm text-muted-foreground">{service.description}</p>
+                        <span className="mt-4 inline-flex items-center gap-2 text-sm text-link">
+                          Ver programa <ArrowRight className="h-4 w-4" />
+                        </span>
+                      </Link>
+                    );
+                  })}
+                </div>
+              </section>
             ))}
           </div>
         </div>
@@ -195,6 +237,24 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
             <ContentBlock title="Bloques que podemos trabajar" items={page.topics} />
             <ContentBlock title="Cómo funciona el método" items={page.method} ordered />
             <section>
+              <AccentHeading className="text-2xl">Qué diferencia este acompañamiento</AccentHeading>
+              <p className="mt-3 leading-relaxed text-muted-foreground">{page.differentiator}</p>
+            </section>
+            <div className="grid gap-5 md:grid-cols-2">
+              <section className="rounded-2xl border border-white/8 bg-white/[0.02] p-5">
+                <AccentHeading className="text-xl">Qué debe aportar el alumno</AccentHeading>
+                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+                  {page.studentInput}
+                </p>
+              </section>
+              <section className="rounded-2xl border border-white/8 bg-white/[0.02] p-5">
+                <AccentHeading className="text-xl">Resultados razonables</AccentHeading>
+                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+                  {page.reasonableOutcomes}
+                </p>
+              </section>
+            </div>
+            <section>
               <AccentHeading className="text-2xl">Perfil docente</AccentHeading>
               <p className="mt-3 leading-relaxed text-muted-foreground">{page.profile}</p>
             </section>
@@ -213,12 +273,9 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
           <aside className="space-y-5">
             <div className="nebula-card rounded-3xl p-6">
               <AccentHeading className="text-xl">Diagnóstico inicial</AccentHeading>
-              <p className="mt-3 text-sm text-muted-foreground">
-                Cuéntanos asignatura, etapa, curso, centro o universidad, fecha y punto de partida.
-                Te devolvemos una propuesta de trabajo ajustada al caso.
-              </p>
+              <p className="mt-3 text-sm text-muted-foreground">{page.nextStep}</p>
               <PrimaryCTA href="/contacto/" className="mt-5 w-full">
-                Contactar
+                Solicitar diagnóstico
               </PrimaryCTA>
             </div>
             {relatedPosts.length > 0 && (
@@ -320,7 +377,7 @@ export function AboutPage() {
         }}
       />
       <PageHero
-        label="Sobre Nebula"
+        label="Sobre Método Nebula"
         page={page}
         breadcrumbs={[{ label: "Sobre Nebula", href: page.path }]}
       />
@@ -392,7 +449,7 @@ export function AboutPage() {
                 ))}
               </div>
               <PrimaryCTA href="/contacto/" className="mt-6 w-full">
-                Contar mi caso
+                Solicitar diagnóstico
               </PrimaryCTA>
             </div>
           </aside>
@@ -451,6 +508,7 @@ export function ContactPage() {
         <div className="mx-auto max-w-3xl px-6">
           <div className="space-y-4">
             <button
+              type="button"
               onClick={copy}
               className="flex w-full items-center justify-between rounded-2xl border border-white/10 bg-white/[0.03] p-5 text-left transition-colors hover:border-white/25"
             >
@@ -479,7 +537,7 @@ export function ContactPage() {
           </div>
           <p className="mt-8 text-sm leading-relaxed text-muted-foreground">
             Cuéntanos asignatura, fecha de examen, temario y punto de partida. Con esa información
-            revisamos si Nebula encaja y qué plan tendría más sentido.
+            revisamos si Método Nebula encaja y qué plan tendría más sentido.
           </p>
         </div>
       </section>
@@ -489,6 +547,10 @@ export function ContactPage() {
 
 export function SitemapPage() {
   const posts = getAllPosts();
+  const postsByCategory = siteData.blogCategories.map((category) => ({
+    category,
+    posts: posts.filter((post) => post.category === category.name),
+  }));
   const page = {
     h1: "Mapa del sitio",
     intro:
@@ -582,17 +644,29 @@ export function SitemapPage() {
 
         <div className="mx-auto mt-8 max-w-7xl px-6">
           <section className="rounded-3xl border border-white/8 bg-white/[0.02] p-6">
-            <AccentHeading className="text-2xl">Artículos publicados</AccentHeading>
-            <div className="mt-6 grid gap-3 md:grid-cols-2 lg:grid-cols-3">
-              {posts.map((post) => (
-                <Link
-                  key={post.slug}
-                  to={`/blog/${post.slug}/`}
-                  className="rounded-2xl border border-white/8 p-4 text-sm transition-colors hover:border-action/35 hover:bg-action/5"
+            <AccentHeading className="text-2xl">Artículos por categoría</AccentHeading>
+            <div className="mt-6 grid gap-6 lg:grid-cols-2">
+              {postsByCategory.map(({ category, posts: categoryPosts }) => (
+                <section
+                  key={category.slug}
+                  className="border-t border-white/8 pt-5 first:border-t-0 first:pt-0 lg:first:border-t lg:first:pt-5"
                 >
-                  <span className="block font-medium text-link">{post.title}</span>
-                  <span className="mt-1 block text-xs text-muted-foreground">{post.category}</span>
-                </Link>
+                  <h3 className="font-display text-lg font-semibold nebula-subheading-text">
+                    {category.name}
+                  </h3>
+                  <ul className="mt-3 space-y-2 text-sm">
+                    {categoryPosts.map((post) => (
+                      <li key={post.slug}>
+                        <Link
+                          to={`/blog/${post.slug}/`}
+                          className="text-link underline-offset-4 hover:underline"
+                        >
+                          {post.title}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
               ))}
             </div>
           </section>

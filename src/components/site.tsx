@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ArrowRight, Instagram, Mail, MessageCircle } from "lucide-react";
 
 import { EMAIL, EMAIL_URL, INSTAGRAM_URL, WHATSAPP_NUMBER, useCopyPhone } from "../lib/contact";
@@ -79,8 +79,10 @@ export function NebulaLogo({ className = "" }: { className?: string }) {
 /* -------------------------------------------------------------------------- */
 
 const NAV_LINKS = [
+  { href: "/", label: "Inicio" },
+  { href: "/clases-particulares/universidad/", label: "Clases" },
+  { href: "/clases-particulares/selectividad/", label: "Exámenes" },
   { href: "/metodologia/", label: "Método" },
-  { href: "/clases-particulares/universidad/", label: "Servicios" },
   { href: "/sobre-nebula/", label: "Sobre Nebula" },
   { href: "/blog/", label: "Blog" },
   { href: "/contacto/", label: "Contacto" },
@@ -89,8 +91,11 @@ const NAV_LINKS = [
 export function PageShell({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen bg-background text-foreground antialiased">
+      <a href="#contenido" className="skip-link">
+        Saltar al contenido
+      </a>
       <Navbar />
-      <main>{children}</main>
+      <main id="contenido">{children}</main>
       <Footer />
       <WhatsAppFloat />
     </div>
@@ -99,14 +104,29 @@ export function PageShell({ children }: { children: React.ReactNode }) {
 
 export function Navbar() {
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    const onKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") setOpen(false);
+    };
+
+    window.addEventListener("keydown", onKeyDown);
+    document.body.style.overflow = open ? "hidden" : "";
+
+    return () => {
+      window.removeEventListener("keydown", onKeyDown);
+      document.body.style.overflow = "";
+    };
+  }, [open]);
+
   return (
     <header className="sticky top-0 z-50 border-b border-white/5 bg-background/70 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <Link to="/" className="flex items-center gap-2">
+        <Link to="/" className="flex min-h-11 items-center gap-2">
           <NebulaLogo className="h-7 w-7" />
-          <span className="font-display text-lg font-semibold tracking-tight">Nebula</span>
+          <span className="font-display text-lg font-semibold tracking-tight">Método Nebula</span>
         </Link>
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-8 lg:flex">
           {NAV_LINKS.map((l) => (
             <Link
               key={l.href}
@@ -117,13 +137,16 @@ export function Navbar() {
             </Link>
           ))}
         </nav>
-        <div className="hidden md:block">
-          <PrimaryCTA href="/contacto/">Reservar diagnóstico</PrimaryCTA>
+        <div className="hidden lg:block">
+          <PrimaryCTA href="/contacto/">Solicitar diagnóstico</PrimaryCTA>
         </div>
         <button
+          type="button"
           onClick={() => setOpen((v) => !v)}
-          className="rounded-md border border-white/10 p-2 md:hidden"
-          aria-label="Menu"
+          className="flex min-h-11 min-w-11 flex-col items-center justify-center rounded-md border border-white/10 p-2 lg:hidden"
+          aria-label={open ? "Cerrar menú" : "Abrir menú"}
+          aria-expanded={open}
+          aria-controls="mobile-navigation"
         >
           <div className="h-0.5 w-5 bg-foreground" />
           <div className="mt-1 h-0.5 w-5 bg-foreground" />
@@ -131,7 +154,7 @@ export function Navbar() {
         </button>
       </div>
       {open && (
-        <div className="border-t border-white/5 bg-background/95 md:hidden">
+        <div id="mobile-navigation" className="border-t border-white/5 bg-background/95 lg:hidden">
           <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-4">
             {NAV_LINKS.map((l) => (
               <Link
@@ -144,7 +167,7 @@ export function Navbar() {
               </Link>
             ))}
             <PrimaryCTA href="/contacto/" className="w-full">
-              Reservar diagnóstico
+              Solicitar diagnóstico
             </PrimaryCTA>
           </div>
         </div>
@@ -166,11 +189,11 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-2">
               <NebulaLogo className="h-7 w-7" />
-              <span className="font-display text-lg font-semibold">Nebula</span>
+              <span className="font-display text-lg font-semibold">Método Nebula</span>
             </div>
             <p className="mt-4 max-w-sm text-sm text-muted-foreground">
-              Enseñanza privada premium desde ESO hasta Universidad y objetivos profesionales
-              exigentes.
+              Enseñanza privada con diagnóstico, planificación, materiales y seguimiento desde ESO
+              hasta Universidad.
             </p>
             <p className="mt-6 text-xs text-muted-foreground">
               Rigor académico con visión tecnológica.
@@ -182,7 +205,8 @@ export function Footer() {
             <ul className="mt-4 space-y-2 text-sm">
               {[
                 ["/metodologia/", "Método"],
-                ["/clases-particulares/universidad/", "Clases desde ESO"],
+                ["/clases-particulares/universidad/", "Clases"],
+                ["/clases-particulares/selectividad/", "Exámenes"],
                 ["/sobre-nebula/", "Sobre Nebula"],
                 ["/blog/", "Blog"],
                 ["/mapa-del-sitio/", "Mapa del sitio"],
@@ -234,7 +258,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-start justify-between gap-3 border-t border-white/5 pt-6 text-xs text-muted-foreground md:flex-row md:items-center">
-          <p>© {new Date().getFullYear()} Nebula. Todos los derechos reservados.</p>
+          <p>© {new Date().getFullYear()} Método Nebula. Todos los derechos reservados.</p>
           <div className="flex gap-5">
             <a href="/contacto/" className="text-link transition-colors hover:text-link">
               Aviso legal
@@ -260,9 +284,10 @@ export function WhatsAppFloat() {
   const { copied, copy } = useCopyPhone();
   return (
     <button
+      type="button"
       onClick={copy}
       aria-label="Copiar número de WhatsApp"
-      className="fixed bottom-6 right-6 z-40 inline-flex cursor-pointer items-center gap-2 rounded-full border border-white/15 bg-background/80 px-4 py-3 text-sm font-medium shadow-[0_10px_40px_-10px_oklch(0.62_0.22_265/0.8)] backdrop-blur-md transition-all hover:translate-y-[-1px] hover:border-white/30"
+      className="fixed bottom-6 right-6 z-40 hidden cursor-pointer items-center gap-2 rounded-full border border-white/15 bg-background/80 px-4 py-3 text-sm font-medium shadow-[0_10px_40px_-10px_oklch(0.62_0.22_265/0.8)] backdrop-blur-md transition-all hover:translate-y-[-1px] hover:border-white/30 md:inline-flex"
     >
       <MessageCircle className="h-4 w-4 text-action" />
       {copied ? "Copiado" : "Copiar teléfono"}

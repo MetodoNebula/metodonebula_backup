@@ -144,6 +144,16 @@ const isUl = (line: string) => /^\s*[-*]\s+/.test(line);
 const isOl = (line: string) => /^\s*\d+\.\s+/.test(line);
 const isRule = (line: string) => /^(-{3,}|\*{3,}|_{3,})$/.test(line.trim());
 
+function headingId(text: string): string {
+  return text
+    .replace(/[*_`]/g, "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
 function parseBlocks(md: string): ReactNode[] {
   const lines = md.replace(/\r\n/g, "\n").split("\n");
   const out: ReactNode[] = [];
@@ -215,11 +225,14 @@ function parseBlocks(md: string): ReactNode[] {
     const heading = /^(#{1,6})\s+(.*)$/.exec(line);
     if (heading) {
       const level = heading[1].length;
-      const content = renderInline(heading[2].trim());
+      const headingText = heading[2].trim();
+      const content = renderInline(headingText);
+      const id = headingId(headingText);
       if (level <= 2) {
         out.push(
           <h2
             key={key++}
+            id={id}
             className="mt-12 mb-4 border-l-2 border-action pl-4 font-display text-2xl font-semibold nebula-heading-text md:text-3xl"
           >
             {content}
@@ -229,6 +242,7 @@ function parseBlocks(md: string): ReactNode[] {
         out.push(
           <h3
             key={key++}
+            id={id}
             className="mt-10 mb-3 font-display text-xl font-semibold nebula-subheading-text"
           >
             {content}

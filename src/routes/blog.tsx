@@ -25,6 +25,12 @@ import {
   type BlogCategory,
 } from "../lib/site-data";
 
+const FEATURED_POST_SLUGS = [
+  "que-prueba-estadistica-utilizar-guia-test-correcto",
+  "como-aprobar-calculo-i-ingenieria-seis-semanas",
+  "preparar-selectividad-con-calendario",
+];
+
 function JsonLd({ data }: { data: object }) {
   return (
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} />
@@ -58,6 +64,41 @@ function PostMeta({ post }: { post: Post }) {
       </span>
     </div>
   );
+}
+
+function PostCard({ post, headingLevel = 2 }: { post: Post; headingLevel?: 2 | 3 }) {
+  const Heading = `h${headingLevel}` as const;
+  return (
+    <Link
+      to={`/blog/${post.slug}/`}
+      className="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-colors hover:border-action/35 hover:bg-action/5"
+    >
+      <PostMeta post={post} />
+      <Heading className="mt-5 font-display text-xl font-semibold leading-snug text-foreground transition-colors group-hover:text-spark">
+        {post.title}
+      </Heading>
+      <p className="mt-3 grow text-sm leading-relaxed text-muted-foreground">{post.description}</p>
+      <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">
+        Leer entrada
+        <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+      </span>
+    </Link>
+  );
+}
+
+function getPostHeadings(body: string): Array<{ id: string; text: string }> {
+  return Array.from(body.matchAll(/^##\s+(.+)$/gm))
+    .slice(0, 8)
+    .map((match) => {
+      const text = match[1].replace(/\*\*/g, "").trim();
+      const id = text
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-|-$/g, "");
+      return { id, text };
+    });
 }
 
 function PaginationNav({
@@ -128,6 +169,12 @@ function BlogIndexView({
   const page = siteData.corePages.find((item) => item.kind === "blog")!;
   const path = blogPagePath(currentPage);
   const paginatedPosts = getPageItems(posts, currentPage);
+  const featuredPosts = FEATURED_POST_SLUGS.map((slug) => getPost(slug)).filter(
+    (post): post is Post => Boolean(post),
+  );
+  const pillarPosts = siteData.blogCategories
+    .map((category) => getPost(category.pillarPost))
+    .filter((post): post is Post => Boolean(post));
   usePageMeta({
     title:
       currentPage === 1
@@ -175,24 +222,48 @@ function BlogIndexView({
       <section className="py-16 md:py-20">
         <div className="mx-auto max-w-7xl px-6">
           {currentPage === 1 && (
-            <div className="mb-12">
-              <h2 className="font-display text-2xl font-semibold nebula-heading-text">
-                Categorías
-              </h2>
-              <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-                {siteData.blogCategories.map((category) => (
-                  <Link
-                    key={category.slug}
-                    to={blogCategoryPath(category.slug)}
-                    className="rounded-2xl border border-white/8 bg-white/[0.02] p-4 transition-colors hover:border-action/35 hover:bg-action/5"
-                  >
-                    <span className="text-sm font-semibold text-link">{category.name}</span>
-                    <span className="mt-1 block text-xs text-muted-foreground">
-                      {category.description}
-                    </span>
-                  </Link>
-                ))}
-              </div>
+            <div className="mb-14 space-y-14">
+              <section>
+                <h2 className="font-display text-2xl font-semibold nebula-heading-text">
+                  Contenidos destacados
+                </h2>
+                <div className="mt-6 grid gap-5 lg:grid-cols-3">
+                  {featuredPosts.map((post) => (
+                    <PostCard key={post.slug} post={post} />
+                  ))}
+                </div>
+              </section>
+
+              <section>
+                <h2 className="font-display text-2xl font-semibold nebula-heading-text">
+                  Guías principales
+                </h2>
+                <div className="mt-6 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+                  {pillarPosts.map((post) => (
+                    <PostCard key={post.slug} post={post} headingLevel={3} />
+                  ))}
+                </div>
+              </section>
+
+              <section>
+                <h2 className="font-display text-2xl font-semibold nebula-heading-text">
+                  Categorías
+                </h2>
+                <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+                  {siteData.blogCategories.map((category) => (
+                    <Link
+                      key={category.slug}
+                      to={blogCategoryPath(category.slug)}
+                      className="rounded-2xl border border-white/8 bg-white/[0.02] p-4 transition-colors hover:border-action/35 hover:bg-action/5"
+                    >
+                      <span className="text-sm font-semibold text-link">{category.name}</span>
+                      <span className="mt-1 block text-xs text-muted-foreground">
+                        {category.description}
+                      </span>
+                    </Link>
+                  ))}
+                </div>
+              </section>
             </div>
           )}
 
@@ -200,25 +271,12 @@ function BlogIndexView({
             <p className="text-muted-foreground">Todavía no hay entradas publicadas.</p>
           ) : (
             <>
-              <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+              <h2 className="font-display text-2xl font-semibold nebula-heading-text">
+                {currentPage === 1 ? "Artículos recientes" : `Archivo, página ${currentPage}`}
+              </h2>
+              <div className="mt-6 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
                 {paginatedPosts.map((post) => (
-                  <Link
-                    key={post.slug}
-                    to={`/blog/${post.slug}/`}
-                    className="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1"
-                  >
-                    <PostMeta post={post} />
-                    <h2 className="mt-5 font-display text-xl font-semibold leading-snug text-foreground transition-colors group-hover:text-spark">
-                      {post.title}
-                    </h2>
-                    <p className="mt-3 grow text-sm leading-relaxed text-muted-foreground">
-                      {post.description}
-                    </p>
-                    <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">
-                      Leer entrada
-                      <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-                    </span>
-                  </Link>
+                  <PostCard key={post.slug} post={post} />
                 ))}
               </div>
               <PaginationNav
@@ -270,6 +328,10 @@ function BlogCategoryView({
 }) {
   const path = blogCategoryPagePath(category.slug, currentPage);
   const paginatedPosts = getPageItems(posts, currentPage);
+  const pillarPost = getPost(category.pillarPost);
+  const relatedService = siteData.servicePages.find(
+    (service) => service.path === category.relatedService,
+  );
   const title =
     currentPage === 1
       ? `${category.name}: artículos y guías | ${siteData.site.displayName}`
@@ -341,29 +403,48 @@ function BlogCategoryView({
 
       <section className="py-16 md:py-20">
         <div className="mx-auto max-w-7xl px-6">
+          {currentPage === 1 && (
+            <div className="mb-12 grid gap-5 lg:grid-cols-[1fr_0.8fr]">
+              {pillarPost && (
+                <section>
+                  <h2 className="font-display text-2xl font-semibold nebula-heading-text">
+                    Guía principal
+                  </h2>
+                  <div className="mt-5">
+                    <PostCard post={pillarPost} />
+                  </div>
+                </section>
+              )}
+              {relatedService && (
+                <aside className="rounded-3xl border border-white/8 bg-white/[0.02] p-7">
+                  <h2 className="font-display text-2xl font-semibold nebula-heading-text">
+                    Apoyo relacionado
+                  </h2>
+                  <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+                    Si esta categoría conecta con una asignatura o examen real, la página de
+                    servicio explica el acompañamiento, los contenidos y el siguiente paso.
+                  </p>
+                  <Link
+                    to={relatedService.path}
+                    className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link underline-offset-4 hover:underline"
+                  >
+                    {relatedService.h1}
+                    <ArrowRight className="h-4 w-4" />
+                  </Link>
+                </aside>
+              )}
+            </div>
+          )}
           {posts.length === 0 ? (
             <p className="text-muted-foreground">Todavía no hay entradas en esta categoría.</p>
           ) : (
             <>
-              <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+              <h2 className="font-display text-2xl font-semibold nebula-heading-text">
+                Artículos de {category.name}
+              </h2>
+              <div className="mt-6 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
                 {paginatedPosts.map((post) => (
-                  <Link
-                    key={post.slug}
-                    to={`/blog/${post.slug}/`}
-                    className="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1"
-                  >
-                    <PostMeta post={post} />
-                    <h2 className="mt-5 font-display text-xl font-semibold leading-snug text-foreground transition-colors group-hover:text-spark">
-                      {post.title}
-                    </h2>
-                    <p className="mt-3 grow text-sm leading-relaxed text-muted-foreground">
-                      {post.description}
-                    </p>
-                    <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">
-                      Leer entrada
-                      <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-                    </span>
-                  </Link>
+                  <PostCard key={post.slug} post={post} />
                 ))}
               </div>
               <PaginationNav
@@ -393,6 +474,31 @@ export function BlogPost({ slug }: { slug: string }) {
 function PostView({ post }: { post: Post }) {
   const path = `/blog/${post.slug}/`;
   const related = getRelatedPosts(post, 3);
+  const category = siteData.blogCategories.find((item) => item.name === post.category);
+  const relatedService = siteData.servicePages.find(
+    (service) => service.path === post.relatedService,
+  );
+  const headings = getPostHeadings(post.body);
+  const blogPosting = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.description,
+    author: {
+      "@type": "EducationalOrganization",
+      name: siteData.site.displayName,
+      url: absoluteUrl("/"),
+    },
+    datePublished: post.date,
+    dateModified: post.updated,
+    mainEntityOfPage: absoluteUrl(path),
+    publisher: {
+      "@type": "EducationalOrganization",
+      name: siteData.site.displayName,
+      logo: { "@type": "ImageObject", url: absoluteUrl(siteData.site.logo) },
+    },
+    ...(post.image && post.image !== siteData.site.logo ? { image: absoluteUrl(post.image) } : {}),
+  };
   usePageMeta({
     title: `${post.title} | ${siteData.site.displayName}`,
     description: post.description,
@@ -403,28 +509,7 @@ function PostView({ post }: { post: Post }) {
 
   return (
     <PageShell>
-      <JsonLd
-        data={{
-          "@context": "https://schema.org",
-          "@type": "BlogPosting",
-          headline: post.title,
-          description: post.description,
-          author: {
-            "@type": "EducationalOrganization",
-            name: siteData.site.displayName,
-            url: absoluteUrl("/"),
-          },
-          datePublished: post.date,
-          dateModified: post.updated,
-          mainEntityOfPage: absoluteUrl(path),
-          image: absoluteUrl(post.image),
-          publisher: {
-            "@type": "EducationalOrganization",
-            name: siteData.site.displayName,
-            logo: { "@type": "ImageObject", url: absoluteUrl(siteData.site.logo) },
-          },
-        }}
-      />
+      <JsonLd data={blogPosting} />
       <JsonLd
         data={{
           "@context": "https://schema.org",
@@ -461,22 +546,72 @@ function PostView({ post }: { post: Post }) {
         </header>
 
         <div className="mx-auto max-w-3xl px-6 py-14 text-[1.05rem]">
+          {headings.length >= 4 && (
+            <nav
+              aria-label="Índice del artículo"
+              className="mb-10 rounded-3xl border border-white/8 bg-white/[0.02] p-6 text-sm"
+            >
+              <p className="font-display font-semibold text-foreground">Índice</p>
+              <ol className="mt-4 space-y-2">
+                {headings.map((heading) => (
+                  <li key={heading.id}>
+                    <a
+                      href={`#${heading.id}`}
+                      className="text-link underline-offset-4 hover:underline"
+                    >
+                      {heading.text}
+                    </a>
+                  </li>
+                ))}
+              </ol>
+            </nav>
+          )}
           <MarkdownContent markdown={post.body} />
 
           <div className="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8 text-center">
             <h2 className="font-display text-2xl font-semibold nebula-heading-text">
-              ¿Quieres aplicar esto a tu caso?
+              ¿Quieres aplicar esto a tu asignatura o examen?
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">
               Empezamos con una llamada de diagnóstico para entender tu objetivo, tu punto de
-              partida y tu fecha. Sin compromiso.
+              partida y tu fecha. El servicio relacionado ayuda a aterrizarlo en un plan concreto.
             </p>
-            <div className="mt-6 flex justify-center">
-              <PrimaryCTA href={post.relatedService}>Ver apoyo relacionado</PrimaryCTA>
+            <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
+              <PrimaryCTA href="/contacto/">Solicitar diagnóstico</PrimaryCTA>
+              {relatedService && (
+                <Link
+                  to={relatedService.path}
+                  className="inline-flex items-center justify-center rounded-full border border-white/15 px-6 py-3 text-sm font-medium text-link transition-colors hover:border-white/30 hover:bg-white/[0.05]"
+                >
+                  Ver apoyo relacionado
+                </Link>
+              )}
             </div>
           </div>
         </div>
       </article>
+
+      {category && (
+        <section className="border-t border-white/5 py-12">
+          <div className="mx-auto flex max-w-7xl flex-col gap-3 px-6 md:flex-row md:items-center md:justify-between">
+            <p className="text-sm text-muted-foreground">
+              Este artículo forma parte del clúster de{" "}
+              <Link to={blogCategoryPath(category.slug)} className="text-link hover:underline">
+                {category.name}
+              </Link>
+              .
+            </p>
+            {relatedService && (
+              <Link
+                to={relatedService.path}
+                className="text-sm font-medium text-link underline-offset-4 hover:underline"
+              >
+                Servicio relacionado: {relatedService.h1}
+              </Link>
+            )}
+          </div>
+        </section>
+      )}
 
       {related.length > 0 && (
         <section className="border-t border-white/5 py-16">

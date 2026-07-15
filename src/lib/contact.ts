@@ -3,7 +3,7 @@ import { useState } from "react";
 export const WHATSAPP_NUMBER = "+34 684 73 17 62";
 export const WHATSAPP_NUMBER_CLEAN = "+34684731762";
 export const EMAIL = "admisionesnebula@gmail.com";
-export const EMAIL_URL = `mailto:${EMAIL}?subject=${encodeURIComponent("Solicitud de diagnóstico — Nebula")}`;
+export const EMAIL_URL = `mailto:${EMAIL}?subject=${encodeURIComponent("Solicitud de diagnóstico - Método Nebula")}`;
 export const INSTAGRAM_URL = "https://instagram.com/nebula.lambda";
 
 export function useCopyPhone() {

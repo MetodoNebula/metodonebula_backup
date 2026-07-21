@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
+      <title>Cómo preparar IB Mathematics AA y AI: estrategia para estudiar y practicar</title>
+      <link>https://metodonebula.es/blog/como-preparar-ib-mathematics-aa-ai/</link>
+      <guid>https://metodonebula.es/blog/como-preparar-ib-mathematics-aa-ai/</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Diferencias prácticas entre IB Mathematics AA y AI y un método para preparar exámenes con contenidos, formato, criterios y práctica.</description>
+    </item>
+    <item>
+      <title>Cómo preparar Matemáticas II para la PAU: qué practicar y cómo corregir</title>
+      <link>https://metodonebula.es/blog/como-preparar-pau-matematicas-ii/</link>
+      <guid>https://metodonebula.es/blog/como-preparar-pau-matematicas-ii/</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Plan práctico para preparar Matemáticas II en la PAU: bloques prioritarios, modelos de examen, corrección y gestión del tiempo.</description>
+    </item>
+    <item>
+      <title>Preparar la PAU desde verano: plan realista para llegar fuerte a septiembre</title>
+      <link>https://metodonebula.es/blog/preparar-pau-desde-verano-plan-septiembre/</link>
+      <guid>https://metodonebula.es/blog/preparar-pau-desde-verano-plan-septiembre/</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Cómo aprovechar el verano antes de 2º de Bachillerato para preparar la PAU sin adelantar temario sin criterio ni agotarte.</description>
+    </item>
+    <item>
+      <title>Tu primer proyecto de Python para datos: qué hacer antes de aprender más librerías</title>
+      <link>https://metodonebula.es/blog/primer-proyecto-python-principiantes-datos/</link>
+      <guid>https://metodonebula.es/blog/primer-proyecto-python-principiantes-datos/</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Guía para elegir y terminar un primer proyecto de Python para análisis de datos, con pasos, alcance realista y errores que evitar.</description>
+    </item>
+    <item>
       <title>R, SPSS, Jamovi o Python: qué programa estadístico conviene usar en la universidad</title>
       <link>https://metodonebula.es/blog/r-spss-jamovi-python-programa-estadistico-universidad/</link>
       <guid>https://metodonebula.es/blog/r-spss-jamovi-python-programa-estadistico-universidad/</guid>

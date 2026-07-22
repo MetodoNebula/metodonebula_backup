@@ -5,7 +5,7 @@ updated: 2026-06-01
 description: Una ruta inicial para estudiar programación y datos sin saltar entre cursos: SQL, Python, fundamentos y un proyecto pequeño.
 tag: Programación
 category: Programación y datos
-relatedService: /clases-particulares/programacion-universidad/
+relatedService: /formacion-it/python-sql-data-engineering/
 relatedPosts: transicion-al-sector-it-en-6-meses,estadistica-desde-cero-para-elegir-contrastes
 image: /favicon.svg
 ---

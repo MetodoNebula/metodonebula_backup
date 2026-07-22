@@ -5,11 +5,18 @@
     "url": "https://metodonebula.es",
     "language": "es-ES",
     "logo": "/favicon.svg",
+    "socialImage": "/og-nebula.svg",
     "social": ["https://instagram.com/nebula.lambda"],
+    "contact": {
+      "whatsapp": "+34 684 73 17 62",
+      "email": "admisionesnebula@gmail.com",
+      "instagram": "https://instagram.com/nebula.lambda"
+    },
     "author": {
       "name": "Método Nebula",
       "path": "/sobre-nebula/",
-      "jobTitle": "Mentor académico y profesional",
+      "jobTitle": "Responsable docente",
+      "profileUrl": "https://www.tusclasesparticulares.com/profesores/nebula-lambda.htm",
       "knowsAbout": [
         "Matemáticas",
         "Física",
@@ -27,10 +34,10 @@
     {
       "path": "/",
       "kind": "home",
-      "title": "Clases particulares desde ESO hasta Universidad | Método Nebula",
-      "description": "Clases particulares premium desde ESO, Bachillerato y Selectividad hasta universidad, IB, GCSE y transición IT con diagnóstico, plan y seguimiento.",
-      "h1": "Cuando la asignatura, el examen o la entrevista no admite improvisación.",
-      "intro": "Enseñanza privada desde ESO y Bachillerato hasta Universidad, exámenes internacionales, Selectividad y transición al sector IT. Diagnóstico claro, plan de trabajo con fechas y un mentor que sostiene el proceso de principio a fin.",
+      "title": "Clases particulares online desde ESO hasta Universidad | Método Nebula",
+      "description": "Clases particulares online de Matemáticas, Física, Estadística y Programación para ESO, Bachillerato, Selectividad y Universidad, con plan personalizado.",
+      "h1": "Clases particulares online de Matemáticas, Física, Estadística y Programación",
+      "intro": "Para estudiantes de ESO, Bachillerato, Selectividad y Universidad que necesitan entender, practicar con criterio y avanzar con un plan personalizado y seguimiento real.",
       "priority": "1.0"
     },
     {
@@ -75,21 +82,21 @@
       "name": "Matemáticas universitarias",
       "slug": "matematicas-universitarias",
       "description": "Cálculo, álgebra, demostraciones y estrategias para estudiar asignaturas cuantitativas con método.",
-      "relatedService": "/clases-particulares/matematicas-universidad/",
+      "relatedService": "/clases-particulares/calculo-universitario/",
       "pillarPost": "como-aprobar-calculo-i-ingenieria-seis-semanas"
     },
     {
       "name": "Estadística",
       "slug": "estadistica",
       "description": "Inferencia, probabilidad, modelos, TFG y TFM con lectura crítica de resultados.",
-      "relatedService": "/clases-particulares/estadistica-universidad/",
+      "relatedService": "/clases-particulares/estadistica-psicologia-ade/",
       "pillarPost": "que-prueba-estadistica-utilizar-guia-test-correcto"
     },
     {
       "name": "Programación y datos",
       "slug": "programacion-y-datos",
       "description": "Python, SQL, proyectos, fundamentos de software y preparación técnica.",
-      "relatedService": "/clases-particulares/programacion-universidad/",
+      "relatedService": "/formacion-it/python-sql-data-engineering/",
       "pillarPost": "python-y-sql-para-empezar-en-datos"
     },
     {
@@ -110,31 +117,165 @@
       "name": "Selectividad",
       "slug": "selectividad",
       "description": "Calendarios, simulacros y estrategia para PAU y pruebas de acceso.",
-      "relatedService": "/clases-particulares/selectividad/",
+      "relatedService": "/preparacion-examenes/matematicas-selectividad/",
       "pillarPost": "preparar-selectividad-con-calendario"
     },
     {
       "name": "Exámenes internacionales",
       "slug": "examenes-internacionales",
       "description": "IB, GCSE e IGCSE con foco en rúbricas, práctica y gestión del tiempo.",
-      "relatedService": "/clases-particulares/gcse-ib/",
+      "relatedService": "/preparacion-examenes/ib-mathematics/",
       "pillarPost": "ib-gcse-como-preparar-examenes-internacionales"
     },
     {
       "name": "Carrera tecnológica",
       "slug": "carrera-tecnologica",
       "description": "Rutas de aprendizaje, portfolio, entrevistas y transición profesional a tecnología.",
-      "relatedService": "/clases-particulares/programacion-universidad/",
+      "relatedService": "/formacion-it/python-sql-data-engineering/",
       "pillarPost": "transicion-al-sector-it-en-6-meses"
+    }
+  ],
+  "commercialHubs": [
+    {
+      "path": "/clases-particulares/",
+      "kind": "commercial-hub",
+      "label": "Clases académicas",
+      "title": "Clases particulares online por asignatura y nivel | Método Nebula",
+      "description": "Clases particulares online de Matemáticas, Física, Estadística, Química, Economía y Programación desde ESO hasta Universidad.",
+      "h1": "Clases particulares online por asignatura y nivel",
+      "intro": "Apoyo académico individual para construir base, resolver problemas con criterio y preparar evaluaciones con un plan adaptado al temario real.",
+      "priority": "0.9",
+      "sections": [
+        {
+          "title": "Matemáticas y ciencias",
+          "description": "Razonamiento, práctica guiada y preparación de exámenes cuantitativos.",
+          "paths": [
+            "/clases-particulares/matematicas-universidad/",
+            "/clases-particulares/calculo-universitario/",
+            "/clases-particulares/algebra-lineal-universidad/",
+            "/clases-particulares/fisica-ingenieria/",
+            "/clases-particulares/quimica/"
+          ]
+        },
+        {
+          "title": "Estadística, Economía y Programación",
+          "description": "Asignaturas aplicadas para Universidad, ADE, Psicología, FP y titulaciones técnicas.",
+          "paths": [
+            "/clases-particulares/estadistica-universidad/",
+            "/clases-particulares/estadistica-psicologia-ade/",
+            "/clases-particulares/economia-ade/",
+            "/clases-particulares/programacion-universidad/"
+          ]
+        },
+        {
+          "title": "Preparación universitaria",
+          "description": "Organización de parciales, recuperaciones y finales con materiales de la asignatura.",
+          "paths": ["/clases-particulares/universidad/", "/preparacion-examenes/"]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Las clases son online?",
+          "a": "Sí. Las sesiones se realizan online y se organizan con materiales, pizarra y ejercicios adaptados al objetivo."
+        },
+        {
+          "q": "¿Se trabaja con el temario de mi centro?",
+          "a": "Sí. El diagnóstico parte de la guía, apuntes, exámenes y fechas que aporte el alumno."
+        }
+      ]
+    },
+    {
+      "path": "/preparacion-examenes/",
+      "kind": "commercial-hub",
+      "label": "Preparación de exámenes",
+      "title": "Preparación online de Selectividad, Universidad e IB | Método Nebula",
+      "description": "Preparación online de PAU, exámenes universitarios, IB, GCSE e IGCSE con calendario, simulacros y corrección de errores.",
+      "h1": "Preparación de exámenes con calendario y simulacros",
+      "intro": "Planes orientados a una fecha real: priorización del temario, práctica cronometrada, revisión de errores y ajustes semanales.",
+      "priority": "0.9",
+      "sections": [
+        {
+          "title": "Selectividad y PAU",
+          "description": "Preparación general y refuerzo específico de Matemáticas.",
+          "paths": [
+            "/clases-particulares/selectividad/",
+            "/preparacion-examenes/matematicas-selectividad/"
+          ]
+        },
+        {
+          "title": "Programas internacionales",
+          "description": "Trabajo alineado con syllabus, nivel y criterios de evaluación.",
+          "paths": ["/clases-particulares/gcse-ib/", "/preparacion-examenes/ib-mathematics/"]
+        },
+        {
+          "title": "Universidad",
+          "description": "Preparación de parciales, finales y recuperaciones sin sustituir el trabajo del alumno.",
+          "paths": [
+            "/clases-particulares/universidad/",
+            "/clases-particulares/calculo-universitario/",
+            "/clases-particulares/fisica-ingenieria/"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Cuándo conviene empezar?",
+          "a": "Cuanto antes, más margen existe para consolidar. Con poco tiempo se priorizan los bloques de mayor impacto."
+        },
+        {
+          "q": "¿Se usan exámenes oficiales?",
+          "a": "Se trabaja con modelos y criterios vigentes aportados por el alumno o publicados por el organismo correspondiente."
+        }
+      ]
+    },
+    {
+      "path": "/formacion-it/",
+      "kind": "commercial-hub",
+      "label": "Formación IT",
+      "title": "Formación online en Python, SQL, datos e IA | Método Nebula",
+      "description": "Formación personalizada en Python, SQL, Data Engineering, Git, Cloud e Inteligencia Artificial con proyectos y roadmap propio.",
+      "h1": "Formación IT en Python, SQL, datos e Inteligencia Artificial",
+      "intro": "Una ruta técnica para aprender fundamentos, construir proyectos defendibles y preparar una transición profesional sin acumular cursos inconexos.",
+      "priority": "0.85",
+      "sections": [
+        {
+          "title": "Python, SQL y Data Engineering",
+          "description": "Fundamentos, bases de datos, ETL, modelado y proyectos prácticos.",
+          "paths": ["/formacion-it/python-sql-data-engineering/"]
+        },
+        {
+          "title": "Programación académica",
+          "description": "Apoyo para asignaturas, prácticas y fundamentos de programación.",
+          "paths": ["/clases-particulares/programacion-universidad/"]
+        },
+        {
+          "title": "Transición profesional",
+          "description": "Roadmap, portfolio, Git, Cloud y preparación razonada de entrevistas.",
+          "paths": [
+            "/blog/transicion-al-sector-it-en-6-meses/",
+            "/blog/python-y-sql-para-empezar-en-datos/"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Puedo empezar sin experiencia?",
+          "a": "Sí. La ruta comienza por fundamentos y avanza según el objetivo y el tiempo disponible."
+        },
+        {
+          "q": "¿Se realizan proyectos por el alumno?",
+          "a": "No. Se orienta, explica y revisa para que la persona pueda construir y defender su propio proyecto."
+        }
+      ]
     }
   ],
   "serviceOverview": {
     "path": "/clases-particulares/universidad/",
     "kind": "service-overview",
-    "title": "Clases particulares y preparación académica | Método Nebula",
-    "description": "Servicios de enseñanza privada para Matemáticas, Física, Estadística, Química, Economía, Programación, Selectividad, IB y GCSE.",
-    "h1": "Clases particulares, preparación de exámenes y formación tecnológica",
-    "intro": "Tres líneas de trabajo diferenciadas: apoyo académico en asignaturas, preparación con fecha cerrada y formación tecnológica para perfiles que necesitan una ruta propia.",
+    "title": "Preparación universitaria y clases online | Método Nebula",
+    "description": "Preparación online de asignaturas, parciales, finales y recuperaciones universitarias en Matemáticas, Física, Estadística, Economía y Programación.",
+    "h1": "Preparación universitaria por asignatura y tipo de examen",
+    "intro": "Apoyo para ordenar una asignatura universitaria, reforzar la base necesaria y preparar parciales, finales o recuperaciones con ejercicios del programa real.",
     "priority": "0.8"
   },
   "servicePages": [
@@ -291,12 +432,16 @@
         "No saber plantear el diagrama inicial."
       ],
       "topics": [
+        "Cinemática y dinámica",
         "Mecánica",
+        "Trabajo y energía",
+        "Oscilaciones y movimiento armónico",
         "Electricidad y magnetismo",
+        "Circuitos eléctricos",
         "Ondas",
         "Termodinámica",
-        "Física general",
-        "Problemas de examen"
+        "Resolución matemática de problemas",
+        "Preparación de parciales y finales"
       ],
       "method": [
         "Diagnóstico de conceptos y herramientas matemáticas.",
@@ -321,6 +466,19 @@
         }
       ],
       "relatedPosts": ["fisica-y-quimica-como-plantear-problemas"],
+      "parentPath": "/clases-particulares/",
+      "parentLabel": "Clases particulares",
+      "modality": "Sesiones online individuales con pizarra compartida, diagramas, control de unidades y problemas del programa de Ingeniería.",
+      "sessionStructure": [
+        "Lectura del enunciado y elección del sistema.",
+        "Diagrama y modelo físico.",
+        "Resolución matemática con unidades.",
+        "Comprobación y variante de práctica."
+      ],
+      "relatedServices": [
+        "/clases-particulares/calculo-universitario/",
+        "/clases-particulares/matematicas-universidad/"
+      ],
       "priority": "0.68"
     },
     {
@@ -502,6 +660,407 @@
       ],
       "relatedPosts": ["ib-gcse-como-preparar-examenes-internacionales"],
       "priority": "0.65"
+    },
+    {
+      "path": "/clases-particulares/calculo-universitario/",
+      "parentPath": "/clases-particulares/",
+      "parentLabel": "Clases particulares",
+      "title": "Clases particulares de Cálculo universitario online | Método Nebula",
+      "description": "Clases online de Cálculo universitario: límites, derivadas, integrales, series, cálculo multivariable y preparación de exámenes.",
+      "h1": "Clases particulares de Cálculo universitario online",
+      "audience": "Para estudiantes de Ingeniería, Ciencias, Economía y grados cuantitativos que necesitan ordenar el temario de Cálculo y resolver problemas sin depender de recetas.",
+      "problems": [
+        "No reconocer qué técnica aplicar ante un límite o una integral.",
+        "Acumular errores algebraicos que ocultan el razonamiento.",
+        "Estudiar cálculo multivariable sin una base firme de una variable.",
+        "Llegar al examen sin haber practicado problemas completos y cronometrados."
+      ],
+      "topics": [
+        "Límites y continuidad",
+        "Derivadas y optimización",
+        "Integrales e integrales impropias",
+        "Series y aproximaciones",
+        "Derivadas parciales y gradiente",
+        "Integrales múltiples",
+        "Ecuaciones diferenciales básicas",
+        "Interpretación geométrica"
+      ],
+      "method": [
+        "Diagnóstico por bloques y tipos de error.",
+        "Explicación conceptual con interpretación gráfica.",
+        "Resolución guiada de problemas representativos.",
+        "Práctica autónoma con corrección razonada.",
+        "Simulacros adaptados al formato de la asignatura."
+      ],
+      "modality": "Sesiones online individuales con pizarra compartida, materiales del alumno y ejercicios seleccionados según el próximo examen.",
+      "sessionStructure": [
+        "Revisión breve de errores anteriores.",
+        "Explicación del concepto o método prioritario.",
+        "Problema guiado y variante autónoma.",
+        "Cierre con tareas y criterio de comprobación."
+      ],
+      "profile": "El cálculo se trabaja conectando expresión, gráfica y significado antes de automatizar procedimientos.",
+      "differentiator": "Cada técnica se vincula con sus condiciones de uso y con una forma de comprobar el resultado. El objetivo es elegir método, justificarlo y ejecutarlo con claridad.",
+      "studentInput": "Guía docente, colección de problemas, exámenes anteriores, calendario y ejemplos recientes de errores.",
+      "reasonableOutcomes": "Mayor criterio para elegir técnicas, soluciones más ordenadas y una preparación orientada al examen real. El progreso depende de la base, el tiempo disponible y la práctica entre sesiones.",
+      "nextStep": "Solicitar un diagnóstico inicial indicando grado, asignatura, bloques del temario y fecha del próximo examen.",
+      "faq": [
+        {
+          "q": "¿También se trabaja Cálculo multivariable?",
+          "a": "Sí, cuando forma parte de la asignatura: derivadas parciales, gradiente, extremos e integrales múltiples."
+        },
+        {
+          "q": "¿Puedo preparar una recuperación con poco tiempo?",
+          "a": "Se puede priorizar el temario, pero el diagnóstico debe valorar si el calendario permite un plan realista."
+        },
+        {
+          "q": "¿Las clases usan mis exámenes y apuntes?",
+          "a": "Sí. Se parte del programa y del tipo de ejercicios que realmente evalúa la asignatura."
+        }
+      ],
+      "relatedPosts": [
+        "como-aprobar-calculo-i-ingenieria-seis-semanas",
+        "derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos",
+        "ecuaciones-diferenciales-identificar-metodo-correcto"
+      ],
+      "relatedServices": [
+        "/clases-particulares/matematicas-universidad/",
+        "/clases-particulares/algebra-lineal-universidad/",
+        "/clases-particulares/fisica-ingenieria/"
+      ],
+      "priority": "0.82"
+    },
+    {
+      "path": "/clases-particulares/estadistica-psicologia-ade/",
+      "parentPath": "/clases-particulares/",
+      "parentLabel": "Clases particulares",
+      "title": "Clases de Estadística para Psicología y ADE | Método Nebula",
+      "description": "Clases online de Estadística para Psicología, ADE y Ciencias Sociales: contrastes, ANOVA, regresión, SPSS, Jamovi y apoyo metodológico.",
+      "h1": "Clases de Estadística para Psicología, ADE y Ciencias Sociales",
+      "audience": "Para estudiantes que necesitan elegir la prueba adecuada, interpretar resultados y usar SPSS, Jamovi o R con criterio académico.",
+      "problems": [
+        "Elegir una prueba por memoria y no por la pregunta.",
+        "Confundir significación, tamaño del efecto y relevancia.",
+        "Interpretar tablas de software sin revisar supuestos.",
+        "No saber justificar el análisis de un TFG o TFM."
+      ],
+      "topics": [
+        "Estadística descriptiva y distribuciones",
+        "Intervalos de confianza",
+        "Contrastes paramétricos y no paramétricos",
+        "Correlación y regresión",
+        "ANOVA y comparaciones",
+        "SPSS, Jamovi y R",
+        "Interpretación de resultados",
+        "Apoyo metodológico ético para TFG y TFM"
+      ],
+      "method": [
+        "Definir pregunta, variables y diseño.",
+        "Construir un árbol de decisión para elegir prueba.",
+        "Revisar supuestos antes de calcular.",
+        "Interpretar la salida del software en lenguaje académico.",
+        "Practicar con casos de Psicología, ADE y Ciencias Sociales."
+      ],
+      "modality": "Sesiones online individuales con el software y los materiales exigidos por la asignatura.",
+      "sessionStructure": [
+        "Planteamiento del problema y variables.",
+        "Elección razonada de técnica.",
+        "Ejecución o lectura del análisis.",
+        "Interpretación, límites y siguiente práctica."
+      ],
+      "profile": "El enfoque une razonamiento estadístico, software e interpretación sin convertir el análisis en una secuencia de clics.",
+      "differentiator": "No se realizan trabajos por el alumno. Se explica, orienta y revisa para que pueda defender las decisiones metodológicas y sus conclusiones.",
+      "studentInput": "Guía docente, enunciados, base de datos anonimizada cuando proceda, software, fecha y criterios de evaluación.",
+      "reasonableOutcomes": "Mejor elección de pruebas, interpretación más rigurosa y menos errores de supuestos. En TFG/TFM, el alumno conserva la autoría y responsabilidad del trabajo.",
+      "nextStep": "Solicitar diagnóstico indicando titulación, tema, software y fecha de examen o entrega.",
+      "faq": [
+        {
+          "q": "¿Ayudáis con SPSS y Jamovi?",
+          "a": "Sí, siempre conectando cada salida con la pregunta, los supuestos y la interpretación."
+        },
+        {
+          "q": "¿Hacéis el análisis del TFG o TFM?",
+          "a": "No. Se ofrece apoyo metodológico, explicación y revisión, sin sustituir el trabajo académico."
+        },
+        {
+          "q": "¿También se trabaja R?",
+          "a": "Sí, cuando el entorno de la asignatura o proyecto lo requiere y el alcance encaja."
+        }
+      ],
+      "relatedPosts": [
+        "que-prueba-estadistica-utilizar-guia-test-correcto",
+        "regresion-lineal-anova-cuando-utilizar-interpretar-resultados",
+        "p-valor-intervalo-confianza-tamano-efecto-ejemplo"
+      ],
+      "relatedServices": [
+        "/clases-particulares/estadistica-universidad/",
+        "/clases-particulares/economia-ade/"
+      ],
+      "priority": "0.82"
+    },
+    {
+      "path": "/clases-particulares/algebra-lineal-universidad/",
+      "parentPath": "/clases-particulares/",
+      "parentLabel": "Clases particulares",
+      "title": "Clases de Álgebra Lineal universitaria online | Método Nebula",
+      "description": "Clases online de Álgebra Lineal: matrices, sistemas, espacios vectoriales, aplicaciones lineales, autovalores y diagonalización.",
+      "h1": "Clases particulares de Álgebra Lineal universitaria",
+      "audience": "Para estudiantes de primeros cursos que necesitan conectar matrices y sistemas con espacios vectoriales, aplicaciones lineales y diagonalización.",
+      "problems": [
+        "Aplicar Gauss sin interpretar rango o soluciones.",
+        "Confundir base, dimensión, independencia y generación.",
+        "Memorizar diagonalización sin entender autovalores.",
+        "Perder claridad en demostraciones y operaciones matriciales."
+      ],
+      "topics": [
+        "Matrices, determinantes y rango",
+        "Sistemas lineales",
+        "Espacios y subespacios vectoriales",
+        "Bases y dimensión",
+        "Aplicaciones lineales",
+        "Autovalores y autovectores",
+        "Diagonalización",
+        "Formas cuadráticas cuando proceda"
+      ],
+      "method": [
+        "Diagnóstico de álgebra básica y notación.",
+        "Interpretación geométrica y estructural.",
+        "Problemas graduados por capas.",
+        "Corrección de operaciones y justificaciones.",
+        "Preparación de parciales con ejercicios mixtos."
+      ],
+      "modality": "Clases online individuales adaptadas al programa, notación y nivel de demostración de cada universidad.",
+      "sessionStructure": [
+        "Revisión del concepto previo imprescindible.",
+        "Ejemplo estructural.",
+        "Problema de examen guiado.",
+        "Variante autónoma y corrección."
+      ],
+      "profile": "El álgebra lineal se presenta como un sistema de ideas conectadas, no como una colección de algoritmos.",
+      "differentiator": "Se trabaja qué representa cada operación y cómo se enlazan rango, independencia, base y transformación lineal.",
+      "studentInput": "Temario, notación del profesor, hojas de problemas, exámenes anteriores y calendario.",
+      "reasonableOutcomes": "Más claridad conceptual, operaciones mejor justificadas y una secuencia de estudio coherente hasta el examen.",
+      "nextStep": "Solicitar diagnóstico con grado, temas actuales y fecha de evaluación.",
+      "faq": [
+        {
+          "q": "¿Se preparan demostraciones?",
+          "a": "Sí, cuando la asignatura las evalúa, trabajando estructura, hipótesis y redacción."
+        },
+        {
+          "q": "¿También diagonalización?",
+          "a": "Sí, después de comprobar la base necesaria en sistemas, espacios y aplicaciones lineales."
+        }
+      ],
+      "relatedPosts": [
+        "matrices-determinantes-sistemas-ecuaciones-guia",
+        "algebra-lineal-universidad-que-estudiar-primero-errores"
+      ],
+      "relatedServices": [
+        "/clases-particulares/matematicas-universidad/",
+        "/clases-particulares/calculo-universitario/"
+      ],
+      "priority": "0.8"
+    },
+    {
+      "path": "/preparacion-examenes/matematicas-selectividad/",
+      "parentPath": "/preparacion-examenes/",
+      "parentLabel": "Preparación de exámenes",
+      "title": "Preparación de Matemáticas para Selectividad y PAU | Método Nebula",
+      "description": "Preparación online de Matemáticas II y Matemáticas Aplicadas para PAU: modelos, análisis, álgebra, geometría, probabilidad y tiempo.",
+      "h1": "Preparación de Matemáticas para Selectividad y PAU",
+      "audience": "Para alumnos de 2º de Bachillerato que necesitan convertir los bloques de Matemáticas en una rutina de modelos, corrección y simulacros.",
+      "problems": [
+        "No saber priorizar entre bloques.",
+        "Resolver ejercicios sueltos sin practicar modelos completos.",
+        "Perder puntos por signos, notación o tiempo.",
+        "Usar materiales que no corresponden a su comunidad autónoma."
+      ],
+      "topics": [
+        "Análisis y funciones",
+        "Álgebra",
+        "Geometría",
+        "Probabilidad",
+        "Estadística",
+        "Modelos oficiales",
+        "Estrategia de resolución",
+        "Gestión del tiempo y errores frecuentes"
+      ],
+      "method": [
+        "Diagnóstico con un modelo reciente.",
+        "Plan por bloques y comunidad autónoma.",
+        "Práctica de ejercicios oficiales.",
+        "Corrección mediante categorías de error.",
+        "Simulacros cronometrados y revisión final."
+      ],
+      "modality": "Sesiones online individuales basadas en los modelos y criterios vigentes de la comunidad del alumno.",
+      "sessionStructure": [
+        "Revisión de errores del último modelo.",
+        "Trabajo del bloque prioritario.",
+        "Pregunta cronometrada.",
+        "Plan de práctica hasta la siguiente sesión."
+      ],
+      "profile": "La preparación combina base matemática, estrategia y presentación clara del razonamiento.",
+      "differentiator": "No se mezclan modelos de comunidades sin verificar. El plan se adapta al formato vigente y a la nota objetivo del alumno.",
+      "studentInput": "Comunidad autónoma, modalidad de Matemáticas, modelos oficiales, nota objetivo y fecha de convocatoria.",
+      "reasonableOutcomes": "Más control de los bloques, mejor gestión del tiempo y corrección sistemática de errores. No se garantiza una nota concreta.",
+      "nextStep": "Solicitar diagnóstico indicando comunidad, modalidad, convocatoria y nota objetivo.",
+      "faq": [
+        {
+          "q": "¿Preparáis Matemáticas II y Aplicadas?",
+          "a": "Sí, diferenciando el temario y los modelos correspondientes."
+        },
+        {
+          "q": "¿Se trabaja por comunidad autónoma?",
+          "a": "Sí, únicamente con materiales y criterios vigentes correctamente identificados."
+        },
+        {
+          "q": "¿Cuándo empiezan los simulacros?",
+          "a": "Desde que existe base suficiente, primero por secciones y después con modelos completos."
+        }
+      ],
+      "relatedPosts": [
+        "como-preparar-pau-matematicas-ii",
+        "preparar-selectividad-con-calendario",
+        "preparar-pau-desde-verano-plan-septiembre"
+      ],
+      "relatedServices": [
+        "/clases-particulares/selectividad/",
+        "/clases-particulares/matematicas-universidad/"
+      ],
+      "priority": "0.82"
+    },
+    {
+      "path": "/preparacion-examenes/ib-mathematics/",
+      "parentPath": "/preparacion-examenes/",
+      "parentLabel": "Preparación de exámenes",
+      "title": "Clases de IB Mathematics AA y AI, SL y HL | Método Nebula",
+      "description": "Preparación online de IB Mathematics: Analysis and Approaches y Applications and Interpretation en Standard y Higher Level.",
+      "h1": "Preparación de IB Mathematics AA y AI en SL y HL",
+      "audience": "Para estudiantes de IB que necesitan trabajar su curso exacto, la técnica de examen y la comunicación matemática sin mezclar programas o niveles.",
+      "problems": [
+        "Confundir contenidos o exigencia entre AA y AI.",
+        "Practicar sin distinguir SL y HL.",
+        "Usar tecnología sin justificar el razonamiento.",
+        "Llegar a mocks sin corregir patrones de error."
+      ],
+      "topics": [
+        "Analysis and Approaches (AA) SL",
+        "Analysis and Approaches (AA) HL",
+        "Applications and Interpretation (AI) SL",
+        "Applications and Interpretation (AI) HL",
+        "Problem solving",
+        "Technology and interpretation",
+        "Past papers y markschemes",
+        "Apoyo ético para la exploración matemática"
+      ],
+      "method": [
+        "Confirmar programa, nivel y convocatoria.",
+        "Mapear contenidos y criterios.",
+        "Practicar preguntas por bloque.",
+        "Corregir con markscheme y explicación.",
+        "Avanzar a papers cronometrados."
+      ],
+      "modality": "Clases online individuales en español o inglés cuando resulte útil para el vocabulario y la respuesta de examen.",
+      "sessionStructure": [
+        "Revisión de pregunta corregida.",
+        "Concepto o técnica prioritaria.",
+        "Pregunta tipo paper.",
+        "Feedback de razonamiento, comunicación y tiempo."
+      ],
+      "profile": "La preparación distingue explícitamente AA/AI y SL/HL y se apoya en la guía vigente del programa.",
+      "differentiator": "Se trabaja el curso exacto del alumno; no se presenta IB Mathematics como un temario único.",
+      "studentInput": "Curso AA o AI, nivel SL o HL, convocatoria, syllabus, calendario de mocks y materiales del centro.",
+      "reasonableOutcomes": "Mejor alineación con el programa, respuestas más justificadas y práctica de examen más eficiente.",
+      "nextStep": "Solicitar diagnóstico indicando AA/AI, SL/HL y fecha del próximo mock o examen.",
+      "faq": [
+        {
+          "q": "¿AA y AI se preparan por separado?",
+          "a": "Sí. Se confirma el curso y el nivel antes de diseñar el plan."
+        },
+        {
+          "q": "¿Las clases pueden ser en inglés?",
+          "a": "La explicación puede adaptarse al idioma que ayude al alumno a comprender y responder con precisión."
+        },
+        {
+          "q": "¿Hacéis la Internal Assessment?",
+          "a": "No. Se ofrece orientación y feedback para que el trabajo siga siendo del estudiante."
+        }
+      ],
+      "relatedPosts": [
+        "como-preparar-ib-mathematics-aa-ai",
+        "ib-gcse-como-preparar-examenes-internacionales"
+      ],
+      "relatedServices": [
+        "/clases-particulares/gcse-ib/",
+        "/preparacion-examenes/matematicas-selectividad/"
+      ],
+      "priority": "0.8"
+    },
+    {
+      "path": "/formacion-it/python-sql-data-engineering/",
+      "parentPath": "/formacion-it/",
+      "parentLabel": "Formación IT",
+      "title": "Formación en Python, SQL y Data Engineering | Método Nebula",
+      "description": "Formación personalizada en Python, SQL, Pandas, bases de datos, ETL, modelado, Git, Cloud y proyectos de Data Engineering.",
+      "h1": "Formación en Python, SQL y Data Engineering",
+      "audience": "Para estudiantes y profesionales que buscan una ruta coherente desde fundamentos hasta proyectos de datos y preparación técnica.",
+      "problems": [
+        "Acumular cursos sin una secuencia clara.",
+        "Copiar código sin saber depurarlo.",
+        "Aprender SQL sin modelado de datos.",
+        "Crear proyectos difíciles de ejecutar o explicar en entrevista."
+      ],
+      "topics": [
+        "Fundamentos y estructuras de Python",
+        "Funciones y orientación a objetos",
+        "Pandas",
+        "SQL y bases de datos",
+        "ETL y calidad de datos",
+        "Modelado de datos",
+        "Git y trabajo reproducible",
+        "Cloud y arquitectura introductoria",
+        "Entrevistas y proyectos prácticos"
+      ],
+      "method": [
+        "Diagnóstico de base y objetivo profesional.",
+        "Roadmap por competencias.",
+        "Ejercicios pequeños y depuración.",
+        "Proyecto incremental y reproducible.",
+        "Revisión técnica y defensa de decisiones."
+      ],
+      "modality": "Sesiones online individuales con repositorio, ejercicios y proyecto adaptados al nivel y al objetivo.",
+      "sessionStructure": [
+        "Revisión de código y bloqueos.",
+        "Concepto técnico prioritario.",
+        "Implementación guiada.",
+        "Tarea verificable y siguiente hito del roadmap."
+      ],
+      "profile": "La formación conecta programación, datos y comunicación técnica con una secuencia de aprendizaje explícita.",
+      "differentiator": "El objetivo no es completar herramientas, sino construir fundamentos y un proyecto que la persona pueda ejecutar, explicar y mejorar.",
+      "studentInput": "Nivel actual, disponibilidad, objetivo, experiencia previa y ejemplos de ofertas o proyectos de interés.",
+      "reasonableOutcomes": "Más autonomía con Python y SQL, mejor criterio para estructurar datos y un roadmap realista. El acceso a empleo depende de muchos factores externos.",
+      "nextStep": "Solicitar diagnóstico indicando experiencia, objetivo profesional y tiempo semanal disponible.",
+      "faq": [
+        {
+          "q": "¿Puedo empezar desde cero?",
+          "a": "Sí. Se empieza por fundamentos antes de introducir Pandas, SQL o pipelines."
+        },
+        {
+          "q": "¿Incluye Cloud?",
+          "a": "Puede introducirse cuando exista base suficiente y sea relevante para el objetivo."
+        },
+        {
+          "q": "¿Se prepara entrevista técnica?",
+          "a": "Sí, trabajando conceptos, código, SQL y la explicación de proyectos propios."
+        }
+      ],
+      "relatedPosts": [
+        "python-y-sql-para-empezar-en-datos",
+        "primer-proyecto-python-principiantes-datos",
+        "transicion-al-sector-it-en-6-meses"
+      ],
+      "relatedServices": ["/clases-particulares/programacion-universidad/"],
+      "priority": "0.8"
     }
   ]
 }

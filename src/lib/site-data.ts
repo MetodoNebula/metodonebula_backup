@@ -4,6 +4,7 @@ export type SiteAuthor = {
   name: string;
   path: string;
   jobTitle: string;
+  profileUrl?: string;
   knowsAbout: string[];
 };
 
@@ -41,7 +42,22 @@ export type ServicePage = {
   nextStep: string;
   faq: Array<{ q: string; a: string }>;
   relatedPosts: string[];
+  parentPath?: string;
+  parentLabel?: string;
+  modality?: string;
+  sessionStructure?: string[];
+  relatedServices?: string[];
   priority: string;
+};
+
+export type CommercialHub = CorePage & {
+  label: string;
+  sections: Array<{
+    title: string;
+    description: string;
+    paths: string[];
+  }>;
+  faq: Array<{ q: string; a: string }>;
 };
 
 export type SiteData = {
@@ -51,11 +67,18 @@ export type SiteData = {
     url: string;
     language: string;
     logo: string;
+    socialImage: string;
     social: string[];
+    contact: {
+      whatsapp: string;
+      email: string;
+      instagram: string;
+    };
     author: SiteAuthor;
   };
   corePages: CorePage[];
   blogCategories: BlogCategory[];
+  commercialHubs: CommercialHub[];
   serviceOverview: CorePage;
   servicePages: ServicePage[];
 };
@@ -87,7 +110,14 @@ export function absoluteUrl(path: string): string {
 
 export function findCorePage(path: string): CorePage | undefined {
   const normal = withTrailingSlash(path);
-  return [...siteData.corePages, siteData.serviceOverview].find((page) => page.path === normal);
+  return [...siteData.corePages, ...siteData.commercialHubs, siteData.serviceOverview].find(
+    (page) => page.path === normal,
+  );
+}
+
+export function findCommercialHub(path: string): CommercialHub | undefined {
+  const normal = withTrailingSlash(path);
+  return siteData.commercialHubs.find((page) => page.path === normal);
 }
 
 export function blogCategoryPath(slug: string): string {

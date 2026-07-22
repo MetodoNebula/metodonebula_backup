@@ -5,7 +5,7 @@ updated: 2026-07-08
 description: Guía para aprobar Estadística en Psicología aunque tengas poca base matemática: conceptos, pruebas, interpretación y plan de estudio.
 tag: Psicología
 category: Estadística
-relatedService: /clases-particulares/estadistica-universidad/
+relatedService: /clases-particulares/estadistica-psicologia-ade/
 relatedPosts: que-prueba-estadistica-utilizar-guia-test-correcto,p-valor-intervalo-confianza-tamano-efecto-ejemplo,errores-comunes-inferencia-estadistica
 image: /favicon.svg
 ---

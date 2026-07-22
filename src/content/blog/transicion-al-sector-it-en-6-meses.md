@@ -5,7 +5,7 @@ updated: 2026-06-04
 description: Una ruta de seis meses para entrar en tecnología con fundamentos, proyecto propio, portfolio y entrevistas preparadas.
 tag: Carrera IT
 category: Carrera tecnológica
-relatedService: /clases-particulares/programacion-universidad/
+relatedService: /formacion-it/python-sql-data-engineering/
 relatedPosts: python-y-sql-para-empezar-en-datos,estadistica-desde-cero-para-elegir-contrastes
 image: /favicon.svg
 ---

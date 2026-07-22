@@ -5,7 +5,7 @@ updated: 2026-06-10
 description: Una forma ordenada de preparar IB, GCSE e IGCSE: syllabus, rúbrica, práctica cronometrada, errores y revisión semanal.
 tag: Exámenes
 category: Exámenes internacionales
-relatedService: /clases-particulares/gcse-ib/
+relatedService: /preparacion-examenes/ib-mathematics/
 relatedPosts: preparar-selectividad-con-calendario,fisica-y-quimica-como-plantear-problemas
 image: /favicon.svg
 ---

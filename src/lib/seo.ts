@@ -59,7 +59,9 @@ export function usePageMeta({
 }: MetaInput) {
   useEffect(() => {
     const url = absoluteUrl(path);
-    const imageUrl = image && image !== siteData.site.logo ? absoluteUrl(image) : undefined;
+    const imageUrl = absoluteUrl(
+      image && image !== siteData.site.logo ? image : siteData.site.socialImage,
+    );
     document.title = title;
     document.documentElement.lang = siteData.site.language;
     upsertMeta('meta[name="description"]', { name: "description", content: description });
@@ -71,25 +73,19 @@ export function usePageMeta({
     });
     upsertMeta('meta[property="og:url"]', { property: "og:url", content: url });
     upsertMeta('meta[property="og:type"]', { property: "og:type", content: type });
-    if (imageUrl) {
-      upsertMeta('meta[property="og:image"]', { property: "og:image", content: imageUrl });
-    } else {
-      removeMeta('meta[property="og:image"]');
-    }
+    upsertMeta('meta[property="og:image"]', { property: "og:image", content: imageUrl });
+    upsertMeta('meta[property="og:image:width"]', { property: "og:image:width", content: "1200" });
+    upsertMeta('meta[property="og:image:height"]', { property: "og:image:height", content: "630" });
     upsertMeta('meta[name="twitter:card"]', {
       name: "twitter:card",
-      content: imageUrl ? "summary_large_image" : "summary",
+      content: "summary_large_image",
     });
     upsertMeta('meta[name="twitter:title"]', { name: "twitter:title", content: title });
     upsertMeta('meta[name="twitter:description"]', {
       name: "twitter:description",
       content: description,
     });
-    if (imageUrl) {
-      upsertMeta('meta[name="twitter:image"]', { name: "twitter:image", content: imageUrl });
-    } else {
-      removeMeta('meta[name="twitter:image"]');
-    }
+    upsertMeta('meta[name="twitter:image"]', { name: "twitter:image", content: imageUrl });
     upsertLink("canonical", url);
     upsertOptionalLink("prev", prevPath ? absoluteUrl(prevPath) : undefined);
     upsertOptionalLink("next", nextPath ? absoluteUrl(nextPath) : undefined);

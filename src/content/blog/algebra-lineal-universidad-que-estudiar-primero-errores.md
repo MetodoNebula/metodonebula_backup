@@ -5,7 +5,7 @@ updated: 2026-06-15
 description: Guía para estudiar Álgebra Lineal en la universidad: orden de temas, matrices, espacios vectoriales, diagonalización y errores frecuentes.
 tag: Álgebra Lineal
 category: Matemáticas universitarias
-relatedService: /clases-particulares/matematicas-universidad/
+relatedService: /clases-particulares/algebra-lineal-universidad/
 relatedPosts: matrices-determinantes-sistemas-ecuaciones-guia,como-estudiar-matematicas-sin-memorizar,como-aprobar-calculo-i-ingenieria-seis-semanas
 image: /favicon.svg
 ---

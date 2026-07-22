@@ -27,6 +27,8 @@ function MathMarkup({ tex, displayMode = false }: { tex: string; displayMode?: b
   if (displayMode) {
     return (
       <div
+        role="group"
+        aria-label={`Fórmula matemática: ${tex}`}
         className="nebula-math my-7 overflow-x-auto rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-5 text-center"
         dangerouslySetInnerHTML={{ __html: html }}
       />
@@ -143,6 +145,17 @@ const isQuote = (line: string) => line.trim().startsWith(">");
 const isUl = (line: string) => /^\s*[-*]\s+/.test(line);
 const isOl = (line: string) => /^\s*\d+\.\s+/.test(line);
 const isRule = (line: string) => /^(-{3,}|\*{3,}|_{3,})$/.test(line.trim());
+const isTableStart = (lines: string[], index: number) =>
+  /^\s*\|.+\|\s*$/.test(lines[index] ?? "") &&
+  /^\s*\|(?:\s*:?-{3,}:?\s*\|)+\s*$/.test(lines[index + 1] ?? "");
+
+function tableCells(line: string) {
+  return line
+    .trim()
+    .replace(/^\||\|$/g, "")
+    .split("|")
+    .map((cell) => cell.trim());
+}
 
 function headingId(text: string): string {
   return text
@@ -218,6 +231,53 @@ function parseBlocks(md: string): ReactNode[] {
             {code.join("\n")}
           </code>
         </pre>,
+      );
+      continue;
+    }
+
+    if (isTableStart(lines, i)) {
+      const headers = tableCells(lines[i]);
+      i += 2;
+      const rows: string[][] = [];
+      while (i < lines.length && /^\s*\|.+\|\s*$/.test(lines[i])) {
+        rows.push(tableCells(lines[i]));
+        i++;
+      }
+      out.push(
+        <div
+          key={key++}
+          role="region"
+          aria-label="Tabla de datos del artículo"
+          tabIndex={0}
+          className="my-7 max-w-full overflow-x-auto rounded-2xl border border-white/10 focus:outline-none"
+        >
+          <table className="w-full min-w-[620px] border-collapse text-left text-sm">
+            <thead className="bg-white/[0.07]">
+              <tr>
+                {headers.map((header, index) => (
+                  <th
+                    key={index}
+                    scope="col"
+                    className="border-b border-white/10 px-4 py-3 font-semibold text-foreground"
+                  >
+                    {renderInline(header)}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {rows.map((row, rowIndex) => (
+                <tr key={rowIndex} className="border-b border-white/8 last:border-0">
+                  {row.map((cell, cellIndex) => (
+                    <td key={cellIndex} className="px-4 py-3 align-top text-foreground/85">
+                      {renderInline(cell)}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>,
       );
       continue;
     }
@@ -311,7 +371,7 @@ function parseBlocks(md: string): ReactNode[] {
         i++;
       }
       out.push(
-        <ol key={key++} className="my-5 space-y-2">
+        <ol key={key++} className="my-5 list-none space-y-2 pl-0">
           {items.map((item, idx) => (
             <li key={idx} className="flex items-start gap-3 text-foreground/85">
               <span className="font-display text-sm font-semibold text-action">{idx + 1}.</span>
@@ -333,6 +393,7 @@ function parseBlocks(md: string): ReactNode[] {
       !isQuote(lines[i]) &&
       !isUl(lines[i]) &&
       !isOl(lines[i]) &&
+      !isTableStart(lines, i) &&
       !isRule(lines[i])
     ) {
       para.push(lines[i]);

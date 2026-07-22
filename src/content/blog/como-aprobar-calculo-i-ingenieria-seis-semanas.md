@@ -5,7 +5,7 @@ updated: 2026-06-13
 description: Plan de seis semanas para aprobar Cálculo I en Ingeniería: límites, derivadas, integrales, práctica y simulacros de examen.
 tag: Cálculo
 category: Matemáticas universitarias
-relatedService: /clases-particulares/matematicas-universidad/
+relatedService: /clases-particulares/calculo-universitario/
 relatedPosts: que-son-las-derivadas-y-para-que-se-utilizan,que-son-las-integrales-y-para-que-se-utilizan,derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos
 image: /favicon.svg
 ---

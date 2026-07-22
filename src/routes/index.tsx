@@ -1,12 +1,10 @@
 import { useState } from "react";
 import {
   ArrowRight,
-  Check,
   CheckCircle2,
   Compass,
   Calendar,
   Code2,
-  Copy,
   GraduationCap,
   LineChart,
   Atom,
@@ -25,18 +23,10 @@ import {
   type LucideIcon,
 } from "lucide-react";
 
-import { EMAIL, EMAIL_URL, INSTAGRAM_URL, WHATSAPP_NUMBER, useCopyPhone } from "../lib/contact";
+import { EMAIL, INSTAGRAM_URL, WHATSAPP_NUMBER } from "../lib/contact";
 import { usePageMeta } from "../lib/seo";
 import { siteData } from "../lib/site-data";
-import {
-  Footer,
-  GhostCTA,
-  Navbar,
-  NebulaLogo,
-  PrimaryCTA,
-  SectionLabel,
-  WhatsAppFloat,
-} from "../components/site";
+import { Footer, GhostCTA, Navbar, NebulaLogo, PrimaryCTA, SectionLabel } from "../components/site";
 
 export default function NebulaLanding() {
   const page = siteData.corePages.find((item) => item.kind === "home")!;
@@ -61,7 +51,6 @@ export default function NebulaLanding() {
         <FAQ />
       </main>
       <Footer />
-      <WhatsAppFloat />
     </div>
   );
 }
@@ -78,17 +67,20 @@ function Hero() {
         <div className="mx-auto max-w-5xl text-center">
           <SectionLabel>Bienvenido a Nebula</SectionLabel>
           <h1 className="mt-6 font-display text-4xl font-bold leading-[1.05] sm:text-5xl md:text-6xl lg:text-7xl">
-            Cuando la asignatura, el examen o la entrevista{" "}
-            <span className="block nebula-gradient-text">no admite improvisación.</span>
+            Clases particulares online de{" "}
+            <span className="nebula-gradient-text">Matemáticas, Física, Estadística</span> y
+            Programación
           </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            Enseñanza privada desde ESO y Bachillerato hasta Universidad, exámenes internacionales,
-            Selectividad y transición al sector IT. Diagnóstico claro, plan de trabajo con fechas y
-            un mentor que sostiene el proceso de principio a fin.
+          <p className="mx-auto mt-6 max-w-3xl font-display text-xl font-semibold text-foreground md:text-2xl">
+            Cuando la asignatura, el examen o la entrevista no admite improvisación.
+          </p>
+          <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
+            Para ESO, Bachillerato, Selectividad y Universidad. Diagnóstico claro, práctica
+            razonada, plan personalizado y seguimiento real en modalidad online.
           </p>
           <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <PrimaryCTA href="/contacto/">Reservar diagnóstico</PrimaryCTA>
-            <GhostCTA href="/clases-particulares/universidad/">Ver programas</GhostCTA>
+            <PrimaryCTA href="/contacto/">Solicitar diagnóstico inicial</PrimaryCTA>
+            <GhostCTA href="/clases-particulares/">Ver clases por asignatura</GhostCTA>
           </div>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-muted-foreground">
             <AuthorityChip label="Matemático" />
@@ -161,7 +153,7 @@ function Positioning() {
         <div className="max-w-3xl">
           <SectionLabel>Diferencia de Método Nebula</SectionLabel>
           <h2 className="mt-5 text-3xl font-semibold leading-tight md:text-5xl">
-            No vendemos horas. <span className="nebula-gradient-text">Diseñamos planes.</span>
+            Clases online para ESO, Bachillerato y Universidad
           </h2>
           <p className="mt-5 text-base text-muted-foreground md:text-lg">
             El acompañamiento empieza entendiendo el punto de partida, continúa con un calendario y
@@ -219,7 +211,7 @@ function Services() {
       title: "Clases particulares",
       subtitle:
         "Para alumnos que necesitan ordenar una asignatura concreta y ganar criterio al resolver problemas.",
-      href: "/clases-particulares/universidad/",
+      href: "/clases-particulares/",
       list: {
         label: "Asignaturas",
         items: ["Matemáticas", "Física", "Estadística", "Química", "Economía", "Programación"],
@@ -240,7 +232,7 @@ function Services() {
       title: "Preparación con calendario",
       subtitle:
         "Para Selectividad, recuperaciones, exámenes universitarios e internacionales con una fecha que condiciona el plan.",
-      href: "/clases-particulares/selectividad/",
+      href: "/preparacion-examenes/",
       list: {
         label: "Procesos",
         items: [
@@ -276,7 +268,7 @@ function Services() {
       title: "Formación tecnológica",
       subtitle:
         "Para programación académica, Python, SQL, datos, IA y transición IT con una ruta diferenciada.",
-      href: "/clases-particulares/programacion-universidad/",
+      href: "/formacion-it/",
       list: {
         label: "Áreas",
         items: [
@@ -308,8 +300,7 @@ function Services() {
           <div className="max-w-2xl">
             <SectionLabel>Oferta organizada</SectionLabel>
             <h2 className="mt-5 text-3xl font-semibold leading-tight md:text-5xl">
-              Tres entradas para no mezclar{" "}
-              <span className="nebula-gradient-text">objetivos distintos</span>
+              Matemáticas, Física, Estadística, Economía y Programación
             </h2>
           </div>
           <p className="max-w-md text-sm text-muted-foreground">
@@ -504,7 +495,7 @@ function Method() {
         <div className="max-w-3xl">
           <SectionLabel>Cómo trabajamos</SectionLabel>
           <h2 className="mt-5 text-3xl font-semibold leading-tight md:text-5xl">
-            El método de <span className="nebula-gradient-text">Método Nebula</span>
+            Metodología con diagnóstico, práctica y seguimiento
           </h2>
           <p className="mt-5 text-base text-muted-foreground md:text-lg">
             El proceso se mantiene estable para que el alumno sepa qué se está trabajando y por qué.
@@ -827,8 +818,7 @@ function Programs() {
         <div className="max-w-3xl">
           <SectionLabel>Elige tu camino</SectionLabel>
           <h2 className="mt-5 text-3xl font-semibold leading-tight md:text-5xl">
-            Planes personalizados según{" "}
-            <span className="nebula-gradient-text">objetivo, nivel y calendario</span>
+            Preparación de exámenes y formación técnica IT
           </h2>
           <p className="mt-5 text-base text-muted-foreground md:text-lg">
             Tres marcos de trabajo. Uno se elige tras la llamada de diagnóstico, no antes: primero
@@ -892,7 +882,6 @@ function Programs() {
 /* -------------------------------------------------------------------------- */
 
 function Contact() {
-  const { copied, copy } = useCopyPhone();
   return (
     <section id="contacto" className="relative py-24">
       <div className="absolute inset-0 nebula-aurora opacity-60 pointer-events-none" />
@@ -900,7 +889,7 @@ function Contact() {
         <div className="mx-auto max-w-3xl">
           <SectionLabel>Hablemos</SectionLabel>
           <h2 className="mt-5 text-3xl font-semibold leading-tight md:text-5xl">
-            Empieza con una <span className="nebula-gradient-text">llamada de diagnóstico</span>
+            Solicita tu diagnóstico inicial
           </h2>
           <p className="mt-5 text-base text-muted-foreground md:text-lg">
             Una conversación corta para entender tu objetivo, tu punto de partida y tu fecha. Si
@@ -909,30 +898,18 @@ function Contact() {
           </p>
 
           <div className="mt-8 space-y-3">
-            <button
-              type="button"
-              onClick={copy}
-              className="flex w-full items-center justify-between rounded-2xl border border-white/10 bg-white/[0.03] p-5 text-left transition-colors hover:border-white/25 hover:bg-white/[0.06]"
-            >
+            <div className="flex w-full items-center rounded-2xl border border-white/10 bg-white/[0.03] p-5">
               <div className="flex items-center gap-3">
                 <MessageCircle className="h-5 w-5 text-action" />
                 <div>
-                  <p className="text-sm font-semibold">Copiar número de WhatsApp</p>
+                  <p className="text-sm font-semibold">WhatsApp</p>
                   <p className="text-xs text-muted-foreground">
                     {WHATSAPP_NUMBER} · respuesta el mismo día
                   </p>
                 </div>
               </div>
-              {copied ? (
-                <Check className="h-4 w-4 text-green-400" />
-              ) : (
-                <Copy className="h-4 w-4 text-muted-foreground" />
-              )}
-            </button>
-            <a
-              href={EMAIL_URL}
-              className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition-colors hover:border-white/25 hover:bg-white/[0.06]"
-            >
+            </div>
+            <div className="flex items-center rounded-2xl border border-white/10 bg-white/[0.03] p-5">
               <div className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-action" />
                 <div>
@@ -940,8 +917,7 @@ function Contact() {
                   <p className="text-xs text-muted-foreground">{EMAIL}</p>
                 </div>
               </div>
-              <ArrowRight className="h-4 w-4 text-muted-foreground" />
-            </a>
+            </div>
             <a
               href={INSTAGRAM_URL}
               target="_blank"

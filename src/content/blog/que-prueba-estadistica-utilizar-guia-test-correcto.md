@@ -1,11 +1,11 @@
 ---
 title: Qué prueba estadística utilizar: guía para elegir el test correcto
 date: 2026-07-09
-updated: 2026-07-09
+updated: 2026-07-22
 description: Guía práctica para elegir la prueba estadística correcta según la pregunta, el tipo de variable, el número de grupos y el diseño del estudio.
 tag: Estadística
 category: Estadística
-relatedService: /clases-particulares/estadistica-universidad/
+relatedService: /clases-particulares/estadistica-psicologia-ade/
 relatedPosts: como-aprobar-estadistica-psicologia-sin-base-matematica,regresion-lineal-anova-cuando-utilizar-interpretar-resultados,estadistica-desde-cero-para-elegir-contrastes
 image: /favicon.svg
 ---
@@ -106,6 +106,67 @@ Elegir el test no termina el trabajo. Revisa:
 
 Los supuestos no son un trámite. Pueden cambiar la prueba o la interpretación.
 
+## Tabla de decisión por diseño
+
+| Objetivo y diseño                | Opción paramétrica habitual | Alternativa o modelo a valorar              |
+| -------------------------------- | --------------------------- | ------------------------------------------- |
+| Una media frente a un valor      | t de una muestra            | Wilcoxon de una muestra o método robusto    |
+| Dos grupos independientes        | t independiente             | Mann-Whitney                                |
+| Dos medidas relacionadas         | t pareada                   | Wilcoxon de rangos con signo                |
+| Tres o más grupos independientes | ANOVA                       | Kruskal-Wallis                              |
+| Tres o más medidas relacionadas  | ANOVA de medidas repetidas  | Friedman                                    |
+| Dos variables cuantitativas      | Correlación de Pearson      | Spearman                                    |
+| Dos variables categóricas        | Chi-cuadrado                | Fisher cuando las frecuencias lo aconsejen  |
+| Predecir respuesta cuantitativa  | Regresión lineal            | Modelo robusto o transformación justificada |
+
+La tabla ofrece candidatas, no decisiones automáticas. El diseño, la independencia y la pregunta científica tienen prioridad.
+
+## Árbol de decisión textual
+
+1. ¿La respuesta es cuantitativa?
+   - Sí: decide si quieres comparar grupos, estudiar asociación o predecir.
+   - No: si es categórica, valora tablas de contingencia o modelos para respuesta categórica.
+2. Si comparas grupos, ¿cuántos son?
+   - Dos: distingue muestras independientes de medidas relacionadas.
+   - Tres o más: distingue grupos independientes de medidas repetidas.
+3. Si estudias relación, ¿las variables son cuantitativas?
+   - Asociación sin dirección predictiva: correlación.
+   - Respuesta definida que quieres modelizar: regresión.
+4. Revisa independencia, escala, valores extremos, residuos y homogeneidad.
+5. Escribe qué parámetro o hipótesis responde a tu pregunta.
+
+## Paramétricas frente a no paramétricas
+
+Las pruebas no paramétricas no son una solución universal para “datos no normales”. Cambian la hipótesis y la información que utilizan.
+
+- **t independiente:** compara medias de dos grupos independientes bajo su modelo.
+- **Mann-Whitney:** trabaja con rangos entre dos grupos independientes.
+- **t pareada:** analiza la media de las diferencias dentro de pares.
+- **Wilcoxon:** trabaja con rangos y signos de diferencias relacionadas.
+- **ANOVA:** compara medias mediante un modelo lineal.
+- **Kruskal-Wallis:** extiende el enfoque por rangos a varios grupos independientes.
+
+## Ejemplos por titulación
+
+### Psicología
+
+Se mide ansiedad antes y después de una intervención en las mismas personas. Hay dos momentos emparejados: t pareada como candidata; Wilcoxon si el planteamiento por rangos resulta más adecuado.
+
+### ADE
+
+Se estudia cómo cambia el gasto mensual con los ingresos. La respuesta y el predictor son cuantitativos: regresión lineal, con interpretación económica de la pendiente y revisión de residuos.
+
+### Biología
+
+Se compara la concentración de un marcador en cuatro tratamientos independientes. La respuesta es cuantitativa y el factor tiene cuatro niveles: ANOVA como candidata; Kruskal-Wallis si el modelo paramétrico no resulta defendible.
+
+## Correlación, regresión, ANOVA y chi-cuadrado
+
+- **Correlación:** cuantifica asociación sin convertirla en causalidad.
+- **Regresión:** modeliza una respuesta y permite incorporar varios predictores.
+- **ANOVA:** es un caso del modelo lineal con predictores categóricos.
+- **Chi-cuadrado:** compara frecuencias observadas y esperadas en variables categóricas.
+
 ## Error típico: elegir por capítulo
 
 Muchos alumnos usan el test del tema que están estudiando. Si el examen mezcla contenidos, esa estrategia falla. El criterio debe ser la estructura del problema, no el orden del temario.
@@ -121,4 +182,29 @@ Antes de elegir prueba, completa:
 5. Quiero comparar, asociar o predecir...
 6. Por tanto, la prueba candidata es...
 
-Para practicar la interpretación, continúa con [p-valor, intervalo de confianza y tamaño del efecto](/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/) o revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
+## Checklist final
+
+1. He escrito la pregunta sin nombrar una prueba.
+2. He identificado respuesta, predictores y escala de medida.
+3. Sé si los grupos o medidas son independientes o relacionados.
+4. He definido cuántos grupos, condiciones o momentos existen.
+5. He revisado diseño, valores extremos y supuestos relevantes.
+6. Puedo explicar qué hipótesis contrasta la prueba candidata.
+7. Informaré tamaño del efecto e incertidumbre cuando corresponda.
+8. Interpretaré el resultado en el contexto original.
+
+## Preguntas frecuentes
+
+### ¿Debo hacer siempre una prueba de normalidad?
+
+No como trámite aislado. Revisa el supuesto que corresponda, utiliza gráficos y considera tamaño muestral, diseño y residuos.
+
+### ¿Mann-Whitney sustituye siempre a la t de Student?
+
+No. Responden bajo marcos distintos. La elección depende de la pregunta y de la forma de los datos.
+
+### ¿Puedo decidir solo con SPSS o Jamovi?
+
+El software calcula, pero no conoce tu diseño ni tu pregunta. La decisión debe estar razonada antes de seleccionar un menú.
+
+Para practicar la interpretación, continúa con [p-valor, intervalo de confianza y tamaño del efecto](/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/) o revisa las [clases de Estadística para Psicología, ADE y Ciencias Sociales](/clases-particulares/estadistica-psicologia-ade/).

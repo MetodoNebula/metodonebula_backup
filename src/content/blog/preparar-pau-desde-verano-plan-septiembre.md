@@ -5,7 +5,7 @@ updated: 2026-07-21
 description: Cómo aprovechar el verano antes de 2º de Bachillerato para preparar la PAU sin adelantar temario sin criterio ni agotarte.
 tag: Selectividad
 category: Selectividad
-relatedService: /clases-particulares/selectividad/
+relatedService: /preparacion-examenes/matematicas-selectividad/
 relatedPosts: preparar-selectividad-con-calendario,como-preparar-pau-matematicas-ii,como-estudiar-matematicas-sin-memorizar
 image: /favicon.svg
 ---
@@ -38,14 +38,14 @@ Para materias teóricas, alterna lectura activa, esquemas hechos de memoria y re
 
 No necesitas estudiar todos los días. Una propuesta razonable es trabajar cuatro sesiones de 60 a 90 minutos por semana y reservar tres días libres. Cada semana elige solo dos prioridades: una laguna de base y una habilidad de examen.
 
-| Semana | Base que consolidar | Habilidad de examen |
-| --- | --- | --- |
-| 1 | Diagnóstico y materiales | Leer una consigna y subrayar datos |
-| 2 | Álgebra, vocabulario o conceptos previos | Explicar un procedimiento por escrito |
-| 3 | Funciones, comentario o estructura | Resolver una pregunta con tiempo |
-| 4 | Punto débil principal | Corregir con criterios, no con intuición |
-| 5 | Repaso espaciado | Mini simulacro |
-| 6 | Errores repetidos | Plan de arranque para septiembre |
+| Semana | Base que consolidar                      | Habilidad de examen                      |
+| ------ | ---------------------------------------- | ---------------------------------------- |
+| 1      | Diagnóstico y materiales                 | Leer una consigna y subrayar datos       |
+| 2      | Álgebra, vocabulario o conceptos previos | Explicar un procedimiento por escrito    |
+| 3      | Funciones, comentario o estructura       | Resolver una pregunta con tiempo         |
+| 4      | Punto débil principal                    | Corregir con criterios, no con intuición |
+| 5      | Repaso espaciado                         | Mini simulacro                           |
+| 6      | Errores repetidos                        | Plan de arranque para septiembre         |
 
 La última semana debe dejar preparado un plan simple para el curso: qué revisar cada semana, cuándo harás el primer simulacro y cómo guardarás tus errores. No llenes el calendario de tareas que dependen de una motivación perfecta.
 

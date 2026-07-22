@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import { ArrowRight, Instagram, Mail, MessageCircle } from "lucide-react";
 
-import { EMAIL, EMAIL_URL, INSTAGRAM_URL, WHATSAPP_NUMBER, useCopyPhone } from "../lib/contact";
+import { trackEvent, trackScroll75 } from "../lib/analytics";
+import { EMAIL, INSTAGRAM_URL, WHATSAPP_NUMBER } from "../lib/contact";
 import { Link } from "../lib/router";
 
 /* -------------------------------------------------------------------------- */
@@ -29,6 +30,12 @@ export function PrimaryCTA({
   return (
     <a
       href={href}
+      onClick={() => {
+        if (href === "/contacto/") {
+          trackEvent("click_service_cta", { path: window.location.pathname });
+          trackEvent("request_diagnosis", { path: window.location.pathname });
+        }
+      }}
       className={`group inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[0_10px_40px_-10px_oklch(0.62_0.22_265/0.7)] transition-all hover:translate-y-[-1px] hover:bg-action/90 ${className}`}
     >
       {children}
@@ -80,15 +87,16 @@ export function NebulaLogo({ className = "" }: { className?: string }) {
 
 const NAV_LINKS = [
   { href: "/", label: "Inicio" },
-  { href: "/clases-particulares/universidad/", label: "Clases" },
-  { href: "/clases-particulares/selectividad/", label: "Exámenes" },
+  { href: "/clases-particulares/", label: "Clases" },
+  { href: "/preparacion-examenes/", label: "Exámenes" },
+  { href: "/formacion-it/", label: "Formación IT" },
   { href: "/metodologia/", label: "Método" },
-  { href: "/sobre-nebula/", label: "Sobre Nebula" },
   { href: "/blog/", label: "Blog" },
   { href: "/contacto/", label: "Contacto" },
 ];
 
 export function PageShell({ children }: { children: React.ReactNode }) {
+  useEffect(() => trackScroll75(), []);
   return (
     <div className="min-h-screen bg-background text-foreground antialiased">
       <a href="#contenido" className="skip-link">
@@ -97,7 +105,6 @@ export function PageShell({ children }: { children: React.ReactNode }) {
       <Navbar />
       <main id="contenido">{children}</main>
       <Footer />
-      <WhatsAppFloat />
     </div>
   );
 }
@@ -138,7 +145,7 @@ export function Navbar() {
           ))}
         </nav>
         <div className="hidden lg:block">
-          <PrimaryCTA href="/contacto/">Solicitar diagnóstico</PrimaryCTA>
+          <PrimaryCTA href="/contacto/">Solicitar diagnóstico inicial</PrimaryCTA>
         </div>
         <button
           type="button"
@@ -167,7 +174,7 @@ export function Navbar() {
               </Link>
             ))}
             <PrimaryCTA href="/contacto/" className="w-full">
-              Solicitar diagnóstico
+              Solicitar diagnóstico inicial
             </PrimaryCTA>
           </div>
         </div>
@@ -181,11 +188,10 @@ export function Navbar() {
 /* -------------------------------------------------------------------------- */
 
 export function Footer() {
-  const { copy } = useCopyPhone();
   return (
     <footer className="border-t border-white/5 bg-background py-16">
       <div className="mx-auto max-w-7xl px-6">
-        <div className="grid gap-10 md:grid-cols-[1.5fr_1fr_1fr]">
+        <div className="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
             <div className="flex items-center gap-2">
               <NebulaLogo className="h-7 w-7" />
@@ -205,8 +211,9 @@ export function Footer() {
             <ul className="mt-4 space-y-2 text-sm">
               {[
                 ["/metodologia/", "Método"],
-                ["/clases-particulares/universidad/", "Clases"],
-                ["/clases-particulares/selectividad/", "Exámenes"],
+                ["/clases-particulares/", "Clases particulares"],
+                ["/preparacion-examenes/", "Preparación de exámenes"],
+                ["/formacion-it/", "Formación IT"],
                 ["/sobre-nebula/", "Sobre Nebula"],
                 ["/blog/", "Blog"],
                 ["/mapa-del-sitio/", "Mapa del sitio"],
@@ -218,6 +225,37 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+            </ul>
+          </div>
+
+          <div>
+            <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground">Servicios</p>
+            <ul className="mt-4 space-y-2 text-sm">
+              <li>
+                <Link to="/clases-particulares/calculo-universitario/" className="text-link">
+                  Cálculo universitario
+                </Link>
+              </li>
+              <li>
+                <Link to="/clases-particulares/estadistica-psicologia-ade/" className="text-link">
+                  Estadística aplicada
+                </Link>
+              </li>
+              <li>
+                <Link to="/clases-particulares/fisica-ingenieria/" className="text-link">
+                  Física para Ingeniería
+                </Link>
+              </li>
+              <li>
+                <Link to="/preparacion-examenes/matematicas-selectividad/" className="text-link">
+                  Matemáticas PAU
+                </Link>
+              </li>
+              <li>
+                <Link to="/formacion-it/python-sql-data-engineering/" className="text-link">
+                  Python, SQL y datos
+                </Link>
+              </li>
             </ul>
           </div>
 
@@ -236,22 +274,16 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <button
-                  onClick={copy}
-                  className="inline-flex items-center gap-2 text-link transition-colors hover:text-link"
-                >
+                <span className="inline-flex items-center gap-2 text-muted-foreground">
                   <MessageCircle className="h-4 w-4 text-action" />
                   {WHATSAPP_NUMBER}
-                </button>
+                </span>
               </li>
               <li>
-                <a
-                  href={EMAIL_URL}
-                  className="inline-flex items-center gap-2 text-link transition-colors hover:text-link"
-                >
+                <span className="inline-flex items-center gap-2 text-muted-foreground">
                   <Mail className="h-4 w-4 text-action" />
                   {EMAIL}
-                </a>
+                </span>
               </li>
             </ul>
           </div>
@@ -259,38 +291,14 @@ export function Footer() {
 
         <div className="mt-12 flex flex-col items-start justify-between gap-3 border-t border-white/5 pt-6 text-xs text-muted-foreground md:flex-row md:items-center">
           <p>© {new Date().getFullYear()} Método Nebula. Todos los derechos reservados.</p>
-          <div className="flex gap-5">
-            <a href="/contacto/" className="text-link transition-colors hover:text-link">
-              Aviso legal
-            </a>
-            <a href="/contacto/" className="text-link transition-colors hover:text-link">
-              Privacidad
-            </a>
-            <a href="/contacto/" className="text-link transition-colors hover:text-link">
-              Cookies
-            </a>
-          </div>
+          <a
+            href="https://metodonebula.es/"
+            className="text-link transition-colors hover:text-link"
+          >
+            metodonebula.es
+          </a>
         </div>
       </div>
     </footer>
-  );
-}
-
-/* -------------------------------------------------------------------------- */
-/*  Floating WhatsApp                                                         */
-/* -------------------------------------------------------------------------- */
-
-export function WhatsAppFloat() {
-  const { copied, copy } = useCopyPhone();
-  return (
-    <button
-      type="button"
-      onClick={copy}
-      aria-label="Copiar número de WhatsApp"
-      className="fixed bottom-6 right-6 z-40 hidden cursor-pointer items-center gap-2 rounded-full border border-white/15 bg-background/80 px-4 py-3 text-sm font-medium shadow-[0_10px_40px_-10px_oklch(0.62_0.22_265/0.8)] backdrop-blur-md transition-all hover:translate-y-[-1px] hover:border-white/30 md:inline-flex"
-    >
-      <MessageCircle className="h-4 w-4 text-action" />
-      {copied ? "Copiado" : "Copiar teléfono"}
-    </button>
   );
 }

@@ -1,7 +1,8 @@
-import { type ReactNode } from "react";
+import { useEffect, type ReactNode } from "react";
 import { ArrowLeft, ArrowRight, CalendarDays, Clock } from "lucide-react";
 
 import { PageShell, PrimaryCTA } from "../components/site";
+import { trackEvent } from "../lib/analytics";
 import { MarkdownContent } from "../lib/markdown";
 import {
   formatDate,
@@ -506,6 +507,9 @@ function PostView({ post }: { post: Post }) {
     type: "article",
     image: post.image,
   });
+  useEffect(() => {
+    trackEvent("view_blog_article", { slug: post.slug, category: post.category });
+  }, [post.category, post.slug]);
 
   return (
     <PageShell>
@@ -567,6 +571,36 @@ function PostView({ post }: { post: Post }) {
             </nav>
           )}
           <MarkdownContent markdown={post.body} />
+
+          <aside
+            className="mt-12 rounded-3xl border border-white/10 bg-white/[0.02] p-6"
+            aria-label="Autor del artículo"
+          >
+            <p className="text-xs font-medium uppercase tracking-[0.18em] text-spark">Autoría</p>
+            <h2 className="mt-2 font-display text-xl font-semibold text-foreground">
+              Método Nebula
+            </h2>
+            <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
+              Contenido revisado por el responsable docente de Método Nebula, graduado en
+              Matemáticas, con formación de máster en Big Data e Inteligencia Artificial y
+              experiencia docente y tecnológica.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-4 text-sm">
+              <Link to="/sobre-nebula/" className="text-link underline-offset-4 hover:underline">
+                Conocer el método y el perfil docente
+              </Link>
+              {siteData.site.author.profileUrl && (
+                <a
+                  href={siteData.site.author.profileUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-link underline-offset-4 hover:underline"
+                >
+                  Ver perfil profesional
+                </a>
+              )}
+            </div>
+          </aside>
 
           <div className="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8 text-center">
             <h2 className="font-display text-2xl font-semibold nebula-heading-text">

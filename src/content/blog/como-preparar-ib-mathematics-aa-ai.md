@@ -5,7 +5,7 @@ updated: 2026-07-21
 description: Diferencias prácticas entre IB Mathematics AA y AI y un método para preparar exámenes con contenidos, formato, criterios y práctica.
 tag: Exámenes internacionales
 category: Exámenes internacionales
-relatedService: /clases-particulares/gcse-ib/
+relatedService: /preparacion-examenes/ib-mathematics/
 relatedPosts: ib-gcse-como-preparar-examenes-internacionales,como-estudiar-matematicas-sin-memorizar,como-preparar-pau-matematicas-ii
 image: /favicon.svg
 ---

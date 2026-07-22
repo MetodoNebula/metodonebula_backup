@@ -5,7 +5,7 @@ updated: 2026-06-25
 description: Guía de matrices, determinantes y sistemas de ecuaciones para primero de carrera: rango, Gauss, inversa y discusión de soluciones.
 tag: Álgebra Lineal
 category: Matemáticas universitarias
-relatedService: /clases-particulares/matematicas-universidad/
+relatedService: /clases-particulares/algebra-lineal-universidad/
 relatedPosts: algebra-lineal-universidad-que-estudiar-primero-errores,como-estudiar-matematicas-sin-memorizar,como-aprobar-calculo-i-ingenieria-seis-semanas
 image: /favicon.svg
 ---

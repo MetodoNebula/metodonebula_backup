@@ -5,7 +5,7 @@ updated: 2026-07-14
 description: Comparativa práctica entre R, SPSS, Jamovi y Python para Estadística universitaria: ventajas, límites y cuál elegir según asignatura.
 tag: Software estadístico
 category: Estadística
-relatedService: /clases-particulares/estadistica-universidad/
+relatedService: /clases-particulares/estadistica-psicologia-ade/
 relatedPosts: como-aprobar-estadistica-psicologia-sin-base-matematica,que-prueba-estadistica-utilizar-guia-test-correcto,econometria-desde-cero-interpretar-regresion
 image: /favicon.svg
 ---

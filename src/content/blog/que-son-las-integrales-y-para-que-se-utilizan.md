@@ -5,7 +5,7 @@ updated: 2026-06-21
 description: Una explicación práctica de las integrales como acumulación, área bajo la curva y herramienta para medir cantidades totales.
 tag: Cálculo
 category: Matemáticas universitarias
-relatedService: /clases-particulares/matematicas-universidad/
+relatedService: /clases-particulares/calculo-universitario/
 relatedPosts: que-son-las-derivadas-y-para-que-se-utilizan,como-estudiar-matematicas-sin-memorizar
 image: /favicon.svg
 ---

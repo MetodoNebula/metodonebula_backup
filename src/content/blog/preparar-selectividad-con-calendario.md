@@ -5,7 +5,7 @@ updated: 2026-06-07
 description: Cómo convertir el temario de Selectividad o PAU en una hoja de ruta semanal con bloques, simulacros y margen real.
 tag: Exámenes
 category: Selectividad
-relatedService: /clases-particulares/selectividad/
+relatedService: /preparacion-examenes/matematicas-selectividad/
 relatedPosts: como-estudiar-matematicas-sin-memorizar,ib-gcse-como-preparar-examenes-internacionales
 image: /favicon.svg
 ---

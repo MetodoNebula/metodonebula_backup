@@ -5,7 +5,7 @@ updated: 2026-07-21
 description: Plan práctico para preparar Matemáticas II en la PAU: bloques prioritarios, modelos de examen, corrección y gestión del tiempo.
 tag: Selectividad
 category: Selectividad
-relatedService: /clases-particulares/selectividad/
+relatedService: /preparacion-examenes/matematicas-selectividad/
 relatedPosts: preparar-selectividad-con-calendario,como-estudiar-matematicas-sin-memorizar,que-son-las-derivadas-y-para-que-se-utilizan
 image: /favicon.svg
 ---

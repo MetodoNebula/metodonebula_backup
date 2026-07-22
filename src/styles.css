@@ -66,19 +66,19 @@
   --radius: 0.75rem;
 
   /* Deep night base #05070D / #070B14 / #0B1020 */
-  --background: oklch(0.13 0.025 265);
+  --background: #061426;
   --foreground: oklch(0.98 0.005 250);
 
-  --surface: oklch(0.18 0.03 265); /* #101827 */
-  --surface-2: oklch(0.22 0.035 265); /* #161B2E */
+  --surface: #0a1f38;
+  --surface-2: #102a46;
 
-  --card: oklch(0.18 0.03 265);
+  --card: #102a46;
   --card-foreground: oklch(0.98 0.005 250);
   --popover: oklch(0.18 0.03 265);
   --popover-foreground: oklch(0.98 0.005 250);
 
   /* Nebula blue #2F6BFF */
-  --primary: oklch(0.62 0.22 265);
+  --primary: #168bff;
   --primary-foreground: oklch(0.99 0.005 250);
 
   --secondary: oklch(0.24 0.04 265);
@@ -102,7 +102,7 @@
   --gold-soft: oklch(0.86 0.1 85); /* #E6C875 */
   --electric: #2cebff;
   --violet: #8b5cf6;
-  --cyan-soft: #7de7ff; /* enlaces y H2 */
+  --cyan-soft: #56b4ff; /* enlaces y H2 */
   --violet-soft: #b79cff; /* H3 y subtítulos */
   --link: var(--cyan-soft); /* un único color de enlace */
 
@@ -124,13 +124,13 @@
 
 /* Nebula ships dark by default; mirror tokens for .dark class. */
 .dark {
-  --background: oklch(0.13 0.025 265);
+  --background: #061426;
   --foreground: oklch(0.98 0.005 250);
-  --card: oklch(0.18 0.03 265);
+  --card: #102a46;
   --card-foreground: oklch(0.98 0.005 250);
   --popover: oklch(0.18 0.03 265);
   --popover-foreground: oklch(0.98 0.005 250);
-  --primary: oklch(0.62 0.22 265);
+  --primary: #168bff;
   --primary-foreground: oklch(0.99 0.005 250);
   --secondary: oklch(0.24 0.04 265);
   --secondary-foreground: oklch(0.98 0.005 250);
@@ -184,6 +184,11 @@
   button,
   a {
     -webkit-tap-highlight-color: transparent;
+  }
+
+  select option {
+    background: #0a1f38;
+    color: #f7faff;
   }
 
   h1 {

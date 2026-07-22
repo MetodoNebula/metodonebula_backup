@@ -54,7 +54,9 @@ function fail(message) {
 const failures = [];
 const htmlFiles = findFiles(DIST);
 const titleMap = new Map();
+const descriptionMap = new Map();
 const generatedRoutes = new Set(["/404/"]);
+const linkedRoutes = new Set(["/"]);
 const pagesWithKatex = [];
 const indexableCanonicals = new Set();
 
@@ -82,6 +84,23 @@ for (const file of htmlFiles) {
   const canonical = getFirst(/<link\s+rel=["']canonical["']\s+href=["']([^"']+)["'][^>]*>/i, html);
   const robots = getFirst(/<meta\s+name=["']robots["']\s+content=["']([^"']+)["'][^>]*>/i, html);
   const h1Count = (html.match(/<h1[\s>]/gi) ?? []).length;
+  const ogTitle = getFirst(
+    /<meta\s+property=["']og:title["']\s+content=["']([^"']+)["'][^>]*>/i,
+    html,
+  );
+  const ogDescription = getFirst(
+    /<meta\s+property=["']og:description["']\s+content=["']([^"']+)["'][^>]*>/i,
+    html,
+  );
+  const ogUrl = getFirst(/<meta\s+property=["']og:url["']\s+content=["']([^"']+)["'][^>]*>/i, html);
+  const ogImage = getFirst(
+    /<meta\s+property=["']og:image["']\s+content=["']([^"']+)["'][^>]*>/i,
+    html,
+  );
+  const twitterCard = getFirst(
+    /<meta\s+name=["']twitter:card["']\s+content=["']([^"']+)["'][^>]*>/i,
+    html,
+  );
 
   if (!title) fail(`${relative}: missing title`);
   if (!description) fail(`${relative}: missing meta description`);
@@ -96,6 +115,12 @@ for (const file of htmlFiles) {
     if (titleMap.has(title))
       fail(`${relative}: duplicate title also used by ${titleMap.get(title)}`);
     titleMap.set(title, relative);
+    if (descriptionMap.has(description))
+      fail(`${relative}: duplicate description also used by ${descriptionMap.get(description)}`);
+    descriptionMap.set(description, relative);
+    if (!ogTitle || !ogDescription || !ogUrl || !ogImage || !twitterCard) {
+      fail(`${relative}: incomplete Open Graph or Twitter metadata`);
+    }
     if (canonical && !/noindex/i.test(robots)) indexableCanonicals.add(canonical);
   }
 
@@ -111,6 +136,19 @@ for (const file of htmlFiles) {
     }
   }
 
+  if (html.includes('class="katex') && !html.includes("<math")) {
+    fail(`${relative}: KaTeX content is missing accessible MathML`);
+  }
+  for (const table of html.matchAll(/<table[\s\S]*?<\/table>/gi)) {
+    if (!table[0].includes("<th") || !table[0].includes('scope="col"')) {
+      fail(`${relative}: table is missing semantic column headers`);
+    }
+    const before = html.slice(Math.max(0, (table.index ?? 0) - 300), table.index);
+    if (!before.includes('role="region"') || !before.includes('tabindex="0"')) {
+      fail(`${relative}: table is missing a keyboard-scrollable region`);
+    }
+  }
+
   for (const match of html.matchAll(
     /<script\s+type=["']application\/ld\+json["'][^>]*>([\s\S]*?)<\/script>/gi,
   )) {
@@ -123,6 +161,10 @@ for (const file of htmlFiles) {
 
   for (const match of html.matchAll(/\s(?:href|src)=["']([^"']+)["']/gi)) {
     const target = match[1];
+    if (target.startsWith("http://") && !target.startsWith("http://127.0.0.1")) {
+      fail(`${relative}: insecure HTTP resource or link ${target}`);
+      continue;
+    }
     if (
       target.startsWith("http") ||
       target.startsWith("mailto:") ||
@@ -145,6 +187,7 @@ for (const file of htmlFiles) {
       continue;
     }
     const normalized = withTrailingSlash(targetPath);
+    linkedRoutes.add(normalized);
     if (
       !generatedRoutes.has(normalized) &&
       !fs.existsSync(path.join(DIST, targetPath.replace(/^\//, "")))
@@ -152,6 +195,10 @@ for (const file of htmlFiles) {
       fail(`${relative}: broken internal link ${target}`);
     }
   }
+}
+
+for (const route of generatedRoutes) {
+  if (route !== "/404/" && !linkedRoutes.has(route)) fail(`orphan generated page: ${route}`);
 }
 
 const blogSourceDir = path.join(ROOT, "src/content/blog");

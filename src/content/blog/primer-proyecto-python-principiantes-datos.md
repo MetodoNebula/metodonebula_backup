@@ -5,7 +5,7 @@ updated: 2026-07-21
 description: Guía para elegir y terminar un primer proyecto de Python para análisis de datos, con pasos, alcance realista y errores que evitar.
 tag: Programación y datos
 category: Programación y datos
-relatedService: /clases-particulares/programacion-universidad/
+relatedService: /formacion-it/python-sql-data-engineering/
 relatedPosts: python-y-sql-para-empezar-en-datos,transicion-al-sector-it-en-6-meses,r-spss-jamovi-python-programa-estadistico-universidad
 image: /favicon.svg
 ---

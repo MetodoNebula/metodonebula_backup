@@ -1,11 +1,13 @@
-import { type ReactNode } from "react";
+import { useEffect, type ReactNode } from "react";
 import { ArrowRight, BookOpen, CheckCircle2, Mail, MessageCircle } from "lucide-react";
 
-import { EMAIL, EMAIL_URL, WHATSAPP_NUMBER, useCopyPhone } from "../lib/contact";
+import { EMAIL, WHATSAPP_NUMBER } from "../lib/contact";
+import { trackEvent } from "../lib/analytics";
 import {
   absoluteUrl,
   blogCategoryPath,
   siteData,
+  type CommercialHub,
   type CorePage,
   type ServicePage,
 } from "../lib/site-data";
@@ -76,6 +78,18 @@ function JsonLd({ data }: { data: object }) {
   );
 }
 
+function faqJsonLd(faq: Array<{ q: string; a: string }>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: { "@type": "Answer", text: item.a },
+    })),
+  };
+}
+
 function AccentHeading({
   children,
   className = "text-3xl",
@@ -98,25 +112,31 @@ export function ServiceOverviewPage() {
   usePageMeta({ title: page.title, description: page.description, path: page.path });
   const groups = [
     {
-      title: "Clases particulares",
-      text: "Asignaturas concretas con diagnóstico, práctica guiada y seguimiento.",
+      title: "Matemáticas universitarias",
+      text: "Cálculo, Álgebra Lineal y asignaturas matemáticas con problemas del programa real.",
       paths: [
         "/clases-particulares/matematicas-universidad/",
-        "/clases-particulares/fisica-ingenieria/",
-        "/clases-particulares/estadistica-universidad/",
-        "/clases-particulares/quimica/",
-        "/clases-particulares/economia-ade/",
+        "/clases-particulares/calculo-universitario/",
+        "/clases-particulares/algebra-lineal-universidad/",
       ],
     },
     {
-      title: "Preparación con fecha",
-      text: "Selectividad, recuperaciones y programas internacionales con calendario inverso.",
-      paths: ["/clases-particulares/selectividad/", "/clases-particulares/gcse-ib/"],
+      title: "Ciencias y Estadística",
+      text: "Preparación cuantitativa para Ingeniería, Psicología, ADE y Ciencias Sociales.",
+      paths: [
+        "/clases-particulares/fisica-ingenieria/",
+        "/clases-particulares/estadistica-universidad/",
+        "/clases-particulares/estadistica-psicologia-ade/",
+        "/clases-particulares/quimica/",
+      ],
     },
     {
-      title: "Formación tecnológica",
-      text: "Programación académica, Python, SQL, datos e itinerarios técnicos diferenciados.",
-      paths: ["/clases-particulares/programacion-universidad/"],
+      title: "Economía y Programación académica",
+      text: "Apoyo para asignaturas universitarias aplicadas, prácticas y exámenes.",
+      paths: [
+        "/clases-particulares/economia-ade/",
+        "/clases-particulares/programacion-universidad/",
+      ],
     },
   ];
 
@@ -133,9 +153,9 @@ export function ServiceOverviewPage() {
         }}
       />
       <PageHero
-        label="Clases desde ESO"
+        label="Universidad"
         page={page}
-        breadcrumbs={[{ label: "Clases desde ESO", href: page.path }]}
+        breadcrumbs={[{ label: "Preparación universitaria", href: page.path }]}
       />
       <section className="py-16 md:py-20">
         <div className="mx-auto grid max-w-7xl gap-8 px-6 lg:grid-cols-[0.75fr_1.25fr]">
@@ -190,9 +210,109 @@ export function ServiceOverviewPage() {
   );
 }
 
+export function CommercialHubPage({ page }: { page: CommercialHub }) {
+  usePageMeta({ title: page.title, description: page.description, path: page.path });
+  const entryForPath = (path: string) => {
+    const service = siteData.servicePages.find((item) => item.path === path);
+    if (service) return { title: service.h1, description: service.description };
+    const hub = siteData.commercialHubs.find((item) => item.path === path);
+    if (hub) return { title: hub.h1, description: hub.description };
+    const core = [siteData.serviceOverview, ...siteData.corePages].find(
+      (item) => item.path === path,
+    );
+    if (core) return { title: core.h1, description: core.description };
+    const post = getAllPosts().find((item) => `/blog/${item.slug}/` === path);
+    return post ? { title: post.title, description: post.description } : undefined;
+  };
+
+  return (
+    <PageShell>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          name: page.h1,
+          description: page.description,
+          url: absoluteUrl(page.path),
+          provider: { "@type": "EducationalOrganization", name: siteData.site.displayName },
+        }}
+      />
+      <JsonLd data={faqJsonLd(page.faq)} />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Inicio", item: absoluteUrl("/") },
+            { "@type": "ListItem", position: 2, name: page.h1, item: absoluteUrl(page.path) },
+          ],
+        }}
+      />
+      <PageHero
+        label={page.label}
+        page={page}
+        breadcrumbs={[{ label: page.label, href: page.path }]}
+      />
+      <section className="py-16 md:py-20">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="grid gap-6 lg:grid-cols-3">
+            {page.sections.map((section) => (
+              <section key={section.title} className="nebula-card rounded-3xl p-7">
+                <h2 className="font-display text-2xl font-semibold nebula-heading-text">
+                  {section.title}
+                </h2>
+                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+                  {section.description}
+                </p>
+                <ul className="mt-6 space-y-4">
+                  {section.paths.map((path) => {
+                    const entry = entryForPath(path);
+                    if (!entry) return null;
+                    return (
+                      <li key={path}>
+                        <Link
+                          to={path}
+                          className="group block rounded-2xl border border-white/8 p-4 hover:border-action/35"
+                        >
+                          <span className="font-semibold text-link group-hover:underline">
+                            {entry.title}
+                          </span>
+                          <span className="mt-1 block text-xs leading-relaxed text-muted-foreground">
+                            {entry.description}
+                          </span>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </section>
+            ))}
+          </div>
+          <section className="mx-auto mt-16 max-w-3xl">
+            <AccentHeading className="text-2xl">Preguntas frecuentes</AccentHeading>
+            <FAQList items={page.faq} />
+          </section>
+          <div className="mt-12 text-center">
+            <PrimaryCTA href="/contacto/">Solicitar diagnóstico inicial</PrimaryCTA>
+          </div>
+        </div>
+      </section>
+    </PageShell>
+  );
+}
+
 export function ServiceDetailPage({ page }: { page: ServicePage }) {
   usePageMeta({ title: page.title, description: page.description, path: page.path });
   const relatedPosts = page.relatedPosts.map((slug) => getPost(slug)).filter(Boolean);
+  const parentPath = page.parentPath ?? "/clases-particulares/";
+  const parentLabel = page.parentLabel ?? "Clases particulares";
+  const relatedServices = (page.relatedServices ?? [])
+    .map((path) => siteData.servicePages.find((item) => item.path === path))
+    .filter((item): item is ServicePage => Boolean(item));
+
+  useEffect(() => {
+    trackEvent("view_service_page", { path: page.path });
+  }, [page.path]);
 
   return (
     <PageShell>
@@ -206,6 +326,7 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
           url: absoluteUrl(page.path),
         }}
       />
+      <JsonLd data={faqJsonLd(page.faq)} />
       <JsonLd
         data={{
           "@context": "https://schema.org",
@@ -215,8 +336,8 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
             {
               "@type": "ListItem",
               position: 2,
-              name: "Clases desde ESO",
-              item: absoluteUrl(siteData.serviceOverview.path),
+              name: parentLabel,
+              item: absoluteUrl(parentPath),
             },
             { "@type": "ListItem", position: 3, name: page.h1, item: absoluteUrl(page.path) },
           ],
@@ -226,7 +347,7 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
         label="Servicio"
         page={{ h1: page.h1, intro: page.audience }}
         breadcrumbs={[
-          { label: "Clases desde ESO", href: siteData.serviceOverview.path },
+          { label: parentLabel, href: parentPath },
           { label: page.h1, href: page.path },
         ]}
       />
@@ -236,6 +357,19 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
             <ContentBlock title="Problemas habituales" items={page.problems} />
             <ContentBlock title="Bloques que podemos trabajar" items={page.topics} />
             <ContentBlock title="Cómo funciona el método" items={page.method} ordered />
+            {page.modality && (
+              <section>
+                <AccentHeading className="text-2xl">Modalidad online</AccentHeading>
+                <p className="mt-3 leading-relaxed text-muted-foreground">{page.modality}</p>
+              </section>
+            )}
+            {page.sessionStructure && (
+              <ContentBlock
+                title="Cómo se organiza una sesión"
+                items={page.sessionStructure}
+                ordered
+              />
+            )}
             <section>
               <AccentHeading className="text-2xl">Qué diferencia este acompañamiento</AccentHeading>
               <p className="mt-3 leading-relaxed text-muted-foreground">{page.differentiator}</p>
@@ -260,22 +394,34 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
             </section>
             <section>
               <AccentHeading className="text-2xl">Preguntas frecuentes</AccentHeading>
-              <div className="mt-5 divide-y divide-white/8 rounded-2xl border border-white/8 bg-white/[0.02]">
-                {page.faq.map((item) => (
-                  <div key={item.q} className="p-5">
-                    <h3 className="font-semibold">{item.q}</h3>
-                    <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{item.a}</p>
-                  </div>
-                ))}
-              </div>
+              <FAQList items={page.faq} />
             </section>
+            {relatedServices.length > 0 && (
+              <section>
+                <AccentHeading className="text-2xl">Servicios relacionados</AccentHeading>
+                <div className="mt-5 grid gap-4 md:grid-cols-2">
+                  {relatedServices.map((service) => (
+                    <Link
+                      key={service.path}
+                      to={service.path}
+                      className="rounded-2xl border border-white/8 p-5 hover:border-action/35"
+                    >
+                      <span className="font-semibold text-link">{service.h1}</span>
+                      <span className="mt-2 block text-sm text-muted-foreground">
+                        {service.description}
+                      </span>
+                    </Link>
+                  ))}
+                </div>
+              </section>
+            )}
           </div>
           <aside className="space-y-5">
             <div className="nebula-card rounded-3xl p-6">
               <AccentHeading className="text-xl">Diagnóstico inicial</AccentHeading>
               <p className="mt-3 text-sm text-muted-foreground">{page.nextStep}</p>
               <PrimaryCTA href="/contacto/" className="mt-5 w-full">
-                Solicitar diagnóstico
+                Solicitar diagnóstico inicial
               </PrimaryCTA>
             </div>
             {relatedPosts.length > 0 && (
@@ -303,6 +449,21 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
         </div>
       </section>
     </PageShell>
+  );
+}
+
+function FAQList({ items }: { items: Array<{ q: string; a: string }> }) {
+  return (
+    <div className="mt-5 divide-y divide-white/8 rounded-2xl border border-white/8 bg-white/[0.02]">
+      {items.map((item) => (
+        <details key={item.q} className="group p-5">
+          <summary className="cursor-pointer font-semibold text-foreground marker:text-action">
+            {item.q}
+          </summary>
+          <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{item.a}</p>
+        </details>
+      ))}
+    </div>
   );
 }
 
@@ -495,8 +656,8 @@ export function MethodologyPage() {
 
 export function ContactPage() {
   const page = siteData.corePages.find((item) => item.kind === "contact")!;
-  const { copied, copy } = useCopyPhone();
   usePageMeta({ title: page.title, description: page.description, path: page.path });
+
   return (
     <PageShell>
       <PageHero
@@ -506,38 +667,32 @@ export function ContactPage() {
       />
       <section className="py-16 md:py-20">
         <div className="mx-auto max-w-3xl px-6">
-          <div className="space-y-4">
-            <button
-              type="button"
-              onClick={copy}
-              className="flex w-full items-center justify-between rounded-2xl border border-white/10 bg-white/[0.03] p-5 text-left transition-colors hover:border-white/25"
-            >
-              <span className="flex items-center gap-3">
-                <MessageCircle className="h-5 w-5 text-action" />
-                <span>
-                  <span className="block font-semibold">WhatsApp</span>
-                  <span className="text-sm text-muted-foreground">{WHATSAPP_NUMBER}</span>
-                </span>
-              </span>
-              <span className="text-sm text-action">{copied ? "Copiado" : "Copiar"}</span>
-            </button>
-            <a
-              href={EMAIL_URL}
-              className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition-colors hover:border-white/25"
-            >
-              <span className="flex items-center gap-3">
-                <Mail className="h-5 w-5 text-action" />
-                <span>
-                  <span className="block font-semibold">Email</span>
-                  <span className="text-sm text-muted-foreground">{EMAIL}</span>
-                </span>
-              </span>
-              <ArrowRight className="h-4 w-4" />
-            </a>
-          </div>
-          <p className="mt-8 text-sm leading-relaxed text-muted-foreground">
-            Cuéntanos asignatura, fecha de examen, temario y punto de partida. Con esa información
-            revisamos si Método Nebula encaja y qué plan tendría más sentido.
+          <AccentHeading>Opciones de contacto</AccentHeading>
+          <p className="mt-4 leading-relaxed text-muted-foreground">
+            Si quieres solicitar un diagnóstico inicial, puedes contactar por WhatsApp o por correo
+            electrónico. Los datos se muestran únicamente como información: no hay formulario ni
+            enlaces de envío automático.
+          </p>
+
+          <dl className="mt-8 grid gap-4 sm:grid-cols-2">
+            <div className="nebula-card rounded-2xl p-5">
+              <dt className="flex items-center gap-3 text-sm font-semibold">
+                <MessageCircle className="h-5 w-5 text-action" aria-hidden="true" />
+                WhatsApp
+              </dt>
+              <dd className="mt-3 text-base text-muted-foreground">{WHATSAPP_NUMBER}</dd>
+            </div>
+            <div className="nebula-card rounded-2xl p-5">
+              <dt className="flex items-center gap-3 text-sm font-semibold">
+                <Mail className="h-5 w-5 text-action" aria-hidden="true" />
+                Correo electrónico
+              </dt>
+              <dd className="mt-3 break-all text-base text-muted-foreground">{EMAIL}</dd>
+            </div>
+          </dl>
+
+          <p className="mt-6 text-sm leading-relaxed text-muted-foreground">
+            Copia el dato que prefieras y abre tu aplicación habitual para escribir el mensaje.
           </p>
         </div>
       </section>
@@ -581,12 +736,16 @@ export function SitemapPage() {
                   Inicio
                 </Link>
               </li>
+              {siteData.commercialHubs.map((hub) => (
+                <li key={hub.path}>
+                  <Link to={hub.path} className="text-link transition-colors hover:text-link">
+                    {hub.label}
+                  </Link>
+                </li>
+              ))}
               <li>
-                <Link
-                  to="/clases-particulares/universidad/"
-                  className="text-link transition-colors hover:text-link"
-                >
-                  Clases desde ESO
+                <Link to="/clases-particulares/universidad/" className="text-link">
+                  Preparación universitaria
                 </Link>
               </li>
               <li>
@@ -714,8 +873,8 @@ export function NotFoundPage() {
         <SectionLabel>404</SectionLabel>
         <h1 className="mt-5 font-display text-4xl font-bold">Página no encontrada</h1>
         <p className="mt-4 text-muted-foreground">
-          El enlace puede haber cambiado. Puedes volver al inicio, revisar las clases desde ESO o
-          contactar para explicar tu caso.
+          El enlace puede haber cambiado. Puedes volver al inicio o elegir una de las áreas
+          principales de Método Nebula.
         </p>
         <div className="mt-8 flex flex-wrap justify-center gap-3">
           <PrimaryCTA href="/">Inicio</PrimaryCTA>
@@ -726,10 +885,22 @@ export function NotFoundPage() {
             Blog
           </a>
           <a
-            href="/clases-particulares/universidad/"
+            href="/clases-particulares/"
             className="inline-flex items-center rounded-full border border-white/15 px-6 py-3 text-sm font-medium"
           >
-            Clases desde ESO
+            Clases particulares
+          </a>
+          <a
+            href="/preparacion-examenes/"
+            className="inline-flex items-center rounded-full border border-white/15 px-6 py-3 text-sm font-medium"
+          >
+            Exámenes
+          </a>
+          <a
+            href="/formacion-it/"
+            className="inline-flex items-center rounded-full border border-white/15 px-6 py-3 text-sm font-medium"
+          >
+            Formación IT
           </a>
           <a
             href="/contacto/"

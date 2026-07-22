@@ -5,7 +5,7 @@ updated: 2026-06-23
 description: Prueba de nivel de derivadas e integrales universitarias con ejercicios resueltos para detectar errores antes del examen de Cálculo.
 tag: Cálculo
 category: Matemáticas universitarias
-relatedService: /clases-particulares/matematicas-universidad/
+relatedService: /clases-particulares/calculo-universitario/
 relatedPosts: que-son-las-derivadas-y-para-que-se-utilizan,que-son-las-integrales-y-para-que-se-utilizan,como-aprobar-calculo-i-ingenieria-seis-semanas
 image: /favicon.svg
 ---

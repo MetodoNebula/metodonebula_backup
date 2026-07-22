@@ -1,9 +1,6 @@
-import {
-  useSyncExternalStore,
-  type AnchorHTMLAttributes,
-  type MouseEvent,
-  type ReactNode,
-} from "react";
+import { type AnchorHTMLAttributes, type MouseEvent, type ReactNode } from "react";
+
+import { navigate } from "./navigation";
 
 /**
  * Tiny History-API router. The whole site is a static SPA served from the
@@ -11,26 +8,6 @@ import {
  * because the build emits a `404.html` copy of `index.html` (GitHub Pages
  * fallback), which boots the app and lets it read the path.
  */
-
-function subscribe(callback: () => void) {
-  window.addEventListener("popstate", callback);
-  return () => window.removeEventListener("popstate", callback);
-}
-
-function getSnapshot() {
-  return window.location.pathname;
-}
-
-export function usePathname(): string {
-  return useSyncExternalStore(subscribe, getSnapshot, () => "/");
-}
-
-export function navigate(to: string) {
-  if (to === window.location.pathname + window.location.hash) return;
-  window.history.pushState(null, "", to);
-  window.dispatchEvent(new PopStateEvent("popstate"));
-  window.scrollTo({ top: 0, left: 0 });
-}
 
 type LinkProps = {
   to: string;

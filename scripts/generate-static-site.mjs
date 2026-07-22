@@ -149,6 +149,10 @@ function findService(route) {
   return SITE_DATA.servicePages.find((service) => service.path === route);
 }
 
+function findHub(route) {
+  return SITE_DATA.commercialHubs.find((hub) => hub.path === route);
+}
+
 const INLINE_PATTERN =
   /(\\\([\s\S]+?\\\))|(\$[^$\n]+\$)|(!\[[^\]]*\]\([^)]+\))|(\[[^\]]+\]\([^)]+\))|(`[^`]+`)|(\*\*[^*]+\*\*)|(__[^_]+__)|(\*[^*]+\*)|(_[^_]+_)/g;
 
@@ -162,7 +166,7 @@ function renderKatex(tex, displayMode = false) {
 }
 
 function displayMathHtml(tex) {
-  return `<div class="nebula-math my-7 overflow-x-auto rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-5 text-center">${renderKatex(tex, true)}</div>`;
+  return `<div role="group" aria-label="Fórmula matemática: ${escapeHtml(tex)}" class="nebula-math my-7 overflow-x-auto rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-5 text-center">${renderKatex(tex, true)}</div>`;
 }
 
 function isLatexGraph(src) {
@@ -241,6 +245,28 @@ function markdownToHtml(md) {
       );
       continue;
     }
+    if (
+      /^\s*\|.+\|\s*$/.test(line) &&
+      /^\s*\|(?:\s*:?-{3,}:?\s*\|)+\s*$/.test(lines[i + 1] ?? "")
+    ) {
+      const cells = (value) =>
+        value
+          .trim()
+          .replace(/^\||\|$/g, "")
+          .split("|")
+          .map((cell) => cell.trim());
+      const headers = cells(line);
+      i += 2;
+      const rows = [];
+      while (i < lines.length && /^\s*\|.+\|\s*$/.test(lines[i])) {
+        rows.push(cells(lines[i]));
+        i++;
+      }
+      out.push(
+        `<div role="region" aria-label="Tabla de datos del artículo" tabindex="0" class="my-7 max-w-full overflow-x-auto rounded-2xl border border-white/10"><table class="w-full min-w-[620px] border-collapse text-left text-sm"><thead class="bg-white/[0.07]"><tr>${headers.map((cell) => `<th scope="col" class="border-b border-white/10 px-4 py-3 font-semibold">${inlineMarkdown(cell)}</th>`).join("")}</tr></thead><tbody>${rows.map((row) => `<tr class="border-b border-white/8 last:border-0">${row.map((cell) => `<td class="px-4 py-3 align-top">${inlineMarkdown(cell)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`,
+      );
+      continue;
+    }
     if (line.trim().startsWith("$$") || line.trim().startsWith("\\[")) {
       const opener = line.trim().startsWith("$$") ? "$$" : "\\[";
       const closer = opener === "$$" ? "$$" : "\\]";
@@ -298,7 +324,7 @@ function markdownToHtml(md) {
         );
         i++;
       }
-      out.push(`<ol class="my-5 space-y-2">${items.join("")}</ol>`);
+      out.push(`<ol class="my-5 list-none space-y-2 pl-0">${items.join("")}</ol>`);
       continue;
     }
     if (/^---+$/.test(line.trim())) {
@@ -325,6 +351,10 @@ function markdownToHtml(md) {
       !lines[i].trim().startsWith("```") &&
       !/^\s*[-*]\s+/.test(lines[i]) &&
       !/^\s*\d+\.\s+/.test(lines[i]) &&
+      !(
+        /^\s*\|.+\|\s*$/.test(lines[i]) &&
+        /^\s*\|(?:\s*:?-{3,}:?\s*\|)+\s*$/.test(lines[i + 1] ?? "")
+      ) &&
       !lines[i].trim().startsWith(">")
     ) {
       para.push(lines[i]);
@@ -347,7 +377,9 @@ function headMarkup({
   next,
 }) {
   const url = absoluteUrl(route);
-  const imageUrl = image && image !== SITE_DATA.site.logo ? absoluteUrl(image) : "";
+  const imageUrl = absoluteUrl(
+    image && image !== SITE_DATA.site.logo ? image : SITE_DATA.site.socialImage,
+  );
   return [
     `<title>${escapeHtml(title)}</title>`,
     `<meta name="description" content="${escapeHtml(description)}">`,
@@ -357,11 +389,13 @@ function headMarkup({
     `<meta property="og:description" content="${escapeHtml(description)}">`,
     `<meta property="og:type" content="${escapeHtml(type)}">`,
     `<meta property="og:url" content="${escapeHtml(url)}">`,
-    imageUrl ? `<meta property="og:image" content="${escapeHtml(imageUrl)}">` : "",
-    `<meta name="twitter:card" content="${imageUrl ? "summary_large_image" : "summary"}">`,
+    `<meta property="og:image" content="${escapeHtml(imageUrl)}">`,
+    `<meta property="og:image:width" content="1200">`,
+    `<meta property="og:image:height" content="630">`,
+    `<meta name="twitter:card" content="summary_large_image">`,
     `<meta name="twitter:title" content="${escapeHtml(title)}">`,
     `<meta name="twitter:description" content="${escapeHtml(description)}">`,
-    imageUrl ? `<meta name="twitter:image" content="${escapeHtml(imageUrl)}">` : "",
+    `<meta name="twitter:image" content="${escapeHtml(imageUrl)}">`,
     prev ? `<link rel="prev" href="${escapeHtml(absoluteUrl(prev))}">` : "",
     next ? `<link rel="next" href="${escapeHtml(absoluteUrl(next))}">` : "",
     ...jsonLd.map(
@@ -574,6 +608,7 @@ function homePage() {
   const serviceGroups = [
     {
       title: "Clases particulares",
+      href: "/clases-particulares/",
       text: "Matemáticas, Física, Estadística, Química, Economía y Programación con diagnóstico y seguimiento.",
       links: [
         "/clases-particulares/matematicas-universidad/",
@@ -586,11 +621,13 @@ function homePage() {
     },
     {
       title: "Preparación con fecha",
+      href: "/preparacion-examenes/",
       text: "Selectividad, recuperaciones, exámenes universitarios, IB, GCSE, IGCSE y pruebas de acceso.",
       links: ["/clases-particulares/selectividad/", "/clases-particulares/gcse-ib/"],
     },
     {
       title: "Formación tecnológica",
+      href: "/formacion-it/",
       text: "Python, SQL, datos, IA, proyectos y entrevistas técnicas como línea independiente.",
       links: ["/clases-particulares/programacion-universidad/"],
     },
@@ -606,6 +643,7 @@ function homePage() {
         <section class="border-t border-white/8 pt-6">
           ${styledHeading(escapeHtml(group.title), 2, "card")}
           <p class="mt-2 text-sm text-muted-foreground">${escapeHtml(group.text)}</p>
+          <p class="mt-3"><a href="${group.href}">Ver ${escapeHtml(group.title.toLowerCase())}</a></p>
           <ul class="mt-4 grid gap-2 text-sm sm:grid-cols-2">${links}</ul>
         </section>
       `;
@@ -845,7 +883,9 @@ function postPage(post, posts) {
       name: SITE_DATA.site.displayName,
       logo: { "@type": "ImageObject", url: absoluteUrl(SITE_DATA.site.logo) },
     },
-    ...(post.image && post.image !== SITE_DATA.site.logo ? { image: absoluteUrl(post.image) } : {}),
+    image: absoluteUrl(
+      post.image && post.image !== SITE_DATA.site.logo ? post.image : SITE_DATA.site.socialImage,
+    ),
   };
   return {
     title: `${post.title} | ${SITE_DATA.site.displayName}`,
@@ -875,6 +915,12 @@ function postPage(post, posts) {
         ${blogMetaHtml(post, false)}
         ${tocHtml(post)}
         <article>${markdownToHtml(post.body)}</article>
+        <aside aria-label="Autor del artículo" class="mt-12 rounded-3xl border border-white/10 bg-white/[0.02] p-6">
+          <p class="text-xs font-medium uppercase tracking-[0.18em] text-spark">Autoría</p>
+          <h2 class="mt-2 font-display text-xl font-semibold">Método Nebula</h2>
+          <p class="mt-2 text-sm text-muted-foreground">Contenido revisado por el responsable docente de Método Nebula, graduado en Matemáticas, con formación de máster en Big Data e Inteligencia Artificial y experiencia docente y tecnológica.</p>
+          <p class="mt-4"><a href="/sobre-nebula/">Conocer el método y el perfil docente</a>${SITE_DATA.site.author.profileUrl ? ` · <a href="${escapeHtml(SITE_DATA.site.author.profileUrl)}">Ver perfil profesional</a>` : ""}</p>
+        </aside>
         <section class="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8 text-center">
           <h2 class="font-display text-2xl font-semibold text-foreground">¿Quieres aplicar esto a tu asignatura o examen?</h2>
           <p class="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">Empezamos con una llamada de diagnóstico para entender tu objetivo, tu punto de partida y tu fecha. El servicio relacionado ayuda a aterrizarlo en un plan concreto.</p>
@@ -945,6 +991,65 @@ function serviceOverviewPage() {
   };
 }
 
+function commercialHubPage(page, posts) {
+  const entryForPath = (route) => {
+    const service = findService(route);
+    if (service) return { title: service.h1, description: service.description };
+    const hub = findHub(route);
+    if (hub) return { title: hub.h1, description: hub.description };
+    const core = [...SITE_DATA.corePages, SITE_DATA.serviceOverview].find(
+      (candidate) => candidate.path === route,
+    );
+    if (core) return { title: core.h1, description: core.description };
+    const post = posts.find((candidate) => `/blog/${candidate.slug}/` === route);
+    return post ? { title: post.title, description: post.description } : undefined;
+  };
+  const sections = page.sections
+    .map((section) => {
+      const links = section.paths
+        .map((route) => [route, entryForPath(route)])
+        .filter(([, entry]) => Boolean(entry))
+        .map(
+          ([route, entry]) =>
+            `<li><a href="${route}">${escapeHtml(entry.title)}</a><span class="mt-1 block text-xs text-muted-foreground">${escapeHtml(entry.description)}</span></li>`,
+        )
+        .join("");
+      return `<section class="rounded-3xl border border-white/8 bg-white/[0.02] p-7"><h2>${escapeHtml(section.title)}</h2><p>${escapeHtml(section.description)}</p><ul class="mt-5 space-y-4">${links}</ul></section>`;
+    })
+    .join("");
+  const faq = page.faq
+    .map(
+      (item) =>
+        `<details class="border-t border-white/8 p-5"><summary class="cursor-pointer font-semibold">${escapeHtml(item.q)}</summary><p>${escapeHtml(item.a)}</p></details>`,
+    )
+    .join("");
+  return {
+    ...page,
+    route: page.path,
+    jsonLd: [
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        name: page.h1,
+        description: page.description,
+        url: absoluteUrl(page.path),
+      },
+      faqJsonLd(page.faq),
+      breadcrumbJsonLd([
+        ["Inicio", "/"],
+        [page.h1, page.path],
+      ]),
+    ],
+    body: shell({
+      label: page.label,
+      h1: page.h1,
+      intro: page.intro,
+      breadcrumbs: [{ label: page.label, href: page.path }],
+      children: `<div class="grid gap-6 lg:grid-cols-3">${sections}</div><h2>Preguntas frecuentes</h2><div class="rounded-2xl border border-white/8">${faq}</div><p class="mt-8"><a href="/contacto/">Solicitar diagnóstico inicial</a></p>`,
+    }),
+  };
+}
+
 function servicePage(page, posts) {
   const related = page.relatedPosts
     .map((slug) => posts.find((post) => post.slug === slug))
@@ -956,9 +1061,10 @@ function servicePage(page, posts) {
     route: page.path,
     jsonLd: [
       serviceJsonLd(page),
+      faqJsonLd(page.faq),
       breadcrumbJsonLd([
         ["Inicio", "/"],
-        ["Clases desde ESO", SITE_DATA.serviceOverview.path],
+        [page.parentLabel ?? "Clases particulares", page.parentPath ?? "/clases-particulares/"],
         [page.h1, page.path],
       ]),
     ],
@@ -967,21 +1073,40 @@ function servicePage(page, posts) {
       h1: page.h1,
       intro: page.audience,
       breadcrumbs: [
-        { label: "Clases desde ESO", href: SITE_DATA.serviceOverview.path },
+        {
+          label: page.parentLabel ?? "Clases particulares",
+          href: page.parentPath ?? "/clases-particulares/",
+        },
         { label: page.h1, href: page.path },
       ],
       children: `
         <h2>Problemas habituales</h2>${cardList(page.problems)}
         <h2>Bloques que podemos trabajar</h2>${cardList(page.topics)}
         <h2>Cómo funciona el método</h2>${cardList(page.method, true)}
+        ${page.modality ? `<h2>Modalidad online</h2><p>${escapeHtml(page.modality)}</p>` : ""}
+        ${page.sessionStructure ? `<h2>Cómo se organiza una sesión</h2>${cardList(page.sessionStructure, true)}` : ""}
         <h2>Qué diferencia este acompañamiento</h2><p>${escapeHtml(page.differentiator)}</p>
         <h2>Qué debe aportar el alumno</h2><p>${escapeHtml(page.studentInput)}</p>
         <h2>Resultados razonables</h2><p>${escapeHtml(page.reasonableOutcomes)}</p>
         <h2>Perfil docente</h2><p>${escapeHtml(page.profile)}</p>
         <h2>Preguntas frecuentes</h2>${page.faq
-          .map((item) => `<h3>${escapeHtml(item.q)}</h3><p>${escapeHtml(item.a)}</p>`)
+          .map(
+            (item) =>
+              `<details class="border-t border-white/8 p-5"><summary class="cursor-pointer font-semibold">${escapeHtml(item.q)}</summary><p>${escapeHtml(item.a)}</p></details>`,
+          )
           .join("")}
         <h2>Lecturas relacionadas</h2><ul>${related}</ul>
+        ${
+          page.relatedServices?.length
+            ? `<h2>Servicios relacionados</h2><ul>${page.relatedServices
+                .map((route) => findService(route))
+                .filter(Boolean)
+                .map(
+                  (service) => `<li><a href="${service.path}">${escapeHtml(service.h1)}</a></li>`,
+                )
+                .join("")}</ul>`
+            : ""
+        }
         <h2>Siguiente paso</h2><p>${escapeHtml(page.nextStep)}</p>
         <p><a href="/contacto/">Solicitar diagnóstico</a></p>
       `,
@@ -992,7 +1117,8 @@ function servicePage(page, posts) {
 function htmlSitemapPage(posts) {
   const mainLinks = [
     ["/", "Inicio"],
-    [SITE_DATA.serviceOverview.path, "Clases desde ESO"],
+    ...SITE_DATA.commercialHubs.map((hub) => [hub.path, hub.label]),
+    [SITE_DATA.serviceOverview.path, "Preparación universitaria"],
     ["/metodologia/", "Metodología"],
     ["/sobre-nebula/", "Sobre Nebula"],
     ["/contacto/", "Contacto"],
@@ -1081,8 +1207,8 @@ function corePage(kind) {
       ],
     ],
     contact: [
-      ["WhatsApp", "Canal directo para explicar tu asignatura, examen o cambio profesional."],
-      ["Email", "Una vía cómoda para enviar temario, fechas y contexto antes del diagnóstico."],
+      ["WhatsApp", SITE_DATA.site.contact.whatsapp],
+      ["Correo electrónico", SITE_DATA.site.contact.email],
       [
         "Primer diagnóstico",
         "Revisamos objetivo, punto de partida y calendario antes de proponer un plan de trabajo.",
@@ -1133,12 +1259,15 @@ function notFoundPage() {
     body: shell({
       label: "404",
       h1: "Página no encontrada",
-      intro: "El enlace puede haber cambiado. Estas rutas siguen disponibles.",
+      intro:
+        "El enlace puede haber cambiado. Puedes volver al inicio o elegir una de las áreas principales de Método Nebula.",
       children: `
         <ul>
           <li><a href="/">Inicio</a></li>
+          <li><a href="/clases-particulares/">Clases particulares</a></li>
+          <li><a href="/preparacion-examenes/">Preparación de exámenes</a></li>
+          <li><a href="/formacion-it/">Formación IT</a></li>
           <li><a href="/blog/">Blog</a></li>
-          <li><a href="/clases-particulares/universidad/">Clases desde ESO</a></li>
           <li><a href="/contacto/">Contacto</a></li>
         </ul>
       `,
@@ -1155,6 +1284,18 @@ function serviceJsonLd(page) {
     provider: { "@type": "EducationalOrganization", name: SITE_DATA.site.displayName },
     areaServed: "España",
     url: absoluteUrl(page.path),
+  };
+}
+
+function faqJsonLd(faq) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faq.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: { "@type": "Answer", text: item.a },
+    })),
   };
 }
 
@@ -1236,6 +1377,7 @@ const pages = [
   ...blogPages,
   ...categoryPages,
   ...posts.map((post) => postPage(post, posts)),
+  ...SITE_DATA.commercialHubs.map((page) => commercialHubPage(page, posts)),
   serviceOverviewPage(),
   ...SITE_DATA.servicePages.map((page) => servicePage(page, posts)),
   htmlSitemapPage(posts),

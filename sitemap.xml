@@ -78,7 +78,7 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados/</loc>
-    <lastmod>2026-07-11</lastmod>
+    <lastmod>2026-07-22</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/</loc>
@@ -86,7 +86,7 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/que-prueba-estadistica-utilizar-guia-test-correcto/</loc>
-    <lastmod>2026-07-09</lastmod>
+    <lastmod>2026-07-22</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/como-aprobar-estadistica-psicologia-sin-base-matematica/</loc>
@@ -185,6 +185,18 @@
     <lastmod>2026-05-20</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/clases-particulares/</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/preparacion-examenes/</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/formacion-it/</loc>
+    <priority>0.85</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/clases-particulares/universidad/</loc>
     <priority>0.8</priority>
   </url>
@@ -219,6 +231,30 @@
   <url>
     <loc>https://metodonebula.es/clases-particulares/gcse-ib/</loc>
     <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/clases-particulares/calculo-universitario/</loc>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/clases-particulares/estadistica-psicologia-ade/</loc>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/clases-particulares/algebra-lineal-universidad/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/preparacion-examenes/matematicas-selectividad/</loc>
+    <priority>0.82</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/preparacion-examenes/ib-mathematics/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/formacion-it/python-sql-data-engineering/</loc>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://metodonebula.es/mapa-del-sitio/</loc>

@@ -266,7 +266,7 @@ export function Footer() {
                 <a
                   href={INSTAGRAM_URL}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-link transition-colors hover:text-link"
                 >
                   <Instagram className="h-4 w-4 text-action" />

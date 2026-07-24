@@ -9,7 +9,10 @@
     "preview": "vite preview --host 127.0.0.1",
     "latex:assets": "node scripts/compile-latex-assets.mjs",
     "seo:validate": "node scripts/validate-static-site.mjs",
-    "check": "tsc --noEmit && eslint . && npm run build && npm run seo:validate",
+    "seo:http": "node scripts/audit-http-site.mjs",
+    "seo:browser": "node --experimental-websocket scripts/browser-site-audit.mjs",
+    "seo:inventory": "node scripts/generate-seo-inventory.mjs --baseline docs/seo-live-baseline.json --output docs/seo-url-inventory.csv",
+    "check": "tsc --noEmit && eslint . && npm run build && npm run seo:validate && npm run seo:http",
     "blog:visual": "node --experimental-websocket scripts/visual-blog-audit.mjs",
     "lint": "eslint .",
     "format": "prettier --write ."

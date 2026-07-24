@@ -1,6 +1,6 @@
 # Nebula
 
-Landing React preparada para desarrollo local con Vite y despliegue estático en Cloudflare Pages.
+Sitio React preparado para desarrollo local con Vite y despliegue estático en GitHub Pages.
 
 ## Desarrollo local
 
@@ -16,7 +16,8 @@ npm run build
 npm run preview
 ```
 
-La comprobación integral ejecuta TypeScript, ESLint, el build estático y la validación SEO:
+La comprobación integral ejecuta TypeScript, ESLint, el build estático, la validación SEO y un
+rastreo HTTP local:
 
 ```bash
 npm run check
@@ -28,12 +29,27 @@ GA4 solo se carga si existe `VITE_GA_MEASUREMENT_ID` y la aplicación ha recibid
 
 El teléfono/WhatsApp y el correo se muestran como texto informativo. La web no incluye formulario ni botones que abran esos canales.
 
-## Cloudflare Pages
+La comprobación opcional en Chrome o Edge recorre todas las URLs indexables y detecta fallos de
+renderizado, metadatos cliente, imágenes y errores de consola:
+
+```bash
+npm run seo:browser
+```
+
+El inventario reproducible de URLs se actualiza con:
+
+```bash
+npm run seo:inventory
+```
+
+## GitHub Pages
 
 - Build command: `npm run build`
 - Build output directory: `dist`
 - Node.js: 20 o superior
+- Dominio canónico: `https://metodonebula.es/`
 
-El archivo `public/_redirects` deja lista la app para rutas SPA en Cloudflare Pages.
-
-El workflow de GitHub Pages continúa publicando el contenido generado de `dist` en la raíz de la rama de despliegue.
+El workflow publica el contenido generado de `dist` en la raíz de `main`. El archivo
+`.static-output-manifest` garantiza que se añadan rutas nuevas y se retiren artefactos antiguos sin
+mantener una lista manual de directorios. Cada URL pública se genera como
+`dist/<ruta>/index.html`; las rutas desconocidas usan `404.html` con estado 404 y `noindex`.

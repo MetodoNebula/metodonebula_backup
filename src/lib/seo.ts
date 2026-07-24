@@ -9,6 +9,7 @@ type MetaInput = {
   type?: "website" | "article";
   image?: string;
   robots?: string;
+  canonical?: boolean;
   prevPath?: string;
   nextPath?: string;
 };
@@ -54,6 +55,7 @@ export function usePageMeta({
   type = "website",
   image,
   robots = "index,follow",
+  canonical = true,
   prevPath,
   nextPath,
 }: MetaInput) {
@@ -86,8 +88,8 @@ export function usePageMeta({
       content: description,
     });
     upsertMeta('meta[name="twitter:image"]', { name: "twitter:image", content: imageUrl });
-    upsertLink("canonical", url);
+    upsertOptionalLink("canonical", canonical ? url : undefined);
     upsertOptionalLink("prev", prevPath ? absoluteUrl(prevPath) : undefined);
     upsertOptionalLink("next", nextPath ? absoluteUrl(nextPath) : undefined);
-  }, [description, image, nextPath, path, prevPath, robots, title, type]);
+  }, [canonical, description, image, nextPath, path, prevPath, robots, title, type]);
 }

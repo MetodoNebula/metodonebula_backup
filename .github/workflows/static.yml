@@ -40,7 +40,20 @@ jobs:
 
       - name: Publish build to repository root
         run: |
-          rm -rf assets
+          if [ -f .static-output-manifest ]; then
+            while IFS= read -r generated_file; do
+              case "$generated_file" in
+                ""|/*|*".."*) continue ;;
+              esac
+              rm -f -- "$generated_file"
+            done < .static-output-manifest
+          else
+            # Bootstrap cleanup for deployments created before the manifest existed.
+            rm -rf assets blog clases-particulares preparacion-examenes formacion-it
+            rm -rf mapa-del-sitio contacto metodologia sobre-nebula
+            rm -f index.html 404.html .nojekyll favicon.svg og-nebula.svg og-nebula.png
+            rm -f robots.txt sitemap.xml rss.xml _redirects CNAME
+          fi
           cp -R dist/. .
           remote_head="$(git ls-remote origin refs/heads/main | cut -f1)"
           local_head="$(git rev-parse HEAD)"
@@ -50,7 +63,7 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html 404.html .nojekyll assets blog clases-particulares contacto metodologia sobre-nebula favicon.svg robots.txt sitemap.xml rss.xml _redirects CNAME
+          git add -A -- .
           if git diff --cached --quiet; then
             echo "No static build changes to publish."
             exit 0

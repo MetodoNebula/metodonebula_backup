@@ -726,7 +726,7 @@ function Testimonials() {
           <a
             href="https://www.tusclasesparticulares.com/profesores/nebula-lambda.htm"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="text-xs uppercase tracking-[0.18em] text-muted-foreground underline-offset-4 transition-colors hover:text-link hover:underline"
           >
             Opiniones verificadas en TusClasesParticulares
@@ -921,7 +921,7 @@ function Contact() {
             <a
               href={INSTAGRAM_URL}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="flex items-center justify-between rounded-2xl border border-white/10 bg-white/[0.03] p-5 transition-colors hover:border-white/25 hover:bg-white/[0.06]"
             >
               <div className="flex items-center gap-3">

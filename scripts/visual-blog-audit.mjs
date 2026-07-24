@@ -164,8 +164,10 @@ const inspectionExpression = String.raw`
   const overflowElements = Array.from(document.querySelectorAll("article *"))
     .filter((element) => {
       if (element.closest(".katex")) return false;
+      if (element.closest('[role="region"][tabindex="0"]')) return false;
       const style = getComputedStyle(element);
       if (style.display === "none" || style.visibility === "hidden") return false;
+      if (["auto", "scroll"].includes(style.overflowX)) return false;
       if (element.scrollWidth - element.clientWidth <= 2) return false;
       const text = (element.textContent || "").trim();
       return text.length > 0 && !["svg", "path"].includes(element.tagName.toLowerCase());

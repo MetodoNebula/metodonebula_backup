@@ -176,10 +176,29 @@ function isLatexGraph(src) {
 function imageHtml(src, alt) {
   const safeSrc = escapeHtml(src);
   const safeAlt = escapeHtml(alt);
+  const dimensions = imageDimensions(src);
+  const sizeAttributes = dimensions
+    ? ` width="${dimensions.width}" height="${dimensions.height}"`
+    : "";
   if (isLatexGraph(src)) {
-    return `<figure data-graph="latex" class="mx-auto my-8 max-w-2xl rounded-2xl border border-white/10 bg-white p-4 shadow-[0_10px_40px_-10px_oklch(0.62_0.22_265/0.35)]"><img src="${safeSrc}" alt="${safeAlt}" loading="lazy" class="mx-auto max-h-[420px] w-full object-contain"><figcaption class="mt-3 text-center text-xs leading-relaxed text-slate-700">${safeAlt}</figcaption></figure>`;
+    return `<figure data-graph="latex" class="mx-auto my-8 max-w-2xl rounded-2xl border border-white/10 bg-white p-4 shadow-[0_10px_40px_-10px_oklch(0.62_0.22_265/0.35)]"><img src="${safeSrc}" alt="${safeAlt}"${sizeAttributes} loading="lazy" class="mx-auto max-h-[420px] w-full object-contain"><figcaption class="mt-3 text-center text-xs leading-relaxed text-slate-700">${safeAlt}</figcaption></figure>`;
   }
-  return `<img src="${safeSrc}" alt="${safeAlt}" loading="lazy" class="my-6 w-full rounded-2xl border border-white/10">`;
+  return `<img src="${safeSrc}" alt="${safeAlt}"${sizeAttributes} loading="lazy" class="my-6 w-full rounded-2xl border border-white/10">`;
+}
+
+function imageDimensions(src) {
+  if (!src.startsWith("/") || src.startsWith("//")) return undefined;
+  const publicPath = path.join(ROOT, "public", src.replace(/^\/+/, ""));
+  if (!fs.existsSync(publicPath) || path.extname(publicPath).toLowerCase() !== ".svg") {
+    return undefined;
+  }
+  const svg = fs.readFileSync(publicPath, "utf8");
+  const viewBox = /\bviewBox=["']\s*[-\d.]+\s+[-\d.]+\s+([\d.]+)\s+([\d.]+)\s*["']/i.exec(svg);
+  if (!viewBox) return undefined;
+  return {
+    width: Math.max(1, Math.round(Number.parseFloat(viewBox[1]))),
+    height: Math.max(1, Math.round(Number.parseFloat(viewBox[2]))),
+  };
 }
 
 function inlineMarkdown(text) {
@@ -372,6 +391,7 @@ function headMarkup({
   type = "website",
   image,
   robots = "index,follow",
+  canonical = true,
   jsonLd = [],
   prev,
   next,
@@ -384,7 +404,7 @@ function headMarkup({
     `<title>${escapeHtml(title)}</title>`,
     `<meta name="description" content="${escapeHtml(description)}">`,
     `<meta name="robots" content="${escapeHtml(robots)}">`,
-    `<link rel="canonical" href="${escapeHtml(url)}">`,
+    canonical ? `<link rel="canonical" href="${escapeHtml(url)}">` : "",
     `<meta property="og:title" content="${escapeHtml(title)}">`,
     `<meta property="og:description" content="${escapeHtml(description)}">`,
     `<meta property="og:type" content="${escapeHtml(type)}">`,
@@ -440,21 +460,28 @@ function shell({ label, h1, intro, children, breadcrumbs = [], theme = "nebula",
   const labelClass = "border-spark/35 bg-spark/10 text-spark";
   const resolvedH1Class = h1Class ?? (isBlog ? "text-foreground" : "nebula-gradient-text");
   const crumbLinkClass = "text-link transition-colors hover:text-link";
-  const crumbs = [
-    `<a class="${crumbLinkClass}" href="/">Inicio</a>`,
-    ...breadcrumbs.map((item, index) =>
-      index === breadcrumbs.length - 1
-        ? `<span>${escapeHtml(item.label)}</span>`
-        : `<a class="${crumbLinkClass}" href="${item.href}">${escapeHtml(item.label)}</a>`,
-    ),
-  ].join(" / ");
+  const crumbs =
+    breadcrumbs === null
+      ? ""
+      : [
+          `<a class="${crumbLinkClass}" href="/">Inicio</a>`,
+          ...breadcrumbs.map((item, index) =>
+            index === breadcrumbs.length - 1
+              ? `<span>${escapeHtml(item.label)}</span>`
+              : `<a class="${crumbLinkClass}" href="${item.href}">${escapeHtml(item.label)}</a>`,
+          ),
+        ].join(" / ");
+  const breadcrumbMarkup =
+    breadcrumbs === null
+      ? ""
+      : `<nav aria-label="Migas de pan" class="text-sm text-muted-foreground">${crumbs}</nav>`;
   return `
     <main class="min-h-screen bg-background text-foreground antialiased">
       <section class="relative overflow-hidden border-b border-white/5 px-6 py-16">
         <div class="nebula-aurora pointer-events-none absolute inset-0 opacity-60"></div>
         <div class="pointer-events-none absolute inset-x-0 bottom-0 h-px ${titleLineClass} opacity-70"></div>
         <div class="relative mx-auto max-w-7xl">
-          <nav aria-label="Migas de pan" class="text-sm text-muted-foreground">${crumbs}</nav>
+          ${breadcrumbMarkup}
           <p class="mt-8 inline-flex rounded-full border px-3 py-1 text-sm uppercase tracking-[0.18em] ${labelClass}">${escapeHtml(label)}</p>
           <h1 class="mt-5 max-w-4xl font-display text-4xl font-bold ${resolvedH1Class}">${escapeHtml(h1)}</h1>
           <p class="mt-5 max-w-2xl text-lg text-muted-foreground">${escapeHtml(intro)}</p>
@@ -680,6 +707,7 @@ function homePage() {
       label: "Bienvenido a Nebula",
       h1: page.h1,
       intro: page.intro,
+      breadcrumbs: null,
       children: `
         ${styledHeading("No vendemos horas. Diseñamos planes.", 2)}
         <div class="grid gap-5 md:grid-cols-3">
@@ -746,6 +774,18 @@ function blogIndexPage(posts, pageNumber = 1) {
         description,
         url: absoluteUrl(route),
       },
+      breadcrumbJsonLd(
+        pageNumber === 1
+          ? [
+              ["Inicio", "/"],
+              ["Blog", "/blog/"],
+            ]
+          : [
+              ["Inicio", "/"],
+              ["Blog", "/blog/"],
+              [`Página ${pageNumber}`, route],
+            ],
+      ),
     ],
     body: shell({
       label: "Blog",
@@ -754,7 +794,13 @@ function blogIndexPage(posts, pageNumber = 1) {
         pageNumber === 1 ? page.intro : `Página ${pageNumber} de ${pages} del archivo del blog.`,
       theme: "blog",
       h1Class: "nebula-gradient-text",
-      breadcrumbs: [{ label: "Blog", href: page.path }],
+      breadcrumbs:
+        pageNumber === 1
+          ? [{ label: "Blog", href: page.path }]
+          : [
+              { label: "Blog", href: page.path },
+              { label: `Página ${pageNumber}`, href: route },
+            ],
       children: `
         ${
           pageNumber === 1
@@ -980,7 +1026,13 @@ function serviceOverviewPage() {
   return {
     ...page,
     route: page.path,
-    jsonLd: [serviceJsonLd(page)],
+    jsonLd: [
+      serviceJsonLd(page),
+      breadcrumbJsonLd([
+        ["Inicio", "/"],
+        [page.h1, page.path],
+      ]),
+    ],
     body: shell({
       label: "Clases desde ESO",
       h1: page.h1,
@@ -1150,6 +1202,12 @@ function htmlSitemapPage(posts) {
       "Mapa HTML de Método Nebula con enlaces a servicios, categorías del blog y artículos publicados.",
     route: "/mapa-del-sitio/",
     priority: "0.5",
+    jsonLd: [
+      breadcrumbJsonLd([
+        ["Inicio", "/"],
+        ["Mapa del sitio", "/mapa-del-sitio/"],
+      ]),
+    ],
     body: shell({
       label: "Índice",
       h1: "Mapa del sitio",
@@ -1198,12 +1256,29 @@ function corePage(kind) {
       ],
     ],
     method: [
-      ["Diagnóstico", "Revisión de nivel, objetivo, fecha, temario y tipo de examen."],
-      ["Plan", "Bloques semanales con prioridad, práctica y evidencia de progreso."],
-      ["Clase y material", "Explicación, práctica guiada y material conectado con el objetivo."],
+      [
+        "Diagnóstico",
+        "Antes de proponer clases se revisan nivel, asignatura, fecha, temario, materiales y tipo de examen. El objetivo es detectar el cuello de botella real.",
+      ],
+      [
+        "Plan",
+        "El trabajo se ordena en bloques semanales. Cada bloque tiene una prioridad, una práctica y una evidencia de progreso.",
+      ],
+      [
+        "Clase y material",
+        "La sesión combina explicación, resolución guiada y práctica. El material se adapta al objetivo, evitando recursos genéricos sin conexión con el examen.",
+      ],
       [
         "Seguimiento",
-        "Ajustes cuando aparecen errores repetidos, retrasos o cambios de calendario.",
+        "El plan se revisa cuando aparecen errores repetidos, retrasos o cambios de calendario. La personalización ocurre durante todo el proceso.",
+      ],
+      [
+        "Qué debe aportar el alumno",
+        "Temario, fechas, materiales de clase y ejemplos de errores recientes permiten priorizar la base que conviene reforzar y los problemas que deben entrenarse primero.",
+      ],
+      [
+        "Cómo medimos el progreso",
+        "Se observa si el alumno puede explicar el procedimiento, elegir un método sin copiar una solución modelo y detectar sus propios errores antes de una evaluación.",
       ],
     ],
     contact: [
@@ -1218,8 +1293,8 @@ function corePage(kind) {
   const sections = sectionMap[kind]
     .map(([title, text], index) => coreSectionHtml(title, text, index))
     .join("");
-  const jsonLd =
-    kind === "about"
+  const jsonLd = [
+    ...(kind === "about"
       ? [
           {
             "@context": "https://schema.org",
@@ -1234,7 +1309,12 @@ function corePage(kind) {
             url: absoluteUrl(page.path),
           },
         ]
-      : [];
+      : []),
+    breadcrumbJsonLd([
+      ["Inicio", "/"],
+      [page.h1, page.path],
+    ]),
+  ];
   return {
     ...page,
     route: page.path,
@@ -1256,6 +1336,7 @@ function notFoundPage() {
       "La página solicitada no existe. Vuelve al inicio, consulta el blog o contacta con Método Nebula.",
     route: "/404/",
     robots: "noindex,follow",
+    canonical: false,
     body: shell({
       label: "404",
       h1: "Página no encontrada",
@@ -1356,7 +1437,23 @@ function writeRss(posts) {
 function copyStaticFiles() {
   fs.writeFileSync(path.join(DIST, "CNAME"), "metodonebula.es\n");
   fs.writeFileSync(path.join(DIST, ".nojekyll"), "");
-  fs.writeFileSync(path.join(DIST, "_redirects"), "/* /index.html 200\n");
+}
+
+function writeOutputManifest() {
+  const files = [];
+  const visit = (directory) => {
+    for (const entry of fs.readdirSync(directory, { withFileTypes: true })) {
+      const filePath = path.join(directory, entry.name);
+      if (entry.isDirectory()) visit(filePath);
+      else files.push(path.relative(DIST, filePath).replace(/\\/g, "/"));
+    }
+  };
+  visit(DIST);
+  files.push(".static-output-manifest");
+  fs.writeFileSync(
+    path.join(DIST, ".static-output-manifest"),
+    `${[...new Set(files)].sort().join("\n")}\n`,
+  );
 }
 
 const templatePath = path.join(DIST, "index.html");
@@ -1394,6 +1491,7 @@ writeSitemap(pages);
 writeRobots();
 writeRss(posts);
 copyStaticFiles();
+writeOutputManifest();
 
 console.log(
   `Generated ${pages.length} static pages, sitemap.xml, rss.xml, robots.txt and 404.html.`,

@@ -648,6 +648,14 @@ export function MethodologyPage() {
             title: "4. Seguimiento",
             text: "El plan se revisa cuando aparecen errores repetidos, retrasos o cambios de calendario. La personalización ocurre durante todo el proceso.",
           },
+          {
+            title: "5. Qué debe aportar el alumno",
+            text: "Temario, fechas, materiales de clase y ejemplos de errores recientes permiten priorizar la base que conviene reforzar y los problemas que deben entrenarse primero.",
+          },
+          {
+            title: "6. Cómo medimos el progreso",
+            text: "Se observa si el alumno puede explicar el procedimiento, elegir un método sin copiar una solución modelo y detectar sus propios errores antes de una evaluación.",
+          },
         ]}
       />
     </PageShell>
@@ -866,6 +874,7 @@ export function NotFoundPage() {
       "La página solicitada no existe. Vuelve al inicio, consulta el blog o contacta con Método Nebula.",
     path: "/404/",
     robots: "noindex,follow",
+    canonical: false,
   });
   return (
     <div className="min-h-screen bg-background text-foreground antialiased">

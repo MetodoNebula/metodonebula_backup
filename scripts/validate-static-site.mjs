@@ -43,6 +43,16 @@ function findFilesByExtension(dir, extension) {
   return out;
 }
 
+function findAllFiles(dir) {
+  const out = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const filePath = path.join(dir, entry.name);
+    if (entry.isDirectory()) out.push(...findAllFiles(filePath));
+    else out.push(filePath);
+  }
+  return out;
+}
+
 function getFirst(pattern, html) {
   return pattern.exec(html)?.[1]?.trim() ?? "";
 }
@@ -101,14 +111,52 @@ for (const file of htmlFiles) {
     /<meta\s+name=["']twitter:card["']\s+content=["']([^"']+)["'][^>]*>/i,
     html,
   );
+  const titleCount = (html.match(/<title>[\s\S]*?<\/title>/gi) ?? []).length;
+  const descriptionCount = (html.match(/<meta\s+name=["']description["'][^>]*>/gi) ?? []).length;
+  const canonicalCount = (html.match(/<link\s+rel=["']canonical["'][^>]*>/gi) ?? []).length;
+  const robotsCount = (html.match(/<meta\s+name=["']robots["'][^>]*>/gi) ?? []).length;
+  const htmlLang = getFirst(/<html\s+[^>]*lang=["']([^"']+)["']/i, html);
+  const hasVisibleBreadcrumbs = /<nav\s+[^>]*aria-label=["']Migas de pan["']/i.test(html);
+  const hasBreadcrumbJsonLd = /"@type":"BreadcrumbList"/.test(html);
 
   if (!title) fail(`${relative}: missing title`);
   if (!description) fail(`${relative}: missing meta description`);
+  if (titleCount !== 1) fail(`${relative}: expected exactly one title, found ${titleCount}`);
+  if (descriptionCount !== 1) {
+    fail(`${relative}: expected exactly one meta description, found ${descriptionCount}`);
+  }
+  if (robotsCount !== 1)
+    fail(`${relative}: expected exactly one robots meta, found ${robotsCount}`);
+  if (htmlLang !== SITE_DATA.site.language) {
+    fail(`${relative}: expected html lang="${SITE_DATA.site.language}", found "${htmlLang}"`);
+  }
+  if (!/<meta\s+name=["']viewport["'][^>]*>/i.test(html)) {
+    fail(`${relative}: missing viewport meta`);
+  }
+  if (!/<link\s+rel=["']icon["'][^>]*href=["']\/favicon\.svg["']/i.test(html)) {
+    fail(`${relative}: missing favicon link`);
+  }
   if (
     !is404 &&
     canonical !== `${SITE_URL}${withTrailingSlash(route) === "/" ? "/" : withTrailingSlash(route)}`
   ) {
     fail(`${relative}: canonical mismatch (${canonical})`);
+  }
+  if (!is404 && canonicalCount !== 1) {
+    fail(`${relative}: expected exactly one canonical, found ${canonicalCount}`);
+  }
+  if (is404) {
+    if (!/noindex/i.test(robots)) fail(`${relative}: 404 must use noindex`);
+    if (canonicalCount !== 0) fail(`${relative}: 404 must not include a canonical`);
+  } else if (/noindex/i.test(robots)) {
+    fail(`${relative}: indexable page contains noindex`);
+  }
+  if (route === "/") {
+    if (hasVisibleBreadcrumbs || hasBreadcrumbJsonLd) {
+      fail(`${relative}: home page must not include breadcrumbs`);
+    }
+  } else if (!is404 && (!hasVisibleBreadcrumbs || !hasBreadcrumbJsonLd)) {
+    fail(`${relative}: internal page requires visible and structured breadcrumbs`);
   }
   if (h1Count !== 1) fail(`${relative}: expected exactly one H1, found ${h1Count}`);
   if (!is404) {
@@ -133,6 +181,22 @@ for (const file of htmlFiles) {
     }
     if (!match[0].includes("max-h-[420px]") || !match[0].includes("object-contain")) {
       fail(`${relative}: LaTeX graph ${match[1]} is missing size-safe image classes`);
+    }
+  }
+
+  for (const match of html.matchAll(/<img\s+[^>]*>/gi)) {
+    if (!/\salt=["'][^"']*["']/i.test(match[0])) {
+      fail(`${relative}: image is missing alt`);
+    }
+    if (!/\swidth=["']?\d+/i.test(match[0]) || !/\sheight=["']?\d+/i.test(match[0])) {
+      fail(`${relative}: image is missing intrinsic width/height`);
+    }
+  }
+
+  for (const match of html.matchAll(/<a\s+[^>]*target=["']_blank["'][^>]*>/gi)) {
+    const rel = getFirst(/\srel=["']([^"']+)["']/i, match[0]).split(/\s+/);
+    if (!rel.includes("noopener") || !rel.includes("noreferrer")) {
+      fail(`${relative}: target="_blank" link is missing noopener noreferrer`);
     }
   }
 
@@ -195,6 +259,11 @@ for (const file of htmlFiles) {
       fail(`${relative}: broken internal link ${target}`);
     }
   }
+
+  if (ogImage.startsWith(SITE_URL)) {
+    const ogImagePath = path.join(DIST, new URL(ogImage).pathname.replace(/^\//, ""));
+    if (!fs.existsSync(ogImagePath)) fail(`${relative}: missing local Open Graph image ${ogImage}`);
+  }
 }
 
 for (const route of generatedRoutes) {
@@ -236,6 +305,15 @@ if (!fs.existsSync(sitemapPath)) {
     const route = withTrailingSlash(routeFromUrl(match[1]));
     if (!generatedRoutes.has(route)) fail(`sitemap loc has no generated file: ${match[1]}`);
   }
+  if (sitemapUrls.size !== [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].length) {
+    fail("sitemap contains duplicate URLs");
+  }
+  for (const block of sitemap.matchAll(/<url>([\s\S]*?)<\/url>/g)) {
+    const lastmod = getFirst(/<lastmod>([^<]+)<\/lastmod>/i, block[1]);
+    if (lastmod && !/^\d{4}-\d{2}-\d{2}$/.test(lastmod)) {
+      fail(`sitemap contains invalid lastmod: ${lastmod}`);
+    }
+  }
   for (const canonical of indexableCanonicals) {
     if (!sitemapUrls.has(canonical)) fail(`canonical URL missing from sitemap: ${canonical}`);
   }
@@ -244,8 +322,51 @@ if (!fs.existsSync(sitemapPath)) {
   }
 }
 
-for (const required of ["CNAME", ".nojekyll", "robots.txt", "rss.xml", "404.html"]) {
+for (const required of [
+  "CNAME",
+  ".nojekyll",
+  ".static-output-manifest",
+  "robots.txt",
+  "rss.xml",
+  "404.html",
+  "og-nebula.png",
+]) {
   if (!fs.existsSync(path.join(DIST, required))) fail(`missing ${required}`);
+}
+
+const robotsPath = path.join(DIST, "robots.txt");
+if (fs.existsSync(robotsPath)) {
+  const robots = fs.readFileSync(robotsPath, "utf8");
+  if (!/^User-agent:\s*\*\s*$/im.test(robots) || !/^Allow:\s*\/\s*$/im.test(robots)) {
+    fail("robots.txt does not explicitly allow crawling");
+  }
+  if (/^Disallow:/im.test(robots)) fail("robots.txt contains an unexpected Disallow rule");
+  if (!robots.includes(`Sitemap: ${SITE_URL}/sitemap.xml`)) {
+    fail("robots.txt is missing the canonical sitemap URL");
+  }
+}
+
+const cnamePath = path.join(DIST, "CNAME");
+if (fs.existsSync(cnamePath) && fs.readFileSync(cnamePath, "utf8").trim() !== "metodonebula.es") {
+  fail("CNAME does not contain the canonical domain");
+}
+
+if (fs.existsSync(path.join(DIST, "_redirects"))) {
+  fail("unexpected _redirects fallback could create soft 404 responses");
+}
+
+const manifestPath = path.join(DIST, ".static-output-manifest");
+if (fs.existsSync(manifestPath)) {
+  const manifestEntries = fs.readFileSync(manifestPath, "utf8").split(/\r?\n/).filter(Boolean);
+  const actualFiles = findAllFiles(DIST)
+    .map((file) => path.relative(DIST, file).replace(/\\/g, "/"))
+    .sort();
+  if (manifestEntries.some((entry) => entry.startsWith("/") || entry.includes(".."))) {
+    fail("static output manifest contains an unsafe path");
+  }
+  if (manifestEntries.join("\n") !== actualFiles.join("\n")) {
+    fail("static output manifest does not exactly match dist");
+  }
 }
 
 if (failures.length) {

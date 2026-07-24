@@ -46,7 +46,14 @@ function isLatexGraph(src: string): boolean {
   return src.startsWith("/assets/latex/") && src.endsWith(".svg");
 }
 
+const LATEX_GRAPH_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  "/assets/latex/derivative-tangent.svg": { width: 202, height: 126 },
+  "/assets/latex/integral-area.svg": { width: 198, height: 120 },
+  "/assets/latex/quadratic-optimization.svg": { width: 228, height: 224 },
+};
+
 function MarkdownImage({ src, alt }: { src: string; alt: string }) {
+  const dimensions = LATEX_GRAPH_DIMENSIONS[src];
   if (isLatexGraph(src)) {
     return (
       <figure
@@ -56,6 +63,8 @@ function MarkdownImage({ src, alt }: { src: string; alt: string }) {
         <img
           src={src}
           alt={alt}
+          width={dimensions?.width}
+          height={dimensions?.height}
           loading="lazy"
           className="mx-auto max-h-[420px] w-full object-contain"
         />
@@ -106,7 +115,7 @@ function renderInline(text: string): ReactNode[] {
           key={i}
           href={href}
           className="font-medium text-link underline underline-offset-4 transition-colors hover:text-link"
-          {...(external ? { target: "_blank", rel: "noreferrer" } : {})}
+          {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
         >
           {parts[1]}
         </a>,

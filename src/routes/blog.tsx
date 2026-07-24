@@ -593,7 +593,7 @@ function PostView({ post }: { post: Post }) {
                 <a
                   href={siteData.site.author.profileUrl}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className="text-link underline-offset-4 hover:underline"
                 >
                   Ver perfil profesional

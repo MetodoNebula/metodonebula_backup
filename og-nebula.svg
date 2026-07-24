@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Método Nebula</title>
+  <desc id="desc">Clases particulares online y formación técnica</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061426"/>
+      <stop offset="1" stop-color="#0A1F38"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="75%" cy="10%" r="65%">
+      <stop offset="0" stop-color="#168BFF" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#168BFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <circle cx="115" cy="118" r="42" fill="none" stroke="#56B4FF" stroke-width="4"/>
+  <circle cx="115" cy="118" r="9" fill="#168BFF"/>
+  <circle cx="145" cy="91" r="5" fill="#D6B15E"/>
+  <text x="180" y="135" fill="#F7FAFF" font-family="Arial, sans-serif" font-size="48" font-weight="700">Método Nebula</text>
+  <text x="78" y="300" fill="#F7FAFF" font-family="Arial, sans-serif" font-size="62" font-weight="700">Clases particulares online</text>
+  <text x="78" y="382" fill="#56B4FF" font-family="Arial, sans-serif" font-size="44">Matemáticas · Física · Estadística · Programación</text>
+  <text x="78" y="505" fill="#C8D5E5" font-family="Arial, sans-serif" font-size="28">Diagnóstico · Plan personalizado · Seguimiento</text>
+  <rect x="78" y="556" width="250" height="5" rx="2.5" fill="#D6B15E"/>
+</svg>

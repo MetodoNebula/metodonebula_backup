@@ -89,6 +89,7 @@ const NAV_LINKS = [
   { href: "/", label: "Inicio" },
   { href: "/clases-particulares/", label: "Clases" },
   { href: "/preparacion-examenes/", label: "Exámenes" },
+  { href: "/tfg-tfm/", label: "TFG/TFM" },
   { href: "/formacion-it/", label: "Formación IT" },
   { href: "/metodologia/", label: "Método" },
   { href: "/blog/", label: "Blog" },
@@ -133,7 +134,7 @@ export function Navbar() {
           <NebulaLogo className="h-7 w-7" />
           <span className="font-display text-lg font-semibold tracking-tight">Método Nebula</span>
         </Link>
-        <nav className="hidden items-center gap-8 lg:flex">
+        <nav className="hidden items-center gap-6 lg:flex">
           {NAV_LINKS.map((l) => (
             <Link
               key={l.href}
@@ -213,6 +214,7 @@ export function Footer() {
                 ["/metodologia/", "Método"],
                 ["/clases-particulares/", "Clases particulares"],
                 ["/preparacion-examenes/", "Preparación de exámenes"],
+                ["/tfg-tfm/", "Acompañamiento TFG/TFM"],
                 ["/formacion-it/", "Formación IT"],
                 ["/sobre-nebula/", "Sobre Nebula"],
                 ["/blog/", "Blog"],
@@ -239,6 +241,11 @@ export function Footer() {
               <li>
                 <Link to="/clases-particulares/estadistica-psicologia-ade/" className="text-link">
                   Estadística aplicada
+                </Link>
+              </li>
+              <li>
+                <Link to="/tfg-tfm/" className="text-link">
+                  TFG/TFM: elaboración y defensa
                 </Link>
               </li>
               <li>

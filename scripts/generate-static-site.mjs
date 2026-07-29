@@ -1121,7 +1121,7 @@ function servicePage(page, posts) {
       ]),
     ],
     body: shell({
-      label: "Servicio",
+      label: page.heroLabel ?? "Servicio",
       h1: page.h1,
       intro: page.audience,
       breadcrumbs: [
@@ -1132,11 +1132,11 @@ function servicePage(page, posts) {
         { label: page.h1, href: page.path },
       ],
       children: `
-        <h2>Problemas habituales</h2>${cardList(page.problems)}
-        <h2>Bloques que podemos trabajar</h2>${cardList(page.topics)}
-        <h2>Cómo funciona el método</h2>${cardList(page.method, true)}
-        ${page.modality ? `<h2>Modalidad online</h2><p>${escapeHtml(page.modality)}</p>` : ""}
-        ${page.sessionStructure ? `<h2>Cómo se organiza una sesión</h2>${cardList(page.sessionStructure, true)}` : ""}
+        <h2>${escapeHtml(page.problemsHeading ?? "Problemas habituales")}</h2>${cardList(page.problems)}
+        <h2>${escapeHtml(page.topicsHeading ?? "Bloques que podemos trabajar")}</h2>${cardList(page.topics)}
+        <h2>${escapeHtml(page.methodHeading ?? "Cómo funciona el método")}</h2>${cardList(page.method, true)}
+        ${page.modality ? `<h2>${escapeHtml(page.modalityHeading ?? "Modalidad online")}</h2><p>${escapeHtml(page.modality)}</p>` : ""}
+        ${page.sessionStructure ? `<h2>${escapeHtml(page.sessionHeading ?? "Cómo se organiza una sesión")}</h2>${cardList(page.sessionStructure, true)}` : ""}
         <h2>Qué diferencia este acompañamiento</h2><p>${escapeHtml(page.differentiator)}</p>
         <h2>Qué debe aportar el alumno</h2><p>${escapeHtml(page.studentInput)}</p>
         <h2>Resultados razonables</h2><p>${escapeHtml(page.reasonableOutcomes)}</p>
@@ -1160,7 +1160,7 @@ function servicePage(page, posts) {
             : ""
         }
         <h2>Siguiente paso</h2><p>${escapeHtml(page.nextStep)}</p>
-        <p><a href="/contacto/">Solicitar diagnóstico</a></p>
+        <p><a href="/contacto/">${escapeHtml(page.ctaLabel ?? "Solicitar diagnóstico")}</a></p>
       `,
     }),
   };

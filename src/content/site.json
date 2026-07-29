@@ -280,6 +280,93 @@
   },
   "servicePages": [
     {
+      "path": "/tfg-tfm/",
+      "parentPath": "/clases-particulares/",
+      "parentLabel": "Clases particulares",
+      "title": "Acompañamiento para TFG y TFM: elaboración, revisión y defensa | Método Nebula",
+      "description": "Acompañamiento profesional para TFG y TFM con calendario inverso, revisión por hitos, apoyo metodológico y preparación de la defensa, respetando la autoría del alumno.",
+      "h1": "Tu TFG o TFM, acompañado desde la primera decisión hasta la defensa",
+      "heroLabel": "TFG / TFM",
+      "audience": "Una entrega importante no debería depender de noches en blanco, correcciones de última hora o la duda constante de si vas por el camino correcto. Construimos contigo un proceso claro, exigente y realista para que llegues a la entrega con el trabajo revisado y a la defensa con seguridad.",
+      "problemsHeading": "Cuando una entrega importante empieza a desbordarse",
+      "problems": [
+        "Tienes una fecha de entrega, pero todavía no un calendario que convierta el trabajo en hitos semanales.",
+        "El tema es demasiado amplio, la pregunta no termina de cerrarse o cada búsqueda abre un camino nuevo.",
+        "Avanzas durante horas sin saber si la estructura, la metodología o el análisis responden realmente al objetivo.",
+        "Las revisiones del tutor se acumulan y temes descubrir demasiado tarde un problema difícil de corregir.",
+        "La redacción, las referencias y el formato consumen el tiempo que deberías reservar para pensar y revisar.",
+        "Imaginar la defensa te bloquea porque aún no sabes explicar en pocos minutos qué has hecho, por qué y con qué límites."
+      ],
+      "topicsHeading": "Acompañamiento de principio a fin",
+      "topics": [
+        "Delimitación del tema, pregunta y objetivos",
+        "Índice de trabajo y arquitectura del documento",
+        "Búsqueda bibliográfica y sistema de referencias",
+        "Diseño metodológico y plan de análisis",
+        "Revisión argumental, técnica y de claridad",
+        "Control de formato, anexos y requisitos de entrega",
+        "Presentación visual de la defensa",
+        "Ensayo de preguntas, tiempos y respuestas"
+      ],
+      "methodHeading": "Un calendario que protege la fecha de entrega",
+      "method": [
+        "Diagnóstico de situación: revisamos normativa, rúbrica, fecha, material disponible, avances y bloqueos reales.",
+        "Calendario inverso: partimos de la entrega y reservamos margen para revisión final; después fijamos hitos semanales alcanzables.",
+        "Elaboración por entregables: cada etapa termina en una evidencia concreta —pregunta cerrada, índice validable, capítulo, análisis o versión completa—.",
+        "Revisión con prioridades: se corrige primero lo que compromete el trabajo; después, coherencia, argumentación, redacción, referencias y forma.",
+        "Control de progreso: si un hito se retrasa, reajustamos alcance y tareas antes de que el retraso alcance la fecha de entrega.",
+        "Preparación de la defensa: convertimos el documento en una exposición clara, ensayamos tiempos y entrenamos preguntas difíciles."
+      ],
+      "modalityHeading": "Acompañamiento profesional, sin perder tu autoría",
+      "modality": "Las sesiones son online e individuales. Trabajamos sobre tu documento, la normativa de tu universidad y los comentarios de tu tutor. Tú investigas, decides y redactas; el acompañamiento aporta estructura, criterio, explicación y revisión. No se escribe ni se realiza el trabajo en nombre del alumno.",
+      "sessionHeading": "Qué ocurre en cada revisión",
+      "sessionStructure": [
+        "Comprobamos el hito anterior y localizamos el bloqueo que más riesgo crea para la entrega.",
+        "Revisamos decisiones, estructura o fragmentos concretos con feedback priorizado y comprensible.",
+        "Resolvemos la parte metodológica, técnica o argumental que necesitas poder justificar por ti mismo.",
+        "Cerramos con el siguiente entregable, su criterio de calidad y una fecha dentro del calendario."
+      ],
+      "profile": "El acompañamiento combina experiencia docente, formación matemática y tecnológica y criterio para convertir proyectos complejos en decisiones concretas. Cuando el trabajo incluye estadística, programación o análisis de datos, se revisa también la lógica del método y la interpretación de resultados.",
+      "differentiator": "No se trata de añadir más correcciones a una lista interminable. Cada revisión tiene una prioridad, un porqué y un lugar dentro del calendario. El objetivo es que mantengas el control del proyecto, puedas defender tus decisiones y llegues a la entrega sin depender de una carrera final.",
+      "studentInput": "Normativa y rúbrica, fecha de entrega y defensa, indicaciones del tutor, propuesta o documento actual, bibliografía reunida y disponibilidad semanal real. Si hay datos, deben compartirse anonimizados cuando corresponda.",
+      "reasonableOutcomes": "Un alcance más realista, avances visibles semana a semana, menos retrabajo, un documento más coherente y una defensa mejor preparada. La calificación depende del trabajo del alumno, de los criterios del centro y del tribunal; no se garantiza una nota concreta.",
+      "nextStep": "Cuéntanos tu titulación, tema, fecha de entrega, estado actual y principal bloqueo. Con esa información valoramos el margen real y planteamos el primer calendario de hitos.",
+      "diagnosisHeading": "Revisemos tu fecha y tu punto de partida",
+      "ctaLabel": "Solicitar diagnóstico de mi TFG/TFM",
+      "faq": [
+        {
+          "q": "¿Podéis ayudarme si ya voy tarde?",
+          "a": "Sí, siempre que el diagnóstico confirme un alcance viable. Se prioriza lo imprescindible, se reduce retrabajo y se crea un calendario de recuperación honesto, sin prometer plazos imposibles."
+        },
+        {
+          "q": "¿Hacéis o redactáis el TFG/TFM por el alumno?",
+          "a": "No. El trabajo, las decisiones y la redacción son del estudiante. Se ofrece orientación, explicación, revisión y preparación para que pueda justificar y defender lo que entrega."
+        },
+        {
+          "q": "¿Podéis revisar metodología, estadística o análisis de datos?",
+          "a": "Sí, cuando el alcance encaja. Se revisan la coherencia entre pregunta, diseño, variables, técnica, supuestos e interpretación, y se explica cada decisión para que el alumno pueda defenderla."
+        },
+        {
+          "q": "¿También preparáis la presentación y la defensa?",
+          "a": "Sí. Se trabaja la selección de mensajes, la estructura de diapositivas, el tiempo, la explicación de resultados, las limitaciones y un ensayo con preguntas probables."
+        },
+        {
+          "q": "¿Cuándo conviene empezar el acompañamiento?",
+          "a": "Cuanto antes exista tema y fecha, más margen habrá para decidir bien. Aun así, también se puede intervenir en fases avanzadas para ordenar revisiones, cerrar el documento y preparar la defensa."
+        }
+      ],
+      "relatedPosts": [
+        "que-prueba-estadistica-utilizar-guia-test-correcto",
+        "regresion-lineal-anova-cuando-utilizar-interpretar-resultados",
+        "r-spss-jamovi-python-programa-estadistico-universidad"
+      ],
+      "relatedServices": [
+        "/clases-particulares/estadistica-psicologia-ade/",
+        "/clases-particulares/programacion-universidad/"
+      ],
+      "priority": "0.9"
+    },
+    {
       "path": "/clases-particulares/matematicas-universidad/",
       "title": "Clases particulares de Matemáticas desde ESO hasta Universidad | Método Nebula",
       "description": "Clases de matemáticas para ESO, Bachillerato, Selectividad y Universidad: base, problemas, Cálculo, Álgebra y asignaturas cuantitativas.",

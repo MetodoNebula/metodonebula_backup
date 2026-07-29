@@ -344,7 +344,7 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
         }}
       />
       <PageHero
-        label="Servicio"
+        label={page.heroLabel ?? "Servicio"}
         page={{ h1: page.h1, intro: page.audience }}
         breadcrumbs={[
           { label: parentLabel, href: parentPath },
@@ -354,18 +354,30 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
       <section className="py-16 md:py-20">
         <div className="mx-auto grid max-w-7xl gap-10 px-6 lg:grid-cols-[1fr_0.75fr]">
           <div className="space-y-10">
-            <ContentBlock title="Problemas habituales" items={page.problems} />
-            <ContentBlock title="Bloques que podemos trabajar" items={page.topics} />
-            <ContentBlock title="Cómo funciona el método" items={page.method} ordered />
+            <ContentBlock
+              title={page.problemsHeading ?? "Problemas habituales"}
+              items={page.problems}
+            />
+            <ContentBlock
+              title={page.topicsHeading ?? "Bloques que podemos trabajar"}
+              items={page.topics}
+            />
+            <ContentBlock
+              title={page.methodHeading ?? "Cómo funciona el método"}
+              items={page.method}
+              ordered
+            />
             {page.modality && (
               <section>
-                <AccentHeading className="text-2xl">Modalidad online</AccentHeading>
+                <AccentHeading className="text-2xl">
+                  {page.modalityHeading ?? "Modalidad online"}
+                </AccentHeading>
                 <p className="mt-3 leading-relaxed text-muted-foreground">{page.modality}</p>
               </section>
             )}
             {page.sessionStructure && (
               <ContentBlock
-                title="Cómo se organiza una sesión"
+                title={page.sessionHeading ?? "Cómo se organiza una sesión"}
                 items={page.sessionStructure}
                 ordered
               />
@@ -418,10 +430,12 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
           </div>
           <aside className="space-y-5">
             <div className="nebula-card rounded-3xl p-6">
-              <AccentHeading className="text-xl">Diagnóstico inicial</AccentHeading>
+              <AccentHeading className="text-xl">
+                {page.diagnosisHeading ?? "Diagnóstico inicial"}
+              </AccentHeading>
               <p className="mt-3 text-sm text-muted-foreground">{page.nextStep}</p>
               <PrimaryCTA href="/contacto/" className="mt-5 w-full">
-                Solicitar diagnóstico inicial
+                {page.ctaLabel ?? "Solicitar diagnóstico inicial"}
               </PrimaryCTA>
             </div>
             {relatedPosts.length > 0 && (

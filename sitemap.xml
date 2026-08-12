@@ -21,6 +21,10 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pagina/5/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/</loc>
     <priority>0.6</priority>
   </url>
@@ -61,8 +65,20 @@
     <lastmod>2026-08-12</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/integral-definida-e-indefinida-diferencias-ejemplos/</loc>
+    <lastmod>2026-08-10</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/area-entre-dos-curvas-ejercicios-resueltos/</loc>
+    <lastmod>2026-08-08</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/integracion-por-partes-formula-ejercicios-resueltos/</loc>
     <lastmod>2026-08-06</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/integrales-funciones-racionales-fracciones-parciales/</loc>
+    <lastmod>2026-08-03</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/metodos-de-integracion-como-elegir/</loc>

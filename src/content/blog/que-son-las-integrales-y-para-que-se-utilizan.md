@@ -6,7 +6,7 @@ description: Una explicación práctica de las integrales como acumulación, ár
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: metodos-de-integracion-como-elegir,integracion-por-sustitucion-cambio-variable-ejercicios,integracion-por-partes-formula-ejercicios-resueltos
+relatedPosts: integral-definida-e-indefinida-diferencias-ejemplos,area-entre-dos-curvas-ejercicios-resueltos,metodos-de-integracion-como-elegir
 image: /favicon.svg
 ---
 
@@ -100,6 +100,6 @@ Antes de resolver, pregúntate:
 
 Cuando entiendes la integral como acumulación, las técnicas de cálculo dejan de parecer recetas sueltas y empiezan a tener sentido.
 
-El paso siguiente es aprender a reconocer la estructura del integrando. La guía de [métodos de integración y elección de técnica](/blog/metodos-de-integracion-como-elegir/) organiza ese diagnóstico; después puedes profundizar en [integración por sustitución](/blog/integracion-por-sustitucion-cambio-variable-ejercicios/) y en [integración por partes](/blog/integracion-por-partes-formula-ejercicios-resueltos/) con ejercicios completos.
+El paso siguiente es distinguir con claridad la [integral definida de la indefinida](/blog/integral-definida-e-indefinida-diferencias-ejemplos/) y aprender a reconocer la estructura del integrando. La guía de [métodos de integración y elección de técnica](/blog/metodos-de-integracion-como-elegir/) organiza ese diagnóstico; después puedes profundizar en [fracciones parciales](/blog/integrales-funciones-racionales-fracciones-parciales/) y aplicar la integral definida al [área entre dos curvas](/blog/area-entre-dos-curvas-ejercicios-resueltos/).
 
 Puedes leer también [qué son las derivadas y para qué se utilizan](/blog/que-son-las-derivadas-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).

@@ -47,6 +47,7 @@ function isLatexGraph(src: string): boolean {
 }
 
 const LATEX_GRAPH_DIMENSIONS: Record<string, { width: number; height: number }> = {
+  "/assets/latex/area-between-curves.svg": { width: 720, height: 420 },
   "/assets/latex/derivative-tangent.svg": { width: 202, height: 126 },
   "/assets/latex/integral-area.svg": { width: 198, height: 120 },
   "/assets/latex/quadratic-optimization.svg": { width: 228, height: 224 },

@@ -264,12 +264,12 @@ Si estás preparando circuitos dentro de Física I o Electricidad, puedes revisa
 `,l=`---
 title: Cómo aprobar Cálculo I en primero de Ingeniería: plan de estudio de seis semanas
 date: 2026-06-13
-updated: 2026-06-13
+updated: 2026-08-12
 description: Plan de seis semanas para aprobar Cálculo I en Ingeniería: límites, derivadas, integrales, práctica y simulacros de examen.
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: que-son-las-derivadas-y-para-que-se-utilizan,que-son-las-integrales-y-para-que-se-utilizan,derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos
+relatedPosts: metodos-de-integracion-como-elegir,que-son-las-derivadas-y-para-que-se-utilizan,derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos
 image: /favicon.svg
 ---
 
@@ -363,6 +363,8 @@ $$
 $$
 
 La clave está en ver la derivada de la función interna. Si no buscas esa relación, el cambio parece magia.
+
+Para entrenar esa decisión, utiliza primero la [guía para elegir métodos de integración](/blog/metodos-de-integracion-como-elegir/). Cuando el patrón esté claro, trabaja por separado los ejercicios de [cambio de variable](/blog/integracion-por-sustitucion-cambio-variable-ejercicios/) y de [integración por partes](/blog/integracion-por-partes-formula-ejercicios-resueltos/).
 
 ## Semana 5: temas finales y mezcla
 
@@ -857,7 +859,7 @@ La gráfica resume la idea: primero se construye la función, después se estudi
 Elige un ejercicio que te salió mal y aplícale las cuatro fases. No busques hacer veinte problemas. Haz uno solo, pero de verdad: explica cada paso, cambia un dato y revisa si el método sigue funcionando.
 
 Si el bloqueo aparece en matemáticas de ESO, Bachillerato, Cálculo, Álgebra, Ecuaciones Diferenciales u otra asignatura cuantitativa, revisa la página de [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/) o [cuéntanos tu caso](/contacto/) para plantear un diagnóstico.
-`,b=`---
+`,x=`---
 title: Cómo preparar IB Mathematics AA y AI: estrategia para estudiar y practicar
 date: 2026-07-21
 updated: 2026-07-21
@@ -908,7 +910,7 @@ No dejes los past papers para el final. Empieza separando preguntas por tema, co
 Si el tiempo es el problema, no aceleres a ciegas. Observa en qué te detienes: leer, decidir el método, operar o redactar. Cada atasco se entrena de manera distinta.
 
 Para organizar el trabajo de varias asignaturas, consulta la guía sobre [IB y GCSE con rúbrica y calendario](/blog/ib-gcse-como-preparar-examenes-internacionales/). Si quieres transformar tu programa y tus preguntas de práctica en un plan concreto, puedes ver las [clases particulares para IB y GCSE](/clases-particulares/gcse-ib/) o [contactar con Nebula](/contacto/).
-`,v=`---
+`,b=`---
 title: Cómo preparar Matemáticas II para la PAU: qué practicar y cómo corregir
 date: 2026-07-21
 updated: 2026-07-21
@@ -974,15 +976,15 @@ En las tres semanas previas, alterna tres días de bloques débiles, dos días d
 La señal de que avanzas no es que el examen “te suene”. Es que puedes decidir el método, ejecutar los pasos sin depender de una solución y explicar dónde comprobarías un resultado.
 
 Para planificar la preparación general, consulta [cómo organizar la Selectividad con un calendario](/blog/preparar-selectividad-con-calendario/). Si necesitas convertir tus modelos de PAU en un plan de trabajo y corrección adaptado a tu punto de partida, revisa las [clases particulares para Selectividad y PAU](/clases-particulares/selectividad/) o [cuéntanos tu caso](/contacto/).
-`,f=`---
+`,v=`---
 title: Derivadas e integrales universitarias: prueba de nivel con ejercicios resueltos
 date: 2026-06-23
-updated: 2026-06-23
+updated: 2026-08-12
 description: Prueba de nivel de derivadas e integrales universitarias con ejercicios resueltos para detectar errores antes del examen de Cálculo.
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: que-son-las-derivadas-y-para-que-se-utilizan,que-son-las-integrales-y-para-que-se-utilizan,como-aprobar-calculo-i-ingenieria-seis-semanas
+relatedPosts: metodos-de-integracion-como-elegir,integracion-por-sustitucion-cambio-variable-ejercicios,integracion-por-partes-formula-ejercicios-resueltos
 image: /favicon.svg
 ---
 
@@ -1092,6 +1094,8 @@ $$
 
 Qué comprueba: elección razonable de \\(u\\). En general, conviene derivar la parte que se simplifica.
 
+Si estos dos ejercicios de integración no salen con seguridad, trabaja la [guía completa de sustitución](/blog/integracion-por-sustitucion-cambio-variable-ejercicios/) y la [guía de integración por partes](/blog/integracion-por-partes-formula-ejercicios-resueltos/). Para aprender a distinguir ambas técnicas de fracciones parciales, identidades trigonométricas y formas inmediatas, consulta [cómo elegir el método de integración](/blog/metodos-de-integracion-como-elegir/).
+
 ## Ejercicio 5: área bajo una curva
 
 Calcula el área bajo \\(f(x)=2x\\) entre \\(x=0\\) y \\(x=3\\).
@@ -1140,7 +1144,7 @@ Antes de enfrentarte a problemas de Cálculo I deberías poder:
 - Revisar si un resultado tiene sentido por signo, unidades o gráfica.
 
 Para profundizar, puedes leer las guías sobre [qué son las derivadas](/blog/que-son-las-derivadas-y-para-que-se-utilizan/) y [qué son las integrales](/blog/que-son-las-integrales-y-para-que-se-utilizan/). Si quieres un diagnóstico más completo, revisa [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,y=`---
+`,f=`---
 title: Diagramas de cuerpo libre: método paso a paso con errores frecuentes
 date: 2026-07-01
 updated: 2026-07-01
@@ -1410,7 +1414,7 @@ Una buena respuesta incluye:
 6. Cautela sobre causalidad y supuestos.
 
 Para reforzar la base estadística, revisa [Estadística desde cero para elegir contrastes](/blog/estadistica-desde-cero-para-elegir-contrastes/) y [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,q=`---
+`,y=`---
 title: Economía y ADE: cómo estudiar matemáticas sin perder el sentido económico
 date: 2026-05-26
 updated: 2026-05-26
@@ -1478,7 +1482,7 @@ Una buena sesión de repaso debería mezclar:
 Si solo practicas la parte mecánica, el examen puede penalizarte en la explicación. Si solo estudias teoría, el cálculo llega inseguro. La clave está en unir ambas cosas.
 
 Si ese es tu caso, puedes revisar [clases particulares de Economía y ADE](/clases-particulares/economia-ade/) o escribirnos desde [contacto](/contacto/).
-`,x=`---
+`,q=`---
 title: Ecuaciones diferenciales: cómo identificar el método correcto paso a paso
 date: 2026-06-17
 updated: 2026-06-17
@@ -2033,7 +2037,7 @@ Antes de entregar, revisa:
 - La unidad final es correcta.
 
 Para seguir practicando, revisa la guía de [Física y Química: cómo plantear problemas antes de calcular](/blog/fisica-y-quimica-como-plantear-problemas/) o la página de [clases particulares de Química](/clases-particulares/quimica/).
-`,P=`---
+`,j=`---
 title: Física y Química: cómo plantear problemas antes de calcular
 date: 2026-05-23
 updated: 2026-05-23
@@ -2169,6 +2173,1403 @@ Cada semana conviene responder tres preguntas:
 Esta revisión evita estudiar por inercia. En programas internacionales, donde el formato importa mucho, una preparación sin feedback acaba dejando puntos fáciles por el camino.
 
 Para organizar esa preparación puedes ver [clases para GCSE, IGCSE e IB](/clases-particulares/gcse-ib/) o [contactar](/contacto/) para revisar syllabus, fecha y objetivo.
+`,C=`---
+title: Integración por partes: fórmula y ejercicios resueltos
+date: 2026-08-06
+updated: 2026-08-06
+description: Domina la integración por partes: deducción de la fórmula, elección de u y dv, casos repetidos, integrales definidas y ejercicios resueltos.
+tag: Cálculo
+category: Matemáticas universitarias
+relatedService: /clases-particulares/calculo-universitario/
+relatedPosts: metodos-de-integracion-como-elegir,integracion-por-sustitucion-cambio-variable-ejercicios,que-son-las-integrales-y-para-que-se-utilizan
+image: /favicon.svg
+---
+
+La integración por partes transforma una integral \\(\\int u\\,dv\\) en \\(uv-\\int v\\,du\\). Conviene usarla cuando el integrando contiene un producto y **derivar uno de los factores lo simplifica**, mientras el otro se puede integrar. También resuelve integrales de logaritmos y funciones inversas escribiéndolas como un producto por \\(1\\).
+
+La fórmula no decide por sí sola qué parte será \\(u\\) y cuál \\(dv\\). Esa elección es el centro del método: la nueva integral debe ser más sencilla que la original o formar con ella una ecuación que podamos despejar.
+
+## De dónde sale la fórmula
+
+Partimos de la regla de derivación de un producto:
+
+$$
+(uv)'=u'v+uv'.
+$$
+
+Integramos ambos lados respecto de \\(x\\):
+
+$$
+uv=\\int u'v\\,dx+\\int uv'\\,dx.
+$$
+
+Reordenando,
+
+$$
+\\int uv'\\,dx=uv-\\int u'v\\,dx.
+$$
+
+Con la notación diferencial \\(du=u'\\,dx\\) y \\(dv=v'\\,dx\\), obtenemos
+
+$$
+\\boxed{\\int u\\,dv=uv-\\int v\\,du}.
+$$
+
+Por tanto, integración por partes es la regla del producto utilizada al revés. No crea una primitiva de la nada: intercambia un producto por otro que esperamos que sea más fácil.
+
+Para integrales definidas entre \\(a\\) y \\(b\\), la fórmula es
+
+$$
+\\int_a^b u\\,dv=\\left[uv\\right]_a^b-\\int_a^b v\\,du.
+$$
+
+Los límites se mantienen porque no estamos cambiando la variable de integración; estamos reorganizando el producto.
+
+## Cómo elegir u y dv
+
+Una elección eficaz debe cumplir dos condiciones:
+
+1. \\(u\\) se simplifica al derivarlo.
+2. \\(dv\\) tiene una primitiva que podemos calcular sin introducir más dificultad.
+
+La regla mnemotécnica LIATE ordena candidatos para \\(u\\): logarítmicas, inversas trigonométricas, algebraicas, trigonométricas y exponenciales. En español también se usa ILATE. Es una preferencia, no un teorema. Antes de seguirla, comprueba qué ocurre realmente al derivar e integrar.
+
+| Producto | Elección habitual de \\(u\\) | Elección habitual de \\(dv\\) | Motivo |
+| --- | --- | --- | --- |
+| \\(x^n e^{ax}\\) | \\(x^n\\) | \\(e^{ax}dx\\) | El polinomio baja de grado |
+| \\(x^n\\sin(ax)\\) | \\(x^n\\) | \\(\\sin(ax)dx\\) | El polinomio termina desapareciendo |
+| \\(\\ln x\\) | \\(\\ln x\\) | \\(dx\\) | Su derivada es \\(1/x\\) |
+| \\(\\arctan x\\) | \\(\\arctan x\\) | \\(dx\\) | Su derivada es racional |
+| \\(e^{ax}\\cos(bx)\\) | Una de las dos | La otra por \\(dx\\) | Dos aplicaciones devuelven la integral original |
+
+No conviene elegir como \\(dv\\) una expresión cuya primitiva desconocemos. En \\(\\int e^{x^2}x^3\\,dx\\), por ejemplo, tomar \\(dv=e^{x^2}dx\\) bloquea el método porque \\(e^{x^2}\\) no tiene primitiva elemental. Primero habría que usar \\(u=x^2\\) como cambio de variable, no como parte.
+
+## Procedimiento paso a paso
+
+Ante una integral candidata a partes:
+
+1. Escribe el integrando como producto, aunque uno de los factores sea \\(1\\).
+2. Elige \\(u\\) y \\(dv\\).
+3. Calcula \\(du\\) derivando \\(u\\) y \\(v\\) integrando \\(dv\\).
+4. Sustituye en \\(uv-\\int v\\,du\\), sin olvidar el signo menos.
+5. Resuelve la integral restante; si exige partes otra vez, repite con una elección coherente.
+6. Simplifica y añade \\(C\\) una sola vez al final.
+7. Deriva el resultado para comprobarlo.
+
+Si el problema principal es decidir entre partes y otros métodos, consulta antes el [árbol de decisión de métodos de integración](/blog/metodos-de-integracion-como-elegir/).
+
+## Ejemplo 1 — polinomio por exponencial
+
+Calcula
+
+$$
+\\int xe^x\\,dx.
+$$
+
+**Qué nos piden.** Una primitiva del producto de una función algebraica y una exponencial.
+
+**Cómo reconocer el método.** Al derivar \\(x\\) obtenemos \\(1\\); \\(e^x\\) se integra sin cambiar de familia. Elegimos
+
+$$
+u=x, \\qquad dv=e^x\\,dx.
+$$
+
+Entonces
+
+$$
+du=dx, \\qquad v=e^x.
+$$
+
+Aplicamos la fórmula:
+
+$$
+\\begin{aligned}
+\\int xe^x\\,dx
+&=xe^x-\\int e^x\\,dx\\\\
+&=xe^x-e^x+C\\\\
+&=e^x(x-1)+C.
+\\end{aligned}
+$$
+
+**Comprobación.**
+
+$$
+\\frac{d}{dx}\\left[e^x(x-1)\\right]
+=e^x(x-1)+e^x=xe^x.
+$$
+
+La cancelación final confirma el signo de la fórmula.
+
+## Ejemplo 2 — polinomio de grado dos y partes repetidas
+
+Calcula
+
+$$
+\\int x^2e^x\\,dx.
+$$
+
+Elegimos \\(u=x^2\\) y \\(dv=e^x\\,dx\\):
+
+$$
+du=2x\\,dx, \\qquad v=e^x.
+$$
+
+La primera aplicación produce
+
+$$
+\\int x^2e^x\\,dx=x^2e^x-2\\int xe^x\\,dx.
+$$
+
+La integral restante es el ejemplo anterior. Sustituimos su resultado:
+
+$$
+\\begin{aligned}
+\\int x^2e^x\\,dx
+&=x^2e^x-2(xe^x-e^x)+C\\\\
+&=e^x(x^2-2x+2)+C.
+\\end{aligned}
+$$
+
+**Interpretación del proceso.** Cada derivación reduce el grado del polinomio: \\(x^2\\to2x\\to2\\to0\\). Por eso sabemos de antemano que el método terminará.
+
+**Comprobación.**
+
+$$
+\\frac{d}{dx}\\left[e^x(x^2-2x+2)\\right]
+=e^x(x^2-2x+2)+e^x(2x-2)=x^2e^x.
+$$
+
+## Ejemplo 3 — polinomio por seno
+
+Calcula
+
+$$
+\\int x\\sin x\\,dx.
+$$
+
+Tomamos
+
+$$
+u=x, \\quad dv=\\sin x\\,dx, \\quad du=dx, \\quad v=-\\cos x.
+$$
+
+El signo de \\(v\\) es importante:
+
+$$
+\\begin{aligned}
+\\int x\\sin x\\,dx
+&=-x\\cos x-\\int(-\\cos x)\\,dx\\\\
+&=-x\\cos x+\\sin x+C.
+\\end{aligned}
+$$
+
+**Comprobación.** La derivada de \\(-x\\cos x\\) es \\(-\\cos x+x\\sin x\\); al sumar la derivada de \\(\\sin x\\), los cosenos se cancelan.
+
+## Ejemplo 4 — integrar un logaritmo
+
+Calcula
+
+$$
+\\int\\ln x\\,dx, \\qquad x>0.
+$$
+
+**Cómo reconocer el método.** No hay un producto visible, pero podemos escribir \\(\\ln x\\cdot1\\). La derivada del logaritmo es más sencilla.
+
+$$
+u=\\ln x, \\quad dv=dx, \\quad du=\\frac1x\\,dx, \\quad v=x.
+$$
+
+Entonces
+
+$$
+\\begin{aligned}
+\\int\\ln x\\,dx
+&=x\\ln x-\\int x\\frac1x\\,dx\\\\
+&=x\\ln x-x+C.
+\\end{aligned}
+$$
+
+En un intervalo negativo puede trabajarse con \\(\\ln|x|\\):
+
+$$
+\\int\\ln|x|\\,dx=x\\ln|x|-x+C, \\qquad x\\neq0.
+$$
+
+Derivar \\(x\\ln|x|-x\\) en cualquier intervalo que no contenga cero devuelve \\(\\ln|x|\\).
+
+## Ejemplo 5 — función trigonométrica inversa
+
+Calcula
+
+$$
+\\int\\arctan x\\,dx.
+$$
+
+Escribimos \\(\\arctan x\\cdot1\\) y elegimos
+
+$$
+u=\\arctan x, \\quad dv=dx.
+$$
+
+Así,
+
+$$
+du=\\frac{1}{1+x^2}\\,dx, \\qquad v=x.
+$$
+
+Aplicamos partes:
+
+$$
+\\int\\arctan x\\,dx=x\\arctan x-\\int\\frac{x}{1+x^2}\\,dx.
+$$
+
+La integral restante se resuelve con \\(w=1+x^2\\), \\(dw=2x\\,dx\\):
+
+$$
+\\int\\frac{x}{1+x^2}\\,dx=\\frac12\\ln(1+x^2).
+$$
+
+Por tanto,
+
+$$
+\\int\\arctan x\\,dx=x\\arctan x-\\frac12\\ln(1+x^2)+C.
+$$
+
+Este ejemplo muestra una secuencia habitual: partes crea una integral que después se resuelve por sustitución. Los métodos pueden combinarse sin que la clasificación inicial sea incorrecta.
+
+## Ejemplo 6 — integral definida
+
+Calcula
+
+$$
+\\int_0^1 xe^x\\,dx.
+$$
+
+Podemos usar la primitiva del ejemplo 1, pero aplicaremos la fórmula definida para hacer explícitos los extremos:
+
+$$
+u=x, \\quad dv=e^x\\,dx, \\quad du=dx, \\quad v=e^x.
+$$
+
+Entonces
+
+$$
+\\begin{aligned}
+\\int_0^1 xe^x\\,dx
+&=\\left[xe^x\\right]_0^1-\\int_0^1e^x\\,dx\\\\
+&=e-\\left[e^x\\right]_0^1\\\\
+&=e-(e-1)=1.
+\\end{aligned}
+$$
+
+**Comprobación cualitativa.** En \\([0,1]\\), \\(xe^x\\geq0\\), así que el resultado debe ser positivo. Además, \\(xe^x\\leq e\\), de modo que el área no puede superar \\(e\\); el valor \\(1\\) es razonable.
+
+## Ejemplo 7 — integral cíclica
+
+Calcula
+
+$$
+I=\\int e^x\\cos x\\,dx.
+$$
+
+Ningún factor desaparece al derivarlo. Sin embargo, dos aplicaciones de partes devuelven la integral original, lo que permite despejarla.
+
+Primera aplicación: elegimos \\(u=\\cos x\\), \\(dv=e^x\\,dx\\). Entonces \\(du=-\\sin x\\,dx\\), \\(v=e^x\\):
+
+$$
+I=e^x\\cos x+\\int e^x\\sin x\\,dx.
+$$
+
+Llamamos \\(J=\\int e^x\\sin x\\,dx\\). Aplicamos partes con \\(u=\\sin x\\), \\(dv=e^x\\,dx\\):
+
+$$
+J=e^x\\sin x-\\int e^x\\cos x\\,dx=e^x\\sin x-I.
+$$
+
+Sustituimos en la primera igualdad:
+
+$$
+I=e^x\\cos x+e^x\\sin x-I.
+$$
+
+Por tanto,
+
+$$
+2I=e^x(\\sin x+\\cos x)
+$$
+
+y
+
+$$
+\\boxed{I=\\frac{e^x}{2}(\\sin x+\\cos x)+C}.
+$$
+
+**Error típico.** Cuando reaparece \\(I\\), no se cancela ni se abandona el método: se agrupan ambos términos y se despeja. La constante se añade después de resolver la ecuación.
+
+**Comprobación.**
+
+$$
+\\frac{d}{dx}\\left[\\frac{e^x}{2}(\\sin x+\\cos x)\\right]
+=\\frac{e^x}{2}(\\sin x+\\cos x)+\\frac{e^x}{2}(\\cos x-\\sin x)
+=e^x\\cos x.
+$$
+
+## Ejemplo 8 — partes dentro de un cambio de variable
+
+Calcula
+
+$$
+\\int x^3\\ln(x^2)\\,dx, \\qquad x\\neq0.
+$$
+
+Podríamos aplicar partes directamente, pero la estructura \\(x^2\\) dentro del logaritmo y el factor \\(x^3dx=x^2(xdx)\\) sugieren primero \\(t=x^2\\):
+
+$$
+t=x^2, \\qquad dt=2x\\,dx, \\qquad x^3dx=t\\frac{dt}{2}.
+$$
+
+La integral queda
+
+$$
+\\frac12\\int t\\ln t\\,dt,
+$$
+
+donde \\(t>0\\). Ahora usamos partes:
+
+$$
+u=\\ln t, \\quad dv=t\\,dt, \\quad du=\\frac1t\\,dt, \\quad v=\\frac{t^2}{2}.
+$$
+
+Entonces
+
+$$
+\\begin{aligned}
+\\frac12\\int t\\ln t\\,dt
+&=\\frac12\\left(\\frac{t^2}{2}\\ln t-\\int\\frac{t^2}{2}\\frac1t\\,dt\\right)\\\\
+&=\\frac{t^2}{4}\\ln t-\\frac{t^2}{8}+C.
+\\end{aligned}
+$$
+
+Volvemos a \\(x\\):
+
+$$
+\\int x^3\\ln(x^2)\\,dx
+=\\frac{x^4}{4}\\ln(x^2)-\\frac{x^4}{8}+C.
+$$
+
+La estrategia útil no es «partes siempre va primero en un producto», sino escoger el orden que reduzca antes la estructura compuesta.
+
+## Método tabular para polinomios
+
+Cuando hay que repetir partes varias veces con un polinomio, el método tabular resume las derivadas sucesivas y las primitivas sucesivas. Para
+
+$$
+\\int x^3e^x\\,dx,
+$$
+
+derivamos \\(x^3\\) hasta cero e integramos \\(e^x\\) repetidamente:
+
+| Signo | Derivadas de \\(x^3\\) | Primitivas de \\(e^x\\) |
+| --- | --- | --- |
+| \\(+\\) | \\(x^3\\) | \\(e^x\\) |
+| \\(-\\) | \\(3x^2\\) | \\(e^x\\) |
+| \\(+\\) | \\(6x\\) | \\(e^x\\) |
+| \\(-\\) | \\(6\\) | \\(e^x\\) |
+|  | \\(0\\) |  |
+
+Multiplicamos en diagonal con signos alternos:
+
+$$
+\\int x^3e^x\\,dx=e^x(x^3-3x^2+6x-6)+C.
+$$
+
+El esquema tabular ahorra escritura, pero no es una fórmula nueva. Es integración por partes repetida. Si las derivadas no terminan o las primitivas se complican, la tabla puede ocultar en vez de aclarar.
+
+## Fórmulas de reducción
+
+Partes permite relacionar una integral con otra de la misma familia y menor exponente. Define
+
+$$
+I_n=\\int x^ne^{ax}\\,dx, \\qquad a\\neq0.
+$$
+
+Elegimos \\(u=x^n\\) y \\(dv=e^{ax}dx\\). Entonces
+
+$$
+du=nx^{n-1}dx, \\qquad v=\\frac{e^{ax}}{a}.
+$$
+
+La fórmula da
+
+$$
+I_n=\\frac{x^ne^{ax}}{a}-\\frac{n}{a}\\int x^{n-1}e^{ax}\\,dx.
+$$
+
+Es decir,
+
+$$
+\\boxed{I_n=\\frac{x^ne^{ax}}{a}-\\frac{n}{a}I_{n-1}}.
+$$
+
+No se trata de memorizar otra receta, sino de expresar por qué el proceso termina: cada paso reduce \\(n\\) en una unidad hasta llegar a \\(I_0=\\int e^{ax}dx\\). También existen reducciones para potencias trigonométricas y otros productos, pero deben deducirse con sus condiciones, no aplicarse como identidades aisladas.
+
+Por ejemplo, para \\(n=2\\) y \\(a=2\\):
+
+$$
+I_2=\\frac{x^2e^{2x}}2-I_1,
+$$
+
+y
+
+$$
+I_1=\\frac{xe^{2x}}2-\\frac14e^{2x}.
+$$
+
+Sustituyendo,
+
+$$
+\\int x^2e^{2x}dx
+=e^{2x}\\left(\\frac{x^2}{2}-\\frac{x}{2}+\\frac14\\right)+C.
+$$
+
+La derivación de esta expresión confirma simultáneamente la fórmula y los coeficientes.
+
+## Partes en integrales impropias
+
+La fórmula sigue siendo útil cuando un extremo es infinito o el integrando no está acotado, pero primero hay que escribir la integral como límite y comprobar que los términos de frontera existen.
+
+### Ejemplo 9 — un extremo infinito
+
+Calcula
+
+$$
+\\int_0^\\infty xe^{-x}\\,dx.
+$$
+
+Por definición,
+
+$$
+\\int_0^\\infty xe^{-x}\\,dx
+=\\lim_{b\\to\\infty}\\int_0^bxe^{-x}\\,dx.
+$$
+
+En la integral finita elegimos \\(u=x\\), \\(dv=e^{-x}dx\\), de modo que \\(du=dx\\) y \\(v=-e^{-x}\\):
+
+$$
+\\begin{aligned}
+\\int_0^bxe^{-x}\\,dx
+&=\\left[-xe^{-x}\\right]_0^b+\\int_0^be^{-x}\\,dx\\\\
+&=-be^{-b}+1-e^{-b}.
+\\end{aligned}
+$$
+
+Como \\(e^b\\) crece más deprisa que \\(b\\),
+
+$$
+\\lim_{b\\to\\infty}be^{-b}=0
+$$
+
+y \\(e^{-b}\\to0\\). Por tanto,
+
+$$
+\\int_0^\\infty xe^{-x}\\,dx=1.
+$$
+
+No sería riguroso escribir directamente \\([-xe^{-x}]_0^\\infty\\) sin justificar el límite. En integrales impropias, partes transforma el problema, pero no sustituye el análisis de convergencia.
+
+## Qué ocurre si intercambiamos mal los papeles
+
+En \\(\\int xe^x dx\\), elegir \\(u=e^x\\) y \\(dv=x\\,dx\\) es legal. Produce
+
+$$
+\\frac{x^2e^x}{2}-\\frac12\\int x^2e^x\\,dx,
+$$
+
+una integral más difícil que la original. La fórmula no ha fallado; ha revelado que la elección no reduce complejidad. Volver atrás y escoger \\(u=x\\) es una decisión matemática justificada, no un truco de solución oficial.
+
+## Cuándo no usar integración por partes
+
+Antes de aplicar la fórmula, busca señales de otro método:
+
+- En \\(\\int 2x\\cos(x^2)\\,dx\\), aparece una función compuesta y su derivada: sustitución \\(u=x^2\\).
+- En \\(\\int x/(x^2+1)\\,dx\\), la derivada del denominador está en el numerador: sustitución logarítmica.
+- En \\(\\int (x^2+3x)/(x+1)\\,dx\\), conviene dividir polinomios.
+- En \\(\\int \\sin x\\cos x\\,dx\\), basta \\(u=\\sin x\\) o una identidad trigonométrica.
+
+Un producto visible no basta para justificar partes. La prueba es comparar la integral original con \\(\\int v\\,du\\): si la nueva es claramente más simple o permite cerrar un ciclo, el método tiene sentido.
+
+## Ejemplo 10 — potencia por logaritmo
+
+Calcula
+
+$$
+\\int x^2\\ln x\\,dx, \\qquad x>0.
+$$
+
+**Reconocimiento.** El producto combina una potencia y un logaritmo. Derivar \\(\\ln x\\) produce \\(1/x\\), que reduce la potencia después de multiplicar por la primitiva de \\(x^2\\). Elegimos
+
+$$
+u=\\ln x, \\qquad dv=x^2dx.
+$$
+
+Así,
+
+$$
+du=\\frac1x dx, \\qquad v=\\frac{x^3}{3}.
+$$
+
+Aplicamos partes:
+
+$$
+\\begin{aligned}
+\\int x^2\\ln x\\,dx
+&=\\frac{x^3}{3}\\ln x-\\int\\frac{x^3}{3}\\frac1x\\,dx\\\\
+&=\\frac{x^3}{3}\\ln x-\\frac13\\int x^2dx\\\\
+&=\\frac{x^3}{3}\\ln x-\\frac{x^3}{9}+C.
+\\end{aligned}
+$$
+
+**Comprobación.** La derivada del primer término es \\(x^2\\ln x+x^2/3\\), mientras la del segundo es \\(-x^2/3\\). Los términos adicionales se cancelan. Este patrón se generaliza, para \\(n\\neq-1\\), a
+
+$$
+\\int x^n\\ln x\\,dx
+=\\frac{x^{n+1}}{n+1}\\ln x-\\frac{x^{n+1}}{(n+1)^2}+C.
+$$
+
+La condición \\(x>0\\) corresponde a \\(\\ln x\\); con \\(\\ln|x|\\), la misma fórmula es válida en intervalos que no contienen cero.
+
+## Errores frecuentes y cómo corregirlos
+
+- **Olvidar el signo menos.** Escribe siempre la plantilla \\(uv-\\int v\\,du\\) antes de sustituir.
+- **Integrar \\(u\\) y derivar \\(dv\\).** Los papeles son asimétricos: \\(u\\) se deriva; \\(dv\\) se integra.
+- **Elegir un \\(dv\\) imposible.** Debes conocer \\(v=\\int dv\\).
+- **No repetir el método cuando queda un polinomio.** En \\(x^2e^x\\), una sola aplicación no termina el problema.
+- **Añadir constantes en cada etapa.** Basta una constante \\(C\\) al final; las intermedias se absorben en ella.
+- **Tratar LIATE como obligación.** Comprueba que la integral restante sea más sencilla.
+- **Evaluar mal una integral definida.** El término \\(uv\\) también se evalúa en ambos extremos.
+- **Confundir la reaparición de la integral con un fracaso.** En casos cíclicos, esa reaparición permite formar una ecuación.
+
+## Cómo comprobar el resultado
+
+Deriva la primitiva completa, sin comprobar solo una parte. Si el resultado tiene forma \\(e^{ax}P(x)\\), usa la regla del producto y agrupa términos. Si contiene logaritmos, revisa dominio y valor absoluto. En una integral definida, añade estas comprobaciones:
+
+1. El signo concuerda con el integrando en el intervalo.
+2. El valor está dentro de cotas sencillas cuando el integrando está acotado.
+3. Si hay unidades, el resultado tiene unidades de «integrando por variable».
+
+Una comprobación rápida evita los dos fallos más comunes de partes: el signo de \\(v\\) en funciones trigonométricas y la pérdida de un coeficiente al integrar \\(e^{ax}\\).
+
+En una solución de examen, deja visibles las cuatro piezas \\(u\\), \\(dv\\), \\(du\\) y \\(v\\) antes de aplicar la fórmula. Esa línea permite comprobar la elección y localizar un error sin rehacer todo el cálculo. Si repites el método, usa letras nuevas o indica «segunda aplicación» para no mezclar los papeles. La presentación debe mostrar por qué la integral restante es más sencilla, no solo una cadena de igualdades.
+
+## Ejercicios propuestos
+
+Resuelve sin mirar las soluciones y justifica la elección de \\(u\\) y \\(dv\\).
+
+1. \\(\\displaystyle \\int x e^{3x}\\,dx\\)
+2. \\(\\displaystyle \\int x^2\\cos x\\,dx\\)
+3. \\(\\displaystyle \\int \\ln(2x)\\,dx\\), con \\(x>0\\)
+4. \\(\\displaystyle \\int x\\ln x\\,dx\\), con \\(x>0\\)
+5. \\(\\displaystyle \\int_0^{\\pi}x\\sin x\\,dx\\)
+6. \\(\\displaystyle \\int e^{2x}\\sin x\\,dx\\)
+
+## Soluciones de los ejercicios
+
+**1. Polinomio por exponencial.** Elegimos \\(u=x\\), \\(dv=e^{3x}dx\\), de modo que \\(du=dx\\) y \\(v=e^{3x}/3\\):
+
+$$
+\\int xe^{3x}\\,dx
+=\\frac{x}{3}e^{3x}-\\frac13\\int e^{3x}\\,dx
+=e^{3x}\\left(\\frac{x}{3}-\\frac19\\right)+C.
+$$
+
+**2. Dos aplicaciones.** Primero \\(u=x^2\\), \\(dv=\\cos xdx\\):
+
+$$
+\\int x^2\\cos x\\,dx=x^2\\sin x-2\\int x\\sin x\\,dx.
+$$
+
+Como \\(\\int x\\sin xdx=-x\\cos x+\\sin x\\), resulta
+
+$$
+x^2\\sin x+2x\\cos x-2\\sin x+C.
+$$
+
+**3. Logaritmo por \\(1\\).** Con \\(u=\\ln(2x)\\), \\(dv=dx\\), tenemos \\(du=dx/x\\) y \\(v=x\\):
+
+$$
+\\int\\ln(2x)\\,dx=x\\ln(2x)-x+C.
+$$
+
+La derivada de \\(\\ln(2x)\\) es \\(1/x\\), no \\(1/(2x)\\): la regla de la cadena cancela el factor \\(2\\).
+
+**4. Producto con logaritmo.** Elegimos \\(u=\\ln x\\) y \\(dv=x\\,dx\\):
+
+$$
+\\begin{aligned}
+\\int x\\ln x\\,dx
+&=\\frac{x^2}{2}\\ln x-\\frac12\\int x\\,dx\\\\
+&=\\frac{x^2}{2}\\ln x-\\frac{x^2}{4}+C.
+\\end{aligned}
+$$
+
+**5. Integral definida.** Con \\(u=x\\), \\(dv=\\sin xdx\\), \\(v=-\\cos x\\):
+
+$$
+\\begin{aligned}
+\\int_0^\\pi x\\sin x\\,dx
+&=\\left[-x\\cos x\\right]_0^\\pi+\\int_0^\\pi\\cos x\\,dx\\\\
+&=\\pi+\\left[\\sin x\\right]_0^\\pi=\\pi.
+\\end{aligned}
+$$
+
+El resultado es positivo, como corresponde a \\(x\\sin x\\geq0\\) en \\([0,\\pi]\\).
+
+**6. Integral cíclica.** Sea \\(I=\\int e^{2x}\\sin xdx\\). Con \\(u=\\sin x\\), \\(dv=e^{2x}dx\\):
+
+$$
+I=\\frac12e^{2x}\\sin x-\\frac12\\int e^{2x}\\cos x\\,dx.
+$$
+
+Aplicando partes a la integral restante y sustituyendo se obtiene
+
+$$
+I=\\frac12e^{2x}\\sin x-\\frac14e^{2x}\\cos x-\\frac14I.
+$$
+
+Por tanto,
+
+$$
+\\boxed{I=\\frac{e^{2x}}{5}(2\\sin x-\\cos x)+C}.
+$$
+
+Al derivar, los términos en \\(\\cos x\\) se cancelan y queda \\(e^{2x}\\sin x\\).
+
+## Qué debes recordar
+
+Integración por partes funciona cuando el intercambio \\(\\int u\\,dv\\to uv-\\int v\\,du\\) produce una integral más sencilla. Elige \\(u\\) pensando en su derivada y \\(dv\\) pensando en una primitiva accesible. Los polinomios suelen derivarse; exponenciales y funciones trigonométricas suelen integrarse. Logaritmos e inversas trigonométricas se multiplican por \\(1\\).
+
+Después de aplicar la fórmula, pueden ocurrir tres cosas útiles: la nueva integral es inmediata, hay que repetir partes o reaparece la integral original y se despeja. En todos los casos, la derivación del resultado es la prueba definitiva.
+
+Si quieres practicar el método con ejercicios de tu grado y recibir corrección sobre la elección de \\(u\\), los signos y la presentación, consulta las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
+`,P=`---
+title: Integración por sustitución: cambio de variable y ejercicios
+date: 2026-08-12
+updated: 2026-08-12
+description: Aprende integración por sustitución con criterio: cómo elegir el cambio de variable, transformar diferenciales y límites, y comprobar cada resultado.
+tag: Cálculo
+category: Matemáticas universitarias
+relatedService: /clases-particulares/calculo-universitario/
+relatedPosts: metodos-de-integracion-como-elegir,integracion-por-partes-formula-ejercicios-resueltos,que-son-las-integrales-y-para-que-se-utilizan
+image: /favicon.svg
+---
+
+La integración por sustitución, o cambio de variable, deshace la regla de la cadena. Si una integral contiene una función compuesta \\(f(g(x))\\) y también el factor \\(g'(x)\\), hacemos \\(u=g(x)\\) para convertirla en una integral de \\(f(u)\\). El cambio es adecuado cuando toda la expresión puede escribirse en la nueva variable y el resultado es más sencillo.
+
+La clave no es «cambiar lo que está dentro de un paréntesis». Hay que transformar a la vez la función, el diferencial y, en integrales definidas, los límites. Si después del cambio quedan mezcladas \\(x\\) y \\(u\\), el procedimiento está incompleto o la sustitución no conviene.
+
+## Por qué funciona: la regla de la cadena al revés
+
+Si \\(F'(u)=f(u)\\) y \\(u=g(x)\\), la regla de la cadena afirma que
+
+$$
+\\frac{d}{dx}F(g(x))=F'(g(x))g'(x)=f(g(x))g'(x).
+$$
+
+Al leer esta igualdad al revés obtenemos
+
+$$
+\\int f(g(x))g'(x)\\,dx=F(g(x))+C.
+$$
+
+Con la notación
+
+$$
+u=g(x), \\qquad du=g'(x)\\,dx,
+$$
+
+escribimos
+
+$$
+\\int f(g(x))g'(x)\\,dx=\\int f(u)\\,du.
+$$
+
+La notación diferencial ayuda a organizar factores, pero la justificación matemática es la regla de la cadena. El símbolo \\(du\\) no es una variable independiente que podamos inventar: debe corresponder a la derivada del cambio elegido.
+
+## Cómo reconocer una sustitución útil
+
+Busca una expresión interior \\(g(x)\\) cuya derivada aparezca en el resto del integrando, quizá multiplicada por una constante. Las formas más frecuentes son:
+
+| Estructura | Cambio natural | Forma resultante |
+| --- | --- | --- |
+| \\(g'(x)[g(x)]^n\\) | \\(u=g(x)\\) | \\(\\int u^n du\\) |
+| \\(g'(x)e^{g(x)}\\) | \\(u=g(x)\\) | \\(\\int e^u du\\) |
+| \\(g'(x)\\cos(g(x))\\) | \\(u=g(x)\\) | \\(\\int\\cos u\\,du\\) |
+| \\(g'(x)/g(x)\\) | \\(u=g(x)\\) | \\(\\int du/u\\) |
+| \\(g'(x)/(1+g(x)^2)\\) | \\(u=g(x)\\) | \\(\\int du/(1+u^2)\\) |
+| \\(g'(x)/\\sqrt{1-g(x)^2}\\) | \\(u=g(x)\\) | \\(\\int du/\\sqrt{1-u^2}\\) |
+
+La derivada no tiene que coincidir de manera exacta. En
+
+$$
+\\int x\\cos(x^2)\\,dx,
+$$
+
+la derivada de \\(x^2\\) es \\(2x\\), mientras solo aparece \\(x\\). Se compensa con un factor \\(1/2\\). Lo que no podemos compensar con una constante es una potencia o función que falta.
+
+Por ejemplo, \\(u=x^2+1\\) no resuelve directamente
+
+$$
+\\int\\frac{dx}{x^2+1},
+$$
+
+porque \\(du=2x\\,dx\\) y el factor \\(x\\) no aparece. Esa integral es inmediata mediante la arcotangente. El parecido visual con una composición no basta.
+
+## Procedimiento para integrales indefinidas
+
+Sigue estos pasos:
+
+1. Identifica la función interior y propón \\(u=g(x)\\).
+2. Calcula \\(du=g'(x)dx\\).
+3. Despeja el bloque diferencial que aparece en la integral, incluidos los factores constantes.
+4. Sustituye hasta que no quede ninguna \\(x\\).
+5. Integra respecto de \\(u\\).
+6. Vuelve a \\(x\\).
+7. Añade \\(C\\) y deriva el resultado.
+
+Si la sustitución no elimina \\(x\\) o deja una integral igual de difícil, vuelve al integrando original y revisa el [método de integración más adecuado](/blog/metodos-de-integracion-como-elegir/).
+
+## Ejemplo 1 — potencia de una función lineal
+
+Calcula
+
+$$
+\\int(3x-2)^5\\,dx.
+$$
+
+**Qué nos piden.** Una primitiva de una potencia compuesta.
+
+**Cómo reconocer el método.** La función interior es \\(3x-2\\), cuya derivada es la constante \\(3\\).
+
+Tomamos
+
+$$
+u=3x-2, \\qquad du=3\\,dx, \\qquad dx=\\frac13du.
+$$
+
+La integral se transforma en
+
+$$
+\\begin{aligned}
+\\int(3x-2)^5\\,dx
+&=\\frac13\\int u^5\\,du\\\\
+&=\\frac13\\cdot\\frac{u^6}{6}+C\\\\
+&=\\frac{(3x-2)^6}{18}+C.
+\\end{aligned}
+$$
+
+**Comprobación.**
+
+$$
+\\frac{d}{dx}\\left[\\frac{(3x-2)^6}{18}\\right]
+=\\frac6{18}(3x-2)^5\\cdot3=(3x-2)^5.
+$$
+
+El factor \\(1/3\\) del cambio es el que compensa el \\(3\\) de la regla de la cadena.
+
+## Ejemplo 2 — raíz y factor proporcional
+
+Calcula
+
+$$
+\\int x\\sqrt{x^2+5}\\,dx.
+$$
+
+La expresión interior \\(x^2+5\\) tiene derivada \\(2x\\), proporcional al factor exterior. Elegimos
+
+$$
+u=x^2+5, \\qquad du=2x\\,dx, \\qquad x\\,dx=\\frac12du.
+$$
+
+Entonces
+
+$$
+\\begin{aligned}
+\\int x\\sqrt{x^2+5}\\,dx
+&=\\frac12\\int u^{1/2}\\,du\\\\
+&=\\frac12\\cdot\\frac{2}{3}u^{3/2}+C\\\\
+&=\\frac13(x^2+5)^{3/2}+C.
+\\end{aligned}
+$$
+
+**Dominio.** Como \\(x^2+5>0\\), la expresión está definida para todo \\(x\\in\\mathbb R\\).
+
+## Ejemplo 3 — forma logarítmica
+
+Calcula
+
+$$
+\\int\\frac{2x}{x^2-4}\\,dx.
+$$
+
+Tomamos \\(u=x^2-4\\), \\(du=2x\\,dx\\). Así,
+
+$$
+\\int\\frac{2x}{x^2-4}\\,dx
+=\\int\\frac1u\\,du
+=\\ln|u|+C
+=\\ln|x^2-4|+C.
+$$
+
+**Por qué aparece el valor absoluto.** El denominador puede ser positivo o negativo, pero no puede valer cero. La identidad
+
+$$
+\\frac{d}{dx}\\ln|g(x)|=\\frac{g'(x)}{g(x)}
+$$
+
+es válida en cada intervalo donde \\(g(x)\\neq0\\). Aquí esos intervalos están separados por \\(x=-2\\) y \\(x=2\\).
+
+**Comprobación.** Derivando \\(\\ln|x^2-4|\\) obtenemos \\(2x/(x^2-4)\\).
+
+## Ejemplo 4 — exponencial con función interior
+
+Calcula
+
+$$
+\\int x^2e^{x^3+1}\\,dx.
+$$
+
+La función del exponente es \\(x^3+1\\) y su derivada \\(3x^2\\) aparece salvo un factor:
+
+$$
+u=x^3+1, \\qquad du=3x^2\\,dx, \\qquad x^2dx=\\frac13du.
+$$
+
+Por tanto,
+
+$$
+\\int x^2e^{x^3+1}\\,dx
+=\\frac13\\int e^u\\,du
+=\\frac13e^u+C
+=\\frac13e^{x^3+1}+C.
+$$
+
+No conviene separar \\(e^{x^3+1}=e\\,e^{x^3}\\) como método principal: es correcto, pero la sustitución sigue siendo la decisión que resuelve la composición.
+
+## Ejemplo 5 — composición trigonométrica
+
+Calcula
+
+$$
+\\int\\sin^4x\\cos x\\,dx.
+$$
+
+**Reconocimiento.** La derivada de \\(\\sin x\\) es \\(\\cos x\\), presente como factor. Tomamos
+
+$$
+u=\\sin x, \\qquad du=\\cos x\\,dx.
+$$
+
+Entonces
+
+$$
+\\int\\sin^4x\\cos x\\,dx
+=\\int u^4\\,du
+=\\frac{u^5}{5}+C
+=\\frac{\\sin^5x}{5}+C.
+$$
+
+**Alternativa.** Elegir \\(u=\\cos x\\) no es imposible, pero obligaría a transformar \\(\\sin^4x=(1-\\cos^2x)^2\\) y todavía quedaría un factor \\(\\cos xdx\\) que no coincide con \\(-\\sin xdx\\). La primera elección elimina el integrando de una vez.
+
+## Ejemplo 6 — completar el diferencial
+
+Calcula
+
+$$
+\\int\\frac{x+1}{x^2+2x+5}\\,dx.
+$$
+
+La derivada del denominador es \\(2x+2=2(x+1)\\). Tomamos
+
+$$
+u=x^2+2x+5, \\qquad du=2(x+1)\\,dx.
+$$
+
+Por tanto,
+
+$$
+(x+1)dx=\\frac12du
+$$
+
+y
+
+$$
+\\int\\frac{x+1}{x^2+2x+5}\\,dx
+=\\frac12\\int\\frac{du}{u}
+=\\frac12\\ln(x^2+2x+5)+C.
+$$
+
+Como \\(x^2+2x+5=(x+1)^2+4>0\\), no es necesario el valor absoluto, aunque escribirlo tampoco sería incorrecto.
+
+## Sustitución en integrales definidas
+
+Si
+
+$$
+u=g(x),
+$$
+
+los límites deben expresarse en la nueva variable:
+
+$$
+x=a\\Rightarrow u=g(a), \\qquad x=b\\Rightarrow u=g(b).
+$$
+
+El teorema de cambio de variable, bajo las hipótesis habituales de continuidad y derivabilidad, se escribe
+
+$$
+\\int_a^b f(g(x))g'(x)\\,dx
+=\\int_{g(a)}^{g(b)}f(u)\\,du.
+$$
+
+No es necesario que \\(g\\) sea creciente. Si \\(g(a)>g(b)\\), los nuevos límites quedan invertidos y ese orden conserva automáticamente el signo.
+
+Tampoco es imprescindible que \\(g\\) sea inyectiva para una integral de la forma exacta \\(f(g(x))g'(x)\\): una primitiva \\(F(g(x))\\) justifica la igualdad por el teorema fundamental. Por ejemplo,
+
+$$
+\\int_{-1}^{1}2xe^{x^2}\\,dx
+$$
+
+tiene integrando impar y vale cero. Con \\(u=x^2\\), ambos extremos se transforman en \\(u=1\\), de modo que
+
+$$
+\\int_1^1e^u\\,du=0.
+$$
+
+No hay contradicción: al recorrer de \\(x=-1\\) a \\(0\\), \\(u\\) baja de \\(1\\) a \\(0\\); después vuelve de \\(0\\) a \\(1\\), y las contribuciones se cancelan. Si el integrando no contiene exactamente el factor \\(g'(x)\\), esta simplificación no puede usarse sin dividir el intervalo y analizar el cambio con cuidado.
+
+### Ejemplo 7 — cambiar los límites
+
+Calcula
+
+$$
+\\int_0^2\\frac{x}{x^2+1}\\,dx.
+$$
+
+Tomamos
+
+$$
+u=x^2+1, \\qquad du=2x\\,dx.
+$$
+
+Transformamos los extremos:
+
+$$
+x=0\\Rightarrow u=1, \\qquad x=2\\Rightarrow u=5.
+$$
+
+Entonces
+
+$$
+\\begin{aligned}
+\\int_0^2\\frac{x}{x^2+1}\\,dx
+&=\\frac12\\int_1^5\\frac1u\\,du\\\\
+&=\\frac12\\left[\\ln u\\right]_1^5\\\\
+&=\\frac12\\ln5.
+\\end{aligned}
+$$
+
+**Comprobación cualitativa.** El integrando es no negativo en \\([0,2]\\), luego el resultado debe ser positivo. \\(\\frac12\\ln5\\approx0{,}805\\) cumple esa condición.
+
+### Ejemplo 8 — límites que se invierten
+
+Calcula
+
+$$
+\\int_0^1 -2x e^{1-x^2}\\,dx.
+$$
+
+Tomamos \\(u=1-x^2\\), de modo que \\(du=-2x\\,dx\\). Los límites son
+
+$$
+x=0\\Rightarrow u=1, \\qquad x=1\\Rightarrow u=0.
+$$
+
+Por tanto,
+
+$$
+\\int_0^1 -2xe^{1-x^2}\\,dx
+=\\int_1^0e^u\\,du
+=\\left[e^u\\right]_1^0
+=1-e.
+$$
+
+El resultado negativo es coherente: el factor \\(-2x\\) es no positivo y la exponencial es positiva. Invertir manualmente los límites sin añadir un signo menos habría producido un resultado incorrecto.
+
+## Normalizar antes de reconocer una primitiva
+
+A veces el cambio solo sirve para llevar la expresión a una forma estándar. Calcula
+
+$$
+\\int\\frac{dx}{\\sqrt{4-9x^2}}.
+$$
+
+Factorizamos \\(4\\) dentro de la raíz:
+
+$$
+\\sqrt{4-9x^2}=2\\sqrt{1-\\left(\\frac{3x}{2}\\right)^2}.
+$$
+
+Tomamos \\(u=3x/2\\), por lo que \\(dx=2du/3\\). Entonces
+
+$$
+\\begin{aligned}
+\\int\\frac{dx}{\\sqrt{4-9x^2}}
+&=\\frac13\\int\\frac{du}{\\sqrt{1-u^2}}\\\\
+&=\\frac13\\arcsin u+C\\\\
+&=\\frac13\\arcsin\\left(\\frac{3x}{2}\\right)+C.
+\\end{aligned}
+$$
+
+La primitiva real se considera en intervalos contenidos en \\((-2/3,2/3)\\). Al derivarla, el factor \\(3/2\\) de la cadena se combina con \\(1/3\\) y con la normalización de la raíz para recuperar el integrando. Este tipo de escala aparece también en formas de arcotangente y logaritmo.
+
+## Sustitución para expresiones racionales no inmediatas
+
+A veces el cambio natural no está «dentro» de una función trascendente, sino que reduce una simetría algebraica.
+
+### Ejemplo 9 — usar una potencia como nueva variable
+
+Calcula
+
+$$
+\\int\\frac{x^3}{x^2+1}\\,dx.
+$$
+
+Escribimos \\(x^3dx=x^2(xdx)\\) y tomamos \\(u=x^2+1\\). Entonces \\(x^2=u-1\\) y \\(x\\,dx=du/2\\):
+
+$$
+\\begin{aligned}
+\\int\\frac{x^3}{x^2+1}\\,dx
+&=\\frac12\\int\\frac{u-1}{u}\\,du\\\\
+&=\\frac12\\int\\left(1-\\frac1u\\right)du\\\\
+&=\\frac{u}{2}-\\frac12\\ln|u|+C\\\\
+&=\\frac{x^2+1}{2}-\\frac12\\ln(x^2+1)+C.
+\\end{aligned}
+$$
+
+La constante \\(1/2\\) dentro del primer término podría absorberse en \\(C\\), de modo que \\(x^2/2-\\frac12\\ln(x^2+1)+C\\) es una forma equivalente.
+
+**Comprobación.**
+
+$$
+\\frac{d}{dx}\\left[\\frac{x^2}{2}-\\frac12\\ln(x^2+1)\\right]
+=x-\\frac{x}{x^2+1}
+=\\frac{x^3}{x^2+1}.
+$$
+
+## Cambios encadenados y sustitución inversa
+
+Una primera sustitución puede revelar una segunda técnica. Lo importante es que cada paso reduzca la complejidad y que las variables no se mezclen.
+
+### Ejemplo 10 — sustitución y después partes
+
+Calcula
+
+$$
+\\int x\\ln(x^2+1)\\,dx.
+$$
+
+Tomamos
+
+$$
+u=x^2+1, \\qquad du=2x\\,dx.
+$$
+
+Así,
+
+$$
+\\int x\\ln(x^2+1)\\,dx=\\frac12\\int\\ln u\\,du.
+$$
+
+La integral del logaritmo se resuelve por partes:
+
+$$
+\\int\\ln u\\,du=u\\ln u-u+C.
+$$
+
+Por tanto,
+
+$$
+\\int x\\ln(x^2+1)\\,dx
+=\\frac12\\left[(x^2+1)\\ln(x^2+1)-(x^2+1)\\right]+C.
+$$
+
+La constante incluida en \\(-(x^2+1)/2\\) permite escribir también
+
+$$
+\\frac{x^2+1}{2}\\ln(x^2+1)-\\frac{x^2}{2}+C.
+$$
+
+Ambas primitivas difieren solo en una constante. La [integración por partes](/blog/integracion-por-partes-formula-ejercicios-resueltos/) explica el segundo paso con detalle.
+
+## Separar el numerador para crear una sustitución
+
+En algunos cocientes, el numerador no coincide con la derivada del denominador, pero puede descomponerse en una parte proporcional a ella y un resto. La parte proporcional produce un logaritmo; el resto se trata por separado.
+
+### Ejemplo 11 — derivada del denominador más un resto
+
+Calcula
+
+$$
+\\int\\frac{3x+1}{x^2+x+1}\\,dx.
+$$
+
+La derivada del denominador es \\(2x+1\\). Buscamos constantes \\(A\\) y \\(B\\) tales que
+
+$$
+3x+1=A(2x+1)+B.
+$$
+
+Comparando coeficientes, \\(A=3/2\\) y \\(B=-1/2\\). Entonces
+
+$$
+\\int\\frac{3x+1}{x^2+x+1}\\,dx
+=\\frac32\\int\\frac{2x+1}{x^2+x+1}\\,dx
+-\\frac12\\int\\frac{dx}{x^2+x+1}.
+$$
+
+La primera integral se resuelve con \\(u=x^2+x+1\\):
+
+$$
+\\frac32\\ln(x^2+x+1).
+$$
+
+Para la segunda completamos el cuadrado:
+
+$$
+x^2+x+1=\\left(x+\\frac12\\right)^2+\\frac34.
+$$
+
+Usando la forma de la arcotangente,
+
+$$
+\\int\\frac{dx}{x^2+x+1}
+=\\frac{2}{\\sqrt3}\\arctan\\left(\\frac{2x+1}{\\sqrt3}\\right)+C.
+$$
+
+Por tanto,
+
+$$
+\\boxed{
+\\int\\frac{3x+1}{x^2+x+1}\\,dx
+=\\frac32\\ln(x^2+x+1)
+-\\frac1{\\sqrt3}\\arctan\\left(\\frac{2x+1}{\\sqrt3}\\right)+C
+}.
+$$
+
+El denominador es siempre positivo porque su discriminante es negativo. La lección no es que todo cociente pida sustitución, sino que comparar el numerador con la derivada del denominador permite separar la parte integrable por cadena.
+
+## Cambios recíprocos
+
+Cuando aparecen potencias de \\(1/x\\), puede ser útil tomar \\(u=1/x\\). Por ejemplo,
+
+$$
+\\int\\frac{1}{x^2}\\sqrt{1+\\frac1x}\\,dx, \\qquad x\\neq0.
+$$
+
+Elegimos
+
+$$
+u=1+\\frac1x, \\qquad du=-\\frac1{x^2}dx.
+$$
+
+Entonces
+
+$$
+\\begin{aligned}
+\\int\\frac{1}{x^2}\\sqrt{1+\\frac1x}\\,dx
+&=-\\int u^{1/2}du\\\\
+&=-\\frac23u^{3/2}+C\\\\
+&=-\\frac23\\left(1+\\frac1x\\right)^{3/2}+C.
+\\end{aligned}
+$$
+
+La expresión real exige \\(1+1/x\\geq0\\). Derivar el resultado devuelve el integrando en cada intervalo de su dominio. Este patrón recuerda que la función interior no tiene por qué ser un polinomio: puede ser racional, trigonométrica o logarítmica.
+
+## Sustitución algebraica frente a sustitución trigonométrica
+
+No todos los cambios de variable consisten en elegir una subexpresión. En integrales con raíces como
+
+$$
+\\sqrt{a^2-x^2}, \\qquad \\sqrt{a^2+x^2}, \\qquad \\sqrt{x^2-a^2},
+$$
+
+se utilizan cambios \\(x=a\\sin\\theta\\), \\(x=a\\tan\\theta\\) o \\(x=a\\sec\\theta\\) para aplicar identidades pitagóricas. Es el mismo principio de cambio de variable, pero la elección procede de la geometría de la expresión, no de encontrar una derivada ya presente.
+
+En cambio, para \\(\\int dx/\\sqrt{9-x^2}\\) también podemos reconocer directamente la derivada de \\(\\arcsin(x/3)\\). Conviene usar la primitiva inmediata cuando se conoce y reservar la sustitución trigonométrica para formas donde realmente elimina una raíz complicada.
+
+## Sustituciones que parecen buenas pero fracasan
+
+Analizar un intento fallido enseña a elegir mejor.
+
+### Caso 1 — falta la derivada interior
+
+En
+
+$$
+\\int e^{x^2}\\,dx,
+$$
+
+tomar \\(u=x^2\\) da \\(du=2x\\,dx\\), pero no hay factor \\(x\\). Despejar \\(dx=du/(2x)\\) deja \\(x=\\sqrt u\\) y produce
+
+$$
+\\frac12\\int\\frac{e^u}{\\sqrt u}\\,du,
+$$
+
+que no es más simple. La primitiva de \\(e^{x^2}\\) no es elemental.
+
+### Caso 2 — el cambio no reduce el producto
+
+En
+
+$$
+\\int xe^x\\,dx,
+$$
+
+usar \\(u=e^x\\) obliga a escribir \\(x=\\ln u\\), y queda \\(\\int\\ln u\\,du\\). Puede resolverse, pero solo mediante partes; el cambio añade una etapa innecesaria. Aplicar partes directamente es más claro.
+
+### Caso 3 — sustitución demasiado grande
+
+En
+
+$$
+\\int\\frac{2x+1}{x^2+x+4}\\,dx,
+$$
+
+el cambio \\(u=(x^2+x+4)^2\\) es válido en principio, pero complica la potencia del denominador. Elegir \\(u=x^2+x+4\\) produce directamente \\(du=(2x+1)dx\\) y una integral logarítmica.
+
+La mejor sustitución suele ser la expresión más simple cuya derivada organiza el resto del integrando.
+
+## Errores frecuentes
+
+- **Cambiar solo una parte.** Si \\(u=x^2+1\\), hay que transformar también el factor diferencial; no se puede escribir \\(\\int x/u\\,dx\\) y continuar como si \\(dx=du\\).
+- **Mezclar variables.** Una integral en \\(u\\) no debe contener \\(x\\).
+- **Perder una constante.** De \\(du=2x\\,dx\\) se deduce \\(x\\,dx=du/2\\).
+- **No volver a \\(x\\) en una indefinida.** La respuesta final debe estar en la variable original salvo que se pida otra cosa.
+- **Volver a \\(x\\) y usar límites en \\(u\\).** En una definida, elige uno de los dos caminos y mantén la coherencia.
+- **Añadir \\(C\\) antes de terminar.** Una sola constante al final es suficiente.
+- **Omitir el valor absoluto.** \\(\\int du/u=\\ln|u|+C\\).
+- **Forzar el método cuando falta \\(g'(x)\\).** No todos los integrandos con paréntesis son composiciones integrables por sustitución.
+
+## Cómo comprobar el cambio y el resultado
+
+Antes de integrar en \\(u\\), haz una comprobación estructural:
+
+1. ¿Ha desaparecido completamente \\(x\\)?
+2. ¿El nuevo diferencial incluye todos los factores y constantes?
+3. ¿La nueva integral es más sencilla?
+4. Si es definida, ¿los límites están en la misma variable que la primitiva?
+
+Después, deriva la respuesta final usando la regla de la cadena. Para una integral definida, revisa además signo y orden de magnitud. Si \\(m\\leq f(x)\\leq M\\) en \\([a,b]\\), entonces
+
+$$
+m(b-a)\\leq\\int_a^bf(x)\\,dx\\leq M(b-a).
+$$
+
+Estas cotas detectan valores absurdos aunque el cálculo formal parezca ordenado.
+
+En un examen, escribe el cambio y el diferencial en la misma línea, por ejemplo \\(u=x^2+1, du=2x\\,dx\\). Después muestra explícitamente el factor constante que ajustas. En una integral definida, anota la conversión de cada extremo antes de integrar. Esta notación breve permite distinguir un fallo conceptual —el cambio no elimina \\(x\\)— de un simple error de coeficiente o de límites.
+
+## Ejercicios propuestos
+
+Identifica primero \\(u\\), calcula \\(du\\) y explica qué factor permite el cambio.
+
+1. \\(\\displaystyle \\int 6x(3x^2+1)^4\\,dx\\)
+2. \\(\\displaystyle \\int \\frac{e^x}{1+e^x}\\,dx\\)
+3. \\(\\displaystyle \\int \\frac{\\cos x}{2+\\sin x}\\,dx\\)
+4. \\(\\displaystyle \\int x^5\\sqrt{x^2+1}\\,dx\\)
+5. \\(\\displaystyle \\int_0^{\\pi/2}\\sin x\\cos^3x\\,dx\\)
+6. \\(\\displaystyle \\int_1^e \\frac{\\ln x}{x}\\,dx\\)
+7. \\(\\displaystyle \\int \\frac{dx}{x\\ln x}\\), con \\(x>1\\)
+
+## Soluciones de los ejercicios
+
+**1. Potencia compuesta.** Tomamos \\(u=3x^2+1\\), \\(du=6x\\,dx\\):
+
+$$
+\\int6x(3x^2+1)^4\\,dx
+=\\int u^4\\,du
+=\\frac{u^5}{5}+C
+=\\frac{(3x^2+1)^5}{5}+C.
+$$
+
+**2. Derivada del denominador.** Con \\(u=1+e^x\\), \\(du=e^xdx\\):
+
+$$
+\\int\\frac{e^x}{1+e^x}\\,dx=\\ln(1+e^x)+C.
+$$
+
+No hace falta valor absoluto porque \\(1+e^x>0\\).
+
+**3. Composición trigonométrica.** Tomamos \\(u=2+\\sin x\\), \\(du=\\cos xdx\\):
+
+$$
+\\int\\frac{\\cos x}{2+\\sin x}\\,dx=\\ln(2+\\sin x)+C.
+$$
+
+El argumento está entre \\(1\\) y \\(3\\), por lo que siempre es positivo.
+
+**4. Reescritura algebraica.** Usamos \\(u=x^2+1\\), \\(du=2x\\,dx\\). Como \\(x^5dx=x^4(xdx)=(u-1)^2du/2\\):
+
+$$
+\\begin{aligned}
+\\int x^5\\sqrt{x^2+1}\\,dx
+&=\\frac12\\int(u-1)^2u^{1/2}\\,du\\\\
+&=\\frac12\\int(u^{5/2}-2u^{3/2}+u^{1/2})\\,du\\\\
+&=\\frac{u^{7/2}}7-\\frac{2u^{5/2}}5+\\frac{u^{3/2}}3+C.
+\\end{aligned}
+$$
+
+Volviendo a \\(x\\):
+
+$$
+\\frac{(x^2+1)^{7/2}}7-\\frac{2(x^2+1)^{5/2}}5+\\frac{(x^2+1)^{3/2}}3+C.
+$$
+
+**5. Integral definida trigonométrica.** Elegimos \\(u=\\cos x\\), \\(du=-\\sin xdx\\). Los límites cambian de \\(x=0,\\pi/2\\) a \\(u=1,0\\):
+
+$$
+\\int_0^{\\pi/2}\\sin x\\cos^3x\\,dx
+=-\\int_1^0u^3\\,du
+=\\int_0^1u^3\\,du
+=\\frac14.
+$$
+
+**6. Logaritmo como variable.** Tomamos \\(u=\\ln x\\), \\(du=dx/x\\). Los límites son \\(u=0\\) y \\(u=1\\):
+
+$$
+\\int_1^e\\frac{\\ln x}{x}\\,dx
+=\\int_0^1u\\,du
+=\\frac12.
+$$
+
+**7. Sustitución encadenada sencilla.** Con \\(u=\\ln x\\), \\(du=dx/x\\):
+
+$$
+\\int\\frac{dx}{x\\ln x}
+=\\int\\frac{du}{u}
+=\\ln|u|+C
+=\\ln(\\ln x)+C,
+$$
+
+donde \\(x>1\\) garantiza \\(\\ln x>0\\). En otros intervalos del dominio se mantiene \\(\\ln|\\ln x|\\).
+
+## Resumen práctico
+
+Una sustitución buena identifica la función interior, incorpora su derivada y convierte todo el integrando a una sola variable. Las constantes pueden ajustarse; los factores variables que faltan, no. En integrales definidas, transforma los límites y respeta su orden. En indefinidas, vuelve a la variable original y añade \\(C\\).
+
+La comprobación más fiable consiste en derivar: si recuperas el integrando mediante la regla de la cadena, el cambio y los coeficientes son correctos. Si el método no elimina \\(x\\) o produce una integral peor, no insistas; revisa si corresponde simplificar, usar partes o aplicar otra técnica.
+
+Si estás trabajando sustituciones más exigentes en Cálculo y necesitas corregir la elección del cambio sobre ejercicios reales de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
 `,S=`---
 title: Matrices, determinantes y sistemas de ecuaciones: guía completa para primero de carrera
 date: 2026-06-25
@@ -2344,7 +3745,597 @@ No hagas solo sistemas numéricos. Mezcla:
 - Problemas donde haya que decidir si usar Gauss, determinante o interpretación geométrica.
 
 Si este bloque te cuesta, empieza por [Álgebra Lineal en la universidad](/blog/algebra-lineal-universidad-que-estudiar-primero-errores/) y revisa la página de [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,j=`---
+`,A=`---
+title: Métodos de integración: cómo elegir la técnica adecuada
+date: 2026-08-01
+updated: 2026-08-01
+description: Aprende a reconocer qué método de integración conviene usar, con un árbol de decisión, ejemplos resueltos y comprobaciones por derivación.
+tag: Cálculo
+category: Matemáticas universitarias
+relatedService: /clases-particulares/calculo-universitario/
+relatedPosts: integracion-por-sustitucion-cambio-variable-ejercicios,integracion-por-partes-formula-ejercicios-resueltos,que-son-las-integrales-y-para-que-se-utilizan
+image: /favicon.svg
+---
+
+Elegir un método de integración consiste en reconocer **qué operación de derivación hay que deshacer**. Si aparece una función compuesta junto a su derivada, suele convenir un cambio de variable; si hay un producto que se simplifica al derivar uno de sus factores, integración por partes; si el integrando es racional, primero división y fracciones parciales. Antes de aplicar ninguna fórmula, simplifica y comprueba si la integral ya es inmediata.
+
+Esta guía organiza esas decisiones. No sustituye las explicaciones específicas de cada técnica: sirve para diagnosticar una integral, justificar el método y saber cuándo abandonarlo si no produce una expresión más sencilla.
+
+## Antes de elegir: qué significa resolver una integral
+
+En una integral indefinida buscamos todas las funciones cuya derivada sea el integrando. Si
+
+$$
+F'(x)=f(x),
+$$
+
+entonces
+
+$$
+\\int f(x)\\,dx=F(x)+C.
+$$
+
+La constante \\(C\\) es necesaria porque todas las funciones \\(F(x)+C\\) tienen la misma derivada. En una integral definida, una vez encontrada una primitiva, usamos el teorema fundamental del cálculo:
+
+$$
+\\int_a^b f(x)\\,dx=F(b)-F(a).
+$$
+
+Esta diferencia importa al elegir método. En una integral indefinida hay que volver a la variable original y añadir \\(C\\). En una definida podemos transformar también los límites y terminar en la nueva variable.
+
+No toda función elemental tiene una primitiva expresable mediante funciones elementales. Por ejemplo, \\(\\int e^{-x^2}\\,dx\\) no se resuelve con sustitución, partes o fracciones parciales en términos elementales. Antes de encadenar técnicas sin rumbo, hay que admitir esa posibilidad.
+
+Si necesitas afianzar el significado geométrico y de acumulación, empieza por [qué son las integrales y para qué se utilizan](/blog/que-son-las-integrales-y-para-que-se-utilizan/).
+
+## El orden de decisión que evita intentos al azar
+
+Conviene revisar una integral en este orden:
+
+1. **Simplificar.** Expande, factoriza, divide polinomios, separa una fracción o usa una identidad elemental si con ello aparecen integrales inmediatas.
+2. **Buscar una primitiva conocida.** Potencias, exponenciales, funciones trigonométricas básicas y formas logarítmicas no necesitan un método más sofisticado.
+3. **Buscar una composición.** Si ves \\(g(x)\\) dentro de otra función y también aparece \\(g'(x)\\), prueba sustitución.
+4. **Examinar productos.** Si derivar un factor lo simplifica y el otro se integra con facilidad, prueba partes.
+5. **Clasificar cocientes racionales.** Si es un cociente de polinomios, haz división cuando proceda y después fracciones parciales.
+6. **Reconocer estructuras trigonométricas.** Potencias de seno y coseno, secante y tangente o raíces de expresiones cuadráticas requieren identidades o sustituciones específicas.
+7. **Comprobar si el problema es impropio o no elemental.** Los límites infinitos y las singularidades exigen estudiar convergencia; algunas primitivas requieren funciones especiales o métodos numéricos.
+
+La regla práctica es sencilla: un método es prometedor si **reduce la complejidad**. Tras el cambio, la nueva integral debe ser más reconocible que la anterior. Si no lo es, revisa la elección.
+
+| Señal en el integrando | Primera técnica que conviene probar | Pregunta de control |
+| --- | --- | --- |
+| Suma de potencias o términos conocidos | Linealidad e integrales inmediatas | ¿Puedo integrar término a término? |
+| \\(f(g(x))g'(x)\\) | Sustitución | ¿Está la derivada de la función interior, quizá salvo una constante? |
+| Producto como \\(x e^x\\), \\(x\\sin x\\) o \\(\\ln x\\) | Partes | ¿Derivar un factor lo simplifica? |
+| \\(P(x)/Q(x)\\), con \\(P,Q\\) polinomios | División y fracciones parciales | ¿El grado del numerador es menor que el del denominador? |
+| Potencias de seno, coseno, secante o tangente | Identidades trigonométricas | ¿Hay una potencia impar que pueda reservar? |
+| \\(\\sqrt{a^2-x^2}\\), \\(\\sqrt{a^2+x^2}\\) o \\(\\sqrt{x^2-a^2}\\) | Sustitución trigonométrica o hiperbólica | ¿Qué identidad elimina la raíz? |
+| Límites infinitos o integrando no acotado | Integral impropia | ¿Existe el límite que define la integral? |
+
+## Método 1: simplificar antes de integrar
+
+Una forma complicada puede ocultar una suma inmediata. La simplificación no es un paso decorativo: a menudo es el método principal.
+
+### Ejemplo 1 — cociente que se simplifica
+
+Calcula
+
+$$
+\\int \\frac{x^3-2x}{x}\\,dx, \\qquad x\\neq 0.
+$$
+
+**Qué nos piden.** Una primitiva en cualquier intervalo que no cruce \\(x=0\\).
+
+**Cómo reconocer el método.** Todos los términos del numerador son divisibles por \\(x\\). No hacen falta ni sustitución ni fracciones parciales.
+
+$$
+\\frac{x^3-2x}{x}=x^2-2.
+$$
+
+Integramos término a término:
+
+$$
+\\int (x^2-2)\\,dx=\\frac{x^3}{3}-2x+C.
+$$
+
+**Comprobación.** Al derivar obtenemos \\(x^2-2\\), que coincide con el integrando simplificado. La restricción \\(x\\neq0\\) sigue perteneciendo al problema original aunque la expresión final esté definida en cero.
+
+### Ejemplo 2 — completar una derivada logarítmica
+
+Calcula
+
+$$
+\\int \\frac{2x+5}{x^2+5x+7}\\,dx.
+$$
+
+El numerador es exactamente la derivada del denominador:
+
+$$
+\\frac{d}{dx}(x^2+5x+7)=2x+5.
+$$
+
+Por tanto es la forma inmediata \\(\\int f'(x)/f(x)\\,dx\\):
+
+$$
+\\int \\frac{2x+5}{x^2+5x+7}\\,dx=\\ln|x^2+5x+7|+C.
+$$
+
+Como el discriminante del denominador es \\(25-28=-3\\), el polinomio es siempre positivo y también podríamos escribir \\(\\ln(x^2+5x+7)+C\\).
+
+**Comprobación.** La derivada del logaritmo es el cociente original. La observación decisiva fue comparar numerador y derivada del denominador antes de iniciar un procedimiento más largo.
+
+## Método 2: sustitución para deshacer la regla de la cadena
+
+La sustitución se basa en la regla de la cadena. Si el integrando tiene la forma
+
+$$
+f(g(x))g'(x),
+$$
+
+tomamos \\(u=g(x)\\) y \\(du=g'(x)\\,dx\\). La integral se convierte en \\(\\int f(u)\\,du\\).
+
+No hace falta que \\(g'(x)\\) aparezca idéntica: puede faltar o sobrar una constante. Sí debe desaparecer **toda** la dependencia de \\(x\\) tras el cambio. La guía de [integración por sustitución y cambio de variable](/blog/integracion-por-sustitucion-cambio-variable-ejercicios/) desarrolla este criterio con más casos.
+
+### Ejemplo 3 — composición directa
+
+Calcula
+
+$$
+\\int x\\sqrt{x^2+4}\\,dx.
+$$
+
+**Reconocimiento.** La raíz contiene \\(x^2+4\\) y fuera aparece \\(x\\), que es proporcional a su derivada \\(2x\\).
+
+Tomamos
+
+$$
+u=x^2+4, \\qquad du=2x\\,dx, \\qquad x\\,dx=\\frac{1}{2}du.
+$$
+
+Entonces
+
+$$
+\\begin{aligned}
+\\int x\\sqrt{x^2+4}\\,dx
+&=\\frac12\\int u^{1/2}\\,du\\\\
+&=\\frac12\\cdot\\frac{2}{3}u^{3/2}+C\\\\
+&=\\frac13(x^2+4)^{3/2}+C.
+\\end{aligned}
+$$
+
+**Comprobación.** Aplicando la regla de la cadena:
+
+$$
+\\frac{d}{dx}\\left[\\frac13(x^2+4)^{3/2}\\right]
+=\\frac13\\cdot\\frac32(x^2+4)^{1/2}\\cdot2x
+=x\\sqrt{x^2+4}.
+$$
+
+### Ejemplo 4 — una sustitución que no conviene
+
+En
+
+$$
+\\int x\\,e^x\\,dx,
+$$
+
+tomar \\(u=x\\) no cambia nada, y tomar \\(u=e^x\\) deja \\(x=\\ln u\\), con lo que resulta \\(\\int \\ln u\\,du\\). La integral no se ha simplificado de forma suficiente: hemos transformado un producto en otro problema que también exige partes. La señal correcta es que al derivar \\(x\\) obtenemos \\(1\\), mientras \\(e^x\\) se integra sin cambiar. Aquí conviene integración por partes.
+
+## Método 3: integración por partes para productos
+
+La fórmula procede de integrar la regla del producto:
+
+$$
+\\int u\\,dv=uv-\\int v\\,du.
+$$
+
+Se usa cuando podemos dividir el integrando en una parte \\(u\\), que al derivarse se simplifica, y otra \\(dv\\), que podemos integrar. También permite integrar funciones como \\(\\ln x\\) o \\(\\arctan x\\) escribiéndolas como producto por \\(1\\).
+
+### Ejemplo 5 — producto de polinomio y exponencial
+
+Calcula
+
+$$
+\\int x e^{2x}\\,dx.
+$$
+
+Elegimos \\(u=x\\), porque se reduce a \\(1\\), y \\(dv=e^{2x}\\,dx\\):
+
+$$
+du=dx, \\qquad v=\\frac12e^{2x}.
+$$
+
+Aplicamos la fórmula:
+
+$$
+\\begin{aligned}
+\\int xe^{2x}\\,dx
+&=\\frac{x}{2}e^{2x}-\\int\\frac12e^{2x}\\,dx\\\\
+&=\\frac{x}{2}e^{2x}-\\frac14e^{2x}+C\\\\
+&=\\frac{e^{2x}}{4}(2x-1)+C.
+\\end{aligned}
+$$
+
+**Comprobación.** Derivar el producto final produce \\(xe^{2x}\\). Si tras aplicar partes la integral restante fuera más difícil que la original, la elección de \\(u\\) y \\(dv\\) debería revisarse.
+
+### Ejemplo 6 — una función que no parece producto
+
+Calcula
+
+$$
+\\int \\ln x\\,dx, \\qquad x>0.
+$$
+
+Escribimos \\(\\ln x\\cdot1\\). Elegimos
+
+$$
+u=\\ln x, \\quad dv=dx, \\quad du=\\frac1x\\,dx, \\quad v=x.
+$$
+
+Así,
+
+$$
+\\int\\ln x\\,dx=x\\ln x-\\int1\\,dx=x\\ln x-x+C.
+$$
+
+La [guía de integración por partes](/blog/integracion-por-partes-formula-ejercicios-resueltos/) explica elecciones repetidas, integrales cíclicas y el uso en integrales definidas.
+
+## Método 4: funciones racionales y fracciones parciales
+
+Una función racional tiene la forma \\(P(x)/Q(x)\\), con \\(P\\) y \\(Q\\) polinomios. El procedimiento tiene dos fases:
+
+1. Si \\(\\deg P\\geq\\deg Q\\), divide los polinomios.
+2. Factoriza \\(Q\\) sobre los reales y descompón la fracción propia resultante.
+
+Factores lineales producen términos logarítmicos. Factores cuadráticos irreducibles pueden producir logaritmos y arcotangentes.
+
+### Ejemplo 7 — factores lineales distintos
+
+Calcula
+
+$$
+\\int\\frac{5x+1}{x^2-x-2}\\,dx.
+$$
+
+Factorizamos el denominador:
+
+$$
+x^2-x-2=(x-2)(x+1).
+$$
+
+Buscamos \\(A\\) y \\(B\\) tales que
+
+$$
+\\frac{5x+1}{(x-2)(x+1)}=\\frac{A}{x-2}+\\frac{B}{x+1}.
+$$
+
+Al multiplicar por el denominador:
+
+$$
+5x+1=A(x+1)+B(x-2).
+$$
+
+Con \\(x=2\\), \\(11=3A\\), luego \\(A=11/3\\). Con \\(x=-1\\), \\(-4=-3B\\), luego \\(B=4/3\\). Por tanto,
+
+$$
+\\int\\frac{5x+1}{x^2-x-2}\\,dx
+=\\frac{11}{3}\\ln|x-2|+\\frac{4}{3}\\ln|x+1|+C.
+$$
+
+**Comprobación.** Al derivar y reunir las fracciones se recupera \\( (5x+1)/(x^2-x-2) \\). El valor absoluto es necesario porque cada factor puede cambiar de signo en los intervalos del dominio.
+
+### Ejemplo 8 — primero hay que dividir
+
+Calcula
+
+$$
+\\int\\frac{x^2+1}{x+1}\\,dx.
+$$
+
+Como el grado del numerador es mayor, dividimos:
+
+$$
+\\frac{x^2+1}{x+1}=x-1+\\frac{2}{x+1}.
+$$
+
+Así,
+
+$$
+\\int\\frac{x^2+1}{x+1}\\,dx
+=\\frac{x^2}{2}-x+2\\ln|x+1|+C.
+$$
+
+Intentar fracciones parciales antes de convertir la fracción en propia añade trabajo y suele provocar errores de coeficientes.
+
+## Método 5: identidades e integrales trigonométricas
+
+En productos de potencias de seno y coseno, la paridad orienta la decisión:
+
+- Si una potencia de seno es impar, reserva un factor \\(\\sin x\\) y transforma el resto mediante \\(\\sin^2x=1-\\cos^2x\\); después usa \\(u=\\cos x\\).
+- Si una potencia de coseno es impar, reserva \\(\\cos x\\), usa \\(\\cos^2x=1-\\sin^2x\\) y toma \\(u=\\sin x\\).
+- Si ambas potencias son pares, usa fórmulas de ángulo mitad.
+
+Para potencias de secante y tangente hay reglas análogas basadas en \\(1+\\tan^2x=\\sec^2x\\).
+
+### Ejemplo 9 — potencia impar
+
+Calcula
+
+$$
+\\int\\sin^3x\\cos^2x\\,dx.
+$$
+
+Reservamos un seno:
+
+$$
+\\sin^3x=\\sin x(1-\\cos^2x).
+$$
+
+Tomamos \\(u=\\cos x\\), \\(du=-\\sin x\\,dx\\):
+
+$$
+\\begin{aligned}
+\\int\\sin^3x\\cos^2x\\,dx
+&=-\\int(1-u^2)u^2\\,du\\\\
+&=-\\int(u^2-u^4)\\,du\\\\
+&=-\\frac{u^3}{3}+\\frac{u^5}{5}+C\\\\
+&=-\\frac{\\cos^3x}{3}+\\frac{\\cos^5x}{5}+C.
+\\end{aligned}
+$$
+
+El método completo combina una identidad y una sustitución. Las categorías no son compartimentos cerrados: una integral puede exigir varios pasos en secuencia.
+
+## Método 6: sustituciones trigonométricas para raíces cuadráticas
+
+Las identidades pitagóricas eliminan raíces de tres formas frecuentes:
+
+| Expresión | Sustitución habitual | Identidad utilizada |
+| --- | --- | --- |
+| \\(\\sqrt{a^2-x^2}\\) | \\(x=a\\sin\\theta\\) | \\(1-\\sin^2\\theta=\\cos^2\\theta\\) |
+| \\(\\sqrt{a^2+x^2}\\) | \\(x=a\\tan\\theta\\) | \\(1+\\tan^2\\theta=\\sec^2\\theta\\) |
+| \\(\\sqrt{x^2-a^2}\\) | \\(x=a\\sec\\theta\\) | \\(\\sec^2\\theta-1=\\tan^2\\theta\\) |
+
+### Ejemplo 10 — raíz de \\(a^2-x^2\\)
+
+Calcula
+
+$$
+\\int\\frac{dx}{\\sqrt{9-x^2}}.
+$$
+
+Tomamos \\(x=3\\sin\\theta\\), por lo que \\(dx=3\\cos\\theta\\,d\\theta\\). En el intervalo donde \\(\\cos\\theta\\geq0\\),
+
+$$
+\\sqrt{9-x^2}=\\sqrt{9-9\\sin^2\\theta}=3\\cos\\theta.
+$$
+
+Entonces
+
+$$
+\\int\\frac{3\\cos\\theta\\,d\\theta}{3\\cos\\theta}
+=\\int d\\theta=\\theta+C.
+$$
+
+Como \\(\\theta=\\arcsin(x/3)\\),
+
+$$
+\\int\\frac{dx}{\\sqrt{9-x^2}}=\\arcsin\\left(\\frac{x}{3}\\right)+C.
+$$
+
+**Comprobación.** La derivada de \\(\\arcsin(x/3)\\) es \\(1/\\sqrt{9-x^2}\\). En este ejemplo la forma también puede reconocerse como primitiva inmediata; la sustitución explica de dónde procede.
+
+## Integrales definidas: el método no cambia, pero sí los límites
+
+Cuando hacemos \\(u=g(x)\\) en una integral definida, podemos transformar los límites:
+
+$$
+x=a\\Rightarrow u=g(a), \\qquad x=b\\Rightarrow u=g(b).
+$$
+
+Así evitamos volver a \\(x\\) antes de evaluar.
+
+### Ejemplo 11 — sustitución con límites
+
+Calcula
+
+$$
+\\int_0^1 2x e^{x^2}\\,dx.
+$$
+
+Tomamos \\(u=x^2\\), \\(du=2x\\,dx\\). Los límites cambian de \\(x=0,1\\) a \\(u=0,1\\):
+
+$$
+\\int_0^1 2xe^{x^2}\\,dx
+=\\int_0^1 e^u\\,du
+=\\left[e^u\\right]_0^1=e-1.
+$$
+
+**Interpretación.** El integrando es positivo en \\([0,1]\\), luego el resultado debe ser positivo; \\(e-1\\approx1{,}718\\) cumple esa condición.
+
+No mezcles límites en \\(x\\) con una primitiva escrita en \\(u\\). O cambias los límites y trabajas enteramente en \\(u\\), o vuelves a \\(x\\) antes de sustituir extremos.
+
+## Ejemplo 12 — un problema que exige dos decisiones
+
+Calcula
+
+$$
+\\int\\frac{x^3}{(x^2+1)^2}\\,dx.
+$$
+
+**Primera lectura.** Es un cociente, pero no conviene empezar con fracciones parciales en \\(x\\): el denominador contiene la composición \\(x^2+1\\) y el numerador puede escribirse como \\(x^2(x\\,dx)\\). Esa estructura sugiere sustitución.
+
+Tomamos
+
+$$
+u=x^2+1, \\qquad du=2x\\,dx, \\qquad x^2=u-1.
+$$
+
+La integral queda
+
+$$
+\\begin{aligned}
+\\int\\frac{x^3}{(x^2+1)^2}\\,dx
+&=\\frac12\\int\\frac{u-1}{u^2}\\,du\\\\
+&=\\frac12\\int\\left(\\frac1u-\\frac1{u^2}\\right)du.
+\\end{aligned}
+$$
+
+**Segunda decisión.** Después del cambio ya no hace falta otro método especial: simplificamos en potencias e integramos término a término.
+
+$$
+\\begin{aligned}
+\\frac12\\int(u^{-1}-u^{-2})\\,du
+&=\\frac12\\left(\\ln|u|+\\frac1u\\right)+C\\\\
+&=\\frac12\\ln(x^2+1)+\\frac{1}{2(x^2+1)}+C.
+\\end{aligned}
+$$
+
+**Comprobación.** Al derivar,
+
+$$
+\\frac{x}{x^2+1}-\\frac{x}{(x^2+1)^2}
+=\\frac{x[(x^2+1)-1]}{(x^2+1)^2}
+=\\frac{x^3}{(x^2+1)^2}.
+$$
+
+Este tipo de ejercicio muestra por qué el árbol de decisión se aplica de nuevo después de cada transformación. El método inicial no tiene que producir una primitiva inmediata; basta con que revele una estructura más sencilla.
+
+## Señales de progreso durante el cálculo
+
+Una elección está funcionando si ocurre al menos una de estas cosas:
+
+- disminuye el grado de un polinomio;
+- desaparece una composición;
+- un cociente se convierte en suma de potencias;
+- la integral restante pertenece a una tabla básica;
+- reaparece la integral original de forma que puede despejarse;
+- una singularidad o un límite infinito queda aislado en un límite explícito.
+
+En cambio, detenerse y volver atrás es razonable cuando aparecen más funciones distintas que al principio, permanecen mezcladas dos variables, se introduce una primitiva desconocida o aumenta el grado sin crear una pauta de reducción. Cambiar de intento no es perder trabajo: es parte del diagnóstico matemático.
+
+## Integrales impropias y primitivas no elementales
+
+Un método algebraico puede encontrar una primitiva y, aun así, no resolver una integral impropia: falta estudiar el límite. Por ejemplo,
+
+$$
+\\int_1^\\infty\\frac{1}{x^2}\\,dx
+=\\lim_{b\\to\\infty}\\int_1^b x^{-2}\\,dx
+=\\lim_{b\\to\\infty}\\left[-\\frac1x\\right]_1^b=1.
+$$
+
+En cambio,
+
+$$
+\\int_1^\\infty\\frac1x\\,dx
+=\\lim_{b\\to\\infty}\\ln b
+$$
+
+diverge. Tener una fórmula antiderivada no garantiza convergencia.
+
+Tampoco conviene forzar los métodos elementales sobre \\(\\int e^{-x^2}\\,dx\\), \\(\\int \\sin(x^2)\\,dx\\) o \\(\\int dx/\\ln x\\). Estas integrales definen o se expresan mediante funciones especiales; en intervalos concretos pueden aproximarse numéricamente.
+
+## Errores frecuentes al elegir técnica
+
+- **Aplicar partes a cualquier producto.** En \\(\\int x\\cos(x^2)\\,dx\\), la sustitución \\(u=x^2\\) resuelve la integral de inmediato; partes la complica.
+- **Hacer un cambio que no elimina \\(x\\).** Si después de sustituir quedan mezcladas \\(u\\) y \\(x\\), el cambio está incompleto o no es adecuado.
+- **Olvidar dividir una función racional impropia.** Fracciones parciales se aplica a la parte propia.
+- **Usar \\(\\ln f(x)\\) sin valor absoluto.** La primitiva general de \\(f'(x)/f(x)\\) es \\(\\ln|f(x)|+C\\) en intervalos donde \\(f\\neq0\\).
+- **Perder factores constantes.** Si \\(du=3x^2dx\\) y solo aparece \\(x^2dx\\), debe introducirse un factor \\(1/3\\).
+- **Encadenar métodos sin medir progreso.** Cada paso debe acercar el integrando a una tabla de primitivas conocidas.
+- **Confundir integral con área total.** Una integral definida suma con signo. Si se pide área geométrica, hay que localizar los cambios de signo y separar intervalos.
+
+## Cómo comprobar una integral sin rehacerla
+
+La comprobación principal de una integral indefinida es derivar el resultado. Hazla por capas:
+
+1. Deriva la expresión final con la regla adecuada.
+2. Simplifica hasta recuperar exactamente el integrando.
+3. Revisa el dominio: logaritmos, raíces y denominadores pueden exigir intervalos concretos.
+4. En integrales definidas, comprueba signo, orden de magnitud y unidades.
+
+Si \\(F'(x)=f(x)\\), la técnica fue correcta aunque la primitiva tenga una forma distinta a la de una solución oficial. Por ejemplo,
+
+$$
+-\\frac12\\ln\\left|\\frac{1+x}{1-x}\\right|+C
+$$
+
+y
+
+$$
+\\frac12\\ln\\left|\\frac{x-1}{x+1}\\right|+C
+$$
+
+pueden representar la misma familia en intervalos adecuados, pues difieren como mucho en una constante tras considerar los valores absolutos.
+
+## Práctica progresiva: decide antes de calcular
+
+Para cada integral, anota primero el método y la señal que lo justifica.
+
+1. \\(\\displaystyle \\int (4x^3-2x+7)\\,dx\\)
+2. \\(\\displaystyle \\int \\frac{x}{x^2+9}\\,dx\\)
+3. \\(\\displaystyle \\int x\\cos x\\,dx\\)
+4. \\(\\displaystyle \\int \\frac{3x+5}{(x-1)(x+2)}\\,dx\\)
+5. \\(\\displaystyle \\int \\cos^3x\\,dx\\)
+6. \\(\\displaystyle \\int_0^2 \\frac{x}{\\sqrt{x^2+5}}\\,dx\\)
+
+## Soluciones de la práctica
+
+**1. Inmediata y linealidad.** Integramos término a término:
+
+$$
+x^4-x^2+7x+C.
+$$
+
+**2. Sustitución.** Con \\(u=x^2+9\\), \\(du=2x\\,dx\\):
+
+$$
+\\int\\frac{x}{x^2+9}\\,dx=\\frac12\\ln(x^2+9)+C.
+$$
+
+**3. Partes.** Elegimos \\(u=x\\), \\(dv=\\cos x\\,dx\\):
+
+$$
+\\int x\\cos x\\,dx=x\\sin x+\\cos x+C.
+$$
+
+La derivada de \\(x\\sin x+\\cos x\\) es \\(\\sin x+x\\cos x-\\sin x=x\\cos x\\).
+
+**4. Fracciones parciales.** Planteamos
+
+$$
+\\frac{3x+5}{(x-1)(x+2)}=\\frac{A}{x-1}+\\frac{B}{x+2}.
+$$
+
+De \\(3x+5=A(x+2)+B(x-1)\\), al usar \\(x=1\\) sale \\(A=8/3\\), y con \\(x=-2\\), \\(B=1/3\\). Por tanto,
+
+$$
+\\frac83\\ln|x-1|+\\frac13\\ln|x+2|+C.
+$$
+
+**5. Identidad y sustitución.** Escribimos \\(\\cos^3x=(1-\\sin^2x)\\cos x\\) y usamos \\(u=\\sin x\\):
+
+$$
+\\int\\cos^3x\\,dx=\\sin x-\\frac{\\sin^3x}{3}+C.
+$$
+
+**6. Sustitución definida.** Con \\(u=x^2+5\\), \\(du=2x\\,dx\\), los límites son \\(u=5\\) y \\(u=9\\):
+
+$$
+\\int_0^2\\frac{x}{\\sqrt{x^2+5}}\\,dx
+=\\frac12\\int_5^9u^{-1/2}\\,du
+=\\left[\\sqrt{u}\\right]_5^9
+=3-\\sqrt5.
+$$
+
+El resultado es positivo y menor que \\(1\\), coherente con un integrando que va de \\(0\\) a \\(2/3\\) en un intervalo de longitud \\(2\\).
+
+## Resumen operativo
+
+Primero simplifica. Después busca una forma inmediata o una composición con su derivada. Si hay un producto, pregunta si derivar un factor lo simplifica; si hay un cociente de polinomios, divide y descompón; si hay potencias trigonométricas o raíces cuadráticas características, usa sus identidades. En una integral impropia, el último paso siempre es evaluar el límite.
+
+La elección no se memoriza como una lista de palabras clave. Se entrena comparando la estructura del integrando con las reglas de derivación que ya conoces y comprobando si cada transformación reduce la dificultad.
+
+Si estás preparando Cálculo universitario y necesitas aplicar este árbol de decisión a tus hojas de problemas o exámenes, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
+`,L=`---
 title: Microeconomía I: diez tipos de problemas que debes dominar antes del examen
 date: 2026-07-05
 updated: 2026-07-05
@@ -2483,7 +4474,7 @@ Para cada tipo de problema, prepara una ficha:
 - No distinguir demanda individual y demanda de mercado.
 
 Si quieres trabajar Microeconomía I desde ejercicios reales, revisa [clases particulares de Economía y ADE](/clases-particulares/economia-ade/) y la guía de [Matemáticas I en ADE y Economía](/blog/como-aprobar-matematicas-i-ade-economia/).
-`,A=`---
+`,I=`---
 title: p-valor, intervalo de confianza y tamaño del efecto explicados con un mismo ejemplo
 date: 2026-07-10
 updated: 2026-07-10
@@ -2600,7 +4591,7 @@ Si te dan una salida de software, localiza:
 5. La frase de interpretación.
 
 Para evitar confusiones habituales, lee también [errores más comunes en Inferencia Estadística](/blog/errores-comunes-inferencia-estadistica/) y [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/).
-`,C=`---
+`,U=`---
 title: Preparar la PAU desde verano: plan realista para llegar fuerte a septiembre
 date: 2026-07-21
 updated: 2026-07-21
@@ -2662,7 +4653,7 @@ También conviene evitar convertir el verano en una repetición del curso. Desca
 Al terminar deberías poder nombrar tus tres bloqueos prioritarios, resolver mejor los ejercicios básicos que en la primera semana y tener un sistema de corrección. No hace falta llegar sabiendo todo el temario de PAU; hace falta que el aprendizaje de septiembre no se apoye en terreno inestable.
 
 Cuando empiece el curso, continúa con [un calendario de Selectividad que se pueda cumplir](/blog/preparar-selectividad-con-calendario/) y usa los modelos oficiales de tu comunidad. Si quieres priorizar asignaturas, nota objetivo y fechas de forma realista, puedes consultar las [clases para Selectividad y PAU](/clases-particulares/selectividad/).
-`,L=`---
+`,D=`---
 title: Preparar la Selectividad con un calendario que sí se cumple
 date: 2026-06-07
 updated: 2026-06-07
@@ -2731,7 +4722,7 @@ El calendario debe tener colchón. Si no hay huecos, se romperá el primer día 
 En Nebula el calendario se construye con asignaturas, nota objetivo, fechas y punto de partida. Después se revisa semanalmente para ajustar prioridades.
 
 Si necesitas preparar PAU, Matemáticas, Física, Química u otra materia con un plan medible, revisa [clases particulares para Selectividad y PAU](/clases-particulares/selectividad/) o [reserva un diagnóstico](/contacto/).
-`,U=`---
+`,N=`---
 title: Tu primer proyecto de Python para datos: qué hacer antes de aprender más librerías
 date: 2026-07-21
 updated: 2026-07-21
@@ -2800,7 +4791,7 @@ También es importante separar trabajo propio y código reutilizado. Si consulta
 Termina cuando otra persona pueda abrir el cuaderno, entender la pregunta, ejecutar las celdas y llegar a la misma conclusión. Si todavía quieres añadir una sexta visualización o una predicción, guárdala para una versión dos. Acabar y explicar un proyecto breve vale más que dejar varios a medias.
 
 Si estás decidiendo qué aprender antes, empieza por la guía [Python y SQL para empezar en datos](/blog/python-y-sql-para-empezar-en-datos/). Para trabajar Python desde la base o conectar el proyecto con una asignatura, revisa las [clases particulares de Programación](/clases-particulares/programacion-universidad/).
-`,D=`---
+`,M=`---
 title: Probabilidad condicionada y teorema de Bayes: problemas universitarios resueltos
 date: 2026-06-27
 updated: 2026-06-27
@@ -2958,7 +4949,7 @@ Sigue siempre estos pasos:
 5. Interpreta el resultado en el contexto.
 
 Si estás preparando Estadística, también puedes leer [Estadística desde cero para elegir contrastes](/blog/estadistica-desde-cero-para-elegir-contrastes/) o revisar la página de [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,I=`---
+`,R=`---
 title: Python y SQL para empezar en datos: qué aprender primero
 date: 2026-06-01
 updated: 2026-06-01
@@ -3036,7 +5027,7 @@ No midas el progreso por horas de vídeo. Mídelo por entregables:
 Esa evidencia es la que convierte el estudio en una base profesional.
 
 Para acompañar esta base puedes revisar [clases particulares de Programación desde cero](/clases-particulares/programacion-universidad/) o leer la ruta de [transición al sector IT en 6 meses](/blog/transicion-al-sector-it-en-6-meses/).
-`,N=`---
+`,Q=`---
 title: Qué prueba estadística utilizar: guía para elegir el test correcto
 date: 2026-07-09
 updated: 2026-07-22
@@ -3246,7 +5237,7 @@ No. Responden bajo marcos distintos. La elección depende de la pregunta y de la
 El software calcula, pero no conoce tu diseño ni tu pregunta. La decisión debe estar razonada antes de seleccionar un menú.
 
 Para practicar la interpretación, continúa con [p-valor, intervalo de confianza y tamaño del efecto](/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/) o revisa las [clases de Estadística para Psicología, ADE y Ciencias Sociales](/clases-particulares/estadistica-psicologia-ade/).
-`,M=`---
+`,F=`---
 title: Qué son las derivadas y para qué se utilizan
 date: 2026-06-19
 updated: 2026-06-19
@@ -3350,15 +5341,15 @@ Para dominar derivadas, trabaja cada ejercicio en tres capas:
 Si solo practicas reglas, cualquier enunciado nuevo parece distinto. Si entiendes la derivada como ritmo de cambio, las reglas empiezan a tener dirección.
 
 Puedes continuar con [qué son las integrales y para qué se utilizan](/blog/que-son-las-integrales-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,R=`---
+`,O=`---
 title: Qué son las integrales y para qué se utilizan
 date: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-12
 description: Una explicación práctica de las integrales como acumulación, área bajo la curva y herramienta para medir cantidades totales.
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: que-son-las-derivadas-y-para-que-se-utilizan,como-estudiar-matematicas-sin-memorizar
+relatedPosts: metodos-de-integracion-como-elegir,integracion-por-sustitucion-cambio-variable-ejercicios,integracion-por-partes-formula-ejercicios-resueltos
 image: /favicon.svg
 ---
 
@@ -3452,8 +5443,10 @@ Antes de resolver, pregúntate:
 
 Cuando entiendes la integral como acumulación, las técnicas de cálculo dejan de parecer recetas sueltas y empiezan a tener sentido.
 
+El paso siguiente es aprender a reconocer la estructura del integrando. La guía de [métodos de integración y elección de técnica](/blog/metodos-de-integracion-como-elegir/) organiza ese diagnóstico; después puedes profundizar en [integración por sustitución](/blog/integracion-por-sustitucion-cambio-variable-ejercicios/) y en [integración por partes](/blog/integracion-por-partes-formula-ejercicios-resueltos/) con ejercicios completos.
+
 Puedes leer también [qué son las derivadas y para qué se utilizan](/blog/que-son-las-derivadas-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,Q=`---
+`,T=`---
 title: R, SPSS, Jamovi o Python: qué programa estadístico conviene usar en la universidad
 date: 2026-07-14
 updated: 2026-07-14
@@ -3583,7 +5576,7 @@ Independientemente del software, debes poder:
 El software cambia; el razonamiento estadístico permanece.
 
 Para decidir qué análisis hacer antes de abrir ningún programa, lee [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,O=`---
+`,B=`---
 title: Regresión lineal y ANOVA: cuándo utilizar cada método y cómo interpretar los resultados
 date: 2026-07-11
 updated: 2026-07-22
@@ -3751,7 +5744,7 @@ Usa esta regla:
 - Varios predictores mixtos: modelo lineal/regresión con variables codificadas.
 
 Para profundizar en regresión, lee [Econometría desde cero](/blog/econometria-desde-cero-interpretar-regresion/). Para decidir entre pruebas, revisa [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o consulta las [clases de Estadística para Psicología, ADE y Ciencias Sociales](/clases-particulares/estadistica-psicologia-ade/).
-`,F=`---
+`,V=`---
 title: Transición al sector IT en 6 meses: una ruta realista
 date: 2026-06-04
 updated: 2026-06-04
@@ -3811,5 +5804,5 @@ En una entrevista no basta con enseñar código. Tienes que explicar cómo pensa
 La parte dura no es solo el temario. Es mantener continuidad cuando aparecen dudas, cansancio o comparación con perfiles más avanzados. Por eso conviene revisar progreso cada semana y cerrar entregables pequeños.
 
 Si estás empezando desde cero, puedes leer [Python y SQL para empezar en datos](/blog/python-y-sql-para-empezar-en-datos/) o revisar [clases de programación universitaria y fundamentos](/clases-particulares/programacion-universidad/).
-`;function V(e){const a=/^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(e);if(!a)return{data:{},body:e.trim()};const r={};for(const n of a[1].split(`
-`)){const i=n.indexOf(":");if(i===-1)continue;const o=n.slice(0,i).trim();let s=n.slice(i+1).trim();(s.startsWith('"')&&s.endsWith('"')||s.startsWith("'")&&s.endsWith("'"))&&(s=s.slice(1,-1)),o&&(r[o]=s)}return{data:r,body:e.slice(a[0].length).trim()}}function B(e){const a=e.trim().split(/\s+/).filter(Boolean).length;return Math.max(1,Math.round(a/200))}const T=Object.assign({"../content/blog/algebra-lineal-universidad-que-estudiar-primero-errores.md":c,"../content/blog/circuitos-corriente-continua-problemas-resueltos-universidad.md":d,"../content/blog/como-aprobar-calculo-i-ingenieria-seis-semanas.md":l,"../content/blog/como-aprobar-estadistica-psicologia-sin-base-matematica.md":u,"../content/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas.md":m,"../content/blog/como-aprobar-matematicas-i-ade-economia.md":p,"../content/blog/como-estudiar-matematicas-sin-memorizar.md":g,"../content/blog/como-preparar-ib-mathematics-aa-ai.md":b,"../content/blog/como-preparar-pau-matematicas-ii.md":v,"../content/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos.md":f,"../content/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes.md":y,"../content/blog/econometria-desde-cero-interpretar-regresion.md":$,"../content/blog/economia-ade-matematicas-sin-perderse.md":q,"../content/blog/ecuaciones-diferenciales-identificar-metodo-correcto.md":x,"../content/blog/errores-comunes-inferencia-estadistica.md":E,"../content/blog/estadistica-desde-cero-para-elegir-contrastes.md":h,"../content/blog/estequiometria-universitaria-ejercicios-resueltos.md":z,"../content/blog/fisica-y-quimica-como-plantear-problemas.md":P,"../content/blog/ib-gcse-como-preparar-examenes-internacionales.md":_,"../content/blog/matrices-determinantes-sistemas-ecuaciones-guia.md":S,"../content/blog/microeconomia-i-tipos-problemas-examen.md":j,"../content/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo.md":A,"../content/blog/preparar-pau-desde-verano-plan-septiembre.md":C,"../content/blog/preparar-selectividad-con-calendario.md":L,"../content/blog/primer-proyecto-python-principiantes-datos.md":U,"../content/blog/probabilidad-condicionada-bayes-problemas-resueltos.md":D,"../content/blog/python-y-sql-para-empezar-en-datos.md":I,"../content/blog/que-prueba-estadistica-utilizar-guia-test-correcto.md":N,"../content/blog/que-son-las-derivadas-y-para-que-se-utilizan.md":M,"../content/blog/que-son-las-integrales-y-para-que-se-utilizan.md":R,"../content/blog/r-spss-jamovi-python-programa-estadistico-universidad.md":Q,"../content/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados.md":O,"../content/blog/transicion-al-sector-it-en-6-meses.md":F}),t=Object.entries(T).map(([e,a])=>{const r=e.split("/").pop().replace(/\.md$/,""),{data:n,body:i}=V(a);return{slug:r,title:n.title??r,date:n.date??"",updated:n.updated??n.date??"",description:n.description??"",tag:n.tag??"Blog",category:n.category??n.tag??"Blog",image:n.image??"/favicon.svg",relatedService:n.relatedService??"/contacto/",relatedPosts:n.relatedPosts?n.relatedPosts.split(",").map(o=>o.trim()).filter(Boolean):[],readingMinutes:B(i),body:i}}).sort((e,a)=>e.date<a.date?1:e.date>a.date?-1:0);function G(){return t}function w(e,a=9){return Math.max(1,Math.ceil(e.length/a))}function k(e,a,r=9){const n=(a-1)*r;return e.slice(n,n+r)}function H(e){return t.find(a=>a.slug===e)}function W(e){return t.filter(a=>a.category===e)}function J(e,a=3){const r=e.relatedPosts.map(i=>H(i)).filter(i=>!!i),n=t.filter(i=>i.slug!==e.slug&&!r.some(o=>o.slug===i.slug));return[...r,...n].slice(0,a)}function K(e){if(!e)return"";const a=new Date(e);return Number.isNaN(a.getTime())?e:a.toLocaleDateString("es-ES",{day:"numeric",month:"long",year:"numeric"})}export{w as a,H as b,k as c,G as d,J as e,K as f,W as g};
+`;function H(e){const n=/^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(e);if(!n)return{data:{},body:e.trim()};const r={};for(const a of n[1].split(`
+`)){const i=a.indexOf(":");if(i===-1)continue;const s=a.slice(0,i).trim();let o=a.slice(i+1).trim();(o.startsWith('"')&&o.endsWith('"')||o.startsWith("'")&&o.endsWith("'"))&&(o=o.slice(1,-1)),s&&(r[s]=o)}return{data:r,body:e.slice(n[0].length).trim()}}function G(e){const n=e.trim().split(/\s+/).filter(Boolean).length;return Math.max(1,Math.round(n/200))}const w=Object.assign({"../content/blog/algebra-lineal-universidad-que-estudiar-primero-errores.md":c,"../content/blog/circuitos-corriente-continua-problemas-resueltos-universidad.md":d,"../content/blog/como-aprobar-calculo-i-ingenieria-seis-semanas.md":l,"../content/blog/como-aprobar-estadistica-psicologia-sin-base-matematica.md":u,"../content/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas.md":m,"../content/blog/como-aprobar-matematicas-i-ade-economia.md":p,"../content/blog/como-estudiar-matematicas-sin-memorizar.md":g,"../content/blog/como-preparar-ib-mathematics-aa-ai.md":x,"../content/blog/como-preparar-pau-matematicas-ii.md":b,"../content/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos.md":v,"../content/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes.md":f,"../content/blog/econometria-desde-cero-interpretar-regresion.md":$,"../content/blog/economia-ade-matematicas-sin-perderse.md":y,"../content/blog/ecuaciones-diferenciales-identificar-metodo-correcto.md":q,"../content/blog/errores-comunes-inferencia-estadistica.md":E,"../content/blog/estadistica-desde-cero-para-elegir-contrastes.md":h,"../content/blog/estequiometria-universitaria-ejercicios-resueltos.md":z,"../content/blog/fisica-y-quimica-como-plantear-problemas.md":j,"../content/blog/ib-gcse-como-preparar-examenes-internacionales.md":_,"../content/blog/integracion-por-partes-formula-ejercicios-resueltos.md":C,"../content/blog/integracion-por-sustitucion-cambio-variable-ejercicios.md":P,"../content/blog/matrices-determinantes-sistemas-ecuaciones-guia.md":S,"../content/blog/metodos-de-integracion-como-elegir.md":A,"../content/blog/microeconomia-i-tipos-problemas-examen.md":L,"../content/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo.md":I,"../content/blog/preparar-pau-desde-verano-plan-septiembre.md":U,"../content/blog/preparar-selectividad-con-calendario.md":D,"../content/blog/primer-proyecto-python-principiantes-datos.md":N,"../content/blog/probabilidad-condicionada-bayes-problemas-resueltos.md":M,"../content/blog/python-y-sql-para-empezar-en-datos.md":R,"../content/blog/que-prueba-estadistica-utilizar-guia-test-correcto.md":Q,"../content/blog/que-son-las-derivadas-y-para-que-se-utilizan.md":F,"../content/blog/que-son-las-integrales-y-para-que-se-utilizan.md":O,"../content/blog/r-spss-jamovi-python-programa-estadistico-universidad.md":T,"../content/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados.md":B,"../content/blog/transicion-al-sector-it-en-6-meses.md":V}),t=Object.entries(w).map(([e,n])=>{const r=e.split("/").pop().replace(/\.md$/,""),{data:a,body:i}=H(n);return{slug:r,title:a.title??r,date:a.date??"",updated:a.updated??a.date??"",description:a.description??"",tag:a.tag??"Blog",category:a.category??a.tag??"Blog",image:a.image??"/favicon.svg",relatedService:a.relatedService??"/contacto/",relatedPosts:a.relatedPosts?a.relatedPosts.split(",").map(s=>s.trim()).filter(Boolean):[],readingMinutes:G(i),body:i}}).sort((e,n)=>e.date<n.date?1:e.date>n.date?-1:0);function W(){return t}function J(e,n=9){return Math.max(1,Math.ceil(e.length/n))}function K(e,n,r=9){const a=(n-1)*r;return e.slice(a,a+r)}function k(e){return t.find(n=>n.slug===e)}function Y(e){return t.filter(n=>n.category===e)}function X(e,n=3){const r=e.relatedPosts.map(i=>k(i)).filter(i=>!!i),a=t.filter(i=>i.slug!==e.slug&&!r.some(s=>s.slug===i.slug));return[...r,...a].slice(0,n)}function Z(e){if(!e)return"";const n=new Date(e);return Number.isNaN(n.getTime())?e:n.toLocaleDateString("es-ES",{day:"numeric",month:"long",year:"numeric"})}export{J as a,k as b,K as c,W as d,X as e,Z as f,Y as g};

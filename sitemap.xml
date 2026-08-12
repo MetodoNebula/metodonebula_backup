@@ -25,6 +25,10 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/pagina/2/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/estadistica/</loc>
     <priority>0.6</priority>
   </url>
@@ -51,6 +55,18 @@
   <url>
     <loc>https://metodonebula.es/blog/categoria/carrera-tecnologica/</loc>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/integracion-por-sustitucion-cambio-variable-ejercicios/</loc>
+    <lastmod>2026-08-12</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/integracion-por-partes-formula-ejercicios-resueltos/</loc>
+    <lastmod>2026-08-06</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/metodos-de-integracion-como-elegir/</loc>
+    <lastmod>2026-08-01</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/como-preparar-ib-mathematics-aa-ai/</loc>
@@ -130,11 +146,11 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos/</loc>
-    <lastmod>2026-06-23</lastmod>
+    <lastmod>2026-08-12</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/que-son-las-integrales-y-para-que-se-utilizan/</loc>
-    <lastmod>2026-06-21</lastmod>
+    <lastmod>2026-08-12</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/que-son-las-derivadas-y-para-que-se-utilizan/</loc>
@@ -150,7 +166,7 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/como-aprobar-calculo-i-ingenieria-seis-semanas/</loc>
-    <lastmod>2026-06-13</lastmod>
+    <lastmod>2026-08-12</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/ib-gcse-como-preparar-examenes-internacionales/</loc>

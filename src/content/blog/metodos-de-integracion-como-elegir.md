@@ -1,7 +1,7 @@
 ---
 title: Métodos de integración: cómo elegir la técnica adecuada
-date: 2026-08-12
-updated: 2026-08-12
+date: 2026-08-01
+updated: 2026-08-01
 description: Aprende a reconocer qué método de integración conviene usar, con un árbol de decisión, ejemplos resueltos y comprobaciones por derivación.
 tag: Cálculo
 category: Matemáticas universitarias

@@ -1,7 +1,7 @@
 ---
 title: Integración por partes: fórmula y ejercicios resueltos
-date: 2026-08-12
-updated: 2026-08-12
+date: 2026-08-06
+updated: 2026-08-06
 description: Domina la integración por partes: deducción de la fórmula, elección de u y dv, casos repetidos, integrales definidas y ejercicios resueltos.
 tag: Cálculo
 category: Matemáticas universitarias

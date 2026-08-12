@@ -6,7 +6,7 @@ description: Aprende a reconocer qué método de integración conviene usar, con
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: integracion-por-sustitucion-cambio-variable-ejercicios,integracion-por-partes-formula-ejercicios-resueltos,que-son-las-integrales-y-para-que-se-utilizan
+relatedPosts: integracion-por-sustitucion-cambio-variable-ejercicios,integracion-por-partes-formula-ejercicios-resueltos,integrales-funciones-racionales-fracciones-parciales
 image: /favicon.svg
 ---
 
@@ -298,6 +298,8 @@ $$
 $$
 
 Intentar fracciones parciales antes de convertir la fracción en propia añade trabajo y suele provocar errores de coeficientes.
+
+La guía de [integrales de funciones racionales y fracciones parciales](/blog/integrales-funciones-racionales-fracciones-parciales/) desarrolla los casos con factores repetidos, cuadráticos irreducibles e integrales impropias.
 
 ## Método 5: identidades e integrales trigonométricas
 

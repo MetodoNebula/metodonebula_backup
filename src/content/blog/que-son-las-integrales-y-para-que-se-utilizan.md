@@ -1,12 +1,12 @@
 ---
 title: Qué son las integrales y para qué se utilizan
 date: 2026-06-21
-updated: 2026-06-21
+updated: 2026-08-12
 description: Una explicación práctica de las integrales como acumulación, área bajo la curva y herramienta para medir cantidades totales.
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: que-son-las-derivadas-y-para-que-se-utilizan,como-estudiar-matematicas-sin-memorizar
+relatedPosts: metodos-de-integracion-como-elegir,integracion-por-sustitucion-cambio-variable-ejercicios,integracion-por-partes-formula-ejercicios-resueltos
 image: /favicon.svg
 ---
 
@@ -99,5 +99,7 @@ Antes de resolver, pregúntate:
 - Si la integral representa área, distancia, probabilidad, coste u otra magnitud.
 
 Cuando entiendes la integral como acumulación, las técnicas de cálculo dejan de parecer recetas sueltas y empiezan a tener sentido.
+
+El paso siguiente es aprender a reconocer la estructura del integrando. La guía de [métodos de integración y elección de técnica](/blog/metodos-de-integracion-como-elegir/) organiza ese diagnóstico; después puedes profundizar en [integración por sustitución](/blog/integracion-por-sustitucion-cambio-variable-ejercicios/) y en [integración por partes](/blog/integracion-por-partes-formula-ejercicios-resueltos/) con ejercicios completos.
 
 Puedes leer también [qué son las derivadas y para qué se utilizan](/blog/que-son-las-derivadas-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).

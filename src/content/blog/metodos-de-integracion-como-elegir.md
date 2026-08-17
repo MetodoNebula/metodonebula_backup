@@ -469,7 +469,7 @@ En cambio, detenerse y volver atrás es razonable cuando aparecen más funciones
 
 ## Integrales impropias y primitivas no elementales
 
-Un método algebraico puede encontrar una primitiva y, aun así, no resolver una integral impropia: falta estudiar el límite. Por ejemplo,
+Un método algebraico puede encontrar una primitiva y, aun así, no resolver una integral impropia: falta estudiar el límite. La guía de [integrales impropias](/blog/integrales-impropias-convergencia-ejercicios/) explica cómo separar singularidades y decidir convergencia. Por ejemplo,
 
 $$
 \int_1^\infty\frac{1}{x^2}\,dx

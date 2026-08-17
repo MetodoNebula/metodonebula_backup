@@ -6,7 +6,7 @@ description: Plan de seis semanas para aprobar Cálculo I en Ingeniería: límit
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: metodos-de-integracion-como-elegir,que-son-las-derivadas-y-para-que-se-utilizan,derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos
+relatedPosts: como-resolver-limites-indeterminaciones-ejercicios,metodos-de-integracion-como-elegir,que-son-las-derivadas-y-para-que-se-utilizan
 image: /favicon.svg
 ---
 
@@ -27,7 +27,7 @@ No busques acertarlo todo. Busca saber dónde se rompe el razonamiento. Un buen 
 
 ## Semana 1: límites, continuidad y lenguaje
 
-El primer objetivo es leer funciones con calma. Trabaja límites laterales, indeterminaciones, continuidad y asíntotas. No memorices listas de límites sin saber qué significan.
+El primer objetivo es leer funciones con calma. Trabaja [límites laterales, indeterminaciones y asíntotas](/blog/como-resolver-limites-indeterminaciones-ejercicios/). No memorices listas de límites sin saber qué significan.
 
 Un ejercicio mínimo que debes dominar es:
 

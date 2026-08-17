@@ -6,7 +6,7 @@ description: Una guía clara para entender las derivadas como pendiente, ritmo d
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: que-son-las-integrales-y-para-que-se-utilizan,como-estudiar-matematicas-sin-memorizar
+relatedPosts: como-resolver-limites-indeterminaciones-ejercicios,que-son-las-integrales-y-para-que-se-utilizan,como-estudiar-matematicas-sin-memorizar
 image: /favicon.svg
 ---
 
@@ -24,7 +24,7 @@ $$
 f'(x)=\lim_{h\to 0}\frac{f(x+h)-f(x)}{h}
 $$
 
-Ese cociente compara cuánto cambia la función cuando \(x\) aumenta una cantidad pequeña \(h\). El límite hace que esa cantidad sea cada vez más pequeña hasta capturar el cambio en un punto.
+Ese cociente compara cuánto cambia la función cuando \(x\) aumenta una cantidad pequeña \(h\). El límite hace que esa cantidad sea cada vez más pequeña hasta capturar el cambio en un punto. La guía sobre [cómo resolver límites e indeterminaciones](/blog/como-resolver-limites-indeterminaciones-ejercicios/) desarrolla las técnicas algebraicas que sostienen este cálculo.
 
 ## Pendiente de la tangente
 

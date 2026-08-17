@@ -6,7 +6,7 @@ description: Distingue integral definida e indefinida: significado, notación, c
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: que-son-las-integrales-y-para-que-se-utilizan,area-entre-dos-curvas-ejercicios-resueltos,metodos-de-integracion-como-elegir
+relatedPosts: teorema-fundamental-calculo-ejemplos-ejercicios,que-son-las-integrales-y-para-que-se-utilizan,area-entre-dos-curvas-ejercicios-resueltos
 image: /favicon.svg
 ---
 
@@ -115,7 +115,7 @@ Para una función positiva, la integral coincide con el área bajo la curva. Si 
 
 ## El teorema fundamental del cálculo
 
-El teorema fundamental conecta las dos ideas: acumulación y primitiva. Tiene dos afirmaciones complementarias.
+El [teorema fundamental del cálculo](/blog/teorema-fundamental-calculo-ejemplos-ejercicios/) conecta las dos ideas: acumulación y primitiva. Tiene dos afirmaciones complementarias.
 
 Si \(f\) es continua y definimos
 
@@ -444,7 +444,7 @@ El resultado tiene las mismas unidades que \(f\), porque dividimos la acumulaci�
 
 ## Integrales impropias: tener límites no basta
 
-Una integral con límites puede ser impropia si el intervalo es infinito o el integrando no está acotado. Por ejemplo,
+Una integral con límites puede ser impropia si el intervalo es infinito o el integrando no está acotado. La guía de [integrales impropias y convergencia](/blog/integrales-impropias-convergencia-ejercicios/) desarrolla su clasificación y los criterios de comparación. Por ejemplo,
 
 $$
 \int_1^\infty\frac1{x^2}dx

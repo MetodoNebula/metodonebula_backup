@@ -373,7 +373,7 @@ El coeficiente de la arcotangente incluye \(1/2\), porque \(a=2\).
 
 ## Ejemplo 7 — integral definida con singularidades fuera del intervalo
 
-En una [integral definida](/blog/integral-definida-e-indefinida-diferencias-ejemplos/) no basta con encontrar una primitiva: el intervalo debe quedar dentro del dominio o tratarse mediante los límites de una integral impropia.
+En una [integral definida](/blog/integral-definida-e-indefinida-diferencias-ejemplos/) no basta con encontrar una primitiva: el intervalo debe quedar dentro del dominio o tratarse mediante los límites de una [integral impropia](/blog/integrales-impropias-convergencia-ejercicios/).
 
 Calcula
 

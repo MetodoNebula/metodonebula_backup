@@ -6,7 +6,7 @@ description: Una explicación práctica de las integrales como acumulación, ár
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: integral-definida-e-indefinida-diferencias-ejemplos,area-entre-dos-curvas-ejercicios-resueltos,metodos-de-integracion-como-elegir
+relatedPosts: teorema-fundamental-calculo-ejemplos-ejercicios,integral-definida-e-indefinida-diferencias-ejemplos,area-entre-dos-curvas-ejercicios-resueltos
 image: /favicon.svg
 ---
 
@@ -40,7 +40,7 @@ La integral no solo mira un punto: suma lo que ocurre en todo un intervalo.
 
 ## Relación con las derivadas
 
-Derivadas e integrales están conectadas por el teorema fundamental del cálculo. Si \(F\) es una primitiva de \(f\), es decir, si:
+Derivadas e integrales están conectadas por el [teorema fundamental del cálculo](/blog/teorema-fundamental-calculo-ejemplos-ejercicios/). Si \(F\) es una primitiva de \(f\), es decir, si:
 
 $$
 F'(x)=f(x)

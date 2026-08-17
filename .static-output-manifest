@@ -62,15 +62,15 @@ assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff
 assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2
 assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf
 assets/blog-Cp579UoJ.css
-assets/blog-DZSKzLm3.js
-assets/index-6BmqQlzT.js
-assets/index-B1_EaHBP.css
+assets/blog-DzjfKeDO.js
+assets/index-CpgiRswJ.css
+assets/index-D9YV2JHe.js
 assets/latex/area-between-curves.svg
 assets/latex/derivative-tangent.svg
 assets/latex/integral-area.svg
 assets/latex/quadratic-optimization.svg
-assets/pages-vzvwIu6W.js
-assets/posts-_JPYvlNf.js
+assets/pages-BmS0LyJF.js
+assets/posts-IcwEn3-9.js
 blog/algebra-lineal-universidad-que-estudiar-primero-errores/index.html
 blog/area-entre-dos-curvas-ejercicios-resueltos/index.html
 blog/categoria/carrera-tecnologica/index.html
@@ -90,6 +90,7 @@ blog/como-aprobar-matematicas-i-ade-economia/index.html
 blog/como-estudiar-matematicas-sin-memorizar/index.html
 blog/como-preparar-ib-mathematics-aa-ai/index.html
 blog/como-preparar-pau-matematicas-ii/index.html
+blog/como-resolver-limites-indeterminaciones-ejercicios/index.html
 blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos/index.html
 blog/diagramas-cuerpo-libre-metodo-errores-frecuentes/index.html
 blog/econometria-desde-cero-interpretar-regresion/index.html
@@ -105,6 +106,7 @@ blog/integracion-por-partes-formula-ejercicios-resueltos/index.html
 blog/integracion-por-sustitucion-cambio-variable-ejercicios/index.html
 blog/integral-definida-e-indefinida-diferencias-ejemplos/index.html
 blog/integrales-funciones-racionales-fracciones-parciales/index.html
+blog/integrales-impropias-convergencia-ejercicios/index.html
 blog/matrices-determinantes-sistemas-ecuaciones-guia/index.html
 blog/metodos-de-integracion-como-elegir/index.html
 blog/microeconomia-i-tipos-problemas-examen/index.html
@@ -123,6 +125,7 @@ blog/que-son-las-derivadas-y-para-que-se-utilizan/index.html
 blog/que-son-las-integrales-y-para-que-se-utilizan/index.html
 blog/r-spss-jamovi-python-programa-estadistico-universidad/index.html
 blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados/index.html
+blog/teorema-fundamental-calculo-ejemplos-ejercicios/index.html
 blog/transicion-al-sector-it-en-6-meses/index.html
 clases-particulares/algebra-lineal-universidad/index.html
 clases-particulares/calculo-universitario/index.html

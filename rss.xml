@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
+      <title>Cómo resolver límites: indeterminaciones y ejercicios</title>
+      <link>https://metodonebula.es/blog/como-resolver-limites-indeterminaciones-ejercicios/</link>
+      <guid>https://metodonebula.es/blog/como-resolver-limites-indeterminaciones-ejercicios/</guid>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Método completo para resolver límites: sustitución, factorización, conjugados, límites notables, infinito e indeterminaciones con ejercicios.</description>
+    </item>
+    <item>
+      <title>Integrales impropias: convergencia y ejercicios resueltos</title>
+      <link>https://metodonebula.es/blog/integrales-impropias-convergencia-ejercicios/</link>
+      <guid>https://metodonebula.es/blog/integrales-impropias-convergencia-ejercicios/</guid>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Aprende a clasificar integrales impropias, plantear los límites correctos y decidir su convergencia con criterios y ejercicios resueltos.</description>
+    </item>
+    <item>
+      <title>Teorema fundamental del cálculo: ejemplos y ejercicios</title>
+      <link>https://metodonebula.es/blog/teorema-fundamental-calculo-ejemplos-ejercicios/</link>
+      <guid>https://metodonebula.es/blog/teorema-fundamental-calculo-ejemplos-ejercicios/</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Comprende las dos partes del teorema fundamental del cálculo, deriva integrales con límites variables y resuelve integrales definidas paso a paso.</description>
+    </item>
+    <item>
       <title>Integración por sustitución: cambio de variable y ejercicios</title>
       <link>https://metodonebula.es/blog/integracion-por-sustitucion-cambio-variable-ejercicios/</link>
       <guid>https://metodonebula.es/blog/integracion-por-sustitucion-cambio-variable-ejercicios/</guid>

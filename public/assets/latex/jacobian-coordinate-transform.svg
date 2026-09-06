@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="420" viewBox="0 0 860 420" role="img" aria-labelledby="title desc">
+  <title id="title">Transformación de coordenadas y jacobiano</title>
+  <desc id="desc">Una cuadrícula regular en las variables u y v se transforma en una cuadrícula curvada en las variables x e y; una celda muestra el cambio local de área.</desc>
+  <rect width="860" height="420" rx="20" fill="#f8fafc"/>
+  <g transform="translate(55 55)" stroke="#2563eb" stroke-width="2" fill="none">
+    <path d="M0 0V290M55 0V290M110 0V290M165 0V290M220 0V290M275 0V290"/>
+    <path d="M0 0H275M0 58H275M0 116H275M0 174H275M0 232H275M0 290H275"/>
+    <rect x="110" y="116" width="55" height="58" fill="#bfdbfe" stroke="#1d4ed8" stroke-width="4"/>
+  </g>
+  <path d="M370 195 H465" stroke="#64748b" stroke-width="5"/>
+  <path d="M452 182 L469 195 L452 208" fill="none" stroke="#64748b" stroke-width="5"/>
+  <g transform="translate(510 48)" stroke="#7c3aed" stroke-width="2.5" fill="none">
+    <path d="M0 12 C35 45 40 245 5 302M55 5 C90 42 96 249 63 308M110 0 C145 40 151 252 121 314M165 6 C200 45 205 255 179 319M220 18 C254 57 259 263 238 322M275 35 C307 72 312 273 297 320"/>
+    <path d="M4 12 C75 40 211 37 275 35M2 70 C77 92 226 90 286 91M0 128 C80 145 237 145 294 149M0 186 C82 197 243 202 299 207M2 244 C85 252 248 260 301 265M5 302 C92 307 252 317 297 320"/>
+    <path d="M96 145 C112 148 145 148 168 148 L174 203 C149 201 116 199 101 197 Z" fill="#ddd6fe" stroke="#6d28d9" stroke-width="4"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#0f172a">
+    <text x="155" y="392" font-size="21">plano (u, v)</text>
+    <text x="625" y="392" font-size="21">plano (x, y)</text>
+    <text x="117" y="182" font-size="16" fill="#1d4ed8">du·dv</text>
+    <text x="600" y="235" font-size="16" fill="#6d28d9">|J| du·dv</text>
+    <text x="393" y="172" font-size="18" fill="#475569">T</text>
+  </g>
+</svg>

@@ -64,6 +64,8 @@ Las integrales se usan en contextos muy distintos:
 4. **Ingeniería.** Flujos, señales, presión acumulada y modelos continuos.
 5. **Datos.** Medidas agregadas cuando una magnitud cambia de forma continua.
 
+Cuando la magnitud depende de dos coordenadas, la acumulación se realiza sobre una región mediante [integrales dobles](/blog/integrales-dobles-ejercicios-resueltos/). Así se calculan, por ejemplo, volúmenes bajo superficies y masas de láminas con densidad variable.
+
 ## Ejemplo básico
 
 Si:

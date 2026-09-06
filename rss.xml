@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
+      <title>Derivadas parciales y gradiente: teoría y ejercicios</title>
+      <link>https://metodonebula.es/blog/derivadas-parciales-gradiente-ejercicios/</link>
+      <guid>https://metodonebula.es/blog/derivadas-parciales-gradiente-ejercicios/</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Entiende las derivadas parciales y el gradiente con ejemplos: derivadas direccionales, curvas de nivel, plano tangente y ejercicios.</description>
+    </item>
+    <item>
+      <title>Problemas de optimización con derivadas: ejercicios resueltos</title>
+      <link>https://metodonebula.es/blog/problemas-optimizacion-derivadas-ejercicios-resueltos/</link>
+      <guid>https://metodonebula.es/blog/problemas-optimizacion-derivadas-ejercicios-resueltos/</guid>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Aprende a modelizar problemas de máximos y mínimos, definir el dominio y comprobar extremos con ejercicios geométricos y económicos resueltos.</description>
+    </item>
+    <item>
+      <title>Derivación implícita: método y ejercicios resueltos</title>
+      <link>https://metodonebula.es/blog/derivacion-implicita-ejercicios-resueltos/</link>
+      <guid>https://metodonebula.es/blog/derivacion-implicita-ejercicios-resueltos/</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Aprende derivación implícita paso a paso: rectas tangentes, segunda derivada, tangentes verticales y ejercicios resueltos.</description>
+    </item>
+    <item>
+      <title>Estudio completo de una función paso a paso</title>
+      <link>https://metodonebula.es/blog/estudio-completo-funcion-paso-a-paso/</link>
+      <guid>https://metodonebula.es/blog/estudio-completo-funcion-paso-a-paso/</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Aprende a estudiar una función: dominio, cortes, límites, asíntotas, monotonía, extremos, concavidad y representación gráfica.</description>
+    </item>
+    <item>
+      <title>Continuidad y derivabilidad: diferencias y problemas</title>
+      <link>https://metodonebula.es/blog/continuidad-derivabilidad-diferencias-problemas/</link>
+      <guid>https://metodonebula.es/blog/continuidad-derivabilidad-diferencias-problemas/</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Distingue continuidad y derivabilidad, clasifica discontinuidades y resuelve funciones a trozos, parámetros, esquinas y tangentes paso a paso.</description>
+    </item>
+    <item>
+      <title>Regla de L'Hôpital: cuándo utilizarla y cuándo no</title>
+      <link>https://metodonebula.es/blog/regla-lhopital-cuando-usarla-ejercicios/</link>
+      <guid>https://metodonebula.es/blog/regla-lhopital-cuando-usarla-ejercicios/</guid>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Aprende cuándo se puede aplicar la regla de L'Hôpital, cómo transformar otras indeterminaciones y qué errores evitar con ejercicios resueltos.</description>
+    </item>
+    <item>
       <title>Cómo resolver límites: indeterminaciones y ejercicios</title>
       <link>https://metodonebula.es/blog/como-resolver-limites-indeterminaciones-ejercicios/</link>
       <guid>https://metodonebula.es/blog/como-resolver-limites-indeterminaciones-ejercicios/</guid>

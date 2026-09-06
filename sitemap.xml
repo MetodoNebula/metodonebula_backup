@@ -25,11 +25,19 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pagina/6/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/</loc>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/pagina/2/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/pagina/3/</loc>
     <priority>0.5</priority>
   </url>
   <url>
@@ -59,6 +67,30 @@
   <url>
     <loc>https://metodonebula.es/blog/categoria/carrera-tecnologica/</loc>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/derivadas-parciales-gradiente-ejercicios/</loc>
+    <lastmod>2026-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/problemas-optimizacion-derivadas-ejercicios-resueltos/</loc>
+    <lastmod>2026-09-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/derivacion-implicita-ejercicios-resueltos/</loc>
+    <lastmod>2026-09-04</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/estudio-completo-funcion-paso-a-paso/</loc>
+    <lastmod>2026-09-02</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/continuidad-derivabilidad-diferencias-problemas/</loc>
+    <lastmod>2026-08-31</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/regla-lhopital-cuando-usarla-ejercicios/</loc>
+    <lastmod>2026-08-23</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/como-resolver-limites-indeterminaciones-ejercicios/</loc>

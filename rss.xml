@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
+      <title>Cambio de variables y jacobiano en integrales dobles</title>
+      <link>https://metodonebula.es/blog/cambio-variables-jacobiano-integrales-dobles/</link>
+      <guid>https://metodonebula.es/blog/cambio-variables-jacobiano-integrales-dobles/</guid>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Aprende a cambiar variables en integrales dobles: jacobiano, coordenadas polares, transformaciones lineales y ejercicios resueltos.</description>
+    </item>
+    <item>
       <title>Derivadas parciales y gradiente: teoría y ejercicios</title>
       <link>https://metodonebula.es/blog/derivadas-parciales-gradiente-ejercicios/</link>
       <guid>https://metodonebula.es/blog/derivadas-parciales-gradiente-ejercicios/</guid>
@@ -22,11 +29,25 @@
       <description>Aprende derivación implícita paso a paso: rectas tangentes, segunda derivada, tangentes verticales y ejercicios resueltos.</description>
     </item>
     <item>
+      <title>Integrales dobles: cálculo, regiones y ejercicios resueltos</title>
+      <link>https://metodonebula.es/blog/integrales-dobles-ejercicios-resueltos/</link>
+      <guid>https://metodonebula.es/blog/integrales-dobles-ejercicios-resueltos/</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Aprende integrales dobles paso a paso: dominios rectangulares, regiones generales, cambio de orden, áreas, volúmenes y ejercicios.</description>
+    </item>
+    <item>
       <title>Estudio completo de una función paso a paso</title>
       <link>https://metodonebula.es/blog/estudio-completo-funcion-paso-a-paso/</link>
       <guid>https://metodonebula.es/blog/estudio-completo-funcion-paso-a-paso/</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 GMT</pubDate>
       <description>Aprende a estudiar una función: dominio, cortes, límites, asíntotas, monotonía, extremos, concavidad y representación gráfica.</description>
+    </item>
+    <item>
+      <title>Máximos y mínimos de varias variables: guía y ejercicios</title>
+      <link>https://metodonebula.es/blog/maximos-minimos-varias-variables-ejercicios/</link>
+      <guid>https://metodonebula.es/blog/maximos-minimos-varias-variables-ejercicios/</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Aprende a hallar y clasificar extremos de dos variables con gradiente, matriz hessiana, fronteras y multiplicadores de Lagrange.</description>
     </item>
     <item>
       <title>Continuidad y derivabilidad: diferencias y problemas</title>

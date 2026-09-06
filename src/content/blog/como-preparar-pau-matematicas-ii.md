@@ -29,7 +29,7 @@ Esta corrección dice más que una nota global. Un 5 puede esconder un problema 
 Aunque el temario se organice por unidades, en un examen las herramientas se cruzan. Trabaja estas conexiones:
 
 1. **Álgebra y matrices:** operaciones elementales, determinantes, rango, sistemas y la interpretación de que un sistema tenga una, ninguna o infinitas soluciones.
-2. **Análisis:** límites, continuidad, derivadas, crecimiento, extremos, concavidad y representación razonada de funciones.
+2. **Análisis:** límites, [continuidad y derivabilidad](/blog/continuidad-derivabilidad-diferencias-problemas/), derivadas, crecimiento, extremos, concavidad y representación razonada de funciones.
 3. **Integrales:** primitivas, [área entre curvas](/blog/area-entre-dos-curvas-ejercicios-resueltos/) y la lectura geométrica del resultado.
 4. **Probabilidad y estadística**, si están incluidas en tu modelo: distinguir datos, sucesos y distribución antes de aplicar una fórmula.
 

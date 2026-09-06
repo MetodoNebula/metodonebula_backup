@@ -61,7 +61,7 @@ Pero no basta con resolver. Debes comprobar si el punto tiene sentido económico
 
 ## Optimización: el bloque más rentable
 
-Un problema típico pide maximizar beneficio o minimizar coste. El método:
+Un problema típico pide maximizar beneficio o minimizar coste. La guía de [optimización con derivadas](/blog/problemas-optimizacion-derivadas-ejercicios-resueltos/) desarrolla también modelos geométricos y la comprobación del dominio. El método básico es:
 
 1. Define la variable de decisión.
 2. Escribe la función objetivo.

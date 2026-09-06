@@ -6,7 +6,7 @@ description: Una guía clara para entender las derivadas como pendiente, ritmo d
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: como-resolver-limites-indeterminaciones-ejercicios,que-son-las-integrales-y-para-que-se-utilizan,como-estudiar-matematicas-sin-memorizar
+relatedPosts: continuidad-derivabilidad-diferencias-problemas,problemas-optimizacion-derivadas-ejercicios-resueltos,como-resolver-limites-indeterminaciones-ejercicios
 image: /favicon.svg
 ---
 
@@ -43,7 +43,7 @@ Si la pendiente es positiva, la función crece en ese punto. Si es negativa, dec
 Las derivadas aparecen en muchos problemas porque permiten estudiar cambios:
 
 1. **Velocidad.** Si \(s(t)\) es la posición, entonces \(s'(t)\) es la velocidad.
-2. **Optimización.** Para maximizar beneficios, minimizar costes o encontrar el mejor diseño, se buscan puntos donde \(f'(x)=0\).
+2. **Optimización.** Para maximizar beneficios, minimizar costes o encontrar el mejor diseño, se construye una función objetivo y se estudian sus candidatos; la guía de [problemas de optimización con derivadas](/blog/problemas-optimizacion-derivadas-ejercicios-resueltos/) desarrolla el proceso completo.
 3. **Economía y empresa.** El coste marginal o ingreso marginal se interpreta como una derivada.
 4. **Ciencia e ingeniería.** Cambios de temperatura, presión, carga, concentración o energía se modelan con derivadas.
 5. **Datos e inteligencia artificial.** Muchos algoritmos ajustan parámetros siguiendo pendientes de una función de error.
@@ -69,6 +69,8 @@ $$
 
 La regla de la cadena, por ejemplo, no es un truco. Dice que si una variable depende de otra de forma indirecta, el cambio total combina los cambios intermedios.
 
+Cuando una curva viene dada por una ecuación en $x$ e $y$ sin despejar, esa misma regla conduce a la [derivación implícita](/blog/derivacion-implicita-ejercicios-resueltos/). Si la función depende de varias variables independientes, la extensión natural son las [derivadas parciales y el gradiente](/blog/derivadas-parciales-gradiente-ejercicios/).
+
 ## Un ejemplo rápido
 
 Para la función:
@@ -90,6 +92,8 @@ $$
 $$
 
 Después no basta con decir "sale 2". Hay que interpretar qué representa ese punto en el problema: un mínimo, un máximo, un cambio de tendencia o una condición que debe compararse con el dominio.
+
+Para integrar este cálculo con dominio, asíntotas, monotonía y curvatura, sigue el procedimiento de [estudio completo de una función](/blog/estudio-completo-funcion-paso-a-paso/).
 
 ## Cómo estudiarlas mejor
 

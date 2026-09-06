@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Extremos de funciones de dos variables</title>
+  <desc id="desc">Curvas de nivel que representan un mínimo, un máximo y un punto de silla.</desc>
+  <rect width="900" height="360" rx="20" fill="#f8fafc"/>
+  <g fill="none" stroke="#2563eb" stroke-width="4">
+    <ellipse cx="150" cy="170" rx="105" ry="72"/><ellipse cx="150" cy="170" rx="72" ry="49" opacity=".75"/><ellipse cx="150" cy="170" rx="38" ry="26" opacity=".5"/>
+  </g>
+  <circle cx="150" cy="170" r="7" fill="#0f766e"/>
+  <g fill="none" stroke="#7c3aed" stroke-width="4">
+    <ellipse cx="450" cy="170" rx="105" ry="72"/><ellipse cx="450" cy="170" rx="72" ry="49" opacity=".75"/><ellipse cx="450" cy="170" rx="38" ry="26" opacity=".5"/>
+  </g>
+  <circle cx="450" cy="170" r="7" fill="#dc2626"/>
+  <g fill="none" stroke="#ea580c" stroke-width="4">
+    <path d="M632 72 C692 155 812 155 872 72"/><path d="M632 268 C692 185 812 185 872 268"/>
+    <path d="M654 45 C704 126 796 126 846 45" opacity=".65"/><path d="M654 295 C704 214 796 214 846 295" opacity=".65"/>
+  </g>
+  <circle cx="750" cy="170" r="7" fill="#111827"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle" fill="#0f172a">
+    <text x="150" y="318" font-size="22">mínimo</text><text x="450" y="318" font-size="22">máximo</text><text x="750" y="318" font-size="22">punto de silla</text>
+    <text x="150" y="42" font-size="17" fill="#2563eb">los niveles aumentan hacia fuera</text>
+    <text x="450" y="42" font-size="17" fill="#7c3aed">los niveles disminuyen hacia fuera</text>
+  </g>
+</svg>

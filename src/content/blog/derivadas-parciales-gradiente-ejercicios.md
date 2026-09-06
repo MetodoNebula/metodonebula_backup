@@ -429,7 +429,7 @@ f_x(x,y)=0,
 f_y(x,y)=0.
 $$
 
-La condición es necesaria en situaciones regulares, pero no suficiente: un punto con gradiente nulo puede ser un mínimo, un máximo o un punto de silla. La clasificación requiere información de segundo orden, normalmente la matriz hessiana.
+La condición es necesaria en situaciones regulares, pero no suficiente: un punto con gradiente nulo puede ser un mínimo, un máximo o un punto de silla. La clasificación requiere información de segundo orden, normalmente la matriz hessiana; la guía de [máximos y mínimos de varias variables](/blog/maximos-minimos-varias-variables-ejercicios/) desarrolla el criterio y las restricciones.
 
 Por ejemplo, $f(x,y)=x^2+y^2$ tiene gradiente cero en el origen y allí hay un mínimo absoluto. En cambio, $g(x,y)=x^2-y^2$ también tiene gradiente cero en el origen, pero crece en la dirección del eje $x$ y decrece en la del eje $y$: es un punto de silla.
 

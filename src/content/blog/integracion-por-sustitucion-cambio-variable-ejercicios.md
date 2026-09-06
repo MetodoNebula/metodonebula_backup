@@ -716,4 +716,6 @@ Una sustitución buena identifica la función interior, incorpora su derivada y 
 
 La comprobación más fiable consiste en derivar: si recuperas el integrando mediante la regla de la cadena, el cambio y los coeficientes son correctos. Si el método no elimina \(x\) o produce una integral peor, no insistas; revisa si corresponde simplificar, usar partes o aplicar otra técnica.
 
+En cálculo multivariable, la misma idea exige corregir áreas mediante el determinante: consulta la guía de [cambio de variables y jacobiano en integrales dobles](/blog/cambio-variables-jacobiano-integrales-dobles/).
+
 Si estás trabajando sustituciones más exigentes en Cálculo y necesitas corregir la elección del cambio sobre ejercicios reales de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).

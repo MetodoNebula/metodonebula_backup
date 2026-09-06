@@ -1,23 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
-  <title id="title">Extremos de funciones de dos variables</title>
-  <desc id="desc">Curvas de nivel que representan un mínimo, un máximo y un punto de silla.</desc>
-  <rect width="900" height="360" rx="20" fill="#f8fafc"/>
-  <g fill="none" stroke="#2563eb" stroke-width="4">
-    <ellipse cx="150" cy="170" rx="105" ry="72"/><ellipse cx="150" cy="170" rx="72" ry="49" opacity=".75"/><ellipse cx="150" cy="170" rx="38" ry="26" opacity=".5"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="440" viewBox="0 0 1080 440" role="img" aria-labelledby="title desc">
+  <title id="title">Comparación de mínimo, máximo y punto de silla mediante curvas de nivel</title>
+  <desc id="desc">Tres paneles muestran curvas de nivel numeradas para x al cuadrado más y al cuadrado, su opuesta y x al cuadrado menos y al cuadrado. Las flechas indican dónde crece cada función.</desc>
+  <defs>
+    <marker id="blueArrow" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto"><path d="M0 0L0 6L9 3z" fill="#2563eb"/></marker>
+    <marker id="purpleArrow" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto"><path d="M0 0L0 6L9 3z" fill="#7c3aed"/></marker>
+  </defs>
+  <rect width="1080" height="440" rx="22" fill="#f8fafc"/>
+  <g fill="#fff" stroke="#cbd5e1" stroke-width="2">
+    <rect x="18" y="18" width="334" height="404" rx="18"/><rect x="373" y="18" width="334" height="404" rx="18"/><rect x="728" y="18" width="334" height="404" rx="18"/>
   </g>
-  <circle cx="150" cy="170" r="7" fill="#0f766e"/>
-  <g fill="none" stroke="#7c3aed" stroke-width="4">
-    <ellipse cx="450" cy="170" rx="105" ry="72"/><ellipse cx="450" cy="170" rx="72" ry="49" opacity=".75"/><ellipse cx="450" cy="170" rx="38" ry="26" opacity=".5"/>
-  </g>
-  <circle cx="450" cy="170" r="7" fill="#dc2626"/>
-  <g fill="none" stroke="#ea580c" stroke-width="4">
-    <path d="M632 72 C692 155 812 155 872 72"/><path d="M632 268 C692 185 812 185 872 268"/>
-    <path d="M654 45 C704 126 796 126 846 45" opacity=".65"/><path d="M654 295 C704 214 796 214 846 295" opacity=".65"/>
-  </g>
-  <circle cx="750" cy="170" r="7" fill="#111827"/>
   <g font-family="Arial, sans-serif" text-anchor="middle" fill="#0f172a">
-    <text x="150" y="318" font-size="22">mínimo</text><text x="450" y="318" font-size="22">máximo</text><text x="750" y="318" font-size="22">punto de silla</text>
-    <text x="150" y="42" font-size="17" fill="#2563eb">los niveles aumentan hacia fuera</text>
-    <text x="450" y="42" font-size="17" fill="#7c3aed">los niveles disminuyen hacia fuera</text>
+    <text x="185" y="52" font-size="22" font-weight="700">Mínimo</text><text x="185" y="78" font-size="18">f = x² + y²</text>
+    <text x="540" y="52" font-size="22" font-weight="700">Máximo</text><text x="540" y="78" font-size="18">f = −x² − y²</text>
+    <text x="895" y="52" font-size="22" font-weight="700">Punto de silla</text><text x="895" y="78" font-size="18">f = x² − y²</text>
+  </g>
+  <g transform="translate(185 225)" fill="none" stroke="#2563eb" stroke-width="4">
+    <ellipse rx="112" ry="92"/><ellipse rx="76" ry="62" opacity=".78"/><ellipse rx="40" ry="33" opacity=".58"/>
+    <line x1="8" y1="-5" x2="105" y2="-82" stroke-width="5" marker-end="url(#blueArrow)"/>
+  </g>
+  <circle cx="185" cy="225" r="7" fill="#0f766e"/>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#1d4ed8">
+    <text x="223" y="208">1</text><text x="260" y="190">4</text><text x="298" y="171">9</text><text x="205" y="247" fill="#0f766e">f = 0</text>
+    <text x="185" y="375" text-anchor="middle" font-size="18" font-weight="700">f aumenta al alejarse</text>
+  </g>
+  <g transform="translate(540 225)" fill="none" stroke="#7c3aed" stroke-width="4">
+    <ellipse rx="112" ry="92"/><ellipse rx="76" ry="62" opacity=".78"/><ellipse rx="40" ry="33" opacity=".58"/>
+    <line x1="105" y1="-82" x2="10" y2="-7" stroke-width="5" marker-end="url(#purpleArrow)"/>
+  </g>
+  <circle cx="540" cy="225" r="7" fill="#dc2626"/>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#6d28d9">
+    <text x="570" y="208">−1</text><text x="604" y="190">−4</text><text x="640" y="171">−9</text><text x="556" y="247" fill="#b91c1c">f = 0</text>
+    <text x="540" y="375" text-anchor="middle" font-size="18" font-weight="700">f aumenta hacia el centro</text>
+  </g>
+  <g transform="translate(895 225)" fill="none" stroke-width="4">
+    <line x1="-145" y1="0" x2="145" y2="0" stroke="#94a3b8" stroke-width="2"/><line x1="0" y1="-125" x2="0" y2="125" stroke="#94a3b8" stroke-width="2"/>
+    <path d="M145 -115C78 -75 42 -35 32 0C42 35 78 75 145 115" stroke="#ea580c"/>
+    <path d="M-145 -115C-78 -75 -42 -35 -32 0C-42 35 -78 75 -145 115" stroke="#ea580c"/>
+    <path d="M-130 -118C-70 -70 -28 -38 0 -31C28 -38 70 -70 130 -118" stroke="#0f766e"/>
+    <path d="M-130 118C-70 70 -28 38 0 31C28 38 70 70 130 118" stroke="#0f766e"/>
+  </g>
+  <circle cx="895" cy="225" r="7" fill="#111827"/>
+  <g font-family="Arial, sans-serif" font-size="16" font-weight="700">
+    <text x="1008" y="158" fill="#c2410c">f &gt; 0</text><text x="910" y="112" fill="#0f766e">f &lt; 0</text>
+    <text x="895" y="375" text-anchor="middle" fill="#0f172a" font-size="18">sube en x · baja en y</text>
   </g>
 </svg>

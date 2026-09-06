@@ -1,19 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
-  <title id="title">Región triangular para una integral doble</title>
-  <desc id="desc">Triángulo del primer cuadrante limitado por los ejes y la recta x más y igual a uno, con cortes vertical y horizontal.</desc>
-  <rect width="760" height="430" rx="20" fill="#f8fafc"/>
-  <g transform="translate(110 355)">
-    <line x1="0" y1="0" x2="530" y2="0" stroke="#64748b" stroke-width="3"/>
-    <line x1="0" y1="0" x2="0" y2="-300" stroke="#64748b" stroke-width="3"/>
-    <path d="M0 0 L0 -260 L440 0 Z" fill="#dbeafe" stroke="#2563eb" stroke-width="5"/>
-    <line x1="180" y1="0" x2="180" y2="-154" stroke="#dc2626" stroke-width="7"/>
-    <line x1="0" y1="-105" x2="262" y2="-105" stroke="#0f766e" stroke-width="7"/>
-    <g font-family="Arial, sans-serif" font-size="18" fill="#0f172a">
-      <text x="535" y="7">x</text><text x="-8" y="-310">y</text>
-      <text x="448" y="24">1</text><text x="-25" y="-254">1</text>
-      <text x="275" y="-185" fill="#2563eb">x + y = 1</text>
-      <text x="190" y="-73" fill="#dc2626">corte vertical</text>
-      <text x="64" y="-116" fill="#0f766e">corte horizontal</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="480" viewBox="0 0 1040 480" role="img" aria-labelledby="title desc">
+  <title id="title">Dos órdenes de integración para una región triangular</title>
+  <desc id="desc">Dos paneles separan los cortes verticales para integrar primero respecto de y y los cortes horizontales para integrar primero respecto de x. Cada panel incluye sus límites.</desc>
+  <rect width="1040" height="480" rx="22" fill="#f8fafc"/>
+  <rect x="18" y="18" width="492" height="444" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="530" y="18" width="492" height="444" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <g font-family="Arial, sans-serif" fill="#0f172a">
+    <text x="264" y="52" text-anchor="middle" font-size="23" font-weight="700">1. Primero respecto de y</text>
+    <text x="776" y="52" text-anchor="middle" font-size="23" font-weight="700">2. Primero respecto de x</text>
+  </g>
+  <g transform="translate(92 350)">
+    <line x1="0" y1="0" x2="365" y2="0" stroke="#64748b" stroke-width="3"/>
+    <line x1="0" y1="0" x2="0" y2="-265" stroke="#64748b" stroke-width="3"/>
+    <path d="M0 0 L0 -240 L330 0 Z" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+    <line x1="135" y1="0" x2="135" y2="-142" stroke="#dc2626" stroke-width="8"/>
+    <circle cx="135" cy="0" r="5" fill="#dc2626"/><circle cx="135" cy="-142" r="5" fill="#dc2626"/>
+    <g font-family="Arial, sans-serif" font-size="17" fill="#0f172a">
+      <text x="370" y="6">x</text><text x="-6" y="-274">y</text>
+      <text x="334" y="23">1</text><text x="-23" y="-235">1</text>
+      <text x="226" y="-150" fill="#2563eb">y = 1 − x</text>
+      <text x="148" y="-77" fill="#b91c1c" font-weight="700">0 ≤ y ≤ 1 − x</text>
+      <text x="126" y="22" fill="#b91c1c">x fijo</text>
     </g>
+  </g>
+  <g transform="translate(604 350)">
+    <line x1="0" y1="0" x2="365" y2="0" stroke="#64748b" stroke-width="3"/>
+    <line x1="0" y1="0" x2="0" y2="-265" stroke="#64748b" stroke-width="3"/>
+    <path d="M0 0 L0 -240 L330 0 Z" fill="#ccfbf1" stroke="#0f766e" stroke-width="4"/>
+    <line x1="0" y1="-98" x2="195" y2="-98" stroke="#ea580c" stroke-width="8"/>
+    <circle cx="0" cy="-98" r="5" fill="#ea580c"/><circle cx="195" cy="-98" r="5" fill="#ea580c"/>
+    <g font-family="Arial, sans-serif" font-size="17" fill="#0f172a">
+      <text x="370" y="6">x</text><text x="-6" y="-274">y</text>
+      <text x="334" y="23">1</text><text x="-23" y="-235">1</text>
+      <text x="226" y="-150" fill="#0f766e">x = 1 − y</text>
+      <text x="38" y="-112" fill="#c2410c" font-weight="700">0 ≤ x ≤ 1 − y</text>
+      <text x="-38" y="-88" fill="#c2410c">y fijo</text>
+    </g>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="18" font-weight="700">
+    <text x="264" y="435" text-anchor="middle" fill="#b91c1c">0 ≤ x ≤ 1 · orden dy dx</text>
+    <text x="776" y="435" text-anchor="middle" fill="#c2410c">0 ≤ y ≤ 1 · orden dx dy</text>
   </g>
 </svg>

@@ -153,9 +153,9 @@ $$
 =\int_c^d\int_{h_1(y)}^{h_2(y)}f(x,y)\,dx\,dy.
 $$
 
-![Región triangular descrita mediante segmentos verticales y horizontales](/assets/latex/double-integral-region.svg)
+![Comparación de los dos órdenes de integración en el triángulo: cortes verticales con límites de y y cortes horizontales con límites de x](/assets/latex/double-integral-region.svg)
 
-Antes de integrar, dibuja las curvas, calcula sus intersecciones y decide qué descripción produce límites más sencillos.
+Los dos paneles representan exactamente el mismo triángulo. En el primero se fija $x$ y se recorre el segmento rojo de abajo arriba, por eso la integral interior es respecto de $y$. En el segundo se fija $y$ y se recorre el segmento naranja de izquierda a derecha, por eso se integra primero respecto de $x$. Antes de calcular, dibuja las curvas, halla sus intersecciones y decide qué recorrido produce límites más sencillos.
 
 ## Ejemplo 2: región triangular
 

@@ -34,7 +34,9 @@ Un mínimo absoluto cumple la desigualdad en todo $D$; un máximo absoluto tambi
 
 En una variable solo podemos acercarnos por la izquierda o por la derecha. En dos variables hay infinitas direcciones. Por eso un punto puede ser mínimo a lo largo de una recta y máximo a lo largo de otra: eso produce un punto de silla.
 
-![Curvas de nivel de un mínimo, un máximo y un punto de silla](/assets/latex/multivariable-extrema-contours.svg)
+![Comparación de curvas de nivel numeradas para un mínimo, un máximo y un punto de silla, con flechas que indican dónde aumenta cada función](/assets/latex/multivariable-extrema-contours.svg)
+
+En el mínimo, los niveles $1$, $4$ y $9$ aumentan al alejarse del centro; en el máximo, los niveles $-1$, $-4$ y $-9$ disminuyen hacia fuera, de modo que el valor central cero es el mayor. En el punto de silla aparecen dos familias de hipérbolas: la función sube en la dirección del eje $x$ y baja en la del eje $y$.
 
 ## Primer paso: localizar todos los candidatos
 

@@ -33,7 +33,7 @@ La fase más incómoda es la tercera, pero también es la que más revela. Si no
 
 ## Ejemplo: optimización antes de derivar
 
-Imagina un ejercicio de optimización: "encuentra el área máxima". Muchos alumnos empiezan derivando cualquier expresión que aparece. El orden correcto es otro:
+Imagina un [ejercicio de optimización con derivadas](/blog/problemas-optimizacion-derivadas-ejercicios-resueltos/): "encuentra el área máxima". Muchos alumnos empiezan derivando cualquier expresión que aparece. El orden correcto es otro:
 
 1. Define la variable que realmente puedes mover.
 2. Escribe la magnitud que quieres maximizar.

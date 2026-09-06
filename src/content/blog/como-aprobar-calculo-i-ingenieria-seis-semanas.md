@@ -52,7 +52,7 @@ La idea importante no es el resultado, sino reconocer la indeterminación y eleg
 
 ## Semana 2: derivadas con interpretación
 
-En la segunda semana repasa reglas de derivación, derivada implícita, recta tangente, crecimiento y extremos. Cada derivada debe responder a una pregunta: cómo cambia una función, dónde crece, dónde se aplana o dónde cambia de comportamiento.
+En la segunda semana repasa reglas de derivación, [continuidad y derivabilidad](/blog/continuidad-derivabilidad-diferencias-problemas/), recta tangente, crecimiento y extremos. Cada derivada debe responder a una pregunta: cómo cambia una función, dónde crece, dónde se aplana o dónde cambia de comportamiento.
 
 La recta tangente en \(x=a\) se escribe así:
 
@@ -64,7 +64,7 @@ Si esta fórmula parece mecánica, reescríbela en palabras: parto del valor de 
 
 ## Semana 3: estudio de funciones y problemas completos
 
-Aquí conviene unir límites y derivadas. Practica dominio, cortes, asíntotas, monotonía, extremos, concavidad y representación cualitativa. En Cálculo I, un estudio de función mal ordenado suele costar muchos puntos aunque las derivadas estén bien.
+Aquí conviene unir límites y derivadas. Practica dominio, cortes, asíntotas, monotonía, extremos, concavidad y representación cualitativa siguiendo un [estudio completo de una función paso a paso](/blog/estudio-completo-funcion-paso-a-paso/). En Cálculo I, un estudio de función mal ordenado suele costar muchos puntos aunque las derivadas estén bien.
 
 Orden recomendado:
 
@@ -109,7 +109,7 @@ Según la universidad, esta semana puede incluir integrales impropias, series, a
 
 - Un límite que usa Taylor o equivalentes.
 - Una integral con interpretación geométrica.
-- Un problema de optimización con dominio.
+- Un [problema de optimización con dominio](/blog/problemas-optimizacion-derivadas-ejercicios-resueltos/).
 - Un estudio de función con asíntotas y extremos.
 
 Haz ejercicios de examen antiguos. Si no los tienes, crea simulacros mezclando dos problemas de cada bloque.

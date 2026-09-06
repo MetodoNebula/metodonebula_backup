@@ -6,7 +6,7 @@ description: Método completo para resolver límites: sustitución, factorizaci�
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: como-aprobar-calculo-i-ingenieria-seis-semanas,que-son-las-derivadas-y-para-que-se-utilizan,derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos
+relatedPosts: regla-lhopital-cuando-usarla-ejercicios,continuidad-derivabilidad-diferencias-problemas,como-aprobar-calculo-i-ingenieria-seis-semanas
 image: /favicon.svg
 ---
 
@@ -735,7 +735,7 @@ Este ejercicio combina existencia del límite, igualdad de laterales y coinciden
 9. Si hay oscilación acotada, busca un encaje.
 10. Comprueba laterales, signo y orden de magnitud.
 
-La regla de L'Hôpital puede ser útil para ciertas formas $0/0$ y $\infty/\infty$, pero tiene hipótesis y no debe sustituir estas transformaciones básicas. Merece un estudio independiente porque aplicarla a formas no válidas conduce a errores.
+La [regla de L'Hôpital y sus condiciones de aplicación](/blog/regla-lhopital-cuando-usarla-ejercicios/) puede ser útil para ciertas formas $0/0$ y $\infty/\infty$, pero tiene hipótesis y no debe sustituir estas transformaciones básicas. Aplicarla a formas no válidas conduce a errores.
 
 ## Lectura gráfica y comprobación numérica
 

@@ -56,7 +56,7 @@ const LATEX_GRAPH_DIMENSIONS: Record<string, { width: number; height: number }> 
   "/assets/latex/integral-area.svg": { width: 198, height: 120 },
   "/assets/latex/jacobian-coordinate-transform.svg": { width: 860, height: 420 },
   "/assets/latex/multivariable-extrema-contours.svg": { width: 1080, height: 440 },
-  "/assets/latex/media-mediana-moda-eso.svg": { width: 960, height: 390 },
+  "/assets/latex/media-mediana-moda-eso.svg": { width: 960, height: 470 },
   "/assets/latex/quadratic-optimization.svg": { width: 228, height: 224 },
 };
 

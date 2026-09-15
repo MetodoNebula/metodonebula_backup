@@ -51,10 +51,12 @@ const LATEX_GRAPH_DIMENSIONS: Record<string, { width: number; height: number }> 
   "/assets/latex/derivative-tangent.svg": { width: 202, height: 126 },
   "/assets/latex/double-integral-region.svg": { width: 1040, height: 480 },
   "/assets/latex/gradient-level-curves.svg": { width: 720, height: 420 },
+  "/assets/latex/frecuencias-absoluta-relativa-eso.svg": { width: 920, height: 480 },
   "/assets/latex/implicit-circle-tangent.svg": { width: 720, height: 420 },
   "/assets/latex/integral-area.svg": { width: 198, height: 120 },
   "/assets/latex/jacobian-coordinate-transform.svg": { width: 860, height: 420 },
   "/assets/latex/multivariable-extrema-contours.svg": { width: 1080, height: 440 },
+  "/assets/latex/media-mediana-moda-eso.svg": { width: 960, height: 390 },
   "/assets/latex/quadratic-optimization.svg": { width: 228, height: 224 },
 };
 

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="480" viewBox="0 0 920 480" role="img" aria-labelledby="title desc">
+  <title id="title">Frecuencia absoluta y relativa del número de mascotas</title>
+  <desc id="desc">Diagrama de barras para catorce estudiantes: cero mascotas tiene frecuencia cuatro, una tiene cinco, dos tiene tres y tres tiene dos. Cada barra muestra además su porcentaje.</desc>
+  <rect width="920" height="480" rx="22" fill="#f8fafc"/>
+  <text x="460" y="48" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#0f172a">Número de mascotas en un grupo de 14 estudiantes</text>
+  <g transform="translate(115 365)">
+    <g stroke="#cbd5e1" stroke-width="2">
+      <line x1="0" y1="0" x2="690" y2="0"/><line x1="0" y1="-55" x2="690" y2="-55"/><line x1="0" y1="-110" x2="690" y2="-110"/><line x1="0" y1="-165" x2="690" y2="-165"/><line x1="0" y1="-220" x2="690" y2="-220"/><line x1="0" y1="-275" x2="690" y2="-275"/>
+    </g>
+    <g stroke="#475569" stroke-width="3"><line x1="0" y1="0" x2="710" y2="0"/><line x1="0" y1="0" x2="0" y2="-295"/></g>
+    <g font-family="Arial, sans-serif" font-size="16" fill="#334155" text-anchor="end">
+      <text x="-12" y="6">0</text><text x="-12" y="-49">1</text><text x="-12" y="-104">2</text><text x="-12" y="-159">3</text><text x="-12" y="-214">4</text><text x="-12" y="-269">5</text>
+    </g>
+    <g>
+      <rect x="78" y="-220" width="94" height="220" rx="6" fill="#60a5fa"/><rect x="244" y="-275" width="94" height="275" rx="6" fill="#2563eb"/><rect x="410" y="-165" width="94" height="165" rx="6" fill="#60a5fa"/><rect x="576" y="-110" width="94" height="110" rx="6" fill="#60a5fa"/>
+    </g>
+    <g font-family="Arial, sans-serif" text-anchor="middle">
+      <text x="125" y="-234" font-size="20" font-weight="700" fill="#0f172a">4</text><text x="125" y="-213" font-size="16" fill="#334155">28,6 %</text>
+      <text x="291" y="-289" font-size="20" font-weight="700" fill="#0f172a">5</text><text x="291" y="-268" font-size="16" fill="#334155">35,7 %</text>
+      <text x="457" y="-179" font-size="20" font-weight="700" fill="#0f172a">3</text><text x="457" y="-158" font-size="16" fill="#334155">21,4 %</text>
+      <text x="623" y="-124" font-size="20" font-weight="700" fill="#0f172a">2</text><text x="623" y="-103" font-size="16" fill="#334155">14,3 %</text>
+      <text x="125" y="29" font-size="19" fill="#0f172a">0</text><text x="291" y="29" font-size="19" fill="#0f172a">1</text><text x="457" y="29" font-size="19" fill="#0f172a">2</text><text x="623" y="29" font-size="19" fill="#0f172a">3</text>
+    </g>
+  </g>
+  <text x="460" y="430" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#0f172a">Número de mascotas</text>
+  <text x="34" y="220" transform="rotate(-90 34 220)" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#0f172a">Frecuencia absoluta (alumnos)</text>
+</svg>

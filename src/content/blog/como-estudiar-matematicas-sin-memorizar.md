@@ -31,6 +31,8 @@ Para estudiar una asignatura cuantitativa conviene trabajar cada bloque así:
 
 La fase más incómoda es la tercera, pero también es la que más revela. Si no puedes explicar un paso sin mirar, todavía no está consolidado.
 
+En Estadística de ESO, aplica esas fases a una lista pequeña de datos: construye una tabla, calcula media, mediana y moda, y cambia uno de los valores para explicar qué medida se modifica. La guía de [estadística descriptiva para ESO](/blog/estadistica-descriptiva-eso-media-mediana-moda/) ofrece un ejemplo completo para practicarlo.
+
 ## Ejemplo: optimización antes de derivar
 
 Imagina un [ejercicio de optimización con derivadas](/blog/problemas-optimizacion-derivadas-ejercicios-resueltos/): "encuentra el área máxima". Muchos alumnos empiezan derivando cualquier expresión que aparece. El orden correcto es otro:

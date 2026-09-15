@@ -6,7 +6,7 @@ description: Un método común para problemas de Física y Química: datos, magn
 tag: Ciencia
 category: Física y Química
 relatedService: /clases-particulares/fisica-ingenieria/
-relatedPosts: preparar-selectividad-con-calendario,como-estudiar-matematicas-sin-memorizar
+relatedPosts: mru-eso-movimiento-rectilineo-uniforme-ejercicios,mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios,gravitacion-eso-ley-universal-peso-ejercicios
 image: /favicon.svg
 ---
 
@@ -64,5 +64,7 @@ Para cada problema, deja siempre la misma estructura:
 6. Comprobación final.
 
 Parece lento al principio, pero acelera mucho cuando el examen mezcla temas. El objetivo es reducir decisiones improvisadas.
+
+Para aplicar este método con contenidos de ESO, puedes practicar con las guías de [MRU](/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/), [MRUA](/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/) y [gravitación](/blog/gravitacion-eso-ley-universal-peso-ejercicios/).
 
 Si necesitas apoyo en problemas técnicos, revisa [Física para Bachillerato e Ingeniería](/clases-particulares/fisica-ingenieria/), [Química](/clases-particulares/quimica/) o [contacta](/contacto/) para organizar un plan.

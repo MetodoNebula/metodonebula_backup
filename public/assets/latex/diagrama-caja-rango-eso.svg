@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="350" viewBox="0 0 960 350" role="img" aria-labelledby="title desc">
+  <title id="title">Diagrama de caja con mínimo, cuartiles, mediana y máximo</title>
+  <desc id="desc">Un diagrama de caja para los valores cuatro, seis, ocho coma cinco, once y trece. Los bigotes van de cuatro a seis y de once a trece; la caja va de seis a once y la línea central muestra la mediana ocho coma cinco.</desc>
+  <rect width="960" height="350" rx="24" fill="#f8fafc"/>
+  <text x="480" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#0f172a">Diagrama de caja: un resumen visual de los cuartiles</text>
+  <text x="480" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#475569">Mínimo 4 · Q1 6 · mediana 8,5 · Q3 11 · máximo 13</text>
+  <g transform="translate(130 205)">
+    <line x1="0" y1="0" x2="700" y2="0" stroke="#475569" stroke-width="4"/>
+    <line x1="0" y1="-38" x2="0" y2="38" stroke="#0f766e" stroke-width="4"/>
+    <line x1="700" y1="-38" x2="700" y2="38" stroke="#7c3aed" stroke-width="4"/>
+    <line x1="0" y1="0" x2="200" y2="0" stroke="#0f766e" stroke-width="5"/>
+    <line x1="500" y1="0" x2="700" y2="0" stroke="#7c3aed" stroke-width="5"/>
+    <rect x="200" y="-55" width="300" height="110" rx="12" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+    <rect x="200" y="-55" width="125" height="110" rx="10" fill="#bfdbfe"/>
+    <rect x="325" y="-55" width="175" height="110" rx="0" fill="#e0e7ff"/>
+    <line x1="325" y1="-55" x2="325" y2="55" stroke="#dc2626" stroke-width="5"/>
+    <g font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle"><text x="0" y="82" fill="#0f766e">4</text><text x="200" y="82" fill="#2563eb">6</text><text x="325" y="82" fill="#b91c1c">8,5</text><text x="500" y="82" fill="#2563eb">11</text><text x="700" y="82" fill="#7c3aed">13</text></g>
+    <g font-family="Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle"><text x="0" y="-72" fill="#0f766e">mínimo</text><text x="200" y="-72" fill="#2563eb">Q1</text><text x="325" y="-72" fill="#b91c1c">mediana</text><text x="500" y="-72" fill="#2563eb">Q3</text><text x="700" y="-72" fill="#7c3aed">máximo</text></g>
+  </g>
+  <rect x="225" y="302" width="510" height="28" rx="14" fill="#e2e8f0"/>
+  <text x="480" y="322" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#334155">El 50 % central de los datos está entre Q1 = 6 y Q3 = 11.</text>
+</svg>

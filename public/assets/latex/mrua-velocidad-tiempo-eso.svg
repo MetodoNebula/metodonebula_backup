@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="400" viewBox="0 0 920 400" role="img" aria-labelledby="title desc">
+  <title id="title">Movimiento rectilíneo uniformemente acelerado en una gráfica velocidad tiempo</title>
+  <desc id="desc">Una recta ascendente representa un móvil que parte del reposo y aumenta su velocidad dos metros por segundo cada segundo. A los cuatro segundos alcanza ocho metros por segundo.</desc>
+  <rect width="920" height="400" rx="24" fill="#f8fafc"/>
+  <text x="460" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#0f172a">MRUA: misma aceleración, recta ascendente</text>
+  <text x="460" y="76" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#475569">El móvil gana 2 m/s de velocidad cada segundo.</text>
+  <g transform="translate(175 310)">
+    <line x1="0" y1="0" x2="460" y2="0" stroke="#475569" stroke-width="4"/>
+    <line x1="0" y1="0" x2="0" y2="-185" stroke="#475569" stroke-width="4"/>
+    <g stroke="#cbd5e1" stroke-width="2"><line x1="0" y1="-43" x2="420" y2="-43"/><line x1="0" y1="-86" x2="420" y2="-86"/><line x1="0" y1="-129" x2="420" y2="-129"/><line x1="0" y1="-172" x2="420" y2="-172"/></g>
+    <path d="M0 0 L360 -172" fill="none" stroke="#16a34a" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="9" fill="#16a34a"/><circle cx="180" cy="-86" r="9" fill="#16a34a"/><circle cx="360" cy="-172" r="9" fill="#16a34a"/>
+    <g font-family="Arial, sans-serif" font-size="18" fill="#0f172a" text-anchor="middle"><text x="0" y="31">0</text><text x="180" y="31">2</text><text x="360" y="31">4</text></g>
+    <g font-family="Arial, sans-serif" font-size="18" fill="#0f172a" text-anchor="end"><text x="-14" y="6">0</text><text x="-14" y="-80">4</text><text x="-14" y="-166">8</text></g>
+    <text x="-18" y="-193" text-anchor="end" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#334155">velocidad (m/s)</text>
+    <text x="460" y="31" text-anchor="end" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#334155">tiempo (s)</text>
+  </g>
+  <rect x="640" y="150" width="180" height="78" rx="14" fill="#dcfce7"/>
+  <text x="730" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#15803d">a = 2 m/s²</text>
+  <text x="730" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#334155">de 0 a 8 m/s</text>
+  <text x="460" y="367" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#334155">La inclinación de la recta indica la aceleración.</text>
+</svg>

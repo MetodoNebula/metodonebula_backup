@@ -1,12 +1,12 @@
 ---
 title: "Estadística descriptiva en ESO: media, mediana, moda y frecuencias"
-date: "2026-09-15"
-updated: "2026-09-15"
+date: "2026-09-08"
+updated: "2026-09-08"
 description: "Aprende estadística descriptiva para ESO: frecuencia absoluta y relativa, media, mediana y moda con tablas, diagramas y ejercicios resueltos."
 tag: "ESO"
 category: "Estadística"
 relatedService: "/clases-particulares/matematicas-universidad/"
-relatedPosts: "como-estudiar-matematicas-sin-memorizar,como-aprobar-estadistica-psicologia-sin-base-matematica,estadistica-desde-cero-para-elegir-contrastes"
+relatedPosts: "estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja,como-estudiar-matematicas-sin-memorizar,como-aprobar-estadistica-psicologia-sin-base-matematica"
 image: "/assets/latex/frecuencias-absoluta-relativa-eso.svg"
 ---
 
@@ -408,6 +408,8 @@ Las frecuencias relativas exactas deben sumar uno. Podría tratarse de un proble
 ## Resumen para estudiar
 
 La frecuencia absoluta cuenta; la relativa compara con el total. La media reparte el total por igual; la mediana localiza el centro de los datos ordenados; la moda identifica el valor más repetido. Antes de operar, organiza los datos y al terminar comprueba sumas, posiciones y unidades.
+
+Cuando domines estas medidas, continúa con [rango, cuartiles y diagrama de caja en ESO](/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja/): aprenderás a describir cuánto se dispersan los datos y dónde se concentra la mitad central.
 
 Para afianzar este método, no memorices una tabla modelo: cambia los datos de un ejercicio, vuelve a ordenar y explica en voz alta qué representa cada resultado. La guía sobre [cómo estudiar matemáticas sin memorizar fórmulas](/blog/como-estudiar-matematicas-sin-memorizar/) puede ayudarte a convertir esa práctica en rutina.
 

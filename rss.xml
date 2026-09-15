@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
+      <title>Estadística descriptiva en ESO II: rango, cuartiles y diagrama de caja</title>
+      <link>https://metodonebula.es/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja/</link>
+      <guid>https://metodonebula.es/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja/</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Continúa Estadística de ESO con rango, cuartiles, recorrido intercuartílico y diagramas de caja, explicados con ejemplos y ejercicios resueltos.</description>
+    </item>
+    <item>
+      <title>Estadística descriptiva en ESO: media, mediana, moda y frecuencias</title>
+      <link>https://metodonebula.es/blog/estadistica-descriptiva-eso-media-mediana-moda/</link>
+      <guid>https://metodonebula.es/blog/estadistica-descriptiva-eso-media-mediana-moda/</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Aprende estadística descriptiva para ESO: frecuencia absoluta y relativa, media, mediana y moda con tablas, diagramas y ejercicios resueltos.</description>
+    </item>
+    <item>
       <title>Cambio de variables y jacobiano en integrales dobles</title>
       <link>https://metodonebula.es/blog/cambio-variables-jacobiano-integrales-dobles/</link>
       <guid>https://metodonebula.es/blog/cambio-variables-jacobiano-integrales-dobles/</guid>
@@ -57,11 +71,25 @@
       <description>Distingue continuidad y derivabilidad, clasifica discontinuidades y resuelve funciones a trozos, parámetros, esquinas y tangentes paso a paso.</description>
     </item>
     <item>
+      <title>Gravitación en ESO: ley universal, masa, peso y ejercicios resueltos</title>
+      <link>https://metodonebula.es/blog/gravitacion-eso-ley-universal-peso-ejercicios/</link>
+      <guid>https://metodonebula.es/blog/gravitacion-eso-ley-universal-peso-ejercicios/</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Aprende gravitación en ESO: fuerza gravitatoria, ley de Newton, diferencia entre masa y peso, caída libre y ejercicios resueltos.</description>
+    </item>
+    <item>
       <title>Regla de L'Hôpital: cuándo utilizarla y cuándo no</title>
       <link>https://metodonebula.es/blog/regla-lhopital-cuando-usarla-ejercicios/</link>
       <guid>https://metodonebula.es/blog/regla-lhopital-cuando-usarla-ejercicios/</guid>
       <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
       <description>Aprende cuándo se puede aplicar la regla de L'Hôpital, cómo transformar otras indeterminaciones y qué errores evitar con ejercicios resueltos.</description>
+    </item>
+    <item>
+      <title>MRUA en ESO: movimiento rectilíneo acelerado con fórmulas y ejercicios</title>
+      <link>https://metodonebula.es/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/</link>
+      <guid>https://metodonebula.es/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Aprende MRUA en ESO: aceleración, velocidad, posición y gráficas con ejemplos resueltos y control de unidades.</description>
     </item>
     <item>
       <title>Cómo resolver límites: indeterminaciones y ejercicios</title>
@@ -90,6 +118,13 @@
       <guid>https://metodonebula.es/blog/integracion-por-sustitucion-cambio-variable-ejercicios/</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
       <description>Aprende integración por sustitución con criterio: cómo elegir el cambio de variable, transformar diferenciales y límites, y comprobar cada resultado.</description>
+    </item>
+    <item>
+      <title>MRU en ESO: movimiento rectilíneo uniforme con fórmulas y ejercicios</title>
+      <link>https://metodonebula.es/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/</link>
+      <guid>https://metodonebula.es/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 GMT</pubDate>
+      <description>Aprende MRU en ESO: posición, velocidad, tiempo y gráficas con un método claro, unidades y ejercicios resueltos.</description>
     </item>
     <item>
       <title>Integral definida e indefinida: diferencias y ejemplos</title>

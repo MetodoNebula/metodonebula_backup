@@ -29,6 +29,10 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pagina/7/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/</loc>
     <priority>0.6</priority>
   </url>
@@ -43,6 +47,10 @@
   <url>
     <loc>https://metodonebula.es/blog/categoria/estadistica/</loc>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/categoria/estadistica/pagina/2/</loc>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/categoria/programacion-y-datos/</loc>
@@ -67,6 +75,14 @@
   <url>
     <loc>https://metodonebula.es/blog/categoria/carrera-tecnologica/</loc>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja/</loc>
+    <lastmod>2026-09-15</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/estadistica-descriptiva-eso-media-mediana-moda/</loc>
+    <lastmod>2026-09-08</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/cambio-variables-jacobiano-integrales-dobles/</loc>
@@ -101,8 +117,16 @@
     <lastmod>2026-08-31</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/gravitacion-eso-ley-universal-peso-ejercicios/</loc>
+    <lastmod>2026-08-26</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/regla-lhopital-cuando-usarla-ejercicios/</loc>
     <lastmod>2026-08-23</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/</loc>
+    <lastmod>2026-08-19</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/como-resolver-limites-indeterminaciones-ejercicios/</loc>
@@ -118,6 +142,10 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/integracion-por-sustitucion-cambio-variable-ejercicios/</loc>
+    <lastmod>2026-08-12</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/</loc>
     <lastmod>2026-08-12</lastmod>
   </url>
   <url>

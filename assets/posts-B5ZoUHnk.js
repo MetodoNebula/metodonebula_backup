@@ -2159,6 +2159,8 @@ Para estudiar una asignatura cuantitativa conviene trabajar cada bloque así:
 
 La fase más incómoda es la tercera, pero también es la que más revela. Si no puedes explicar un paso sin mirar, todavía no está consolidado.
 
+En Estadística de ESO, aplica esas fases a una lista pequeña de datos: construye una tabla, calcula media, mediana y moda, y cambia uno de los valores para explicar qué medida se modifica. La guía de [estadística descriptiva para ESO](/blog/estadistica-descriptiva-eso-media-mediana-moda/) ofrece un ejemplo completo para practicarlo.
+
 ## Ejemplo: optimización antes de derivar
 
 Imagina un [ejercicio de optimización con derivadas](/blog/problemas-optimizacion-derivadas-ejercicios-resueltos/): "encuentra el área máxima". Muchos alumnos empiezan derivando cualquier expresión que aparece. El orden correcto es otro:
@@ -2246,7 +2248,7 @@ No dejes los past papers para el final. Empieza separando preguntas por tema, co
 Si el tiempo es el problema, no aceleres a ciegas. Observa en qué te detienes: leer, decidir el método, operar o redactar. Cada atasco se entrena de manera distinta.
 
 Para organizar el trabajo de varias asignaturas, consulta la guía sobre [IB y GCSE con rúbrica y calendario](/blog/ib-gcse-como-preparar-examenes-internacionales/). Si quieres transformar tu programa y tus preguntas de práctica en un plan concreto, puedes ver las [clases particulares para IB y GCSE](/clases-particulares/gcse-ib/) o [contactar con Nebula](/contacto/).
-`,b=`---
+`,v=`---
 title: Cómo preparar Matemáticas II para la PAU: qué practicar y cómo corregir
 date: 2026-07-21
 updated: 2026-07-21
@@ -2312,7 +2314,7 @@ En las tres semanas previas, alterna tres días de bloques débiles, dos días d
 La señal de que avanzas no es que el examen “te suene”. Es que puedes decidir el método, ejecutar los pasos sin depender de una solución y explicar dónde comprobarías un resultado.
 
 Para planificar la preparación general, consulta [cómo organizar la Selectividad con un calendario](/blog/preparar-selectividad-con-calendario/). Si necesitas convertir tus modelos de PAU en un plan de trabajo y corrección adaptado a tu punto de partida, revisa las [clases particulares para Selectividad y PAU](/clases-particulares/selectividad/) o [cuéntanos tu caso](/contacto/).
-`,v=`---
+`,b=`---
 title: Cómo resolver límites: indeterminaciones y ejercicios
 date: 2026-08-17
 updated: 2026-08-17
@@ -6030,6 +6032,747 @@ La última frase importa: no prometas más de lo que el diseño permite.
 
 Para reforzar este bloque, revisa [p-valor, intervalo de confianza y tamaño del efecto](/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/) o [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
 `,S=`---
+title: "Estadística descriptiva en ESO II: rango, cuartiles y diagrama de caja"
+date: "2026-09-15"
+updated: "2026-09-15"
+description: "Continúa Estadística de ESO con rango, cuartiles, recorrido intercuartílico y diagramas de caja, explicados con ejemplos y ejercicios resueltos."
+tag: "ESO"
+category: "Estadística"
+relatedService: "/clases-particulares/matematicas-universidad/"
+relatedPosts: "estadistica-descriptiva-eso-media-mediana-moda,como-estudiar-matematicas-sin-memorizar,estadistica-desde-cero-para-elegir-contrastes"
+image: "/assets/latex/diagrama-caja-rango-eso.svg"
+---
+
+Esta es la continuación de la guía de [estadística descriptiva en ESO: media, mediana, moda y frecuencias](/blog/estadistica-descriptiva-eso-media-mediana-moda/). Allí resumimos un grupo con un valor central; aquí damos el siguiente paso: medir cuánto se separan los datos y localizar qué ocurre en sus distintas zonas.
+
+Dos grupos pueden tener la misma media y comportarse de forma muy distinta. El **rango** muestra la distancia entre el dato menor y el mayor. Los **cuartiles** dividen los datos ordenados en cuatro partes y ayudan a saber dónde está el 50 % central. El **diagrama de caja** reúne esas ideas en un dibujo sencillo.
+
+## Antes de empezar: ordenar no es opcional
+
+Para calcular media no importa el orden de una lista. Para mediana, cuartiles o percentiles, sí importa. Por eso el primer paso es siempre ordenar de menor a mayor.
+
+Usaremos los minutos que diez estudiantes leen cada semana:
+
+$$
+9,4,12,7,10,5,13,8,11,6.
+$$
+
+Ordenados quedan así:
+
+$$
+4,5,6,7,8,9,10,11,12,13.
+$$
+
+Trabajaremos con esta lista durante toda la guía. Tener un solo ejemplo evita perderse entre cálculos nuevos y permite comprobar que cada número sale de los mismos datos.
+
+## El rango: una medida rápida de dispersión
+
+La media, mediana y moda describen una posición o un valor habitual. El **rango** —también llamado recorrido— describe la amplitud de los datos:
+
+$$
+\\text{rango}=\\text{valor máximo}-\\text{valor mínimo}.
+$$
+
+En la lista de lectura, el mínimo es $4$ y el máximo es $13$. Por tanto:
+
+$$
+\\text{rango}=13-4=9.
+$$
+
+El rango es de $9$ minutos. Eso no significa que cada estudiante se diferencie nueve minutos de los demás: significa que hay nueve minutos entre el caso más bajo y el más alto.
+
+### Qué nos dice y qué no nos dice el rango
+
+El rango es fácil y útil para una primera comparación. Si el grupo A tiene rango $3$ y el grupo B tiene rango $15$, los datos del grupo B están más extendidos entre sus extremos.
+
+Pero utiliza solo dos datos: el mínimo y el máximo. Observa estos dos conjuntos:
+
+$$
+A: 4,7,7,7,7,7,7,10
+$$
+
+$$
+B: 4,5,6,7,8,9,10,10.
+$$
+
+Los dos tienen rango $10-4=6$, pero no se reparten igual. En A casi todos los valores se amontonan alrededor de $7$; en B están más distribuidos. Para describir mejor la parte central necesitamos los cuartiles.
+
+## Qué son los cuartiles
+
+Los **cuartiles** son tres valores que, tras ordenar los datos, los separan aproximadamente en cuatro grupos del mismo tamaño:
+
+- **Primer cuartil**, $Q_1$: deja aproximadamente el 25 % de los datos por debajo.
+- **Segundo cuartil**, $Q_2$: es la mediana; deja aproximadamente el 50 % por debajo.
+- **Tercer cuartil**, $Q_3$: deja aproximadamente el 75 % de los datos por debajo.
+
+Una buena imagen mental es una fila de alumnos ordenada por una característica. La mediana busca el centro de toda la fila. $Q_1$ busca el centro de la mitad de abajo y $Q_3$, el centro de la mitad de arriba.
+
+En algunos libros pueden aparecer reglas ligeramente distintas para calcular cuartiles cuando el número de datos no encaja de forma exacta. En ESO, sigue siempre el método que use tu profesor. Lo importante es ordenar primero, dividir de forma coherente y explicar qué parte de los datos representa cada cuartil.
+
+## Cómo calcular $Q_1$, mediana y $Q_3$ paso a paso
+
+Partimos de los diez tiempos ordenados:
+
+$$
+4,5,6,7,8,9,10,11,12,13.
+$$
+
+### 1. Hallar la mediana, que es $Q_2$
+
+Hay diez datos, un número par. Los dos centrales son el quinto y el sexto: $8$ y $9$.
+
+$$
+Q_2=\\text{mediana}=\\frac{8+9}{2}=8{,}5.
+$$
+
+### 2. Dividir la lista en dos mitades
+
+La mitad inferior contiene los cinco primeros valores:
+
+$$
+4,5,6,7,8.
+$$
+
+La mitad superior contiene los cinco últimos:
+
+$$
+9,10,11,12,13.
+$$
+
+Como la mediana no es un dato de la lista en este caso, no hay duda: cada mitad tiene cinco datos.
+
+### 3. Buscar el centro de cada mitad
+
+El centro de la mitad inferior es $6$, así que:
+
+$$
+Q_1=6.
+$$
+
+El centro de la mitad superior es $11$, así que:
+
+$$
+Q_3=11.
+$$
+
+![Lista de diez datos ordenados, dividida en mitad inferior y superior, con Q1 igual a seis, mediana igual a ocho coma cinco y Q3 igual a once](/assets/latex/cuartiles-datos-ordenados-eso.svg)
+
+En el ejemplo quedan cuatro zonas fáciles de leer:
+
+| Zona | Valores o límites | Qué representa |
+|---|---|---|
+| Desde el mínimo hasta $Q_1$ | de 4 a 6 | El primer cuarto de los datos |
+| Entre $Q_1$ y la mediana | de 6 a 8,5 | El segundo cuarto |
+| Entre la mediana y $Q_3$ | de 8,5 a 11 | El tercer cuarto |
+| Desde $Q_3$ hasta el máximo | de 11 a 13 | El último cuarto |
+
+Los cuartiles no obligan a que haya exactamente el mismo número entero de datos en cada intervalo. Son puntos de corte que resumen una posición dentro de una lista.
+
+## Recorrido intercuartílico: la amplitud de la zona central
+
+El **recorrido intercuartílico** se abrevia a veces como RIC y mide la distancia entre el tercer y el primer cuartil:
+
+$$
+RIC=Q_3-Q_1.
+$$
+
+En nuestro ejemplo:
+
+$$
+RIC=11-6=5.
+$$
+
+El 50 % central de los tiempos está en un intervalo de cinco minutos, entre $6$ y $11$. Esta medida es especialmente útil porque no depende tanto de los valores extremos como el rango.
+
+Compara:
+
+- El rango usa solo $4$ y $13$: vale $9$.
+- El RIC usa la zona central, de $6$ a $11$: vale $5$.
+
+Si un día un estudiante leyera $60$ minutos, el rango crecería mucho. En cambio, $Q_1$ y $Q_3$ podrían permanecer iguales si el resto de los datos no cambia. Por eso los cuartiles ayudan a describir el grupo habitual sin que un caso excepcional domine el resumen.
+
+## Cómo leer un diagrama de caja
+
+Un **diagrama de caja y bigotes** representa cinco números:
+
+1. mínimo;
+2. $Q_1$;
+3. mediana;
+4. $Q_3$;
+5. máximo.
+
+La caja empieza en $Q_1$ y termina en $Q_3$. La línea dentro de la caja es la mediana. Los segmentos que salen a izquierda y derecha, llamados bigotes, conectan con el mínimo y el máximo en este nivel introductorio.
+
+![Diagrama de caja para datos con mínimo cuatro, Q1 seis, mediana ocho coma cinco, Q3 once y máximo trece](/assets/latex/diagrama-caja-rango-eso.svg)
+
+Este diagrama permite afirmar, sin mirar la lista completa, que:
+
+- los datos van desde $4$ hasta $13$;
+- la mitad de los datos está entre $6$ y $11$;
+- el centro se sitúa en $8{,}5$;
+- el intervalo entre $Q_1$ y $Q_3$ mide $5$.
+
+No midas la anchura de la caja en píxeles: lee los valores de la escala. Una caja más ancha indica más dispersión solo si los dos diagramas usan la misma escala horizontal.
+
+## Comparar dos grupos con un diagrama de caja
+
+Imagina dos grupos que han hecho el mismo ejercicio de lectura. Ambos tienen mediana $8{,}5$ minutos, pero sus resúmenes son:
+
+| Grupo | Mínimo | $Q_1$ | Mediana | $Q_3$ | Máximo |
+|---|---:|---:|---:|---:|---:|
+| A | 4 | 6 | 8,5 | 11 | 13 |
+| B | 1 | 7 | 8,5 | 10 | 17 |
+
+Los dos grupos comparten mediana: el valor central es igual. Sin embargo:
+
+$$
+RIC_A=11-6=5
+$$
+
+$$
+RIC_B=10-7=3.
+$$
+
+El 50 % central de B está más concentrado. Pero B tiene extremos más alejados, pues su rango es $17-1=16$, frente al rango $9$ de A. Para comparar con cuidado conviene mirar tanto la caja como los bigotes; una sola medida no cuenta toda la historia.
+
+## Errores frecuentes
+
+### Calcular cuartiles con los datos desordenados
+
+Los cuartiles describen posiciones. Si no ordenas, «el dato central» no tiene significado estadístico.
+
+### Confundir $Q_1$ con el dato mínimo
+
+$Q_1$ no es el primer dato: marca aproximadamente el 25 % de la lista. En el ejemplo, el mínimo es $4$ y $Q_1$ es $6$.
+
+### Olvidar que $Q_2$ es la mediana
+
+No hace falta hacer dos cálculos distintos. El segundo cuartil y la mediana son el mismo punto de corte.
+
+### Decir que la caja contiene todos los datos
+
+La caja contiene el 50 % central, no el 100 %. Los bigotes muestran lo que queda hacia el mínimo y el máximo.
+
+### Confundir rango y recorrido intercuartílico
+
+El rango va de mínimo a máximo. El RIC va de $Q_1$ a $Q_3$. El primero mira toda la amplitud; el segundo, la zona central.
+
+## Ejercicios para practicar
+
+### 1. Rango
+
+Las temperaturas máximas de una semana fueron:
+
+$$
+18,21,19,23,20,22,17.
+$$
+
+Calcula el rango.
+
+### 2. Cuartiles en una lista de diez datos
+
+Ordena y calcula $Q_1$, $Q_2$ y $Q_3$ de:
+
+$$
+14,8,10,12,6,11,7,9,13,5.
+$$
+
+### 3. Recorrido intercuartílico
+
+En un grupo se ha calculado $Q_1=18$ y $Q_3=27$. Halla el RIC e interpreta el resultado.
+
+### 4. Leer un resumen de cinco números
+
+Un diagrama de caja tiene mínimo $2$, $Q_1=5$, mediana $7$, $Q_3=9$ y máximo $14$. Indica el rango y el RIC.
+
+### 5. Elegir la afirmación correcta
+
+Si un grupo tiene $Q_1=10$ y $Q_3=18$, ¿cuál es correcta?
+
+- A. Todos los datos están entre 10 y 18.
+- B. El 50 % central de los datos está entre 10 y 18.
+- C. La media vale 14.
+
+## Soluciones razonadas
+
+### Solución 1
+
+El mínimo es $17$ y el máximo es $23$. Luego:
+
+$$
+\\text{rango}=23-17=6.
+$$
+
+Las temperaturas se extienden seis grados entre los extremos de la semana.
+
+### Solución 2
+
+La lista ordenada es:
+
+$$
+5,6,7,8,9,10,11,12,13,14.
+$$
+
+Los dos valores centrales son $9$ y $10$, por lo que:
+
+$$
+Q_2=9{,}5.
+$$
+
+Las mitades son $5,6,7,8,9$ y $10,11,12,13,14$. Sus centros son $7$ y $12$. Por tanto:
+
+$$
+Q_1=7,qquad Q_2=9{,}5,qquad Q_3=12.
+$$
+
+### Solución 3
+
+$$
+RIC=27-18=9.
+$$
+
+El 50 % central de los datos ocupa un intervalo de nueve unidades, desde $18$ hasta $27$.
+
+### Solución 4
+
+$$
+\\text{rango}=14-2=12
+$$
+
+$$
+RIC=9-5=4.
+$$
+
+El conjunto completo se extiende doce unidades, mientras que la mitad central se concentra en una amplitud de cuatro.
+
+### Solución 5
+
+La respuesta correcta es la B. $Q_1$ y $Q_3$ delimitan la mitad central de los datos. No permiten saber que todos estén en ese intervalo ni calculan por sí solos la media.
+
+## Resumen para estudiar
+
+Ordena antes de localizar posiciones. El rango es máximo menos mínimo; los cuartiles sitúan el 25 %, 50 % y 75 % de la lista; el RIC es $Q_3-Q_1$. En un diagrama de caja, los extremos y los bigotes muestran el recorrido total, mientras que la caja muestra el 50 % central.
+
+Si aún no dominas las medidas básicas, empieza por la guía de [media, mediana, moda y frecuencias](/blog/estadistica-descriptiva-eso-media-mediana-moda/) y vuelve después a estos ejercicios. Para crear una rutina de práctica que no dependa de memorizar pasos, puede ayudarte la guía de [cómo estudiar matemáticas sin memorizar](/blog/como-estudiar-matematicas-sin-memorizar/).
+
+Si necesitas practicar Estadística o Matemáticas de ESO con ejercicios de tu temario, puedes consultar las [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
+`,P=`---
+title: "Estadística descriptiva en ESO: media, mediana, moda y frecuencias"
+date: "2026-09-08"
+updated: "2026-09-08"
+description: "Aprende estadística descriptiva para ESO: frecuencia absoluta y relativa, media, mediana y moda con tablas, diagramas y ejercicios resueltos."
+tag: "ESO"
+category: "Estadística"
+relatedService: "/clases-particulares/matematicas-universidad/"
+relatedPosts: "estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja,como-estudiar-matematicas-sin-memorizar,como-aprobar-estadistica-psicologia-sin-base-matematica"
+image: "/assets/latex/frecuencias-absoluta-relativa-eso.svg"
+---
+
+La estadística descriptiva sirve para ordenar datos y responder preguntas sencillas: ¿cuál es el valor más frecuente?, ¿qué resultado representa mejor al grupo?, ¿qué parte de la clase ha elegido cada opción? Para hacerlo bien no basta con aplicar una fórmula: primero hay que saber qué datos tenemos y qué información queremos resumir.
+
+En esta guía aprenderás a construir una tabla de frecuencias y a calcular e interpretar frecuencia absoluta, frecuencia relativa, media, mediana y moda. Todos los ejemplos usan datos pequeños para que puedas comprobar cada paso.
+
+## Antes de calcular: datos y variable
+
+Una **variable estadística** es la característica que observamos. Por ejemplo:
+
+- número de mascotas de cada alumno;
+- minutos que tarda cada persona en llegar al instituto;
+- color de mochila elegido;
+- puntuación de un examen.
+
+Los resultados que obtiene cada persona son los **datos**. Si preguntamos a catorce estudiantes cuántas mascotas tienen, un posible listado sería:
+
+$$
+0,\\ 1,\\ 2,\\ 1,\\ 0,\\ 3,\\ 1,\\ 2,\\ 1,\\ 0,\\ 2,\\ 1,\\ 3,\\ 0.
+$$
+
+El listado sin ordenar contiene toda la información, pero cuesta responder de un vistazo. La estadística descriptiva la organiza sin inventar ni alterar ningún dato.
+
+No todas las variables admiten las mismas operaciones. El número de mascotas es cuantitativo: podemos ordenar, sumar y calcular la media. El color de una mochila es cualitativo: podemos contar cuántas veces aparece cada color y hallar la moda, pero no tiene sentido sumar «rojo + azul» ni calcular una media de colores.
+
+## Frecuencia absoluta: cuántas veces aparece un valor
+
+La **frecuencia absoluta**, que escribiremos $f_i$, es el número de veces que aparece un valor.
+
+Ordenemos los datos del ejemplo. Hay cuatro estudiantes con cero mascotas, cinco con una, tres con dos y dos con tres. El número total de alumnos es
+
+$$
+n=4+5+3+2=14.
+$$
+
+| Número de mascotas $x_i$ | Frecuencia absoluta $f_i$ |
+|---:|---:|
+| 0 | 4 |
+| 1 | 5 |
+| 2 | 3 |
+| 3 | 2 |
+| **Total** | **14** |
+
+La suma de las frecuencias absolutas debe coincidir siempre con el número total de datos. Es la primera comprobación que conviene hacer antes de seguir.
+
+Una frecuencia absoluta responde a preguntas del tipo «¿cuántos?». En este caso: cinco estudiantes tienen una mascota.
+
+## Frecuencia relativa: qué parte del total representa
+
+La **frecuencia relativa**, $h_i$, compara cada frecuencia absoluta con el total:
+
+$$
+h_i=\\frac{f_i}{n}.
+$$
+
+Para expresarla como porcentaje, multiplicamos por cien:
+
+$$
+\\text{porcentaje}=h_i\\cdot100.
+$$
+
+Calculamos la tabla completa:
+
+| Mascotas $x_i$ | $f_i$ | Frecuencia relativa $h_i=f_i/14$ | Porcentaje |
+|---:|---:|---:|---:|
+| 0 | 4 | $4/14\\approx0{,}286$ | $28{,}6\\%$ |
+| 1 | 5 | $5/14\\approx0{,}357$ | $35{,}7\\%$ |
+| 2 | 3 | $3/14\\approx0{,}214$ | $21{,}4\\%$ |
+| 3 | 2 | $2/14\\approx0{,}143$ | $14{,}3\\%$ |
+| **Total** | **14** | **1** | **100 %** |
+
+La frecuencia relativa responde a «¿qué parte?» o «¿qué porcentaje?». Decir que la frecuencia relativa de una mascota es $0{,}357$ significa que aproximadamente el $35{,}7\\%$ del grupo tiene una mascota.
+
+Por el redondeo, los porcentajes de una tabla pueden sumar $99{,}9\\%$ o $100{,}1\\%$. No es un error si cada porcentaje se ha redondeado por separado; la suma exacta de las frecuencias relativas antes de redondear debe ser uno.
+
+![Diagrama de barras de la frecuencia absoluta y porcentaje relativo para cero, una, dos y tres mascotas en un grupo de catorce estudiantes](/assets/latex/frecuencias-absoluta-relativa-eso.svg)
+
+El diagrama de barras permite comparar de inmediato las frecuencias absolutas: la barra de una mascota es la más alta. Los porcentajes escritos sobre las barras dan la misma información en relación con el total. No confundas altura de la barra con porcentaje si el eje vertical está rotulado como frecuencia absoluta.
+
+## Cómo elegir un gráfico sencillo
+
+Para valores o categorías separados —colores, número de mascotas, deporte favorito— el diagrama de barras es claro porque compara alturas. Debe cumplir tres reglas:
+
+1. Cada barra representa un valor o categoría.
+2. Las barras tienen la misma anchura y dejan espacio entre sí.
+3. El eje vertical empieza en cero cuando se comparan frecuencias, para no exagerar diferencias.
+
+Un gráfico de sectores también puede mostrar porcentajes de un total, pero es menos preciso para comparar cantidades cercanas. Si dos sectores son parecidos, suele ser más fácil distinguir sus alturas en un diagrama de barras.
+
+Cuando la variable es cuantitativa y se han agrupado datos en intervalos, se usa un histograma. A diferencia del diagrama de barras, las columnas del histograma se tocan porque los intervalos representan una escala continua.
+
+## La media: repartir el total por igual
+
+La **media aritmética** se obtiene sumando todos los datos y dividiendo entre su número:
+
+$$
+\\bar x=\\frac{x_1+x_2+\\cdots+x_n}{n}.
+$$
+
+La idea es imaginar que repartimos el total por igual entre todos. Con la tabla de frecuencias es más rápido multiplicar cada valor por las veces que aparece:
+
+$$
+\\bar x=\\frac{\\sum x_i f_i}{n}.
+$$
+
+Para las mascotas:
+
+$$
+\\bar x=\\frac{0\\cdot4+1\\cdot5+2\\cdot3+3\\cdot2}{14}
+=\\frac{17}{14}\\approx1{,}21.
+$$
+
+La media es aproximadamente $1{,}21$ mascotas por estudiante. Nadie necesita tener exactamente $1{,}21$ mascotas: la media es un resumen del grupo, no un dato que deba aparecer en la lista.
+
+### Comprobación de la media
+
+El total de mascotas es $17$. Si cada uno de los catorce estudiantes tuviera exactamente la media, el total sería aproximadamente
+
+$$
+14\\cdot1{,}21\\approx16{,}94,
+$$
+
+muy cerca de $17$; la pequeña diferencia procede de haber redondeado $1{,}214285\\ldots$ a dos decimales. Si usamos la fracción exacta $17/14$, recuperamos exactamente el total.
+
+La media utiliza todos los valores, lo que es una ventaja, pero también hace que los datos muy alejados influyan mucho en ella.
+
+## La mediana: el dato central una vez ordenado
+
+La **mediana** es el valor que deja la mitad de los datos a un lado y la otra mitad al otro, después de ordenarlos de menor a mayor.
+
+Los catorce datos ordenados son:
+
+$$
+0,0,0,0,1,1,1,1,1,2,2,2,3,3.
+$$
+
+Como hay un número par de datos, los dos valores centrales ocupan las posiciones
+
+$$
+\\frac n2=7
+\\qquad\\text{y}\\qquad
+\\frac n2+1=8.
+$$
+
+El séptimo y el octavo valor son ambos $1$. Por tanto,
+
+$$
+\\operatorname{Mediana}=\\frac{1+1}{2}=1.
+$$
+
+La regla general es:
+
+- Si el número de datos es impar, la mediana es el dato que ocupa la posición $(n+1)/2$.
+- Si es par, se calcula la media de los dos datos centrales.
+
+La mediana exige ordenar. Hallar «el dato que está en medio» en el listado original no sirve, porque el orden en que se recogieron los datos no tiene importancia.
+
+## La moda: el valor más frecuente
+
+La **moda** es el valor con mayor frecuencia absoluta. En la tabla de mascotas, la frecuencia más alta es $5$, correspondiente a una mascota. Luego:
+
+$$
+\\operatorname{Moda}=1.
+$$
+
+La moda es la única de estas tres medidas que puede usarse con variables cualitativas. Si en una clase el color de mochila más repetido es azul, azul es la moda, aunque no podamos calcular una media o una mediana de colores.
+
+Una distribución puede tener:
+
+- una moda: **unimodal**;
+- dos modas: **bimodal**;
+- varias modas;
+- ninguna moda clara si todos los valores aparecen el mismo número de veces.
+
+Por ejemplo, en los datos $1,1,2,2,3$ hay dos modas: $1$ y $2$. No es correcto elegir una solo porque aparece antes.
+
+![Diagrama de puntos ordenado para catorce estudiantes: la barra de una mascota marca la moda, las posiciones séptima y octava marcan la mediana y una línea discontinua señala la media aproximada de una coma veintiuna mascotas](/assets/latex/media-mediana-moda-eso.svg)
+
+En este ejemplo coinciden mediana y moda, pero no tienen por qué coincidir siempre. La línea discontinua de la media queda algo a la derecha de uno porque los valores dos y tres empujan el promedio hacia arriba.
+
+## Media, mediana y moda: qué cuenta cada una
+
+Las tres medidas intentan resumir una distribución, pero no responden exactamente a la misma pregunta.
+
+| Medida | Qué indica | Cuándo resulta especialmente útil |
+|---|---|---|
+| Media | El reparto equilibrado del total | Datos numéricos sin valores extremos muy influyentes |
+| Mediana | El valor central ordenado | Datos con valores extremos o distribuciones muy desiguales |
+| Moda | El valor más repetido | Categorías o cuando interesa conocer la opción habitual |
+
+No se trata de elegir una medida «mejor» para todos los casos. Debe elegirse la que describa honestamente los datos.
+
+## Ejemplo completo: cuando la media puede engañar
+
+Ocho estudiantes tardan estos minutos en llegar al instituto:
+
+$$
+8,9,10,11,12,13,14,60.
+$$
+
+La media es
+
+$$
+\\bar x=\\frac{8+9+10+11+12+13+14+60}{8}
+=\\frac{137}{8}=17{,}125.
+$$
+
+Sin embargo, siete de las ocho personas tardan entre ocho y catorce minutos. El valor $60$ es excepcional y arrastra la media hacia arriba.
+
+Para hallar la mediana, los datos ya están ordenados. Al haber ocho, miramos las posiciones cuarta y quinta:
+
+$$
+\\operatorname{Mediana}=\\frac{11+12}{2}=11{,}5.
+$$
+
+En este caso, decir que el tiempo habitual de desplazamiento ronda los $11{,}5$ minutos describe mejor a la mayoría que decir $17{,}125$ minutos. La media no está mal calculada; simplemente responde a otra idea: incluye por completo el trayecto extraordinario de sesenta minutos.
+
+No hay moda porque cada tiempo aparece una sola vez.
+
+## Frecuencias acumuladas: para ubicar posiciones
+
+La **frecuencia acumulada** suma las frecuencias hasta un valor determinado. Para las mascotas:
+
+| Mascotas | $f_i$ | Frecuencia acumulada |
+|---:|---:|---:|
+| 0 | 4 | 4 |
+| 1 | 5 | 9 |
+| 2 | 3 | 12 |
+| 3 | 2 | 14 |
+
+La tabla indica que las posiciones de la $1$ a la $4$ corresponden a cero mascotas; de la $5$ a la $9$, a una mascota. Por eso las posiciones séptima y octava de la mediana valen una.
+
+Las frecuencias acumuladas no sustituyen a las frecuencias absolutas: responden a «¿cuántos tienen este valor o uno menor?». Son especialmente útiles al localizar medianas y cuartiles en tablas grandes.
+
+## Método seguro para resolver un ejercicio
+
+Cuando aparezca una lista de datos, sigue este orden:
+
+1. Identifica qué se está midiendo y si son datos numéricos o categorías.
+2. Ordena los valores o construye una tabla de frecuencias.
+3. Comprueba que la suma de $f_i$ es el número total de datos.
+4. Calcula $h_i=f_i/n$ y verifica que las frecuencias relativas suman uno.
+5. Para la media, calcula $\\sum x_if_i$ antes de dividir entre $n$.
+6. Para la mediana, localiza la posición central en los datos ordenados.
+7. Para la moda, busca la frecuencia absoluta mayor.
+8. Interpreta el resultado con una frase completa y con sus unidades.
+
+Es preferible escribir «la media es $2{,}3$ libros por alumno» a dejar solamente «$2{,}3$». Las unidades ayudan a comprobar qué has calculado.
+
+## Errores frecuentes
+
+### Dividir entre el número de valores distintos
+
+En la media se divide entre el número total de datos, no entre el número de filas de una tabla. En el ejemplo hay cuatro valores posibles, pero catorce estudiantes.
+
+### Olvidar multiplicar por la frecuencia
+
+En una tabla, la suma para la media es $\\sum x_if_i$. Usar solo $0+1+2+3$ ignora que algunos valores aparecen más veces que otros.
+
+### Calcular la mediana sin ordenar
+
+La mediana depende de la posición, y las posiciones solo tienen sentido en una lista ordenada.
+
+### Confundir frecuencia relativa con porcentaje
+
+$0{,}25$ y $25\\%$ expresan la misma proporción en formatos diferentes. $0{,}25\\%$, en cambio, equivale a $0{,}0025$ y es mucho menor.
+
+### Llamar moda al valor más grande
+
+La moda no es el número mayor: es el que aparece más veces. En $1,1,1,8$, la moda es $1$, aunque $8$ sea el valor máximo.
+
+### Redondear demasiado pronto
+
+Conserva fracciones o decimales suficientes durante el cálculo y redondea al final. Así evitas que pequeñas aproximaciones alteren un porcentaje total o una media.
+
+## Ejercicios para practicar
+
+### 1. Tabla de frecuencias
+
+Las horas semanales de lectura de diez alumnos son:
+
+$$
+0,1,2,1,3,2,1,0,2,1.
+$$
+
+Construye una tabla con frecuencia absoluta, relativa y porcentaje.
+
+### 2. Media con tabla
+
+Una encuesta obtiene esta tabla de hermanos por alumno:
+
+| Hermanos | 0 | 1 | 2 | 3 |
+|---:|---:|---:|---:|---:|
+| Frecuencia | 3 | 8 | 6 | 3 |
+
+Calcula la media.
+
+### 3. Mediana impar
+
+Halla la mediana de
+
+$$
+4,7,5,6,4,8,7.
+$$
+
+### 4. Mediana par
+
+Halla la mediana de
+
+$$
+12,8,10,9,11,7.
+$$
+
+### 5. Moda o modas
+
+Indica la moda de $2,3,2,4,5,3,2,3$.
+
+### 6. Elegir una medida
+
+Los precios de siete cuadernos son $2,2,2,3,3,3,20$ euros. ¿Qué medida describe mejor el precio habitual: media, mediana o moda? Justifica.
+
+### 7. Interpretar una frecuencia relativa
+
+En un grupo de $30$ alumnos, la frecuencia relativa de quienes van andando al centro es $0{,}4$. ¿Cuántos alumnos son?
+
+### 8. Comprobar una tabla
+
+Una tabla presenta frecuencias relativas $0{,}18$, $0{,}42$, $0{,}27$ y $0{,}15$. ¿Puede ser correcta? Explica por qué.
+
+## Soluciones razonadas
+
+### Solución 1
+
+Los valores posibles son $0$, $1$, $2$ y $3$. Sus frecuencias son $2$, $4$, $3$ y $1$, respectivamente. Como $n=10$, las frecuencias relativas son $0{,}2$, $0{,}4$, $0{,}3$ y $0{,}1$; los porcentajes son $20\\%$, $40\\%$, $30\\%$ y $10\\%$. Las absolutas suman $10$ y las relativas suman $1$, así que la tabla pasa las dos comprobaciones.
+
+### Solución 2
+
+El total de alumnos es
+
+$$
+n=3+8+6+3=20.
+$$
+
+El total de hermanos contado con frecuencias es
+
+$$
+0\\cdot3+1\\cdot8+2\\cdot6+3\\cdot3=29.
+$$
+
+Luego la media es
+
+$$
+\\bar x=\\frac{29}{20}=1{,}45.
+$$
+
+El grupo tiene una media de $1{,}45$ hermanos por alumno.
+
+### Solución 3
+
+Ordenamos: $4,4,5,6,7,7,8$. Hay siete datos, así que la posición central es la cuarta. La mediana es $6$.
+
+### Solución 4
+
+Ordenamos: $7,8,9,10,11,12$. Hay seis datos; los centrales son el tercero y el cuarto. Por tanto,
+
+$$
+\\operatorname{Mediana}=\\frac{9+10}{2}=9{,}5.
+$$
+
+### Solución 5
+
+Los valores $2$ y $3$ aparecen tres veces cada uno. La distribución es bimodal: sus modas son $2$ y $3$.
+
+### Solución 6
+
+La media es $35/7=5$ euros, pero queda muy influida por el cuaderno de $20$ euros. La mediana es $3$ y la moda también es $3$. Para describir el precio habitual, $3$ euros es más representativo que la media de $5$ euros.
+
+### Solución 7
+
+Multiplicamos la proporción por el total:
+
+$$
+0{,}4\\cdot30=12.
+$$
+
+Van andando $12$ alumnos.
+
+### Solución 8
+
+No puede ser correcta porque
+
+$$
+0{,}18+0{,}42+0{,}27+0{,}15=1{,}02.
+$$
+
+Las frecuencias relativas exactas deben sumar uno. Podría tratarse de un problema de redondeo si se indicara que los números son aproximados, pero la diferencia de $0{,}02$ es demasiado grande para una tabla sencilla con dos decimales sin una explicación.
+
+## Resumen para estudiar
+
+La frecuencia absoluta cuenta; la relativa compara con el total. La media reparte el total por igual; la mediana localiza el centro de los datos ordenados; la moda identifica el valor más repetido. Antes de operar, organiza los datos y al terminar comprueba sumas, posiciones y unidades.
+
+Cuando domines estas medidas, continúa con [rango, cuartiles y diagrama de caja en ESO](/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja/): aprenderás a describir cuánto se dispersan los datos y dónde se concentra la mitad central.
+
+Para afianzar este método, no memorices una tabla modelo: cambia los datos de un ejercicio, vuelve a ordenar y explica en voz alta qué representa cada resultado. La guía sobre [cómo estudiar matemáticas sin memorizar fórmulas](/blog/como-estudiar-matematicas-sin-memorizar/) puede ayudarte a convertir esa práctica en rutina.
+
+Si necesitas reforzar Estadística o Matemáticas de ESO con ejercicios de tu propio temario, puedes consultar las [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
+`,A=`---
 title: Estadística desde cero: cómo elegir un contraste sin aplicar recetas
 date: 2026-05-29
 updated: 2026-05-29
@@ -6112,7 +6855,7 @@ Hay algunos avisos claros:
 La estadística universitaria se vuelve mucho más manejable cuando separas decisión, cálculo e interpretación. Cada parte tiene su dificultad, pero también su método de estudio.
 
 Si estás preparando probabilidad, inferencia, regresión o estadística para Bachillerato, Universidad, TFG o TFM, revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/) o [cuéntanos tu caso](/contacto/).
-`,P=`---
+`,D=`---
 title: Estequiometría universitaria: ejercicios resueltos de dificultad progresiva
 date: 2026-07-07
 updated: 2026-07-07
@@ -6267,7 +7010,7 @@ Antes de entregar, revisa:
 - La unidad final es correcta.
 
 Para seguir practicando, revisa la guía de [Física y Química: cómo plantear problemas antes de calcular](/blog/fisica-y-quimica-como-plantear-problemas/) o la página de [clases particulares de Química](/clases-particulares/quimica/).
-`,A=`---
+`,U=`---
 title: "Estudio completo de una función paso a paso"
 date: "2026-09-02"
 updated: "2026-09-02"
@@ -6728,7 +7471,7 @@ Si tienes poco tiempo, usa esta lista de control:
 8. Dibuja al final y comprueba que respeta todos los datos.
 
 Para aprender a enlazar estos pasos en problemas reales, en las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/) trabajamos el razonamiento, la presentación y la comprobación de cada resultado, no una plantilla memorizada sin contexto.
-`,D=`---
+`,R=`---
 title: Física y Química: cómo plantear problemas antes de calcular
 date: 2026-05-23
 updated: 2026-05-23
@@ -6736,7 +7479,7 @@ description: Un método común para problemas de Física y Química: datos, magn
 tag: Ciencia
 category: Física y Química
 relatedService: /clases-particulares/fisica-ingenieria/
-relatedPosts: preparar-selectividad-con-calendario,como-estudiar-matematicas-sin-memorizar
+relatedPosts: mru-eso-movimiento-rectilineo-uniforme-ejercicios,mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios,gravitacion-eso-ley-universal-peso-ejercicios
 image: /favicon.svg
 ---
 
@@ -6795,8 +7538,227 @@ Para cada problema, deja siempre la misma estructura:
 
 Parece lento al principio, pero acelera mucho cuando el examen mezcla temas. El objetivo es reducir decisiones improvisadas.
 
+Para aplicar este método con contenidos de ESO, puedes practicar con las guías de [MRU](/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/), [MRUA](/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/) y [gravitación](/blog/gravitacion-eso-ley-universal-peso-ejercicios/).
+
 Si necesitas apoyo en problemas técnicos, revisa [Física para Bachillerato e Ingeniería](/clases-particulares/fisica-ingenieria/), [Química](/clases-particulares/quimica/) o [contacta](/contacto/) para organizar un plan.
-`,U=`---
+`,I=`---
+title: "Gravitación en ESO: ley universal, masa, peso y ejercicios resueltos"
+date: "2026-08-26"
+updated: "2026-08-26"
+description: "Aprende gravitación en ESO: fuerza gravitatoria, ley de Newton, diferencia entre masa y peso, caída libre y ejercicios resueltos."
+tag: "ESO"
+category: "Física y Química"
+relatedService: "/clases-particulares/fisica-ingenieria/"
+relatedPosts: "mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios,mru-eso-movimiento-rectilineo-uniforme-ejercicios,fisica-y-quimica-como-plantear-problemas"
+image: "/assets/latex/gravitacion-fuerzas-tierra-eso.svg"
+---
+
+La **gravitación** es la interacción por la que dos cuerpos con masa se atraen. Gracias a ella permanecemos sobre la Tierra, la Luna gira alrededor de nuestro planeta y los planetas siguen órbitas alrededor del Sol. No es una fuerza exclusiva de la Tierra: cualquier par de masas se atrae, aunque esa atracción suele ser demasiado pequeña para notarla entre objetos cotidianos.
+
+En esta guía distinguirás la ley de gravitación universal, masa y peso. La diferencia es importante: una persona no pierde masa al viajar a la Luna, pero sí pesa menos allí.
+
+## La idea de Newton: todas las masas se atraen
+
+La ley de gravitación universal afirma que la fuerza entre dos masas es:
+
+$$
+F=G\\frac{Mm}{r^2}.
+$$
+
+Cada letra representa una magnitud:
+
+| Símbolo | Significado | Unidad |
+|---|---|---|
+| $F$ | Fuerza gravitatoria | newton (N) |
+| $G$ | Constante de gravitación universal | $6{,}67\\cdot10^{-11}$ N·m²/kg² |
+| $M$, $m$ | Masas de los cuerpos | kilogramo (kg) |
+| $r$ | Distancia entre sus centros | metro (m) |
+
+![Esquema de la atracción gravitatoria entre la Tierra y un objeto, con fuerzas en sentidos opuestos y distancia entre centros](/assets/latex/gravitacion-fuerzas-tierra-eso.svg)
+
+La fórmula muestra dos ideas decisivas:
+
+- si una de las masas aumenta, la fuerza aumenta;
+- si la distancia aumenta, la fuerza disminuye mucho porque aparece $r^2$ en el denominador.
+
+Por ejemplo, si la distancia se duplica, $r^2$ se multiplica por cuatro. La fuerza se reduce a la cuarta parte, no solo a la mitad.
+
+## Las fuerzas aparecen por pares
+
+La Tierra atrae a un objeto y el objeto atrae a la Tierra con una fuerza de la misma intensidad. Sus direcciones son opuestas, porque cada fuerza actúa sobre un cuerpo distinto.
+
+Esto no significa que ambos cuerpos aceleren igual. La aceleración depende también de la masa:
+
+$$
+a=\\frac{F}{m}.
+$$
+
+Como la masa de la Tierra es enorme, su aceleración causada por una persona es inapreciable. La persona sí acelera hacia la Tierra si no hay un soporte que la sostenga.
+
+## Masa y peso no son lo mismo
+
+En conversación se usa «peso» para decir cuántos kilogramos tiene alguien, pero en Física son magnitudes distintas.
+
+| Magnitud | Qué mide | Unidad | ¿Cambia al viajar? |
+|---|---|---|---|
+| Masa | Cantidad de materia e inercia | kg | No |
+| Peso | Fuerza gravitatoria que ejerce un astro | N | Sí |
+
+El peso se calcula cerca de la superficie terrestre con:
+
+$$
+P=mg.
+$$
+
+En la Tierra, normalmente usamos:
+
+$$
+g\\approx9{,}8\\ \\text{m/s}^2.
+$$
+
+En algunos ejercicios de ESO el enunciado permite aproximar $g$ a $10$ m/s². Usa el valor que indique el problema.
+
+### Ejemplo: el peso de una mochila
+
+Una mochila tiene masa $m=6$ kg. En la Tierra:
+
+$$
+P=mg=6\\cdot9{,}8=58{,}8\\ \\text{N}.
+$$
+
+Su masa sigue siendo $6$ kg en cualquier lugar. En la Luna, donde $g\\approx1{,}62$ m/s², su peso sería:
+
+$$
+P_{\\text{Luna}}=6\\cdot1{,}62=9{,}72\\ \\text{N}.
+$$
+
+La mochila sería más fácil de levantar, pero no tendría menos materia.
+
+## De la ley universal al peso cerca de la Tierra
+
+La ley de Newton se puede escribir para un objeto de masa $m$ cerca de la Tierra:
+
+$$
+F=G\\frac{M_{\\text{Tierra}}m}{R_{\\text{Tierra}}^2}.
+$$
+
+Como $M_{\\text{Tierra}}$, $G$ y $R_{\\text{Tierra}}$ son los mismos para todos los objetos cercanos a la superficie, ese conjunto se resume en $g$:
+
+$$
+g=G\\frac{M_{\\text{Tierra}}}{R_{\\text{Tierra}}^2}.
+$$
+
+Por eso obtenemos $P=mg$. La fórmula del peso no contradice la ley universal: es su forma práctica para objetos cerca de la superficie terrestre.
+
+## Caída libre y aceleración de la gravedad
+
+Cuando soltamos un objeto y despreciamos el aire, cae con aceleración aproximadamente constante $g$. Es un caso de [MRUA](/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/).
+
+Si elegimos hacia abajo como sentido positivo y soltamos el objeto desde reposo:
+
+$$
+v=gt
+$$
+
+$$
+d=\\frac12gt^2.
+$$
+
+Una pelota se deja caer durante $2$ s. Entonces:
+
+$$
+v=9{,}8\\cdot2=19{,}6\\ \\text{m/s}
+$$
+
+$$
+d=\\frac12\\cdot9{,}8\\cdot2^2=19{,}6\\ \\text{m}.
+$$
+
+Sin aire, una bola pesada y una ligera caen con la misma aceleración. La diferencia que observamos entre una hoja y una moneda se debe sobre todo al rozamiento con el aire, no a que la gravedad «tire más» de la moneda por ser más pesada.
+
+## Órbitas: caer sin llegar al suelo
+
+Un satélite está atraído por la Tierra igual que cualquier objeto. Sin embargo, tiene una velocidad horizontal muy alta. Mientras cae hacia la Tierra, la curvatura de su trayectoria acompaña la curvatura del planeta; por eso permanece en órbita.
+
+No hace falta pensar que en una nave orbital no hay gravedad. Sí la hay, y precisamente proporciona la fuerza que curva la trayectoria. La sensación de ingravidez aparece porque nave y astronautas están cayendo juntos.
+
+## Método para resolver ejercicios de gravitación
+
+1. Decide si te piden **peso** cerca de la Tierra o fuerza entre dos masas separadas.
+2. Escribe datos con unidades: kg, m y N.
+3. Para peso, usa $P=mg$.
+4. Para dos cuerpos a distancia, usa $F=GMm/r^2$.
+5. Si aparece un radio, recuerda que $r$ mide entre centros, no entre superficies.
+6. Revisa el resultado: el peso debe salir en N, no en kg.
+
+La fórmula larga con $G$ suele requerir notación científica. Es buena práctica escribir las potencias de diez paso a paso, en vez de introducir todos los números de golpe en una calculadora.
+
+## Errores frecuentes
+
+### Escribir el peso en kilogramos
+
+Los kilogramos son unidad de masa. El peso es una fuerza y se mide en newtons.
+
+### Usar la masa en gramos
+
+En el SI, la masa debe estar en kg. Una masa de $500$ g es $0{,}5$ kg antes de usar $P=mg$.
+
+### Olvidar el cuadrado de la distancia
+
+En $F=GMm/r^2$, solo la distancia está al cuadrado. Duplicar $r$ divide la fuerza entre cuatro.
+
+### Pensar que no existe gravedad en el espacio
+
+La gravedad disminuye con la distancia, pero no desaparece de golpe. Mantiene a planetas, lunas y satélites en sus trayectorias.
+
+### Confundir acción y reacción con fuerzas que se anulan
+
+La Tierra tira del objeto y el objeto tira de la Tierra con fuerzas iguales. No se anulan porque no actúan sobre el mismo cuerpo.
+
+## Ejercicios resueltos
+
+### 1. Peso de una persona
+
+Una persona tiene masa $60$ kg. Calcula su peso en la Tierra con $g=9{,}8$ m/s².
+
+$$
+P=60\\cdot9{,}8=588\\ \\text{N}.
+$$
+
+### 2. Peso en la Luna
+
+La misma persona está en la Luna, con $g=1{,}62$ m/s².
+
+$$
+P_{\\text{Luna}}=60\\cdot1{,}62=97{,}2\\ \\text{N}.
+$$
+
+Su masa continúa siendo $60$ kg.
+
+### 3. Efecto de la distancia
+
+Dos masas están separadas una distancia $r$. Si pasan a estar a distancia $2r$, ¿qué ocurre con la fuerza?
+
+$$
+F'=G\\frac{Mm}{(2r)^2}=G\\frac{Mm}{4r^2}=\\frac F4.
+$$
+
+La fuerza se reduce a una cuarta parte.
+
+### 4. Caída libre
+
+Se deja caer un objeto desde reposo durante $3$ s. Con $g=9{,}8$ m/s², ¿qué distancia cae?
+
+$$
+d=\\frac12\\cdot9{,}8\\cdot3^2=44{,}1\\ \\text{m}.
+$$
+
+## Resumen para estudiar
+
+Todas las masas se atraen con una fuerza que aumenta con las masas y disminuye con el cuadrado de la distancia. La masa se mide en kg y no cambia al viajar; el peso es una fuerza, se mide en N y vale $P=mg$ cerca de la Tierra. La caída libre es un MRUA con aceleración $g$.
+
+Para practicar el movimiento de caída, repasa el [MRUA con fórmulas y ejercicios](/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/). Para aprender a identificar datos, unidades y modelo antes de calcular, consulta [cómo plantear problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/). También puedes consultar las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
+`,F=`---
 title: IB y GCSE: cómo preparar exámenes internacionales con rúbrica y calendario
 date: 2026-06-10
 updated: 2026-06-10
@@ -6864,7 +7826,7 @@ Cada semana conviene responder tres preguntas:
 Esta revisión evita estudiar por inercia. En programas internacionales, donde el formato importa mucho, una preparación sin feedback acaba dejando puntos fáciles por el camino.
 
 Para organizar esa preparación puedes ver [clases para GCSE, IGCSE e IB](/clases-particulares/gcse-ib/) o [contactar](/contacto/) para revisar syllabus, fecha y objetivo.
-`,I=`---
+`,M=`---
 title: Integración por partes: fórmula y ejercicios resueltos
 date: 2026-08-06
 updated: 2026-08-06
@@ -7542,7 +8504,7 @@ Integración por partes funciona cuando el intercambio \\(\\int u\\,dv\\to uv-\\
 Después de aplicar la fórmula, pueden ocurrir tres cosas útiles: la nueva integral es inmediata, hay que repetir partes o reaparece la integral original y se despeja. En todos los casos, la derivación del resultado es la prueba definitiva.
 
 Si quieres practicar el método con ejercicios de tu grado y recibir corrección sobre la elección de \\(u\\), los signos y la presentación, consulta las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,R=`---
+`,N=`---
 title: Integración por sustitución: cambio de variable y ejercicios
 date: 2026-08-12
 updated: 2026-08-12
@@ -8263,7 +9225,7 @@ La comprobación más fiable consiste en derivar: si recuperas el integrando med
 En cálculo multivariable, la misma idea exige corregir áreas mediante el determinante: consulta la guía de [cambio de variables y jacobiano en integrales dobles](/blog/cambio-variables-jacobiano-integrales-dobles/).
 
 Si estás trabajando sustituciones más exigentes en Cálculo y necesitas corregir la elección del cambio sobre ejercicios reales de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,F=`---
+`,Q=`---
 title: Integral definida e indefinida: diferencias y ejemplos
 date: 2026-08-10
 updated: 2026-08-10
@@ -8971,7 +9933,7 @@ El valor queda entre \\(f(0)=1\\) y \\(f(2)=7\\), como debe ocurrir.
 La integral indefinida busca una familia de primitivas y termina con \\(+C\\). La integral definida mide una acumulación neta sobre un intervalo y termina en un número. El teorema fundamental permite calcular esa acumulación restando valores de una primitiva y explica por qué la constante desaparece.
 
 Antes de operar, identifica qué objeto pide el problema. Después comprueba por derivación y, en integrales definidas, añade controles de signo, unidades, cotas y continuidad. Si necesitas trabajar estas diferencias sobre problemas de tu grado, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,N=`---
+`,T=`---
 title: "Integrales dobles: cálculo, regiones y ejercicios resueltos"
 date: "2026-09-03"
 updated: "2026-09-03"
@@ -9589,7 +10551,7 @@ $$
 Dibuja primero y escribe después los límites. En una integral iterada, resuelve la integral interior tratando la otra variable como constante. Cambia el orden cuando simplifique el integrando o los límites, reconstruyendo siempre la región. Para áreas integra uno; para volúmenes usa altura superior menos inferior; para masas introduce la densidad.
 
 Si necesitas trabajar regiones y cambios de orden con ejercicios de tu temario, las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/) permiten practicar el planteamiento y no solo la integración mecánica.
-`,M=`---
+`,B=`---
 title: Integrales de funciones racionales y fracciones parciales
 date: 2026-08-03
 updated: 2026-08-03
@@ -10351,7 +11313,7 @@ Una integral racional se resuelve en tres capas: división si la fracción es im
 El método termina cuando cada sumando encaja en una primitiva conocida. La comprobación más segura se hace antes y después de integrar: primero reuniendo la descomposición y después derivando el resultado.
 
 Si necesitas aplicar estas plantillas a ejercicios de tu asignatura y corregir la factorización o el sistema de coeficientes, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,T=`---
+`,H=`---
 title: Integrales impropias: convergencia y ejercicios resueltos
 date: 2026-08-15
 updated: 2026-08-15
@@ -11149,7 +12111,7 @@ Una integral es impropia por un intervalo infinito, por una singularidad o por a
 La clasificación debe preceder al valor. Antes de integrar, marca sobre el intervalo cada punto fuera del dominio y estudia por separado el comportamiento local y la cola en infinito. Después elige entre cálculo exacto y comparación. Esta secuencia evita cancelaciones ilegítimas, sustituciones de $\\infty$ como si fuera un número y conclusiones basadas únicamente en que el integrando tiende a cero.
 
 Si necesitas trabajar convergencia, comparaciones y técnicas de integración sobre ejercicios de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Q=`---
+`,O=`---
 title: Matrices, determinantes y sistemas de ecuaciones: guía completa para primero de carrera
 date: 2026-06-25
 updated: 2026-06-25
@@ -11324,7 +12286,7 @@ No hagas solo sistemas numéricos. Mezcla:
 - Problemas donde haya que decidir si usar Gauss, determinante o interpretación geométrica.
 
 Si este bloque te cuesta, empieza por [Álgebra Lineal en la universidad](/blog/algebra-lineal-universidad-que-estudiar-primero-errores/) y revisa la página de [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,B=`---
+`,V=`---
 title: "Máximos y mínimos de varias variables: guía y ejercicios"
 date: "2026-09-01"
 updated: "2026-09-01"
@@ -11894,7 +12856,7 @@ Todos los valores cumplen $f<1$, pero pueden acercarse tanto como se quiera a $1
 Primero separa el problema interior del problema de frontera. En el interior, resuelve $\\nabla f=0$ y clasifica con la hessiana; si el determinante es cero, cambia de argumento. En una región compacta, analiza cada frontera y compara todos los candidatos. Con una restricción regular, Lagrange expresa el paralelismo de los gradientes, pero no evita la comprobación final.
 
 Conviene dominar antes las [derivadas parciales y el gradiente](/blog/derivadas-parciales-gradiente-ejercicios/). Si necesitas practicar clasificaciones y restricciones con los ejercicios de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,H=`---
+`,G=`---
 title: Métodos de integración: cómo elegir la técnica adecuada
 date: 2026-08-01
 updated: 2026-08-01
@@ -12486,7 +13448,7 @@ Primero simplifica. Después busca una forma inmediata o una composición con su
 La elección no se memoriza como una lista de palabras clave. Se entrena comparando la estructura del integrando con las reglas de derivación que ya conoces y comprobando si cada transformación reduce la dificultad.
 
 Si estás preparando Cálculo universitario y necesitas aplicar este árbol de decisión a tus hojas de problemas o exámenes, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,O=`---
+`,k=`---
 title: Microeconomía I: diez tipos de problemas que debes dominar antes del examen
 date: 2026-07-05
 updated: 2026-07-05
@@ -12625,7 +13587,456 @@ Para cada tipo de problema, prepara una ficha:
 - No distinguir demanda individual y demanda de mercado.
 
 Si quieres trabajar Microeconomía I desde ejercicios reales, revisa [clases particulares de Economía y ADE](/clases-particulares/economia-ade/) y la guía de [Matemáticas I en ADE y Economía](/blog/como-aprobar-matematicas-i-ade-economia/).
-`,V=`---
+`,w=`---
+title: "MRU en ESO: movimiento rectilíneo uniforme con fórmulas y ejercicios"
+date: "2026-08-12"
+updated: "2026-08-12"
+description: "Aprende MRU en ESO: posición, velocidad, tiempo y gráficas con un método claro, unidades y ejercicios resueltos."
+tag: "ESO"
+category: "Física y Química"
+relatedService: "/clases-particulares/fisica-ingenieria/"
+relatedPosts: "mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios,gravitacion-eso-ley-universal-peso-ejercicios,fisica-y-quimica-como-plantear-problemas"
+image: "/assets/latex/mru-posicion-tiempo-eso.svg"
+---
+
+El **movimiento rectilíneo uniforme** (MRU) describe un objeto que se mueve en línea recta con velocidad constante. No acelera, no frena y no cambia de dirección. Es un modelo sencillo, pero sirve para aprender a traducir un enunciado a magnitudes, ecuaciones, unidades y gráficas.
+
+En la realidad, un coche rara vez mantiene exactamente la misma velocidad durante mucho tiempo. Aun así, el MRU aproxima bien tramos cortos de una cinta transportadora, un ascensor en su parte central o un ciclista que avanza a ritmo constante.
+
+## Cómo reconocer un MRU
+
+Busca estas pistas en el enunciado:
+
+- se mueve «a velocidad constante»;
+- recorre distancias iguales en tiempos iguales;
+- no acelera ni frena;
+- la trayectoria es recta.
+
+La idea clave es esta:
+
+$$
+a=0.
+$$
+
+Que la aceleración sea cero no significa que el objeto esté parado. Puede avanzar rápido; simplemente su velocidad no cambia.
+
+## Magnitudes y unidades
+
+En un problema de MRU aparecen normalmente tres magnitudes:
+
+| Magnitud | Símbolo | Unidad del SI |
+|---|---|---|
+| Posición | $x$ | metro (m) |
+| Tiempo | $t$ | segundo (s) |
+| Velocidad | $v$ | metro por segundo (m/s) |
+
+La velocidad indica cuánto cambia la posición en cada segundo:
+
+$$
+v=\\frac{\\Delta x}{\\Delta t}.
+$$
+
+Si un objeto avanza $30$ metros en $5$ segundos, su velocidad es:
+
+$$
+v=\\frac{30}{5}=6\\ \\text{m/s}.
+$$
+
+Es importante incluir la unidad. Escribir solo «6» no permite saber si hablas de metros por segundo, kilómetros por hora o una distancia.
+
+## La ecuación de posición
+
+En MRU, la posición se calcula con:
+
+$$
+x=x_0+v\\,t.
+$$
+
+Aquí:
+
+- $x_0$ es la posición inicial;
+- $v$ es la velocidad, con signo según el sentido elegido;
+- $t$ es el tiempo transcurrido;
+- $x$ es la posición final.
+
+No confundas posición inicial con distancia recorrida. Si una persona empieza a $20$ m de un poste y recorre $40$ m en el sentido positivo, termina en la posición $60$ m.
+
+## Ejemplo resuelto: un ciclista que ya está en marcha
+
+Un ciclista se encuentra inicialmente a $20$ m de una referencia y avanza a $4$ m/s. ¿Dónde estará a los $10$ s?
+
+Los datos son:
+
+$$
+x_0=20\\ \\text{m},\\qquad v=4\\ \\text{m/s},\\qquad t=10\\ \\text{s}.
+$$
+
+Aplicamos la ecuación:
+
+$$
+x=20+4\\cdot10=60\\ \\text{m}.
+$$
+
+El ciclista está en la posición $60$ m. Su **desplazamiento** ha sido $40$ m, pero su posición final es $60$ m porque no partía del origen.
+
+![Gráfica posición-tiempo de un ciclista en MRU que parte de veinte metros y avanza cuatro metros por segundo](/assets/latex/mru-posicion-tiempo-eso.svg)
+
+La recta no pasa por el origen porque $x_0=20$ m. Su pendiente es positiva: la posición aumenta con el tiempo. Entre $0$ y $5$ s sube de $20$ a $40$ m; por eso la velocidad es $20/5=4$ m/s.
+
+## Cómo interpretar una gráfica posición-tiempo
+
+En una gráfica $x-t$:
+
+- una recta ascendente representa velocidad positiva;
+- una recta descendente representa velocidad negativa, es decir, movimiento en el sentido contrario;
+- una recta horizontal representa reposo;
+- una recta más inclinada significa mayor rapidez en valor absoluto.
+
+La pendiente se calcula así:
+
+$$
+v=\\frac{x_2-x_1}{t_2-t_1}.
+$$
+
+No confundas una gráfica posición-tiempo con una gráfica velocidad-tiempo. En una gráfica $x-t$, la altura muestra posición y la inclinación muestra velocidad. En una gráfica $v-t$, la altura sí representa velocidad.
+
+## Convertir km/h y m/s
+
+Muchos ejercicios mezclan kilómetros por hora y metros por segundo. Antes de sustituir, deja todas las unidades en un mismo sistema.
+
+Para pasar de km/h a m/s, divide entre $3{,}6$:
+
+$$
+72\\ \\text{km/h}=\\frac{72}{3{,}6}=20\\ \\text{m/s}.
+$$
+
+Para pasar de m/s a km/h, multiplica por $3{,}6$:
+
+$$
+5\\ \\text{m/s}=5\\cdot3{,}6=18\\ \\text{km/h}.
+$$
+
+Una forma de comprobarlo: $20$ m/s es una velocidad considerable para correr, pero razonable para un vehículo; $20$ km/h no equivale a $20$ m/s.
+
+## Encuentros: dos móviles en una recta
+
+Dos móviles se encuentran cuando tienen la misma posición en el mismo instante. Supón que A sale del origen a $3$ m/s y B está inicialmente a $30$ m y se mueve hacia A a $2$ m/s.
+
+Si tomamos hacia la derecha como sentido positivo:
+
+$$
+x_A=3t
+$$
+
+$$
+x_B=30-2t.
+$$
+
+En el encuentro, $x_A=x_B$:
+
+$$
+3t=30-2t.
+$$
+
+$$
+5t=30\\Rightarrow t=6\\ \\text{s}.
+$$
+
+La posición del encuentro es:
+
+$$
+x_A=3\\cdot6=18\\ \\text{m}.
+$$
+
+Los signos no son adornos: el $-2t$ indica que B se mueve hacia posiciones menores.
+
+## Método seguro para resolver MRU
+
+1. Dibuja una recta y elige el sentido positivo.
+2. Escribe $x_0$, $v$ y $t$ con unidades.
+3. Convierte unidades antes de calcular.
+4. Elige $x=x_0+vt$ o $v=\\Delta x/\\Delta t$ según lo que se pida.
+5. Revisa si el signo y el tamaño del resultado tienen sentido.
+
+Por ejemplo, si un objeto se mueve hacia la izquierda y has elegido la derecha como positiva, una posición que disminuye es coherente. Un tiempo negativo en un problema que pregunta qué ocurrirá después de salir suele indicar que has planteado mal el origen temporal o los signos.
+
+## Errores frecuentes
+
+### Usar $x=vt$ cuando $x_0$ no es cero
+
+La fórmula $x=vt$ solo es un caso particular en el que se parte del origen. En general necesitas $x=x_0+vt$.
+
+### Confundir distancia y posición
+
+La distancia recorrida es cuánto se ha desplazado el objeto; la posición dice dónde está respecto a una referencia. Pueden tener el mismo valor solo si se parte del origen y se avanza en el sentido positivo.
+
+### Mezclar km/h con segundos
+
+Si $v$ está en km/h y el tiempo en segundos, el producto no sale en metros. Convierte antes.
+
+### Pensar que una velocidad constante implica posición constante
+
+Con velocidad constante distinta de cero, la posición cambia de manera regular. Lo constante es el incremento por segundo, no la posición.
+
+## Ejercicios resueltos
+
+### 1. Posición final
+
+Una persona empieza en $x_0=-10$ m y camina a $1{,}5$ m/s hacia el sentido positivo durante $8$ s. Calcula su posición.
+
+$$
+x=-10+1{,}5\\cdot8=2\\ \\text{m}.
+$$
+
+Termina en la posición $2$ m. Ha recorrido $12$ m, pero empezó diez metros a la izquierda del origen.
+
+### 2. Tiempo necesario
+
+Un robot se mueve a $0{,}8$ m/s y debe recorrer $24$ m. ¿Cuánto tarda?
+
+$$
+t=\\frac{\\Delta x}{v}=\\frac{24}{0{,}8}=30\\ \\text{s}.
+$$
+
+### 3. Conversión de unidades
+
+Un tren viaja a $90$ km/h durante $20$ s. ¿Qué distancia recorre?
+
+Primero:
+
+$$
+90\\ \\text{km/h}=\\frac{90}{3{,}6}=25\\ \\text{m/s}.
+$$
+
+Después:
+
+$$
+d=vt=25\\cdot20=500\\ \\text{m}.
+$$
+
+## Resumen para estudiar
+
+En MRU la trayectoria es recta y la velocidad es constante, así que $a=0$. Usa $x=x_0+vt$, elige un sentido positivo y no mezcles unidades. En la gráfica posición-tiempo, la pendiente es la velocidad.
+
+Cuando la velocidad deja de ser constante, el modelo correcto pasa a ser el [MRUA: movimiento rectilíneo uniformemente acelerado](/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/). Para reforzar el método general de planteamiento, consulta también [cómo resolver problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/).
+
+Si necesitas practicar con ejercicios de tu curso, puedes consultar las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
+`,W=`---
+title: "MRUA en ESO: movimiento rectilíneo acelerado con fórmulas y ejercicios"
+date: "2026-08-19"
+updated: "2026-08-19"
+description: "Aprende MRUA en ESO: aceleración, velocidad, posición y gráficas con ejemplos resueltos y control de unidades."
+tag: "ESO"
+category: "Física y Química"
+relatedService: "/clases-particulares/fisica-ingenieria/"
+relatedPosts: "mru-eso-movimiento-rectilineo-uniforme-ejercicios,gravitacion-eso-ley-universal-peso-ejercicios,fisica-y-quimica-como-plantear-problemas"
+image: "/assets/latex/mrua-velocidad-tiempo-eso.svg"
+---
+
+El **movimiento rectilíneo uniformemente acelerado** (MRUA) ocurre cuando un objeto se mueve en línea recta y su velocidad cambia siempre al mismo ritmo. Puede ganar velocidad —acelerar— o perderla —frenar—. Lo que se mantiene constante es la aceleración, no la velocidad.
+
+El MRUA aparece en un coche que arranca de forma regular, en una bicicleta que frena suavemente o en una caída libre si despreciamos el rozamiento del aire. Es la continuación natural del [MRU](/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/): en MRU $a=0$; en MRUA la aceleración es constante y distinta de cero.
+
+## Magnitudes que hay que distinguir
+
+| Magnitud | Símbolo | Unidad del SI | Qué indica |
+|---|---|---|---|
+| Posición | $x$ | m | Dónde está el móvil |
+| Velocidad inicial | $v_0$ | m/s | Velocidad al empezar |
+| Velocidad final | $v$ | m/s | Velocidad en un instante |
+| Aceleración | $a$ | m/s² | Cambio de velocidad por segundo |
+| Tiempo | $t$ | s | Tiempo transcurrido |
+
+Decir que $a=2$ m/s² significa que la velocidad aumenta $2$ m/s cada segundo. No significa que recorra dos metros por segundo al cuadrado: la unidad describe un cambio de velocidad.
+
+## La primera ecuación: velocidad y tiempo
+
+Cuando la aceleración es constante:
+
+$$
+v=v_0+at.
+$$
+
+Un patinete parte con $v_0=3$ m/s y acelera a $1{,}5$ m/s² durante $4$ s. Entonces:
+
+$$
+v=3+1{,}5\\cdot4=9\\ \\text{m/s}.
+$$
+
+Cada segundo aumenta $1{,}5$ m/s: $3$, $4{,}5$, $6$, $7{,}5$, $9$. La velocidad no es constante, pero su incremento por segundo sí lo es.
+
+## La ecuación de posición
+
+Para saber dónde está el móvil usamos:
+
+$$
+x=x_0+v_0t+\\frac12at^2.
+$$
+
+El término con $t^2$ aparece porque la velocidad va cambiando. No lo uses en MRU, donde $a=0$ y queda simplemente $x=x_0+vt$.
+
+Si un móvil parte del origen y del reposo, $x_0=0$ y $v_0=0$. La ecuación se simplifica:
+
+$$
+x=\\frac12at^2.
+$$
+
+## Ejemplo completo: un carro que arranca
+
+Un carro parte del reposo y acelera a $2$ m/s² durante $4$ s. Calcula su velocidad final y el espacio recorrido.
+
+Datos:
+
+$$
+v_0=0,\\qquad a=2\\ \\text{m/s}^2,\\qquad t=4\\ \\text{s}.
+$$
+
+Velocidad final:
+
+$$
+v=0+2\\cdot4=8\\ \\text{m/s}.
+$$
+
+Posición recorrida:
+
+$$
+x=0+0\\cdot4+\\frac12\\cdot2\\cdot4^2=16\\ \\text{m}.
+$$
+
+El carro alcanza $8$ m/s y recorre $16$ m. No uses $d=vt=8\\cdot4=32$ m: esa cuenta supondría que se ha movido a $8$ m/s durante los cuatro segundos, pero empezó parado.
+
+![Gráfica velocidad-tiempo de un MRUA que parte del reposo, alcanza ocho metros por segundo en cuatro segundos y recorre dieciséis metros](/assets/latex/mrua-velocidad-tiempo-eso.svg)
+
+En la gráfica $v-t$, la pendiente es la aceleración:
+
+$$
+a=\\frac{\\Delta v}{\\Delta t}=\\frac{8-0}{4-0}=2\\ \\text{m/s}^2.
+$$
+
+Además, el área bajo la gráfica representa el desplazamiento. En este caso es un triángulo:
+
+$$
+\\text{área}=\\frac12\\cdot4\\cdot8=16\\ \\text{m}.
+$$
+
+Las dos formas dan la misma distancia porque describen el mismo movimiento.
+
+## Aceleración positiva, negativa y frenada
+
+El signo depende del eje que elijas. Si tomas como positivo el sentido del movimiento inicial:
+
+- $a>0$: la velocidad se hace más positiva; el móvil gana rapidez en ese sentido.
+- $a<0$: la velocidad disminuye; puede estar frenando.
+
+Un coche va a $20$ m/s y frena con $a=-4$ m/s². ¿Cuánto tarda en detenerse?
+
+Al parar, $v=0$:
+
+$$
+0=20-4t.
+$$
+
+$$
+t=5\\ \\text{s}.
+$$
+
+El signo negativo no es un resultado malo: indica que la aceleración apunta en sentido contrario a la velocidad inicial.
+
+## Caída libre: un MRUA vertical
+
+En ESO suele aproximarse la caída libre como MRUA con aceleración gravitatoria:
+
+$$
+g\\approx9{,}8\\ \\text{m/s}^2.
+$$
+
+Si elegimos hacia abajo como sentido positivo y dejamos caer un objeto, $v_0=0$ y $a=g$. Tras $2$ s:
+
+$$
+v=gt=9{,}8\\cdot2=19{,}6\\ \\text{m/s}.
+$$
+
+Si elegimos hacia arriba como sentido positivo, entonces $a=-g$. Ambas elecciones son correctas si mantienes los signos de forma coherente. La gravedad se estudia con más detalle en la guía de [gravitación en ESO](/blog/gravitacion-eso-ley-universal-peso-ejercicios/).
+
+## Cómo distinguir las gráficas
+
+| Gráfica | Qué representa su pendiente | Qué representa el área |
+|---|---|---|
+| Posición-tiempo ($x-t$) | Velocidad | No se suele interpretar como distancia en ESO |
+| Velocidad-tiempo ($v-t$) | Aceleración | Desplazamiento |
+| Aceleración-tiempo ($a-t$) | No es una magnitud básica en este nivel | Cambio de velocidad |
+
+Una recta inclinada en una gráfica velocidad-tiempo significa aceleración constante. Una recta horizontal en esa misma gráfica significaría velocidad constante, es decir, MRU.
+
+## Método seguro para problemas de MRUA
+
+1. Decide el sentido positivo y dibuja un eje sencillo.
+2. Escribe $x_0$, $v_0$, $v$, $a$ y $t$, con unidades.
+3. Identifica qué magnitud buscas.
+4. Elige una ecuación que incluya la incógnita y los datos conocidos.
+5. Sustituye unidades coherentes: metros, segundos y m/s.
+6. Comprueba que el signo final cuenta una historia física razonable.
+
+No hace falta usar todas las fórmulas. Elegir bien la ecuación forma parte del problema.
+
+## Errores frecuentes
+
+### Confundir velocidad con aceleración
+
+La velocidad dice cuánto cambia la posición por segundo; la aceleración, cuánto cambia la velocidad por segundo. Sus unidades son distintas.
+
+### Usar $d=vt$ con la velocidad final
+
+En MRUA, $v$ cambia. Solo podrías usar $d=v_{\\text{media}}t$ si calculas antes la velocidad media. Cuando la aceleración es constante:
+
+$$
+v_{\\text{media}}=\\frac{v_0+v}{2}.
+$$
+
+En el carro, $v_{\\text{media}}=(0+8)/2=4$ m/s, y $4\\cdot4=16$ m.
+
+### Olvidar elevar el tiempo al cuadrado
+
+En $\\frac12at^2$, primero se eleva $t$ al cuadrado. Para $t=4$, $t^2=16$, no $8$.
+
+### Tratar una frenada como aceleración positiva
+
+Si el móvil se dirige en el sentido positivo y disminuye su velocidad, la aceleración debe tener signo negativo.
+
+## Ejercicios resueltos
+
+### 1. Velocidad después de acelerar
+
+Una moto lleva $5$ m/s y acelera a $3$ m/s² durante $2$ s.
+
+$$
+v=5+3\\cdot2=11\\ \\text{m/s}.
+$$
+
+### 2. Posición con velocidad inicial
+
+Una pelota se mueve desde $x_0=2$ m con $v_0=4$ m/s y acelera a $1$ m/s² durante $3$ s.
+
+$$
+x=2+4\\cdot3+\\frac12\\cdot1\\cdot3^2=18{,}5\\ \\text{m}.
+$$
+
+### 3. Frenada
+
+Un patinador va a $12$ m/s y tiene aceleración $-2$ m/s². Calcula su velocidad a los $4$ s.
+
+$$
+v=12-2\\cdot4=4\\ \\text{m/s}.
+$$
+
+Sigue avanzando en el sentido inicial, pero más despacio.
+
+## Resumen para estudiar
+
+En MRUA la trayectoria es recta y la aceleración es constante. Usa $v=v_0+at$ para velocidades y $x=x_0+v_0t+\\frac12at^2$ para posiciones. En una gráfica $v-t$, la pendiente es la aceleración y el área es el desplazamiento.
+
+Para consolidar la base, repasa el [MRU con ejercicios](/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/) y el método de [plantear problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/). Si necesitas practicar con tu temario, puedes consultar las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
+`,J=`---
 title: p-valor, intervalo de confianza y tamaño del efecto explicados con un mismo ejemplo
 date: 2026-07-10
 updated: 2026-07-10
@@ -12742,7 +14153,7 @@ Si te dan una salida de software, localiza:
 5. La frase de interpretación.
 
 Para evitar confusiones habituales, lee también [errores más comunes en Inferencia Estadística](/blog/errores-comunes-inferencia-estadistica/) y [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/).
-`,G=`---
+`,K=`---
 title: Preparar la PAU desde verano: plan realista para llegar fuerte a septiembre
 date: 2026-07-21
 updated: 2026-07-21
@@ -12804,7 +14215,7 @@ También conviene evitar convertir el verano en una repetición del curso. Desca
 Al terminar deberías poder nombrar tus tres bloqueos prioritarios, resolver mejor los ejercicios básicos que en la primera semana y tener un sistema de corrección. No hace falta llegar sabiendo todo el temario de PAU; hace falta que el aprendizaje de septiembre no se apoye en terreno inestable.
 
 Cuando empiece el curso, continúa con [un calendario de Selectividad que se pueda cumplir](/blog/preparar-selectividad-con-calendario/) y usa los modelos oficiales de tu comunidad. Si quieres priorizar asignaturas, nota objetivo y fechas de forma realista, puedes consultar las [clases para Selectividad y PAU](/clases-particulares/selectividad/).
-`,w=`---
+`,Y=`---
 title: Preparar la Selectividad con un calendario que sí se cumple
 date: 2026-06-07
 updated: 2026-06-07
@@ -12873,7 +14284,7 @@ El calendario debe tener colchón. Si no hay huecos, se romperá el primer día 
 En Nebula el calendario se construye con asignaturas, nota objetivo, fechas y punto de partida. Después se revisa semanalmente para ajustar prioridades.
 
 Si necesitas preparar PAU, Matemáticas, Física, Química u otra materia con un plan medible, revisa [clases particulares para Selectividad y PAU](/clases-particulares/selectividad/) o [reserva un diagnóstico](/contacto/).
-`,k=`---
+`,X=`---
 title: Tu primer proyecto de Python para datos: qué hacer antes de aprender más librerías
 date: 2026-07-21
 updated: 2026-07-21
@@ -12942,7 +14353,7 @@ También es importante separar trabajo propio y código reutilizado. Si consulta
 Termina cuando otra persona pueda abrir el cuaderno, entender la pregunta, ejecutar las celdas y llegar a la misma conclusión. Si todavía quieres añadir una sexta visualización o una predicción, guárdala para una versión dos. Acabar y explicar un proyecto breve vale más que dejar varios a medias.
 
 Si estás decidiendo qué aprender antes, empieza por la guía [Python y SQL para empezar en datos](/blog/python-y-sql-para-empezar-en-datos/). Para trabajar Python desde la base o conectar el proyecto con una asignatura, revisa las [clases particulares de Programación](/clases-particulares/programacion-universidad/).
-`,W=`---
+`,Z=`---
 title: Probabilidad condicionada y teorema de Bayes: problemas universitarios resueltos
 date: 2026-06-27
 updated: 2026-06-27
@@ -13100,7 +14511,7 @@ Sigue siempre estos pasos:
 5. Interpreta el resultado en el contexto.
 
 Si estás preparando Estadística, también puedes leer [Estadística desde cero para elegir contrastes](/blog/estadistica-desde-cero-para-elegir-contrastes/) o revisar la página de [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,J=`---
+`,ee=`---
 title: Problemas de optimización con derivadas: ejercicios resueltos
 date: 2026-09-05
 updated: 2026-09-05
@@ -13729,7 +15140,7 @@ Una respuesta queda cerrada cuando recupera todas las variables originales, demu
 Si el modelo admite solo valores enteros, compara los enteros cercanos al óptimo continuo. Si el dominio es abierto o infinito, estudia sus fronteras mediante límites antes de afirmar que el mejor valor se alcanza.
 
 Si necesitas practicar modelización y comprobación sobre problemas de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,K=`---
+`,ne=`---
 title: Python y SQL para empezar en datos: qué aprender primero
 date: 2026-06-01
 updated: 2026-06-01
@@ -13807,7 +15218,7 @@ No midas el progreso por horas de vídeo. Mídelo por entregables:
 Esa evidencia es la que convierte el estudio en una base profesional.
 
 Para acompañar esta base puedes revisar [clases particulares de Programación desde cero](/clases-particulares/programacion-universidad/) o leer la ruta de [transición al sector IT en 6 meses](/blog/transicion-al-sector-it-en-6-meses/).
-`,Y=`---
+`,ae=`---
 title: Qué prueba estadística utilizar: guía para elegir el test correcto
 date: 2026-07-09
 updated: 2026-07-22
@@ -14017,7 +15428,7 @@ No. Responden bajo marcos distintos. La elección depende de la pregunta y de la
 El software calcula, pero no conoce tu diseño ni tu pregunta. La decisión debe estar razonada antes de seleccionar un menú.
 
 Para practicar la interpretación, continúa con [p-valor, intervalo de confianza y tamaño del efecto](/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/) o revisa las [clases de Estadística para Psicología, ADE y Ciencias Sociales](/clases-particulares/estadistica-psicologia-ade/).
-`,X=`---
+`,ie=`---
 title: Qué son las derivadas y para qué se utilizan
 date: 2026-06-19
 updated: 2026-06-19
@@ -14125,7 +15536,7 @@ Para dominar derivadas, trabaja cada ejercicio en tres capas:
 Si solo practicas reglas, cualquier enunciado nuevo parece distinto. Si entiendes la derivada como ritmo de cambio, las reglas empiezan a tener dirección.
 
 Puedes continuar con [qué son las integrales y para qué se utilizan](/blog/que-son-las-integrales-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,Z=`---
+`,oe=`---
 title: Qué son las integrales y para qué se utilizan
 date: 2026-06-21
 updated: 2026-08-12
@@ -14232,7 +15643,7 @@ Cuando entiendes la integral como acumulación, las técnicas de cálculo dejan 
 El paso siguiente es distinguir con claridad la [integral definida de la indefinida](/blog/integral-definida-e-indefinida-diferencias-ejemplos/) y aprender a reconocer la estructura del integrando. La guía de [métodos de integración y elección de técnica](/blog/metodos-de-integracion-como-elegir/) organiza ese diagnóstico; después puedes profundizar en [fracciones parciales](/blog/integrales-funciones-racionales-fracciones-parciales/) y aplicar la integral definida al [área entre dos curvas](/blog/area-entre-dos-curvas-ejercicios-resueltos/).
 
 Puedes leer también [qué son las derivadas y para qué se utilizan](/blog/que-son-las-derivadas-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,nn=`---
+`,re=`---
 title: R, SPSS, Jamovi o Python: qué programa estadístico conviene usar en la universidad
 date: 2026-07-14
 updated: 2026-07-14
@@ -14362,7 +15773,7 @@ Independientemente del software, debes poder:
 El software cambia; el razonamiento estadístico permanece.
 
 Para decidir qué análisis hacer antes de abrir ningún programa, lee [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,en=`---
+`,se=`---
 title: Regla de L'Hôpital: cuándo utilizarla y cuándo no
 date: 2026-08-23
 updated: 2026-08-23
@@ -15048,7 +16459,7 @@ En una solución escrita, deja visible la forma indeterminada antes de cada flec
 Simplifica siempre el nuevo cociente antes de decidir el paso siguiente.
 
 Si estás preparando Cálculo universitario y necesitas decidir qué técnica admite cada límite sobre tus propios ejercicios, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,an=`---
+`,te=`---
 title: Regresión lineal y ANOVA: cuándo utilizar cada método y cómo interpretar los resultados
 date: 2026-07-11
 updated: 2026-07-22
@@ -15216,7 +16627,7 @@ Usa esta regla:
 - Varios predictores mixtos: modelo lineal/regresión con variables codificadas.
 
 Para profundizar en regresión, lee [Econometría desde cero](/blog/econometria-desde-cero-interpretar-regresion/). Para decidir entre pruebas, revisa [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o consulta las [clases de Estadística para Psicología, ADE y Ciencias Sociales](/clases-particulares/estadistica-psicologia-ade/).
-`,on=`---
+`,ce=`---
 title: Teorema fundamental del cálculo: ejemplos y ejercicios
 date: 2026-08-13
 updated: 2026-08-13
@@ -15950,7 +17361,7 @@ La primera parte del teorema deriva acumulaciones: $\\frac{d}{dx}\\int_a^x f(t)d
 La comprobación esencial consiste en derivar la primitiva, respetar la orientación de los límites y revisar el dominio completo. En problemas de acumulación, interpreta además el signo y las unidades: una integral definida mide cambio neto, mientras que el área o la distancia total pueden exigir dividir el intervalo.
 
 Antes de operar, identifica si buscas una derivada o una acumulación numérica, revisa continuidad y dominio, y separa cualquier singularidad. Si necesitas practicar estas decisiones con ejercicios de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,rn=`---
+`,le=`---
 title: Transición al sector IT en 6 meses: una ruta realista
 date: 2026-06-04
 updated: 2026-06-04
@@ -16010,5 +17421,5 @@ En una entrevista no basta con enseñar código. Tienes que explicar cómo pensa
 La parte dura no es solo el temario. Es mantener continuidad cuando aparecen dudas, cansancio o comparación con perfiles más avanzados. Por eso conviene revisar progreso cada semana y cerrar entregables pequeños.
 
 Si estás empezando desde cero, puedes leer [Python y SQL para empezar en datos](/blog/python-y-sql-para-empezar-en-datos/) o revisar [clases de programación universitaria y fundamentos](/clases-particulares/programacion-universidad/).
-`;function sn(n){const e=/^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(n);if(!e)return{data:{},body:n.trim()};const o={};for(const a of e[1].split(`
-`)){const i=a.indexOf(":");if(i===-1)continue;const s=a.slice(0,i).trim();let r=a.slice(i+1).trim();(r.startsWith('"')&&r.endsWith('"')||r.startsWith("'")&&r.endsWith("'"))&&(r=r.slice(1,-1)),s&&(o[s]=r)}return{data:o,body:n.slice(e[0].length).trim()}}function tn(n){const e=n.trim().split(/\s+/).filter(Boolean).length;return Math.max(1,Math.round(e/200))}const cn=Object.assign({"../content/blog/algebra-lineal-universidad-que-estudiar-primero-errores.md":c,"../content/blog/area-entre-dos-curvas-ejercicios-resueltos.md":l,"../content/blog/cambio-variables-jacobiano-integrales-dobles.md":d,"../content/blog/circuitos-corriente-continua-problemas-resueltos-universidad.md":u,"../content/blog/como-aprobar-calculo-i-ingenieria-seis-semanas.md":m,"../content/blog/como-aprobar-estadistica-psicologia-sin-base-matematica.md":$,"../content/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas.md":p,"../content/blog/como-aprobar-matematicas-i-ade-economia.md":x,"../content/blog/como-estudiar-matematicas-sin-memorizar.md":f,"../content/blog/como-preparar-ib-mathematics-aa-ai.md":g,"../content/blog/como-preparar-pau-matematicas-ii.md":b,"../content/blog/como-resolver-limites-indeterminaciones-ejercicios.md":v,"../content/blog/continuidad-derivabilidad-diferencias-problemas.md":y,"../content/blog/derivacion-implicita-ejercicios-resueltos.md":q,"../content/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos.md":E,"../content/blog/derivadas-parciales-gradiente-ejercicios.md":_,"../content/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes.md":h,"../content/blog/econometria-desde-cero-interpretar-regresion.md":j,"../content/blog/economia-ade-matematicas-sin-perderse.md":C,"../content/blog/ecuaciones-diferenciales-identificar-metodo-correcto.md":z,"../content/blog/errores-comunes-inferencia-estadistica.md":L,"../content/blog/estadistica-desde-cero-para-elegir-contrastes.md":S,"../content/blog/estequiometria-universitaria-ejercicios-resueltos.md":P,"../content/blog/estudio-completo-funcion-paso-a-paso.md":A,"../content/blog/fisica-y-quimica-como-plantear-problemas.md":D,"../content/blog/ib-gcse-como-preparar-examenes-internacionales.md":U,"../content/blog/integracion-por-partes-formula-ejercicios-resueltos.md":I,"../content/blog/integracion-por-sustitucion-cambio-variable-ejercicios.md":R,"../content/blog/integral-definida-e-indefinida-diferencias-ejemplos.md":F,"../content/blog/integrales-dobles-ejercicios-resueltos.md":N,"../content/blog/integrales-funciones-racionales-fracciones-parciales.md":M,"../content/blog/integrales-impropias-convergencia-ejercicios.md":T,"../content/blog/matrices-determinantes-sistemas-ecuaciones-guia.md":Q,"../content/blog/maximos-minimos-varias-variables-ejercicios.md":B,"../content/blog/metodos-de-integracion-como-elegir.md":H,"../content/blog/microeconomia-i-tipos-problemas-examen.md":O,"../content/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo.md":V,"../content/blog/preparar-pau-desde-verano-plan-septiembre.md":G,"../content/blog/preparar-selectividad-con-calendario.md":w,"../content/blog/primer-proyecto-python-principiantes-datos.md":k,"../content/blog/probabilidad-condicionada-bayes-problemas-resueltos.md":W,"../content/blog/problemas-optimizacion-derivadas-ejercicios-resueltos.md":J,"../content/blog/python-y-sql-para-empezar-en-datos.md":K,"../content/blog/que-prueba-estadistica-utilizar-guia-test-correcto.md":Y,"../content/blog/que-son-las-derivadas-y-para-que-se-utilizan.md":X,"../content/blog/que-son-las-integrales-y-para-que-se-utilizan.md":Z,"../content/blog/r-spss-jamovi-python-programa-estadistico-universidad.md":nn,"../content/blog/regla-lhopital-cuando-usarla-ejercicios.md":en,"../content/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados.md":an,"../content/blog/teorema-fundamental-calculo-ejemplos-ejercicios.md":on,"../content/blog/transicion-al-sector-it-en-6-meses.md":rn}),t=Object.entries(cn).map(([n,e])=>{const o=n.split("/").pop().replace(/\.md$/,""),{data:a,body:i}=sn(e);return{slug:o,title:a.title??o,date:a.date??"",updated:a.updated??a.date??"",description:a.description??"",tag:a.tag??"Blog",category:a.category??a.tag??"Blog",image:a.image??"/favicon.svg",relatedService:a.relatedService??"/contacto/",relatedPosts:a.relatedPosts?a.relatedPosts.split(",").map(s=>s.trim()).filter(Boolean):[],readingMinutes:tn(i),body:i}}).sort((n,e)=>n.date<e.date?1:n.date>e.date?-1:0);function dn(){return t}function un(n,e=9){return Math.max(1,Math.ceil(n.length/e))}function mn(n,e,o=9){const a=(e-1)*o;return n.slice(a,a+o)}function ln(n){return t.find(e=>e.slug===n)}function $n(n){return t.filter(e=>e.category===n)}function pn(n,e=3){const o=n.relatedPosts.map(i=>ln(i)).filter(i=>!!i),a=t.filter(i=>i.slug!==n.slug&&!o.some(s=>s.slug===i.slug));return[...o,...a].slice(0,e)}function xn(n){if(!n)return"";const e=new Date(n);return Number.isNaN(e.getTime())?n:e.toLocaleDateString("es-ES",{day:"numeric",month:"long",year:"numeric"})}export{un as a,ln as b,mn as c,dn as d,pn as e,xn as f,$n as g};
+`;function de(e){const n=/^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(e);if(!n)return{data:{},body:e.trim()};const o={};for(const a of n[1].split(`
+`)){const i=a.indexOf(":");if(i===-1)continue;const s=a.slice(0,i).trim();let r=a.slice(i+1).trim();(r.startsWith('"')&&r.endsWith('"')||r.startsWith("'")&&r.endsWith("'"))&&(r=r.slice(1,-1)),s&&(o[s]=r)}return{data:o,body:e.slice(n[0].length).trim()}}function ue(e){const n=e.trim().split(/\s+/).filter(Boolean).length;return Math.max(1,Math.round(n/200))}const me=Object.assign({"../content/blog/algebra-lineal-universidad-que-estudiar-primero-errores.md":c,"../content/blog/area-entre-dos-curvas-ejercicios-resueltos.md":l,"../content/blog/cambio-variables-jacobiano-integrales-dobles.md":d,"../content/blog/circuitos-corriente-continua-problemas-resueltos-universidad.md":u,"../content/blog/como-aprobar-calculo-i-ingenieria-seis-semanas.md":m,"../content/blog/como-aprobar-estadistica-psicologia-sin-base-matematica.md":$,"../content/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas.md":p,"../content/blog/como-aprobar-matematicas-i-ade-economia.md":x,"../content/blog/como-estudiar-matematicas-sin-memorizar.md":f,"../content/blog/como-preparar-ib-mathematics-aa-ai.md":g,"../content/blog/como-preparar-pau-matematicas-ii.md":v,"../content/blog/como-resolver-limites-indeterminaciones-ejercicios.md":b,"../content/blog/continuidad-derivabilidad-diferencias-problemas.md":y,"../content/blog/derivacion-implicita-ejercicios-resueltos.md":q,"../content/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos.md":E,"../content/blog/derivadas-parciales-gradiente-ejercicios.md":_,"../content/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes.md":h,"../content/blog/econometria-desde-cero-interpretar-regresion.md":j,"../content/blog/economia-ade-matematicas-sin-perderse.md":C,"../content/blog/ecuaciones-diferenciales-identificar-metodo-correcto.md":z,"../content/blog/errores-comunes-inferencia-estadistica.md":L,"../content/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja.md":S,"../content/blog/estadistica-descriptiva-eso-media-mediana-moda.md":P,"../content/blog/estadistica-desde-cero-para-elegir-contrastes.md":A,"../content/blog/estequiometria-universitaria-ejercicios-resueltos.md":D,"../content/blog/estudio-completo-funcion-paso-a-paso.md":U,"../content/blog/fisica-y-quimica-como-plantear-problemas.md":R,"../content/blog/gravitacion-eso-ley-universal-peso-ejercicios.md":I,"../content/blog/ib-gcse-como-preparar-examenes-internacionales.md":F,"../content/blog/integracion-por-partes-formula-ejercicios-resueltos.md":M,"../content/blog/integracion-por-sustitucion-cambio-variable-ejercicios.md":N,"../content/blog/integral-definida-e-indefinida-diferencias-ejemplos.md":Q,"../content/blog/integrales-dobles-ejercicios-resueltos.md":T,"../content/blog/integrales-funciones-racionales-fracciones-parciales.md":B,"../content/blog/integrales-impropias-convergencia-ejercicios.md":H,"../content/blog/matrices-determinantes-sistemas-ecuaciones-guia.md":O,"../content/blog/maximos-minimos-varias-variables-ejercicios.md":V,"../content/blog/metodos-de-integracion-como-elegir.md":G,"../content/blog/microeconomia-i-tipos-problemas-examen.md":k,"../content/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios.md":w,"../content/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios.md":W,"../content/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo.md":J,"../content/blog/preparar-pau-desde-verano-plan-septiembre.md":K,"../content/blog/preparar-selectividad-con-calendario.md":Y,"../content/blog/primer-proyecto-python-principiantes-datos.md":X,"../content/blog/probabilidad-condicionada-bayes-problemas-resueltos.md":Z,"../content/blog/problemas-optimizacion-derivadas-ejercicios-resueltos.md":ee,"../content/blog/python-y-sql-para-empezar-en-datos.md":ne,"../content/blog/que-prueba-estadistica-utilizar-guia-test-correcto.md":ae,"../content/blog/que-son-las-derivadas-y-para-que-se-utilizan.md":ie,"../content/blog/que-son-las-integrales-y-para-que-se-utilizan.md":oe,"../content/blog/r-spss-jamovi-python-programa-estadistico-universidad.md":re,"../content/blog/regla-lhopital-cuando-usarla-ejercicios.md":se,"../content/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados.md":te,"../content/blog/teorema-fundamental-calculo-ejemplos-ejercicios.md":ce,"../content/blog/transicion-al-sector-it-en-6-meses.md":le}),t=Object.entries(me).map(([e,n])=>{const o=e.split("/").pop().replace(/\.md$/,""),{data:a,body:i}=de(n);return{slug:o,title:a.title??o,date:a.date??"",updated:a.updated??a.date??"",description:a.description??"",tag:a.tag??"Blog",category:a.category??a.tag??"Blog",image:a.image??"/favicon.svg",relatedService:a.relatedService??"/contacto/",relatedPosts:a.relatedPosts?a.relatedPosts.split(",").map(s=>s.trim()).filter(Boolean):[],readingMinutes:ue(i),body:i}}).sort((e,n)=>e.date<n.date?1:e.date>n.date?-1:0);function pe(){return t}function xe(e,n=9){return Math.max(1,Math.ceil(e.length/n))}function fe(e,n,o=9){const a=(n-1)*o;return e.slice(a,a+o)}function $e(e){return t.find(n=>n.slug===e)}function ge(e){return t.filter(n=>n.category===e)}function ve(e,n=3){const o=e.relatedPosts.map(i=>$e(i)).filter(i=>!!i),a=t.filter(i=>i.slug!==e.slug&&!o.some(s=>s.slug===i.slug));return[...o,...a].slice(0,n)}function be(e){if(!e)return"";const n=new Date(e);return Number.isNaN(n.getTime())?e:n.toLocaleDateString("es-ES",{day:"numeric",month:"long",year:"numeric"})}export{xe as a,$e as b,fe as c,pe as d,ve as e,be as f,ge as g};

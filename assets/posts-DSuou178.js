@@ -907,8 +907,8 @@ Trabaja primero polinomios, después racionales y finalmente funciones con raíc
 El campus virtual de Método Nebula recorre funciones, límites, derivadas y aplicaciones con teoría, ejemplos y ejercicios graduados. Si quieres detectar si el bloqueo es algebraico, gráfico o de cálculo, utiliza el botón de contacto y convertimos el diagnóstico en una ruta concreta.
 `,m=`---
 title: "Trigonometría en Bachillerato: cómo elegir entre seno, coseno y tangente sin probar fórmulas"
-date: "2026-11-27"
-updated: "2026-11-27"
+date: "2026-10-20"
+updated: "2026-10-20"
 description: "Método para resolver triángulos en Bachillerato: razones trigonométricas, leyes de senos y cosenos, ambigüedad y ejemplos."
 tag: "Bachillerato"
 category: "Matemáticas ESO y Bachillerato"
@@ -934,7 +934,7 @@ $$
 \\tan\\theta=\\frac{\\text{cateto opuesto}}{\\text{cateto adyacente}}.
 $$
 
-Elige la razón que conecta los dos lados conocidos o buscados. Pitágoras es preferible si intervienen únicamente lados.
+La razón adecuada es la que conecta los dos lados conocidos o buscados. Pitágoras es preferible si intervienen únicamente lados.
 
 ## Ley de los senos
 
@@ -1022,13 +1022,9 @@ En problemas aplicados añade una frase final: altura, distancia o ángulo en el
 
 ## Protocolo de decisión
 
-1. Dibuja y etiqueta lados opuestos a sus ángulos.
-2. Marca todos los datos.
-3. Busca primero un ángulo recto.
-4. Si hay un par opuesto conocido, considera seno.
-5. Si hay dos lados y el ángulo comprendido, considera coseno.
-6. Si hay tres lados, usa coseno para un ángulo.
-7. Comprueba suma de ángulos, desigualdad triangular y tamaño relativo.
+La elección del método parte de un dibujo con lados y ángulos opuestos correctamente emparejados. Un ángulo recto conduce a razones trigonométricas o Pitágoras. Un par lado–ángulo opuesto conocido favorece la ley de los senos; dos lados con el ángulo comprendido, o tres lados, conducen a la ley del coseno.
+
+La suma de ángulos, la desigualdad triangular y la correspondencia entre el mayor lado y el mayor ángulo ofrecen tres comprobaciones independientes del resultado.
 
 ## Errores frecuentes
 
@@ -1039,11 +1035,11 @@ En problemas aplicados añade una frase final: altura, distancia o ángulo en el
 - Introducir un ángulo no comprendido en la ley del coseno.
 - Redondear antes del resultado final.
 
-El campus virtual de Método Nebula desarrolla trigonometría desde triángulos rectángulos hasta leyes de senos y cosenos, identidades y ecuaciones, con ejemplos y práctica gradual. Si quieres elegir el método por la estructura del problema, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla trigonometría desde triángulos rectángulos hasta leyes de senos y cosenos, identidades y ecuaciones, con ejemplos y práctica gradual. El botón de contacto permite solicitar una ruta basada en la estructura de cada problema.
 `,$=`---
 title: "Reactivo limitante, pureza y rendimiento: el problema de estequiometría que resume Bachillerato"
-date: "2026-11-12"
-updated: "2026-11-12"
+date: "2026-10-05"
+updated: "2026-10-05"
 description: "Resuelve problemas de reactivo limitante, pureza y rendimiento en Química de Bachillerato con una cadena de cálculo rigurosa."
 tag: "Bachillerato"
 category: "Física y Química"
@@ -1078,7 +1074,7 @@ Una muestra de 10,0 g al 80 % contiene 8,0 g de sustancia activa. Los 2,0 g rest
 
 ## Cómo identificar el reactivo limitante
 
-Convierte cada reactivo a moles y calcula cuánto producto podría formar por separado. El que produzca menos cantidad de producto es el limitante.
+La comparación exige expresar cada reactivo en moles y determinar cuánto producto podría formar por separado. El que produzca menos cantidad de producto es el limitante.
 
 También puede compararse el cociente:
 
@@ -1152,7 +1148,7 @@ Intercambiar ambas etapas puede dar resultados numéricos aparentemente plausibl
 
 ## Control de unidades y de magnitud
 
-Escribe cada conversión como un factor que cancela unidades. Por ejemplo:
+Cada conversión puede expresarse como un factor que cancela unidades. Por ejemplo:
 
 $$
 28,4\\ \\mathrm{g\\ Cl_2}\\cdot\\frac{1\\ \\mathrm{mol\\ Cl_2}}{71,0\\ \\mathrm{g\\ Cl_2}}\\cdot
@@ -1172,7 +1168,7 @@ La masa de producto puede superar la masa del limitante porque incorpora átomos
 - Usar coeficientes de una ecuación sin ajustar.
 - Confundir masa teórica con masa real.
 
-El campus virtual de Método Nebula desarrolla mol, masas molares, limitante, pureza, rendimiento, gases y disoluciones mediante ejemplos guiados y problemas acumulativos. Si quieres entrenar la cadena completa hasta que cada paso tenga sentido, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla mol, masas molares, limitante, pureza, rendimiento, gases y disoluciones mediante ejemplos guiados y problemas acumulativos. El botón de contacto permite solicitar una ruta que entrena la cadena completa hasta dar sentido a cada paso.
 `,p=`---
 title: "Cambio de variables y jacobiano en integrales dobles"
 date: "2026-09-06"
@@ -6516,8 +6512,8 @@ La última frase importa: no prometas más de lo que el diseño permite.
 Para reforzar este bloque, revisa [p-valor, intervalo de confianza y tamaño del efecto](/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/) o [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
 `,D=`---
 title: "Densidad, presión y flotación en ESO: por qué un objeto pesado también puede flotar"
-date: "2026-11-19"
-updated: "2026-11-19"
+date: "2026-10-12"
+updated: "2026-10-12"
 description: "Entiende densidad, presión hidrostática y empuje en ESO con modelos, fórmulas, un ejemplo resuelto y errores de unidades."
 tag: "ESO"
 category: "Física y Química"
@@ -6647,7 +6643,7 @@ La misma comparación explica por qué un submarino modifica su flotabilidad lle
 - Decir que flota porque “no pesa”.
 - Olvidar que equilibrio exige igualdad de fuerzas, no ausencia de fuerzas.
 
-El campus virtual de Método Nebula desarrolla masa, volumen, densidad, presión, empuje y flotación con experimentos razonados, ejemplos y problemas progresivos. Si quieres conectar cada fórmula con el modelo físico que la justifica, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla masa, volumen, densidad, presión, empuje y flotación con experimentos razonados, ejemplos y problemas progresivos. El botón de contacto permite solicitar una ruta que conecta cada fórmula con el modelo físico que la justifica.
 `,R=`---
 title: "Electricidad y circuitos en ESO: entiende qué ocurre antes de usar la ley de Ohm"
 date: "2026-10-19"
@@ -6849,8 +6845,8 @@ Las fórmulas son $MgCl_2$, $Cu_2O$, $Al(OH)_3$ y $Na_2SO_4$. En Stock: cloruro 
 El campus virtual de Método Nebula conecta estructura atómica, tabla periódica, enlace y formulación para que los nombres no aparezcan aislados. Si necesitas una secuencia que combine comprensión, tarjetas y ejercicios hasta automatizar sin memorizar a ciegas, utiliza el botón de contacto.
 `,I=`---
 title: "Mezclas y disoluciones en ESO: cómo elegir filtración, destilación o cromatografía con criterio"
-date: "2026-12-04"
-updated: "2026-12-04"
+date: "2026-10-27"
+updated: "2026-10-27"
 description: "Guía de ESO para distinguir sustancias, mezclas y disoluciones y elegir métodos de separación según propiedades físicas."
 tag: "ESO"
 category: "Física y Química"
@@ -6928,10 +6924,7 @@ El volumen es el de la disolución final, no necesariamente el volumen inicial d
 
 Para una mezcla de limaduras de hierro, arena y sal:
 
-1. Usa un imán para retirar el hierro por magnetismo.
-2. Añade agua para disolver la sal.
-3. Filtra: la arena queda como residuo.
-4. Evapora o cristaliza el filtrado para recuperar la sal.
+La separación comienza retirando el hierro mediante magnetismo. El agua disuelve después la sal, pero no la arena. La filtración retiene la arena como residuo y deja pasar la disolución salina. Por último, la evaporación o cristalización del filtrado permite recuperar la sal.
 
 Cada etapa elimina un componente aprovechando una propiedad distinta. El orden importa: filtrar antes de disolver la sal no separaría sal y arena.
 
@@ -6944,7 +6937,7 @@ Cada etapa elimina un componente aprovechando una propiedad distinta. El orden i
 - Calcular $R_f$ con distancias desde puntos diferentes.
 - Elegir un método sin nombrar la propiedad física que lo hace funcionar.
 
-El campus virtual de Método Nebula desarrolla materia, mezclas, disoluciones, concentración y técnicas de separación con teoría, experimentos razonados, ejercicios y preguntas competenciales. Si quieres aprender a diseñar el procedimiento y justificar cada paso, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla materia, mezclas, disoluciones, concentración y técnicas de separación con teoría, experimentos razonados, ejercicios y preguntas competenciales. El botón de contacto permite solicitar una ruta centrada en el diseño y la justificación del procedimiento.
 `,N=`---
 title: "Ecuaciones y sistemas en ESO: el método para entenderlos y no volver a temer los signos"
 date: "2026-10-04"
@@ -7093,8 +7086,8 @@ Resultados: $x=5$; $x=6$; $x=20$; $(x,y)=(5,4)$; y precios de 15 € y 11 €.
 El campus virtual de Método Nebula organiza números, álgebra, ecuaciones, sistemas e inecuaciones con teoría, ejemplos y práctica gradual. Si el problema no es “hacer cuentas” sino saber qué paso dar y por qué, utiliza el botón de contacto para construir una ruta desde la base real.
 `,F=`---
 title: "Porcentajes e interés compuesto en ESO: el factor multiplicativo que evita casi todos los errores"
-date: "2026-11-04"
-updated: "2026-11-04"
+date: "2026-09-27"
+updated: "2026-09-27"
 description: "Aprende porcentajes sucesivos, descuentos e interés compuesto con factores multiplicativos, ejemplos y comprobaciones para ESO."
 tag: "ESO"
 category: "Matemáticas ESO y Bachillerato"
@@ -7205,11 +7198,9 @@ La variación global es un aumento del $4,652\\%$. Esta forma funciona con preci
 
 ## Método para no perder la base
 
-1. Escribe la cantidad que actúa como 100 % en ese paso.
-2. Convierte cada variación en factor.
-3. Multiplica los factores en el orden del problema.
-4. Si buscan el valor inicial, divide por el factor total.
-5. Comprueba si el resultado debe ser mayor o menor.
+El análisis comienza identificando qué cantidad representa el 100 % en cada etapa. Cada variación se traduce después a un factor, y los factores se multiplican en el orden temporal del problema. Cuando la incógnita es el valor inicial, la operación se invierte dividiendo por el factor total.
+
+La comparación cualitativa entre valor inicial y final sirve de control: un factor total superior a 1 debe producir crecimiento; uno inferior a 1, disminución.
 
 ## Errores frecuentes
 
@@ -7227,7 +7218,7 @@ La variación global es un aumento del $4,652\\%$. Esta forma funciona con preci
 3. 2000 € crecen al 2,5 % anual durante 3 años. Capital: aproximadamente 2153,78 €.
 4. Un valor sube 10 % y baja 10 %. Factor total: $1,10\\cdot0,90=0,99$.
 
-El campus virtual de Método Nebula conecta proporcionalidad, porcentajes y matemática financiera con ejemplos resueltos, ejercicios graduados y corrección de errores típicos. Si quieres aprender a elegir la operación y justificarla, el botón de contacto permite definir una ruta desde tu nivel real.
+El campus virtual de Método Nebula conecta proporcionalidad, porcentajes y matemática financiera con ejemplos resueltos, ejercicios graduados y corrección de errores típicos. El botón de contacto permite definir una ruta desde el nivel real de cada estudiante.
 `,O=`---
 title: "Probabilidad en ESO: aprende a contar bien y evita los errores que cambian todo"
 date: "2026-10-22"
@@ -8928,8 +8919,8 @@ Corrige buscando los cuatro eslabones: partículas, fuerza, estructura y propied
 El campus virtual de Método Nebula desarrolla Atoms, Elements and Bonding con teoría visual, ejemplos, ejercicios, MCQ y preguntas de respuesta extendida. Si quieres pasar de memorizar definiciones a construir explicaciones que puntúan, el botón de contacto abre un diagnóstico del nivel y una ruta de trabajo.
 `,k=`---
 title: "GCSE Chemistry: electrolysis y productos de los electrodos sin memorizar listas contradictorias"
-date: "2026-11-14"
-updated: "2026-11-14"
+date: "2026-10-07"
+updated: "2026-10-07"
 description: "Electrolysis para GCSE Chemistry: iones móviles, ánodo, cátodo, productos en fundidos y disoluciones, half-equations y errores."
 tag: "GCSE"
 category: "Exámenes internacionales"
@@ -9019,10 +9010,7 @@ Por eso el material del electrodo también forma parte del modelo experimental.
 
 ## Cómo escribir una half-equation
 
-1. Escribe especie inicial y producto.
-2. Ajusta átomos.
-3. Ajusta carga añadiendo electrones.
-4. Comprueba si los electrones se ganan o se pierden en el electrodo correcto.
+Una half-equation se construye fijando primero la especie inicial y el producto. El ajuste de átomos precede al ajuste de carga, que se completa añadiendo electrones. La posición final de esos electrones muestra si el proceso es reducción u oxidación y permite contrastarlo con el electrodo asignado.
 
 La ecuación $\\mathrm{Al^{3+}+3e^-\\to Al}$ muestra reducción porque los electrones están a la izquierda. $\\mathrm{2Cl^-\\to Cl_2+2e^-}$ muestra oxidación porque están a la derecha.
 
@@ -9041,7 +9029,7 @@ Estas pruebas no sustituyen a las half-equations. Son evidencias experimentales 
 - Escribir una half-equation que no conserva carga.
 - Aplicar reglas de electrodos inertes cuando el electrodo participa.
 
-El campus virtual de Método Nebula desarrolla Electrochemistry con modelos de partículas, predicción de productos, half-equations, copper electrodes y fuel cells, además de ejercicios y preguntas de examen. Si quieres razonar cada producto en lugar de memorizar tablas, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla Electrochemistry con modelos de partículas, predicción de productos, half-equations, copper electrodes y fuel cells, además de ejercicios y preguntas de examen. El botón de contacto permite solicitar una ruta para razonar cada producto en lugar de memorizar tablas.
 `,K=`---
 title: "GCSE Chemistry: domina ecuaciones y moles con una ruta que evita los errores típicos"
 date: "2026-09-12"
@@ -9256,8 +9244,8 @@ Toma una relación lineal y exprésala como historia, ecuación, tabla y gráfic
 El campus virtual de Método Nebula desarrolla Number, Algebra and Graphs, Coordinate Geometry y funciones con teoría, ejemplos, práctica y exam questions. Si quieres convertir errores dispersos en una ruta Foundation o Higher, utiliza el botón de contacto.
 `,W=`---
 title: "GCSE Maths: histograms y cumulative frequency sin confundir altura, área y frecuencia"
-date: "2026-11-22"
-updated: "2026-11-22"
+date: "2026-10-15"
+updated: "2026-10-15"
 description: "Aprende histogramas, frequency density y cumulative frequency en GCSE Maths con cálculo, interpretación y errores frecuentes."
 tag: "GCSE"
 category: "Exámenes internacionales"
@@ -9357,9 +9345,9 @@ Cuando se pregunta cuántos datos están por debajo de un valor interior de una 
 
 ## Comprobaciones rápidas
 
-Suma las áreas de las barras: debe representar el total. Comprueba que la acumulada final sea $N$. Verifica que $Q_1<\\text{mediana}<Q_3$ y que el IQR sea positivo.
+La suma de las áreas de las barras debe representar el total. La acumulada final tiene que coincidir con $N$; además, debe cumplirse $Q_1<\\text{mediana}<Q_3$ y el IQR ha de ser positivo.
 
-El campus virtual de Método Nebula desarrolla Statistics con tablas, histogramas, cumulative frequency, box plots y comparación de distribuciones mediante ejercicios y preguntas de examen. Si quieres dominar tanto el cálculo como la interpretación escrita, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla Statistics con tablas, histogramas, cumulative frequency, box plots y comparación de distribuciones mediante ejercicios y preguntas de examen. El botón de contacto permite solicitar una ruta que trabaja conjuntamente el cálculo y la interpretación escrita.
 `,J=`---
 title: "GCSE Maths: el plan de 8 semanas para subir nota en Foundation o Higher"
 date: "2026-09-10"
@@ -9462,8 +9450,8 @@ El campus virtual de Método Nebula permite recorrer GCSE Mathematics por unidad
 Si quieres saber por dónde empezar, qué tier encaja con la situación y cómo convertir la fecha del examen en un calendario real, utiliza el botón de contacto. La primera conversación sirve para diagnosticar, no para vender horas al azar.
 `,Z=`---
 title: "GCSE Maths: trigonometry y bearings con un método de dibujo que evita ángulos imposibles"
-date: "2026-11-07"
-updated: "2026-11-07"
+date: "2026-09-30"
+updated: "2026-09-30"
 description: "Resuelve bearings y trigonometría en GCSE Maths: norte, ángulos, SOHCAHTOA, seno, coseno y comprobaciones con ejemplo."
 tag: "GCSE"
 category: "Exámenes internacionales"
@@ -9482,10 +9470,7 @@ Un bearing se mide **desde el norte, en sentido horario y se escribe con tres ci
 
 El bearing $056^\\circ$ desde A hacia B significa:
 
-1. Sitúate en A.
-2. Dibuja una línea vertical hacia el norte.
-3. Gira $56^\\circ$ en sentido horario.
-4. Traza la dirección AB.
+El vértice del ángulo está en A y la referencia inicial es la línea norte que pasa por ese punto. Desde ella se realiza un giro horario de $56^\\circ$; la dirección final del giro determina la semirrecta AB.
 
 No es el ángulo que forma AB con una horizontal ni se mide desde B. Es un giro orientado cuyo vértice está en el punto de salida.
 
@@ -9570,9 +9555,9 @@ El reverse bearing se obtiene sumando o restando $180^\\circ$ y ajustando al int
 
 ## Protocolo de examen
 
-Dibuja los nortes → marca los giros → construye el triángulo → calcula sus ángulos internos → elige razón o ley → resuelve → comprueba tamaño y unidad → expresa el bearing con tres cifras.
+La resolución puede leerse como una cadena: nortes de referencia → giros horarios → triángulo del recorrido → ángulos internos → razón o ley trigonométrica → cálculo → comprobación geométrica → bearing con tres cifras. Cada eslabón deja visible de dónde procede el siguiente.
 
-El campus virtual de Método Nebula desarrolla Trigonometry, Geometry y Bearings con teoría visual, ejercicios guiados y preguntas tipo examen. Si quieres convertir el dibujo en una herramienta de razonamiento y no en un boceto decorativo, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla Trigonometry, Geometry y Bearings con teoría visual, ejercicios guiados y preguntas tipo examen. El botón de contacto abre una ruta en la que el dibujo funciona como herramienta de razonamiento y no como boceto decorativo.
 `,Y=`---
 title: "GCSE Physics: domina electricidad y circuitos y deja de perder marcas por una fórmula"
 date: "2026-09-15"
@@ -9688,8 +9673,8 @@ Empieza con símbolos y unidades; continúa con problemas de una ecuación; term
 El campus virtual de Método Nebula organiza Electricity and Magnetism con teoría, ejemplos trabajados, ejercicios, preguntas de examen y revisión. Si quieres detectar si el bloqueo está en el concepto, el montaje o el cálculo, utiliza el botón de contacto y lo convertimos en un plan concreto.
 `,ee=`---
 title: "GCSE Physics: energía, trabajo y potencia sin confundir joules, watts ni eficiencia"
-date: "2026-10-30"
-updated: "2026-10-30"
+date: "2026-09-22"
+updated: "2026-09-22"
 description: "Domina energy, work, power y efficiency en GCSE Physics con conservación, fórmulas, un problema resuelto y errores de examen."
 tag: "GCSE"
 category: "Exámenes internacionales"
@@ -9786,7 +9771,7 @@ El resto, $4944$ J, se transfiere principalmente al entorno por calentamiento y 
 | Masa, altura | Almacén gravitatorio | $E_p=mgh$ |
 | Entrada y salida útil | Fracción aprovechada | $\\eta=E_u/E_i$ |
 
-No empieces buscando una fórmula que contenga todos los números. Dibuja el flujo de energía, decide qué magnitud representa cada dato y después calcula.
+Buscar una fórmula que contenga todos los números suele ocultar la física. Un planteamiento más sólido parte del flujo de energía, identifica la magnitud representada por cada dato y solo entonces introduce las ecuaciones.
 
 ## Errores que cuestan marcas
 
@@ -9801,7 +9786,7 @@ No empieces buscando una fórmula que contenga todos los números. Dibuja el flu
 
 Una solución sólida deja visible la cadena **modelo → ecuación → sustitución con unidades → resultado → comprobación**. Si la eficiencia queda entre 0 y 1, la potencia tiene unidades de W y el balance de energía cierra, hay tres comprobaciones independientes de que el razonamiento es coherente.
 
-El campus virtual de Método Nebula trabaja Energy, Work and Power con teoría visual, ejemplos guiados, bancos de ejercicios y preguntas de examen corregibles paso a paso. Si quieres que las fórmulas formen un sistema y no una lista para memorizar, utiliza el botón de contacto para solicitar una ruta de estudio.
+El campus virtual de Método Nebula trabaja Energy, Work and Power con teoría visual, ejemplos guiados, bancos de ejercicios y preguntas de examen corregibles paso a paso. Para quienes necesitan que las fórmulas formen un sistema y no una lista para memorizar, el botón de contacto permite solicitar una ruta de estudio.
 `,ne=`---
 title: "GCSE Physics: el método de 5 pasos para dominar fuerzas y diagramas en el examen"
 date: "2026-09-20"
@@ -9920,8 +9905,8 @@ Para terminal velocity, weight y drag se equilibran: la resultante se hace cero 
 El campus virtual de Método Nebula organiza Measurement and Motion, Forces and Pressure, Energy y exam practice con teoría, diagramas, ejemplos y ejercicios graduados. Si un paper revela que sabes las fórmulas pero no decides qué fuerzas incluir, el botón de contacto permite convertir ese patrón en una ruta específica de GCSE Physics.
 `,ae=`---
 title: "GCSE Physics: half-life y radiactividad con gráficas que sí explican el decaimiento"
-date: "2026-11-29"
-updated: "2026-11-29"
+date: "2026-10-22"
+updated: "2026-10-22"
 description: "Entiende radioactive decay y half-life en GCSE Physics: proceso aleatorio, curva exponencial, actividad, cálculos y seguridad."
 tag: "GCSE"
 category: "Exámenes internacionales"
@@ -9977,10 +9962,7 @@ Un becquerel equivale a una desintegración por segundo.
 
 ## Encontrar la vida media en una gráfica
 
-1. Elige un valor de actividad fácil de leer.
-2. Busca el momento en que la actividad cae a la mitad.
-3. Resta los dos tiempos.
-4. Repite con otro par de valores para reducir error de lectura.
+La lectura comienza con un valor de actividad claramente identificable y continúa en el punto donde la curva alcanza su mitad. La diferencia entre ambos tiempos proporciona una estimación de $T_{1/2}$. Un segundo par de valores permite comprobarla y reducir el efecto del error gráfico.
 
 No es obligatorio comenzar en $t=0$. Si la actividad pasa de 300 Bq a 150 Bq entre las horas 4 y 9, la vida media es 5 h.
 
@@ -10029,7 +10011,7 @@ Cada medida debe vincularse con cómo reduce la exposición, no recitarse como u
 - Afirmar que el proceso aleatorio no puede modelizarse.
 - Confundir contaminación e irradiación.
 
-El campus virtual de Método Nebula desarrolla Nuclear Physics con estructura del núcleo, radiaciones, half-life, actividad, seguridad y preguntas de examen. Si quieres conectar cálculos, gráficas y explicaciones científicas, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla Nuclear Physics con estructura del núcleo, radiaciones, half-life, actividad, seguridad y preguntas de examen. El botón de contacto permite solicitar una ruta que conecta cálculos, gráficas y explicaciones científicas.
 `,ie=`---
 title: "Gravitación en ESO: ley universal, masa, peso y ejercicios resueltos"
 date: "2026-08-26"
@@ -16853,8 +16835,8 @@ El campus virtual de Método Nebula permite pasar del diagnóstico a la unidad c
 Si tienes modelos corregidos pero no sabes convertirlos en un calendario, utiliza el botón de contacto. Podemos revisar objetivo, comunidad, asignaturas, fecha y punto de partida para proponer un recorrido realista.
 `,ye=`---
 title: "Campo gravitatorio PAU: satélites, órbitas y energía con un único desarrollo matemático"
-date: "2026-11-09"
-updated: "2026-11-09"
+date: "2026-10-02"
+updated: "2026-10-02"
 description: "Resuelve satélites en Física PAU: radio orbital, velocidad, periodo, energía, escape y errores de signo con deducciones paso a paso."
 tag: "PAU"
 category: "Selectividad"
@@ -16939,7 +16921,7 @@ Es negativa porque el satélite está ligado gravitatoriamente. En una órbita m
 
 ## Ejemplo numérico
 
-Calcula la velocidad de un satélite a 400 km de altura. Usa $R_T=6,37\\times10^6$ m y $GM_T=3,986\\times10^{14}\\,\\mathrm{m^3/s^2}$.
+El cálculo de la velocidad de un satélite a 400 km de altura puede realizarse con $R_T=6,37\\times10^6$ m y $GM_T=3,986\\times10^{14}\\,\\mathrm{m^3/s^2}$.
 
 $$
 r=6,37\\times10^6+4,00\\times10^5=6,77\\times10^6\\ \\mathrm{m}.
@@ -17001,7 +16983,7 @@ Un satélite geoestacionario debe tener periodo igual al de rotación terrestre,
 
 Dibujo y radio → ley física → deducción simbólica → sustitución SI → unidades → interpretación. La deducción simbólica permite ver dependencias, detectar datos irrelevantes y conservar puntos aunque falle una operación numérica.
 
-El campus virtual de Método Nebula desarrolla campo gravitatorio, potencial, energía, satélites, órbitas y escape con teoría, demostraciones, ejercicios y problemas PAU. Si quieres dominar el desarrollo matemático que conecta todo el bloque, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla campo gravitatorio, potencial, energía, satélites, órbitas y escape con teoría, demostraciones, ejercicios y problemas PAU. El botón de contacto permite solicitar una ruta centrada en el desarrollo matemático que conecta todo el bloque.
 `,qe=`---
 title: "Física PAU: electromagnetismo desde cero para dominar campos, fuerzas e inducción"
 date: "2026-10-24"
@@ -17361,8 +17343,8 @@ Alterna ejercicios de construcción, posición relativa, ángulos y distancias. 
 El campus virtual de Método Nebula desarrolla Matemáticas II desde vectores y sistemas hasta rectas, planos y geometría métrica, con ejemplos y preguntas de examen. Si quieres ordenar este bloque según los errores que realmente cometes, el botón de contacto permite iniciar el diagnóstico.
 `,he=`---
 title: "Matrices y determinantes en PAU: cuándo usar inversa, Gauss o propiedades sin hacer cuentas de más"
-date: "2026-12-02"
-updated: "2026-12-02"
+date: "2026-10-25"
+updated: "2026-10-25"
 description: "Estrategia de Matemáticas II PAU para elegir entre matriz inversa, Gauss, determinantes y rangos con ejemplos y comprobaciones."
 tag: "PAU"
 category: "Selectividad"
@@ -17493,7 +17475,7 @@ El rango es el número de filas no nulas tras escalonar, o el orden máximo de u
 
 Inversa para despejar una ecuación matricial invertible; Gauss para sistemas y rangos; determinantes para invertibilidad, parámetros y simplificación; Cramer para sistemas pequeños cuando se pide explícitamente o resulta muy directo.
 
-El campus virtual de Método Nebula desarrolla matrices, determinantes, rango, inversa, Gauss, Cramer y sistemas con parámetros mediante teoría y ejercicios PAU. Si quieres elegir el método con criterio y justificar cada operación, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla matrices, determinantes, rango, inversa, Gauss, Cramer y sistemas con parámetros mediante teoría y ejercicios PAU. El botón de contacto permite solicitar una ruta para elegir el método con criterio y justificar cada operación.
 `,je=`---
 title: "Probabilidad y distribuciones en PAU: aprende a elegir el modelo antes de calcular"
 date: "2026-10-17"
@@ -17597,8 +17579,8 @@ Variable → modelo → suceso → cálculo → comprobación → frase final. E
 El campus virtual de Método Nebula desarrolla probabilidad, distribuciones y preparación de examen con teoría, ejemplos, ejercicios y simulación. Si quieres identificar si pierdes puntos por modelo, lenguaje o cálculo, utiliza el botón de contacto.
 `,ze=`---
 title: "Sistemas con parámetro en PAU: Rouché–Frobenius, rangos y casos sin improvisar"
-date: "2026-11-17"
-updated: "2026-11-17"
+date: "2026-10-10"
+updated: "2026-10-10"
 description: "Discute sistemas con parámetro en Matemáticas II PAU usando rangos, valores críticos, Rouché–Frobenius y resolución por casos."
 tag: "PAU"
 category: "Selectividad"
@@ -17717,9 +17699,9 @@ Esta interpretación ayuda a revisar el resultado. Si el sistema tiene tres inc�
 
 ## Plantilla de examen
 
-Matriz $A$ y ampliada → determinante o menores → valores críticos → caso general → sustitución de cada valor crítico → rangos → clasificación → resolución cuando se solicite.
+La discusión completa sigue una estructura verificable: matriz $A$ y ampliada → determinante o menores → valores críticos → caso general → sustitución de cada valor crítico → rangos → clasificación → resolución. Esta secuencia separa la justificación algebraica de la obtención posterior de soluciones.
 
-El campus virtual de Método Nebula desarrolla matrices, determinantes, Gauss, Rouché–Frobenius y discusión con parámetros mediante teoría y problemas PAU graduados. Si quieres aprender a construir una discusión completa y verificable, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla matrices, determinantes, Gauss, Rouché–Frobenius y discusión con parámetros mediante teoría y problemas PAU graduados. El botón de contacto permite solicitar una ruta para construir discusiones completas y verificables.
 `,Ce=`---
 title: "Química PAU: domina ácido-base y pH con un método que ordena cualquier ejercicio"
 date: "2026-10-02"
@@ -17916,8 +17898,8 @@ Entrena cuatro formatos: escribir $K$, comparar $Q$ y $K$, resolver una tabla y 
 El campus virtual de Método Nebula organiza Química PAU desde fundamentos hasta cinética y equilibrio, con ejemplos guiados, ejercicios, preguntas de examen y errores comunes. Si quieres detectar qué decisión falla y convertirla en una secuencia de práctica, utiliza el botón de contacto.
 `,Le=`---
 title: "Química orgánica PAU: el mapa de reacciones para pasar de alquenos a productos sin adivinar"
-date: "2026-11-24"
-updated: "2026-11-24"
+date: "2026-10-17"
+updated: "2026-10-17"
 description: "Organiza las reacciones orgánicas de PAU por grupo funcional, enlace que cambia, reactivo y tipo de reacción con ejemplos razonados."
 tag: "PAU"
 category: "Selectividad"
@@ -18016,11 +17998,9 @@ La unidad repetitiva debe mostrar enlaces abiertos a ambos lados y conservar tod
 
 ## Ejercicio de ruta sintética
 
-Propón una ruta de eteno a etanoato de etilo.
+Una ruta representativa conecta el eteno con el etanoato de etilo.
 
-1. Hidrata eteno para obtener etanol.
-2. Oxida parte del etanol a ácido etanoico.
-3. Esterifica ácido etanoico con el etanol restante.
+La primera etapa es la hidratación del eteno para obtener etanol. La oxidación de una parte de ese alcohol produce ácido etanoico. Finalmente, la esterificación entre el ácido y el etanol restante conduce al etanoato de etilo.
 
 La ruta no se memoriza completa: se construye conectando grupos funcionales compatibles.
 
@@ -18043,11 +18023,11 @@ Una respuesta rigurosa incluye:
 - Olvidar el agua en una esterificación.
 - Escribir el polímero conservando el doble enlace del monómero.
 
-El campus virtual de Método Nebula desarrolla nomenclatura, isomería y un mapa completo de adición, eliminación, sustitución, oxidación, esterificación y polimerización con problemas PAU. Si quieres aprender a reconstruir las rutas desde la estructura, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla nomenclatura, isomería y un mapa completo de adición, eliminación, sustitución, oxidación, esterificación y polimerización con problemas PAU. El botón de contacto permite solicitar una ruta para reconstruir transformaciones a partir de la estructura.
 `,Pe=`---
 title: "Electroquímica PAU: cómo resolver pilas, potenciales y reacciones redox sin perder los signos"
-date: "2026-11-02"
-updated: "2026-11-02"
+date: "2026-09-25"
+updated: "2026-09-25"
 description: "Método riguroso para pilas galvánicas en Química PAU: oxidación, reducción, potencial, notación, electrones y ejemplo resuelto."
 tag: "PAU"
 category: "Selectividad"
@@ -18152,14 +18132,9 @@ $n$ es el número de electrones intercambiados en la reacción global ajustada y
 
 ## Secuencia segura para un ejercicio PAU
 
-1. Copia las dos semirreacciones como reducciones y sus potenciales.
-2. Elige como cátodo la de potencial mayor.
-3. Invierte la otra para escribir la oxidación.
-4. Iguala electrones sin multiplicar los potenciales.
-5. Suma y simplifica la reacción global.
-6. Calcula $E^\\circ_{\\text{pila}}$.
-7. Dibuja polos, electrones e iones del puente.
-8. Comprueba átomos, carga y signo de $E^\\circ$.
+El desarrollo completo comienza con las dos semirreacciones escritas como reducciones y sus potenciales tabulados. La de mayor potencial ocupa el cátodo; la otra se invierte para representar la oxidación. Después se igualan los electrones —sin multiplicar los potenciales— y se obtiene la reacción global.
+
+El cálculo de $E^\\circ_{\\text{pila}}$ cierra la parte energética. La representación de polos, flujo electrónico y migración iónica completa el modelo físico. La conservación de átomos y carga, junto con el signo del potencial, ofrece una comprobación final independiente.
 
 ## Errores frecuentes
 
@@ -18170,7 +18145,7 @@ $n$ es el número de electrones intercambiados en la reacción global ajustada y
 - Escribir una reacción global con carga no conservada.
 - Decir que una reacción es espontánea sin relacionarlo con el signo de $E^\\circ$.
 
-El campus virtual de Método Nebula desarrolla números de oxidación, ajuste ion-electrón, pilas, potenciales, electrólisis y leyes de Faraday con ejercicios progresivos y modelos de examen. Si quieres entrenar el razonamiento completo y no depender de reglas aisladas, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla números de oxidación, ajuste ion-electrón, pilas, potenciales, electrólisis y leyes de Faraday con ejercicios progresivos y modelos de examen. El botón de contacto permite acceder a una ruta centrada en el razonamiento completo, sin depender de reglas aisladas.
 `,Ae=`---
 title: Preparar la PAU desde verano: plan realista para llegar fuerte a septiembre
 date: 2026-07-21

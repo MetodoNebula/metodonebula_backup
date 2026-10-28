@@ -41,6 +41,14 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pagina/10/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pagina/11/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/</loc>
     <priority>0.6</priority>
   </url>
@@ -93,8 +101,72 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/pagina/2/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/carrera-tecnologica/</loc>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/eso-fisica-quimica-mezclas-disoluciones-separacion/</loc>
+    <lastmod>2026-12-04</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-matematicas-matrices-determinantes-gauss/</loc>
+    <lastmod>2026-12-02</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-physics-radioactivity-half-life/</loc>
+    <lastmod>2026-11-29</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/bachillerato-matematicas-trigonometria-triangulos/</loc>
+    <lastmod>2026-11-27</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-quimica-organica-mapa-reacciones/</loc>
+    <lastmod>2026-11-24</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-maths-histograms-cumulative-frequency/</loc>
+    <lastmod>2026-11-22</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/eso-fisica-quimica-densidad-presion-flotacion/</loc>
+    <lastmod>2026-11-19</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-matematicas-sistemas-parametro-rouche-frobenius/</loc>
+    <lastmod>2026-11-17</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-chemistry-electrolysis-electrode-products/</loc>
+    <lastmod>2026-11-14</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/bachillerato-quimica-reactivo-limitante-rendimiento-pureza/</loc>
+    <lastmod>2026-11-12</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-fisica-campo-gravitatorio-satelites/</loc>
+    <lastmod>2026-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-maths-trigonometry-bearings/</loc>
+    <lastmod>2026-11-07</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/eso-matematicas-porcentajes-interes-compuesto/</loc>
+    <lastmod>2026-11-04</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-quimica-pilas-electroquimica-redox/</loc>
+    <lastmod>2026-11-02</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-physics-energy-work-power-efficiency/</loc>
+    <lastmod>2026-10-30</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-corregir-simulacros-plan-estudio/</loc>

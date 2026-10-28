@@ -1,11 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
+      <title>PAU: cómo corregir un simulacro para que la siguiente semana de estudio sirva de verdad</title>
+      <link>https://metodonebula.es/blog/pau-corregir-simulacros-plan-estudio/</link>
+      <guid>https://metodonebula.es/blog/pau-corregir-simulacros-plan-estudio/</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Sistema para corregir simulacros de PAU y convertir una nota en decisiones concretas de estudio, práctica y revisión.</description>
+    </item>
+    <item>
+      <title>Física PAU: electromagnetismo, cómo conectar campos, fuerzas e inducción en los problemas</title>
+      <link>https://metodonebula.es/blog/pau-fisica-electromagnetismo-estudiar/</link>
+      <guid>https://metodonebula.es/blog/pau-fisica-electromagnetismo-estudiar/</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Método para estudiar electromagnetismo en Física PAU: campo, fuerza, movimiento de cargas, flujo e inducción.</description>
+    </item>
+    <item>
+      <title>Matemáticas ESO: probabilidad, cómo saber qué contar y evitar errores en los sucesos</title>
+      <link>https://metodonebula.es/blog/eso-matematicas-probabilidad-estudiar/</link>
+      <guid>https://metodonebula.es/blog/eso-matematicas-probabilidad-estudiar/</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Guía para estudiar probabilidad en ESO: espacio muestral, sucesos, diagramas, frecuencia y problemas paso a paso.</description>
+    </item>
+    <item>
+      <title>Física y Química ESO: electricidad y circuitos, una guía para entender antes de calcular</title>
+      <link>https://metodonebula.es/blog/eso-fisica-quimica-electricidad-circuitos/</link>
+      <guid>https://metodonebula.es/blog/eso-fisica-quimica-electricidad-circuitos/</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Cómo estudiar electricidad y circuitos en ESO: corriente, voltaje, resistencia, montajes y una rutina para resolver problemas.</description>
+    </item>
+    <item>
+      <title>Matemáticas II PAU: probabilidad y distribuciones, cómo elegir el modelo correcto</title>
+      <link>https://metodonebula.es/blog/pau-matematicas-probabilidad-distribuciones/</link>
+      <guid>https://metodonebula.es/blog/pau-matematicas-probabilidad-distribuciones/</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Guía para preparar probabilidad y distribuciones en Matemáticas II de PAU: sucesos, binomial, normal y comprobación.</description>
+    </item>
+    <item>
+      <title>GCSE Maths: álgebra y gráficas, cómo conectar ecuaciones, pendientes y transformaciones</title>
+      <link>https://metodonebula.es/blog/gcse-maths-algebra-graphs-revision/</link>
+      <guid>https://metodonebula.es/blog/gcse-maths-algebra-graphs-revision/</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Plan de revisión de Algebra and Graphs para GCSE Maths: ecuaciones, rectas, cuadráticas, gráficos y preguntas de razonamiento.</description>
+    </item>
+    <item>
+      <title>Física y Química de Bachillerato: mol y estequiometría, cómo pasar del dato al resultado</title>
+      <link>https://metodonebula.es/blog/bachillerato-fisica-quimica-mol-estequiometria/</link>
+      <guid>https://metodonebula.es/blog/bachillerato-fisica-quimica-mol-estequiometria/</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Cómo estudiar mol y estequiometría en Bachillerato: ecuaciones ajustadas, cantidades, reactivo limitante y comprobación.</description>
+    </item>
+    <item>
+      <title>Matemáticas de Bachillerato: cómo estudiar funciones y representarlas con razonamiento</title>
+      <link>https://metodonebula.es/blog/bachillerato-matematicas-funciones-representacion/</link>
+      <guid>https://metodonebula.es/blog/bachillerato-matematicas-funciones-representacion/</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Método para analizar y representar funciones en Bachillerato: dominio, cortes, límites, derivadas y comprobaciones.</description>
+    </item>
+    <item>
+      <title>Física y Química ESO: cómo aprender formulación inorgánica sin memorizar listas interminables</title>
+      <link>https://metodonebula.es/blog/eso-fisica-quimica-formulacion-inorganica/</link>
+      <guid>https://metodonebula.es/blog/eso-fisica-quimica-formulacion-inorganica/</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Guía para estudiar formulación inorgánica en ESO: valencias, cargas, nomenclatura y una práctica que evita errores repetidos.</description>
+    </item>
+    <item>
+      <title>Matemáticas ESO: cómo estudiar ecuaciones y sistemas sin aprender pasos de memoria</title>
+      <link>https://metodonebula.es/blog/eso-matematicas-ecuaciones-sistemas-estudiar/</link>
+      <guid>https://metodonebula.es/blog/eso-matematicas-ecuaciones-sistemas-estudiar/</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Método para entender ecuaciones y sistemas en ESO: traducción de enunciados, comprobación y práctica escalonada.</description>
+    </item>
+    <item>
+      <title>Química PAU: ácido-base y pH, cómo ordenar los cálculos y las explicaciones</title>
+      <link>https://metodonebula.es/blog/pau-quimica-acido-base-ph-calculos/</link>
+      <guid>https://metodonebula.es/blog/pau-quimica-acido-base-ph-calculos/</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Cómo preparar ácido-base en Química PAU: especies, equilibrio, pH, neutralización y errores frecuentes en ejercicios.</description>
+    </item>
+    <item>
+      <title>Matemáticas CCSS PAU: programación lineal paso a paso para plantear y justificar la solución</title>
+      <link>https://metodonebula.es/blog/pau-ccss-programacion-lineal-problemas/</link>
+      <guid>https://metodonebula.es/blog/pau-ccss-programacion-lineal-problemas/</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Guía para resolver programación lineal en Matemáticas CCSS de PAU: variables, restricciones, región factible y óptimo.</description>
+    </item>
+    <item>
+      <title>Matemáticas II PAU: vectores, rectas y planos con un método para elegir el planteamiento</title>
+      <link>https://metodonebula.es/blog/pau-matematicas-ii-vectores-rectas-planos/</link>
+      <guid>https://metodonebula.es/blog/pau-matematicas-ii-vectores-rectas-planos/</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Cómo estudiar geometría del espacio en Matemáticas II para PAU: representaciones, posiciones relativas y problemas resueltos.</description>
+    </item>
+    <item>
+      <title>Química PAU: cómo estudiar equilibrio químico y no confundir K, Q y Le Châtelier</title>
+      <link>https://metodonebula.es/blog/pau-quimica-equilibrio-quimico-estudiar/</link>
+      <guid>https://metodonebula.es/blog/pau-quimica-equilibrio-quimico-estudiar/</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Método de estudio para equilibrio químico en PAU: interpretación de K, cociente de reacción, perturbaciones y ejercicios.</description>
+    </item>
+    <item>
+      <title>Física PAU: cómo resolver problemas de ondas sin perderse entre fórmulas</title>
+      <link>https://metodonebula.es/blog/pau-fisica-ondas-resolver-problemas/</link>
+      <guid>https://metodonebula.es/blog/pau-fisica-ondas-resolver-problemas/</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Guía para preparar ondas en Física de PAU: magnitudes, ecuaciones, gráficas, interpretación y práctica de examen.</description>
+    </item>
+    <item>
+      <title>GCSE Physics: fuerzas y diagramas para resolver preguntas de examen paso a paso</title>
+      <link>https://metodonebula.es/blog/gcse-physics-forces-exam-questions/</link>
+      <guid>https://metodonebula.es/blog/gcse-physics-forces-exam-questions/</guid>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Método para estudiar Forces en GCSE Physics: diagramas, resultante, masa, peso, presión y explicaciones de examen.</description>
+    </item>
+    <item>
+      <title>GCSE Chemistry: enlace iónico, covalente y metálico explicado para responder preguntas de examen</title>
+      <link>https://metodonebula.es/blog/gcse-chemistry-bonding-revision/</link>
+      <guid>https://metodonebula.es/blog/gcse-chemistry-bonding-revision/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Cómo diferenciar enlace iónico, covalente y metálico en GCSE Chemistry y relacionarlos con estructura y propiedades.</description>
+    </item>
+    <item>
       <title>Estadística descriptiva en ESO II: rango, cuartiles y diagrama de caja</title>
       <link>https://metodonebula.es/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja/</link>
       <guid>https://metodonebula.es/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja/</guid>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
       <description>Continúa Estadística de ESO con rango, cuartiles, recorrido intercuartílico y diagramas de caja, explicados con ejemplos y ejercicios resueltos.</description>
+    </item>
+    <item>
+      <title>GCSE Physics: cómo repasar electricidad y circuitos para no perder marcas en los problemas</title>
+      <link>https://metodonebula.es/blog/gcse-physics-electricity-revision/</link>
+      <guid>https://metodonebula.es/blog/gcse-physics-electricity-revision/</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Guía de estudio de Electricity en GCSE Physics: magnitudes, circuitos, gráficas, cálculos y errores frecuentes de examen.</description>
+    </item>
+    <item>
+      <title>GCSE Chemistry: cómo repasar ecuaciones, fórmulas y moles sin confundir los pasos</title>
+      <link>https://metodonebula.es/blog/gcse-chemistry-equations-moles-revision/</link>
+      <guid>https://metodonebula.es/blog/gcse-chemistry-equations-moles-revision/</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Método de repaso para fórmulas, ecuaciones químicas y cantidades de sustancia en GCSE Chemistry, con errores habituales.</description>
+    </item>
+    <item>
+      <title>GCSE Maths: plan de repaso para Foundation y Higher sin estudiar temas al azar</title>
+      <link>https://metodonebula.es/blog/gcse-maths-revision-plan-foundation-higher/</link>
+      <guid>https://metodonebula.es/blog/gcse-maths-revision-plan-foundation-higher/</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Cómo organizar el repaso de GCSE Maths para Foundation o Higher: diagnóstico, bloques, práctica y simulacros corregidos.</description>
     </item>
     <item>
       <title>Estadística descriptiva en ESO: media, mediana, moda y frecuencias</title>

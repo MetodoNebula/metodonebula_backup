@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="es-ES" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <script type="module" crossorigin src="/assets/index-wc8abV1Q.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BreJB_eh.css">
+      <title>Matemáticas II PAU: probabilidad y distribuciones, cómo elegir el modelo correcto | Método Nebula</title>
+    <meta name="description" content="Guía para preparar probabilidad y distribuciones en Matemáticas II de PAU: sucesos, binomial, normal y comprobación.">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://metodonebula.es/blog/pau-matematicas-probabilidad-distribuciones/">
+    <meta property="og:title" content="Matemáticas II PAU: probabilidad y distribuciones, cómo elegir el modelo correcto | Método Nebula">
+    <meta property="og:description" content="Guía para preparar probabilidad y distribuciones en Matemáticas II de PAU: sucesos, binomial, normal y comprobación.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://metodonebula.es/blog/pau-matematicas-probabilidad-distribuciones/">
+    <meta property="og:image" content="https://metodonebula.es/og-nebula.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Matemáticas II PAU: probabilidad y distribuciones, cómo elegir el modelo correcto | Método Nebula">
+    <meta name="twitter:description" content="Guía para preparar probabilidad y distribuciones en Matemáticas II de PAU: sucesos, binomial, normal y comprobación.">
+    <meta name="twitter:image" content="https://metodonebula.es/og-nebula.png">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Matemáticas II PAU: probabilidad y distribuciones, cómo elegir el modelo correcto","description":"Guía para preparar probabilidad y distribuciones en Matemáticas II de PAU: sucesos, binomial, normal y comprobación.","author":{"@type":"EducationalOrganization","name":"Método Nebula","url":"https://metodonebula.es/"},"datePublished":"2026-10-17","dateModified":"2026-10-17","mainEntityOfPage":"https://metodonebula.es/blog/pau-matematicas-probabilidad-distribuciones/","publisher":{"@type":"EducationalOrganization","name":"Método Nebula","logo":{"@type":"ImageObject","url":"https://metodonebula.es/favicon.svg"}},"image":"https://metodonebula.es/og-nebula.png"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://metodonebula.es/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://metodonebula.es/blog/"},{"@type":"ListItem","position":3,"name":"Matemáticas II PAU: probabilidad y distribuciones, cómo elegir el modelo correcto","item":"https://metodonebula.es/blog/pau-matematicas-probabilidad-distribuciones/"}]}</script>
+  </head>
+  <body>
+    <div id="root">
+    <main class="min-h-screen bg-background text-foreground antialiased">
+      <section class="relative overflow-hidden border-b border-white/5 px-6 py-16">
+        <div class="nebula-aurora pointer-events-none absolute inset-0 opacity-60"></div>
+        <div class="pointer-events-none absolute inset-x-0 bottom-0 h-px blog-title-line opacity-70"></div>
+        <div class="relative mx-auto max-w-7xl">
+          <nav aria-label="Migas de pan" class="text-sm text-muted-foreground"><a class="text-link transition-colors hover:text-link" href="/">Inicio</a> / <a class="text-link transition-colors hover:text-link" href="/blog/">Blog</a> / <span>Matemáticas II PAU: probabilidad y distribuciones, cómo elegir el modelo correcto</span></nav>
+          <p class="mt-8 inline-flex rounded-full border px-3 py-1 text-sm uppercase tracking-[0.18em] border-spark/35 bg-spark/10 text-spark">Selectividad</p>
+          <h1 class="mt-5 max-w-4xl font-display text-4xl font-bold text-foreground">Matemáticas II PAU: probabilidad y distribuciones, cómo elegir el modelo correcto</h1>
+          <p class="mt-5 max-w-2xl text-lg text-muted-foreground">Guía para preparar probabilidad y distribuciones en Matemáticas II de PAU: sucesos, binomial, normal y comprobación.</p>
+        </div>
+      </section>
+      <section class="px-6 py-14">
+        <div class="mx-auto max-w-7xl [&_a]:font-medium [&_a]:text-link [&_a]:underline-offset-4 [&_a]:transition-colors [&_a:hover]:text-link">
+        
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
+      
+      <span>2026-10-17</span>
+      <span>2 min de lectura</span>
+    </div>
+  
+        
+    <nav aria-label="Índice del artículo" class="mb-10 rounded-3xl border border-white/8 bg-white/[0.02] p-6 text-sm">
+      <p class="font-display font-semibold text-foreground">Índice</p>
+      <ol class="mt-4 space-y-2">
+        <li><a class="text-link underline-offset-4 hover:underline" href="#describe-el-experimento-con-palabras">Describe el experimento con palabras</a></li><li><a class="text-link underline-offset-4 hover:underline" href="#traduce-expresiones-de-probabilidad">Traduce expresiones de probabilidad</a></li><li><a class="text-link underline-offset-4 hover:underline" href="#normal-estandariza-con-significado">Normal: estandariza con significado</a></li><li><a class="text-link underline-offset-4 hover:underline" href="#corrige-las-decisiones-no-solo-los-numeros">Corrige las decisiones, no solo los números</a></li>
+      </ol>
+    </nav>
+  
+        <article><p>En probabilidad de Matemáticas II PAU, la dificultad no suele estar en introducir datos en una calculadora. Está en reconocer qué representa la variable aleatoria y qué modelo describe el experimento. Una distribución binomial mal elegida puede dar un número muy preciso y, aun así, no responder al problema.</p>
+<h2 id="describe-el-experimento-con-palabras" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Describe el experimento con palabras</h2>
+<p>Antes de operar, escribe qué se cuenta o mide, cuáles son los resultados posibles y si los ensayos se pueden considerar independientes. La binomial se usa cuando hay un número fijo de ensayos, dos resultados relevantes, probabilidad constante e independencia razonable. Si falta una condición, detente y revisa.</p>
+<h2 id="traduce-expresiones-de-probabilidad" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Traduce expresiones de probabilidad</h2>
+<p>Convierte “como máximo”, “al menos”, “más de” y “entre” en desigualdades antes de pulsar teclas. Una probabilidad acumulada no es lo mismo que una puntual. Escribe el suceso y el complemento cuando simplifique la cuenta; por ejemplo, “al menos uno” suele ser más claro como uno menos “ninguno”.</p>
+<h2 id="normal-estandariza-con-significado" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Normal: estandariza con significado</h2>
+<p>Al trabajar con una normal, identifica media y desviación típica, dibuja una campana aproximada y señala la zona que se pide. La estandarización transforma un valor a distancia relativa respecto a la media; no es una fórmula aislada. El dibujo ayuda a detectar probabilidades imposibles, como un área negativa o mayor que uno.</p>
+<h2 id="corrige-las-decisiones-no-solo-los-numeros" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Corrige las decisiones, no solo los números</h2>
+<p>En cada ejercicio guarda el motivo del modelo elegido. Si fallaste, registra si fue por interpretar el enunciado, por elegir mal una acumulada o por redondear antes de tiempo. Repite al día siguiente una pregunta con el mismo patrón verbal y otra de modelo distinto.</p>
+<p>El campus de Método Nebula organiza probabilidad y distribuciones con teoría, ejemplos guiados, ejercicios y preguntas de examen para entrenar esa elección de modelo. Si quieres convertir tus modelos de PAU en un plan de preparación que corrija errores recurrentes, usa el botón de contacto.</p></article>
+        <aside aria-label="Autor del artículo" class="mt-12 rounded-3xl border border-white/10 bg-white/[0.02] p-6">
+          <p class="text-xs font-medium uppercase tracking-[0.18em] text-spark">Autoría</p>
+          <h2 class="mt-2 font-display text-xl font-semibold">Método Nebula</h2>
+          <p class="mt-2 text-sm text-muted-foreground">Contenido revisado por el responsable docente de Método Nebula, graduado en Matemáticas, con formación de máster en Big Data e Inteligencia Artificial y experiencia docente y tecnológica.</p>
+          <p class="mt-4"><a href="/sobre-nebula/">Conocer el método y el perfil docente</a> · <a href="https://www.tusclasesparticulares.com/profesores/nebula-lambda.htm">Ver perfil profesional</a></p>
+        </aside>
+        <section class="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8 text-center">
+          <h2 class="font-display text-2xl font-semibold text-foreground">¿Quieres aplicar esto a tu asignatura o examen?</h2>
+          <p class="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">Empezamos con una llamada de diagnóstico para entender tu objetivo, tu punto de partida y tu fecha. El servicio relacionado ayuda a aterrizarlo en un plan concreto.</p>
+          <p class="mt-6 flex flex-col justify-center gap-3 sm:flex-row"><a class="inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-action/90" href="/contacto/">Solicitar diagnóstico</a><a class="inline-flex items-center justify-center rounded-full border border-white/15 px-6 py-3 text-sm font-medium text-link transition-colors hover:border-white/30 hover:bg-white/[0.05]" href="/preparacion-examenes/matematicas-selectividad/">Ver apoyo relacionado</a></p>
+        </section>
+        <section class="mt-12 border-t border-white/5 pt-8 text-sm text-muted-foreground">Este artículo forma parte del clúster de <a href="/blog/categoria/selectividad/">Selectividad</a>. Servicio relacionado: <a href="/preparacion-examenes/matematicas-selectividad/">Preparación de Matemáticas para Selectividad y PAU</a>.</section>
+        <h2 id="lecturas-relacionadas" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Lecturas relacionadas</h2><div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+    <a href="/blog/probabilidad-condicionada-bayes-problemas-resueltos/" class="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1">
+      
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
+      <span class="rounded-full border border-spark/40 bg-spark/10 px-3 py-1 font-medium uppercase tracking-[0.18em] text-spark">Estadística</span>
+      <span>2026-06-27</span>
+      <span>2 min de lectura</span>
+    </div>
+  
+      <h3 class="mt-5 font-display font-semibold leading-snug text-foreground text-lg transition-colors group-hover:text-spark">Probabilidad condicionada y teorema de Bayes: problemas universitarios resueltos</h3>
+      <p class="mt-3 grow text-sm leading-relaxed text-muted-foreground">Problemas resueltos de probabilidad condicionada y teorema de Bayes para universidad, con fórmulas, árboles y errores frecuentes.</p>
+      <span class="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">Leer entrada</span>
+    </a>
+  
+    <a href="/blog/como-preparar-pau-matematicas-ii/" class="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1">
+      
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
+      <span class="rounded-full border border-spark/40 bg-spark/10 px-3 py-1 font-medium uppercase tracking-[0.18em] text-spark">Selectividad</span>
+      <span>2026-07-21</span>
+      <span>3 min de lectura</span>
+    </div>
+  
+      <h3 class="mt-5 font-display font-semibold leading-snug text-foreground text-lg transition-colors group-hover:text-spark">Cómo preparar Matemáticas II para la PAU: qué practicar y cómo corregir</h3>
+      <p class="mt-3 grow text-sm leading-relaxed text-muted-foreground">Plan práctico para preparar Matemáticas II en la PAU: bloques prioritarios, modelos de examen, corrección y gestión del tiempo.</p>
+      <span class="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">Leer entrada</span>
+    </a>
+  
+    <a href="/blog/pau-corregir-simulacros-plan-estudio/" class="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1">
+      
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
+      <span class="rounded-full border border-spark/40 bg-spark/10 px-3 py-1 font-medium uppercase tracking-[0.18em] text-spark">Selectividad</span>
+      <span>2026-10-27</span>
+      <span>2 min de lectura</span>
+    </div>
+  
+      <h3 class="mt-5 font-display font-semibold leading-snug text-foreground text-lg transition-colors group-hover:text-spark">PAU: cómo corregir un simulacro para que la siguiente semana de estudio sirva de verdad</h3>
+      <p class="mt-3 grow text-sm leading-relaxed text-muted-foreground">Sistema para corregir simulacros de PAU y convertir una nota en decisiones concretas de estudio, práctica y revisión.</p>
+      <span class="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">Leer entrada</span>
+    </a>
+  </div>
+      </div>
+      </section>
+      <footer class="border-t border-white/5 px-6 py-8 text-sm text-muted-foreground">
+        <nav class="mx-auto flex max-w-7xl flex-wrap gap-x-5 gap-y-2" aria-label="Navegación secundaria">
+          <a class="text-link transition-colors hover:text-link" href="/mapa-del-sitio/">Mapa del sitio</a>
+          <a class="text-link transition-colors hover:text-link" href="/blog/">Blog</a>
+          <a class="text-link transition-colors hover:text-link" href="/clases-particulares/universidad/">Clases desde ESO</a>
+          <a class="text-link transition-colors hover:text-link" href="/contacto/">Contacto</a>
+        </nav>
+      </footer>
+    </main>
+  </div>
+  </body>
+</html>

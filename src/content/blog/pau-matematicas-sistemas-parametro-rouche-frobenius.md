@@ -1,7 +1,7 @@
 ---
 title: "Sistemas con parámetro en PAU: Rouché–Frobenius, rangos y casos sin improvisar"
-date: "2026-11-17"
-updated: "2026-11-17"
+date: "2026-10-10"
+updated: "2026-10-10"
 description: "Discute sistemas con parámetro en Matemáticas II PAU usando rangos, valores críticos, Rouché–Frobenius y resolución por casos."
 tag: "PAU"
 category: "Selectividad"
@@ -120,6 +120,6 @@ Esta interpretación ayuda a revisar el resultado. Si el sistema tiene tres inc�
 
 ## Plantilla de examen
 
-Matriz $A$ y ampliada → determinante o menores → valores críticos → caso general → sustitución de cada valor crítico → rangos → clasificación → resolución cuando se solicite.
+La discusión completa sigue una estructura verificable: matriz $A$ y ampliada → determinante o menores → valores críticos → caso general → sustitución de cada valor crítico → rangos → clasificación → resolución. Esta secuencia separa la justificación algebraica de la obtención posterior de soluciones.
 
-El campus virtual de Método Nebula desarrolla matrices, determinantes, Gauss, Rouché–Frobenius y discusión con parámetros mediante teoría y problemas PAU graduados. Si quieres aprender a construir una discusión completa y verificable, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla matrices, determinantes, Gauss, Rouché–Frobenius y discusión con parámetros mediante teoría y problemas PAU graduados. El botón de contacto permite solicitar una ruta para construir discusiones completas y verificables.

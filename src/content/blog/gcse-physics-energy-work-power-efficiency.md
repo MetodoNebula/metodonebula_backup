@@ -1,7 +1,7 @@
 ---
 title: "GCSE Physics: energía, trabajo y potencia sin confundir joules, watts ni eficiencia"
-date: "2026-10-30"
-updated: "2026-10-30"
+date: "2026-09-22"
+updated: "2026-09-22"
 description: "Domina energy, work, power y efficiency en GCSE Physics con conservación, fórmulas, un problema resuelto y errores de examen."
 tag: "GCSE"
 category: "Exámenes internacionales"
@@ -98,7 +98,7 @@ El resto, $4944$ J, se transfiere principalmente al entorno por calentamiento y 
 | Masa, altura | Almacén gravitatorio | $E_p=mgh$ |
 | Entrada y salida útil | Fracción aprovechada | $\eta=E_u/E_i$ |
 
-No empieces buscando una fórmula que contenga todos los números. Dibuja el flujo de energía, decide qué magnitud representa cada dato y después calcula.
+Buscar una fórmula que contenga todos los números suele ocultar la física. Un planteamiento más sólido parte del flujo de energía, identifica la magnitud representada por cada dato y solo entonces introduce las ecuaciones.
 
 ## Errores que cuestan marcas
 
@@ -113,4 +113,4 @@ No empieces buscando una fórmula que contenga todos los números. Dibuja el flu
 
 Una solución sólida deja visible la cadena **modelo → ecuación → sustitución con unidades → resultado → comprobación**. Si la eficiencia queda entre 0 y 1, la potencia tiene unidades de W y el balance de energía cierra, hay tres comprobaciones independientes de que el razonamiento es coherente.
 
-El campus virtual de Método Nebula trabaja Energy, Work and Power con teoría visual, ejemplos guiados, bancos de ejercicios y preguntas de examen corregibles paso a paso. Si quieres que las fórmulas formen un sistema y no una lista para memorizar, utiliza el botón de contacto para solicitar una ruta de estudio.
+El campus virtual de Método Nebula trabaja Energy, Work and Power con teoría visual, ejemplos guiados, bancos de ejercicios y preguntas de examen corregibles paso a paso. Para quienes necesitan que las fórmulas formen un sistema y no una lista para memorizar, el botón de contacto permite solicitar una ruta de estudio.

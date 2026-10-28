@@ -1,7 +1,7 @@
 ---
 title: "GCSE Physics: half-life y radiactividad con gráficas que sí explican el decaimiento"
-date: "2026-11-29"
-updated: "2026-11-29"
+date: "2026-10-22"
+updated: "2026-10-22"
 description: "Entiende radioactive decay y half-life en GCSE Physics: proceso aleatorio, curva exponencial, actividad, cálculos y seguridad."
 tag: "GCSE"
 category: "Exámenes internacionales"
@@ -57,10 +57,7 @@ Un becquerel equivale a una desintegración por segundo.
 
 ## Encontrar la vida media en una gráfica
 
-1. Elige un valor de actividad fácil de leer.
-2. Busca el momento en que la actividad cae a la mitad.
-3. Resta los dos tiempos.
-4. Repite con otro par de valores para reducir error de lectura.
+La lectura comienza con un valor de actividad claramente identificable y continúa en el punto donde la curva alcanza su mitad. La diferencia entre ambos tiempos proporciona una estimación de $T_{1/2}$. Un segundo par de valores permite comprobarla y reducir el efecto del error gráfico.
 
 No es obligatorio comenzar en $t=0$. Si la actividad pasa de 300 Bq a 150 Bq entre las horas 4 y 9, la vida media es 5 h.
 
@@ -109,4 +106,4 @@ Cada medida debe vincularse con cómo reduce la exposición, no recitarse como u
 - Afirmar que el proceso aleatorio no puede modelizarse.
 - Confundir contaminación e irradiación.
 
-El campus virtual de Método Nebula desarrolla Nuclear Physics con estructura del núcleo, radiaciones, half-life, actividad, seguridad y preguntas de examen. Si quieres conectar cálculos, gráficas y explicaciones científicas, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla Nuclear Physics con estructura del núcleo, radiaciones, half-life, actividad, seguridad y preguntas de examen. El botón de contacto permite solicitar una ruta que conecta cálculos, gráficas y explicaciones científicas.

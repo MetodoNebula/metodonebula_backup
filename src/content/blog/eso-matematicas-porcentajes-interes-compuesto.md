@@ -1,7 +1,7 @@
 ---
 title: "Porcentajes e interés compuesto en ESO: el factor multiplicativo que evita casi todos los errores"
-date: "2026-11-04"
-updated: "2026-11-04"
+date: "2026-09-27"
+updated: "2026-09-27"
 description: "Aprende porcentajes sucesivos, descuentos e interés compuesto con factores multiplicativos, ejemplos y comprobaciones para ESO."
 tag: "ESO"
 category: "Matemáticas ESO y Bachillerato"
@@ -112,11 +112,9 @@ La variación global es un aumento del $4,652\%$. Esta forma funciona con precio
 
 ## Método para no perder la base
 
-1. Escribe la cantidad que actúa como 100 % en ese paso.
-2. Convierte cada variación en factor.
-3. Multiplica los factores en el orden del problema.
-4. Si buscan el valor inicial, divide por el factor total.
-5. Comprueba si el resultado debe ser mayor o menor.
+El análisis comienza identificando qué cantidad representa el 100 % en cada etapa. Cada variación se traduce después a un factor, y los factores se multiplican en el orden temporal del problema. Cuando la incógnita es el valor inicial, la operación se invierte dividiendo por el factor total.
+
+La comparación cualitativa entre valor inicial y final sirve de control: un factor total superior a 1 debe producir crecimiento; uno inferior a 1, disminución.
 
 ## Errores frecuentes
 
@@ -134,4 +132,4 @@ La variación global es un aumento del $4,652\%$. Esta forma funciona con precio
 3. 2000 € crecen al 2,5 % anual durante 3 años. Capital: aproximadamente 2153,78 €.
 4. Un valor sube 10 % y baja 10 %. Factor total: $1,10\cdot0,90=0,99$.
 
-El campus virtual de Método Nebula conecta proporcionalidad, porcentajes y matemática financiera con ejemplos resueltos, ejercicios graduados y corrección de errores típicos. Si quieres aprender a elegir la operación y justificarla, el botón de contacto permite definir una ruta desde tu nivel real.
+El campus virtual de Método Nebula conecta proporcionalidad, porcentajes y matemática financiera con ejemplos resueltos, ejercicios graduados y corrección de errores típicos. El botón de contacto permite definir una ruta desde el nivel real de cada estudiante.

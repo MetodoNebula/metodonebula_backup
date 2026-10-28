@@ -1,7 +1,7 @@
 ---
 title: "Mezclas y disoluciones en ESO: cómo elegir filtración, destilación o cromatografía con criterio"
-date: "2026-12-04"
-updated: "2026-12-04"
+date: "2026-10-27"
+updated: "2026-10-27"
 description: "Guía de ESO para distinguir sustancias, mezclas y disoluciones y elegir métodos de separación según propiedades físicas."
 tag: "ESO"
 category: "Física y Química"
@@ -79,10 +79,7 @@ El volumen es el de la disolución final, no necesariamente el volumen inicial d
 
 Para una mezcla de limaduras de hierro, arena y sal:
 
-1. Usa un imán para retirar el hierro por magnetismo.
-2. Añade agua para disolver la sal.
-3. Filtra: la arena queda como residuo.
-4. Evapora o cristaliza el filtrado para recuperar la sal.
+La separación comienza retirando el hierro mediante magnetismo. El agua disuelve después la sal, pero no la arena. La filtración retiene la arena como residuo y deja pasar la disolución salina. Por último, la evaporación o cristalización del filtrado permite recuperar la sal.
 
 Cada etapa elimina un componente aprovechando una propiedad distinta. El orden importa: filtrar antes de disolver la sal no separaría sal y arena.
 
@@ -95,4 +92,4 @@ Cada etapa elimina un componente aprovechando una propiedad distinta. El orden i
 - Calcular $R_f$ con distancias desde puntos diferentes.
 - Elegir un método sin nombrar la propiedad física que lo hace funcionar.
 
-El campus virtual de Método Nebula desarrolla materia, mezclas, disoluciones, concentración y técnicas de separación con teoría, experimentos razonados, ejercicios y preguntas competenciales. Si quieres aprender a diseñar el procedimiento y justificar cada paso, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla materia, mezclas, disoluciones, concentración y técnicas de separación con teoría, experimentos razonados, ejercicios y preguntas competenciales. El botón de contacto permite solicitar una ruta centrada en el diseño y la justificación del procedimiento.

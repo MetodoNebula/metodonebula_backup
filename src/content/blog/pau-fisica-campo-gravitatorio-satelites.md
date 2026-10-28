@@ -1,7 +1,7 @@
 ---
 title: "Campo gravitatorio PAU: satélites, órbitas y energía con un único desarrollo matemático"
-date: "2026-11-09"
-updated: "2026-11-09"
+date: "2026-10-02"
+updated: "2026-10-02"
 description: "Resuelve satélites en Física PAU: radio orbital, velocidad, periodo, energía, escape y errores de signo con deducciones paso a paso."
 tag: "PAU"
 category: "Selectividad"
@@ -86,7 +86,7 @@ Es negativa porque el satélite está ligado gravitatoriamente. En una órbita m
 
 ## Ejemplo numérico
 
-Calcula la velocidad de un satélite a 400 km de altura. Usa $R_T=6,37\times10^6$ m y $GM_T=3,986\times10^{14}\,\mathrm{m^3/s^2}$.
+El cálculo de la velocidad de un satélite a 400 km de altura puede realizarse con $R_T=6,37\times10^6$ m y $GM_T=3,986\times10^{14}\,\mathrm{m^3/s^2}$.
 
 $$
 r=6,37\times10^6+4,00\times10^5=6,77\times10^6\ \mathrm{m}.
@@ -148,4 +148,4 @@ Un satélite geoestacionario debe tener periodo igual al de rotación terrestre,
 
 Dibujo y radio → ley física → deducción simbólica → sustitución SI → unidades → interpretación. La deducción simbólica permite ver dependencias, detectar datos irrelevantes y conservar puntos aunque falle una operación numérica.
 
-El campus virtual de Método Nebula desarrolla campo gravitatorio, potencial, energía, satélites, órbitas y escape con teoría, demostraciones, ejercicios y problemas PAU. Si quieres dominar el desarrollo matemático que conecta todo el bloque, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla campo gravitatorio, potencial, energía, satélites, órbitas y escape con teoría, demostraciones, ejercicios y problemas PAU. El botón de contacto permite solicitar una ruta centrada en el desarrollo matemático que conecta todo el bloque.

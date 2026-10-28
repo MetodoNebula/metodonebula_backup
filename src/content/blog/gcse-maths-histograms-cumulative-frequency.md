@@ -1,7 +1,7 @@
 ---
 title: "GCSE Maths: histograms y cumulative frequency sin confundir altura, área y frecuencia"
-date: "2026-11-22"
-updated: "2026-11-22"
+date: "2026-10-15"
+updated: "2026-10-15"
 description: "Aprende histogramas, frequency density y cumulative frequency en GCSE Maths con cálculo, interpretación y errores frecuentes."
 tag: "GCSE"
 category: "Exámenes internacionales"
@@ -101,6 +101,6 @@ Cuando se pregunta cuántos datos están por debajo de un valor interior de una 
 
 ## Comprobaciones rápidas
 
-Suma las áreas de las barras: debe representar el total. Comprueba que la acumulada final sea $N$. Verifica que $Q_1<\text{mediana}<Q_3$ y que el IQR sea positivo.
+La suma de las áreas de las barras debe representar el total. La acumulada final tiene que coincidir con $N$; además, debe cumplirse $Q_1<\text{mediana}<Q_3$ y el IQR ha de ser positivo.
 
-El campus virtual de Método Nebula desarrolla Statistics con tablas, histogramas, cumulative frequency, box plots y comparación de distribuciones mediante ejercicios y preguntas de examen. Si quieres dominar tanto el cálculo como la interpretación escrita, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla Statistics con tablas, histogramas, cumulative frequency, box plots y comparación de distribuciones mediante ejercicios y preguntas de examen. El botón de contacto permite solicitar una ruta que trabaja conjuntamente el cálculo y la interpretación escrita.

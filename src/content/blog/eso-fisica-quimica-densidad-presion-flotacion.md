@@ -1,7 +1,7 @@
 ---
 title: "Densidad, presión y flotación en ESO: por qué un objeto pesado también puede flotar"
-date: "2026-11-19"
-updated: "2026-11-19"
+date: "2026-10-12"
+updated: "2026-10-12"
 description: "Entiende densidad, presión hidrostática y empuje en ESO con modelos, fórmulas, un ejemplo resuelto y errores de unidades."
 tag: "ESO"
 category: "Física y Química"
@@ -131,4 +131,4 @@ La misma comparación explica por qué un submarino modifica su flotabilidad lle
 - Decir que flota porque “no pesa”.
 - Olvidar que equilibrio exige igualdad de fuerzas, no ausencia de fuerzas.
 
-El campus virtual de Método Nebula desarrolla masa, volumen, densidad, presión, empuje y flotación con experimentos razonados, ejemplos y problemas progresivos. Si quieres conectar cada fórmula con el modelo físico que la justifica, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla masa, volumen, densidad, presión, empuje y flotación con experimentos razonados, ejemplos y problemas progresivos. El botón de contacto permite solicitar una ruta que conecta cada fórmula con el modelo físico que la justifica.

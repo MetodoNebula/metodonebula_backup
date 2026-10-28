@@ -1,7 +1,7 @@
 ---
 title: "GCSE Maths: trigonometry y bearings con un método de dibujo que evita ángulos imposibles"
-date: "2026-11-07"
-updated: "2026-11-07"
+date: "2026-09-30"
+updated: "2026-09-30"
 description: "Resuelve bearings y trigonometría en GCSE Maths: norte, ángulos, SOHCAHTOA, seno, coseno y comprobaciones con ejemplo."
 tag: "GCSE"
 category: "Exámenes internacionales"
@@ -20,10 +20,7 @@ Un bearing se mide **desde el norte, en sentido horario y se escribe con tres ci
 
 El bearing $056^\circ$ desde A hacia B significa:
 
-1. Sitúate en A.
-2. Dibuja una línea vertical hacia el norte.
-3. Gira $56^\circ$ en sentido horario.
-4. Traza la dirección AB.
+El vértice del ángulo está en A y la referencia inicial es la línea norte que pasa por ese punto. Desde ella se realiza un giro horario de $56^\circ$; la dirección final del giro determina la semirrecta AB.
 
 No es el ángulo que forma AB con una horizontal ni se mide desde B. Es un giro orientado cuyo vértice está en el punto de salida.
 
@@ -108,6 +105,6 @@ El reverse bearing se obtiene sumando o restando $180^\circ$ y ajustando al inte
 
 ## Protocolo de examen
 
-Dibuja los nortes → marca los giros → construye el triángulo → calcula sus ángulos internos → elige razón o ley → resuelve → comprueba tamaño y unidad → expresa el bearing con tres cifras.
+La resolución puede leerse como una cadena: nortes de referencia → giros horarios → triángulo del recorrido → ángulos internos → razón o ley trigonométrica → cálculo → comprobación geométrica → bearing con tres cifras. Cada eslabón deja visible de dónde procede el siguiente.
 
-El campus virtual de Método Nebula desarrolla Trigonometry, Geometry y Bearings con teoría visual, ejercicios guiados y preguntas tipo examen. Si quieres convertir el dibujo en una herramienta de razonamiento y no en un boceto decorativo, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla Trigonometry, Geometry y Bearings con teoría visual, ejercicios guiados y preguntas tipo examen. El botón de contacto abre una ruta en la que el dibujo funciona como herramienta de razonamiento y no como boceto decorativo.

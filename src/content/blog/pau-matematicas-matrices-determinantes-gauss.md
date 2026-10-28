@@ -1,7 +1,7 @@
 ---
 title: "Matrices y determinantes en PAU: cuándo usar inversa, Gauss o propiedades sin hacer cuentas de más"
-date: "2026-12-02"
-updated: "2026-12-02"
+date: "2026-10-25"
+updated: "2026-10-25"
 description: "Estrategia de Matemáticas II PAU para elegir entre matriz inversa, Gauss, determinantes y rangos con ejemplos y comprobaciones."
 tag: "PAU"
 category: "Selectividad"
@@ -132,4 +132,4 @@ El rango es el número de filas no nulas tras escalonar, o el orden máximo de u
 
 Inversa para despejar una ecuación matricial invertible; Gauss para sistemas y rangos; determinantes para invertibilidad, parámetros y simplificación; Cramer para sistemas pequeños cuando se pide explícitamente o resulta muy directo.
 
-El campus virtual de Método Nebula desarrolla matrices, determinantes, rango, inversa, Gauss, Cramer y sistemas con parámetros mediante teoría y ejercicios PAU. Si quieres elegir el método con criterio y justificar cada operación, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla matrices, determinantes, rango, inversa, Gauss, Cramer y sistemas con parámetros mediante teoría y ejercicios PAU. El botón de contacto permite solicitar una ruta para elegir el método con criterio y justificar cada operación.

@@ -1,7 +1,7 @@
 ---
 title: "Trigonometría en Bachillerato: cómo elegir entre seno, coseno y tangente sin probar fórmulas"
-date: "2026-11-27"
-updated: "2026-11-27"
+date: "2026-10-20"
+updated: "2026-10-20"
 description: "Método para resolver triángulos en Bachillerato: razones trigonométricas, leyes de senos y cosenos, ambigüedad y ejemplos."
 tag: "Bachillerato"
 category: "Matemáticas ESO y Bachillerato"
@@ -27,7 +27,7 @@ $$
 \tan\theta=\frac{\text{cateto opuesto}}{\text{cateto adyacente}}.
 $$
 
-Elige la razón que conecta los dos lados conocidos o buscados. Pitágoras es preferible si intervienen únicamente lados.
+La razón adecuada es la que conecta los dos lados conocidos o buscados. Pitágoras es preferible si intervienen únicamente lados.
 
 ## Ley de los senos
 
@@ -115,13 +115,9 @@ En problemas aplicados añade una frase final: altura, distancia o ángulo en el
 
 ## Protocolo de decisión
 
-1. Dibuja y etiqueta lados opuestos a sus ángulos.
-2. Marca todos los datos.
-3. Busca primero un ángulo recto.
-4. Si hay un par opuesto conocido, considera seno.
-5. Si hay dos lados y el ángulo comprendido, considera coseno.
-6. Si hay tres lados, usa coseno para un ángulo.
-7. Comprueba suma de ángulos, desigualdad triangular y tamaño relativo.
+La elección del método parte de un dibujo con lados y ángulos opuestos correctamente emparejados. Un ángulo recto conduce a razones trigonométricas o Pitágoras. Un par lado–ángulo opuesto conocido favorece la ley de los senos; dos lados con el ángulo comprendido, o tres lados, conducen a la ley del coseno.
+
+La suma de ángulos, la desigualdad triangular y la correspondencia entre el mayor lado y el mayor ángulo ofrecen tres comprobaciones independientes del resultado.
 
 ## Errores frecuentes
 
@@ -132,4 +128,4 @@ En problemas aplicados añade una frase final: altura, distancia o ángulo en el
 - Introducir un ángulo no comprendido en la ley del coseno.
 - Redondear antes del resultado final.
 
-El campus virtual de Método Nebula desarrolla trigonometría desde triángulos rectángulos hasta leyes de senos y cosenos, identidades y ecuaciones, con ejemplos y práctica gradual. Si quieres elegir el método por la estructura del problema, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla trigonometría desde triángulos rectángulos hasta leyes de senos y cosenos, identidades y ecuaciones, con ejemplos y práctica gradual. El botón de contacto permite solicitar una ruta basada en la estructura de cada problema.

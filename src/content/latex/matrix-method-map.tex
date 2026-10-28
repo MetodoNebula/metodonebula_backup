@@ -6,7 +6,7 @@
 \definecolor{ink}{HTML}{334155}
 \begin{document}
 \begin{tikzpicture}[font=\sffamily,>=Latex,node distance=1.5cm,box/.style={draw=ink!50,rounded corners=5pt,minimum width=3.2cm,minimum height=1.15cm,align=center,fill=white}]
-  \node[box,draw=nebula,very thick] (system) {$AX=B$\\identifica la tarea};
+  \node[box,draw=nebula,very thick] (system) {$AX=B$\\sistema y objetivo};
   \node[box,right=of system] (det) {$\det A\ne0$?\\matriz invertible};
   \node[box,above right=1.2cm and 1.5cm of det,draw=spark,very thick] (inverse) {$X=A^{-1}B$\\soluci\'on \'unica};
   \node[box,below right=1.2cm and 1.5cm of det] (gauss) {Gauss y rangos\\clasificar o parametrizar};

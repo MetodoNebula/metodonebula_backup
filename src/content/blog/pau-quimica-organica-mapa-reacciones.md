@@ -1,7 +1,7 @@
 ---
 title: "Química orgánica PAU: el mapa de reacciones para pasar de alquenos a productos sin adivinar"
-date: "2026-11-24"
-updated: "2026-11-24"
+date: "2026-10-17"
+updated: "2026-10-17"
 description: "Organiza las reacciones orgánicas de PAU por grupo funcional, enlace que cambia, reactivo y tipo de reacción con ejemplos razonados."
 tag: "PAU"
 category: "Selectividad"
@@ -100,11 +100,9 @@ La unidad repetitiva debe mostrar enlaces abiertos a ambos lados y conservar tod
 
 ## Ejercicio de ruta sintética
 
-Propón una ruta de eteno a etanoato de etilo.
+Una ruta representativa conecta el eteno con el etanoato de etilo.
 
-1. Hidrata eteno para obtener etanol.
-2. Oxida parte del etanol a ácido etanoico.
-3. Esterifica ácido etanoico con el etanol restante.
+La primera etapa es la hidratación del eteno para obtener etanol. La oxidación de una parte de ese alcohol produce ácido etanoico. Finalmente, la esterificación entre el ácido y el etanol restante conduce al etanoato de etilo.
 
 La ruta no se memoriza completa: se construye conectando grupos funcionales compatibles.
 
@@ -127,4 +125,4 @@ Una respuesta rigurosa incluye:
 - Olvidar el agua en una esterificación.
 - Escribir el polímero conservando el doble enlace del monómero.
 
-El campus virtual de Método Nebula desarrolla nomenclatura, isomería y un mapa completo de adición, eliminación, sustitución, oxidación, esterificación y polimerización con problemas PAU. Si quieres aprender a reconstruir las rutas desde la estructura, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla nomenclatura, isomería y un mapa completo de adición, eliminación, sustitución, oxidación, esterificación y polimerización con problemas PAU. El botón de contacto permite solicitar una ruta para reconstruir transformaciones a partir de la estructura.

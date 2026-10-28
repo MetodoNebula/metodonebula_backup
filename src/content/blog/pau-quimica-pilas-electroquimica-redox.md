@@ -1,7 +1,7 @@
 ---
 title: "Electroquímica PAU: cómo resolver pilas, potenciales y reacciones redox sin perder los signos"
-date: "2026-11-02"
-updated: "2026-11-02"
+date: "2026-09-25"
+updated: "2026-09-25"
 description: "Método riguroso para pilas galvánicas en Química PAU: oxidación, reducción, potencial, notación, electrones y ejemplo resuelto."
 tag: "PAU"
 category: "Selectividad"
@@ -106,14 +106,9 @@ $n$ es el número de electrones intercambiados en la reacción global ajustada y
 
 ## Secuencia segura para un ejercicio PAU
 
-1. Copia las dos semirreacciones como reducciones y sus potenciales.
-2. Elige como cátodo la de potencial mayor.
-3. Invierte la otra para escribir la oxidación.
-4. Iguala electrones sin multiplicar los potenciales.
-5. Suma y simplifica la reacción global.
-6. Calcula $E^\circ_{\text{pila}}$.
-7. Dibuja polos, electrones e iones del puente.
-8. Comprueba átomos, carga y signo de $E^\circ$.
+El desarrollo completo comienza con las dos semirreacciones escritas como reducciones y sus potenciales tabulados. La de mayor potencial ocupa el cátodo; la otra se invierte para representar la oxidación. Después se igualan los electrones —sin multiplicar los potenciales— y se obtiene la reacción global.
+
+El cálculo de $E^\circ_{\text{pila}}$ cierra la parte energética. La representación de polos, flujo electrónico y migración iónica completa el modelo físico. La conservación de átomos y carga, junto con el signo del potencial, ofrece una comprobación final independiente.
 
 ## Errores frecuentes
 
@@ -124,4 +119,4 @@ $n$ es el número de electrones intercambiados en la reacción global ajustada y
 - Escribir una reacción global con carga no conservada.
 - Decir que una reacción es espontánea sin relacionarlo con el signo de $E^\circ$.
 
-El campus virtual de Método Nebula desarrolla números de oxidación, ajuste ion-electrón, pilas, potenciales, electrólisis y leyes de Faraday con ejercicios progresivos y modelos de examen. Si quieres entrenar el razonamiento completo y no depender de reglas aisladas, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla números de oxidación, ajuste ion-electrón, pilas, potenciales, electrólisis y leyes de Faraday con ejercicios progresivos y modelos de examen. El botón de contacto permite acceder a una ruta centrada en el razonamiento completo, sin depender de reglas aisladas.

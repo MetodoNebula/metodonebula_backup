@@ -1,7 +1,7 @@
 ---
 title: "GCSE Chemistry: electrolysis y productos de los electrodos sin memorizar listas contradictorias"
-date: "2026-11-14"
-updated: "2026-11-14"
+date: "2026-10-07"
+updated: "2026-10-07"
 description: "Electrolysis para GCSE Chemistry: iones móviles, ánodo, cátodo, productos en fundidos y disoluciones, half-equations y errores."
 tag: "GCSE"
 category: "Exámenes internacionales"
@@ -91,10 +91,7 @@ Por eso el material del electrodo también forma parte del modelo experimental.
 
 ## Cómo escribir una half-equation
 
-1. Escribe especie inicial y producto.
-2. Ajusta átomos.
-3. Ajusta carga añadiendo electrones.
-4. Comprueba si los electrones se ganan o se pierden en el electrodo correcto.
+Una half-equation se construye fijando primero la especie inicial y el producto. El ajuste de átomos precede al ajuste de carga, que se completa añadiendo electrones. La posición final de esos electrones muestra si el proceso es reducción u oxidación y permite contrastarlo con el electrodo asignado.
 
 La ecuación $\mathrm{Al^{3+}+3e^-\to Al}$ muestra reducción porque los electrones están a la izquierda. $\mathrm{2Cl^-\to Cl_2+2e^-}$ muestra oxidación porque están a la derecha.
 
@@ -113,4 +110,4 @@ Estas pruebas no sustituyen a las half-equations. Son evidencias experimentales 
 - Escribir una half-equation que no conserva carga.
 - Aplicar reglas de electrodos inertes cuando el electrodo participa.
 
-El campus virtual de Método Nebula desarrolla Electrochemistry con modelos de partículas, predicción de productos, half-equations, copper electrodes y fuel cells, además de ejercicios y preguntas de examen. Si quieres razonar cada producto en lugar de memorizar tablas, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla Electrochemistry con modelos de partículas, predicción de productos, half-equations, copper electrodes y fuel cells, además de ejercicios y preguntas de examen. El botón de contacto permite solicitar una ruta para razonar cada producto en lugar de memorizar tablas.

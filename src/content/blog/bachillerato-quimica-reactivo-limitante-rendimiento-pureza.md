@@ -1,7 +1,7 @@
 ---
 title: "Reactivo limitante, pureza y rendimiento: el problema de estequiometría que resume Bachillerato"
-date: "2026-11-12"
-updated: "2026-11-12"
+date: "2026-10-05"
+updated: "2026-10-05"
 description: "Resuelve problemas de reactivo limitante, pureza y rendimiento en Química de Bachillerato con una cadena de cálculo rigurosa."
 tag: "Bachillerato"
 category: "Física y Química"
@@ -36,7 +36,7 @@ Una muestra de 10,0 g al 80 % contiene 8,0 g de sustancia activa. Los 2,0 g rest
 
 ## Cómo identificar el reactivo limitante
 
-Convierte cada reactivo a moles y calcula cuánto producto podría formar por separado. El que produzca menos cantidad de producto es el limitante.
+La comparación exige expresar cada reactivo en moles y determinar cuánto producto podría formar por separado. El que produzca menos cantidad de producto es el limitante.
 
 También puede compararse el cociente:
 
@@ -110,7 +110,7 @@ Intercambiar ambas etapas puede dar resultados numéricos aparentemente plausibl
 
 ## Control de unidades y de magnitud
 
-Escribe cada conversión como un factor que cancela unidades. Por ejemplo:
+Cada conversión puede expresarse como un factor que cancela unidades. Por ejemplo:
 
 $$
 28,4\ \mathrm{g\ Cl_2}\cdot\frac{1\ \mathrm{mol\ Cl_2}}{71,0\ \mathrm{g\ Cl_2}}\cdot
@@ -130,4 +130,4 @@ La masa de producto puede superar la masa del limitante porque incorpora átomos
 - Usar coeficientes de una ecuación sin ajustar.
 - Confundir masa teórica con masa real.
 
-El campus virtual de Método Nebula desarrolla mol, masas molares, limitante, pureza, rendimiento, gases y disoluciones mediante ejemplos guiados y problemas acumulativos. Si quieres entrenar la cadena completa hasta que cada paso tenga sentido, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla mol, masas molares, limitante, pureza, rendimiento, gases y disoluciones mediante ejemplos guiados y problemas acumulativos. El botón de contacto permite solicitar una ruta que entrena la cadena completa hasta dar sentido a cada paso.

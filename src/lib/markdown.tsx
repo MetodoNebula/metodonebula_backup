@@ -75,7 +75,7 @@ const LATEX_GRAPH_DIMENSIONS: Record<string, { width: number; height: number }> 
   "/assets/latex/energy-flow.svg": { width: 1100, height: 298 },
   "/assets/latex/galvanic-cell.svg": { width: 1100, height: 652 },
   "/assets/latex/compound-growth.svg": { width: 1100, height: 470 },
-  "/assets/latex/bearing-triangle.svg": { width: 1100, height: 488 },
+  "/assets/latex/bearing-triangle.svg": { width: 1100, height: 515 },
   "/assets/latex/satellite-orbit.svg": { width: 1100, height: 390 },
   "/assets/latex/stoichiometry-chain.svg": { width: 1100, height: 272 },
   "/assets/latex/electrolysis-cell.svg": { width: 1000, height: 508 },

@@ -107,6 +107,13 @@
       "pillarPost": "fisica-y-quimica-como-plantear-problemas"
     },
     {
+      "name": "Matemáticas ESO y Bachillerato",
+      "slug": "matematicas-eso-bachillerato",
+      "description": "Álgebra, funciones, probabilidad y estrategias para construir una base sólida antes de la PAU.",
+      "relatedService": "/clases-particulares/matematicas-universidad/",
+      "pillarPost": "como-estudiar-matematicas-sin-memorizar"
+    },
+    {
       "name": "Economía y ADE",
       "slug": "economia-y-ade",
       "description": "Matemáticas, estadística, microeconomía y modelos aplicados a grados de empresa.",

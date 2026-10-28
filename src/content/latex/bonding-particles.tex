@@ -12,7 +12,8 @@
   \node[font=\bfseries] at (5,3.1) {Covalente};
   \node[circle,draw=nebula,fill=nebula!12,minimum size=11mm] (a) at (4.2,1.2) {A};
   \node[circle,draw=nebula,fill=nebula!12,minimum size=11mm] (b) at (5.8,1.2) {B};
-  \draw[very thick,nebula] (a)--node[above] {electrones compartidos} (b);
+  \draw[very thick,nebula] (a)--(b);
+  \node[text=nebula,anchor=south] at (5,1.82) {\small par compartido};
   \node[font=\bfseries] at (10,3.1) {Met\'alico};
   \foreach \x in {9,10,11} \foreach \y in {0,1,2} \node[circle,draw=nebula,fill=nebula!12,minimum size=7mm] at (\x,\y) {$+$};
   \foreach \p in {(9.5,.5),(10.5,.5),(9.5,1.5),(10.5,1.5)} \fill[spark] \p circle (2.2pt);

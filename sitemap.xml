@@ -49,6 +49,10 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pagina/12/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/</loc>
     <priority>0.6</priority>
   </url>
@@ -105,6 +109,10 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/pagina/3/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/carrera-tecnologica/</loc>
     <priority>0.6</priority>
   </url>
@@ -129,6 +137,10 @@
     <lastmod>2026-10-28</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/gcse-physics-radioactivity-half-life-en/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/gcse-physics-radioactivity-half-life/</loc>
     <lastmod>2026-10-22</lastmod>
   </url>
@@ -149,8 +161,16 @@
     <lastmod>2026-10-17</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/gcse-maths-histograms-cumulative-frequency-en/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/gcse-maths-histograms-cumulative-frequency/</loc>
     <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-maths-algebra-graphs-revision-en/</loc>
+    <lastmod>2026-10-28</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/gcse-maths-algebra-graphs-revision/</loc>
@@ -177,6 +197,10 @@
     <lastmod>2026-10-28</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/gcse-chemistry-electrolysis-electrode-products-en/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/gcse-chemistry-electrolysis-electrode-products/</loc>
     <lastmod>2026-10-07</lastmod>
   </url>
@@ -194,6 +218,10 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-quimica-acido-base-ph-calculos/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-maths-trigonometry-bearings-en/</loc>
     <lastmod>2026-10-28</lastmod>
   </url>
   <url>
@@ -221,6 +249,10 @@
     <lastmod>2026-09-25</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/gcse-physics-energy-work-power-efficiency-en/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/gcse-physics-energy-work-power-efficiency/</loc>
     <lastmod>2026-09-22</lastmod>
   </url>
@@ -229,7 +261,15 @@
     <lastmod>2026-10-28</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/gcse-physics-forces-exam-questions-en/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/gcse-physics-forces-exam-questions/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-chemistry-bonding-revision-en/</loc>
     <lastmod>2026-10-28</lastmod>
   </url>
   <url>
@@ -241,11 +281,23 @@
     <lastmod>2026-09-15</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/gcse-physics-electricity-revision-en/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/gcse-physics-electricity-revision/</loc>
     <lastmod>2026-10-28</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/gcse-chemistry-equations-moles-revision-en/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/gcse-chemistry-equations-moles-revision/</loc>
+    <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-maths-revision-plan-foundation-higher-en/</loc>
     <lastmod>2026-10-28</lastmod>
   </url>
   <url>

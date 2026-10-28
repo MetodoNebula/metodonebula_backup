@@ -36,11 +36,18 @@
       <description>Probabilidad en ESO con espacio muestral, sucesos, Laplace, árboles, ejemplos, comprobaciones y ejercicios resueltos.</description>
     </item>
     <item>
-      <title>GCSE Physics: half-life y radiactividad con gráficas que sí explican el decaimiento</title>
+      <title>GCSE Physics: half-life and radioactivity through graphs that explain decay</title>
+      <link>https://metodonebula.es/blog/gcse-physics-radioactivity-half-life-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-physics-radioactivity-half-life-en/</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Understand radioactive decay and half-life in GCSE Physics: randomness, exponential curves, activity, calculations and safety.</description>
+    </item>
+    <item>
+      <title>Física GCSE: vida media y radiactividad con gráficas que explican el decaimiento</title>
       <link>https://metodonebula.es/blog/gcse-physics-radioactivity-half-life/</link>
       <guid>https://metodonebula.es/blog/gcse-physics-radioactivity-half-life/</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Entiende radioactive decay y half-life en GCSE Physics: proceso aleatorio, curva exponencial, actividad, cálculos y seguridad.</description>
+      <description>Entiende la desintegración radiactiva y la vida media en Física GCSE: proceso aleatorio, curva exponencial, actividad, cálculos y seguridad.</description>
     </item>
     <item>
       <title>Trigonometría en Bachillerato: cómo elegir entre seno, coseno y tangente sin probar fórmulas</title>
@@ -71,18 +78,32 @@
       <description>Organiza las reacciones orgánicas de PAU por grupo funcional, enlace que cambia, reactivo y tipo de reacción con ejemplos razonados.</description>
     </item>
     <item>
-      <title>GCSE Maths: histograms y cumulative frequency sin confundir altura, área y frecuencia</title>
+      <title>GCSE Maths: histograms and cumulative frequency without confusing height and area</title>
+      <link>https://metodonebula.es/blog/gcse-maths-histograms-cumulative-frequency-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-maths-histograms-cumulative-frequency-en/</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Learn histograms, frequency density and cumulative frequency in GCSE Maths through calculation, interpretation and error checks.</description>
+    </item>
+    <item>
+      <title>Matemáticas GCSE: histogramas y frecuencia acumulada sin confundir altura y área</title>
       <link>https://metodonebula.es/blog/gcse-maths-histograms-cumulative-frequency/</link>
       <guid>https://metodonebula.es/blog/gcse-maths-histograms-cumulative-frequency/</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Aprende histogramas, frequency density y cumulative frequency en GCSE Maths con cálculo, interpretación y errores frecuentes.</description>
+      <description>Aprende histogramas, densidad de frecuencia y frecuencia acumulada en Matemáticas GCSE con cálculo, interpretación y errores frecuentes.</description>
     </item>
     <item>
-      <title>GCSE Maths: domina Algebra and Graphs y aprende a ver la misma idea de tres formas</title>
+      <title>GCSE Maths: master algebra and graphs by seeing one idea three ways</title>
+      <link>https://metodonebula.es/blog/gcse-maths-algebra-graphs-revision-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-maths-algebra-graphs-revision-en/</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Algebra and graphs for GCSE Maths: equations, straight lines, quadratics, transformations, examples and exam errors.</description>
+    </item>
+    <item>
+      <title>Matemáticas GCSE: domina álgebra y gráficas viendo una idea de tres formas</title>
       <link>https://metodonebula.es/blog/gcse-maths-algebra-graphs-revision/</link>
       <guid>https://metodonebula.es/blog/gcse-maths-algebra-graphs-revision/</guid>
       <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Guía de Algebra and Graphs para GCSE Maths: ecuaciones, rectas, cuadráticas, transformaciones, ejemplos y errores de examen.</description>
+      <description>Guía de álgebra y gráficas para Matemáticas GCSE: ecuaciones, rectas, cuadráticas, transformaciones, ejemplos y errores de examen.</description>
     </item>
     <item>
       <title>Mol y estequiometría en Bachillerato: el mapa definitivo para resolver problemas</title>
@@ -120,11 +141,18 @@
       <description>Formulación inorgánica en ESO explicada con cargas, números de oxidación, familias, ejemplos, nomenclatura y práctica eficaz.</description>
     </item>
     <item>
-      <title>GCSE Chemistry: electrolysis y productos de los electrodos sin memorizar listas contradictorias</title>
+      <title>GCSE Chemistry: electrolysis and electrode products without memorising lists</title>
+      <link>https://metodonebula.es/blog/gcse-chemistry-electrolysis-electrode-products-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-chemistry-electrolysis-electrode-products-en/</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Electrolysis for GCSE Chemistry: mobile ions, anode, cathode, products in melts and solutions, half-equations and common errors.</description>
+    </item>
+    <item>
+      <title>Química GCSE: electrólisis y productos de los electrodos sin memorizar listas</title>
       <link>https://metodonebula.es/blog/gcse-chemistry-electrolysis-electrode-products/</link>
       <guid>https://metodonebula.es/blog/gcse-chemistry-electrolysis-electrode-products/</guid>
       <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-      <description>Electrolysis para GCSE Chemistry: iones móviles, ánodo, cátodo, productos en fundidos y disoluciones, half-equations y errores.</description>
+      <description>Electrólisis para Química GCSE: iones móviles, ánodo, cátodo, productos en fundidos y disoluciones, semiecuaciones y errores.</description>
     </item>
     <item>
       <title>Reactivo limitante, pureza y rendimiento: el problema de estequiometría que resume Bachillerato</title>
@@ -155,11 +183,18 @@
       <description>Ácido-base y pH para Química PAU: especies, fuertes y débiles, neutralización, valoración, ejemplo y errores frecuentes.</description>
     </item>
     <item>
-      <title>GCSE Maths: trigonometry y bearings con un método de dibujo que evita ángulos imposibles</title>
+      <title>GCSE Maths: trigonometry and bearings without impossible angles</title>
+      <link>https://metodonebula.es/blog/gcse-maths-trigonometry-bearings-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-maths-trigonometry-bearings-en/</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Solve bearings and trigonometry in GCSE Maths using north lines, SOHCAHTOA, sine and cosine rules, and geometric checks.</description>
+    </item>
+    <item>
+      <title>Matemáticas GCSE: trigonometría y rumbos con un dibujo que evita ángulos imposibles</title>
       <link>https://metodonebula.es/blog/gcse-maths-trigonometry-bearings/</link>
       <guid>https://metodonebula.es/blog/gcse-maths-trigonometry-bearings/</guid>
       <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Resuelve bearings y trigonometría en GCSE Maths: norte, ángulos, SOHCAHTOA, seno, coseno y comprobaciones con ejemplo.</description>
+      <description>Resuelve rumbos y trigonometría en Matemáticas GCSE: norte, ángulos, seno, coseno y comprobaciones con un ejemplo.</description>
     </item>
     <item>
       <title>Matemáticas CCSS PAU: domina programación lineal y convierte enunciados en puntos</title>
@@ -197,11 +232,18 @@
       <description>Método riguroso para pilas galvánicas en Química PAU: oxidación, reducción, potencial, notación, electrones y ejemplo resuelto.</description>
     </item>
     <item>
-      <title>GCSE Physics: energía, trabajo y potencia sin confundir joules, watts ni eficiencia</title>
+      <title>GCSE Physics: energy, work and power without confusing joules and watts</title>
+      <link>https://metodonebula.es/blog/gcse-physics-energy-work-power-efficiency-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-physics-energy-work-power-efficiency-en/</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Master energy, work, power and efficiency in GCSE Physics through conservation, formulae, a worked problem and error checks.</description>
+    </item>
+    <item>
+      <title>Física GCSE: energía, trabajo y potencia sin confundir julios, vatios y eficiencia</title>
       <link>https://metodonebula.es/blog/gcse-physics-energy-work-power-efficiency/</link>
       <guid>https://metodonebula.es/blog/gcse-physics-energy-work-power-efficiency/</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Domina energy, work, power y efficiency en GCSE Physics con conservación, fórmulas, un problema resuelto y errores de examen.</description>
+      <description>Domina energía, trabajo, potencia y eficiencia en Física GCSE con conservación, fórmulas, un problema resuelto y errores de examen.</description>
     </item>
     <item>
       <title>Física PAU: domina ondas desde cero y convierte las fórmulas en puntos de examen</title>
@@ -211,18 +253,32 @@
       <description>Guía completa de ondas para Física PAU: magnitudes, ecuación armónica, gráficas, fenómenos, ejemplo resuelto y errores típicos.</description>
     </item>
     <item>
-      <title>GCSE Physics: el método de 5 pasos para dominar fuerzas y diagramas en el examen</title>
+      <title>GCSE Physics: a five-step method for forces and free-body diagrams</title>
+      <link>https://metodonebula.es/blog/gcse-physics-forces-exam-questions-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-physics-forces-exam-questions-en/</guid>
+      <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Master GCSE Physics forces with diagrams, resultant force, mass, weight, pressure, a worked example and exam practice.</description>
+    </item>
+    <item>
+      <title>Física GCSE: el método de 5 pasos para dominar fuerzas y diagramas</title>
       <link>https://metodonebula.es/blog/gcse-physics-forces-exam-questions/</link>
       <guid>https://metodonebula.es/blog/gcse-physics-forces-exam-questions/</guid>
       <pubDate>Sun, 20 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Domina fuerzas en GCSE Physics con diagramas, resultante, masa, peso, presión, un ejemplo resuelto y práctica de examen.</description>
+      <description>Domina fuerzas en Física GCSE con diagramas, resultante, masa, peso, presión, un ejemplo resuelto y práctica de examen.</description>
     </item>
     <item>
-      <title>GCSE Chemistry: entiende bonding de verdad y responde cualquier pregunta de propiedades</title>
+      <title>GCSE Chemistry: understand bonding and explain any property</title>
+      <link>https://metodonebula.es/blog/gcse-chemistry-bonding-revision-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-chemistry-bonding-revision-en/</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Ionic, covalent and metallic bonding for GCSE Chemistry: particles, structures, properties, comparisons and exam answers.</description>
+    </item>
+    <item>
+      <title>Química GCSE: entiende los enlaces y explica cualquier propiedad</title>
       <link>https://metodonebula.es/blog/gcse-chemistry-bonding-revision/</link>
       <guid>https://metodonebula.es/blog/gcse-chemistry-bonding-revision/</guid>
       <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Enlace iónico, covalente y metálico en GCSE Chemistry: partículas, estructuras, propiedades, comparaciones y respuestas de examen.</description>
+      <description>Enlace iónico, covalente y metálico en Química GCSE: partículas, estructuras, propiedades, comparaciones y respuestas de examen.</description>
     </item>
     <item>
       <title>Estadística descriptiva en ESO II: rango, cuartiles y diagrama de caja</title>
@@ -232,25 +288,46 @@
       <description>Continúa Estadística de ESO con rango, cuartiles, recorrido intercuartílico y diagramas de caja, explicados con ejemplos y ejercicios resueltos.</description>
     </item>
     <item>
-      <title>GCSE Physics: domina electricidad y circuitos y deja de perder marcas por una fórmula</title>
+      <title>GCSE Physics: master electricity and circuits without losing formula marks</title>
+      <link>https://metodonebula.es/blog/gcse-physics-electricity-revision-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-physics-electricity-revision-en/</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+      <description>A complete GCSE Physics electricity guide: series, parallel, V=IR, power, graphs, a worked example and exam errors.</description>
+    </item>
+    <item>
+      <title>Física GCSE: domina electricidad y circuitos sin perder puntos por una fórmula</title>
       <link>https://metodonebula.es/blog/gcse-physics-electricity-revision/</link>
       <guid>https://metodonebula.es/blog/gcse-physics-electricity-revision/</guid>
       <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Una guía completa de electricidad para GCSE Physics: serie, paralelo, V=IR, potencia, gráficas, ejemplo y errores de examen.</description>
+      <description>Una guía completa de electricidad para Física GCSE: serie, paralelo, V=IR, potencia, gráficas, ejemplo y errores de examen.</description>
     </item>
     <item>
-      <title>GCSE Chemistry: domina ecuaciones y moles con una ruta que evita los errores típicos</title>
+      <title>GCSE Chemistry: master equations and moles without the usual mistakes</title>
+      <link>https://metodonebula.es/blog/gcse-chemistry-equations-moles-revision-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-chemistry-equations-moles-revision-en/</guid>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Connect formulae, equations and moles in GCSE Chemistry with a reliable method, a complete example and exam practice.</description>
+    </item>
+    <item>
+      <title>Química GCSE: domina ecuaciones y moles con una ruta que evita los errores típicos</title>
       <link>https://metodonebula.es/blog/gcse-chemistry-equations-moles-revision/</link>
       <guid>https://metodonebula.es/blog/gcse-chemistry-equations-moles-revision/</guid>
       <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Aprende a conectar fórmulas, ecuaciones y moles en GCSE Chemistry con un método estable, un ejemplo completo y práctica de examen.</description>
+      <description>Aprende a conectar fórmulas, ecuaciones y moles en Química GCSE con un método estable, un ejemplo completo y práctica de examen.</description>
     </item>
     <item>
-      <title>GCSE Maths: el plan de 8 semanas para subir nota en Foundation o Higher</title>
+      <title>GCSE Maths: an eight-week plan to improve at Foundation or Higher</title>
+      <link>https://metodonebula.es/blog/gcse-maths-revision-plan-foundation-higher-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-maths-revision-plan-foundation-higher-en/</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
+      <description>An eight-week GCSE Maths plan using diagnosis, spaced practice and purposeful mock papers for Foundation or Higher.</description>
+    </item>
+    <item>
+      <title>Matemáticas GCSE: el plan de 8 semanas para subir nota en nivel básico o avanzado</title>
       <link>https://metodonebula.es/blog/gcse-maths-revision-plan-foundation-higher/</link>
       <guid>https://metodonebula.es/blog/gcse-maths-revision-plan-foundation-higher/</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 GMT</pubDate>
-      <description>Un plan de 8 semanas para preparar GCSE Maths con diagnóstico, práctica espaciada y simulacros útiles en Foundation o Higher.</description>
+      <description>Un plan de 8 semanas para preparar Matemáticas GCSE con diagnóstico, práctica espaciada y simulacros útiles en nivel básico o avanzado.</description>
     </item>
     <item>
       <title>Estadística descriptiva en ESO: media, mediana, moda y frecuencias</title>

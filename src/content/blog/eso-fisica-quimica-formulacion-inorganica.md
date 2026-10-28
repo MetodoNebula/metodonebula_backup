@@ -1,39 +1,101 @@
 ---
-title: "Física y Química ESO: cómo aprender formulación inorgánica sin memorizar listas interminables"
+title: "Formulación inorgánica en ESO: aprende la lógica y deja de memorizar listas infinitas"
 date: "2026-10-07"
-updated: "2026-10-07"
-description: "Guía para estudiar formulación inorgánica en ESO: valencias, cargas, nomenclatura y una práctica que evita errores repetidos."
+updated: "2026-10-28"
+description: "Formulación inorgánica en ESO explicada con cargas, números de oxidación, familias, ejemplos, nomenclatura y práctica eficaz."
 tag: "ESO"
 category: "Física y Química"
 relatedService: "/clases-particulares/quimica/"
-relatedPosts: "fisica-y-quimica-como-plantear-problemas,estequiometria-universitaria-ejercicios-resueltos"
-image: "/favicon.svg"
+relatedPosts: "bachillerato-fisica-quimica-mol-estequiometria,fisica-y-quimica-como-plantear-problemas"
+image: "/assets/latex/bonding-particles.svg"
 ---
 
-La formulación inorgánica se vuelve pesada cuando se presenta como una lista de nombres y fórmulas sin estructura. En realidad, casi todos los ejercicios se resuelven siguiendo el mismo principio: las cargas deben compensarse y el nombre debe describir la composición sin ambigüedad.
+La formulación parece una asignatura dentro de otra asignatura: símbolos, prefijos, números romanos y tablas. Pero casi todos los ejercicios responden a una lógica estable: **identificar la familia, interpretar cargas o números de oxidación y construir una especie eléctricamente neutra.**
 
-## Empieza por el tipo de compuesto
+![Modelos de partículas que ayudan a distinguir compuestos iónicos, covalentes y metálicos](/assets/latex/bonding-particles.svg)
 
-Antes de escribir símbolos, identifica si se trata de un óxido, hidruro, sal binaria, hidróxido, oxoácido o sal oxoácida. Esa clasificación limita las piezas que pueden aparecer y evita mezclar reglas de familias distintas.
+## Antes de formular: reconoce el tipo de sustancia
 
-Después escribe los elementos o iones con sus cargas o números de oxidación habituales. No conviertas el cruce de cargas en un truco automático: revisa que la fórmula final sea neutra y simplifica los subíndices cuando tengan divisor común.
+No uses la misma receta para todo. Pregunta si estás ante:
 
-## Nombra en los dos sentidos
+- óxido;
+- hidruro;
+- hidróxido;
+- sal binaria;
+- oxoácido;
+- oxosal.
 
-Practica tanto fórmula → nombre como nombre → fórmula. El primer sentido comprueba que reconoces la composición; el segundo obliga a interpretar prefijos, números romanos y aniones. Un examen alterna ambos y dominar solo una dirección deja una laguna importante.
+La familia indica qué elementos o iones deben aparecer y qué nomenclaturas son razonables.
 
-## Una secuencia útil para cada ejercicio
+## Carga y número de oxidación no son exactamente lo mismo
 
-1. clasifica el compuesto;
-2. escribe símbolos y cargas;
-3. ajusta la neutralidad;
-4. simplifica si procede;
-5. comprueba el nombre con la fórmula final.
+La carga pertenece a una especie real como $Na^+$ o $SO_4^{2-}$. El número de oxidación es una herramienta contable para seguir electrones en un compuesto. En iones monoatómicos coinciden numéricamente; en moléculas y iones poliatómicos se asignan siguiendo reglas.
 
-Si usas un número romano, verifica que coincida con el estado de oxidación que realmente queda en el compuesto. Si usas prefijos, revisa que cuentan átomos y no cargas.
+Para formular compuestos iónicos, la suma de cargas debe ser cero.
 
-## Corrige por familias, no por páginas
+## Ejemplo: óxido de hierro(III)
 
-Cuando falles, guarda una tarjeta con un ejemplo de esa familia y la causa del error: no reconocí el anión, olvidé simplificar o interpreté mal el número romano. Repite al día siguiente dos ejemplos de la misma familia y uno mezclado. Esa recuperación espaciada es mucho más eficaz que copiar una tabla completa.
+Hierro(III) indica $Fe^{3+}$ y el óxido es $O^{2-}$. Buscamos la proporción entera mínima que neutraliza:
 
-El campus de Método Nebula permite trabajar formulación junto a estructura atómica, enlace y reacciones, con teoría breve, ejemplos y práctica graduada. Si quieres que esta parte de Física y Química deje de ser un bloqueo y pase a ser una rutina, contacta con nosotros desde el botón final.
+$$
+2(+3)+3(-2)=0.
+$$
+
+Por tanto:
+
+$$
+\mathrm{Fe_2O_3}.
+$$
+
+No basta “cruzar” números: la comprobación de neutralidad explica por qué aparecen esos subíndices.
+
+## Ejemplo: hidróxido de calcio
+
+El calcio forma $Ca^{2+}$ y el hidróxido es $OH^-$. Se necesitan dos grupos hidróxido:
+
+$$
+\mathrm{Ca(OH)_2}.
+$$
+
+Los paréntesis son esenciales porque el subíndice afecta al grupo completo. Escribir $CaOH_2$ cambia la composición.
+
+## Nomenclatura de Stock
+
+Cuando un elemento puede presentar varios estados de oxidación, el número romano aclara cuál aparece. En $CuO$, el oxígeno aporta $-2$, por lo que el cobre es $+2$: óxido de cobre(II). En $Cu_2O$, los dos cobres suman $+2$, así que cada uno es $+1$: óxido de cobre(I).
+
+El número romano no indica cantidad de átomos; indica estado de oxidación.
+
+## Nomenclatura sistemática
+
+Los prefijos mono-, di-, tri-, tetra- y otros expresan cantidades. $CO_2$ puede nombrarse dióxido de carbono. Esta nomenclatura obliga a leer los subíndices, no a inferir cargas.
+
+Sigue siempre la nomenclatura exigida por tu curso y profesor. Aprender a pasar de una a otra ayuda a comprobar la fórmula.
+
+## Oxoácidos y oxosales: estudia familias
+
+En lugar de memorizar una lista sin conexiones, agrupa especies por elemento central y relaciona ácido con anión. Si el ácido pierde protones, aparece la carga correspondiente del anión. Practica ambas direcciones: nombre → fórmula y fórmula → nombre.
+
+## Rutina de cinco pasos
+
+1. Clasifica la familia.
+2. Escribe símbolos o iones con cargas.
+3. Busca la proporción neutra mínima.
+4. Usa paréntesis cuando se repita un ion poliatómico.
+5. Comprueba el nombre desde la fórmula final.
+
+## Errores frecuentes
+
+- No simplificar subíndices cuando hay factor común.
+- Usar números romanos como si fueran subíndices.
+- Olvidar paréntesis en iones poliatómicos.
+- Modificar la fórmula interna de un ion.
+- Mezclar nomenclaturas dentro del mismo nombre.
+- Memorizar sin verificar neutralidad.
+
+## Práctica mínima útil
+
+Formula: cloruro de magnesio, óxido de cobre(I), hidróxido de aluminio y sulfato de sodio. Nombra: $FeCl_3$, $N_2O_5$, $Ca(OH)_2$ y $K_2SO_4$.
+
+Las fórmulas son $MgCl_2$, $Cu_2O$, $Al(OH)_3$ y $Na_2SO_4$. En Stock: cloruro de hierro(III), pentóxido de dinitrógeno en sistemática, hidróxido de calcio y sulfato de potasio.
+
+El campus virtual de Método Nebula conecta estructura atómica, tabla periódica, enlace y formulación para que los nombres no aparezcan aislados. Si necesitas una secuencia que combine comprensión, tarjetas y ejercicios hasta automatizar sin memorizar a ciegas, utiliza el botón de contacto.

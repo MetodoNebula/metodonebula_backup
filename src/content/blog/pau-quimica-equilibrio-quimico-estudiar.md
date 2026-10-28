@@ -1,37 +1,94 @@
 ---
-title: "Química PAU: cómo estudiar equilibrio químico y no confundir K, Q y Le Châtelier"
+title: "Química PAU: domina equilibrio químico y deja de confundir K, Q y Le Châtelier"
 date: "2026-09-25"
-updated: "2026-09-25"
-description: "Método de estudio para equilibrio químico en PAU: interpretación de K, cociente de reacción, perturbaciones y ejercicios."
+updated: "2026-10-28"
+description: "Equilibrio químico para PAU explicado con K, Q, tablas de equilibrio, Le Châtelier, ejemplo resuelto y errores frecuentes."
 tag: "PAU"
 category: "Selectividad"
 relatedService: "/clases-particulares/selectividad/"
-relatedPosts: "preparar-selectividad-con-calendario,fisica-y-quimica-como-plantear-problemas"
-image: "/favicon.svg"
+relatedPosts: "pau-quimica-acido-base-ph-calculos,preparar-selectividad-con-calendario,fisica-y-quimica-como-plantear-problemas"
+image: "/assets/latex/equilibrium-shift.svg"
 ---
 
-Equilibrio químico en PAU exige más que sustituir concentraciones en una expresión. Hay que leer una reacción reversible como un sistema que evoluciona, distinguir su estado inicial de su estado de equilibrio y explicar qué provoca una perturbación. Cuando esas ideas se mezclan, incluso un cálculo correcto puede responder otra pregunta.
+El equilibrio químico no significa que la reacción se haya detenido. Significa que las velocidades directa e inversa son iguales y que las concentraciones macroscópicas permanecen constantes. Entender esta frase evita buena parte de los errores posteriores.
 
-## Empieza por la reacción y las especies
+En PAU, el bloque exige conectar tres niveles: la reacción, la composición y la respuesta del sistema a un cambio. **K describe el equilibrio; Q describe el estado actual; Le Châtelier ayuda a predecir cómo responde el sistema.**
 
-Escribe la ecuación ajustada y señala qué especies aparecen en la expresión de equilibrio. No todas cuentan: sólidos y líquidos puros tienen actividad constante y no se incluyen en la forma habitual de `K`. Comprueba los exponentes: vienen de los coeficientes estequiométricos.
+![Evolución de concentraciones antes y después de una perturbación del equilibrio](/assets/latex/equilibrium-shift.svg)
 
-## Diferencia constante y cociente de reacción
+## Escribe bien la expresión de equilibrio
 
-La constante `K` describe el equilibrio a una temperatura dada. El cociente `Q` se calcula con la composición que el sistema tiene en un instante. Compararlos indica hacia dónde evolucionará la reacción hasta recuperar el equilibrio.
+Para:
 
-- Si `Q < K`, faltan productos respecto al equilibrio.
-- Si `Q > K`, sobran productos respecto al equilibrio.
-- Si `Q = K`, el sistema ya está en equilibrio dinámico.
+$$
+aA+bB\rightleftharpoons cC+dD,
+$$
 
-No significa que la reacción se haya parado: las velocidades directa e inversa son iguales, pero ambas pueden seguir ocurriendo.
+la constante en concentración se expresa como:
 
-## Usa una tabla de avance con sentido físico
+$$
+K_c=\frac{[C]^c[D]^d}{[A]^a[B]^b}.
+$$
 
-En los problemas numéricos, una tabla con concentraciones iniciales, cambio y equilibrio evita saltos. Antes de resolver, piensa si el cambio debe sumarse o restarse según el sentido previsto por `Q` y `K`. Después, sustituye y revisa que ninguna concentración final sea negativa.
+Los exponentes proceden de los coeficientes estequiométricos. Los sólidos y líquidos puros no se incluyen en la forma habitual porque su actividad se considera constante.
 
-## Explica perturbaciones sin frases mágicas
+## K no dice cuánto tarda la reacción
 
-Para aplicar Le Châtelier, indica primero qué variable cambia; luego, qué tendencia compensa parcialmente esa variación; por último, qué consecuencia observas. Trata temperatura con especial cuidado: modifica `K` porque altera el equilibrio termodinámico, no es solo “más o menos cantidad”.
+Un valor grande de $K$ indica que el equilibrio favorece productos; un valor pequeño favorece reactivos. No informa de la rapidez. Una reacción puede tener un equilibrio muy desplazado y ser extremadamente lenta.
 
-El campus de Método Nebula permite recorrer equilibrio desde la interpretación hasta ejercicios y preguntas de examen, con práctica gradual y corrección de errores frecuentes. Si quieres integrar Química PAU en una preparación completa y con seguimiento, usa el botón de contacto.
+La temperatura sí puede cambiar $K$. Añadir un catalizador acelera las reacciones directa e inversa, pero no modifica la composición de equilibrio.
+
+## Q decide hacia dónde evoluciona el sistema
+
+El cociente de reacción tiene la misma forma algebraica que $K$, pero se calcula con la composición del instante considerado:
+
+- $Q<K$: el sistema evoluciona hacia productos.
+- $Q>K$: evoluciona hacia reactivos.
+- $Q=K$: ya está en equilibrio.
+
+Esta comparación debe preceder a una tabla de cambio: te ayuda a asignar correctamente los signos.
+
+## Ejemplo con tabla de equilibrio
+
+Para $\mathrm{H_2+I_2\rightleftharpoons2HI}$, se introducen 1,0 mol/L de $H_2$ y 1,0 mol/L de $I_2$, sin HI inicial. Si en equilibrio han reaccionado $x$ mol/L:
+
+| Especie | Inicial | Cambio | Equilibrio |
+|---|---:|---:|---:|
+| $H_2$ | 1,0 | $-x$ | $1,0-x$ |
+| $I_2$ | 1,0 | $-x$ | $1,0-x$ |
+| $HI$ | 0 | $+2x$ | $2x$ |
+
+Entonces:
+
+$$
+K_c=\frac{(2x)^2}{(1-x)^2}.
+$$
+
+La tabla no es una plantilla decorativa. Codifica la estequiometría y garantiza que las concentraciones finales sean físicamente posibles.
+
+## Le Châtelier sin frases automáticas
+
+Si aumenta la concentración de un reactivo, el sistema tiende a consumir parte de lo añadido. Si disminuye el volumen de un equilibrio gaseoso, se favorece el lado con menor número de moles gaseosos. Si aumenta la temperatura, trata el calor como reactivo o producto según la reacción sea endotérmica o exotérmica.
+
+La palabra “tiende” importa: el sistema compensa parcialmente la perturbación, no la elimina mágicamente.
+
+## Presión, volumen y gases inertes
+
+Reducir volumen aumenta presiones parciales y puede desplazar el equilibrio si cambia el número total de moles gaseosos entre lados. Añadir un gas inerte a volumen constante no cambia las presiones parciales de las especies reactivas en el modelo ideal, por lo que no desplaza el equilibrio.
+
+Son preguntas frecuentes porque obligan a razonar más allá de una regla memorizada.
+
+## Errores frecuentes
+
+- Incluir sólidos en $K_c$.
+- Cambiar $K$ al variar una concentración a temperatura constante.
+- Decir que un catalizador “produce más producto”.
+- Usar Le Châtelier sin indicar qué variable cambia.
+- Resolver una raíz matemática que produce concentración negativa.
+- Confundir equilibrio dinámico con ausencia de reacción.
+
+## Práctica de examen
+
+Entrena cuatro formatos: escribir $K$, comparar $Q$ y $K$, resolver una tabla y justificar una perturbación. Después mezcla equilibrio con cinética, termoquímica o ácido-base. En PAU los bloques pueden conectarse y la elección del método cuenta tanto como el cálculo.
+
+El campus virtual de Método Nebula organiza Química PAU desde fundamentos hasta cinética y equilibrio, con ejemplos guiados, ejercicios, preguntas de examen y errores comunes. Si quieres detectar qué decisión falla y convertirla en una secuencia de práctica, utiliza el botón de contacto.

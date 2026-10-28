@@ -1,0 +1,16 @@
+\documentclass[tikz,border=4pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\definecolor{nebula}{HTML}{6366F1}
+\definecolor{spark}{HTML}{14B8A6}
+\begin{document}
+\begin{tikzpicture}[x=1cm,y=.75cm,font=\sffamily,>=Latex]
+  \draw[->,gray!70] (-4,0)--(5,0) node[right] {$x$};
+  \draw[->,gray!70] (0,-3)--(0,5) node[above] {$f(x)$};
+  \draw[domain=-3.1:4.2,samples=180,very thick,nebula] plot (\x,{0.12*(\x+2)*(\x-1)*(\x-3)+1});
+  \fill[spark] (-1.5,2.35) circle(2.3pt) node[above left] {m\'aximo};
+  \fill[spark] (2.6,.15) circle(2.3pt) node[below right] {m\'inimo};
+  \draw[dashed,gray] (-1.5,0)--(-1.5,2.35) (2.6,0)--(2.6,.15);
+  \node[align=left] at (7,2.2) {Dominio $\rightarrow$ cortes\\L\'imites $\rightarrow$ as\'intotas\\$f'$ $\rightarrow$ crecimiento\\$f''$ $\rightarrow$ concavidad};
+\end{tikzpicture}
+\end{document}

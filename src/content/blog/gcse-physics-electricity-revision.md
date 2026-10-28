@@ -1,39 +1,113 @@
 ---
-title: "GCSE Physics: cómo repasar electricidad y circuitos para no perder marcas en los problemas"
+title: "GCSE Physics: domina electricidad y circuitos y deja de perder marcas por una fórmula"
 date: "2026-09-15"
-updated: "2026-09-15"
-description: "Guía de estudio de Electricity en GCSE Physics: magnitudes, circuitos, gráficas, cálculos y errores frecuentes de examen."
+updated: "2026-10-28"
+description: "Una guía completa de electricidad para GCSE Physics: serie, paralelo, V=IR, potencia, gráficas, ejemplo y errores de examen."
 tag: "GCSE"
 category: "Exámenes internacionales"
 relatedService: "/clases-particulares/gcse-ib/"
-relatedPosts: "ib-gcse-como-preparar-examenes-internacionales,circuitos-corriente-continua-problemas-resueltos-universidad"
-image: "/favicon.svg"
+relatedPosts: "gcse-physics-forces-exam-questions,ib-gcse-como-preparar-examenes-internacionales,circuitos-corriente-continua-problemas-resueltos-universidad"
+image: "/assets/latex/circuits-series-parallel.svg"
 ---
 
-Electricity en GCSE Physics no se aprueba recordando que `V = IR` y esperando que la pregunta encaje. Hay que distinguir qué mide cada instrumento, reconocer un circuito en serie o en paralelo y justificar qué cambia —o qué permanece igual— antes de sustituir números.
+Aprender `V = IR` no equivale a entender electricidad. En GCSE Physics las marcas se pierden antes de sustituir números: al confundir qué se conserva en serie y en paralelo, al colocar mal un instrumento o al no explicar por qué cambia la corriente.
 
-## Dibuja y etiqueta antes de calcular
+La solución es estudiar el circuito como un sistema. **Primero se interpreta; después se elige la relación; al final se calcula y se comprueba.**
 
-En cada ejercicio escribe las magnitudes conocidas: corriente en amperios, potential difference en voltios, resistance en ohmios, charge en culombios y energy o power con sus unidades. Haz un esquema sencillo aunque ya venga un circuito dibujado. Visualizar los nodos evita intercambiar ramas y componentes.
+![Comparación entre un circuito en serie y uno en paralelo](/assets/latex/circuits-series-parallel.svg)
 
-Después pregunta: ¿la corriente se divide?, ¿el voltaje se reparte?, ¿qué dispositivo está midiendo cada cosa? Esa lectura previa suele dar más puntos que una fórmula aplicada deprisa.
+## Cinco magnitudes que no deben mezclarse
 
-## Aprende las relaciones como una red
+| Magnitud | Símbolo | Unidad | Idea física |
+|---|---|---|---|
+| Carga | $Q$ | culombio (C) | cantidad de carga transferida |
+| Corriente | $I$ | amperio (A) | carga por unidad de tiempo |
+| Diferencia de potencial | $V$ | voltio (V) | energía transferida por culombio |
+| Resistencia | $R$ | ohmio ($\Omega$) | oposición al paso de corriente |
+| Potencia | $P$ | vatio (W) | energía transferida por segundo |
 
-La relación `V = IR` conecta voltaje, corriente y resistencia. Pero una cuestión de energía puede exigir `E = QV`, y una de potencia puede llevar a `P = IV`. No conviertas estas expresiones en tarjetas aisladas. Di en voz alta qué representa cada una y cuándo es útil.
+Si una respuesta usa el nombre correcto con la unidad equivocada, hay una confusión conceptual, no un simple despiste.
 
-En una gráfica corriente-voltaje, describe primero la forma: lineal, curva o con comportamiento distinto al aumentar la temperatura. Solo entonces relaciona la pendiente o el cambio de forma con el componente.
+## Serie y paralelo: qué permanece igual
 
-## Practica en tres capas
+En un circuito **en serie** hay un solo camino. La corriente es la misma en todos los componentes y la diferencia de potencial total se reparte. Las resistencias se suman:
 
-1. Preguntas cortas sobre símbolos, unidades y seguridad.
-2. Problemas de una sola relación con conversión de unidades.
-3. Preguntas de varios pasos que mezclan circuitos, energía, gráficas y explicación escrita.
+$$
+R_{eq}=R_1+R_2+\cdots.
+$$
 
-La tercera capa es la que prepara para el examen. No basta con acertar el resultado: explica qué variable se mantiene constante y utiliza el vocabulario que pide la pregunta.
+En **paralelo**, cada rama conecta los mismos dos nodos y tiene la misma diferencia de potencial. La corriente total se reparte entre las ramas. Para dos resistencias:
 
-## Revisión de errores de examen
+$$
+\frac{1}{R_{eq}}=\frac{1}{R_1}+\frac{1}{R_2}.
+$$
 
-Cuando corrijas, separa el error de física del error de presentación. Es distinto confundir serie y paralelo que olvidar convertir miliamperios a amperios. Anota el primer paso que habría evitado el fallo y repite una pregunta similar al cabo de dos o tres días.
+Añadir una rama en paralelo reduce la resistencia equivalente y puede aumentar la corriente total suministrada por la fuente.
 
-En el campus de Método Nebula, Electricity se puede trabajar desde conceptos y ejemplos guiados hasta ejercicios y práctica de examen por tema. Si quieres pasar de “me suena la fórmula” a resolver circuitos con seguridad en GCSE Physics, solicita orientación a través del botón de contacto.
+## Ejemplo resuelto: dos resistencias en serie
+
+Una batería de 12 V alimenta resistencias de $2\,\Omega$ y $4\,\Omega$ en serie.
+
+La resistencia equivalente es:
+
+$$
+R_{eq}=2+4=6\,\Omega.
+$$
+
+Por la ley de Ohm:
+
+$$
+I=\frac{V}{R}=\frac{12}{6}=2\ \mathrm{A}.
+$$
+
+La misma corriente atraviesa ambas resistencias. Las caídas de potencial son:
+
+$$
+V_1=IR_1=4\ \mathrm{V},\qquad V_2=IR_2=8\ \mathrm{V}.
+$$
+
+La comprobación es $V_1+V_2=12$ V. Esa igualdad no solo valida la cuenta: muestra cómo se distribuye la energía por unidad de carga.
+
+## Potencia y energía: la parte que suele quedar desconectada
+
+La potencia eléctrica puede calcularse mediante:
+
+$$
+P=IV.
+$$
+
+También se relaciona con energía y tiempo:
+
+$$
+E=Pt.
+$$
+
+En una pregunta de coste energético, revisa si el tiempo está en segundos u horas y si la energía se expresa en julios o kWh. No mezcles unidades porque la fórmula “se parezca”.
+
+## Cómo leer una gráfica corriente–voltaje
+
+Antes de hablar de resistencia, observa si la relación es lineal. Un resistor óhmico a temperatura constante produce una recta; una filament lamp muestra curvatura porque su temperatura y resistencia cambian; un diode conduce principalmente en una dirección después de superar una zona característica.
+
+Una descripción de examen debe vincular forma y causa: no basta con escribir “es curva”.
+
+## Instrumentos y errores de montaje
+
+El amperímetro se coloca en serie con el componente cuya corriente se mide. El voltímetro se conecta en paralelo entre sus extremos. Explica por qué: uno mide el flujo que atraviesa la rama; el otro compara energía por carga entre dos puntos.
+
+## Pregunta de razonamiento
+
+Dos lámparas idénticas están en paralelo. Una se rompe y abre su rama. ¿Qué ocurre con la otra? En el modelo ideal, sigue conectada a la misma diferencia de potencial y permanece encendida. La clave no es recordar la frase, sino reconocer que la otra rama continúa cerrada.
+
+## Errores frecuentes y su antídoto
+
+- **Miliamperios tratados como amperios:** escribe la conversión antes de sustituir.
+- **Resistencias en paralelo sumadas directamente:** identifica nodos, no la apariencia del dibujo.
+- **Voltaje y corriente intercambiados:** escribe la unidad junto a cada dato.
+- **Gráfica descrita sin causa:** relaciona forma, temperatura o dirección de conducción.
+- **Resultado sin comprobación:** verifica conservación de corriente o suma de voltajes según el montaje.
+
+## Entrenamiento de examen en tres capas
+
+Empieza con símbolos y unidades; continúa con problemas de una ecuación; termina con cuestiones de varios pasos que mezclen circuitos, potencia, energía y explicación. Después haz práctica por tema, una mezcla aleatoria y finalmente un paper cronometrado.
+
+El campus virtual de Método Nebula organiza Electricity and Magnetism con teoría, ejemplos trabajados, ejercicios, preguntas de examen y revisión. Si quieres detectar si el bloqueo está en el concepto, el montaje o el cálculo, utiliza el botón de contacto y lo convertimos en un plan concreto.

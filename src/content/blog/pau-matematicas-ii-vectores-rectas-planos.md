@@ -1,39 +1,124 @@
 ---
-title: "Matemáticas II PAU: vectores, rectas y planos con un método para elegir el planteamiento"
+title: "Matemáticas II PAU: domina vectores, rectas y planos sin memorizar veinte fórmulas"
 date: "2026-09-27"
-updated: "2026-09-27"
-description: "Cómo estudiar geometría del espacio en Matemáticas II para PAU: representaciones, posiciones relativas y problemas resueltos."
+updated: "2026-10-28"
+description: "Geometría del espacio para PAU: vectores, rectas, planos, posiciones relativas, distancias, ejemplo y estrategia de examen."
 tag: "PAU"
 category: "Selectividad"
 relatedService: "/preparacion-examenes/matematicas-selectividad/"
-relatedPosts: "como-preparar-pau-matematicas-ii,preparar-selectividad-con-calendario"
-image: "/favicon.svg"
+relatedPosts: "como-preparar-pau-matematicas-ii,matrices-determinantes-sistemas-ecuaciones-guia,preparar-selectividad-con-calendario"
+image: "/assets/latex/vectors-planes.svg"
 ---
 
-La geometría del espacio en Matemáticas II parece un conjunto de fórmulas para planos y rectas, pero el examen suele evaluar una decisión previa: qué representación permite responder con menos pasos y más claridad. La misma recta puede escribirse de forma vectorial, paramétrica o continua, y cada forma revela algo distinto.
+La geometría del espacio se vuelve inabarcable cuando cada tipo de ejercicio se asocia a una fórmula diferente. En realidad, casi todo el bloque se apoya en tres ideas: **dirección, perpendicularidad e intersección**. Las ecuaciones son maneras de hacer visibles esas ideas.
 
-## Traduce cada objeto a datos útiles
+![Plano con vector normal, recta y distancia perpendicular](/assets/latex/vectors-planes.svg)
 
-Una recta necesita un punto y un vector director. Un plano necesita un punto y dos direcciones independientes, o bien un vector normal y una ecuación. Antes de operar, escribe qué información da el enunciado y qué información falta. Así evitas construir una ecuación sin saber para qué la usarás.
+## Qué información define cada objeto
 
-## Decide qué condición expresa la pregunta
+Una recta queda determinada por un punto $P$ y un vector director $\vec v$:
 
-Estas preguntas frecuentes se reducen a condiciones concretas:
+$$
+r:\ \vec x=\vec P+t\vec v.
+$$
 
-- paralelismo: vectores proporcionales;
-- perpendicularidad: producto escalar cero;
-- pertenencia: el punto satisface la ecuación;
-- intersección: existe una solución común;
-- distancia: usa el objeto perpendicular adecuado.
+Un plano puede definirse por un punto y dos vectores directores independientes, o por una ecuación:
 
-No memorices un “método de distancia” universal. Primero identifica entre qué objetos se mide y después elige la herramienta.
+$$
+\pi:\ ax+by+cz=d,
+$$
 
-## Resuelve posiciones relativas con un sistema interpretable
+cuyo vector normal es $\vec n=(a,b,c)$.
 
-Al comparar una recta y un plano, o dos rectas, plantea el sistema y no te limites a clasificar por el número de incógnitas. Explica qué significa una solución, ninguna o infinitas soluciones en el dibujo espacial. Esta interpretación también ayuda a detectar ecuaciones mal copiadas.
+Antes de operar, escribe qué tienes y qué necesitas. Esta pausa evita construir una forma de la ecuación que luego no sirve para responder.
 
-## Comprueba la respuesta geométricamente
+## El producto escalar traduce perpendicularidad
 
-Tras calcular un punto de corte, sustitúyelo en las ecuaciones originales. Si obtienes un vector normal, verifica con un producto escalar que es perpendicular a las direcciones del plano. Estas comprobaciones son rápidas y hacen visible el razonamiento para la corrección de PAU.
+Dos vectores no nulos son perpendiculares si:
 
-El campus de Método Nebula organiza Matemáticas II desde fundamentos hasta ejercicios guiados y práctica de examen, para que cada representación tenga un propósito. Si quieres detectar qué parte de geometría espacial te bloquea y convertirla en una rutina de trabajo, solicita información desde el botón de contacto.
+$$
+\vec u\cdot\vec v=0.
+$$
+
+Por eso un vector normal del plano es perpendicular a todas sus direcciones. Una recta perpendicular a un plano tiene un vector director paralelo al normal del plano.
+
+## El producto vectorial construye normales
+
+Si conoces dos direcciones independientes $\vec u$ y $\vec v$ contenidas en un plano, entonces:
+
+$$
+\vec n=\vec u\times\vec v
+$$
+
+es perpendicular a ambas. Comprueba después que el punto dado satisface la ecuación obtenida.
+
+## Posiciones relativas: interpreta el sistema
+
+Para recta y plano, sustituye la ecuación paramétrica de la recta en la del plano:
+
+- una solución para $t$: se cortan en un punto;
+- ninguna solución: recta paralela y exterior;
+- identidad: la recta está contenida en el plano.
+
+No escribas solo “sistema compatible”. Traduce el resultado al dibujo espacial.
+
+## Ejemplo: plano por tres puntos
+
+Sean $A(1,0,0)$, $B(0,1,0)$ y $C(0,0,1)$. Dos direcciones son:
+
+$$
+\overrightarrow{AB}=(-1,1,0),\qquad \overrightarrow{AC}=(-1,0,1).
+$$
+
+Un vector normal es:
+
+$$
+\overrightarrow{AB}\times\overrightarrow{AC}=(1,1,1).
+$$
+
+Usando el punto $A$:
+
+$$
+(1,1,1)\cdot(x-1,y,z)=0,
+$$
+
+de donde:
+
+$$
+x+y+z=1.
+$$
+
+Comprobación: los tres puntos satisfacen la ecuación.
+
+## Distancias: identifica primero los objetos
+
+La distancia de un punto $P(x_0,y_0,z_0)$ al plano $ax+by+cz+d=0$ es:
+
+$$
+d(P,\pi)=\frac{|ax_0+by_0+cz_0+d|}{\sqrt{a^2+b^2+c^2}}.
+$$
+
+Pero no uses esta fórmula para cualquier distancia. Punto–recta, rectas paralelas o rectas que se cruzan requieren construcciones distintas. Pregunta primero cuál es el segmento perpendicular más corto.
+
+## Procedimiento de examen
+
+1. Haz un boceto y nombra objetos.
+2. Extrae puntos, directores y normales.
+3. Traduce la condición: paralelo, perpendicular, pertenece o corta.
+4. Elige la representación que haga esa condición más sencilla.
+5. Resuelve y comprueba sustituyendo o usando un producto escalar.
+
+## Errores frecuentes
+
+- Usar dos vectores dependientes para definir un plano.
+- Confundir vector normal y vector director.
+- Hallar un punto de corte y no comprobarlo.
+- Calcular una distancia sin valor absoluto.
+- Clasificar un sistema sin interpretar la geometría.
+- Perder signos al construir vectores entre puntos.
+
+## Práctica recomendada
+
+Alterna ejercicios de construcción, posición relativa, ángulos y distancias. Luego resuelve una pregunta que combine dos partes: por ejemplo, hallar un plano y medir una distancia. Finalmente incluye el bloque en un modelo PAU con tiempo real.
+
+El campus virtual de Método Nebula desarrolla Matemáticas II desde vectores y sistemas hasta rectas, planos y geometría métrica, con ejemplos y preguntas de examen. Si quieres ordenar este bloque según los errores que realmente cometes, el botón de contacto permite iniciar el diagnóstico.

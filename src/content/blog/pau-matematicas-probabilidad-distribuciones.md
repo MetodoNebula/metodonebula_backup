@@ -1,31 +1,101 @@
 ---
-title: "Matemáticas II PAU: probabilidad y distribuciones, cómo elegir el modelo correcto"
+title: "Probabilidad y distribuciones en PAU: aprende a elegir el modelo antes de calcular"
 date: "2026-10-17"
-updated: "2026-10-17"
-description: "Guía para preparar probabilidad y distribuciones en Matemáticas II de PAU: sucesos, binomial, normal y comprobación."
+updated: "2026-10-28"
+description: "Probabilidad para Matemáticas II PAU: sucesos, binomial, normal, tipificación, ejemplos, comprobaciones y errores frecuentes."
 tag: "PAU"
 category: "Selectividad"
 relatedService: "/preparacion-examenes/matematicas-selectividad/"
 relatedPosts: "probabilidad-condicionada-bayes-problemas-resueltos,como-preparar-pau-matematicas-ii"
-image: "/favicon.svg"
+image: "/assets/latex/normal-distribution.svg"
 ---
 
-En probabilidad de Matemáticas II PAU, la dificultad no suele estar en introducir datos en una calculadora. Está en reconocer qué representa la variable aleatoria y qué modelo describe el experimento. Una distribución binomial mal elegida puede dar un número muy preciso y, aun así, no responder al problema.
+La calculadora puede devolver ocho decimales y aun así responder a otro problema. En probabilidad PAU, la decisión más importante ocurre antes: definir la variable, traducir el suceso y justificar el modelo.
 
-## Describe el experimento con palabras
+![Distribución normal con la zona central sombreada y una secuencia de comprobación](/assets/latex/normal-distribution.svg)
 
-Antes de operar, escribe qué se cuenta o mide, cuáles son los resultados posibles y si los ensayos se pueden considerar independientes. La binomial se usa cuando hay un número fijo de ensayos, dos resultados relevantes, probabilidad constante e independencia razonable. Si falta una condición, detente y revisa.
+## Escribe el suceso antes de operar
 
-## Traduce expresiones de probabilidad
+“Al menos 3” significa $X\ge3$; “más de 3”, $X>3$; “como máximo 3”, $X\le3$. Una diferencia de una unidad cambia la probabilidad. Anota la desigualdad y, si la variable es discreta, los valores incluidos.
 
-Convierte “como máximo”, “al menos”, “más de” y “entre” en desigualdades antes de pulsar teclas. Una probabilidad acumulada no es lo mismo que una puntual. Escribe el suceso y el complemento cuando simplifique la cuenta; por ejemplo, “al menos uno” suele ser más claro como uno menos “ninguno”.
+## Probabilidad condicionada
 
-## Normal: estandariza con significado
+La probabilidad de $A$ sabiendo $B$ es:
 
-Al trabajar con una normal, identifica media y desviación típica, dibuja una campana aproximada y señala la zona que se pide. La estandarización transforma un valor a distancia relativa respecto a la media; no es una fórmula aislada. El dibujo ayuda a detectar probabilidades imposibles, como un área negativa o mayor que uno.
+$$
+P(A\mid B)=\frac{P(A\cap B)}{P(B)},\qquad P(B)>0.
+$$
 
-## Corrige las decisiones, no solo los números
+Condicionar cambia el universo de referencia. Independencia significa $P(A\cap B)=P(A)P(B)$, no que los sucesos sean incompatibles. Sucesos incompatibles con probabilidad positiva no son independientes.
 
-En cada ejercicio guarda el motivo del modelo elegido. Si fallaste, registra si fue por interpretar el enunciado, por elegir mal una acumulada o por redondear antes de tiempo. Repite al día siguiente una pregunta con el mismo patrón verbal y otra de modelo distinto.
+## Cuándo usar una binomial
 
-El campus de Método Nebula organiza probabilidad y distribuciones con teoría, ejemplos guiados, ejercicios y preguntas de examen para entrenar esa elección de modelo. Si quieres convertir tus modelos de PAU en un plan de preparación que corrija errores recurrentes, usa el botón de contacto.
+Comprueba cuatro condiciones:
+
+1. número fijo de ensayos $n$;
+2. dos resultados relevantes por ensayo;
+3. probabilidad de éxito $p$ constante;
+4. independencia razonable.
+
+Entonces $X\sim B(n,p)$ y:
+
+$$
+P(X=k)=\binom{n}{k}p^k(1-p)^{n-k}.
+$$
+
+La media es $np$ y la varianza $np(1-p)$.
+
+## Ejemplo binomial
+
+Una prueba se supera con probabilidad 0,7 y se realizan 5 intentos independientes. La probabilidad de exactamente 4 éxitos es:
+
+$$
+P(X=4)=\binom54(0.7)^4(0.3)\approx0.36015.
+$$
+
+Para “al menos 4” debes añadir $P(X=5)$; para “al menos uno” suele ser más rápido usar el complemento $1-P(X=0)$.
+
+## Distribución normal
+
+Si $X\sim N(\mu,\sigma)$, estandariza mediante:
+
+$$
+Z=\frac{X-\mu}{\sigma}.
+$$
+
+Antes de usar una tabla o calculadora, dibuja la campana y sombrea la zona. El dibujo anticipa si el resultado debe ser menor o mayor que 0,5 y evita restas invertidas.
+
+## Ejemplo normal
+
+Las puntuaciones siguen $N(70,10)$, donde 10 es la desviación típica. Para $P(X>85)$:
+
+$$
+z=\frac{85-70}{10}=1.5.
+$$
+
+Entonces:
+
+$$
+P(X>85)=P(Z>1.5)\approx0.0668.
+$$
+
+Tiene sentido: 85 está 1,5 desviaciones por encima de la media, así que la cola debe ser pequeña.
+
+## Aproximación normal a binomial
+
+Cuando el temario lo incluya y las condiciones sean adecuadas, recuerda la corrección por continuidad. Por ejemplo, $P(X\le20)$ se aproxima con $P(Y<20.5)$. Justifica la aproximación según el criterio enseñado en tu comunidad.
+
+## Errores frecuentes
+
+- Usar binomial sin comprobar independencia o $p$ constante.
+- Confundir desviación típica y varianza.
+- Traducir mal “al menos” y “más de”.
+- Olvidar el complemento.
+- Estandarizar con el signo invertido.
+- Obtener una probabilidad fuera de $[0,1]$ y no revisarla.
+
+## Rutina PAU
+
+Variable → modelo → suceso → cálculo → comprobación → frase final. Escribe las seis etapas incluso cuando la calculadora haga la operación central. El corrector debe ver por qué ese resultado responde a esa pregunta.
+
+El campus virtual de Método Nebula desarrolla probabilidad, distribuciones y preparación de examen con teoría, ejemplos, ejercicios y simulación. Si quieres identificar si pierdes puntos por modelo, lenguaje o cálculo, utiliza el botón de contacto.

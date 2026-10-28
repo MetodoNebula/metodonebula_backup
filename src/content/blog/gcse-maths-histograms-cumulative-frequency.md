@@ -1,29 +1,31 @@
 ---
-title: "GCSE Maths: histograms y cumulative frequency sin confundir altura, área y frecuencia"
+title: "Matemáticas GCSE: histogramas y frecuencia acumulada sin confundir altura y área"
 date: "2026-10-15"
 updated: "2026-10-15"
-description: "Aprende histogramas, frequency density y cumulative frequency en GCSE Maths con cálculo, interpretación y errores frecuentes."
+description: "Aprende histogramas, densidad de frecuencia y frecuencia acumulada en Matemáticas GCSE con cálculo, interpretación y errores frecuentes."
 tag: "GCSE"
 category: "Exámenes internacionales"
 relatedService: "/clases-particulares/gcse-ib/"
 relatedPosts: "gcse-maths-revision-plan-foundation-higher,estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja"
 image: "/assets/latex/histogram-density.svg"
+language: "es"
+translation: "gcse-maths-histograms-cumulative-frequency-en"
 ---
 
-En un bar chart la altura puede representar frecuencia. En un histogram con intervalos de distinta anchura, esa idea deja de funcionar: **la frecuencia está representada por el área de cada barra**. La altura es frequency density.
+En un diagrama de barras la altura puede representar frecuencia. En un histograma con intervalos de distinta anchura, esa idea deja de funcionar: **la frecuencia está representada por el área de cada barra**. La altura es la densidad de frecuencia.
 
 ![Histograma con clases de distinta anchura y relación entre área, densidad y frecuencia](/assets/latex/histogram-density.svg)
 
 ## La fórmula esencial
 
 $$
-\text{frequency density}=\frac{\text{frequency}}{\text{class width}}.
+\text{densidad de frecuencia}=\frac{\text{frecuencia}}{\text{anchura de clase}}.
 $$
 
 De forma equivalente:
 
 $$
-\text{frequency}=\text{density}\times\text{class width}.
+\text{frecuencia}=\text{densidad}\times\text{anchura de clase}.
 $$
 
 Geométricamente, el segundo producto es base por altura: el área de la barra.
@@ -49,7 +51,7 @@ $$
 
 Hay 32 observaciones en ese intervalo. Escribe la anchura explícitamente para evitar tomar 50 como base.
 
-## Cumulative frequency
+## Frecuencia acumulada
 
 La frecuencia acumulada suma todas las observaciones hasta cada límite superior. Si las frecuencias son $8,18,24,5$, las acumuladas son:
 
@@ -81,9 +83,9 @@ Sirve para comparar dispersión central y es menos sensible a valores extremos q
 
 Cuando se pregunta cuántos datos están por debajo de un valor interior de una clase, la curva acumulada permite leer una estimación. Si se calcula desde una tabla, normalmente se supone distribución uniforme dentro del intervalo. Esa suposición debe reconocerse: los datos originales no están disponibles individualmente.
 
-## Histograma frente a bar chart
+## Histograma frente a diagrama de barras
 
-| Histograma | Bar chart |
+| Histograma | Diagrama de barras |
 |---|---|
 | Variable continua agrupada | Categorías o valores discretos |
 | Barras contiguas | Puede haber separación |
@@ -95,7 +97,7 @@ Cuando se pregunta cuántos datos están por debajo de un valor interior de una 
 - Dibujar altura igual a frecuencia con clases desiguales.
 - Calcular anchura como límite superior en vez de diferencia.
 - Dejar huecos entre intervalos continuos.
-- Usar puntos medios en una cumulative frequency graph; se usan límites superiores.
+- Usar puntos medios en una gráfica de frecuencia acumulada; se usan límites superiores.
 - Leer cuartiles en $N/3$ y $2N/3$.
 - Presentar una estimación como valor exacto.
 
@@ -103,4 +105,4 @@ Cuando se pregunta cuántos datos están por debajo de un valor interior de una 
 
 La suma de las áreas de las barras debe representar el total. La acumulada final tiene que coincidir con $N$; además, debe cumplirse $Q_1<\text{mediana}<Q_3$ y el IQR ha de ser positivo.
 
-El campus virtual de Método Nebula desarrolla Statistics con tablas, histogramas, cumulative frequency, box plots y comparación de distribuciones mediante ejercicios y preguntas de examen. El botón de contacto permite solicitar una ruta que trabaja conjuntamente el cálculo y la interpretación escrita.
+El campus virtual de Método Nebula desarrolla estadística con tablas, histogramas, frecuencia acumulada, diagramas de caja y comparación de distribuciones mediante ejercicios y preguntas de examen. El botón de contacto permite solicitar una ruta que trabaja conjuntamente el cálculo y la interpretación escrita.

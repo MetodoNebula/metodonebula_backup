@@ -24,6 +24,8 @@ export type Post = {
   tag: string;
   category: string;
   image: string;
+  language: "es" | "en";
+  translation: string;
   relatedService: string;
   relatedPosts: string[];
   readingMinutes: number;
@@ -79,6 +81,8 @@ const posts: Post[] = Object.entries(modules)
       tag: data.tag ?? "Blog",
       category: data.category ?? data.tag ?? "Blog",
       image: data.image ?? "/favicon.svg",
+      language: (data.language === "en" ? "en" : "es") as Post["language"],
+      translation: data.translation ?? "",
       relatedService: data.relatedService ?? "/contacto/",
       relatedPosts: data.relatedPosts
         ? data.relatedPosts
@@ -117,18 +121,19 @@ export function getRelatedPosts(post: Post, limit = 3): Post[] {
   const explicit = post.relatedPosts
     .map((slug) => getPost(slug))
     .filter((candidate): candidate is Post => Boolean(candidate));
-  const fallback = posts.filter(
+  const sameLanguage = posts.filter((candidate) => candidate.language === post.language);
+  const fallback = [...sameLanguage, ...posts].filter(
     (candidate) =>
       candidate.slug !== post.slug && !explicit.some((item) => item.slug === candidate.slug),
   );
   return [...explicit, ...fallback].slice(0, limit);
 }
 
-export function formatDate(date: string): string {
+export function formatDate(date: string, language: "es" | "en" = "es"): string {
   if (!date) return "";
   const parsed = new Date(date);
   if (Number.isNaN(parsed.getTime())) return date;
-  return parsed.toLocaleDateString("es-ES", {
+  return parsed.toLocaleDateString(language === "en" ? "en-GB" : "es-ES", {
     day: "numeric",
     month: "long",
     year: "numeric",

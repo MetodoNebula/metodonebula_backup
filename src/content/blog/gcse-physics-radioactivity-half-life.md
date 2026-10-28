@@ -1,20 +1,22 @@
 ---
-title: "GCSE Physics: half-life y radiactividad con gráficas que sí explican el decaimiento"
+title: "Física GCSE: vida media y radiactividad con gráficas que explican el decaimiento"
 date: "2026-10-22"
 updated: "2026-10-22"
-description: "Entiende radioactive decay y half-life en GCSE Physics: proceso aleatorio, curva exponencial, actividad, cálculos y seguridad."
+description: "Entiende la desintegración radiactiva y la vida media en Física GCSE: proceso aleatorio, curva exponencial, actividad, cálculos y seguridad."
 tag: "GCSE"
 category: "Exámenes internacionales"
 relatedService: "/clases-particulares/gcse-ib/"
 relatedPosts: "gcse-physics-forces-exam-questions,gcse-physics-energy-work-power-efficiency"
 image: "/assets/latex/half-life-curve.svg"
+language: "es"
+translation: "gcse-physics-radioactivity-half-life-en"
 ---
 
-La desintegración de un núcleo individual es aleatoria: no podemos predecir cuándo ocurrirá. Sin embargo, una muestra con muchísimos núcleos sigue un patrón estadístico muy regular. Esa combinación —azar microscópico y ley macroscópica— es la idea central de **radioactive decay**.
+La desintegración de un núcleo individual es aleatoria: no podemos predecir cuándo ocurrirá. Sin embargo, una muestra con muchísimos núcleos sigue un patrón estadístico muy regular. Esa combinación —azar microscópico y ley macroscópica— es la idea central de **desintegración radiactiva**.
 
-![Curva exponencial de núcleos no desintegrados con marcas en cada half-life](/assets/latex/half-life-curve.svg)
+![Curva exponencial de núcleos no desintegrados con marcas en cada vida media](/assets/latex/half-life-curve.svg)
 
-## Qué significa half-life
+## Qué significa la vida media
 
 La vida media $T_{1/2}$ es el tiempo necesario para que se reduzca a la mitad:
 
@@ -63,10 +65,10 @@ No es obligatorio comenzar en $t=0$. Si la actividad pasa de 300 Bq a 150 Bq ent
 
 ## Radiación de fondo
 
-Un detector mide radiación de la fuente y background radiation. Antes de calcular una vida media debe corregirse:
+Un detector mide radiación de la fuente y radiación de fondo. Antes de calcular una vida media debe corregirse:
 
 $$
-\text{count rate corregida}=\text{medida}-\text{fondo}.
+\text{tasa de recuento corregida}=\text{medida}-\text{fondo}.
 $$
 
 Si se olvida esta resta, la curva parece acercarse a un valor positivo y la vida media calculada resulta incorrecta.
@@ -83,7 +85,7 @@ La peligrosidad depende de actividad, tipo de radiación, tiempo, distancia y si
 
 ## Contaminación e irradiación
 
-Irradiation significa exposición a radiación procedente de una fuente externa. Contamination significa que material radiactivo no deseado entra o queda sobre un objeto o persona. Un objeto irradiado no se vuelve necesariamente radiactivo.
+La irradiación significa exposición a radiación procedente de una fuente externa. La contaminación significa que material radiactivo no deseado entra o queda sobre un objeto o persona. Un objeto irradiado no se vuelve necesariamente radiactivo.
 
 ## Seguridad razonada
 
@@ -106,4 +108,4 @@ Cada medida debe vincularse con cómo reduce la exposición, no recitarse como u
 - Afirmar que el proceso aleatorio no puede modelizarse.
 - Confundir contaminación e irradiación.
 
-El campus virtual de Método Nebula desarrolla Nuclear Physics con estructura del núcleo, radiaciones, half-life, actividad, seguridad y preguntas de examen. El botón de contacto permite solicitar una ruta que conecta cálculos, gráficas y explicaciones científicas.
+El campus virtual de Método Nebula desarrolla física nuclear con estructura del núcleo, radiaciones, vida media, actividad, seguridad y preguntas de examen. El botón de contacto permite solicitar una ruta que conecta cálculos, gráficas y explicaciones científicas.

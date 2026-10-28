@@ -1,16 +1,18 @@
 ---
-title: "GCSE Physics: energía, trabajo y potencia sin confundir joules, watts ni eficiencia"
+title: "Física GCSE: energía, trabajo y potencia sin confundir julios, vatios y eficiencia"
 date: "2026-09-22"
 updated: "2026-09-22"
-description: "Domina energy, work, power y efficiency en GCSE Physics con conservación, fórmulas, un problema resuelto y errores de examen."
+description: "Domina energía, trabajo, potencia y eficiencia en Física GCSE con conservación, fórmulas, un problema resuelto y errores de examen."
 tag: "GCSE"
 category: "Exámenes internacionales"
 relatedService: "/clases-particulares/gcse-ib/"
 relatedPosts: "gcse-physics-forces-exam-questions,gcse-physics-electricity-revision"
 image: "/assets/latex/energy-flow.svg"
+language: "es"
+translation: "gcse-physics-energy-work-power-efficiency-en"
 ---
 
-En GCSE Physics muchas respuestas fallan antes de empezar a calcular: el estudiante trata **energy**, **work** y **power** como si fueran nombres distintos de lo mismo. No lo son. La energía es una cantidad que se almacena y se transfiere; el trabajo mide una transferencia producida por una fuerza; la potencia mide la rapidez con la que ocurre esa transferencia.
+En Física GCSE muchas respuestas fallan antes de empezar a calcular: el estudiante trata **energía**, **trabajo** y **potencia** como si fueran nombres distintos de lo mismo. No lo son. La energía es una cantidad que se almacena y se transfiere; el trabajo mide una transferencia producida por una fuerza; la potencia mide la rapidez con la que ocurre esa transferencia.
 
 La pregunta que ordena todo el tema es: **¿cuánta energía cambia de almacén y en cuánto tiempo?**
 
@@ -34,7 +36,7 @@ $$
 W=Fd.
 $$
 
-$W$ se mide en joules, $F$ en newtons y $d$ en metros. Si fuerza y desplazamiento forman un ángulo, el nivel más alto exige reconocer la componente eficaz:
+$W$ se mide en julios, $F$ en newtons y $d$ en metros. Si fuerza y desplazamiento forman un ángulo, el nivel más alto exige reconocer la componente eficaz:
 
 $$
 W=Fd\cos\theta.
@@ -48,7 +50,7 @@ $$
 P=\frac{E}{t}=\frac{W}{t}.
 $$
 
-Un motor de 500 W transfiere 500 J cada segundo. Dos máquinas pueden realizar el mismo trabajo; la más potente tarda menos. El watt no es una cantidad de energía: es un joule por segundo.
+Un motor de 500 W transfiere 500 J cada segundo. Dos máquinas pueden realizar el mismo trabajo; la más potente tarda menos. El vatio no es una cantidad de energía: es un julio por segundo.
 
 ## Eficiencia: compara salida útil y entrada
 
@@ -102,7 +104,7 @@ Buscar una fórmula que contenga todos los números suele ocultar la física. Un
 
 ## Errores que cuestan marcas
 
-- Llamar “potencia” a una energía expresada en joules.
+- Llamar “potencia” a una energía expresada en julios.
 - Usar gramos en $E_k$ o $E_p$ sin convertir a kilogramos.
 - Introducir un porcentaje como 75 en vez de 0,75 dentro de un cálculo.
 - Afirmar que la energía “se pierde” sin indicar dónde se transfiere.
@@ -113,4 +115,4 @@ Buscar una fórmula que contenga todos los números suele ocultar la física. Un
 
 Una solución sólida deja visible la cadena **modelo → ecuación → sustitución con unidades → resultado → comprobación**. Si la eficiencia queda entre 0 y 1, la potencia tiene unidades de W y el balance de energía cierra, hay tres comprobaciones independientes de que el razonamiento es coherente.
 
-El campus virtual de Método Nebula trabaja Energy, Work and Power con teoría visual, ejemplos guiados, bancos de ejercicios y preguntas de examen corregibles paso a paso. Para quienes necesitan que las fórmulas formen un sistema y no una lista para memorizar, el botón de contacto permite solicitar una ruta de estudio.
+El campus virtual de Método Nebula trabaja energía, trabajo y potencia con teoría visual, ejemplos guiados, bancos de ejercicios y preguntas de examen corregibles paso a paso. Para quienes necesitan que las fórmulas formen un sistema y no una lista para memorizar, el botón de contacto permite solicitar una ruta de estudio.

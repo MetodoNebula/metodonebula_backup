@@ -96,7 +96,8 @@ const LATEX_GRAPH_DIMENSIONS: Record<string, { width: number; height: number }> 
 };
 
 function MarkdownImage({ src, alt }: { src: string; alt: string }) {
-  const dimensions = LATEX_GRAPH_DIMENSIONS[src];
+  const dimensions =
+    LATEX_GRAPH_DIMENSIONS[src] ?? LATEX_GRAPH_DIMENSIONS[src.replace(/-en\.svg$/, ".svg")];
   if (isLatexGraph(src)) {
     return (
       <figure

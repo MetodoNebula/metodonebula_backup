@@ -1,16 +1,18 @@
 ---
-title: "GCSE Physics: domina electricidad y circuitos y deja de perder marcas por una fórmula"
+title: "Física GCSE: domina electricidad y circuitos sin perder puntos por una fórmula"
 date: "2026-09-15"
 updated: "2026-10-28"
-description: "Una guía completa de electricidad para GCSE Physics: serie, paralelo, V=IR, potencia, gráficas, ejemplo y errores de examen."
+description: "Una guía completa de electricidad para Física GCSE: serie, paralelo, V=IR, potencia, gráficas, ejemplo y errores de examen."
 tag: "GCSE"
 category: "Exámenes internacionales"
 relatedService: "/clases-particulares/gcse-ib/"
 relatedPosts: "gcse-physics-forces-exam-questions,ib-gcse-como-preparar-examenes-internacionales,circuitos-corriente-continua-problemas-resueltos-universidad"
 image: "/assets/latex/circuits-series-parallel.svg"
+language: "es"
+translation: "gcse-physics-electricity-revision-en"
 ---
 
-Aprender `V = IR` no equivale a entender electricidad. En GCSE Physics las marcas se pierden antes de sustituir números: al confundir qué se conserva en serie y en paralelo, al colocar mal un instrumento o al no explicar por qué cambia la corriente.
+Aprender `V = IR` no equivale a entender electricidad. En Física GCSE los puntos se pierden antes de sustituir números: al confundir qué se conserva en serie y en paralelo, al colocar mal un instrumento o al no explicar por qué cambia la corriente.
 
 La solución es estudiar el circuito como un sistema. **Primero se interpreta; después se elige la relación; al final se calcula y se comprueba.**
 
@@ -86,7 +88,7 @@ En una pregunta de coste energético, revisa si el tiempo está en segundos u ho
 
 ## Cómo leer una gráfica corriente–voltaje
 
-Antes de hablar de resistencia, observa si la relación es lineal. Un resistor óhmico a temperatura constante produce una recta; una filament lamp muestra curvatura porque su temperatura y resistencia cambian; un diode conduce principalmente en una dirección después de superar una zona característica.
+Antes de hablar de resistencia, observa si la relación es lineal. Un resistor óhmico a temperatura constante produce una recta; una lámpara de filamento muestra curvatura porque su temperatura y resistencia cambian; un diodo conduce principalmente en una dirección después de superar una zona característica.
 
 Una descripción de examen debe vincular forma y causa: no basta con escribir “es curva”.
 
@@ -108,6 +110,6 @@ Dos lámparas idénticas están en paralelo. Una se rompe y abre su rama. ¿Qué
 
 ## Entrenamiento de examen en tres capas
 
-Empieza con símbolos y unidades; continúa con problemas de una ecuación; termina con cuestiones de varios pasos que mezclen circuitos, potencia, energía y explicación. Después haz práctica por tema, una mezcla aleatoria y finalmente un paper cronometrado.
+Empieza con símbolos y unidades; continúa con problemas de una ecuación; termina con cuestiones de varios pasos que mezclen circuitos, potencia, energía y explicación. Después haz práctica por tema, una mezcla aleatoria y finalmente un examen cronometrado.
 
-El campus virtual de Método Nebula organiza Electricity and Magnetism con teoría, ejemplos trabajados, ejercicios, preguntas de examen y revisión. Si quieres detectar si el bloqueo está en el concepto, el montaje o el cálculo, utiliza el botón de contacto y lo convertimos en un plan concreto.
+El campus virtual de Método Nebula organiza electricidad y magnetismo con teoría, ejemplos trabajados, ejercicios, preguntas de examen y revisión. Si quieres detectar si el bloqueo está en el concepto, el montaje o el cálculo, utiliza el botón de contacto y lo convertimos en un plan concreto.

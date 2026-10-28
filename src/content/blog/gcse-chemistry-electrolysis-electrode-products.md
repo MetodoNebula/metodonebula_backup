@@ -1,16 +1,18 @@
 ---
-title: "GCSE Chemistry: electrolysis y productos de los electrodos sin memorizar listas contradictorias"
+title: "Química GCSE: electrólisis y productos de los electrodos sin memorizar listas"
 date: "2026-10-07"
 updated: "2026-10-07"
-description: "Electrolysis para GCSE Chemistry: iones móviles, ánodo, cátodo, productos en fundidos y disoluciones, half-equations y errores."
+description: "Electrólisis para Química GCSE: iones móviles, ánodo, cátodo, productos en fundidos y disoluciones, semiecuaciones y errores."
 tag: "GCSE"
 category: "Exámenes internacionales"
 relatedService: "/clases-particulares/gcse-ib/"
 relatedPosts: "gcse-chemistry-bonding-revision,gcse-chemistry-equations-moles-revision"
 image: "/assets/latex/electrolysis-cell.svg"
+language: "es"
+translation: "gcse-chemistry-electrolysis-electrode-products-en"
 ---
 
-Electrolysis se vuelve confusa cuando se intenta recordar cada compuesto por separado. El método general es más corto: **enumera las especies móviles, decide qué electrodo atrae a cada ion y escribe la transferencia de electrones**.
+La electrólisis se vuelve confusa cuando se intenta recordar cada compuesto por separado. El método general es más corto: **enumera las especies móviles, decide qué electrodo atrae a cada ion y escribe la transferencia de electrones**.
 
 ![Celda electrolítica con ánodo positivo, cátodo negativo y migración de iones](/assets/latex/electrolysis-cell.svg)
 
@@ -25,11 +27,11 @@ Una fuente de corriente continua fuerza una reacción no espontánea:
 - En el cátodo ocurre reducción.
 - En el ánodo ocurre oxidación.
 
-La regla redox no cambia: reduction is gain of electrons; oxidation is loss of electrons.
+La regla redox no cambia: la reducción gana electrones y la oxidación pierde electrones.
 
 ## Compuesto fundido: solo compiten dos iones
 
-En molten lead bromide existen $\mathrm{Pb^{2+}}$ y $\mathrm{Br^-}$.
+En bromuro de plomo fundido existen $\mathrm{Pb^{2+}}$ y $\mathrm{Br^-}$.
 
 En el cátodo:
 
@@ -43,7 +45,7 @@ $$
 \mathrm{2Br^-\rightarrow Br_2+2e^-}.
 $$
 
-Los electrones se conservan al sumar ambas half-equations. El compuesto se descompone en plomo y bromo.
+Los electrones se conservan al sumar ambas semiecuaciones. El compuesto se descompone en plomo y bromo.
 
 ## Disolución acuosa: el agua introduce competencia
 
@@ -53,7 +55,7 @@ En el ánodo, los haluros concentrados suelen producir halógeno. Si no hay halu
 
 Estas reglas deben aplicarse al conjunto real de iones, no al nombre del soluto sin analizarlo.
 
-## Ejemplo: sodium chloride acuoso
+## Ejemplo: cloruro de sodio acuoso
 
 Especies relevantes: $\mathrm{Na^+}$, $\mathrm{Cl^-}$ y las especies del agua.
 
@@ -69,9 +71,9 @@ $$
 \mathrm{2Cl^-\rightarrow Cl_2+2e^-}.
 $$
 
-La disolución restante se enriquece en $\mathrm{Na^+}$ y $\mathrm{OH^-}$, formando sodium hydroxide.
+La disolución restante se enriquece en $\mathrm{Na^+}$ y $\mathrm{OH^-}$, formando hidróxido de sodio.
 
-## Ejemplo: copper(II) sulfate con electrodos inertes
+## Ejemplo: sulfato de cobre(II) con electrodos inertes
 
 En el cátodo se deposita cobre:
 
@@ -89,17 +91,17 @@ $$
 
 Por eso el material del electrodo también forma parte del modelo experimental.
 
-## Cómo escribir una half-equation
+## Cómo escribir una semiecuación
 
-Una half-equation se construye fijando primero la especie inicial y el producto. El ajuste de átomos precede al ajuste de carga, que se completa añadiendo electrones. La posición final de esos electrones muestra si el proceso es reducción u oxidación y permite contrastarlo con el electrodo asignado.
+Una semiecuación se construye fijando primero la especie inicial y el producto. El ajuste de átomos precede al ajuste de carga, que se completa añadiendo electrones. La posición final de esos electrones muestra si el proceso es reducción u oxidación y permite contrastarlo con el electrodo asignado.
 
 La ecuación $\mathrm{Al^{3+}+3e^-\to Al}$ muestra reducción porque los electrones están a la izquierda. $\mathrm{2Cl^-\to Cl_2+2e^-}$ muestra oxidación porque están a la derecha.
 
 ## Usar observaciones como evidencia
 
-La predicción química debe conectarse con lo que podría observarse. Un depósito metálico cambia el aspecto o la masa del cátodo; un gas produce burbujas y puede identificarse con una prueba apropiada. Hydrogen produce un squeaky pop con una astilla encendida; oxygen reaviva una astilla incandescente; chlorine decolora papel indicador húmedo después de volverlo rojo.
+La predicción química debe conectarse con lo que podría observarse. Un depósito metálico cambia el aspecto o la masa del cátodo; un gas produce burbujas y puede identificarse con una prueba apropiada. El hidrógeno produce un pequeño estallido característico con una astilla encendida; el oxígeno reaviva una astilla incandescente; el cloro decolora papel indicador húmedo después de volverlo rojo.
 
-Estas pruebas no sustituyen a las half-equations. Son evidencias experimentales compatibles con ellas. Una respuesta extensa gana precisión cuando separa claramente **producto predicho**, **observación** y **prueba de identificación**, en vez de escribir que “aparecen burbujas” como conclusión suficiente.
+Estas pruebas no sustituyen a las semiecuaciones. Son evidencias experimentales compatibles con ellas. Una respuesta extensa gana precisión cuando separa claramente **producto predicho**, **observación** y **prueba de identificación**, en vez de escribir que “aparecen burbujas” como conclusión suficiente.
 
 ## Errores frecuentes
 
@@ -107,7 +109,7 @@ Estas pruebas no sustituyen a las half-equations. Son evidencias experimentales 
 - Enviar aniones al cátodo por confundir signo y nombre.
 - Predecir sodio metálico en una disolución acuosa de NaCl.
 - Olvidar que los halógenos son diatómicos.
-- Escribir una half-equation que no conserva carga.
+- Escribir una semiecuación que no conserva carga.
 - Aplicar reglas de electrodos inertes cuando el electrodo participa.
 
-El campus virtual de Método Nebula desarrolla Electrochemistry con modelos de partículas, predicción de productos, half-equations, copper electrodes y fuel cells, además de ejercicios y preguntas de examen. El botón de contacto permite solicitar una ruta para razonar cada producto en lugar de memorizar tablas.
+El campus virtual de Método Nebula desarrolla electroquímica con modelos de partículas, predicción de productos, semiecuaciones, electrodos de cobre y pilas de combustible, además de ejercicios y preguntas de examen. El botón de contacto permite solicitar una ruta para razonar cada producto en lugar de memorizar tablas.

@@ -12,6 +12,8 @@ type MetaInput = {
   canonical?: boolean;
   prevPath?: string;
   nextPath?: string;
+  language?: "es" | "en";
+  alternates?: Array<{ language: string; path: string }>;
 };
 
 function upsertMeta(selector: string, attrs: Record<string, string>) {
@@ -58,6 +60,8 @@ export function usePageMeta({
   canonical = true,
   prevPath,
   nextPath,
+  language = "es",
+  alternates = [],
 }: MetaInput) {
   useEffect(() => {
     const url = absoluteUrl(path);
@@ -65,7 +69,7 @@ export function usePageMeta({
       image && image !== siteData.site.logo ? image : siteData.site.socialImage,
     );
     document.title = title;
-    document.documentElement.lang = siteData.site.language;
+    document.documentElement.lang = language === "en" ? "en-GB" : siteData.site.language;
     upsertMeta('meta[name="description"]', { name: "description", content: description });
     upsertMeta('meta[name="robots"]', { name: "robots", content: robots });
     upsertMeta('meta[property="og:title"]', { property: "og:title", content: title });
@@ -91,5 +95,14 @@ export function usePageMeta({
     upsertOptionalLink("canonical", canonical ? url : undefined);
     upsertOptionalLink("prev", prevPath ? absoluteUrl(prevPath) : undefined);
     upsertOptionalLink("next", nextPath ? absoluteUrl(nextPath) : undefined);
-  }, [canonical, description, image, nextPath, path, prevPath, robots, title, type]);
+    document.head.querySelectorAll('link[rel="alternate"][data-nebula-language]').forEach((el) => el.remove());
+    for (const alternate of alternates) {
+      const el = document.createElement("link");
+      el.rel = "alternate";
+      el.hreflang = alternate.language;
+      el.href = absoluteUrl(alternate.path);
+      el.dataset.nebulaLanguage = alternate.language;
+      document.head.appendChild(el);
+    }
+  }, [alternates, canonical, description, image, language, nextPath, path, prevPath, robots, title, type]);
 }

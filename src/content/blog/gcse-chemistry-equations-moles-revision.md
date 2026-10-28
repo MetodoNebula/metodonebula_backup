@@ -1,16 +1,18 @@
 ---
-title: "GCSE Chemistry: domina ecuaciones y moles con una ruta que evita los errores típicos"
+title: "Química GCSE: domina ecuaciones y moles con una ruta que evita los errores típicos"
 date: "2026-09-12"
 updated: "2026-10-28"
-description: "Aprende a conectar fórmulas, ecuaciones y moles en GCSE Chemistry con un método estable, un ejemplo completo y práctica de examen."
+description: "Aprende a conectar fórmulas, ecuaciones y moles en Química GCSE con un método estable, un ejemplo completo y práctica de examen."
 tag: "GCSE"
 category: "Exámenes internacionales"
 relatedService: "/clases-particulares/gcse-ib/"
 relatedPosts: "gcse-chemistry-bonding-revision,ib-gcse-como-preparar-examenes-internacionales,fisica-y-quimica-como-plantear-problemas"
 image: "/assets/latex/mole-map.svg"
+language: "es"
+translation: "gcse-chemistry-equations-moles-revision-en"
 ---
 
-En GCSE Chemistry hay preguntas que parecen hablar de cosas distintas —fórmulas, masas, partículas, ecuaciones— pero en realidad recorren el mismo puente. El estudiante que domina ese puente puede resolver problemas nuevos; quien memoriza fórmulas aisladas suele bloquearse cuando el dato llega en una unidad diferente.
+En Química GCSE hay preguntas que parecen hablar de cosas distintas —fórmulas, masas, partículas, ecuaciones— pero en realidad recorren el mismo puente. El estudiante que domina ese puente puede resolver problemas nuevos; quien memoriza fórmulas aisladas suele bloquearse cuando el dato llega en una unidad diferente.
 
 La idea central es sencilla: **la ecuación ajustada relaciona moles, y los moles conectan el lenguaje microscópico con las cantidades que se miden en el laboratorio.**
 
@@ -110,6 +112,6 @@ Las respuestas esenciales son: $\mathrm{2Mg+O_2\rightarrow2MgO}$; 0,50 mol; la p
 
 ## Una ruta de estudio más completa
 
-El campus virtual de Método Nebula conecta foundations, formulas and amounts, bonding, reactions y exam practice. Incluye teoría por capas, ejemplos, ejercicios, MCQ, errores comunes y preguntas de examen para que el salto entre concepto y cálculo no dependa de una hoja suelta.
+El campus virtual de Método Nebula conecta fundamentos, fórmulas y cantidades, enlaces, reacciones y práctica de examen. Incluye teoría por capas, ejemplos, ejercicios, preguntas de opción múltiple, errores comunes y preguntas de examen para que el salto entre concepto y cálculo no dependa de una hoja suelta.
 
-Si las ecuaciones “se entienden” por separado pero se desordenan en un problema largo, el botón de contacto sirve para plantear el caso, revisar el nivel y construir una ruta de GCSE Chemistry con un objetivo y una fecha claros.
+Si las ecuaciones “se entienden” por separado pero se desordenan en un problema largo, el botón de contacto sirve para plantear el caso, revisar el nivel y construir una ruta de Química GCSE con un objetivo y una fecha claros.

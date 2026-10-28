@@ -1,16 +1,18 @@
 ---
-title: "GCSE Maths: domina Algebra and Graphs y aprende a ver la misma idea de tres formas"
+title: "Matemáticas GCSE: domina álgebra y gráficas viendo una idea de tres formas"
 date: "2026-10-14"
 updated: "2026-10-28"
-description: "Guía de Algebra and Graphs para GCSE Maths: ecuaciones, rectas, cuadráticas, transformaciones, ejemplos y errores de examen."
+description: "Guía de álgebra y gráficas para Matemáticas GCSE: ecuaciones, rectas, cuadráticas, transformaciones, ejemplos y errores de examen."
 tag: "GCSE"
 category: "Exámenes internacionales"
 relatedService: "/clases-particulares/gcse-ib/"
 relatedPosts: "gcse-maths-revision-plan-foundation-higher,como-estudiar-matematicas-sin-memorizar"
 image: "/assets/latex/function-study.svg"
+language: "es"
+translation: "gcse-maths-algebra-graphs-revision-en"
 ---
 
-Una ecuación, una tabla y una gráfica pueden describir exactamente la misma relación. Algebra and Graphs se domina cuando puedes cambiar de una representación a otra y escoger la que hace visible la información que necesitas.
+Una ecuación, una tabla y una gráfica pueden describir exactamente la misma relación. El álgebra y las gráficas se dominan cuando puedes cambiar de una representación a otra y escoger la que hace visible la información que necesitas.
 
 ![Función con puntos críticos y una secuencia de lectura gráfica](/assets/latex/function-study.svg)
 
@@ -28,7 +30,7 @@ $$
 y=mx+c,
 $$
 
-$m$ es gradient y $c$ es el corte con el eje $y$. Dados $(x_1,y_1)$ y $(x_2,y_2)$:
+$m$ es la pendiente y $c$ es el corte con el eje $y$. Dados $(x_1,y_1)$ y $(x_2,y_2)$:
 
 $$
 m=\frac{y_2-y_1}{x_2-x_1}.
@@ -54,7 +56,7 @@ La gráfica, la ecuación y la historia cuentan lo mismo.
 
 ## Cuadráticas: tres formas, tres ventajas
 
-La forma desarrollada $ax^2+bx+c$ muestra el corte con $y$. La factorizada $a(x-r_1)(x-r_2)$ muestra las raíces. La forma de vértice $a(x-p)^2+q$ muestra turning point y transformaciones.
+La forma desarrollada $ax^2+bx+c$ muestra el corte con $y$. La factorizada $a(x-r_1)(x-r_2)$ muestra las raíces. La forma de vértice $a(x-p)^2+q$ muestra el vértice y las transformaciones.
 
 Para:
 
@@ -77,7 +79,7 @@ El punto donde dos gráficas se cruzan satisface ambas ecuaciones. Puedes resolv
 
 El signo dentro del argumento suele causar errores. Comprueba un punto conocido de la gráfica original en lugar de confiar solo en memoria.
 
-## Inequalities y regiones
+## Desigualdades y regiones
 
 Resolver una desigualdad produce un intervalo, no solo un número. Si multiplicas o divides por una cantidad negativa, invierte el sentido. En una gráfica bidimensional, prueba un punto para decidir qué semiplano sombrear.
 
@@ -94,4 +96,4 @@ Resolver una desigualdad produce un intervalo, no solo un número. Si multiplica
 
 Toma una relación lineal y exprésala como historia, ecuación, tabla y gráfica. Repite con una cuadrática. Después resuelve una pregunta donde dos modelos se intersecten. Esa transferencia prepara mejor que una página de expansiones idénticas.
 
-El campus virtual de Método Nebula desarrolla Number, Algebra and Graphs, Coordinate Geometry y funciones con teoría, ejemplos, práctica y exam questions. Si quieres convertir errores dispersos en una ruta Foundation o Higher, utiliza el botón de contacto.
+El campus virtual de Método Nebula desarrolla números, álgebra y gráficas, geometría analítica y funciones con teoría, ejemplos, práctica y preguntas de examen. Si quieres convertir errores dispersos en una ruta de nivel básico o avanzado, utiliza el botón de contacto.

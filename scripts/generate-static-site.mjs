@@ -127,6 +127,8 @@ function loadPosts() {
         tag: data.tag ?? "Blog",
         category: data.category ?? data.tag ?? "Blog",
         image: data.image ?? "/favicon.svg",
+        language: data.language === "en" ? "en" : "es",
+        translation: data.translation ?? "",
         relatedService: data.relatedService ?? "/contacto/",
         relatedPosts: data.relatedPosts
           ? data.relatedPosts
@@ -395,6 +397,7 @@ function headMarkup({
   jsonLd = [],
   prev,
   next,
+  alternates = [],
 }) {
   const url = absoluteUrl(route);
   const imageUrl = absoluteUrl(
@@ -418,6 +421,10 @@ function headMarkup({
     `<meta name="twitter:image" content="${escapeHtml(imageUrl)}">`,
     prev ? `<link rel="prev" href="${escapeHtml(absoluteUrl(prev))}">` : "",
     next ? `<link rel="next" href="${escapeHtml(absoluteUrl(next))}">` : "",
+    ...alternates.map(
+      (item) =>
+        `<link rel="alternate" hreflang="${escapeHtml(item.language)}" href="${escapeHtml(absoluteUrl(item.path))}">`,
+    ),
     ...jsonLd.map(
       (item) =>
         `<script type="application/ld+json">${JSON.stringify(item).replace(/</g, "\\u003c")}</script>`,
@@ -436,13 +443,16 @@ function cleanHead(html) {
     .replace(/<link\s+rel=["']canonical["'][^>]*>\s*/gi, "")
     .replace(/<link\s+rel=["']prev["'][^>]*>\s*/gi, "")
     .replace(/<link\s+rel=["']next["'][^>]*>\s*/gi, "")
+    .replace(/<link\s+rel=["']alternate["'][^>]*>\s*/gi, "")
     .replace(/<meta\s+property=["']og:[^"']+["'][^>]*>\s*/gi, "")
     .replace(/<meta\s+name=["']twitter:[^"']+["'][^>]*>\s*/gi, "")
     .replace(/<script\s+type=["']application\/ld\+json["'][\s\S]*?<\/script>\s*/gi, "");
 }
 
 function renderPage(template, page) {
-  const html = cleanHead(template).replace("</head>", `    ${headMarkup(page)}\n  </head>`);
+  const html = cleanHead(template)
+    .replace(/<html\s+lang=["'][^"']+["']/, `<html lang="${page.language === "en" ? "en-GB" : "es-ES"}"`)
+    .replace("</head>", `    ${headMarkup(page)}\n  </head>`);
   const rootPattern = /<div id="root">[\s\S]*<\/div>\s*(?=<\/body>)/;
   if (!rootPattern.test(html)) {
     throw new Error("Unable to locate #root in Vite template.");
@@ -546,14 +556,19 @@ function cardList(items, ordered = false) {
 }
 
 function blogMetaHtml(post, includeCategory = true) {
+  const isEnglish = post.language === "en";
+  const categoryLabel =
+    isEnglish && post.category === "Exámenes internacionales"
+      ? "International exams"
+      : post.category;
   const category = includeCategory
-    ? `<span class="rounded-full border border-spark/40 bg-spark/10 px-3 py-1 font-medium uppercase tracking-[0.18em] text-spark">${escapeHtml(post.category)}</span>`
+    ? `<span class="rounded-full border border-spark/40 bg-spark/10 px-3 py-1 font-medium uppercase tracking-[0.18em] text-spark">${escapeHtml(categoryLabel)}</span>`
     : "";
   return `
     <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
       ${category}
       <span>${escapeHtml(post.date)}</span>
-      <span>${post.readingMinutes} min de lectura</span>
+      <span>${post.readingMinutes} ${isEnglish ? "min read" : "min de lectura"}</span>
     </div>
   `;
 }
@@ -566,7 +581,7 @@ function blogCardHtml(post, headingLevel = 2) {
       ${blogMetaHtml(post)}
       <${tag} class="mt-5 font-display font-semibold leading-snug text-foreground ${headingClass} transition-colors group-hover:text-spark">${escapeHtml(post.title)}</${tag}>
       <p class="mt-3 grow text-sm leading-relaxed text-muted-foreground">${escapeHtml(post.description)}</p>
-      <span class="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">Leer entrada</span>
+      <span class="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">${post.language === "en" ? "Read post" : "Leer entrada"}</span>
     </a>
   `;
 }
@@ -584,8 +599,8 @@ function tocHtml(post) {
   const headings = postHeadings(post.body);
   if (headings.length < 4) return "";
   return `
-    <nav aria-label="Índice del artículo" class="mb-10 rounded-3xl border border-white/8 bg-white/[0.02] p-6 text-sm">
-      <p class="font-display font-semibold text-foreground">Índice</p>
+    <nav aria-label="${post.language === "en" ? "Article contents" : "Índice del artículo"}" class="mb-10 rounded-3xl border border-white/8 bg-white/[0.02] p-6 text-sm">
+      <p class="font-display font-semibold text-foreground">${post.language === "en" ? "Contents" : "Índice"}</p>
       <ol class="mt-4 space-y-2">
         ${headings
           .map(
@@ -901,6 +916,11 @@ function blogCategoryPage(category, posts, pageNumber = 1) {
 function postPage(post, posts) {
   const route = `/blog/${post.slug}/`;
   const relatedService = findService(post.relatedService);
+  const translation = post.translation ? findPost(posts, post.translation) : undefined;
+  const isEnglish = post.language === "en";
+  const authorCopy = isEnglish
+    ? "Content reviewed by Método Nebula's lead teacher, a Mathematics graduate with a master's background in Big Data and Artificial Intelligence and experience in education and technology."
+    : "Contenido revisado por el responsable docente de Método Nebula, graduado en Matemáticas, con formación de máster en Big Data e Inteligencia Artificial y experiencia docente y tecnológica.";
   const category = SITE_DATA.blogCategories.find((item) => item.name === post.category);
   const related = [
     ...post.relatedPosts,
@@ -924,6 +944,7 @@ function postPage(post, posts) {
     datePublished: post.date,
     dateModified: post.updated,
     mainEntityOfPage: absoluteUrl(route),
+    inLanguage: isEnglish ? "en-GB" : "es-ES",
     publisher: {
       "@type": "EducationalOrganization",
       name: SITE_DATA.site.displayName,
@@ -940,6 +961,17 @@ function postPage(post, posts) {
     type: "article",
     image: post.image,
     lastmod: post.updated || post.date,
+    language: post.language,
+    alternates: translation
+      ? [
+          { language: post.language, path: route },
+          { language: translation.language, path: `/blog/${translation.slug}/` },
+          {
+            language: "x-default",
+            path: post.language === "es" ? route : `/blog/${translation.slug}/`,
+          },
+        ]
+      : [],
     jsonLd: [
       blogPosting,
       breadcrumbJsonLd([
@@ -949,7 +981,7 @@ function postPage(post, posts) {
       ]),
     ],
     body: shell({
-      label: post.category,
+      label: isEnglish ? "International exams" : post.category,
       h1: post.title,
       intro: post.description,
       theme: "blog",
@@ -959,33 +991,34 @@ function postPage(post, posts) {
       ],
       children: `
         ${blogMetaHtml(post, false)}
+        ${translation ? `<p class="mt-5"><a class="inline-flex rounded-full border border-white/15 px-4 py-2 text-sm font-medium" hreflang="${translation.language}" href="/blog/${translation.slug}/">${isEnglish ? "Leer en español" : "Read in English"}</a></p>` : ""}
         ${tocHtml(post)}
         <article>${markdownToHtml(post.body)}</article>
-        <aside aria-label="Autor del artículo" class="mt-12 rounded-3xl border border-white/10 bg-white/[0.02] p-6">
-          <p class="text-xs font-medium uppercase tracking-[0.18em] text-spark">Autoría</p>
+        <aside aria-label="${isEnglish ? "Article author" : "Autor del artículo"}" class="mt-12 rounded-3xl border border-white/10 bg-white/[0.02] p-6">
+          <p class="text-xs font-medium uppercase tracking-[0.18em] text-spark">${isEnglish ? "Author" : "Autoría"}</p>
           <h2 class="mt-2 font-display text-xl font-semibold">Método Nebula</h2>
-          <p class="mt-2 text-sm text-muted-foreground">Contenido revisado por el responsable docente de Método Nebula, graduado en Matemáticas, con formación de máster en Big Data e Inteligencia Artificial y experiencia docente y tecnológica.</p>
-          <p class="mt-4"><a href="/sobre-nebula/">Conocer el método y el perfil docente</a>${SITE_DATA.site.author.profileUrl ? ` · <a href="${escapeHtml(SITE_DATA.site.author.profileUrl)}">Ver perfil profesional</a>` : ""}</p>
+          <p class="mt-2 text-sm text-muted-foreground">${authorCopy}</p>
+          <p class="mt-4"><a href="/sobre-nebula/">${isEnglish ? "About the method and teacher" : "Conocer el método y el perfil docente"}</a>${SITE_DATA.site.author.profileUrl ? ` · <a href="${escapeHtml(SITE_DATA.site.author.profileUrl)}">${isEnglish ? "View professional profile" : "Ver perfil profesional"}</a>` : ""}</p>
         </aside>
         <section class="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8 text-center">
-          <h2 class="font-display text-2xl font-semibold text-foreground">¿Quieres aplicar esto a tu asignatura o examen?</h2>
-          <p class="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">Empezamos con una llamada de diagnóstico para entender tu objetivo, tu punto de partida y tu fecha. El servicio relacionado ayuda a aterrizarlo en un plan concreto.</p>
-          <p class="mt-6 flex flex-col justify-center gap-3 sm:flex-row"><a class="inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-action/90" href="/contacto/">Solicitar diagnóstico</a>${
+          <h2 class="font-display text-2xl font-semibold text-foreground">${isEnglish ? "Would you like to apply this to your subject or exam?" : "¿Quieres aplicar esto a tu asignatura o examen?"}</h2>
+          <p class="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">${isEnglish ? "We start with a diagnostic call to understand your goal, current level and deadline, then turn them into a concrete plan." : "Empezamos con una llamada de diagnóstico para entender tu objetivo, tu punto de partida y tu fecha. El servicio relacionado ayuda a aterrizarlo en un plan concreto."}</p>
+          <p class="mt-6 flex flex-col justify-center gap-3 sm:flex-row"><a class="inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-action/90" href="/contacto/">${isEnglish ? "Request a diagnostic call" : "Solicitar diagnóstico"}</a>${
             relatedService
-              ? `<a class="inline-flex items-center justify-center rounded-full border border-white/15 px-6 py-3 text-sm font-medium text-link transition-colors hover:border-white/30 hover:bg-white/[0.05]" href="${relatedService.path}">Ver apoyo relacionado</a>`
+              ? `<a class="inline-flex items-center justify-center rounded-full border border-white/15 px-6 py-3 text-sm font-medium text-link transition-colors hover:border-white/30 hover:bg-white/[0.05]" href="${relatedService.path}">${isEnglish ? "View related support" : "Ver apoyo relacionado"}</a>`
               : ""
           }</p>
         </section>
         ${
           category
-            ? `<section class="mt-12 border-t border-white/5 pt-8 text-sm text-muted-foreground">Este artículo forma parte del clúster de <a href="${blogCategoryPath(category.slug)}">${escapeHtml(category.name)}</a>.${
+            ? `<section class="mt-12 border-t border-white/5 pt-8 text-sm text-muted-foreground">${isEnglish ? "This article is part of the" : "Este artículo forma parte del clúster de"} <a href="${blogCategoryPath(category.slug)}">${escapeHtml(isEnglish ? "International exams" : category.name)}</a>.${
                 relatedService
-                  ? ` Servicio relacionado: <a href="${relatedService.path}">${escapeHtml(relatedService.h1)}</a>.`
+                  ? ` ${isEnglish ? "Related support" : "Servicio relacionado"}: <a href="${relatedService.path}">${escapeHtml(relatedService.h1)}</a>.`
                   : ""
               }</section>`
             : ""
         }
-        ${relatedHtml ? `${styledHeading("Lecturas relacionadas", 2, "content", "blog")}<div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">${relatedHtml}</div>` : ""}
+        ${relatedHtml ? `${styledHeading(isEnglish ? "Related reading" : "Lecturas relacionadas", 2, "content", "blog")}<div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">${relatedHtml}</div>` : ""}
       `,
     }),
   };

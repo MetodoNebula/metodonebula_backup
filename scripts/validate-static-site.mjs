@@ -116,6 +116,9 @@ for (const file of htmlFiles) {
   const canonicalCount = (html.match(/<link\s+rel=["']canonical["'][^>]*>/gi) ?? []).length;
   const robotsCount = (html.match(/<meta\s+name=["']robots["'][^>]*>/gi) ?? []).length;
   const htmlLang = getFirst(/<html\s+[^>]*lang=["']([^"']+)["']/i, html);
+  const expectedHtmlLang = /-en[\\/]index\.html$/i.test(relative)
+    ? "en-GB"
+    : SITE_DATA.site.language;
   const hasVisibleBreadcrumbs = /<nav\s+[^>]*aria-label=["']Migas de pan["']/i.test(html);
   const hasBreadcrumbJsonLd = /"@type":"BreadcrumbList"/.test(html);
 
@@ -127,8 +130,8 @@ for (const file of htmlFiles) {
   }
   if (robotsCount !== 1)
     fail(`${relative}: expected exactly one robots meta, found ${robotsCount}`);
-  if (htmlLang !== SITE_DATA.site.language) {
-    fail(`${relative}: expected html lang="${SITE_DATA.site.language}", found "${htmlLang}"`);
+  if (htmlLang !== expectedHtmlLang) {
+    fail(`${relative}: expected html lang="${expectedHtmlLang}", found "${htmlLang}"`);
   }
   if (!/<meta\s+name=["']viewport["'][^>]*>/i.test(html)) {
     fail(`${relative}: missing viewport meta`);

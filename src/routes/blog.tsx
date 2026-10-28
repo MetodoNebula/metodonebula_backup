@@ -48,20 +48,23 @@ function BlogLabel({ children }: { children: ReactNode }) {
 }
 
 function PostMeta({ post }: { post: Post }) {
+  const isEnglish = post.language === "en";
   return (
     <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
       <span className="rounded-full border border-spark/40 bg-spark/10 px-3 py-1 font-medium uppercase tracking-[0.18em] text-spark">
-        {post.category || post.tag}
+        {isEnglish && post.category === "Exámenes internacionales"
+          ? "International exams"
+          : post.category || post.tag}
       </span>
       {post.date && (
         <span className="inline-flex items-center gap-1.5">
           <CalendarDays className="h-3.5 w-3.5" />
-          {formatDate(post.date)}
+          {formatDate(post.date, post.language)}
         </span>
       )}
       <span className="inline-flex items-center gap-1.5">
         <Clock className="h-3.5 w-3.5" />
-        {post.readingMinutes} min de lectura
+        {post.readingMinutes} {isEnglish ? "min read" : "min de lectura"}
       </span>
     </div>
   );
@@ -69,6 +72,7 @@ function PostMeta({ post }: { post: Post }) {
 
 function PostCard({ post, headingLevel = 2 }: { post: Post; headingLevel?: 2 | 3 }) {
   const Heading = `h${headingLevel}` as const;
+  const isEnglish = post.language === "en";
   return (
     <Link
       to={`/blog/${post.slug}/`}
@@ -80,7 +84,7 @@ function PostCard({ post, headingLevel = 2 }: { post: Post; headingLevel?: 2 | 3
       </Heading>
       <p className="mt-3 grow text-sm leading-relaxed text-muted-foreground">{post.description}</p>
       <span className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">
-        Leer entrada
+        {isEnglish ? "Read post" : "Leer entrada"}
         <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
       </span>
     </Link>
@@ -480,6 +484,8 @@ function PostView({ post }: { post: Post }) {
     (service) => service.path === post.relatedService,
   );
   const headings = getPostHeadings(post.body);
+  const translation = post.translation ? getPost(post.translation) : undefined;
+  const isEnglish = post.language === "en";
   const blogPosting = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -493,6 +499,7 @@ function PostView({ post }: { post: Post }) {
     datePublished: post.date,
     dateModified: post.updated,
     mainEntityOfPage: absoluteUrl(path),
+    inLanguage: isEnglish ? "en-GB" : "es-ES",
     publisher: {
       "@type": "EducationalOrganization",
       name: siteData.site.displayName,
@@ -506,6 +513,20 @@ function PostView({ post }: { post: Post }) {
     path,
     type: "article",
     image: post.image,
+    language: post.language,
+    alternates: translation
+      ? [
+          { language: post.language === "en" ? "en" : "es", path },
+          {
+            language: translation.language === "en" ? "en" : "es",
+            path: `/blog/${translation.slug}/`,
+          },
+          {
+            language: "x-default",
+            path: post.language === "es" ? path : `/blog/${translation.slug}/`,
+          },
+        ]
+      : [],
   });
   useEffect(() => {
     trackEvent("view_blog_article", { slug: post.slug, category: post.category });
@@ -535,11 +556,20 @@ function PostView({ post }: { post: Post }) {
               className="inline-flex items-center gap-2 text-sm text-link transition-colors hover:text-link"
             >
               <ArrowLeft className="h-4 w-4" />
-              Todas las entradas
+              {isEnglish ? "All posts" : "Todas las entradas"}
             </Link>
             <div className="mt-8">
               <PostMeta post={post} />
             </div>
+            {translation && (
+              <Link
+                to={`/blog/${translation.slug}/`}
+                hrefLang={translation.language}
+                className="mt-5 inline-flex rounded-full border border-white/15 px-4 py-2 text-sm font-medium text-link hover:border-action/35"
+              >
+                {isEnglish ? "Leer en español" : "Read in English"}
+              </Link>
+            )}
             <h1 className="mt-5 font-display text-3xl font-bold leading-[1.1] text-foreground md:text-5xl">
               {post.title}
             </h1>
@@ -552,10 +582,12 @@ function PostView({ post }: { post: Post }) {
         <div className="mx-auto max-w-3xl px-6 py-14 text-[1.05rem]">
           {headings.length >= 4 && (
             <nav
-              aria-label="Índice del artículo"
+              aria-label={isEnglish ? "Article contents" : "Índice del artículo"}
               className="mb-10 rounded-3xl border border-white/8 bg-white/[0.02] p-6 text-sm"
             >
-              <p className="font-display font-semibold text-foreground">Índice</p>
+              <p className="font-display font-semibold text-foreground">
+                {isEnglish ? "Contents" : "Índice"}
+              </p>
               <ol className="mt-4 space-y-2">
                 {headings.map((heading) => (
                   <li key={heading.id}>
@@ -574,20 +606,22 @@ function PostView({ post }: { post: Post }) {
 
           <aside
             className="mt-12 rounded-3xl border border-white/10 bg-white/[0.02] p-6"
-            aria-label="Autor del artículo"
+            aria-label={isEnglish ? "Article author" : "Autor del artículo"}
           >
-            <p className="text-xs font-medium uppercase tracking-[0.18em] text-spark">Autoría</p>
+            <p className="text-xs font-medium uppercase tracking-[0.18em] text-spark">
+              {isEnglish ? "Author" : "Autoría"}
+            </p>
             <h2 className="mt-2 font-display text-xl font-semibold text-foreground">
               Método Nebula
             </h2>
             <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-              Contenido revisado por el responsable docente de Método Nebula, graduado en
-              Matemáticas, con formación de máster en Big Data e Inteligencia Artificial y
-              experiencia docente y tecnológica.
+              {isEnglish
+                ? "Content reviewed by Método Nebula's lead teacher, a Mathematics graduate with a master's background in Big Data and Artificial Intelligence and experience in education and technology."
+                : "Contenido revisado por el responsable docente de Método Nebula, graduado en Matemáticas, con formación de máster en Big Data e Inteligencia Artificial y experiencia docente y tecnológica."}
             </p>
             <div className="mt-4 flex flex-wrap gap-4 text-sm">
               <Link to="/sobre-nebula/" className="text-link underline-offset-4 hover:underline">
-                Conocer el método y el perfil docente
+                {isEnglish ? "About the method and teacher" : "Conocer el método y el perfil docente"}
               </Link>
               {siteData.site.author.profileUrl && (
                 <a
@@ -596,7 +630,7 @@ function PostView({ post }: { post: Post }) {
                   rel="noopener noreferrer"
                   className="text-link underline-offset-4 hover:underline"
                 >
-                  Ver perfil profesional
+                  {isEnglish ? "View professional profile" : "Ver perfil profesional"}
                 </a>
               )}
             </div>
@@ -604,20 +638,25 @@ function PostView({ post }: { post: Post }) {
 
           <div className="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8 text-center">
             <h2 className="font-display text-2xl font-semibold nebula-heading-text">
-              ¿Quieres aplicar esto a tu asignatura o examen?
+              {isEnglish
+                ? "Would you like to apply this to your subject or exam?"
+                : "¿Quieres aplicar esto a tu asignatura o examen?"}
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">
-              Empezamos con una llamada de diagnóstico para entender tu objetivo, tu punto de
-              partida y tu fecha. El servicio relacionado ayuda a aterrizarlo en un plan concreto.
+              {isEnglish
+                ? "We start with a diagnostic call to understand your goal, current level and deadline, then turn them into a concrete plan."
+                : "Empezamos con una llamada de diagnóstico para entender tu objetivo, tu punto de partida y tu fecha. El servicio relacionado ayuda a aterrizarlo en un plan concreto."}
             </p>
             <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
-              <PrimaryCTA href="/contacto/">Solicitar diagnóstico</PrimaryCTA>
+              <PrimaryCTA href="/contacto/">
+                {isEnglish ? "Request a diagnostic call" : "Solicitar diagnóstico"}
+              </PrimaryCTA>
               {relatedService && (
                 <Link
                   to={relatedService.path}
                   className="inline-flex items-center justify-center rounded-full border border-white/15 px-6 py-3 text-sm font-medium text-link transition-colors hover:border-white/30 hover:bg-white/[0.05]"
                 >
-                  Ver apoyo relacionado
+                  {isEnglish ? "View related support" : "Ver apoyo relacionado"}
                 </Link>
               )}
             </div>
@@ -629,9 +668,9 @@ function PostView({ post }: { post: Post }) {
         <section className="border-t border-white/5 py-12">
           <div className="mx-auto flex max-w-7xl flex-col gap-3 px-6 md:flex-row md:items-center md:justify-between">
             <p className="text-sm text-muted-foreground">
-              Este artículo forma parte del clúster de{" "}
+              {isEnglish ? "This article is part of " : "Este artículo forma parte del clúster de "}
               <Link to={blogCategoryPath(category.slug)} className="text-link hover:underline">
-                {category.name}
+                {isEnglish ? "International exams" : category.name}
               </Link>
               .
             </p>
@@ -640,7 +679,7 @@ function PostView({ post }: { post: Post }) {
                 to={relatedService.path}
                 className="text-sm font-medium text-link underline-offset-4 hover:underline"
               >
-                Servicio relacionado: {relatedService.h1}
+                {isEnglish ? "Related support" : "Servicio relacionado"}: {relatedService.h1}
               </Link>
             )}
           </div>
@@ -651,7 +690,7 @@ function PostView({ post }: { post: Post }) {
         <section className="border-t border-white/5 py-16">
           <div className="mx-auto max-w-7xl px-6">
             <h2 className="font-display text-2xl font-semibold nebula-heading-text">
-              Seguir leyendo
+              {isEnglish ? "Keep reading" : "Seguir leyendo"}
             </h2>
             <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
               {related.map((p) => (

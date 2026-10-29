@@ -508,7 +508,7 @@ function PostView({ post }: { post: Post }) {
     ...(post.image && post.image !== siteData.site.logo ? { image: absoluteUrl(post.image) } : {}),
   };
   usePageMeta({
-    title: `${post.title} | ${siteData.site.displayName}`,
+    title: post.seoTitle || `${post.title} | ${siteData.site.displayName}`,
     description: post.description,
     path,
     type: "article",
@@ -639,17 +639,17 @@ function PostView({ post }: { post: Post }) {
           <div className="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8 text-center">
             <h2 className="font-display text-2xl font-semibold nebula-heading-text">
               {isEnglish
-                ? "Would you like to apply this to your subject or exam?"
-                : "¿Quieres aplicar esto a tu asignatura o examen?"}
+                ? "Would you like to turn this idea into exam marks?"
+                : "¿Quieres convertir esta idea en puntos de examen?"}
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">
               {isEnglish
-                ? "We start with a diagnostic call to understand your goal, current level and deadline, then turn them into a concrete plan."
-                : "Empezamos con una llamada de diagnóstico para entender tu objetivo, tu punto de partida y tu fecha. El servicio relacionado ayuda a aterrizarlo en un plan concreto."}
+                ? "Método Nebula combines structured theory, graded exercises and fully worked exam questions in a study plan adapted to your level and deadline."
+                : "El campus de Método Nebula reúne teoría estructurada, ejercicios graduados y exámenes resueltos dentro de un plan adaptado a tu nivel, tu temario y tu fecha."}
             </p>
             <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
               <PrimaryCTA href="/contacto/">
-                {isEnglish ? "Request a diagnostic call" : "Solicitar diagnóstico"}
+                {isEnglish ? "Ask about the study plan" : "Consultar el plan de estudio"}
               </PrimaryCTA>
               {relatedService && (
                 <Link

@@ -354,6 +354,14 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
       <section className="py-16 md:py-20">
         <div className="mx-auto grid max-w-7xl gap-10 px-6 lg:grid-cols-[1fr_0.75fr]">
           <div className="space-y-10">
+            {page.quickAnswer && (
+              <section className="rounded-3xl border border-action/25 bg-action/5 p-6">
+                <p className="text-xs font-medium uppercase tracking-[0.18em] text-spark">
+                  Respuesta directa
+                </p>
+                <p className="mt-3 leading-relaxed text-foreground/90">{page.quickAnswer}</p>
+              </section>
+            )}
             <ContentBlock
               title={page.problemsHeading ?? "Problemas habituales"}
               items={page.problems}
@@ -362,6 +370,12 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
               title={page.topicsHeading ?? "Bloques que podemos trabajar"}
               items={page.topics}
             />
+            {page.resources && (
+              <ContentBlock
+                title={page.resourcesHeading ?? "Materiales y recursos"}
+                items={page.resources}
+              />
+            )}
             <ContentBlock
               title={page.methodHeading ?? "Cómo funciona el método"}
               items={page.method}

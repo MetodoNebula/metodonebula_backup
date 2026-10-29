@@ -1,7 +1,8 @@
 ---
 title: Integración por sustitución: cambio de variable y ejercicios
+seoTitle: "Integración por sustitución: método y ejercicios resueltos"
 date: 2026-08-12
-updated: 2026-08-12
+updated: 2026-10-29
 description: Aprende integración por sustitución con criterio: cómo elegir el cambio de variable, transformar diferenciales y límites, y comprobar cada resultado.
 tag: Cálculo
 category: Matemáticas universitarias
@@ -13,6 +14,8 @@ image: /favicon.svg
 La integración por sustitución, o cambio de variable, deshace la regla de la cadena. Si una integral contiene una función compuesta \(f(g(x))\) y también el factor \(g'(x)\), hacemos \(u=g(x)\) para convertirla en una integral de \(f(u)\). El cambio es adecuado cuando toda la expresión puede escribirse en la nueva variable y el resultado es más sencillo.
 
 La clave no es «cambiar lo que está dentro de un paréntesis». Hay que transformar a la vez la función, el diferencial y, en integrales definidas, los límites. Si después del cambio quedan mezcladas \(x\) y \(u\), el procedimiento está incompleto o la sustitución no conviene.
+
+> **Respuesta directa.** Usa integración por sustitución cuando reconozcas una función compuesta acompañada, salvo una constante, por la derivada de su parte interior. Elige \(u=g(x)\), transforma también \(dx\) y los límites, integra en una sola variable y comprueba el resultado derivando.
 
 ## Por qué funciona: la regla de la cadena al revés
 

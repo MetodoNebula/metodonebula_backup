@@ -976,10 +976,11 @@
       "path": "/preparacion-examenes/matematicas-selectividad/",
       "parentPath": "/preparacion-examenes/",
       "parentLabel": "Preparación de exámenes",
-      "title": "Preparación de Matemáticas para Selectividad y PAU | Método Nebula",
-      "description": "Preparación online de Matemáticas II y Matemáticas Aplicadas para PAU: modelos, análisis, álgebra, geometría, probabilidad y tiempo.",
-      "h1": "Preparación de Matemáticas para Selectividad y PAU",
-      "audience": "Para alumnos de 2º de Bachillerato que necesitan convertir los bloques de Matemáticas en una rutina de modelos, corrección y simulacros.",
+      "title": "Matemáticas para Selectividad y PAU | Método Nebula",
+      "description": "Prepara Matemáticas II o Aplicadas para Selectividad con teoría, ejercicios graduados, exámenes PAU resueltos, simulacros y un calendario adaptado.",
+      "h1": "Cómo preparar Matemáticas para Selectividad y PAU",
+      "audience": "Un plan online para alumnos de 2º de Bachillerato que necesitan ordenar Matemáticas II o Matemáticas Aplicadas, practicar modelos oficiales y llegar al examen con una estrategia comprobada.",
+      "quickAnswer": "Para preparar Matemáticas de Selectividad hay que diagnosticar primero los bloques débiles, organizar un calendario realista, practicar ejercicios oficiales por tipo, corregir cada error y terminar con simulacros cronometrados. El campus reúne teoría, ejercicios graduados y exámenes resueltos para que cada semana tenga un objetivo medible.",
       "problems": [
         "No saber priorizar entre bloques.",
         "Resolver ejercicios sueltos sin practicar modelos completos.",
@@ -996,12 +997,22 @@
         "Estrategia de resolución",
         "Gestión del tiempo y errores frecuentes"
       ],
+      "resourcesHeading": "Qué incluye el campus de preparación",
+      "resources": [
+        "Teoría estructurada por bloques, con definiciones, métodos y criterios de elección.",
+        "Ejercicios graduados desde la técnica básica hasta preguntas completas de examen.",
+        "Exámenes de Selectividad y PAU resueltos paso a paso, con justificación y comprobaciones.",
+        "Registro de errores para distinguir fallos de concepto, cálculo, lectura y tiempo.",
+        "Calendario semanal adaptado a la comunidad autónoma, la modalidad y la nota objetivo.",
+        "Simulacros cronometrados y corrección con criterios de examen."
+      ],
       "method": [
-        "Diagnóstico con un modelo reciente.",
-        "Plan por bloques y comunidad autónoma.",
-        "Práctica de ejercicios oficiales.",
-        "Corrección mediante categorías de error.",
-        "Simulacros cronometrados y revisión final."
+        "Resolver un modelo reciente para medir el punto de partida.",
+        "Priorizar bloques y construir el calendario hasta la convocatoria.",
+        "Estudiar la teoría imprescindible antes de practicar cada tipo de ejercicio.",
+        "Resolver ejercicios oficiales y corregirlos mediante categorías de error.",
+        "Combinar repasos acumulativos con simulacros cronometrados.",
+        "Revisar resultados y ajustar el plan hasta el examen."
       ],
       "modality": "Sesiones online individuales basadas en los modelos y criterios vigentes de la comunidad del alumno.",
       "sessionStructure": [
@@ -1014,8 +1025,18 @@
       "differentiator": "No se mezclan modelos de comunidades sin verificar. El plan se adapta al formato vigente y a la nota objetivo del alumno.",
       "studentInput": "Comunidad autónoma, modalidad de Matemáticas, modelos oficiales, nota objetivo y fecha de convocatoria.",
       "reasonableOutcomes": "Más control de los bloques, mejor gestión del tiempo y corrección sistemática de errores. No se garantiza una nota concreta.",
-      "nextStep": "Solicitar diagnóstico indicando comunidad, modalidad, convocatoria y nota objetivo.",
+      "diagnosisHeading": "Plan inicial de Selectividad",
+      "nextStep": "Indica tu comunidad autónoma, modalidad, convocatoria, nota objetivo y último resultado. Con esos datos se puede definir el bloque prioritario y el primer calendario de trabajo.",
+      "ctaLabel": "Consultar acceso y plan",
       "faq": [
+        {
+          "q": "¿Cómo preparar Matemáticas para Selectividad sin estudiar temas al azar?",
+          "a": "Se empieza con un modelo diagnóstico y se transforma el resultado en un calendario por bloques, práctica oficial, repasos acumulativos y simulacros. Cada error queda asociado a una acción concreta."
+        },
+        {
+          "q": "¿El campus incluye exámenes de Selectividad resueltos?",
+          "a": "Sí. Se trabajan exámenes y preguntas oficiales con desarrollo paso a paso, justificación, comprobaciones y criterios para presentar la solución con claridad."
+        },
         {
           "q": "¿Preparáis Matemáticas II y Aplicadas?",
           "a": "Sí, diferenciando el temario y los modelos correspondientes."
@@ -1032,7 +1053,13 @@
       "relatedPosts": [
         "como-preparar-pau-matematicas-ii",
         "preparar-selectividad-con-calendario",
-        "preparar-pau-desde-verano-plan-septiembre"
+        "preparar-pau-desde-verano-plan-septiembre",
+        "pau-corregir-simulacros-plan-estudio",
+        "pau-matematicas-matrices-determinantes-gauss",
+        "pau-matematicas-sistemas-parametro-rouche-frobenius",
+        "pau-matematicas-ii-vectores-rectas-planos",
+        "pau-matematicas-probabilidad-distribuciones",
+        "pau-ccss-programacion-lineal-problemas"
       ],
       "relatedServices": [
         "/clases-particulares/selectividad/",

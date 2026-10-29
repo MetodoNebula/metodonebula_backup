@@ -18,6 +18,7 @@
 export type Post = {
   slug: string;
   title: string;
+  seoTitle: string;
   date: string;
   updated: string;
   description: string;
@@ -75,6 +76,7 @@ const posts: Post[] = Object.entries(modules)
     return {
       slug,
       title: data.title ?? slug,
+      seoTitle: data.seoTitle ?? "",
       date: data.date ?? "",
       updated: data.updated ?? data.date ?? "",
       description: data.description ?? "",

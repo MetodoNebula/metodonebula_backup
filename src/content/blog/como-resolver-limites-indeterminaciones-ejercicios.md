@@ -1,7 +1,8 @@
 ---
 title: Cómo resolver límites: indeterminaciones y ejercicios
+seoTitle: "Límites e indeterminaciones: método y ejercicios resueltos"
 date: 2026-08-17
-updated: 2026-08-17
+updated: 2026-10-29
 description: Método completo para resolver límites: sustitución, factorización, conjugados, límites notables, infinito e indeterminaciones con ejercicios.
 tag: Cálculo
 category: Matemáticas universitarias
@@ -13,6 +14,8 @@ image: /favicon.svg
 Para resolver un límite no se empieza eligiendo una técnica: se empieza sustituyendo. Si la sustitución produce un número real y la función es continua alrededor del punto, el problema ha terminado. Solo cuando aparece una indeterminación hay que transformar la expresión sin alterar sus valores cerca del punto.
 
 La pregunta clave no es «¿qué regla uso?», sino «¿qué impide evaluar y qué transformación elimina ese obstáculo?».
+
+> **Respuesta directa.** Para resolver un límite, sustituye primero. Si aparece una indeterminación, identifica su forma y transforma la expresión con factorización, racionalización, límites notables o términos dominantes. Usa L'Hôpital solo en cocientes \(0/0\) o \(\infty/\infty\) y revisa siempre los límites laterales.
 
 ## Qué significa un límite
 

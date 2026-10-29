@@ -5,7 +5,7 @@ updated: "2026-10-28"
 description: "Programación lineal para Matemáticas CCSS PAU: variables, restricciones, región factible, vértices, ejemplo y errores típicos."
 tag: "PAU"
 category: "Selectividad"
-relatedService: "/clases-particulares/selectividad/"
+relatedService: "/preparacion-examenes/matematicas-selectividad/"
 relatedPosts: "preparar-selectividad-con-calendario,como-preparar-pau-matematicas-ii"
 image: "/assets/latex/linear-programming.svg"
 ---

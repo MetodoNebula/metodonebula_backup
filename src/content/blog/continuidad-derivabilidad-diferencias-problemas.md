@@ -1,7 +1,8 @@
 ---
 title: Continuidad y derivabilidad: diferencias y problemas
+seoTitle: "Continuidad y derivabilidad: diferencias y ejercicios"
 date: 2026-08-31
-updated: 2026-08-31
+updated: 2026-10-29
 description: Distingue continuidad y derivabilidad, clasifica discontinuidades y resuelve funciones a trozos, parámetros, esquinas y tangentes paso a paso.
 tag: Cálculo
 category: Matemáticas universitarias
@@ -11,6 +12,8 @@ image: /favicon.svg
 ---
 
 Una función es continua en un punto cuando su límite coincide con su valor. Es derivable cuando existe una pendiente instantánea finita y única. Toda función derivable en un punto es continua allí, pero una función continua puede no ser derivable: una esquina, una cúspide o una tangente vertical rompen la derivabilidad sin romper la gráfica.
+
+> **Respuesta directa.** Continuidad significa que el límite coincide con el valor de la función; derivabilidad exige además una pendiente finita y única. Ser derivable implica ser continua, pero no al revés. En funciones a trozos, comprueba primero continuidad y después iguala las derivadas laterales.
 
 ## Continuidad en un punto
 

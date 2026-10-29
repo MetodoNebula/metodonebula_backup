@@ -5,7 +5,7 @@ updated: "2026-10-25"
 description: "Estrategia de Matemáticas II PAU para elegir entre matriz inversa, Gauss, determinantes y rangos con ejemplos y comprobaciones."
 tag: "PAU"
 category: "Selectividad"
-relatedService: "/clases-particulares/selectividad/"
+relatedService: "/preparacion-examenes/matematicas-selectividad/"
 relatedPosts: "pau-matematicas-sistemas-parametro-rouche-frobenius,matrices-determinantes-sistemas-ecuaciones-guia"
 image: "/assets/latex/matrix-method-map.svg"
 ---

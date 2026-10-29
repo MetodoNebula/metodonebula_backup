@@ -5,7 +5,7 @@ updated: "2026-10-10"
 description: "Discute sistemas con parámetro en Matemáticas II PAU usando rangos, valores críticos, Rouché–Frobenius y resolución por casos."
 tag: "PAU"
 category: "Selectividad"
-relatedService: "/clases-particulares/selectividad/"
+relatedService: "/preparacion-examenes/matematicas-selectividad/"
 relatedPosts: "pau-matematicas-ii-vectores-rectas-planos,matrices-determinantes-sistemas-ecuaciones-guia"
 image: "/assets/latex/rank-decision.svg"
 ---

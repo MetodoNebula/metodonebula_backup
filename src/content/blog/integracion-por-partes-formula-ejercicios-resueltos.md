@@ -1,7 +1,8 @@
 ---
 title: Integración por partes: fórmula y ejercicios resueltos
+seoTitle: "Integración por partes: fórmula, cómo elegir u y ejercicios"
 date: 2026-08-06
-updated: 2026-08-06
+updated: 2026-10-29
 description: Domina la integración por partes: deducción de la fórmula, elección de u y dv, casos repetidos, integrales definidas y ejercicios resueltos.
 tag: Cálculo
 category: Matemáticas universitarias
@@ -13,6 +14,8 @@ image: /favicon.svg
 La integración por partes transforma una integral \(\int u\,dv\) en \(uv-\int v\,du\). Conviene usarla cuando el integrando contiene un producto y **derivar uno de los factores lo simplifica**, mientras el otro se puede integrar. También resuelve integrales de logaritmos y funciones inversas escribiéndolas como un producto por \(1\).
 
 La fórmula no decide por sí sola qué parte será \(u\) y cuál \(dv\). Esa elección es el centro del método: la nueva integral debe ser más sencilla que la original o formar con ella una ecuación que podamos despejar.
+
+> **Respuesta directa.** La fórmula es \(\int u\,dv=uv-\int v\,du\). Elige como \(u\) el factor que se simplifica al derivarlo y como \(dv\) el que puede integrarse sin dificultad. Si la nueva integral no es más sencilla, cambia la elección o utiliza otra técnica.
 
 ## De dónde sale la fórmula
 

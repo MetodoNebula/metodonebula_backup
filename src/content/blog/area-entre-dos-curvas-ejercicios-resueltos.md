@@ -1,7 +1,8 @@
 ---
 title: Área entre dos curvas: planteamiento y ejercicios resueltos
+seoTitle: "Área entre curvas: método y ejercicios resueltos"
 date: 2026-08-08
-updated: 2026-08-08
+updated: 2026-10-29
 description: Aprende a calcular el área entre curvas: intersecciones, función superior e inferior, cambios de signo y ejercicios resueltos paso a paso.
 tag: Cálculo
 category: Matemáticas universitarias
@@ -17,6 +18,8 @@ A=\int_a^b\bigl(f(x)-g(x)\bigr)\,dx.
 $$
 
 La parte decisiva no es hallar primitivas: es encontrar correctamente las intersecciones y determinar qué función está arriba en cada tramo. Si las curvas cambian de orden, hay que dividir el intervalo; un área geométrica nunca puede salir negativa.
+
+> **Respuesta directa.** Para calcular el área entre curvas, encuentra primero sus intersecciones, decide qué función queda arriba en cada intervalo e integra la diferencia superior menos inferior. Si cambian de orden, divide la región. El resultado debe ser no negativo y coherente con la gráfica.
 
 ## La idea geométrica: sumar distancias
 

@@ -5,7 +5,7 @@ updated: "2026-10-28"
 description: "Sistema completo para corregir simulacros de PAU, clasificar errores, recuperar preguntas y convertir la nota en un plan semanal."
 tag: "PAU"
 category: "Selectividad"
-relatedService: "/clases-particulares/selectividad/"
+relatedService: "/preparacion-examenes/matematicas-selectividad/"
 relatedPosts: "preparar-selectividad-con-calendario,preparar-pau-desde-verano-plan-septiembre"
 image: "/assets/latex/learning-cycle.svg"
 ---

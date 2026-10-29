@@ -33,10 +33,13 @@ export type ServicePage = {
   h1: string;
   heroLabel?: string;
   audience: string;
+  quickAnswer?: string;
   problemsHeading?: string;
   problems: string[];
   topicsHeading?: string;
   topics: string[];
+  resourcesHeading?: string;
+  resources?: string[];
   methodHeading?: string;
   method: string[];
   profile: string;

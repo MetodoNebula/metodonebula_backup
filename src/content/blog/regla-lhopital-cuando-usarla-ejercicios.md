@@ -1,7 +1,8 @@
 ---
 title: Regla de L'Hôpital: cuándo utilizarla y cuándo no
+seoTitle: "Regla de L'Hôpital: cuándo usarla, condiciones y errores"
 date: 2026-08-23
-updated: 2026-08-23
+updated: 2026-10-29
 description: Aprende cuándo se puede aplicar la regla de L'Hôpital, cómo transformar otras indeterminaciones y qué errores evitar con ejercicios resueltos.
 tag: Cálculo
 category: Matemáticas universitarias
@@ -13,6 +14,8 @@ image: /favicon.svg
 La regla de L'Hôpital se aplica a cocientes cuya sustitución produce las formas indeterminadas $0/0$ o $\infty/\infty$. Permite sustituir el límite de un cociente de funciones por el límite del cociente de sus derivadas, siempre que se cumplan sus hipótesis.
 
 No sirve directamente para $1/0$, $0\cdot\infty$, $\infty-\infty$ ni potencias indeterminadas. Estas formas deben transformarse primero.
+
+> **Respuesta directa.** L'Hôpital solo se aplica directamente a cocientes que producen \(0/0\) o \(\infty/\infty\). Comprueba la forma, deriva numerador y denominador por separado y vuelve a evaluar. En productos, diferencias o potencias indeterminadas, transforma primero la expresión.
 
 ## Qué afirma la regla
 

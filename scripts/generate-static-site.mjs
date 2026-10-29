@@ -121,6 +121,7 @@ function loadPosts() {
       return {
         slug,
         title: data.title ?? slug,
+        seoTitle: data.seoTitle ?? "",
         date: data.date ?? "",
         updated: data.updated ?? data.date ?? "",
         description: data.description ?? "",
@@ -955,7 +956,7 @@ function postPage(post, posts) {
     ),
   };
   return {
-    title: `${post.title} | ${SITE_DATA.site.displayName}`,
+    title: post.seoTitle || `${post.title} | ${SITE_DATA.site.displayName}`,
     description: post.description,
     route,
     type: "article",
@@ -1001,9 +1002,9 @@ function postPage(post, posts) {
           <p class="mt-4"><a href="/sobre-nebula/">${isEnglish ? "About the method and teacher" : "Conocer el método y el perfil docente"}</a>${SITE_DATA.site.author.profileUrl ? ` · <a href="${escapeHtml(SITE_DATA.site.author.profileUrl)}">${isEnglish ? "View professional profile" : "Ver perfil profesional"}</a>` : ""}</p>
         </aside>
         <section class="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8 text-center">
-          <h2 class="font-display text-2xl font-semibold text-foreground">${isEnglish ? "Would you like to apply this to your subject or exam?" : "¿Quieres aplicar esto a tu asignatura o examen?"}</h2>
-          <p class="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">${isEnglish ? "We start with a diagnostic call to understand your goal, current level and deadline, then turn them into a concrete plan." : "Empezamos con una llamada de diagnóstico para entender tu objetivo, tu punto de partida y tu fecha. El servicio relacionado ayuda a aterrizarlo en un plan concreto."}</p>
-          <p class="mt-6 flex flex-col justify-center gap-3 sm:flex-row"><a class="inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-action/90" href="/contacto/">${isEnglish ? "Request a diagnostic call" : "Solicitar diagnóstico"}</a>${
+          <h2 class="font-display text-2xl font-semibold text-foreground">${isEnglish ? "Would you like to turn this idea into exam marks?" : "¿Quieres convertir esta idea en puntos de examen?"}</h2>
+          <p class="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">${isEnglish ? "Método Nebula combines structured theory, graded exercises and fully worked exam questions in a study plan adapted to your level and deadline." : "El campus de Método Nebula reúne teoría estructurada, ejercicios graduados y exámenes resueltos dentro de un plan adaptado a tu nivel, tu temario y tu fecha."}</p>
+          <p class="mt-6 flex flex-col justify-center gap-3 sm:flex-row"><a class="inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-action/90" href="/contacto/">${isEnglish ? "Ask about the study plan" : "Consultar el plan de estudio"}</a>${
             relatedService
               ? `<a class="inline-flex items-center justify-center rounded-full border border-white/15 px-6 py-3 text-sm font-medium text-link transition-colors hover:border-white/30 hover:bg-white/[0.05]" href="${relatedService.path}">${isEnglish ? "View related support" : "Ver apoyo relacionado"}</a>`
               : ""
@@ -1165,8 +1166,10 @@ function servicePage(page, posts) {
         { label: page.h1, href: page.path },
       ],
       children: `
+        ${page.quickAnswer ? `<aside class="rounded-3xl border border-action/25 bg-action/5 p-6"><p class="text-xs font-medium uppercase tracking-[0.18em] text-spark">Respuesta directa</p><p class="mt-3">${escapeHtml(page.quickAnswer)}</p></aside>` : ""}
         <h2>${escapeHtml(page.problemsHeading ?? "Problemas habituales")}</h2>${cardList(page.problems)}
         <h2>${escapeHtml(page.topicsHeading ?? "Bloques que podemos trabajar")}</h2>${cardList(page.topics)}
+        ${page.resources?.length ? `<h2>${escapeHtml(page.resourcesHeading ?? "Materiales y recursos")}</h2>${cardList(page.resources)}` : ""}
         <h2>${escapeHtml(page.methodHeading ?? "Cómo funciona el método")}</h2>${cardList(page.method, true)}
         ${page.modality ? `<h2>${escapeHtml(page.modalityHeading ?? "Modalidad online")}</h2><p>${escapeHtml(page.modality)}</p>` : ""}
         ${page.sessionStructure ? `<h2>${escapeHtml(page.sessionHeading ?? "Cómo se organiza una sesión")}</h2>${cardList(page.sessionStructure, true)}` : ""}

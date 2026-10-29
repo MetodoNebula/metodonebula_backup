@@ -1,7 +1,8 @@
 ---
 title: Qué son las integrales y para qué se utilizan
+seoTitle: "Integrales: qué son, para qué sirven y ejemplos"
 date: 2026-06-21
-updated: 2026-08-12
+updated: 2026-10-29
 description: Una explicación práctica de las integrales como acumulación, área bajo la curva y herramienta para medir cantidades totales.
 tag: Cálculo
 category: Matemáticas universitarias
@@ -13,6 +14,8 @@ image: /favicon.svg
 Una integral mide **acumulación**. Si la derivada responde a "a qué ritmo cambia algo", la integral responde a "cuánto se ha acumulado en total".
 
 Por eso las integrales aparecen cuando queremos calcular áreas, distancias recorridas, trabajo, masa, probabilidad acumulada, consumo total o cualquier cantidad que se obtiene sumando pequeñas contribuciones.
+
+> **Respuesta directa.** Una integral suma contribuciones infinitesimales para obtener una cantidad total. Sirve para calcular áreas, desplazamientos, trabajo, masa o probabilidad acumulada. La integral indefinida busca primitivas; la definida evalúa una acumulación entre dos límites.
 
 ## La idea geométrica
 

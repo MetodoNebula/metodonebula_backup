@@ -10,13 +10,13 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
     />
-    <script type="module" crossorigin src="/assets/index-DfE3Wov7.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Cx6jCRrT.css">
-      <title>Qué son las derivadas y para qué se utilizan | Método Nebula</title>
+    <script type="module" crossorigin src="/assets/index-H55iMEf-.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-DJBtPwUk.css">
+      <title>Derivadas: qué son, para qué sirven y ejemplos</title>
     <meta name="description" content="Una guía clara para entender las derivadas como pendiente, ritmo de cambio y herramienta para optimizar funciones.">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="https://metodonebula.es/blog/que-son-las-derivadas-y-para-que-se-utilizan/">
-    <meta property="og:title" content="Qué son las derivadas y para qué se utilizan | Método Nebula">
+    <meta property="og:title" content="Derivadas: qué son, para qué sirven y ejemplos">
     <meta property="og:description" content="Una guía clara para entender las derivadas como pendiente, ritmo de cambio y herramienta para optimizar funciones.">
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://metodonebula.es/blog/que-son-las-derivadas-y-para-que-se-utilizan/">
@@ -24,10 +24,10 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Qué son las derivadas y para qué se utilizan | Método Nebula">
+    <meta name="twitter:title" content="Derivadas: qué son, para qué sirven y ejemplos">
     <meta name="twitter:description" content="Una guía clara para entender las derivadas como pendiente, ritmo de cambio y herramienta para optimizar funciones.">
     <meta name="twitter:image" content="https://metodonebula.es/og-nebula.png">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Qué son las derivadas y para qué se utilizan","description":"Una guía clara para entender las derivadas como pendiente, ritmo de cambio y herramienta para optimizar funciones.","author":{"@type":"EducationalOrganization","name":"Método Nebula","url":"https://metodonebula.es/"},"datePublished":"2026-06-19","dateModified":"2026-06-19","mainEntityOfPage":"https://metodonebula.es/blog/que-son-las-derivadas-y-para-que-se-utilizan/","inLanguage":"es-ES","publisher":{"@type":"EducationalOrganization","name":"Método Nebula","logo":{"@type":"ImageObject","url":"https://metodonebula.es/favicon.svg"}},"image":"https://metodonebula.es/og-nebula.png"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Qué son las derivadas y para qué se utilizan","description":"Una guía clara para entender las derivadas como pendiente, ritmo de cambio y herramienta para optimizar funciones.","author":{"@type":"EducationalOrganization","name":"Método Nebula","url":"https://metodonebula.es/"},"datePublished":"2026-06-19","dateModified":"2026-10-29","mainEntityOfPage":"https://metodonebula.es/blog/que-son-las-derivadas-y-para-que-se-utilizan/","inLanguage":"es-ES","publisher":{"@type":"EducationalOrganization","name":"Método Nebula","logo":{"@type":"ImageObject","url":"https://metodonebula.es/favicon.svg"}},"image":"https://metodonebula.es/og-nebula.png"}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://metodonebula.es/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://metodonebula.es/blog/"},{"@type":"ListItem","position":3,"name":"Qué son las derivadas y para qué se utilizan","item":"https://metodonebula.es/blog/que-son-las-derivadas-y-para-que-se-utilizan/"}]}</script>
   </head>
   <body>
@@ -63,6 +63,7 @@
   
         <article><p>Una derivada mide <strong>cómo cambia una magnitud cuando cambia otra</strong>. En una gráfica, esa idea se ve como la pendiente de la curva en un punto concreto. En un problema real, puede representar velocidad, crecimiento, coste marginal, sensibilidad de un modelo o el punto donde una función deja de subir y empieza a bajar.</p>
 <p>La dificultad no está solo en aplicar reglas. Está en entender qué pregunta responde la derivada.</p>
+<blockquote class="my-6 border-l-2 border-action/70 bg-white/[0.02] py-2 pr-4 pl-5 text-foreground/80 italic"><strong>Respuesta directa.</strong> Una derivada es el ritmo de cambio instantáneo de una función. Sirve para calcular pendientes, velocidades, tasas de crecimiento y puntos máximos o mínimos. Su valor no solo se calcula: debe interpretarse dentro del problema y con las unidades correspondientes.</blockquote>
 <h2 id="la-idea-basica" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">La idea básica</h2>
 <p>Si una función <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">f(x)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.1076em;">f</span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mclose">)</span></span></span></span> describe una relación entre dos variables, la derivada <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>f</mi><mo mathvariant="normal" lspace="0em" rspace="0em">′</mo></msup><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">f&#x27;(x)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0019em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.1076em;">f</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7519em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">′</span></span></span></span></span></span></span></span></span><span class="mopen">(</span><span class="mord mathnormal">x</span><span class="mclose">)</span></span></span></span> mide el cambio instantáneo de <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>f</mi></mrow><annotation encoding="application/x-tex">f</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8889em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.1076em;">f</span></span></span></span> respecto a <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi></mrow><annotation encoding="application/x-tex">x</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">x</span></span></span></span>.</p>
 <p>La definición formal es:</p>
@@ -110,9 +111,9 @@
           <p class="mt-4"><a href="/sobre-nebula/">Conocer el método y el perfil docente</a> · <a href="https://www.tusclasesparticulares.com/profesores/nebula-lambda.htm">Ver perfil profesional</a></p>
         </aside>
         <section class="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8 text-center">
-          <h2 class="font-display text-2xl font-semibold text-foreground">¿Quieres aplicar esto a tu asignatura o examen?</h2>
-          <p class="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">Empezamos con una llamada de diagnóstico para entender tu objetivo, tu punto de partida y tu fecha. El servicio relacionado ayuda a aterrizarlo en un plan concreto.</p>
-          <p class="mt-6 flex flex-col justify-center gap-3 sm:flex-row"><a class="inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-action/90" href="/contacto/">Solicitar diagnóstico</a><a class="inline-flex items-center justify-center rounded-full border border-white/15 px-6 py-3 text-sm font-medium text-link transition-colors hover:border-white/30 hover:bg-white/[0.05]" href="/clases-particulares/calculo-universitario/">Ver apoyo relacionado</a></p>
+          <h2 class="font-display text-2xl font-semibold text-foreground">¿Quieres convertir esta idea en puntos de examen?</h2>
+          <p class="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">El campus de Método Nebula reúne teoría estructurada, ejercicios graduados y exámenes resueltos dentro de un plan adaptado a tu nivel, tu temario y tu fecha.</p>
+          <p class="mt-6 flex flex-col justify-center gap-3 sm:flex-row"><a class="inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-action/90" href="/contacto/">Consultar el plan de estudio</a><a class="inline-flex items-center justify-center rounded-full border border-white/15 px-6 py-3 text-sm font-medium text-link transition-colors hover:border-white/30 hover:bg-white/[0.05]" href="/clases-particulares/calculo-universitario/">Ver apoyo relacionado</a></p>
         </section>
         <section class="mt-12 border-t border-white/5 pt-8 text-sm text-muted-foreground">Este artículo forma parte del clúster de <a href="/blog/categoria/matematicas-universitarias/">Matemáticas universitarias</a>. Servicio relacionado: <a href="/clases-particulares/calculo-universitario/">Clases particulares de Cálculo universitario online</a>.</section>
         <h2 id="lecturas-relacionadas" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Lecturas relacionadas</h2><div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
@@ -121,7 +122,7 @@
     <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
       <span class="rounded-full border border-spark/40 bg-spark/10 px-3 py-1 font-medium uppercase tracking-[0.18em] text-spark">Matemáticas universitarias</span>
       <span>2026-08-31</span>
-      <span>13 min de lectura</span>
+      <span>14 min de lectura</span>
     </div>
   
       <h3 class="mt-5 font-display font-semibold leading-snug text-foreground text-lg transition-colors group-hover:text-spark">Continuidad y derivabilidad: diferencias y problemas</h3>

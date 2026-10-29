@@ -114,8 +114,9 @@ Si alguno de estos puntos solo lo reconoces cuando ves una solución, todavía n
 Para trabajar Álgebra Lineal con problemas guiados y corrección de errores, puedes revisar la página de [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
 `,l=`---
 title: Área entre dos curvas: planteamiento y ejercicios resueltos
+seoTitle: "Área entre curvas: método y ejercicios resueltos"
 date: 2026-08-08
-updated: 2026-08-08
+updated: 2026-10-29
 description: Aprende a calcular el área entre curvas: intersecciones, función superior e inferior, cambios de signo y ejercicios resueltos paso a paso.
 tag: Cálculo
 category: Matemáticas universitarias
@@ -131,6 +132,8 @@ A=\\int_a^b\\bigl(f(x)-g(x)\\bigr)\\,dx.
 $$
 
 La parte decisiva no es hallar primitivas: es encontrar correctamente las intersecciones y determinar qué función está arriba en cada tramo. Si las curvas cambian de orden, hay que dividir el intervalo; un área geométrica nunca puede salir negativa.
+
+> **Respuesta directa.** Para calcular el área entre curvas, encuentra primero sus intersecciones, decide qué función queda arriba en cada intervalo e integra la diferencia superior menos inferior. Si cambian de orden, divide la región. El resultado debe ser no negativo y coherente con la gráfica.
 
 ## La idea geométrica: sumar distancias
 
@@ -2795,8 +2798,9 @@ La señal de que avanzas no es que el examen “te suene”. Es que puedes decid
 Para planificar la preparación general, consulta [cómo organizar la Selectividad con un calendario](/blog/preparar-selectividad-con-calendario/). Si necesitas convertir tus modelos de PAU en un plan de trabajo y corrección adaptado a tu punto de partida, revisa las [clases particulares para Selectividad y PAU](/clases-particulares/selectividad/) o [cuéntanos tu caso](/contacto/).
 `,E=`---
 title: Cómo resolver límites: indeterminaciones y ejercicios
+seoTitle: "Límites e indeterminaciones: método y ejercicios resueltos"
 date: 2026-08-17
-updated: 2026-08-17
+updated: 2026-10-29
 description: Método completo para resolver límites: sustitución, factorización, conjugados, límites notables, infinito e indeterminaciones con ejercicios.
 tag: Cálculo
 category: Matemáticas universitarias
@@ -2808,6 +2812,8 @@ image: /favicon.svg
 Para resolver un límite no se empieza eligiendo una técnica: se empieza sustituyendo. Si la sustitución produce un número real y la función es continua alrededor del punto, el problema ha terminado. Solo cuando aparece una indeterminación hay que transformar la expresión sin alterar sus valores cerca del punto.
 
 La pregunta clave no es «¿qué regla uso?», sino «¿qué impide evaluar y qué transformación elimina ese obstáculo?».
+
+> **Respuesta directa.** Para resolver un límite, sustituye primero. Si aparece una indeterminación, identifica su forma y transforma la expresión con factorización, racionalización, límites notables o términos dominantes. Usa L'Hôpital solo en cocientes \\(0/0\\) o \\(\\infty/\\infty\\) y revisa siempre los límites laterales.
 
 ## Qué significa un límite
 
@@ -3670,8 +3676,9 @@ Al terminar, sustituye de nuevo en la expresión transformada, revisa el signo d
 Los límites sostienen continuidad, derivadas e integrales, por lo que conviene dominarlos antes de avanzar en un plan de [Cálculo I para Ingeniería](/blog/como-aprobar-calculo-i-ingenieria-seis-semanas/). Si necesitas practicar con ejercicios de tu temario y recibir corrección del razonamiento, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
 `,_=`---
 title: Continuidad y derivabilidad: diferencias y problemas
+seoTitle: "Continuidad y derivabilidad: diferencias y ejercicios"
 date: 2026-08-31
-updated: 2026-08-31
+updated: 2026-10-29
 description: Distingue continuidad y derivabilidad, clasifica discontinuidades y resuelve funciones a trozos, parámetros, esquinas y tangentes paso a paso.
 tag: Cálculo
 category: Matemáticas universitarias
@@ -3681,6 +3688,8 @@ image: /favicon.svg
 ---
 
 Una función es continua en un punto cuando su límite coincide con su valor. Es derivable cuando existe una pendiente instantánea finita y única. Toda función derivable en un punto es continua allí, pero una función continua puede no ser derivable: una esquina, una cúspide o una tangente vertical rompen la derivabilidad sin romper la gráfica.
+
+> **Respuesta directa.** Continuidad significa que el límite coincide con el valor de la función; derivabilidad exige además una pendiente finita y única. Ser derivable implica ser continua, pero no al revés. En funciones a trozos, comprueba primero continuidad y después iguala las derivadas laterales.
 
 ## Continuidad en un punto
 
@@ -8065,7 +8074,7 @@ Cuando domines estas medidas, continúa con [rango, cuartiles y diagrama de caja
 Para afianzar este método, no memorices una tabla modelo: cambia los datos de un ejercicio, vuelve a ordenar y explica en voz alta qué representa cada resultado. La guía sobre [cómo estudiar matemáticas sin memorizar fórmulas](/blog/como-estudiar-matematicas-sin-memorizar/) puede ayudarte a convertir esa práctica en rutina.
 
 Si necesitas reforzar Estadística o Matemáticas de ESO con ejercicios de tu propio temario, puedes consultar las [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,Q=`---
+`,H=`---
 title: Estadística desde cero: cómo elegir un contraste sin aplicar recetas
 date: 2026-05-29
 updated: 2026-05-29
@@ -8148,7 +8157,7 @@ Hay algunos avisos claros:
 La estadística universitaria se vuelve mucho más manejable cuando separas decisión, cálculo e interpretación. Cada parte tiene su dificultad, pero también su método de estudio.
 
 Si estás preparando probabilidad, inferencia, regresión o estadística para Bachillerato, Universidad, TFG o TFM, revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/) o [cuéntanos tu caso](/contacto/).
-`,B=`---
+`,Q=`---
 title: Estequiometría universitaria: ejercicios resueltos de dificultad progresiva
 date: 2026-07-07
 updated: 2026-07-07
@@ -8303,7 +8312,7 @@ Antes de entregar, revisa:
 - La unidad final es correcta.
 
 Para seguir practicando, revisa la guía de [Física y Química: cómo plantear problemas antes de calcular](/blog/fisica-y-quimica-como-plantear-problemas/) o la página de [clases particulares de Química](/clases-particulares/quimica/).
-`,H=`---
+`,B=`---
 title: "Estudio completo de una función paso a paso"
 date: "2026-09-02"
 updated: "2026-09-02"
@@ -11358,8 +11367,9 @@ Esta revisión evita estudiar por inercia. En programas internacionales, donde e
 Para organizar esa preparación puedes ver [clases para GCSE, IGCSE e IB](/clases-particulares/gcse-ib/) o [contactar](/contacto/) para revisar syllabus, fecha y objetivo.
 `,ge=`---
 title: Integración por partes: fórmula y ejercicios resueltos
+seoTitle: "Integración por partes: fórmula, cómo elegir u y ejercicios"
 date: 2026-08-06
-updated: 2026-08-06
+updated: 2026-10-29
 description: Domina la integración por partes: deducción de la fórmula, elección de u y dv, casos repetidos, integrales definidas y ejercicios resueltos.
 tag: Cálculo
 category: Matemáticas universitarias
@@ -11371,6 +11381,8 @@ image: /favicon.svg
 La integración por partes transforma una integral \\(\\int u\\,dv\\) en \\(uv-\\int v\\,du\\). Conviene usarla cuando el integrando contiene un producto y **derivar uno de los factores lo simplifica**, mientras el otro se puede integrar. También resuelve integrales de logaritmos y funciones inversas escribiéndolas como un producto por \\(1\\).
 
 La fórmula no decide por sí sola qué parte será \\(u\\) y cuál \\(dv\\). Esa elección es el centro del método: la nueva integral debe ser más sencilla que la original o formar con ella una ecuación que podamos despejar.
+
+> **Respuesta directa.** La fórmula es \\(\\int u\\,dv=uv-\\int v\\,du\\). Elige como \\(u\\) el factor que se simplifica al derivarlo y como \\(dv\\) el que puede integrarse sin dificultad. Si la nueva integral no es más sencilla, cambia la elección o utiliza otra técnica.
 
 ## De dónde sale la fórmula
 
@@ -12036,8 +12048,9 @@ Después de aplicar la fórmula, pueden ocurrir tres cosas útiles: la nueva int
 Si quieres practicar el método con ejercicios de tu grado y recibir corrección sobre la elección de \\(u\\), los signos y la presentación, consulta las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
 `,fe=`---
 title: Integración por sustitución: cambio de variable y ejercicios
+seoTitle: "Integración por sustitución: método y ejercicios resueltos"
 date: 2026-08-12
-updated: 2026-08-12
+updated: 2026-10-29
 description: Aprende integración por sustitución con criterio: cómo elegir el cambio de variable, transformar diferenciales y límites, y comprobar cada resultado.
 tag: Cálculo
 category: Matemáticas universitarias
@@ -12049,6 +12062,8 @@ image: /favicon.svg
 La integración por sustitución, o cambio de variable, deshace la regla de la cadena. Si una integral contiene una función compuesta \\(f(g(x))\\) y también el factor \\(g'(x)\\), hacemos \\(u=g(x)\\) para convertirla en una integral de \\(f(u)\\). El cambio es adecuado cuando toda la expresión puede escribirse en la nueva variable y el resultado es más sencillo.
 
 La clave no es «cambiar lo que está dentro de un paréntesis». Hay que transformar a la vez la función, el diferencial y, en integrales definidas, los límites. Si después del cambio quedan mezcladas \\(x\\) y \\(u\\), el procedimiento está incompleto o la sustitución no conviene.
+
+> **Respuesta directa.** Usa integración por sustitución cuando reconozcas una función compuesta acompañada, salvo una constante, por la derivada de su parte interior. Elige \\(u=g(x)\\), transforma también \\(dx\\) y los límites, integra en una sola variable y comprueba el resultado derivando.
 
 ## Por qué funciona: la regla de la cadena al revés
 
@@ -17690,7 +17705,7 @@ updated: "2026-10-28"
 description: "Programación lineal para Matemáticas CCSS PAU: variables, restricciones, región factible, vértices, ejemplo y errores típicos."
 tag: "PAU"
 category: "Selectividad"
-relatedService: "/clases-particulares/selectividad/"
+relatedService: "/preparacion-examenes/matematicas-selectividad/"
 relatedPosts: "preparar-selectividad-con-calendario,como-preparar-pau-matematicas-ii"
 image: "/assets/latex/linear-programming.svg"
 ---
@@ -17790,7 +17805,7 @@ updated: "2026-10-28"
 description: "Sistema completo para corregir simulacros de PAU, clasificar errores, recuperar preguntas y convertir la nota en un plan semanal."
 tag: "PAU"
 category: "Selectividad"
-relatedService: "/clases-particulares/selectividad/"
+relatedService: "/preparacion-examenes/matematicas-selectividad/"
 relatedPosts: "preparar-selectividad-con-calendario,preparar-pau-desde-verano-plan-septiembre"
 image: "/assets/latex/learning-cycle.svg"
 ---
@@ -18407,7 +18422,7 @@ updated: "2026-10-25"
 description: "Estrategia de Matemáticas II PAU para elegir entre matriz inversa, Gauss, determinantes y rangos con ejemplos y comprobaciones."
 tag: "PAU"
 category: "Selectividad"
-relatedService: "/clases-particulares/selectividad/"
+relatedService: "/preparacion-examenes/matematicas-selectividad/"
 relatedPosts: "pau-matematicas-sistemas-parametro-rouche-frobenius,matrices-determinantes-sistemas-ecuaciones-guia"
 image: "/assets/latex/matrix-method-map.svg"
 ---
@@ -18643,7 +18658,7 @@ updated: "2026-10-10"
 description: "Discute sistemas con parámetro en Matemáticas II PAU usando rangos, valores críticos, Rouché–Frobenius y resolución por casos."
 tag: "PAU"
 category: "Selectividad"
-relatedService: "/clases-particulares/selectividad/"
+relatedService: "/preparacion-examenes/matematicas-selectividad/"
 relatedPosts: "pau-matematicas-ii-vectores-rectas-planos,matrices-determinantes-sistemas-ecuaciones-guia"
 image: "/assets/latex/rank-decision.svg"
 ---
@@ -19205,7 +19220,7 @@ El cálculo de $E^\\circ_{\\text{pila}}$ cierra la parte energética. La represe
 - Decir que una reacción es espontánea sin relacionarlo con el signo de $E^\\circ$.
 
 El campus virtual de Método Nebula desarrolla números de oxidación, ajuste ion-electrón, pilas, potenciales, electrólisis y leyes de Faraday con ejercicios progresivos y modelos de examen. El botón de contacto permite acceder a una ruta centrada en el razonamiento completo, sin depender de reglas aisladas.
-`,Qe=`---
+`,He=`---
 title: Preparar la PAU desde verano: plan realista para llegar fuerte a septiembre
 date: 2026-07-21
 updated: 2026-07-21
@@ -19267,7 +19282,7 @@ También conviene evitar convertir el verano en una repetición del curso. Desca
 Al terminar deberías poder nombrar tus tres bloqueos prioritarios, resolver mejor los ejercicios básicos que en la primera semana y tener un sistema de corrección. No hace falta llegar sabiendo todo el temario de PAU; hace falta que el aprendizaje de septiembre no se apoye en terreno inestable.
 
 Cuando empiece el curso, continúa con [un calendario de Selectividad que se pueda cumplir](/blog/preparar-selectividad-con-calendario/) y usa los modelos oficiales de tu comunidad. Si quieres priorizar asignaturas, nota objetivo y fechas de forma realista, puedes consultar las [clases para Selectividad y PAU](/clases-particulares/selectividad/).
-`,Be=`---
+`,Qe=`---
 title: Preparar la Selectividad con un calendario que sí se cumple
 date: 2026-06-07
 updated: 2026-06-07
@@ -19336,7 +19351,7 @@ El calendario debe tener colchón. Si no hay huecos, se romperá el primer día 
 En Nebula el calendario se construye con asignaturas, nota objetivo, fechas y punto de partida. Después se revisa semanalmente para ajustar prioridades.
 
 Si necesitas preparar PAU, Matemáticas, Física, Química u otra materia con un plan medible, revisa [clases particulares para Selectividad y PAU](/clases-particulares/selectividad/) o [reserva un diagnóstico](/contacto/).
-`,He=`---
+`,Be=`---
 title: Tu primer proyecto de Python para datos: qué hacer antes de aprender más librerías
 date: 2026-07-21
 updated: 2026-07-21
@@ -20482,8 +20497,9 @@ El software calcula, pero no conoce tu diseño ni tu pregunta. La decisión debe
 Para practicar la interpretación, continúa con [p-valor, intervalo de confianza y tamaño del efecto](/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/) o revisa las [clases de Estadística para Psicología, ADE y Ciencias Sociales](/clases-particulares/estadistica-psicologia-ade/).
 `,Ke=`---
 title: Qué son las derivadas y para qué se utilizan
+seoTitle: "Derivadas: qué son, para qué sirven y ejemplos"
 date: 2026-06-19
-updated: 2026-06-19
+updated: 2026-10-29
 description: Una guía clara para entender las derivadas como pendiente, ritmo de cambio y herramienta para optimizar funciones.
 tag: Cálculo
 category: Matemáticas universitarias
@@ -20495,6 +20511,8 @@ image: /favicon.svg
 Una derivada mide **cómo cambia una magnitud cuando cambia otra**. En una gráfica, esa idea se ve como la pendiente de la curva en un punto concreto. En un problema real, puede representar velocidad, crecimiento, coste marginal, sensibilidad de un modelo o el punto donde una función deja de subir y empieza a bajar.
 
 La dificultad no está solo en aplicar reglas. Está en entender qué pregunta responde la derivada.
+
+> **Respuesta directa.** Una derivada es el ritmo de cambio instantáneo de una función. Sirve para calcular pendientes, velocidades, tasas de crecimiento y puntos máximos o mínimos. Su valor no solo se calcula: debe interpretarse dentro del problema y con las unidades correspondientes.
 
 ## La idea básica
 
@@ -20590,8 +20608,9 @@ Si solo practicas reglas, cualquier enunciado nuevo parece distinto. Si entiende
 Puedes continuar con [qué son las integrales y para qué se utilizan](/blog/que-son-las-integrales-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
 `,Xe=`---
 title: Qué son las integrales y para qué se utilizan
+seoTitle: "Integrales: qué son, para qué sirven y ejemplos"
 date: 2026-06-21
-updated: 2026-08-12
+updated: 2026-10-29
 description: Una explicación práctica de las integrales como acumulación, área bajo la curva y herramienta para medir cantidades totales.
 tag: Cálculo
 category: Matemáticas universitarias
@@ -20603,6 +20622,8 @@ image: /favicon.svg
 Una integral mide **acumulación**. Si la derivada responde a "a qué ritmo cambia algo", la integral responde a "cuánto se ha acumulado en total".
 
 Por eso las integrales aparecen cuando queremos calcular áreas, distancias recorridas, trabajo, masa, probabilidad acumulada, consumo total o cualquier cantidad que se obtiene sumando pequeñas contribuciones.
+
+> **Respuesta directa.** Una integral suma contribuciones infinitesimales para obtener una cantidad total. Sirve para calcular áreas, desplazamientos, trabajo, masa o probabilidad acumulada. La integral indefinida busca primitivas; la definida evalúa una acumulación entre dos límites.
 
 ## La idea geométrica
 
@@ -20827,8 +20848,9 @@ El software cambia; el razonamiento estadístico permanece.
 Para decidir qué análisis hacer antes de abrir ningún programa, lee [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
 `,Ye=`---
 title: Regla de L'Hôpital: cuándo utilizarla y cuándo no
+seoTitle: "Regla de L'Hôpital: cuándo usarla, condiciones y errores"
 date: 2026-08-23
-updated: 2026-08-23
+updated: 2026-10-29
 description: Aprende cuándo se puede aplicar la regla de L'Hôpital, cómo transformar otras indeterminaciones y qué errores evitar con ejercicios resueltos.
 tag: Cálculo
 category: Matemáticas universitarias
@@ -20840,6 +20862,8 @@ image: /favicon.svg
 La regla de L'Hôpital se aplica a cocientes cuya sustitución produce las formas indeterminadas $0/0$ o $\\infty/\\infty$. Permite sustituir el límite de un cociente de funciones por el límite del cociente de sus derivadas, siempre que se cumplan sus hipótesis.
 
 No sirve directamente para $1/0$, $0\\cdot\\infty$, $\\infty-\\infty$ ni potencias indeterminadas. Estas formas deben transformarse primero.
+
+> **Respuesta directa.** L'Hôpital solo se aplica directamente a cocientes que producen \\(0/0\\) o \\(\\infty/\\infty\\). Comprueba la forma, deriva numerador y denominador por separado y vuelve a evaluar. En productos, diferencias o potencias indeterminadas, transforma primero la expresión.
 
 ## Qué afirma la regla
 
@@ -22473,5 +22497,5 @@ En una entrevista no basta con enseñar código. Tienes que explicar cómo pensa
 La parte dura no es solo el temario. Es mantener continuidad cuando aparecen dudas, cansancio o comparación con perfiles más avanzados. Por eso conviene revisar progreso cada semana y cerrar entregables pequeños.
 
 Si estás empezando desde cero, puedes leer [Python y SQL para empezar en datos](/blog/python-y-sql-para-empezar-en-datos/) o revisar [clases de programación universitaria y fundamentos](/clases-particulares/programacion-universidad/).
-`;function an(e){const n=/^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(e);if(!n)return{data:{},body:e.trim()};const i={};for(const a of n[1].split(`
-`)){const s=a.indexOf(":");if(s===-1)continue;const o=a.slice(0,s).trim();let r=a.slice(s+1).trim();(r.startsWith('"')&&r.endsWith('"')||r.startsWith("'")&&r.endsWith("'"))&&(r=r.slice(1,-1)),o&&(i[o]=r)}return{data:i,body:e.slice(n[0].length).trim()}}function on(e){const n=e.trim().split(/\s+/).filter(Boolean).length;return Math.max(1,Math.round(n/200))}const rn=Object.assign({"../content/blog/algebra-lineal-universidad-que-estudiar-primero-errores.md":c,"../content/blog/area-entre-dos-curvas-ejercicios-resueltos.md":l,"../content/blog/bachillerato-fisica-quimica-mol-estequiometria.md":d,"../content/blog/bachillerato-matematicas-funciones-representacion.md":u,"../content/blog/bachillerato-matematicas-trigonometria-triangulos.md":m,"../content/blog/bachillerato-quimica-reactivo-limitante-rendimiento-pureza.md":p,"../content/blog/cambio-variables-jacobiano-integrales-dobles.md":$,"../content/blog/circuitos-corriente-continua-problemas-resueltos-universidad.md":x,"../content/blog/como-aprobar-calculo-i-ingenieria-seis-semanas.md":g,"../content/blog/como-aprobar-estadistica-psicologia-sin-base-matematica.md":f,"../content/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas.md":b,"../content/blog/como-aprobar-matematicas-i-ade-economia.md":v,"../content/blog/como-estudiar-matematicas-sin-memorizar.md":y,"../content/blog/como-preparar-ib-mathematics-aa-ai.md":q,"../content/blog/como-preparar-pau-matematicas-ii.md":h,"../content/blog/como-resolver-limites-indeterminaciones-ejercicios.md":E,"../content/blog/continuidad-derivabilidad-diferencias-problemas.md":_,"../content/blog/derivacion-implicita-ejercicios-resueltos.md":j,"../content/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos.md":C,"../content/blog/derivadas-parciales-gradiente-ejercicios.md":z,"../content/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes.md":S,"../content/blog/econometria-desde-cero-interpretar-regresion.md":L,"../content/blog/economia-ade-matematicas-sin-perderse.md":P,"../content/blog/ecuaciones-diferenciales-identificar-metodo-correcto.md":A,"../content/blog/errores-comunes-inferencia-estadistica.md":U,"../content/blog/eso-fisica-quimica-densidad-presion-flotacion.md":D,"../content/blog/eso-fisica-quimica-electricidad-circuitos.md":R,"../content/blog/eso-fisica-quimica-formulacion-inorganica.md":M,"../content/blog/eso-fisica-quimica-mezclas-disoluciones-separacion.md":I,"../content/blog/eso-matematicas-ecuaciones-sistemas-estudiar.md":w,"../content/blog/eso-matematicas-porcentajes-interes-compuesto.md":N,"../content/blog/eso-matematicas-probabilidad-estudiar.md":F,"../content/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja.md":T,"../content/blog/estadistica-descriptiva-eso-media-mediana-moda.md":O,"../content/blog/estadistica-desde-cero-para-elegir-contrastes.md":Q,"../content/blog/estequiometria-universitaria-ejercicios-resueltos.md":B,"../content/blog/estudio-completo-funcion-paso-a-paso.md":H,"../content/blog/fisica-y-quimica-como-plantear-problemas.md":k,"../content/blog/gcse-chemistry-bonding-revision-en.md":G,"../content/blog/gcse-chemistry-bonding-revision.md":V,"../content/blog/gcse-chemistry-electrolysis-electrode-products-en.md":W,"../content/blog/gcse-chemistry-electrolysis-electrode-products.md":K,"../content/blog/gcse-chemistry-equations-moles-revision-en.md":X,"../content/blog/gcse-chemistry-equations-moles-revision.md":J,"../content/blog/gcse-maths-algebra-graphs-revision-en.md":Y,"../content/blog/gcse-maths-algebra-graphs-revision.md":Z,"../content/blog/gcse-maths-histograms-cumulative-frequency-en.md":ee,"../content/blog/gcse-maths-histograms-cumulative-frequency.md":ne,"../content/blog/gcse-maths-revision-plan-foundation-higher-en.md":ae,"../content/blog/gcse-maths-revision-plan-foundation-higher.md":ie,"../content/blog/gcse-maths-trigonometry-bearings-en.md":oe,"../content/blog/gcse-maths-trigonometry-bearings.md":re,"../content/blog/gcse-physics-electricity-revision-en.md":se,"../content/blog/gcse-physics-electricity-revision.md":te,"../content/blog/gcse-physics-energy-work-power-efficiency-en.md":ce,"../content/blog/gcse-physics-energy-work-power-efficiency.md":le,"../content/blog/gcse-physics-forces-exam-questions-en.md":de,"../content/blog/gcse-physics-forces-exam-questions.md":ue,"../content/blog/gcse-physics-radioactivity-half-life-en.md":me,"../content/blog/gcse-physics-radioactivity-half-life.md":pe,"../content/blog/gravitacion-eso-ley-universal-peso-ejercicios.md":$e,"../content/blog/ib-gcse-como-preparar-examenes-internacionales.md":xe,"../content/blog/integracion-por-partes-formula-ejercicios-resueltos.md":ge,"../content/blog/integracion-por-sustitucion-cambio-variable-ejercicios.md":fe,"../content/blog/integral-definida-e-indefinida-diferencias-ejemplos.md":be,"../content/blog/integrales-dobles-ejercicios-resueltos.md":ve,"../content/blog/integrales-funciones-racionales-fracciones-parciales.md":ye,"../content/blog/integrales-impropias-convergencia-ejercicios.md":qe,"../content/blog/matrices-determinantes-sistemas-ecuaciones-guia.md":he,"../content/blog/maximos-minimos-varias-variables-ejercicios.md":Ee,"../content/blog/metodos-de-integracion-como-elegir.md":_e,"../content/blog/microeconomia-i-tipos-problemas-examen.md":je,"../content/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios.md":Ce,"../content/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios.md":ze,"../content/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo.md":Se,"../content/blog/pau-ccss-programacion-lineal-problemas.md":Le,"../content/blog/pau-corregir-simulacros-plan-estudio.md":Pe,"../content/blog/pau-fisica-campo-gravitatorio-satelites.md":Ae,"../content/blog/pau-fisica-electromagnetismo-estudiar.md":Ue,"../content/blog/pau-fisica-ondas-resolver-problemas.md":De,"../content/blog/pau-matematicas-ii-vectores-rectas-planos.md":Re,"../content/blog/pau-matematicas-matrices-determinantes-gauss.md":Me,"../content/blog/pau-matematicas-probabilidad-distribuciones.md":Ie,"../content/blog/pau-matematicas-sistemas-parametro-rouche-frobenius.md":we,"../content/blog/pau-quimica-acido-base-ph-calculos.md":Ne,"../content/blog/pau-quimica-equilibrio-quimico-estudiar.md":Fe,"../content/blog/pau-quimica-organica-mapa-reacciones.md":Te,"../content/blog/pau-quimica-pilas-electroquimica-redox.md":Oe,"../content/blog/preparar-pau-desde-verano-plan-septiembre.md":Qe,"../content/blog/preparar-selectividad-con-calendario.md":Be,"../content/blog/primer-proyecto-python-principiantes-datos.md":He,"../content/blog/probabilidad-condicionada-bayes-problemas-resueltos.md":ke,"../content/blog/problemas-optimizacion-derivadas-ejercicios-resueltos.md":Ge,"../content/blog/python-y-sql-para-empezar-en-datos.md":Ve,"../content/blog/que-prueba-estadistica-utilizar-guia-test-correcto.md":We,"../content/blog/que-son-las-derivadas-y-para-que-se-utilizan.md":Ke,"../content/blog/que-son-las-integrales-y-para-que-se-utilizan.md":Xe,"../content/blog/r-spss-jamovi-python-programa-estadistico-universidad.md":Je,"../content/blog/regla-lhopital-cuando-usarla-ejercicios.md":Ye,"../content/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados.md":Ze,"../content/blog/teorema-fundamental-calculo-ejemplos-ejercicios.md":en,"../content/blog/transicion-al-sector-it-en-6-meses.md":nn}),t=Object.entries(rn).map(([e,n])=>{const i=e.split("/").pop().replace(/\.md$/,""),{data:a,body:s}=an(n);return{slug:i,title:a.title??i,date:a.date??"",updated:a.updated??a.date??"",description:a.description??"",tag:a.tag??"Blog",category:a.category??a.tag??"Blog",image:a.image??"/favicon.svg",language:a.language==="en"?"en":"es",translation:a.translation??"",relatedService:a.relatedService??"/contacto/",relatedPosts:a.relatedPosts?a.relatedPosts.split(",").map(o=>o.trim()).filter(Boolean):[],readingMinutes:on(s),body:s}}).sort((e,n)=>e.date<n.date?1:e.date>n.date?-1:0);function tn(){return t}function cn(e,n=9){return Math.max(1,Math.ceil(e.length/n))}function ln(e,n,i=9){const a=(n-1)*i;return e.slice(a,a+i)}function sn(e){return t.find(n=>n.slug===e)}function dn(e){return t.filter(n=>n.category===e)}function un(e,n=3){const i=e.relatedPosts.map(o=>sn(o)).filter(o=>!!o),s=[...t.filter(o=>o.language===e.language),...t].filter(o=>o.slug!==e.slug&&!i.some(r=>r.slug===o.slug));return[...i,...s].slice(0,n)}function mn(e,n="es"){if(!e)return"";const i=new Date(e);return Number.isNaN(i.getTime())?e:i.toLocaleDateString(n==="en"?"en-GB":"es-ES",{day:"numeric",month:"long",year:"numeric"})}export{cn as a,sn as b,ln as c,tn as d,un as e,mn as f,dn as g};
+`;function an(e){const a=/^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(e);if(!a)return{data:{},body:e.trim()};const i={};for(const n of a[1].split(`
+`)){const s=n.indexOf(":");if(s===-1)continue;const o=n.slice(0,s).trim();let r=n.slice(s+1).trim();(r.startsWith('"')&&r.endsWith('"')||r.startsWith("'")&&r.endsWith("'"))&&(r=r.slice(1,-1)),o&&(i[o]=r)}return{data:i,body:e.slice(a[0].length).trim()}}function on(e){const a=e.trim().split(/\s+/).filter(Boolean).length;return Math.max(1,Math.round(a/200))}const rn=Object.assign({"../content/blog/algebra-lineal-universidad-que-estudiar-primero-errores.md":c,"../content/blog/area-entre-dos-curvas-ejercicios-resueltos.md":l,"../content/blog/bachillerato-fisica-quimica-mol-estequiometria.md":d,"../content/blog/bachillerato-matematicas-funciones-representacion.md":u,"../content/blog/bachillerato-matematicas-trigonometria-triangulos.md":m,"../content/blog/bachillerato-quimica-reactivo-limitante-rendimiento-pureza.md":p,"../content/blog/cambio-variables-jacobiano-integrales-dobles.md":$,"../content/blog/circuitos-corriente-continua-problemas-resueltos-universidad.md":x,"../content/blog/como-aprobar-calculo-i-ingenieria-seis-semanas.md":g,"../content/blog/como-aprobar-estadistica-psicologia-sin-base-matematica.md":f,"../content/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas.md":b,"../content/blog/como-aprobar-matematicas-i-ade-economia.md":v,"../content/blog/como-estudiar-matematicas-sin-memorizar.md":y,"../content/blog/como-preparar-ib-mathematics-aa-ai.md":q,"../content/blog/como-preparar-pau-matematicas-ii.md":h,"../content/blog/como-resolver-limites-indeterminaciones-ejercicios.md":E,"../content/blog/continuidad-derivabilidad-diferencias-problemas.md":_,"../content/blog/derivacion-implicita-ejercicios-resueltos.md":j,"../content/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos.md":C,"../content/blog/derivadas-parciales-gradiente-ejercicios.md":z,"../content/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes.md":S,"../content/blog/econometria-desde-cero-interpretar-regresion.md":L,"../content/blog/economia-ade-matematicas-sin-perderse.md":P,"../content/blog/ecuaciones-diferenciales-identificar-metodo-correcto.md":A,"../content/blog/errores-comunes-inferencia-estadistica.md":U,"../content/blog/eso-fisica-quimica-densidad-presion-flotacion.md":D,"../content/blog/eso-fisica-quimica-electricidad-circuitos.md":R,"../content/blog/eso-fisica-quimica-formulacion-inorganica.md":M,"../content/blog/eso-fisica-quimica-mezclas-disoluciones-separacion.md":I,"../content/blog/eso-matematicas-ecuaciones-sistemas-estudiar.md":w,"../content/blog/eso-matematicas-porcentajes-interes-compuesto.md":N,"../content/blog/eso-matematicas-probabilidad-estudiar.md":F,"../content/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja.md":T,"../content/blog/estadistica-descriptiva-eso-media-mediana-moda.md":O,"../content/blog/estadistica-desde-cero-para-elegir-contrastes.md":H,"../content/blog/estequiometria-universitaria-ejercicios-resueltos.md":Q,"../content/blog/estudio-completo-funcion-paso-a-paso.md":B,"../content/blog/fisica-y-quimica-como-plantear-problemas.md":k,"../content/blog/gcse-chemistry-bonding-revision-en.md":G,"../content/blog/gcse-chemistry-bonding-revision.md":V,"../content/blog/gcse-chemistry-electrolysis-electrode-products-en.md":W,"../content/blog/gcse-chemistry-electrolysis-electrode-products.md":K,"../content/blog/gcse-chemistry-equations-moles-revision-en.md":X,"../content/blog/gcse-chemistry-equations-moles-revision.md":J,"../content/blog/gcse-maths-algebra-graphs-revision-en.md":Y,"../content/blog/gcse-maths-algebra-graphs-revision.md":Z,"../content/blog/gcse-maths-histograms-cumulative-frequency-en.md":ee,"../content/blog/gcse-maths-histograms-cumulative-frequency.md":ne,"../content/blog/gcse-maths-revision-plan-foundation-higher-en.md":ae,"../content/blog/gcse-maths-revision-plan-foundation-higher.md":ie,"../content/blog/gcse-maths-trigonometry-bearings-en.md":oe,"../content/blog/gcse-maths-trigonometry-bearings.md":re,"../content/blog/gcse-physics-electricity-revision-en.md":se,"../content/blog/gcse-physics-electricity-revision.md":te,"../content/blog/gcse-physics-energy-work-power-efficiency-en.md":ce,"../content/blog/gcse-physics-energy-work-power-efficiency.md":le,"../content/blog/gcse-physics-forces-exam-questions-en.md":de,"../content/blog/gcse-physics-forces-exam-questions.md":ue,"../content/blog/gcse-physics-radioactivity-half-life-en.md":me,"../content/blog/gcse-physics-radioactivity-half-life.md":pe,"../content/blog/gravitacion-eso-ley-universal-peso-ejercicios.md":$e,"../content/blog/ib-gcse-como-preparar-examenes-internacionales.md":xe,"../content/blog/integracion-por-partes-formula-ejercicios-resueltos.md":ge,"../content/blog/integracion-por-sustitucion-cambio-variable-ejercicios.md":fe,"../content/blog/integral-definida-e-indefinida-diferencias-ejemplos.md":be,"../content/blog/integrales-dobles-ejercicios-resueltos.md":ve,"../content/blog/integrales-funciones-racionales-fracciones-parciales.md":ye,"../content/blog/integrales-impropias-convergencia-ejercicios.md":qe,"../content/blog/matrices-determinantes-sistemas-ecuaciones-guia.md":he,"../content/blog/maximos-minimos-varias-variables-ejercicios.md":Ee,"../content/blog/metodos-de-integracion-como-elegir.md":_e,"../content/blog/microeconomia-i-tipos-problemas-examen.md":je,"../content/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios.md":Ce,"../content/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios.md":ze,"../content/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo.md":Se,"../content/blog/pau-ccss-programacion-lineal-problemas.md":Le,"../content/blog/pau-corregir-simulacros-plan-estudio.md":Pe,"../content/blog/pau-fisica-campo-gravitatorio-satelites.md":Ae,"../content/blog/pau-fisica-electromagnetismo-estudiar.md":Ue,"../content/blog/pau-fisica-ondas-resolver-problemas.md":De,"../content/blog/pau-matematicas-ii-vectores-rectas-planos.md":Re,"../content/blog/pau-matematicas-matrices-determinantes-gauss.md":Me,"../content/blog/pau-matematicas-probabilidad-distribuciones.md":Ie,"../content/blog/pau-matematicas-sistemas-parametro-rouche-frobenius.md":we,"../content/blog/pau-quimica-acido-base-ph-calculos.md":Ne,"../content/blog/pau-quimica-equilibrio-quimico-estudiar.md":Fe,"../content/blog/pau-quimica-organica-mapa-reacciones.md":Te,"../content/blog/pau-quimica-pilas-electroquimica-redox.md":Oe,"../content/blog/preparar-pau-desde-verano-plan-septiembre.md":He,"../content/blog/preparar-selectividad-con-calendario.md":Qe,"../content/blog/primer-proyecto-python-principiantes-datos.md":Be,"../content/blog/probabilidad-condicionada-bayes-problemas-resueltos.md":ke,"../content/blog/problemas-optimizacion-derivadas-ejercicios-resueltos.md":Ge,"../content/blog/python-y-sql-para-empezar-en-datos.md":Ve,"../content/blog/que-prueba-estadistica-utilizar-guia-test-correcto.md":We,"../content/blog/que-son-las-derivadas-y-para-que-se-utilizan.md":Ke,"../content/blog/que-son-las-integrales-y-para-que-se-utilizan.md":Xe,"../content/blog/r-spss-jamovi-python-programa-estadistico-universidad.md":Je,"../content/blog/regla-lhopital-cuando-usarla-ejercicios.md":Ye,"../content/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados.md":Ze,"../content/blog/teorema-fundamental-calculo-ejemplos-ejercicios.md":en,"../content/blog/transicion-al-sector-it-en-6-meses.md":nn}),t=Object.entries(rn).map(([e,a])=>{const i=e.split("/").pop().replace(/\.md$/,""),{data:n,body:s}=an(a);return{slug:i,title:n.title??i,seoTitle:n.seoTitle??"",date:n.date??"",updated:n.updated??n.date??"",description:n.description??"",tag:n.tag??"Blog",category:n.category??n.tag??"Blog",image:n.image??"/favicon.svg",language:n.language==="en"?"en":"es",translation:n.translation??"",relatedService:n.relatedService??"/contacto/",relatedPosts:n.relatedPosts?n.relatedPosts.split(",").map(o=>o.trim()).filter(Boolean):[],readingMinutes:on(s),body:s}}).sort((e,a)=>e.date<a.date?1:e.date>a.date?-1:0);function tn(){return t}function cn(e,a=9){return Math.max(1,Math.ceil(e.length/a))}function ln(e,a,i=9){const n=(a-1)*i;return e.slice(n,n+i)}function sn(e){return t.find(a=>a.slug===e)}function dn(e){return t.filter(a=>a.category===e)}function un(e,a=3){const i=e.relatedPosts.map(o=>sn(o)).filter(o=>!!o),s=[...t.filter(o=>o.language===e.language),...t].filter(o=>o.slug!==e.slug&&!i.some(r=>r.slug===o.slug));return[...i,...s].slice(0,a)}function mn(e,a="es"){if(!e)return"";const i=new Date(e);return Number.isNaN(i.getTime())?e:i.toLocaleDateString(a==="en"?"en-GB":"es-ES",{day:"numeric",month:"long",year:"numeric"})}export{cn as a,sn as b,ln as c,tn as d,un as e,mn as f,dn as g};

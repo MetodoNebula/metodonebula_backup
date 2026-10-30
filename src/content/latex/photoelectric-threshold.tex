@@ -1,0 +1,18 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\definecolor{nebula}{HTML}{6366F1}
+\definecolor{spark}{HTML}{14B8A6}
+\definecolor{ink}{HTML}{334155}
+\begin{document}
+\begin{tikzpicture}[font=\sffamily,>=Latex,x=.9cm,y=.85cm]
+  \draw[->,ink!55] (0,0)--(8,0) node[right] {$f$};
+  \draw[->,ink!55] (0,0)--(0,6) node[above] {$K_{\max}$};
+  \draw[very thick,nebula] (2,0)--(7.5,5);
+  \fill[spark] (2,0) circle (2.8pt) node[below=5pt] {$f_0$};
+  \draw[dashed,ink!35] (0,1.8)--(4,1.8)--(4,0);
+  \node[nebula,draw=nebula!45,rounded corners=4pt,fill=white,inner sep=6pt]
+    at (5.25,5.25) {$K_{\max}=hf-\phi$};
+  \node[draw=spark,rounded corners=4pt,fill=spark!6,inner sep=6pt] at (2.0,4.7) {$\phi=hf_0$};
+\end{tikzpicture}
+\end{document}

@@ -909,6 +909,165 @@ Trabaja primero polinomios, después racionales y finalmente funciones con raíc
 
 El campus virtual de Método Nebula recorre funciones, límites, derivadas y aplicaciones con teoría, ejemplos y ejercicios graduados. Si quieres detectar si el bloqueo es algebraico, gráfico o de cálculo, utiliza el botón de contacto y convertimos el diagnóstico en una ruta concreta.
 `,m=`---
+title: "Sucesiones y progresiones en Bachillerato: cómo distinguir crecimiento lineal, exponencial y sumas"
+seoTitle: "Sucesiones y progresiones en Bachillerato"
+date: "2026-10-16"
+updated: "2026-10-16"
+description: "Domina sucesiones aritméticas y geométricas en Bachillerato: término general, sumas, crecimiento, interés y ejercicios."
+tag: "Matemáticas Bachillerato"
+category: "Matemáticas ESO y Bachillerato"
+relatedService: "/clases-particulares/matematicas-universidad/"
+relatedPosts: "eso-matematicas-porcentajes-interes-compuesto,bachillerato-matematicas-funciones-representacion,como-estudiar-matematicas-sin-memorizar"
+image: "/assets/latex/sequences-growth.svg"
+---
+
+Una sucesión aritmética y una geométrica pueden empezar con números parecidos, pero responden a modelos distintos. La primera añade una cantidad constante; la segunda multiplica por un factor constante.
+
+> **Respuesta directa.** Si las diferencias son constantes, usa $a_n=a_1+(n-1)d$. Si los cocientes son constantes, usa $a_n=a_1r^{n-1}$. Para sumar términos, identifica primero el tipo y el número de términos.
+
+![Comparación del crecimiento aritmético lineal y geométrico exponencial](/assets/latex/sequences-growth.svg)
+
+## Progresión aritmética
+
+$$
+a_n=a_1+(n-1)d.
+$$
+
+La suma de los primeros $n$ términos es:
+
+$$
+S_n=\\frac n2(a_1+a_n)
+=\\frac n2[2a_1+(n-1)d].
+$$
+
+### Ejemplo
+
+En $5,8,11,\\ldots$, $d=3$:
+
+$$
+a_{20}=5+19(3)=62.
+$$
+
+## Progresión geométrica
+
+$$
+a_n=a_1r^{n-1}.
+$$
+
+Si $r\\neq1$:
+
+$$
+S_n=a_1\\frac{r^n-1}{r-1}.
+$$
+
+Para $|r|<1$, la suma infinita converge:
+
+$$
+S_\\infty=\\frac{a_1}{1-r}.
+$$
+
+## Crecimiento porcentual
+
+Un aumento del 4 % por período corresponde a:
+
+$$
+r=1.04.
+$$
+
+Tras $n$ períodos:
+
+$$
+C_n=C_0(1.04)^n.
+$$
+
+Sumar $4$ cada año no representa un 4 % salvo en un caso muy particular.
+
+## Encontrar una posición
+
+Si $a_n=7+4(n-1)$ y queremos $a_n=95$:
+
+$$
+95=7+4(n-1)
+\\Rightarrow88=4(n-1)
+\\Rightarrow n=23.
+$$
+
+La posición debe ser un número natural; si el despeje no lo es, el valor no pertenece a la sucesión.
+
+## Modelos recurrentes
+
+Una sucesión también puede definirse por recurrencia:
+
+$$
+a_{n+1}=a_n+d
+$$
+
+o:
+
+$$
+a_{n+1}=ra_n.
+$$
+
+La recurrencia explica cómo avanzar; el término general permite ir directamente a cualquier posición.
+
+## Deducir parámetros a partir de dos términos
+
+En una progresión aritmética, si $a_4=17$ y $a_{10}=41$:
+
+$$
+a_1+3d=17,
+\\qquad
+a_1+9d=41.
+$$
+
+Al restar, $6d=24$, luego $d=4$ y $a_1=5$. Restar ecuaciones elimina el término inicial y evita probar valores.
+
+En una geométrica con términos positivos, si $a_3=12$ y $a_6=96$:
+
+$$
+\\frac{a_6}{a_3}=r^3=8\\Rightarrow r=2,
+\\qquad
+a_1=\\frac{12}{2^2}=3.
+$$
+
+El cociente entre términos separa el efecto acumulado de la razón.
+
+## Sumas en problemas reales
+
+Si una persona ahorra 50 € el primer mes y aumenta la aportación mensual en 10 €, las aportaciones forman una progresión aritmética. En 12 meses:
+
+$$
+a_{12}=50+11(10)=160,
+$$
+
+$$
+S_{12}=\\frac{12}{2}(50+160)=1260\\ \\text{€}.
+$$
+
+El término $a_{12}$ es solo la aportación del último mes; $S_{12}$ es el total acumulado. Confundirlos es uno de los fallos más frecuentes en enunciados contextualizados.
+
+En un capital con interés compuesto, en cambio, cada valor se obtiene multiplicando el anterior. Si además se realizan aportaciones periódicas, aparece una suma geométrica: cada depósito permanece invertido durante un número distinto de períodos. Dibujar una línea temporal ayuda a asignar el exponente correcto.
+
+## Interpretación gráfica y límites
+
+Una aritmética se representa mediante puntos alineados, aunque la variable $n$ solo toma valores naturales. Una geométrica con $r>1$ crece de forma exponencial; con $0<r<1$, decrece hacia cero. Si $r<0$, los signos alternan, por lo que la gráfica no es una curva exponencial positiva sencilla.
+
+La suma infinita solo existe para $|r|<1$ porque los términos deben acercarse a cero. Esa condición es matemática, no un detalle opcional de la fórmula.
+
+## Errores frecuentes
+
+- Usar $n$ en vez de $n-1$.
+- Confundir diferencia con razón.
+- Aplicar la suma infinita cuando $|r|\\geq1$.
+- Interpretar porcentaje como incremento fijo.
+- No comprobar si la posición obtenida es entera.
+
+## Estrategia de examen
+
+Construye una tabla con $n$, $a_n$, diferencia y cociente. El patrón correcto suele hacerse visible antes de elegir fórmula.
+
+El campus de Método Nebula desarrolla sucesiones, funciones e interés compuesto con teoría y ejercicios graduados. Contacta para conectar fórmulas, gráficas y problemas contextualizados.
+`,p=`---
 title: "Trigonometría en Bachillerato: cómo elegir entre seno, coseno y tangente sin probar fórmulas"
 date: "2026-10-20"
 updated: "2026-10-20"
@@ -1039,7 +1198,91 @@ La suma de ángulos, la desigualdad triangular y la correspondencia entre el may
 - Redondear antes del resultado final.
 
 El campus virtual de Método Nebula desarrolla trigonometría desde triángulos rectángulos hasta leyes de senos y cosenos, identidades y ecuaciones, con ejemplos y práctica gradual. El botón de contacto permite solicitar una ruta basada en la estructura de cada problema.
-`,p=`---
+`,$=`---
+title: "Configuración electrónica y tabla periódica en Bachillerato: cómo justificar tendencias sin memorizar flechas"
+seoTitle: "Configuración electrónica y periodicidad en Bachillerato"
+date: "2026-10-21"
+updated: "2026-10-21"
+description: "Entiende configuración electrónica y propiedades periódicas: radio, ionización, electronegatividad, apantallamiento e iones."
+tag: "Química Bachillerato"
+category: "Física y Química"
+relatedService: "/clases-particulares/quimica/"
+relatedPosts: "pau-quimica-estructura-atomica-configuracion,pau-quimica-equilibrio-quimico-estudiar,bachillerato-fisica-quimica-mol-estequiometria"
+image: "/assets/latex/periodic-trends.svg"
+---
+
+Las flechas de tendencias periódicas se olvidan cuando no se entiende qué fuerza compite con qué distancia. La tabla se vuelve predecible al combinar carga nuclear efectiva, nivel electrónico y apantallamiento.
+
+> **Respuesta directa.** A lo largo de un período aumenta la carga nuclear efectiva y el radio suele disminuir; energía de ionización y electronegatividad aumentan. Al bajar en un grupo aparecen nuevos niveles: crece el radio y suele disminuir la atracción sobre el electrón externo.
+
+![Direcciones generales del radio atómico, energía de ionización y electronegatividad](/assets/latex/periodic-trends.svg)
+
+## Configuración y posición
+
+La configuración externa ayuda a identificar grupo y bloque. Por ejemplo:
+
+$$
+\\mathrm{Cl}:[Ne]\\,3s^2\\,3p^5.
+$$
+
+Tiene siete electrones de valencia y pertenece al bloque $p$.
+
+## Radio atómico
+
+A lo largo de un período, los electrones se incorporan al mismo nivel principal mientras aumenta la carga nuclear. La atracción efectiva crece y el radio disminuye.
+
+Al bajar en un grupo se añade un nivel completo, aumenta distancia y apantallamiento, y el radio crece.
+
+## Energía de ionización
+
+Es la energía necesaria para extraer un mol de electrones de un mol de átomos gaseosos:
+
+$$
+\\mathrm{X(g)\\to X^+(g)+e^-}.
+$$
+
+Debe mencionarse estado gaseoso y un mol. Una atracción mayor suele elevar la energía requerida.
+
+## Electronegatividad
+
+Mide la tendencia de un átomo enlazado a atraer densidad electrónica. No es exactamente lo mismo que afinidad electrónica o energía de ionización, aunque comparten tendencias generales.
+
+## Iones y tamaño
+
+Un catión suele ser menor que su átomo porque pierde electrones y disminuye repulsión; a veces desaparece un nivel completo. Un anión suele ser mayor porque aumenta la repulsión electrónica.
+
+En una serie isoelectrónica, más protones implican menor radio.
+
+## Ejemplo razonado
+
+Compara $\\mathrm{Na^+}$, $\\mathrm{Mg^{2+}}$ y $\\mathrm{F^-}$. Los tres tienen 10 electrones. El núcleo de $\\mathrm{Mg^{2+}}$ tiene más protones y atrae con mayor fuerza, por lo que presenta el menor radio.
+
+## Carga nuclear efectiva: la justificación completa
+
+Los electrones internos apantallan parte de la atracción del núcleo, pero el apantallamiento no anula toda la carga adicional. Al avanzar en un período, protones y electrones se añaden, pero los electrones de valencia permanecen aproximadamente en el mismo nivel. Por eso aumenta la carga nuclear efectiva que sienten y el radio tiende a disminuir.
+
+Al descender en un grupo domina otro cambio: se ocupa un nivel principal más alejado. La mayor distancia y el apantallamiento adicional reducen la atracción sobre el electrón externo, aunque el núcleo tenga más protones. Una explicación evaluable debe nombrar las tres piezas —carga, distancia y apantallamiento— y decidir cuál domina.
+
+## Ionizaciones sucesivas y electrones de valencia
+
+Las energías de ionización sucesivas siempre aumentan porque queda un ion cada vez más positivo. Un salto especialmente grande revela que se ha empezado a extraer electrones de una capa interna. Si un elemento muestra un gran salto entre la segunda y la tercera ionización, es razonable deducir que posee dos electrones de valencia.
+
+Esta evidencia conecta datos experimentales y posición periódica. No se trata solo de recordar un grupo: se interpreta dónde cambia la configuración electrónica. También explica por qué ciertos iones son más estables que otros dentro de un modelo sencillo de capa completa.
+
+## Excepciones útiles
+
+Las irregularidades en energía de ionización pueden explicarse por subniveles y apareamiento. No invalidan el modelo; muestran que la energía electrónica no depende solo del período.
+
+## Errores frecuentes
+
+- Justificar todo únicamente con el número de protones.
+- Confundir átomo mayor con ion mayor.
+- Afirmar que electronegatividad es “ganar electrones”.
+- Escribir configuraciones sin aplicar Hund.
+- Memorizar flechas sin nombrar distancia y apantallamiento.
+
+El campus de Método Nebula enlaza estructura electrónica, periodicidad, enlace y reactividad mediante teoría y problemas. Contacta para convertir las tendencias en explicaciones evaluables.
+`,g=`---
 title: "Reactivo limitante, pureza y rendimiento: el problema de estequiometría que resume Bachillerato"
 date: "2026-10-05"
 updated: "2026-10-05"
@@ -1172,7 +1415,7 @@ La masa de producto puede superar la masa del limitante porque incorpora átomos
 - Confundir masa teórica con masa real.
 
 El campus virtual de Método Nebula desarrolla mol, masas molares, limitante, pureza, rendimiento, gases y disoluciones mediante ejemplos guiados y problemas acumulativos. El botón de contacto permite solicitar una ruta que entrena la cadena completa hasta dar sentido a cada paso.
-`,$=`---
+`,f=`---
 title: "Cambio de variables y jacobiano en integrales dobles"
 date: "2026-09-06"
 updated: "2026-09-06"
@@ -2079,7 +2322,7 @@ Un signo negativo en una corriente no significa que el problema esté mal: signi
 - Confundir potencia con energía.
 
 Si estás preparando circuitos dentro de Física I o Electricidad, puedes revisar [clases particulares de Física para Bachillerato e Ingeniería](/clases-particulares/fisica-ingenieria/) y practicar primero la guía de [cómo plantear problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/).
-`,g=`---
+`,v=`---
 title: Cómo aprobar Cálculo I en primero de Ingeniería: plan de estudio de seis semanas
 date: 2026-06-13
 updated: 2026-08-12
@@ -2225,7 +2468,7 @@ La corrección profunda es la parte que más alumnos evitan. También es la que 
 Vas bien cuando puedes explicar qué método usar antes de empezar a operar, cuando detectas dominios y restricciones sin que te lo recuerden, y cuando tus soluciones tienen una línea narrativa clara: planteamiento, método, cálculo e interpretación.
 
 Si necesitas convertir este plan en un calendario adaptado a tu asignatura concreta, revisa la página de [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/) o [cuéntanos tu caso](/contacto/).
-`,f=`---
+`,b=`---
 title: Cómo aprobar Estadística en Psicología sin tener una buena base matemática
 date: 2026-07-08
 updated: 2026-07-08
@@ -2335,7 +2578,7 @@ Vas bien cuando puedes mirar un enunciado y decir:
 5. Cómo escribirías la conclusión.
 
 Para seguir con el mapa de decisión, lee [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,b=`---
+`,y=`---
 title: Cómo aprobar Física I en Ingeniería sin memorizar todas las fórmulas
 date: 2026-06-29
 updated: 2026-06-29
@@ -2468,7 +2711,7 @@ Si tienes un examen cerca, usa esta distribución:
 La clave está en mezclar temas en la última fase. En examen no te dicen "este problema es de energía"; tienes que reconocerlo.
 
 Si necesitas convertir tu temario en un plan de estudio concreto, revisa [clases particulares de Física para Bachillerato e Ingeniería](/clases-particulares/fisica-ingenieria/) o la guía de [cómo plantear problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/).
-`,v=`---
+`,h=`---
 title: Cómo aprobar Matemáticas I en ADE y Economía
 date: 2026-07-04
 updated: 2026-07-04
@@ -2608,7 +2851,7 @@ Si tienes poco tiempo:
 6. Días 13-14: simulacro y corrección de errores.
 
 Para reforzar este bloque con ejercicios adaptados a tu grado, revisa [clases particulares de Economía y ADE](/clases-particulares/economia-ade/) y la guía de [Economía y ADE sin perder el sentido económico](/blog/economia-ade-matematicas-sin-perderse/).
-`,y=`---
+`,q=`---
 title: Cómo estudiar matemáticas sin memorizar fórmulas
 date: 2026-05-20
 updated: 2026-05-20
@@ -2679,7 +2922,7 @@ La gráfica resume la idea: primero se construye la función, después se estudi
 Elige un ejercicio que te salió mal y aplícale las cuatro fases. No busques hacer veinte problemas. Haz uno solo, pero de verdad: explica cada paso, cambia un dato y revisa si el método sigue funcionando.
 
 Si el bloqueo aparece en matemáticas de ESO, Bachillerato, Cálculo, Álgebra, Ecuaciones Diferenciales u otra asignatura cuantitativa, revisa la página de [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/) o [cuéntanos tu caso](/contacto/) para plantear un diagnóstico.
-`,q=`---
+`,E=`---
 title: Cómo preparar IB Mathematics AA y AI: estrategia para estudiar y practicar
 date: 2026-07-21
 updated: 2026-07-21
@@ -2730,7 +2973,7 @@ No dejes los past papers para el final. Empieza separando preguntas por tema, co
 Si el tiempo es el problema, no aceleres a ciegas. Observa en qué te detienes: leer, decidir el método, operar o redactar. Cada atasco se entrena de manera distinta.
 
 Para organizar el trabajo de varias asignaturas, consulta la guía sobre [IB y GCSE con rúbrica y calendario](/blog/ib-gcse-como-preparar-examenes-internacionales/). Si quieres transformar tu programa y tus preguntas de práctica en un plan concreto, puedes ver las [clases particulares para IB y GCSE](/clases-particulares/gcse-ib/) o [contactar con Nebula](/contacto/).
-`,h=`---
+`,_=`---
 title: Cómo preparar Matemáticas II para la PAU: qué practicar y cómo corregir
 date: 2026-07-21
 updated: 2026-07-21
@@ -2796,7 +3039,7 @@ En las tres semanas previas, alterna tres días de bloques débiles, dos días d
 La señal de que avanzas no es que el examen “te suene”. Es que puedes decidir el método, ejecutar los pasos sin depender de una solución y explicar dónde comprobarías un resultado.
 
 Para planificar la preparación general, consulta [cómo organizar la Selectividad con un calendario](/blog/preparar-selectividad-con-calendario/). Si necesitas convertir tus modelos de PAU en un plan de trabajo y corrección adaptado a tu punto de partida, revisa las [clases particulares para Selectividad y PAU](/clases-particulares/selectividad/) o [cuéntanos tu caso](/contacto/).
-`,E=`---
+`,j=`---
 title: Cómo resolver límites: indeterminaciones y ejercicios
 seoTitle: "Límites e indeterminaciones: método y ejercicios resueltos"
 date: 2026-08-17
@@ -3674,7 +3917,7 @@ Sustituye primero y transforma solo si aparece una indeterminación. Factoriza p
 Al terminar, sustituye de nuevo en la expresión transformada, revisa el signo desde ambos lados y contrasta el orden de magnitud. Una forma indeterminada nunca es la respuesta final.
 
 Los límites sostienen continuidad, derivadas e integrales, por lo que conviene dominarlos antes de avanzar en un plan de [Cálculo I para Ingeniería](/blog/como-aprobar-calculo-i-ingenieria-seis-semanas/). Si necesitas practicar con ejercicios de tu temario y recibir corrección del razonamiento, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,_=`---
+`,C=`---
 title: Continuidad y derivabilidad: diferencias y problemas
 seoTitle: "Continuidad y derivabilidad: diferencias y ejercicios"
 date: 2026-08-31
@@ -4246,7 +4489,7 @@ En un [estudio completo de una función](/blog/estudio-completo-funcion-paso-a-p
 Para funciones a trozos, redacta las conclusiones punto por punto: dónde es continua, dónde es derivable y qué tipo de fallo aparece en cada excepción. Una única afirmación global puede ocultar condiciones laterales diferentes.
 
 Si necesitas practicar funciones a trozos, parámetros y justificaciones con el nivel de detalle de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,j=`---
+`,z=`---
 title: "Derivación implícita: método y ejercicios resueltos"
 date: "2026-09-04"
 updated: "2026-09-04"
@@ -5007,7 +5250,7 @@ La fórmula $-F_x/F_y$ no decide la pendiente porque produce $0/0$ si ambas parc
 La derivación implícita se reduce a tres hábitos: recordar que $y$ depende de $x$, aplicar la regla de la cadena y no dividir sin revisar el denominador. Con eso puedes obtener pendientes, tangentes, curvatura y razones de cambio incluso cuando despejar la variable es inviable.
 
 Si las reglas de derivación todavía no están automatizadas, repasa primero [qué son las derivadas y para qué se utilizan](/blog/que-son-las-derivadas-y-para-que-se-utilizan/). Para practicar relaciones implícitas con corrección individual, las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/) permiten detectar exactamente en qué paso se rompe el razonamiento.
-`,C=`---
+`,S=`---
 title: Derivadas e integrales universitarias: prueba de nivel con ejercicios resueltos
 date: 2026-06-23
 updated: 2026-08-12
@@ -5175,7 +5418,7 @@ Antes de enfrentarte a problemas de Cálculo I deberías poder:
 - Revisar si un resultado tiene sentido por signo, unidades o gráfica.
 
 Para profundizar, puedes leer las guías sobre [qué son las derivadas](/blog/que-son-las-derivadas-y-para-que-se-utilizan/) y [qué son las integrales](/blog/que-son-las-integrales-y-para-que-se-utilizan/). Si quieres un diagnóstico más completo, revisa [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,z=`---
+`,P=`---
 title: "Derivadas parciales y gradiente: teoría y ejercicios"
 date: "2026-09-06"
 updated: "2026-09-06"
@@ -5864,7 +6107,7 @@ Quédate con esta secuencia:
 7. No confundas existencia de parciales con diferenciabilidad.
 
 Si quieres consolidar el salto desde derivadas de una variable a cálculo multivariable, en las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/) adaptamos los ejercicios a tu temario y trabajamos tanto el cálculo como la interpretación geométrica.
-`,S=`---
+`,L=`---
 title: Diagramas de cuerpo libre: método paso a paso con errores frecuentes
 date: 2026-07-01
 updated: 2026-07-01
@@ -6015,7 +6258,7 @@ Antes de resolver, revisa:
 - La normal y el rozamiento están justificados.
 
 Si este paso te cuesta, vuelve a la guía de [Física I sin memorizar fórmulas](/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas/) o revisa [clases particulares de Física para Bachillerato e Ingeniería](/clases-particulares/fisica-ingenieria/).
-`,L=`---
+`,A=`---
 title: Econometría desde cero: cómo interpretar una regresión correctamente
 date: 2026-07-06
 updated: 2026-07-06
@@ -6134,7 +6377,7 @@ Una buena respuesta incluye:
 6. Cautela sobre causalidad y supuestos.
 
 Para reforzar la base estadística, revisa [Estadística desde cero para elegir contrastes](/blog/estadistica-desde-cero-para-elegir-contrastes/) y [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,P=`---
+`,U=`---
 title: Economía y ADE: cómo estudiar matemáticas sin perder el sentido económico
 date: 2026-05-26
 updated: 2026-05-26
@@ -6202,7 +6445,7 @@ Una buena sesión de repaso debería mezclar:
 Si solo practicas la parte mecánica, el examen puede penalizarte en la explicación. Si solo estudias teoría, el cálculo llega inseguro. La clave está en unir ambas cosas.
 
 Si ese es tu caso, puedes revisar [clases particulares de Economía y ADE](/clases-particulares/economia-ade/) o escribirnos desde [contacto](/contacto/).
-`,A=`---
+`,D=`---
 title: Ecuaciones diferenciales: cómo identificar el método correcto paso a paso
 date: 2026-06-17
 updated: 2026-06-17
@@ -6415,7 +6658,7 @@ La condición inicial se aplica al final, no al principio. Primero se encuentra 
 - Sustituir condiciones iniciales antes de terminar la solución general.
 
 Si necesitas practicar con una colección ordenada de problemas, puedes empezar por la guía de [cómo estudiar matemáticas sin memorizar fórmulas](/blog/como-estudiar-matematicas-sin-memorizar/) o pedir un diagnóstico en [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,U=`---
+`,w=`---
 title: Errores más comunes en Inferencia Estadística
 date: 2026-07-12
 updated: 2026-07-12
@@ -6519,7 +6762,7 @@ Una conclusión estadística completa debería incluir:
 La última frase importa: no prometas más de lo que el diseño permite.
 
 Para reforzar este bloque, revisa [p-valor, intervalo de confianza y tamaño del efecto](/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/) o [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,D=`---
+`,M=`---
 title: "Densidad, presión y flotación en ESO: por qué un objeto pesado también puede flotar"
 date: "2026-10-12"
 updated: "2026-10-12"
@@ -6751,7 +6994,7 @@ Un fusible o interruptor automático interrumpe el circuito cuando la corriente 
 ¿Qué ocurre con la corriente si duplicas la resistencia manteniendo $V$? Se reduce a la mitad en un componente óhmico. ¿Por qué dos ramas en paralelo tienen el mismo voltaje? Porque sus extremos están conectados a los mismos nodos. ¿Qué se conserva en una unión? La corriente total que entra es la que sale.
 
 El campus virtual de Método Nebula desarrolla electricidad con conceptos, circuitos, ejemplos guiados, ejercicios y preguntas de examen. Si quieres saber si el bloqueo está en el dibujo, la fórmula o la interpretación, utiliza el botón de contacto.
-`,M=`---
+`,I=`---
 title: "Formulación inorgánica en ESO: aprende la lógica y deja de memorizar listas infinitas"
 date: "2026-10-07"
 updated: "2026-10-28"
@@ -6852,7 +7095,137 @@ Formula: cloruro de magnesio, óxido de cobre(I), hidróxido de aluminio y sulfa
 Las fórmulas son $MgCl_2$, $Cu_2O$, $Al(OH)_3$ y $Na_2SO_4$. En Stock: cloruro de hierro(III), pentóxido de dinitrógeno en sistemática, hidróxido de calcio y sulfato de potasio.
 
 El campus virtual de Método Nebula conecta estructura atómica, tabla periódica, enlace y formulación para que los nombres no aparezcan aislados. Si necesitas una secuencia que combine comprensión, tarjetas y ejercicios hasta automatizar sin memorizar a ciegas, utiliza el botón de contacto.
-`,I=`---
+`,N=`---
+title: "Leyes de Newton en ESO: el diagrama que convierte fuerzas en una ecuación con sentido"
+seoTitle: "Leyes de Newton en ESO: fuerzas y diagramas"
+date: "2026-10-26"
+updated: "2026-10-26"
+description: "Aprende las leyes de Newton en ESO con diagramas de fuerzas, resultante, rozamiento, peso, normal y ejercicios resueltos."
+tag: "Física ESO"
+category: "Física y Química"
+relatedService: "/clases-particulares/fisica-ingenieria/"
+relatedPosts: "diagramas-cuerpo-libre-metodo-errores-frecuentes,mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios,eso-fisica-quimica-electricidad-circuitos"
+image: "/assets/latex/forces-free-body.svg"
+---
+
+La segunda ley de Newton no empieza con $F=ma$. Empieza aislando el cuerpo y decidiendo qué interacciones actúan sobre él. Sin ese diagrama, los signos se convierten en adivinanzas.
+
+> **Respuesta directa.** La aceleración tiene la dirección de la fuerza resultante: $\\sum\\vec F=m\\vec a$. Si las fuerzas se equilibran, la aceleración es cero; el objeto puede estar quieto o moverse con velocidad constante.
+
+![Diagrama de cuerpo libre con peso, normal, fuerza aplicada y rozamiento](/assets/latex/forces-free-body.svg)
+
+## Primera ley: equilibrio no significa reposo
+
+Si:
+
+$$
+\\sum\\vec F=0,
+$$
+
+entonces $a=0$. La velocidad no cambia. Un cuerpo en movimiento puede estar en equilibrio dinámico.
+
+## Segunda ley
+
+En un eje:
+
+$$
+\\sum F_x=ma_x.
+$$
+
+Antes de sustituir, elige el sentido positivo. Las fuerzas opuestas aparecen con signo contrario por la geometría, no porque “el rozamiento siempre sea negativo”.
+
+## Tercera ley
+
+Las fuerzas de acción y reacción:
+
+- tienen igual módulo;
+- sentidos opuestos;
+- actúan sobre cuerpos distintos;
+- pertenecen a la misma interacción.
+
+Peso y normal no forman un par de acción y reacción porque actúan sobre el mismo cuerpo y proceden de interacciones diferentes.
+
+## Fuerzas habituales
+
+- Peso: $P=mg$, vertical hacia abajo.
+- Normal: perpendicular a la superficie.
+- Rozamiento: se opone al deslizamiento o a su tendencia.
+- Tensión: a lo largo de la cuerda.
+- Fuerza elástica: $F=-kx$ en el modelo de Hooke.
+
+La normal no es siempre igual al peso.
+
+## Ejemplo resuelto
+
+Una caja de 5 kg recibe 20 N hacia la derecha y sufre 5 N de rozamiento hacia la izquierda:
+
+$$
+F_{\\rm R}=20-5=15\\ \\mathrm{N}.
+$$
+
+$$
+a=\\frac{F_{\\rm R}}m=\\frac{15}{5}=3\\ \\mathrm{m/s^2}.
+$$
+
+Verticalmente, si no acelera:
+
+$$
+N-mg=0\\Rightarrow N=mg.
+$$
+
+## Plano inclinado
+
+El peso se descompone:
+
+$$
+P_\\parallel=mg\\sin\\theta,
+\\qquad
+P_\\perp=mg\\cos\\theta.
+$$
+
+Conviene elegir ejes paralelo y perpendicular al plano. Así la normal aparece solo en el eje perpendicular.
+
+## Por qué la normal puede cambiar
+
+La normal es la respuesta de contacto de una superficie, no una fuerza de valor fijo. En un ascensor que acelera hacia arriba:
+
+$$
+N-mg=ma\\quad\\Rightarrow\\quad N=m(g+a),
+$$
+
+por lo que la lectura de una báscula aumenta. Si el ascensor acelera hacia abajo, $N=m(g-a)$ y la lectura disminuye. El peso $mg$ no ha cambiado: cambia la fuerza que ejerce el suelo. Este ejemplo separa dos ideas que suelen confundirse.
+
+## Del diagrama a una predicción
+
+Supón ahora que la caja del ejemplo recibe la misma fuerza de 20 N, pero su masa se duplica y el rozamiento permanece en 5 N. La resultante sigue siendo 15 N, mientras que:
+
+$$
+a=\\frac{15}{10}=1.5\\ \\mathrm{m/s^2}.
+$$
+
+Duplicar la masa reduce a la mitad la aceleración solo porque la resultante se ha mantenido. Si el rozamiento también dependiera de la normal y cambiase, habría que recalcularlo antes de aplicar la segunda ley.
+
+Una respuesta rigurosa distingue siempre datos, modelo y conclusión: primero identifica fuerzas, después calcula la resultante y al final interpreta el signo de la aceleración. Así es posible anticipar si el objeto acelera, frena o conserva su velocidad.
+
+## Errores frecuentes
+
+- Dibujar fuerzas que el cuerpo ejerce sobre otros.
+- Añadir una “fuerza del movimiento”.
+- Igualar normal y peso en cualquier situación.
+- Sumar módulos sin considerar direcciones.
+- Colocar acción y reacción en el mismo diagrama.
+
+## Procedimiento
+
+1. Aísla un solo cuerpo.
+2. Dibuja interacciones reales.
+3. Elige ejes.
+4. Proyecta fuerzas.
+5. Aplica Newton por eje.
+6. Comprueba unidad, signo y sentido.
+
+El campus de Método Nebula trabaja fuerzas y dinámica desde diagramas hasta problemas graduados de ESO y Bachillerato. Contacta para detectar si el bloqueo está en el dibujo, el álgebra o la interpretación.
+`,T=`---
 title: "Mezclas y disoluciones en ESO: cómo elegir filtración, destilación o cromatografía con criterio"
 date: "2026-10-27"
 updated: "2026-10-27"
@@ -6947,7 +7320,120 @@ Cada etapa elimina un componente aprovechando una propiedad distinta. El orden i
 - Elegir un método sin nombrar la propiedad física que lo hace funcionar.
 
 El campus virtual de Método Nebula desarrolla materia, mezclas, disoluciones, concentración y técnicas de separación con teoría, experimentos razonados, ejercicios y preguntas competenciales. El botón de contacto permite solicitar una ruta centrada en el diseño y la justificación del procedimiento.
-`,w=`---
+`,F=`---
+title: "Sonido y ondas en ESO: frecuencia, amplitud y velocidad sin confundir tono con volumen"
+seoTitle: "Sonido y ondas en ESO: frecuencia, amplitud y velocidad"
+date: "2026-10-08"
+updated: "2026-10-08"
+description: "Entiende sonido y ondas en ESO: amplitud, frecuencia, longitud de onda, velocidad, tono, volumen, eco y ejercicios."
+tag: "Física ESO"
+category: "Física y Química"
+relatedService: "/clases-particulares/fisica-ingenieria/"
+relatedPosts: "pau-fisica-ondas-resolver-problemas,eso-fisica-quimica-electricidad-circuitos,gravitacion-eso-ley-universal-peso-ejercicios"
+image: "/assets/latex/wave-anatomy.svg"
+---
+
+Una gráfica de onda puede mostrar distancia o tiempo. Si no lees los ejes, es fácil llamar período a una longitud de onda o confundir amplitud con frecuencia.
+
+> **Respuesta directa.** La frecuencia determina el tono; la amplitud se relaciona con la intensidad y el volumen percibido. La velocidad depende del medio y cumple $v=f\\lambda$. El sonido necesita un medio material para propagarse.
+
+![Onda armónica con amplitud y longitud de onda](/assets/latex/wave-anatomy.svg)
+
+## Magnitudes básicas
+
+- Amplitud $A$: máxima separación del equilibrio.
+- Longitud de onda $\\lambda$: distancia entre puntos en fase.
+- Período $T$: tiempo de una oscilación.
+- Frecuencia $f$: oscilaciones por segundo.
+
+$$
+f=\\frac1T,
+\\qquad
+v=f\\lambda.
+$$
+
+## Gráfica espacial y temporal
+
+En una gráfica posición–desplazamiento, la separación entre crestas es $\\lambda$. En una gráfica tiempo–desplazamiento de un punto, la separación temporal entre máximos es $T$.
+
+Escribe la unidad del eje horizontal antes de interpretar.
+
+## Tono y volumen
+
+Una frecuencia mayor produce un tono más agudo. Una amplitud mayor suele producir mayor intensidad. Duplicar amplitud no significa simplemente “doble volumen percibido”, porque intensidad y percepción no son lineales.
+
+## Ejemplo
+
+Una onda sonora de frecuencia 680 Hz se propaga a 340 m/s:
+
+$$
+\\lambda=\\frac vf=\\frac{340}{680}=0.50\\ \\mathrm{m}.
+$$
+
+Si pasa a otro medio, la fuente mantiene la frecuencia, pero velocidad y longitud de onda pueden cambiar.
+
+## Eco y distancia
+
+Si el sonido tarda $t$ en ir y volver:
+
+$$
+d=\\frac{vt}{2}.
+$$
+
+El factor 2 aparece porque el tiempo incluye ida y regreso.
+
+### Ejemplo
+
+Para un eco recibido tras $0.40$ s:
+
+$$
+d=\\frac{340(0.40)}2=68\\ \\mathrm{m}.
+$$
+
+## El sonido como onda mecánica
+
+En aire, el sonido se propaga mediante compresiones y rarefacciones. Las partículas vibran alrededor de su posición; no viajan desde la fuente hasta el oído.
+
+No hay sonido en el vacío, aunque sí pueden propagarse ondas electromagnéticas.
+
+## Intensidad, distancia y decibelios
+
+La energía emitida por una fuente puntual se reparte sobre superficies cada vez mayores. En un modelo ideal:
+
+$$
+I=\\frac{P}{4\\pi r^2}.
+$$
+
+Al duplicar la distancia, la intensidad se reduce a la cuarta parte. Esto no implica que el oído perciba exactamente “cuatro veces menos volumen”, porque la percepción sonora es aproximadamente logarítmica. El nivel sonoro se expresa en decibelios y una diferencia de nivel representa una razón de intensidades, no una resta directa de potencias.
+
+## Medir la velocidad del sonido
+
+Con dos micrófonos separados una distancia conocida $d$, puede medirse el retraso $\\Delta t$ con que llega un pulso:
+
+$$
+v=\\frac d{\\Delta t}.
+$$
+
+Una separación mayor reduce el porcentaje de incertidumbre asociado al tiempo, siempre que la señal siga siendo clara. Repetir, invertir la posición de los micrófonos y evitar ecos de paredes mejora el resultado.
+
+También puede utilizarse resonancia en un tubo: las posiciones de resonancias consecutivas están separadas aproximadamente $\\lambda/2$. Con una frecuencia conocida, $v=f\\lambda$. Esta técnica enlaza una observación acústica con el modelo de onda estacionaria.
+
+Comparar el resultado con 340 m/s solo tiene sentido indicando la temperatura, porque la velocidad del sonido en aire cambia con ella. Una discrepancia debe analizarse mediante incertidumbre y condiciones, no corrigiendo el número a mano.
+
+## Errores frecuentes
+
+- Identificar amplitud con tono.
+- Leer $\\lambda$ en una gráfica temporal.
+- Olvidar dividir entre dos en un eco.
+- Cambiar frecuencia al cambiar de medio.
+- Decir que las partículas avanzan con la onda.
+
+## Método de comprobación
+
+Revisa unidades: Hz para frecuencia, s para período, m para longitud y m/s para velocidad. Además, una frecuencia alta debe corresponder a un período pequeño.
+
+El campus de Método Nebula reúne ondas, sonido y óptica con teoría, simulaciones conceptuales y ejercicios de ESO. Contacta para organizar el tema desde lectura de gráficas hasta problemas.
+`,O=`---
 title: "Ecuaciones y sistemas en ESO: el método para entenderlos y no volver a temer los signos"
 date: "2026-10-04"
 updated: "2026-10-28"
@@ -7093,7 +7579,7 @@ Gráficamente, las rectas se cortan en $(7,4)$. Si fueran paralelas no habría s
 Resultados: $x=5$; $x=6$; $x=20$; $(x,y)=(5,4)$; y precios de 15 € y 11 €.
 
 El campus virtual de Método Nebula organiza números, álgebra, ecuaciones, sistemas e inecuaciones con teoría, ejemplos y práctica gradual. Si el problema no es “hacer cuentas” sino saber qué paso dar y por qué, utiliza el botón de contacto para construir una ruta desde la base real.
-`,N=`---
+`,H=`---
 title: "Porcentajes e interés compuesto en ESO: el factor multiplicativo que evita casi todos los errores"
 date: "2026-09-27"
 updated: "2026-09-27"
@@ -7228,7 +7714,7 @@ La comparación cualitativa entre valor inicial y final sirve de control: un fac
 4. Un valor sube 10 % y baja 10 %. Factor total: $1,10\\cdot0,90=0,99$.
 
 El campus virtual de Método Nebula conecta proporcionalidad, porcentajes y matemática financiera con ejemplos resueltos, ejercicios graduados y corrección de errores típicos. El botón de contacto permite definir una ruta desde el nivel real de cada estudiante.
-`,F=`---
+`,k=`---
 title: "Probabilidad en ESO: aprende a contar bien y evita los errores que cambian todo"
 date: "2026-10-22"
 updated: "2026-10-28"
@@ -7333,7 +7819,7 @@ La probabilidad no predice cada resultado individual; describe comportamiento a 
 Resultados: $1/3$; $3/4$; $3/5$; y la última compara modelo ideal con datos observados.
 
 El campus virtual de Método Nebula recorre fundamentos, estadística y probabilidad con teoría, árboles, ejercicios y autoevaluación. Si quieres detectar exactamente dónde se rompe el recuento y practicar en dificultad creciente, utiliza el botón de contacto.
-`,T=`---
+`,Q=`---
 title: "Estadística descriptiva en ESO II: rango, cuartiles y diagrama de caja"
 date: "2026-09-15"
 updated: "2026-09-15"
@@ -7658,7 +8144,7 @@ Ordena antes de localizar posiciones. El rango es máximo menos mínimo; los cua
 Si aún no dominas las medidas básicas, empieza por la guía de [media, mediana, moda y frecuencias](/blog/estadistica-descriptiva-eso-media-mediana-moda/) y vuelve después a estos ejercicios. Para crear una rutina de práctica que no dependa de memorizar pasos, puede ayudarte la guía de [cómo estudiar matemáticas sin memorizar](/blog/como-estudiar-matematicas-sin-memorizar/).
 
 Si necesitas practicar Estadística o Matemáticas de ESO con ejercicios de tu temario, puedes consultar las [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,O=`---
+`,B=`---
 title: "Estadística descriptiva en ESO: media, mediana, moda y frecuencias"
 date: "2026-09-08"
 updated: "2026-09-08"
@@ -8074,7 +8560,7 @@ Cuando domines estas medidas, continúa con [rango, cuartiles y diagrama de caja
 Para afianzar este método, no memorices una tabla modelo: cambia los datos de un ejercicio, vuelve a ordenar y explica en voz alta qué representa cada resultado. La guía sobre [cómo estudiar matemáticas sin memorizar fórmulas](/blog/como-estudiar-matematicas-sin-memorizar/) puede ayudarte a convertir esa práctica en rutina.
 
 Si necesitas reforzar Estadística o Matemáticas de ESO con ejercicios de tu propio temario, puedes consultar las [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,H=`---
+`,G=`---
 title: Estadística desde cero: cómo elegir un contraste sin aplicar recetas
 date: 2026-05-29
 updated: 2026-05-29
@@ -8157,7 +8643,7 @@ Hay algunos avisos claros:
 La estadística universitaria se vuelve mucho más manejable cuando separas decisión, cálculo e interpretación. Cada parte tiene su dificultad, pero también su método de estudio.
 
 Si estás preparando probabilidad, inferencia, regresión o estadística para Bachillerato, Universidad, TFG o TFM, revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/) o [cuéntanos tu caso](/contacto/).
-`,Q=`---
+`,V=`---
 title: Estequiometría universitaria: ejercicios resueltos de dificultad progresiva
 date: 2026-07-07
 updated: 2026-07-07
@@ -8312,7 +8798,7 @@ Antes de entregar, revisa:
 - La unidad final es correcta.
 
 Para seguir practicando, revisa la guía de [Física y Química: cómo plantear problemas antes de calcular](/blog/fisica-y-quimica-como-plantear-problemas/) o la página de [clases particulares de Química](/clases-particulares/quimica/).
-`,B=`---
+`,W=`---
 title: "Estudio completo de una función paso a paso"
 date: "2026-09-02"
 updated: "2026-09-02"
@@ -8773,7 +9259,7 @@ Si tienes poco tiempo, usa esta lista de control:
 8. Dibuja al final y comprueba que respeta todos los datos.
 
 Para aprender a enlazar estos pasos en problemas reales, en las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/) trabajamos el razonamiento, la presentación y la comprobación de cada resultado, no una plantilla memorizada sin contexto.
-`,k=`---
+`,J=`---
 title: Física y Química: cómo plantear problemas antes de calcular
 date: 2026-05-23
 updated: 2026-05-23
@@ -8843,7 +9329,245 @@ Parece lento al principio, pero acelera mucho cuando el examen mezcla temas. El 
 Para aplicar este método con contenidos de ESO, puedes practicar con las guías de [MRU](/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/), [MRUA](/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/) y [gravitación](/blog/gravitacion-eso-ley-universal-peso-ejercicios/).
 
 Si necesitas apoyo en problemas técnicos, revisa [Física para Bachillerato e Ingeniería](/clases-particulares/fisica-ingenieria/), [Química](/clases-particulares/quimica/) o [contacta](/contacto/) para organizar un plan.
-`,G=`---
+`,K=`---
+title: "GCSE Chemistry: acids, bases and salts without guessing equations"
+seoTitle: "GCSE Chemistry: acids, bases and salts step by step"
+date: "2026-10-24"
+updated: "2026-10-24"
+description: "Learn acids, bases and salts for GCSE: pH, neutralisation, ionic equations, salt preparation and simple calculations."
+tag: "GCSE"
+category: "Exámenes internacionales"
+relatedService: "/clases-particulares/gcse-ib/"
+relatedPosts: "gcse-chemistry-equations-moles-revision-en,gcse-chemistry-electrolysis-electrode-products-en,gcse-chemistry-bonding-revision-en"
+image: "/assets/latex/gcse-ph-neutralisation.svg"
+language: "en"
+translation: "gcse-chemistry-acids-bases-salts"
+---
+
+Acid and base questions become confusing when each reaction is memorised as a separate recipe. Most of the topic follows one idea: acids provide $\\mathrm{H^+}$ ions in solution and alkalis provide $\\mathrm{OH^-}$ ions.
+
+> **Direct answer.** Neutralisation removes acidic and alkaline properties through $\\mathrm{H^++OH^-\\to H_2O}$. To prepare a salt, identify the acid supplying the anion and the metal, oxide, hydroxide or carbonate supplying the cation.
+
+![pH scale and neutralisation between hydrogen and hydroxide ions](/assets/latex/gcse-ph-neutralisation.svg)
+
+## Reading the pH scale
+
+In the GCSE model:
+
+- $pH<7$: acidic.
+- $pH=7$: neutral.
+- $pH>7$: alkaline.
+
+A fall of one pH unit represents roughly ten times the hydrogen-ion concentration. pH 2 is therefore not merely “slightly” more acidic than pH 3.
+
+## Four reaction patterns
+
+$$
+\\text{acid}+\\text{metal}\\to\\text{salt}+\\mathrm{H_2}
+$$
+
+$$
+\\text{acid}+\\text{oxide or hydroxide}\\to\\text{salt}+\\mathrm{H_2O}
+$$
+
+$$
+\\text{acid}+\\text{carbonate}\\to\\text{salt}+\\mathrm{H_2O}+\\mathrm{CO_2}
+$$
+
+The gas depends on the reactant: carbonates give carbon dioxide, while suitable metals give hydrogen.
+
+## Naming the salt
+
+- Hydrochloric acid $\\to$ chloride.
+- Sulfuric acid $\\to$ sulfate.
+- Nitric acid $\\to$ nitrate.
+
+For example:
+
+$$
+\\mathrm{H_2SO_4+CuO\\to CuSO_4+H_2O}.
+$$
+
+The acid provides sulfate and copper oxide provides copper.
+
+## Preparing a soluble salt
+
+To make copper sulfate crystals:
+
+1. Warm dilute sulfuric acid gently.
+2. Add excess copper oxide until no more reacts.
+3. Filter away the remaining solid.
+4. Evaporate some water.
+5. Cool to crystallise.
+6. Dry the crystals.
+
+The excess ensures all acid is used; filtration removes the insoluble excess.
+
+## Quantitative example
+
+For $25.0\\ \\mathrm{cm^3}$ of a $0.20\\ \\mathrm{mol\\,dm^{-3}}$ solution:
+
+$$
+n=cV=0.20\\times0.0250=5.0\\times10^{-3}\\ \\mathrm{mol}.
+$$
+
+Convert $\\mathrm{cm^3}$ to $\\mathrm{dm^3}$ by dividing by 1000.
+
+## Indicators and end point
+
+An indicator changes colour across a pH range; it does not neutralise the solution. In a titration, the observed end point should be close to the chemical equivalence point.
+
+## Ionic equations and spectator ions
+
+For hydrochloric acid reacting with sodium hydroxide:
+
+$$
+\\mathrm{HCl+NaOH\\to NaCl+H_2O},
+$$
+
+the $\\mathrm{Na^+}$ and $\\mathrm{Cl^-}$ ions remain unchanged. Removing them gives the net ionic equation:
+
+$$
+\\mathrm{H^+(aq)+OH^-(aq)\\to H_2O(l)}.
+$$
+
+State symbols help to show which species are actually dissolved. A spectator ion still matters when identifying the final salt, but it does not undergo the chemical change in neutralisation.
+
+## Titration as an assessable procedure
+
+Rinse the pipette with the solution it will measure and the burette with the solution it will contain. Record the initial meniscus reading at eye level, add only a few indicator drops to the flask and approach the end point one drop at a time. A rough trial locates the end point; further runs should produce concordant titres, commonly within $0.10$–$0.20\\ \\mathrm{cm^3}$ depending on the stated criterion.
+
+The titre is final reading minus initial reading. Repeating a method without controlling the meniscus does not remove systematic error, and too much indicator can affect the result. A strong improvement names the change and explains why it increases precision.
+
+## Common mistakes
+
+- Writing water as a gas in neutralisation.
+- Treating every base as an alkali: an alkali is a soluble base.
+- Choosing the wrong acid for the required salt.
+- Forgetting to filter off excess solid.
+- Using $\\mathrm{cm^3}$ directly in $n=cV$.
+
+Método Nebula's virtual campus links particles, chemical amounts, acids, salts and experimental methods through graded GCSE questions. The contact button opens a structured practice route.
+`,X=`---
+title: "Química GCSE: ácidos, bases y sales con un método que evita ecuaciones al azar"
+seoTitle: "Química GCSE: ácidos, bases y sales paso a paso"
+date: "2026-10-24"
+updated: "2026-10-24"
+description: "Aprende ácidos, bases y sales en GCSE: pH, neutralización, ecuaciones iónicas, preparación de sales y cálculos sencillos."
+tag: "GCSE"
+category: "Exámenes internacionales"
+relatedService: "/clases-particulares/gcse-ib/"
+relatedPosts: "gcse-chemistry-equations-moles-revision,gcse-chemistry-electrolysis-electrode-products,gcse-chemistry-bonding-revision"
+image: "/assets/latex/gcse-ph-neutralisation.svg"
+language: "es"
+translation: "gcse-chemistry-acids-bases-salts-en"
+---
+
+Los ejercicios de ácidos y bases se vuelven confusos cuando se memorizan como recetas independientes. En realidad, casi todos parten de una idea: los ácidos aportan $\\mathrm{H^+}$ en disolución y los álcalis aportan $\\mathrm{OH^-}$.
+
+> **Respuesta directa.** La neutralización elimina las propiedades ácidas y básicas mediante $\\mathrm{H^++OH^-\\to H_2O}$. Para preparar una sal, identifica primero el ácido que aporta el anión y el metal, óxido, hidróxido o carbonato que aporta el catión.
+
+![Escala de pH y neutralización entre iones hidrógeno e hidróxido](/assets/latex/gcse-ph-neutralisation.svg)
+
+## Leer la escala de pH
+
+En el modelo GCSE:
+
+- $pH<7$: ácido.
+- $pH=7$: neutro.
+- $pH>7$: alcalino.
+
+Una disminución de una unidad de pH representa aproximadamente diez veces más concentración de $\\mathrm{H^+}$. Por tanto, pH 2 no es “un poco” más ácido que pH 3.
+
+## Cuatro patrones de reacción
+
+$$
+\\text{ácido}+\\text{metal}\\to\\text{sal}+\\mathrm{H_2}
+$$
+
+$$
+\\text{ácido}+\\text{óxido o hidróxido}\\to\\text{sal}+\\mathrm{H_2O}
+$$
+
+$$
+\\text{ácido}+\\text{carbonato}\\to\\text{sal}+\\mathrm{H_2O}+\\mathrm{CO_2}
+$$
+
+El gas no se inventa: depende del reactivo. Los carbonatos producen dióxido de carbono; los metales adecuados producen hidrógeno.
+
+## Elegir el nombre de la sal
+
+- Ácido clorhídrico $\\to$ cloruro.
+- Ácido sulfúrico $\\to$ sulfato.
+- Ácido nítrico $\\to$ nitrato.
+
+Por ejemplo:
+
+$$
+\\mathrm{H_2SO_4+CuO\\to CuSO_4+H_2O}.
+$$
+
+El ácido aporta sulfato y el óxido de cobre aporta cobre.
+
+## Cómo preparar una sal soluble
+
+Para obtener cristales de sulfato de cobre:
+
+1. Calienta suavemente ácido sulfúrico diluido.
+2. Añade óxido de cobre en exceso hasta que deje de reaccionar.
+3. Filtra el sólido sobrante.
+4. Evapora parte del agua.
+5. Deja enfriar para cristalizar.
+6. Seca los cristales.
+
+El exceso garantiza que todo el ácido se consume; la filtración retira el exceso insoluble.
+
+## Ejemplo cuantitativo
+
+Si $25.0\\ \\mathrm{cm^3}$ de una disolución de $0.20\\ \\mathrm{mol\\,dm^{-3}}$ reaccionan:
+
+$$
+n=cV=0.20\\times0.0250=5.0\\times10^{-3}\\ \\mathrm{mol}.
+$$
+
+Convierte siempre $\\mathrm{cm^3}$ a $\\mathrm{dm^3}$ dividiendo entre 1000.
+
+## Indicadores y punto final
+
+Un indicador cambia de color en un intervalo de pH. No “neutraliza” la disolución. En una valoración, el punto final observado debe estar próximo al punto de equivalencia químico.
+
+## Ecuaciones iónicas y iones espectadores
+
+En la reacción entre ácido clorhídrico e hidróxido de sodio:
+
+$$
+\\mathrm{HCl+NaOH\\to NaCl+H_2O},
+$$
+
+los iones $\\mathrm{Na^+}$ y $\\mathrm{Cl^-}$ permanecen sin cambiar. Al eliminarlos aparece la ecuación iónica neta:
+
+$$
+\\mathrm{H^+(aq)+OH^-(aq)\\to H_2O(l)}.
+$$
+
+Indicar los estados ayuda a justificar qué especies están realmente disueltas. Un ion espectador no es irrelevante para preparar la sal final, pero no participa en el cambio químico de neutralización.
+
+## Valoración: un procedimiento que se puede evaluar
+
+Enjuaga la pipeta con la disolución que va a medir y la bureta con la que va a contener. Registra la lectura inicial a la altura del menisco, añade unas gotas de indicador al matraz y aproxima la bureta al punto final lentamente. Un ensayo preliminar localiza la zona; después se buscan resultados concordantes, normalmente dentro de $0.10$–$0.20\\ \\mathrm{cm^3}$ según el criterio utilizado.
+
+El volumen gastado es lectura final menos lectura inicial. Repetir sin controlar el menisco no corrige un error sistemático, y añadir demasiado indicador puede alterar el resultado. La mejora experimental debe indicar qué se cambia y por qué aumenta la precisión.
+
+## Errores frecuentes
+
+- Escribir agua como gas en una neutralización.
+- Confundir base con álcali: un álcali es una base soluble.
+- Usar el ácido equivocado para la sal deseada.
+- Olvidar filtrar el reactivo sólido en exceso.
+- Trabajar con $\\mathrm{cm^3}$ en $n=cV$.
+
+El campus virtual de Método Nebula reúne estructura de la materia, cantidades químicas, ácidos, sales y métodos experimentales con ejercicios y preguntas GCSE. El botón de contacto permite convertir estos patrones en una ruta de práctica.
+`,Z=`---
 title: "GCSE Chemistry: understand bonding and explain any property"
 date: "2026-09-17"
 updated: "2026-10-28"
@@ -8928,7 +9652,7 @@ The comparison works because it applies the same reasoning chain to both materia
 Check every answer for particles, force, structure and property. If one is absent, the explanation can still be improved.
 
 Método Nebula's virtual campus develops atoms, elements and bonding through visual theory, examples, exercises, multiple-choice questions and extended responses. If you want to move from memorising definitions to building answers that earn marks, the contact button opens a level diagnosis and a structured study route.
-`,V=`---
+`,Y=`---
 title: "Química GCSE: entiende los enlaces y explica cualquier propiedad"
 date: "2026-09-17"
 updated: "2026-10-28"
@@ -9013,7 +9737,7 @@ La comparación funciona porque usa la misma estructura de razonamiento en ambos
 Corrige buscando los cuatro eslabones: partículas, fuerza, estructura y propiedad. Si uno no aparece, la respuesta aún puede mejorar.
 
 El campus virtual de Método Nebula desarrolla átomos, elementos y enlaces con teoría visual, ejemplos, ejercicios, preguntas de opción múltiple y preguntas de respuesta extendida. Si quieres pasar de memorizar definiciones a construir explicaciones que puntúan, el botón de contacto abre un diagnóstico del nivel y una ruta de trabajo.
-`,W=`---
+`,ee=`---
 title: "GCSE Chemistry: electrolysis and electrode products without memorising lists"
 date: "2026-10-07"
 updated: "2026-10-28"
@@ -9124,7 +9848,7 @@ Tests do not replace half-equations. A precise extended answer distinguishes **p
 - Applying inert-electrode rules when an electrode reacts.
 
 Método Nebula's virtual campus develops electrochemistry with particle models, product prediction, half-equations, copper electrodes and fuel cells, supported by exercises and exam questions. The contact button opens a study route designed to reason out each product instead of memorising tables.
-`,K=`---
+`,ne=`---
 title: "Química GCSE: electrólisis y productos de los electrodos sin memorizar listas"
 date: "2026-10-07"
 updated: "2026-10-07"
@@ -9239,7 +9963,7 @@ Estas pruebas no sustituyen a las semiecuaciones. Son evidencias experimentales 
 - Aplicar reglas de electrodos inertes cuando el electrodo participa.
 
 El campus virtual de Método Nebula desarrolla electroquímica con modelos de partículas, predicción de productos, semiecuaciones, electrodos de cobre y pilas de combustible, además de ejercicios y preguntas de examen. El botón de contacto permite solicitar una ruta para razonar cada producto en lugar de memorizar tablas.
-`,X=`---
+`,ae=`---
 title: "GCSE Chemistry: master equations and moles without the usual mistakes"
 date: "2026-09-12"
 updated: "2026-10-28"
@@ -9348,7 +10072,7 @@ The essential answers are $\\mathrm{2Mg+O_2\\rightarrow2MgO}$; 0.50 mol; the bal
 Método Nebula's virtual campus connects foundations, formulae and amounts, bonding, reactions and exam practice. Layered theory, worked examples, exercises, multiple-choice questions and exam problems make the step from concept to calculation deliberate rather than improvised.
 
 If equations make sense separately but collapse in a longer problem, the contact button opens a review of the current level and a GCSE Chemistry route with a clear goal and deadline.
-`,J=`---
+`,ie=`---
 title: "Química GCSE: domina ecuaciones y moles con una ruta que evita los errores típicos"
 date: "2026-09-12"
 updated: "2026-10-28"
@@ -9465,7 +10189,7 @@ Las respuestas esenciales son: $\\mathrm{2Mg+O_2\\rightarrow2MgO}$; 0,50 mol; la
 El campus virtual de Método Nebula conecta fundamentos, fórmulas y cantidades, enlaces, reacciones y práctica de examen. Incluye teoría por capas, ejemplos, ejercicios, preguntas de opción múltiple, errores comunes y preguntas de examen para que el salto entre concepto y cálculo no dependa de una hoja suelta.
 
 Si las ecuaciones “se entienden” por separado pero se desordenan en un problema largo, el botón de contacto sirve para plantear el caso, revisar el nivel y construir una ruta de Química GCSE con un objetivo y una fecha claros.
-`,Y=`---
+`,oe=`---
 title: "GCSE Maths: master algebra and graphs by seeing one idea three ways"
 date: "2026-10-14"
 updated: "2026-10-28"
@@ -9546,7 +10270,7 @@ An inequality produces an interval, not only a number. Reverse the sign when mul
 Express one linear relationship as a story, equation, table and graph. Repeat with a quadratic, then solve a problem where two models intersect. This transfer is more valuable than a page of identical expansions.
 
 Método Nebula's virtual campus develops number, algebra and graphs, coordinate geometry and functions through theory, examples, practice and exam questions. The contact button can turn scattered errors into a focused Foundation or Higher route.
-`,Z=`---
+`,re=`---
 title: "Matemáticas GCSE: domina álgebra y gráficas viendo una idea de tres formas"
 date: "2026-10-14"
 updated: "2026-10-28"
@@ -9645,7 +10369,7 @@ Resolver una desigualdad produce un intervalo, no solo un número. Si multiplica
 Toma una relación lineal y exprésala como historia, ecuación, tabla y gráfica. Repite con una cuadrática. Después resuelve una pregunta donde dos modelos se intersecten. Esa transferencia prepara mejor que una página de expansiones idénticas.
 
 El campus virtual de Método Nebula desarrolla números, álgebra y gráficas, geometría analítica y funciones con teoría, ejemplos, práctica y preguntas de examen. Si quieres convertir errores dispersos en una ruta de nivel básico o avanzado, utiliza el botón de contacto.
-`,ee=`---
+`,se=`---
 title: "GCSE Maths: histograms and cumulative frequency without confusing height and area"
 date: "2026-10-15"
 updated: "2026-10-28"
@@ -9735,7 +10459,7 @@ A cumulative curve can estimate how many values lie below a point inside a class
 The total bar area must represent the total frequency. The final cumulative value must equal $N$, and $Q_1<\\text{median}<Q_3$ with a positive IQR.
 
 Método Nebula's virtual campus develops statistics through tables, histograms, cumulative frequency, box plots and distribution comparisons. The contact button opens a route that trains calculation and written interpretation together.
-`,ne=`---
+`,te=`---
 title: "Matemáticas GCSE: histogramas y frecuencia acumulada sin confundir altura y área"
 date: "2026-10-15"
 updated: "2026-10-15"
@@ -9843,7 +10567,7 @@ Cuando se pregunta cuántos datos están por debajo de un valor interior de una 
 La suma de las áreas de las barras debe representar el total. La acumulada final tiene que coincidir con $N$; además, debe cumplirse $Q_1<\\text{mediana}<Q_3$ y el IQR ha de ser positivo.
 
 El campus virtual de Método Nebula desarrolla estadística con tablas, histogramas, frecuencia acumulada, diagramas de caja y comparación de distribuciones mediante ejercicios y preguntas de examen. El botón de contacto permite solicitar una ruta que trabaja conjuntamente el cálculo y la interpretación escrita.
-`,ae=`---
+`,ce=`---
 title: "GCSE Maths: an eight-week plan to improve at Foundation or Higher"
 date: "2026-09-10"
 updated: "2026-10-28"
@@ -9937,7 +10661,7 @@ Ask: which topic no longer needs support, which error repeats, which question ca
 ## From the article to a complete route
 
 Método Nebula's virtual campus organises GCSE Mathematics by unit, with theory, worked examples, guided exercises, independent practice, exam questions, tests and error review. The contact button can turn an exam date, current tier and starting point into a realistic calendar.
-`,ie=`---
+`,le=`---
 title: "Matemáticas GCSE: el plan de 8 semanas para subir nota en nivel básico o avanzado"
 date: "2026-09-10"
 updated: "2026-10-28"
@@ -10039,7 +10763,245 @@ Cada domingo responde: ¿qué tema ha dejado de necesitar apoyo?, ¿qué error s
 El campus virtual de Método Nebula permite recorrer Matemáticas GCSE por unidades, con teoría, ejemplos trabajados, ejercicios guiados, práctica independiente, preguntas de examen, pruebas y revisión de errores. No sustituye el esfuerzo: evita que ese esfuerzo se disperse.
 
 Si quieres saber por dónde empezar, qué nivel encaja con la situación y cómo convertir la fecha del examen en un calendario real, utiliza el botón de contacto. La primera conversación sirve para diagnosticar, no para vender horas al azar.
-`,oe=`---
+`,de=`---
+title: "GCSE Maths: transformations and vectors without getting lost on the grid"
+seoTitle: "GCSE Maths: transformations and vectors"
+date: "2026-10-19"
+updated: "2026-10-19"
+description: "Master GCSE translations, rotations, reflections, enlargements and vectors with correct notation, centres and scale factors."
+tag: "GCSE"
+category: "Exámenes internacionales"
+relatedService: "/clases-particulares/gcse-ib/"
+relatedPosts: "gcse-maths-algebra-graphs-revision-en,gcse-maths-trigonometry-bearings-en,gcse-maths-histograms-cumulative-frequency-en"
+image: "/assets/latex/gcse-vector-transform.svg"
+language: "en"
+translation: "gcse-maths-transformations-vectors"
+---
+
+In transformation questions, a correct image may earn few marks if its description is incomplete. “It moves” is not enough: name the transformation and state every parameter that defines it.
+
+> **Direct answer.** A translation needs a vector; a rotation needs centre, angle and direction; a reflection needs its mirror line; an enlargement needs centre and scale factor. Vectors describe displacements and add component by component.
+
+![A triangle translated on a coordinate grid by a vector](/assets/latex/gcse-vector-transform.svg)
+
+## Translations
+
+The vector
+
+$$
+\\begin{pmatrix}5\\\\2\\end{pmatrix}
+$$
+
+means 5 units right and 2 units up. Every vertex receives exactly the same displacement.
+
+Do not report final coordinates as the vector. Use:
+
+$$
+\\text{vector}=\\text{final point}-\\text{initial point}.
+$$
+
+## Rotations
+
+A complete description states:
+
+- centre;
+- angle;
+- clockwise or anticlockwise direction.
+
+Every point keeps the same distance from the centre. Draw a line from the centre to one vertex, construct the angle and repeat consistently.
+
+## Reflections
+
+The mirror line is the perpendicular bisector of each segment joining a point to its image. To recover an unknown mirror line, join corresponding points and mark their midpoints.
+
+Lines such as $x=2$, $y=-1$ and $y=x$ behave differently; sketch the line first.
+
+## Enlargements
+
+For centre $C$ and scale factor $k$:
+
+$$
+\\overrightarrow{CP'}=k\\overrightarrow{CP}.
+$$
+
+- $k>1$: larger image.
+- $0<k<1$: smaller image.
+- $k<0$: image on the opposite side of the centre.
+
+A negative scale factor is valid and changes relative orientation.
+
+## Vectors and routes
+
+If $\\vec a=\\binom{3}{1}$ and $\\vec b=\\binom{-2}{4}$:
+
+$$
+\\vec a+\\vec b=\\begin{pmatrix}1\\\\5\\end{pmatrix}.
+$$
+
+Two routes with the same start and finish have the same resultant vector. This supports proofs about parallel lines and midpoints.
+
+## Midpoint example
+
+If $M$ is the midpoint of $AB$:
+
+$$
+\\overrightarrow{AM}=\\frac12\\overrightarrow{AB}.
+$$
+
+If $\\vec{OA}=\\vec a$ and $\\vec{OB}=\\vec b$:
+
+$$
+\\vec{OM}=\\frac{\\vec a+\\vec b}{2}.
+$$
+
+## Invariants that check the construction
+
+Translations, rotations and reflections preserve lengths and angles, so they are isometries. An enlargement preserves angles but multiplies every length by $|k|$ and every area by $k^2$. If an image enlarged by $k=3$ has a 12 cm side, the original side was 4 cm, while the image area is nine times the original.
+
+These properties reveal mistakes without repeating the whole construction. Under reflection, a point and its image must be equally far from the mirror line. Under rotation, both must be equally far from the centre. Under translation, the segments joining corresponding points are parallel, equal and point in the same direction.
+
+## A short vector proof
+
+If $P$ divides $AB$ in the ratio $AP:PB=2:1$, it lies two thirds of the way from $A$ to $B$:
+
+$$
+\\vec{OP}=\\vec a+\\frac23(\\vec b-\\vec a)
+=\\frac13\\vec a+\\frac23\\vec b.
+$$
+
+The coefficients add to 1, confirming that $P$ lies on line $AB$. To prove that two segments are parallel, show that their vectors are scalar multiples. To prove that they also have equal length and direction, show that the vectors are equal.
+
+In a multi-mark question, write each equality and state the geometric conclusion it supports. A correct final expression without the logical link can lose a reasoning mark.
+
+## Common mistakes
+
+- Omitting the centre of rotation or enlargement.
+- Reversing vector components.
+- Using a positive component for a move down or left.
+- Scaling coordinates from the origin when the centre is elsewhere.
+- Describing the image without naming the transformation.
+
+Método Nebula's virtual campus connects geometry, coordinates, transformations and vectors through worked examples and graded GCSE questions. Contact us for a route combining accurate construction with algebraic reasoning.
+`,ue=`---
+title: "Matemáticas GCSE: transformaciones y vectores sin perderte en el plano"
+seoTitle: "Matemáticas GCSE: transformaciones y vectores"
+date: "2026-10-19"
+updated: "2026-10-19"
+description: "Domina traslaciones, giros, simetrías, ampliaciones y vectores GCSE con notación correcta, centros y factores de escala."
+tag: "GCSE"
+category: "Exámenes internacionales"
+relatedService: "/clases-particulares/gcse-ib/"
+relatedPosts: "gcse-maths-algebra-graphs-revision,gcse-maths-trigonometry-bearings,gcse-maths-histograms-cumulative-frequency"
+image: "/assets/latex/gcse-vector-transform.svg"
+language: "es"
+translation: "gcse-maths-transformations-vectors-en"
+---
+
+En transformaciones, una figura correcta puede recibir pocos puntos si falta la descripción completa. No basta con escribir “se mueve”: hay que nombrar la transformación y aportar los datos que la determinan.
+
+> **Respuesta directa.** Una traslación necesita un vector; un giro, centro, ángulo y sentido; una simetría, su recta; una ampliación, centro y factor de escala. Los vectores describen desplazamientos y se suman componente a componente.
+
+![Triángulo trasladado en una cuadrícula mediante un vector](/assets/latex/gcse-vector-transform.svg)
+
+## Traslaciones
+
+El vector
+
+$$
+\\begin{pmatrix}5\\\\2\\end{pmatrix}
+$$
+
+significa 5 unidades a la derecha y 2 hacia arriba. Cada vértice recibe exactamente el mismo desplazamiento.
+
+No escribas coordenadas de destino como si fueran el vector. Calcula:
+
+$$
+\\text{vector}=\\text{punto final}-\\text{punto inicial}.
+$$
+
+## Giros
+
+Una descripción completa incluye:
+
+- centro;
+- ángulo;
+- sentido horario o antihorario.
+
+Para un giro de $90^\\circ$, cada punto conserva su distancia al centro. Marca el centro, une un vértice y construye el ángulo antes de repetir con los demás.
+
+## Simetrías
+
+La recta de simetría es la mediatriz de cada segmento que une un punto con su imagen. Si te piden hallar la recta, une pares correspondientes y busca sus puntos medios.
+
+Rectas como $x=2$, $y=-1$ o $y=x$ no se interpretan igual: dibújalas antes de reflejar.
+
+## Ampliaciones
+
+Con centro $C$ y factor $k$:
+
+$$
+\\overrightarrow{CP'}=k\\overrightarrow{CP}.
+$$
+
+- $k>1$: figura mayor.
+- $0<k<1$: figura menor.
+- $k<0$: la imagen queda al otro lado del centro.
+
+Un factor negativo cambia tamaño y orientación relativa; no significa “factor imposible”.
+
+## Vectores y recorridos
+
+Si $\\vec a=\\binom{3}{1}$ y $\\vec b=\\binom{-2}{4}$:
+
+$$
+\\vec a+\\vec b=\\begin{pmatrix}1\\\\5\\end{pmatrix}.
+$$
+
+En geometría, dos rutas con el mismo inicio y final representan el mismo vector resultante. Esta idea permite justificar paralelismo y puntos medios sin medir.
+
+## Ejemplo de razón vectorial
+
+Si $M$ es el punto medio de $AB$:
+
+$$
+\\overrightarrow{AM}=\\frac12\\overrightarrow{AB}.
+$$
+
+Si $\\vec{OA}=\\vec a$ y $\\vec{OB}=\\vec b$, entonces:
+
+$$
+\\vec{OM}=\\frac{\\vec a+\\vec b}{2}.
+$$
+
+## Invariantes que permiten comprobar el dibujo
+
+Traslaciones, giros y simetrías conservan longitudes y ángulos; por eso se llaman transformaciones isométricas. Una ampliación conserva ángulos, pero multiplica cada longitud por $|k|$ y cada área por $k^2$. Si una figura ampliada con $k=3$ tiene un lado de 12 cm, el lado original medía 4 cm, mientras que el área de la imagen es nueve veces la original.
+
+Estas propiedades detectan errores sin repetir toda la construcción. En una simetría, cada punto y su imagen deben estar a igual distancia de la recta. En un giro, ambos deben quedar a igual distancia del centro. En una traslación, los segmentos que unen puntos correspondientes son paralelos, iguales y con el mismo sentido.
+
+## Demostración vectorial breve
+
+Si $P$ divide el segmento $AB$ en la razón $AP:PB=2:1$, entonces recorre dos tercios del camino desde $A$ hasta $B$:
+
+$$
+\\vec{OP}=\\vec a+\\frac23(\\vec b-\\vec a)
+=\\frac13\\vec a+\\frac23\\vec b.
+$$
+
+La suma de los coeficientes es 1, lo que confirma que $P$ está en la recta $AB$. Para demostrar que dos segmentos son paralelos, basta obtener vectores que sean múltiplos escalares; para demostrar que también tienen igual longitud y sentido, los vectores deben ser iguales.
+
+En preguntas de varios puntos, escribe cada igualdad y justifica la conclusión geométrica. Un resultado correcto sin enlace lógico puede perder la marca de razonamiento.
+
+## Errores frecuentes
+
+- Omitir el centro de giro o ampliación.
+- Intercambiar componentes del vector.
+- Usar signo positivo cuando el movimiento es hacia abajo o izquierda.
+- Aplicar el factor de escala a coordenadas respecto al origen, aunque el centro sea otro.
+- Describir una figura sin nombrar la transformación.
+
+El campus de Método Nebula reúne geometría, coordenadas, transformaciones y vectores con ejemplos, práctica graduada y preguntas GCSE. Contacta si quieres una ruta que combine dibujo preciso y justificación algebraica.
+`,me=`---
 title: "GCSE Maths: trigonometry and bearings without impossible angles"
 date: "2026-09-30"
 updated: "2026-10-28"
@@ -10133,7 +11095,7 @@ Add or subtract $180^\\circ$ and return to $000^\\circ$–$360^\\circ$. The reve
 Use this chain: north references → clockwise turns → journey triangle → internal angles → trigonometric rule → calculation → geometric check → three-digit bearing. Every step should justify the next.
 
 Método Nebula's virtual campus develops trigonometry, geometry and bearings through visual theory, guided exercises and exam-style questions. The contact button opens a route in which the diagram is a reasoning tool, not decoration.
-`,re=`---
+`,pe=`---
 title: "Matemáticas GCSE: trigonometría y rumbos con un dibujo que evita ángulos imposibles"
 date: "2026-09-30"
 updated: "2026-09-30"
@@ -10245,7 +11207,7 @@ El rumbo inverso se obtiene sumando o restando $180^\\circ$ y ajustando al inter
 La resolución puede leerse como una cadena: nortes de referencia → giros horarios → triángulo del recorrido → ángulos internos → razón o ley trigonométrica → cálculo → comprobación geométrica → rumbo con tres cifras. Cada eslabón deja visible de dónde procede el siguiente.
 
 El campus virtual de Método Nebula desarrolla trigonometría, geometría y rumbos con teoría visual, ejercicios guiados y preguntas tipo examen. El botón de contacto abre una ruta en la que el dibujo funciona como herramienta de razonamiento y no como boceto decorativo.
-`,se=`---
+`,$e=`---
 title: "GCSE Physics: master electricity and circuits without losing formula marks"
 date: "2026-09-15"
 updated: "2026-10-28"
@@ -10334,7 +11296,7 @@ Two identical lamps are in parallel. One breaks and opens its branch. In the ide
 Begin with symbols and units, continue with one-equation problems and finish with multi-step questions combining circuits, power, energy and explanation. Move from topic practice to mixed sets and finally a timed paper.
 
 Método Nebula's virtual campus organises electricity and magnetism through theory, worked examples, exercises and exam questions. The contact button can diagnose whether the block lies in the concept, the circuit or the calculation and turn it into a concrete plan.
-`,te=`---
+`,ge=`---
 title: "Física GCSE: domina electricidad y circuitos sin perder puntos por una fórmula"
 date: "2026-09-15"
 updated: "2026-10-28"
@@ -10449,7 +11411,7 @@ Dos lámparas idénticas están en paralelo. Una se rompe y abre su rama. ¿Qué
 Empieza con símbolos y unidades; continúa con problemas de una ecuación; termina con cuestiones de varios pasos que mezclen circuitos, potencia, energía y explicación. Después haz práctica por tema, una mezcla aleatoria y finalmente un examen cronometrado.
 
 El campus virtual de Método Nebula organiza electricidad y magnetismo con teoría, ejemplos trabajados, ejercicios, preguntas de examen y revisión. Si quieres detectar si el bloqueo está en el concepto, el montaje o el cálculo, utiliza el botón de contacto y lo convertimos en un plan concreto.
-`,ce=`---
+`,fe=`---
 title: "GCSE Physics: energy, work and power without confusing joules and watts"
 date: "2026-09-22"
 updated: "2026-10-28"
@@ -10550,7 +11512,7 @@ Do not search for a formula merely because it contains every number. Model the e
 A robust solution exposes **model → equation → substitution with units → result → check**. An efficiency between 0 and 1, power in watts and a closed energy balance provide independent checks.
 
 Método Nebula's virtual campus develops energy, work and power through visual theory, guided examples, exercise banks and exam questions. The contact button opens a route in which formulae form a connected system rather than a list to memorise.
-`,le=`---
+`,xe=`---
 title: "Física GCSE: energía, trabajo y potencia sin confundir julios, vatios y eficiencia"
 date: "2026-09-22"
 updated: "2026-09-22"
@@ -10668,7 +11630,7 @@ Buscar una fórmula que contenga todos los números suele ocultar la física. Un
 Una solución sólida deja visible la cadena **modelo → ecuación → sustitución con unidades → resultado → comprobación**. Si la eficiencia queda entre 0 y 1, la potencia tiene unidades de W y el balance de energía cierra, hay tres comprobaciones independientes de que el razonamiento es coherente.
 
 El campus virtual de Método Nebula trabaja energía, trabajo y potencia con teoría visual, ejemplos guiados, bancos de ejercicios y preguntas de examen corregibles paso a paso. Para quienes necesitan que las fórmulas formen un sistema y no una lista para memorizar, el botón de contacto permite solicitar una ruta de estudio.
-`,de=`---
+`,ve=`---
 title: "GCSE Physics: a five-step method for forces and free-body diagrams"
 date: "2026-09-20"
 updated: "2026-10-28"
@@ -10759,7 +11721,7 @@ At terminal velocity, weight and drag balance: resultant force and acceleration 
 ## From the diagram to complete preparation
 
 Método Nebula's virtual campus organises measurement and motion, forces and pressure, energy and exam practice through theory, diagrams and graduated exercises. If a paper shows that formulae are known but force selection is weak, the contact button opens a focused GCSE Physics route.
-`,ue=`---
+`,be=`---
 title: "Física GCSE: el método de 5 pasos para dominar fuerzas y diagramas"
 date: "2026-09-20"
 updated: "2026-10-28"
@@ -10877,7 +11839,7 @@ Para la velocidad terminal, el peso y la resistencia del aire se equilibran: la 
 ## Del diagrama a una preparación completa
 
 El campus virtual de Método Nebula organiza medida y movimiento, fuerzas y presión, energía y práctica de examen con teoría, diagramas, ejemplos y ejercicios graduados. Si un examen revela que sabes las fórmulas pero no decides qué fuerzas incluir, el botón de contacto permite convertir ese patrón en una ruta específica de Física GCSE.
-`,me=`---
+`,ye=`---
 title: "GCSE Physics: half-life and radioactivity through graphs that explain decay"
 date: "2026-10-22"
 updated: "2026-10-28"
@@ -10969,7 +11931,7 @@ Each measure should be linked to how it reduces dose.
 - Confusing contamination with irradiation.
 
 Método Nebula's virtual campus develops nuclear physics through nuclear structure, radiation, half-life, activity, safety and exam questions. The contact button opens a route connecting calculations, graphs and scientific explanations.
-`,pe=`---
+`,he=`---
 title: "Física GCSE: vida media y radiactividad con gráficas que explican el decaimiento"
 date: "2026-10-22"
 updated: "2026-10-22"
@@ -11080,7 +12042,443 @@ Cada medida debe vincularse con cómo reduce la exposición, no recitarse como u
 - Confundir contaminación e irradiación.
 
 El campus virtual de Método Nebula desarrolla física nuclear con estructura del núcleo, radiaciones, vida media, actividad, seguridad y preguntas de examen. El botón de contacto permite solicitar una ruta que conecta cálculos, gráficas y explicaciones científicas.
-`,$e=`---
+`,qe=`---
+title: "GCSE Physics: heating curves, specific heat capacity and state changes without mixing formulas"
+seoTitle: "GCSE Physics: heating curves and changes of state"
+date: "2026-10-12"
+updated: "2026-10-12"
+description: "Understand GCSE heating curves, specific heat capacity, latent heat, particle explanations and energy conservation."
+tag: "GCSE"
+category: "Exámenes internacionales"
+relatedService: "/clases-particulares/gcse-ib/"
+relatedPosts: "gcse-physics-energy-work-power-efficiency-en,gcse-physics-waves-refraction-en,gcse-physics-forces-exam-questions-en"
+image: "/assets/latex/gcse-heating-curve.svg"
+language: "en"
+translation: "gcse-physics-thermal-heating-curves"
+---
+
+On a heating curve, a horizontal line does not mean that energy transfer has stopped. The supplied energy is changing particle arrangement rather than increasing temperature.
+
+> **Direct answer.** Use $Q=mc\\Delta T$ when temperature changes within one state and $Q=mL$ during a change of state. On a plateau, temperature remains constant while internal energy increases.
+
+![Heating curve with sloping sections and state-change plateaus](/assets/latex/gcse-heating-curve.svg)
+
+## Temperature and internal energy
+
+Temperature is linked to the particles' mean kinetic energy. Internal energy includes kinetic energy and potential energy associated with particle interactions.
+
+Heating a solid usually increases particle vibration. During melting, energy partly overcomes the forces holding the structure together.
+
+## Sloping sections
+
+When state does not change:
+
+$$
+Q=mc\\Delta T.
+$$
+
+$m$ is mass, $c$ is specific heat capacity and $\\Delta T$ is temperature change.
+
+### Worked example
+
+Heating $0.50$ kg of water by $20^\\circ$C with $c=4200\\ \\mathrm{J\\,kg^{-1}\\,^\\circ C^{-1}}$ requires:
+
+$$
+Q=0.50\\times4200\\times20=42000\\ \\mathrm{J}.
+$$
+
+## Plateaus
+
+During melting or boiling:
+
+$$
+Q=mL.
+$$
+
+$L$ is specific latent heat. Energy changes particle separation and potential energy rather than mean kinetic energy, so temperature remains constant.
+
+## Power and time
+
+For a heater of power $P$:
+
+$$
+E=Pt.
+$$
+
+Transferring $42000$ J with a 700 W heater takes, ideally:
+
+$$
+t=\\frac{42000}{700}=60\\ \\mathrm{s}.
+$$
+
+The real time is longer if energy escapes to the surroundings.
+
+## Graph gradient
+
+At constant power, a steeper line means temperature rises faster. For the same mass and power, a material with lower $c$ gives a steeper gradient.
+
+Plateau length depends on the energy needed for the state change and the input power.
+
+## Efficiency and energy that misses the sample
+
+If a heater takes electrical energy $E_{\\rm in}=Pt$ but only a fraction heats the sample:
+
+$$
+\\eta=\\frac{E_{\\rm useful}}{E_{\\rm in}}.
+$$
+
+To deliver 42,000 J usefully at 70% efficiency, the input must be:
+
+$$
+E_{\\rm in}=\\frac{42000}{0.70}=60000\\ \\mathrm J.
+$$
+
+With a 700 W heater, the time is $60000/700\\approx86$ s rather than 60 s. The remaining energy heats the container and surroundings; it has not disappeared.
+
+## Experiment to determine $c$
+
+Measure the block mass, place a heater and thermometer in good thermal contact and record temperature while the electrical power is known. For heating time $t$:
+
+$$
+c=\\frac{Pt}{m\\Delta T}.
+$$
+
+Insulation and a lid reduce energy loss. The block should be dry and the sensors should fit tightly because an air gap increases thermal resistance. Taking many readings allows transferred energy to be plotted against temperature; the gradient is $mc$.
+
+The experimental value of $c$ is often too high if all electrical energy is assigned to the block even though some escapes. A complete evaluation gives the direction of the effect rather than merely listing “heat loss”.
+
+## Common mistakes
+
+- Using $Q=mc\\Delta T$ on a plateau.
+- Claiming internal energy is constant because temperature is constant.
+- Confusing $c$ and $L$.
+- Substituting mass in grams.
+- Assuming 100% efficiency when losses are stated.
+
+## Particle explanation
+
+A complete answer names energy, motion, separation and forces. “Particles expand” is inaccurate: their average separation usually changes; the particles themselves do not grow.
+
+Método Nebula's virtual campus develops thermal energy, particles, state changes and heat transfer through structured theory and GCSE questions. Contact us to combine calculations and scientific explanations in one plan.
+`,Ee=`---
+title: "Física GCSE: curvas de calentamiento, calor específico y cambios de estado sin mezclar fórmulas"
+seoTitle: "Física GCSE: curvas de calentamiento y cambios de estado"
+date: "2026-10-12"
+updated: "2026-10-12"
+description: "Entiende curvas de calentamiento GCSE, capacidad térmica específica, calor latente, partículas y conservación de la energía."
+tag: "GCSE"
+category: "Exámenes internacionales"
+relatedService: "/clases-particulares/gcse-ib/"
+relatedPosts: "gcse-physics-energy-work-power-efficiency,gcse-physics-waves-refraction,gcse-physics-forces-exam-questions"
+image: "/assets/latex/gcse-heating-curve.svg"
+language: "es"
+translation: "gcse-physics-thermal-heating-curves-en"
+---
+
+En una curva de calentamiento, una línea horizontal no significa que haya dejado de entrar energía. Significa que esa energía está cambiando la organización de las partículas en lugar de aumentar su temperatura.
+
+> **Respuesta directa.** Usa $Q=mc\\Delta T$ cuando cambia la temperatura dentro de un mismo estado y $Q=mL$ durante un cambio de estado. En una meseta, la temperatura permanece constante aunque la energía interna aumente.
+
+![Curva de calentamiento con tramos inclinados y mesetas de cambio de estado](/assets/latex/gcse-heating-curve.svg)
+
+## Temperatura y energía interna
+
+La temperatura se relaciona con la energía cinética media de las partículas. La energía interna incluye energía cinética y energía potencial asociada a sus interacciones.
+
+Calentar un sólido suele aumentar la vibración de sus partículas. Durante la fusión, la energía se emplea en vencer parcialmente las fuerzas que mantienen la estructura.
+
+## Tramos inclinados
+
+Si no cambia el estado:
+
+$$
+Q=mc\\Delta T.
+$$
+
+$m$ es masa, $c$ capacidad térmica específica y $\\Delta T$ cambio de temperatura.
+
+### Ejemplo
+
+Calentar $0.50$ kg de agua $20^\\circ$C con $c=4200\\ \\mathrm{J\\,kg^{-1}\\,^\\circ C^{-1}}$ requiere:
+
+$$
+Q=0.50\\times4200\\times20=42000\\ \\mathrm{J}.
+$$
+
+## Mesetas
+
+Durante fusión o ebullición:
+
+$$
+Q=mL.
+$$
+
+$L$ es el calor latente específico. La energía cambia la separación y energía potencial de las partículas, no su energía cinética media; por eso la temperatura permanece constante.
+
+## Potencia y tiempo
+
+Para un calentador de potencia $P$:
+
+$$
+E=Pt.
+$$
+
+Si se transfieren $42000$ J con un calentador de 700 W, el tiempo ideal es:
+
+$$
+t=\\frac{42000}{700}=60\\ \\mathrm{s}.
+$$
+
+En la práctica será mayor si hay pérdidas al entorno.
+
+## Pendiente de la gráfica
+
+Con potencia constante, una pendiente grande significa que la temperatura cambia rápidamente. Para la misma masa y potencia, una sustancia con menor $c$ presenta mayor pendiente.
+
+La longitud de una meseta depende de la energía requerida para el cambio de estado y de la potencia suministrada.
+
+## Eficiencia y energía que no llega a la muestra
+
+Si el calentador consume energía eléctrica $E_{\\rm in}=Pt$ pero solo una fracción calienta la muestra:
+
+$$
+\\eta=\\frac{E_{\\rm útil}}{E_{\\rm in}}.
+$$
+
+Para suministrar 42 000 J útiles con una eficiencia del 70 %, se necesitan:
+
+$$
+E_{\\rm in}=\\frac{42000}{0.70}=60000\\ \\mathrm J.
+$$
+
+Con 700 W, el tiempo sería $60000/700\\approx86$ s, no 60 s. La energía restante calienta el recipiente y el entorno; no desaparece.
+
+## Experimento para determinar $c$
+
+Mide la masa del bloque, introduce un calentador y un termómetro en contacto térmico y registra la temperatura mientras se conoce la potencia eléctrica. Si el calentamiento dura $t$:
+
+$$
+c=\\frac{Pt}{m\\Delta T}.
+$$
+
+El aislamiento y una tapa reducen pérdidas. El bloque debe estar seco y los sensores bien ajustados; un espacio de aire aumenta la resistencia térmica. Tomar muchas medidas permite representar energía transferida frente a temperatura: el gradiente es $mc$.
+
+El valor experimental suele salir demasiado alto si se atribuye al bloque toda la energía eléctrica cuando parte se escapa. Una evaluación completa identifica la dirección del efecto, no solo enumera “pérdidas de calor”.
+
+## Errores frecuentes
+
+- Usar $Q=mc\\Delta T$ durante una meseta.
+- Afirmar que la energía interna es constante porque la temperatura no cambia.
+- Confundir $c$ con $L$.
+- Introducir masa en gramos.
+- Suponer eficiencia del 100 % cuando el enunciado menciona pérdidas.
+
+## Respuesta de partículas
+
+Una explicación completa nombra energía, movimiento, separación y fuerzas. “Las partículas se expanden” es impreciso: normalmente aumenta su separación; las partículas no crecen.
+
+El campus de Método Nebula desarrolla energía térmica, partículas, cambios de estado y transferencia de calor con teoría y preguntas GCSE. Contacta para practicar cálculos y explicaciones científicas en un mismo plan.
+`,_e=`---
+title: "GCSE Physics: reflection and refraction without mixing up frequency, speed and wavelength"
+seoTitle: "GCSE Physics: reflection and refraction step by step"
+date: "2026-10-29"
+updated: "2026-10-29"
+description: "Master reflection and refraction in GCSE Physics: normals, angles, speed, frequency, wavelength and exam explanations."
+tag: "GCSE"
+category: "Exámenes internacionales"
+relatedService: "/clases-particulares/gcse-ib/"
+relatedPosts: "gcse-physics-energy-work-power-efficiency-en,gcse-physics-radioactivity-half-life-en,gcse-physics-electricity-revision-en"
+image: "/assets/latex/gcse-wave-refraction.svg"
+language: "en"
+translation: "gcse-physics-waves-refraction"
+---
+
+A wave does not simply “turn” at a boundary. In reflection it remains in the original medium; in refraction it enters another medium and changes speed. The diagram only becomes reliable after the normal has been drawn and every angle is measured from it.
+
+> **Direct answer.** A refracted wave keeps the same frequency because the source fixes it. Its speed and wavelength may change through $v=f\\lambda$. If the wave slows down, it bends towards the normal; if it speeds up, it bends away.
+
+![Incident, reflected and refracted rays with the normal and angles](/assets/latex/gcse-wave-refraction.svg)
+
+## The normal organises the diagram
+
+The normal is perpendicular to the boundary at the point of incidence. Incidence, reflection and refraction angles are measured between each ray and the normal, never between a ray and the surface.
+
+For reflection:
+
+$$
+i=r_{\\text{reflection}}.
+$$
+
+This remains true for a curved mirror: construct the local normal first.
+
+## What changes during refraction
+
+The source continues oscillating at the same rate:
+
+$$
+f_1=f_2.
+$$
+
+Since $v=f\\lambda$, changing speed changes wavelength. If $v_2<v_1$, then $\\lambda_2<\\lambda_1$: the wavefronts become closer.
+
+For two media:
+
+$$
+\\frac{\\sin i}{\\sin r}=\\frac{v_1}{v_2}.
+$$
+
+You do not need a memorised direction rule if you compare the speeds.
+
+## Worked example
+
+A wave moves at $12\\ \\mathrm{m\\,s^{-1}}$ in the first medium and $8\\ \\mathrm{m\\,s^{-1}}$ in the second. Its frequency is $4\\ \\mathrm{Hz}$.
+
+$$
+\\lambda_1=\\frac{12}{4}=3\\ \\mathrm{m},
+\\qquad
+\\lambda_2=\\frac{8}{4}=2\\ \\mathrm{m}.
+$$
+
+The frequency stays at $4$ Hz and the wavelength decreases. The refracted ray bends towards the normal.
+
+## Water, light and sound
+
+The physical argument is shared, but “denser medium” is not a universal shortcut. Light usually travels more slowly in glass than in air, while sound can travel faster in solids than in gases. Compare the relevant wave speeds.
+
+## A complete explanation
+
+A three-mark response should connect:
+
+1. The speed changes at the boundary.
+2. The frequency remains constant.
+3. The wavelength changes because $v=f\\lambda$, producing the direction change.
+
+## Critical angle and total internal reflection
+
+When light tries to move from a medium in which it travels more slowly into one in which it travels faster, the refracted angle increases. At one particular incidence angle, called the **critical angle**, the refracted ray runs along the boundary: $r=90^\\circ$. Above that incidence angle, no transmitted ray remains and total internal reflection occurs.
+
+Both conditions matter: light must be travelling towards the faster medium and its incidence angle must exceed the critical angle. In an optical fibre, repeated total internal reflection keeps the signal inside the core. Writing only that “light bounces” does not explain the role of the boundary and the angle.
+
+## Reading a transparent-block experiment
+
+Trace the block, draw a thin incident ray and mark two points on each straight ray section. Remove the block and join the points with a ruler. Construct each normal and place the protractor centre exactly at the incidence point before measuring. Repeating this for several angles allows $\\sin i$ to be compared with $\\sin r$.
+
+Thick pencil lines, a tilted normal or measuring from the block face create systematic error. In an experimental-evaluation question, suggest thin lines, repeated readings and a wide range of angles rather than simply saying “be more careful”.
+
+## Mistakes that lose marks
+
+- Measuring angles from the surface.
+- Changing frequency at the boundary.
+- Confusing reflection with refraction.
+- Treating amplitude and frequency as the same quantity.
+- Drawing the refracted ray without comparing speeds.
+
+## Final exam check
+
+Check the normal, units, direction and $v=f\\lambda$. If the wave slows down but your wavelength increases, the answer is inconsistent.
+
+Método Nebula's virtual campus links waves, light and sound through structured theory, graded questions and GCSE exam practice. Use the contact button if you want a plan with corrected diagrams and explanations.
+`,je=`---
+title: "Física GCSE: reflexión y refracción sin confundir frecuencia, velocidad y longitud de onda"
+seoTitle: "Física GCSE: reflexión y refracción paso a paso"
+date: "2026-10-29"
+updated: "2026-10-29"
+description: "Domina reflexión y refracción en Física GCSE: normales, ángulos, velocidad, frecuencia, longitud de onda y preguntas de examen."
+tag: "GCSE"
+category: "Exámenes internacionales"
+relatedService: "/clases-particulares/gcse-ib/"
+relatedPosts: "gcse-physics-energy-work-power-efficiency,gcse-physics-radioactivity-half-life,gcse-physics-electricity-revision"
+image: "/assets/latex/gcse-wave-refraction.svg"
+language: "es"
+translation: "gcse-physics-waves-refraction-en"
+---
+
+Una onda no “gira porque sí” al llegar a una frontera. En la reflexión permanece en el medio original; en la refracción entra en otro medio y cambia su velocidad. El dibujo solo se entiende si se traza primero la normal y se miden los ángulos respecto a ella.
+
+> **Respuesta directa.** Al refractarse una onda, su frecuencia no cambia porque la fija la fuente. Sí pueden cambiar la velocidad y la longitud de onda, relacionadas por $v=f\\lambda$. Si la onda disminuye su velocidad, se acerca a la normal; si aumenta, se aleja.
+
+![Rayo incidente, reflejado y refractado con normal y ángulos](/assets/latex/gcse-wave-refraction.svg)
+
+## La normal organiza todo el diagrama
+
+La normal es una línea perpendicular a la frontera en el punto de incidencia. Los ángulos de incidencia, reflexión y refracción se miden entre el rayo y la normal, nunca entre el rayo y la superficie.
+
+En reflexión:
+
+$$
+i=r_{\\text{reflexión}}.
+$$
+
+La igualdad no depende de la forma del espejo. Lo importante es construir la normal localmente.
+
+## Qué cambia en la refracción
+
+La fuente sigue oscilando al mismo ritmo, por lo que:
+
+$$
+f_1=f_2.
+$$
+
+Como $v=f\\lambda$, un cambio de velocidad obliga a cambiar $\\lambda$. Si $v_2<v_1$, entonces $\\lambda_2<\\lambda_1$. La separación entre frentes de onda disminuye.
+
+Para dos medios puede usarse:
+
+$$
+\\frac{\\sin i}{\\sin r}=\\frac{v_1}{v_2}.
+$$
+
+No necesitas memorizar “hacia” o “lejos” de la normal si comparas velocidades.
+
+## Ejemplo resuelto
+
+Una onda pasa de un medio donde viaja a $12\\ \\mathrm{m\\,s^{-1}}$ a otro donde viaja a $8\\ \\mathrm{m\\,s^{-1}}$. Su frecuencia es $4\\ \\mathrm{Hz}$.
+
+$$
+\\lambda_1=\\frac{12}{4}=3\\ \\mathrm{m},
+\\qquad
+\\lambda_2=\\frac{8}{4}=2\\ \\mathrm{m}.
+$$
+
+La frecuencia permanece en $4$ Hz y la longitud de onda disminuye. El rayo refractado se acerca a la normal.
+
+## Agua, luz y sonido
+
+La idea física es la misma, pero no conviene aprender una regla universal sobre qué medio es “más denso”. La luz suele viajar más despacio en vidrio que en aire; el sonido puede viajar más deprisa en sólidos que en gases. Compara siempre la velocidad relevante.
+
+## Pregunta de explicación completa
+
+Una respuesta de tres puntos debería enlazar:
+
+1. La velocidad cambia al entrar en otro medio.
+2. La frecuencia permanece constante.
+3. La longitud de onda cambia porque $v=f\\lambda$, y eso produce el cambio de dirección.
+
+## Ángulo crítico y reflexión interna total
+
+Cuando la luz intenta pasar de un medio donde viaja más despacio a otro donde viaja más deprisa, el ángulo refractado aumenta. Para un ángulo de incidencia concreto, llamado **ángulo crítico**, el rayo refractado sale justo por la frontera: $r=90^\\circ$. Si el ángulo de incidencia supera ese valor, ya no hay rayo transmitido y se produce reflexión interna total.
+
+Las dos condiciones deben citarse juntas: la luz debe dirigirse hacia el medio de mayor velocidad y el ángulo de incidencia debe ser mayor que el crítico. En fibras ópticas, esta reflexión repetida mantiene la señal dentro del núcleo. No basta con escribir que “la luz rebota”; hay que relacionar el fenómeno con la frontera y el ángulo.
+
+## Cómo leer un experimento con un bloque transparente
+
+Marca la posición del bloque, dibuja un rayo fino y señala dos puntos antes y después de atravesarlo. Retira el bloque y une los puntos con regla. Después construye las normales y mide los ángulos con el centro del transportador exactamente en cada punto de incidencia. Repetir para varios ángulos permite comparar $\\sin i$ con $\\sin r$.
+
+Una línea gruesa, una normal inclinada o medir desde la cara del bloque introducen un error sistemático. En una pregunta de evaluación experimental conviene mencionar líneas finas, más repeticiones y un intervalo amplio de ángulos.
+
+## Errores que cuestan puntos
+
+- Medir el ángulo desde la superficie.
+- Cambiar la frecuencia al cruzar la frontera.
+- Confundir reflexión con refracción.
+- Afirmar que la amplitud y la frecuencia son lo mismo.
+- Dibujar el rayo refractado sin comparar velocidades.
+
+## Comprobación de examen
+
+Antes de terminar, revisa normal, unidades, dirección y relación $v=f\\lambda$. Si el medio reduce la velocidad pero tu longitud de onda aumenta, hay una incoherencia.
+
+El campus de Método Nebula conecta ondas, luz y sonido con teoría, ejercicios graduados y preguntas de examen GCSE. Si quieres practicar dibujos y explicaciones con corrección, utiliza el botón de contacto para construir un plan.
+`,Ce=`---
 title: "Gravitación en ESO: ley universal, masa, peso y ejercicios resueltos"
 date: "2026-08-26"
 updated: "2026-08-26"
@@ -11297,7 +12695,7 @@ $$
 Todas las masas se atraen con una fuerza que aumenta con las masas y disminuye con el cuadrado de la distancia. La masa se mide en kg y no cambia al viajar; el peso es una fuerza, se mide en N y vale $P=mg$ cerca de la Tierra. La caída libre es un MRUA con aceleración $g$.
 
 Para practicar el movimiento de caída, repasa el [MRUA con fórmulas y ejercicios](/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/). Para aprender a identificar datos, unidades y modelo antes de calcular, consulta [cómo plantear problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/). También puedes consultar las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,xe=`---
+`,ze=`---
 title: IB y GCSE: cómo preparar exámenes internacionales con rúbrica y calendario
 date: 2026-06-10
 updated: 2026-06-10
@@ -11365,7 +12763,7 @@ Cada semana conviene responder tres preguntas:
 Esta revisión evita estudiar por inercia. En programas internacionales, donde el formato importa mucho, una preparación sin feedback acaba dejando puntos fáciles por el camino.
 
 Para organizar esa preparación puedes ver [clases para GCSE, IGCSE e IB](/clases-particulares/gcse-ib/) o [contactar](/contacto/) para revisar syllabus, fecha y objetivo.
-`,ge=`---
+`,Se=`---
 title: Integración por partes: fórmula y ejercicios resueltos
 seoTitle: "Integración por partes: fórmula, cómo elegir u y ejercicios"
 date: 2026-08-06
@@ -12046,7 +13444,7 @@ Integración por partes funciona cuando el intercambio \\(\\int u\\,dv\\to uv-\\
 Después de aplicar la fórmula, pueden ocurrir tres cosas útiles: la nueva integral es inmediata, hay que repetir partes o reaparece la integral original y se despeja. En todos los casos, la derivación del resultado es la prueba definitiva.
 
 Si quieres practicar el método con ejercicios de tu grado y recibir corrección sobre la elección de \\(u\\), los signos y la presentación, consulta las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,fe=`---
+`,Pe=`---
 title: Integración por sustitución: cambio de variable y ejercicios
 seoTitle: "Integración por sustitución: método y ejercicios resueltos"
 date: 2026-08-12
@@ -12770,7 +14168,7 @@ La comprobación más fiable consiste en derivar: si recuperas el integrando med
 En cálculo multivariable, la misma idea exige corregir áreas mediante el determinante: consulta la guía de [cambio de variables y jacobiano en integrales dobles](/blog/cambio-variables-jacobiano-integrales-dobles/).
 
 Si estás trabajando sustituciones más exigentes en Cálculo y necesitas corregir la elección del cambio sobre ejercicios reales de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,be=`---
+`,Le=`---
 title: Integral definida e indefinida: diferencias y ejemplos
 date: 2026-08-10
 updated: 2026-08-10
@@ -13478,7 +14876,7 @@ El valor queda entre \\(f(0)=1\\) y \\(f(2)=7\\), como debe ocurrir.
 La integral indefinida busca una familia de primitivas y termina con \\(+C\\). La integral definida mide una acumulación neta sobre un intervalo y termina en un número. El teorema fundamental permite calcular esa acumulación restando valores de una primitiva y explica por qué la constante desaparece.
 
 Antes de operar, identifica qué objeto pide el problema. Después comprueba por derivación y, en integrales definidas, añade controles de signo, unidades, cotas y continuidad. Si necesitas trabajar estas diferencias sobre problemas de tu grado, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,ve=`---
+`,Ae=`---
 title: "Integrales dobles: cálculo, regiones y ejercicios resueltos"
 date: "2026-09-03"
 updated: "2026-09-03"
@@ -14096,7 +15494,7 @@ $$
 Dibuja primero y escribe después los límites. En una integral iterada, resuelve la integral interior tratando la otra variable como constante. Cambia el orden cuando simplifique el integrando o los límites, reconstruyendo siempre la región. Para áreas integra uno; para volúmenes usa altura superior menos inferior; para masas introduce la densidad.
 
 Si necesitas trabajar regiones y cambios de orden con ejercicios de tu temario, las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/) permiten practicar el planteamiento y no solo la integración mecánica.
-`,ye=`---
+`,Ue=`---
 title: Integrales de funciones racionales y fracciones parciales
 date: 2026-08-03
 updated: 2026-08-03
@@ -14858,7 +16256,7 @@ Una integral racional se resuelve en tres capas: división si la fracción es im
 El método termina cuando cada sumando encaja en una primitiva conocida. La comprobación más segura se hace antes y después de integrar: primero reuniendo la descomposición y después derivando el resultado.
 
 Si necesitas aplicar estas plantillas a ejercicios de tu asignatura y corregir la factorización o el sistema de coeficientes, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,qe=`---
+`,De=`---
 title: Integrales impropias: convergencia y ejercicios resueltos
 date: 2026-08-15
 updated: 2026-08-15
@@ -15656,7 +17054,7 @@ Una integral es impropia por un intervalo infinito, por una singularidad o por a
 La clasificación debe preceder al valor. Antes de integrar, marca sobre el intervalo cada punto fuera del dominio y estudia por separado el comportamiento local y la cola en infinito. Después elige entre cálculo exacto y comparación. Esta secuencia evita cancelaciones ilegítimas, sustituciones de $\\infty$ como si fuera un número y conclusiones basadas únicamente en que el integrando tiende a cero.
 
 Si necesitas trabajar convergencia, comparaciones y técnicas de integración sobre ejercicios de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,he=`---
+`,we=`---
 title: Matrices, determinantes y sistemas de ecuaciones: guía completa para primero de carrera
 date: 2026-06-25
 updated: 2026-06-25
@@ -15831,7 +17229,7 @@ No hagas solo sistemas numéricos. Mezcla:
 - Problemas donde haya que decidir si usar Gauss, determinante o interpretación geométrica.
 
 Si este bloque te cuesta, empieza por [Álgebra Lineal en la universidad](/blog/algebra-lineal-universidad-que-estudiar-primero-errores/) y revisa la página de [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,Ee=`---
+`,Me=`---
 title: "Máximos y mínimos de varias variables: guía y ejercicios"
 date: "2026-09-01"
 updated: "2026-09-01"
@@ -16401,7 +17799,7 @@ Todos los valores cumplen $f<1$, pero pueden acercarse tanto como se quiera a $1
 Primero separa el problema interior del problema de frontera. En el interior, resuelve $\\nabla f=0$ y clasifica con la hessiana; si el determinante es cero, cambia de argumento. En una región compacta, analiza cada frontera y compara todos los candidatos. Con una restricción regular, Lagrange expresa el paralelismo de los gradientes, pero no evita la comprobación final.
 
 Conviene dominar antes las [derivadas parciales y el gradiente](/blog/derivadas-parciales-gradiente-ejercicios/). Si necesitas practicar clasificaciones y restricciones con los ejercicios de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,_e=`---
+`,Re=`---
 title: Métodos de integración: cómo elegir la técnica adecuada
 date: 2026-08-01
 updated: 2026-08-01
@@ -16993,7 +18391,7 @@ Primero simplifica. Después busca una forma inmediata o una composición con su
 La elección no se memoriza como una lista de palabras clave. Se entrena comparando la estructura del integrando con las reglas de derivación que ya conoces y comprobando si cada transformación reduce la dificultad.
 
 Si estás preparando Cálculo universitario y necesitas aplicar este árbol de decisión a tus hojas de problemas o exámenes, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,je=`---
+`,Ie=`---
 title: Microeconomía I: diez tipos de problemas que debes dominar antes del examen
 date: 2026-07-05
 updated: 2026-07-05
@@ -17132,7 +18530,7 @@ Para cada tipo de problema, prepara una ficha:
 - No distinguir demanda individual y demanda de mercado.
 
 Si quieres trabajar Microeconomía I desde ejercicios reales, revisa [clases particulares de Economía y ADE](/clases-particulares/economia-ade/) y la guía de [Matemáticas I en ADE y Economía](/blog/como-aprobar-matematicas-i-ade-economia/).
-`,Ce=`---
+`,Ne=`---
 title: "MRU en ESO: movimiento rectilíneo uniforme con fórmulas y ejercicios"
 date: "2026-08-12"
 updated: "2026-08-12"
@@ -17366,7 +18764,7 @@ En MRU la trayectoria es recta y la velocidad es constante, así que $a=0$. Usa 
 Cuando la velocidad deja de ser constante, el modelo correcto pasa a ser el [MRUA: movimiento rectilíneo uniformemente acelerado](/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/). Para reforzar el método general de planteamiento, consulta también [cómo resolver problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/).
 
 Si necesitas practicar con ejercicios de tu curso, puedes consultar las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,ze=`---
+`,Te=`---
 title: "MRUA en ESO: movimiento rectilíneo acelerado con fórmulas y ejercicios"
 date: "2026-08-19"
 updated: "2026-08-19"
@@ -17581,7 +18979,7 @@ Sigue avanzando en el sentido inicial, pero más despacio.
 En MRUA la trayectoria es recta y la aceleración es constante. Usa $v=v_0+at$ para velocidades y $x=x_0+v_0t+\\frac12at^2$ para posiciones. En una gráfica $v-t$, la pendiente es la aceleración y el área es el desplazamiento.
 
 Para consolidar la base, repasa el [MRU con ejercicios](/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/) y el método de [plantear problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/). Si necesitas practicar con tu temario, puedes consultar las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,Se=`---
+`,Fe=`---
 title: p-valor, intervalo de confianza y tamaño del efecto explicados con un mismo ejemplo
 date: 2026-07-10
 updated: 2026-07-10
@@ -17698,7 +19096,131 @@ Si te dan una salida de software, localiza:
 5. La frase de interpretación.
 
 Para evitar confusiones habituales, lee también [errores más comunes en Inferencia Estadística](/blog/errores-comunes-inferencia-estadistica/) y [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/).
-`,Le=`---
+`,Oe=`---
+title: "Inferencia estadística en Matemáticas CCSS PAU: intervalos de confianza y tamaño muestral con sentido"
+seoTitle: "Inferencia estadística PAU: intervalos y tamaño muestral"
+date: "2026-10-02"
+updated: "2026-10-02"
+description: "Resuelve inferencia estadística en Matemáticas CCSS PAU: intervalos de confianza, error, nivel de confianza y tamaño muestral."
+tag: "PAU"
+category: "Selectividad"
+relatedService: "/preparacion-examenes/matematicas-selectividad/"
+relatedPosts: "pau-matematicas-probabilidad-distribuciones,p-valor-intervalo-confianza-tamano-efecto-ejemplo,como-preparar-pau-matematicas-ii"
+image: "/assets/latex/confidence-interval.svg"
+---
+
+Un intervalo de confianza no afirma que “la media está dentro con probabilidad 95 %” después de calcularlo. El parámetro es fijo; el procedimiento aleatorio es el intervalo construido a partir de la muestra.
+
+> **Respuesta directa.** Un intervalo combina estimación puntual y margen de error. Aumentar confianza ensancha el intervalo; aumentar tamaño muestral lo estrecha. La interpretación debe mencionar el parámetro poblacional y el nivel de confianza.
+
+![Distribución muestral y margen de un intervalo de confianza](/assets/latex/confidence-interval.svg)
+
+## Intervalo para una media
+
+Con desviación poblacional conocida:
+
+$$
+\\bar x\\pm z_{\\alpha/2}\\frac{\\sigma}{\\sqrt n}.
+$$
+
+El error máximo es:
+
+$$
+E=z_{\\alpha/2}\\frac{\\sigma}{\\sqrt n}.
+$$
+
+Para 95 % de confianza, $z_{\\alpha/2}\\approx1.96$.
+
+## Ejemplo resuelto
+
+Una muestra de $n=100$ tiene media $\\bar x=52$ y $\\sigma=10$. El intervalo al 95 % es:
+
+$$
+52\\pm1.96\\frac{10}{\\sqrt{100}}
+=52\\pm1.96.
+$$
+
+Por tanto:
+
+$$
+(50.04,\\ 53.96).
+$$
+
+Interpretación: con el procedimiento utilizado, estimamos la media poblacional mediante un intervalo de confianza del 95 % entre 50.04 y 53.96.
+
+## Tamaño muestral
+
+Si se exige error máximo $E$:
+
+$$
+n\\geq\\left(\\frac{z_{\\alpha/2}\\sigma}{E}\\right)^2.
+$$
+
+El resultado se redondea siempre hacia arriba, porque una muestra menor no garantiza el error solicitado.
+
+### Ejemplo de diseño muestral
+
+Si $\\sigma=12$, se desea confianza del 95 % y error máximo 2:
+
+$$
+n\\geq\\left(\\frac{1.96(12)}{2}\\right)^2
+=138.30.
+$$
+
+Se necesitan al menos 139 observaciones. Redondear a 138 produciría un error ligeramente superior al exigido. Si se quisiera reducir el error a 1 manteniendo todo lo demás, el tamaño se multiplicaría aproximadamente por cuatro.
+
+## Condiciones y representatividad
+
+Las fórmulas no corrigen una muestra sesgada. La selección debe ser aleatoria o razonablemente representativa y las observaciones deben poder tratarse como independientes. Para usar la aproximación normal en una proporción, se comprueba que los recuentos esperados de éxitos y fracasos sean suficientemente grandes según el criterio del temario.
+
+Un intervalo estrecho obtenido de una encuesta voluntaria puede ser preciso respecto a esa muestra y, sin embargo, no describir bien la población. Precisión y ausencia de sesgo son propiedades distintas.
+
+## Comparar dos intervalos con rigor
+
+Si dos intervalos se han construido con el mismo método, uno más estrecho indica menor error estándar. Puede deberse a una muestra mayor o a menor variabilidad. Sin conocer ambas condiciones, no se debe atribuir la diferencia solo a $n$.
+
+Que un valor hipotético quede fuera del intervalo sugiere incompatibilidad con los datos al nivel asociado, pero no mide por sí solo la importancia práctica de la diferencia. En PAU, la conclusión debe responder a la pregunta contextual y conservar las unidades.
+
+También conviene distinguir confianza de probabilidad individual: el intervalo estima una media o proporción poblacional, no el rango donde caerá el 95 % de las observaciones.
+
+## Qué ensancha o estrecha
+
+- Mayor confianza $\\Rightarrow$ mayor $z$ $\\Rightarrow$ intervalo más ancho.
+- Mayor variabilidad $\\Rightarrow$ intervalo más ancho.
+- Mayor $n$ $\\Rightarrow$ menor error, con dependencia $1/\\sqrt n$.
+
+Cuadruplicar la muestra divide aproximadamente el error entre dos.
+
+## Proporciones
+
+Para una proporción muestral $\\hat p$:
+
+$$
+\\hat p\\pm z_{\\alpha/2}
+\\sqrt{\\frac{\\hat p(1-\\hat p)}{n}}.
+$$
+
+Comprueba las condiciones del modelo y expresa el resultado como proporción o porcentaje de forma consistente.
+
+## Método PAU
+
+1. Identifica parámetro: media o proporción.
+2. Extrae $n$, estimador, dispersión y confianza.
+3. Calcula el valor crítico.
+4. Halla error e intervalo.
+5. Interpreta en contexto.
+6. Si piden $n$, despeja y redondea hacia arriba.
+
+## Errores frecuentes
+
+- Usar $1.96$ para cualquier nivel de confianza.
+- Dividir por $n$ en lugar de $\\sqrt n$.
+- Redondear el tamaño muestral hacia abajo.
+- Interpretar el intervalo como rango de datos individuales.
+- Omitir unidades o contexto.
+
+El campus de Método Nebula reúne probabilidad, distribuciones, muestreo e inferencia con modelos PAU resueltos. Contacta para integrar fórmulas e interpretación en un plan de examen.
+`,He=`---
 title: "Matemáticas CCSS PAU: domina programación lineal y convierte enunciados en puntos"
 date: "2026-09-30"
 updated: "2026-10-28"
@@ -17798,7 +19320,7 @@ No es magia ni una regla sin motivo: es una propiedad de la geometría lineal.
 ¿Variables definidas? ¿Todas las restricciones traducidas? ¿Semiplanos verificados? ¿Vértices exactos? ¿Función objetivo evaluada? ¿Respuesta redactada con unidades? Si las seis respuestas son sí, el ejercicio está completo y el corrector puede seguir el razonamiento.
 
 El campus virtual de Método Nebula incluye Matemáticas CCSS con sistemas, representación, programación lineal, probabilidad e inferencia, organizados en teoría, ejemplos y práctica de examen. Si quieres dejar de depender de plantillas y aprender a modelizar, utiliza el botón de contacto.
-`,Pe=`---
+`,ke=`---
 title: "Cómo corregir un simulacro de PAU para subir nota: el sistema que convierte fallos en un plan"
 date: "2026-10-27"
 updated: "2026-10-28"
@@ -17907,7 +19429,7 @@ No necesitas un paper completo cada día. Haz el siguiente cuando hayas trabajad
 El campus virtual de Método Nebula permite pasar del diagnóstico a la unidad concreta, revisar teoría, observar ejemplos, practicar, responder preguntas de examen y volver a medir. La ventaja no es acumular contenido; es conservar una ruta entre el fallo y la siguiente evidencia.
 
 Si tienes modelos corregidos pero no sabes convertirlos en un calendario, utiliza el botón de contacto. Podemos revisar objetivo, comunidad, asignaturas, fecha y punto de partida para proponer un recorrido realista.
-`,Ae=`---
+`,Qe=`---
 title: "Campo gravitatorio PAU: satélites, órbitas y energía con un único desarrollo matemático"
 date: "2026-10-02"
 updated: "2026-10-02"
@@ -18058,7 +19580,119 @@ Un satélite geoestacionario debe tener periodo igual al de rotación terrestre,
 Dibujo y radio → ley física → deducción simbólica → sustitución SI → unidades → interpretación. La deducción simbólica permite ver dependencias, detectar datos irrelevantes y conservar puntos aunque falle una operación numérica.
 
 El campus virtual de Método Nebula desarrolla campo gravitatorio, potencial, energía, satélites, órbitas y escape con teoría, demostraciones, ejercicios y problemas PAU. El botón de contacto permite solicitar una ruta centrada en el desarrollo matemático que conecta todo el bloque.
-`,Ue=`---
+`,Be=`---
+title: "Física cuántica PAU: efecto fotoeléctrico y fotones para entender por qué existe una frecuencia umbral"
+seoTitle: "Efecto fotoeléctrico PAU: fotones y frecuencia umbral"
+date: "2026-10-10"
+updated: "2026-10-10"
+description: "Domina el efecto fotoeléctrico en Física PAU: fotones, trabajo de extracción, frecuencia umbral, potencial de frenado y gráficas."
+tag: "PAU"
+category: "Selectividad"
+relatedService: "/clases-particulares/selectividad/"
+relatedPosts: "pau-fisica-nuclear-defecto-masa,pau-fisica-ondas-resolver-problemas,pau-corregir-simulacros-plan-estudio"
+image: "/assets/latex/photoelectric-threshold.svg"
+---
+
+El efecto fotoeléctrico obliga a separar intensidad y frecuencia. Aumentar la intensidad aporta más fotones; aumentar la frecuencia cambia la energía de cada fotón.
+
+> **Respuesta directa.** Un electrón solo se emite si $hf\\geq\\phi$. Por encima de la frecuencia umbral, la energía cinética máxima es $K_{\\max}=hf-\\phi$. La intensidad modifica el número de electrones emitidos, no su energía máxima si la frecuencia permanece fija.
+
+![Energía cinética máxima frente a frecuencia con umbral fotoeléctrico](/assets/latex/photoelectric-threshold.svg)
+
+## La ecuación de Einstein
+
+$$
+E_\\gamma=hf=\\frac{hc}{\\lambda}.
+$$
+
+Parte de esa energía vence el trabajo de extracción $\\phi$:
+
+$$
+K_{\\max}=hf-\\phi.
+$$
+
+En el umbral, $K_{\\max}=0$:
+
+$$
+\\phi=hf_0.
+$$
+
+## Ejemplo resuelto
+
+Un metal tiene trabajo de extracción $\\phi=2.2$ eV. Su frecuencia umbral es:
+
+$$
+f_0=\\frac{\\phi}{h}.
+$$
+
+Convirtiendo:
+
+$$
+\\phi=2.2(1.602\\times10^{-19})
+=3.52\\times10^{-19}\\ \\mathrm{J}.
+$$
+
+$$
+f_0\\approx\\frac{3.52\\times10^{-19}}{6.626\\times10^{-34}}
+=5.31\\times10^{14}\\ \\mathrm{Hz}.
+$$
+
+## Potencial de frenado
+
+Si un potencial $V_f$ detiene a los electrones más energéticos:
+
+$$
+eV_f=K_{\\max}.
+$$
+
+La pendiente de una gráfica $K_{\\max}$ frente a $f$ es $h$; el corte con el eje de frecuencia es $f_0$.
+
+## Qué cambia con la intensidad
+
+Por encima del umbral, más intensidad significa más fotones por segundo y, por tanto, mayor corriente fotoeléctrica. Pero si $f$ no cambia, cada fotón conserva la misma energía y $K_{\\max}$ permanece.
+
+Por debajo del umbral, ninguna intensidad compensa la falta de energía por fotón.
+
+## Ejemplo con potencial de frenado
+
+Sobre un metal de trabajo de extracción $2.0$ eV inciden fotones de energía $3.4$ eV. La energía cinética máxima es:
+
+$$
+K_{\\max}=3.4-2.0=1.4\\ \\mathrm{eV}.
+$$
+
+Como un electrón que atraviesa un voltio cambia su energía en un electronvoltio, el potencial de frenado es $V_f=1.4$ V. Si la intensidad se duplica manteniendo la frecuencia, aumentará la corriente de saturación, pero el potencial de frenado seguirá siendo 1.4 V.
+
+Si en cambio aumenta la frecuencia, la recta $K_{\\max}(f)$ crece con pendiente $h$. Medir esa pendiente permite estimar la constante de Planck, mientras que la ordenada en el origen extrapolada es $-\\phi$.
+
+## Qué observaciones exigieron el modelo de fotón
+
+La emisión aparece sin retraso apreciable cuando $f>f_0$, incluso con intensidad baja. Además, existe una frecuencia umbral y la energía máxima depende de la frecuencia, no de la intensidad. Un modelo ondulatorio clásico que repartiera energía continuamente no explicaba bien este conjunto de resultados.
+
+El modelo de Einstein asigna la interacción a paquetes individuales: un fotón entrega su energía a un electrón. Esto explica por qué muchos fotones poco energéticos no “suman” normalmente su energía para liberar un electrón en el experimento básico, y por qué aumentar la intensidad incrementa el número de sucesos, no la energía de cada uno.
+
+En una explicación PAU, observación y modelo deben aparecer conectados. Citar solo la ecuación obtiene menos información física que interpretar qué variable controla cada medida.
+
+## Dualidad y longitud de onda
+
+La relación de de Broglie:
+
+$$
+\\lambda=\\frac{h}{p}
+$$
+
+asocia longitud de onda a partículas con momento. En preguntas PAU conviene distinguir esta longitud de onda de la del fotón incidente.
+
+## Errores frecuentes
+
+- Usar eV como si fueran julios.
+- Afirmar que más intensidad aumenta $K_{\\max}$.
+- Confundir frecuencia umbral con intensidad mínima.
+- Omitir el trabajo de extracción.
+- Usar $c=f\\lambda$ con la velocidad de un electrón.
+
+El campus virtual de Método Nebula desarrolla cuántica, relatividad y nuclear con teoría, gráficos y problemas PAU. Contacta para entrenar conversiones, modelos y explicaciones.
+`,Ge=`---
 title: "Física PAU: electromagnetismo desde cero para dominar campos, fuerzas e inducción"
 date: "2026-10-24"
 updated: "2026-10-28"
@@ -18186,7 +19820,276 @@ Puede cambiar $B$, el área, la orientación o varias a la vez. El signo negativ
 Dibujo → vectores → ley física → módulo → dirección → comprobación de unidades. Para inducción añade: “qué hace variar el flujo”. Esta secuencia produce soluciones legibles y conserva puntuación parcial.
 
 El campus virtual de Método Nebula desarrolla electromagnetismo con fundamentos, ejemplos visuales, ejercicios y preguntas PAU. Si quieres convertir reglas sueltas en un mapa coherente y entrenable, utiliza el botón de contacto.
-`,De=`---
+`,Ve=`---
+title: "Movimiento armónico simple en PAU: de la proyección circular a energía, velocidad y aceleración"
+seoTitle: "Movimiento armónico simple PAU: método y ejercicios"
+date: "2026-10-28"
+updated: "2026-10-28"
+description: "Domina el MAS en Física PAU: ecuación, fase, velocidad, aceleración, energía, muelles y péndulos con un ejemplo resuelto."
+tag: "PAU"
+category: "Selectividad"
+relatedService: "/clases-particulares/selectividad/"
+relatedPosts: "pau-fisica-ondas-resolver-problemas,pau-corregir-simulacros-plan-estudio,pau-fisica-campo-gravitatorio-satelites"
+image: "/assets/latex/shm-projection.svg"
+---
+
+El movimiento armónico simple no es una colección de senos y cosenos: es el movimiento producido por una aceleración proporcional al desplazamiento y dirigida hacia el equilibrio.
+
+> **Respuesta directa.** Si $a=-\\omega^2x$, el movimiento es armónico simple. Desde $x=A\\cos(\\omega t+\\varphi)$ se obtienen $v=-\\omega A\\sin(\\omega t+\\varphi)$ y $a=-\\omega^2x$. La fase inicial debe deducirse de la posición y el sentido de movimiento.
+
+![Proyección de un movimiento circular y relaciones fundamentales del MAS](/assets/latex/shm-projection.svg)
+
+## Las cuatro magnitudes que ordenan el problema
+
+- $A$: amplitud, máximo valor de $|x|$.
+- $\\omega$: frecuencia angular, en rad/s.
+- $T=2\\pi/\\omega$: período.
+- $\\varphi$: fase inicial.
+
+La frecuencia es $f=1/T=\\omega/(2\\pi)$. Mezclar $f$ y $\\omega$ introduce un factor $2\\pi$ que contamina todo el ejercicio.
+
+## Posición, velocidad y aceleración
+
+Partiendo de:
+
+$$
+x=A\\cos(\\omega t+\\varphi),
+$$
+
+se deriva:
+
+$$
+v=-\\omega A\\sin(\\omega t+\\varphi),
+\\qquad
+a=-\\omega^2A\\cos(\\omega t+\\varphi)=-\\omega^2x.
+$$
+
+En el centro, $|v|$ es máximo y $a=0$. En los extremos, $v=0$ y $|a|$ es máximo.
+
+## Energía sin memorizar tres fórmulas aisladas
+
+Para un muelle:
+
+$$
+E=\\frac12kA^2,
+\\qquad
+E_p=\\frac12kx^2,
+\\qquad
+E_c=E-E_p.
+$$
+
+Como $\\omega^2=k/m$, también:
+
+$$
+v^2=\\omega^2(A^2-x^2).
+$$
+
+## Ejemplo resuelto
+
+Una masa oscila con $A=0.08$ m y $T=0.40$ s. En $t=0$ está en el extremo positivo.
+
+$$
+\\omega=\\frac{2\\pi}{T}=5\\pi\\ \\mathrm{rad/s}.
+$$
+
+La condición inicial permite tomar $\\varphi=0$:
+
+$$
+x=0.08\\cos(5\\pi t).
+$$
+
+La velocidad máxima es:
+
+$$
+v_{\\max}=\\omega A=5\\pi(0.08)=0.4\\pi\\approx1.26\\ \\mathrm{m/s}.
+$$
+
+## Muelle y péndulo
+
+Para una masa unida a un muelle:
+
+$$
+T=2\\pi\\sqrt{\\frac{m}{k}}.
+$$
+
+Para un péndulo simple y oscilaciones pequeñas:
+
+$$
+T=2\\pi\\sqrt{\\frac{\\ell}{g}}.
+$$
+
+La aproximación de ángulo pequeño es una hipótesis física; no debe omitirse.
+
+## Cómo obtener la fase inicial sin adivinar
+
+Las condiciones iniciales deben cumplir simultáneamente posición y velocidad:
+
+$$
+x_0=A\\cos\\varphi,
+\\qquad
+v_0=-\\omega A\\sin\\varphi.
+$$
+
+La primera ecuación suele proporcionar dos ángulos posibles. El signo de $v_0$ decide cuál corresponde al movimiento real. Por ejemplo, si $x_0=A/2$ y la partícula se desplaza hacia posiciones negativas, $\\cos\\varphi=1/2$ y $\\sin\\varphi>0$; por tanto, puede tomarse $\\varphi=\\pi/3$. Elegir $5\\pi/3$ daría la posición correcta, pero una velocidad positiva, incompatible con el enunciado.
+
+## Una comprobación energética útil
+
+En cualquier posición, la suma debe conservarse:
+
+$$
+\\frac12mv^2+\\frac12kx^2=\\frac12kA^2.
+$$
+
+Si el resultado da $|x|>A$ o $|v|>\\omega A$, hay un error algebraico o de unidades. Esta comprobación también permite resolver preguntas sin tiempo: conocida la posición, se obtiene el módulo de la velocidad, aunque su signo requiere saber hacia dónde se mueve el oscilador.
+
+En una gráfica $x(t)$, la pendiente representa $v$ y la concavidad determina el signo de $a$. En un máximo de $x$, la pendiente es cero y la concavidad es negativa; esa lectura conecta cálculo y física y evita memorizar puntos aislados.
+
+## Método PAU
+
+1. Define origen y sentido positivo.
+2. Calcula $\\omega$.
+3. Usa posición y velocidad inicial para fijar fase.
+4. Deriva la ecuación, no adivines signos.
+5. Comprueba extremos, centro y unidades.
+
+## Errores frecuentes
+
+- Usar grados en una fase expresada en radianes.
+- Suponer $\\varphi=0$ sin leer las condiciones iniciales.
+- Colocar velocidad máxima en un extremo.
+- Olvidar el signo restaurador de $a=-\\omega^2x$.
+- Aplicar la fórmula del péndulo a amplitudes grandes sin justificar.
+
+El campus virtual de Método Nebula integra MAS y ondas con teoría, ejercicios graduados y problemas PAU. El contacto sirve para diagnosticar si el bloqueo está en la fase, las derivadas o la interpretación física.
+`,We=`---
+title: "Física nuclear PAU: defecto de masa, energía de enlace y radiactividad con unidades bajo control"
+seoTitle: "Física nuclear PAU: defecto de masa y energía de enlace"
+date: "2026-10-06"
+updated: "2026-10-06"
+description: "Resuelve Física nuclear PAU: defecto de masa, energía de enlace por nucleón, desintegraciones, vida media y actividad."
+tag: "PAU"
+category: "Selectividad"
+relatedService: "/clases-particulares/selectividad/"
+relatedPosts: "pau-fisica-cuantica-efecto-fotoelectrico,gcse-physics-radioactivity-half-life,pau-corregir-simulacros-plan-estudio"
+image: "/assets/latex/half-life-curve.svg"
+---
+
+En física nuclear aparecen masas muy pequeñas y energías enormes porque la conversión $E=mc^2$ multiplica cualquier defecto de masa por $c^2$. El reto es mantener coherentes núcleos, átomos, unidades de masa y electronvoltios.
+
+> **Respuesta directa.** El defecto de masa es la diferencia entre la suma de masas de nucleones separados y la masa del núcleo. Su energía equivalente es la energía de enlace: $E_b=\\Delta mc^2$. Dividir entre el número de nucleones permite comparar estabilidad.
+
+![Curva exponencial de núcleos no desintegrados y vidas medias](/assets/latex/half-life-curve.svg)
+
+## Defecto de masa
+
+Para un núcleo con $Z$ protones y $N$ neutrones:
+
+$$
+\\Delta m=Zm_p+Nm_n-m_{\\rm núcleo}.
+$$
+
+Si se utilizan masas atómicas, debe elegirse una formulación que cancele correctamente las masas electrónicas. No mezcles masa nuclear y atómica sin explicarlo.
+
+## Energía de enlace
+
+$$
+E_b=\\Delta mc^2.
+$$
+
+Con $\\Delta m$ en unidades de masa atómica:
+
+$$
+1\\ \\mathrm{u}\\,c^2\\approx931.5\\ \\mathrm{MeV}.
+$$
+
+La energía de enlace por nucleón es:
+
+$$
+\\frac{E_b}{A},
+$$
+
+donde $A=Z+N$. Cuanto mayor sea en la región habitual, más ligado está el núcleo.
+
+## Ejemplo
+
+Si $\\Delta m=0.0300$ u:
+
+$$
+E_b=0.0300(931.5)=27.9\\ \\mathrm{MeV}.
+$$
+
+Para un núcleo con $A=4$:
+
+$$
+\\frac{E_b}{A}=6.99\\ \\mathrm{MeV/nucleón}.
+$$
+
+## Desintegraciones
+
+- Alfa: $A$ disminuye 4 y $Z$ disminuye 2.
+- Beta menos: un neutrón se transforma en protón; $A$ no cambia y $Z$ aumenta 1.
+- Gamma: no cambian $A$ ni $Z$; el núcleo pierde energía.
+
+Conserva carga eléctrica, número de nucleones, energía y momento.
+
+## Vida media y actividad
+
+$$
+N=N_0e^{-\\lambda t},
+\\qquad
+A=\\lambda N,
+\\qquad
+T_{1/2}=\\frac{\\ln2}{\\lambda}.
+$$
+
+No confundas $A$ de número másico con actividad: el contexto y la unidad Bq los distinguen.
+
+## Ejemplo de decaimiento y actividad
+
+Una muestra contiene inicialmente $8.0\\times10^{12}$ núcleos y tiene vida media de 6 h. Tras 18 h han transcurrido tres vidas medias:
+
+$$
+N=N_0\\left(\\frac12\\right)^3=1.0\\times10^{12}.
+$$
+
+Para calcular la actividad en becquerelios, la constante debe expresarse en $\\mathrm{s^{-1}}$:
+
+$$
+\\lambda=\\frac{\\ln2}{6(3600)}=3.21\\times10^{-5}\\ \\mathrm{s^{-1}},
+$$
+
+$$
+A=\\lambda N=3.21\\times10^7\\ \\mathrm{Bq}.
+$$
+
+La actividad también se reduce a la mitad en cada vida media porque es proporcional a $N$.
+
+## Energía liberada en una reacción nuclear
+
+Para una reacción, el valor energético es:
+
+$$
+Q=(m_{\\rm inicial}-m_{\\rm final})c^2.
+$$
+
+Si $Q>0$, la masa final es menor y la diferencia aparece como energía cinética o radiación. Si $Q<0$, la reacción requiere al menos esa energía, además de las condiciones impuestas por la conservación del momento.
+
+Al usar masas atómicas, los electrones deben aparecer equilibrados en ambos lados. Después de calcular el defecto en u, multiplicar por 931.5 produce MeV para la reacción escrita. No debe dividirse por nucleón salvo que la pregunta pida una comparación de estabilidad.
+
+## Fisión y fusión
+
+Ambas pueden liberar energía al producir núcleos con mayor energía de enlace por nucleón. La explicación correcta se apoya en la curva de enlace, no en que “se pierde masa” sin indicar la transformación energética.
+
+## Errores frecuentes
+
+- Restar masas en orden inverso.
+- Usar kg con el factor 931.5 MeV/u.
+- Comparar energía total en vez de energía por nucleón.
+- Cambiar $A$ en una emisión beta.
+- Aplicar una disminución lineal a una ley exponencial.
+
+El campus de Método Nebula conecta estructura nuclear, decaimiento, energía de enlace y problemas PAU. Contacta para practicar balances y conversiones con corrección detallada.
+`,Je=`---
 title: "Física PAU: domina ondas desde cero y convierte las fórmulas en puntos de examen"
 date: "2026-09-22"
 updated: "2026-10-28"
@@ -18291,7 +20194,120 @@ Una respuesta de calidad indica qué se conserva, qué cambia y por qué.
 Resuelve una pregunta de lectura de gráfica, otra de ecuación de onda, una de interferencia y una de energía o intensidad. Dos días después mézclalas sin encabezado. Finalmente intégralas en un modelo cronometrado de tu comunidad y corrige con su criterio oficial.
 
 El campus virtual de Método Nebula desarrolla fundamentos, movimiento armónico, ondas y óptica mediante teoría, ejemplos, ejercicios y preguntas de examen. Si quieres convertir este bloque en una fuente estable de puntos, utiliza el botón de contacto para diagnosticar el punto de partida y construir el recorrido.
-`,Re=`---
+`,Ke=`---
+title: "Óptica geométrica PAU: lentes, espejos y signos con rayos que justifican cada resultado"
+seoTitle: "Óptica geométrica PAU: lentes, espejos y signos"
+date: "2026-10-23"
+updated: "2026-10-23"
+description: "Resuelve óptica geométrica PAU con convenio de signos, ecuación de lentes, aumento, diagramas de rayos e interpretación de imágenes."
+tag: "PAU"
+category: "Selectividad"
+relatedService: "/clases-particulares/selectividad/"
+relatedPosts: "pau-fisica-ondas-resolver-problemas,pau-fisica-electromagnetismo-estudiar,pau-corregir-simulacros-plan-estudio"
+image: "/assets/latex/lens-ray-diagram.svg"
+---
+
+En óptica geométrica, una sustitución numérica puede parecer correcta y describir una imagen imposible. El diagrama de rayos no es decorativo: anticipa si la imagen será real o virtual, derecha o invertida y mayor o menor.
+
+> **Respuesta directa.** Fija primero el convenio de signos, dibuja los rayos principales y después aplica la ecuación. La posición y el aumento deben contar la misma historia que el esquema.
+
+![Diagrama de rayos principales en una lente convergente](/assets/latex/lens-ray-diagram.svg)
+
+## Tres rayos principales
+
+En una lente delgada convergente:
+
+1. El rayo paralelo al eje sale pasando por el foco imagen.
+2. El rayo que pasa por el centro óptico no se desvía en el modelo paraxial.
+3. El rayo dirigido hacia el foco objeto sale paralelo.
+
+La intersección de los rayos refractados localiza una imagen real. La intersección de sus prolongaciones localiza una imagen virtual.
+
+## Ecuación y convenio
+
+Con distancias positivas tomadas como módulos en el esquema habitual:
+
+$$
+\\frac1f=\\frac1s+\\frac1{s'}.
+$$
+
+En cursos que utilizan convenio cartesiano, los signos cambian según lado y dirección. No mezcles convenios en una misma solución: declara el utilizado y mantén coherencia.
+
+El aumento lateral es:
+
+$$
+m=\\frac{y'}{y}=-\\frac{s'}{s}.
+$$
+
+El signo negativo suele indicar inversión.
+
+## Ejemplo resuelto
+
+Un objeto está a 30 cm de una lente convergente de focal 10 cm:
+
+$$
+\\frac1{10}=\\frac1{30}+\\frac1{s'}
+\\Rightarrow
+\\frac1{s'}=\\frac{2}{30}
+\\Rightarrow
+s'=15\\ \\mathrm{cm}.
+$$
+
+$$
+m=-\\frac{15}{30}=-0.5.
+$$
+
+La imagen es real, invertida y de la mitad del tamaño. El diagrama debe mostrarla entre $F'$ y $2F'$.
+
+## Potencia de una lente
+
+$$
+P=\\frac1f,
+$$
+
+con $f$ en metros y $P$ en dioptrías. Una focal de $0.25$ m corresponde a $4$ D.
+
+## Predecir la imagen antes de calcular
+
+En una lente convergente, la posición del objeto permite anticipar el resultado. Más allá de $2F$, la imagen es real, invertida y reducida; en $2F$, tiene el mismo tamaño; entre $F$ y $2F$, es real, invertida y aumentada. Si el objeto está entre la lente y $F$, los rayos emergen divergentes y sus prolongaciones forman una imagen virtual, derecha y aumentada.
+
+Esta clasificación funciona como control del álgebra. Si un objeto situado a más de $2F$ produce en tu cálculo una imagen virtual aumentada, no conviene cambiar un signo al azar: hay que volver al convenio y a la ecuación.
+
+## Ejemplo inverso y resolución experimental
+
+Una lente forma una imagen real tres veces mayor a 60 cm. Como $|m|=s'/s=3$:
+
+$$
+s=\\frac{60}{3}=20\\ \\mathrm{cm},
+\\qquad
+\\frac1f=\\frac1{20}+\\frac1{60}=\\frac4{60},
+$$
+
+de modo que $f=15$ cm y $P=1/0.15=6.67$ D. El signo de $m$ sería negativo porque la imagen real aparece invertida.
+
+En laboratorio, una imagen real puede enfocarse sobre una pantalla; una virtual no. Para estimar la focal se miden objeto, lente y pantalla desde una referencia común, se repite con varias posiciones y se evita tomar distancias desde el borde del soporte. La nitidez del enfoque limita la incertidumbre y debe reflejarse en las cifras significativas.
+
+## Espejos
+
+Los mismos principios geométricos se aplican con reflexión. En un espejo cóncavo, un objeto más allá del foco puede formar imagen real; entre foco y espejo produce imagen virtual aumentada. El espejo convexo produce imágenes virtuales, derechas y reducidas.
+
+## Comprobaciones físicas
+
+- ¿Los rayos reales se cruzan donde afirma el cálculo?
+- ¿El signo de $m$ coincide con la orientación?
+- ¿La escala del dibujo es compatible con $|m|$?
+- ¿Las distancias están en la unidad exigida?
+
+## Errores frecuentes
+
+- Usar centímetros en dioptrías.
+- Dibujar todos los rayos atravesando el foco.
+- Confundir foco objeto y foco imagen.
+- Dar una posición sin clasificar la imagen.
+- Corregir signos “al final” en vez de mantener un convenio.
+
+El campus de Método Nebula desarrolla ondas y óptica con diagramas, ecuaciones y ejercicios PAU. Contacta si necesitas convertir el convenio de signos en un procedimiento verificable.
+`,Xe=`---
 title: "Matemáticas II PAU: domina vectores, rectas y planos sin memorizar veinte fórmulas"
 date: "2026-09-27"
 updated: "2026-10-28"
@@ -18415,7 +20431,140 @@ Pero no uses esta fórmula para cualquier distancia. Punto–recta, rectas paral
 Alterna ejercicios de construcción, posición relativa, ángulos y distancias. Luego resuelve una pregunta que combine dos partes: por ejemplo, hallar un plano y medir una distancia. Finalmente incluye el bloque en un modelo PAU con tiempo real.
 
 El campus virtual de Método Nebula desarrolla Matemáticas II desde vectores y sistemas hasta rectas, planos y geometría métrica, con ejemplos y preguntas de examen. Si quieres ordenar este bloque según los errores que realmente cometes, el botón de contacto permite iniciar el diagnóstico.
-`,Me=`---
+`,Ze=`---
+title: "Integrales en Matemáticas II PAU: áreas, signos y primitivas con un método que se puede comprobar"
+seoTitle: "Integrales PAU: áreas, signos y ejercicios resueltos"
+date: "2026-10-14"
+updated: "2026-10-14"
+description: "Resuelve integrales y áreas en Matemáticas II PAU: primitivas, puntos de corte, cambios de signo, planteamiento y comprobaciones."
+tag: "PAU"
+category: "Selectividad"
+relatedService: "/preparacion-examenes/matematicas-selectividad/"
+relatedPosts: "area-entre-dos-curvas-ejercicios-resueltos,integracion-por-partes-formula-ejercicios-resueltos,como-preparar-pau-matematicas-ii"
+image: "/assets/latex/integral-area.svg"
+---
+
+En PAU, el cálculo de una primitiva suele ser solo una parte del ejercicio. Los puntos decisivos están antes: interpretar la región, encontrar cortes y decidir dónde cambia el signo.
+
+> **Respuesta directa.** Para calcular un área, dibuja o estudia las funciones, encuentra intersecciones, divide donde cambie el orden y suma integrales no negativas. Una integral definida con signo no siempre coincide con el área geométrica.
+
+![Área acumulada bajo una curva entre dos límites](/assets/latex/integral-area.svg)
+
+## Integral definida y área
+
+$$
+\\int_a^b f(x)\\,dx
+$$
+
+representa área con signo. Si $f<0$, la contribución es negativa. El área respecto al eje es:
+
+$$
+A=\\int_a^b|f(x)|\\,dx,
+$$
+
+que se calcula separando en los ceros.
+
+Entre dos curvas:
+
+$$
+A=\\int_a^b\\bigl(y_{\\rm superior}-y_{\\rm inferior}\\bigr)\\,dx.
+$$
+
+## Ejemplo resuelto
+
+Calcula el área entre $y=2x$ y $y=x^2$.
+
+Intersecciones:
+
+$$
+x^2=2x\\Rightarrow x=0,\\ 2.
+$$
+
+En $(0,2)$, $2x>x^2$:
+
+$$
+A=\\int_0^2(2x-x^2)\\,dx
+=\\left[x^2-\\frac{x^3}{3}\\right]_0^2
+=4-\\frac83=\\frac43.
+$$
+
+El resultado es positivo y compatible con la escala de la región.
+
+## Elegir técnica de integración
+
+- Composición con derivada interior: sustitución.
+- Producto que mejora al derivar un factor: partes.
+- Cociente racional: división y fracciones parciales cuando proceda.
+- Funciones elementales: tabla de primitivas.
+
+La técnica se decide por estructura, no por la apariencia de dificultad.
+
+## Condiciones con una función integral
+
+Si:
+
+$$
+F(x)=\\int_a^x f(t)\\,dt,
+$$
+
+entonces:
+
+$$
+F'(x)=f(x).
+$$
+
+Los máximos y mínimos de $F$ se estudian con el signo de $f$, no integrando de nuevo.
+
+## Área cuando la curva cambia de signo
+
+Considera $f(x)=x^2-1$ entre $x=-2$ y $x=2$. Sus ceros son $-1$ y $1$. La función es positiva en los extremos y negativa en el intervalo central, de modo que el área exige tres tramos:
+
+$$
+A=\\int_{-2}^{-1}(x^2-1)\\,dx
+-\\int_{-1}^{1}(x^2-1)\\,dx
++\\int_{1}^{2}(x^2-1)\\,dx.
+$$
+
+Por simetría par:
+
+$$
+A=2\\int_1^2(x^2-1)\\,dx+2\\int_0^1(1-x^2)\\,dx=4.
+$$
+
+En cambio, la integral con signo sobre $[-2,2]$ vale $4/3$. La diferencia no es de cálculo, sino de interpretación geométrica.
+
+## Parámetros determinados por una integral
+
+Si una función $f(x)=kx$ debe encerrar área 6 con el eje entre 0 y 3:
+
+$$
+\\int_0^3kx\\,dx=\\frac{9k}{2}=6
+\\Rightarrow k=\\frac43.
+$$
+
+Antes de igualar a un área positiva, debe verificarse el signo de $f$ en el intervalo. En problemas con parámetros, los puntos de corte pueden depender del propio parámetro; resolverlos al principio evita integrar sobre una región equivocada.
+
+Una buena presentación incluye ecuación de cortes, orden de las funciones, integral planteada y valor exacto. La calculadora puede comprobar un decimal, pero no sustituye la justificación de la región.
+
+## Método PAU
+
+1. Representa lo imprescindible.
+2. Calcula cortes y ceros.
+3. Ordena funciones por intervalos.
+4. Escribe la integral antes de hallar primitivas.
+5. Evalúa con paréntesis.
+6. Comprueba signo y magnitud.
+
+## Errores frecuentes
+
+- Integrar superior menos inferior sin verificar el orden.
+- Olvidar dividir cuando hay cruces.
+- Confundir primitiva con integral definida.
+- Omitir la constante en una integral indefinida.
+- Perder signos al evaluar el extremo inferior.
+
+El campus de Método Nebula incluye teoría, métodos de integración, áreas y modelos PAU resueltos paso a paso. Contacta para organizar el bloque según tu comunidad y nota objetivo.
+`,Ye=`---
 title: "Matrices y determinantes en PAU: cuándo usar inversa, Gauss o propiedades sin hacer cuentas de más"
 date: "2026-10-25"
 updated: "2026-10-25"
@@ -18550,7 +20699,7 @@ El rango es el número de filas no nulas tras escalonar, o el orden máximo de u
 Inversa para despejar una ecuación matricial invertible; Gauss para sistemas y rangos; determinantes para invertibilidad, parámetros y simplificación; Cramer para sistemas pequeños cuando se pide explícitamente o resulta muy directo.
 
 El campus virtual de Método Nebula desarrolla matrices, determinantes, rango, inversa, Gauss, Cramer y sistemas con parámetros mediante teoría y ejercicios PAU. El botón de contacto permite solicitar una ruta para elegir el método con criterio y justificar cada operación.
-`,Ie=`---
+`,en=`---
 title: "Probabilidad y distribuciones en PAU: aprende a elegir el modelo antes de calcular"
 date: "2026-10-17"
 updated: "2026-10-28"
@@ -18651,7 +20800,7 @@ Cuando el temario lo incluya y las condiciones sean adecuadas, recuerda la corre
 Variable → modelo → suceso → cálculo → comprobación → frase final. Escribe las seis etapas incluso cuando la calculadora haga la operación central. El corrector debe ver por qué ese resultado responde a esa pregunta.
 
 El campus virtual de Método Nebula desarrolla probabilidad, distribuciones y preparación de examen con teoría, ejemplos, ejercicios y simulación. Si quieres identificar si pierdes puntos por modelo, lenguaje o cálculo, utiliza el botón de contacto.
-`,we=`---
+`,nn=`---
 title: "Sistemas con parámetro en PAU: Rouché–Frobenius, rangos y casos sin improvisar"
 date: "2026-10-10"
 updated: "2026-10-10"
@@ -18776,7 +20925,7 @@ Esta interpretación ayuda a revisar el resultado. Si el sistema tiene tres inc�
 La discusión completa sigue una estructura verificable: matriz $A$ y ampliada → determinante o menores → valores críticos → caso general → sustitución de cada valor crítico → rangos → clasificación → resolución. Esta secuencia separa la justificación algebraica de la obtención posterior de soluciones.
 
 El campus virtual de Método Nebula desarrolla matrices, determinantes, Gauss, Rouché–Frobenius y discusión con parámetros mediante teoría y problemas PAU graduados. El botón de contacto permite solicitar una ruta para construir discusiones completas y verificables.
-`,Ne=`---
+`,an=`---
 title: "Química PAU: domina ácido-base y pH con un método que ordena cualquier ejercicio"
 date: "2026-10-02"
 updated: "2026-10-28"
@@ -18876,7 +21025,7 @@ El indicador debe cambiar de color dentro del salto de pH relevante, no simpleme
 Alterna un ácido fuerte, uno débil, una neutralización y una valoración. En cada ejercicio escribe la ruta antes de calcular. Después mezcla ácido-base con equilibrio y estequiometría, como ocurre en preguntas de PAU.
 
 El campus virtual de Método Nebula desarrolla ácido-base desde especies y equilibrio hasta valoraciones y preguntas de examen, con ejemplos, ejercicios y errores comunes. Si quieres saber qué parte de la cadena falla y practicarla en orden, utiliza el botón de contacto.
-`,Fe=`---
+`,on=`---
 title: "Química PAU: domina equilibrio químico y deja de confundir K, Q y Le Châtelier"
 date: "2026-09-25"
 updated: "2026-10-28"
@@ -18970,7 +21119,131 @@ Son preguntas frecuentes porque obligan a razonar más allá de una regla memori
 Entrena cuatro formatos: escribir $K$, comparar $Q$ y $K$, resolver una tabla y justificar una perturbación. Después mezcla equilibrio con cinética, termoquímica o ácido-base. En PAU los bloques pueden conectarse y la elección del método cuenta tanto como el cálculo.
 
 El campus virtual de Método Nebula organiza Química PAU desde fundamentos hasta cinética y equilibrio, con ejemplos guiados, ejercicios, preguntas de examen y errores comunes. Si quieres detectar qué decisión falla y convertirla en una secuencia de práctica, utiliza el botón de contacto.
-`,Te=`---
+`,rn=`---
+title: "Estructura atómica PAU: configuraciones electrónicas, números cuánticos y periodicidad sin contradicciones"
+seoTitle: "Estructura atómica PAU: configuración y números cuánticos"
+date: "2026-10-04"
+updated: "2026-10-04"
+description: "Domina estructura atómica PAU: niveles, orbitales, configuraciones electrónicas, iones, números cuánticos y propiedades periódicas."
+tag: "PAU"
+category: "Selectividad"
+relatedService: "/clases-particulares/selectividad/"
+relatedPosts: "pau-quimica-equilibrio-quimico-estudiar,pau-quimica-organica-mapa-reacciones,bachillerato-quimica-periodicidad-configuracion"
+image: "/assets/latex/atomic-energy-levels.svg"
+---
+
+Una configuración electrónica no es una cadena que se recita: debe respetar capacidad de orbitales, energía, exclusión de Pauli y máxima multiplicidad de Hund.
+
+> **Respuesta directa.** Cada electrón se describe por cuatro números cuánticos. La configuración fundamental llena orbitales por energía; los iones se forman retirando o añadiendo electrones en los orbitales adecuados, no copiando mecánicamente el último término escrito.
+
+![Niveles de energía y transiciones electrónicas discretas](/assets/latex/atomic-energy-levels.svg)
+
+## Capacidad de niveles y subniveles
+
+- Subnivel $s$: 1 orbital, 2 electrones.
+- $p$: 3 orbitales, 6 electrones.
+- $d$: 5 orbitales, 10 electrones.
+- $f$: 7 orbitales, 14 electrones.
+
+Cada orbital admite dos electrones con espines opuestos.
+
+## Reglas de llenado
+
+1. **Aufbau:** se ocupan primero orbitales de menor energía.
+2. **Pauli:** no existen dos electrones con los cuatro números cuánticos iguales.
+3. **Hund:** en orbitales degenerados, se maximiza el número de electrones desapareados antes de aparearlos.
+
+Por ejemplo, el nitrógeno:
+
+$$
+\\mathrm{N}:1s^2\\,2s^2\\,2p^3
+$$
+
+tiene tres electrones desapareados en $2p$.
+
+## Números cuánticos
+
+$$
+n=1,2,3,\\ldots
+$$
+
+$$
+\\ell=0,\\ldots,n-1,
+\\qquad
+m_\\ell=-\\ell,\\ldots,\\ell,
+\\qquad
+m_s=\\pm\\frac12.
+$$
+
+Para un electrón $3p$, $n=3$ y $\\ell=1$; $m_\\ell$ puede ser $-1,0,1$.
+
+## Formación de iones
+
+En metales de transición se retiran primero los electrones del nivel con mayor $n$. Por ejemplo:
+
+$$
+\\mathrm{Fe}:[Ar]\\,4s^2\\,3d^6,
+$$
+
+$$
+\\mathrm{Fe^{2+}}:[Ar]\\,3d^6.
+$$
+
+El orden de escritura no sustituye al criterio energético del ion.
+
+## Espectros y transiciones
+
+Un fotón emitido o absorbido cumple:
+
+$$
+\\Delta E=h\\nu=\\frac{hc}{\\lambda}.
+$$
+
+Los espectros son discretos porque las energías permitidas también lo son.
+
+## Ejemplo de transición y longitud de onda
+
+Si un electrón desciende entre dos niveles cuya diferencia es $3.0\\times10^{-19}$ J, el fotón emitido tiene:
+
+$$
+\\nu=\\frac{\\Delta E}{h}
+=\\frac{3.0\\times10^{-19}}{6.626\\times10^{-34}}
+=4.53\\times10^{14}\\ \\mathrm{Hz},
+$$
+
+$$
+\\lambda=\\frac c\\nu
+\\approx6.62\\times10^{-7}\\ \\mathrm m=662\\ \\mathrm{nm}.
+$$
+
+Una absorción requiere un fotón con la diferencia exacta entre niveles dentro del modelo; una emisión parte de un estado más energético y libera esa diferencia. Conviene indicar el sentido antes de decidir el signo de $\\Delta E$.
+
+## Electrones desapareados y magnetismo
+
+Un átomo o ion con electrones desapareados presenta comportamiento paramagnético; si todos están apareados, es diamagnético. Para decidirlo, no basta la configuración abreviada: hay que distribuir los electrones entre los orbitales degenerados aplicando Hund.
+
+Por ejemplo, en $2p^4$ se ocupan primero los tres orbitales con espines paralelos y después se aparea uno. Quedan dos electrones desapareados. Dibujar cajas y flechas es una comprobación pequeña que evita afirmar erróneamente que cuatro electrones forman dos parejas.
+
+## Configuraciones especialmente estables
+
+Algunos elementos de transición presentan excepciones al orden de llenado elemental porque subniveles semillenos o llenos pueden resultar energéticamente favorables. Estas excepciones no invalidan Aufbau: recuerdan que los orbitales $4s$ y $3d$ tienen energías próximas y que el modelo de flechas diagonales es una aproximación operativa.
+
+En examen, utiliza la configuración aceptada en el temario y razona la formación del ion a partir del nivel de mayor $n$ ocupado.
+
+## Periodicidad
+
+La carga nuclear efectiva y el apantallamiento explican tendencias de radio, energía de ionización y electronegatividad. Una explicación PAU debe indicar qué atracción cambia y si el electrón externo pertenece al mismo nivel.
+
+## Errores frecuentes
+
+- Escribir más de dos electrones en un orbital.
+- Aparear electrones $p$ antes de ocupar los tres orbitales.
+- Proponer $\\ell=n$.
+- Retirar electrones $3d$ antes de $4s$ al formar cationes comunes.
+- Explicar tendencias solo con “hay más protones”, ignorando distancia y apantallamiento.
+
+El campus de Método Nebula desarrolla estructura atómica, enlace y periodicidad mediante teoría y problemas PAU. Contacta para convertir configuraciones y justificaciones en un procedimiento coherente.
+`,sn=`---
 title: "Química orgánica PAU: el mapa de reacciones para pasar de alquenos a productos sin adivinar"
 date: "2026-10-17"
 updated: "2026-10-17"
@@ -19098,7 +21371,7 @@ Una respuesta rigurosa incluye:
 - Escribir el polímero conservando el doble enlace del monómero.
 
 El campus virtual de Método Nebula desarrolla nomenclatura, isomería y un mapa completo de adición, eliminación, sustitución, oxidación, esterificación y polimerización con problemas PAU. El botón de contacto permite solicitar una ruta para reconstruir transformaciones a partir de la estructura.
-`,Oe=`---
+`,tn=`---
 title: "Electroquímica PAU: cómo resolver pilas, potenciales y reacciones redox sin perder los signos"
 date: "2026-09-25"
 updated: "2026-09-25"
@@ -19220,7 +21493,135 @@ El cálculo de $E^\\circ_{\\text{pila}}$ cierra la parte energética. La represe
 - Decir que una reacción es espontánea sin relacionarlo con el signo de $E^\\circ$.
 
 El campus virtual de Método Nebula desarrolla números de oxidación, ajuste ion-electrón, pilas, potenciales, electrólisis y leyes de Faraday con ejercicios progresivos y modelos de examen. El botón de contacto permite acceder a una ruta centrada en el razonamiento completo, sin depender de reglas aisladas.
-`,He=`---
+`,cn=`---
+title: "Termoquímica PAU: ley de Hess, entalpías y signos sin perder energía por el camino"
+seoTitle: "Termoquímica PAU: ley de Hess, entalpías y signos"
+date: "2026-10-18"
+updated: "2026-10-18"
+description: "Domina termoquímica PAU: entalpía, ley de Hess, entalpías de formación, energías de enlace, calorimetría y signos."
+tag: "PAU"
+category: "Selectividad"
+relatedService: "/clases-particulares/selectividad/"
+relatedPosts: "pau-quimica-equilibrio-quimico-estudiar,pau-quimica-acido-base-ph-calculos,pau-corregir-simulacros-plan-estudio"
+image: "/assets/latex/hess-cycle.svg"
+---
+
+La ley de Hess no es una fórmula nueva: expresa que la entalpía es una función de estado. Si reactivos y productos son los mismos, el cambio total no depende del camino intermedio.
+
+> **Respuesta directa.** Construye un ciclo donde todas las flechas tengan dirección clara. Si inviertes una reacción, cambia el signo de $\\Delta H$; si multiplicas sus coeficientes, multiplica también la entalpía.
+
+![Ciclo de Hess entre reactivos, productos y elementos de referencia](/assets/latex/hess-cycle.svg)
+
+## Exotérmica y endotérmica
+
+$$
+\\Delta H=H_{\\text{productos}}-H_{\\text{reactivos}}.
+$$
+
+- $\\Delta H<0$: proceso exotérmico.
+- $\\Delta H>0$: proceso endotérmico.
+
+El signo pertenece al sistema. “Libera calor” y $\\Delta H<0$ describen la misma situación.
+
+## Entalpías estándar de formación
+
+La entalpía estándar de formación es el cambio al formar un mol de compuesto desde sus elementos en estados estándar:
+
+$$
+\\Delta H^\\circ_{\\rm r}
+=
+\\sum\\nu\\,\\Delta H^\\circ_f(\\text{productos})
+-
+\\sum\\nu\\,\\Delta H^\\circ_f(\\text{reactivos}).
+$$
+
+Los coeficientes estequiométricos multiplican cada valor. Para un elemento en su estado estándar, $\\Delta H_f^\\circ=0$.
+
+## Ejemplo
+
+Para:
+
+$$
+\\mathrm{CH_4+2O_2\\to CO_2+2H_2O(l)},
+$$
+
+con $\\Delta H_f^\\circ$ en kJ/mol: $\\mathrm{CH_4}=-74.8$, $\\mathrm{CO_2}=-393.5$, $\\mathrm{H_2O(l)}=-285.8$:
+
+$$
+\\Delta H^\\circ_{\\rm r}
+=[-393.5+2(-285.8)]-[-74.8]
+=-890.3\\ \\mathrm{kJ/mol}.
+$$
+
+La combustión es exotérmica.
+
+## Energías de enlace
+
+Como romper enlaces requiere energía y formarlos la libera:
+
+$$
+\\Delta H\\approx
+\\sum E(\\text{enlaces rotos})
+-
+\\sum E(\\text{enlaces formados}).
+$$
+
+Es una estimación porque las energías tabuladas suelen ser valores medios en fase gaseosa.
+
+## Calorimetría
+
+$$
+q=mc\\Delta T.
+$$
+
+Si la disolución gana calor, la reacción lo pierde:
+
+$$
+q_{\\text{reacción}}=-q_{\\text{disolución}}.
+$$
+
+Después divide por los moles que reaccionan según la ecuación para expresar kJ/mol.
+
+## Ejemplo de calorimetría con signo
+
+Se mezclan disoluciones cuya masa total es 100 g y la temperatura aumenta $6.5\\ ^\\circ\\mathrm C$. Si se aproxima $c=4.18\\ \\mathrm{J\\,g^{-1}\\,K^{-1}}$:
+
+$$
+q_{\\text{disolución}}=100(4.18)(6.5)=2717\\ \\mathrm J=2.717\\ \\mathrm{kJ}.
+$$
+
+La disolución ha ganado energía, así que $q_{\\text{reacción}}=-2.717$ kJ. Si reaccionaron $0.0500$ mol según la ecuación escrita:
+
+$$
+\\Delta H=\\frac{-2.717}{0.0500}=-54.3\\ \\mathrm{kJ\\,mol^{-1}}.
+$$
+
+La referencia “por mol” corresponde al avance de reacción de la ecuación ajustada, no necesariamente a cualquier reactivo tomado por separado.
+
+## Pérdidas de calor y calidad del dato
+
+En un calorímetro escolar, parte del calor se transfiere al recipiente y al entorno. En una reacción exotérmica, la subida de temperatura medida suele ser menor que la ideal, por lo que el módulo calculado de $\\Delta H$ queda infravalorado. Aislar el vaso, colocar tapa y registrar la temperatura máxima mediante extrapolación reduce este efecto.
+
+No todas las discrepancias se arreglan diciendo “pérdida de calor”. Una combustión incompleta o la evaporación del combustible cambian la cantidad de reacción; usar capacidades caloríficas medias introduce otra aproximación. Identificar la dirección del error demuestra comprensión experimental.
+
+## Método de resolución
+
+1. Ajusta la reacción.
+2. Marca estados físicos.
+3. Decide qué datos encajan: formación, combustión, enlaces o calorimetría.
+4. Escribe el ciclo o la suma antes de calcular.
+5. Comprueba signo, unidad y cantidad de sustancia de referencia.
+
+## Errores frecuentes
+
+- Olvidar coeficientes estequiométricos.
+- Cambiar una reacción de sentido sin cambiar $\\Delta H$.
+- Confundir agua líquida y gaseosa.
+- Sumar enlaces formados con signo positivo.
+- Dar el calor total cuando piden entalpía molar.
+
+El campus virtual de Método Nebula conecta termoquímica, equilibrio y espontaneidad mediante teoría y problemas PAU. El botón de contacto permite trabajar el razonamiento y no solo la tabla de datos.
+`,ln=`---
 title: Preparar la PAU desde verano: plan realista para llegar fuerte a septiembre
 date: 2026-07-21
 updated: 2026-07-21
@@ -19282,7 +21683,7 @@ También conviene evitar convertir el verano en una repetición del curso. Desca
 Al terminar deberías poder nombrar tus tres bloqueos prioritarios, resolver mejor los ejercicios básicos que en la primera semana y tener un sistema de corrección. No hace falta llegar sabiendo todo el temario de PAU; hace falta que el aprendizaje de septiembre no se apoye en terreno inestable.
 
 Cuando empiece el curso, continúa con [un calendario de Selectividad que se pueda cumplir](/blog/preparar-selectividad-con-calendario/) y usa los modelos oficiales de tu comunidad. Si quieres priorizar asignaturas, nota objetivo y fechas de forma realista, puedes consultar las [clases para Selectividad y PAU](/clases-particulares/selectividad/).
-`,Qe=`---
+`,dn=`---
 title: Preparar la Selectividad con un calendario que sí se cumple
 date: 2026-06-07
 updated: 2026-06-07
@@ -19351,7 +21752,7 @@ El calendario debe tener colchón. Si no hay huecos, se romperá el primer día 
 En Nebula el calendario se construye con asignaturas, nota objetivo, fechas y punto de partida. Después se revisa semanalmente para ajustar prioridades.
 
 Si necesitas preparar PAU, Matemáticas, Física, Química u otra materia con un plan medible, revisa [clases particulares para Selectividad y PAU](/clases-particulares/selectividad/) o [reserva un diagnóstico](/contacto/).
-`,Be=`---
+`,un=`---
 title: Tu primer proyecto de Python para datos: qué hacer antes de aprender más librerías
 date: 2026-07-21
 updated: 2026-07-21
@@ -19420,7 +21821,7 @@ También es importante separar trabajo propio y código reutilizado. Si consulta
 Termina cuando otra persona pueda abrir el cuaderno, entender la pregunta, ejecutar las celdas y llegar a la misma conclusión. Si todavía quieres añadir una sexta visualización o una predicción, guárdala para una versión dos. Acabar y explicar un proyecto breve vale más que dejar varios a medias.
 
 Si estás decidiendo qué aprender antes, empieza por la guía [Python y SQL para empezar en datos](/blog/python-y-sql-para-empezar-en-datos/). Para trabajar Python desde la base o conectar el proyecto con una asignatura, revisa las [clases particulares de Programación](/clases-particulares/programacion-universidad/).
-`,ke=`---
+`,mn=`---
 title: Probabilidad condicionada y teorema de Bayes: problemas universitarios resueltos
 date: 2026-06-27
 updated: 2026-06-27
@@ -19578,7 +21979,7 @@ Sigue siempre estos pasos:
 5. Interpreta el resultado en el contexto.
 
 Si estás preparando Estadística, también puedes leer [Estadística desde cero para elegir contrastes](/blog/estadistica-desde-cero-para-elegir-contrastes/) o revisar la página de [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,Ge=`---
+`,pn=`---
 title: Problemas de optimización con derivadas: ejercicios resueltos
 date: 2026-09-05
 updated: 2026-09-05
@@ -20207,7 +22608,7 @@ Una respuesta queda cerrada cuando recupera todas las variables originales, demu
 Si el modelo admite solo valores enteros, compara los enteros cercanos al óptimo continuo. Si el dominio es abierto o infinito, estudia sus fronteras mediante límites antes de afirmar que el mejor valor se alcanza.
 
 Si necesitas practicar modelización y comprobación sobre problemas de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Ve=`---
+`,$n=`---
 title: Python y SQL para empezar en datos: qué aprender primero
 date: 2026-06-01
 updated: 2026-06-01
@@ -20285,7 +22686,7 @@ No midas el progreso por horas de vídeo. Mídelo por entregables:
 Esa evidencia es la que convierte el estudio en una base profesional.
 
 Para acompañar esta base puedes revisar [clases particulares de Programación desde cero](/clases-particulares/programacion-universidad/) o leer la ruta de [transición al sector IT en 6 meses](/blog/transicion-al-sector-it-en-6-meses/).
-`,We=`---
+`,gn=`---
 title: Qué prueba estadística utilizar: guía para elegir el test correcto
 date: 2026-07-09
 updated: 2026-07-22
@@ -20495,7 +22896,7 @@ No. Responden bajo marcos distintos. La elección depende de la pregunta y de la
 El software calcula, pero no conoce tu diseño ni tu pregunta. La decisión debe estar razonada antes de seleccionar un menú.
 
 Para practicar la interpretación, continúa con [p-valor, intervalo de confianza y tamaño del efecto](/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/) o revisa las [clases de Estadística para Psicología, ADE y Ciencias Sociales](/clases-particulares/estadistica-psicologia-ade/).
-`,Ke=`---
+`,fn=`---
 title: Qué son las derivadas y para qué se utilizan
 seoTitle: "Derivadas: qué son, para qué sirven y ejemplos"
 date: 2026-06-19
@@ -20606,7 +23007,7 @@ Para dominar derivadas, trabaja cada ejercicio en tres capas:
 Si solo practicas reglas, cualquier enunciado nuevo parece distinto. Si entiendes la derivada como ritmo de cambio, las reglas empiezan a tener dirección.
 
 Puedes continuar con [qué son las integrales y para qué se utilizan](/blog/que-son-las-integrales-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,Xe=`---
+`,xn=`---
 title: Qué son las integrales y para qué se utilizan
 seoTitle: "Integrales: qué son, para qué sirven y ejemplos"
 date: 2026-06-21
@@ -20716,7 +23117,7 @@ Cuando entiendes la integral como acumulación, las técnicas de cálculo dejan 
 El paso siguiente es distinguir con claridad la [integral definida de la indefinida](/blog/integral-definida-e-indefinida-diferencias-ejemplos/) y aprender a reconocer la estructura del integrando. La guía de [métodos de integración y elección de técnica](/blog/metodos-de-integracion-como-elegir/) organiza ese diagnóstico; después puedes profundizar en [fracciones parciales](/blog/integrales-funciones-racionales-fracciones-parciales/) y aplicar la integral definida al [área entre dos curvas](/blog/area-entre-dos-curvas-ejercicios-resueltos/).
 
 Puedes leer también [qué son las derivadas y para qué se utilizan](/blog/que-son-las-derivadas-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,Je=`---
+`,vn=`---
 title: R, SPSS, Jamovi o Python: qué programa estadístico conviene usar en la universidad
 date: 2026-07-14
 updated: 2026-07-14
@@ -20846,7 +23247,7 @@ Independientemente del software, debes poder:
 El software cambia; el razonamiento estadístico permanece.
 
 Para decidir qué análisis hacer antes de abrir ningún programa, lee [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,Ye=`---
+`,bn=`---
 title: Regla de L'Hôpital: cuándo utilizarla y cuándo no
 seoTitle: "Regla de L'Hôpital: cuándo usarla, condiciones y errores"
 date: 2026-08-23
@@ -21535,7 +23936,7 @@ En una solución escrita, deja visible la forma indeterminada antes de cada flec
 Simplifica siempre el nuevo cociente antes de decidir el paso siguiente.
 
 Si estás preparando Cálculo universitario y necesitas decidir qué técnica admite cada límite sobre tus propios ejercicios, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Ze=`---
+`,yn=`---
 title: Regresión lineal y ANOVA: cuándo utilizar cada método y cómo interpretar los resultados
 date: 2026-07-11
 updated: 2026-07-22
@@ -21703,7 +24104,7 @@ Usa esta regla:
 - Varios predictores mixtos: modelo lineal/regresión con variables codificadas.
 
 Para profundizar en regresión, lee [Econometría desde cero](/blog/econometria-desde-cero-interpretar-regresion/). Para decidir entre pruebas, revisa [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o consulta las [clases de Estadística para Psicología, ADE y Ciencias Sociales](/clases-particulares/estadistica-psicologia-ade/).
-`,en=`---
+`,hn=`---
 title: Teorema fundamental del cálculo: ejemplos y ejercicios
 date: 2026-08-13
 updated: 2026-08-13
@@ -22437,7 +24838,7 @@ La primera parte del teorema deriva acumulaciones: $\\frac{d}{dx}\\int_a^x f(t)d
 La comprobación esencial consiste en derivar la primitiva, respetar la orientación de los límites y revisar el dominio completo. En problemas de acumulación, interpreta además el signo y las unidades: una integral definida mide cambio neto, mientras que el área o la distancia total pueden exigir dividir el intervalo.
 
 Antes de operar, identifica si buscas una derivada o una acumulación numérica, revisa continuidad y dominio, y separa cualquier singularidad. Si necesitas practicar estas decisiones con ejercicios de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,nn=`---
+`,qn=`---
 title: Transición al sector IT en 6 meses: una ruta realista
 date: 2026-06-04
 updated: 2026-06-04
@@ -22497,5 +24898,5 @@ En una entrevista no basta con enseñar código. Tienes que explicar cómo pensa
 La parte dura no es solo el temario. Es mantener continuidad cuando aparecen dudas, cansancio o comparación con perfiles más avanzados. Por eso conviene revisar progreso cada semana y cerrar entregables pequeños.
 
 Si estás empezando desde cero, puedes leer [Python y SQL para empezar en datos](/blog/python-y-sql-para-empezar-en-datos/) o revisar [clases de programación universitaria y fundamentos](/clases-particulares/programacion-universidad/).
-`;function an(e){const a=/^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(e);if(!a)return{data:{},body:e.trim()};const i={};for(const n of a[1].split(`
-`)){const s=n.indexOf(":");if(s===-1)continue;const o=n.slice(0,s).trim();let r=n.slice(s+1).trim();(r.startsWith('"')&&r.endsWith('"')||r.startsWith("'")&&r.endsWith("'"))&&(r=r.slice(1,-1)),o&&(i[o]=r)}return{data:i,body:e.slice(a[0].length).trim()}}function on(e){const a=e.trim().split(/\s+/).filter(Boolean).length;return Math.max(1,Math.round(a/200))}const rn=Object.assign({"../content/blog/algebra-lineal-universidad-que-estudiar-primero-errores.md":c,"../content/blog/area-entre-dos-curvas-ejercicios-resueltos.md":l,"../content/blog/bachillerato-fisica-quimica-mol-estequiometria.md":d,"../content/blog/bachillerato-matematicas-funciones-representacion.md":u,"../content/blog/bachillerato-matematicas-trigonometria-triangulos.md":m,"../content/blog/bachillerato-quimica-reactivo-limitante-rendimiento-pureza.md":p,"../content/blog/cambio-variables-jacobiano-integrales-dobles.md":$,"../content/blog/circuitos-corriente-continua-problemas-resueltos-universidad.md":x,"../content/blog/como-aprobar-calculo-i-ingenieria-seis-semanas.md":g,"../content/blog/como-aprobar-estadistica-psicologia-sin-base-matematica.md":f,"../content/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas.md":b,"../content/blog/como-aprobar-matematicas-i-ade-economia.md":v,"../content/blog/como-estudiar-matematicas-sin-memorizar.md":y,"../content/blog/como-preparar-ib-mathematics-aa-ai.md":q,"../content/blog/como-preparar-pau-matematicas-ii.md":h,"../content/blog/como-resolver-limites-indeterminaciones-ejercicios.md":E,"../content/blog/continuidad-derivabilidad-diferencias-problemas.md":_,"../content/blog/derivacion-implicita-ejercicios-resueltos.md":j,"../content/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos.md":C,"../content/blog/derivadas-parciales-gradiente-ejercicios.md":z,"../content/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes.md":S,"../content/blog/econometria-desde-cero-interpretar-regresion.md":L,"../content/blog/economia-ade-matematicas-sin-perderse.md":P,"../content/blog/ecuaciones-diferenciales-identificar-metodo-correcto.md":A,"../content/blog/errores-comunes-inferencia-estadistica.md":U,"../content/blog/eso-fisica-quimica-densidad-presion-flotacion.md":D,"../content/blog/eso-fisica-quimica-electricidad-circuitos.md":R,"../content/blog/eso-fisica-quimica-formulacion-inorganica.md":M,"../content/blog/eso-fisica-quimica-mezclas-disoluciones-separacion.md":I,"../content/blog/eso-matematicas-ecuaciones-sistemas-estudiar.md":w,"../content/blog/eso-matematicas-porcentajes-interes-compuesto.md":N,"../content/blog/eso-matematicas-probabilidad-estudiar.md":F,"../content/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja.md":T,"../content/blog/estadistica-descriptiva-eso-media-mediana-moda.md":O,"../content/blog/estadistica-desde-cero-para-elegir-contrastes.md":H,"../content/blog/estequiometria-universitaria-ejercicios-resueltos.md":Q,"../content/blog/estudio-completo-funcion-paso-a-paso.md":B,"../content/blog/fisica-y-quimica-como-plantear-problemas.md":k,"../content/blog/gcse-chemistry-bonding-revision-en.md":G,"../content/blog/gcse-chemistry-bonding-revision.md":V,"../content/blog/gcse-chemistry-electrolysis-electrode-products-en.md":W,"../content/blog/gcse-chemistry-electrolysis-electrode-products.md":K,"../content/blog/gcse-chemistry-equations-moles-revision-en.md":X,"../content/blog/gcse-chemistry-equations-moles-revision.md":J,"../content/blog/gcse-maths-algebra-graphs-revision-en.md":Y,"../content/blog/gcse-maths-algebra-graphs-revision.md":Z,"../content/blog/gcse-maths-histograms-cumulative-frequency-en.md":ee,"../content/blog/gcse-maths-histograms-cumulative-frequency.md":ne,"../content/blog/gcse-maths-revision-plan-foundation-higher-en.md":ae,"../content/blog/gcse-maths-revision-plan-foundation-higher.md":ie,"../content/blog/gcse-maths-trigonometry-bearings-en.md":oe,"../content/blog/gcse-maths-trigonometry-bearings.md":re,"../content/blog/gcse-physics-electricity-revision-en.md":se,"../content/blog/gcse-physics-electricity-revision.md":te,"../content/blog/gcse-physics-energy-work-power-efficiency-en.md":ce,"../content/blog/gcse-physics-energy-work-power-efficiency.md":le,"../content/blog/gcse-physics-forces-exam-questions-en.md":de,"../content/blog/gcse-physics-forces-exam-questions.md":ue,"../content/blog/gcse-physics-radioactivity-half-life-en.md":me,"../content/blog/gcse-physics-radioactivity-half-life.md":pe,"../content/blog/gravitacion-eso-ley-universal-peso-ejercicios.md":$e,"../content/blog/ib-gcse-como-preparar-examenes-internacionales.md":xe,"../content/blog/integracion-por-partes-formula-ejercicios-resueltos.md":ge,"../content/blog/integracion-por-sustitucion-cambio-variable-ejercicios.md":fe,"../content/blog/integral-definida-e-indefinida-diferencias-ejemplos.md":be,"../content/blog/integrales-dobles-ejercicios-resueltos.md":ve,"../content/blog/integrales-funciones-racionales-fracciones-parciales.md":ye,"../content/blog/integrales-impropias-convergencia-ejercicios.md":qe,"../content/blog/matrices-determinantes-sistemas-ecuaciones-guia.md":he,"../content/blog/maximos-minimos-varias-variables-ejercicios.md":Ee,"../content/blog/metodos-de-integracion-como-elegir.md":_e,"../content/blog/microeconomia-i-tipos-problemas-examen.md":je,"../content/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios.md":Ce,"../content/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios.md":ze,"../content/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo.md":Se,"../content/blog/pau-ccss-programacion-lineal-problemas.md":Le,"../content/blog/pau-corregir-simulacros-plan-estudio.md":Pe,"../content/blog/pau-fisica-campo-gravitatorio-satelites.md":Ae,"../content/blog/pau-fisica-electromagnetismo-estudiar.md":Ue,"../content/blog/pau-fisica-ondas-resolver-problemas.md":De,"../content/blog/pau-matematicas-ii-vectores-rectas-planos.md":Re,"../content/blog/pau-matematicas-matrices-determinantes-gauss.md":Me,"../content/blog/pau-matematicas-probabilidad-distribuciones.md":Ie,"../content/blog/pau-matematicas-sistemas-parametro-rouche-frobenius.md":we,"../content/blog/pau-quimica-acido-base-ph-calculos.md":Ne,"../content/blog/pau-quimica-equilibrio-quimico-estudiar.md":Fe,"../content/blog/pau-quimica-organica-mapa-reacciones.md":Te,"../content/blog/pau-quimica-pilas-electroquimica-redox.md":Oe,"../content/blog/preparar-pau-desde-verano-plan-septiembre.md":He,"../content/blog/preparar-selectividad-con-calendario.md":Qe,"../content/blog/primer-proyecto-python-principiantes-datos.md":Be,"../content/blog/probabilidad-condicionada-bayes-problemas-resueltos.md":ke,"../content/blog/problemas-optimizacion-derivadas-ejercicios-resueltos.md":Ge,"../content/blog/python-y-sql-para-empezar-en-datos.md":Ve,"../content/blog/que-prueba-estadistica-utilizar-guia-test-correcto.md":We,"../content/blog/que-son-las-derivadas-y-para-que-se-utilizan.md":Ke,"../content/blog/que-son-las-integrales-y-para-que-se-utilizan.md":Xe,"../content/blog/r-spss-jamovi-python-programa-estadistico-universidad.md":Je,"../content/blog/regla-lhopital-cuando-usarla-ejercicios.md":Ye,"../content/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados.md":Ze,"../content/blog/teorema-fundamental-calculo-ejemplos-ejercicios.md":en,"../content/blog/transicion-al-sector-it-en-6-meses.md":nn}),t=Object.entries(rn).map(([e,a])=>{const i=e.split("/").pop().replace(/\.md$/,""),{data:n,body:s}=an(a);return{slug:i,title:n.title??i,seoTitle:n.seoTitle??"",date:n.date??"",updated:n.updated??n.date??"",description:n.description??"",tag:n.tag??"Blog",category:n.category??n.tag??"Blog",image:n.image??"/favicon.svg",language:n.language==="en"?"en":"es",translation:n.translation??"",relatedService:n.relatedService??"/contacto/",relatedPosts:n.relatedPosts?n.relatedPosts.split(",").map(o=>o.trim()).filter(Boolean):[],readingMinutes:on(s),body:s}}).sort((e,a)=>e.date<a.date?1:e.date>a.date?-1:0);function tn(){return t}function cn(e,a=9){return Math.max(1,Math.ceil(e.length/a))}function ln(e,a,i=9){const n=(a-1)*i;return e.slice(n,n+i)}function sn(e){return t.find(a=>a.slug===e)}function dn(e){return t.filter(a=>a.category===e)}function un(e,a=3){const i=e.relatedPosts.map(o=>sn(o)).filter(o=>!!o),s=[...t.filter(o=>o.language===e.language),...t].filter(o=>o.slug!==e.slug&&!i.some(r=>r.slug===o.slug));return[...i,...s].slice(0,a)}function mn(e,a="es"){if(!e)return"";const i=new Date(e);return Number.isNaN(i.getTime())?e:i.toLocaleDateString(a==="en"?"en-GB":"es-ES",{day:"numeric",month:"long",year:"numeric"})}export{cn as a,sn as b,ln as c,tn as d,un as e,mn as f,dn as g};
+`;function En(e){const a=/^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(e);if(!a)return{data:{},body:e.trim()};const i={};for(const n of a[1].split(`
+`)){const s=n.indexOf(":");if(s===-1)continue;const o=n.slice(0,s).trim();let r=n.slice(s+1).trim();(r.startsWith('"')&&r.endsWith('"')||r.startsWith("'")&&r.endsWith("'"))&&(r=r.slice(1,-1)),o&&(i[o]=r)}return{data:i,body:e.slice(a[0].length).trim()}}function _n(e){const a=e.trim().split(/\s+/).filter(Boolean).length;return Math.max(1,Math.round(a/200))}const jn=Object.assign({"../content/blog/algebra-lineal-universidad-que-estudiar-primero-errores.md":c,"../content/blog/area-entre-dos-curvas-ejercicios-resueltos.md":l,"../content/blog/bachillerato-fisica-quimica-mol-estequiometria.md":d,"../content/blog/bachillerato-matematicas-funciones-representacion.md":u,"../content/blog/bachillerato-matematicas-sucesiones-progresiones.md":m,"../content/blog/bachillerato-matematicas-trigonometria-triangulos.md":p,"../content/blog/bachillerato-quimica-periodicidad-configuracion.md":$,"../content/blog/bachillerato-quimica-reactivo-limitante-rendimiento-pureza.md":g,"../content/blog/cambio-variables-jacobiano-integrales-dobles.md":f,"../content/blog/circuitos-corriente-continua-problemas-resueltos-universidad.md":x,"../content/blog/como-aprobar-calculo-i-ingenieria-seis-semanas.md":v,"../content/blog/como-aprobar-estadistica-psicologia-sin-base-matematica.md":b,"../content/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas.md":y,"../content/blog/como-aprobar-matematicas-i-ade-economia.md":h,"../content/blog/como-estudiar-matematicas-sin-memorizar.md":q,"../content/blog/como-preparar-ib-mathematics-aa-ai.md":E,"../content/blog/como-preparar-pau-matematicas-ii.md":_,"../content/blog/como-resolver-limites-indeterminaciones-ejercicios.md":j,"../content/blog/continuidad-derivabilidad-diferencias-problemas.md":C,"../content/blog/derivacion-implicita-ejercicios-resueltos.md":z,"../content/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos.md":S,"../content/blog/derivadas-parciales-gradiente-ejercicios.md":P,"../content/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes.md":L,"../content/blog/econometria-desde-cero-interpretar-regresion.md":A,"../content/blog/economia-ade-matematicas-sin-perderse.md":U,"../content/blog/ecuaciones-diferenciales-identificar-metodo-correcto.md":D,"../content/blog/errores-comunes-inferencia-estadistica.md":w,"../content/blog/eso-fisica-quimica-densidad-presion-flotacion.md":M,"../content/blog/eso-fisica-quimica-electricidad-circuitos.md":R,"../content/blog/eso-fisica-quimica-formulacion-inorganica.md":I,"../content/blog/eso-fisica-quimica-leyes-newton-dinamica.md":N,"../content/blog/eso-fisica-quimica-mezclas-disoluciones-separacion.md":T,"../content/blog/eso-fisica-quimica-sonido-ondas.md":F,"../content/blog/eso-matematicas-ecuaciones-sistemas-estudiar.md":O,"../content/blog/eso-matematicas-porcentajes-interes-compuesto.md":H,"../content/blog/eso-matematicas-probabilidad-estudiar.md":k,"../content/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja.md":Q,"../content/blog/estadistica-descriptiva-eso-media-mediana-moda.md":B,"../content/blog/estadistica-desde-cero-para-elegir-contrastes.md":G,"../content/blog/estequiometria-universitaria-ejercicios-resueltos.md":V,"../content/blog/estudio-completo-funcion-paso-a-paso.md":W,"../content/blog/fisica-y-quimica-como-plantear-problemas.md":J,"../content/blog/gcse-chemistry-acids-bases-salts-en.md":K,"../content/blog/gcse-chemistry-acids-bases-salts.md":X,"../content/blog/gcse-chemistry-bonding-revision-en.md":Z,"../content/blog/gcse-chemistry-bonding-revision.md":Y,"../content/blog/gcse-chemistry-electrolysis-electrode-products-en.md":ee,"../content/blog/gcse-chemistry-electrolysis-electrode-products.md":ne,"../content/blog/gcse-chemistry-equations-moles-revision-en.md":ae,"../content/blog/gcse-chemistry-equations-moles-revision.md":ie,"../content/blog/gcse-maths-algebra-graphs-revision-en.md":oe,"../content/blog/gcse-maths-algebra-graphs-revision.md":re,"../content/blog/gcse-maths-histograms-cumulative-frequency-en.md":se,"../content/blog/gcse-maths-histograms-cumulative-frequency.md":te,"../content/blog/gcse-maths-revision-plan-foundation-higher-en.md":ce,"../content/blog/gcse-maths-revision-plan-foundation-higher.md":le,"../content/blog/gcse-maths-transformations-vectors-en.md":de,"../content/blog/gcse-maths-transformations-vectors.md":ue,"../content/blog/gcse-maths-trigonometry-bearings-en.md":me,"../content/blog/gcse-maths-trigonometry-bearings.md":pe,"../content/blog/gcse-physics-electricity-revision-en.md":$e,"../content/blog/gcse-physics-electricity-revision.md":ge,"../content/blog/gcse-physics-energy-work-power-efficiency-en.md":fe,"../content/blog/gcse-physics-energy-work-power-efficiency.md":xe,"../content/blog/gcse-physics-forces-exam-questions-en.md":ve,"../content/blog/gcse-physics-forces-exam-questions.md":be,"../content/blog/gcse-physics-radioactivity-half-life-en.md":ye,"../content/blog/gcse-physics-radioactivity-half-life.md":he,"../content/blog/gcse-physics-thermal-heating-curves-en.md":qe,"../content/blog/gcse-physics-thermal-heating-curves.md":Ee,"../content/blog/gcse-physics-waves-refraction-en.md":_e,"../content/blog/gcse-physics-waves-refraction.md":je,"../content/blog/gravitacion-eso-ley-universal-peso-ejercicios.md":Ce,"../content/blog/ib-gcse-como-preparar-examenes-internacionales.md":ze,"../content/blog/integracion-por-partes-formula-ejercicios-resueltos.md":Se,"../content/blog/integracion-por-sustitucion-cambio-variable-ejercicios.md":Pe,"../content/blog/integral-definida-e-indefinida-diferencias-ejemplos.md":Le,"../content/blog/integrales-dobles-ejercicios-resueltos.md":Ae,"../content/blog/integrales-funciones-racionales-fracciones-parciales.md":Ue,"../content/blog/integrales-impropias-convergencia-ejercicios.md":De,"../content/blog/matrices-determinantes-sistemas-ecuaciones-guia.md":we,"../content/blog/maximos-minimos-varias-variables-ejercicios.md":Me,"../content/blog/metodos-de-integracion-como-elegir.md":Re,"../content/blog/microeconomia-i-tipos-problemas-examen.md":Ie,"../content/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios.md":Ne,"../content/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios.md":Te,"../content/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo.md":Fe,"../content/blog/pau-ccss-inferencia-intervalos-confianza.md":Oe,"../content/blog/pau-ccss-programacion-lineal-problemas.md":He,"../content/blog/pau-corregir-simulacros-plan-estudio.md":ke,"../content/blog/pau-fisica-campo-gravitatorio-satelites.md":Qe,"../content/blog/pau-fisica-cuantica-efecto-fotoelectrico.md":Be,"../content/blog/pau-fisica-electromagnetismo-estudiar.md":Ge,"../content/blog/pau-fisica-movimiento-armonico-simple.md":Ve,"../content/blog/pau-fisica-nuclear-defecto-masa.md":We,"../content/blog/pau-fisica-ondas-resolver-problemas.md":Je,"../content/blog/pau-fisica-optica-lentes-espejos.md":Ke,"../content/blog/pau-matematicas-ii-vectores-rectas-planos.md":Xe,"../content/blog/pau-matematicas-integrales-areas.md":Ze,"../content/blog/pau-matematicas-matrices-determinantes-gauss.md":Ye,"../content/blog/pau-matematicas-probabilidad-distribuciones.md":en,"../content/blog/pau-matematicas-sistemas-parametro-rouche-frobenius.md":nn,"../content/blog/pau-quimica-acido-base-ph-calculos.md":an,"../content/blog/pau-quimica-equilibrio-quimico-estudiar.md":on,"../content/blog/pau-quimica-estructura-atomica-configuracion.md":rn,"../content/blog/pau-quimica-organica-mapa-reacciones.md":sn,"../content/blog/pau-quimica-pilas-electroquimica-redox.md":tn,"../content/blog/pau-quimica-termoquimica-hess-entalpia.md":cn,"../content/blog/preparar-pau-desde-verano-plan-septiembre.md":ln,"../content/blog/preparar-selectividad-con-calendario.md":dn,"../content/blog/primer-proyecto-python-principiantes-datos.md":un,"../content/blog/probabilidad-condicionada-bayes-problemas-resueltos.md":mn,"../content/blog/problemas-optimizacion-derivadas-ejercicios-resueltos.md":pn,"../content/blog/python-y-sql-para-empezar-en-datos.md":$n,"../content/blog/que-prueba-estadistica-utilizar-guia-test-correcto.md":gn,"../content/blog/que-son-las-derivadas-y-para-que-se-utilizan.md":fn,"../content/blog/que-son-las-integrales-y-para-que-se-utilizan.md":xn,"../content/blog/r-spss-jamovi-python-programa-estadistico-universidad.md":vn,"../content/blog/regla-lhopital-cuando-usarla-ejercicios.md":bn,"../content/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados.md":yn,"../content/blog/teorema-fundamental-calculo-ejemplos-ejercicios.md":hn,"../content/blog/transicion-al-sector-it-en-6-meses.md":qn}),t=Object.entries(jn).map(([e,a])=>{const i=e.split("/").pop().replace(/\.md$/,""),{data:n,body:s}=En(a);return{slug:i,title:n.title??i,seoTitle:n.seoTitle??"",date:n.date??"",updated:n.updated??n.date??"",description:n.description??"",tag:n.tag??"Blog",category:n.category??n.tag??"Blog",image:n.image??"/favicon.svg",language:n.language==="en"?"en":"es",translation:n.translation??"",relatedService:n.relatedService??"/contacto/",relatedPosts:n.relatedPosts?n.relatedPosts.split(",").map(o=>o.trim()).filter(Boolean):[],readingMinutes:_n(s),body:s}}).sort((e,a)=>e.date<a.date?1:e.date>a.date?-1:0);function zn(){return t}function Sn(e,a=9){return Math.max(1,Math.ceil(e.length/a))}function Pn(e,a,i=9){const n=(a-1)*i;return e.slice(n,n+i)}function Cn(e){return t.find(a=>a.slug===e)}function Ln(e){return t.filter(a=>a.category===e)}function An(e,a=3){const i=e.relatedPosts.map(o=>Cn(o)).filter(o=>!!o),s=[...t.filter(o=>o.language===e.language),...t].filter(o=>o.slug!==e.slug&&!i.some(r=>r.slug===o.slug));return[...i,...s].slice(0,a)}function Un(e,a="es"){if(!e)return"";const i=new Date(e);return Number.isNaN(i.getTime())?e:i.toLocaleDateString(a==="en"?"en-GB":"es-ES",{day:"numeric",month:"long",year:"numeric"})}export{Sn as a,Cn as b,Pn as c,zn as d,An as e,Un as f,Ln as g};

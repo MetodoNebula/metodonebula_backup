@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
+      <title>GCSE Physics: reflection and refraction without mixing up frequency, speed and wavelength</title>
+      <link>https://metodonebula.es/blog/gcse-physics-waves-refraction-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-physics-waves-refraction-en/</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Master reflection and refraction in GCSE Physics: normals, angles, speed, frequency, wavelength and exam explanations.</description>
+    </item>
+    <item>
+      <title>Física GCSE: reflexión y refracción sin confundir frecuencia, velocidad y longitud de onda</title>
+      <link>https://metodonebula.es/blog/gcse-physics-waves-refraction/</link>
+      <guid>https://metodonebula.es/blog/gcse-physics-waves-refraction/</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Domina reflexión y refracción en Física GCSE: normales, ángulos, velocidad, frecuencia, longitud de onda y preguntas de examen.</description>
+    </item>
+    <item>
+      <title>Movimiento armónico simple en PAU: de la proyección circular a energía, velocidad y aceleración</title>
+      <link>https://metodonebula.es/blog/pau-fisica-movimiento-armonico-simple/</link>
+      <guid>https://metodonebula.es/blog/pau-fisica-movimiento-armonico-simple/</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Domina el MAS en Física PAU: ecuación, fase, velocidad, aceleración, energía, muelles y péndulos con un ejemplo resuelto.</description>
+    </item>
+    <item>
       <title>Mezclas y disoluciones en ESO: cómo elegir filtración, destilación o cromatografía con criterio</title>
       <link>https://metodonebula.es/blog/eso-fisica-quimica-mezclas-disoluciones-separacion/</link>
       <guid>https://metodonebula.es/blog/eso-fisica-quimica-mezclas-disoluciones-separacion/</guid>
@@ -15,6 +36,13 @@
       <description>Sistema completo para corregir simulacros de PAU, clasificar errores, recuperar preguntas y convertir la nota en un plan semanal.</description>
     </item>
     <item>
+      <title>Leyes de Newton en ESO: el diagrama que convierte fuerzas en una ecuación con sentido</title>
+      <link>https://metodonebula.es/blog/eso-fisica-quimica-leyes-newton-dinamica/</link>
+      <guid>https://metodonebula.es/blog/eso-fisica-quimica-leyes-newton-dinamica/</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Aprende las leyes de Newton en ESO con diagramas de fuerzas, resultante, rozamiento, peso, normal y ejercicios resueltos.</description>
+    </item>
+    <item>
       <title>Matrices y determinantes en PAU: cuándo usar inversa, Gauss o propiedades sin hacer cuentas de más</title>
       <link>https://metodonebula.es/blog/pau-matematicas-matrices-determinantes-gauss/</link>
       <guid>https://metodonebula.es/blog/pau-matematicas-matrices-determinantes-gauss/</guid>
@@ -22,11 +50,32 @@
       <description>Estrategia de Matemáticas II PAU para elegir entre matriz inversa, Gauss, determinantes y rangos con ejemplos y comprobaciones.</description>
     </item>
     <item>
+      <title>GCSE Chemistry: acids, bases and salts without guessing equations</title>
+      <link>https://metodonebula.es/blog/gcse-chemistry-acids-bases-salts-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-chemistry-acids-bases-salts-en/</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Learn acids, bases and salts for GCSE: pH, neutralisation, ionic equations, salt preparation and simple calculations.</description>
+    </item>
+    <item>
+      <title>Química GCSE: ácidos, bases y sales con un método que evita ecuaciones al azar</title>
+      <link>https://metodonebula.es/blog/gcse-chemistry-acids-bases-salts/</link>
+      <guid>https://metodonebula.es/blog/gcse-chemistry-acids-bases-salts/</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Aprende ácidos, bases y sales en GCSE: pH, neutralización, ecuaciones iónicas, preparación de sales y cálculos sencillos.</description>
+    </item>
+    <item>
       <title>Física PAU: electromagnetismo desde cero para dominar campos, fuerzas e inducción</title>
       <link>https://metodonebula.es/blog/pau-fisica-electromagnetismo-estudiar/</link>
       <guid>https://metodonebula.es/blog/pau-fisica-electromagnetismo-estudiar/</guid>
       <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
       <description>Electromagnetismo para Física PAU: campo, fuerza de Lorentz, movimiento de cargas, flujo, inducción, ejemplo y errores típicos.</description>
+    </item>
+    <item>
+      <title>Óptica geométrica PAU: lentes, espejos y signos con rayos que justifican cada resultado</title>
+      <link>https://metodonebula.es/blog/pau-fisica-optica-lentes-espejos/</link>
+      <guid>https://metodonebula.es/blog/pau-fisica-optica-lentes-espejos/</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Resuelve óptica geométrica PAU con convenio de signos, ecuación de lentes, aumento, diagramas de rayos e interpretación de imágenes.</description>
     </item>
     <item>
       <title>Probabilidad en ESO: aprende a contar bien y evita los errores que cambian todo</title>
@@ -50,6 +99,13 @@
       <description>Entiende la desintegración radiactiva y la vida media en Física GCSE: proceso aleatorio, curva exponencial, actividad, cálculos y seguridad.</description>
     </item>
     <item>
+      <title>Configuración electrónica y tabla periódica en Bachillerato: cómo justificar tendencias sin memorizar flechas</title>
+      <link>https://metodonebula.es/blog/bachillerato-quimica-periodicidad-configuracion/</link>
+      <guid>https://metodonebula.es/blog/bachillerato-quimica-periodicidad-configuracion/</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Entiende configuración electrónica y propiedades periódicas: radio, ionización, electronegatividad, apantallamiento e iones.</description>
+    </item>
+    <item>
       <title>Trigonometría en Bachillerato: cómo elegir entre seno, coseno y tangente sin probar fórmulas</title>
       <link>https://metodonebula.es/blog/bachillerato-matematicas-trigonometria-triangulos/</link>
       <guid>https://metodonebula.es/blog/bachillerato-matematicas-trigonometria-triangulos/</guid>
@@ -64,6 +120,27 @@
       <description>Electricidad en ESO explicada con corriente, voltaje, resistencia, serie, paralelo, ley de Ohm, ejemplo y errores frecuentes.</description>
     </item>
     <item>
+      <title>GCSE Maths: transformations and vectors without getting lost on the grid</title>
+      <link>https://metodonebula.es/blog/gcse-maths-transformations-vectors-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-maths-transformations-vectors-en/</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Master GCSE translations, rotations, reflections, enlargements and vectors with correct notation, centres and scale factors.</description>
+    </item>
+    <item>
+      <title>Matemáticas GCSE: transformaciones y vectores sin perderte en el plano</title>
+      <link>https://metodonebula.es/blog/gcse-maths-transformations-vectors/</link>
+      <guid>https://metodonebula.es/blog/gcse-maths-transformations-vectors/</guid>
+      <pubDate>Mon, 19 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Domina traslaciones, giros, simetrías, ampliaciones y vectores GCSE con notación correcta, centros y factores de escala.</description>
+    </item>
+    <item>
+      <title>Termoquímica PAU: ley de Hess, entalpías y signos sin perder energía por el camino</title>
+      <link>https://metodonebula.es/blog/pau-quimica-termoquimica-hess-entalpia/</link>
+      <guid>https://metodonebula.es/blog/pau-quimica-termoquimica-hess-entalpia/</guid>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Domina termoquímica PAU: entalpía, ley de Hess, entalpías de formación, energías de enlace, calorimetría y signos.</description>
+    </item>
+    <item>
       <title>Probabilidad y distribuciones en PAU: aprende a elegir el modelo antes de calcular</title>
       <link>https://metodonebula.es/blog/pau-matematicas-probabilidad-distribuciones/</link>
       <guid>https://metodonebula.es/blog/pau-matematicas-probabilidad-distribuciones/</guid>
@@ -76,6 +153,13 @@
       <guid>https://metodonebula.es/blog/pau-quimica-organica-mapa-reacciones/</guid>
       <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
       <description>Organiza las reacciones orgánicas de PAU por grupo funcional, enlace que cambia, reactivo y tipo de reacción con ejemplos razonados.</description>
+    </item>
+    <item>
+      <title>Sucesiones y progresiones en Bachillerato: cómo distinguir crecimiento lineal, exponencial y sumas</title>
+      <link>https://metodonebula.es/blog/bachillerato-matematicas-sucesiones-progresiones/</link>
+      <guid>https://metodonebula.es/blog/bachillerato-matematicas-sucesiones-progresiones/</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Domina sucesiones aritméticas y geométricas en Bachillerato: término general, sumas, crecimiento, interés y ejercicios.</description>
     </item>
     <item>
       <title>GCSE Maths: histograms and cumulative frequency without confusing height and area</title>
@@ -106,6 +190,13 @@
       <description>Guía de álgebra y gráficas para Matemáticas GCSE: ecuaciones, rectas, cuadráticas, transformaciones, ejemplos y errores de examen.</description>
     </item>
     <item>
+      <title>Integrales en Matemáticas II PAU: áreas, signos y primitivas con un método que se puede comprobar</title>
+      <link>https://metodonebula.es/blog/pau-matematicas-integrales-areas/</link>
+      <guid>https://metodonebula.es/blog/pau-matematicas-integrales-areas/</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Resuelve integrales y áreas en Matemáticas II PAU: primitivas, puntos de corte, cambios de signo, planteamiento y comprobaciones.</description>
+    </item>
+    <item>
       <title>Mol y estequiometría en Bachillerato: el mapa definitivo para resolver problemas</title>
       <link>https://metodonebula.es/blog/bachillerato-fisica-quimica-mol-estequiometria/</link>
       <guid>https://metodonebula.es/blog/bachillerato-fisica-quimica-mol-estequiometria/</guid>
@@ -120,6 +211,27 @@
       <description>Entiende densidad, presión hidrostática y empuje en ESO con modelos, fórmulas, un ejemplo resuelto y errores de unidades.</description>
     </item>
     <item>
+      <title>GCSE Physics: heating curves, specific heat capacity and state changes without mixing formulas</title>
+      <link>https://metodonebula.es/blog/gcse-physics-thermal-heating-curves-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-physics-thermal-heating-curves-en/</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Understand GCSE heating curves, specific heat capacity, latent heat, particle explanations and energy conservation.</description>
+    </item>
+    <item>
+      <title>Física GCSE: curvas de calentamiento, calor específico y cambios de estado sin mezclar fórmulas</title>
+      <link>https://metodonebula.es/blog/gcse-physics-thermal-heating-curves/</link>
+      <guid>https://metodonebula.es/blog/gcse-physics-thermal-heating-curves/</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Entiende curvas de calentamiento GCSE, capacidad térmica específica, calor latente, partículas y conservación de la energía.</description>
+    </item>
+    <item>
+      <title>Física cuántica PAU: efecto fotoeléctrico y fotones para entender por qué existe una frecuencia umbral</title>
+      <link>https://metodonebula.es/blog/pau-fisica-cuantica-efecto-fotoelectrico/</link>
+      <guid>https://metodonebula.es/blog/pau-fisica-cuantica-efecto-fotoelectrico/</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Domina el efecto fotoeléctrico en Física PAU: fotones, trabajo de extracción, frecuencia umbral, potencial de frenado y gráficas.</description>
+    </item>
+    <item>
       <title>Sistemas con parámetro en PAU: Rouché–Frobenius, rangos y casos sin improvisar</title>
       <link>https://metodonebula.es/blog/pau-matematicas-sistemas-parametro-rouche-frobenius/</link>
       <guid>https://metodonebula.es/blog/pau-matematicas-sistemas-parametro-rouche-frobenius/</guid>
@@ -132,6 +244,13 @@
       <guid>https://metodonebula.es/blog/bachillerato-matematicas-funciones-representacion/</guid>
       <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
       <description>Guía completa para estudiar y representar funciones en Bachillerato: dominio, cortes, límites, derivadas, concavidad y ejemplo.</description>
+    </item>
+    <item>
+      <title>Sonido y ondas en ESO: frecuencia, amplitud y velocidad sin confundir tono con volumen</title>
+      <link>https://metodonebula.es/blog/eso-fisica-quimica-sonido-ondas/</link>
+      <guid>https://metodonebula.es/blog/eso-fisica-quimica-sonido-ondas/</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Entiende sonido y ondas en ESO: amplitud, frecuencia, longitud de onda, velocidad, tono, volumen, eco y ejercicios.</description>
     </item>
     <item>
       <title>Formulación inorgánica en ESO: aprende la lógica y deja de memorizar listas infinitas</title>
@@ -155,6 +274,13 @@
       <description>Electrólisis para Química GCSE: iones móviles, ánodo, cátodo, productos en fundidos y disoluciones, semiecuaciones y errores.</description>
     </item>
     <item>
+      <title>Física nuclear PAU: defecto de masa, energía de enlace y radiactividad con unidades bajo control</title>
+      <link>https://metodonebula.es/blog/pau-fisica-nuclear-defecto-masa/</link>
+      <guid>https://metodonebula.es/blog/pau-fisica-nuclear-defecto-masa/</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Resuelve Física nuclear PAU: defecto de masa, energía de enlace por nucleón, desintegraciones, vida media y actividad.</description>
+    </item>
+    <item>
       <title>Reactivo limitante, pureza y rendimiento: el problema de estequiometría que resume Bachillerato</title>
       <link>https://metodonebula.es/blog/bachillerato-quimica-reactivo-limitante-rendimiento-pureza/</link>
       <guid>https://metodonebula.es/blog/bachillerato-quimica-reactivo-limitante-rendimiento-pureza/</guid>
@@ -167,6 +293,20 @@
       <guid>https://metodonebula.es/blog/eso-matematicas-ecuaciones-sistemas-estudiar/</guid>
       <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
       <description>Aprende ecuaciones y sistemas en ESO con equivalencia, traducción de problemas, métodos, ejemplos, comprobación y errores frecuentes.</description>
+    </item>
+    <item>
+      <title>Estructura atómica PAU: configuraciones electrónicas, números cuánticos y periodicidad sin contradicciones</title>
+      <link>https://metodonebula.es/blog/pau-quimica-estructura-atomica-configuracion/</link>
+      <guid>https://metodonebula.es/blog/pau-quimica-estructura-atomica-configuracion/</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Domina estructura atómica PAU: niveles, orbitales, configuraciones electrónicas, iones, números cuánticos y propiedades periódicas.</description>
+    </item>
+    <item>
+      <title>Inferencia estadística en Matemáticas CCSS PAU: intervalos de confianza y tamaño muestral con sentido</title>
+      <link>https://metodonebula.es/blog/pau-ccss-inferencia-intervalos-confianza/</link>
+      <guid>https://metodonebula.es/blog/pau-ccss-inferencia-intervalos-confianza/</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Resuelve inferencia estadística en Matemáticas CCSS PAU: intervalos de confianza, error, nivel de confianza y tamaño muestral.</description>
     </item>
     <item>
       <title>Campo gravitatorio PAU: satélites, órbitas y energía con un único desarrollo matemático</title>

@@ -53,6 +53,14 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pagina/13/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pagina/14/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/</loc>
     <priority>0.6</priority>
   </url>
@@ -101,6 +109,10 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/3/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/</loc>
     <priority>0.6</priority>
   </url>
@@ -113,8 +125,24 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/pagina/4/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/carrera-tecnologica/</loc>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-physics-waves-refraction-en/</loc>
+    <lastmod>2026-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-physics-waves-refraction/</loc>
+    <lastmod>2026-10-29</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-fisica-movimiento-armonico-simple/</loc>
+    <lastmod>2026-10-28</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/eso-fisica-quimica-mezclas-disoluciones-separacion/</loc>
@@ -125,12 +153,28 @@
     <lastmod>2026-10-28</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/eso-fisica-quimica-leyes-newton-dinamica/</loc>
+    <lastmod>2026-10-26</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/pau-matematicas-matrices-determinantes-gauss/</loc>
     <lastmod>2026-10-25</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/gcse-chemistry-acids-bases-salts-en/</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-chemistry-acids-bases-salts/</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/pau-fisica-electromagnetismo-estudiar/</loc>
     <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-fisica-optica-lentes-espejos/</loc>
+    <lastmod>2026-10-23</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/eso-matematicas-probabilidad-estudiar/</loc>
@@ -145,6 +189,10 @@
     <lastmod>2026-10-22</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/bachillerato-quimica-periodicidad-configuracion/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/bachillerato-matematicas-trigonometria-triangulos/</loc>
     <lastmod>2026-10-20</lastmod>
   </url>
@@ -153,12 +201,28 @@
     <lastmod>2026-10-28</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/gcse-maths-transformations-vectors-en/</loc>
+    <lastmod>2026-10-19</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-maths-transformations-vectors/</loc>
+    <lastmod>2026-10-19</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-quimica-termoquimica-hess-entalpia/</loc>
+    <lastmod>2026-10-18</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/pau-matematicas-probabilidad-distribuciones/</loc>
     <lastmod>2026-10-28</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-quimica-organica-mapa-reacciones/</loc>
     <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/bachillerato-matematicas-sucesiones-progresiones/</loc>
+    <lastmod>2026-10-16</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/gcse-maths-histograms-cumulative-frequency-en/</loc>
@@ -177,6 +241,10 @@
     <lastmod>2026-10-28</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pau-matematicas-integrales-areas/</loc>
+    <lastmod>2026-10-14</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/bachillerato-fisica-quimica-mol-estequiometria/</loc>
     <lastmod>2026-10-28</lastmod>
   </url>
@@ -185,12 +253,28 @@
     <lastmod>2026-10-12</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/gcse-physics-thermal-heating-curves-en/</loc>
+    <lastmod>2026-10-12</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-physics-thermal-heating-curves/</loc>
+    <lastmod>2026-10-12</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-fisica-cuantica-efecto-fotoelectrico/</loc>
+    <lastmod>2026-10-10</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/pau-matematicas-sistemas-parametro-rouche-frobenius/</loc>
     <lastmod>2026-10-10</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/bachillerato-matematicas-funciones-representacion/</loc>
     <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/eso-fisica-quimica-sonido-ondas/</loc>
+    <lastmod>2026-10-08</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/eso-fisica-quimica-formulacion-inorganica/</loc>
@@ -205,12 +289,24 @@
     <lastmod>2026-10-07</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pau-fisica-nuclear-defecto-masa/</loc>
+    <lastmod>2026-10-06</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/bachillerato-quimica-reactivo-limitante-rendimiento-pureza/</loc>
     <lastmod>2026-10-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/eso-matematicas-ecuaciones-sistemas-estudiar/</loc>
     <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-quimica-estructura-atomica-configuracion/</loc>
+    <lastmod>2026-10-04</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-ccss-inferencia-intervalos-confianza/</loc>
+    <lastmod>2026-10-02</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-fisica-campo-gravitatorio-satelites/</loc>

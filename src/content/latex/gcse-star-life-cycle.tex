@@ -1,0 +1,25 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\definecolor{nebula}{HTML}{6366F1}
+\definecolor{spark}{HTML}{14B8A6}
+\definecolor{sun}{HTML}{F59E0B}
+\definecolor{ink}{HTML}{334155}
+\begin{document}
+\begin{tikzpicture}[font=\sffamily,>=Latex,node distance=1.5cm and 1.8cm]
+  \tikzset{stage/.style={draw=ink!35,very thick,circle,minimum size=1.25cm,fill=white,align=center}}
+  \node[stage,fill=nebula!10] (cloud) {$\mathrm{H,He}$\\$\mathrm{I}$};
+  \node[stage,right=of cloud,fill=sun!12] (proto) {$M_\star$\\$\mathrm{II}$};
+  \node[stage,right=of proto,fill=sun!22] (main) {$\mathrm{H\to He}$\\$\mathrm{III}$};
+  \node[stage,above right=1.15cm and 1.8cm of main,fill=nebula!12] (high) {$M_\star\!>\!8M_\odot$\\$\mathrm{IV_a}$};
+  \node[stage,below right=1.15cm and 1.8cm of main,fill=spark!12] (low) {$M_\star\!<\!8M_\odot$\\$\mathrm{IV_b}$};
+  \node[stage,right=of high,fill=nebula!20] (super) {$E\uparrow$\\$\mathrm{V_a}$};
+  \node[stage,right=of low,fill=spark!20] (white) {$R\downarrow$\\$\mathrm{V_b}$};
+  \draw[->,very thick,ink!65] (cloud)--(proto);
+  \draw[->,very thick,ink!65] (proto)--(main);
+  \draw[->,very thick,nebula] (main)--(high);
+  \draw[->,very thick,spark] (main)--(low);
+  \draw[->,very thick,nebula] (high)--(super);
+  \draw[->,very thick,spark] (low)--(white);
+\end{tikzpicture}
+\end{document}

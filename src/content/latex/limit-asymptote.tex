@@ -1,0 +1,20 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\definecolor{nebula}{HTML}{6366F1}
+\definecolor{spark}{HTML}{14B8A6}
+\definecolor{ink}{HTML}{334155}
+\begin{document}
+\begin{tikzpicture}[font=\sffamily,>=Latex,x=.8cm,y=.7cm]
+  \draw[->,ink!55] (-4.5,0)--(7.2,0) node[right] {$x$};
+  \draw[->,ink!55] (0,-5)--(0,6.3) node[above] {$y$};
+  \draw[dashed,spark,thick] (2,-5)--(2,6);
+  \draw[dashed,ink!45,thick] (-4.3,2)--(7,2);
+  \draw[very thick,nebula,domain=-4.2:1.72,samples=120,smooth] plot(\x,{(2*\x+1)/(\x-2)});
+  \draw[very thick,nebula,domain=2.28:7,samples=120,smooth] plot(\x,{(2*\x+1)/(\x-2)});
+  \node[draw=spark!50,rounded corners=4pt,fill=white,inner sep=5pt] at (3.0,-4.2) {$x=2$};
+  \node[draw=ink!35,rounded corners=4pt,fill=white,inner sep=5pt] at (-3.2,2.8) {$y=2$};
+  \node[draw=nebula!45,rounded corners=4pt,fill=white,inner sep=6pt] at (-2.3,5.1)
+    {$\displaystyle f(x)=\frac{2x+1}{x-2}$};
+\end{tikzpicture}
+\end{document}

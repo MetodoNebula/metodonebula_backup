@@ -1,0 +1,17 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\definecolor{nebula}{HTML}{6366F1}
+\definecolor{spark}{HTML}{14B8A6}
+\definecolor{ink}{HTML}{334155}
+\begin{document}
+\begin{tikzpicture}[font=\sffamily,>=Latex,x=1cm,y=.72cm]
+  \draw[->,ink!55] (-4.2,0)--(4.7,0) node[right] {$x$};
+  \draw[->,ink!55] (0,-5)--(0,5.5) node[above] {$y$};
+  \draw[very thick,nebula,domain=-3.4:3.7,samples=180,smooth]
+    plot(\x,{.42*(\x+2)*(\x-1)*(\x-3)});
+  \foreach \x/\lab in {-2/-2,1/1,3/3}{\fill[spark] (\x,0) circle (2.7pt); \node[below=7pt,fill=white,inner sep=1pt] at (\x,0) {$\lab$};}
+  \node[draw=nebula!45,rounded corners=4pt,fill=white,inner sep=7pt] at (.2,4.6)
+    {$P(x)=k(x+2)(x-1)(x-3)$};
+\end{tikzpicture}
+\end{document}

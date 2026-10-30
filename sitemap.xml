@@ -61,6 +61,14 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pagina/15/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pagina/16/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/</loc>
     <priority>0.6</priority>
   </url>
@@ -113,6 +121,10 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/4/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/</loc>
     <priority>0.6</priority>
   </url>
@@ -126,6 +138,10 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/pagina/4/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/pagina/5/</loc>
     <priority>0.5</priority>
   </url>
   <url>
@@ -329,12 +345,28 @@
     <lastmod>2026-10-28</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/gcse-physics-space-stars-life-cycle-en/</loc>
+    <lastmod>2026-09-29</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-physics-space-stars-life-cycle/</loc>
+    <lastmod>2026-09-29</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/eso-matematicas-porcentajes-interes-compuesto/</loc>
+    <lastmod>2026-09-27</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-fisica-relatividad-especial/</loc>
     <lastmod>2026-09-27</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-matematicas-ii-vectores-rectas-planos/</loc>
     <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-quimica-enlace-geometria-molecular/</loc>
+    <lastmod>2026-09-25</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-quimica-equilibrio-quimico-estudiar/</loc>
@@ -343,6 +375,14 @@
   <url>
     <loc>https://metodonebula.es/blog/pau-quimica-pilas-electroquimica-redox/</loc>
     <lastmod>2026-09-25</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-chemistry-rates-collision-theory-en/</loc>
+    <lastmod>2026-09-23</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-chemistry-rates-collision-theory/</loc>
+    <lastmod>2026-09-23</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/gcse-physics-energy-work-power-efficiency-en/</loc>
@@ -365,12 +405,28 @@
     <lastmod>2026-10-28</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pau-quimica-estequiometria-gases-disoluciones/</loc>
+    <lastmod>2026-09-20</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-matematicas-limites-asintotas/</loc>
+    <lastmod>2026-09-18</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/gcse-chemistry-bonding-revision-en/</loc>
     <lastmod>2026-10-28</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/gcse-chemistry-bonding-revision/</loc>
     <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-maths-probability-trees-conditional-en/</loc>
+    <lastmod>2026-09-16</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-maths-probability-trees-conditional/</loc>
+    <lastmod>2026-09-16</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja/</loc>
@@ -383,6 +439,10 @@
   <url>
     <loc>https://metodonebula.es/blog/gcse-physics-electricity-revision/</loc>
     <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-matematicas-derivabilidad-parametros-tangentes/</loc>
+    <lastmod>2026-09-13</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/gcse-chemistry-equations-moles-revision-en/</loc>
@@ -401,7 +461,15 @@
     <lastmod>2026-10-28</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pau-matematicas-geometria-metrica-distancias-angulos/</loc>
+    <lastmod>2026-09-10</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/estadistica-descriptiva-eso-media-mediana-moda/</loc>
+    <lastmod>2026-09-08</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-ccss-matrices-modelos-economicos/</loc>
     <lastmod>2026-09-08</lastmod>
   </url>
   <url>
@@ -411,6 +479,10 @@
   <url>
     <loc>https://metodonebula.es/blog/derivadas-parciales-gradiente-ejercicios/</loc>
     <lastmod>2026-09-06</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/eso-matematicas-polinomios-factorizacion/</loc>
+    <lastmod>2026-09-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/problemas-optimizacion-derivadas-ejercicios-resueltos/</loc>
@@ -423,6 +495,10 @@
   <url>
     <loc>https://metodonebula.es/blog/integrales-dobles-ejercicios-resueltos/</loc>
     <lastmod>2026-09-03</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/eso-fisica-quimica-energia-mecanica/</loc>
+    <lastmod>2026-09-02</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/estudio-completo-funcion-paso-a-paso/</loc>

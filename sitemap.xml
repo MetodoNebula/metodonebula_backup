@@ -73,6 +73,14 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pagina/18/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pagina/19/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/</loc>
     <priority>0.6</priority>
   </url>
@@ -113,6 +121,10 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/categoria/matematicas-eso-bachillerato/pagina/2/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/economia-y-ade/</loc>
     <priority>0.6</priority>
   </url>
@@ -150,6 +162,10 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/pagina/5/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/pagina/6/</loc>
     <priority>0.5</priority>
   </url>
   <url>
@@ -633,6 +649,34 @@
     <lastmod>2026-08-01</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/gcse-physics-magnetism-motors-generators-en/</loc>
+    <lastmod>2026-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-physics-magnetism-motors-generators/</loc>
+    <lastmod>2026-07-30</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-chemistry-energy-changes-reaction-profiles-en/</loc>
+    <lastmod>2026-07-27</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-chemistry-energy-changes-reaction-profiles/</loc>
+    <lastmod>2026-07-27</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-maths-circle-theorems-proof-en/</loc>
+    <lastmod>2026-07-25</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-maths-circle-theorems-proof/</loc>
+    <lastmod>2026-07-25</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-fisica-campo-electrico-potencial-condensadores/</loc>
+    <lastmod>2026-07-22</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/como-preparar-ib-mathematics-aa-ai/</loc>
     <lastmod>2026-07-21</lastmod>
   </url>
@@ -649,8 +693,24 @@
     <lastmod>2026-07-21</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pau-quimica-solubilidad-kps-precipitacion/</loc>
+    <lastmod>2026-07-20</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-quimica-cinetica-arrhenius-velocidad/</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/bachillerato-matematicas-logaritmos-exponenciales-ecuaciones/</loc>
+    <lastmod>2026-07-15</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/r-spss-jamovi-python-programa-estadistico-universidad/</loc>
     <lastmod>2026-07-14</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/bachillerato-matematicas-ecuaciones-trigonometricas/</loc>
+    <lastmod>2026-07-13</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/errores-comunes-inferencia-estadistica/</loc>
@@ -659,6 +719,10 @@
   <url>
     <loc>https://metodonebula.es/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados/</loc>
     <lastmod>2026-07-22</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/eso-matematicas-fracciones-operaciones-problemas/</loc>
+    <lastmod>2026-07-10</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/</loc>
@@ -673,11 +737,19 @@
     <lastmod>2026-07-08</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/eso-matematicas-pitagoras-thales-geometria/</loc>
+    <lastmod>2026-07-08</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/estequiometria-universitaria-ejercicios-resueltos/</loc>
     <lastmod>2026-07-07</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/econometria-desde-cero-interpretar-regresion/</loc>
+    <lastmod>2026-07-06</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/eso-fisica-quimica-calor-temperatura-cambios-estado/</loc>
     <lastmod>2026-07-06</lastmod>
   </url>
   <url>
@@ -690,6 +762,10 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/circuitos-corriente-continua-problemas-resueltos-universidad/</loc>
+    <lastmod>2026-07-03</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/eso-fisica-quimica-trabajo-potencia-rendimiento/</loc>
     <lastmod>2026-07-03</lastmod>
   </url>
   <url>

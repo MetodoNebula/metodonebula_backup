@@ -1,0 +1,18 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\definecolor{nebula}{HTML}{6366F1}
+\definecolor{spark}{HTML}{14B8A6}
+\definecolor{ink}{HTML}{334155}
+\begin{document}
+\begin{tikzpicture}[font=\sffamily,>=Latex,x=.9cm,y=.75cm]
+  \draw[->,ink!55] (0,0)--(9.2,0) node[right] {$x$};
+  \draw[->,ink!55] (0,-1.2)--(0,6.3) node[above] {$B$};
+  \draw[very thick,nebula,domain=.3:8.6,samples=120,smooth] plot(\x,{-0.22*(\x-4.5)^2+5});
+  \draw[dashed,ink!35] (4.5,0)--(4.5,5);
+  \fill[spark] (4.5,5) circle (2.8pt);
+  \node[draw=spark!55,rounded corners=4pt,fill=white,inner sep=6pt] at (4.5,5.75) {$x^*$};
+  \node[draw=ink!35,rounded corners=4pt,fill=white,inner sep=7pt] at (7.2,3.9)
+    {$B'(x^*)=0,\qquad B''(x^*)<0$};
+\end{tikzpicture}
+\end{document}

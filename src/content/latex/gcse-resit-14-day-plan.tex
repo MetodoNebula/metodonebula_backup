@@ -1,0 +1,23 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\definecolor{nebula}{HTML}{6366F1}
+\definecolor{spark}{HTML}{14B8A6}
+\definecolor{ink}{HTML}{334155}
+\begin{document}
+\begin{tikzpicture}[font=\sffamily,>=Latex,x=.82cm,y=.82cm]
+  \draw[->,ink!55] (0,0)--(14.8,0) node[right] {day};
+  \foreach \x in {1,...,14}{\draw[ink!25] (\x,0.12)--(\x,-0.12) node[below=3pt,font=\scriptsize] {\x};}
+  \fill[nebula!18,rounded corners=3pt] (.65,.65) rectangle (4.35,1.55);
+  \fill[spark!18,rounded corners=3pt] (4.65,.65) rectangle (10.35,1.55);
+  \fill[nebula!18,rounded corners=3pt] (10.65,.65) rectangle (14.35,1.55);
+  \node[text=ink,font=\bfseries] at (2.5,1.1) {$D$};
+  \node[text=ink,font=\bfseries] at (7.5,1.1) {$P$};
+  \node[text=ink,font=\bfseries] at (12.5,1.1) {$M$};
+  \draw[very thick,nebula] (1,2.25)--(4,2.6)--(7,3.15)--(10,3.45)--(14,4.2);
+  \foreach \p in {(1,2.25),(4,2.6),(7,3.15),(10,3.45),(14,4.2)}{\fill[spark] \p circle (2pt);}
+  \node[anchor=west,text=ink] at (10.8,4.2) {$\Delta s>0$};
+  \node[draw=ink!25,rounded corners=4pt,fill=white,inner sep=6pt] at (7.5,5.05)
+    {$D\rightarrow P\rightarrow M\rightarrow R$};
+\end{tikzpicture}
+\end{document}

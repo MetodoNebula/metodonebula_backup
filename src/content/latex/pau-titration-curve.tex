@@ -1,0 +1,18 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\definecolor{nebula}{HTML}{6366F1}
+\definecolor{spark}{HTML}{14B8A6}
+\definecolor{ink}{HTML}{334155}
+\begin{document}
+\begin{tikzpicture}[font=\sffamily,>=Latex,x=.62cm,y=.35cm]
+  \draw[->,ink!60] (0,0)--(13,0) node[right] {$V$};
+  \draw[->,ink!60] (0,0)--(0,15) node[above] {pH};
+  \draw[very thick,nebula] plot[smooth] coordinates {(0.5,1.2) (3,1.5) (5,2) (6,3) (6.5,7) (7,11) (8,12) (12,12.7)};
+  \draw[dashed,spark] (6.5,0)--(6.5,14);
+  \fill[spark] (6.5,7) circle (2.4pt);
+  \node[anchor=west,text=ink] at (7,7) {$V_{eq}$};
+  \node[draw=ink!25,rounded corners=4pt,fill=white,inner sep=6pt] at (9.7,3.2)
+    {$n_A=n_B$};
+\end{tikzpicture}
+\end{document}

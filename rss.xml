@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
+      <title>Convocatoria extraordinaria PAU: un plan de 30 días para remontar sin empezar de cero</title>
+      <link>https://metodonebula.es/blog/pau-convocatoria-extraordinaria-plan-30-dias/</link>
+      <guid>https://metodonebula.es/blog/pau-convocatoria-extraordinaria-plan-30-dias/</guid>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Plan de 30 días para preparar la convocatoria extraordinaria PAU con diagnóstico, bloques prioritarios, simulacros y control de errores.</description>
+    </item>
+    <item>
       <title>GCSE Physics: reflection and refraction without mixing up frequency, speed and wavelength</title>
       <link>https://metodonebula.es/blog/gcse-physics-waves-refraction-en/</link>
       <guid>https://metodonebula.es/blog/gcse-physics-waves-refraction-en/</guid>
@@ -36,6 +43,13 @@
       <description>Sistema completo para corregir simulacros de PAU, clasificar errores, recuperar preguntas y convertir la nota en un plan semanal.</description>
     </item>
     <item>
+      <title>Química PAU: laboratorio, rendimiento, pureza y análisis de errores en un mismo problema</title>
+      <link>https://metodonebula.es/blog/pau-quimica-laboratorio-rendimiento-pureza-errores/</link>
+      <guid>https://metodonebula.es/blog/pau-quimica-laboratorio-rendimiento-pureza-errores/</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Guía para problemas de Química PAU que combinan pureza, reactivo limitante, rendimiento experimental, material y fuentes de error.</description>
+    </item>
+    <item>
       <title>Leyes de Newton en ESO: el diagrama que convierte fuerzas en una ecuación con sentido</title>
       <link>https://metodonebula.es/blog/eso-fisica-quimica-leyes-newton-dinamica/</link>
       <guid>https://metodonebula.es/blog/eso-fisica-quimica-leyes-newton-dinamica/</guid>
@@ -48,6 +62,13 @@
       <guid>https://metodonebula.es/blog/pau-matematicas-matrices-determinantes-gauss/</guid>
       <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
       <description>Estrategia de Matemáticas II PAU para elegir entre matriz inversa, Gauss, determinantes y rangos con ejemplos y comprobaciones.</description>
+    </item>
+    <item>
+      <title>Química PAU: volumetrías ácido-base y redox paso a paso, sin fórmulas automáticas</title>
+      <link>https://metodonebula.es/blog/pau-quimica-volumetrias-acido-base-redox/</link>
+      <guid>https://metodonebula.es/blog/pau-quimica-volumetrias-acido-base-redox/</guid>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Método completo para volumetrías de Química PAU: reacción ajustada, equivalencia, moles, concentración, material e indicadores.</description>
     </item>
     <item>
       <title>GCSE Chemistry: acids, bases and salts without guessing equations</title>
@@ -99,6 +120,13 @@
       <description>Entiende la desintegración radiactiva y la vida media en Física GCSE: proceso aleatorio, curva exponencial, actividad, cálculos y seguridad.</description>
     </item>
     <item>
+      <title>Física PAU: cómo interpretar gráficas, datos experimentales e incertidumbre con rigor</title>
+      <link>https://metodonebula.es/blog/pau-fisica-graficas-datos-incertidumbre/</link>
+      <guid>https://metodonebula.es/blog/pau-fisica-graficas-datos-incertidumbre/</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Guía de Física PAU para interpretar pendientes, áreas, linealizaciones, cifras significativas, incertidumbres y conclusiones experimentales.</description>
+    </item>
+    <item>
       <title>Configuración electrónica y tabla periódica en Bachillerato: cómo justificar tendencias sin memorizar flechas</title>
       <link>https://metodonebula.es/blog/bachillerato-quimica-periodicidad-configuracion/</link>
       <guid>https://metodonebula.es/blog/bachillerato-quimica-periodicidad-configuracion/</guid>
@@ -111,6 +139,13 @@
       <guid>https://metodonebula.es/blog/bachillerato-matematicas-trigonometria-triangulos/</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
       <description>Método para resolver triángulos en Bachillerato: razones trigonométricas, leyes de senos y cosenos, ambigüedad y ejemplos.</description>
+    </item>
+    <item>
+      <title>Física PAU: el formulario razonado que conecta ecuaciones, unidades y comprobaciones</title>
+      <link>https://metodonebula.es/blog/pau-fisica-formulario-unidades-comprobaciones/</link>
+      <guid>https://metodonebula.es/blog/pau-fisica-formulario-unidades-comprobaciones/</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Cómo construir un formulario útil de Física PAU con leyes, hipótesis, unidades SI, despejes y controles dimensionales.</description>
     </item>
     <item>
       <title>Electricidad y circuitos en ESO: entiende qué ocurre antes de usar la ley de Ohm</title>
@@ -139,6 +174,13 @@
       <guid>https://metodonebula.es/blog/pau-quimica-termoquimica-hess-entalpia/</guid>
       <pubDate>Sun, 18 Oct 2026 00:00:00 GMT</pubDate>
       <description>Domina termoquímica PAU: entalpía, ley de Hess, entalpías de formación, energías de enlace, calorimetría y signos.</description>
+    </item>
+    <item>
+      <title>Matemáticas CCSS PAU: probabilidad condicionada y Bayes sin confundir los sucesos</title>
+      <link>https://metodonebula.es/blog/pau-matematicas-ccss-probabilidad-bayes/</link>
+      <guid>https://metodonebula.es/blog/pau-matematicas-ccss-probabilidad-bayes/</guid>
+      <pubDate>Sat, 17 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Método para resolver probabilidad condicionada, probabilidad total y Bayes en Matemáticas CCSS PAU con árboles y un ejemplo completo.</description>
     </item>
     <item>
       <title>Probabilidad y distribuciones en PAU: aprende a elegir el modelo antes de calcular</title>
@@ -174,6 +216,13 @@
       <guid>https://metodonebula.es/blog/gcse-maths-histograms-cumulative-frequency/</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
       <description>Aprende histogramas, densidad de frecuencia y frecuencia acumulada en Matemáticas GCSE con cálculo, interpretación y errores frecuentes.</description>
+    </item>
+    <item>
+      <title>Matemáticas II PAU: 15 errores que restan puntos aunque conozcas el temario</title>
+      <link>https://metodonebula.es/blog/pau-matematicas-ii-errores-restan-puntos/</link>
+      <guid>https://metodonebula.es/blog/pau-matematicas-ii-errores-restan-puntos/</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Quince errores frecuentes de Matemáticas II PAU en análisis, álgebra, geometría y probabilidad, con comprobaciones para evitarlos.</description>
     </item>
     <item>
       <title>GCSE Maths: master algebra and graphs by seeing one idea three ways</title>
@@ -225,6 +274,20 @@
       <description>Entiende curvas de calentamiento GCSE, capacidad térmica específica, calor latente, partículas y conservación de la energía.</description>
     </item>
     <item>
+      <title>Matemáticas II PAU: cómo repartir 90 minutos y elegir los ejercicios correctos</title>
+      <link>https://metodonebula.es/blog/pau-matematicas-ii-90-minutos-elegir-ejercicios/</link>
+      <guid>https://metodonebula.es/blog/pau-matematicas-ii-90-minutos-elegir-ejercicios/</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Estrategia de tiempo para Matemáticas II PAU: lectura inicial, selección de ejercicios, minutos por punto, revisión y decisiones ante bloqueos.</description>
+    </item>
+    <item>
+      <title>PAU, EBAU, EvAU o Selectividad: qué significa cada nombre y cómo encontrar tu modelo oficial</title>
+      <link>https://metodonebula.es/blog/pau-ebau-evau-selectividad-modelo-oficial/</link>
+      <guid>https://metodonebula.es/blog/pau-ebau-evau-selectividad-modelo-oficial/</guid>
+      <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Diferencias entre PAU, EBAU, EvAU y Selectividad y método para localizar el modelo, criterios y exámenes oficiales de tu comunidad.</description>
+    </item>
+    <item>
       <title>Física cuántica PAU: efecto fotoeléctrico y fotones para entender por qué existe una frecuencia umbral</title>
       <link>https://metodonebula.es/blog/pau-fisica-cuantica-efecto-fotoelectrico/</link>
       <guid>https://metodonebula.es/blog/pau-fisica-cuantica-efecto-fotoelectrico/</guid>
@@ -274,6 +337,20 @@
       <description>Electrólisis para Química GCSE: iones móviles, ánodo, cátodo, productos en fundidos y disoluciones, semiecuaciones y errores.</description>
     </item>
     <item>
+      <title>How to Use GCSE Past Papers and Mark Schemes Without Wasting Them</title>
+      <link>https://metodonebula.es/blog/gcse-past-papers-mark-schemes-method-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-past-papers-mark-schemes-method-en/</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+      <description>A rigorous method for GCSE past papers and mark schemes: independent attempts, error analysis, spaced reattempts and full mock papers.</description>
+    </item>
+    <item>
+      <title>Cómo utilizar exámenes anteriores y criterios de corrección GCSE sin desperdiciarlos</title>
+      <link>https://metodonebula.es/blog/gcse-past-papers-mark-schemes-method/</link>
+      <guid>https://metodonebula.es/blog/gcse-past-papers-mark-schemes-method/</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Método para trabajar exámenes anteriores GCSE y sus criterios de corrección: intentos, análisis de errores, repetición y simulacros.</description>
+    </item>
+    <item>
       <title>Física nuclear PAU: defecto de masa, energía de enlace y radiactividad con unidades bajo control</title>
       <link>https://metodonebula.es/blog/pau-fisica-nuclear-defecto-masa/</link>
       <guid>https://metodonebula.es/blog/pau-fisica-nuclear-defecto-masa/</guid>
@@ -293,6 +370,20 @@
       <guid>https://metodonebula.es/blog/eso-matematicas-ecuaciones-sistemas-estudiar/</guid>
       <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
       <description>Aprende ecuaciones y sistemas en ESO con equivalencia, traducción de problemas, métodos, ejemplos, comprobación y errores frecuentes.</description>
+    </item>
+    <item>
+      <title>GCSE Mock Exams: a Six-Week Maths and Science Revision Plan</title>
+      <link>https://metodonebula.es/blog/gcse-mock-exams-six-week-revision-plan-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-mock-exams-six-week-revision-plan-en/</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <description>A six-week GCSE mock revision plan for Maths, Physics and Chemistry using diagnosis, spaced practice and timed exam papers.</description>
+    </item>
+    <item>
+      <title>Simulacros GCSE: plan de seis semanas para preparar Matemáticas y Ciencias</title>
+      <link>https://metodonebula.es/blog/gcse-mock-exams-six-week-revision-plan/</link>
+      <guid>https://metodonebula.es/blog/gcse-mock-exams-six-week-revision-plan/</guid>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Plan de seis semanas para los simulacros GCSE de Matemáticas, Física y Química con diagnóstico, práctica espaciada y exámenes cronometrados.</description>
     </item>
     <item>
       <title>Estructura atómica PAU: configuraciones electrónicas, números cuánticos y periodicidad sin contradicciones</title>
@@ -321,6 +412,20 @@
       <guid>https://metodonebula.es/blog/pau-quimica-acido-base-ph-calculos/</guid>
       <pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
       <description>Ácido-base y pH para Química PAU: especies, fuertes y débiles, neutralización, valoración, ejemplo y errores frecuentes.</description>
+    </item>
+    <item>
+      <title>GCSE Maths Resit: a 14-Day Plan to Reach Grade 4 or 5</title>
+      <link>https://metodonebula.es/blog/gcse-maths-resit-14-day-plan-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-maths-resit-14-day-plan-en/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+      <description>A focused 14-day GCSE Maths resit plan using diagnosis, priority topics, timed practice, error analysis and a full mock paper.</description>
+    </item>
+    <item>
+      <title>Recuperación de Matemáticas GCSE: un plan de 14 días para alcanzar el Grade 4 o 5</title>
+      <link>https://metodonebula.es/blog/gcse-maths-resit-14-day-plan/</link>
+      <guid>https://metodonebula.es/blog/gcse-maths-resit-14-day-plan/</guid>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+      <description>Plan de 14 días para preparar la recuperación de Matemáticas GCSE: diagnóstico, prioridades, práctica cronometrada y revisión de errores.</description>
     </item>
     <item>
       <title>GCSE Maths: trigonometry and bearings without impossible angles</title>

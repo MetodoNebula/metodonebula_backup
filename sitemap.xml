@@ -81,6 +81,14 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pagina/20/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pagina/21/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/</loc>
     <priority>0.6</priority>
   </url>
@@ -145,6 +153,10 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/5/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/</loc>
     <priority>0.6</priority>
   </url>
@@ -169,8 +181,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/pagina/7/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/carrera-tecnologica/</loc>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-convocatoria-extraordinaria-plan-30-dias/</loc>
+    <lastmod>2026-10-30</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/gcse-physics-waves-refraction-en/</loc>
@@ -193,11 +213,19 @@
     <lastmod>2026-10-28</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pau-quimica-laboratorio-rendimiento-pureza-errores/</loc>
+    <lastmod>2026-10-27</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/eso-fisica-quimica-leyes-newton-dinamica/</loc>
     <lastmod>2026-10-26</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-matematicas-matrices-determinantes-gauss/</loc>
+    <lastmod>2026-10-25</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-quimica-volumetrias-acido-base-redox/</loc>
     <lastmod>2026-10-25</lastmod>
   </url>
   <url>
@@ -229,11 +257,19 @@
     <lastmod>2026-10-22</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pau-fisica-graficas-datos-incertidumbre/</loc>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/bachillerato-quimica-periodicidad-configuracion/</loc>
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/bachillerato-matematicas-trigonometria-triangulos/</loc>
+    <lastmod>2026-10-20</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-fisica-formulario-unidades-comprobaciones/</loc>
     <lastmod>2026-10-20</lastmod>
   </url>
   <url>
@@ -253,6 +289,10 @@
     <lastmod>2026-10-18</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pau-matematicas-ccss-probabilidad-bayes/</loc>
+    <lastmod>2026-10-17</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/pau-matematicas-probabilidad-distribuciones/</loc>
     <lastmod>2026-10-28</lastmod>
   </url>
@@ -270,6 +310,10 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/gcse-maths-histograms-cumulative-frequency/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-matematicas-ii-errores-restan-puntos/</loc>
     <lastmod>2026-10-15</lastmod>
   </url>
   <url>
@@ -301,6 +345,14 @@
     <lastmod>2026-10-12</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pau-matematicas-ii-90-minutos-elegir-ejercicios/</loc>
+    <lastmod>2026-10-12</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pau-ebau-evau-selectividad-modelo-oficial/</loc>
+    <lastmod>2026-10-10</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/pau-fisica-cuantica-efecto-fotoelectrico/</loc>
     <lastmod>2026-10-10</lastmod>
   </url>
@@ -329,6 +381,14 @@
     <lastmod>2026-10-07</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/gcse-past-papers-mark-schemes-method-en/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-past-papers-mark-schemes-method/</loc>
+    <lastmod>2026-10-07</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/pau-fisica-nuclear-defecto-masa/</loc>
     <lastmod>2026-10-06</lastmod>
   </url>
@@ -339,6 +399,14 @@
   <url>
     <loc>https://metodonebula.es/blog/eso-matematicas-ecuaciones-sistemas-estudiar/</loc>
     <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-mock-exams-six-week-revision-plan-en/</loc>
+    <lastmod>2026-10-04</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-mock-exams-six-week-revision-plan/</loc>
+    <lastmod>2026-10-04</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-quimica-estructura-atomica-configuracion/</loc>
@@ -355,6 +423,14 @@
   <url>
     <loc>https://metodonebula.es/blog/pau-quimica-acido-base-ph-calculos/</loc>
     <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-maths-resit-14-day-plan-en/</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/gcse-maths-resit-14-day-plan/</loc>
+    <lastmod>2026-10-01</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/gcse-maths-trigonometry-bearings-en/</loc>

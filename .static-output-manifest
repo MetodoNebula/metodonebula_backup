@@ -61,9 +61,9 @@ assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2
 assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff
 assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2
 assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf
+assets/blog-CKPdshYQ.js
 assets/blog-Cp579UoJ.css
-assets/blog-DFjAujYT.js
-assets/index-D49HL776.js
+assets/index-CQ-NDZFh.js
 assets/index-D5HY7cL3.css
 assets/latex/area-between-curves.svg
 assets/latex/arrhenius-energy.svg
@@ -100,11 +100,14 @@ assets/latex/function-study-en.svg
 assets/latex/function-study.svg
 assets/latex/galvanic-cell.svg
 assets/latex/gas-laws-pv.svg
+assets/latex/gcse-chromatography-worked.svg
+assets/latex/gcse-density-pressure-gas-worked.svg
 assets/latex/gcse-heating-curve.svg
 assets/latex/gcse-mock-six-week-plan.svg
 assets/latex/gcse-past-paper-loop.svg
 assets/latex/gcse-ph-neutralisation.svg
 assets/latex/gcse-resit-14-day-plan.svg
+assets/latex/gcse-simultaneous-equations-worked.svg
 assets/latex/gcse-star-life-cycle.svg
 assets/latex/gcse-vector-transform.svg
 assets/latex/gcse-wave-refraction.svg
@@ -175,8 +178,8 @@ assets/latex/triangle-strategy.svg
 assets/latex/unit-circle-solutions.svg
 assets/latex/vectors-planes.svg
 assets/latex/wave-anatomy.svg
-assets/pages-Dz0N1geK.js
-assets/posts-BdtqmMFH.js
+assets/pages-CAohyrfB.js
+assets/posts-YH6AOTCe.js
 blog/algebra-lineal-universidad-que-estudiar-primero-errores/index.html
 blog/area-entre-dos-curvas-ejercicios-resueltos/index.html
 blog/bachillerato-fisica-momento-choques/index.html
@@ -263,6 +266,8 @@ blog/gcse-chemistry-acids-bases-salts-en/index.html
 blog/gcse-chemistry-acids-bases-salts/index.html
 blog/gcse-chemistry-bonding-revision-en/index.html
 blog/gcse-chemistry-bonding-revision/index.html
+blog/gcse-chemistry-chemical-analysis-worked-examples-en/index.html
+blog/gcse-chemistry-chemical-analysis-worked-examples/index.html
 blog/gcse-chemistry-electrolysis-electrode-products-en/index.html
 blog/gcse-chemistry-electrolysis-electrode-products/index.html
 blog/gcse-chemistry-energy-changes-reaction-profiles-en/index.html
@@ -287,6 +292,8 @@ blog/gcse-maths-revision-plan-foundation-higher-en/index.html
 blog/gcse-maths-revision-plan-foundation-higher/index.html
 blog/gcse-maths-similarity-area-volume-scale-factors-en/index.html
 blog/gcse-maths-similarity-area-volume-scale-factors/index.html
+blog/gcse-maths-simultaneous-equations-worked-examples-en/index.html
+blog/gcse-maths-simultaneous-equations-worked-examples/index.html
 blog/gcse-maths-transformations-vectors-en/index.html
 blog/gcse-maths-transformations-vectors/index.html
 blog/gcse-maths-trigonometry-bearings-en/index.html
@@ -295,6 +302,8 @@ blog/gcse-mock-exams-six-week-revision-plan-en/index.html
 blog/gcse-mock-exams-six-week-revision-plan/index.html
 blog/gcse-past-papers-mark-schemes-method-en/index.html
 blog/gcse-past-papers-mark-schemes-method/index.html
+blog/gcse-physics-density-pressure-gas-laws-worked-examples-en/index.html
+blog/gcse-physics-density-pressure-gas-laws-worked-examples/index.html
 blog/gcse-physics-electricity-revision-en/index.html
 blog/gcse-physics-electricity-revision/index.html
 blog/gcse-physics-energy-work-power-efficiency-en/index.html

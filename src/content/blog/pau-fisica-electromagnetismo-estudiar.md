@@ -1,7 +1,8 @@
 ---
-title: "Física PAU: electromagnetismo desde cero para dominar campos, fuerzas e inducción"
+title: "Electromagnetismo PAU: 3 ejercicios resueltos de campos, fuerzas e inducción"
+seoTitle: "Electromagnetismo PAU: 3 ejercicios resueltos"
 date: "2026-10-24"
-updated: "2026-10-28"
+updated: "2026-10-31"
 description: "Electromagnetismo para Física PAU: campo, fuerza de Lorentz, movimiento de cargas, flujo, inducción, ejemplo y errores típicos."
 tag: "PAU"
 category: "Selectividad"
@@ -111,6 +112,34 @@ $$
 $$
 
 Puede cambiar $B$, el área, la orientación o varias a la vez. El signo negativo expresa que la corriente inducida crea un efecto que se opone al cambio de flujo, no al flujo sin más.
+
+## Ejercicio resuelto 2: partícula en un campo magnético
+
+Un protón de carga $q=1.60\times10^{-19}\ \mathrm C$ se mueve a $3.0\times10^6\ \mathrm{m\,s^{-1}}$ perpendicularmente a un campo de $0.20\ \mathrm T$. La fuerza es:
+
+$$
+F=qvB=(1.60\times10^{-19})(3.0\times10^6)(0.20)
+=9.6\times10^{-14}\ \mathrm N.
+$$
+
+Al ser perpendicular a la velocidad, la fuerza cambia la dirección pero no realiza trabajo. Si se pide el radio de la trayectoria:
+
+$$
+qvB=\frac{mv^2}{r}\Rightarrow r=\frac{mv}{qB}.
+$$
+
+## Ejercicio resuelto 3: fem inducida
+
+Una bobina de 200 espiras y área $0.015\ \mathrm{m^2}$ está perpendicular a un campo que disminuye uniformemente de $0.40\ \mathrm T$ a cero en $0.10\ \mathrm s$.
+
+El módulo del cambio de flujo enlazado es $N A\Delta B$, por lo que:
+
+$$
+|\mathcal E|=N A\frac{|\Delta B|}{\Delta t}
+=200(0.015)\frac{0.40}{0.10}=12\ \mathrm V.
+$$
+
+El sentido se obtiene con Lenz: la corriente inducida crea un campo que intenta conservar el campo original mientras este disminuye.
 
 ## Errores frecuentes
 

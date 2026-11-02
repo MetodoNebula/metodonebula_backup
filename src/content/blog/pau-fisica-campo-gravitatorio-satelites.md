@@ -1,7 +1,8 @@
 ---
-title: "Campo gravitatorio PAU: satélites, órbitas y energía con un único desarrollo matemático"
+title: "Campo gravitatorio PAU: 3 ejercicios resueltos de satélites, órbitas y energía"
+seoTitle: "Campo gravitatorio PAU: 3 ejercicios resueltos"
 date: "2026-10-02"
-updated: "2026-10-02"
+updated: "2026-10-31"
 description: "Resuelve satélites en Física PAU: radio orbital, velocidad, periodo, energía, escape y errores de signo con deducciones paso a paso."
 tag: "PAU"
 category: "Selectividad"
@@ -134,6 +135,47 @@ El gradiente espacial también es distinto: el campo decrece como $1/r^2$ y el p
 ## Órbita geoestacionaria
 
 Un satélite geoestacionario debe tener periodo igual al de rotación terrestre, orbitar en el plano ecuatorial y hacerlo en el mismo sentido que la Tierra. Igualar solo el periodo no basta para garantizar que permanezca sobre el mismo punto.
+
+## Ejercicio resuelto 2: comparar dos órbitas
+
+Dos satélites orbitan la misma masa central. El segundo tiene un radio orbital cuatro veces mayor que el primero. Compara sus velocidades y periodos.
+
+Como
+
+$$
+v=\sqrt{\frac{GM}{r}},
+$$
+
+se obtiene:
+
+$$
+\frac{v_2}{v_1}=\sqrt{\frac{r_1}{r_2}}=\sqrt{\frac14}=\frac12.
+$$
+
+El satélite exterior se mueve a la mitad de velocidad. Para el periodo, $T\propto r^{3/2}$:
+
+$$
+\frac{T_2}{T_1}=\left(\frac{r_2}{r_1}\right)^{3/2}=4^{3/2}=8.
+$$
+
+Aunque recorre una circunferencia mayor, también se mueve más despacio, por lo que su periodo es ocho veces mayor.
+
+## Ejercicio resuelto 3: energía para cambiar de órbita
+
+Un satélite de masa $m$ pasa de una órbita circular de radio $r$ a otra de radio $2r$. La energía mecánica de una órbita circular es:
+
+$$
+E=-\frac{GMm}{2r}.
+$$
+
+Por tanto:
+
+$$
+\Delta E=E_f-E_i=-\frac{GMm}{4r}+\frac{GMm}{2r}
+=\frac{GMm}{4r}>0.
+$$
+
+Hay que aportar energía. La energía final sigue siendo negativa porque el satélite permanece ligado gravitatoriamente.
 
 ## Errores frecuentes
 

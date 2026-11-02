@@ -1,8 +1,8 @@
 ---
-title: "Integrales en Matemáticas II PAU: áreas, signos y primitivas con un método que se puede comprobar"
+title: "Integrales PAU: ejercicios resueltos de áreas, signos y parámetros"
 seoTitle: "Integrales PAU: áreas, signos y ejercicios resueltos"
 date: "2026-10-14"
-updated: "2026-10-14"
+updated: "2026-10-31"
 description: "Resuelve integrales y áreas en Matemáticas II PAU: primitivas, puntos de corte, cambios de signo, planteamiento y comprobaciones."
 tag: "PAU"
 category: "Selectividad"

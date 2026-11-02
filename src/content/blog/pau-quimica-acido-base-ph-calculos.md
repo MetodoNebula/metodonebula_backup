@@ -1,7 +1,8 @@
 ---
-title: "Química PAU: domina ácido-base y pH con un método que ordena cualquier ejercicio"
+title: "Ácido-base y pH PAU: ejercicios resueltos de neutralización y equilibrio"
+seoTitle: "Ácido-base PAU: ejercicios resueltos de pH"
 date: "2026-10-02"
-updated: "2026-10-28"
+updated: "2026-10-31"
 description: "Ácido-base y pH para Química PAU: especies, fuertes y débiles, neutralización, valoración, ejemplo y errores frecuentes."
 tag: "PAU"
 category: "Selectividad"
@@ -77,6 +78,29 @@ K_a=\frac{[A^-][H_3O^+]}{[HA]}.
 $$
 
 Usa una tabla de equilibrio, resuelve la incógnita y comprueba si cualquier aproximación realizada es consistente. No apliques automáticamente $[H_3O^+]=c_0$.
+
+### Ejercicio resuelto: ácido débil
+
+Calcula el pH de una disolución $0.10\ \mathrm M$ de un ácido monoprótico con $K_a=1.8\times10^{-5}$.
+
+Si $x=[H_3O^+]$:
+
+$$
+K_a=\frac{x^2}{0.10-x}.
+$$
+
+Como primera aproximación, $0.10-x\approx0.10$:
+
+$$
+x\approx\sqrt{(1.8\times10^{-5})(0.10)}
+=1.34\times10^{-3}\ \mathrm M.
+$$
+
+$$
+pH=-\log(1.34\times10^{-3})\approx2.87.
+$$
+
+La fracción disociada es $x/0.10=1.34\,\%$, suficientemente pequeña para justificar la aproximación habitual del 5 %.
 
 ## Valoraciones: interpreta la curva
 

@@ -1,7 +1,8 @@
 ---
-title: "Química PAU: domina equilibrio químico y deja de confundir K, Q y Le Châtelier"
+title: "Equilibrio químico PAU: ejercicios resueltos con Kc, Q y Le Châtelier"
+seoTitle: "Equilibrio químico PAU: ejercicios resueltos"
 date: "2026-09-25"
-updated: "2026-10-28"
+updated: "2026-10-31"
 description: "Equilibrio químico para PAU explicado con K, Q, tablas de equilibrio, Le Châtelier, ejemplo resuelto y errores frecuentes."
 tag: "PAU"
 category: "Selectividad"
@@ -71,6 +72,33 @@ La tabla no es una plantilla decorativa. Codifica la estequiometría y garantiza
 Si aumenta la concentración de un reactivo, el sistema tiende a consumir parte de lo añadido. Si disminuye el volumen de un equilibrio gaseoso, se favorece el lado con menor número de moles gaseosos. Si aumenta la temperatura, trata el calor como reactivo o producto según la reacción sea endotérmica o exotérmica.
 
 La palabra “tiende” importa: el sistema compensa parcialmente la perturbación, no la elimina mágicamente.
+
+## Segundo ejercicio resuelto: comparar Q y Kc
+
+Para el equilibrio
+
+$$
+\mathrm{H_2(g)+I_2(g)\rightleftharpoons2HI(g)},
+$$
+
+$K_c=50$. En un instante, $[H_2]=0.20\ \mathrm M$, $[I_2]=0.20\ \mathrm M$ y $[HI]=1.00\ \mathrm M$.
+
+$$
+Q_c=\frac{[HI]^2}{[H_2][I_2]}
+=\frac{1.00^2}{(0.20)(0.20)}=25.
+$$
+
+Como $Q_c<K_c$, faltan productos respecto al equilibrio. La reacción neta avanza hacia la derecha, consume $H_2$ e $I_2$ y forma más $HI$ hasta que $Q_c=K_c$.
+
+## Tercer ejercicio resuelto: efecto del volumen
+
+En
+
+$$
+\mathrm{N_2O_4(g)\rightleftharpoons2NO_2(g)},
+$$
+
+una disminución de volumen eleva todas las presiones parciales de forma instantánea. El sistema evoluciona hacia el lado con menos moles gaseosos, la izquierda, y forma más $N_2O_4$. La constante no cambia si la temperatura permanece constante.
 
 ## Presión, volumen y gases inertes
 

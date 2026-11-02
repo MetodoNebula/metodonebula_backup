@@ -1,8 +1,8 @@
 ---
-title: "Óptica geométrica PAU: lentes, espejos y signos con rayos que justifican cada resultado"
-seoTitle: "Óptica geométrica PAU: lentes, espejos y signos"
+title: "Óptica geométrica PAU: 3 ejercicios resueltos de lentes, espejos y signos"
+seoTitle: "Óptica PAU: 3 ejercicios resueltos de lentes y espejos"
 date: "2026-10-23"
-updated: "2026-10-23"
+updated: "2026-10-31"
 description: "Resuelve óptica geométrica PAU con convenio de signos, ecuación de lentes, aumento, diagramas de rayos e interpretación de imágenes."
 tag: "PAU"
 category: "Selectividad"
@@ -94,6 +94,28 @@ En laboratorio, una imagen real puede enfocarse sobre una pantalla; una virtual 
 ## Espejos
 
 Los mismos principios geométricos se aplican con reflexión. En un espejo cóncavo, un objeto más allá del foco puede formar imagen real; entre foco y espejo produce imagen virtual aumentada. El espejo convexo produce imágenes virtuales, derechas y reducidas.
+
+## Ejercicio resuelto 3: espejo cóncavo
+
+Un objeto se sitúa a $30\ \mathrm{cm}$ de un espejo cóncavo de distancia focal $10\ \mathrm{cm}$. Con la convención utilizada en el curso, trabajamos con los módulos para anticipar la geometría:
+
+$$
+\frac1f=\frac1s+\frac1{s'},
+$$
+
+$$
+\frac1{10}=\frac1{30}+\frac1{s'}
+\Rightarrow \frac1{s'}=\frac{2}{30}
+\Rightarrow s'=15\ \mathrm{cm}.
+$$
+
+El aumento es:
+
+$$
+m=-\frac{s'}{s}=-\frac{15}{30}=-0.5.
+$$
+
+La imagen es real, invertida y mide la mitad que el objeto. El diagrama de rayos debe mostrar la intersección delante del espejo, entre el foco y el centro de curvatura.
 
 ## Comprobaciones físicas
 

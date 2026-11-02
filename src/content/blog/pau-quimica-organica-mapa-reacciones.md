@@ -1,7 +1,8 @@
 ---
-title: "Química orgánica PAU: el mapa de reacciones para pasar de alquenos a productos sin adivinar"
+title: "Química orgánica PAU: ejercicios resueltos de reacciones, isomería y síntesis"
+seoTitle: "Química orgánica PAU: ejercicios resueltos"
 date: "2026-10-17"
-updated: "2026-10-17"
+updated: "2026-10-31"
 description: "Organiza las reacciones orgánicas de PAU por grupo funcional, enlace que cambia, reactivo y tipo de reacción con ejemplos razonados."
 tag: "PAU"
 category: "Selectividad"
@@ -105,6 +106,32 @@ Una ruta representativa conecta el eteno con el etanoato de etilo.
 La primera etapa es la hidratación del eteno para obtener etanol. La oxidación de una parte de ese alcohol produce ácido etanoico. Finalmente, la esterificación entre el ácido y el etanol restante conduce al etanoato de etilo.
 
 La ruta no se memoriza completa: se construye conectando grupos funcionales compatibles.
+
+## Segundo ejercicio resuelto: isómeros de posición
+
+Escribe dos alcoholes de fórmula molecular $\mathrm{C_3H_8O}$ que sean isómeros de posición.
+
+El esqueleto de tres carbonos puede situar el grupo $-OH$ en el carbono 1 o en el 2:
+
+$$
+\mathrm{CH_3CH_2CH_2OH}\quad\text{propan-1-ol},
+$$
+
+$$
+\mathrm{CH_3CHOHCH_3}\quad\text{propan-2-ol}.
+$$
+
+Comparten fórmula molecular y grupo funcional, pero cambia la posición del grupo hidroxilo.
+
+## Tercer ejercicio resuelto: identificar la transformación
+
+El propan-1-ol se calienta con un agente oxidante acidificado. Al controlar la oxidación puede obtenerse propanal; con oxidación posterior se forma ácido propanoico:
+
+$$
+\mathrm{CH_3CH_2CH_2OH\rightarrow CH_3CH_2CHO\rightarrow CH_3CH_2COOH}.
+$$
+
+El alcohol primario pasa primero a aldehído y después a ácido carboxílico. La longitud de la cadena permanece constante; cualquier producto con dos o cuatro carbonos indicaría una transformación no justificada.
 
 ## Cómo justificar una respuesta
 

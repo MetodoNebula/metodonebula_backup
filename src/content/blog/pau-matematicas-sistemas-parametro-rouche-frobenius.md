@@ -1,7 +1,8 @@
 ---
-title: "Sistemas con parámetro en PAU: Rouché–Frobenius, rangos y casos sin improvisar"
+title: "Sistemas con parámetro PAU: ejercicios resueltos de Rouché–Frobenius y rangos"
+seoTitle: "Sistemas con parámetro PAU: ejercicios resueltos"
 date: "2026-10-10"
-updated: "2026-10-10"
+updated: "2026-10-31"
 description: "Discute sistemas con parámetro en Matemáticas II PAU usando rangos, valores críticos, Rouché–Frobenius y resolución por casos."
 tag: "PAU"
 category: "Selectividad"
@@ -96,6 +97,39 @@ n-\operatorname{rg}(A).
 $$
 
 Después de discutir, usa Gauss, elige las variables libres y expresa las restantes en función de ellas. “Infinitas soluciones” no sustituye a la parametrización si el ejercicio pide resolver.
+
+## Segundo ejercicio resuelto: parámetro en la ampliada
+
+Considera:
+
+$$
+\begin{cases}
+x+y=2,\\
+2x+2y=a.
+\end{cases}
+$$
+
+La matriz de coeficientes tiene rango 1 porque la segunda fila es el doble de la primera. En la ampliada:
+
+$$
+\left(\begin{array}{cc|c}
+1&1&2\\
+2&2&a
+\end{array}\right)
+\xrightarrow{F_2-2F_1}
+\left(\begin{array}{cc|c}
+1&1&2\\
+0&0&a-4
+\end{array}\right).
+$$
+
+Si $a=4$, el rango de la ampliada también es 1 y, como hay dos incógnitas, el sistema es compatible indeterminado. Tomando $y=t$:
+
+$$
+x=2-t.
+$$
+
+Si $a\ne4$, aparece la ecuación imposible $0=a-4$; entonces $\operatorname{rg}(A)=1$ y $\operatorname{rg}(A^*)=2$, por lo que el sistema es incompatible.
 
 ## Determinante y Gauss cumplen funciones distintas
 

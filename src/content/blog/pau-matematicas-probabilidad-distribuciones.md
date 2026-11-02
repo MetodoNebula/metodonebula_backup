@@ -1,7 +1,8 @@
 ---
-title: "Probabilidad y distribuciones en PAU: aprende a elegir el modelo antes de calcular"
+title: "Probabilidad y distribuciones PAU: ejercicios resueltos de binomial y normal"
+seoTitle: "Probabilidad PAU: ejercicios resueltos de binomial y normal"
 date: "2026-10-17"
-updated: "2026-10-28"
+updated: "2026-10-31"
 description: "Probabilidad para Matemáticas II PAU: sucesos, binomial, normal, tipificación, ejemplos, comprobaciones y errores frecuentes."
 tag: "PAU"
 category: "Selectividad"
@@ -84,6 +85,26 @@ Tiene sentido: 85 está 1,5 desviaciones por encima de la media, así que la col
 ## Aproximación normal a binomial
 
 Cuando el temario lo incluya y las condiciones sean adecuadas, recuerda la corrección por continuidad. Por ejemplo, $P(X\le20)$ se aproxima con $P(Y<20.5)$. Justifica la aproximación según el criterio enseñado en tu comunidad.
+
+## Tercer ejercicio resuelto: intervalo central de una normal
+
+Las notas siguen una distribución $N(60,8)$. Calcula la probabilidad de obtener entre 52 y 68 puntos.
+
+Estandarizamos los extremos:
+
+$$
+z_1=\frac{52-60}{8}=-1,
+\qquad
+z_2=\frac{68-60}{8}=1.
+$$
+
+Por simetría:
+
+$$
+P(52<X<68)=P(-1<Z<1)\approx0.6827.
+$$
+
+El intervalo está centrado en la media y se extiende una desviación típica a cada lado, por lo que un resultado cercano al 68 % también funciona como control de coherencia.
 
 ## Errores frecuentes
 

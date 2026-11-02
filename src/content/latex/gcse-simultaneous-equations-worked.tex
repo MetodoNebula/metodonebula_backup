@@ -1,0 +1,20 @@
+\documentclass[tikz,border=5pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\definecolor{nebula}{HTML}{6366F1}
+\definecolor{spark}{HTML}{14B8A6}
+\definecolor{ink}{HTML}{334155}
+\begin{document}
+\begin{tikzpicture}[font=\sffamily,>=Latex,x=.78cm,y=.78cm]
+  \draw[->,ink!55] (-.4,0)--(7.4,0) node[right] {$x$};
+  \draw[->,ink!55] (0,-.4)--(0,6.5) node[above] {$y$};
+  \draw[very thick,nebula] (-.1,1.9)--(6.6,5.25);
+  \draw[very thick,spark] (.15,5.9)--(6.6,.1);
+  \fill[ink] (3,3.45) circle (2.4pt);
+  \draw[dashed,ink!35] (3,0)--(3,3.45)--(0,3.45);
+  \node[anchor=west,fill=white,inner sep=2pt,text=nebula] at (4.7,4.6) {$y=\frac12x+2$};
+  \node[anchor=west,fill=white,inner sep=2pt,text=spark] at (4.8,1.35) {$y=-x+6$};
+  \node[draw=ink!25,rounded corners=4pt,fill=white,inner sep=6pt] at (3.1,7.25)
+    {$S=\left(\frac83,\,\frac{10}3\right)$};
+\end{tikzpicture}
+\end{document}

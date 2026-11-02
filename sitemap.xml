@@ -89,6 +89,10 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pagina/22/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/</loc>
     <priority>0.6</priority>
   </url>
@@ -98,6 +102,10 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/pagina/3/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/pagina/4/</loc>
     <priority>0.5</priority>
   </url>
   <url>
@@ -122,6 +130,10 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/categoria/fisica-y-quimica/pagina/3/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/categoria/fisica-y-quimica/pagina/4/</loc>
     <priority>0.5</priority>
   </url>
   <url>
@@ -237,6 +249,10 @@
     <lastmod>2026-10-25</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/disoluciones-tampon-henderson-hasselbalch-ejercicios-resueltos/</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/gcse-chemistry-acids-bases-salts-en/</loc>
     <lastmod>2026-10-24</lastmod>
   </url>
@@ -281,6 +297,10 @@
     <lastmod>2026-10-21</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/cinetica-quimica-orden-reaccion-arrhenius-ejercicios-resueltos/</loc>
+    <lastmod>2026-10-21</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/bachillerato-matematicas-trigonometria-triangulos/</loc>
     <lastmod>2026-10-20</lastmod>
   </url>
@@ -307,6 +327,10 @@
   <url>
     <loc>https://metodonebula.es/blog/gcse-maths-transformations-vectors/</loc>
     <lastmod>2026-10-19</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/mecanica-fluidos-bernoulli-continuidad-ejercicios-resueltos/</loc>
+    <lastmod>2026-10-18</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-quimica-termoquimica-hess-entalpia/</loc>
@@ -338,6 +362,10 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-matematicas-ii-errores-restan-puntos/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/termodinamica-primer-principio-ciclos-ejercicios-resueltos/</loc>
     <lastmod>2026-10-15</lastmod>
   </url>
   <url>
@@ -373,6 +401,10 @@
     <lastmod>2026-10-12</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/series-taylor-maclaurin-ejercicios-resueltos/</loc>
+    <lastmod>2026-10-12</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/pau-ebau-evau-selectividad-modelo-oficial/</loc>
     <lastmod>2026-10-10</lastmod>
   </url>
@@ -387,6 +419,10 @@
   <url>
     <loc>https://metodonebula.es/blog/bachillerato-matematicas-funciones-representacion/</loc>
     <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/valores-propios-vectores-propios-diagonalizacion-ejercicios-resueltos/</loc>
+    <lastmod>2026-10-09</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/eso-fisica-quimica-sonido-ondas/</loc>

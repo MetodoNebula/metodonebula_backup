@@ -1,0 +1,18 @@
+\documentclass[tikz,border=6pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta}
+\definecolor{nebula}{HTML}{6366F1}
+\definecolor{spark}{HTML}{14B8A6}
+\definecolor{ink}{HTML}{334155}
+\begin{document}
+\begin{tikzpicture}[font=\sffamily,>=Latex,x=.88cm,y=.64cm]
+  \draw[->,ink!60] (0,0)--(8.3,0) node[right] {$\log([A^-]/[HA])$};
+  \draw[->,ink!60] (0,0)--(0,9) node[above] {pH};
+  \draw[very thick,nebula] (.65,2.1)--(7.55,7.35);
+  \draw[densely dashed,ink!55] (.65,4.73)--(7.55,4.73);
+  \fill[nebula] (4.1,4.73) circle (2.5pt);
+  \node[above left,fill=white,inner sep=2pt] at (4.1,4.73) {$[A^-]=[HA]$};
+  \node[left,fill=white,inner sep=2pt] at (0,4.73) {$pK_a$};
+  \node[draw=spark,rounded corners=4pt,fill=white,inner sep=6pt] at (5.7,1.45) {$\mathrm{pH}=pK_a+\log\!\frac{[A^-]}{[HA]}$};
+\end{tikzpicture}
+\end{document}

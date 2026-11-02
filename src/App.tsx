@@ -18,6 +18,7 @@ const AboutPage = lazy(() => pagesModule().then((module) => ({ default: module.A
 const CommercialHubPage = lazy(() =>
   pagesModule().then((module) => ({ default: module.CommercialHubPage })),
 );
+const CampusPage = lazy(() => pagesModule().then((module) => ({ default: module.CampusPage })));
 const ContactPage = lazy(() => pagesModule().then((module) => ({ default: module.ContactPage })));
 const MethodologyPage = lazy(() =>
   pagesModule().then((module) => ({ default: module.MethodologyPage })),
@@ -58,6 +59,7 @@ export default function App() {
       return <BlogPost slug={decodeURIComponent(path.slice("/blog/".length))} />;
     }
     if (path === "/clases-particulares/universidad") return <ServiceOverviewPage />;
+    if (path === "/campus") return <CampusPage />;
     const hub = findCommercialHub(path);
     if (hub) return <CommercialHubPage page={hub} />;
     const service = findServicePage(path);

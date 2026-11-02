@@ -504,6 +504,7 @@ function shell({ label, h1, intro, children, breadcrumbs = [], theme = "nebula",
       <footer class="border-t border-white/5 px-6 py-8 text-sm text-muted-foreground">
         <nav class="mx-auto flex max-w-7xl flex-wrap gap-x-5 gap-y-2" aria-label="Navegación secundaria">
           <a class="text-link transition-colors hover:text-link" href="/mapa-del-sitio/">Mapa del sitio</a>
+          <a class="text-link transition-colors hover:text-link" href="/campus/">Campus virtual</a>
           <a class="text-link transition-colors hover:text-link" href="/blog/">Blog</a>
           <a class="text-link transition-colors hover:text-link" href="/clases-particulares/universidad/">Clases desde ESO</a>
           <a class="text-link transition-colors hover:text-link" href="/contacto/">Contacto</a>
@@ -1205,6 +1206,7 @@ function servicePage(page, posts) {
 function htmlSitemapPage(posts) {
   const mainLinks = [
     ["/", "Inicio"],
+    ["/campus/", "Campus virtual"],
     ...SITE_DATA.commercialHubs.map((hub) => [hub.path, hub.label]),
     [SITE_DATA.serviceOverview.path, "Preparación universitaria"],
     ["/metodologia/", "Metodología"],
@@ -1365,6 +1367,86 @@ function corePage(kind) {
   };
 }
 
+function campusPage() {
+  const page = SITE_DATA.corePages.find((item) => item.kind === "campus");
+  const phone = SITE_DATA.site.contact.whatsapp;
+  const instagram = SITE_DATA.site.contact.instagram;
+  const subjectCards = [
+    ["Matemáticas", "Álgebra, funciones, cálculo, geometría, probabilidad y procedimientos de examen."],
+    ["Física", "Modelos, unidades, diagramas y problemas de mecánica, energía, campos, ondas e Ingeniería."],
+    ["Química", "Estructura, formulación, estequiometría, equilibrio, ácido-base, cinética y problemas razonados."],
+  ]
+    .map(
+      ([title, text]) =>
+        '<article class="nebula-card rounded-3xl p-7"><h3 class="font-display text-2xl font-semibold nebula-heading-text">' +
+        escapeHtml(title) +
+        '</h3><p class="mt-3 text-sm leading-relaxed text-muted-foreground">' +
+        escapeHtml(text) +
+        "</p></article>",
+    )
+    .join("");
+  const levelCards = [
+    ["ESO", "Construye base, corrige lagunas y aprende a razonar antes de memorizar."],
+    ["Bachillerato", "Conecta teoría, problemas tipo y preparación de exámenes."],
+    ["Universidad", "Profundiza con desarrollo matemático y método en asignaturas exigentes."],
+  ]
+    .map(
+      ([title, text], index) =>
+        '<article class="rounded-3xl border border-white/8 bg-white/[0.02] p-6"><span class="font-display text-sm font-semibold text-spark">' +
+        String(index + 1).padStart(2, "0") +
+        '</span><h3 class="mt-3 font-display text-xl font-semibold">' +
+        escapeHtml(title) +
+        '</h3><p class="mt-3 text-sm leading-relaxed text-muted-foreground">' +
+        escapeHtml(text) +
+        "</p></article>",
+    )
+    .join("");
+  const contactButtons =
+    '<p class="mt-7 flex flex-wrap gap-3"><a class="rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground no-underline" href="tel:+34684731762">Llamar al ' +
+    escapeHtml(phone) +
+    '</a><a class="rounded-full border border-white/15 px-6 py-3 text-sm font-semibold no-underline" href="' +
+    escapeHtml(instagram) +
+    '" target="_blank" rel="noopener noreferrer">Escribir por Instagram</a></p>';
+  const children = [
+    '<div class="grid gap-8 lg:grid-cols-[1.08fr_0.92fr]"><section><h2>Estudia con un recorrido, no con recursos sueltos</h2><p>El campus reúne explicaciones directas, ejercicios resueltos paso a paso y materiales para preparar exámenes. Está pensado para entender el procedimiento, practicarlo con orden y comprobar qué idea hay detrás de cada resultado.</p><p>El acceso se adapta al nivel y a las asignaturas que necesitas trabajar. Para conocer el contenido disponible y el encaje con tu objetivo, escríbenos directamente.</p>',
+    contactButtons,
+    '</section><aside class="nebula-card rounded-3xl p-7"><p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Dentro del campus</p><ul class="mt-6 space-y-4"><li>Teoría clara organizada por temas y niveles.</li><li>Ejercicios resueltos con desarrollo matemático riguroso.</li><li>Problemas de examen para practicar con contexto.</li><li>Una ruta útil para repasar, recuperar base o avanzar.</li></ul></aside></div>',
+    "<h2>Tres áreas, una forma de estudiar</h2><div class=\"grid gap-5 md:grid-cols-3\">",
+    subjectCards,
+    "</div><h2>Contenido adaptado a tu etapa</h2><div class=\"grid gap-4 md:grid-cols-3\">",
+    levelCards,
+    '</div><section class="mt-14 rounded-3xl border border-spark/25 bg-spark/5 p-8 text-center"><p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Acceso e información</p><h2 class="mt-4">Cuéntanos tu nivel y las asignaturas que quieres trabajar</h2><p>Te explicamos qué parte del campus puede ayudarte y cómo acceder. Puedes contactar por teléfono o por Instagram.</p>',
+    contactButtons,
+    "</section>",
+  ].join("");
+  return {
+    ...page,
+    route: page.path,
+    jsonLd: [
+      {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        name: page.h1,
+        description: page.description,
+        provider: { "@type": "EducationalOrganization", name: SITE_DATA.site.displayName },
+        url: absoluteUrl(page.path),
+        inLanguage: "es",
+      },
+      breadcrumbJsonLd([
+        ["Inicio", "/"],
+        ["Campus", page.path],
+      ]),
+    ],
+    body: shell({
+      label: "Campus virtual",
+      h1: page.h1,
+      intro: page.intro,
+      breadcrumbs: [{ label: "Campus", href: page.path }],
+      children,
+    }),
+  };
+}
+
 function notFoundPage() {
   return {
     title: "Página no encontrada | Método Nebula",
@@ -1513,6 +1595,7 @@ const pages = [
   ...SITE_DATA.commercialHubs.map((page) => commercialHubPage(page, posts)),
   serviceOverviewPage(),
   ...SITE_DATA.servicePages.map((page) => servicePage(page, posts)),
+  campusPage(),
   htmlSitemapPage(posts),
   corePage("about"),
   corePage("method"),

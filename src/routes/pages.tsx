@@ -1,7 +1,17 @@
 import { useEffect, type ReactNode } from "react";
-import { ArrowRight, BookOpen, CheckCircle2, Mail, MessageCircle } from "lucide-react";
+import {
+  ArrowRight,
+  Atom,
+  BookOpen,
+  CheckCircle2,
+  FlaskConical,
+  Instagram,
+  Mail,
+  MessageCircle,
+  Sigma,
+} from "lucide-react";
 
-import { EMAIL, WHATSAPP_NUMBER } from "../lib/contact";
+import { EMAIL, INSTAGRAM_URL, WHATSAPP_NUMBER } from "../lib/contact";
 import { trackEvent } from "../lib/analytics";
 import {
   absoluteUrl,
@@ -690,6 +700,189 @@ export function MethodologyPage() {
   );
 }
 
+export function CampusPage() {
+  const page = siteData.corePages.find((item) => item.kind === "campus")!;
+  usePageMeta({ title: page.title, description: page.description, path: page.path });
+
+  const subjects = [
+    {
+      icon: Sigma,
+      title: "Matemáticas",
+      text: "Álgebra, funciones, cálculo, geometría, probabilidad y los procedimientos que más se repiten en ejercicios y exámenes.",
+    },
+    {
+      icon: Atom,
+      title: "Física",
+      text: "Modelos, unidades, diagramas y problemas de mecánica, energía, campos, ondas y contenidos de Ingeniería.",
+    },
+    {
+      icon: FlaskConical,
+      title: "Química",
+      text: "Estructura, formulación, estequiometría, equilibrio, ácido-base, cinética y problemas planteados con rigor.",
+    },
+  ];
+
+  const levels = [
+    ["ESO", "Construye base, corrige lagunas y aprende a razonar antes de memorizar."],
+    [
+      "Bachillerato",
+      "Conecta teoría, problemas tipo y preparación para los temas que entran en clase y examen.",
+    ],
+    [
+      "Universidad",
+      "Profundiza en Cálculo, Álgebra, Física y Química con desarrollo matemático y método.",
+    ],
+  ];
+
+  return (
+    <PageShell>
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "Course",
+          name: page.h1,
+          description: page.description,
+          provider: { "@type": "EducationalOrganization", name: siteData.site.displayName },
+          url: absoluteUrl(page.path),
+          inLanguage: "es",
+        }}
+      />
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Inicio", item: absoluteUrl("/") },
+            { "@type": "ListItem", position: 2, name: "Campus", item: absoluteUrl(page.path) },
+          ],
+        }}
+      />
+      <PageHero label="Campus virtual" page={page} breadcrumbs={[{ label: "Campus", href: page.path }]} />
+
+      <section className="py-16 md:py-20">
+        <div className="mx-auto max-w-7xl px-6">
+          <div className="grid gap-8 lg:grid-cols-[1.08fr_0.92fr]">
+            <div>
+              <AccentHeading>Estudia con un recorrido, no con recursos sueltos</AccentHeading>
+              <p className="mt-5 max-w-2xl leading-relaxed text-muted-foreground">
+                El campus reúne explicaciones directas, ejercicios resueltos paso a paso y
+                materiales para preparar exámenes. Está pensado para que puedas entender el
+                procedimiento, practicarlo con orden y comprobar qué idea hay detrás de cada
+                resultado.
+              </p>
+              <p className="mt-4 max-w-2xl leading-relaxed text-muted-foreground">
+                El acceso se adapta al nivel y a las asignaturas que necesitas trabajar. Para
+                conocer el contenido disponible y el encaje con tu objetivo, escríbenos
+                directamente.
+              </p>
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+                <a
+                  href="tel:+34684731762"
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[0_10px_40px_-10px_oklch(0.62_0.22_265/0.7)] transition-all hover:-translate-y-0.5 hover:bg-action/90"
+                >
+                  <MessageCircle className="h-4 w-4" />
+                  Llamar al {WHATSAPP_NUMBER}
+                </a>
+                <a
+                  href={INSTAGRAM_URL}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 rounded-full border border-white/15 bg-white/[0.03] px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:border-spark/50 hover:bg-spark/10"
+                >
+                  <Instagram className="h-4 w-4 text-spark" />
+                  Escribir por Instagram
+                </a>
+              </div>
+            </div>
+            <aside className="nebula-card rounded-3xl p-7">
+              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-spark">
+                Dentro del campus
+              </p>
+              <ul className="mt-6 space-y-5">
+                {[
+                  "Teoría clara organizada por temas y niveles.",
+                  "Ejercicios resueltos con desarrollo matemático riguroso.",
+                  "Problemas de examen para practicar con contexto.",
+                  "Una ruta útil para repasar, recuperar base o avanzar.",
+                ].map((item) => (
+                  <li key={item} className="flex gap-3 text-sm leading-relaxed text-foreground/90">
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-spark" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </aside>
+          </div>
+
+          <section className="mt-16">
+            <AccentHeading className="text-2xl">Tres áreas, una forma de estudiar</AccentHeading>
+            <div className="mt-7 grid gap-5 md:grid-cols-3">
+              {subjects.map((subject) => (
+                <article key={subject.title} className="nebula-card rounded-3xl p-7">
+                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-spark/30 bg-spark/10">
+                    <subject.icon className="h-5 w-5 text-spark" />
+                  </div>
+                  <h3 className="mt-5 font-display text-xl font-semibold">{subject.title}</h3>
+                  <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{subject.text}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+
+          <section className="mt-16">
+            <AccentHeading className="text-2xl">Contenido adaptado a tu etapa</AccentHeading>
+            <div className="mt-7 grid gap-4 md:grid-cols-3">
+              {levels.map(([title, text], index) => (
+                <article
+                  key={title}
+                  className="rounded-3xl border border-white/8 bg-white/[0.02] p-6"
+                >
+                  <span className="font-display text-sm font-semibold text-spark">
+                    {String(index + 1).padStart(2, "0")}
+                  </span>
+                  <h3 className="mt-3 font-display text-xl font-semibold">{title}</h3>
+                  <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{text}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+
+          <section className="mt-16 rounded-3xl border border-spark/25 bg-spark/[0.06] p-8 text-center md:p-11">
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-spark">
+              Acceso e información
+            </p>
+            <h2 className="mx-auto mt-4 max-w-2xl font-display text-3xl font-semibold md:text-4xl">
+              Cuéntanos tu nivel y las asignaturas que quieres trabajar
+            </h2>
+            <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-muted-foreground">
+              Te explicamos qué parte del campus puede ayudarte y cómo acceder. Puedes contactar
+              por teléfono o por Instagram.
+            </p>
+            <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
+              <a
+                href="tel:+34684731762"
+                className="inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-action/90"
+              >
+                <MessageCircle className="h-4 w-4" />
+                {WHATSAPP_NUMBER}
+              </a>
+              <a
+                href={INSTAGRAM_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 rounded-full border border-white/15 px-6 py-3 text-sm font-semibold transition-colors hover:border-spark/50"
+              >
+                <Instagram className="h-4 w-4 text-spark" />
+                @nebula.lambda
+              </a>
+            </div>
+          </section>
+        </div>
+      </section>
+    </PageShell>
+  );
+}
+
 export function ContactPage() {
   const page = siteData.corePages.find((item) => item.kind === "contact")!;
   usePageMeta({ title: page.title, description: page.description, path: page.path });
@@ -770,6 +963,11 @@ export function SitemapPage() {
               <li>
                 <Link to="/" className="text-link transition-colors hover:text-link">
                   Inicio
+                </Link>
+              </li>
+              <li>
+                <Link to="/campus/" className="text-link transition-colors hover:text-link">
+                  Campus virtual
                 </Link>
               </li>
               {siteData.commercialHubs.map((hub) => (

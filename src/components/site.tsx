@@ -92,6 +92,7 @@ const NAV_LINKS = [
   { href: "/tfg-tfm/", label: "TFG/TFM" },
   { href: "/formacion-it/", label: "Formación IT" },
   { href: "/metodologia/", label: "Método" },
+  { href: "/campus/", label: "Campus", featured: true },
   { href: "/blog/", label: "Blog" },
   { href: "/contacto/", label: "Contacto" },
 ];
@@ -134,12 +135,16 @@ export function Navbar() {
           <NebulaLogo className="h-7 w-7" />
           <span className="font-display text-lg font-semibold tracking-tight">Método Nebula</span>
         </Link>
-        <nav className="hidden items-center gap-6 lg:flex">
+        <nav className="hidden items-center gap-4 xl:gap-5 lg:flex">
           {NAV_LINKS.map((l) => (
             <Link
               key={l.href}
               to={l.href}
-              className="text-sm text-muted-foreground transition-colors hover:text-link"
+              className={
+                l.featured
+                  ? "rounded-full border border-spark/45 bg-spark/10 px-3 py-1.5 text-sm font-semibold text-spark transition-colors hover:border-spark/70 hover:bg-spark/15"
+                  : "text-sm text-muted-foreground transition-colors hover:text-link"
+              }
             >
               {l.label}
             </Link>
@@ -169,7 +174,11 @@ export function Navbar() {
                 key={l.href}
                 to={l.href}
                 onClick={() => setOpen(false)}
-                className="text-sm text-muted-foreground transition-colors hover:text-link"
+                className={
+                  l.featured
+                    ? "rounded-xl border border-spark/45 bg-spark/10 px-3 py-2 text-sm font-semibold text-spark"
+                    : "text-sm text-muted-foreground transition-colors hover:text-link"
+                }
               >
                 {l.label}
               </Link>
@@ -212,6 +221,7 @@ export function Footer() {
             <ul className="mt-4 space-y-2 text-sm">
               {[
                 ["/metodologia/", "Método"],
+                ["/campus/", "Campus virtual"],
                 ["/clases-particulares/", "Clases particulares"],
                 ["/preparacion-examenes/", "Preparación de exámenes"],
                 ["/tfg-tfm/", "Acompañamiento TFG/TFM"],

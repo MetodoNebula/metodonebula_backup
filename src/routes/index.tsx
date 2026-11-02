@@ -40,6 +40,7 @@ export default function NebulaLanding() {
       <Navbar />
       <main id="contenido">
         <Hero />
+        <CampusHighlight />
         <Positioning />
         <Services />
         <Method />
@@ -122,6 +123,32 @@ function AuthorityChip({ label }: { label: string }) {
       <ShieldCheck className="h-3.5 w-3.5 text-action" />
       {label}
     </span>
+  );
+}
+
+function CampusHighlight() {
+  return (
+    <section className="relative border-y border-spark/20 bg-spark/[0.06] py-7">
+      <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-5 px-6 md:flex-row md:items-center">
+        <div className="flex max-w-3xl items-start gap-4">
+          <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-spark/35 bg-spark/10">
+            <BookOpen className="h-5 w-5 text-spark" />
+          </div>
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-spark">
+              Nuevo · Campus virtual
+            </p>
+            <p className="mt-1 text-sm leading-relaxed text-foreground/90 md:text-base">
+              Teoría, ejercicios y exámenes resueltos de Física, Química y Matemáticas para ESO,
+              Bachillerato y Universidad.
+            </p>
+          </div>
+        </div>
+        <GhostCTA href="/campus/" className="shrink-0 border-spark/35 text-spark hover:border-spark/65">
+          Conocer el campus
+        </GhostCTA>
+      </div>
+    </section>
   );
 }
 

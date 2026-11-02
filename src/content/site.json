@@ -50,6 +50,15 @@
       "priority": "0.8"
     },
     {
+      "path": "/campus/",
+      "kind": "campus",
+      "title": "Campus virtual de Física, Química y Matemáticas | Método Nebula",
+      "description": "Campus virtual de Método Nebula con teoría clara, ejercicios resueltos y preparación de exámenes de Física, Química y Matemáticas para ESO, Bachillerato y Universidad.",
+      "h1": "Campus virtual de Física, Química y Matemáticas",
+      "intro": "Un espacio de estudio para avanzar con teoría estructurada, ejercicios razonados y exámenes resueltos según tu nivel.",
+      "priority": "0.8"
+    },
+    {
       "path": "/sobre-nebula/",
       "kind": "about",
       "title": "Sobre Método Nebula | Mentoría académica y profesional",

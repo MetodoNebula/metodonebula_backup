@@ -3847,14 +3847,14 @@ La señal de que avanzas no es que el examen “te suene”. Es que puedes decid
 Para planificar la preparación general, consulta [cómo organizar la Selectividad con un calendario](/blog/preparar-selectividad-con-calendario/). Si necesitas convertir tus modelos de PAU en un plan de trabajo y corrección adaptado a tu punto de partida, revisa las [clases particulares para Selectividad y PAU](/clases-particulares/selectividad/) o [cuéntanos tu caso](/contacto/).
 `,L=`---
 title: Cómo resolver límites: indeterminaciones y ejercicios
-seoTitle: "Límites e indeterminaciones: método y ejercicios resueltos"
+seoTitle: "Cómo resolver límites: indeterminaciones y ejercicios"
 date: 2026-08-17
-updated: 2026-10-29
-description: Método completo para resolver límites: sustitución, factorización, conjugados, límites notables, infinito e indeterminaciones con ejercicios.
+updated: 2026-11-05
+description: Aprende cómo resolver límites e indeterminaciones con sustitución, factorización, conjugados, límites notables y ejercicios resueltos.
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: regla-lhopital-cuando-usarla-ejercicios,continuidad-derivabilidad-diferencias-problemas,como-aprobar-calculo-i-ingenieria-seis-semanas
+relatedPosts: limites-trigonometricos-ejercicios-resueltos,regla-lhopital-cuando-usarla-ejercicios,continuidad-derivabilidad-diferencias-problemas
 image: /favicon.svg
 ---
 
@@ -19292,14 +19292,14 @@ Después de aplicar la fórmula, pueden ocurrir tres cosas útiles: la nueva int
 Si quieres practicar el método con ejercicios de tu grado y recibir corrección sobre la elección de \\(u\\), los signos y la presentación, consulta las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
 `,Sn=`---
 title: Integración por sustitución: cambio de variable y ejercicios
-seoTitle: "Integración por sustitución: método y ejercicios resueltos"
+seoTitle: "Integración por sustitución: cambio de variable y ejercicios"
 date: 2026-08-12
-updated: 2026-10-29
-description: Aprende integración por sustitución con criterio: cómo elegir el cambio de variable, transformar diferenciales y límites, y comprobar cada resultado.
+updated: 2026-11-05
+description: Aprende integración por sustitución con cambio de variable: cómo elegir u, transformar diferenciales y límites, y resolver ejercicios paso a paso.
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: metodos-de-integracion-como-elegir,integracion-por-partes-formula-ejercicios-resueltos,que-son-las-integrales-y-para-que-se-utilizan
+relatedPosts: integrales-inmediatas-ejercicios-resueltos,metodos-de-integracion-como-elegir,integracion-por-partes-formula-ejercicios-resueltos
 image: /favicon.svg
 ---
 
@@ -33441,19 +33441,22 @@ No debes dividir entre una expresión que puede valer cero sin haberlo comprobad
 Para repasar el sentido de los pasos antes de usar métodos más rápidos, consulta la guía de [ecuaciones y sistemas en ESO](/blog/eso-matematicas-ecuaciones-sistemas-estudiar/). Si necesitas una práctica adaptada a tu curso, consulta las [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
 `,Ga=`---
 title: Teorema fundamental del cálculo: ejemplos y ejercicios
+seoTitle: "Teorema fundamental del cálculo: ejemplos y ejercicios"
 date: 2026-08-13
-updated: 2026-08-13
-description: Comprende las dos partes del teorema fundamental del cálculo, deriva integrales con límites variables y resuelve integrales definidas paso a paso.
+updated: 2026-11-05
+description: Comprende el teorema fundamental del cálculo con ejemplos: deriva integrales con límites variables y resuelve integrales definidas paso a paso.
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: integral-definida-e-indefinida-diferencias-ejemplos,que-son-las-integrales-y-para-que-se-utilizan,area-entre-dos-curvas-ejercicios-resueltos
+relatedPosts: integral-definida-e-indefinida-diferencias-ejemplos,integrales-inmediatas-ejercicios-resueltos,area-entre-dos-curvas-ejercicios-resueltos
 image: /favicon.svg
 ---
 
 El teorema fundamental del cálculo explica por qué derivar e integrar son operaciones inversas. Su primera parte afirma que una integral con extremo variable genera una función cuya derivada recupera el integrando. La segunda permite calcular una integral definida restando los valores de una primitiva en los extremos.
 
 No son dos recetas aisladas. Las dos partes describen la misma conexión entre **variación instantánea** y **acumulación total**.
+
+> **Respuesta directa.** Si \\(F'(x)=f(x)\\), entonces \\(\\int_a^b f(x)\\,dx=F(b)-F(a)\\). Y si \\(A(x)=\\int_a^x f(t)\\,dt\\), entonces \\(A'(x)=f(x)\\). La clave es distinguir la variable de integración \\(t\\) del límite variable \\(x\\).
 
 ## Qué conecta exactamente el teorema
 

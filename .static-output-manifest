@@ -61,9 +61,9 @@ assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2
 assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff
 assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2
 assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf
-assets/blog-C4uOUNeC.js
 assets/blog-Cp579UoJ.css
-assets/index-Dq8xWAGX.js
+assets/blog-zPyb73Iu.js
+assets/index-ChH1gtt_.js
 assets/index-zP2Pl7fj.css
 assets/latex/area-between-curves.svg
 assets/latex/arrhenius-energy.svg
@@ -184,8 +184,8 @@ assets/latex/triangle-strategy.svg
 assets/latex/unit-circle-solutions.svg
 assets/latex/vectors-planes.svg
 assets/latex/wave-anatomy.svg
-assets/pages-ckqq8sHD.js
-assets/posts-CIigYp4m.js
+assets/pages-DwPsNe5O.js
+assets/posts-5-Pm7QWx.js
 blog/algebra-lineal-universidad-que-estudiar-primero-errores/index.html
 blog/area-entre-dos-curvas-ejercicios-resueltos/index.html
 blog/bachillerato-fisica-momento-choques/index.html
@@ -430,6 +430,7 @@ blog/preparar-selectividad-con-calendario/index.html
 blog/primer-proyecto-python-principiantes-datos/index.html
 blog/probabilidad-condicionada-bayes-problemas-resueltos/index.html
 blog/problemas-optimizacion-derivadas-ejercicios-resueltos/index.html
+blog/proporcionalidad-directa-inversa-2-eso-ejercicios/index.html
 blog/python-y-sql-para-empezar-en-datos/index.html
 blog/que-prueba-estadistica-utilizar-guia-test-correcto/index.html
 blog/que-son-las-derivadas-y-para-que-se-utilizan/index.html

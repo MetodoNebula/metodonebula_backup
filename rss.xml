@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
+      <title>Derivadas de producto y cociente: ejercicios resueltos</title>
+      <link>https://metodonebula.es/blog/derivadas-producto-cociente-ejercicios/</link>
+      <guid>https://metodonebula.es/blog/derivadas-producto-cociente-ejercicios/</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Aprende las reglas de derivación de productos y cocientes con ejercicios resueltos, comprobaciones y errores frecuentes.</description>
+    </item>
+    <item>
+      <title>Ecuaciones de segundo grado en 3.º ESO: ejercicios resueltos</title>
+      <link>https://metodonebula.es/blog/ecuaciones-segundo-grado-3-eso-ejercicios-resueltos/</link>
+      <guid>https://metodonebula.es/blog/ecuaciones-segundo-grado-3-eso-ejercicios-resueltos/</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Aprende a resolver ecuaciones de segundo grado en 3.º ESO con factorización, fórmula general, comprobación y ejercicios resueltos.</description>
+    </item>
+    <item>
+      <title>Factores de conversión en 3.º ESO: ejercicios resueltos</title>
+      <link>https://metodonebula.es/blog/factores-conversion-3-eso-ejercicios-resueltos/</link>
+      <guid>https://metodonebula.es/blog/factores-conversion-3-eso-ejercicios-resueltos/</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Aprende a usar factores de conversión en 3.º ESO para cambiar unidades sin perder magnitudes, con ejercicios resueltos paso a paso.</description>
+    </item>
+    <item>
+      <title>Integrales inmediatas: ejercicios resueltos paso a paso</title>
+      <link>https://metodonebula.es/blog/integrales-inmediatas-ejercicios-resueltos/</link>
+      <guid>https://metodonebula.es/blog/integrales-inmediatas-ejercicios-resueltos/</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Aprende a reconocer y resolver integrales inmediatas con potencias, exponenciales, trigonometría, logaritmos y ejercicios resueltos.</description>
+    </item>
+    <item>
+      <title>Límites trigonométricos: ejercicios resueltos y métodos</title>
+      <link>https://metodonebula.es/blog/limites-trigonometricos-ejercicios-resueltos/</link>
+      <guid>https://metodonebula.es/blog/limites-trigonometricos-ejercicios-resueltos/</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Aprende a resolver límites trigonométricos con los límites notables, equivalencias, identidades y ejercicios resueltos paso a paso.</description>
+    </item>
+    <item>
+      <title>Regla de la cadena: ejercicios resueltos paso a paso</title>
+      <link>https://metodonebula.es/blog/regla-cadena-ejercicios-resueltos/</link>
+      <guid>https://metodonebula.es/blog/regla-cadena-ejercicios-resueltos/</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Aprende la regla de la cadena con una fórmula clara, cómo reconocer funciones compuestas, ejercicios resueltos y errores frecuentes.</description>
+    </item>
+    <item>
       <title>Convocatoria extraordinaria PAU: un plan de 30 días para remontar sin empezar de cero</title>
       <link>https://metodonebula.es/blog/pau-convocatoria-extraordinaria-plan-30-dias/</link>
       <guid>https://metodonebula.es/blog/pau-convocatoria-extraordinaria-plan-30-dias/</guid>
@@ -880,7 +922,7 @@
       <link>https://metodonebula.es/blog/regla-lhopital-cuando-usarla-ejercicios/</link>
       <guid>https://metodonebula.es/blog/regla-lhopital-cuando-usarla-ejercicios/</guid>
       <pubDate>Sun, 23 Aug 2026 00:00:00 GMT</pubDate>
-      <description>Aprende cuándo se puede aplicar la regla de L'Hôpital, cómo transformar otras indeterminaciones y qué errores evitar con ejercicios resueltos.</description>
+      <description>Aprende cuándo usar la regla de L'Hôpital, sus condiciones, cómo transformar indeterminaciones y ejercicios resueltos paso a paso.</description>
     </item>
     <item>
       <title>Gases ideales en Bachillerato: presión, volumen y temperatura con unidades que no sabotean el resultado</title>

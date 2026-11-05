@@ -61,9 +61,9 @@ assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2
 assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff
 assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2
 assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf
-assets/blog-BsY-bzT8.js
+assets/blog-BbzxjjSQ.js
 assets/blog-Cp579UoJ.css
-assets/index-N67GSo_y.js
+assets/index-Dkh9PCPZ.js
 assets/index-zP2Pl7fj.css
 assets/latex/area-between-curves.svg
 assets/latex/arrhenius-energy.svg
@@ -184,8 +184,8 @@ assets/latex/triangle-strategy.svg
 assets/latex/unit-circle-solutions.svg
 assets/latex/vectors-planes.svg
 assets/latex/wave-anatomy.svg
-assets/pages-CjRp_anQ.js
-assets/posts-CbohuTOL.js
+assets/pages-D0fy6XA_.js
+assets/posts-Bo5I3SZM.js
 blog/algebra-lineal-universidad-que-estudiar-primero-errores/index.html
 blog/area-entre-dos-curvas-ejercicios-resueltos/index.html
 blog/bachillerato-fisica-momento-choques/index.html
@@ -241,11 +241,13 @@ blog/continuidad-derivabilidad-diferencias-problemas/index.html
 blog/derivacion-implicita-ejercicios-resueltos/index.html
 blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos/index.html
 blog/derivadas-parciales-gradiente-ejercicios/index.html
+blog/derivadas-producto-cociente-ejercicios/index.html
 blog/diagramas-cuerpo-libre-metodo-errores-frecuentes/index.html
 blog/disoluciones-tampon-henderson-hasselbalch-ejercicios-resueltos/index.html
 blog/econometria-desde-cero-interpretar-regresion/index.html
 blog/economia-ade-matematicas-sin-perderse/index.html
 blog/ecuaciones-diferenciales-identificar-metodo-correcto/index.html
+blog/ecuaciones-segundo-grado-3-eso-ejercicios-resueltos/index.html
 blog/errores-comunes-inferencia-estadistica/index.html
 blog/eso-fisica-quimica-calor-temperatura-cambios-estado/index.html
 blog/eso-fisica-quimica-densidad-presion-flotacion/index.html
@@ -271,6 +273,7 @@ blog/estadistica-descriptiva-eso-media-mediana-moda/index.html
 blog/estadistica-desde-cero-para-elegir-contrastes/index.html
 blog/estequiometria-universitaria-ejercicios-resueltos/index.html
 blog/estudio-completo-funcion-paso-a-paso/index.html
+blog/factores-conversion-3-eso-ejercicios-resueltos/index.html
 blog/fisica-y-quimica-como-plantear-problemas/index.html
 blog/gcse-chemistry-acids-bases-salts-en/index.html
 blog/gcse-chemistry-acids-bases-salts/index.html
@@ -341,6 +344,8 @@ blog/integral-definida-e-indefinida-diferencias-ejemplos/index.html
 blog/integrales-dobles-ejercicios-resueltos/index.html
 blog/integrales-funciones-racionales-fracciones-parciales/index.html
 blog/integrales-impropias-convergencia-ejercicios/index.html
+blog/integrales-inmediatas-ejercicios-resueltos/index.html
+blog/limites-trigonometricos-ejercicios-resueltos/index.html
 blog/matrices-determinantes-sistemas-ecuaciones-guia/index.html
 blog/maximos-minimos-varias-variables-ejercicios/index.html
 blog/mecanica-fluidos-bernoulli-continuidad-ejercicios-resueltos/index.html
@@ -363,6 +368,7 @@ blog/pagina/2/index.html
 blog/pagina/20/index.html
 blog/pagina/21/index.html
 blog/pagina/22/index.html
+blog/pagina/23/index.html
 blog/pagina/3/index.html
 blog/pagina/4/index.html
 blog/pagina/5/index.html
@@ -422,6 +428,7 @@ blog/que-prueba-estadistica-utilizar-guia-test-correcto/index.html
 blog/que-son-las-derivadas-y-para-que-se-utilizan/index.html
 blog/que-son-las-integrales-y-para-que-se-utilizan/index.html
 blog/r-spss-jamovi-python-programa-estadistico-universidad/index.html
+blog/regla-cadena-ejercicios-resueltos/index.html
 blog/regla-lhopital-cuando-usarla-ejercicios/index.html
 blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados/index.html
 blog/series-taylor-maclaurin-ejercicios-resueltos/index.html

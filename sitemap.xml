@@ -93,6 +93,10 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pagina/23/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/</loc>
     <priority>0.6</priority>
   </url>
@@ -199,6 +203,30 @@
   <url>
     <loc>https://metodonebula.es/blog/categoria/carrera-tecnologica/</loc>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/derivadas-producto-cociente-ejercicios/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/ecuaciones-segundo-grado-3-eso-ejercicios-resueltos/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/factores-conversion-3-eso-ejercicios-resueltos/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/integrales-inmediatas-ejercicios-resueltos/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/limites-trigonometricos-ejercicios-resueltos/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/regla-cadena-ejercicios-resueltos/</loc>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-convocatoria-extraordinaria-plan-30-dias/</loc>
@@ -702,7 +730,7 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/regla-lhopital-cuando-usarla-ejercicios/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/bachillerato-quimica-gases-ideales/</loc>
@@ -754,7 +782,7 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/integral-definida-e-indefinida-diferencias-ejemplos/</loc>
-    <lastmod>2026-08-10</lastmod>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/eso-matematicas-inecuaciones-sistemas-regiones/</loc>
@@ -762,7 +790,7 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/area-entre-dos-curvas-ejercicios-resueltos/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/eso-fisica-quimica-modelos-atomicos-tabla-periodica/</loc>
@@ -930,7 +958,7 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/que-son-las-derivadas-y-para-que-se-utilizan/</loc>
-    <lastmod>2026-10-29</lastmod>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/ecuaciones-diferenciales-identificar-metodo-correcto/</loc>

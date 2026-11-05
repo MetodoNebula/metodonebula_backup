@@ -105,14 +105,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/pagina/26/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/27/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/</loc>
     <priority>0.6</priority>
   </url>
@@ -194,14 +186,6 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/5/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/6/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/7/</loc>
     <priority>0.5</priority>
   </url>
   <url>
@@ -477,24 +461,12 @@
     <lastmod>2026-10-19</lastmod>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/pau-2026-ccss-ii-andalucia-ordinaria-resuelto/</loc>
-    <lastmod>2026-11-05</lastmod>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2026-andalucia/</loc>
-    <lastmod>2026-11-05</lastmod>
-  </url>
-  <url>
     <loc>https://metodonebula.es/blog/mecanica-fluidos-bernoulli-continuidad-ejercicios-resueltos/</loc>
     <lastmod>2026-10-18</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-quimica-termoquimica-hess-entalpia/</loc>
     <lastmod>2026-10-18</lastmod>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pau-2026-ccss-ii-aragon-ordinaria-resuelto/</loc>
-    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-matematicas-ccss-probabilidad-bayes/</loc>
@@ -513,20 +485,12 @@
     <lastmod>2026-10-16</lastmod>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2026-aragon/</loc>
-    <lastmod>2026-11-05</lastmod>
-  </url>
-  <url>
     <loc>https://metodonebula.es/blog/gcse-maths-histograms-cumulative-frequency-en/</loc>
     <lastmod>2026-10-28</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/gcse-maths-histograms-cumulative-frequency/</loc>
     <lastmod>2026-10-15</lastmod>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pau-2026-ccss-ii-castilla-la-mancha-ordinaria-resuelto/</loc>
-    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-matematicas-ii-errores-restan-puntos/</loc>
@@ -545,16 +509,8 @@
     <lastmod>2026-10-28</lastmod>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2025-asturias/</loc>
-    <lastmod>2026-11-05</lastmod>
-  </url>
-  <url>
     <loc>https://metodonebula.es/blog/pau-matematicas-integrales-areas/</loc>
     <lastmod>2026-10-31</lastmod>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pau-2026-ccss-ii-castilla-y-leon-ordinaria-resuelto/</loc>
-    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/bachillerato-fisica-quimica-mol-estequiometria/</loc>
@@ -573,24 +529,12 @@
     <lastmod>2026-10-12</lastmod>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2026-castilla-la-mancha/</loc>
-    <lastmod>2026-11-05</lastmod>
-  </url>
-  <url>
     <loc>https://metodonebula.es/blog/pau-matematicas-ii-90-minutos-elegir-ejercicios/</loc>
     <lastmod>2026-10-12</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/series-taylor-maclaurin-ejercicios-resueltos/</loc>
     <lastmod>2026-10-12</lastmod>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pau-2026-ccss-ii-cataluna-ordinaria-resuelto/</loc>
-    <lastmod>2026-11-05</lastmod>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2026-cataluna/</loc>
-    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-ebau-evau-selectividad-modelo-oficial/</loc>
@@ -609,20 +553,12 @@
     <lastmod>2026-11-05</lastmod>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/pau-2026-ccss-ii-madrid-ordinaria-resuelto/</loc>
-    <lastmod>2026-11-05</lastmod>
-  </url>
-  <url>
     <loc>https://metodonebula.es/blog/valores-propios-vectores-propios-diagonalizacion-ejercicios-resueltos/</loc>
     <lastmod>2026-10-09</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/eso-fisica-quimica-sonido-ondas/</loc>
     <lastmod>2026-10-08</lastmod>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2026-comunidad-valenciana/</loc>
-    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/eso-fisica-quimica-formulacion-inorganica/</loc>
@@ -645,10 +581,6 @@
     <lastmod>2026-10-07</lastmod>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2026-madrid/</loc>
-    <lastmod>2026-11-05</lastmod>
-  </url>
-  <url>
     <loc>https://metodonebula.es/blog/pau-fisica-nuclear-defecto-masa/</loc>
     <lastmod>2026-10-06</lastmod>
   </url>
@@ -669,16 +601,8 @@
     <lastmod>2026-10-04</lastmod>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2026-murcia/</loc>
-    <lastmod>2026-11-05</lastmod>
-  </url>
-  <url>
     <loc>https://metodonebula.es/blog/pau-quimica-estructura-atomica-configuracion/</loc>
     <lastmod>2026-10-04</lastmod>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2026-navarra/</loc>
-    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-ccss-inferencia-intervalos-confianza/</loc>
@@ -707,10 +631,6 @@
   <url>
     <loc>https://metodonebula.es/blog/gcse-maths-trigonometry-bearings/</loc>
     <lastmod>2026-09-30</lastmod>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2026-pais-vasco/</loc>
-    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-ccss-programacion-lineal-problemas/</loc>

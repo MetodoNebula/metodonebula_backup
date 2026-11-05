@@ -7,7 +7,7 @@ description: "Aprende MRUA en ESO con fórmulas, aceleración, velocidad, posici
 tag: "ESO"
 category: "Física y Química"
 relatedService: "/campus/"
-relatedPosts: "graficas-mru-mrua-4-eso-ejercicios,mru-eso-movimiento-rectilineo-uniforme-ejercicios,fisica-y-quimica-como-plantear-problemas"
+relatedPosts: "caida-libre-lanzamiento-vertical-4-eso-problemas,graficas-mru-mrua-4-eso-ejercicios,mru-eso-movimiento-rectilineo-uniforme-ejercicios"
 image: "/assets/latex/mrua-velocidad-tiempo-eso.svg"
 ---
 

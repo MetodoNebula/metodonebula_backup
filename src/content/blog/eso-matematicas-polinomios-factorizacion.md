@@ -2,12 +2,12 @@
 title: "Polinomios y factorización en ESO: cómo encontrar raíces y simplificar sin probar al azar"
 seoTitle: "Polinomios en ESO: raíces y factorización paso a paso"
 date: "2026-09-05"
-updated: "2026-09-05"
+updated: "2026-11-05"
 description: "Aprende polinomios y factorización en ESO: factor común, identidades notables, Ruffini, raíces, teorema del resto y fracciones algebraicas."
 tag: "Matemáticas ESO"
 category: "Matemáticas ESO y Bachillerato"
-relatedService: "/clases-particulares/matematicas-universidad/"
-relatedPosts: "eso-matematicas-ecuaciones-sistemas-estudiar,bachillerato-matematicas-funciones-representacion,como-estudiar-matematicas-sin-memorizar"
+relatedService: "/campus/"
+relatedPosts: "fracciones-algebraicas-4-eso-ejercicios,eso-matematicas-ecuaciones-sistemas-estudiar,bachillerato-matematicas-funciones-representacion"
 image: "/assets/latex/polynomial-factor.svg"
 ---
 

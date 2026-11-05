@@ -1,11 +1,12 @@
 ---
 title: "MRUA en ESO: movimiento rectilíneo acelerado con fórmulas y ejercicios"
+seoTitle: "MRUA en ESO: fórmulas, gráficas y ejercicios resueltos"
 date: "2026-08-19"
 updated: "2026-11-05"
-description: "Aprende MRUA en ESO: aceleración, velocidad, posición y gráficas con ejemplos resueltos y control de unidades."
+description: "Aprende MRUA en ESO con fórmulas, aceleración, velocidad, posición, gráficas y ejercicios resueltos con unidades."
 tag: "ESO"
 category: "Física y Química"
-relatedService: "/clases-particulares/fisica-ingenieria/"
+relatedService: "/campus/"
 relatedPosts: "graficas-mru-mrua-4-eso-ejercicios,mru-eso-movimiento-rectilineo-uniforme-ejercicios,fisica-y-quimica-como-plantear-problemas"
 image: "/assets/latex/mrua-velocidad-tiempo-eso.svg"
 ---

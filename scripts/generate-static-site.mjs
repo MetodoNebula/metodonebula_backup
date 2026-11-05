@@ -158,7 +158,11 @@ function findHub(route) {
 
 const INLINE_PATTERN_SOURCE =
   String.raw`(\\\([\s\S]+?\\\))|(\$[^$\n]+\$)|(!\[[^\]]*\]\([^)]+\))|(\[[^\]]+\]\([^)]+\))|(` +
-  String.raw`[^` + "`" + String.raw`]+` + "`" + String.raw`)|(\*\*[^*]+\*\*)|(__[^_]+__)|(\*[^*]+\*)|(_[^_]+_)`;
+  String.raw`[^` +
+  "`" +
+  String.raw`]+` +
+  "`" +
+  String.raw`)|(\*\*[^*]+\*\*)|(__[^_]+__)|(\*[^*]+\*)|(_[^_]+_)`;
 
 function renderKatex(tex, displayMode = false) {
   return katex.renderToString(tex, {
@@ -454,7 +458,10 @@ function cleanHead(html) {
 
 function renderPage(template, page) {
   const html = cleanHead(template)
-    .replace(/<html\s+lang=["'][^"']+["']/, `<html lang="${page.language === "en" ? "en-GB" : "es-ES"}"`)
+    .replace(
+      /<html\s+lang=["'][^"']+["']/,
+      `<html lang="${page.language === "en" ? "en-GB" : "es-ES"}"`,
+    )
     .replace("</head>", `    ${headMarkup(page)}\n  </head>`);
   const rootPattern = /<div id="root">[\s\S]*<\/div>\s*(?=<\/body>)/;
   if (!rootPattern.test(html)) {
@@ -609,7 +616,7 @@ function tocHtml(post) {
         ${headings
           .map(
             (heading) =>
-              `<li><a class="text-link underline-offset-4 hover:underline" href="#${escapeHtml(heading.id)}">${escapeHtml(heading.text)}</a></li>`,
+              `<li><a class="text-link underline-offset-4 hover:underline" href="#${escapeHtml(heading.id)}">${inlineMarkdown(heading.text)}</a></li>`,
           )
           .join("")}
       </ol>
@@ -1374,9 +1381,18 @@ function campusPage() {
   const phone = SITE_DATA.site.contact.whatsapp;
   const instagram = SITE_DATA.site.contact.instagram;
   const subjectCards = [
-    ["Matemáticas", "Álgebra, funciones, cálculo, geometría, probabilidad y procedimientos de examen."],
-    ["Física", "Modelos, unidades, diagramas y problemas de mecánica, energía, campos, ondas e Ingeniería."],
-    ["Química", "Estructura, formulación, estequiometría, equilibrio, ácido-base, cinética y problemas razonados."],
+    [
+      "Matemáticas",
+      "Álgebra, funciones, cálculo, geometría, probabilidad y procedimientos de examen.",
+    ],
+    [
+      "Física",
+      "Modelos, unidades, diagramas y problemas de mecánica, energía, campos, ondas e Ingeniería.",
+    ],
+    [
+      "Química",
+      "Estructura, formulación, estequiometría, equilibrio, ácido-base, cinética y problemas razonados.",
+    ],
   ]
     .map(
       ([title, text]) =>
@@ -1413,9 +1429,9 @@ function campusPage() {
     '<div class="grid gap-8 lg:grid-cols-[1.08fr_0.92fr]"><section><h2>Estudia con un recorrido, no con recursos sueltos</h2><p>El campus reúne explicaciones directas, ejercicios resueltos paso a paso y materiales para preparar exámenes. Está pensado para entender el procedimiento, practicarlo con orden y comprobar qué idea hay detrás de cada resultado.</p><p>El acceso se adapta al nivel y a las asignaturas que necesitas trabajar. Para conocer el contenido disponible y el encaje con tu objetivo, escríbenos directamente.</p>',
     contactButtons,
     '</section><aside class="nebula-card rounded-3xl p-7"><p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Dentro del campus</p><ul class="mt-6 space-y-4"><li>Teoría clara organizada por temas y niveles.</li><li>Ejercicios resueltos con desarrollo matemático riguroso.</li><li>Problemas de examen para practicar con contexto.</li><li>Una ruta útil para repasar, recuperar base o avanzar.</li></ul></aside></div>',
-    "<h2>Tres áreas, una forma de estudiar</h2><div class=\"grid gap-5 md:grid-cols-3\">",
+    '<h2>Tres áreas, una forma de estudiar</h2><div class="grid gap-5 md:grid-cols-3">',
     subjectCards,
-    "</div><h2>Contenido adaptado a tu etapa</h2><div class=\"grid gap-4 md:grid-cols-3\">",
+    '</div><h2>Contenido adaptado a tu etapa</h2><div class="grid gap-4 md:grid-cols-3">',
     levelCards,
     '</div><section class="mt-14 rounded-3xl border border-spark/25 bg-spark/5 p-8 text-center"><p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Acceso e información</p><h2 class="mt-4">Cuéntanos tu nivel y las asignaturas que quieres trabajar</h2><p>Te explicamos qué parte del campus puede ayudarte y cómo acceder. Puedes contactar por teléfono o por Instagram.</p>',
     contactButtons,

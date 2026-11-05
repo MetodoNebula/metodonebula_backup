@@ -21,9 +21,11 @@ Este examen resuelto conserva el enunciado y desarrolla cada apartado. Úsalo pr
 
 Tres especies de un ecosistema, A, B y C, tienen poblaciones $a_k$, $b_k$ y $c_k$ en el mes $k$. Su evolución se representa con
 
-$$\begin{pmatrix}a_{k+1}\\b_{k+1}\\c_{k+1}\end{pmatrix}
+$$
+\begin{pmatrix}a_{k+1}\\b_{k+1}\\c_{k+1}\end{pmatrix}
 =M\begin{pmatrix}a_k\\b_k\\c_k\end{pmatrix},\qquad
-M=\begin{pmatrix}1&0&0\\1&1&0\\1&0&1\end{pmatrix}.$$
+M=\begin{pmatrix}1&0&0\\1&1&0\\1&0&1\end{pmatrix}.
+$$
 
 **a)** Al principio hay 100 ejemplares de A, 124 de B y 234 de C. ¿Cuántos habrá tras dos meses? (0,5 puntos)
 
@@ -35,13 +37,17 @@ M=\begin{pmatrix}1&0&0\\1&1&0\\1&0&1\end{pmatrix}.$$
 
 **a)** Multiplicamos una vez para el primer mes:
 
-$$M\begin{pmatrix}100\\124\\234\end{pmatrix}
-=\begin{pmatrix}100\\224\\334\end{pmatrix}.$$
+$$
+M\begin{pmatrix}100\\124\\234\end{pmatrix}
+=\begin{pmatrix}100\\224\\334\end{pmatrix}.
+$$
 
 Y volvemos a aplicar la misma matriz:
 
-$$M\begin{pmatrix}100\\224\\334\end{pmatrix}
-=\boxed{\begin{pmatrix}100\\324\\434\end{pmatrix}}.$$
+$$
+M\begin{pmatrix}100\\224\\334\end{pmatrix}
+=\boxed{\begin{pmatrix}100\\324\\434\end{pmatrix}}.
+$$
 
 **b)** Si escribimos $v_k=(a_k,b_k,c_k)^T$, tenemos $v_1=Mv_0$, $v_2=Mv_1=M^2v_0$ y $v_3=Mv_2=M^3v_0$. Repitiendo este razonamiento mes a mes:
 
@@ -49,8 +55,10 @@ $$\boxed{v_k=M^kv_0}.$$
 
 **c)** Calculamos algunas potencias para encontrar el patrón:
 
-$$M^2=\begin{pmatrix}1&0&0\\2&1&0\\2&0&1\end{pmatrix},\qquad
-M^3=\begin{pmatrix}1&0&0\\3&1&0\\3&0&1\end{pmatrix}.$$
+$$
+M^2=\begin{pmatrix}1&0&0\\2&1&0\\2&0&1\end{pmatrix},\qquad
+M^3=\begin{pmatrix}1&0&0\\3&1&0\\3&0&1\end{pmatrix}.
+$$
 
 Por inducción, la expresión general es
 
@@ -74,13 +82,17 @@ $$f'(x)=\frac{e^{\sqrt{x}}}{\sqrt{x}}\quad(x>0),\qquad f(1)=2e-2.$$
 
 **a)** Integramos la derivada usando $t=\sqrt{x}$, de modo que $dx=2t\,dt$:
 
-$$\int\frac{e^{\sqrt{x}}}{\sqrt{x}}\,dx
-=\int\frac{e^t}{t}(2t\,dt)=2e^t+C=2e^{\sqrt{x}}+C.$$
+$$
+\int\frac{e^{\sqrt{x}}}{\sqrt{x}}\,dx
+=\int\frac{e^t}{t}(2t\,dt)=2e^t+C=2e^{\sqrt{x}}+C.
+$$
 
 Imponemos $f(1)=2e-2$: $2e+C=2e-2$, luego $C=-2$. Por tanto,
 
-$$\boxed{f(x)=2e^{\sqrt{x}}-2},\qquad
-\boxed{\lim_{x\to0^+}f(x)=2-2=0}.$$
+$$
+\boxed{f(x)=2e^{\sqrt{x}}-2},\qquad
+\boxed{\lim_{x\to0^+}f(x)=2-2=0}.
+$$
 
 **b)** Para $x>0$, tanto $e^{\sqrt x}$ como $\sqrt x$ son positivos, de manera que $f'(x)>0$. La función crece en $(0,\infty)$ y, como $f(0)=0$ y es continua, se cumple $\boxed{f(x)\ge0}$ en todo su dominio.
 
@@ -110,7 +122,6 @@ Tomando $z=t$, sale $y=2t$ y $x=-1$. La intersección es la recta
 
 $$\boxed{r:\begin{cases}x=-1,\\y=2t,\\z=t,\end{cases}\quad t\in\mathbb R}.$$
 
-
 ## Ejercicio 4.1 · Examen tipo test
 
 ### Enunciado
@@ -131,9 +142,11 @@ $$P(\text{nota}\ge9)=\left(\frac15\right)^4=\boxed{\frac1{625}=0{,}0016}.$$
 
 **b)** Con 3 aciertos se obtiene $3(2{,}5)-0{,}625=6{,}875$, y con 2 aciertos se obtiene $2(2{,}5)-2(0{,}625)=3{,}75$. Por tanto, se aprueba con 3 o 4 respuestas acertadas. La probabilidad de aprobar es
 
-$$\begin{aligned}P(\text{aprobar})&=\binom43\left(\frac15\right)^3\frac45+\binom44\left(\frac15\right)^4\\
+$$
+\begin{aligned}P(\text{aprobar})&=\binom43\left(\frac15\right)^3\frac45+\binom44\left(\frac15\right)^4\\
 &=\frac{16+1}{625}=\frac{17}{625}.
-\end{aligned}$$
+\end{aligned}
+$$
 
 Usamos el complementario:
 
@@ -146,16 +159,16 @@ $$P(\text{suspender})=1-\frac{17}{625}=\boxed{\frac{608}{625}=0{,}9728}.$$
 Un hospital compara dos técnicas quirúrgicas. Estas son las intervenciones registradas:
 
 | Gravedad | Técnica 1 | Técnica 2 |
-|---|---:|---:|
-| Grave | 44 | 140 |
-| Leve | 136 | 40 |
+| -------- | --------: | --------: |
+| Grave    |        44 |       140 |
+| Leve     |       136 |        40 |
 
 De ellas, tuvieron éxito las siguientes:
 
 | Gravedad | Técnica 1 | Técnica 2 |
-|---|---:|---:|
-| Grave | 30 | 102 |
-| Leve | 120 | 36 |
+| -------- | --------: | --------: |
+| Grave    |        30 |       102 |
+| Leve     |       120 |        36 |
 
 **a)** Si sabemos que una operación salió bien, ¿cuál de las dos técnicas es más probable que se utilizara? (0,5 puntos)
 
@@ -176,17 +189,18 @@ La **técnica 2** tiene la mejor tasa tanto en lesiones leves como en graves.
 
 **c)** Si no se distinguen los grupos, la eficacia global de la primera técnica parece mayor:
 
-$$P(E\mid T_1)=\frac{150}{180}\approx0{,}8333,\qquad
-P(E\mid T_2)=\frac{138}{180}\approx0{,}7667.$$
+$$
+P(E\mid T_1)=\frac{150}{180}\approx0{,}8333,\qquad
+P(E\mid T_2)=\frac{138}{180}\approx0{,}7667.
+$$
 
 Pero al separar por gravedad, la técnica 2 es mejor en los dos grupos. La aparente contradicción se debe a que se operaron proporciones muy distintas de casos graves y leves con cada técnica: es un ejemplo de cómo **agregar datos puede invertir una comparación**.
-
 
 ## Ejercicio 5.1 · Optimización de recursos
 
 ### Enunciado
 
-Una universidad puede contar con hasta 70 archiveros para digitalizar expedientes. Con un equipo de 50, cada trabajador procesa 80 expedientes al mes. Si se incorpora un nuevo archivero, cada miembro del equipo pasa a digitalizar un expediente menos al mes. ¿Cuántos archiveros conviene asignar para maximizar la producción mensual? (2 puntos)
+Una organización puede contar con hasta 70 archiveros para digitalizar expedientes. Con un equipo de 50, cada trabajador procesa 80 expedientes al mes. Si se incorpora un nuevo archivero, cada miembro del equipo pasa a digitalizar un expediente menos al mes. ¿Cuántos archiveros conviene asignar para maximizar la producción mensual? (2 puntos)
 
 ### Solución
 
@@ -227,4 +241,3 @@ $$L=\frac{(1-0)\cdot1-1}{1}=\boxed{0}.$$
 Haz una primera vuelta sin consultar la solución. Al corregir, señala el primer paso que no supiste justificar y repítelo al día siguiente. Así conviertes un modelo de examen en una lista concreta de técnicas que debes entrenar.
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
-

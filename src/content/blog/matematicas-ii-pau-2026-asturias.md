@@ -1,9 +1,9 @@
 ---
-title: Matemáticas II · PAU 2025 · Principado de Asturias — examen resuelto
-seoTitle: Matemáticas II · PAU 2025 · Principado de Asturias — examen resuelto
+title: Matemáticas II · PAU 2026 · Principado de Asturias — examen resuelto
+seoTitle: Matemáticas II · PAU 2026 · Principado de Asturias — examen resuelto
 date: 2026-10-14
 updated: 2026-11-05
-description: Examen Matemáticas II · PAU 2025 · Principado de Asturias resuelto paso a paso con planteamientos, cálculos y comprobaciones para preparar la Selectividad.
+description: Examen Matemáticas II · PAU 2026 · Principado de Asturias resuelto paso a paso con planteamientos, cálculos y comprobaciones para preparar la Selectividad.
 tag: Matemáticas II PAU
 category: Selectividad
 relatedService: /campus/
@@ -13,7 +13,7 @@ image: /favicon.svg
 
 Este examen resuelto conserva el enunciado y desarrolla cada apartado. Úsalo primero a contrarreloj y compáralo después con el razonamiento, no solo con el resultado final.
 
-**Convocatoria:** ordinaria, curso 2024-2025. **Examen:** hay cinco preguntas, cada una con opciones A y B. Se responden cuatro preguntas y, en cada una, se escoge solo una opción.
+**Convocatoria:** ordinaria. **Examen:** hay cinco preguntas, cada una con opciones A y B. Se responden cuatro preguntas y, en cada una, se escoge solo una opción.
 
 ## Ejercicio 1A · compras en una cafetería
 
@@ -31,15 +31,18 @@ Una persona va tres días a una cafetería. El primero compra **1 café, 2 tés 
 
 **a) Empezamos dando nombre a los precios.** Sea $x$ el precio de un café, $y$ el de un té y $z$ el de un zumo, todos en euros. Las tres compras se expresan mediante
 
-$$\begin{cases}
+$$
+\begin{cases}
 x+2y+2z=11,\\
 x+3y+3z=16,\\
 3x+3y+pz=21.
-\end{cases}$$
+\end{cases}
+$$
 
 Aplicamos eliminación de Gauss a la matriz ampliada:
 
-$$\left[\begin{array}{ccc|c}
+$$
+\left[\begin{array}{ccc|c}
 1&2&2&11\\
 1&3&3&16\\
 3&3&p&21
@@ -55,7 +58,8 @@ $$\left[\begin{array}{ccc|c}
 1&2&2&11\\
 0&1&1&5\\
 0&0&p-3&3
-\end{array}\right].$$
+\end{array}\right].
+$$
 
 La última fila representa $(p-3)z=3$. Por tanto:
 
@@ -72,7 +76,9 @@ Un zumo no puede tener un precio negativo. Por tanto, **el cliente tiene razón*
 
 $$x+2\cdot2+2\cdot3=11\quad\Longrightarrow\quad x=1.$$
 
-$$\boxed{\text{Café: 1 €; té: 2 €; zumo: 3 €.}}$$
+$$\boxed{\text{Café: }1,\quad\text{té: }2,\quad\text{zumo: }3}$$
+
+Los tres precios están expresados en euros.
 
 ## Ejercicio 1B · matrices con un parámetro
 
@@ -92,11 +98,13 @@ $$A=\begin{pmatrix}-1&2&-2\\0&3&-4\\a&2&-3\end{pmatrix},\qquad a\in\mathbb R.$$
 
 **a) Multiplicamos la matriz por sí misma.**
 
-$$A^2=\begin{pmatrix}
+$$
+A^2=\begin{pmatrix}
 1-2a&0&0\\
 -4a&1&0\\
 -4a&2a&1-2a
-\end{pmatrix}.$$
+\end{pmatrix}.
+$$
 
 Para que sea la identidad, todos los elementos que dependen de $a$ deben coincidir con los de $I$. Se cumple precisamente cuando
 
@@ -150,7 +158,9 @@ $$f''(t)=\frac{4t(t^2-3)}{(t^2+1)^3},\qquad f''(1)=-1<0.$$
 
 Por tanto, en $t=1$ hay un máximo y $f(1)=6$. Los extremos del intervalo tampoco superan ese valor: $f(0)=5$ y $f(30)=4565/901\approx5{,}0666$.
 
-$$\boxed{\text{No: el valor máximo de la acción es 6 €.}}$$
+$$\boxed{\text{No: el valor máximo de la acción es }6.}$$
+
+La cifra está expresada en euros.
 
 **b) Analizamos el signo de la derivada.** Para $0\leq t<1$, $1-t^2>0$, así que $f$ crece. Para $1<t\leq30$, $1-t^2<0$ y la función decrece. En resumen, **sube durante el primer día y baja a partir de entonces**.
 
@@ -166,10 +176,12 @@ Si mantuviéramos el mismo modelo, el precio se acercaría a **5 € por acción
 
 Sea la función
 
-$$f(x)=\begin{cases}
+$$
+f(x)=\begin{cases}
 x^2-Ax+11,&x<2,\\
 \sqrt{5x-1},&x\geq2.
-\end{cases}$$
+\end{cases}
+$$
 
 **a) (0,75 puntos)** Calcula $A$ para que la función sea continua.
 
@@ -227,8 +239,10 @@ es una primitiva de otra función $f$.
 
 **a) Derivamos la primitiva que nos han dado.** Aplicamos la regla de la cadena:
 
-$$f(x)=F'(x)=\frac12\cos\left(\frac\pi2x^2\right)\cdot\pi x
-=\boxed{\frac{\pi x}{2}\cos\left(\frac\pi2x^2\right)}.$$
+$$
+f(x)=F'(x)=\frac12\cos\left(\frac\pi2x^2\right)\cdot\pi x
+=\boxed{\frac{\pi x}{2}\cos\left(\frac\pi2x^2\right)}.
+$$
 
 **b) Añadimos una constante de integración.** Cualquier otra primitiva tiene la forma
 
@@ -240,9 +254,11 @@ $$\boxed{G(x)=\frac12\sin\left(\frac\pi2x^2\right)+6}.$$
 
 **c) Comprobamos el signo antes de integrar.** En $0\leq x\leq1$, $x\geq0$ y el coseno del ángulo $\frac\pi2x^2\in[0,\pi/2]$ no es negativo. Por tanto, el área coincide con la integral:
 
-$$A=\int_0^1 f(x)\,dx=F(1)-F(0)
+$$
+A=\int_0^1 f(x)\,dx=F(1)-F(0)
 =\frac12\sin\frac\pi2-\frac12\sin0
-=\boxed{\frac12\ \text{u}^2}.$$
+=\boxed{\frac12\ \text{u}^2}.
+$$
 
 ## Ejercicio 3B · una función racional
 
@@ -260,8 +276,10 @@ $$f(x)=\frac{x-2}{x^2+1}.$$
 
 **a) Separamos la fracción en dos partes sencillas de integrar.**
 
-$$\int\frac{x-2}{x^2+1}\,dx
-=\int\frac{x}{x^2+1}\,dx-2\int\frac1{x^2+1}\,dx.$$
+$$
+\int\frac{x-2}{x^2+1}\,dx
+=\int\frac{x}{x^2+1}\,dx-2\int\frac1{x^2+1}\,dx.
+$$
 
 Recordamos que la derivada de $\ln(x^2+1)$ contiene $2x$ y que la derivada de $\arctan x$ es $1/(1+x^2)$. Así,
 
@@ -269,11 +287,13 @@ $$\boxed{F(x)=\frac12\ln(x^2+1)-2\arctan(x)+C}.$$
 
 **b) Tenemos en cuenta que la gráfica está por debajo del eje.** Para $0\leq x\leq1$, $x-2<0$, mientras que el denominador es positivo. El área se calcula cambiando el signo de la integral:
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 A&=-\int_0^1\frac{x-2}{x^2+1}\,dx\\
 &=-\left[\frac12\ln(x^2+1)-2\arctan x\right]_0^1\\
 &=-\left(\frac12\ln2-\frac\pi2\right).
-\end{aligned}$$
+\end{aligned}
+$$
 
 Por tanto,
 
@@ -307,9 +327,11 @@ $$s:(x,y,z)=(0,-1,-2)+\lambda(1,2,3).$$
 
 Un punto cualquiera de $s$ tiene coordenadas $(\lambda,-1+2\lambda,-2+3\lambda)$. Lo sustituimos en el plano:
 
-$$\lambda+2(-1+2\lambda)+3(-2+3\lambda)=6
+$$
+\lambda+2(-1+2\lambda)+3(-2+3\lambda)=6
 \quad\Longrightarrow\quad14\lambda=14
-\quad\Longrightarrow\quad\lambda=1.$$
+\quad\Longrightarrow\quad\lambda=1.
+$$
 
 Por tanto, el pie de la perpendicular es $\boxed{Q=(1,1,1)}$. La distancia vale
 
@@ -331,9 +353,11 @@ Un vehículo se mueve en línea recta desde $P=(2,1,3)$ hacia $Q=(0,-1,1)$. Cuan
 
 **a) Hallamos el punto medio del segmento $PQ$.**
 
-$$M=\frac{P+Q}{2}
+$$
+M=\frac{P+Q}{2}
 =\left(\frac{2+0}{2},\frac{1-1}{2},\frac{3+1}{2}\right)
-=\boxed{(1,0,2)}.$$
+=\boxed{(1,0,2)}.
+$$
 
 **b) Construimos la nueva recta.** Esta pasa por $M=(1,0,2)$ y $H=(1,1,1)$. Un vector director es
 
@@ -373,17 +397,21 @@ $$P(L)=0{,}10,\qquad P(C)=0{,}05,\qquad P(L\cap C)=0{,}008.$$
 
 **a) Sumamos las dos probabilidades y restamos la intersección**, que se habría contado dos veces:
 
-$$P(L\cup C)=P(L)+P(C)-P(L\cap C)
+$$
+P(L\cup C)=P(L)+P(C)-P(L\cap C)
 =0{,}10+0{,}05-0{,}008
-=\boxed{0{,}142}.$$
+=\boxed{0{,}142}.
+$$
 
 Es decir, una probabilidad del **14,2 %**.
 
 **b) Aplicamos la probabilidad condicionada.**
 
-$$P(C\mid L)=\frac{P(C\cap L)}{P(L)}
+$$
+P(C\mid L)=\frac{P(C\cap L)}{P(L)}
 =\frac{0{,}008}{0{,}10}
-=\boxed{0{,}08}.$$
+=\boxed{0{,}08}.
+$$
 
 Por tanto, si el pantalón falla por longitud, la probabilidad de que también falle por costuras es del **8 %**.
 
@@ -421,11 +449,13 @@ $$Y\sim B(10,0{,}048).$$
 
 Es más fácil calcular que **no salte ninguna** y restarlo de 1:
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 P(Y\geq1)&=1-P(Y=0)\\
 &=1-\binom{10}{0}(0{,}048)^0(0{,}952)^{10}\\
 &=1-(0{,}952)^{10}.
-\end{aligned}$$
+\end{aligned}
+$$
 
 Por tanto,
 
@@ -438,4 +468,3 @@ La probabilidad de que la alarma salte al menos una vez es aproximadamente del *
 Haz una primera vuelta sin consultar la solución. Al corregir, señala el primer paso que no supiste justificar y repítelo al día siguiente. Así conviertes un modelo de examen en una lista concreta de técnicas que debes entrenar.
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
-

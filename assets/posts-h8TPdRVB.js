@@ -7351,7 +7351,7 @@ También conviene recordar:
 - expresa el resultado con sentido químico: añadir ácido debe disminuir el pH.
 
 El [campus virtual de Método Nebula](/contacto/) incluye rutas de Química con teoría clara, ejercicios resueltos y problemas de examen que separan la reacción previa del equilibrio. Esa estructura ayuda a construir soluciones rigurosas y no solo a acertar una fórmula.
-`,I=`---
+`,N=`---
 title: Econometría desde cero: cómo interpretar una regresión correctamente
 date: 2026-07-06
 updated: 2026-07-06
@@ -7470,7 +7470,7 @@ Una buena respuesta incluye:
 6. Cautela sobre causalidad y supuestos.
 
 Para reforzar la base estadística, revisa [Estadística desde cero para elegir contrastes](/blog/estadistica-desde-cero-para-elegir-contrastes/) y [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,N=`---
+`,I=`---
 title: Economía y ADE: cómo estudiar matemáticas sin perder el sentido económico
 date: 2026-05-26
 updated: 2026-05-26
@@ -11055,12 +11055,12 @@ Si necesitas reforzar Estadística o Matemáticas de ESO con ejercicios de tu pr
 `,ue=`---
 title: Estadística desde cero: cómo elegir un contraste sin aplicar recetas
 date: 2026-05-29
-updated: 2026-05-29
+updated: 2026-11-05
 description: Una guía práctica para elegir pruebas estadísticas a partir de la pregunta, las variables, los supuestos y la interpretación.
 tag: Estadística
 category: Estadística
-relatedService: /clases-particulares/estadistica-universidad/
-relatedPosts: economia-ade-matematicas-sin-perderse,como-estudiar-matematicas-sin-memorizar
+relatedService: /campus/
+relatedPosts: t-student-psicologia-ejercicios-resueltos,que-prueba-estadistica-utilizar-guia-test-correcto,como-aprobar-estadistica-psicologia-sin-base-matematica
 image: /favicon.svg
 ---
 
@@ -14259,7 +14259,7 @@ A condition cannot be reversed by swapping letters. $P(A\\mid B)$ and $P(B\\mid 
 ## From one tree to complete GCSE preparation
 
 Método Nebula's virtual campus connects probability, statistics and algebra through visual examples, graded practice and exam questions. Trees are trained first as structures and then as conditional calculations. Use the contact button to access a bilingual route with theory, exercises and worked models.
-`,Ie=`---
+`,Ne=`---
 title: "Matemáticas GCSE: árboles de probabilidad y probabilidad condicionada sin sumar ramas equivocadas"
 seoTitle: "Matemáticas GCSE: árboles y probabilidad condicionada"
 date: "2026-09-16"
@@ -14377,7 +14377,7 @@ No se invierte una condición intercambiando letras. $P(A\\mid B)$ y $P(B\\mid A
 ## De un árbol a una preparación GCSE completa
 
 El campus virtual de Método Nebula conecta probabilidad, estadística y álgebra con ejemplos visuales, práctica graduada y preguntas de examen. Los árboles se trabajan primero como estructura y después como cálculo condicionado. El botón de contacto permite acceder a una ruta bilingüe con teoría, ejercicios y modelos resueltos.
-`,Ne=`---
+`,Ie=`---
 title: "GCSE Maths Resit: a 14-Day Plan to Reach Grade 4 or 5"
 seoTitle: "GCSE Maths Resit: 14-Day Grade 4–5 Plan"
 date: "2026-10-01"
@@ -24806,7 +24806,7 @@ Para cada tipo de problema, prepara una ficha:
 - No distinguir demanda individual y demanda de mercado.
 
 Si quieres trabajar Microeconomía I desde ejercicios reales, revisa [clases particulares de Economía y ADE](/clases-particulares/economia-ade/) y la guía de [Matemáticas I en ADE y Economía](/blog/como-aprobar-matematicas-i-ade-economia/).
-`,In=`---
+`,Nn=`---
 title: "Disoluciones y molaridad en 1º Bachillerato: problemas resueltos"
 seoTitle: "Molaridad y disoluciones: ejercicios resueltos"
 date: 2026-11-05
@@ -24922,7 +24922,7 @@ La concentración baja porque el mismo soluto queda repartido en más volumen.
 4. \\(c_2=(2{,}0\\cdot50)/400=0{,}25\\text{ M}\\).
 
 La [guía de mol y estequiometría](/blog/bachillerato-fisica-quimica-mol-estequiometria/) explica las conversiones que se usan antes y después de una reacción. Para practicar química con ejercicios de tu nivel, consulta las [clases particulares de Química](/clases-particulares/quimica/).
-`,Nn=`---
+`,In=`---
 title: "MRU en ESO: movimiento rectilíneo uniforme con fórmulas y ejercicios"
 date: "2026-08-12"
 updated: "2026-11-05"
@@ -32010,7 +32010,7 @@ No. Responden bajo marcos distintos. La elección depende de la pregunta y de la
 El software calcula, pero no conoce tu diseño ni tu pregunta. La decisión debe estar razonada antes de seleccionar un menú.
 
 Para practicar la interpretación, continúa con [p-valor, intervalo de confianza y tamaño del efecto](/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/) o revisa las [clases de Estadística para Psicología, ADE y Ciencias Sociales](/clases-particulares/estadistica-psicologia-ade/).
-`,Ia=`---
+`,Na=`---
 title: Qué son las derivadas y para qué se utilizan
 seoTitle: "Derivadas: qué son, para qué sirven y ejemplos"
 date: 2026-06-19
@@ -32125,7 +32125,7 @@ Para dominar derivadas, trabaja cada ejercicio en tres capas:
 Si solo practicas reglas, cualquier enunciado nuevo parece distinto. Si entiendes la derivada como ritmo de cambio, las reglas empiezan a tener dirección.
 
 Puedes continuar con [qué son las integrales y para qué se utilizan](/blog/que-son-las-integrales-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,Na=`---
+`,Ia=`---
 title: Qué son las integrales y para qué se utilizan
 seoTitle: "Integrales: qué son, para qué sirven y ejemplos"
 date: 2026-06-21
@@ -33692,6 +33692,121 @@ No debes dividir entre una expresión que puede valer cero sin haberlo comprobad
 
 Para repasar el sentido de los pasos antes de usar métodos más rápidos, consulta la guía de [ecuaciones y sistemas en ESO](/blog/eso-matematicas-ecuaciones-sistemas-estudiar/). Si necesitas una práctica adaptada a tu curso, consulta las [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
 `,Va=`---
+title: "t de Student en Psicología: ejercicios resueltos e interpretación"
+seoTitle: "t de Student en Psicología: ejercicios resueltos"
+date: 2026-11-05
+updated: 2026-11-05
+description: "Aprende cuándo usar la t de Student en Psicología, cómo interpretar t, p e intervalos de confianza, con ejercicios resueltos paso a paso."
+tag: "Estadística"
+category: "Estadística"
+relatedService: "/campus/"
+relatedPosts: "estadistica-desde-cero-para-elegir-contrastes,como-aprobar-estadistica-psicologia-sin-base-matematica,p-valor-intervalo-confianza-tamano-efecto-ejemplo"
+image: "/favicon.svg"
+---
+
+La t de Student sirve para comparar medias, pero la pregunta importante no es «¿qué fórmula aplico?». Es decidir qué medias se comparan, si las observaciones están relacionadas y qué significa el resultado en el contexto de Psicología.
+
+> **Respuesta directa.** Usa una t de Student cuando la variable resultado es cuantitativa y quieres contrastar una media con un valor, comparar dos grupos independientes o comparar dos medidas de las mismas personas. Informa siempre de la diferencia, el estadístico \\(t\\), los grados de libertad, el valor \\(p\\) y, cuando sea posible, un intervalo de confianza.
+
+## Los tres casos más habituales
+
+| Situación | Prueba | Ejemplo |
+| --- | --- | --- |
+| Una muestra frente a un valor | t de una muestra | ¿La media de ansiedad difiere de 50? |
+| Dos grupos distintos | t independiente | ¿Difieren terapia A y terapia B? |
+| Las mismas personas dos veces | t pareada | ¿Cambia el estrés antes y después de una intervención? |
+
+La diferencia entre independiente y pareada no es un detalle técnico. Si cada medida «después» pertenece a la misma persona que una medida «antes», los datos están emparejados y deben analizarse como tales.
+
+## Qué contrasta una t
+
+En una t de una muestra, la hipótesis nula afirma que la media poblacional coincide con un valor de referencia:
+
+$$
+H_0:\\mu=\\mu_0.
+$$
+
+El estadístico compara la distancia observada con la variabilidad esperable:
+
+$$
+t=\\frac{\\bar{x}-\\mu_0}{s/\\sqrt{n}}.
+$$
+
+Un valor de \\(t\\) grande en valor absoluto indica que la diferencia observada es grande respecto a su incertidumbre. No basta por sí solo para concluir: se interpreta junto a los grados de libertad y el valor \\(p\\).
+
+## Ejemplo 1 — t de una muestra
+
+En una escala con media normativa \\(50\\), una muestra de \\(25\\) estudiantes obtiene \\(\\bar{x}=54\\) y \\(s=10\\). Queremos comprobar si difiere de la norma.
+
+$$
+t=\\frac{54-50}{10/\\sqrt{25}}=\\frac{4}{2}=2.
+$$
+
+Los grados de libertad son \\(gl=n-1=24\\). El signo positivo indica que la muestra está por encima del valor de referencia. La conclusión estadística depende del \\(p\\) asociado y del nivel de significación acordado; la conclusión sustantiva requiere además valorar si una diferencia de cuatro puntos es relevante.
+
+## Ejemplo 2 — grupos independientes
+
+Se comparan las puntuaciones de ansiedad de un grupo con terapia A y otro con terapia B. Las personas de A no son las mismas que las de B: corresponde una t independiente.
+
+Antes de interpretar:
+
+1. Comprueba que cada persona pertenece a un solo grupo.
+2. Examina valores atípicos y la forma de cada distribución.
+3. Revisa la homogeneidad de varianzas; si no se sostiene, usa la versión de Welch.
+4. Informa de las medias y desviaciones típicas de ambos grupos, no solo de \\(p\\).
+
+Una redacción útil sería: «El grupo A obtuvo una media de \\(18{,}2\\) y el grupo B de \\(22{,}7\\); la diferencia estimada fue de \\(-4{,}5\\) puntos». Después se añade el resultado del contraste y su incertidumbre.
+
+## Ejemplo 3 — medidas antes y después
+
+Doce participantes completan una escala de estrés antes y después de ocho semanas. La pregunta no es si las dos columnas tienen medias distintas de forma aislada: es si **el cambio de cada persona** difiere de cero.
+
+Definimos una diferencia para cada participante:
+
+$$
+d_i=\\text{después}_i-\\text{antes}_i.
+$$
+
+La t pareada es una t de una muestra aplicada a la lista de diferencias. Si la media de las diferencias es negativa, el estrés ha disminuido con ese orden de resta.
+
+## Cómo interpretar el valor p sin exagerar
+
+Un valor \\(p\\) pequeño no mide el tamaño ni la importancia práctica del efecto. Indica cuán compatibles serían los datos con el modelo nulo y sus supuestos. Por eso acompaña el contraste con:
+
+- la diferencia de medias;
+- un intervalo de confianza;
+- un tamaño del efecto, por ejemplo \\(d\\) de Cohen;
+- una interpretación ligada a la escala usada.
+
+No escribas «se acepta la hipótesis nula» solo porque \\(p\\) sea mayor que \\(0{,}05\\). Lo correcto es indicar que los datos no aportan evidencia suficiente contra la hipótesis nula con ese análisis.
+
+## Supuestos y alternativas
+
+La t es razonablemente robusta con tamaños de muestra moderados, pero conviene revisar:
+
+- observaciones independientes en los diseños independientes;
+- variable cuantitativa y medición coherente;
+- ausencia de atípicos extremos;
+- distribución aproximadamente simétrica, sobre todo con muestras pequeñas.
+
+Si los supuestos son débiles, no saltes directamente a una conclusión. Considera una transformación, un método robusto, un contraste no paramétrico o una recogida de datos mejor diseñada, según la pregunta.
+
+## Ejercicios propuestos
+
+1. ¿Qué t usarías para comparar el sueño de las mismas 30 personas antes y después de una pauta?
+2. Una clase se compara con una media poblacional conocida. ¿Qué tipo de t corresponde?
+3. Dos grupos de estudiantes distintos reciben dos métodos de estudio. ¿Qué diseño es?
+4. Un análisis produce \\(p=0{,}18\\). ¿Se puede afirmar que los grupos son iguales?
+
+## Soluciones
+
+1. t pareada, porque cada persona aporta dos medidas relacionadas.
+2. t de una muestra.
+3. t de grupos independientes; si las varianzas son desiguales, considera Welch.
+4. No. Solo indica que el análisis no encontró evidencia suficiente de diferencia con esos datos y supuestos.
+
+En el [Campus de Método Nebula](/campus/) este tema se conecta con elección de contrastes, p-valor, intervalos de confianza y ejercicios graduados, para practicar la decisión antes de memorizar el nombre de una prueba.
+`,Wa=`---
 title: Teorema fundamental del cálculo: ejemplos y ejercicios
 seoTitle: "Teorema fundamental del cálculo: ejemplos y ejercicios"
 date: 2026-08-13
@@ -34428,7 +34543,7 @@ La primera parte del teorema deriva acumulaciones: $\\frac{d}{dx}\\int_a^x f(t)d
 La comprobación esencial consiste en derivar la primitiva, respetar la orientación de los límites y revisar el dominio completo. En problemas de acumulación, interpreta además el signo y las unidades: una integral definida mide cambio neto, mientras que el área o la distancia total pueden exigir dividir el intervalo.
 
 Antes de operar, identifica si buscas una derivada o una acumulación numérica, revisa continuidad y dominio, y separa cualquier singularidad. Si necesitas practicar estas decisiones con ejercicios de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Wa=`---
+`,Ka=`---
 title: "Termodinámica en Ingeniería: ejercicios resueltos del primer principio y ciclos"
 seoTitle: "Termodinámica: primer principio y ciclos | Ejercicios resueltos"
 date: "2026-10-15"
@@ -34530,7 +34645,7 @@ Nunca escribas una eficiencia mayor que $100\\%$: vulneraría el balance energé
 5. Interpreta el signo final: ¿entra o sale energía?, ¿quién realiza el trabajo?
 
 En el [campus virtual de Método Nebula](/contacto/) encontrarás problemas de Física y Termodinámica resueltos desde el diagrama hasta la comprobación de unidades. Practicar esa secuencia evita que la termodinámica se reduzca a un formulario desconectado del sistema físico.
-`,Ka=`---
+`,Ja=`---
 title: Transición al sector IT en 6 meses: una ruta realista
 date: 2026-06-04
 updated: 2026-06-04
@@ -34590,7 +34705,7 @@ En una entrevista no basta con enseñar código. Tienes que explicar cómo pensa
 La parte dura no es solo el temario. Es mantener continuidad cuando aparecen dudas, cansancio o comparación con perfiles más avanzados. Por eso conviene revisar progreso cada semana y cerrar entregables pequeños.
 
 Si estás empezando desde cero, puedes leer [Python y SQL para empezar en datos](/blog/python-y-sql-para-empezar-en-datos/) o revisar [clases de programación universitaria y fundamentos](/clases-particulares/programacion-universidad/).
-`,Ja=`---
+`,Xa=`---
 title: "Valores propios y vectores propios: ejercicios resueltos de diagonalización"
 seoTitle: "Valores propios y vectores propios: ejercicios resueltos | Ingeniería"
 date: "2026-10-09"
@@ -34713,5 +34828,5 @@ No es necesario multiplicar $A$ por sí misma $n$ veces. Esta idea explica por q
 - Haz una verificación rápida: $AP=PD$ suele ser más limpia que desarrollar $PDP^{-1}$.
 
 En el [campus virtual de Método Nebula](/contacto/) puedes trabajar álgebra lineal con teoría corta, ejercicios graduados y correcciones que explican por qué cada paso es válido. Es la forma más segura de convertir un procedimiento mecánico en una herramienta para resolver problemas reales de Ingeniería.
-`;function Xa(e){const a=/^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(e);if(!a)return{data:{},body:e.trim()};const i={};for(const n of a[1].split(`
-`)){const s=n.indexOf(":");if(s===-1)continue;const o=n.slice(0,s).trim();let r=n.slice(s+1).trim();(r.startsWith('"')&&r.endsWith('"')||r.startsWith("'")&&r.endsWith("'"))&&(r=r.slice(1,-1)),o&&(i[o]=r)}return{data:i,body:e.slice(a[0].length).trim()}}function Za(e){const a=e.trim().split(/\s+/).filter(Boolean).length;return Math.max(1,Math.round(a/200))}const Ya=Object.assign({"../content/blog/algebra-lineal-universidad-que-estudiar-primero-errores.md":c,"../content/blog/area-entre-dos-curvas-ejercicios-resueltos.md":l,"../content/blog/bachillerato-fisica-momento-choques.md":d,"../content/blog/bachillerato-fisica-quimica-mol-estequiometria.md":u,"../content/blog/bachillerato-fisica-tiro-parabolico.md":m,"../content/blog/bachillerato-matematicas-ecuaciones-trigonometricas.md":p,"../content/blog/bachillerato-matematicas-funciones-representacion.md":$,"../content/blog/bachillerato-matematicas-logaritmos-exponenciales-ecuaciones.md":g,"../content/blog/bachillerato-matematicas-sucesiones-progresiones.md":f,"../content/blog/bachillerato-matematicas-trigonometria-triangulos.md":x,"../content/blog/bachillerato-quimica-gases-ideales.md":b,"../content/blog/bachillerato-quimica-periodicidad-configuracion.md":v,"../content/blog/bachillerato-quimica-reactivo-limitante-rendimiento-pureza.md":y,"../content/blog/cambio-variables-jacobiano-integrales-dobles.md":h,"../content/blog/cinetica-quimica-orden-reaccion-arrhenius-ejercicios-resueltos.md":q,"../content/blog/circuitos-corriente-continua-problemas-resueltos-universidad.md":E,"../content/blog/como-aprobar-calculo-i-ingenieria-seis-semanas.md":_,"../content/blog/como-aprobar-estadistica-psicologia-sin-base-matematica.md":j,"../content/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas.md":C,"../content/blog/como-aprobar-matematicas-i-ade-economia.md":z,"../content/blog/como-estudiar-matematicas-sin-memorizar.md":S,"../content/blog/como-preparar-ib-mathematics-aa-ai.md":P,"../content/blog/como-preparar-pau-matematicas-ii.md":A,"../content/blog/como-resolver-limites-indeterminaciones-ejercicios.md":L,"../content/blog/continuidad-derivabilidad-diferencias-problemas.md":U,"../content/blog/derivacion-implicita-ejercicios-resueltos.md":w,"../content/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos.md":D,"../content/blog/derivadas-parciales-gradiente-ejercicios.md":M,"../content/blog/derivadas-producto-cociente-ejercicios.md":R,"../content/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes.md":T,"../content/blog/disoluciones-tampon-henderson-hasselbalch-ejercicios-resueltos.md":k,"../content/blog/econometria-desde-cero-interpretar-regresion.md":I,"../content/blog/economia-ade-matematicas-sin-perderse.md":N,"../content/blog/ecuaciones-diferenciales-identificar-metodo-correcto.md":F,"../content/blog/ecuaciones-segundo-grado-3-eso-ejercicios-resueltos.md":B,"../content/blog/errores-comunes-inferencia-estadistica.md":H,"../content/blog/eso-fisica-quimica-calor-temperatura-cambios-estado.md":O,"../content/blog/eso-fisica-quimica-densidad-presion-flotacion.md":G,"../content/blog/eso-fisica-quimica-electricidad-circuitos.md":Q,"../content/blog/eso-fisica-quimica-energia-mecanica.md":V,"../content/blog/eso-fisica-quimica-formulacion-inorganica.md":W,"../content/blog/eso-fisica-quimica-leyes-newton-dinamica.md":K,"../content/blog/eso-fisica-quimica-mezclas-disoluciones-separacion.md":J,"../content/blog/eso-fisica-quimica-modelos-atomicos-tabla-periodica.md":X,"../content/blog/eso-fisica-quimica-reacciones-ajuste-conservacion.md":Z,"../content/blog/eso-fisica-quimica-sonido-ondas.md":Y,"../content/blog/eso-fisica-quimica-trabajo-potencia-rendimiento.md":ee,"../content/blog/eso-matematicas-ecuaciones-sistemas-estudiar.md":ne,"../content/blog/eso-matematicas-fracciones-operaciones-problemas.md":ae,"../content/blog/eso-matematicas-inecuaciones-sistemas-regiones.md":ie,"../content/blog/eso-matematicas-pitagoras-thales-geometria.md":oe,"../content/blog/eso-matematicas-polinomios-factorizacion.md":re,"../content/blog/eso-matematicas-porcentajes-interes-compuesto.md":se,"../content/blog/eso-matematicas-potencias-radicales.md":te,"../content/blog/eso-matematicas-probabilidad-estudiar.md":ce,"../content/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja.md":le,"../content/blog/estadistica-descriptiva-eso-media-mediana-moda.md":de,"../content/blog/estadistica-desde-cero-para-elegir-contrastes.md":ue,"../content/blog/estequiometria-universitaria-ejercicios-resueltos.md":me,"../content/blog/estudio-completo-funcion-paso-a-paso.md":pe,"../content/blog/factores-conversion-3-eso-ejercicios-resueltos.md":$e,"../content/blog/fisica-y-quimica-como-plantear-problemas.md":ge,"../content/blog/gcse-chemistry-acids-bases-salts-en.md":fe,"../content/blog/gcse-chemistry-acids-bases-salts.md":xe,"../content/blog/gcse-chemistry-bonding-revision-en.md":be,"../content/blog/gcse-chemistry-bonding-revision.md":ve,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples-en.md":ye,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples.md":he,"../content/blog/gcse-chemistry-electrolysis-electrode-products-en.md":qe,"../content/blog/gcse-chemistry-electrolysis-electrode-products.md":Ee,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles-en.md":_e,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles.md":je,"../content/blog/gcse-chemistry-equations-moles-revision-en.md":Ce,"../content/blog/gcse-chemistry-equations-moles-revision.md":ze,"../content/blog/gcse-chemistry-periodic-table-groups-trends-en.md":Se,"../content/blog/gcse-chemistry-periodic-table-groups-trends.md":Pe,"../content/blog/gcse-chemistry-rates-collision-theory-en.md":Ae,"../content/blog/gcse-chemistry-rates-collision-theory.md":Le,"../content/blog/gcse-maths-algebra-graphs-revision-en.md":Ue,"../content/blog/gcse-maths-algebra-graphs-revision.md":we,"../content/blog/gcse-maths-circle-theorems-proof-en.md":De,"../content/blog/gcse-maths-circle-theorems-proof.md":Me,"../content/blog/gcse-maths-histograms-cumulative-frequency-en.md":Re,"../content/blog/gcse-maths-histograms-cumulative-frequency.md":Te,"../content/blog/gcse-maths-probability-trees-conditional-en.md":ke,"../content/blog/gcse-maths-probability-trees-conditional.md":Ie,"../content/blog/gcse-maths-resit-14-day-plan-en.md":Ne,"../content/blog/gcse-maths-resit-14-day-plan.md":Fe,"../content/blog/gcse-maths-revision-plan-foundation-higher-en.md":Be,"../content/blog/gcse-maths-revision-plan-foundation-higher.md":He,"../content/blog/gcse-maths-similarity-area-volume-scale-factors-en.md":Oe,"../content/blog/gcse-maths-similarity-area-volume-scale-factors.md":Ge,"../content/blog/gcse-maths-simultaneous-equations-worked-examples-en.md":Qe,"../content/blog/gcse-maths-simultaneous-equations-worked-examples.md":Ve,"../content/blog/gcse-maths-transformations-vectors-en.md":We,"../content/blog/gcse-maths-transformations-vectors.md":Ke,"../content/blog/gcse-maths-trigonometry-bearings-en.md":Je,"../content/blog/gcse-maths-trigonometry-bearings.md":Xe,"../content/blog/gcse-mock-exams-six-week-revision-plan-en.md":Ze,"../content/blog/gcse-mock-exams-six-week-revision-plan.md":Ye,"../content/blog/gcse-past-papers-mark-schemes-method-en.md":en,"../content/blog/gcse-past-papers-mark-schemes-method.md":nn,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples-en.md":an,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples.md":on,"../content/blog/gcse-physics-electricity-revision-en.md":rn,"../content/blog/gcse-physics-electricity-revision.md":sn,"../content/blog/gcse-physics-energy-work-power-efficiency-en.md":tn,"../content/blog/gcse-physics-energy-work-power-efficiency.md":cn,"../content/blog/gcse-physics-forces-exam-questions-en.md":ln,"../content/blog/gcse-physics-forces-exam-questions.md":dn,"../content/blog/gcse-physics-magnetism-motors-generators-en.md":un,"../content/blog/gcse-physics-magnetism-motors-generators.md":mn,"../content/blog/gcse-physics-motion-graphs-stopping-distance-en.md":pn,"../content/blog/gcse-physics-motion-graphs-stopping-distance.md":$n,"../content/blog/gcse-physics-radioactivity-half-life-en.md":gn,"../content/blog/gcse-physics-radioactivity-half-life.md":fn,"../content/blog/gcse-physics-space-stars-life-cycle-en.md":xn,"../content/blog/gcse-physics-space-stars-life-cycle.md":bn,"../content/blog/gcse-physics-thermal-heating-curves-en.md":vn,"../content/blog/gcse-physics-thermal-heating-curves.md":yn,"../content/blog/gcse-physics-waves-refraction-en.md":hn,"../content/blog/gcse-physics-waves-refraction.md":qn,"../content/blog/graficas-mru-mrua-4-eso-ejercicios.md":En,"../content/blog/gravitacion-eso-ley-universal-peso-ejercicios.md":_n,"../content/blog/ib-gcse-como-preparar-examenes-internacionales.md":jn,"../content/blog/integracion-por-partes-formula-ejercicios-resueltos.md":Cn,"../content/blog/integracion-por-sustitucion-cambio-variable-ejercicios.md":zn,"../content/blog/integral-definida-e-indefinida-diferencias-ejemplos.md":Sn,"../content/blog/integrales-dobles-ejercicios-resueltos.md":Pn,"../content/blog/integrales-funciones-racionales-fracciones-parciales.md":An,"../content/blog/integrales-impropias-convergencia-ejercicios.md":Ln,"../content/blog/integrales-inmediatas-ejercicios-resueltos.md":Un,"../content/blog/limites-trigonometricos-ejercicios-resueltos.md":wn,"../content/blog/matrices-determinantes-sistemas-ecuaciones-guia.md":Dn,"../content/blog/maximos-minimos-varias-variables-ejercicios.md":Mn,"../content/blog/mecanica-fluidos-bernoulli-continuidad-ejercicios-resueltos.md":Rn,"../content/blog/metodos-de-integracion-como-elegir.md":Tn,"../content/blog/microeconomia-i-tipos-problemas-examen.md":kn,"../content/blog/molaridad-disoluciones-1-bachillerato-ejercicios.md":In,"../content/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios.md":Nn,"../content/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios.md":Fn,"../content/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo.md":Bn,"../content/blog/pau-ccss-derivadas-optimizacion-economia.md":Hn,"../content/blog/pau-ccss-inferencia-intervalos-confianza.md":On,"../content/blog/pau-ccss-integrales-area-acumulacion.md":Gn,"../content/blog/pau-ccss-matrices-modelos-economicos.md":Qn,"../content/blog/pau-ccss-programacion-lineal-problemas.md":Vn,"../content/blog/pau-convocatoria-extraordinaria-plan-30-dias.md":Wn,"../content/blog/pau-corregir-simulacros-plan-estudio.md":Kn,"../content/blog/pau-ebau-evau-selectividad-modelo-oficial.md":Jn,"../content/blog/pau-fisica-campo-electrico-potencial-condensadores.md":Xn,"../content/blog/pau-fisica-campo-gravitatorio-satelites.md":Zn,"../content/blog/pau-fisica-cuantica-efecto-fotoelectrico.md":Yn,"../content/blog/pau-fisica-electromagnetismo-estudiar.md":ea,"../content/blog/pau-fisica-formulario-unidades-comprobaciones.md":na,"../content/blog/pau-fisica-graficas-datos-incertidumbre.md":aa,"../content/blog/pau-fisica-movimiento-armonico-simple.md":ia,"../content/blog/pau-fisica-nuclear-defecto-masa.md":oa,"../content/blog/pau-fisica-ondas-resolver-problemas.md":ra,"../content/blog/pau-fisica-optica-lentes-espejos.md":sa,"../content/blog/pau-fisica-relatividad-especial.md":ta,"../content/blog/pau-matematicas-ccss-probabilidad-bayes.md":ca,"../content/blog/pau-matematicas-derivabilidad-parametros-tangentes.md":la,"../content/blog/pau-matematicas-geometria-metrica-distancias-angulos.md":da,"../content/blog/pau-matematicas-ii-90-minutos-elegir-ejercicios.md":ua,"../content/blog/pau-matematicas-ii-errores-restan-puntos.md":ma,"../content/blog/pau-matematicas-ii-vectores-rectas-planos.md":pa,"../content/blog/pau-matematicas-integrales-areas.md":$a,"../content/blog/pau-matematicas-limites-asintotas.md":ga,"../content/blog/pau-matematicas-matrices-determinantes-gauss.md":fa,"../content/blog/pau-matematicas-probabilidad-distribuciones.md":xa,"../content/blog/pau-matematicas-sistemas-parametro-rouche-frobenius.md":ba,"../content/blog/pau-quimica-acido-base-ph-calculos.md":va,"../content/blog/pau-quimica-cinetica-arrhenius-velocidad.md":ya,"../content/blog/pau-quimica-enlace-geometria-molecular.md":ha,"../content/blog/pau-quimica-equilibrio-quimico-estudiar.md":qa,"../content/blog/pau-quimica-estequiometria-gases-disoluciones.md":Ea,"../content/blog/pau-quimica-estructura-atomica-configuracion.md":_a,"../content/blog/pau-quimica-laboratorio-rendimiento-pureza-errores.md":ja,"../content/blog/pau-quimica-organica-mapa-reacciones.md":Ca,"../content/blog/pau-quimica-pilas-electroquimica-redox.md":za,"../content/blog/pau-quimica-solubilidad-kps-precipitacion.md":Sa,"../content/blog/pau-quimica-termoquimica-hess-entalpia.md":Pa,"../content/blog/pau-quimica-volumetrias-acido-base-redox.md":Aa,"../content/blog/plano-inclinado-1-bachillerato-ejercicios-resueltos.md":La,"../content/blog/preparar-pau-desde-verano-plan-septiembre.md":Ua,"../content/blog/preparar-selectividad-con-calendario.md":wa,"../content/blog/primer-proyecto-python-principiantes-datos.md":Da,"../content/blog/probabilidad-condicionada-bayes-problemas-resueltos.md":Ma,"../content/blog/problemas-optimizacion-derivadas-ejercicios-resueltos.md":Ra,"../content/blog/python-y-sql-para-empezar-en-datos.md":Ta,"../content/blog/que-prueba-estadistica-utilizar-guia-test-correcto.md":ka,"../content/blog/que-son-las-derivadas-y-para-que-se-utilizan.md":Ia,"../content/blog/que-son-las-integrales-y-para-que-se-utilizan.md":Na,"../content/blog/r-spss-jamovi-python-programa-estadistico-universidad.md":Fa,"../content/blog/regla-cadena-ejercicios-resueltos.md":Ba,"../content/blog/regla-lhopital-cuando-usarla-ejercicios.md":Ha,"../content/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados.md":Oa,"../content/blog/series-taylor-maclaurin-ejercicios-resueltos.md":Ga,"../content/blog/sistemas-ecuaciones-3-eso-problemas-resueltos.md":Qa,"../content/blog/teorema-fundamental-calculo-ejemplos-ejercicios.md":Va,"../content/blog/termodinamica-primer-principio-ciclos-ejercicios-resueltos.md":Wa,"../content/blog/transicion-al-sector-it-en-6-meses.md":Ka,"../content/blog/valores-propios-vectores-propios-diagonalizacion-ejercicios-resueltos.md":Ja}),t=Object.entries(Ya).map(([e,a])=>{const i=e.split("/").pop().replace(/\.md$/,""),{data:n,body:s}=Xa(a);return{slug:i,title:n.title??i,seoTitle:n.seoTitle??"",date:n.date??"",updated:n.updated??n.date??"",description:n.description??"",tag:n.tag??"Blog",category:n.category??n.tag??"Blog",image:n.image??"/favicon.svg",language:n.language==="en"?"en":"es",translation:n.translation??"",relatedService:n.relatedService??"/contacto/",relatedPosts:n.relatedPosts?n.relatedPosts.split(",").map(o=>o.trim()).filter(Boolean):[],readingMinutes:Za(s),body:s}}).sort((e,a)=>e.date<a.date?1:e.date>a.date?-1:0);function ni(){return t}function ai(e,a=9){return Math.max(1,Math.ceil(e.length/a))}function ii(e,a,i=9){const n=(a-1)*i;return e.slice(n,n+i)}function ei(e){return t.find(a=>a.slug===e)}function oi(e){return t.filter(a=>a.category===e)}function ri(e,a=3){const i=e.relatedPosts.map(o=>ei(o)).filter(o=>!!o),s=[...t.filter(o=>o.language===e.language),...t].filter(o=>o.slug!==e.slug&&!i.some(r=>r.slug===o.slug));return[...i,...s].slice(0,a)}function si(e,a="es"){if(!e)return"";const i=new Date(e);return Number.isNaN(i.getTime())?e:i.toLocaleDateString(a==="en"?"en-GB":"es-ES",{day:"numeric",month:"long",year:"numeric"})}export{ai as a,ei as b,ii as c,ni as d,ri as e,si as f,oi as g};
+`;function Za(e){const a=/^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(e);if(!a)return{data:{},body:e.trim()};const i={};for(const n of a[1].split(`
+`)){const s=n.indexOf(":");if(s===-1)continue;const o=n.slice(0,s).trim();let r=n.slice(s+1).trim();(r.startsWith('"')&&r.endsWith('"')||r.startsWith("'")&&r.endsWith("'"))&&(r=r.slice(1,-1)),o&&(i[o]=r)}return{data:i,body:e.slice(a[0].length).trim()}}function Ya(e){const a=e.trim().split(/\s+/).filter(Boolean).length;return Math.max(1,Math.round(a/200))}const ei=Object.assign({"../content/blog/algebra-lineal-universidad-que-estudiar-primero-errores.md":c,"../content/blog/area-entre-dos-curvas-ejercicios-resueltos.md":l,"../content/blog/bachillerato-fisica-momento-choques.md":d,"../content/blog/bachillerato-fisica-quimica-mol-estequiometria.md":u,"../content/blog/bachillerato-fisica-tiro-parabolico.md":m,"../content/blog/bachillerato-matematicas-ecuaciones-trigonometricas.md":p,"../content/blog/bachillerato-matematicas-funciones-representacion.md":$,"../content/blog/bachillerato-matematicas-logaritmos-exponenciales-ecuaciones.md":g,"../content/blog/bachillerato-matematicas-sucesiones-progresiones.md":f,"../content/blog/bachillerato-matematicas-trigonometria-triangulos.md":x,"../content/blog/bachillerato-quimica-gases-ideales.md":b,"../content/blog/bachillerato-quimica-periodicidad-configuracion.md":v,"../content/blog/bachillerato-quimica-reactivo-limitante-rendimiento-pureza.md":y,"../content/blog/cambio-variables-jacobiano-integrales-dobles.md":h,"../content/blog/cinetica-quimica-orden-reaccion-arrhenius-ejercicios-resueltos.md":q,"../content/blog/circuitos-corriente-continua-problemas-resueltos-universidad.md":E,"../content/blog/como-aprobar-calculo-i-ingenieria-seis-semanas.md":_,"../content/blog/como-aprobar-estadistica-psicologia-sin-base-matematica.md":j,"../content/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas.md":C,"../content/blog/como-aprobar-matematicas-i-ade-economia.md":z,"../content/blog/como-estudiar-matematicas-sin-memorizar.md":S,"../content/blog/como-preparar-ib-mathematics-aa-ai.md":P,"../content/blog/como-preparar-pau-matematicas-ii.md":A,"../content/blog/como-resolver-limites-indeterminaciones-ejercicios.md":L,"../content/blog/continuidad-derivabilidad-diferencias-problemas.md":U,"../content/blog/derivacion-implicita-ejercicios-resueltos.md":w,"../content/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos.md":D,"../content/blog/derivadas-parciales-gradiente-ejercicios.md":M,"../content/blog/derivadas-producto-cociente-ejercicios.md":R,"../content/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes.md":T,"../content/blog/disoluciones-tampon-henderson-hasselbalch-ejercicios-resueltos.md":k,"../content/blog/econometria-desde-cero-interpretar-regresion.md":N,"../content/blog/economia-ade-matematicas-sin-perderse.md":I,"../content/blog/ecuaciones-diferenciales-identificar-metodo-correcto.md":F,"../content/blog/ecuaciones-segundo-grado-3-eso-ejercicios-resueltos.md":B,"../content/blog/errores-comunes-inferencia-estadistica.md":H,"../content/blog/eso-fisica-quimica-calor-temperatura-cambios-estado.md":O,"../content/blog/eso-fisica-quimica-densidad-presion-flotacion.md":G,"../content/blog/eso-fisica-quimica-electricidad-circuitos.md":Q,"../content/blog/eso-fisica-quimica-energia-mecanica.md":V,"../content/blog/eso-fisica-quimica-formulacion-inorganica.md":W,"../content/blog/eso-fisica-quimica-leyes-newton-dinamica.md":K,"../content/blog/eso-fisica-quimica-mezclas-disoluciones-separacion.md":J,"../content/blog/eso-fisica-quimica-modelos-atomicos-tabla-periodica.md":X,"../content/blog/eso-fisica-quimica-reacciones-ajuste-conservacion.md":Z,"../content/blog/eso-fisica-quimica-sonido-ondas.md":Y,"../content/blog/eso-fisica-quimica-trabajo-potencia-rendimiento.md":ee,"../content/blog/eso-matematicas-ecuaciones-sistemas-estudiar.md":ne,"../content/blog/eso-matematicas-fracciones-operaciones-problemas.md":ae,"../content/blog/eso-matematicas-inecuaciones-sistemas-regiones.md":ie,"../content/blog/eso-matematicas-pitagoras-thales-geometria.md":oe,"../content/blog/eso-matematicas-polinomios-factorizacion.md":re,"../content/blog/eso-matematicas-porcentajes-interes-compuesto.md":se,"../content/blog/eso-matematicas-potencias-radicales.md":te,"../content/blog/eso-matematicas-probabilidad-estudiar.md":ce,"../content/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja.md":le,"../content/blog/estadistica-descriptiva-eso-media-mediana-moda.md":de,"../content/blog/estadistica-desde-cero-para-elegir-contrastes.md":ue,"../content/blog/estequiometria-universitaria-ejercicios-resueltos.md":me,"../content/blog/estudio-completo-funcion-paso-a-paso.md":pe,"../content/blog/factores-conversion-3-eso-ejercicios-resueltos.md":$e,"../content/blog/fisica-y-quimica-como-plantear-problemas.md":ge,"../content/blog/gcse-chemistry-acids-bases-salts-en.md":fe,"../content/blog/gcse-chemistry-acids-bases-salts.md":xe,"../content/blog/gcse-chemistry-bonding-revision-en.md":be,"../content/blog/gcse-chemistry-bonding-revision.md":ve,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples-en.md":ye,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples.md":he,"../content/blog/gcse-chemistry-electrolysis-electrode-products-en.md":qe,"../content/blog/gcse-chemistry-electrolysis-electrode-products.md":Ee,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles-en.md":_e,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles.md":je,"../content/blog/gcse-chemistry-equations-moles-revision-en.md":Ce,"../content/blog/gcse-chemistry-equations-moles-revision.md":ze,"../content/blog/gcse-chemistry-periodic-table-groups-trends-en.md":Se,"../content/blog/gcse-chemistry-periodic-table-groups-trends.md":Pe,"../content/blog/gcse-chemistry-rates-collision-theory-en.md":Ae,"../content/blog/gcse-chemistry-rates-collision-theory.md":Le,"../content/blog/gcse-maths-algebra-graphs-revision-en.md":Ue,"../content/blog/gcse-maths-algebra-graphs-revision.md":we,"../content/blog/gcse-maths-circle-theorems-proof-en.md":De,"../content/blog/gcse-maths-circle-theorems-proof.md":Me,"../content/blog/gcse-maths-histograms-cumulative-frequency-en.md":Re,"../content/blog/gcse-maths-histograms-cumulative-frequency.md":Te,"../content/blog/gcse-maths-probability-trees-conditional-en.md":ke,"../content/blog/gcse-maths-probability-trees-conditional.md":Ne,"../content/blog/gcse-maths-resit-14-day-plan-en.md":Ie,"../content/blog/gcse-maths-resit-14-day-plan.md":Fe,"../content/blog/gcse-maths-revision-plan-foundation-higher-en.md":Be,"../content/blog/gcse-maths-revision-plan-foundation-higher.md":He,"../content/blog/gcse-maths-similarity-area-volume-scale-factors-en.md":Oe,"../content/blog/gcse-maths-similarity-area-volume-scale-factors.md":Ge,"../content/blog/gcse-maths-simultaneous-equations-worked-examples-en.md":Qe,"../content/blog/gcse-maths-simultaneous-equations-worked-examples.md":Ve,"../content/blog/gcse-maths-transformations-vectors-en.md":We,"../content/blog/gcse-maths-transformations-vectors.md":Ke,"../content/blog/gcse-maths-trigonometry-bearings-en.md":Je,"../content/blog/gcse-maths-trigonometry-bearings.md":Xe,"../content/blog/gcse-mock-exams-six-week-revision-plan-en.md":Ze,"../content/blog/gcse-mock-exams-six-week-revision-plan.md":Ye,"../content/blog/gcse-past-papers-mark-schemes-method-en.md":en,"../content/blog/gcse-past-papers-mark-schemes-method.md":nn,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples-en.md":an,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples.md":on,"../content/blog/gcse-physics-electricity-revision-en.md":rn,"../content/blog/gcse-physics-electricity-revision.md":sn,"../content/blog/gcse-physics-energy-work-power-efficiency-en.md":tn,"../content/blog/gcse-physics-energy-work-power-efficiency.md":cn,"../content/blog/gcse-physics-forces-exam-questions-en.md":ln,"../content/blog/gcse-physics-forces-exam-questions.md":dn,"../content/blog/gcse-physics-magnetism-motors-generators-en.md":un,"../content/blog/gcse-physics-magnetism-motors-generators.md":mn,"../content/blog/gcse-physics-motion-graphs-stopping-distance-en.md":pn,"../content/blog/gcse-physics-motion-graphs-stopping-distance.md":$n,"../content/blog/gcse-physics-radioactivity-half-life-en.md":gn,"../content/blog/gcse-physics-radioactivity-half-life.md":fn,"../content/blog/gcse-physics-space-stars-life-cycle-en.md":xn,"../content/blog/gcse-physics-space-stars-life-cycle.md":bn,"../content/blog/gcse-physics-thermal-heating-curves-en.md":vn,"../content/blog/gcse-physics-thermal-heating-curves.md":yn,"../content/blog/gcse-physics-waves-refraction-en.md":hn,"../content/blog/gcse-physics-waves-refraction.md":qn,"../content/blog/graficas-mru-mrua-4-eso-ejercicios.md":En,"../content/blog/gravitacion-eso-ley-universal-peso-ejercicios.md":_n,"../content/blog/ib-gcse-como-preparar-examenes-internacionales.md":jn,"../content/blog/integracion-por-partes-formula-ejercicios-resueltos.md":Cn,"../content/blog/integracion-por-sustitucion-cambio-variable-ejercicios.md":zn,"../content/blog/integral-definida-e-indefinida-diferencias-ejemplos.md":Sn,"../content/blog/integrales-dobles-ejercicios-resueltos.md":Pn,"../content/blog/integrales-funciones-racionales-fracciones-parciales.md":An,"../content/blog/integrales-impropias-convergencia-ejercicios.md":Ln,"../content/blog/integrales-inmediatas-ejercicios-resueltos.md":Un,"../content/blog/limites-trigonometricos-ejercicios-resueltos.md":wn,"../content/blog/matrices-determinantes-sistemas-ecuaciones-guia.md":Dn,"../content/blog/maximos-minimos-varias-variables-ejercicios.md":Mn,"../content/blog/mecanica-fluidos-bernoulli-continuidad-ejercicios-resueltos.md":Rn,"../content/blog/metodos-de-integracion-como-elegir.md":Tn,"../content/blog/microeconomia-i-tipos-problemas-examen.md":kn,"../content/blog/molaridad-disoluciones-1-bachillerato-ejercicios.md":Nn,"../content/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios.md":In,"../content/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios.md":Fn,"../content/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo.md":Bn,"../content/blog/pau-ccss-derivadas-optimizacion-economia.md":Hn,"../content/blog/pau-ccss-inferencia-intervalos-confianza.md":On,"../content/blog/pau-ccss-integrales-area-acumulacion.md":Gn,"../content/blog/pau-ccss-matrices-modelos-economicos.md":Qn,"../content/blog/pau-ccss-programacion-lineal-problemas.md":Vn,"../content/blog/pau-convocatoria-extraordinaria-plan-30-dias.md":Wn,"../content/blog/pau-corregir-simulacros-plan-estudio.md":Kn,"../content/blog/pau-ebau-evau-selectividad-modelo-oficial.md":Jn,"../content/blog/pau-fisica-campo-electrico-potencial-condensadores.md":Xn,"../content/blog/pau-fisica-campo-gravitatorio-satelites.md":Zn,"../content/blog/pau-fisica-cuantica-efecto-fotoelectrico.md":Yn,"../content/blog/pau-fisica-electromagnetismo-estudiar.md":ea,"../content/blog/pau-fisica-formulario-unidades-comprobaciones.md":na,"../content/blog/pau-fisica-graficas-datos-incertidumbre.md":aa,"../content/blog/pau-fisica-movimiento-armonico-simple.md":ia,"../content/blog/pau-fisica-nuclear-defecto-masa.md":oa,"../content/blog/pau-fisica-ondas-resolver-problemas.md":ra,"../content/blog/pau-fisica-optica-lentes-espejos.md":sa,"../content/blog/pau-fisica-relatividad-especial.md":ta,"../content/blog/pau-matematicas-ccss-probabilidad-bayes.md":ca,"../content/blog/pau-matematicas-derivabilidad-parametros-tangentes.md":la,"../content/blog/pau-matematicas-geometria-metrica-distancias-angulos.md":da,"../content/blog/pau-matematicas-ii-90-minutos-elegir-ejercicios.md":ua,"../content/blog/pau-matematicas-ii-errores-restan-puntos.md":ma,"../content/blog/pau-matematicas-ii-vectores-rectas-planos.md":pa,"../content/blog/pau-matematicas-integrales-areas.md":$a,"../content/blog/pau-matematicas-limites-asintotas.md":ga,"../content/blog/pau-matematicas-matrices-determinantes-gauss.md":fa,"../content/blog/pau-matematicas-probabilidad-distribuciones.md":xa,"../content/blog/pau-matematicas-sistemas-parametro-rouche-frobenius.md":ba,"../content/blog/pau-quimica-acido-base-ph-calculos.md":va,"../content/blog/pau-quimica-cinetica-arrhenius-velocidad.md":ya,"../content/blog/pau-quimica-enlace-geometria-molecular.md":ha,"../content/blog/pau-quimica-equilibrio-quimico-estudiar.md":qa,"../content/blog/pau-quimica-estequiometria-gases-disoluciones.md":Ea,"../content/blog/pau-quimica-estructura-atomica-configuracion.md":_a,"../content/blog/pau-quimica-laboratorio-rendimiento-pureza-errores.md":ja,"../content/blog/pau-quimica-organica-mapa-reacciones.md":Ca,"../content/blog/pau-quimica-pilas-electroquimica-redox.md":za,"../content/blog/pau-quimica-solubilidad-kps-precipitacion.md":Sa,"../content/blog/pau-quimica-termoquimica-hess-entalpia.md":Pa,"../content/blog/pau-quimica-volumetrias-acido-base-redox.md":Aa,"../content/blog/plano-inclinado-1-bachillerato-ejercicios-resueltos.md":La,"../content/blog/preparar-pau-desde-verano-plan-septiembre.md":Ua,"../content/blog/preparar-selectividad-con-calendario.md":wa,"../content/blog/primer-proyecto-python-principiantes-datos.md":Da,"../content/blog/probabilidad-condicionada-bayes-problemas-resueltos.md":Ma,"../content/blog/problemas-optimizacion-derivadas-ejercicios-resueltos.md":Ra,"../content/blog/python-y-sql-para-empezar-en-datos.md":Ta,"../content/blog/que-prueba-estadistica-utilizar-guia-test-correcto.md":ka,"../content/blog/que-son-las-derivadas-y-para-que-se-utilizan.md":Na,"../content/blog/que-son-las-integrales-y-para-que-se-utilizan.md":Ia,"../content/blog/r-spss-jamovi-python-programa-estadistico-universidad.md":Fa,"../content/blog/regla-cadena-ejercicios-resueltos.md":Ba,"../content/blog/regla-lhopital-cuando-usarla-ejercicios.md":Ha,"../content/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados.md":Oa,"../content/blog/series-taylor-maclaurin-ejercicios-resueltos.md":Ga,"../content/blog/sistemas-ecuaciones-3-eso-problemas-resueltos.md":Qa,"../content/blog/t-student-psicologia-ejercicios-resueltos.md":Va,"../content/blog/teorema-fundamental-calculo-ejemplos-ejercicios.md":Wa,"../content/blog/termodinamica-primer-principio-ciclos-ejercicios-resueltos.md":Ka,"../content/blog/transicion-al-sector-it-en-6-meses.md":Ja,"../content/blog/valores-propios-vectores-propios-diagonalizacion-ejercicios-resueltos.md":Xa}),t=Object.entries(ei).map(([e,a])=>{const i=e.split("/").pop().replace(/\.md$/,""),{data:n,body:s}=Za(a);return{slug:i,title:n.title??i,seoTitle:n.seoTitle??"",date:n.date??"",updated:n.updated??n.date??"",description:n.description??"",tag:n.tag??"Blog",category:n.category??n.tag??"Blog",image:n.image??"/favicon.svg",language:n.language==="en"?"en":"es",translation:n.translation??"",relatedService:n.relatedService??"/contacto/",relatedPosts:n.relatedPosts?n.relatedPosts.split(",").map(o=>o.trim()).filter(Boolean):[],readingMinutes:Ya(s),body:s}}).sort((e,a)=>e.date<a.date?1:e.date>a.date?-1:0);function ai(){return t}function ii(e,a=9){return Math.max(1,Math.ceil(e.length/a))}function oi(e,a,i=9){const n=(a-1)*i;return e.slice(n,n+i)}function ni(e){return t.find(a=>a.slug===e)}function ri(e){return t.filter(a=>a.category===e)}function si(e,a=3){const i=e.relatedPosts.map(o=>ni(o)).filter(o=>!!o),s=[...t.filter(o=>o.language===e.language),...t].filter(o=>o.slug!==e.slug&&!i.some(r=>r.slug===o.slug));return[...i,...s].slice(0,a)}function ti(e,a="es"){if(!e)return"";const i=new Date(e);return Number.isNaN(i.getTime())?e:i.toLocaleDateString(a==="en"?"en-GB":"es-ES",{day:"numeric",month:"long",year:"numeric"})}export{ii as a,ni as b,oi as c,ai as d,si as e,ti as f,ri as g};

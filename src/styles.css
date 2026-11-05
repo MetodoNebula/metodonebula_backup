@@ -318,12 +318,21 @@ article nav {
 }
 
 .nebula-math .katex-display::-webkit-scrollbar,
+article .katex::-webkit-scrollbar,
 article p .katex::-webkit-scrollbar,
 article li .katex::-webkit-scrollbar,
 article p::-webkit-scrollbar,
 article li::-webkit-scrollbar,
 article nav::-webkit-scrollbar {
   display: none;
+  width: 0;
+  height: 0;
+}
+
+/* The rule is deliberately article-wide: Mathematics, Physics and Chemistry
+   use the same KaTeX markup, and none should expose browser scrollbars. */
+article .katex {
+  scrollbar-width: none;
 }
 
 @media (max-width: 640px) {

@@ -294,6 +294,26 @@
   overflow-y: hidden;
 }
 
+/* Keep long inline derivations readable on narrow screens without allowing them
+   to widen the article column. Display equations retain their normal layout. */
+article p .katex,
+article li .katex {
+  display: inline-block;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  vertical-align: bottom;
+}
+
+/* A line containing a long inline formula must scroll locally, never widen the
+   page. This also covers the generated contents navigation on compact screens. */
+article p,
+article li,
+article nav {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
 @media (max-width: 640px) {
   .nebula-math .katex-display {
     font-size: 0.64em;

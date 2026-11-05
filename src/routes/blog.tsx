@@ -593,7 +593,7 @@ function PostView({ post }: { post: Post }) {
                   <li key={heading.id}>
                     <a
                       href={`#${heading.id}`}
-                      className="text-link underline-offset-4 hover:underline"
+                      className="break-words text-link underline-offset-4 hover:underline"
                     >
                       {heading.text}
                     </a>

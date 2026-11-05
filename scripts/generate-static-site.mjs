@@ -616,7 +616,7 @@ function tocHtml(post) {
         ${headings
           .map(
             (heading) =>
-              `<li><a class="text-link underline-offset-4 hover:underline" href="#${escapeHtml(heading.id)}">${inlineMarkdown(heading.text)}</a></li>`,
+              `<li><a class="break-words text-link underline-offset-4 hover:underline" href="#${escapeHtml(heading.id)}">${inlineMarkdown(heading.text)}</a></li>`,
           )
           .join("")}
       </ol>

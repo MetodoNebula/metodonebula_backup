@@ -200,7 +200,11 @@ const inspectionExpression = String.raw`
   const katexIssues = Array.from(document.querySelectorAll(".katex"))
     .filter((element) => {
       const rect = element.getBoundingClientRect();
-      return rect.width > Math.min(innerWidth, articleWidth) + 4;
+      if (rect.width <= Math.min(innerWidth, articleWidth) + 4) return false;
+      // Long inline derivations are intentionally placed in a horizontally
+      // scrollable inline container. They remain fully accessible and do not
+      // create page-level overflow, so they are not a clipping defect.
+      return !["auto", "scroll"].includes(getComputedStyle(element).overflowX);
     })
     .slice(0, 5)
     .map((element) => (element.textContent || "").trim().slice(0, 100));

@@ -145,6 +145,10 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/categoria/fisica-y-quimica/pagina/5/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-eso-bachillerato/</loc>
     <priority>0.6</priority>
   </url>
@@ -335,6 +339,10 @@
   <url>
     <loc>https://metodonebula.es/blog/gcse-chemistry-chemical-analysis-worked-examples/</loc>
     <lastmod>2026-10-26</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/ley-hooke-muelles-4-eso-ejercicios/</loc>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-matematicas-matrices-determinantes-gauss/</loc>

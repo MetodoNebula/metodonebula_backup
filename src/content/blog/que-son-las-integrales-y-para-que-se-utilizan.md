@@ -2,12 +2,12 @@
 title: Qué son las integrales y para qué se utilizan
 seoTitle: "Integrales: qué son, para qué sirven y ejemplos"
 date: 2026-06-21
-updated: 2026-10-29
+updated: 2026-11-05
 description: Una explicación práctica de las integrales como acumulación, área bajo la curva y herramienta para medir cantidades totales.
 tag: Cálculo
 category: Matemáticas universitarias
-relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: teorema-fundamental-calculo-ejemplos-ejercicios,integral-definida-e-indefinida-diferencias-ejemplos,area-entre-dos-curvas-ejercicios-resueltos
+relatedService: /campus/
+relatedPosts: integrales-trigonometricas-ejercicios-resueltos,teorema-fundamental-calculo-ejemplos-ejercicios,integral-definida-e-indefinida-diferencias-ejemplos
 image: /favicon.svg
 ---
 

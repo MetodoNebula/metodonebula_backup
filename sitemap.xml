@@ -105,6 +105,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pagina/26/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pagina/27/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pagina/28/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/</loc>
     <priority>0.6</priority>
   </url>
@@ -189,6 +201,14 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/6/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/7/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/</loc>
     <priority>0.6</priority>
   </url>
@@ -253,6 +273,46 @@
     <lastmod>2026-11-05</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/quimica-examen-resuelto-junio-2023-modelo-1/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/quimica-examen-resuelto-junio-2023-modelo-2/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/quimica-examen-resuelto-junio-2023-modelo-3/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/quimica-examen-resuelto-junio-2023-modelo-4/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/quimica-examen-resuelto-septiembre-2018-modelo-1/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/quimica-examen-resuelto-septiembre-2022-modelo-1/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/quimica-examen-resuelto-septiembre-2023-modelo-1/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/quimica-examen-resuelto-septiembre-2023-modelo-2/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/quimica-examen-resuelto-septiembre-2023-modelo-3/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/quimica-examen-resuelto-septiembre-2023-modelo-4/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/regla-cadena-ejercicios-resueltos/</loc>
     <lastmod>2026-11-05</lastmod>
   </url>
@@ -306,6 +366,10 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/caida-libre-lanzamiento-vertical-4-eso-problemas/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2026-cantabria/</loc>
     <lastmod>2026-11-05</lastmod>
   </url>
   <url>
@@ -441,6 +505,10 @@
     <lastmod>2026-10-20</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2025-madrid/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/pau-fisica-formulario-unidades-comprobaciones/</loc>
     <lastmod>2026-10-20</lastmod>
   </url>
@@ -459,6 +527,14 @@
   <url>
     <loc>https://metodonebula.es/blog/gcse-maths-transformations-vectors/</loc>
     <lastmod>2026-10-19</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2026-andalucia/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2026-madrid/</loc>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/mecanica-fluidos-bernoulli-continuidad-ejercicios-resueltos/</loc>
@@ -485,6 +561,10 @@
     <lastmod>2026-10-16</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2026-aragon/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/gcse-maths-histograms-cumulative-frequency-en/</loc>
     <lastmod>2026-10-28</lastmod>
   </url>
@@ -507,6 +587,10 @@
   <url>
     <loc>https://metodonebula.es/blog/gcse-maths-algebra-graphs-revision/</loc>
     <lastmod>2026-10-28</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2026-asturias/</loc>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-matematicas-integrales-areas/</loc>
@@ -537,6 +621,10 @@
     <lastmod>2026-10-12</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2026-cataluna/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/pau-ebau-evau-selectividad-modelo-oficial/</loc>
     <lastmod>2026-10-10</lastmod>
   </url>
@@ -559,6 +647,10 @@
   <url>
     <loc>https://metodonebula.es/blog/eso-fisica-quimica-sonido-ondas/</loc>
     <lastmod>2026-10-08</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2026-comunidad-valenciana/</loc>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/eso-fisica-quimica-formulacion-inorganica/</loc>
@@ -601,6 +693,10 @@
     <lastmod>2026-10-04</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2026-murcia/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/pau-quimica-estructura-atomica-configuracion/</loc>
     <lastmod>2026-10-04</lastmod>
   </url>
@@ -631,6 +727,10 @@
   <url>
     <loc>https://metodonebula.es/blog/gcse-maths-trigonometry-bearings/</loc>
     <lastmod>2026-09-30</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2026-pais-vasco/</loc>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/pau-ccss-programacion-lineal-problemas/</loc>
@@ -1107,6 +1207,30 @@
   <url>
     <loc>https://metodonebula.es/blog/como-estudiar-matematicas-sin-memorizar/</loc>
     <lastmod>2026-05-20</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2025-comunidad-valenciana/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2025-navarra/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2025-murcia/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2025-cantabria/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2025-aragon/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ii-pau-2025-andalucia/</loc>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/clases-particulares/</loc>

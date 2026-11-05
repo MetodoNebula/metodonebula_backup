@@ -1631,7 +1631,7 @@ La suma infinita solo existe para $|r|<1$ porque los términos deben acercarse a
 Construye una tabla con $n$, $a_n$, diferencia y cociente. El patrón correcto suele hacerse visible antes de elegir fórmula.
 
 El campus de Método Nebula desarrolla sucesiones, funciones e interés compuesto con teoría y ejercicios graduados. Contacta para conectar fórmulas, gráficas y problemas contextualizados.
-`,x=`---
+`,b=`---
 title: "Trigonometría en Bachillerato: cómo elegir entre seno, coseno y tangente sin probar fórmulas"
 date: "2026-10-20"
 updated: "2026-10-20"
@@ -1762,7 +1762,7 @@ La suma de ángulos, la desigualdad triangular y la correspondencia entre el may
 - Redondear antes del resultado final.
 
 El campus virtual de Método Nebula desarrolla trigonometría desde triángulos rectángulos hasta leyes de senos y cosenos, identidades y ecuaciones, con ejemplos y práctica gradual. El botón de contacto permite solicitar una ruta basada en la estructura de cada problema.
-`,b=`---
+`,x=`---
 title: "Gases ideales en Bachillerato: presión, volumen y temperatura con unidades que no sabotean el resultado"
 seoTitle: "Gases ideales en Bachillerato: leyes y ejercicios"
 date: "2026-08-20"
@@ -3161,7 +3161,7 @@ Un aumento de solo $20\\,\\mathrm{K}$ multiplica la constante por aproximadament
 - En Arrhenius, las temperaturas se expresan siempre en kelvin.
 
 En el [campus virtual de Método Nebula](/contacto/) puedes repasar Química con ejercicios que separan datos, modelo y unidades antes de hacer cuentas. Es especialmente útil en Cinética, donde un planteamiento correcto vale más que memorizar una ecuación integrada.
-`,j=`---
+`,C=`---
 title: Circuitos eléctricos de corriente continua: problemas resueltos de nivel universitario
 date: 2026-07-03
 updated: 2026-07-03
@@ -3310,7 +3310,7 @@ Un signo negativo en una corriente no significa que el problema esté mal: signi
 - Confundir potencia con energía.
 
 Si estás preparando circuitos dentro de Física I o Electricidad, puedes revisar [clases particulares de Física para Bachillerato e Ingeniería](/clases-particulares/fisica-ingenieria/) y practicar primero la guía de [cómo plantear problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/).
-`,C=`---
+`,j=`---
 title: Cómo aprobar Cálculo I en primero de Ingeniería: plan de estudio de seis semanas
 date: 2026-06-13
 updated: 2026-11-05
@@ -3961,7 +3961,7 @@ No dejes los past papers para el final. Empieza separando preguntas por tema, co
 Si el tiempo es el problema, no aceleres a ciegas. Observa en qué te detienes: leer, decidir el método, operar o redactar. Cada atasco se entrena de manera distinta.
 
 Para organizar el trabajo de varias asignaturas, consulta la guía sobre [IB y GCSE con rúbrica y calendario](/blog/ib-gcse-como-preparar-examenes-internacionales/). Si quieres transformar tu programa y tus preguntas de práctica en un plan concreto, puedes ver las [clases particulares para IB y GCSE](/clases-particulares/gcse-ib/) o [contactar con Nebula](/contacto/).
-`,U=`---
+`,H=`---
 title: Cómo preparar Matemáticas II para la PAU: qué practicar y cómo corregir
 date: 2026-07-21
 updated: 2026-07-21
@@ -4027,7 +4027,7 @@ En las tres semanas previas, alterna tres días de bloques débiles, dos días d
 La señal de que avanzas no es que el examen “te suene”. Es que puedes decidir el método, ejecutar los pasos sin depender de una solución y explicar dónde comprobarías un resultado.
 
 Para planificar la preparación general, consulta [cómo organizar la Selectividad con un calendario](/blog/preparar-selectividad-con-calendario/). Si necesitas convertir tus modelos de PAU en un plan de trabajo y corrección adaptado a tu punto de partida, revisa las [clases particulares para Selectividad y PAU](/clases-particulares/selectividad/) o [cuéntanos tu caso](/contacto/).
-`,w=`---
+`,O=`---
 title: Cómo resolver límites: indeterminaciones y ejercicios
 seoTitle: "Cómo resolver límites: indeterminaciones y ejercicios"
 date: 2026-08-17
@@ -4905,7 +4905,7 @@ Sustituye primero y transforma solo si aparece una indeterminación. Factoriza p
 Al terminar, sustituye de nuevo en la expresión transformada, revisa el signo desde ambos lados y contrasta el orden de magnitud. Una forma indeterminada nunca es la respuesta final.
 
 Los límites sostienen continuidad, derivadas e integrales, por lo que conviene dominarlos antes de avanzar en un plan de [Cálculo I para Ingeniería](/blog/como-aprobar-calculo-i-ingenieria-seis-semanas/). Si necesitas practicar con ejercicios de tu temario y recibir corrección del razonamiento, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,D=`---
+`,U=`---
 title: Continuidad y derivabilidad: diferencias y problemas
 seoTitle: "Continuidad y derivabilidad: diferencias y ejercicios"
 date: 2026-08-31
@@ -6238,7 +6238,7 @@ La fórmula $-F_x/F_y$ no decide la pendiente porque produce $0/0$ si ambas parc
 La derivación implícita se reduce a tres hábitos: recordar que $y$ depende de $x$, aplicar la regla de la cadena y no dividir sin revisar el denominador. Con eso puedes obtener pendientes, tangentes, curvatura y razones de cambio incluso cuando despejar la variable es inviable.
 
 Si las reglas de derivación todavía no están automatizadas, repasa primero [qué son las derivadas y para qué se utilizan](/blog/que-son-las-derivadas-y-para-que-se-utilizan/). Para practicar relaciones implícitas con corrección individual, las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/) permiten detectar exactamente en qué paso se rompe el razonamiento.
-`,R=`---
+`,D=`---
 title: "Derivadas de 2º Bachillerato: ejercicios tipo examen resueltos"
 seoTitle: "Derivadas 2º Bachillerato: ejercicios de examen"
 date: 2026-10-22
@@ -6316,7 +6316,7 @@ No olvides que la función original no está definida en \\(x=1\\).
 3. \\((1-\\ln x)/x^2\\).
 
 En el [Campus de Método Nebula](/campus/) las derivadas se organizan desde reglas básicas hasta problemas de optimización y modelos de examen, con práctica graduada y corrección de errores.
-`,T=`---
+`,w=`---
 title: Derivadas e integrales universitarias: prueba de nivel con ejercicios resueltos
 date: 2026-06-23
 updated: 2026-08-12
@@ -6484,7 +6484,7 @@ Antes de enfrentarte a problemas de Cálculo I deberías poder:
 - Revisar si un resultado tiene sentido por signo, unidades o gráfica.
 
 Para profundizar, puedes leer las guías sobre [qué son las derivadas](/blog/que-son-las-derivadas-y-para-que-se-utilizan/) y [qué son las integrales](/blog/que-son-las-integrales-y-para-que-se-utilizan/). Si quieres un diagnóstico más completo, revisa [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,k=`---
+`,R=`---
 title: "Derivadas parciales y gradiente: teoría y ejercicios"
 date: "2026-09-06"
 updated: "2026-09-06"
@@ -7507,7 +7507,7 @@ Antes de resolver, revisa:
 - La normal y el rozamiento están justificados.
 
 Si este paso te cuesta, vuelve a la guía de [Física I sin memorizar fórmulas](/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas/) o revisa [clases particulares de Física para Bachillerato e Ingeniería](/clases-particulares/fisica-ingenieria/).
-`,O=`---
+`,B=`---
 title: "Disoluciones tampón: ejercicios resueltos de Henderson–Hasselbalch"
 seoTitle: "Disoluciones tampón: Henderson-Hasselbalch | Ejercicios resueltos"
 date: "2026-10-24"
@@ -7611,7 +7611,7 @@ También conviene recordar:
 - expresa el resultado con sentido químico: añadir ácido debe disminuir el pH.
 
 El [campus virtual de Método Nebula](/contacto/) incluye rutas de Química con teoría clara, ejercicios resueltos y problemas de examen que separan la reacción previa del equilibrio. Esa estructura ayuda a construir soluciones rigurosas y no solo a acertar una fórmula.
-`,F=`---
+`,T=`---
 title: Econometría desde cero: cómo interpretar una regresión correctamente
 date: 2026-07-06
 updated: 2026-07-06
@@ -7730,7 +7730,7 @@ Una buena respuesta incluye:
 6. Cautela sobre causalidad y supuestos.
 
 Para reforzar la base estadística, revisa [Estadística desde cero para elegir contrastes](/blog/estadistica-desde-cero-para-elegir-contrastes/) y [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,B=`---
+`,k=`---
 title: Economía y ADE: cómo estudiar matemáticas sin perder el sentido económico
 date: 2026-05-26
 updated: 2026-05-26
@@ -7798,7 +7798,7 @@ Una buena sesión de repaso debería mezclar:
 Si solo practicas la parte mecánica, el examen puede penalizarte en la explicación. Si solo estudias teoría, el cálculo llega inseguro. La clave está en unir ambas cosas.
 
 Si ese es tu caso, puedes revisar [clases particulares de Economía y ADE](/clases-particulares/economia-ade/) o escribirnos desde [contacto](/contacto/).
-`,H=`---
+`,F=`---
 title: "Ecuaciones bicuadradas de 4º ESO: guía y ejercicios resueltos"
 seoTitle: "Ecuaciones bicuadradas 4º ESO: ejercicios resueltos"
 date: 2026-10-29
@@ -8080,7 +8080,7 @@ La condición inicial se aplica al final, no al principio. Primero se encuentra 
 - Sustituir condiciones iniciales antes de terminar la solución general.
 
 Si necesitas practicar con una colección ordenada de problemas, puedes empezar por la guía de [cómo estudiar matemáticas sin memorizar fórmulas](/blog/como-estudiar-matematicas-sin-memorizar/) o pedir un diagnóstico en [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,G=`---
+`,V=`---
 title: Ecuaciones de segundo grado en 3.º ESO: ejercicios resueltos
 seoTitle: "Ecuaciones de segundo grado 3.º ESO: ejercicios resueltos"
 date: 2026-11-05
@@ -8235,7 +8235,7 @@ Como no existe raíz cuadrada real de un número negativo, la ecuación no tiene
 Primero ordena la ecuación igualándola a cero. Factoriza cuando sea claro y usa la fórmula general cuando no lo sea. El discriminante te dice cuántas soluciones reales esperar y la comprobación final confirma el resultado.
 
 Para reforzar álgebra y sistemas con ejercicios adaptados a tu nivel, consulta las [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,V=`---
+`,G=`---
 title: "Energía mecánica con rozamiento: problemas resueltos de 4º ESO"
 seoTitle: "Energía mecánica con rozamiento 4º ESO: problemas"
 date: 2026-10-26
@@ -8287,7 +8287,7 @@ La disminución es coherente: el rozamiento se opone al movimiento.
 2. \\(40\\text{ J}\\).
 
 En el [Campus de Método Nebula](/campus/) energía, fuerzas y movimiento se trabajan como un mismo sistema de modelos y ejercicios.
-`,W=`---
+`,K=`---
 title: Errores más comunes en Inferencia Estadística
 date: 2026-07-12
 updated: 2026-07-12
@@ -8391,7 +8391,7 @@ Una conclusión estadística completa debería incluir:
 La última frase importa: no prometas más de lo que el diseño permite.
 
 Para reforzar este bloque, revisa [p-valor, intervalo de confianza y tamaño del efecto](/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/) o [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,K=`---
+`,W=`---
 title: "Calor y temperatura en ESO: cómo interpretar cambios de estado y curvas de calentamiento"
 seoTitle: "Calor, temperatura y cambios de estado en ESO"
 date: "2026-07-06"
@@ -8636,7 +8636,7 @@ La misma comparación explica por qué un submarino modifica su flotabilidad lle
 - Olvidar que equilibrio exige igualdad de fuerzas, no ausencia de fuerzas.
 
 El campus virtual de Método Nebula desarrolla masa, volumen, densidad, presión, empuje y flotación con experimentos razonados, ejemplos y problemas progresivos. El botón de contacto permite solicitar una ruta que conecta cada fórmula con el modelo físico que la justifica.
-`,X=`---
+`,Z=`---
 title: "Electricidad y circuitos en ESO: entiende qué ocurre antes de usar la ley de Ohm"
 date: "2026-10-19"
 updated: "2026-11-05"
@@ -8734,7 +8734,7 @@ Un fusible o interruptor automático interrumpe el circuito cuando la corriente 
 ¿Qué ocurre con la corriente si duplicas la resistencia manteniendo $V$? Se reduce a la mitad en un componente óhmico. ¿Por qué dos ramas en paralelo tienen el mismo voltaje? Porque sus extremos están conectados a los mismos nodos. ¿Qué se conserva en una unión? La corriente total que entra es la que sale.
 
 El campus virtual de Método Nebula desarrolla electricidad con conceptos, circuitos, ejemplos guiados, ejercicios y preguntas de examen. Si quieres saber si el bloqueo está en el dibujo, la fórmula o la interpretación, utiliza el botón de contacto.
-`,Z=`---
+`,X=`---
 title: "Energía mecánica en ESO: trabajo, potencia y conservación sin confundir fuerza con energía"
 seoTitle: "Energía mecánica en ESO: trabajo y conservación"
 date: "2026-09-02"
@@ -9291,7 +9291,7 @@ La posición en grupo ayuda a predecir electrones externos e iones habituales. L
 ## Del modelo a todo el campus de química
 
 El campus virtual de Método Nebula conecta estructura atómica con tabla periódica, enlace, formulación y reacciones. Incluye teoría visual, ejercicios graduados y preguntas razonadas. El botón de contacto permite acceder a la ruta desde ESO y continuar con Bachillerato y PAU sin reconstruir la base cada curso.
-`,ie=`---
+`,oe=`---
 title: "Reacciones químicas en ESO: ajusta ecuaciones y conserva átomos sin cambiar las fórmulas"
 seoTitle: "Reacciones químicas en ESO: ajuste y conservación"
 date: "2026-08-03"
@@ -9411,7 +9411,7 @@ La masa aumenta porque se incorpora oxígeno del aire, no porque aparezca materi
 ## Del ajuste a la química completa
 
 El campus virtual de Método Nebula conecta ecuaciones con formulación, moles, estequiometría, energía y equilibrio. Incluye teoría, ejercicios graduados y reacciones resueltas paso a paso. El botón de contacto permite acceder a la ruta desde ESO y construir una base que siga siendo útil en Bachillerato.
-`,oe=`---
+`,ie=`---
 title: "Sonido y ondas en ESO: frecuencia, amplitud y velocidad sin confundir tono con volumen"
 seoTitle: "Sonido y ondas en ESO: frecuencia, amplitud y velocidad"
 date: "2026-10-08"
@@ -11516,7 +11516,7 @@ Hay algunos avisos claros:
 La estadística universitaria se vuelve mucho más manejable cuando separas decisión, cálculo e interpretación. Cada parte tiene su dificultad, pero también su método de estudio.
 
 Si estás preparando probabilidad, inferencia, regresión o estadística para Bachillerato, Universidad, TFG o TFM, revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/) o [cuéntanos tu caso](/contacto/).
-`,xe=`---
+`,be=`---
 title: Estequiometría universitaria: ejercicios resueltos de dificultad progresiva
 date: 2026-07-07
 updated: 2026-07-07
@@ -11671,7 +11671,7 @@ Antes de entregar, revisa:
 - La unidad final es correcta.
 
 Para seguir practicando, revisa la guía de [Física y Química: cómo plantear problemas antes de calcular](/blog/fisica-y-quimica-como-plantear-problemas/) o la página de [clases particulares de Química](/clases-particulares/quimica/).
-`,be=`---
+`,xe=`---
 title: "Estudio completo de una función paso a paso"
 date: "2026-09-02"
 updated: "2026-09-02"
@@ -12555,7 +12555,7 @@ Al dividir, multiplica por la inversa de la segunda fracción.
 4. \\(x\\neq5,-5\\).
 
 En el [Campus de Método Nebula](/campus/) las fracciones algebraicas se conectan con factorización, ecuaciones y funciones mediante ejercicios graduados para que cada simplificación se pueda justificar.
-`,je=`---
+`,Ce=`---
 title: "Funciones lineales y afines de 3º ESO: gráficas y ejercicios"
 seoTitle: "Funciones lineales y afines 3º ESO: ejercicios"
 date: 2026-11-03
@@ -12659,7 +12659,7 @@ La cuota fija es la ordenada y el precio por contenido es la pendiente. Con \\(5
 4. El corte es \\((3,0)\\).
 
 En el [Campus de Método Nebula](/campus/) las funciones se conectan con tablas, gráficas, ecuaciones y problemas contextualizados. Así puedes practicar cada representación antes de ejercicios de examen más largos.
-`,Ce=`---
+`,je=`---
 title: "GCSE Chemistry: acids, bases and salts without guessing equations"
 seoTitle: "GCSE Chemistry: acids, bases and salts step by step"
 date: "2026-10-24"
@@ -13273,7 +13273,7 @@ El ácido nítrico elimina interferencias sin introducir iones haluro. Utilizar 
 - Usar ácido clorhídrico antes de la prueba de haluros.
 
 El campus virtual de Método Nebula conecta análisis químico, enlace, iones y reacciones con teoría visual, prácticas obligatorias, ejercicios graduados y preguntas GCSE resueltas. El botón de contacto permite acceder a una ruta bilingüe donde cada prueba se aprende como una cadena de procedimiento, evidencia y conclusión.
-`,Ue=`---
+`,He=`---
 title: "GCSE Chemistry: electrolysis and electrode products without memorising lists"
 date: "2026-10-07"
 updated: "2026-10-28"
@@ -13384,7 +13384,7 @@ Tests do not replace half-equations. A precise extended answer distinguishes **p
 - Applying inert-electrode rules when an electrode reacts.
 
 Método Nebula's virtual campus develops electrochemistry with particle models, product prediction, half-equations, copper electrodes and fuel cells, supported by exercises and exam questions. The contact button opens a study route designed to reason out each product instead of memorising tables.
-`,we=`---
+`,Oe=`---
 title: "Química GCSE: electrólisis y productos de los electrodos sin memorizar listas"
 date: "2026-10-07"
 updated: "2026-10-07"
@@ -13499,7 +13499,7 @@ Estas pruebas no sustituyen a las semiecuaciones. Son evidencias experimentales 
 - Aplicar reglas de electrodos inertes cuando el electrodo participa.
 
 El campus virtual de Método Nebula desarrolla electroquímica con modelos de partículas, predicción de productos, semiecuaciones, electrodos de cobre y pilas de combustible, además de ejercicios y preguntas de examen. El botón de contacto permite solicitar una ruta para razonar cada producto en lugar de memorizar tablas.
-`,De=`---
+`,Ue=`---
 title: "GCSE Energy Changes: Reaction Profiles, Bonds and Calorimetry Explained Precisely"
 seoTitle: "GCSE Energy Changes: Profiles and Calorimetry"
 date: "2026-07-27"
@@ -13679,7 +13679,7 @@ Una buena evaluación conecta cada limitación con la dirección del error, no s
 ## Llevar la energía química al examen
 
 El campus virtual de Método Nebula conecta enlace, perfiles energéticos, velocidad y equilibrio mediante teoría visual, cálculos graduados y preguntas GCSE resueltas. El botón de contacto da acceso a una ruta bilingüe para practicar explicación, ecuación y evaluación experimental como una sola competencia.
-`,Re=`---
+`,De=`---
 title: "GCSE Chemistry: master equations and moles without the usual mistakes"
 date: "2026-09-12"
 updated: "2026-10-28"
@@ -13788,7 +13788,7 @@ The essential answers are $\\mathrm{2Mg+O_2\\rightarrow2MgO}$; 0.50 mol; the bal
 Método Nebula's virtual campus connects foundations, formulae and amounts, bonding, reactions and exam practice. Layered theory, worked examples, exercises, multiple-choice questions and exam problems make the step from concept to calculation deliberate rather than improvised.
 
 If equations make sense separately but collapse in a longer problem, the contact button opens a review of the current level and a GCSE Chemistry route with a clear goal and deadline.
-`,Te=`---
+`,we=`---
 title: "Química GCSE: domina ecuaciones y moles con una ruta que evita los errores típicos"
 date: "2026-09-12"
 updated: "2026-10-28"
@@ -13905,7 +13905,7 @@ Las respuestas esenciales son: $\\mathrm{2Mg+O_2\\rightarrow2MgO}$; 0,50 mol; la
 El campus virtual de Método Nebula conecta fundamentos, fórmulas y cantidades, enlaces, reacciones y práctica de examen. Incluye teoría por capas, ejemplos, ejercicios, preguntas de opción múltiple, errores comunes y preguntas de examen para que el salto entre concepto y cálculo no dependa de una hoja suelta.
 
 Si las ecuaciones “se entienden” por separado pero se desordenan en un problema largo, el botón de contacto sirve para plantear el caso, revisar el nivel y construir una ruta de Química GCSE con un objetivo y una fecha claros.
-`,ke=`---
+`,Re=`---
 title: "GCSE Chemistry: the periodic table and Groups 1, 7 and 0 without memorising facts"
 seoTitle: "GCSE Chemistry: periodic table and Groups 1, 7 and 0"
 date: "2026-08-23"
@@ -14178,7 +14178,7 @@ When timing a fixed product amount, $1/t$ can represent relative rate. Explain w
 ## Practising explanations that earn marks
 
 Método Nebula's virtual campus combines particle theory, graphs, practical work and graded GCSE questions. Each factor is trained through a cause–collision–result chain and model answers. Use the contact button to access this work alongside moles, chemical energetics and equilibrium.
-`,Oe=`---
+`,Be=`---
 title: "Química GCSE: velocidad de reacción y teoría de colisiones para explicar cualquier gráfica"
 seoTitle: "Química GCSE: velocidad de reacción y colisiones"
 date: "2026-09-23"
@@ -14271,7 +14271,7 @@ Si se utiliza tiempo para alcanzar una cantidad fija, una medida sencilla de vel
 ## Practicar explicaciones que sí puntúan
 
 El campus virtual de Método Nebula combina teoría de partículas, gráficas, prácticas y preguntas GCSE graduadas. Cada factor se trabaja con la cadena causa–colisión–resultado y con modelos de respuesta. Utiliza el botón de contacto si quieres acceder a este entrenamiento junto con moles, energía química y equilibrio.
-`,Fe=`---
+`,Te=`---
 title: "GCSE Maths: master algebra and graphs by seeing one idea three ways"
 date: "2026-10-14"
 updated: "2026-10-28"
@@ -14352,7 +14352,7 @@ An inequality produces an interval, not only a number. Reverse the sign when mul
 Express one linear relationship as a story, equation, table and graph. Repeat with a quadratic, then solve a problem where two models intersect. This transfer is more valuable than a page of identical expansions.
 
 Método Nebula's virtual campus develops number, algebra and graphs, coordinate geometry and functions through theory, examples, practice and exam questions. The contact button can turn scattered errors into a focused Foundation or Higher route.
-`,Be=`---
+`,ke=`---
 title: "Matemáticas GCSE: domina álgebra y gráficas viendo una idea de tres formas"
 date: "2026-10-14"
 updated: "2026-10-28"
@@ -14451,7 +14451,7 @@ Resolver una desigualdad produce un intervalo, no solo un número. Si multiplica
 Toma una relación lineal y exprésala como historia, ecuación, tabla y gráfica. Repite con una cuadrática. Después resuelve una pregunta donde dos modelos se intersecten. Esa transferencia prepara mejor que una página de expansiones idénticas.
 
 El campus virtual de Método Nebula desarrolla números, álgebra y gráficas, geometría analítica y funciones con teoría, ejemplos, práctica y preguntas de examen. Si quieres convertir errores dispersos en una ruta de nivel básico o avanzado, utiliza el botón de contacto.
-`,He=`---
+`,Fe=`---
 title: "GCSE Circle Theorems: How to Recognise the Diagram and Justify Every Angle"
 seoTitle: "GCSE Circle Theorems: Guide and Proofs"
 date: "2026-07-25"
@@ -14639,7 +14639,7 @@ Una prueba clara alterna afirmación y justificación:
 ## Practicar reconocimiento y razonamiento
 
 El campus virtual de Método Nebula conecta teoremas de la circunferencia, semejanza, trigonometría y geometría analítica con teoría visual y preguntas GCSE graduadas. El botón de contacto permite acceder a una ruta bilingüe con ejercicios de identificación, cálculo y prueba completamente resueltos.
-`,Ge=`---
+`,Ve=`---
 title: "GCSE Maths: histograms and cumulative frequency without confusing height and area"
 date: "2026-10-15"
 updated: "2026-10-28"
@@ -14729,7 +14729,7 @@ A cumulative curve can estimate how many values lie below a point inside a class
 The total bar area must represent the total frequency. The final cumulative value must equal $N$, and $Q_1<\\text{median}<Q_3$ with a positive IQR.
 
 Método Nebula's virtual campus develops statistics through tables, histograms, cumulative frequency, box plots and distribution comparisons. The contact button opens a route that trains calculation and written interpretation together.
-`,Ve=`---
+`,Ge=`---
 title: "Matemáticas GCSE: histogramas y frecuencia acumulada sin confundir altura y área"
 date: "2026-10-15"
 updated: "2026-10-15"
@@ -14837,7 +14837,7 @@ Cuando se pregunta cuántos datos están por debajo de un valor interior de una 
 La suma de las áreas de las barras debe representar el total. La acumulada final tiene que coincidir con $N$; además, debe cumplirse $Q_1<\\text{mediana}<Q_3$ y el IQR ha de ser positivo.
 
 El campus virtual de Método Nebula desarrolla estadística con tablas, histogramas, frecuencia acumulada, diagramas de caja y comparación de distribuciones mediante ejercicios y preguntas de examen. El botón de contacto permite solicitar una ruta que trabaja conjuntamente el cálculo y la interpretación escrita.
-`,We=`---
+`,Ke=`---
 title: "GCSE Maths: probability trees and conditional probability without adding the wrong branches"
 seoTitle: "GCSE Maths: probability trees and conditional probability"
 date: "2026-09-16"
@@ -14955,7 +14955,7 @@ A condition cannot be reversed by swapping letters. $P(A\\mid B)$ and $P(B\\mid 
 ## From one tree to complete GCSE preparation
 
 Método Nebula's virtual campus connects probability, statistics and algebra through visual examples, graded practice and exam questions. Trees are trained first as structures and then as conditional calculations. Use the contact button to access a bilingual route with theory, exercises and worked models.
-`,Ke=`---
+`,We=`---
 title: "Matemáticas GCSE: árboles de probabilidad y probabilidad condicionada sin sumar ramas equivocadas"
 seoTitle: "Matemáticas GCSE: árboles y probabilidad condicionada"
 date: "2026-09-16"
@@ -15162,7 +15162,7 @@ Review formulas, the error log and two representative questions. Do not attempt 
 - Ask whether the result is sensible in context.
 
 The Método Nebula virtual campus turns this schedule into a personal route: an initial diagnostic, concise theory, graded exercises, worked past papers and an error record. If Grade 4 or 5 is the target, the contact button can be used to build a fourteen-day route from your actual paper rather than a generic topic list.
-`,Xe=`---
+`,Ze=`---
 title: "Recuperación de Matemáticas GCSE: un plan de 14 días para alcanzar el Grade 4 o 5"
 seoTitle: "Recuperación GCSE Maths: plan de 14 días"
 date: "2026-10-01"
@@ -15251,7 +15251,7 @@ Revisa fórmulas, tarjetas de errores y dos preguntas representativas. No intent
 - Pregunta si la respuesta tiene sentido en el contexto.
 
 El campus virtual de Método Nebula convierte este plan en una ruta personal: diagnóstico inicial, teoría breve, ejercicios por dificultad, exámenes resueltos y registro de errores. Si necesitas alcanzar el Grade 4 o 5, el botón de contacto permite organizar un itinerario de catorce días alrededor de tus resultados reales, no de una lista genérica de temas.
-`,Ze=`---
+`,Xe=`---
 title: "GCSE Maths: an eight-week plan to improve at Foundation or Higher"
 date: "2026-09-10"
 updated: "2026-10-28"
@@ -17255,7 +17255,7 @@ Dos lámparas idénticas están en paralelo. Una se rompe y abre su rama. ¿Qué
 Empieza con símbolos y unidades; continúa con problemas de una ecuación; termina con cuestiones de varios pasos que mezclen circuitos, potencia, energía y explicación. Después haz práctica por tema, una mezcla aleatoria y finalmente un examen cronometrado.
 
 El campus virtual de Método Nebula organiza electricidad y magnetismo con teoría, ejemplos trabajados, ejercicios, preguntas de examen y revisión. Si quieres detectar si el bloqueo está en el concepto, el montaje o el cálculo, utiliza el botón de contacto y lo convertimos en un plan concreto.
-`,xn=`---
+`,bn=`---
 title: "GCSE Physics: energy, work and power without confusing joules and watts"
 date: "2026-09-22"
 updated: "2026-10-28"
@@ -17356,7 +17356,7 @@ Do not search for a formula merely because it contains every number. Model the e
 A robust solution exposes **model → equation → substitution with units → result → check**. An efficiency between 0 and 1, power in watts and a closed energy balance provide independent checks.
 
 Método Nebula's virtual campus develops energy, work and power through visual theory, guided examples, exercise banks and exam questions. The contact button opens a route in which formulae form a connected system rather than a list to memorise.
-`,bn=`---
+`,xn=`---
 title: "Física GCSE: energía, trabajo y potencia sin confundir julios, vatios y eficiencia"
 date: "2026-09-22"
 updated: "2026-09-22"
@@ -18111,7 +18111,7 @@ Por tanto, la distancia de detención es 43.2 m. En la figura, ambos resultados 
 ## Del gráfico a un plan de examen
 
 El campus virtual de Método Nebula conecta movimiento, fuerzas, energía y seguridad vial mediante teoría, gráficas interactivas conceptuales y preguntas GCSE graduadas. El botón de contacto permite acceder a un itinerario bilingüe con ejercicios y modelos de respuesta, para que pendiente, área y unidades se conviertan en un método estable.
-`,jn=`---
+`,Cn=`---
 title: "GCSE Physics: half-life and radioactivity through graphs that explain decay"
 date: "2026-10-22"
 updated: "2026-10-28"
@@ -18203,7 +18203,7 @@ Each measure should be linked to how it reduces dose.
 - Confusing contamination with irradiation.
 
 Método Nebula's virtual campus develops nuclear physics through nuclear structure, radiation, half-life, activity, safety and exam questions. The contact button opens a route connecting calculations, graphs and scientific explanations.
-`,Cn=`---
+`,jn=`---
 title: "Física GCSE: vida media y radiactividad con gráficas que explican el decaimiento"
 date: "2026-10-22"
 updated: "2026-10-22"
@@ -18802,7 +18802,7 @@ Thick pencil lines, a tilted normal or measuring from the block face create syst
 Check the normal, units, direction and $v=f\\lambda$. If the wave slows down but your wavelength increases, the answer is inconsistent.
 
 Método Nebula's virtual campus links waves, light and sound through structured theory, graded questions and GCSE exam practice. Use the contact button if you want a plan with corrected diagrams and explanations.
-`,Un=`---
+`,Hn=`---
 title: "Física GCSE: reflexión y refracción sin confundir frecuencia, velocidad y longitud de onda"
 seoTitle: "Física GCSE: reflexión y refracción paso a paso"
 date: "2026-10-29"
@@ -18902,7 +18902,7 @@ Una línea gruesa, una normal inclinada o medir desde la cara del bloque introdu
 Antes de terminar, revisa normal, unidades, dirección y relación $v=f\\lambda$. Si el medio reduce la velocidad pero tu longitud de onda aumenta, hay una incoherencia.
 
 El campus de Método Nebula conecta ondas, luz y sonido con teoría, ejercicios graduados y preguntas de examen GCSE. Si quieres practicar dibujos y explicaciones con corrección, utiliza el botón de contacto para construir un plan.
-`,wn=`---
+`,On=`---
 title: "Geometría analítica en 4º ESO: rectas, pendientes y distancias"
 seoTitle: "Geometría analítica 4º ESO: rectas y ejercicios"
 date: 2026-10-27
@@ -18952,7 +18952,7 @@ Entre \\((0,0)\\) y \\((3,4)\\), \\(d=5\\).
 3. \\(5\\).
 
 En el [Campus de Método Nebula](/campus/) las coordenadas, rectas y distancias se conectan con funciones y geometría mediante ejercicios graduados.
-`,Dn=`---
+`,Un=`---
 title: "Gráficas de MRU y MRUA en 4º ESO: ejercicios interpretados"
 seoTitle: "Gráficas de MRU y MRUA: ejercicios resueltos 4º ESO"
 date: 2026-11-05
@@ -19287,7 +19287,7 @@ $$
 Todas las masas se atraen con una fuerza que aumenta con las masas y disminuye con el cuadrado de la distancia. La masa se mide en kg y no cambia al viajar; el peso es una fuerza, se mide en N y vale $P=mg$ cerca de la Tierra. La caída libre es un MRUA con aceleración $g$.
 
 Para practicar el movimiento de caída, repasa el [MRUA con fórmulas y ejercicios](/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/). Para aprender a identificar datos, unidades y modelo antes de calcular, consulta [cómo plantear problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/). También puedes consultar las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,Rn=`---
+`,Dn=`---
 title: IB y GCSE: cómo preparar exámenes internacionales con rúbrica y calendario
 date: 2026-06-10
 updated: 2026-06-10
@@ -19355,7 +19355,7 @@ Cada semana conviene responder tres preguntas:
 Esta revisión evita estudiar por inercia. En programas internacionales, donde el formato importa mucho, una preparación sin feedback acaba dejando puntos fáciles por el camino.
 
 Para organizar esa preparación puedes ver [clases para GCSE, IGCSE e IB](/clases-particulares/gcse-ib/) o [contactar](/contacto/) para revisar syllabus, fecha y objetivo.
-`,Tn=`---
+`,wn=`---
 title: Integración por partes: fórmula y ejercicios resueltos
 seoTitle: "Integración por partes: fórmula, elegir u y dv, ejercicios"
 date: 2026-08-06
@@ -20036,7 +20036,7 @@ Integración por partes funciona cuando el intercambio \\(\\int u\\,dv\\to uv-\\
 Después de aplicar la fórmula, pueden ocurrir tres cosas útiles: la nueva integral es inmediata, hay que repetir partes o reaparece la integral original y se despeja. En todos los casos, la derivación del resultado es la prueba definitiva.
 
 Si quieres practicar el método con ejercicios de tu grado y recibir corrección sobre la elección de \\(u\\), los signos y la presentación, consulta las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,kn=`---
+`,Rn=`---
 title: Integración por sustitución: cambio de variable y ejercicios
 seoTitle: "Integración por sustitución: cambio de variable y ejercicios"
 date: 2026-08-12
@@ -22087,7 +22087,7 @@ $$
 Dibuja primero y escribe después los límites. En una integral iterada, resuelve la integral interior tratando la otra variable como constante. Cambia el orden cuando simplifique el integrando o los límites, reconstruyendo siempre la región. Para áreas integra uno; para volúmenes usa altura superior menos inferior; para masas introduce la densidad.
 
 Si necesitas trabajar regiones y cambios de orden con ejercicios de tu temario, las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/) permiten practicar el planteamiento y no solo la integración mecánica.
-`,On=`---
+`,Bn=`---
 title: Integrales de funciones racionales y fracciones parciales
 date: 2026-08-03
 updated: 2026-08-03
@@ -22849,7 +22849,7 @@ Una integral racional se resuelve en tres capas: división si la fracción es im
 El método termina cuando cada sumando encaja en una primitiva conocida. La comprobación más segura se hace antes y después de integrar: primero reuniendo la descomposición y después derivando el resultado.
 
 Si necesitas aplicar estas plantillas a ejercicios de tu asignatura y corregir la factorización o el sistema de coeficientes, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Fn=`---
+`,Tn=`---
 title: Integrales impropias: convergencia y ejercicios resueltos
 date: 2026-08-15
 updated: 2026-08-15
@@ -23647,7 +23647,7 @@ Una integral es impropia por un intervalo infinito, por una singularidad o por a
 La clasificación debe preceder al valor. Antes de integrar, marca sobre el intervalo cada punto fuera del dominio y estudia por separado el comportamiento local y la cola en infinito. Después elige entre cálculo exacto y comparación. Esta secuencia evita cancelaciones ilegítimas, sustituciones de $\\infty$ como si fuera un número y conclusiones basadas únicamente en que el integrando tiende a cero.
 
 Si necesitas trabajar convergencia, comparaciones y técnicas de integración sobre ejercicios de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Bn=`---
+`,kn=`---
 title: Integrales inmediatas: ejercicios resueltos paso a paso
 seoTitle: "Integrales inmediatas: ejercicios resueltos paso a paso"
 date: 2026-11-05
@@ -23812,7 +23812,7 @@ Si aparece una función dentro de otra junto con su derivada, puede corresponder
 Una integral inmediata se reconoce después de simplificar, no antes. Separa términos, identifica la primitiva y deriva tu resultado para comprobarlo. Esa rutina evita usar sustitución o partes cuando no hacen falta.
 
 Si necesitas practicar estas técnicas con ejercicios de tu temario, consulta las [clases particulares de Cálculo](/clases-particulares/calculo-universitario/).
-`,Hn=`---
+`,Fn=`---
 title: "Integrales trigonométricas: ejercicios universitarios resueltos"
 seoTitle: "Integrales trigonométricas: ejercicios resueltos"
 date: 2026-10-24
@@ -23950,7 +23950,7 @@ Con \\(m=0{,}5\\text{ kg}\\) y \\(k=100\\text{ N/m}\\), \\(x=0{,}049\\text{ m}\\
 2. \\(80\\text{ N/m}\\).
 
 En el [Campus de Método Nebula](/campus/) fuerzas, muelles, energía y gráficas se practican como modelos conectados con ejercicios graduados.
-`,Gn=`---
+`,Vn=`---
 title: "Ley de Ohm en 4º ESO: circuitos y ejercicios resueltos"
 seoTitle: "Ley de Ohm 4º ESO: ejercicios resueltos"
 date: 2026-11-02
@@ -24054,7 +24054,7 @@ La intensidad del circuito es \\(I=12/6=2\\text{ A}\\). Por tanto, las caídas d
 4. La tensión.
 
 En el [Campus de Método Nebula](/campus/) la electricidad se trabaja desde las magnitudes y los dibujos de circuito hasta problemas de serie, paralelo y potencia, con ejercicios graduados para que cada fórmula tenga un significado físico.
-`,Vn=`---
+`,Gn=`---
 title: Límites trigonométricos: ejercicios resueltos y métodos
 seoTitle: "Límites trigonométricos: ejercicios resueltos paso a paso"
 date: 2026-11-05
@@ -24216,7 +24216,4122 @@ Esta vía es más clara que derivar numerador y denominador sin identificar la i
 ## Resumen práctico
 
 Primero identifica cuál de los límites notables puede aparecer. Después ajusta el argumento, conserva las constantes y revisa que trabajas en radianes. Para otras indeterminaciones, consulta la guía general de [límites e indeterminaciones](/blog/como-resolver-limites-indeterminaciones-ejercicios/).
+`,Kn=`---
+title: Matemáticas II · PAU 2025 · Andalucía — examen resuelto
+seoTitle: Matemáticas II · PAU 2025 · Andalucía — examen resuelto
+date: 2025-10-16
+updated: 2026-11-05
+description: Examen de Matemáticas II de la PAU 2025 de Andalucía resuelto paso a paso, con todas las opciones desarrolladas.
+tag: Matemáticas II PAU
+category: Selectividad
+relatedService: /campus/
+relatedPosts: como-preparar-pau-matematicas-ii,pau-matematicas-matrices-determinantes-gauss,pau-matematicas-integrales-areas
+image: /favicon.svg
+---
+
+Aquí tienes el examen completo con cada enunciado acompañado de su desarrollo. Puedes hacerlo primero sin mirar y usar las soluciones después para localizar exactamente qué técnica necesitas repasar.
+
+**Convocatoria:** ordinaria. **Formato:** el ejercicio 1 es obligatorio; en cada uno de los otros tres bloques se elegía una de las dos propuestas. Se resuelven aquí las siete propuestas.
+
+## Ejercicio 1 · Precio de tres prendas
+
+### Enunciado
+
+La compra de un jersey, una camisa y un pantalón suma 80 €. El jersey cuesta un tercio de lo que cuestan juntos la camisa y el pantalón.
+
+**a)** ¿Quedan determinados de forma única los precios del jersey y de la camisa? Razona la respuesta.
+
+**b)** Con descuentos del 30 % en el jersey, del 40 % en la camisa y del 20 % en el pantalón, la compra habría costado 57 €. Calcula los precios iniciales.
+
+### Solución
+
+Llamemos $j$, $c$ y $p$ a los precios del jersey, la camisa y el pantalón. Los datos iniciales dan
+
+$$j+c+p=80,\\qquad j=\\frac{c+p}{3}.$$
+
+La segunda igualdad dice $c+p=3j$. Al sustituirla en la primera queda $j+3j=80$, de donde
+
+$$j=20,\\qquad c+p=60.$$
+
+Todas estas cantidades están expresadas en euros.
+
+Por tanto, el jersey sí queda fijado: cuesta **20 €**. En cambio, la camisa no: puede valer cualquier cantidad compatible con que, junto al pantalón, sume 60 €. Por ejemplo, $c=25$ y $p=35$, pero también $c=30$ y $p=30$.
+
+En las rebajas se ahorran $80-57=23$ euros. Ese ahorro cumple
+
+$$0{,}3j+0{,}4c+0{,}2p=23.$$
+
+Ya sabemos que $j=20$ y que $c+p=60$. Sustituimos $p=60-c$:
+
+$$0{,}3(20)+0{,}4c+0{,}2(60-c)=23.$$
+
+Así, $6+0{,}4c+12-0{,}2c=23$, luego $0{,}2c=5$ y $c=25$. Finalmente, $p=60-25=35$.
+
+$$\\boxed{j=20,\\quad c=25,\\quad p=35}$$
+
+Es decir: 20 €, 25 € y 35 €, respectivamente.
+
+## Ejercicio 2 · Un límite con parámetro
+
+### Enunciado
+
+Sabiendo que es finito, calcula el valor de $a$ y del límite
+
+$$\\lim_{x\\to0}\\frac{\\sin x-ax+2-2\\cos x}{e^x-x\\cos x-1}.$$
+
+### Solución
+
+Al sustituir $x=0$ aparece $0/0$. Aplicamos L'Hôpital una vez:
+
+$$\\lim_{x\\to0}\\frac{\\cos x-a+2\\sin x}{e^x-\\cos x+x\\sin x}.$$
+
+El denominador vuelve a valer 0 en $x=0$. Para que el límite pueda ser finito, el numerador también debe anularse: $1-a=0$. Por tanto, necesariamente $a=1$.
+
+Con ese valor aplicamos L'Hôpital una segunda vez:
+
+$$
+\\lim_{x\\to0}\\frac{-\\sin x+2\\cos x}{e^x+2\\sin x+x\\cos x}
+=\\frac{-\\sin0+2\\cos0}{e^0+2\\sin0+0\\cos0}=2.
+$$
+
+$$\\boxed{a=1\\quad\\text{y}\\quad L=2}$$
+
+## Ejercicio 3 · Asíntota y monotonía
+
+### Enunciado
+
+Sea $f(x)=a+\\dfrac{\\ln x}{x^2}$, con $x>0$.
+
+**a)** Halla $a$ para que $y=1$ sea una asíntota horizontal.
+
+**b)** Para $a=0$, estudia el crecimiento, el decrecimiento y los extremos relativos.
+
+### Solución
+
+Para $x\\to+\\infty$, el cociente $\\ln x/x^2$ tiende a 0. Por eso
+
+$$\\lim_{x\\to+\\infty}f(x)=a.$$
+
+La asíntota ha de ser $y=1$, así que $\\boxed{a=1}$.
+
+Ahora tomamos $a=0$: $f(x)=\\ln x/x^2$. Derivamos usando la regla del cociente:
+
+$$f'(x)=\\frac{1-2\\ln x}{x^3}.$$
+
+Como $x^3>0$ en el dominio, el signo depende de $1-2\\ln x$. Se anula cuando
+
+$$\\ln x=\\frac12\\quad\\Longrightarrow\\quad x=\\sqrt e.$$
+
+Antes de $\\sqrt e$ el numerador es positivo y después es negativo. Así que $f$ crece en $(0,\\sqrt e)$ y decrece en $(\\sqrt e,+\\infty)$. Tiene un máximo relativo, y también absoluto, en $x=\\sqrt e$:
+
+$$f(\\sqrt e)=\\frac{\\ln(\\sqrt e)}{(\\sqrt e)^2}=\\frac{1/2}{e}=\\frac1{2e}.$$
+
+$$\\boxed{\\text{Máximo en }\\left(\\sqrt e,\\frac1{2e}\\right)}$$
+
+## Ejercicio 4 · Tetraedro y distancia a un plano
+
+### Enunciado
+
+Sean $O=(0,0,0)$, $A=(0,2,-2)$, $B=(1,2,m)$ y $C=(2,3,2)$.
+
+**a)** Calcula los valores de $m$ para que el tetraedro $OABC$ tenga volumen 3.
+
+**b)** Para $m=0$, halla la distancia de $O$ al plano que pasa por $A$, $B$ y $C$.
+
+### Solución
+
+Desde $O$ tomamos los vectores $\\overrightarrow{OA}=(0,2,-2)$, $\\overrightarrow{OB}=(1,2,m)$ y $\\overrightarrow{OC}=(2,3,2)$. El volumen es un sexto del valor absoluto del producto mixto:
+
+$$
+V=\\frac16\\left|\\det\\begin{pmatrix}0&2&-2\\\\1&2&m\\\\2&3&2\\end{pmatrix}\\right|
+=\\frac{|4m-2|}{6}.
+$$
+
+Pedimos $V=3$:
+
+$$|4m-2|=18,$$
+
+de donde $4m-2=18$ o $4m-2=-18$. Así obtenemos
+
+$$\\boxed{m=5\\quad\\text{o}\\quad m=-4}.$$
+
+Para $m=0$, $B=(1,2,0)$. Dos vectores del plano $ABC$ son
+
+$$\\overrightarrow{AB}=(1,0,2),\\qquad\\overrightarrow{AC}=(2,1,4).$$
+
+Un vector normal es $\\overrightarrow{AB}\\times\\overrightarrow{AC}=(-2,0,1)$. Con el punto $A$, la ecuación del plano es
+
+$$-2(x-0)+(z+2)=0\\quad\\Longrightarrow\\quad -2x+z+2=0.$$
+
+La distancia desde $O=(0,0,0)$ es
+
+$$
+d=\\frac{|-2\\cdot0+0+2|}{\\sqrt{(-2)^2+0^2+1^2}}
+=\\boxed{\\frac{2\\sqrt5}{5}}.
+$$
+
+## Ejercicio 5 · Plano y recta perpendicular
+
+### Enunciado
+
+Dados $P=(1,1,1)$ y la recta
+
+$$r:\\ \\frac{x-1}{1}=\\frac{y-2}{2}=\\frac{z-3}{2},$$
+
+**a)** Halla el plano que contiene a $r$ y pasa por $P$.
+
+**b)** Halla la recta que pasa por $P$ y corta perpendicularmente a $r$.
+
+### Solución
+
+La recta $r$ pasa por $Q=(1,2,3)$ y tiene vector director $v=(1,2,2)$. Para construir el plano necesitamos otro vector contenido en él:
+
+$$\\overrightarrow{PQ}=Q-P=(0,1,2).$$
+
+Un vector normal es $v\\times\\overrightarrow{PQ}=(2,-2,1)$. Usando $P$, el plano queda
+
+$$2(x-1)-2(y-1)+(z-1)=0,$$
+
+es decir,
+
+$$\\boxed{2x-2y+z-1=0}.$$
+
+Para encontrar la perpendicular, buscamos primero su pie $H$ sobre $r$. El plano perpendicular a $r$ que pasa por $P$ tiene normal $v$:
+
+$$x+2y+2z-5=0.$$
+
+Parametrizamos $r$ como $(x,y,z)=(1+t,2+2t,3+2t)$ y lo metemos en ese plano:
+
+$$1+t+2(2+2t)+2(3+2t)-5=0\\Longrightarrow9t+6=0,$$
+
+por lo que $t=-2/3$ y
+
+$$H=\\left(\\frac13,\\frac23,\\frac53\\right).$$
+
+El vector $\\overrightarrow{PH}=(-2/3,-1/3,2/3)$ es proporcional a $(2,1,-2)$. Por tanto, una ecuación de la recta pedida es
+
+$$\\boxed{(x,y,z)=(1,1,1)+\\lambda(2,1,-2)}.$$
+
+## Ejercicio 6 · Reconstruir una función desde $f''$
+
+### Enunciado
+
+Encuentra la función que verifica
+
+$$f''(x)=e^{x-1}-\\frac1x,\\qquad x>0,$$
+
+y pasa por los puntos $(2,e-2-2\\ln2)$ y $(1,0)$.
+
+### Solución
+
+Integramos una vez:
+
+$$f'(x)=e^{x-1}-\\ln x+A.$$
+
+Integramos de nuevo. Como $\\int\\ln x\\,dx=x\\ln x-x$, obtenemos
+
+$$f(x)=e^{x-1}-x\\ln x+(A+1)x+B.$$
+
+Imponemos $f(1)=0$:
+
+$$1+0+(A+1)+B=0\\quad\\Longrightarrow\\quad A+B=-2.$$
+
+Con $f(2)=e-2-2\\ln2$:
+
+$$e-2\\ln2+2(A+1)+B=e-2-2\\ln2,$$
+
+así que $2A+B=-4$. Al restar las dos ecuaciones resulta $A=-2$ y entonces $B=0$. Finalmente,
+
+$$\\boxed{f(x)=e^{x-1}-x\\ln x-x}.$$
+
+## Ejercicio 7 · Probabilidad con una tabla
+
+### Enunciado
+
+En una inspección se obtuvieron estos resultados:
+
+|          |  Coches |   Motos |
+| -------- | ------: | ------: |
+| Aptos    | 116 383 | 160 667 |
+| No aptos |   2 679 |   3 447 |
+
+Se elige un vehículo al azar.
+
+**a)** Calcula la probabilidad de que sea una moto o haya resultado apto.
+
+**b)** Sabiendo que es un coche, calcula la probabilidad de que no sea apto.
+
+### Solución
+
+Los totales son 119 062 coches, 164 114 motos y 283 176 vehículos. Para el apartado a), «moto o apto» incluye todas las motos y los coches aptos; no contamos dos veces las motos aptas porque ya están dentro del grupo de motos:
+
+$$
+P(\\text{moto}\\cup\\text{apto})=\\frac{164114+116383}{283176}
+=\\boxed{\\frac{4921}{4968}\\approx0{,}9905}.
+$$
+
+Al condicionar a que el vehículo es un coche, solo miramos la columna de coches. De esos 119 062 coches, 2 679 no fueron aptos:
+
+$$
+P(\\text{no apto}\\mid\\text{coche})=\\frac{2679}{119062}
+=\\boxed{\\approx0{,}0225}.
+$$
+
+## Cómo aprovechar este examen
+
+Antes de repetirlo, anota qué apartado te hizo detenerte: límite, estudio de función, geometría, integral o probabilidad. Practicar con ese diagnóstico es más efectivo que limitarse a comprobar el resultado final.
+
+Si quieres una planificación con ejercicios graduados, explicaciones y seguimiento, puedes trabajar estos bloques en el [Campus de Método Nebula](/campus/).
 `,Wn=`---
+title: Matemáticas II · PAU 2025 · Aragón — examen resuelto
+seoTitle: Matemáticas II · PAU 2025 · Aragón — examen resuelto
+date: 2025-10-18
+updated: 2026-11-05
+description: Examen de Matemáticas II de la PAU 2025 de Aragón resuelto paso a paso, incluidas todas sus opciones.
+tag: Matemáticas II PAU
+category: Selectividad
+relatedService: /campus/
+relatedPosts: como-preparar-pau-matematicas-ii,pau-matematicas-matrices-determinantes-gauss,pau-matematicas-probabilidad-bayes
+image: /favicon.svg
+---
+
+Este modelo reúne los enunciados y el desarrollo completo de cada alternativa. Haz una primera vuelta con el tiempo contado y corrige después atendiendo al primer paso que no pudiste justificar.
+
+**Convocatoria:** ordinaria. **Formato:** la pregunta 1 era obligatoria; en las preguntas 2, 3 y 4 se elegía una de las dos opciones. Aquí están resueltas todas.
+
+## Pregunta 1 · Cifrado con matrices
+
+### Enunciado
+
+Se codifica una palabra sustituyendo cada letra por su posición en el alfabeto y formando una matriz columna. Después se multiplica por
+
+$$M_E=\\begin{pmatrix}1&1&1&1\\\\-1&0&-1&-1\\\\-1&-1&0&-1\\\\-1&-1&-1&0\\end{pmatrix}.$$
+
+**a)** Cifra la palabra HOLA.
+
+**b)** Explica cómo se descifra un mensaje.
+
+**c)** Descifra $M_f=(30,-21,-25,-16)^t$.
+
+**d)** Indica qué condición debe cumplir cualquier otra matriz de cifrado de este tamaño.
+
+### Solución
+
+Las letras de HOLA corresponden a $8$, $16$, $12$ y $1$, de forma que
+
+$$M_C=\\begin{pmatrix}8\\\\16\\\\12\\\\1\\end{pmatrix}.$$
+
+Multiplicamos fila a fila:
+
+$$
+M_EM_C=
+\\begin{pmatrix}37\\\\-21\\\\-25\\\\-36\\end{pmatrix}.
+$$
+
+Así, el mensaje cifrado es $\\boxed{(37,-21,-25,-36)^t}$.
+
+Para deshacer el proceso hay que multiplicar por la inversa de la matriz de cifrado:
+
+$$
+M_C=M_E^{-1}M_f,\\qquad
+M_E^{-1}=\\begin{pmatrix}-2&-1&-1&-1\\\\1&1&0&0\\\\1&0&1&0\\\\1&0&0&1\\end{pmatrix}.
+$$
+
+Aplicamos esta matriz al mensaje del apartado c):
+
+$$
+M_E^{-1}\\begin{pmatrix}30\\\\-21\\\\-25\\\\-16\\end{pmatrix}
+=\\begin{pmatrix}2\\\\9\\\\5\\\\14\\end{pmatrix}.
+$$
+
+Los números representan B, I, E y N, por lo que el mensaje original es $\\boxed{\\text{BIEN}}$.
+
+La condición esencial del apartado d) es que la matriz sea invertible; dicho de otro modo, debe tener $\\boxed{\\det M\\ne0}$.
+
+## Pregunta 2.1 · Productos vectoriales
+
+### Enunciado
+
+Sean $u$ y $v$ vectores no nulos y perpendiculares de $\\mathbb R^3$, y sea $w=u\\times v$. Se definen
+
+$$a=(u\\times v)+w,\\qquad b=v\\times(v\\times w),\\qquad c=u\\cdot(v\\times w).$$
+
+Indica cuáles son vectores y cuáles escalares, y establece sus relaciones de paralelismo o perpendicularidad con $u$, $v$ y $w$.
+
+### Solución
+
+Como $u\\times v=w$, se tiene $a=w+w=2w$. Por tanto $a$ es un **vector**, paralelo a $w$ y perpendicular tanto a $u$ como a $v$.
+
+La expresión $b$ también es un **vector**, pues procede de productos vectoriales. Usamos la identidad $v\\times(v\\times w)=v(v\\cdot w)-w(v\\cdot v)$. Como $v\\perp w$, queda
+
+$$b=-\\lVert v\\rVert^2w.$$
+
+Así que $b$ es paralelo a $w$ y perpendicular a $u$ y a $v$.
+
+Por último, $c$ es un producto escalar de $u$ con otro vector; por eso es un **escalar**. En concreto es un producto mixto, no un vector al que se le pueda pedir dirección.
+
+## Pregunta 2.2 · Recta perpendicular y plano que contiene una recta
+
+### Enunciado
+
+**a)** Halla la recta que pasa por $P=(4,-3,0)$ y es perpendicular al plano $x-2y+z-1=0$.
+
+**b)** Halla el plano que contiene a $Q=(1,2,3)$ y a la recta
+
+$$r:\\begin{cases}x+y+z=1,\\\\x-2y=0.\\end{cases}$$
+
+### Solución
+
+**a)** El vector normal del plano es $(1,-2,1)$; esa es justamente la dirección que debe llevar la recta perpendicular. Por tanto,
+
+$$\\boxed{(x,y,z)=(4,-3,0)+\\lambda(1,-2,1)}.$$
+
+**b)** Dos puntos de $r$ son $A=(0,0,1)$ y $B=(4,2,-5)$. Por ello, un vector director de $r$ es
+
+$$\\overrightarrow{AB}=(4,2,-6).$$
+
+También necesitamos conectar $A$ con $Q$: $\\overrightarrow{AQ}=(1,2,2)$. Un normal del plano es el producto vectorial
+
+$$\\overrightarrow{AB}\\times\\overrightarrow{AQ}=(8,-7,3).$$
+
+Usando que el plano pasa por $A$, resulta
+
+$$8(x-0)-7(y-0)+3(z-1)=0,$$
+
+es decir,
+
+$$\\boxed{8x-7y+3z-3=0}.$$
+
+## Pregunta 3.1 · Mejor aproximación lineal
+
+### Enunciado
+
+Se aproxima $f(x)=e^x$ en $[0,1]$ mediante $g_m(x)=mx$. El error se define por
+
+$$\\operatorname{err}(m)=\\int_0^1\\bigl(e^x-mx\\bigr)^2dx.$$
+
+**a)** Comprueba que $\\operatorname{err}(m)=\\dfrac{e^2}{2}-\\dfrac12-2m+\\dfrac{m^2}{3}$.
+
+**b)** Halla el valor de $m$ que minimiza el error y el valor mínimo.
+
+### Solución
+
+Desarrollamos el cuadrado antes de integrar:
+
+$$\\bigl(e^x-mx\\bigr)^2=e^{2x}-2mxe^x+m^2x^2.$$
+
+Las integrales necesarias son $\\int_0^1e^{2x}dx=(e^2-1)/2$, $\\int_0^1xe^x dx=1$ y $\\int_0^1x^2dx=1/3$. De ahí sale
+
+$$\\operatorname{err}(m)=\\frac{e^2}{2}-\\frac12-2m+\\frac{m^2}{3}.$$
+
+Derivamos respecto de $m$:
+
+$$\\operatorname{err}'(m)=-2+\\frac{2m}{3}.$$
+
+Se anula en $m=3$. Además, $\\operatorname{err}''(m)=2/3>0$, de modo que es un mínimo. Sustituyendo,
+
+$$
+\\boxed{m=3},\\qquad
+\\operatorname{err}(3)=\\boxed{\\frac{e^2-7}{2}}.
+$$
+
+## Pregunta 3.2 · Límite y área
+
+### Enunciado
+
+**a)** Calcula $\\displaystyle\\lim_{x\\to0}\\frac{x^2-\\sin(x^2)}{1-\\cos x}$.
+
+**b)** Calcula el área encerrada por $f(x)=\\cos^2x\\sin x$ y el eje horizontal para $x\\in[0,\\pi]$.
+
+### Solución
+
+**a)** Cerca de cero, $\\sin(x^2)=x^2-x^6/6+o(x^6)$ y $1-\\cos x=x^2/2+o(x^2)$. Por tanto el numerador es de orden $x^6$, mientras que el denominador es de orden $x^2$:
+
+$$\\frac{x^2-\\sin(x^2)}{1-\\cos x}\\sim\\frac{x^6/6}{x^2/2}=\\frac{x^4}{3}\\longrightarrow\\boxed0.$$
+
+**b)** El signo cambia en $x=\\pi/2$, pues $\\sin x\\ge0$ y el cuadrado del coseno nunca es negativo; en realidad la función es no negativa en todo el intervalo. Una primitiva es
+
+$$\\int\\cos^2x\\sin x\\,dx=-\\frac{\\cos^3x}{3}.$$
+
+Así, el área es
+
+$$
+\\left[-\\frac{\\cos^3x}{3}\\right]_0^\\pi
+=\\frac13-\\left(-\\frac13\\right)=\\boxed{\\frac23}.
+$$
+
+## Pregunta 4.1 · Cadena de movimientos
+
+### Enunciado
+
+Una ficha ocupa las casillas $1$, $2$ y $3$ de una fila. Con una moneda equilibrada se intenta mover a la izquierda con cara y a la derecha con cruz; si no hay casilla en esa dirección, se queda donde está.
+
+**a)** Da las probabilidades de transición en un turno.
+
+**b)** Si parte de la casilla 1, ¿cuál es la probabilidad de volver a 1 tras tres turnos?
+
+**c)** Si inicialmente $P(1)=1/2$ y $P(2)=P(3)=1/4$, calcula la distribución tras dos turnos.
+
+### Solución
+
+La matriz de transición, en el orden $1,2,3$, es
+
+$$T=\\begin{pmatrix}1/2&1/2&0\\\\1/2&0&1/2\\\\0&1/2&1/2\\end{pmatrix}.$$
+
+Esto resume el apartado a): desde 1 se queda en 1 o va a 2 con probabilidad $1/2$; desde 2 va a 1 o 3 con $1/2$; desde 3 va a 2 o se queda en 3 con $1/2$.
+
+Para b), la primera componente de $(1,0,0)T^3$ es $3/8$. Por tanto,
+
+$$\\boxed{P(X_3=1\\mid X_0=1)=\\frac38}.$$
+
+Para c), partimos de $p_0=(1/2,1/4,1/4)$. Calculamos
+
+$$p_2=p_0T^2=\\left(\\frac38,\\frac5{16},\\frac5{16}\\right).$$
+
+En consecuencia, tras dos turnos las probabilidades de estar en las casillas 1, 2 y 3 son, respectivamente,
+
+$$\\boxed{\\frac38,\\quad\\frac5{16},\\quad\\frac5{16}}.$$
+
+## Pregunta 4.2 · Probabilidad condicionada
+
+### Enunciado
+
+Dos sucesos verifican $P(A\\mid B)=2/3$ y $P(B\\mid A)=3/4$.
+
+**a)** Si fueran independientes, calcula $P(A\\cup B)$.
+
+**b)** Si $P(A\\cup B)=5/6$, calcula $P(A)$, $P(B)$ y $P(A\\cup\\overline B)$.
+
+### Solución
+
+**a)** Si son independientes, $P(A\\mid B)=P(A)=2/3$ y $P(B\\mid A)=P(B)=3/4$. Por tanto,
+
+$$
+P(A\\cup B)=\\frac23+\\frac34-\\frac23\\cdot\\frac34
+=\\boxed{\\frac{11}{12}}.
+$$
+
+**b)** Llamemos $q=P(A\\cap B)$. Las probabilidades condicionadas dan
+
+$$P(B)=\\frac32q,\\qquad P(A)=\\frac43q.$$
+
+Usamos la unión conocida:
+
+$$\\frac56=P(A)+P(B)-q=\\left(\\frac43+\\frac32-1\\right)q=\\frac{11}{6}q.$$
+
+Así, $q=5/11$, y entonces
+
+$$P(A)=\\frac{20}{33},\\qquad P(B)=\\frac{15}{22}.$$
+
+Finalmente,
+
+$$
+P(A\\cup\\overline B)=P(A)+P(\\overline B)-P(A\\cap\\overline B)
+=\\frac{20}{33}+\\frac7{22}-\\left(\\frac{20}{33}-\\frac5{11}\\right)
+=\\boxed{\\frac{17}{22}}.
+$$
+
+## Cómo usar este examen
+
+Si fallas una opción, no memorices el último número: vuelve al primer modelo que se ha usado (matriz, producto vectorial, derivada o probabilidad condicionada) y repite un ejercicio parecido al día siguiente.
+
+Puedes practicar estas técnicas con itinerario, explicaciones y seguimiento en el [Campus de Método Nebula](/campus/).
+`,Jn=`---
+title: Matemáticas II · PAU 2025 · Cantabria — examen resuelto
+seoTitle: Matemáticas II · PAU 2025 · Cantabria — examen resuelto
+date: 2025-10-20
+updated: 2026-11-05
+description: Examen de Matemáticas II de la PAU 2025 de Cantabria resuelto paso a paso, con todas las alternativas explicadas.
+tag: Matemáticas II PAU
+category: Selectividad
+relatedService: /campus/
+relatedPosts: como-preparar-pau-matematicas-ii,pau-matematicas-matrices-determinantes-gauss,pau-matematicas-probabilidad-bayes
+image: /favicon.svg
+---
+
+En este examen aparecen las dos alternativas de cada apartado, desarrolladas una a una. El objetivo no es solo llegar al resultado: fíjate en qué condición permite escoger el método en cada paso.
+
+**Convocatoria:** ordinaria. En el original se respondía una cuestión por apartado; aquí se incluyen todas.
+
+## Cuestión 1A · Invertibilidad de una matriz
+
+### Enunciado
+
+Sean
+
+$$
+A=\\begin{pmatrix}a+1&1&1\\\\1&a+3&1\\\\1&1&a+1\\end{pmatrix},\\qquad
+B=\\begin{pmatrix}-1&-3\\\\2&0\\\\5&3\\end{pmatrix}.
+$$
+
+**a)** Determina cuándo $A$ tiene inversa.
+
+**b)** Para $a=-3$, calcula $A^{-1}$.
+
+**c)** Para $a=-3$, resuelve $AX=B$.
+
+### Solución
+
+Una matriz cuadrada es invertible si su determinante no se anula. Al desarrollar y factorizar,
+
+$$\\det A=a(a+1)(a+4).$$
+
+Por tanto,
+
+$$\\boxed{A\\text{ es invertible si }a\\ne-4,-1,0}.$$
+
+Para $a=-3$,
+
+$$
+A=\\begin{pmatrix}-2&1&1\\\\1&0&1\\\\1&1&-2\\end{pmatrix},
+\\qquad
+A^{-1}=\\frac16\\begin{pmatrix}-1&3&1\\\\3&3&3\\\\1&3&-1\\end{pmatrix}.
+$$
+
+Como $A$ es invertible, multiplicamos $AX=B$ por $A^{-1}$ a la izquierda:
+
+$$
+X=A^{-1}B
+=\\boxed{\\begin{pmatrix}2&1\\\\3&0\\\\0&-1\\end{pmatrix}}.
+$$
+
+## Cuestión 1B · Sistema con parámetro
+
+### Enunciado
+
+Estudia la compatibilidad del sistema
+
+$$\\begin{cases}ax+y-z=1,\\\\(a^2-2)y+2z=-2,\\\\-x+z=0.\\end{cases}$$
+
+Después, para $a=0$, obtén todas sus soluciones.
+
+### Solución
+
+El determinante de la matriz de coeficientes es
+
+$$
+\\det\\begin{pmatrix}a&1&-1\\\\0&a^2-2&2\\\\-1&0&1\\end{pmatrix}
+=a(a+1)(a-2).
+$$
+
+Si $a\\ne-1,0,2$, el determinante es distinto de cero y hay una única solución. Analizamos los valores excepcionales:
+
+- Si $a=0$, las ecuaciones se reducen a $y-z=1$ y $x=z$: son compatibles e indeterminadas.
+- Si $a=-1$ o $a=2$, al sustituir se llega a una contradicción, por lo que el sistema es incompatible.
+
+En consecuencia es compatible para $\\boxed{a\\ne-1,2}$; para $a=0$ hay infinitas soluciones y en el resto de valores compatibles la solución es única.
+
+Con $a=0$, tomando $z=\\lambda$, resulta $x=\\lambda$ y $y=1+\\lambda$:
+
+$$\\boxed{(x,y,z)=(\\lambda,1+\\lambda,\\lambda),\\quad\\lambda\\in\\mathbb R}.$$
+
+## Cuestión 2A · Continuidad, asíntotas y tangente
+
+### Enunciado
+
+Considera
+
+$$f(x)=\\begin{cases}\\dfrac{x^3-8}{x^2-4},&x\\ne2,\\\\e^k,&x=2.\\end{cases}$$
+
+**a)** Calcula $k$ para que sea continua en $x=2$.
+
+**b)** Estudia sus asíntotas.
+
+**c)** Halla la tangente en $x=1$.
+
+### Solución
+
+Para $x\\ne\\pm2$ podemos simplificar:
+
+$$
+\\frac{x^3-8}{x^2-4}=\\frac{(x-2)(x^2+2x+4)}{(x-2)(x+2)}
+=x+\\frac4{x+2}.
+$$
+
+El límite al acercarse a 2 vale $2+4/4=3$. Para continuidad debe ser $e^k=3$, luego $\\boxed{k=\\ln3}$.
+
+La forma simplificada deja clara una asíntota vertical en $\\boxed{x=-2}$. Además,
+
+$$f(x)-x=\\frac4{x+2}\\longrightarrow0,$$
+
+por lo que tiene asíntota oblicua $\\boxed{y=x}$. En $x=2$ hay un punto removible si no se escoge $k=\\ln3$, no una asíntota.
+
+Derivamos $f(x)=x+4/(x+2)$:
+
+$$f'(x)=1-\\frac4{(x+2)^2}.$$
+
+En $x=1$, $f(1)=7/3$ y $f'(1)=5/9$. La tangente es
+
+$$
+y-\\frac73=\\frac59(x-1),\\qquad
+\\boxed{y=\\frac59x+\\frac{16}{9}}.
+$$
+
+## Cuestión 2B · Estudio de una exponencial
+
+### Enunciado
+
+Sea $f(x)=(x^2-2)e^{2x}$.
+
+**a)** Halla sus cortes con los ejes.
+
+**b)** Estudia crecimiento y decrecimiento.
+
+**c)** Calcula el área entre la curva, el eje $OX$ y las rectas $x=-2$ y $x=1$.
+
+### Solución
+
+Como $e^{2x}$ nunca es cero, los cortes con el eje $OX$ satisfacen $x^2-2=0$:
+
+$$\\boxed{(-\\sqrt2,0),\\ (\\sqrt2,0)}.$$
+
+En el eje vertical, $f(0)=-2$, así que el corte es $\\boxed{(0,-2)}$.
+
+Derivamos:
+
+$$f'(x)=2e^{2x}(x^2+x-2)=2e^{2x}(x+2)(x-1).$$
+
+El factor exponencial es positivo. Por el signo del polinomio, $f$ crece en $(-\\infty,-2)\\cup(1,+\\infty)$ y decrece en $(-2,1)$.
+
+Una primitiva útil es
+
+$$F(x)=\\frac{e^{2x}}2\\left(x^2-x-\\frac32\\right).$$
+
+La función es positiva entre $-2$ y $-\\sqrt2$ y negativa entre $-\\sqrt2$ y $1$. Por eso el área exige partir la integral:
+
+$$
+\\begin{aligned}A&=\\int_{-2}^{-\\sqrt2}f(x)\\,dx-\\int_{-\\sqrt2}^{1}f(x)\\,dx\\\\
+&=2F(-\\sqrt2)-F(-2)-F(1)\\\\
+\\end{aligned}
+$$
+
+Evaluamos directamente: $F(-2)=\\frac{9e^{-4}}4$, $F(-\\sqrt2)=\\frac{e^{-2}}2(\\frac12+\\sqrt2)$ y $F(1)=-3e^2/4$. Por tanto,
+
+$$\\boxed{A=e^{-2}\\left(\\frac12+\\sqrt2\\right)-\\frac{9e^{-4}}4+\\frac{3e^2}{4}\\approx5{,}614}.$$
+
+## Cuestión 3 · Recta y distancia de un punto
+
+### Enunciado
+
+Considera $r:\\begin{cases}2x-y=3,\\\\y-2z=1,\\end{cases}$ y $P=(1,1,1)$.
+
+**a)** Halla los puntos de $r$ que están a distancia $\\sqrt{14}$ de $P$.
+
+**b)** Halla el plano que contiene a $r$ y a $P$.
+
+**c)** Calcula la distancia de $P$ a $r$.
+
+### Solución
+
+Tomando $z=\\lambda$, la recta se escribe
+
+$$r:(x,y,z)=(2+\\lambda,1+2\\lambda,\\lambda).$$
+
+La distancia al cuadrado entre este punto y $P$ es
+
+$$ (1+\\lambda)^2+(2\\lambda)^2+(\\lambda-1)^2=6\\lambda^2+2.$$
+
+Al pedir que sea 14, obtenemos $\\lambda^2=2$. Los puntos son
+
+$$\\boxed{(2+\\sqrt2,1+2\\sqrt2,\\sqrt2),\\quad(2-\\sqrt2,1-2\\sqrt2,-\\sqrt2)}.$$
+
+Un punto de $r$ es $Q=(2,1,0)$, su dirección es $(1,2,1)$ y $\\overrightarrow{PQ}=(1,0,-1)$. Con esos dos vectores, un normal del plano es $(1,2,1)\\times(1,0,-1)=(-2,2,-2)$. Simplificando, el plano es
+
+$$\\boxed{x-y+z-1=0}.$$
+
+Para la distancia, el punto de $r$ más cercano debe hacer perpendicular el vector que lo une con $P$ a $(1,2,1)$. Eso impone $\\lambda=0$, de modo que el pie es $Q=(2,1,0)$ y
+
+$$d(P,r)=\\lVert(1,0,-1)\\rVert=\\boxed{\\sqrt2}.$$
+
+## Cuestión 4A · Dos actividades deportivas
+
+### Enunciado
+
+Sean $A=$ «matricularse en atletismo» y $B=$ «matricularse en baloncesto». Se sabe que $P(A)=0{,}40$, $P(B)=0{,}65$ y que el 10 % no se matricula en ningún deporte.
+
+**a)** Calcula $P(A\\cap B)$.
+
+**b)** Calcula $P(A\\mid B)$, $P(B\\mid A)$ y $P(A\\mid\\overline B)$.
+
+### Solución
+
+Como $P(A\\cup B)=1-0{,}10=0{,}90$,
+
+$$P(A\\cap B)=P(A)+P(B)-P(A\\cup B)=0{,}40+0{,}65-0{,}90=\\boxed{0{,}15}.$$
+
+Las probabilidades condicionadas salen de dividir por el suceso condicionado:
+
+$$
+P(A\\mid B)=\\frac{0{,}15}{0{,}65}=\\boxed{\\frac3{13}},\\qquad
+P(B\\mid A)=\\frac{0{,}15}{0{,}40}=\\boxed{\\frac38}.
+$$
+
+Además, $P(A\\cap\\overline B)=0{,}40-0{,}15=0{,}25$ y $P(\\overline B)=0{,}35$, por lo que
+
+$$P(A\\mid\\overline B)=\\frac{0{,}25}{0{,}35}=\\boxed{\\frac57}.$$
+
+## Cuestión 4B · Probabilidad total y Bayes
+
+### Enunciado
+
+Dos fábricas producen un mismo aparato. La fábrica A aporta el 60 % de la producción y B el 40 %. Fallan el 0,15 % de los aparatos de A y el 0,1 % de los de B durante su primer año.
+
+**a)** Calcula $P(\\text{no falla}\\mid B)$.
+
+**b)** Calcula la probabilidad total de fallo.
+
+**c)** Si no falla, calcula la probabilidad de que proceda de A.
+
+### Solución
+
+Si en B falla el 0,1 %, no falla el $1-0{,}001=\\boxed{0{,}999}$.
+
+Por probabilidad total,
+
+$$P(F)=0{,}60\\cdot0{,}0015+0{,}40\\cdot0{,}001=\\boxed{0{,}0013}.$$
+
+Para el último apartado aplicamos Bayes. La probabilidad de no fallar es $1-0{,}0013=0{,}9987$:
+
+$$
+P(A\\mid\\overline F)=\\frac{0{,}60\\cdot0{,}9985}{0{,}9987}
+=\\boxed{\\frac{1997}{3329}\\approx0{,}5999}.
+$$
+
+## Cómo usar este examen
+
+Cuando corrijas, separa un error de cálculo de un error de planteamiento. El segundo indica el bloque que debes volver a entrenar; el primero suele resolverse escribiendo los pasos intermedios con más orden.
+
+Puedes practicar matrices, análisis, geometría y probabilidad con una ruta guiada en el [Campus de Método Nebula](/campus/).
+`,Zn=`---
+title: Matemáticas II · PAU 2025 · Comunidad Valenciana — examen resuelto
+seoTitle: Matemáticas II · PAU 2025 · Comunidad Valenciana — examen resuelto
+date: 2025-10-26
+updated: 2026-11-05
+description: Examen de Matemáticas II de la PAU 2025 de Comunidad Valenciana resuelto con todos los pasos intermedios.
+tag: Matemáticas II PAU
+category: Selectividad
+relatedService: /campus/
+relatedPosts: como-preparar-pau-matematicas-ii,pau-matematicas-matrices-determinantes-gauss,pau-matematicas-probabilidad-bayes
+image: /favicon.svg
+---
+
+Se incluyen las dos alternativas de álgebra, geometría y análisis. Las cuentas intermedias se dejan visibles para que puedas copiarlas y justificarlas con orden en una prueba escrita.
+
+## Pregunta 1 · Pizza y distribución binomial
+
+### Enunciado
+
+Las probabilidades de pedir pizza margarita y vegetariana son $0{,}40$ y $0{,}25$; el resto pide pepperoni. Calcula: **1.1** la probabilidad de pepperoni; **1.2** la de que dos clientes pidan tipos distintos; **1.3** la de que exactamente 4 de 10 pidan margarita; **1.4** la de que al menos uno de esos 10 pida margarita.
+
+### Solución
+
+La probabilidad de pepperoni es el resto hasta 1:
+
+$$P(P)=1-0{,}40-0{,}25=\\boxed{0{,}35}.$$
+
+Para que dos clientes independientes elijan tipos distintos, podemos sumar según el primer tipo elegido:
+
+$$\\begin{aligned}P(\\text{distintos})&=0{,}40(1-0{,}40)+0{,}25(1-0{,}25)+0{,}35(1-0{,}35)\\\\&=0{,}24+0{,}1875+0{,}2275=\\boxed{0{,}655}.\\end{aligned}$$
+
+Si $X$ cuenta margaritas entre 10 pedidos, $X\\sim B(10,0{,}4)$. Por la fórmula binomial,
+
+$$
+P(X=4)=\\binom{10}{4}0{,}4^4\\,0{,}6^6
+=210\\cdot0{,}4^4\\cdot0{,}6^6\\approx\\boxed{0{,}2508}.
+$$
+
+Para «al menos una» usamos el complementario «ninguna»:
+
+$$
+P(X\\ge1)=1-P(X=0)=1-\\binom{10}{0}0{,}4^0\\,0{,}6^{10}
+=\\boxed{1-0{,}6^{10}\\approx0{,}9940}.
+$$
+
+## Pregunta 2.1 · Matriz idempotente e inversa
+
+### Enunciado
+
+Sea
+
+$$A=\\begin{pmatrix}1&\\alpha&0\\\\0&\\alpha&0\\\\0&0&1-\\alpha\\end{pmatrix}.$$
+
+**a)** Halla los valores de $\\alpha$ para los que $A^2=A$. **b)** Determina cuándo existe $A^{-1}$ y calcúlala.
+
+### Solución
+
+Multiplicamos la matriz por sí misma:
+
+$$A^2=\\begin{pmatrix}1&\\alpha+\\alpha^2&0\\\\0&\\alpha^2&0\\\\0&0&(1-\\alpha)^2\\end{pmatrix}.$$
+
+Al igualar con $A$, la entrada central exige $\\alpha^2=\\alpha$ y la entrada $(1,2)$ exige $\\alpha+\\alpha^2=\\alpha$, es decir, $\\alpha^2=0$. La condición conjunta solo deja
+
+$$\\boxed{\\alpha=0}.$$
+
+Como es triangular, $\\det A=1\\cdot\\alpha\\cdot(1-\\alpha)$. Por tanto es invertible si $\\alpha\\ne0,1$. Para hallar su inversa, resolvemos $AX=I$; la inversa del bloque superior izquierdo $\\begin{pmatrix}1&\\alpha\\\\0&\\alpha\\end{pmatrix}$ es $\\begin{pmatrix}1&-1\\\\0&1/\\alpha\\end{pmatrix}$. Así,
+
+$$\\boxed{A^{-1}=\\begin{pmatrix}1&-1&0\\\\0&1/\\alpha&0\\\\0&0&1/(1-\\alpha)\\end{pmatrix},\\qquad\\alpha\\ne0,1.}$$
+
+## Pregunta 2.2 · Sistema con parámetro
+
+### Enunciado
+
+Discute y resuelve cuando proceda
+
+$$\\begin{cases}3x-2y-3z=0,\\\\2x+ay-5z=-3,\\\\x+y+2z=3.\\end{cases}$$
+
+En particular, da las soluciones en el caso compatible indeterminado y para $a=0$.
+
+### Solución
+
+La matriz de coeficientes tiene determinante
+
+$$\\det\\begin{pmatrix}3&-2&-3\\\\2&a&-5\\\\1&1&2\\end{pmatrix}=9a+27=9(a+3).$$
+
+Para $a\\ne-3$, el determinante no es cero y el sistema tiene solución única. Solo queda estudiar $a=-3$. Sustituimos y usamos la tercera ecuación para despejar $x$:
+
+$$x=3-y-2z.$$
+
+En la primera, $3(3-y-2z)-2y-3z=0$, luego $5y+9z=9$. La segunda produce la misma ecuación, por lo que hay una variable libre. Tomando $y=\\lambda$,
+
+$$z=1-\\frac{5\\lambda}{9},\\qquad x=3-\\lambda-2\\left(1-\\frac{5\\lambda}{9}\\right)=1+\\frac\\lambda9.$$
+
+$$\\boxed{a=-3:\\ (x,y,z)=\\left(1+\\frac\\lambda9,\\lambda,1-\\frac{5\\lambda}{9}\\right).}$$
+
+Para $a=0$, la tercera ecuación da $x=3-y-2z$. Al sustituir en las otras dos se obtiene $-5y-9z=-9$ y $2y+9z=9$. Sumando, $-3y=0$, así que $y=0$, $z=1$ y $x=1$:
+
+$$\\boxed{(x,y,z)=(1,0,1)}.$$
+
+## Pregunta 3.1 · Dos rectas y un plano
+
+### Enunciado
+
+Sean
+
+$$r:(x,y,z)=(1+2\\lambda,\\lambda,2-\\lambda),$$
+
+$$s:\\begin{cases}x=-1,\\\\x+2y+z=0.\\end{cases}$$
+
+Calcula el punto de corte, el plano que contiene ambas y la distancia de $P=(1,0,2)$ a ese plano.
+
+### Solución
+
+Parametrizamos $s$ tomando $y=\\mu$: $s=(-1,\\mu,1-2\\mu)$. Igualamos sus coordenadas con las de $r$. De $-1=1+2\\lambda$ sale $\\lambda=-1$; entonces $\\mu=\\lambda=-1$, y la tercera ecuación se comprueba: $1-2(-1)=3=2-(-1)$. Por tanto,
+
+$$\\boxed{A=(-1,-1,3)}.$$
+
+Los vectores directores son $u=(2,1,-1)$ y $v=(0,1,-2)$. Su producto vectorial es proporcional a $(1,-4,-2)$, normal del plano. Con $(1,0,2)\\in r$:
+
+$$\\boxed{\\pi:x-4y-2z+3=0}.$$
+
+La distancia es
+
+$$d(P,\\pi)=\\frac{|1-4\\cdot0-2\\cdot2+3|}{\\sqrt{1^2+(-4)^2+(-2)^2}}=\\boxed0,$$
+
+porque $P$ pertenece al plano.
+
+## Pregunta 3.2 · Planos perpendiculares y simetría
+
+### Enunciado
+
+Para $\\pi:3x-y+2z=4$, $P=(-1,0,1)$ y $Q=(2,1,2)$, halla: **a)** el plano perpendicular a $\\pi$ por $P,Q$; **b)** $d(Q,\\pi)$; **c)** el simétrico de $P$ respecto a $\\pi$.
+
+### Solución
+
+El vector $\\overrightarrow{PQ}=(3,1,1)$ y el normal de $\\pi$, $n=(3,-1,2)$, están contenidos en el plano buscado. Un normal al nuevo plano es $\\overrightarrow{PQ}\\times n=(3,-3,-6)$, proporcional a $(1,-1,-2)$. Usando $P$:
+
+$$\\boxed{\\pi':x-y-2z+3=0}.$$
+
+Para la distancia,
+
+$$
+d(Q,\\pi)=\\frac{|3\\cdot2-1+2\\cdot2-4|}{\\sqrt{3^2+(-1)^2+2^2}}
+=\\boxed{\\frac5{\\sqrt{14}}=\\frac{5\\sqrt{14}}{14}}.
+$$
+
+La recta perpendicular a $\\pi$ por $P$ es $(-1,0,1)+t(3,-1,2)$. Su corte con el plano verifica
+
+$$3(-1+3t)-(-t)+2(1+2t)=4\\Longrightarrow14t=5,$$
+
+de donde el pie es $C=(1/14,-5/14,12/7)$. El simétrico es $P'=2C-P$:
+
+$$\\boxed{P'=\\left(\\frac87,-\\frac57,\\frac{17}{7}\\right)}.$$
+
+## Pregunta 4.1 · Caja de coste mínimo
+
+### Enunciado
+
+Una caja de volumen 80 cm³ tiene base cuadrada de lado $x$ y altura $h$. Las caras laterales cuestan 1 céntimo/cm² y base y tapa cuestan un 25 % más. Halla la función de precio, dimensiones óptimas y precio mínimo.
+
+### Solución
+
+El volumen da $x^2h=80$, luego $h=80/x^2$. Las cuatro caras laterales suman $4xh=320/x$ cm² y cuestan esa cantidad en céntimos. Base y tapa tienen área $2x^2$ y cuestan $1{,}25\\cdot2x^2=2{,}5x^2$ céntimos. Por tanto,
+
+$$P(x)=\\frac{320}{x}+2{,}5x^2,\\qquad x>0.$$
+
+$$P'(x)=-\\frac{320}{x^2}+5x.$$
+
+Al anularla: $5x=320/x^2$, $5x^3=320$, $x^3=64$ y $x=4$. Además, $P''(x)=640/x^3+5>0$, luego es un mínimo. La altura es $h=80/16=5$.
+
+$$\\boxed{\\text{Base }4\\text{ cm}\\times4\\text{ cm},\\quad h=5\\text{ cm},\\quad P(4)=120\\text{ céntimos}.}$$
+
+El precio mínimo es 1,20 €.
+
+## Pregunta 4.2 · Área con valor absoluto
+
+### Enunciado
+
+Calcula la región y el área entre $f(x)=x|x-2|$, el eje $OX$ y las rectas $x=-1$, $x=5$.
+
+### Solución
+
+El valor absoluto cambia en $x=2$:
+
+$$f(x)=\\begin{cases}2x-x^2,&x<2,\\\\x^2-2x,&x\\ge2.\\end{cases}$$
+
+Los cortes con el eje son $x=0$ y $x=2$. La función es negativa en $[-1,0]$ y positiva en $[0,2]$ y $[2,5]$. Por eso el área se calcula cambiando el signo en el primer tramo:
+
+$$
+\\begin{aligned}A&=-\\int_{-1}^0(2x-x^2)dx+\\int_0^2(2x-x^2)dx+\\int_2^5(x^2-2x)dx\\\\
+&=-\\left[x^2-\\frac{x^3}{3}\\right]_{-1}^0+\\left[x^2-\\frac{x^3}{3}\\right]_0^2+\\left[\\frac{x^3}{3}-x^2\\right]_2^5\\\\
+&=\\frac43+\\frac43+18=\\boxed{\\frac{62}{3}}.
+\\end{aligned}
+$$
+
+## Cómo usar este examen
+
+En las cuestiones largas, deja una línea entre cada transformación y escribe siempre qué se está sustituyendo. Esa presentación hace que el corrector pueda seguir tu razonamiento incluso si cometes un pequeño error aritmético.
+
+Puedes entrenar estas técnicas de forma guiada en el [Campus de Método Nebula](/campus/).
+`,Xn=`---
+title: PAU 2025 Matemáticas II: examen resuelto de Madrid
+seoTitle: PAU 2025 Matemáticas II Madrid: examen resuelto
+date: 2026-10-20
+updated: 2026-11-05
+description: Examen PAU 2025 de Matemáticas II de Madrid, con todos los enunciados y soluciones desarrolladas de álgebra, análisis, geometría y probabilidad.
+tag: Matemáticas II PAU
+category: Selectividad
+relatedService: /campus/
+relatedPosts: como-preparar-pau-matematicas-ii,pau-matematicas-matrices-determinantes-gauss,pau-matematicas-integrales-areas
+image: /favicon.svg
+---
+
+Este modelo reúne todos los ejercicios y todas las alternativas. Para aprovecharlo de verdad, intenta cada bloque antes de abrir la solución y compárala paso a paso: lo importante no es solo llegar al número final, sino saber por qué se llega a él.
+
+## Bloque 1 · Álgebra
+
+### Ejercicio 1.1 · Lanzamientos en baloncesto
+
+Un equipo anotó 80 puntos mediante tiros de uno, dos y tres puntos. Sus porcentajes de acierto fueron, respectivamente, del 80 %, 50 % y 40 %. Además, un tercio de los lanzamientos de dos puntos coincidió con un quinto del resto de lanzamientos, y el doble de los tiros de tres fue cinco unidades menor que la suma de los otros tiros. Determina cuántos lanzamientos realizó de cada tipo.
+
+#### Solución
+
+Llamamos \\(x\\), \\(y\\) y \\(z\\) a los lanzamientos de uno, dos y tres puntos. Los puntos anotados son \\(0{,}8x+2\\cdot0{,}5y+3\\cdot0{,}4z=80\\). Al multiplicar por 5 queda:
+
+$$4x+5y+6z=400.$$
+
+La segunda condición dice \\(y/3=(x+z)/5\\), es decir:
+
+$$3x-5y+3z=0.$$
+
+Y la tercera se traduce en \\(x+y-2z=5\\). Por tanto resolvemos:
+
+$$
+\\begin{cases}
+4x+5y+6z=400,\\\\
+3x-5y+3z=0,\\\\
+x+y-2z=5.
+\\end{cases}
+$$
+
+Al resolver el sistema obtenemos:
+
+$$\\boxed{x=25,\\qquad y=30,\\qquad z=25.}$$
+
+El equipo lanzó 25 tiros de un punto, 30 de dos puntos y 25 de tres puntos.
+
+### Ejercicio 1.2 · Polinomio característico y vector propio
+
+Sea
+
+$$A=\\begin{pmatrix}4&1&0\\\\2&3&0\\\\3&2&2\\end{pmatrix}.$$
+
+Calcula \\(P(\\lambda)=\\det(A-\\lambda I)\\), sus raíces reales y, para \\(\\lambda=5\\), un vector no nulo que satisfaga \\((A-5I)v=0\\).
+
+#### Solución
+
+Empezamos formando \\(A-\\lambda I\\):
+
+$$
+P(\\lambda)=
+\\begin{vmatrix}
+4-\\lambda&1&0\\\\
+2&3-\\lambda&0\\\\
+3&2&2-\\lambda
+\\end{vmatrix}.
+$$
+
+Al desarrollar el determinante resulta:
+
+$$
+P(\\lambda)=-\\lambda^3+9\\lambda^2-24\\lambda+20
+=(2-\\lambda)(\\lambda^2-7\\lambda+10).
+$$
+
+Por tanto:
+
+$$\\boxed{\\lambda=2\\text{ (raíz doble)}\\quad\\text{y}\\quad\\lambda=5.}$$
+
+Para \\(\\lambda=5\\), el sistema homogéneo \\((A-5I)v=0\\) tiene infinitas soluciones. Si llamamos \\(t\\) al parámetro libre, queda:
+
+$$
+(x,y,z)=\\left(t,t,\\frac53t\\right).
+$$
+
+Tomando \\(t=3\\), por ejemplo, obtenemos el vector no nulo:
+
+$$\\boxed{v=(3,3,5).}$$
+
+## Bloque 2 · Análisis
+
+### Ejercicio 2 · Regiones de un muro
+
+En un muro de 12 m de ancho y 3 m de alto se dibuja la curva
+
+$$f(x)=\\cos\\left(\\frac{\\pi x}{9}\\right)+2,\\qquad 0\\le x\\le12.$$
+
+Calcula el máximo y el mínimo de la función, comprueba si la curva cabe en el muro, halla las áreas a ambos lados de la curva y determina cuántos botes de 3 m² hacen falta para pintar la región inferior.
+
+#### Solución
+
+Como el coseno siempre está entre \\(-1\\) y \\(1\\), al sumar 2 obtenemos:
+
+$$\\boxed{1\\le f(x)\\le3.}$$
+
+La curva nunca baja de 1 ni supera 3, así que queda completamente dentro de la altura del muro.
+
+Para el área inferior integramos:
+
+$$
+\\begin{aligned}
+A_{\\text{inf}}
+&=\\int_0^{12}\\left[\\cos\\left(\\frac{\\pi x}{9}\\right)+2\\right]\\,dx\\\\
+&=\\left[\\frac9\\pi\\sin\\left(\\frac{\\pi x}{9}\\right)+2x\\right]_0^{12}\\\\
+&=24+\\frac9\\pi\\sin\\left(\\frac{4\\pi}{3}\\right)
+\\approx21{,}52\\text{ m}^2.
+\\end{aligned}
+$$
+
+El muro completo mide \\(12\\cdot3=36\\text{ m}^2\\). Por eso el área superior es:
+
+$$\\boxed{A_{\\text{sup}}=36-A_{\\text{inf}}\\approx14{,}48\\text{ m}^2.}$$
+
+Cada bote cubre 3 m². Para la zona inferior se necesitan \\(21{,}52/3\\approx7{,}17\\) botes; como no se puede comprar una fracción:
+
+$$\\boxed{8\\text{ botes}.}$$
+
+## Bloque 3 · Geometría
+
+### Ejercicio 3.1 · Recta y plano
+
+Sean
+
+$$r:\\frac{x-1}{2}=\\frac y0=\\frac{z-2}{1},\\qquad \\pi:x+2y-3z=1.$$
+
+Calcula: un plano que contenga a \\(r\\) y sea perpendicular a \\(\\pi\\); una recta contenida en \\(\\pi\\) que corte perpendicularmente a \\(r\\); y los puntos de \\(r\\) situados a distancia \\(\\sqrt{14}\\) del plano.
+
+#### Solución
+
+La recta pasa por \\(P=(1,0,2)\\) y tiene vector director \\(u=(2,0,1)\\). El plano \\(\\pi\\) tiene normal \\(n=(1,2,-3)\\). Un plano que contenga \\(r\\) y sea perpendicular a \\(\\pi\\) puede generarse con \\(u\\) y \\(n\\). Su ecuación cartesiana es:
+
+$$\\boxed{2x-7y-4z+6=0.}$$
+
+Para la recta pedida en el apartado b, primero cortamos \\(r\\) con \\(\\pi\\). Escribiendo \\(r=(1+2\\lambda,0,2+\\lambda)\\), la sustitución da \\(\\lambda=-6\\), luego el punto de corte es \\((-11,0,-4)\\).
+
+Su dirección debe ser perpendicular tanto a \\(u\\) como a \\(n\\), así que usamos:
+
+$$u\\times n=(2,0,1)\\times(1,2,-3)=(-2,7,4).$$
+
+Por tanto, una ecuación de la recta es:
+
+$$\\boxed{\\frac{x+11}{-2}=\\frac y7=\\frac{z+4}{4}.}$$
+
+Para el último apartado, un punto genérico de \\(r\\) es \\(P_\\lambda=(1+2\\lambda,0,2+\\lambda)\\). Su distancia a \\(\\pi\\) vale:
+
+$$
+\\frac{|(1+2\\lambda)-3(2+\\lambda)-1|}{\\sqrt{1^2+2^2+(-3)^2}}
+=\\frac{|-\\lambda-6|}{\\sqrt{14}}.
+$$
+
+Al igualarla a \\(\\sqrt{14}\\), queda \\(|-\\lambda-6|=14\\), de donde \\(\\lambda=-20\\) o \\(\\lambda=8\\). Los puntos son:
+
+$$\\boxed{(-39,0,-18)\\quad\\text{y}\\quad(17,0,10).}$$
+
+### Ejercicio 3.2 · Distancia a un plano
+
+Dados \\(P=(0,1,1)\\) y el plano \\(\\pi:x+y=2\\), calcula la distancia de \\(P\\) a \\(\\pi\\), el punto \\(Q\\) de \\(\\pi\\) que está a esa misma distancia de \\(P\\), y el área del triángulo formado por \\(P\\) y los cortes de \\(\\pi\\) con los ejes.
+
+#### Solución
+
+Escribimos el plano como \\(x+y-2=0\\). La distancia de \\(P\\) al plano es:
+
+$$
+d(P,\\pi)=\\frac{|0+1-2|}{\\sqrt{1^2+1^2+0^2}}
+=\\boxed{\\frac{\\sqrt2}{2}}.
+$$
+
+La recta que parte de \\(P\\) y es perpendicular al plano tiene como dirección el vector normal \\((1,1,0)\\):
+
+$$
+(x,y,z)=(\\lambda,1+\\lambda,1).
+$$
+
+Al imponer \\(x+y=2\\), obtenemos \\(2\\lambda+1=2\\), luego \\(\\lambda=1/2\\). Así:
+
+$$\\boxed{Q=\\left(\\frac12,\\frac32,1\\right).}$$
+
+El plano corta a los ejes \\(x\\) e \\(y\\) en \\(A=(2,0,0)\\) y \\(B=(0,2,0)\\). Por producto vectorial:
+
+$$
+\\text{Área}=\\frac12\\left\\|\\overrightarrow{PA}\\times\\overrightarrow{PB}\\right\\|
+=\\boxed{3}.
+$$
+
+## Bloque 4 · Probabilidad
+
+### Ejercicio 4.1 · Espacio muestral
+
+Sea \\(E=\\{2,3,5,7,11,13,17,19\\}\\). Se sabe que \\(P(3)=P(7)=1/4\\) y que los otros seis resultados son equiprobables. Para
+
+$$A=\\{7,11,13,19\\},\\quad B=\\{2,5,7,13,17\\},\\quad C=\\{3,5,7,11,13\\},$$
+
+calcula \\(P((A-C)\\cap B)\\) y \\(P((A\\cap B)\\mid C)\\).
+
+#### Solución
+
+Si \\(x\\) es la probabilidad de cada uno de los seis resultados restantes:
+
+$$2\\cdot\\frac14+6x=1\\quad\\Longrightarrow\\quad x=\\frac1{12}.$$
+
+Como \\(A-C=\\{19\\}\\), al intersectar con \\(B\\) queda el conjunto vacío:
+
+$$\\boxed{P((A-C)\\cap B)=0.}$$
+
+Además, \\(A\\cap B=\\{7,13\\}\\), pero ninguno de esos resultados pertenece al complemento de \\(C\\). Por tanto la intersección necesaria para la probabilidad condicionada es vacía y:
+
+$$\\boxed{P((A\\cap B)\\mid C)=0.}$$
+
+### Ejercicio 4.2 · Lectura habitual
+
+En una población, el 20 % tiene entre 14 y 24 años, el 50 % entre 25 y 64 y el 30 % restante supera los 64. Dentro de cada grupo, las probabilidades de ser lector habitual son 0,74; 0,658 y 0,537. Calcula la probabilidad de escoger a un lector habitual y, sabiendo que una persona no lo es, la probabilidad de que tenga entre 25 y 64 años.
+
+#### Solución
+
+Llamamos \\(D\\) al suceso “ser lector habitual”. Por probabilidad total:
+
+$$
+\\begin{aligned}
+P(D)
+&=0{,}74\\cdot0{,}20+0{,}658\\cdot0{,}50+0{,}537\\cdot0{,}30\\\\
+&=\\boxed{0{,}6381}.
+\\end{aligned}
+$$
+
+Para la segunda pregunta usamos Bayes con el suceso “no ser lector habitual”:
+
+$$
+\\begin{aligned}
+P(25\\text{-}64\\mid D^c)
+&=\\frac{P(D^c\\mid25\\text{-}64)\\,P(25\\text{-}64)}{P(D^c)}\\\\
+&=\\frac{(1-0{,}658)\\cdot0{,}50}{1-0{,}6381}\\\\
+&\\approx\\boxed{0{,}4725}.
+\\end{aligned}
+$$
+
+Por tanto, entre quienes no son lectores habituales, aproximadamente el 47,25 % tiene entre 25 y 64 años.
+
+## Cómo usar este modelo para preparar la PAU
+
+Haz primero un bloque de cada pareja de alternativas y marca el primer paso que no hayas sabido justificar. Cuando lo repases, intenta explicar ese paso con tus propias palabras: es la forma más rápida de detectar si realmente dominas el método.
+
+Si quieres organizar la práctica por bloques, corregir errores recurrentes y avanzar con una ruta de estudio, puedes hacerlo en el [Campus de Método Nebula](/campus/).
+`,Yn=`---
+title: Matemáticas II · PAU 2025 · Murcia — examen resuelto
+seoTitle: Matemáticas II · PAU 2025 · Murcia — examen resuelto
+date: 2025-10-22
+updated: 2026-11-05
+description: Examen de Matemáticas II de la PAU 2025 de Murcia con todos los enunciados y soluciones desarrolladas paso a paso.
+tag: Matemáticas II PAU
+category: Selectividad
+relatedService: /campus/
+relatedPosts: como-preparar-pau-matematicas-ii,pau-matematicas-matrices-determinantes-gauss,pau-matematicas-probabilidad-bayes
+image: /favicon.svg
+---
+
+Este artículo reúne las dos opciones de las cuatro cuestiones. Conserva cada enunciado y transforma la resolución en pasos que puedes reutilizar en ejercicios parecidos.
+
+## Cuestión 1A · Sistema de salarios
+
+### Enunciado
+
+Tres músicos cobran $x$, $y$ y $z$. El primero cobra $m$ veces lo que cobra el segundo, el segundo cobra el doble que el tercero y $mz+x+y=600$, con $m>0$.
+
+**a)** Plantea el sistema. **b)** Justifica que los sueldos quedan determinados. **c)** Obtén los sueldos en función de $m$ y para $m=2$.
+
+### Solución
+
+El sistema que traduce literalmente los datos es
+
+$$\\begin{cases}x-my=0,\\\\y-2z=0,\\\\x+y+mz=600.\\end{cases}$$
+
+Su matriz de coeficientes tiene determinante $3m+2$. Como $m>0$, este valor es positivo y nunca se anula; por tanto el sistema tiene una única solución.
+
+De $y=2z$ y $x=my=2mz$, la última ecuación se convierte en $(3m+2)z=600$. Así,
+
+$$\\boxed{x=\\frac{1200m}{3m+2},\\quad y=\\frac{1200}{3m+2},\\quad z=\\frac{600}{3m+2}}.$$
+
+Para $m=2$ se obtiene $\\boxed{x=300,\\ y=150,\\ z=75}$, es decir, 300 €, 150 € y 75 €.
+
+## Cuestión 1B · Ecuación matricial
+
+### Enunciado
+
+Sean
+
+$$A=\\begin{pmatrix}2&1\\\\1&3\\end{pmatrix},\\quad B=\\begin{pmatrix}1&0\\\\2&1\\end{pmatrix},\\quad C=\\begin{pmatrix}5&0\\\\5&0\\end{pmatrix}.$$
+
+**a)** Comprueba que $A$ y $B$ son invertibles y calcula sus inversas.
+
+**b)** Resuelve $A^tXB=C$.
+
+### Solución
+
+Los determinantes son $\\det A=5$ y $\\det B=1$, así que ambas matrices son invertibles. Aplicando la fórmula de la inversa de una matriz $2\\times2$:
+
+$$
+A^{-1}=\\begin{pmatrix}3/5&-1/5\\\\-1/5&2/5\\end{pmatrix},\\qquad
+B^{-1}=\\begin{pmatrix}1&0\\\\-2&1\\end{pmatrix}.
+$$
+
+Como $A$ es simétrica, $A^t=A$. Multiplicamos la ecuación por $A^{-1}$ a la izquierda y por $B^{-1}$ a la derecha:
+
+$$
+X=A^{-1}CB^{-1}
+=\\boxed{\\begin{pmatrix}2&0\\\\1&0\\end{pmatrix}}.
+$$
+
+## Cuestión 2A · Triángulo de área máxima
+
+### Enunciado
+
+Un triángulo rectángulo tiene catetos $x$ e $y$ e hipotenusa $7\\sqrt2$ cm.
+
+**a)** Expresa su área en función de $x$.
+
+**b)** Encuentra las dimensiones que maximizan el área y el área máxima.
+
+### Solución
+
+Por Pitágoras, $x^2+y^2=98$, de modo que $y=\\sqrt{98-x^2}$. El área es
+
+$$f(x)=\\frac12x\\sqrt{98-x^2}.$$
+
+Derivamos:
+
+$$f'(x)=\\frac{98-2x^2}{2\\sqrt{98-x^2}}.$$
+
+En el intervalo físico $0<x<7\\sqrt2$, el denominador es positivo. El único punto crítico es $x=7$; la derivada pasa de positiva a negativa, así que da un máximo. Entonces $y=\\sqrt{98-49}=7$.
+
+$$\\boxed{x=y=7\\text{ cm},\\qquad A_{\\max}=\\frac{7\\cdot7}{2}=24{,}5\\text{ cm}^2}.$$
+
+## Cuestión 2B · Integral logarítmica y área
+
+### Enunciado
+
+Sea $f(x)=\\ln\\left(\\dfrac{x+1}{x}\\right)$.
+
+**a)** Calcula una primitiva.
+
+**b)** Comprueba que el área bajo su gráfica entre $x=1$ y $x=2$ es $\\ln(27/16)$.
+
+### Solución
+
+Integramos por partes, con $u=\\ln((x+1)/x)$ y $dv=dx$. Como $du=-dx/[x(x+1)]$, queda
+
+$$
+\\int\\ln\\left(\\frac{x+1}{x}\\right)dx
+=x\\ln\\left(\\frac{x+1}{x}\\right)+\\ln(x+1)+C.
+$$
+
+En $[1,2]$ la función es positiva, así que el área es la integral definida:
+
+$$
+\\begin{aligned}A&=\\left[x\\ln\\left(\\frac{x+1}{x}\\right)+\\ln(x+1)\\right]_1^2\\\\
+&=3\\ln3-4\\ln2=\\boxed{\\ln\\left(\\frac{27}{16}\\right)}.
+\\end{aligned}
+$$
+
+## Cuestión 3A · Rectas cruzadas
+
+### Enunciado
+
+Considera
+
+$$
+r:(x,y,z)=(1,5+\\lambda,\\lambda),\\qquad
+s:(x,y,z)=(7+3\\mu,-5+\\mu,7).
+$$
+
+**a)** Comprueba que se cruzan. **b)** Halla su perpendicular común. **c)** Calcula su distancia.
+
+### Solución
+
+Sus vectores directores son $d_r=(0,1,1)$ y $d_s=(3,1,0)$, que no son proporcionales. Si se cortaran, la coordenada $x$ exigiría $\\mu=-2$ y la coordenada $z$ exigiría $\\lambda=7$; al usar la coordenada $y$ aparece una contradicción. Por tanto, no son paralelas ni se cortan: son rectas cruzadas.
+
+Tomamos $P\\in r$ y $Q\\in s$ y exigimos que $\\overrightarrow{PQ}$ sea perpendicular a ambas direcciones. Se obtiene $\\lambda=-2$ y $\\mu=-1$, de modo que
+
+$$P=(1,3,-2),\\qquad Q=(4,-6,7),\\qquad \\overrightarrow{PQ}=(3,-9,9).$$
+
+Una dirección equivalente es $(1,-3,3)$; la perpendicular común es
+
+$$\\boxed{t:(x,y,z)=(1,3,-2)+\\gamma(1,-3,3)}.$$
+
+Su longitud entre los puntos de corte es
+
+$$d(r,s)=\\sqrt{3^2+(-9)^2+9^2}=\\boxed{3\\sqrt{19}}.$$
+
+## Cuestión 3B · Planos y proyección ortogonal
+
+### Enunciado
+
+Sean $\\pi_1:x-y+z=0$ y $\\pi_2:x+y-z=2$.
+
+**a)** Halla su recta de intersección.
+
+**b)** Halla una recta por $P=(1,2,3)$ que no corte a ninguno de los planos.
+
+**c)** Calcula la proyección ortogonal de $P$ sobre $\\pi_1$.
+
+### Solución
+
+Al sumar las ecuaciones de los planos resulta $2x=2$, luego $x=1$. Tomando $z=\\lambda$, sale $y=1+\\lambda$:
+
+$$\\boxed{r:(x,y,z)=(1,1,0)+\\lambda(0,1,1)}.$$
+
+Una recta paralela a esa intersección no corta los planos si no está contenida en ellos. La que pasa por $P$ es
+
+$$\\boxed{(x,y,z)=(1,2,3)+\\lambda(0,1,1)}.$$
+
+El normal de $\\pi_1$ es $(1,-1,1)$. La perpendicular por $P$ se escribe $(1,2,3)+t(1,-1,1)$. Al imponer la ecuación del plano, $2+3t=0$, por lo que $t=-2/3$. Así,
+
+$$\\boxed{P'=\\left(\\frac13,\\frac83,\\frac73\\right)}.$$
+
+## Cuestión 4A · Dos urnas
+
+### Enunciado
+
+La urna 1 contiene 2 bolas rojas y 3 verdes; la urna 2, 6 rojas y 3 verdes. Se pasa una bola de la urna 1 a la 2 y se extrae después una bola de la urna 2.
+
+Calcula: **a)** $P(R_2\\mid R_1)$; **b)** $P(V_2\\mid R_1)$; **c)** $P(V_2)$; **d)** $P(R_1\\mid R_2)$.
+
+### Solución
+
+Si la primera bola fue roja, la segunda urna tendrá 7 rojas y 3 verdes. Por ello,
+
+$$\\boxed{P(R_2\\mid R_1)=\\frac7{10}},\\qquad\\boxed{P(V_2\\mid R_1)=\\frac3{10}}.$$
+
+Si se trasladó una verde, en la segunda urna habrá 6 rojas y 4 verdes. Aplicamos probabilidad total para la verde final:
+
+$$P(V_2)=\\frac3{10}\\cdot\\frac25+\\frac4{10}\\cdot\\frac35=\\boxed{\\frac9{25}}.$$
+
+Así $P(R_2)=1-9/25=16/25$. Bayes da
+
+$$
+P(R_1\\mid R_2)=\\frac{P(R_2\\mid R_1)P(R_1)}{P(R_2)}
+=\\frac{\\frac7{10}\\frac25}{\\frac{16}{25}}
+=\\boxed{\\frac7{16}}.
+$$
+
+## Cuestión 4B · Binomial y aproximación normal
+
+### Enunciado
+
+El 2 % de las piezas producidas es defectuoso.
+
+**a)** Para un lote de 10, estudia el número de piezas buenas y calcula la probabilidad de exactamente una defectuosa.
+
+**b)** Para un lote de 2 000, repite el estudio y calcula la probabilidad de menos de 50 defectuosas.
+
+### Solución
+
+Si $X$ cuenta las piezas buenas, la probabilidad de éxito es $p=0{,}98$.
+
+Para 10 piezas, $X\\sim B(10,0{,}98)$, con media $9{,}8$ y desviación típica $\\sqrt{10\\cdot0{,}98\\cdot0{,}02}\\approx0{,}443$. Una defectuosa equivale a $X=9$:
+
+$$
+P(X=9)=\\binom{10}{9}0{,}98^9\\,0{,}02
+=\\boxed{\\approx0{,}1667}.
+$$
+
+Para 2 000 piezas, $X\\sim B(2000,0{,}98)$, con $\\mu=1960$ y $\\sigma=\\sqrt{2000\\cdot0{,}98\\cdot0{,}02}\\approx6{,}26$. Menos de 50 defectuosas significa al menos 1 951 buenas. Con corrección de continuidad:
+
+$$
+P(X\\ge1951)\\approx P\\left(Z\\ge\\frac{1950{,}5-1960}{6{,}26}\\right)
+=P(Z\\ge-1{,}52)=\\boxed{0{,}9357}.
+$$
+
+## Cómo usar este examen
+
+Si se atasca una cuestión, identifica primero su familia: sistema, optimización, integral, posición relativa o distribución. A partir de ahí el camino de resolución suele ser mucho más claro.
+
+Puedes entrenar esos bloques con práctica guiada y seguimiento en el [Campus de Método Nebula](/campus/).
+`,ea=`---
+title: Matemáticas II · PAU 2025 · Navarra — examen resuelto
+seoTitle: Matemáticas II · PAU 2025 · Navarra — examen resuelto
+date: 2025-10-24
+updated: 2026-11-05
+description: Examen de Matemáticas II de la PAU 2025 de Navarra resuelto paso a paso, con todos los bloques y opciones.
+tag: Matemáticas II PAU
+category: Selectividad
+relatedService: /campus/
+relatedPosts: como-preparar-pau-matematicas-ii,pau-matematicas-matrices-determinantes-gauss,pau-matematicas-limites-derivadas
+image: /favicon.svg
+---
+
+Este examen tiene dos propuestas por bloque. Aquí están todas, con el enunciado seguido de una solución que explica las decisiones, no solo el cálculo final.
+
+## P1 · Coste mínimo de máquinas
+
+### Enunciado
+
+Un trabajo tarda 80 horas con una máquina. Cada máquina cuesta 10 € de puesta en marcha y 5 € por cada hora de uso. Un único operario cobra 18 € por hora de supervisión. El tiempo es inversamente proporcional al número de máquinas. ¿Cuántas máquinas minimizan el coste?
+
+### Solución
+
+Si se usan $x$ máquinas, el trabajo dura $80/x$ horas. El coste de las máquinas es $10x+5x(80/x)=10x+400$; el del operario es $18(80/x)=1440/x$. Por tanto,
+
+$$G(x)=10x+400+\\frac{1440}{x},\\qquad x>0.$$
+
+Derivamos e igualamos a cero:
+
+$$G'(x)=10-\\frac{1440}{x^2}=0\\Longrightarrow x^2=144.$$
+
+La solución física es $x=12$. Además, $G''(x)=2880/x^3>0$, así que es un mínimo.
+
+$$\\boxed{\\text{Se deben usar 12 máquinas.}}$$
+
+## P2 · Precio de la electricidad
+
+### Enunciado
+
+En $0\\le t\\le1$, el precio es
+
+$$p(t)=0{,}15+\\sin^2\\left(\\frac{\\pi t}{2}\\right)\\cos\\left(\\frac{\\pi t}{2}\\right).$$
+
+**a)** Halla máximos y mínimos. **b)** Calcula el valor medio en $[0,1]$.
+
+### Solución
+
+La derivada puede factorizarse como
+
+$$p'(t)=\\frac\\pi2\\sin\\left(\\frac{\\pi t}{2}\\right)\\left[3\\cos^2\\left(\\frac{\\pi t}{2}\\right)-1\\right].$$
+
+En el intervalo aparecen $t=0$ y $t=\\frac2\\pi\\arccos(1/\\sqrt3)$. Al comparar también con $t=1$, los extremos absolutos son
+
+$$\\boxed{p_{\\min}=0{,}15\\text{ en }t=0\\text{ y }t=1},$$
+
+$$\\boxed{p_{\\max}=0{,}15+\\frac{2}{3\\sqrt3}\\approx0{,}5349\\text{ en }t=\\frac2\\pi\\arccos\\frac1{\\sqrt3}\\approx0{,}6082}.$$
+
+Para el valor medio integramos. Con $u=\\sin(\\pi t/2)$,
+
+$$\\int p(t)dt=0{,}15t+\\frac{2}{3\\pi}\\sin^3\\left(\\frac{\\pi t}{2}\\right).$$
+
+Como el intervalo tiene longitud 1,
+
+$$\\boxed{\\overline p=0{,}15+\\frac{2}{3\\pi}\\approx0{,}3622}.$$
+
+## A1 · Sistema dependiente de $m$
+
+### Enunciado
+
+Estudia y resuelve, cuando sea compatible,
+
+$$\\begin{cases}(m^2-3m)x-my+2mz=3,\\\\(m^2-3m)x+3y+3mz=m+9,\\\\(3m-m^2)x+my-mz=0.\\end{cases}$$
+
+### Solución
+
+Aplicamos Rouché-Frobenius: un sistema es compatible si los rangos de la matriz de coeficientes y de la ampliada coinciden. En vez de empezar calculando determinantes largos, hacemos dos operaciones elementales que eliminan $x$ en dos filas:
+
+$$F_2\\leftarrow F_2-F_1,\\qquad F_3\\leftarrow F_3+F_1.$$
+
+El sistema equivalente queda
+
+$$
+\\begin{cases}
+m(m-3)x-my+2mz=3,\\\\
+(m+3)y+mz=m+6,\\\\
+mz=3.
+\\end{cases}
+$$
+
+Si $m\\ne0$, la última ecuación da directamente
+
+$$z=\\frac3m.$$
+
+La sustituimos en la segunda:
+
+$$
+(m+3)y+m\\frac3m=m+6
+\\Longrightarrow(m+3)y=m+3.
+$$
+
+Cuando $m\\ne-3$, queda $y=1$. Por último, en la primera ecuación sustituimos $y=1$ y $z=3/m$:
+
+$$
+m(m-3)x-m+6=3
+\\Longrightarrow m(m-3)x=m-3.
+$$
+
+Si además $m\\ne3$, se obtiene $x=1/m$. Esto explica, sin saltos, el caso general.
+
+Ahora revisamos los valores que no permitían dividir:
+
+- Para $m=0$, la primera ecuación se convierte en $0=3$; por tanto es incompatible.
+- Para $m=-3$, la tercera fija $z=-1$; la segunda no aporta información nueva y la primera deja $y=-1-6x$. Si $x=\\lambda$, hay infinitas soluciones $(\\lambda,-1-6\\lambda,-1)$.
+- Para $m=3$, la tercera fija $z=1$ y la segunda da $y=1$; $x$ queda libre. Si $x=\\lambda$, las soluciones son $(\\lambda,1,1)$.
+
+En forma de resumen:
+
+$$
+\\begin{array}{c|c|c}
+m&\\text{tipo}&\\text{solución}\\\\\\hline
+m\\ne-3,0,3&\\text{compatible determinado}&(x,y,z)=(1/m,1,3/m)\\\\
+m=-3&\\text{compatible indeterminado}&(x,y,z)=(\\lambda,-1-6\\lambda,-1)\\\\
+m=0&\\text{incompatible}&\\text{no hay solución}\\\\
+m=3&\\text{compatible indeterminado}&(x,y,z)=(\\lambda,1,1)
+\\end{array}
+$$
+
+En los dos casos indeterminados, $\\lambda\\in\\mathbb R$. La distinción se justifica porque, al sustituir esos valores, el rango de la ampliada coincide con el de coeficientes salvo en $m=0$, donde aparece una fila contradictoria.
+
+## A2 · Determinante de una expresión matricial
+
+### Enunciado
+
+Sean matrices cuadradas de orden 3 con $|A|=1/4$ y $|B|=2$. Calcula $|C|$ si
+
+$$C=2(A B^t)^2(B^t)^{-1}.$$
+
+### Solución
+
+Como $(B^t)(B^t)^{-1}=I$, se simplifica
+
+$$C=2AB^tA.$$
+
+El 2 multiplica una matriz de orden 3, así que al tomar determinantes aporta $2^3$. Además, $|B^t|=|B|$:
+
+$$|C|=2^3|A||B^t||A|=8\\cdot\\frac14\\cdot2\\cdot\\frac14=\\boxed1.$$
+
+## B1 · Recta que corta a otras dos
+
+### Enunciado
+
+Halla la recta por $P=(2,0,-1)$ que corta a
+
+$$
+s:\\begin{cases}2x+y-3z-6=0,\\\\2x-3z-8=0,\\end{cases}\\qquad
+r:\\frac{x+1}{2}=y=z+2.
+$$
+
+### Solución
+
+Parametrizamos:
+
+$$
+r=(-1+2\\alpha,\\alpha,-2+\\alpha),\\qquad
+s=\\left(4+\\frac32\\lambda,-2,\\lambda\\right).
+$$
+
+Buscamos un punto de cada recta alineado con $P$. La condición de proporcionalidad de los vectores hacia $P$ da $\\alpha=2$ y $\\lambda=-2$. Los puntos de corte son $A=(3,2,0)$ y $B=(1,-2,-2)$; el vector $\\overrightarrow{PB}=(1,2,1)$ sirve de dirección.
+
+$$\\boxed{t:\\frac{x-2}{1}=\\frac y2=\\frac{z+1}{1}}.$$
+
+## B2 · Vértices de un cuadrado en el espacio
+
+### Enunciado
+
+Dos vértices consecutivos son $A=(1,0,-1)$ y $B=(1,4,2)$. Los otros dos están en una recta que pasa por $P=(6,-4,-4)$.
+
+**a)** Halla esa recta. **b)** Halla el plano por $A$ perpendicular a $AB$. **c)** Calcula los otros vértices.
+
+### Solución
+
+El vector $\\overrightarrow{AB}=(0,4,3)$ es paralelo al lado opuesto. La recta buscada es
+
+$$r:(x,y,z)=(6,-4,-4)+\\lambda(0,4,3).$$
+
+El plano perpendicular a $AB$ y que pasa por $A$ usa ese vector como normal:
+
+$$4y+3z+3=0.$$
+
+Al intersectar con $r$ resulta $\\lambda=1$ y el vértice $D=(6,0,-1)$. Sumamos el vector $AB$ para obtener el otro:
+
+$$\\boxed{D=(6,0,-1),\\qquad C=(6,4,2)}.$$
+
+## C1 · Continuidad y teorema de Rolle
+
+### Enunciado
+
+Sea $f(x)=\\cos(\\pi x/2)\\ln(x^2+x-5)$.
+
+**a)** Demuestra continuidad en $[2,3]$. **b)** Demuestra que existe $c\\in(2,3)$ con $f'(c)=0$.
+
+### Solución
+
+Para $x\\in[2,3]$, se cumple $x^2+x-5\\ge1>0$. El logaritmo existe y es continuo; al multiplicarlo por el coseno, $f$ es continua en el intervalo y derivable en su interior.
+
+Además,
+
+$$f(2)=\\cos\\pi\\ln1=0,\\qquad f(3)=\\cos(3\\pi/2)\\ln7=0.$$
+
+Se cumplen las hipótesis del teorema de Rolle: continuidad en $[2,3]$, derivabilidad en $(2,3)$ e igualdad en los extremos. Por Rolle, existe al menos un $\\boxed{c\\in(2,3)}$ tal que $\\boxed{f'(c)=0}$.
+
+## C2 · Asíntotas y simetría
+
+### Enunciado
+
+Estudia las asíntotas, simetrías y comportamiento junto a las asíntotas verticales de
+
+$$f(x)=\\frac{3x^3}{x^2-4}.$$
+
+### Solución
+
+Como $f(-x)=-f(x)$, la función es impar, con simetría respecto al origen. El dominio excluye $x=\\pm2$, donde el numerador no se anula: son asíntotas verticales.
+
+La división proporciona
+
+$$\\frac{3x^3}{x^2-4}=3x+\\frac{12x}{x^2-4},$$
+
+de modo que la asíntota oblicua es $\\boxed{y=3x}$; no hay horizontal.
+
+El signo en cada lado da el comportamiento completo:
+
+$$
+\\begin{array}{c|cc}
+&\\text{por la izquierda}&\\text{por la derecha}\\\\\\hline
+x=-2&-\\infty&+\\infty\\\\
+x=2&-\\infty&+\\infty
+\\end{array}
+$$
+
+## Cómo usar este examen
+
+Aquí conviven optimización, parámetros, geometría y teoremas de análisis. Cuando repases, etiqueta cada error con uno de esos bloques: así conviertes la corrección en un plan de estudio real.
+
+Para practicar por bloques y recibir seguimiento, puedes acceder al [Campus de Método Nebula](/campus/).
+`,na=`---
+title: Matemáticas II · PAU 2026 · Andalucía — examen resuelto
+seoTitle: Matemáticas II · PAU 2026 · Andalucía — examen resuelto
+date: 2026-10-18
+updated: 2026-11-05
+description: Examen Matemáticas II · PAU 2026 · Andalucía resuelto paso a paso con planteamientos, cálculos y comprobaciones para preparar la Selectividad.
+tag: Matemáticas II PAU
+category: Selectividad
+relatedService: /campus/
+relatedPosts: como-preparar-pau-matematicas-ii,pau-matematicas-matrices-determinantes-gauss,pau-matematicas-integrales-areas
+image: /favicon.svg
+---
+
+Este examen resuelto conserva el enunciado y desarrolla cada apartado. Úsalo primero a contrarreloj y compáralo después con el razonamiento, no solo con el resultado final.
+
+**Convocatoria:** ordinaria. **Examen:** ejercicios 1 y 2 obligatorios; después se elige un ejercicio entre 3.1 y 3.2 y otro entre 4.1 y 4.2.
+
+## Ejercicio 1 · Ventana de área máxima
+
+### Enunciado
+
+Queremos diseñar una ventana con un rectángulo en la parte inferior y un semicírculo encima. El contorno completo debe medir 8 metros. ¿Qué dimensiones harán que entre la mayor cantidad posible de luz? (2,5 puntos)
+
+### Solución
+
+Llamamos $x$ a la anchura del rectángulo, que también es el diámetro del semicírculo, e $y$ a su altura. El área total es la suma de la parte rectangular y la semicircular:
+
+$$A(x,y)=xy+\\frac12\\pi\\left(\\frac x2\\right)^2
+=xy+\\frac{\\pi x^2}{8}.$$
+
+El contorno incluye la base, los dos lados verticales y el arco del semicírculo. Por tanto,
+
+$$x+2y+\\frac{\\pi x}{2}=8
+\\ \\Longrightarrow\\ y=4-\\frac{2+\\pi}{4}x.$$
+
+Sustituimos esta relación en el área para trabajar con una sola variable:
+
+$$\\begin{aligned}A(x)&=x\\left(4-\\frac{2+\\pi}{4}x\\right)+\\frac{\\pi x^2}{8}\\\\
+&=4x-\\frac{4+\\pi}{8}x^2.\\end{aligned}$$
+
+Derivamos e igualamos a cero:
+
+$$A'(x)=4-\\frac{4+\\pi}{4}x=0
+\\ \\Longrightarrow\\ x=\\frac{16}{4+\\pi}.$$
+
+Como $A''(x)=-(4+\\pi)/4<0$, hemos encontrado un máximo. La altura del rectángulo se obtiene sustituyendo:
+
+$$y=4-\\frac{2+\\pi}{4}\\frac{16}{4+\\pi}
+=\\frac8{4+\\pi}.$$
+
+**Dimensiones óptimas:** anchura $\\boxed{x=16/(4+\\pi)}$ metros y altura rectangular $\\boxed{y=8/(4+\\pi)}$ metros. El semicírculo tiene radio $x/2=8/(4+\\pi)$ metros.
+
+## Ejercicio 2 · Coplanaridad, área y volumen
+
+### Enunciado
+
+Dados $A=(1,2,0)$, $B=(2,m,1)$, $C=(3,4,2)$ y $D=(1,-1,m)$:
+
+**a)** Busca los valores de $m$ con los que los cuatro puntos están en el mismo plano. (1,5 puntos)
+
+**b)** Para $m=1$, calcula el área del triángulo $ABC$ y el volumen del tetraedro $ABCD$. (1 punto)
+
+### Solución
+
+**a)** Formamos dos vectores del plano de $A$, $B$ y $C$:
+
+$$\\overrightarrow{AB}=(1,m-2,1),\\qquad \\overrightarrow{AC}=(2,2,2).$$
+
+Para comprobar que $D$ está en ese plano podemos calcular el producto mixto con $\\overrightarrow{AD}=(0,-3,m)$:
+
+$$\\det\\begin{pmatrix}1&m-2&1\\\\2&2&2\\\\0&-3&m\\end{pmatrix}=0.$$
+
+Al desarrollar el determinante resulta una expresión proporcional a $m(3-m)$. Por tanto, los cuatro puntos son coplanarios si
+
+$$\\boxed{m=0\\quad\\text{o}\\quad m=3}.$$
+
+**b)** Con $m=1$:
+
+$$\\overrightarrow{AB}=(1,-1,1),\\qquad
+\\overrightarrow{AC}=(2,2,2),\\qquad
+\\overrightarrow{AD}=(0,-3,1).$$
+
+Para el triángulo, calculamos el producto vectorial
+
+$$\\overrightarrow{AB}\\times\\overrightarrow{AC}=(-4,0,4).$$
+
+El área es la mitad de su módulo:
+
+$$S_{ABC}=\\frac12\\sqrt{(-4)^2+0^2+4^2}=\\boxed{2\\sqrt2\\ \\text{u}^2}.$$
+
+Para el tetraedro usamos un sexto del valor absoluto del producto mixto:
+
+$$V_{ABCD}=\\frac16\\left|\\det\\begin{pmatrix}1&-1&1\\\\2&2&2\\\\0&-3&1\\end{pmatrix}\\right|
+=\\frac{|4|}{6}=\\boxed{\\frac23\\ \\text{u}^3}.$$
+
+
+## Ejercicio 3.1 · Discusión de un sistema
+
+### Enunciado
+
+Estudia este sistema en función del parámetro real $a$:
+
+$$\\begin{cases}
+3x-y=a^2,\\\\
+(1-a)y+2z=0,\\\\
+4y+(3-a)z=a-5.
+\\end{cases}$$
+
+**a)** Indica para qué valores de $a$ hay una solución, infinitas soluciones o ninguna. (1,75 puntos)
+
+**b)** Resuelve el sistema cuando $a=0$. (0,75 puntos)
+
+### Solución
+
+**a)** La matriz de coeficientes es
+
+$$M=\\begin{pmatrix}3&-1&0\\\\0&1-a&2\\\\0&4&3-a\\end{pmatrix}.$$
+
+Calculamos su determinante:
+
+$$\\det M=3\\bigl[(1-a)(3-a)-8\\bigr]
+=3(a^2-4a-5)=3(a-5)(a+1).$$
+
+Para $a\\neq-1,5$, el determinante no se anula y el sistema tiene **solución única**.
+
+Si $a=-1$, las dos últimas ecuaciones tienen el mismo lado izquierdo salvo un factor, pero distintos términos independientes:
+
+$$2y+2z=0,\\qquad4y+4z=-6.$$
+
+Son incompatibles. Por tanto, para $a=-1$ **no hay solución**.
+
+Si $a=5$, las dos últimas ecuaciones son opuestas:
+
+$$-4y+2z=0,\\qquad4y-2z=0.$$
+
+La tercera no añade ninguna condición nueva, y el sistema tiene **infinitas soluciones**.
+
+$$\\boxed{\\begin{array}{ll}
+a\\neq-1,5:&\\text{una solución},\\\\
+a=-1:&\\text{ninguna solución},\\\\
+a=5:&\\text{infinitas soluciones}.
+\\end{array}}$$
+
+**b)** Al poner $a=0$ queda
+
+$$\\begin{cases}3x-y=0,\\\\y+2z=0,\\\\4y+3z=-5.\\end{cases}$$
+
+De $y=-2z$, sustituimos en la tercera: $4(-2z)+3z=-5$, luego $-5z=-5$ y $z=1$. Así, $y=-2$ y $3x=-2$. Finalmente,
+
+$$\\boxed{(x,y,z)=\\left(-\\frac23,-2,1\\right)}.$$
+
+## Ejercicio 3.2 · Propiedades de determinantes
+
+### Enunciado
+
+Tenemos una matriz con $\\det A=-2$:
+
+$$A=\\begin{pmatrix}\\alpha&\\beta&1\\\\2&\\alpha&\\beta\\\\3&4&\\alpha\\end{pmatrix}.$$
+
+**a)** Calcula sin desarrollar directamente este determinante (1,5 puntos):
+
+$$D=\\begin{vmatrix}-3&-4&-\\alpha\\\\\\alpha-2&\\beta-\\alpha&1-\\beta\\\\8&4\\alpha&4\\beta\\end{vmatrix}.$$
+
+**b)** Obtén $\\det(A^{-1}A^tA^2)$. (1 punto)
+
+### Solución
+
+**a)** Primero sacamos factor común $4$ de la tercera fila:
+
+$$D=4\\begin{vmatrix}-3&-4&-\\alpha\\\\\\alpha-2&\\beta-\\alpha&1-\\beta\\\\2&\\alpha&\\beta\\end{vmatrix}.$$
+
+Después sumamos la tercera fila a la segunda, una operación que no cambia el determinante:
+
+$$D=4\\begin{vmatrix}-3&-4&-\\alpha\\\\\\alpha&\\beta&1\\\\2&\\alpha&\\beta\\end{vmatrix}.$$
+
+Sacamos $-1$ de la primera fila y reordenamos las filas para recuperar $A$. En total aparecen tres cambios de signo (uno por el factor $-1$ y dos por intercambios):
+
+$$D=4(-1)^3\\det A=-4(-2)=\\boxed{8}.$$
+
+**b)** Utilizamos $\\det(BC)=\\det B\\det C$, $\\det A^t=\\det A$ y $\\det A^{-1}=1/\\det A$:
+
+$$\\begin{aligned}
+\\det(A^{-1}A^tA^2)&=\\frac1{\\det A}\\cdot\\det A\\cdot(\\det A)^2\\\\
+&=(\\det A)^2=(-2)^2=\\boxed{4}.
+\\end{aligned}$$
+
+
+## Ejercicio 4.1 · Primitiva con una tangente dada
+
+### Enunciado
+
+Sea
+
+$$f(x)=\\frac{8e^x-4e^{2x}}{1+e^x}.$$
+
+Encuentra una primitiva $F$ cuya gráfica, cuando $x=0$, tenga como recta tangente $y=2x+12\\ln2$. (2,5 puntos)
+
+### Solución
+
+Buscamos la integral de $f$. Hacemos $t=e^x$; entonces $dt=e^x\\,dx$ y $dx=dt/t$:
+
+$$\\begin{aligned}
+\\int f(x)\\,dx
+&=\\int\\frac{8t-4t^2}{1+t}\\frac{dt}{t}\\\\
+&=\\int\\frac{8-4t}{1+t}\\,dt
+=\\int\\left(\\frac{12}{1+t}-4\\right)dt\\\\
+&=12\\ln(1+t)-4t+C.
+\\end{aligned}$$
+
+Volviendo a $x$ obtenemos $F(x)=12\\ln(1+e^x)-4e^x+C$.
+
+Como la tangente pasa por $(0,12\\ln2)$, debemos exigir $F(0)=12\\ln2$:
+
+$$12\\ln2-4+C=12\\ln2\\ \\Longrightarrow\\ C=4.$$
+
+Comprobamos también la pendiente: $F'(0)=f(0)=(8-4)/(1+1)=2$, justo la de la recta dada. La primitiva buscada es
+
+$$\\boxed{F(x)=12\\ln(1+e^x)-4e^x+4}.$$
+
+## Ejercicio 4.2 · Monedas y probabilidad condicionada
+
+### Enunciado
+
+Hay dos bolsas: la primera contiene 2 monedas de oro y 3 de plata; la segunda, 6 de oro y 3 de plata. Sacamos al azar una moneda de la primera bolsa y la trasladamos a la segunda. Luego sacamos una de la segunda bolsa.
+
+**a)** Si la moneda trasladada fue de plata, ¿cuál es la probabilidad de sacar después una de oro? (0,75 puntos)
+
+**b)** Si la segunda moneda ha sido de oro, ¿qué probabilidad hay de que la trasladada fuera de plata? (1,75 puntos)
+
+### Solución
+
+Llamamos $P_1$ al suceso «primera moneda de plata» y $O_2$ a «segunda moneda de oro».
+
+**a)** Al trasladar plata, en la segunda bolsa quedan 6 de oro y 4 de plata, de modo que
+
+$$\\boxed{P(O_2\\mid P_1)=\\frac6{10}=0{,}6}.$$
+
+**b)** Para aplicar Bayes necesitamos la probabilidad de que la segunda moneda sea de oro. Si la primera fue de oro, la segunda bolsa tendrá 7 monedas de oro y 3 de plata:
+
+$$\\begin{aligned}P(O_2)
+&=P(\\text{primera oro})P(O_2\\mid\\text{primera oro})+P(P_1)P(O_2\\mid P_1)\\\\
+&=\\frac25\\frac7{10}+\\frac35\\frac6{10}
+=\\frac{32}{50}=0{,}64.\\end{aligned}$$
+
+Ahora aplicamos Bayes:
+
+$$P(P_1\\mid O_2)=\\frac{P(P_1)P(O_2\\mid P_1)}{P(O_2)}
+=\\frac{\\frac35\\frac6{10}}{\\frac{32}{50}}
+=\\frac{18}{32}=\\boxed{\\frac9{16}=0{,}5625}.$$
+
+## Cómo usar este examen para preparar la PAU
+
+Haz una primera vuelta sin consultar la solución. Al corregir, señala el primer paso que no supiste justificar y repítelo al día siguiente. Así conviertes un modelo de examen en una lista concreta de técnicas que debes entrenar.
+
+Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
+
+`,aa=`---
+title: Matemáticas II · PAU 2026 · Aragón — examen resuelto
+seoTitle: Matemáticas II · PAU 2026 · Aragón — examen resuelto
+date: 2026-10-16
+updated: 2026-11-05
+description: Examen Matemáticas II · PAU 2026 · Aragón resuelto paso a paso con planteamientos, cálculos y comprobaciones para preparar la Selectividad.
+tag: Matemáticas II PAU
+category: Selectividad
+relatedService: /campus/
+relatedPosts: como-preparar-pau-matematicas-ii,pau-matematicas-matrices-determinantes-gauss,pau-matematicas-integrales-areas
+image: /favicon.svg
+---
+
+Este examen resuelto conserva el enunciado y desarrolla cada apartado. Úsalo primero a contrarreloj y compáralo después con el razonamiento, no solo con el resultado final.
+
+**Convocatoria:** ordinaria. **Examen:** las preguntas 1, 2 y 3 son obligatorias; en las 4 y 5 hay que escoger una opción.
+
+## Ejercicio 1 · Evolución de poblaciones con matrices
+
+### Enunciado
+
+Tres especies de un ecosistema, A, B y C, tienen poblaciones $a_k$, $b_k$ y $c_k$ en el mes $k$. Su evolución se representa con
+
+$$
+\\begin{pmatrix}a_{k+1}\\\\b_{k+1}\\\\c_{k+1}\\end{pmatrix}
+=M\\begin{pmatrix}a_k\\\\b_k\\\\c_k\\end{pmatrix},\\qquad
+M=\\begin{pmatrix}1&0&0\\\\1&1&0\\\\1&0&1\\end{pmatrix}.
+$$
+
+**a)** Al principio hay 100 ejemplares de A, 124 de B y 234 de C. ¿Cuántos habrá tras dos meses? (0,5 puntos)
+
+**b)** Explica por qué, sin hacer la potencia, la población en el mes $k$ se calcula multiplicando la población inicial por $M^k$. (0,5 puntos)
+
+**c)** Obtén una fórmula para $M^k$ y describe qué ocurre con cada especie a medida que pasan los meses. (1 punto)
+
+### Solución
+
+**a)** Multiplicamos una vez para el primer mes:
+
+$$
+M\\begin{pmatrix}100\\\\124\\\\234\\end{pmatrix}
+=\\begin{pmatrix}100\\\\224\\\\334\\end{pmatrix}.
+$$
+
+Y volvemos a aplicar la misma matriz:
+
+$$
+M\\begin{pmatrix}100\\\\224\\\\334\\end{pmatrix}
+=\\boxed{\\begin{pmatrix}100\\\\324\\\\434\\end{pmatrix}}.
+$$
+
+**b)** Si escribimos $v_k=(a_k,b_k,c_k)^T$, tenemos $v_1=Mv_0$, $v_2=Mv_1=M^2v_0$ y $v_3=Mv_2=M^3v_0$. Repitiendo este razonamiento mes a mes:
+
+$$\\boxed{v_k=M^kv_0}.$$
+
+**c)** Calculamos algunas potencias para encontrar el patrón:
+
+$$
+M^2=\\begin{pmatrix}1&0&0\\\\2&1&0\\\\2&0&1\\end{pmatrix},\\qquad
+M^3=\\begin{pmatrix}1&0&0\\\\3&1&0\\\\3&0&1\\end{pmatrix}.
+$$
+
+Por inducción, la expresión general es
+
+$$\\boxed{M^k=\\begin{pmatrix}1&0&0\\\\k&1&0\\\\k&0&1\\end{pmatrix}}.$$
+
+Así, $a_k=a_0$, $b_k=b_0+ka_0$ y $c_k=c_0+ka_0$. En este ejemplo, A se mantiene en 100 individuos y B y C ganan 100 ejemplares cada mes.
+
+## Ejercicio 2 · Primitivas y monotonía
+
+### Enunciado
+
+Una función $f$ es continua en $[0,\\infty)$ y cumple
+
+$$f'(x)=\\frac{e^{\\sqrt{x}}}{\\sqrt{x}}\\quad(x>0),\\qquad f(1)=2e-2.$$
+
+**a)** Encuentra $f(x)$ y calcula su límite cuando $x\\to0^+$. (1 punto)
+
+**b)** Indica dónde crece o decrece y demuestra que $f(x)\\ge0$ para todo $x\\ge0$. (1 punto)
+
+### Solución
+
+**a)** Integramos la derivada usando $t=\\sqrt{x}$, de modo que $dx=2t\\,dt$:
+
+$$
+\\int\\frac{e^{\\sqrt{x}}}{\\sqrt{x}}\\,dx
+=\\int\\frac{e^t}{t}(2t\\,dt)=2e^t+C=2e^{\\sqrt{x}}+C.
+$$
+
+Imponemos $f(1)=2e-2$: $2e+C=2e-2$, luego $C=-2$. Por tanto,
+
+$$
+\\boxed{f(x)=2e^{\\sqrt{x}}-2},\\qquad
+\\boxed{\\lim_{x\\to0^+}f(x)=2-2=0}.
+$$
+
+**b)** Para $x>0$, tanto $e^{\\sqrt x}$ como $\\sqrt x$ son positivos, de manera que $f'(x)>0$. La función crece en $(0,\\infty)$ y, como $f(0)=0$ y es continua, se cumple $\\boxed{f(x)\\ge0}$ en todo su dominio.
+
+## Ejercicio 3 · Intersección de planos
+
+### Enunciado
+
+Tenemos los planos $\\pi:x-2y+4z+1=0$ y $\\pi_d:2x-3y+6z=d$, donde $d$ es real.
+
+**a)** ¿Hay algún $d$ con el que los planos no tengan ningún punto en común? (1 punto)
+
+**b)** Para $d=-2$, encuentra la recta de intersección de ambos planos. (1 punto)
+
+### Solución
+
+**a)** Sus vectores normales son $n=(1,-2,4)$ y $n_d=(2,-3,6)$. No son proporcionales, ya que $1/2\\neq(-2)/(-3)$. Los planos **se cortan para cualquier valor de $d$**.
+
+**b)** Con $d=-2$ resolvemos
+
+$$\\begin{cases}x-2y+4z=-1,\\\\2x-3y+6z=-2.\\end{cases}$$
+
+De la primera, $x=2y-4z-1$. Sustituyéndola en la segunda:
+
+$$2(2y-4z-1)-3y+6z=-2\\ \\Longrightarrow\\ y-2z=0.$$
+
+Tomando $z=t$, sale $y=2t$ y $x=-1$. La intersección es la recta
+
+$$\\boxed{r:\\begin{cases}x=-1,\\\\y=2t,\\\\z=t,\\end{cases}\\quad t\\in\\mathbb R}.$$
+
+## Ejercicio 4.1 · Examen tipo test
+
+### Enunciado
+
+Un examen tiene cuatro preguntas, cada una con cinco respuestas posibles y una única correcta. Los aciertos valen 2,5 puntos, los errores restan 0,625 puntos y las preguntas en blanco no puntúan. Contestamos las cuatro al azar.
+
+**a)** ¿Qué probabilidad hay de sacar una nota de al menos 9? (1 punto)
+
+**b)** ¿Qué probabilidad hay de suspender, es decir, quedarse por debajo de 5? (1 punto)
+
+### Solución
+
+Cada respuesta tiene probabilidad $p=1/5$ de ser correcta y $q=4/5$ de ser incorrecta.
+
+**a)** La única forma de llegar a 9 es acertarlo todo, con nota 10:
+
+$$P(\\text{nota}\\ge9)=\\left(\\frac15\\right)^4=\\boxed{\\frac1{625}=0{,}0016}.$$
+
+**b)** Con 3 aciertos se obtiene $3(2{,}5)-0{,}625=6{,}875$, y con 2 aciertos se obtiene $2(2{,}5)-2(0{,}625)=3{,}75$. Por tanto, se aprueba con 3 o 4 respuestas acertadas. La probabilidad de aprobar es
+
+$$
+\\begin{aligned}P(\\text{aprobar})&=\\binom43\\left(\\frac15\\right)^3\\frac45+\\binom44\\left(\\frac15\\right)^4\\\\
+&=\\frac{16+1}{625}=\\frac{17}{625}.
+\\end{aligned}
+$$
+
+Usamos el complementario:
+
+$$P(\\text{suspender})=1-\\frac{17}{625}=\\boxed{\\frac{608}{625}=0{,}9728}.$$
+
+## Ejercicio 4.2 · Eficacia de tratamientos
+
+### Enunciado
+
+Un hospital compara dos técnicas quirúrgicas. Estas son las intervenciones registradas:
+
+| Gravedad | Técnica 1 | Técnica 2 |
+| -------- | --------: | --------: |
+| Grave    |        44 |       140 |
+| Leve     |       136 |        40 |
+
+De ellas, tuvieron éxito las siguientes:
+
+| Gravedad | Técnica 1 | Técnica 2 |
+| -------- | --------: | --------: |
+| Grave    |        30 |       102 |
+| Leve     |       120 |        36 |
+
+**a)** Si sabemos que una operación salió bien, ¿cuál de las dos técnicas es más probable que se utilizara? (0,5 puntos)
+
+**b)** ¿Qué técnica elegirías para una lesión leve? ¿Y para una grave? (1 punto)
+
+**c)** Cuando no se conoce la gravedad, el hospital usa por defecto la técnica 1. Explica por qué esa regla puede resultar engañosa. (0,5 puntos)
+
+### Solución
+
+**a)** Hubo $30+120+102+36=288$ éxitos. La técnica 1 aportó $150$ y la técnica 2 aportó $138$. Al elegir un expediente exitoso, es más probable que se haya usado la **técnica 1** ($150/288>138/288$).
+
+**b)** Conviene comparar las tasas de éxito **dentro de cada grupo de gravedad**:
+
+- Lesiones leves: técnica 1, $120/136\\approx0{,}8824$; técnica 2, $36/40=0{,}9$.
+- Lesiones graves: técnica 1, $30/44\\approx0{,}6818$; técnica 2, $102/140\\approx0{,}7286$.
+
+La **técnica 2** tiene la mejor tasa tanto en lesiones leves como en graves.
+
+**c)** Si no se distinguen los grupos, la eficacia global de la primera técnica parece mayor:
+
+$$
+P(E\\mid T_1)=\\frac{150}{180}\\approx0{,}8333,\\qquad
+P(E\\mid T_2)=\\frac{138}{180}\\approx0{,}7667.
+$$
+
+Pero al separar por gravedad, la técnica 2 es mejor en los dos grupos. La aparente contradicción se debe a que se operaron proporciones muy distintas de casos graves y leves con cada técnica: es un ejemplo de cómo **agregar datos puede invertir una comparación**.
+
+## Ejercicio 5.1 · Optimización de recursos
+
+### Enunciado
+
+Una organización puede contar con hasta 70 archiveros para digitalizar expedientes. Con un equipo de 50, cada trabajador procesa 80 expedientes al mes. Si se incorpora un nuevo archivero, cada miembro del equipo pasa a digitalizar un expediente menos al mes. ¿Cuántos archiveros conviene asignar para maximizar la producción mensual? (2 puntos)
+
+### Solución
+
+Sea $x$ el número de nuevos archiveros, con $0\\le x\\le20$. El equipo tendrá $50+x$ personas y cada una digitalizará $80-x$ expedientes. El total mensual es
+
+$$f(x)=(50+x)(80-x)=-x^2+30x+4000.$$
+
+Derivamos y anulamos la derivada:
+
+$$f'(x)=-2x+30=0\\ \\Longrightarrow\\ x=15.$$
+
+Como $f''(x)=-2<0$, es un máximo. Por tanto, el equipo óptimo tiene $50+15=\\boxed{65\\text{ archiveros}}$ y procesa $(65)(65)=\\boxed{4225\\text{ expedientes/mes}}$.
+
+## Ejercicio 5.2 · Límite de exponenciales
+
+### Enunciado
+
+Calcula el límite
+
+$$\\lim_{x\\to0}\\frac{e^{\\sin x}-e^x}{1-\\cos x}.$$
+
+### Solución
+
+Al sustituir $x=0$ aparece $0/0$, así que aplicamos L'Hôpital:
+
+$$L=\\lim_{x\\to0}\\frac{\\cos x\\,e^{\\sin x}-e^x}{\\sin x}.$$
+
+Vuelve a aparecer $0/0$ y derivamos de nuevo:
+
+$$L=\\lim_{x\\to0}\\frac{(\\cos^2x-\\sin x)e^{\\sin x}-e^x}{\\cos x}.$$
+
+Ahora podemos sustituir $x=0$:
+
+$$L=\\frac{(1-0)\\cdot1-1}{1}=\\boxed{0}.$$
+
+## Cómo usar este examen para preparar la PAU
+
+Haz una primera vuelta sin consultar la solución. Al corregir, señala el primer paso que no supiste justificar y repítelo al día siguiente. Así conviertes un modelo de examen en una lista concreta de técnicas que debes entrenar.
+
+Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
+`,oa=`---
+title: Matemáticas II · PAU 2026 · Principado de Asturias — examen resuelto
+seoTitle: Matemáticas II · PAU 2026 · Principado de Asturias — examen resuelto
+date: 2026-10-14
+updated: 2026-11-05
+description: Examen Matemáticas II · PAU 2026 · Principado de Asturias resuelto paso a paso con planteamientos, cálculos y comprobaciones para preparar la Selectividad.
+tag: Matemáticas II PAU
+category: Selectividad
+relatedService: /campus/
+relatedPosts: como-preparar-pau-matematicas-ii,pau-matematicas-matrices-determinantes-gauss,pau-matematicas-integrales-areas
+image: /favicon.svg
+---
+
+Este examen resuelto conserva el enunciado y desarrolla cada apartado. Úsalo primero a contrarreloj y compáralo después con el razonamiento, no solo con el resultado final.
+
+**Convocatoria:** ordinaria. **Examen:** hay cinco preguntas, cada una con opciones A y B. Se responden cuatro preguntas y, en cada una, se escoge solo una opción.
+
+## Ejercicio 1A · compras en una cafetería
+
+### Enunciado
+
+Una persona va tres días a una cafetería. El primero compra **1 café, 2 tés y 2 zumos** por 11 €. El segundo pide **1 café, 3 tés y 3 zumos** y paga 16 €. El tercer día compra **3 cafés, 3 tés y cierta cantidad de zumos**, con un total exacto de 21 €.
+
+**a) (1,5 puntos)** Construye un sistema que permita calcular el precio de cada bebida. Llama $p$ al número de zumos del tercer día y estudia el sistema según el valor de $p$.
+
+**b) (0,5 puntos)** El camarero dice que con esos 21 € se han comprado dos zumos. El cliente responde que eso no puede ser correcto. ¿Quién tiene razón?
+
+**c) (0,5 puntos)** Si finalmente se confirma que el tercer día fueron cuatro zumos, ¿cuál es el precio de cada bebida?
+
+### Solución
+
+**a) Empezamos dando nombre a los precios.** Sea $x$ el precio de un café, $y$ el de un té y $z$ el de un zumo, todos en euros. Las tres compras se expresan mediante
+
+$$
+\\begin{cases}
+x+2y+2z=11,\\\\
+x+3y+3z=16,\\\\
+3x+3y+pz=21.
+\\end{cases}
+$$
+
+Aplicamos eliminación de Gauss a la matriz ampliada:
+
+$$
+\\left[\\begin{array}{ccc|c}
+1&2&2&11\\\\
+1&3&3&16\\\\
+3&3&p&21
+\\end{array}\\right]
+\\xrightarrow{\\substack{F_2\\leftarrow F_2-F_1\\\\F_3\\leftarrow F_3-3F_1}}
+\\left[\\begin{array}{ccc|c}
+1&2&2&11\\\\
+0&1&1&5\\\\
+0&-3&p-6&-12
+\\end{array}\\right]
+\\xrightarrow{F_3\\leftarrow F_3+3F_2}
+\\left[\\begin{array}{ccc|c}
+1&2&2&11\\\\
+0&1&1&5\\\\
+0&0&p-3&3
+\\end{array}\\right].
+$$
+
+La última fila representa $(p-3)z=3$. Por tanto:
+
+- Si $p\\neq3$, hay **una solución única**.
+- Si $p=3$, quedaría $0=3$, que es imposible. En ese caso, **no existe solución**.
+
+**b) Probamos con $p=2$.** La última ecuación de la matriz escalonada da
+
+$$-z=3\\quad\\Longrightarrow\\quad z=-3.$$
+
+Un zumo no puede tener un precio negativo. Por tanto, **el cliente tiene razón**: dos zumos no encajan con las condiciones de la compra.
+
+**c) Ahora tomamos $p=4$.** De la última fila obtenemos $z=3$. Después, la segunda fila da $y+3=5$, luego $y=2$. Por último,
+
+$$x+2\\cdot2+2\\cdot3=11\\quad\\Longrightarrow\\quad x=1.$$
+
+$$\\boxed{\\text{Café: }1,\\quad\\text{té: }2,\\quad\\text{zumo: }3}$$
+
+Los tres precios están expresados en euros.
+
+## Ejercicio 1B · matrices con un parámetro
+
+### Enunciado
+
+Considera la matriz
+
+$$A=\\begin{pmatrix}-1&2&-2\\\\0&3&-4\\\\a&2&-3\\end{pmatrix},\\qquad a\\in\\mathbb R.$$
+
+**a) (1 punto)** Encuentra los valores de $a$ para los que $A^2=I$, donde $I$ es la identidad de orden 3.
+
+**b) (0,5 puntos)** Otra matriz $B$ de tamaño $3\\times3$ verifica $B^2=2I$. ¿Qué valores puede tener $\\det B$?
+
+**c) (1 punto)** Calcula el determinante y el rango de $A$ según $a$.
+
+### Solución
+
+**a) Multiplicamos la matriz por sí misma.**
+
+$$
+A^2=\\begin{pmatrix}
+1-2a&0&0\\\\
+-4a&1&0\\\\
+-4a&2a&1-2a
+\\end{pmatrix}.
+$$
+
+Para que sea la identidad, todos los elementos que dependen de $a$ deben coincidir con los de $I$. Se cumple precisamente cuando
+
+$$\\boxed{a=0}.$$
+
+**b) Usamos los determinantes.**
+
+$$\\det(B^2)=\\det(2I)=2^3=8.$$
+
+Como $\\det(B^2)=(\\det B)^2$, tenemos
+
+$$(\\det B)^2=8\\quad\\Longrightarrow\\quad\\boxed{\\det B=\\pm2\\sqrt2}.$$
+
+**c) Calculamos el determinante de $A$.**
+
+$$\\boxed{\\det A=1-2a}.$$
+
+Si $a\\neq\\tfrac12$, el determinante no se anula, de modo que $\\operatorname{rg}(A)=3$. Si $a=\\tfrac12$, el determinante es cero, pero existe un menor de orden 2 no nulo:
+
+$$\\begin{vmatrix}-1&2\\\\0&3\\end{vmatrix}=-3\\neq0.$$
+
+Así que
+
+$$\\boxed{\\operatorname{rg}(A)=\\begin{cases}3,&a\\neq\\frac12,\\\\2,&a=\\frac12.\\end{cases}}$$
+
+## Ejercicio 2A · evolución de una acción
+
+### Enunciado
+
+Una empresa empieza a cotizar en bolsa con sus acciones a **5 €**. Durante los primeros 30 días, su precio se puede aproximar por
+
+$$f(t)=\\frac{5t^2+2t+5}{t^2+1},\\qquad t\\in[0,30],$$
+
+donde $t$ es el número de días desde que empezó a cotizar.
+
+**a) (1 punto)** La empresa tiene como objetivo que la acción llegue a valer 6,50 €. ¿Lo conseguirá durante ese primer mes?
+
+**b) (0,75 puntos)** Estudia cuándo sube y cuándo baja el precio.
+
+**c) (0,75 puntos)** Si el modelo siguiera funcionando indefinidamente, ¿hacia qué precio tendería la acción?
+
+### Solución
+
+**a) Buscamos el precio máximo.** Reescribimos la función y calculamos la derivada:
+
+$$f(t)=5+\\frac{2t}{t^2+1},\\qquad f'(t)=\\frac{2(1-t^2)}{(t^2+1)^2}.$$
+
+La derivada se anula para $t=\\pm1$, pero solo $t=1$ pertenece al intervalo. La segunda derivada es
+
+$$f''(t)=\\frac{4t(t^2-3)}{(t^2+1)^3},\\qquad f''(1)=-1<0.$$
+
+Por tanto, en $t=1$ hay un máximo y $f(1)=6$. Los extremos del intervalo tampoco superan ese valor: $f(0)=5$ y $f(30)=4565/901\\approx5{,}0666$.
+
+$$\\boxed{\\text{No: el valor máximo de la acción es }6.}$$
+
+La cifra está expresada en euros.
+
+**b) Analizamos el signo de la derivada.** Para $0\\leq t<1$, $1-t^2>0$, así que $f$ crece. Para $1<t\\leq30$, $1-t^2<0$ y la función decrece. En resumen, **sube durante el primer día y baja a partir de entonces**.
+
+**c) Calculamos el límite a largo plazo.**
+
+$$\\lim_{t\\to+\\infty}\\frac{5t^2+2t+5}{t^2+1}=\\boxed{5}.$$
+
+Si mantuviéramos el mismo modelo, el precio se acercaría a **5 € por acción**.
+
+## Ejercicio 2B · función definida a trozos
+
+### Enunciado
+
+Sea la función
+
+$$
+f(x)=\\begin{cases}
+x^2-Ax+11,&x<2,\\\\
+\\sqrt{5x-1},&x\\geq2.
+\\end{cases}
+$$
+
+**a) (0,75 puntos)** Calcula $A$ para que la función sea continua.
+
+**b) (1,25 puntos)** Para $A=6$, indica en qué intervalos crece o decrece.
+
+**c) (0,5 puntos)** Con $A=6$, ¿hay un máximo o mínimo relativo en $x=2$?
+
+### Solución
+
+**a) Igualamos los dos tramos en el punto de unión.**
+
+$$\\lim_{x\\to2^-}f(x)=2^2-2A+11=15-2A.$$
+
+Por la derecha, y también en el propio punto, tenemos
+
+$$f(2)=\\sqrt{5\\cdot2-1}=3.$$
+
+Para garantizar la continuidad pedimos $15-2A=3$. De aquí,
+
+$$\\boxed{A=6}.$$
+
+**b) Derivamos por separado.** Cuando $x<2$,
+
+$$f'(x)=2x-6<0,$$
+
+porque en ese intervalo siempre $x<2<3$. La función es **decreciente** a la izquierda de 2.
+
+Cuando $x>2$,
+
+$$f'(x)=\\frac5{2\\sqrt{5x-1}}>0.$$
+
+Por tanto, la función es **creciente** a la derecha de 2.
+
+**c) Interpretamos el cambio de comportamiento.** La gráfica baja hasta $x=2$ y después sube. Eso significa que allí hay un **mínimo relativo**, cuyo valor es
+
+$$\\boxed{f(2)=3}.$$
+
+## Ejercicio 3A · primitivas y áreas
+
+### Enunciado
+
+Sabemos que
+
+$$F(x)=\\frac12\\sin\\left(\\frac\\pi2x^2\\right)$$
+
+es una primitiva de otra función $f$.
+
+**a) (1 punto)** Encuentra la expresión de $f$.
+
+**b) (0,75 puntos)** Busca otra primitiva de $f$ que valga 6 cuando $x=0$.
+
+**c) (0,75 puntos)** Calcula el área comprendida entre la gráfica de $f$, el eje $OX$ y las rectas $x=0$ y $x=1$.
+
+### Solución
+
+**a) Derivamos la primitiva que nos han dado.** Aplicamos la regla de la cadena:
+
+$$
+f(x)=F'(x)=\\frac12\\cos\\left(\\frac\\pi2x^2\\right)\\cdot\\pi x
+=\\boxed{\\frac{\\pi x}{2}\\cos\\left(\\frac\\pi2x^2\\right)}.
+$$
+
+**b) Añadimos una constante de integración.** Cualquier otra primitiva tiene la forma
+
+$$G(x)=\\frac12\\sin\\left(\\frac\\pi2x^2\\right)+C.$$
+
+Como $G(0)=6$ y $\\sin0=0$, obtenemos $C=6$. Por tanto,
+
+$$\\boxed{G(x)=\\frac12\\sin\\left(\\frac\\pi2x^2\\right)+6}.$$
+
+**c) Comprobamos el signo antes de integrar.** En $0\\leq x\\leq1$, $x\\geq0$ y el coseno del ángulo $\\frac\\pi2x^2\\in[0,\\pi/2]$ no es negativo. Por tanto, el área coincide con la integral:
+
+$$
+A=\\int_0^1 f(x)\\,dx=F(1)-F(0)
+=\\frac12\\sin\\frac\\pi2-\\frac12\\sin0
+=\\boxed{\\frac12\\ \\text{u}^2}.
+$$
+
+## Ejercicio 3B · una función racional
+
+### Enunciado
+
+Trabajamos con la función
+
+$$f(x)=\\frac{x-2}{x^2+1}.$$
+
+**a) (1,25 puntos)** Calcula una primitiva de $f$.
+
+**b) (1,25 puntos)** Encuentra el área comprendida entre su gráfica, el eje horizontal y las rectas $x=0$ y $x=1$.
+
+### Solución
+
+**a) Separamos la fracción en dos partes sencillas de integrar.**
+
+$$
+\\int\\frac{x-2}{x^2+1}\\,dx
+=\\int\\frac{x}{x^2+1}\\,dx-2\\int\\frac1{x^2+1}\\,dx.
+$$
+
+Recordamos que la derivada de $\\ln(x^2+1)$ contiene $2x$ y que la derivada de $\\arctan x$ es $1/(1+x^2)$. Así,
+
+$$\\boxed{F(x)=\\frac12\\ln(x^2+1)-2\\arctan(x)+C}.$$
+
+**b) Tenemos en cuenta que la gráfica está por debajo del eje.** Para $0\\leq x\\leq1$, $x-2<0$, mientras que el denominador es positivo. El área se calcula cambiando el signo de la integral:
+
+$$
+\\begin{aligned}
+A&=-\\int_0^1\\frac{x-2}{x^2+1}\\,dx\\\\
+&=-\\left[\\frac12\\ln(x^2+1)-2\\arctan x\\right]_0^1\\\\
+&=-\\left(\\frac12\\ln2-\\frac\\pi2\\right).
+\\end{aligned}
+$$
+
+Por tanto,
+
+$$\\boxed{A=\\frac\\pi2-\\frac12\\ln2\\approx1{,}2242\\ \\text{u}^2}.$$
+
+## Ejercicio 4A · una recta y un plano
+
+### Enunciado
+
+Dado el plano $\\pi:x+2y+3z=6$ y el punto $P=(0,-1,-2)$:
+
+**a) (1,25 puntos)** Escribe una recta que pase por $P$ y sea paralela al plano. ¿Es la única posible?
+
+**b) (1,25 puntos)** Encuentra el punto $Q$ del plano que está más cerca de $P$ y calcula la distancia entre ambos.
+
+### Solución
+
+**a) Elegimos un vector paralelo al plano.** El vector normal de $\\pi$ es $n=(1,2,3)$. Un vector director $v$ de una recta paralela al plano debe cumplir $n\\cdot v=0$. Por ejemplo,
+
+$$v=(2,2,-2),\\qquad (1,2,3)\\cdot(2,2,-2)=2+4-6=0.$$
+
+Con este vector y el punto $P$, obtenemos
+
+$$\\boxed{r:(x,y,z)=(0,-1,-2)+\\lambda(2,2,-2),\\quad\\lambda\\in\\mathbb R}.$$
+
+**No es única:** hay infinitos vectores no nulos perpendiculares a $n$ y, por tanto, infinitas rectas posibles que pasan por $P$ y son paralelas a $\\pi$.
+
+**b) Buscamos la proyección ortogonal de $P$ sobre el plano.** La recta perpendicular al plano que pasa por $P$ tiene dirección $n$:
+
+$$s:(x,y,z)=(0,-1,-2)+\\lambda(1,2,3).$$
+
+Un punto cualquiera de $s$ tiene coordenadas $(\\lambda,-1+2\\lambda,-2+3\\lambda)$. Lo sustituimos en el plano:
+
+$$
+\\lambda+2(-1+2\\lambda)+3(-2+3\\lambda)=6
+\\quad\\Longrightarrow\\quad14\\lambda=14
+\\quad\\Longrightarrow\\quad\\lambda=1.
+$$
+
+Por tanto, el pie de la perpendicular es $\\boxed{Q=(1,1,1)}$. La distancia vale
+
+$$\\boxed{d(P,Q)=\\sqrt{(1-0)^2+(1+1)^2+(1+2)^2}=\\sqrt{14}\\approx3{,}74}.$$
+
+## Ejercicio 4B · un cambio de dirección
+
+### Enunciado
+
+Un vehículo se mueve en línea recta desde $P=(2,1,3)$ hacia $Q=(0,-1,1)$. Cuando ha recorrido la **mitad del trayecto**, gira y sigue una nueva recta que pasa por $H=(1,1,1)$.
+
+**a) (0,5 puntos)** Localiza el punto donde gira.
+
+**b) (0,75 puntos)** Escribe la recta por la que continúa después del giro.
+
+**c) (0,75 puntos)** Calcula el ángulo formado por la dirección anterior y la nueva.
+
+### Solución
+
+**a) Hallamos el punto medio del segmento $PQ$.**
+
+$$
+M=\\frac{P+Q}{2}
+=\\left(\\frac{2+0}{2},\\frac{1-1}{2},\\frac{3+1}{2}\\right)
+=\\boxed{(1,0,2)}.
+$$
+
+**b) Construimos la nueva recta.** Esta pasa por $M=(1,0,2)$ y $H=(1,1,1)$. Un vector director es
+
+$$\\overrightarrow{MH}=H-M=(0,1,-1).$$
+
+En forma vectorial,
+
+$$\\boxed{r:(x,y,z)=(1,0,2)+\\lambda(0,1,-1)}.$$
+
+**c) Comparamos las dos direcciones.** Antes del giro el vector de movimiento es
+
+$$u=Q-P=(-2,-2,-2),$$
+
+y después, $w=(0,1,-1)$. Calculamos el producto escalar:
+
+$$u\\cdot w=(-2)\\cdot0+(-2)\\cdot1+(-2)\\cdot(-1)=0.$$
+
+Al ser ambos vectores no nulos y tener producto escalar cero, son perpendiculares. Por tanto,
+
+$$\\boxed{\\alpha=90^\\circ=\\frac\\pi2\\ \\text{radianes}}.$$
+
+## Ejercicio 5A · defectos en una fábrica
+
+### Enunciado
+
+Una fábrica de vaqueros realiza dos controles de calidad: uno comprueba el largo de los pantalones y otro revisa las costuras. El **10 %** de las prendas falla el control de longitud, el **5 %** falla el de costuras y el **0,8 %** falla ambos.
+
+**a) (1,25 puntos)** Si escogemos unos pantalones al azar, ¿qué probabilidad hay de que fallen **al menos uno** de los dos controles?
+
+**b) (1,25 puntos)** Si sabemos que han fallado el control de longitud, ¿qué probabilidad hay de que también fallen el de costuras?
+
+### Solución
+
+Llamemos $L$ al suceso «falla la longitud» y $C$ a «fallan las costuras». Nos dan
+
+$$P(L)=0{,}10,\\qquad P(C)=0{,}05,\\qquad P(L\\cap C)=0{,}008.$$
+
+**a) Sumamos las dos probabilidades y restamos la intersección**, que se habría contado dos veces:
+
+$$
+P(L\\cup C)=P(L)+P(C)-P(L\\cap C)
+=0{,}10+0{,}05-0{,}008
+=\\boxed{0{,}142}.
+$$
+
+Es decir, una probabilidad del **14,2 %**.
+
+**b) Aplicamos la probabilidad condicionada.**
+
+$$
+P(C\\mid L)=\\frac{P(C\\cap L)}{P(L)}
+=\\frac{0{,}008}{0{,}10}
+=\\boxed{0{,}08}.
+$$
+
+Por tanto, si el pantalón falla por longitud, la probabilidad de que también falle por costuras es del **8 %**.
+
+## Ejercicio 5B · carga máxima de una grúa
+
+### Enunciado
+
+Una grúa dispone de un sistema de seguridad que se activa si intenta levantar una caja de **más de 40 kg**. El peso de las cajas sigue una distribución normal con media **38 kg** y desviación típica **1,2 kg**:
+
+$$X\\sim N(38,1{,}2).$$
+
+**a) (1,25 puntos)** Calcula la probabilidad de que la alarma salte al levantar una caja elegida al azar.
+
+**b) (1,25 puntos)** Si la grúa levanta diez cajas, una tras otra, y sus pesos son independientes, ¿qué probabilidad hay de que salte la alarma **al menos una vez**?
+
+### Solución
+
+**a) Tipificamos el peso.** Buscamos $P(X>40)$. Para una normal no importa si usamos $>$ o $\\geq$, ya que la probabilidad de un valor exacto es cero. Definimos
+
+$$Z=\\frac{X-38}{1{,}2}\\sim N(0,1).$$
+
+Entonces,
+
+$$P(X>40)=P\\left(Z>\\frac{40-38}{1{,}2}\\right)=P(Z>1{,}6667).$$
+
+Con el valor de tabla $P(Z\\leq1{,}6667)\\approx0{,}9520$,
+
+$$\\boxed{P(X>40)=1-0{,}9520=0{,}0480}.$$
+
+Es una probabilidad del **4,8 %**.
+
+**b) Usamos el suceso contrario.** Sea $Y$ el número de alarmas que saltan durante los diez levantamientos. Suponiendo independencia,
+
+$$Y\\sim B(10,0{,}048).$$
+
+Es más fácil calcular que **no salte ninguna** y restarlo de 1:
+
+$$
+\\begin{aligned}
+P(Y\\geq1)&=1-P(Y=0)\\\\
+&=1-\\binom{10}{0}(0{,}048)^0(0{,}952)^{10}\\\\
+&=1-(0{,}952)^{10}.
+\\end{aligned}
+$$
+
+Por tanto,
+
+$$\\boxed{P(Y\\geq1)\\approx0{,}3885}.$$
+
+La probabilidad de que la alarma salte al menos una vez es aproximadamente del **38,85 %**.
+
+## Cómo usar este examen para preparar la PAU
+
+Haz una primera vuelta sin consultar la solución. Al corregir, señala el primer paso que no supiste justificar y repítelo al día siguiente. Así conviertes un modelo de examen en una lista concreta de técnicas que debes entrenar.
+
+Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
+`,ia=`---
+title: Matemáticas II · PAU 2026 · Cantabria — examen resuelto
+seoTitle: Matemáticas II · PAU 2026 · Cantabria — examen resuelto
+date: 2026-10-28
+updated: 2026-11-05
+description: Examen de Matemáticas II de la PAU 2026 de Cantabria resuelto con todos los pasos y alternativas.
+tag: Matemáticas II PAU
+category: Selectividad
+relatedService: /campus/
+relatedPosts: como-preparar-pau-matematicas-ii,pau-matematicas-matrices-determinantes-gauss,pau-matematicas-probabilidad-bayes
+image: /favicon.svg
+---
+
+Aquí están desarrolladas todas las tareas, aunque en la prueba se elegía una alternativa por bloque. Las soluciones conservan las operaciones intermedias necesarias para justificar el resultado.
+
+## Tarea 1A · Potencias y ecuación matricial
+
+### Enunciado
+
+Sea $A=\\begin{pmatrix}1&a&0\\\\0&1&0\\\\0&0&a\\end{pmatrix}$. Estudia su rango, calcula $A^{100}$ y, para $a=-1$, resuelve $AXA=M$, donde
+
+$$M=\\begin{pmatrix}2&2&2\\\\0&0&-1\\\\0&-2&-2\\end{pmatrix}.$$
+
+### Solución
+
+Como $A$ es triangular, $\\det A=1\\cdot1\\cdot a=a$. Si $a\\ne0$, el determinante es no nulo y $\\operatorname{rg}A=3$. Si $a=0$, queda $\\operatorname{diag}(1,1,0)$, que tiene un menor no nulo de orden 2; por tanto,
+
+$$\\boxed{\\operatorname{rg}A=3\\ (a\\ne0),\\qquad\\operatorname{rg}A=2\\ (a=0).}$$
+
+Multiplicando las primeras potencias se ve el patrón
+
+$$
+A^2=\\begin{pmatrix}1&2a&0\\\\0&1&0\\\\0&0&a^2\\end{pmatrix},\\qquad
+A^n=\\begin{pmatrix}1&na&0\\\\0&1&0\\\\0&0&a^n\\end{pmatrix}.
+$$
+
+Por inducción, al multiplicar $A^n$ por $A$ se pasa de $na$ a $(n+1)a$ y de $a^n$ a $a^{n+1}$. Luego
+
+$$\\boxed{A^{100}=\\begin{pmatrix}1&100a&0\\\\0&1&0\\\\0&0&a^{100}\\end{pmatrix}}.$$
+
+Para $a=-1$,
+
+$$
+A=\\begin{pmatrix}1&-1&0\\\\0&1&0\\\\0&0&-1\\end{pmatrix},\\qquad
+A^{-1}=\\begin{pmatrix}1&1&0\\\\0&1&0\\\\0&0&-1\\end{pmatrix}.
+$$
+
+Multiplicamos $AXA=M$ por $A^{-1}$ a izquierda y derecha:
+
+$$
+X=A^{-1}MA^{-1}
+=\\boxed{\\begin{pmatrix}2&0&-1\\\\0&0&1\\\\0&2&-2\\end{pmatrix}}.
+$$
+
+## Tarea 1B · Discusión de un sistema
+
+### Enunciado
+
+Discute el sistema
+
+$$\\begin{cases}x+y+z=0,\\\\y+az=1,\\\\ay+z=2-a.\\end{cases}$$
+
+Resuélvelo además para $a=2$ y $a=1$.
+
+### Solución
+
+El determinante de la matriz de coeficientes es
+
+$$\\det\\begin{pmatrix}1&1&1\\\\0&1&a\\\\0&a&1\\end{pmatrix}=1-a^2.$$
+
+Para $a\\ne\\pm1$ hay solución única. Si $a=-1$, las dos últimas ecuaciones son $y-z=1$ y $-y+z=3$; al sumarlas aparece $0=4$, luego es incompatible.
+
+Si $a=1$, ambas últimas ecuaciones son $y+z=1$. La primera da $x=-(y+z)=-1$. Tomando $y=\\lambda$, $z=1-\\lambda$:
+
+$$\\boxed{a=1:\\ (x,y,z)=(-1,\\lambda,1-\\lambda).}$$
+
+Para $a=2$:
+
+$$y+2z=1,\\qquad2y+z=0.$$
+
+De la segunda $y=-z/2$; al sustituir en la primera, $-z/2+2z=1$, de donde $z=2/3$, $y=-1/3$. Finalmente $x=-y-z=-1/3$:
+
+$$\\boxed{a=2:\\ (x,y,z)=(-1/3,-1/3,2/3).}$$
+
+## Tarea 2A · Asíntota, monotonía y tangente
+
+### Enunciado
+
+Sea $f(x)=\\dfrac{x^2+ax+1}{x+a^2}$. **a)** Determina $a$ para que la asíntota oblicua sea $y=x-6$. **b)** Con $a=-2$, estudia crecimiento y decrecimiento. **c)** Halla la tangente en $x=-1$.
+
+### Solución
+
+La división de polinomios da
+
+$$f(x)=x+(a-a^2)+\\frac{1-a^3+a^4}{x+a^2}.$$
+
+La asíntota oblicua es $y=x+a-a^2$. Al imponer $a-a^2=-6$:
+
+$$a^2-a-6=0\\Longrightarrow(a-3)(a+2)=0,$$
+
+así que $\\boxed{a=3\\text{ o }a=-2}$.
+
+Con $a=-2$, $f(x)=x-6+25/(x+4)$ y
+
+$$f'(x)=1-\\frac{25}{(x+4)^2}.$$
+
+Se anula cuando $(x+4)^2=25$, es decir, en $x=-9$ y $x=1$; $x=-4$ no pertenece al dominio. El signo de la derivada da:
+
+$$\\boxed{\\text{crece en }(-\\infty,-9)\\cup(1,+\\infty),\\quad\\text{decrece en }(-9,-4)\\cup(-4,1).}$$
+
+En $x=-1$, $f(-1)=4/3$ y $f'(-1)=1-25/9=-16/9$. La recta tangente es
+
+$$y-\\frac43=-\\frac{16}{9}(x+1),\\qquad\\boxed{y=-\\frac{16}{9}x-\\frac49}.$$
+
+## Tarea 2B · Asíntotas e integral logarítmica
+
+### Enunciado
+
+Para $f(x)=\\dfrac{e^x-1}{e^{2x}-4}$, calcula sus asíntotas y una primitiva cuyo valor en $x=\\ln4$ sea $\\ln2$.
+
+### Solución
+
+El denominador se anula si $e^{2x}=4$, es decir, en $x=\\ln2$. Como el numerador allí es 1, hay asíntota vertical $\\boxed{x=\\ln2}$. Los límites en los infinitos dan $f(x)\\to0$ cuando $x\\to+\\infty$ y $f(x)\\to1/4$ cuando $x\\to-\\infty$, así que las horizontales son $\\boxed{y=0}$ y $\\boxed{y=1/4}$.
+
+Para integrar hacemos $t=e^x$, $dx=dt/t$:
+
+$$\\int f(x)dx=\\int\\frac{t-1}{t(t-2)(t+2)}dt.$$
+
+Descomponemos
+
+$$\\frac{t-1}{t(t-2)(t+2)}=\\frac1{4t}+\\frac1{8(t-2)}-\\frac3{8(t+2)}.$$
+
+Luego
+
+$$F(x)=\\frac x4+\\frac18\\ln|e^x-2|-\\frac38\\ln|e^x+2|+K.$$
+
+Al imponer $F(\\ln4)=\\ln2$, resulta $K=3\\ln12/8$. Por tanto,
+
+$$\\boxed{F(x)=\\frac x4+\\frac18\\ln|e^x-2|-\\frac38\\ln|e^x+2|+\\frac{3\\ln12}{8}}.$$
+
+## Tarea 3 · Plano, distancia y volumen
+
+### Enunciado
+
+Dados $A=(0,0,4)$, $B=(-3,0,0)$ y $C=(0,-2,0)$, halla el plano $ABC$, la distancia de $P=(1,1,1)$ a la recta $AB$ y el volumen del tetraedro $ABCD$ con $D=(0,0,0)$.
+
+### Solución
+
+Tomamos $\\overrightarrow{AB}=(-3,0,-4)$ y $\\overrightarrow{AC}=(0,-2,-4)$. Su producto vectorial es proporcional a $(4,6,-3)$. Con el punto $A$:
+
+$$4(x-0)+6(y-0)-3(z-4)=0\\Longrightarrow\\boxed{4x+6y-3z+12=0}.$$
+
+La recta $AB$ es $(x,y,z)=(0,0,4)+\\lambda(-3,0,-4)$. El plano por $P$ perpendicular a ella es $-3x-4z+7=0$. Intersectando:
+
+$$-3(-3\\lambda)-4(4-4\\lambda)+7=0\\Longrightarrow25\\lambda=9.$$
+
+El pie es $H=(-27/25,0,64/25)$. Por ello,
+
+$$
+d(P,AB)=\\lVert\\overrightarrow{PH}\\rVert
+=\\sqrt{\\left(-\\frac{52}{25}\\right)^2+(-1)^2+\\left(\\frac{39}{25}\\right)^2}
+=\\boxed{\\frac{\\sqrt{194}}5}.
+$$
+
+El producto mixto de $\\overrightarrow{DA}=(0,0,4)$, $\\overrightarrow{DB}=(-3,0,0)$ y $\\overrightarrow{DC}=(0,-2,0)$ vale 24. El volumen es un sexto:
+
+$$\\boxed{V=\\frac{|24|}{6}=4}.$$
+
+## Tarea 4A · Tabla de contingencia
+
+### Enunciado
+
+El 60 % de unas cobayas tiene pelo corto; el 8 % es blanco y de pelo largo. Si el 20 % es blanco, calcula: **a)** $P(\\text{marrón}\\mid\\text{largo})$; **b)** $P(\\text{largo}\\mid\\text{marrón})$; **c)** $P(\\text{marrón}\\mid\\text{corto})$.
+
+### Solución
+
+El 40 % tiene pelo largo. De este total, el 8 % es blanco, así que el $40-8=32$ % es largo y marrón. Como el total blanco es 20 %, el blanco y corto es $20-8=12$ %; de los cortos, $60-12=48$ % son marrones.
+
+$$
+\\begin{array}{c|cc|c}&\\text{blanco}&\\text{marrón}&\\text{total}\\\\\\hline
+\\text{corto}&12\\%&48\\%&60\\%\\\\
+\\text{largo}&8\\%&32\\%&40\\%\\\\\\hline
+\\text{total}&20\\%&80\\%&100\\%
+\\end{array}
+$$
+
+Dividimos cada casilla conjunta por el total condicionado:
+
+$$\\boxed{P(M\\mid L)=32/40=0{,}8,\\quad P(L\\mid M)=32/80=0{,}4,\\quad P(M\\mid C)=48/60=0{,}8}. $$
+
+## Tarea 4B · Normal y tipificación
+
+### Enunciado
+
+El diámetro $X$ de las mandarinas sigue $N(60,16)$. Calcula: **a)** $P(X<40\\text{ o }X>90)$; **b)** la probabilidad de que dos tengan diámetro menor de 50; **c)** $P(40<X<50)$.
+
+### Solución
+
+Tipificamos con $Z=(X-60)/16$. Para a), los valores son $z_{40}=-1{,}25$ y $z_{90}=1{,}875$:
+
+$$P(X<40\\text{ o }X>90)=\\Phi(-1{,}25)+1-\\Phi(1{,}875)\\approx\\boxed{0{,}136}. $$
+
+Para 50 mm, $z=-0{,}625$. De la tabla, $P(X<50)=\\Phi(-0{,}625)\\approx0{,}26595$. Si las elecciones son independientes,
+
+$$P(X_1<50\\cap X_2<50)=0{,}26595^2\\approx\\boxed{0{,}0707}.$$
+
+Finalmente,
+
+$$
+P(40<X<50)=\\Phi(-0{,}625)-\\Phi(-1{,}25)
+\\approx0{,}26595-0{,}1056=\\boxed{0{,}16035}.
+$$
+
+## Cómo usar este examen
+
+Cuando hayas terminado un bloque, comprueba si puedes explicar por qué se ha usado cada fórmula. Ese hábito evita aprender solo la apariencia de un procedimiento.
+
+Puedes practicar estos contenidos con ejercicios guiados en el [Campus de Método Nebula](/campus/).
+`,ra=`---
+title: Matemáticas II · PAU 2026 · Cataluña — examen resuelto
+seoTitle: Matemáticas II · PAU 2026 · Cataluña — examen resuelto
+date: 2026-10-10
+updated: 2026-11-05
+description: Examen Matemáticas II · PAU 2026 · Cataluña resuelto paso a paso con planteamientos, cálculos y comprobaciones para preparar la Selectividad.
+tag: Matemáticas II PAU
+category: Selectividad
+relatedService: /campus/
+relatedPosts: como-preparar-pau-matematicas-ii,pau-matematicas-matrices-determinantes-gauss,pau-matematicas-integrales-areas
+image: /favicon.svg
+---
+
+Este examen resuelto conserva el enunciado y desarrolla cada apartado. Úsalo primero a contrarreloj y compáralo después con el razonamiento, no solo con el resultado final.
+
+**Convocatoria:** ordinaria, serie 1. **Examen:** ejercicios 1, 2 y 3 obligatorios; en el 4 se elige entre A y B.
+
+## Ejercicio 1 · Continuidad, áreas y tangentes
+
+### Enunciado
+
+Trabajamos con la función a trozos
+
+$$
+f(x)=\\begin{cases}
+5e^{2x},&x\\leq 0,\\\\
+(x+m)^2+1,&0<x<2,\\\\
+1,&x\\geq 2,
+\\end{cases}
+$$
+
+donde $m$ es un número real.
+
+**a) (1 punto)** Encuentra el valor de $m$ para que no haya ningún salto en la gráfica y la función sea continua en todo su dominio.
+
+**b) (1 punto)** Si $m=-2$, dibuja un esquema de la gráfica y calcula el área encerrada entre la función, el eje horizontal y las rectas $x=-1$ y $x=3$.
+
+**c) (0,5 puntos)** También para $m=-2$, localiza un punto donde la tangente tenga la misma inclinación que $y=-2x$ y escribe la ecuación de esa tangente.
+
+### Solución
+
+**a) Comprobamos dónde se unen los trozos.** Cada expresión es continua dentro de su intervalo, así que solo necesitamos estudiar $x=0$ y $x=2$.
+
+En $x=0$, el trozo izquierdo vale $5$ y el límite por la derecha es $m^2+1$. Para que coincidan,
+
+$$5=m^2+1\\quad\\Longrightarrow\\quad m=2\\ \\text{o}\\ m=-2.$$
+
+En $x=2$, el límite desde la izquierda vale $(2+m)^2+1$ y desde la derecha, $1$. Debemos imponer
+
+$$(2+m)^2+1=1\\quad\\Longrightarrow\\quad m=-2.$$
+
+Este es el único valor que satisface las dos condiciones: $\\boxed{m=-2}$.
+
+**b) Calculamos el área por tramos.** Al sustituir $m=-2$ tenemos
+
+$$f(x)=\\begin{cases}5e^{2x},&x\\leq0,\\\\(x-2)^2+1,&0<x<2,\\\\1,&x\\geq2.\\end{cases}$$
+
+La gráfica empieza con una exponencial creciente hasta $(0,5)$; después sigue una parábola decreciente que llega a $(2,1)$; a partir de ahí continúa como una recta horizontal a altura $1$. Como los tres tramos están por encima del eje $OX$, sumamos directamente sus áreas:
+
+$$\\begin{aligned}
+A_1&=\\int_{-1}^{0}5e^{2x}\\,dx=\\left[\\frac52e^{2x}\\right]_{-1}^0=\\frac52(1-e^{-2}),\\\\[3pt]
+A_2&=\\int_0^2\\big((x-2)^2+1\\big)\\,dx
+=\\left[\\frac{(x-2)^3}{3}+x\\right]_0^2=\\frac{14}{3},\\\\[3pt]
+A_3&=\\int_2^3 1\\,dx=1.
+\\end{aligned}$$
+
+Por tanto,
+
+$$\\boxed{A=\\frac52(1-e^{-2})+\\frac{14}{3}+1=\\frac{49-15e^{-2}}{6}\\approx7{,}83\\ \\text{u}^2}.$$
+
+**c) Buscamos una pendiente igual a $-2$.** En la parte exponencial la derivada $10e^{2x}$ siempre es positiva; en la parte horizontal es cero. Por tanto, miramos el tramo parabólico:
+
+$$f'(x)=2(x-2),\\qquad 2(x-2)=-2\\ \\Longrightarrow\\ x=1.$$
+
+Para ese valor, $f(1)=2$. La recta que pasa por $(1,2)$ y tiene pendiente $-2$ cumple
+
+$$y-2=-2(x-1)\\quad\\Longrightarrow\\quad\\boxed{y=-2x+4}.$$
+
+## Ejercicio 2 · Sistemas y planos en el espacio
+
+### Enunciado
+
+Este sistema representa tres planos y depende del parámetro real $m$:
+
+$$\\begin{cases}
+x+my+z=4,\\\\
+x+3y+z=5,\\\\
+mx+y+z=4.
+\\end{cases}$$
+
+**a) (1 punto)** Estudia cuántas soluciones tiene según el valor de $m$.
+
+**b) (1 punto)** Explica qué ocurre geométricamente con los planos en cada caso. Después, resuelve el sistema para $m=1$.
+
+**c) (0,5 puntos)** Para $m=1$, ¿podemos incorporar una cuarta ecuación de modo que quede una única solución, concretamente $(3,\\tfrac12,\\tfrac12)$? Justifícalo.
+
+### Solución
+
+**a) Analizamos el determinante de la matriz de coeficientes.**
+
+$$A=\\begin{pmatrix}1&m&1\\\\1&3&1\\\\m&1&1\\end{pmatrix},\\qquad
+\\det A=(m-1)(m-3).$$
+
+- Si $m\\neq1,3$, el determinante no es cero y el sistema tiene **una única solución**.
+- Si $m=1$, la primera y la tercera ecuación coinciden: $x+y+z=4$. La segunda ecuación es distinta e independiente, por lo que hay **infinitas soluciones**.
+- Si $m=3$, las dos primeras ecuaciones tienen exactamente el mismo lado izquierdo pero distintos términos independientes: $x+3y+z=4$ y $x+3y+z=5$. Son incompatibles, así que **no hay solución**.
+
+**b) Lo interpretamos con planos.** Para $m\\neq1,3$, los tres se cruzan en un punto. Cuando $m=1$, dos planos coinciden y el tercero los corta en una recta. Cuando $m=3$, los dos primeros planos son paralelos y distintos, por lo que no puede existir un punto común a los tres.
+
+Resolvemos el caso $m=1$:
+
+$$\\begin{cases}x+y+z=4,\\\\x+3y+z=5.\\end{cases}$$
+
+Restando las ecuaciones encontramos $2y=1$ y, por tanto, $y=\\tfrac12$. Entonces $x+z=\\tfrac72$. Si llamamos $t$ a $z$,
+
+$$\\boxed{(x,y,z)=\\left(\\frac72-t,\\frac12,t\\right),\\quad t\\in\\mathbb R}.$$
+
+**c) Añadimos una ecuación que fije un punto de la recta.** El punto propuesto ya pertenece a la recta anterior: para $t=\\tfrac12$ se obtiene $(3,\\tfrac12,\\tfrac12)$. Basta incorporar
+
+$$\\boxed{z=\\frac12}.$$
+
+Con esta nueva condición, $z$ queda fijada, $y=\\tfrac12$ y $x=3$. El sistema ampliado tiene exactamente esa solución.
+
+## Ejercicio 3 · Sorteo, probabilidad y sonido en un concierto
+
+### Enunciado
+
+El ayuntamiento de Canet de Mar reparte mediante un sorteo **24 entradas gratis** para un concierto. Participan todos los vecinos aficionados al grupo, pero solo el **16 %** consigue una entrada en el sorteo. De quienes se quedan sin ella, **seis séptimas partes** intentan comprarla por internet. En esa compra, cada persona tiene un **25 % de probabilidad** de conseguirla.
+
+**a) (0,75 puntos)** ¿Cuántos seguidores del grupo terminan teniendo entrada?
+
+**b) (0,75 puntos)** Elegimos al azar a un seguidor que **no tiene entrada**. ¿Qué probabilidad hay de que hubiera intentado comprarla por internet?
+
+**c) (1 punto)** Durante una canción de cinco minutos, el volumen de los gritos del público se modela con
+
+$$S(t)=-t^3+12t^2-30t+90,\\qquad0\\leq t\\leq5,$$
+
+donde $S$ se mide en decibelios y $t$ en minutos. Si el nivel supera los **100 dB**, se encienden unas luces especiales. ¿Llegarán a encenderse? En caso afirmativo, indica aproximadamente en qué minuto empieza a suceder, redondeando a una décima.
+
+### Solución
+
+**a) Empezamos averiguando cuántos seguidores participan.** Los 24 ganadores representan el 16 % del total:
+
+$$N=\\frac{24}{0{,}16}=150.$$
+
+Se quedan sin premio $150-24=126$ seguidores. De ellos, intentan comprar entrada
+
+$$126\\cdot\\frac67=108.$$
+
+El 25 % la consigue, de modo que por internet compran $108\\cdot0{,}25=27$ entradas. Sumándolas a las sorteadas,
+
+$$\\boxed{24+27=51\\ \\text{personas con entrada}}.$$
+
+**b) Consideramos únicamente a las personas sin entrada.** En total son $150-51=99$. De quienes lo intentaron por internet, no lograron comprarla $108-27=81$. La probabilidad condicional es
+
+$$\\boxed{P(\\text{intentó comprar}\\mid\\text{sin entrada})=\\frac{81}{99}=\\frac9{11}\\approx0{,}8182}.$$
+
+Es decir, cerca del **81,82 %**.
+
+**c) Buscamos el momento en que se llega a los 100 dB.** Restamos el umbral a la función:
+
+$$D(t)=S(t)-100=-t^3+12t^2-30t-10.$$
+
+Es continua porque es un polinomio. Además,
+
+$$D(0)=-10<0,\\qquad D(5)=15>0.$$
+
+Por el teorema de Bolzano, en algún instante entre $0$ y $5$ se alcanza exactamente el valor $100$. Acotamos ese momento:
+
+$$S(4)=98<100,\\qquad S(4{,}2)=101{,}592>100.$$
+
+La solución de $S(t)=100$ que pertenece al intervalo de la canción es $t\\approx4{,}111$. Al pasar ese instante se supera el umbral y se activan las luces.
+
+$$\\boxed{t\\approx4{,}1\\ \\text{minutos}}.$$
+
+## Ejercicio 4A · diseño de un parque
+
+### Enunciado
+
+En un parque infantil se van a reservar dos zonas: una **circular** para una boca de riego y otra **cuadrada** para una caseta de herramientas. Ambas deben estar rodeadas por una barandilla. Tenemos **10 metros de barandilla en total** para los dos cerramientos.
+
+¿Cómo hay que repartir esos 10 metros entre las dos zonas para que la suma de sus superficies sea la menor posible? Calcula también esa superficie mínima. **(2,5 puntos)**
+
+### Solución
+
+Llamamos $r$ al radio de la zona circular y $a$ al lado de la cuadrada. La cantidad total de barandilla se traduce en
+
+$$2\\pi r+4a=10\\quad\\Longrightarrow\\quad a=\\frac{5-\\pi r}{2}.$$
+
+La superficie conjunta es
+
+$$S=\\pi r^2+a^2=\\pi r^2+\\left(\\frac{5-\\pi r}{2}\\right)^2.$$
+
+Derivamos respecto a $r$ y buscamos el punto crítico:
+
+$$\\begin{aligned}
+S'(r)&=2\\pi r-\\frac\\pi2(5-\\pi r)
+=\\frac\\pi2\\bigl((4+\\pi)r-5\\bigr),\\\\
+S'(r)=0&\\ \\Longrightarrow\\ \\boxed{r=\\frac5{4+\\pi}}.
+\\end{aligned}$$
+
+La segunda derivada es $S''(r)=\\tfrac\\pi2(4+\\pi)>0$, así que este valor da un **mínimo**. El lado del cuadrado es
+
+$$a=\\frac{5-\\pi\\frac5{4+\\pi}}2=\\boxed{\\frac{10}{4+\\pi}}.$$
+
+Ahora calculamos la cantidad de barandilla de cada zona:
+
+$$\\begin{aligned}
+L_{\\text{círculo}}&=2\\pi r=\\boxed{\\frac{10\\pi}{4+\\pi}\\approx4{,}40\\ \\text{m}},\\\\
+L_{\\text{cuadrado}}&=4a=\\boxed{\\frac{40}{4+\\pi}\\approx5{,}60\\ \\text{m}}.
+\\end{aligned}$$
+
+La superficie mínima es
+
+$$S_{\\min}=\\pi\\left(\\frac5{4+\\pi}\\right)^2+\\left(\\frac{10}{4+\\pi}\\right)^2
+=\\boxed{\\frac{25}{4+\\pi}\\approx3{,}50\\ \\text{m}^2}.$$
+
+## Ejercicio 4B · geometría de un tetraedro
+
+### Enunciado
+
+Considera estos tres puntos del espacio:
+
+$$P=(1,0,-1),\\qquad Q=(3,-2,0),\\qquad R=(1,1,1).$$
+
+**a) (0,75 puntos)** Calcula el plano que pasa por los tres puntos.
+
+**b) (0,75 puntos)** Comprueba que el área del triángulo $PQR$ es $\\frac{3\\sqrt5}{2}$ unidades cuadradas.
+
+**c) (1 punto)** Queremos añadir un cuarto punto $S=(x,y,z)$ y conseguir que el tetraedro $PQRS$ tenga **volumen 1**. Encuentra la condición que deben cumplir $x$, $y$ y $z$.
+
+### Solución
+
+**a) Encontramos una dirección perpendicular al plano.** Construimos dos vectores que están contenidos en él:
+
+$$\\overrightarrow{PQ}=(2,-2,1),\\qquad\\overrightarrow{PR}=(0,1,2).$$
+
+Su producto vectorial es
+
+$$\\overrightarrow{PQ}\\times\\overrightarrow{PR}=(-5,-4,2).$$
+
+Este es un vector normal al plano. Usando el punto $P$,
+
+$$-5(x-1)-4y+2(z+1)=0.$$
+
+Simplificamos y obtenemos
+
+$$\\boxed{\\pi:\\;-5x-4y+2z+7=0}.$$
+
+**b) Calculamos el área mediante el producto vectorial.**
+
+$$\\begin{aligned}
+\\lVert\\overrightarrow{PQ}\\times\\overrightarrow{PR}\\rVert
+&=\\sqrt{(-5)^2+(-4)^2+2^2}=\\sqrt{45}=3\\sqrt5,\\\\
+A_{PQR}&=\\frac12\\lVert\\overrightarrow{PQ}\\times\\overrightarrow{PR}\\rVert
+=\\boxed{\\frac{3\\sqrt5}{2}}.
+\\end{aligned}$$
+
+**c) Utilizamos la fórmula del volumen.** Si $h$ es la distancia de $S$ al plano $PQR$,
+
+$$1=\\frac{A_{PQR}\\,h}{3}=\\frac{3\\sqrt5\\,h}{6}
+\\quad\\Longrightarrow\\quad h=\\frac2{\\sqrt5}.$$
+
+La distancia desde $S=(x,y,z)$ al plano de la primera parte es
+
+$$d(S,\\pi)=\\frac{|-5x-4y+2z+7|}{\\sqrt{25+16+4}}
+=\\frac{|-5x-4y+2z+7|}{3\\sqrt5}.$$
+
+Para que la altura sea la calculada debe cumplirse
+
+$$\\frac{|-5x-4y+2z+7|}{3\\sqrt5}=\\frac2{\\sqrt5}
+\\quad\\Longrightarrow\\quad|-5x-4y+2z+7|=6.$$
+
+El valor absoluto produce dos planos posibles. Por tanto, los puntos válidos son **todos los que cumplan una de estas ecuaciones**:
+
+$$\\boxed{5x+4y-2z-1=0\\quad\\text{o}\\quad5x+4y-2z-13=0}.$$
+
+## Cómo usar este examen para preparar la PAU
+
+Haz una primera vuelta sin consultar la solución. Al corregir, señala el primer paso que no supiste justificar y repítelo al día siguiente. Así conviertes un modelo de examen en una lista concreta de técnicas que debes entrenar.
+
+Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
+
+`,sa=`---
+title: Matemáticas II · PAU 2026 · Comunitat Valenciana — examen resuelto
+seoTitle: Matemáticas II · PAU 2026 · Comunitat Valenciana — examen resuelto
+date: 2026-10-08
+updated: 2026-11-05
+description: Examen Matemáticas II · PAU 2026 · Comunitat Valenciana resuelto paso a paso con planteamientos, cálculos y comprobaciones para preparar la Selectividad.
+tag: Matemáticas II PAU
+category: Selectividad
+relatedService: /campus/
+relatedPosts: como-preparar-pau-matematicas-ii,pau-matematicas-matrices-determinantes-gauss,pau-matematicas-integrales-areas
+image: /favicon.svg
+---
+
+Este examen resuelto conserva el enunciado y desarrolla cada apartado. Úsalo primero a contrarreloj y compáralo después con el razonamiento, no solo con el resultado final.
+
+**Convocatoria:** ordinaria. **Examen:** la pregunta 1 es obligatoria; en las preguntas 2, 3 y 4 hay que elegir entre las opciones propuestas.
+
+## Ejercicio 1 · Probabilidad y estadística
+
+### Enunciado
+
+En un país, el 20 % de sus habitantes tiene una enfermedad. El test que se utiliza para detectarla sale positivo en el 90 % de las personas enfermas y también en el 5 % de las personas sanas.
+
+**1.1)** Si hacemos el test a alguien elegido al azar, ¿qué probabilidad hay de que salga positivo? (0,75 puntos)
+
+**1.2)** Si el resultado ha sido positivo, ¿qué probabilidad hay de que la persona esté sana? (0,75 puntos)
+
+**1.3)** Elegimos 8 personas de forma independiente. ¿Qué probabilidad hay de que como mucho 2 tengan la enfermedad? (1 punto)
+
+### Solución
+
+Llamamos $E$ al suceso «tener la enfermedad» y $+$ al test positivo. Sabemos que $P(E)=0{,}2$, $P(+\\mid E)=0{,}9$ y $P(+\\mid\\overline E)=0{,}05$.
+
+**1.1)** Aplicamos la probabilidad total:
+
+$$P(+)=0{,}2\\cdot0{,}9+0{,}8\\cdot0{,}05=\\boxed{0{,}22}.$$
+
+**1.2)** Ahora usamos Bayes:
+
+$$P(\\overline E\\mid+)=\\frac{P(\\overline E)P(+\\mid\\overline E)}{P(+)}
+=\\frac{0{,}8\\cdot0{,}05}{0{,}22}
+=\\boxed{0{,}1818}.$$
+
+**1.3)** Sea $X$ el número de personas enfermas. Sigue una binomial $X\\sim B(8,0{,}2)$:
+
+$$\\begin{aligned}
+P(X\\le2)&=\\sum_{k=0}^2\\binom8k(0{,}2)^k(0{,}8)^{8-k}\\\\
+&=\\boxed{0{,}7969}.
+\\end{aligned}$$
+
+
+## Ejercicio 2.1 · Matriz de tensiones
+
+### Enunciado
+
+En un material elástico, el vector de tensiones $u$ se calcula multiplicando una matriz $T$ por otro vector $v=(x,y,z)^T$. Disponemos de
+
+$$T=\\begin{pmatrix}2&m&0\\\\m&2&0\\\\0&0&1\\end{pmatrix},\\qquad
+u=\\begin{pmatrix}4\\\\4\\\\-2\\end{pmatrix},\\qquad Tv=u.$$
+
+**2.1.1)** Clasifica el sistema según el valor real de $m$. (1 punto)
+
+**2.1.2)** Resuélvelo para $m=-1$. (0,75 puntos)
+
+**2.1.3)** Para $m=2$, calcula las raíces de $\\det(T-\\alpha I)=0$, llamadas tensiones principales. (0,75 puntos)
+
+### Solución
+
+**2.1.1)** La matriz tiene determinante
+
+$$\\det T=4-m^2=(2-m)(2+m).$$
+
+Si $m\\neq\\pm2$, hay solución única. Si $m=2$, las dos primeras ecuaciones son iguales ($2x+2y=4$), así que hay infinitas soluciones. Si $m=-2$, las ecuaciones $2x-2y=4$ y $-2x+2y=4$ son incompatibles.
+
+$$\\boxed{\\begin{array}{ll}m\\neq\\pm2:&\\text{una solución},\\\\m=2:&\\text{infinitas soluciones},\\\\m=-2:&\\text{sin solución}.\\end{array}}$$
+
+**2.1.2)** Para $m=-1$:
+
+$$\\begin{cases}2x-y=4,\\\\-x+2y=4,\\\\z=-2.\\end{cases}$$
+
+Sumando y resolviendo las dos primeras ecuaciones obtenemos $x=y=4$. Por tanto,
+
+$$\\boxed{v=(4,4,-2)^T}.$$
+
+**2.1.3)** Para $m=2$:
+
+$$\\det(T-\\alpha I)
+=(1-\\alpha)\\left((2-\\alpha)^2-4\\right)
+=(1-\\alpha)\\alpha(\\alpha-4).$$
+
+Las tensiones principales son $\\boxed{\\alpha=0,1,4}$.
+
+## Ejercicio 2.2 · Matrices ortogonales
+
+### Enunciado
+
+Una matriz es ortogonal cuando su inversa coincide con su transpuesta.
+
+**2.2.1)** Comprueba que, para cualquier ángulo $\\alpha$, la matriz siguiente es ortogonal (0,75 puntos):
+
+$$A=\\begin{pmatrix}\\cos\\alpha&\\sin\\alpha\\\\-\\sin\\alpha&\\cos\\alpha\\end{pmatrix}.$$
+
+**2.2.2)** Encuentra todos los valores de $a$ y $b$ con los que $B$ es ortogonal, e indica cuántas matrices hay de ese tipo (0,75 puntos):
+
+$$B=\\begin{pmatrix}0&0&a\\\\0&1&0\\\\b&0&0\\end{pmatrix}.$$
+
+**2.2.3)** Si $B$ es una de esas matrices ortogonales, resuelve la ecuación (1 punto):
+
+$$BX+\\begin{pmatrix}1&0\\\\0&1\\\\1&1\\end{pmatrix}
+=\\begin{pmatrix}2&1\\\\0&2\\\\1&0\\end{pmatrix}.$$
+
+### Solución
+
+**2.2.1)** Multiplicamos por la transpuesta:
+
+$$AA^T=\\begin{pmatrix}\\cos^2\\alpha+\\sin^2\\alpha&0\\\\0&\\sin^2\\alpha+\\cos^2\\alpha\\end{pmatrix}=I_2.$$
+
+Como se cumple $AA^T=I_2$, la matriz es ortogonal para cualquier $\\alpha$.
+
+**2.2.2)** Las condiciones de ortogonalidad dan
+
+$$B^TB=BB^T=I_3\\ \\Longleftrightarrow\\ a^2=b^2=1.$$
+
+Por eso $a\\in\\{-1,1\\}$ y $b\\in\\{-1,1\\}$. Hay $\\boxed4$ combinaciones posibles.
+
+**2.2.3)** Pasamos la matriz conocida al segundo miembro y multiplicamos por $B^{-1}=B^T$:
+
+$$X=B^T\\left[\\begin{pmatrix}2&1\\\\0&2\\\\1&0\\end{pmatrix}
+-\\begin{pmatrix}1&0\\\\0&1\\\\1&1\\end{pmatrix}\\right].$$
+
+La resta vale $\\begin{pmatrix}1&1\\\\0&1\\\\0&-1\\end{pmatrix}$ y, por tanto,
+
+$$\\boxed{X=\\begin{pmatrix}0&-b\\\\0&1\\\\a&a\\end{pmatrix}}.$$
+
+
+## Ejercicio 3.1 · Recta y plano con parámetro
+
+### Enunciado
+
+Sea la recta
+
+$$r:\\frac{x}{2}=\\frac{y+1}{-1}=\\frac{z-1}{1}$$
+
+y el plano $\\pi:2x+my+z-3=0$.
+
+**3.1.1)** Encuentra $m$ para que la recta sea perpendicular al plano. (0,5 puntos)
+
+**3.1.2)** Encuentra $m$ para que sean paralelos. (0,75 puntos)
+
+**3.1.3)** Calcula el punto de corte para los valores de $m$ en los que exista. (1,25 puntos)
+
+### Solución
+
+El vector director de la recta es $v=(2,-1,1)$ y el normal del plano, $n=(2,m,1)$.
+
+**3.1.1)** Para que la recta sea perpendicular al plano, ambos vectores deben ser proporcionales. Como la primera componente de $n$ coincide con la de $v$, el factor de proporcionalidad es 1, así que $\\boxed{m=-1}$.
+
+**3.1.2)** Para que la recta sea paralela al plano, $v\\cdot n=0$:
+
+$$2\\cdot2+(-1)m+1\\cdot1=5-m=0\\ \\Longrightarrow\\ \\boxed{m=5}.$$
+
+**3.1.3)** Una parametrización de la recta es $(x,y,z)=(2t,-1-t,1+t)$. La sustituimos en el plano:
+
+$$4t+m(-1-t)+(1+t)-3=0
+\\ \\Longrightarrow\\ (5-m)t=m+2.$$
+
+Si $m\\neq5$, resulta $t=(m+2)/(5-m)$. Sustituyendo:
+
+$$\\boxed{P=\\left(\\frac{4+2m}{5-m},\\frac{-7}{5-m},\\frac7{5-m}\\right)}.$$
+
+Para $m=5$ no hay punto de corte, porque la recta es paralela y exterior al plano.
+
+## Ejercicio 3.2 · Distancia y ángulo de una recta
+
+### Enunciado
+
+Una recta del espacio viene dada por
+
+$$s:\\frac{x-1}{0}=y-1=\\frac{z-1}{-1},$$
+
+entendiendo la primera igualdad como $x=1$.
+
+**3.2.1)** Encuentra un plano que pase por $(1,1,1)$ y sea perpendicular a $s$. (0,5 puntos)
+
+**3.2.2)** Localiza los puntos de la recta que están a distancia 4 del origen. (1 punto)
+
+**3.2.3)** Calcula el ángulo agudo que forma $s$ con el eje $Z$. (1 punto)
+
+### Solución
+
+La recta puede escribirse como $(x,y,z)=(1,1+t,1-t)$, con vector director $v=(0,1,-1)$.
+
+**3.2.1)** Un plano perpendicular a $s$ tiene como vector normal $v$. Al pasar por $(1,1,1)$ su ecuación es
+
+$$(y-1)-(z-1)=0\\ \\Longrightarrow\\ \\boxed{y-z=0}.$$
+
+**3.2.2)** Imponemos la distancia 4:
+
+$$1^2+(1+t)^2+(1-t)^2=16
+\\ \\Longrightarrow\\ 3+2t^2=16
+\\ \\Longrightarrow\\ t=\\pm\\frac{\\sqrt{26}}2.$$
+
+Los puntos son
+
+$$\\boxed{\\left(1,1+\\frac{\\sqrt{26}}2,1-\\frac{\\sqrt{26}}2\\right)}
+\\quad\\text{y}\\quad
+\\boxed{\\left(1,1-\\frac{\\sqrt{26}}2,1+\\frac{\\sqrt{26}}2\\right)}.$$
+
+**3.2.3)** El eje $Z$ tiene vector director $(0,0,1)$. Con el producto escalar y tomando el ángulo agudo:
+
+$$\\cos\\theta=\\frac{|(0,1,-1)\\cdot(0,0,1)|}{\\sqrt2\\cdot1}=\\frac1{\\sqrt2}.$$
+
+Así, $\\boxed{\\theta=\\pi/4\\text{ radianes}}$.
+
+
+## Ejercicio 4.1 · Estudio completo de una función
+
+### Enunciado
+
+Estudia la función $\\displaystyle f(x)=\\frac{x+1}{x^2+1}$: dominio, continuidad, asíntotas, crecimiento, decrecimiento, máximos, mínimos y un esbozo razonado de la gráfica. (2,5 puntos)
+
+### Solución
+
+**Dominio y continuidad.** Como $x^2+1>0$ para todo $x$, tenemos $D_f=\\mathbb R$ y la función es continua en todo él.
+
+**Asíntotas.** No hay verticales y, puesto que el denominador tiene mayor grado que el numerador,
+
+$$\\lim_{x\\to\\pm\\infty}f(x)=0,$$
+
+por lo que la asíntota horizontal es $\\boxed{y=0}$.
+
+**Monotonía.** Derivamos:
+
+$$f'(x)=\\frac{(x^2+1)-2x(x+1)}{(x^2+1)^2}
+=\\frac{-x^2-2x+1}{(x^2+1)^2}.$$
+
+La derivada se anula en $x=-1\\pm\\sqrt2$. El signo es positivo entre estas dos raíces y negativo fuera, así que la función crece en $(-1-\\sqrt2,-1+\\sqrt2)$ y decrece en $(-\\infty,-1-\\sqrt2)\\cup(-1+\\sqrt2,\\infty)$.
+
+**Extremos.** El mínimo absoluto está en
+
+$$\\boxed{\\left(-1-\\sqrt2,\\frac{1-\\sqrt2}{2}\\right)}$$
+
+y el máximo absoluto en
+
+$$\\boxed{\\left(-1+\\sqrt2,\\frac{1+\\sqrt2}{2}\\right)}.$$
+
+**Gráfica.** Pasa por $(-1,0)$ y $(0,1)$; se acerca al eje $X$ en ambos extremos, desciende hasta el mínimo, sube hasta el máximo y vuelve a descender. Estos puntos y los intervalos anteriores permiten dibujarla a escala.
+
+## Ejercicio 4.2 · Áreas pintadas de una pared
+
+### Enunciado
+
+Una pared mide 12 m de ancho por 3 m de alto. Tomamos como origen su esquina inferior izquierda y dibujamos la curva
+
+$$f(x)=\\cos\\left(\\frac{\\pi x}{9}\\right)+2,\\qquad 0\\le x\\le12.$$
+
+La región que queda bajo la curva se pinta de verde; la que queda encima, de rojo.
+
+**4.2.1)** Describe y dibuja la curva sobre la pared, con sus cortes, máximos, mínimos y tramos de crecimiento. (1,25 puntos)
+
+**4.2.2)** Calcula cuántos metros cuadrados se pintan de cada color. (1 punto)
+
+**4.2.3)** Si cada bote cubre 3 m², ¿cuántos botes verdes hacen falta como mínimo? (0,25 puntos)
+
+### Solución
+
+**4.2.1)** En el intervalo $[0,12]$, la curva pasa por $(0,3)$, alcanza su mínimo en $(9,1)$ y termina en $(12,3/2)$. Su derivada es
+
+$$f'(x)=-\\frac\\pi9\\sin\\left(\\frac{\\pi x}{9}\\right).$$
+
+Es decreciente entre 0 y 9 y creciente entre 9 y 12. El máximo absoluto es $\\boxed{(0,3)}$ y el mínimo absoluto, $\\boxed{(9,1)}$.
+
+**4.2.2)** El área verde es el área bajo la curva:
+
+$$\\begin{aligned}
+A_v&=\\int_0^{12}\\left[\\cos\\left(\\frac{\\pi x}{9}\\right)+2\\right]dx\\\\
+&=\\left[\\frac9\\pi\\sin\\left(\\frac{\\pi x}{9}\\right)+2x\\right]_0^{12}\\\\
+&=24-\\frac{9\\sqrt3}{2\\pi}
+\\approx\\boxed{21{,}519\\ \\text{m}^2}.
+\\end{aligned}$$
+
+La pared completa tiene $12\\cdot3=36$ m². El área roja será
+
+$$A_r=36-A_v=12+\\frac{9\\sqrt3}{2\\pi}
+\\approx\\boxed{14{,}481\\ \\text{m}^2}.$$
+
+**4.2.3)** Necesitamos $\\lceil21{,}519/3\\rceil=\\boxed8$ botes de pintura verde.
+
+## Cómo usar este examen para preparar la PAU
+
+Haz una primera vuelta sin consultar la solución. Al corregir, señala el primer paso que no supiste justificar y repítelo al día siguiente. Así conviertes un modelo de examen en una lista concreta de técnicas que debes entrenar.
+
+Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
+
+`,ta=`---
+title: PAU 2026 Matemáticas II: examen resuelto de Madrid
+seoTitle: PAU 2026 Matemáticas II Madrid: examen resuelto
+date: 2026-10-18
+updated: 2026-11-05
+description: Examen PAU 2026 de Matemáticas II de Madrid resuelto paso a paso: matrices, optimización, geometría, probabilidad y análisis.
+tag: Matemáticas II PAU
+category: Selectividad
+relatedService: /campus/
+relatedPosts: como-preparar-pau-matematicas-ii,pau-matematicas-matrices-determinantes-gauss,pau-matematicas-integrales-areas
+image: /favicon.svg
+---
+
+Aquí tienes el modelo completo con las tres preguntas obligatorias y las dos opciones de los bloques finales. Haz primero una elección por bloque como si estuvieras en el examen; después revisa el desarrollo para detectar qué método te faltaba.
+
+## Pregunta 1 · Matriz con parámetro
+
+Sea
+
+$$A=\\begin{pmatrix}1&\\lambda-2&\\lambda\\\\0&1&\\lambda-1\\\\1&0&1\\end{pmatrix}.$$
+
+Estudia el rango de \\(A\\) según \\(\\lambda\\). Después, para \\(\\lambda=2\\), resuelve \\(A^2-AX=I\\).
+
+### Solución
+
+Las dos últimas filas son independientes, así que el rango nunca baja de 2. Calculamos el determinante:
+
+$$\\det(A)=\\lambda^2-4\\lambda+3=(\\lambda-1)(\\lambda-3).$$
+
+Cuando \\(\\lambda\\ne1,3\\), el determinante no se anula y el rango vale 3. En los dos valores que anulan el determinante sigue habiendo un menor de orden 2 no nulo, por lo que el rango es 2:
+
+$$\\boxed{\\operatorname{rg}(A)=3\\text{ si }\\lambda\\ne1,3;\\qquad \\operatorname{rg}(A)=2\\text{ si }\\lambda=1\\text{ o }3.}$$
+
+Para \\(\\lambda=2\\):
+
+$$A=\\begin{pmatrix}1&0&2\\\\0&1&1\\\\1&0&1\\end{pmatrix},\\qquad
+A^{-1}=\\begin{pmatrix}-1&0&2\\\\-1&1&1\\\\1&0&-1\\end{pmatrix}.$$
+
+De \\(A^2-AX=I\\) despejamos \\(X=A^{-1}(A^2-I)=A-A^{-1}\\). Así:
+
+$$\\boxed{X=\\begin{pmatrix}2&0&0\\\\1&0&0\\\\0&0&2\\end{pmatrix}.}$$
+
+## Pregunta 2 · Coste mínimo en un jardín
+
+Un jardín triangular rectángulo tiene catetos de 42 m y 56 m. Se cubre con techo un rectángulo cuyo vértice opuesto al ángulo recto está sobre la hipotenusa. El suelo cubierto cuesta 30 €/m² y el resto 50 €/m². Calcula las dimensiones que minimizan el coste.
+
+### Solución
+
+Llamamos \\(x\\) al lado del rectángulo sobre el cateto de 56 m e \\(y\\) al que queda sobre el cateto de 42 m. Por semejanza:
+
+$$\\frac{x}{56}+\\frac{y}{42}=1\\quad\\Longrightarrow\\quad y=42-\\frac34x.$$
+
+El área total del jardín es \\(42\\cdot56/2=1176\\) m². Como la zona cubierta mide \\(xy\\), el coste es:
+
+$$C=30xy+50(1176-xy)=58800-20xy.$$
+
+Sustituyendo \\(y\\):
+
+$$C(x)=15x^2-840x+58800.$$
+
+Derivamos:
+
+$$C'(x)=30x-840=0\\quad\\Longrightarrow\\quad x=28.$$
+
+Además \\(C''(x)=30>0\\), por lo que es un mínimo. Finalmente:
+
+$$y=42-\\frac34\\cdot28=21.$$
+
+Las dimensiones óptimas son:
+
+$$\\boxed{28\\text{ m}\\times21\\text{ m}.}$$
+
+## Pregunta 3 · Plano y recta
+
+Dados el plano \\(\\pi:2x+2y-z=13\\) y la recta
+
+$$r:\\frac{x-2}{1}=\\frac y1=\\frac z4,$$
+
+calcula el simétrico de \\(P=(2,0,0)\\) respecto a \\(\\pi\\), y resuelve las dos opciones: la distancia entre \\(r\\) y \\(\\pi\\), o un plano que contenga \\(r\\) y sea perpendicular a \\(\\pi\\).
+
+### Solución
+
+La normal de \\(\\pi\\) es \\(n=(2,2,-1)\\). La recta perpendicular al plano que pasa por \\(P\\) es:
+
+$$
+(x,y,z)=(2,0,0)+t(2,2,-1).
+$$
+
+Al sustituir en el plano se obtiene \\(t=1\\), luego el pie de la perpendicular es \\(M=(4,2,-1)\\). Como \\(M\\) es el punto medio entre \\(P\\) y su reflejo \\(Q\\):
+
+$$Q=2M-P=\\boxed{(6,4,-2)}.$$
+
+El vector de \\(r\\) es \\(v=(1,1,4)\\), perpendicular a \\(n\\), por lo que la recta y el plano son paralelos. La distancia se calcula con cualquier punto de \\(r\\), por ejemplo \\(P=(2,0,0)\\):
+
+$$d(r,\\pi)=\\frac{|2\\cdot2+2\\cdot0-0-13|}{\\sqrt{2^2+2^2+(-1)^2}}=\\boxed{3}. $$
+
+Para la otra opción, el plano buscado contiene a \\(P\\), a \\(v\\) y a \\(n\\). Al calcular su ecuación resulta:
+
+$$\\boxed{x-y-2=0.}$$
+
+## Pregunta 4.1 · Duración de baterías
+
+La duración de una batería sigue una normal de media 24 horas y desviación típica 3 horas. Se considera defectuosa por debajo de 21 horas. Calcula la probabilidad de defecto y la probabilidad de que, en 10 teléfonos independientes, al menos 9 no sean defectuosos.
+
+### Solución
+
+Tipificamos el límite:
+
+$$z=\\frac{21-24}{3}=-1.$$
+
+Por tanto:
+
+$$P(X<21)=P(Z<-1)=1-P(Z\\le1)=1-0{,}8413=\\boxed{0{,}1587}. $$
+
+La probabilidad de que una batería no sea defectuosa es \\(q=0{,}8413\\). Si \\(Y\\) es el número de defectuosas en 10 teléfonos, \\(Y\\sim B(10,0{,}1587)\\). Pedir al menos 9 no defectuosas equivale a pedir \\(Y\\le1\\):
+
+$$
+\\begin{aligned}
+P(Y\\le1)&=P(Y=0)+P(Y=1)\\\\
+&=\\binom{10}{0}q^{10}+\\binom{10}{1}(0{,}1587)q^9\\\\
+&\\approx\\boxed{0{,}5127}.
+\\end{aligned}
+$$
+
+## Pregunta 4.2 · Sucesos
+
+Sabiendo que \\(P(B)=0{,}4\\), \\(P(\\overline{A\\cup B})=0{,}4\\) y \\(P(B\\mid A)=0{,}2\\), calcula \\(P(A)\\), \\(P(A\\cap B)\\) y \\(P((A\\cap B)\\mid(A\\cup B))\\).
+
+### Solución
+
+Del dato del complemento obtenemos \\(P(A\\cup B)=1-0{,}4=0{,}6\\). Además:
+
+$$P(A\\cap B)=P(B\\mid A)P(A)=0{,}2P(A).$$
+
+Usando la fórmula de la unión:
+
+$$0{,}6=P(A)+0{,}4-0{,}2P(A),$$
+
+de donde:
+
+$$\\boxed{P(A)=0{,}25,\\qquad P(A\\cap B)=0{,}05.}$$
+
+Finalmente:
+
+$$P((A\\cap B)\\mid(A\\cup B))=\\frac{0{,}05}{0{,}6}=\\boxed{\\frac1{12}\\approx0{,}0833}. $$
+
+## Pregunta 5.1 · Área con logaritmos
+
+Calcula el área limitada por \\(y=\\ln x\\), el eje \\(x\\) y la recta \\(x=e\\).
+
+### Solución
+
+La curva corta el eje \\(x\\) en \\(x=1\\). Así que:
+
+$$A=\\int_1^e\\ln x\\,dx.$$
+
+Por partes, \\(\\int\\ln x\\,dx=x\\ln x-x\\). Evaluando:
+
+$$A=[x\\ln x-x]_1^e=(e-e)-(0-1)=\\boxed{1}. $$
+
+## Pregunta 5.2 · Continuidad, derivabilidad y tangente
+
+Sea
+
+$$
+f(x)=
+\\begin{cases}
+3x^2-\\sin(ax)+b,&x<0,\\\\
+\\dfrac{2e^x}{1+x^2},&x\\ge0.
+\\end{cases}
+$$
+
+Encuentra \\(a\\) y \\(b\\) para que sea continua y derivable en 0, y calcula la tangente en \\(x=2\\).
+
+### Solución
+
+Por la izquierda, el límite en 0 vale \\(b\\). Por la derecha, \\(f(0)=2\\). La continuidad exige:
+
+$$\\boxed{b=2}. $$
+
+La derivada por la izquierda es \\(6x-a\\cos(ax)\\), que en 0 vale \\(-a\\). Para \\(x>0\\):
+
+$$f'(x)=\\frac{2e^x(x^2-2x+1)}{(1+x^2)^2},$$
+
+y por la derecha, \\(f'(0)=2\\). De ahí:
+
+$$-a=2\\quad\\Longrightarrow\\quad\\boxed{a=-2}. $$
+
+En \\(x=2\\):
+
+$$f(2)=\\frac{2e^2}{5},\\qquad f'(2)=\\frac{2e^2}{25}.$$
+
+La recta tangente queda:
+
+$$\\boxed{y-\\frac{2e^2}{5}=\\frac{2e^2}{25}(x-2).}$$
+
+## Cómo practicar con este examen
+
+Elige primero una sola opción en las preguntas 4 y 5 y resuélvela con tiempo. En la corrección, anota si el bloqueo fue de planteamiento, cálculo o justificación: ese diagnóstico te dice qué entrenar en el siguiente modelo.
+
+Puedes organizar esa práctica y recibir seguimiento en el [Campus de Método Nebula](/campus/).
+`,ca=`---
+title: Matemáticas II · PAU 2026 · Región de Murcia — examen resuelto
+seoTitle: Matemáticas II · PAU 2026 · Región de Murcia — examen resuelto
+date: 2026-10-04
+updated: 2026-11-05
+description: Examen Matemáticas II · PAU 2026 · Región de Murcia resuelto paso a paso con planteamientos, cálculos y comprobaciones para preparar la Selectividad.
+tag: Matemáticas II PAU
+category: Selectividad
+relatedService: /campus/
+relatedPosts: como-preparar-pau-matematicas-ii,pau-matematicas-matrices-determinantes-gauss,pau-matematicas-integrales-areas
+image: /favicon.svg
+---
+
+Este examen resuelto conserva el enunciado y desarrolla cada apartado. Úsalo primero a contrarreloj y compáralo después con el razonamiento, no solo con el resultado final.
+
+**Convocatoria:** ordinaria. **Examen:** preguntas 1, 2 y 3 obligatorias; en las preguntas 4 y 5 se elige una de las dos opciones.
+
+## Ejercicio 1 · Sistemas de ecuaciones
+
+### Enunciado
+
+Darío y Cayetana van a invertir 12 000 € en un negocio. Destinan $x$ miles de euros a publicidad, $y$ miles a materiales y $z$ miles a logística. Su plan exige que:
+
+- La inversión total sea de 12 miles de euros.
+- Publicidad más el doble de materiales sea igual a logística más un parámetro positivo $k$.
+- El doble de publicidad, menos materiales y más logística, sume 4 miles de euros.
+
+**a)** Escribe un sistema de tres ecuaciones que recoja estas condiciones. (0,75 puntos)
+
+**b)** Comprueba cuántas soluciones tiene y, si es única, calcula las inversiones según $k$. (1,25 puntos)
+
+### Solución
+
+**a)** Las tres condiciones se traducen en
+
+$$\\begin{cases}x+y+z=12,\\\\x+2y-z=k,\\\\2x-y+z=4.\\end{cases}$$
+
+**b)** Para la matriz de coeficientes,
+
+$$\\det\\begin{pmatrix}1&1&1\\\\1&2&-1\\\\2&-1&1\\end{pmatrix}=-7\\neq0.$$
+
+El determinante es distinto de cero para cualquier $k$; por tanto, el sistema es **compatible determinado**. Aplicando Cramer, obtenemos
+
+$$\\boxed{x=\\frac{2k}{7},\\qquad y=\\frac{k+28}{7},\\qquad z=\\frac{56-3k}{7}}.$$
+
+## Ejercicio 2 · Optimización trigonométrica
+
+### Enunciado
+
+En una circunferencia de radio 10 centrada en el origen, elegimos un punto $P=(a,b)$ del primer cuadrante. El radio $OP$ forma un ángulo $x$ con el eje horizontal. Con los puntos $O=(0,0)$, $A=(a,0)$, $B=(0,b)$ y $P$ construimos un rectángulo.
+
+**a)** Demuestra que su área se puede escribir como $f(x)=100\\sin x\\cos x$. (0,75 puntos)
+
+**b)** ¿Qué ángulo, en radianes, permite conseguir el área más grande? (1,25 puntos)
+
+### Solución
+
+**a)** En el triángulo rectángulo, $\\sin x=b/10$ y $\\cos x=a/10$. De aquí, $a=10\\cos x$ y $b=10\\sin x$. El área del rectángulo es
+
+$$f(x)=ab=(10\\cos x)(10\\sin x)=\\boxed{100\\sin x\\cos x}.$$
+
+**b)** Derivamos y localizamos los puntos críticos:
+
+$$f'(x)=100(\\cos^2x-\\sin^2x)=100(2\\cos^2x-1).$$
+
+Igualamos a cero, teniendo en cuenta que $0<x<\\pi/2$:
+
+$$2\\cos^2x-1=0\\ \\Longrightarrow\\ \\cos x=\\frac{\\sqrt2}{2}\\ \\Longrightarrow\\ x=\\frac\\pi4.$$
+
+La derivada es positiva antes de $\\pi/4$ y negativa después, así que ahí se alcanza el máximo:
+
+$$\\boxed{x=\\frac\\pi4\\text{ radianes}}.$$
+
+## Ejercicio 3 · Recta y plano
+
+### Enunciado
+
+Dados el plano $\\pi:2x-y+3z-5=0$ y la recta
+
+$$r:\\frac{x-1}{2}=\\frac{y+1}{1}=\\frac{z-2}{-1},$$
+
+**a)** Explica cómo están situados uno respecto de la otra. (0,75 puntos)
+
+**b)** Si se cortan, encuentra el punto y su ángulo; si son paralelos, calcula la distancia entre ambos. (1,25 puntos)
+
+### Solución
+
+**a)** El plano tiene vector normal $\\vec n=(2,-1,3)$ y la recta vector director $\\vec v=(2,1,-1)$. Su producto escalar es
+
+$$\\vec n\\cdot\\vec v=2\\cdot2+(-1)\\cdot1+3\\cdot(-1)=4-1-3=0.$$
+
+Así que la recta es paralela al plano o está contenida en él. Para distinguir estos casos, comprobamos el punto $P=(1,-1,2)$ de la recta:
+
+$$2(1)-(-1)+3(2)-5=4\\neq0.$$
+
+Por ello, **la recta es paralela al plano, sin pertenecer a él**.
+
+**b)** La distancia de una recta paralela a un plano coincide con la distancia de cualquiera de sus puntos al plano:
+
+$$d(r,\\pi)=d(P,\\pi)=\\frac{|2(1)-(-1)+3(2)-5|}{\\sqrt{2^2+(-1)^2+3^2}}
+=\\frac4{\\sqrt{14}}=\\boxed{\\frac{2\\sqrt{14}}7}.$$
+
+
+## Ejercicio 4.1 · Teorema de Rolle
+
+### Enunciado
+
+Justifica que la función $f(x)=e^x(x-1)+1-x$ tiene algún punto del intervalo $(0,1)$ en el que su derivada vale cero. (2 puntos)
+
+### Solución
+
+La función es continua en $[0,1]$ y derivable en $(0,1)$, al estar formada por operaciones con funciones continuas y derivables. Además,
+
+$$f(0)=e^0(-1)+1=0,\\qquad f(1)=e(0)+1-1=0.$$
+
+Se cumplen las hipótesis del **teorema de Rolle**, así que existe al menos un $c\\in(0,1)$ con $\\boxed{f'(c)=0}$.
+
+## Ejercicio 4.2 · Primitivas
+
+### Enunciado
+
+**a)** Resuelve $\\displaystyle\\int\\frac{1}{x(\\ln x)^2}\\,dx$. (1,5 puntos)
+
+**b)** De todas sus primitivas, encuentra la que pasa por el punto $(e,1)$. (0,5 puntos)
+
+### Solución
+
+**a)** Hacemos $t=\\ln x$, con $dt=dx/x$:
+
+$$\\int\\frac{1}{x(\\ln x)^2}\\,dx=\\int t^{-2}\\,dt=-\\frac1t+C
+=\\boxed{-\\frac1{\\ln x}+C}.$$
+
+**b)** Imponemos que $F(e)=1$:
+
+$$1=-\\frac1{\\ln e}+C=-1+C\\ \\Longrightarrow\\ C=2.$$
+
+La primitiva buscada es $\\boxed{F(x)=2-\\frac1{\\ln x}}$.
+
+
+## Ejercicio 5.1 · Máquinas y piezas defectuosas
+
+### Enunciado
+
+Una fábrica utiliza tres máquinas. La A produce el 50 % de las piezas y tiene un 3 % de defectos; la B fabrica el 30 % y falla el 4 % de las veces; la C produce el 20 % y el 5 % de sus piezas son defectuosas. Elegimos una pieza al azar.
+
+**a)** ¿Cuál es la probabilidad de que tenga un defecto? (0,75 puntos)
+
+**b)** Si la pieza es defectuosa, ¿qué probabilidad hay de que sea de la máquina B? (0,75 puntos)
+
+**c)** Si procede de la C, ¿qué probabilidad hay de que esté bien? (0,5 puntos)
+
+### Solución
+
+Denotamos por $D$ el suceso «pieza defectuosa».
+
+**a)** Por probabilidad total:
+
+$$P(D)=0{,}5\\cdot0{,}03+0{,}3\\cdot0{,}04+0{,}2\\cdot0{,}05
+=\\boxed{0{,}037}.$$
+
+**b)** Aplicamos Bayes:
+
+$$P(B\\mid D)=\\frac{P(D\\mid B)P(B)}{P(D)}
+=\\frac{0{,}04\\cdot0{,}3}{0{,}037}
+=\\boxed{\\frac{12}{37}\\approx0{,}324}.$$
+
+**c)** Basta con utilizar la probabilidad complementaria:
+
+$$P(\\overline D\\mid C)=1-P(D\\mid C)=1-0{,}05=\\boxed{0{,}95}.$$
+
+## Ejercicio 5.2 · Distribución binomial y aproximación normal
+
+### Enunciado
+
+En una fábrica, el 5 % de las bombillas sale defectuoso.
+
+**a)** Si seleccionamos 9 bombillas, ¿qué probabilidad hay de encontrar exactamente 3 defectuosas? (0,75 puntos)
+
+**b)** Si elegimos 200 bombillas, calcula aproximadamente la probabilidad de que al menos 10 sean defectuosas. (1,25 puntos)
+
+### Solución
+
+**a)** El número de defectuosas sigue una binomial $X\\sim B(9,0{,}05)$. Por tanto,
+
+$$P(X=3)=\\binom93(0{,}05)^3(0{,}95)^6=\\boxed{0{,}0077}.$$
+
+**b)** Ahora $X\\sim B(200,0{,}05)$. Como $np=10$ y $n(1-p)=190$, aproximamos con una normal de media $\\mu=10$ y desviación típica
+
+$$\\sigma=\\sqrt{np(1-p)}=\\sqrt{9{,}5}\\approx3{,}082.$$
+
+Aplicamos la **corrección por continuidad** para $P(X\\ge10)$:
+
+$$\\begin{aligned}
+P(X\\ge10)&\\approx P(Y\\ge9{,}5)\\\\
+&=P\\left(Z\\ge\\frac{9{,}5-10}{3{,}082}\\right)
+=P(Z\\ge-0{,}16)\\\\
+&=P(Z\\le0{,}16)=\\boxed{0{,}5636}.
+\\end{aligned}$$
+
+## Cómo usar este examen para preparar la PAU
+
+Haz una primera vuelta sin consultar la solución. Al corregir, señala el primer paso que no supiste justificar y repítelo al día siguiente. Así conviertes un modelo de examen en una lista concreta de técnicas que debes entrenar.
+
+Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
+
+`,la=`---
+title: Matemáticas II · PAU 2026 · País Vasco — examen resuelto
+seoTitle: Matemáticas II · PAU 2026 · País Vasco — examen resuelto
+date: 2026-09-30
+updated: 2026-11-05
+description: Examen Matemáticas II · PAU 2026 · País Vasco resuelto paso a paso con planteamientos, cálculos y comprobaciones para preparar la Selectividad.
+tag: Matemáticas II PAU
+category: Selectividad
+relatedService: /campus/
+relatedPosts: como-preparar-pau-matematicas-ii,pau-matematicas-matrices-determinantes-gauss,pau-matematicas-integrales-areas
+image: /favicon.svg
+---
+
+Este examen resuelto conserva el enunciado y desarrolla cada apartado. Úsalo primero a contrarreloj y compáralo después con el razonamiento, no solo con el resultado final.
+
+**Convocatoria:** ordinaria. **Examen:** cinco ejercicios; los ejercicios 4 y 5 ofrecen dos opciones.
+
+## Ejercicio 1 · Distribución normal y velocidades moleculares
+
+### Enunciado
+
+A 300 K, una componente de la velocidad de una molécula de nitrógeno se modeliza mediante $X\\sim N(0,298)$, donde 298 es la desviación típica. Sea $Z\\sim N(0,1)$.
+
+**a)** Calcula la probabilidad de que la velocidad esté entre $-300$ y $300$. 
+
+**b)** ¿Cuál es la probabilidad de que tome un valor entre $-600$ y $-300$?
+
+**c)** Si la desviación típica de una componente de la velocidad depende de la masa molecular y una molécula de argón tiene mayor masa que una de nitrógeno, compara la probabilidad de que dicha componente quede entre $-300$ y $300$ en ambos gases.
+
+### Solución
+
+**a)** Tipificamos mediante $Z=X/298$:
+
+$$\\begin{aligned}
+P(|X|<300)&=P\\left(-\\frac{300}{298}<Z<\\frac{300}{298}\\right)\\\\
+&\\approx P(-1{,}01<Z<1{,}01)\\\\
+&=2P(Z<1{,}01)-1\\\\
+&=2\\cdot0{,}8438-1=\\boxed{0{,}6876}.
+\\end{aligned}$$
+
+**b)** De forma parecida,
+
+$$\\begin{aligned}
+P(-600<X<-300)&=P(-2{,}01<Z<-1{,}01)\\\\
+&=P(Z<2{,}01)-P(Z<1{,}01)\\\\
+&=0{,}9778-0{,}8438=\\boxed{0{,}134}.
+\\end{aligned}$$
+
+**c)** La desviación típica de la componente de velocidad disminuye al aumentar la masa molecular. Como el argón es más pesado, $\\sigma_A<\\sigma_N$ y, por tanto, $300/\\sigma_A>300/\\sigma_N$. Eso implica
+
+$$P(|X_A|<300)=P\\left(|Z|<\\frac{300}{\\sigma_A}\\right)
+> P\\left(|Z|<\\frac{300}{\\sigma_N}\\right)=P(|X_N|<300).$$
+
+Es **más probable** que la componente de la velocidad del argón quede dentro del intervalo indicado.
+
+## Ejercicio 2 · Sistema con parámetro
+
+### Enunciado
+
+En un sistema de tres incógnitas con parámetro $a\\ne0$, la matriz de coeficientes es
+
+$$A=\\begin{pmatrix}1&a&0\\\\1&a&1\\\\a-2&a&a-1\\end{pmatrix}.$$
+
+**a)** Analiza cuándo el sistema puede tener más de una solución. Para $a=3$, el término independiente es $(1,3,5)^T$; clasifica el sistema en ese caso.
+
+**b)** Resuelve el sistema correspondiente a $a=3$.
+
+### Solución
+
+**a)** Calculamos
+
+$$\\det A=a(a-3).$$
+
+Como se toma $a\\ne0$, para $a\\ne3$ hay solución única. En cambio, para $a=3$ la matriz ampliada es
+
+$$\\left(\\begin{array}{ccc|c}1&3&0&1\\\\1&3&1&3\\\\1&3&2&5\\end{array}\\right).$$
+
+Aquí las matrices de coeficientes y ampliada tienen rango 2, que es menor que el número de incógnitas. Así que el sistema es **compatible indeterminado** y admite infinitas soluciones.
+
+**b)** Restando la primera fila de la segunda, vemos que $z=2$. La primera ecuación es $x+3y=1$; la tercera no añade información. Si damos a $x$ un valor libre $t$, entonces
+
+$$\\boxed{x=t,\\qquad y=\\frac{1-t}{3},\\qquad z=2,\\quad t\\in\\mathbb R}.$$
+
+## Ejercicio 3 · Dos parábolas y área entre curvas
+
+### Enunciado
+
+Considera las parábolas
+
+$$y=x(2x-3),\\qquad y=x(2-x).$$
+
+**a)** Estudia sus cortes con los ejes, sus vértices y sus puntos de intersección; utiliza esos datos para dibujar el recinto comprendido entre ambas.
+
+**b)** Calcula exactamente el área de ese recinto.
+
+### Solución
+
+**a)** La primera parábola, $y=2x^2-3x$, corta el eje horizontal en $0$ y $3/2$. Su vértice es $\\left(3/4,-9/8\\right)$. La segunda, $y=2x-x^2$, corta el eje en $0$ y $2$ y tiene vértice en $(1,1)$.
+
+Para encontrar sus intersecciones, igualamos:
+
+$$x(2x-3)=x(2-x)
+\\ \\Longrightarrow\\ 3x^2-5x=0
+\\ \\Longrightarrow\\ \\boxed{x=0\\text{ o }x=5/3}.$$
+
+Entre ambas abscisas, la parábola $x(2-x)$ queda por encima de $x(2x-3)$.
+
+**b)** El área se expresa como la integral de la función superior menos la inferior:
+
+$$\\begin{aligned}
+A&=\\int_0^{5/3}[x(2-x)-x(2x-3)]\\,dx\\\\
+&=\\int_0^{5/3}(5x-3x^2)\\,dx\\\\
+&=\\left[\\frac{5x^2}{2}-x^3\\right]_0^{5/3}
+=\\boxed{\\frac{125}{54}\\ \\text{u}^2}.
+\\end{aligned}$$
+
+
+## Ejercicio 4A · Posición relativa y distancia
+
+### Enunciado
+
+Una recta pasa por $P=(0,1,0)$ y tiene vector director $(1,1,-1)$, mientras que un plano depende del parámetro real $A$:
+
+$$r:(x,y,z)=(t,t+1,-t),\\qquad\\pi:-x+2y+z+A=0.$$
+
+**a)** Estudia la posición relativa de la recta y el plano según $A$.
+
+**b)** Calcula la distancia entre ambos según el parámetro.
+
+### Solución
+
+**a)** El vector normal del plano es $n=(-1,2,1)$ y el director de la recta es $v=(1,1,-1)$. Su producto escalar es
+
+$$v\\cdot n=-1+2-1=0.$$
+
+Por tanto, la recta es paralela al plano o está contenida en él. Sustituimos $P=(0,1,0)$ en la ecuación del plano:
+
+$$-0+2(1)+0+A=2+A.$$
+
+Si $A=-2$, el punto pertenece al plano y toda la recta está contenida en él. Si $A\\ne-2$, son paralelos y no se cortan.
+
+**b)** Para $A=-2$ la distancia es cero. En los demás casos, medimos la distancia desde $P$:
+
+$$\\boxed{d(r,\\pi)=\\frac{|A+2|}{\\sqrt{(-1)^2+2^2+1^2}}=\\frac{|A+2|}{\\sqrt6}}.$$
+
+## Ejercicio 4B · Plano mediador de dos puntos
+
+### Enunciado
+
+Sean $A=(1,1,2)$ y $B=(-1,0,3)$.
+
+**a)** Encuentra la ecuación del plano perpendicular al segmento $AB$ que pasa por su punto medio.
+
+**b)** Calcula la distancia de $A$ a ese plano.
+
+### Solución
+
+**a)** Un vector perpendicular al plano es $\\overrightarrow{AB}=(-2,-1,1)$, equivalente a $(2,1,-1)$. El punto medio del segmento es
+
+$$M=\\frac{A+B}{2}=\\left(0,\\frac12,\\frac52\\right).$$
+
+Un plano con normal $(2,1,-1)$ tendrá la forma $2x+y-z+d=0$. Sustituyendo $M$:
+
+$$\\frac12-\\frac52+d=0\\ \\Longrightarrow\\ d=2.$$
+
+Así, $\\boxed{\\pi:2x+y-z+2=0}$.
+
+**b)** Aplicamos la fórmula punto-plano:
+
+$$d(A,\\pi)=\\frac{|2(1)+1-2+2|}{\\sqrt{2^2+1^2+(-1)^2}}
+=\\frac3{\\sqrt6}=\\boxed{\\frac{\\sqrt6}{2}}.$$
+
+
+## Ejercicio 5A · Tangente a un montículo parabólico
+
+### Enunciado
+
+Un montículo de hormigón tiene sección parabólica, altura máxima de 12 m y una base de 6 m de anchura. Sobre su eje de simetría hay un punto situado a 15 m del suelo, desde el que se traza una recta tangente al montículo por su lado derecho. ¿A qué distancia del borde de la base toca esa recta el suelo?
+
+### Solución
+
+Colocamos el origen en el centro de la base y el eje vertical pasando por la cima. La parábola tiene vértice $(0,12)$ y corta el suelo en $x=\\pm3$. Su ecuación es
+
+$$f(x)=12-\\frac43x^2,\\qquad f'(x)=-\\frac83x.$$
+
+La tangente en el punto de abscisa $a>0$ se expresa como
+
+$$y=f(a)+f'(a)(x-a).$$
+
+Debe pasar por $(0,15)$. Al sustituirlo:
+
+$$15=f(a)-af'(a)
+=12-\\frac43a^2+\\frac83a^2
+=12+\\frac43a^2.$$
+
+De ahí $a^2=9/4$ y $a=3/2$. La pendiente es $f'(3/2)=-4$, así que la tangente es $y=15-4x$.
+
+Cuando toca el suelo, $y=0$, de donde $x=15/4$. El borde derecho de la base está en $x=3$. La separación buscada es
+
+$$\\boxed{\\frac{15}4-3=\\frac34=0{,}75\\ \\text{m}}.$$
+
+## Ejercicio 5B · Una barra para delimitar una esquina
+
+### Enunciado
+
+Queremos colocar una barra recta de 4 m entre dos paredes perpendiculares de una habitación. Junto con las paredes, la barra delimitará una zona triangular. ¿A qué distancia de la esquina debe apoyarse cada extremo para que la superficie encerrada sea la mayor posible?
+
+### Solución
+
+Llamamos $x$ e $y$ a las distancias de los extremos de la barra a la esquina, medidas sobre cada pared. La barra es la hipotenusa de un triángulo rectángulo, así que
+
+$$x^2+y^2=4^2=16.$$
+
+El área encerrada es $S=xy/2$. Sustituimos $y=\\sqrt{16-x^2}$:
+
+$$S(x)=\\frac{x\\sqrt{16-x^2}}2,\\qquad0\\le x\\le4.$$
+
+Su derivada es
+
+$$S'(x)=\\frac{8-x^2}{\\sqrt{16-x^2}}.$$
+
+La derivada se anula cuando $x^2=8$, luego $x=2\\sqrt2$. Como el área es cero en los extremos del intervalo y la función alcanza aquí su máximo, sustituimos para el otro cateto:
+
+$$y=\\sqrt{16-8}=2\\sqrt2.$$
+
+La barra debe apoyarse a $\\boxed{2\\sqrt2\\text{ m}}$ de la esquina en cada pared.
+
+## Cómo usar este examen para preparar la PAU
+
+Haz una primera vuelta sin consultar la solución. Al corregir, señala el primer paso que no supiste justificar y repítelo al día siguiente. Así conviertes un modelo de examen en una lista concreta de técnicas que debes entrenar.
+
+Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
+
+`,da=`---
 title: Matrices, determinantes y sistemas de ecuaciones: guía completa para primero de carrera
 date: 2026-06-25
 updated: 2026-06-25
@@ -24391,7 +28506,7 @@ No hagas solo sistemas numéricos. Mezcla:
 - Problemas donde haya que decidir si usar Gauss, determinante o interpretación geométrica.
 
 Si este bloque te cuesta, empieza por [Álgebra Lineal en la universidad](/blog/algebra-lineal-universidad-que-estudiar-primero-errores/) y revisa la página de [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,Kn=`---
+`,ua=`---
 title: "Máximos y mínimos de varias variables: guía y ejercicios"
 date: "2026-09-01"
 updated: "2026-09-01"
@@ -24961,7 +29076,7 @@ Todos los valores cumplen $f<1$, pero pueden acercarse tanto como se quiera a $1
 Primero separa el problema interior del problema de frontera. En el interior, resuelve $\\nabla f=0$ y clasifica con la hessiana; si el determinante es cero, cambia de argumento. En una región compacta, analiza cada frontera y compara todos los candidatos. Con una restricción regular, Lagrange expresa el paralelismo de los gradientes, pero no evita la comprobación final.
 
 Conviene dominar antes las [derivadas parciales y el gradiente](/blog/derivadas-parciales-gradiente-ejercicios/). Si necesitas practicar clasificaciones y restricciones con los ejercicios de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Jn=`---
+`,ma=`---
 title: "Mecánica de fluidos: ejercicios resueltos de continuidad y Bernoulli"
 seoTitle: "Continuidad y Bernoulli: ejercicios resueltos | Fluidos"
 date: "2026-10-18"
@@ -25063,7 +29178,7 @@ La densidad se cancela: para este modelo ideal, la rapidez de salida depende de 
 - Pregunta si hay pérdidas o una bomba: si las hay, Bernoulli ideal no es suficiente.
 
 El [campus virtual de Método Nebula](/contacto/) organiza los problemas de Física para Ingeniería por modelo físico, con teoría, ejercicios guiados y exámenes resueltos. Esa práctica te enseña a reconocer cuándo usar continuidad, energía o ambas sin depender de una fórmula aislada.
-`,Xn=`---
+`,pa=`---
 title: Métodos de integración: cómo elegir la técnica adecuada
 date: 2026-08-01
 updated: 2026-08-01
@@ -25655,7 +29770,7 @@ Primero simplifica. Después busca una forma inmediata o una composición con su
 La elección no se memoriza como una lista de palabras clave. Se entrena comparando la estructura del integrando con las reglas de derivación que ya conoces y comprobando si cada transformación reduce la dificultad.
 
 Si estás preparando Cálculo universitario y necesitas aplicar este árbol de decisión a tus hojas de problemas o exámenes, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Zn=`---
+`,$a=`---
 title: Microeconomía I: diez tipos de problemas que debes dominar antes del examen
 date: 2026-07-05
 updated: 2026-07-05
@@ -25794,7 +29909,7 @@ Para cada tipo de problema, prepara una ficha:
 - No distinguir demanda individual y demanda de mercado.
 
 Si quieres trabajar Microeconomía I desde ejercicios reales, revisa [clases particulares de Economía y ADE](/clases-particulares/economia-ade/) y la guía de [Matemáticas I en ADE y Economía](/blog/como-aprobar-matematicas-i-ade-economia/).
-`,Yn=`---
+`,ga=`---
 title: "Disoluciones y molaridad en 1º Bachillerato: problemas resueltos"
 seoTitle: "Molaridad y disoluciones: ejercicios resueltos"
 date: 2026-11-05
@@ -25910,7 +30025,7 @@ La concentración baja porque el mismo soluto queda repartido en más volumen.
 4. \\(c_2=(2{,}0\\cdot50)/400=0{,}25\\text{ M}\\).
 
 La [guía de mol y estequiometría](/blog/bachillerato-fisica-quimica-mol-estequiometria/) explica las conversiones que se usan antes y después de una reacción. Para practicar química con ejercicios de tu nivel, consulta las [clases particulares de Química](/clases-particulares/quimica/).
-`,ea=`---
+`,fa=`---
 title: "Movimiento circular uniforme: ejercicios de 1º Bachillerato"
 seoTitle: "Movimiento circular uniforme: ejercicios resueltos"
 date: 2026-10-23
@@ -25970,7 +30085,7 @@ $$
 3. Hacia el centro de la trayectoria.
 
 En el [Campus de Método Nebula](/campus/) el movimiento circular se conecta con fuerzas, energía y representación vectorial mediante problemas graduados.
-`,na=`---
+`,ba=`---
 title: "MRU en ESO: movimiento rectilíneo uniforme con fórmulas y ejercicios"
 seoTitle: "MRU en ESO: fórmulas, gráficas y ejercicios resueltos"
 date: "2026-08-12"
@@ -26205,7 +30320,7 @@ En MRU la trayectoria es recta y la velocidad es constante, así que $a=0$. Usa 
 Cuando la velocidad deja de ser constante, el modelo correcto pasa a ser el [MRUA: movimiento rectilíneo uniformemente acelerado](/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/). Para reforzar el método general de planteamiento, consulta también [cómo resolver problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/).
 
 Si necesitas practicar con ejercicios de tu curso, puedes consultar las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,aa=`---
+`,xa=`---
 title: "MRUA en ESO: movimiento rectilíneo acelerado con fórmulas y ejercicios"
 seoTitle: "MRUA en ESO: fórmulas, gráficas y ejercicios resueltos"
 date: "2026-08-19"
@@ -26421,7 +30536,7 @@ Sigue avanzando en el sentido inicial, pero más despacio.
 En MRUA la trayectoria es recta y la aceleración es constante. Usa $v=v_0+at$ para velocidades y $x=x_0+v_0t+\\frac12at^2$ para posiciones. En una gráfica $v-t$, la pendiente es la aceleración y el área es el desplazamiento.
 
 Para consolidar la base, repasa el [MRU con ejercicios](/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/) y el método de [plantear problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/). Si necesitas practicar con tu temario, puedes consultar las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,ia=`---
+`,va=`---
 title: p-valor, intervalo de confianza y tamaño del efecto explicados con un mismo ejemplo
 date: 2026-07-10
 updated: 2026-07-10
@@ -26538,7 +30653,7 @@ Si te dan una salida de software, localiza:
 5. La frase de interpretación.
 
 Para evitar confusiones habituales, lee también [errores más comunes en Inferencia Estadística](/blog/errores-comunes-inferencia-estadistica/) y [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/).
-`,oa=`---
+`,ya=`---
 title: "Derivadas en Matemáticas CCSS PAU: coste marginal, beneficio y optimización con interpretación"
 seoTitle: "Derivadas CCSS PAU: coste, beneficio y optimización"
 date: "2026-08-18"
@@ -26662,7 +30777,7 @@ Compara cambios porcentuales, por lo que es adimensional. Su interpretación dep
 ## Convertir la visibilidad en preparación
 
 Las derivadas son el clúster con mayor tracción orgánica actual de Método Nebula. Este artículo amplía esa entrada hacia CCSS y economía; el campus virtual la conecta con funciones, matrices y programación lineal mediante ejercicios y modelos PAU. El botón de contacto permite acceder al itinerario completo y a la práctica corregida.
-`,ra=`---
+`,ha=`---
 title: "Inferencia estadística en Matemáticas CCSS PAU: intervalos de confianza y tamaño muestral con sentido"
 seoTitle: "Inferencia estadística PAU: intervalos y tamaño muestral"
 date: "2026-10-02"
@@ -26786,7 +30901,7 @@ Comprueba las condiciones del modelo y expresa el resultado como proporción o p
 - Omitir unidades o contexto.
 
 El campus de Método Nebula reúne probabilidad, distribuciones, muestreo e inferencia con modelos PAU resueltos. Contacta para integrar fórmulas e interpretación en un plan de examen.
-`,sa=`---
+`,qa=`---
 title: "Integrales en Matemáticas CCSS PAU: áreas, acumulación y aplicaciones económicas con sentido"
 seoTitle: "Integrales CCSS PAU: áreas y acumulación"
 date: "2026-08-13"
@@ -26906,7 +31021,7 @@ No es la media de los extremos salvo en funciones lineales. En contexto puede re
 ## Integrar el tema en la preparación CCSS
 
 El campus virtual de Método Nebula conecta derivadas, funciones marginales, integrales, matrices y optimización mediante teoría y modelos económicos. Incluye ejercicios graduados y exámenes PAU resueltos. El botón de contacto permite acceder al recorrido y practicar tanto el cálculo como la interpretación que exige la prueba.
-`,ta=`---
+`,Ea=`---
 title: "Matrices en Matemáticas CCSS PAU: producción, costes y sistemas con interpretación económica"
 seoTitle: "Matrices CCSS PAU: producción, costes y sistemas"
 date: "2026-09-08"
@@ -27034,7 +31149,7 @@ Entonces $\\vec x_n=T^n\\vec x_0$. Antes de interpretar, comprueba si filas o co
 ## Del contexto a una solución defendible
 
 El campus virtual de Método Nebula trabaja matrices CCSS con modelos de producción, sistemas, programación lineal y probabilidad. Incluye teoría, ejercicios graduados y problemas PAU donde la interpretación cuenta tanto como la operación. El botón de contacto permite acceder al recorrido completo y practicar con corrección contextual.
-`,ca=`---
+`,_a=`---
 title: "Matemáticas CCSS PAU: domina programación lineal y convierte enunciados en puntos"
 date: "2026-09-30"
 updated: "2026-10-28"
@@ -27134,7 +31249,7 @@ No es magia ni una regla sin motivo: es una propiedad de la geometría lineal.
 ¿Variables definidas? ¿Todas las restricciones traducidas? ¿Semiplanos verificados? ¿Vértices exactos? ¿Función objetivo evaluada? ¿Respuesta redactada con unidades? Si las seis respuestas son sí, el ejercicio está completo y el corrector puede seguir el razonamiento.
 
 El campus virtual de Método Nebula incluye Matemáticas CCSS con sistemas, representación, programación lineal, probabilidad e inferencia, organizados en teoría, ejemplos y práctica de examen. Si quieres dejar de depender de plantillas y aprender a modelizar, utiliza el botón de contacto.
-`,la=`---
+`,Ca=`---
 title: "Convocatoria extraordinaria PAU: un plan de 30 días para remontar sin empezar de cero"
 seoTitle: "Convocatoria extraordinaria PAU: plan de 30 días"
 date: "2026-10-30"
@@ -27228,7 +31343,7 @@ Dormir no compite con el estudio: protege memoria de trabajo, lectura y control 
 La ventaja es disponer de evidencia real. Tu examen anterior revela el tipo de presión, las decisiones de tiempo y los contenidos que no se consolidaron. Utiliza esa evidencia para diseñar un plan más pequeño, más medible y más exigente en la práctica.
 
 El campus virtual de Método Nebula reúne teoría, ejercicios graduados, exámenes resueltos y rutas de recuperación para Matemáticas, Física y Química PAU. Desde el botón de contacto puedes enviar tus resultados y recibir una propuesta de 30 días centrada en los bloques que más puntos pueden devolverte, sin reiniciar todo el curso.
-`,da=`---
+`,ja=`---
 title: "Cómo corregir un simulacro de PAU para subir nota: el sistema que convierte fallos en un plan"
 date: "2026-10-27"
 updated: "2026-10-28"
@@ -27337,7 +31452,7 @@ No necesitas un paper completo cada día. Haz el siguiente cuando hayas trabajad
 El campus virtual de Método Nebula permite pasar del diagnóstico a la unidad concreta, revisar teoría, observar ejemplos, practicar, responder preguntas de examen y volver a medir. La ventaja no es acumular contenido; es conservar una ruta entre el fallo y la siguiente evidencia.
 
 Si tienes modelos corregidos pero no sabes convertirlos en un calendario, utiliza el botón de contacto. Podemos revisar objetivo, comunidad, asignaturas, fecha y punto de partida para proponer un recorrido realista.
-`,ua=`---
+`,Sa=`---
 title: "PAU, EBAU, EvAU o Selectividad: qué significa cada nombre y cómo encontrar tu modelo oficial"
 seoTitle: "PAU, EBAU, EvAU o Selectividad: guía y modelos"
 date: "2026-10-10"
@@ -27425,7 +31540,7 @@ donde $L$ representa exámenes locales, $A$ exámenes de estructura afín y $E$ 
 Una vez identificados los bloques, realiza un diagnóstico con un examen reciente, mide el porcentaje por apartado y asigna horas según frecuencia, debilidad y puntuación. El documento oficial deja de ser un archivo informativo y se convierte en el mapa de la preparación.
 
 El campus virtual de Método Nebula organiza los contenidos de PAU por materia y bloque, conecta cada explicación con ejercicios y exámenes resueltos y permite adaptar el itinerario al modelo oficial de cada alumno. Desde el botón de contacto puedes enviar tu comunidad, asignatura y convocatoria para construir una ruta precisa, sin estudiar a ciegas con materiales de otra prueba.
-`,ma=`---
+`,za=`---
 title: "Campo eléctrico en PAU: cómo dominar potencial, trabajo y condensadores sin perder los signos"
 seoTitle: "Campo eléctrico PAU: potencial y condensadores"
 date: "2026-07-22"
@@ -27556,7 +31671,7 @@ Elegir la forma adecuada depende de qué magnitud permanece constante al cambiar
 ## Una ruta completa de electromagnetismo
 
 El campus virtual de Método Nebula conecta campo, potencial, energía, condensadores e inducción mediante teoría, ejercicios escalonados y exámenes PAU resueltos. El botón de contacto permite acceder a una ruta donde cada problema empieza con el diagrama de signos y termina con una comprobación física.
-`,pa=`---
+`,Pa=`---
 title: "Campo gravitatorio PAU: 3 ejercicios resueltos de satélites, órbitas y energía"
 seoTitle: "Campo gravitatorio PAU: 3 ejercicios resueltos"
 date: "2026-10-02"
@@ -27749,7 +31864,7 @@ Hay que aportar energía. La energía final sigue siendo negativa porque el sat�
 Dibujo y radio → ley física → deducción simbólica → sustitución SI → unidades → interpretación. La deducción simbólica permite ver dependencias, detectar datos irrelevantes y conservar puntos aunque falle una operación numérica.
 
 El campus virtual de Método Nebula desarrolla campo gravitatorio, potencial, energía, satélites, órbitas y escape con teoría, demostraciones, ejercicios y problemas PAU. El botón de contacto permite solicitar una ruta centrada en el desarrollo matemático que conecta todo el bloque.
-`,$a=`---
+`,Aa=`---
 title: "Física cuántica PAU: efecto fotoeléctrico y fotones para entender por qué existe una frecuencia umbral"
 seoTitle: "Efecto fotoeléctrico PAU: fotones y frecuencia umbral"
 date: "2026-10-10"
@@ -27861,7 +31976,7 @@ asocia longitud de onda a partículas con momento. En preguntas PAU conviene dis
 - Usar $c=f\\lambda$ con la velocidad de un electrón.
 
 El campus virtual de Método Nebula desarrolla cuántica, relatividad y nuclear con teoría, gráficos y problemas PAU. Contacta para entrenar conversiones, modelos y explicaciones.
-`,ga=`---
+`,La=`---
 title: "Electromagnetismo PAU: 3 ejercicios resueltos de campos, fuerzas e inducción"
 seoTitle: "Electromagnetismo PAU: 3 ejercicios resueltos"
 date: "2026-10-24"
@@ -28018,7 +32133,7 @@ El sentido se obtiene con Lenz: la corriente inducida crea un campo que intenta 
 Dibujo → vectores → ley física → módulo → dirección → comprobación de unidades. Para inducción añade: “qué hace variar el flujo”. Esta secuencia produce soluciones legibles y conserva puntuación parcial.
 
 El campus virtual de Método Nebula desarrolla electromagnetismo con fundamentos, ejemplos visuales, ejercicios y preguntas PAU. Si quieres convertir reglas sueltas en un mapa coherente y entrenable, utiliza el botón de contacto.
-`,fa=`---
+`,Ha=`---
 title: "Física PAU: el formulario razonado que conecta ecuaciones, unidades y comprobaciones"
 seoTitle: "Formulario razonado de Física PAU por bloques"
 date: "2026-10-20"
@@ -28130,7 +32245,7 @@ El control dimensional detecta conversiones, exponentes y ecuaciones mal recorda
 Tapa una columna y reconstruye su contenido. Después resuelve una pregunta y marca qué información faltaba. El formulario debe reducirse con la práctica: si crece indefinidamente, está sustituyendo al razonamiento.
 
 El campus virtual de Método Nebula conecta cada ley de Física PAU con su deducción, esquema, unidades, ejercicios graduados y exámenes resueltos. Desde el botón de contacto puedes solicitar una ruta por bloques para transformar un formulario pasivo en un sistema de resolución y comprobación que funcione bajo tiempo real.
-`,xa=`---
+`,Oa=`---
 title: "Física PAU: cómo interpretar gráficas, datos experimentales e incertidumbre con rigor"
 seoTitle: "Gráficas e incertidumbre experimental en Física PAU"
 date: "2026-10-22"
@@ -28220,7 +32335,7 @@ La incertidumbre no debe expresarse con precisión artificial. Ajusta el valor a
 Termina siempre con tres elementos: magnitud obtenida, unidad y comparación física. Si la ordenada en el origen debería ser cero y no lo es, considera un error sistemático antes de atribuirlo al azar.
 
 El campus virtual de Método Nebula incluye análisis de datos, linealizaciones y preguntas experimentales dentro de cada bloque de Física PAU, con gráficas cuidadas y soluciones justificadas. El botón de contacto permite acceder a ejercicios graduados y simulacros donde cada pendiente, unidad e incertidumbre se interpreta como parte del modelo, no como un trámite gráfico.
-`,ba=`---
+`,Ua=`---
 title: "Movimiento armónico simple en PAU: de la proyección circular a energía, velocidad y aceleración"
 seoTitle: "Movimiento armónico simple PAU: método y ejercicios"
 date: "2026-10-28"
@@ -28361,7 +32476,7 @@ En una gráfica $x(t)$, la pendiente representa $v$ y la concavidad determina el
 - Aplicar la fórmula del péndulo a amplitudes grandes sin justificar.
 
 El campus virtual de Método Nebula integra MAS y ondas con teoría, ejercicios graduados y problemas PAU. El contacto sirve para diagnosticar si el bloqueo está en la fase, las derivadas o la interpretación física.
-`,va=`---
+`,Ma=`---
 title: "Física nuclear PAU: defecto de masa, energía de enlace y radiactividad con unidades bajo control"
 seoTitle: "Física nuclear PAU: defecto de masa y energía de enlace"
 date: "2026-10-06"
@@ -28489,7 +32604,7 @@ Ambas pueden liberar energía al producir núcleos con mayor energía de enlace 
 - Aplicar una disminución lineal a una ley exponencial.
 
 El campus de Método Nebula conecta estructura nuclear, decaimiento, energía de enlace y problemas PAU. Contacta para practicar balances y conversiones con corrección detallada.
-`,ya=`---
+`,Da=`---
 title: "Física PAU: domina ondas desde cero y convierte las fórmulas en puntos de examen"
 date: "2026-09-22"
 updated: "2026-10-28"
@@ -28594,7 +32709,7 @@ Una respuesta de calidad indica qué se conserva, qué cambia y por qué.
 Resuelve una pregunta de lectura de gráfica, otra de ecuación de onda, una de interferencia y una de energía o intensidad. Dos días después mézclalas sin encabezado. Finalmente intégralas en un modelo cronometrado de tu comunidad y corrige con su criterio oficial.
 
 El campus virtual de Método Nebula desarrolla fundamentos, movimiento armónico, ondas y óptica mediante teoría, ejemplos, ejercicios y preguntas de examen. Si quieres convertir este bloque en una fuente estable de puntos, utiliza el botón de contacto para diagnosticar el punto de partida y construir el recorrido.
-`,ha=`---
+`,wa=`---
 title: "Óptica geométrica PAU: 3 ejercicios resueltos de lentes, espejos y signos"
 seoTitle: "Óptica PAU: 3 ejercicios resueltos de lentes y espejos"
 date: "2026-10-23"
@@ -28729,7 +32844,7 @@ La imagen es real, invertida y mide la mitad que el objeto. El diagrama de rayos
 - Corregir signos “al final” en vez de mantener un convenio.
 
 El campus de Método Nebula desarrolla ondas y óptica con diagramas, ecuaciones y ejercicios PAU. Contacta si necesitas convertir el convenio de signos en un procedimiento verificable.
-`,qa=`---
+`,Ra=`---
 title: "Relatividad especial en Física PAU: dilatación temporal, contracción y energía sin paradojas"
 seoTitle: "Relatividad especial PAU: tiempo, longitud y energía"
 date: "2026-09-27"
@@ -28834,7 +32949,7 @@ La respuesta PAU debe especificar observador, sucesos y magnitud propia. Frases 
 ## Entrenar el bloque, no una sola fórmula
 
 En el campus virtual de Método Nebula, relatividad se trabaja junto con cuántica y nuclear mediante teoría conectada, ejemplos progresivos y problemas PAU completos. El objetivo es decidir el sistema de referencia antes de sustituir. El botón de contacto permite acceder a una ruta que combina diagnóstico, práctica y exámenes resueltos.
-`,Ea=`---
+`,Na=`---
 title: "Matemáticas CCSS PAU: probabilidad condicionada y Bayes sin confundir los sucesos"
 seoTitle: "Probabilidad condicionada y Bayes en PAU CCSS"
 date: "2026-10-17"
@@ -28933,7 +33048,7 @@ La tabla y el árbol deben producir exactamente el mismo resultado. Utilizar amb
 El denominador de Bayes debe ser al menos tan grande como el numerador porque contiene ese camino y posiblemente otros. El resultado debe estar entre 0 y 1. Además, todas las hojas del árbol deben sumar 1.
 
 El campus virtual de Método Nebula desarrolla probabilidad condicionada, árboles, tablas, teorema de la probabilidad total, Bayes y distribuciones con ejercicios graduados y modelos PAU resueltos. El botón de contacto permite acceder a una ruta que empieza por traducir el lenguaje y termina con problemas cronometrados, para que la fórmula nunca sustituya a la comprensión del suceso.
-`,_a=`---
+`,Ia=`---
 title: "Derivabilidad con parámetros en PAU: continuidad, derivadas laterales y tangentes sin saltos lógicos"
 seoTitle: "Derivabilidad con parámetros PAU: método completo"
 date: "2026-09-13"
@@ -29067,7 +33182,7 @@ Una vez determinada la derivabilidad, el signo de $f'$ estudia crecimiento y dec
 ## Ampliar el clúster de mayor demanda
 
 Las consultas sobre derivadas concentran la mayor visibilidad orgánica actual de la web. Este artículo cubre una intención más avanzada y específica, mientras el campus virtual convierte esa entrada en un recorrido de continuidad, derivadas, representación y optimización. Incluye teoría, ejercicios escalonados y modelos PAU; el botón de contacto permite acceder al itinerario completo.
-`,ja=`---
+`,Ba=`---
 title: "Geometría métrica PAU: distancias, ángulos y posiciones relativas sin memorizar fórmulas sueltas"
 seoTitle: "Geometría métrica PAU: distancias y ángulos"
 date: "2026-09-10"
@@ -29198,7 +33313,7 @@ Este procedimiento es más seguro que intentar recordar una fórmula larga de co
 ## De la fórmula al modelo de examen
 
 El campus virtual de Método Nebula conecta vectores, rectas, planos, sistemas y geometría métrica con ejercicios visuales y modelos PAU resueltos. La práctica obliga a justificar cada vector y cada perpendicularidad. El botón de contacto permite acceder al recorrido completo y trabajar los problemas con corrección paso a paso.
-`,Ca=`---
+`,Ta=`---
 title: "Matemáticas II PAU: cómo repartir 90 minutos y elegir los ejercicios correctos"
 seoTitle: "Matemáticas II PAU: estrategia para 90 minutos"
 date: "2026-10-12"
@@ -29287,7 +33402,7 @@ Sustituye las soluciones cuando sea posible. En una integral definida, estima el
 Una planificación temporal no se estrena el día de la prueba. Realiza simulacros y registra tiempo planificado, tiempo real, puntos y motivo de cada desvío. Tras varias pruebas aparecerá tu patrón: lentitud algebraica, exceso de revisión temprana o mala elección inicial.
 
 El campus virtual de Método Nebula reúne teoría, ejercicios graduados y exámenes PAU resueltos con indicaciones de tiempo y criterios de corrección. El botón de contacto permite solicitar un diagnóstico para elegir una estrategia de 90 minutos basada en tus bloques fuertes, tus errores recurrentes y el modelo oficial que vas a realizar.
-`,Sa=`---
+`,ka=`---
 title: "Matemáticas II PAU: 15 errores que restan puntos aunque conozcas el temario"
 seoTitle: "15 errores frecuentes en Matemáticas II PAU"
 date: "2026-10-15"
@@ -29399,7 +33514,7 @@ No intentes revisar quince elementos en cada línea. Asigna una comprobación a 
 Después de cada simulacro, cuenta errores por categoría. Si un tipo aparece tres veces, crea una tarjeta con un ejemplo y una prueba de control. El objetivo es que el fallo active automáticamente su comprobación.
 
 El campus virtual de Método Nebula trabaja estos errores con desarrollos completos, ejercicios equivalentes y exámenes PAU comentados. Desde el botón de contacto puedes enviar un simulacro corregido y organizar una ruta que no se limite a repetir teoría: identifica dónde se pierden puntos y entrena la comprobación exacta que los recupera.
-`,za=`---
+`,Fa=`---
 title: "Matemáticas II PAU: domina vectores, rectas y planos sin memorizar veinte fórmulas"
 date: "2026-09-27"
 updated: "2026-10-28"
@@ -29523,7 +33638,7 @@ Pero no uses esta fórmula para cualquier distancia. Punto–recta, rectas paral
 Alterna ejercicios de construcción, posición relativa, ángulos y distancias. Luego resuelve una pregunta que combine dos partes: por ejemplo, hallar un plano y medir una distancia. Finalmente incluye el bloque en un modelo PAU con tiempo real.
 
 El campus virtual de Método Nebula desarrolla Matemáticas II desde vectores y sistemas hasta rectas, planos y geometría métrica, con ejemplos y preguntas de examen. Si quieres ordenar este bloque según los errores que realmente cometes, el botón de contacto permite iniciar el diagnóstico.
-`,Pa=`---
+`,Qa=`---
 title: "Integrales PAU: ejercicios resueltos de áreas, signos y parámetros"
 seoTitle: "Integrales PAU: áreas, signos y ejercicios resueltos"
 date: "2026-10-14"
@@ -29656,7 +33771,7 @@ Una buena presentación incluye ecuación de cortes, orden de las funciones, int
 - Perder signos al evaluar el extremo inferior.
 
 El campus de Método Nebula incluye teoría, métodos de integración, áreas y modelos PAU resueltos paso a paso. Contacta para organizar el bloque según tu comunidad y nota objetivo.
-`,Aa=`---
+`,Va=`---
 title: "Límites y asíntotas en Matemáticas II PAU: cómo decidir el método antes de calcular"
 seoTitle: "Límites y asíntotas PAU: método paso a paso"
 date: "2026-09-18"
@@ -29769,7 +33884,7 @@ Los límites determinan dominio extendido, ramas y asíntotas. Después se combi
 ## Aprovechar el clúster que ya funciona
 
 Los límites y las derivadas son ya una de las puertas de entrada orgánica más fuertes de Método Nebula. En el campus virtual, esta explicación se conecta con continuidad, representación, derivabilidad e integrales mediante ejercicios graduados y modelos PAU. El botón de contacto permite pasar de artículos sueltos a un itinerario completo con exámenes resueltos.
-`,La=`---
+`,Ga=`---
 title: "Matrices y determinantes en PAU: cuándo usar inversa, Gauss o propiedades sin hacer cuentas de más"
 date: "2026-10-25"
 updated: "2026-10-25"
@@ -29904,7 +34019,7 @@ El rango es el número de filas no nulas tras escalonar, o el orden máximo de u
 Inversa para despejar una ecuación matricial invertible; Gauss para sistemas y rangos; determinantes para invertibilidad, parámetros y simplificación; Cramer para sistemas pequeños cuando se pide explícitamente o resulta muy directo.
 
 El campus virtual de Método Nebula desarrolla matrices, determinantes, rango, inversa, Gauss, Cramer y sistemas con parámetros mediante teoría y ejercicios PAU. El botón de contacto permite solicitar una ruta para elegir el método con criterio y justificar cada operación.
-`,Ua=`---
+`,Ka=`---
 title: "Probabilidad y distribuciones PAU: ejercicios resueltos de binomial y normal"
 seoTitle: "Probabilidad PAU: ejercicios resueltos de binomial y normal"
 date: "2026-10-17"
@@ -30026,7 +34141,7 @@ El intervalo está centrado en la media y se extiende una desviación típica a 
 Variable → modelo → suceso → cálculo → comprobación → frase final. Escribe las seis etapas incluso cuando la calculadora haga la operación central. El corrector debe ver por qué ese resultado responde a esa pregunta.
 
 El campus virtual de Método Nebula desarrolla probabilidad, distribuciones y preparación de examen con teoría, ejemplos, ejercicios y simulación. Si quieres identificar si pierdes puntos por modelo, lenguaje o cálculo, utiliza el botón de contacto.
-`,wa=`---
+`,Wa=`---
 title: "Sistemas con parámetro PAU: ejercicios resueltos de Rouché–Frobenius y rangos"
 seoTitle: "Sistemas con parámetro PAU: ejercicios resueltos"
 date: "2026-10-10"
@@ -30185,7 +34300,7 @@ Esta interpretación ayuda a revisar el resultado. Si el sistema tiene tres inc�
 La discusión completa sigue una estructura verificable: matriz $A$ y ampliada → determinante o menores → valores críticos → caso general → sustitución de cada valor crítico → rangos → clasificación → resolución. Esta secuencia separa la justificación algebraica de la obtención posterior de soluciones.
 
 El campus virtual de Método Nebula desarrolla matrices, determinantes, Gauss, Rouché–Frobenius y discusión con parámetros mediante teoría y problemas PAU graduados. El botón de contacto permite solicitar una ruta para construir discusiones completas y verificables.
-`,Da=`---
+`,Ja=`---
 title: "Ácido-base y pH PAU: ejercicios resueltos de neutralización y equilibrio"
 seoTitle: "Ácido-base PAU: ejercicios resueltos de pH"
 date: "2026-10-02"
@@ -30309,7 +34424,7 @@ El indicador debe cambiar de color dentro del salto de pH relevante, no simpleme
 Alterna un ácido fuerte, uno débil, una neutralización y una valoración. En cada ejercicio escribe la ruta antes de calcular. Después mezcla ácido-base con equilibrio y estequiometría, como ocurre en preguntas de PAU.
 
 El campus virtual de Método Nebula desarrolla ácido-base desde especies y equilibrio hasta valoraciones y preguntas de examen, con ejemplos, ejercicios y errores comunes. Si quieres saber qué parte de la cadena falla y practicarla en orden, utiliza el botón de contacto.
-`,Ma=`---
+`,Za=`---
 title: "Cinética química PAU: cómo interpretar órdenes, Arrhenius y mecanismos de reacción"
 seoTitle: "Cinética química PAU: órdenes y Arrhenius"
 date: "2026-07-18"
@@ -30425,7 +34540,7 @@ En un perfil energético, cambia la altura de la barrera, no la diferencia entre
 ## Convertir datos cinéticos en razonamiento
 
 El campus virtual de Método Nebula enlaza cinética, termoquímica y equilibrio mediante tablas experimentales, gráficos y problemas PAU resueltos. El botón de contacto permite acceder a una ruta con ejercicios por niveles para aprender a extraer la ley antes de introducir números.
-`,Ra=`---
+`,Xa=`---
 title: "Enlace químico PAU: geometría molecular, polaridad y fuerzas intermoleculares con una sola lógica"
 seoTitle: "Enlace químico PAU: geometría, polaridad y fuerzas"
 date: "2026-09-25"
@@ -30513,7 +34628,7 @@ Una comparación completa menciona tipo de partícula, fuerza dominante y energ�
 ## Convertir el mapa en respuestas PAU
 
 El campus virtual de Método Nebula enlaza estructura atómica, enlace, periodicidad y orgánica en una secuencia común. Incluye teoría, ejercicios de Lewis, comparaciones de propiedades y modelos PAU resueltos con el nivel de justificación exigido. El botón de contacto permite entrar en una ruta donde cada respuesta se corrige por razonamiento, no solo por resultado.
-`,Ta=`---
+`,Ya=`---
 title: "Equilibrio químico PAU: ejercicios resueltos con Kc, Q y Le Châtelier"
 seoTitle: "Equilibrio químico PAU: ejercicios resueltos"
 date: "2026-09-25"
@@ -30635,7 +34750,7 @@ Son preguntas frecuentes porque obligan a razonar más allá de una regla memori
 Entrena cuatro formatos: escribir $K$, comparar $Q$ y $K$, resolver una tabla y justificar una perturbación. Después mezcla equilibrio con cinética, termoquímica o ácido-base. En PAU los bloques pueden conectarse y la elección del método cuenta tanto como el cálculo.
 
 El campus virtual de Método Nebula organiza Química PAU desde fundamentos hasta cinética y equilibrio, con ejemplos guiados, ejercicios, preguntas de examen y errores comunes. Si quieres detectar qué decisión falla y convertirla en una secuencia de práctica, utiliza el botón de contacto.
-`,ka=`---
+`,eo=`---
 title: "Estequiometría PAU: gases, disoluciones y reactivo limitante con un mapa que evita atajos"
 seoTitle: "Estequiometría PAU: gases, disoluciones y moles"
 date: "2026-09-20"
@@ -30769,7 +34884,7 @@ Esta igualdad no se aplica a una reacción química que consume soluto. Si se me
 ## Del cálculo aislado al dominio de química
 
 El campus virtual de Método Nebula trabaja esta misma ruta en problemas de gases, valoraciones, equilibrio, electroquímica y termoquímica. Incluye teoría, ejercicios por niveles y modelos PAU completos para que las conversiones se conviertan en un procedimiento estable. El botón de contacto da acceso al itinerario y a la práctica corregida.
-`,Na=`---
+`,no=`---
 title: "Estructura atómica PAU: configuraciones electrónicas, números cuánticos y periodicidad sin contradicciones"
 seoTitle: "Estructura atómica PAU: configuración y números cuánticos"
 date: "2026-10-04"
@@ -30893,7 +35008,7 @@ La carga nuclear efectiva y el apantallamiento explican tendencias de radio, ene
 - Explicar tendencias solo con “hay más protones”, ignorando distancia y apantallamiento.
 
 El campus de Método Nebula desarrolla estructura atómica, enlace y periodicidad mediante teoría y problemas PAU. Contacta para convertir configuraciones y justificaciones en un procedimiento coherente.
-`,Ia=`---
+`,ao=`---
 title: "Química PAU: laboratorio, rendimiento, pureza y análisis de errores en un mismo problema"
 seoTitle: "Rendimiento, pureza y errores de laboratorio en PAU"
 date: "2026-10-27"
@@ -31015,7 +35130,7 @@ Relaciona instrumento y función. Una balanza mide masa; una pipeta aforada tran
 Verifica conservación de átomos, unidades, reactivo limitante y sentido de los porcentajes. Si el rendimiento es menor que 100 %, la masa real debe ser menor que la teórica. Si la pureza disminuye manteniendo la masa comercial, disminuyen los moles reactivos.
 
 El campus virtual de Método Nebula integra estequiometría, disoluciones y laboratorio con problemas encadenados, esquemas y exámenes PAU resueltos. El botón de contacto permite acceder a una ruta donde pureza, reactivo limitante y rendimiento dejan de ser fórmulas separadas y se convierten en un único razonamiento verificable.
-`,Oa=`---
+`,oo=`---
 title: "Química orgánica PAU: ejercicios resueltos de reacciones, isomería y síntesis"
 seoTitle: "Química orgánica PAU: ejercicios resueltos"
 date: "2026-10-17"
@@ -31170,7 +35285,7 @@ Una respuesta rigurosa incluye:
 - Escribir el polímero conservando el doble enlace del monómero.
 
 El campus virtual de Método Nebula desarrolla nomenclatura, isomería y un mapa completo de adición, eliminación, sustitución, oxidación, esterificación y polimerización con problemas PAU. El botón de contacto permite solicitar una ruta para reconstruir transformaciones a partir de la estructura.
-`,Fa=`---
+`,io=`---
 title: "Electroquímica PAU: cómo resolver pilas, potenciales y reacciones redox sin perder los signos"
 date: "2026-09-25"
 updated: "2026-09-25"
@@ -31292,7 +35407,7 @@ El cálculo de $E^\\circ_{\\text{pila}}$ cierra la parte energética. La represe
 - Decir que una reacción es espontánea sin relacionarlo con el signo de $E^\\circ$.
 
 El campus virtual de Método Nebula desarrolla números de oxidación, ajuste ion-electrón, pilas, potenciales, electrólisis y leyes de Faraday con ejercicios progresivos y modelos de examen. El botón de contacto permite acceder a una ruta centrada en el razonamiento completo, sin depender de reglas aisladas.
-`,Ba=`---
+`,ro=`---
 title: "Equilibrios de solubilidad PAU: cómo usar Kps, predecir precipitados y resolver el ion común"
 seoTitle: "Solubilidad y Kps PAU: precipitación e ion común"
 date: "2026-07-20"
@@ -31410,7 +35525,7 @@ Los problemas de precipitación selectiva comparan el pH o la concentración de 
 ## Integrar solubilidad con equilibrio y ácido-base
 
 El campus virtual de Método Nebula conecta $K_{ps}$ con equilibrio, pH, estequiometría y análisis químico mediante teoría, ejercicios graduados y modelos PAU resueltos. El botón de contacto permite acceder a una ruta que entrena tanto la tabla de equilibrio como la decisión química final.
-`,Ha=`---
+`,so=`---
 title: "Termoquímica PAU: ley de Hess, entalpías y signos sin perder energía por el camino"
 seoTitle: "Termoquímica PAU: ley de Hess, entalpías y signos"
 date: "2026-10-18"
@@ -31538,7 +35653,7 @@ No todas las discrepancias se arreglan diciendo “pérdida de calor”. Una com
 - Dar el calor total cuando piden entalpía molar.
 
 El campus virtual de Método Nebula conecta termoquímica, equilibrio y espontaneidad mediante teoría y problemas PAU. El botón de contacto permite trabajar el razonamiento y no solo la tabla de datos.
-`,Qa=`---
+`,to=`---
 title: "Química PAU: volumetrías ácido-base y redox paso a paso, sin fórmulas automáticas"
 seoTitle: "Volumetrías ácido-base y redox en Química PAU"
 date: "2026-10-25"
@@ -31649,7 +35764,7 @@ En algunas valoraciones redox, el propio reactivo actúa como indicador; en otra
 - Describir un color sin explicar qué marca.
 
 El campus virtual de Método Nebula conecta equilibrio ácido-base, redox, estequiometría y técnicas de laboratorio con ejercicios graduados y modelos PAU resueltos. Desde el botón de contacto puedes acceder a una ruta donde cada volumetría se construye desde la reacción y se comprueba con unidades, proporciones y procedimiento experimental.
-`,Ga=`---
+`,co=`---
 title: "Plano inclinado con y sin rozamiento: ejercicios resueltos de 1º Bachillerato"
 seoTitle: "Plano inclinado: ejercicios con y sin rozamiento"
 date: 2026-11-05
@@ -31785,7 +35900,7 @@ Si la primera no supera al máximo rozamiento estático, el bloque puede permane
 4. \\(a=(20-2\\cdot9{,}8\\sin45^\\circ)/2\\approx3{,}07\\text{ m/s}^2\\), cuesta arriba.
 
 Antes de resolver problemas más largos, practica los [diagramas de cuerpo libre](/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes/) y las [leyes de Newton en ESO](/blog/eso-fisica-quimica-leyes-newton-dinamica/). Para apoyo individualizado, consulta las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,Va=`---
+`,lo=`---
 title: Preparar la PAU desde verano: plan realista para llegar fuerte a septiembre
 date: 2026-07-21
 updated: 2026-07-21
@@ -31847,7 +35962,7 @@ También conviene evitar convertir el verano en una repetición del curso. Desca
 Al terminar deberías poder nombrar tus tres bloqueos prioritarios, resolver mejor los ejercicios básicos que en la primera semana y tener un sistema de corrección. No hace falta llegar sabiendo todo el temario de PAU; hace falta que el aprendizaje de septiembre no se apoye en terreno inestable.
 
 Cuando empiece el curso, continúa con [un calendario de Selectividad que se pueda cumplir](/blog/preparar-selectividad-con-calendario/) y usa los modelos oficiales de tu comunidad. Si quieres priorizar asignaturas, nota objetivo y fechas de forma realista, puedes consultar las [clases para Selectividad y PAU](/clases-particulares/selectividad/).
-`,Wa=`---
+`,uo=`---
 title: Preparar la Selectividad con un calendario que sí se cumple
 date: 2026-06-07
 updated: 2026-06-07
@@ -31916,7 +36031,7 @@ El calendario debe tener colchón. Si no hay huecos, se romperá el primer día 
 En Nebula el calendario se construye con asignaturas, nota objetivo, fechas y punto de partida. Después se revisa semanalmente para ajustar prioridades.
 
 Si necesitas preparar PAU, Matemáticas, Física, Química u otra materia con un plan medible, revisa [clases particulares para Selectividad y PAU](/clases-particulares/selectividad/) o [reserva un diagnóstico](/contacto/).
-`,Ka=`---
+`,mo=`---
 title: Tu primer proyecto de Python para datos: qué hacer antes de aprender más librerías
 date: 2026-07-21
 updated: 2026-07-21
@@ -31985,7 +36100,7 @@ También es importante separar trabajo propio y código reutilizado. Si consulta
 Termina cuando otra persona pueda abrir el cuaderno, entender la pregunta, ejecutar las celdas y llegar a la misma conclusión. Si todavía quieres añadir una sexta visualización o una predicción, guárdala para una versión dos. Acabar y explicar un proyecto breve vale más que dejar varios a medias.
 
 Si estás decidiendo qué aprender antes, empieza por la guía [Python y SQL para empezar en datos](/blog/python-y-sql-para-empezar-en-datos/). Para trabajar Python desde la base o conectar el proyecto con una asignatura, revisa las [clases particulares de Programación](/clases-particulares/programacion-universidad/).
-`,Ja=`---
+`,po=`---
 title: Probabilidad condicionada y teorema de Bayes: problemas universitarios resueltos
 date: 2026-06-27
 updated: 2026-06-27
@@ -32143,7 +36258,7 @@ Sigue siempre estos pasos:
 5. Interpreta el resultado en el contexto.
 
 Si estás preparando Estadística, también puedes leer [Estadística desde cero para elegir contrastes](/blog/estadistica-desde-cero-para-elegir-contrastes/) o revisar la página de [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,Xa=`---
+`,$o=`---
 title: Problemas de optimización con derivadas: ejercicios resueltos
 date: 2026-09-05
 updated: 2026-09-05
@@ -32772,7 +36887,7 @@ Una respuesta queda cerrada cuando recupera todas las variables originales, demu
 Si el modelo admite solo valores enteros, compara los enteros cercanos al óptimo continuo. Si el dominio es abierto o infinito, estudia sus fronteras mediante límites antes de afirmar que el mejor valor se alcanza.
 
 Si necesitas practicar modelización y comprobación sobre problemas de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Za=`---
+`,go=`---
 title: "Proporcionalidad directa e inversa en 2º ESO: problemas resueltos"
 seoTitle: "Proporcionalidad directa e inversa 2º ESO: ejercicios"
 date: 2026-11-01
@@ -32851,7 +36966,7 @@ Distancia y tiempo solo son inversamente proporcionales si la distancia es fija 
 3. Inversos: a mayor velocidad, menor tiempo.
 
 En el [Campus de Método Nebula](/campus/) la proporcionalidad se conecta con porcentajes, escalas, unidades y funciones para que puedas elegir el modelo correcto antes de calcular.
-`,Ya=`---
+`,fo=`---
 title: Python y SQL para empezar en datos: qué aprender primero
 date: 2026-06-01
 updated: 2026-06-01
@@ -32929,7 +37044,7 @@ No midas el progreso por horas de vídeo. Mídelo por entregables:
 Esa evidencia es la que convierte el estudio en una base profesional.
 
 Para acompañar esta base puedes revisar [clases particulares de Programación desde cero](/clases-particulares/programacion-universidad/) o leer la ruta de [transición al sector IT en 6 meses](/blog/transicion-al-sector-it-en-6-meses/).
-`,ei=`---
+`,bo=`---
 title: Qué prueba estadística utilizar: guía para elegir el test correcto
 date: 2026-07-09
 updated: 2026-11-05
@@ -33139,7 +37254,7 @@ No. Responden bajo marcos distintos. La elección depende de la pregunta y de la
 El software calcula, pero no conoce tu diseño ni tu pregunta. La decisión debe estar razonada antes de seleccionar un menú.
 
 Para practicar la interpretación, continúa con [p-valor, intervalo de confianza y tamaño del efecto](/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/) o revisa las [clases de Estadística para Psicología, ADE y Ciencias Sociales](/clases-particulares/estadistica-psicologia-ade/).
-`,ni=`---
+`,xo=`---
 title: Qué son las derivadas y para qué se utilizan
 seoTitle: "Derivadas: qué son, para qué sirven y ejemplos"
 date: 2026-06-19
@@ -33254,7 +37369,7 @@ Para dominar derivadas, trabaja cada ejercicio en tres capas:
 Si solo practicas reglas, cualquier enunciado nuevo parece distinto. Si entiendes la derivada como ritmo de cambio, las reglas empiezan a tener dirección.
 
 Puedes continuar con [qué son las integrales y para qué se utilizan](/blog/que-son-las-integrales-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,ai=`---
+`,vo=`---
 title: Qué son las integrales y para qué se utilizan
 seoTitle: "Integrales: qué son, para qué sirven y ejemplos"
 date: 2026-06-21
@@ -33364,7 +37479,3658 @@ Cuando entiendes la integral como acumulación, las técnicas de cálculo dejan 
 El paso siguiente es distinguir con claridad la [integral definida de la indefinida](/blog/integral-definida-e-indefinida-diferencias-ejemplos/) y aprender a reconocer la estructura del integrando. La guía de [métodos de integración y elección de técnica](/blog/metodos-de-integracion-como-elegir/) organiza ese diagnóstico; después puedes profundizar en [fracciones parciales](/blog/integrales-funciones-racionales-fracciones-parciales/) y aplicar la integral definida al [área entre dos curvas](/blog/area-entre-dos-curvas-ejercicios-resueltos/).
 
 Puedes leer también [qué son las derivadas y para qué se utilizan](/blog/que-son-las-derivadas-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,ii=`---
+`,yo=`---
+title: "Examen resuelto de Química: junio de 2023 · modelo 1"
+seoTitle: "Examen resuelto de Química: junio de 2023"
+date: "2026-11-05"
+updated: "2026-11-05"
+description: "Una práctica completa de Química resuelta paso a paso, con explicaciones claras de los conceptos y cálculos necesarios."
+tag: "Exámenes resueltos"
+category: "Química"
+relatedService: "/campus/"
+relatedPosts: "pau-quimica-estructura-atomica-configuracion,pau-quimica-acido-base-ph-calculos,pau-quimica-enlace-geometria-molecular"
+image: "/assets/latex/periodic-trends.svg"
+---
+
+# Examen resuelto de Química: junio de 2023 · modelo 1
+
+Esta resolución está pensada para que no tengas que limitarte a comprobar un resultado. Ve apartado por apartado: primero intenta decidir qué idea química manda y después contrasta el procedimiento completo.
+
+## A1
+
+### El ejercicio
+
+Escribe la fórmula o el nombre de estos compuestos, según corresponda: 
+- **a)** Óxido de manganeso (VII); 
+- **b)** Dicromato de potasio; 
+- **c)** Hexa-1,4-dieno; 
+- **d)** Cd(OH)2; 
+- **e)** H3AsO4; 
+- **f)** CH2OHCHOHCH2CH2OH.
+
+### Resolución explicada
+
+**a)** Óxido de manganeso(VII): $\\mathrm{Mn_2O_7}$.
+
+**b)** Dicromato de potasio: $\\mathrm{K_2Cr_2O_7}$.
+
+**c)** Hexa-1,4-dieno: $\\mathrm{CH_2{=}CH{-}CH_2{-}CH{=}CH{-}CH_3}$.
+
+**d)** $\\mathrm{Cd(OH)_2}$: hidróxido de cadmio.
+
+**e)** $\\mathrm{H_3AsO_4}$: ácido arsénico.
+
+**f)** $\\mathrm{HOCH_2{-}CHOH{-}CH_2{-}CH_2OH}$: butano-1,2,4-triol.
+
+---
+
+## A2
+
+### El ejercicio
+
+Escribe la fórmula o el nombre de estos compuestos, según corresponda: 
+- **a)** Seleniuro de plata; 
+- **b)** Ácido clórico; 
+- **c)** 1,3,5,-trimetil-benceno; 
+- **d)** Li2O2; 
+- **e)** NaHSO3; 
+- **f)** CH3OCH2CH2CH3.
+
+### Resolución explicada
+
+**a)** Seleniuro de plata: $\\mathrm{Ag_2Se}$.
+
+**b)** Ácido clórico: $\\mathrm{HClO_3}$.
+
+**c)** 1,3,5-trimetilbenceno: $\\mathrm{C_6H_3(CH_3)_3}$.
+
+**d)** $\\mathrm{Li_2O_2}$: peróxido de litio.
+
+**e)** $\\mathrm{NaHSO_3}$: hidrogenosulfito de sodio.
+
+**f)** $\\mathrm{CH_3OCH_2CH_2CH_3}$: 1-metoxipropano (éter metil propílico).
+
+---
+
+## B1
+
+### El ejercicio
+
+**a)** Si un elemento forma su ion más estable **perdiendo un electrón**, ¿a qué grupo de la tabla periódica suele pertenecer? Explícalo.
+
+**b)** Propón un conjunto posible de los cuatro números cuánticos de un electrón en un orbital $5d$.
+
+**c)** Ordena de menor a mayor energía los orbitales asociados a estos números cuánticos: $(4,0,0,+\\tfrac12)$, $(3,2,1,-\\tfrac12)$, $(2,1,0,+\\tfrac12)$ y $(4,1,0,+\\tfrac12)$.
+
+### Resolución explicada
+
+**a)** Si el ion más estable aparece al perder un único electrón, el elemento suele pertenecer al **grupo 1 (metales alcalinos)**. Al ceder ese electrón de valencia queda con la configuración del gas noble anterior.
+
+**b)** En un orbital $5d$ se tiene $n=5$ y $l=2$. El número cuántico magnético puede ser $m_l=-2,-1,0,1,2$, mientras que el espín es $m_s=\\pm\\tfrac12$. Por ejemplo, un conjunto válido es $(5,2,0,+\\tfrac12)$.
+
+**c)** La regla de Madelung ordena los orbitales mediante la suma $n+l$; si hay empate, tiene menos energía el orbital con $n$ menor. Así, los orbitales propuestos quedan:
+
+$$2p\\;<\\;4s\\;<\\;3d\\;<\\;4p.$$
+
+Con sus números cuánticos: $(2,1,0,+\\tfrac12)$, $(4,0,0,+\\tfrac12)$, $(3,2,1,-\\tfrac12)$ y $(4,1,0,+\\tfrac12)$, respectivamente.
+
+**Explicación ampliada del procedimiento**
+
+Respecto a la energía de los orbitales de un átomo, la regla de Madelung dice que a mayor suma de los números cuánticos n + l, más energía tiene el orbital, y a igual suma de n + l, tendrá mayor energía el orbital más externo, con mayor valor de n.
+
+---
+
+## B2
+
+### El ejercicio
+
+Decide si cada afirmación es verdadera o falsa y explica tu respuesta: 
+- **a)** Los elementos del grupo 17 (Halógenos) tienen tendencia a ganar 2 o más electrones. 
+- **b)** El ión C2+ tiene la configuración electrónica de un gas noble. 
+- **c)** El radio del ión bromuro, Br–, es mayor que el del átomo de bromo, Br.
+
+### Resolución explicada
+
+
+**a) Falsa.** Los halógenos terminan su configuración de valencia en $ns^2np^5$: tienen siete electrones externos y, por lo general, solo necesitan ganar uno para alcanzar la configuración de gas noble.
+
+**b)** Aquí hay que leer con cuidado la notación. Si $\\mathrm{C^{2+}}$ representa **el catión de un elemento genérico que ha perdido los dos electrones $ns^2$**, se está pensando en un metal alcalinotérreo. En esa interpretación el enunciado es **verdadero**, porque el catión alcanza la configuración del gas noble anterior.
+
+Sin embargo, si la letra **C** se interpreta literalmente como el símbolo del carbono, el enunciado resulta **falso**: el carbono tiene $Z=6$ y $\\mathrm{C^{2+}}$ posee la configuración $1s^2\\,2s^2$, que no es la de un gas noble. La formulación del ejercicio es ambigua; conviene conservar esta distinción.
+
+**c) Verdadera.** Al formarse $\\mathrm{Br^-}$ no cambia el número de protones, pero aparece un electrón adicional. Aumentan las repulsiones electrónicas y la nube electrónica ocupa más espacio. Por ello,
+
+$$r(\\mathrm{Br^-})>r(\\mathrm{Br}).$$
+
+---
+
+## B3
+
+### El ejercicio
+
+Para las moléculas OF2 y BF3: 
+- **a)** Justifica la geometría molecular que presentan según la TRPECV. 
+- **b)** Indica la hibridación del átomo central de cada molécula. 
+- **c)** Explica con argumentos si son polares o apolares.
+
+### Resolución explicada
+
+**a)** Podemos aplicar la teoría de repulsión de pares de electrones de valencia (TRPECV): los pares electrónicos alrededor del átomo central intentan separarse lo máximo posible.
+
+- En $\\mathrm{OF_2}$, el oxígeno aporta **dos enlaces O–F y dos pares libres**. Tiene cuatro zonas de densidad electrónica, pero la geometría molecular resultante es **angular**.
+- En $\\mathrm{BF_3}$, el boro forma **tres enlaces B–F sin pares libres**. Las tres zonas de enlace quedan a unos $120^\\circ$ y la molécula es **trigonal plana**.
+
+**b)** El oxígeno de $\\mathrm{OF_2}$ se describe con hibridación **$sp^3$**, correspondiente a cuatro regiones electrónicas; el boro de $\\mathrm{BF_3}$ tiene hibridación **$sp^2$**, con tres regiones de enlace.
+
+**c)** Los enlaces O–F son polares y, como la molécula es angular, sus dipolos no se cancelan: **$\\mathrm{OF_2}$ es polar**. En cambio, los tres enlaces B–F se disponen de forma simétrica en el plano: su suma vectorial es cero y **$\\mathrm{BF_3}$ es apolar**.
+
+---
+
+## B4
+
+### El ejercicio
+
+La metilamina, CH3NH2, es una base débil utilizando la teoría de Brönsted-Lowry. 
+- **a)** Escribe su equilibrio de disociación acuosa. 
+- **b)** Escribe la expresión de su constante de basicidad Kb. 
+- **c)** ¿Podría una disolución acuosa de metilamina tener un valor de pH = 5? explica con argumentos la respuesta.
+
+### Resolución explicada
+
+**a)** La metilamina acepta un protón del agua, así que se comporta como base de Brønsted–Lowry:
+
+$$\\mathrm{CH_3NH_2(aq)+H_2O(l)\\rightleftharpoons CH_3NH_3^+(aq)+OH^-(aq)}.$$
+
+**b)** Como el agua líquida no aparece en la expresión de la constante:
+
+$$K_b=\\frac{[\\mathrm{CH_3NH_3^+}][\\mathrm{OH^-}]}{[\\mathrm{CH_3NH_2}]}.$$
+
+**c)** No tendría un $pH$ de 5 en una disolución acuosa de metilamina que actúa como base y sin añadir ácidos. Su equilibrio genera $\\mathrm{OH^-}$, de modo que el pH es superior a 7 a 25 °C. Para $pH=5$ obtendríamos $pOH=9$ y $[\\mathrm{OH^-}]=10^{-9}$ M, menor que la concentración correspondiente a una disolución neutra ($10^{-7}$ M). Eso no concuerda con el carácter básico del sistema.
+
+**Explicación ampliada del procedimiento**
+
+c) Por ser una base nunca podría tener un pH = 5, pues al ceder iones hidróxidos, OH–, a la disolución, su concentración es, [OH–] > 10–7, lo que hace que el pH de la misma sea superior a 7, es decir, el pH es básico.
+
+a la concentración de iones hidróxidos procedente de la disociación del agua, 10–7 M, lo que es imposible para la disolución de una base.
+
+---
+
+## B5
+
+### El ejercicio
+
+Dados los siguientes potenciales de reducción Eº(H+/H2) = 0 V; Eº(Cu2+/Cu) = 0,34 V; Eº(Pb2+/Pb) = – 0,13 V; Eº(Zn2+/Zn) = – 0,76 V. 
+- **a)** Explica, escribiendo las reacciones correspondientes que metal o metales producen desprendimiento de hidrógeno al ser tratado con un ácido. 
+- **b)** Escribe las reacciones que tienen lugar en el ánodo y cátodo de la pila formada por los electrodos Zn y Pb. 
+- **c)** Escribe la notación de la pila formada por los electrodos del apartado b) y halla su potencial.
+
+### Resolución explicada
+
+**a)** Los protones del ácido pueden oxidar espontáneamente a un metal cuando $E^\\circ_{\\rm pila}=E^\\circ(\\mathrm{H^+/H_2})-E^\\circ(\\mathrm{M^{2+}/M})>0$. Aquí reaccionan **Zn y Pb**, porque sus potenciales de reducción son negativos:
+
+$$\\mathrm{Zn+2H^+\\to Zn^{2+}+H_2},\\qquad E^\\circ=+0,76\\ \\mathrm V,$$
+$$\\mathrm{Pb+2H^+\\to Pb^{2+}+H_2},\\qquad E^\\circ=+0,13\\ \\mathrm V.$$
+
+Para Cu, $E^\\circ=0-0,34=-0,34$ V y la reacción no es espontánea.
+
+**b)** En la pila Zn/Pb se oxida el metal con menor potencial de reducción:
+
+$$\\text{Ánodo: }\\mathrm{Zn\\to Zn^{2+}+2e^-};\\qquad\\text{cátodo: }\\mathrm{Pb^{2+}+2e^-\\to Pb}.$$
+
+La reacción global es $\\mathrm{Zn+Pb^{2+}\\to Zn^{2+}+Pb}$.
+
+**c)** La notación de la pila es:
+
+$$\\mathrm{Zn(s)\\mid Zn^{2+}(aq)\\parallel Pb^{2+}(aq)\\mid Pb(s)}.$$
+
+$$E^\\circ_{\\rm pila}=-0,13-(-0,76)=\\boxed{0,63\\ \\mathrm V}.$$
+
+**Explicación ampliada del procedimiento**
+
+a) Para que un metal produzca desprendimiento de H2 al ser tratado por un ácido, el metal debe oxidarse y pasar a catión en la disolución, mientras que los H+ se reducen para formar H2. Para que esto ocurra, el potencial del proceso redox, Eºredox, debe ser positivo para que ∆G (energía de Gibbs) sea negativa y se produzca espontáneamente dicha reacción. Esto solo ocurre para metales con Eº inferior al Eº de reducción de los protones, es decir, para metales con Eº negativo, Pb y Zn.
+
+b) Como cátodo de la pila se elige el electrodo con mayor potencial de reducción el plomo, y como ánodo el electrodo con menor potencial de reducción, el cinc, para que de esta forma, el potencial de la pila sea positivo y el proceso se realice espontáneamente.
+
+---
+
+## B6
+
+### El ejercicio
+
+- **a)** Formula un hidrocarburo cíclico isómero de CH3CH=CHCH3. 
+- **b)** Escribe la estructura de dos hidrocarburos aromáticos isómeros de fórmula molecular C8H10. 
+- **c)** Escribe la fórmula de un alcohol isómero de CH3CHOHCH3.
+
+### Resolución explicada
+
+**a)** El but-2-eno ($\\mathrm{CH_3CH{=}CHCH_3}$) tiene fórmula $\\mathrm{C_4H_8}$. Un isómero **cíclico** es el **ciclobutano**, un anillo de cuatro grupos $\\mathrm{CH_2}$.
+
+**b)** Dos compuestos aromáticos de fórmula $\\mathrm{C_8H_{10}}$ pueden ser:
+
+- **Etilbenceno:** $\\mathrm{C_6H_5CH_2CH_3}$.
+- **1,2-dimetilbenceno (o-xileno):** $\\mathrm{C_6H_4(CH_3)_2}$ con los grupos metilo contiguos.
+
+**c)** Un alcohol isómero del propan-2-ol ($\\mathrm{CH_3CH(OH)CH_3}$) es el **propan-1-ol**, de fórmula $\\mathrm{CH_3CH_2CH_2OH}$. Los dos compuestos comparten la fórmula molecular $\\mathrm{C_3H_8O}$, pero cambia la posición del grupo hidroxilo.
+
+---
+
+## C1
+
+### El ejercicio
+
+Dado el siguiente equilibrio: 2 SO2 (g) + O2 (g) ⇌ 2 SO3 (g). se añaden 128 g de SO2 y 64 g de O2 en un recipiente cerrado de 2 L. Se calienta la mezcla y Al llegar al equilibrio a 830 ºC, ha reaccionado el 80 % del SO2 inicial. halla: 
+- **a)** La composición en moles de la mezcla en equilibrio y el valor de Kc. 
+- **b)** La presión total de la mezcla en el equilibrio y el valor de Kp. 
+
+**Datos:** Ar(S) = 32 u; Ar(O) = 16 u; R = 0,082 atm · L · mol–1 · K–1.
+
+### Resolución explicada
+
+**a)** Lo primero es pasar las masas a moles: $128/64=2$ mol de $\\mathrm{SO_2}$ y $64/32=2$ mol de $\\mathrm{O_2}$. Como se consume el 80 % del dióxido de azufre, reaccionan $1,6$ mol.
+
+Para el equilibrio $2\\,\\mathrm{SO_2}+\\mathrm{O_2}\\rightleftharpoons2\\,\\mathrm{SO_3}$, podemos organizar las cantidades así:
+
+| Sustancia | Al principio (mol) | En el equilibrio (mol) |
+|---|---:|---:|
+| $\\mathrm{SO_2}$ | 2 | $2-1,6=0,4$ |
+| $\\mathrm{O_2}$ | 2 | $2-0,8=1,2$ |
+| $\\mathrm{SO_3}$ | 0 | $1,6$ |
+
+Dividimos cada cantidad entre los 2 L del recipiente: $[\\mathrm{SO_2}]=0,2$ M, $[\\mathrm{O_2}]=0,6$ M y $[\\mathrm{SO_3}]=0,8$ M. Sustituyendo en la expresión de equilibrio:
+
+$$K_c=\\frac{[\\mathrm{SO_3}]^2}{[\\mathrm{SO_2}]^2[\\mathrm{O_2}]}=\\frac{0,8^2}{0,2^2\\cdot0,6}=26,67.$$
+
+**b)** Hay $0,4+1,2+1,6=3,2$ moles gaseosos. A $830\\,^\\circ\\mathrm C=1103$ K, la ley de los gases ideales da:
+
+$$P_\\mathrm{total}=\\frac{nRT}{V}=\\frac{3,2\\cdot0,082\\cdot1103}{2}\\approx144,7\\ \\mathrm{atm}.$$
+
+Como $\\Delta n=2-(2+1)=-1$, la relación entre las constantes es $K_p=K_c(RT)^{-1}$; así, $K_p\\approx26,67/(0,082\\cdot1103)=0,295$.
+
+**Resultado:** $n(\\mathrm{SO_2})=0,4$ mol, $n(\\mathrm{O_2})=1,2$ mol, $n(\\mathrm{SO_3})=1,6$ mol; $K_c=26,67$, $P_\\mathrm{total}\\approx144,7$ atm y $K_p\\approx0,29$.
+
+**Explicación ampliada del procedimiento**
+
+El 80 % de los moles de SO2 introducidos en el reactor son 1,6 moles, que han reaccionado y han dado lugar a SO3.
+
+Para relacionar ambas constantes de equilibrio usamos: Kp = Kc · (R · T)∆n, donde ∆n es la diferencia en La cantidad de moles gaseosos entre los productos de reacción y los reactivos en la ecuación de reacción.
+
+---
+
+## C2
+
+### El ejercicio
+
+A 25 ºC, la constante del producto de solubilidad del PbSO4 es Kps = 1,6 · 10–8. A partir de las correspondientes reacciones químicas, halla: 
+- **a)** La solubilidad de PbSO4 en agua a 25 ºC expresada en mg · L–1. 
+- **b)** La masa de PbSO4 que se podrá disolver como máximo en 2 L de una disolución acuosa de Na2SO4 0,01 M a 25 ºC. 
+
+**Datos:** Ar(S) = 32 u; Ar(Pb) = 207,2 u; Ar(O) = 16 u.
+
+### Resolución explicada
+
+
+**a)** Escribimos el equilibrio del sulfato de plomo:
+
+$$\\mathrm{PbSO_4(s)\\rightleftharpoons Pb^{2+}(aq)+SO_4^{2-}(aq)}.$$
+
+Si se disuelven $s$ mol/L, se forman $s$ mol/L de cada ion y, por tanto,
+
+$$K_{ps}=[\\mathrm{Pb^{2+}}][\\mathrm{SO_4^{2-}}]=s^2.$$
+
+$$s=\\sqrt{1,6\\cdot10^{-8}}=1,265\\cdot10^{-4}\\ \\mathrm{mol/L}.$$
+
+La masa molar es $M(\\mathrm{PbSO_4})=207,2+32+4\\cdot16=303,2$ g/mol. Convertimos a unidades de masa:
+
+$$s=1,265\\cdot10^{-4}\\cdot303,2=0,0384\\ \\mathrm{g/L}=38,4\\ \\mathrm{mg/L}.$$
+
+**b)** Al disolver sulfato de sodio se aporta el ion común $\\mathrm{SO_4^{2-}}$ con una concentración inicial de $0,01$ M. Ahora el equilibrio se expresa mediante:
+
+$$[\\mathrm{Pb^{2+}}]=s,\\qquad[\\mathrm{SO_4^{2-}}]=0,01+s.$$
+
+Debido a que $s$ es muy pequeño, podemos aproximar $0,01+s\\approx0,01$:
+
+$$1,6\\cdot10^{-8}=s(0,01+s)\\approx0,01s$$
+$$s=1,6\\cdot10^{-6}\\ \\mathrm{mol/L}.$$
+
+Multiplicar por la masa molar da $4,85\\cdot10^{-4}$ g **por litro**. Ese es el valor que figura al final del desarrollo del PDF, pero el enunciado pregunta por **2 L**, de modo que aún falta este último paso:
+
+$$m=1,6\\cdot10^{-6}\\cdot2\\cdot303,2=\\boxed{9,70\\cdot10^{-4}\\ \\mathrm g}.$$
+
+**Resultados:** $38,4$ mg/L en agua pura y $9,70\\cdot10^{-4}$ g en los 2 L de disolución con sulfato. La cifra $4,85\\cdot10^{-4}$ g del desarrollo corresponde a solo 1 L.
+
+---
+
+## C3
+
+### El ejercicio
+
+Una disolución acuosa de ácido hipocloroso HClO tiene un valor de pH = 5,5. A partir de la reacción que tiene lugar, halla: 
+- **a)** La concentración inicial del ácido hipocloroso. 
+- **b)** El pH de la disolución si se diluye a la mitad. 
+
+**Datos:** Ka (HClO) = 3,2 · 10–8.
+
+### Resolución explicada
+
+
+**a)** La concentración de oxonio se obtiene directamente del pH:
+
+$$[\\mathrm{H_3O^+}]=10^{-5,5}=3,16\\cdot10^{-6}\\ \\mathrm M.$$
+
+El equilibrio del ácido hipocloroso es
+
+$$\\mathrm{HClO+H_2O\\rightleftharpoons ClO^-+H_3O^+}.$$
+
+Si llamamos $C_0$ a la concentración inicial de ácido y $x$ a la cantidad que se disocia, la tabla de equilibrio queda:
+
+| Especie | Inicial (M) | En equilibrio (M) |
+|---|---:|---:|
+| $\\mathrm{HClO}$ | $C_0$ | $C_0-x$ |
+| $\\mathrm{ClO^-}$ | $0$ | $x$ |
+| $\\mathrm{H_3O^+}$ | $0$ | $x$ |
+
+Como $x=3,16\\cdot10^{-6}$ M, sustituimos en la constante de acidez:
+
+$$K_a=\\frac{x^2}{C_0-x}=3,2\\cdot10^{-8}.$$
+
+Aislando $C_0$:
+
+$$C_0=x+\\frac{x^2}{K_a}$$
+$$C_0=3,16\\cdot10^{-6}+\\frac{(3,16\\cdot10^{-6})^2}{3,2\\cdot10^{-8}}=\\boxed{3,15\\cdot10^{-4}\\ \\mathrm M}.$$
+
+**b)** Si la disolución se diluye hasta que su concentración sea la mitad, $C'_0=C_0/2=1,58\\cdot10^{-4}$ M. Volvemos a plantear el equilibrio:
+
+| Especie | Inicial (M) | En equilibrio (M) |
+|---|---:|---:|
+| $\\mathrm{HClO}$ | $1,58\\cdot10^{-4}$ | $1,58\\cdot10^{-4}-x$ |
+| $\\mathrm{ClO^-}$ | $0$ | $x$ |
+| $\\mathrm{H_3O^+}$ | $0$ | $x$ |
+
+$$3,2\\cdot10^{-8}=\\frac{x^2}{1,58\\cdot10^{-4}-x}.$$
+
+Como $x$ es pequeño comparado con la concentración del ácido, aproximamos el denominador:
+
+$$x\\approx\\sqrt{3,2\\cdot10^{-8}\\cdot1,58\\cdot10^{-4}}=2,25\\cdot10^{-6}\\ \\mathrm M.$$
+
+$$pH=-\\log(2,25\\cdot10^{-6})=\\boxed{5,65}.$$
+
+**Resultados:** concentración inicial $3,15\\cdot10^{-4}$ M; después de diluir, pH $5,65$.
+
+---
+
+## C4
+
+### El ejercicio
+
+Una celda electrolítica contiene $\\mathrm{CuCl_2}$ fundido. Hacemos pasar corriente durante **2 horas**: se deposita cobre en el cátodo y se desprende dicloro en el ánodo.
+
+**a)** Calcula la intensidad necesaria para obtener **15,9 g de cloro**.
+
+**b)** Halla el volumen de cloro desprendido a $25\\,^\\circ\\mathrm C$ y $1\\ \\mathrm{atm}$.
+
+**Datos:** $M(\\mathrm{Cu})=63,5$ g/mol; $M(\\mathrm{Cl_2})=71$ g/mol; $F=96\\,500$ C/mol; $R=0,082$ atm·L·mol⁻¹·K⁻¹.
+
+### Resolución explicada
+
+
+**a)** En el cloruro de cobre(II) fundido, el cobre se deposita en el cátodo y el cloro se libera en el ánodo:
+
+$$\\text{Cátodo: }\\mathrm{Cu^{2+}+2e^-\\to Cu}.$$
+$$\\text{Ánodo: }\\mathrm{2Cl^-\\to Cl_2+2e^-}.$$
+
+Aplicamos la ley de Faraday, donde $z=2$ electrones por mol y $t=2\\cdot3600=7200$ s:
+
+$$m=\\frac{MIt}{zF},\\qquad I=\\frac{mzF}{Mt}.$$
+
+**El dato de masa corresponde al cloro, así que debemos usar $M(\\mathrm{Cl_2})=71\\ \\mathrm{g/mol}$, no la masa molar del cobre.** Por tanto:
+
+$$I=\\frac{15,9\\cdot2\\cdot96500}{71\\cdot7200}=\\boxed{6,00\\ \\mathrm A}.$$
+
+**b)** Para el cloro formado se emplea la semirreacción del ánodo:
+
+$$m(\\mathrm{Cl_2})=\\frac{71\\cdot6,00\\cdot7200}{2\\cdot96500}\\approx15,9\\ \\mathrm g.$$
+
+Ahora pasamos esa masa a moles:
+
+$$n(\\mathrm{Cl_2})=\\frac{15,9}{71}\\approx0,224\\ \\mathrm{mol}$$
+$$V=\\frac{nRT}{P}=\\frac{0,224\\cdot0,082\\cdot298}{1}\\approx\\boxed{5,47\\ \\mathrm L}.$$
+
+Comprobación rápida: al usar la misma intensidad en ambos apartados, la masa de cloro que vuelve a salir de la ley de Faraday coincide con el dato inicial. Es una buena señal de que las unidades y la especie química se han usado bien.
+
+---
+`,ho=`---
+title: "Examen resuelto de Química: junio de 2023 · modelo 2"
+seoTitle: "Examen resuelto de Química: junio de 2023 · modelo 2"
+date: "2026-11-05"
+updated: "2026-11-05"
+description: "Examen completo de Química resuelto con un enfoque claro: identifica el concepto, plantea y comprueba el resultado."
+tag: "Exámenes resueltos"
+category: "Química"
+relatedService: "/campus/"
+relatedPosts: "pau-quimica-termoquimica-hess-entalpia,pau-quimica-cinetica-arrhenius-velocidad,pau-quimica-volumetrias-acido-base-redox"
+image: "/assets/latex/hess-cycle.svg"
+---
+
+# Examen resuelto de Química: junio de 2023 · modelo 2
+
+Tómalo como una sesión de práctica real. Antes de desplegar cada solución, intenta escribir al menos el primer paso: suele ser la mejor forma de entrenar cómo arrancar cuando el enunciado impone.
+
+## 1
+
+### El ejercicio
+
+A partir de los siguientes potenciales estándar de reducción: Eº(Zn2+/Zn) = –0,76 V; Eº(Cu2+/Cu) = +0,34 V; Eº(Ag+/Ag) = +0,80 V; Eº(Fe2+/Fe) = –0,44 V; Eº(H+/H2) = 0,0 V. 
+- **a)** Justifica qué metales (cinc, cobre, plata y hierro) se disolverán al añadirlos a una disolución de ácido clorhídrico. 
+- **b)** Ordena, justificando la respuesta, los iones de los metales anteriores (Zn2+, Cu2+, Ag+, Fe2+) de más a menos oxidantes. 
+- **c)** Si se construye una pila con un electrodo de hierro y otro electrodo de cinc, considerando cada electrodo como una lámina de dicho metal sumergida en una disolución de sus correspondientes iones, ¿cuál se comportará como ánodo y cuál como cátodo? explica con argumentos la respuesta.
+
+### Resolución explicada
+
+**a)** Una reacción de un metal con los protones de HCl será espontánea si el potencial de pila es positivo:
+
+$$E^\\circ_{\\mathrm{pila}}=E^\\circ(\\mathrm{H^+/H_2})-E^\\circ(\\mathrm{M^{n+}/M}).$$
+
+Para Zn: $0-(-0,76)=+0,76$ V; para Fe: $0-(-0,44)=+0,44$ V. Ambos metales se disuelven. En cambio, para Cu: $0-0,34=-0,34$ V; y para Ag: $0-0,80=-0,80$ V: **ni cobre ni plata se disuelven espontáneamente en HCl** en las condiciones propuestas.
+
+**b)** Cuanto mayor es el potencial estándar de reducción de un ion, mayor es su capacidad oxidante. Por eso:
+
+$$\\mathrm{Ag^+>Cu^{2+}>Fe^{2+}>Zn^{2+}}.$$
+
+**c)** En la pila de hierro y cinc, el **cinc es el ánodo** (se oxida) y el **hierro es el cátodo** (se reduce). El voltaje estándar vale:
+
+$$E^\\circ=-0,44-(-0,76)=+0,32\\ \\mathrm V.$$
+
+**Resultado:** HCl disuelve Zn y Fe; la pila Zn/Fe tiene $E^\\circ=0,32$ V.
+
+**Explicación ampliada del procedimiento**
+
+Para que la reacción sea espontánea, los metales que se disolverán serán aquellos que tengan un potencial estándar de reducción negativo.
+
+b) El ión más oxidante será aquel que mayor tendencia tenga a reducirse, por lo tanto, será aquel que tenga un mayor potencial de reducción.
+
+---
+
+## 2
+
+### El ejercicio
+
+El yodo molecular (diyodo) se puede obtener industrialmente por reacción de yodato de potasio con dióxido de azufre gas en presencia de agua, produciéndose además sulfato de potasio y ácido sulfúrico. 
+- **a)** Plantea y ajusta la ecuación iónica por el método del ión-electrón y escribe la ecuación molecular completa. Indica el agente oxidante y el reductor. 
+- **b)** Halla los litros de dióxido de azufre que habría que utilizar, medidos a 1 atmósfera de presión y 25 ºC, para obtener 1 kg de yodo. 
+
+**Datos:** Ar(I) = 127 u; R = 0,082 atm · L · mol–1 · K–1.
+
+### Resolución explicada
+
+**a)** Primero ajustamos el intercambio de electrones entre el yodato y el dióxido de azufre.
+
+Reducción:
+
+$$\\mathrm{2IO_3^-+12H^++10e^-\\longrightarrow I_2+6H_2O}.$$
+
+Oxidación:
+
+$$\\mathrm{SO_2+2H_2O\\longrightarrow SO_4^{2-}+4H^++2e^-}.$$
+
+Multiplicando la segunda por cinco y sumándolas, la reacción iónica ajustada es:
+
+$$\\mathrm{2IO_3^-+5SO_2+4H_2O\\longrightarrow I_2+5SO_4^{2-}+8H^+}.$$
+
+Con los compuestos moleculares queda:
+
+$$\\mathrm{2KIO_3+5SO_2+4H_2O\\longrightarrow I_2+K_2SO_4+4H_2SO_4}.$$
+
+El **oxidante** es el yodato ($\\mathrm{IO_3^-}$), porque se reduce; el **reductor** es el dióxido de azufre, porque se oxida.
+
+**b)** Para producir 1 kg de yodo molecular, cuya masa molar es $254\\ \\mathrm{g/mol}$, necesitamos:
+
+$$n(\\mathrm{I_2})=\\frac{1000}{254}=3,937\\ \\mathrm{mol}.$$
+
+La reacción requiere cinco moles de SO₂ por cada mol de I₂:
+
+$$n(\\mathrm{SO_2})=5\\cdot3,937=19,685\\ \\mathrm{mol}.$$
+
+A 1 atm y $25^\\circ\\mathrm C=298\\ \\mathrm K$:
+
+$$V=\\frac{nRT}{P}=\\frac{19,685\\cdot0,082\\cdot298}{1}\\approx481\\ \\mathrm L.$$
+
+**Resultado:** se necesitan aproximadamente **481 L de SO₂**.
+
+---
+
+## 3
+
+### El ejercicio
+
+A 25 ºC el producto de solubilidad del PbI2 es 7,1·10–9. 
+- **a)** Escribe el equilibrio de solubilidad del PbI2 y la expresión de su producto de solubilidad. 
+- **b)** Halla la solubilidad de la sal expresada en g/mL y las concentraciones molares de los iones yoduro y plomo en una disolución saturada. 
+- **c)** Si se mezclan 60 mL de una disolución 2·10–4 M de NaI con 40 mL de una disolución 3·10–3 M de Pb(NO3)2, considerando los volúmenes aditivos, ¿se formará precipitado? 
+
+**Datos:** Ar(Pb) = 207 u; Ar(I) = 127 u.
+
+### Resolución explicada
+
+**a)** El equilibrio de disolución es:
+
+$$\\mathrm{PbI_2(s)\\rightleftharpoons Pb^{2+}(aq)+2I^-(aq)}.$$
+
+Si $s$ es la solubilidad molar, entonces $[\\mathrm{Pb^{2+}}]=s$ y $[\\mathrm{I^-}]=2s$. Así:
+
+$$K_{ps}=[\\mathrm{Pb^{2+}}][\\mathrm{I^-}]^2=4s^3.$$
+
+**b)** Usando $K_{ps}=7,1\\cdot10^{-9}$:
+
+$$s=\\sqrt[3]{\\frac{7,1\\cdot10^{-9}}4}\\approx1,21\\cdot10^{-3}\\ \\mathrm{mol/L}.$$
+
+Como la masa molar de PbI₂ es $207+2\\cdot127=461\\ \\mathrm{g/mol}$:
+
+$$s=\\frac{1,21\\cdot10^{-3}\\cdot461}{1000}\\approx5,6\\cdot10^{-4}\\ \\mathrm{g/mL}.$$
+
+Por tanto, $[\\mathrm{Pb^{2+}}]\\approx1,21\\cdot10^{-3}\\ \\mathrm M$ y $[\\mathrm{I^-}]\\approx2,42\\cdot10^{-3}\\ \\mathrm M$.
+
+**c)** El volumen total de la mezcla es 100 mL. Antes de una posible precipitación:
+
+$$[\\mathrm{I^-}]=2\\cdot10^{-4}\\frac{60}{100}=1,2\\cdot10^{-4}\\ \\mathrm M,$$
+$$[\\mathrm{Pb^{2+}}]=3\\cdot10^{-3}\\frac{40}{100}=1,2\\cdot10^{-3}\\ \\mathrm M.$$
+
+Comparamos el producto iónico con $K_{ps}$:
+
+$$Q=(1,2\\cdot10^{-3})(1,2\\cdot10^{-4})^2=1,73\\cdot10^{-11}<7,1\\cdot10^{-9}.$$
+
+**Resultado:** no se forma precipitado, porque $Q<K_{ps}$.
+
+**Explicación ampliada del procedimiento**
+
+Luego, determinando el producto de solubilidad, si su valor es superior a 7,1·10–9, se produce precipitado, y si es menor no se producirá precipitado.
+
+---
+
+## 4
+
+### El ejercicio
+
+- **a)** Dibuja el ciclo de Born-Haber para la formación del KI (s). 
+- **b)** Halla la 1ª energía de ionización del K (g). 
+
+**Datos:** Entalpía estándar de formación del KI (s): ΔHf o = –328 kJ·mol–1. Entalpía de sublimación del K (s): ΔHsub (K) = 89 kJ·mol–1 Entalpía de sublimación del I2 (s): ΔHsub (I2) = 62 kJ·mol–1 Afinidad electrónica del I (g): AE = –307 kJ·mol–1 Entalpía de disociación del I2 (g): ΔHdisoc = 151 kJ·mol–1 Energía de red del KI (s): ΔHred = –633 kJ·mol–1
+
+### Resolución explicada
+
+**a)** El ciclo de Born–Haber para formar KI(s) desde K(s) e I₂(s) reúne estos pasos:
+
+1. Sublimación de K: $\\mathrm{K(s)\\to K(g)}$, $+89$ kJ/mol.
+2. Sublimación de medio mol de I₂: $\\tfrac12\\mathrm{I_2(s)\\to\\tfrac12 I_2(g)}$, $+31$ kJ/mol.
+3. Disociación de medio mol de I₂: $\\tfrac12\\mathrm{I_2(g)\\to I(g)}$, $+75,5$ kJ/mol.
+4. Ionización de K: $\\mathrm{K(g)\\to K^+(g)+e^-}$, energía desconocida $E_I$.
+5. Captura del electrón por I: $\\mathrm{I(g)+e^-\\to I^-(g)}$, $-307$ kJ/mol.
+6. Formación de la red cristalina: $\\mathrm{K^+(g)+I^-(g)\\to KI(s)}$, $-633$ kJ/mol.
+
+**b)** Por la ley de Hess, la suma de estos pasos tiene que coincidir con la entalpía de formación de KI:
+
+$$-328=89+31+75,5+E_I-307-633.$$
+
+Despejando:
+
+$$E_I=-328-89-31-75,5+307+633=416,5\\ \\mathrm{kJ/mol}.$$
+
+**Resultado:** la primera energía de ionización del potasio es **416,5 kJ/mol**.
+
+---
+
+## 5
+
+### El ejercicio
+
+**a)** Un elemento A está en el **grupo 16, período 4**. **i)** Escribe su configuración electrónica en el estado fundamental e indica el número atómico. **ii)** ¿Tenderá a formar cationes o aniones? Compara el radio del átomo y de su ion más habitual.
+
+**b)** Indica cuáles de estos conjuntos de números cuánticos $(n,l,m_l,m_s)$ son posibles y a qué orbital corresponden los válidos: **i)** $(3,3,-3,-\\tfrac12)$; **ii)** $(4,3,0,+\\tfrac12)$; **iii)** $(3,2,-2,+\\tfrac12)$; **iv)** $(2,0,-1,-\\tfrac12)$; **v)** $(0,0,0,+\\tfrac12)$.
+
+### Resolución explicada
+
+**a.i)** El elemento del grupo 16 y período 4 es el **selenio, Se**, con $Z=34$ y configuración electrónica:
+
+$$1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^6\\,3d^{10}\\,4s^2\\,4p^4.$$
+
+**a.ii)** Le faltan dos electrones para completar el nivel $4p$, por lo que puede formar el anión $\\mathrm{Se^{2-}}$. El anión tiene **mayor radio** que el átomo neutro: con igual carga nuclear, incorpora dos electrones adicionales y aumentan las repulsiones electrónicas.
+
+**b)** Para que los números cuánticos sean válidos, se exige $n\\ge1$, $0\\le l<n$, $-l\\le m_l\\le l$ y $m_s=\\pm\\tfrac12$.
+
+- **i)** $(3,3,-3,-\\tfrac12)$: imposible, porque $l$ no puede ser igual a $n$.
+- **ii)** $(4,3,0,+\\tfrac12)$: posible, orbital **4f**.
+- **iii)** $(3,2,-2,+\\tfrac12)$: posible, orbital **3d**.
+- **iv)** $(2,0,-1,-\\tfrac12)$: imposible; si $l=0$, entonces $m_l=0$.
+- **v)** $(0,0,0,+\\tfrac12)$: imposible; el número principal no puede ser cero.
+
+**Explicación ampliada del procedimiento**
+
+El número atómico del elemento es el número de protones del mismo, y al ser el átomo eléctricamente neutro, su número es el mismo que de electrones tiene, es decir, Z = 34.
+
+ii) Al faltarle 2 electrones para conseguir configuración electrónica estable de gas noble, el átomo de este elemento tiene tendencia a formar el anión A2–.
+
+Al contener el anión dos electrones más que el átomo neutro, el electrón más externo se encuentra sometido a un mayor apantallamiento que el del átomo neutro, y al ser la carga nuclear la misma, la fuerza atractiva sobre el electrón más externo es más intensa en el átomo neutro, por lo que experimenta una mayor contracción de su volumen, y por consiguiente un menor radio que el anión.
+
+---
+
+## 6
+
+### El ejercicio
+
+Tenemos una disolución 0,2 M de ácido nitroso (HNO2) y sabemos que dicho ácido está disociado en un 4,6%. 
+- **a)** Halla la constante de acidez (Ka) de dicho ácido y la constante de su base conjugada (Kb). 
+- **b)** Halla el pOH de la disolución de ácido nitroso. 
+- **c)** Se añaden a la disolución de ácido nitroso varios gramos de un ácido fuerte puro, de forma que al medir el pH ahora es 1,6. Considerando que el volumen no ha variado, ¿cuál será el nuevo grado de disociación de la disolución de ácido nitroso?
+
+### Resolución explicada
+
+**a)** El ácido nitroso es débil:
+
+$$\\mathrm{HNO_2+H_2O\\rightleftharpoons NO_2^-+H_3O^+}.$$
+
+Con una concentración inicial de $0,2$ M y un grado de disociación $\\alpha=0,046$, se forman $x=0,2\\cdot0,046=0,0092$ M de cada ion, y quedan $0,1908$ M de ácido sin disociar:
+
+$$K_a=\\frac{(0,0092)^2}{0,1908}\\approx4,44\\cdot10^{-4}.$$
+
+La constante de su base conjugada es:
+
+$$K_b=\\frac{K_w}{K_a}=\\frac{10^{-14}}{4,44\\cdot10^{-4}}\\approx2,25\\cdot10^{-11}.$$
+
+**b)** El pH es $-\\log(0,0092)\\approx2,04$ y el **pOH vale aproximadamente 11,96**.
+
+**c)** Al añadir un ácido fuerte, el pH total baja a 1,6; la concentración total de oxonio es $10^{-1,6}=0,0251$ M. La presencia de ese ion común frena la disociación del HNO₂. Si ahora se disocian $x$ moles por litro de ácido nitroso, con la aproximación $[\\mathrm{H_3O^+}]\\approx0,0251$ M:
+
+$$K_a\\approx\\frac{x(0,0251)}{0,2-x}\\quad\\Rightarrow\\quad x\\approx3,47\\cdot10^{-3}\\ \\mathrm M.$$
+
+Por tanto:
+
+$$\\alpha=\\frac{x}{0,2}\\cdot100\\approx1,74\\%.$$
+
+**Resultado:** $K_a\\approx4,44\\cdot10^{-4}$, $K_b\\approx2,25\\cdot10^{-11}$, pOH $\\approx11,96$ y nuevo grado de disociación $\\approx1,74\\%$.
+
+**Explicación ampliada del procedimiento**
+
+b) Se puede determinar primero la concentración de iones hidróxidos y de ella el pOH, o calcular el pH de la disolución y restarlo de 14 para obtener el pOH.
+
+---
+
+## 7
+
+### El ejercicio
+
+- **a)** Se disuelven 0,5 g de NaOH y 0,4 g de KOH en agua. ¿Cuántos mililitros de una disolución de HCl comercial al 36% en masa y una densidad de 1,18 g/mL se necesitarían para neutralizar la disolución de los hidróxidos? 
+- **b)** Si se desea preparar una disolución acuosa ácida, ¿cuál de las siguientes sales utilizaría?: KCl NaClO2 KNO3 NH4NO3 NaF justifica la respuesta e indica por qué descartaría el resto de las sales. 
+
+**Datos:** Ar(Na) = 23 u; Ar(K) = 39 u; Ar(O) = 16 u; Ar(H) = 1 u; Ar(Cl = 35,5 u. Ka (HClO2) = 1,1·10–2; Ka (NH4 +) = 5,6·10–10; Ka (HF) = 6,4·10–4;
+
+### Resolución explicada
+
+**a)** Neutralizar NaOH y KOH requiere un mol de HCl por cada mol de hidróxido:
+
+$$n(\\mathrm{NaOH})=\\frac{0,5}{40}=0,01250\\ \\mathrm{mol},\\qquad n(\\mathrm{KOH})=\\frac{0,4}{56}=0,00714\\ \\mathrm{mol}.$$
+
+En total hacen falta $0,01964$ moles de HCl. La concentración del ácido comercial se halla usando su densidad y su riqueza:
+
+$$M=\\frac{1,18\\cdot1000\\cdot0,36}{36,5}\\approx11,64\\ \\mathrm{mol/L}.$$
+
+El volumen requerido es:
+
+$$V=\\frac{0,01964}{11,64}=0,00169\\ \\mathrm L\\approx1,69\\ \\mathrm{mL}.$$
+
+**b)** La sal adecuada para preparar una disolución **ácida** es **NH₄NO₃**. El ion amonio procede de una base débil, por lo que se hidroliza:
+
+$$\\mathrm{NH_4^++H_2O\\rightleftharpoons NH_3+H_3O^+}.$$
+
+KCl y KNO₃ dan disoluciones aproximadamente neutras porque proceden de ácidos y bases fuertes; NaClO₂ y NaF contienen aniones que se comportan como bases débiles y dan carácter básico a la disolución.
+
+**Resultado:** hacen falta **1,69 mL de HCl comercial**; la sal elegida es **NH₄NO₃**.
+
+**Explicación ampliada del procedimiento**
+
+b) Solo puede prepararse una disolución ácida con la sal nitrato de amonio, NH4NO3, ya que el catión amonio, NH4+, ácido conjugado relativamente fuerte de la base muy débil NH3, sufre hidrólisis con producción de iones oxonios, H3O+, que es el que proporciona el carácter ácido a la disolución. La ecuación de hidrólisis es: NH4+ + H2O ⇄ NH3 + H3O+.
+
+---
+
+## 8
+
+### El ejercicio
+
+- **a)** El hierro en estado sólido puede obtenerse por reacción de óxido de hierro (III) sólido con monóxido de carbono gas. Además, en la reacción también se obtiene dióxido de carbono gaseoso. plantea y ajusta la ecuación de la reacción y halla la entalpía molar estándar de la misma. 
+- **b)** Al disolver yoduro de sodio en agua, la mezcla se enfría espontáneamente. Indica, justificando tu respuesta, cuáles serán los signos de la variación de entalpía, de la variación de entropía y de la variación de la energía libre de Gibbs. ¿Qué término será mayor ΔH o TΔS? 
+
+**Datos:** ΔHfo (kJ·mol–1): óxido de hierro (III) (s) = – 822,5; CO (g) = – 110,6; CO2 (g) = – 393,5.
+
+### Resolución explicada
+
+**a)** Primero ajustamos la obtención de hierro a partir del óxido:
+
+$$\\mathrm{Fe_2O_3(s)+3CO(g)\\longrightarrow2Fe(s)+3CO_2(g)}.$$
+
+Con las entalpías de formación dadas, aplicamos la ley de Hess:
+
+$$\\Delta H_r^\\circ=\\left[3\\Delta H_f^\\circ(\\mathrm{CO_2})\\right]-\\left[\\Delta H_f^\\circ(\\mathrm{Fe_2O_3})+3\\Delta H_f^\\circ(\\mathrm{CO})\\right].$$
+
+$$\\Delta H_r^\\circ=3(-393,5)-[-822,5+3(-110,6)]=-26,2\\ \\mathrm{kJ/mol}.$$
+
+**b)** Al disolverse yoduro de sodio, el agua se enfría, así que el proceso absorbe calor: **$\\Delta H>0$**. Como ocurre espontáneamente, **$\\Delta G<0$**. La separación y dispersión de los iones aumenta el desorden, de modo que **$\\Delta S>0$**.
+
+De $\\Delta G=\\Delta H-T\\Delta S<0$ deducimos que $T\\Delta S>\\Delta H$.
+
+**Resultado:** reacción del apartado a) exotérmica ($-26,2$ kJ/mol); disolución del apartado b) endotérmica, con $\\Delta S>0$ y $\\Delta G<0$.
+
+**Explicación ampliada del procedimiento**
+
+b) Si la disolución se enfría espontáneamente ello indica que la variación de energía libre de Gibbs es menor que cero, es decir, que ∆G < 0, y además el procedo es endotérmico, es decir, ∆H > 0.
+
+---
+
+## 9
+
+### El ejercicio
+
+El cloruro de nitrosilo, NOCl, se puede obtener por reacción del tetraóxido de dinitrógeno con dicloro en fase gas según el siguiente equilibrio: N2O4 (g) + Cl2 (g) ⇄ 2 NOCl (g) + O2 (g) ΔHº = 95,5 kJ Indica, justificando tu respuesta, 4 formas de aumentar el rendimiento de cloruro de nitrosilo en este proceso sin tener que añadir más cantidad de reactivos.
+
+### Resolución explicada
+
+Partimos de:
+
+$$\\mathrm{N_2O_4(g)+Cl_2(g)\\rightleftharpoons2NOCl(g)+O_2(g)},\\qquad\\Delta H^\\circ=+95,5\\ \\mathrm{kJ}.$$
+
+Podemos favorecer la obtención de NOCl de estas **cuatro maneras**, sin añadir más reactivos:
+
+1. **Retirar O₂** a medida que se forma. El sistema intentará reponerlo avanzando hacia los productos.
+2. **Retirar NOCl** de forma continua. Por el mismo motivo, el equilibrio se desplaza hacia la derecha y se produce más NOCl.
+3. **Aumentar la temperatura**. La reacción directa es endotérmica, así que el calor la favorece.
+4. **Aumentar el volumen del recipiente**, a temperatura constante. En los reactivos hay dos moles gaseosos y en los productos tres: al reducir la presión mediante expansión, se favorece el lado con más moles, es decir, la derecha.
+
+**Resultado:** retirar productos, aumentar la temperatura y favorecer la expansión del gas ayudan a formar más NOCl.
+
+**Explicación ampliada del procedimiento**
+
+1º-. Si del equilibrio se retira uno de los productos, por ejemplo, el O2, el equilibrio reacciona haciendo que reacciona más los reactivos para producir los productos de reacción, es decir, el equilibrio se desplaza hacia la derecha incrementando la producción del NOCl.
+
+2º.- Procediendo de igual manera con el NOCl, su retirada hace que el equilibrio, según el principio de Le Chatelier, se desplace en el sentido en el que se retira el producto, hacia la derecha, para recuperar el producto retirado, por lo que se incrementa la producción de NOCl.
+
+3º.- Aumentar la temperatura del equilibrio hace que este se desplace en el sentido en el que se absorbe calor, hacia el sentido endotérmico de la reacción, hacia la derecha.
+
+5º.- Disminución de la presión provoca el mismo efecto que el aumento de volumen: esta disminución, manteniendo la temperatura constante, hace que el equilibrio se desplace hacia donde hay un mayor número de moles gaseosos (3 a 2), hacia la derecha, favoreciendo la formación de NOCl.
+
+---
+
+## 10
+
+### El ejercicio
+
+El carbono reacciona con el dióxido de carbono a 1200 K para dar monóxido de carbono, estableciéndose el siguiente equilibrio: C (s) + CO2 (g) ⇄ 2 CO (g) En un matraz de 2 L se añaden 11 g de C y 20 g de CO2, y se calientan a 1200 K. Cuando el sistema llega al equilibrio, se analiza la mezcla y está que el número total de moles gaseosos presentes es de 0,7. 
+- **a)** Halla los gramos de CO que se han producido y los gramos de carbono que quedarán sin reaccionar. 
+- **b)** ¿Cuál es el valor del grado de disociación del carbono? 
+- **c)** Halla el valor de Kc y de Kp para este equilibrio. 
+
+**Datos:** Ar(C) = 12 u; Ar(O) = 16 u; R = 0,082 atm · L · mol–1 · K–1.
+
+### Resolución explicada
+
+**a)** La reacción es $\\mathrm{C(s)+CO_2(g)\\rightleftharpoons2CO(g)}$. Los moles iniciales son:
+
+$$n_0(\\mathrm C)=\\frac{11}{12}=0,9167,\\qquad n_0(\\mathrm{CO_2})=\\frac{20}{44}=0,4545.$$
+
+Si reaccionan $x$ moles de carbono y de CO₂, quedan $0,4545-x$ moles de CO₂ y aparecen $2x$ de CO. Los moles gaseosos totales en equilibrio son $0,4545+x=0,7$, luego:
+
+$$x=0,2455\\ \\mathrm{mol}.$$
+
+Por tanto:
+
+$$m(\\mathrm{CO})=2x\\cdot28\\approx13,75\\ \\mathrm g,$$
+$$m(\\mathrm{C\\ sin\\ reaccionar})=(0,9167-x)\\cdot12\\approx8,05\\ \\mathrm g.$$
+
+**b)** La fracción de carbono inicial que ha reaccionado es:
+
+$$\\alpha=\\frac{0,2455}{0,9167}\\cdot100\\approx26,8\\%.$$
+
+**c)** En los 2 L del matraz:
+
+$$[\\mathrm{CO_2}]=\\frac{0,4545-0,2455}{2}=0,1045\\ \\mathrm M,\\quad[\\mathrm{CO}]=\\frac{2\\cdot0,2455}{2}=0,2455\\ \\mathrm M.$$
+
+$$K_c=\\frac{[\\mathrm{CO}]^2}{[\\mathrm{CO_2}]}\\approx0,577.$$
+
+Con $\\Delta n=1$ y $T=1200$ K:
+
+$$K_p=K_cRT\\approx0,577\\cdot0,082\\cdot1200\\approx56,8.$$
+
+**Resultado:** $m(\\mathrm{CO})\\approx13,75$ g, $m(\\mathrm C)\\approx8,05$ g, $\\alpha\\approx26,8\\%$, $K_c\\approx0,577$ y $K_p\\approx56,8$.
+
+---
+`,qo=`---
+title: "Examen resuelto de Química: junio de 2023 · modelo 3"
+seoTitle: "Examen resuelto de Química: junio de 2023 · modelo 3"
+date: "2026-11-05"
+updated: "2026-11-05"
+description: "Práctica de Química completamente resuelta con explicaciones accesibles y comprobaciones para cada cálculo."
+tag: "Exámenes resueltos"
+category: "Química"
+relatedService: "/campus/"
+relatedPosts: "pau-quimica-estructura-atomica-configuracion,pau-quimica-enlace-geometria-molecular,pau-quimica-solubilidad-kps-precipitacion"
+image: "/assets/latex/molecular-geometry-vsepr.svg"
+---
+
+# Examen resuelto de Química: junio de 2023 · modelo 3
+
+Piensa en este contenido como un cuaderno de corrección: cada respuesta explica qué se hace, pero también por qué ese camino encaja con el problema. Pausa donde lo necesites y prueba a anticipar el siguiente paso.
+
+## Problema 1
+
+### El ejercicio
+
+- Un mordiente es una sustancia que sirve para fijar los colores en los tejidos. El acetato de calcio se utiliza como mordiente y se prepara al reaccionar ácido acético con hidróxido de calcio según la siguiente ecuación química no ajustada: 2 CH3-COOH(ac) + Ca(OH)2(ac) → Ca(CH3-COO)2(ac) + 2 H2O(l). 
+- **a)** ¿Cuánto volumen de disolución de Ca(OH)2 0,5 M se necesita para reaccionar completamente con 25 mL de una disolución de ácido acético de 58 % en masa y densidad 1,065 g · mL–1? 
+- **b)** Si tras mezclar las dos disoluciones del apartado anterior se obtienen 17,9 g de acetato de calcio, halla el rendimiento de la reacción, así como la masa de agua, en gramos, formada en la reacción. 
+
+**Datos:** Ar(H) = 1 u; Ar(C) = 12 u; Ar(O) = 16 u; Ar(Ca) = 40 u.
+
+### Resolución explicada
+
+**a)** La reacción ya está ajustada: $2\\,\\mathrm{CH_3COOH+Ca(OH)_2\\to Ca(CH_3COO)_2+2H_2O}$. Calculamos primero cuánta masa de ácido puro hay en los 25 mL de disolución: $25\\cdot1,065\\cdot0,58=15,44$ g. Su masa molar es 60 g/mol, así que:
+
+$$n(\\mathrm{CH_3COOH})=\\frac{15,44}{60}=0,257\\ \\mathrm{mol}.$$
+
+Necesitamos la mitad de moles de $\\mathrm{Ca(OH)_2}$, porque la proporción ácido/base es 2:1: $n=0,1285$ mol. Con una disolución de $0,5$ M:
+
+$$V=\\frac{0,1285}{0,5}=0,257\\ \\mathrm L=257\\ \\mathrm{mL}.$$
+
+**b)** Teóricamente se formarían $0,1285$ mol de acetato de calcio, cuya masa molar es 158 g/mol. Como se obtienen realmente 17,9 g, el rendimiento es:
+
+$$\\eta=\\frac{17,9}{0,1285\\cdot158}\\cdot100\\approx88\\%.$$
+
+Se generan dos moles de agua por cada mol de sal producida; por eso, la cantidad real de agua es $2\\cdot(17,9/158)\\approx0,227$ mol, equivalentes a aproximadamente **4,1 g**.
+
+**Resultado:** $257$ mL de base, rendimiento cercano al $88\\%$ y unos $4,1$ g de agua.
+
+---
+
+## Problema 2
+
+### El ejercicio
+
+- Para la reacción en equilibrio 2 NOCl(g) ⇄ 2 NO(g) + Cl2(g), KP tiene un valor de 0,0168 a 240 ºC. Dentro de un recipiente de 2 litros, mantenido a la temperatura de 240º C, se incorpora una cantidad indeterminada de NOCl. Cuando se establece el equilibrio, la presión parcial de NOCl es de 0,16 atm. 
+- **a)** Halla el valor de KC y las presiones parciales de los gases NO y Cl2 en el equilibrio. 
+- **b)** Halla la cantidad (en moles) de NOCl que se ha introducido inicialmente. 
+
+**Datos:** R = 0,082 atm · L · mol–1·K–1.
+
+### Resolución explicada
+
+**a)** Para $2\\,\\mathrm{NOCl(g)}\\rightleftharpoons2\\,\\mathrm{NO(g)}+\\mathrm{Cl_2(g)}$, la diferencia de moles gaseosos es $\\Delta n=3-2=1$. Convertimos la temperatura: $240+273=513$ K. La relación entre las constantes es:
+
+$$K_c=\\frac{K_p}{RT}=\\frac{0,0168}{0,082\\cdot513}\\approx4,00\\cdot10^{-4}.$$
+
+Sea $p$ la presión parcial del cloro. Se forma el doble de NO, así que $P(\\mathrm{NO})=2p$. Con $P(\\mathrm{NOCl})=0,16$ atm:
+
+$$0,0168=\\frac{(2p)^2p}{(0,16)^2}=\\frac{4p^3}{0,0256}.$$
+
+Despejando: $p=0,0476$ atm y, por tanto, $P(\\mathrm{NO})=0,0952$ atm.
+
+**b)** La ley de los gases nos da la cantidad de cada sustancia en el equilibrio:
+
+$$n(\\mathrm{NOCl})=\\frac{0,16\\cdot2}{0,082\\cdot513}\\approx0,00761\\ \\mathrm{mol},$$
+$$n(\\mathrm{Cl_2})=\\frac{0,0476\\cdot2}{0,082\\cdot513}\\approx0,00226\\ \\mathrm{mol}.$$
+
+Por cada mol de cloro generado se han consumido dos moles de NOCl. En consecuencia, la cantidad inicial era $0,00761+2\\cdot0,00226\\approx0,0121$ mol.
+
+**Resultado:** $K_c\\approx4\\cdot10^{-4}$, $P(\\mathrm{Cl_2})\\approx0,0476$ atm, $P(\\mathrm{NO})\\approx0,095$ atm y $n_0(\\mathrm{NOCl})\\approx0,0122$ mol.
+
+---
+
+## Problema 3
+
+### El ejercicio
+
+El ácido benzoico, C7H6O2, es un ácido monoprótico que se utiliza como conservante y se identifica con el código europeo E-210. En una industria alimentaria, se prepara una disolución de ácido benzoico de concentración 0,01 mol · L–1. 
+- **a)** En la disolución acuosa preparada, el ácido benzoico está ionizado en un 7,6 %. halla la constante de acidez, Ka, y el pH de la disolución. 
+- **b)** Para conservar aceitunas, la legislación fija un máximo de 0,5 g de ácido benzoico por kg de aceitunas. halla el volumen de la disolución de ácido benzoico 0,01 M preparada que hay que introducir en un bote que contiene 2 kg de aceitunas para ajustarse a este máximo legal. 
+
+**Datos:** Ar(H) = 1 u; Ar(C) = 12 u; Ar(O) = 16 u.
+
+### Resolución explicada
+
+**a)** El ácido benzoico es monoprótico: $\\mathrm{HA+H_2O\\rightleftharpoons A^-+H_3O^+}$. Su concentración inicial es $0,010$ M y se ioniza el $7,6\\%$, de modo que $\\alpha=0,076$.
+
+En el equilibrio, $[\\mathrm{H_3O^+}]=[\\mathrm{A^-}]=C\\alpha=0,00076$ M, mientras que el ácido sin ionizar tiene concentración $C(1-\\alpha)=0,00924$ M. Así:
+
+$$K_a=\\frac{0,00076^2}{0,00924}\\approx6,25\\cdot10^{-5}.$$
+
+$$pH=-\\log(0,00076)\\approx3,12.$$
+
+**b)** Se permiten $0,5$ g de ácido por kilogramo de aceitunas, es decir, **1 g** en un bote de 2 kg. La masa molar del ácido benzoico es 122 g/mol:
+
+$$n=\\frac{1}{122}\\approx0,0082\\ \\mathrm{mol},\\qquad V=\\frac{n}{C}=\\frac{0,0082}{0,010}=0,82\\ \\mathrm L.$$
+
+**Resultado:** $K_a\\approx6,25\\cdot10^{-5}$, $pH\\approx3,12$ y **820 mL** de disolución.
+
+---
+
+## Problema 4
+
+### El ejercicio
+
+El dióxido de cloro, ClO2 es un desinfectante y decolorante que puede obtenerse haciendo reaccionar clorato de sodio, NaClO3, con peróxido de hidrógeno, H2O2, en medio ácido, según la siguiente ecuación química no ajustada: NaClO3(ac) + H2O2(ac) + H2SO4(ac) → ClO2(g) + O2(g) + H2O(l) + Na2SO4(ac) 
+- **a)** Escribe la semirreacción de oxidación y la de reducción, así como la ecuación química global ajustada tanto en su forma iónica como molecular. 
+- **b)** Halla el volumen de ClO2 obtenido (medido a 20º C y 790 mmHg), cuando se mezcla la disolución A (250 mL de una disolución 0,08 M de H2O2 en exceso de H2SO4) con la disolución B (200 mL de una disolución 0,15 M de NaClO3 en exceso de H2SO4). 
+
+**Datos:** 1 atm = 760 mmHg. R = 0,082 atm · L · K–1 · mol–1.
+
+### Resolución explicada
+
+**a)** Identificamos las transformaciones del clorato y del peróxido de hidrógeno en medio ácido:
+
+$$\\begin{aligned}\\text{Oxidación: }&\\mathrm{H_2O_2\\to O_2+2H^++2e^-}\\\\\\text{Reducción: }&\\mathrm{ClO_3^-+2H^++e^-\\to ClO_2+H_2O}.\\end{aligned}$$
+
+Multiplicamos la reducción por 2 y sumamos. La ecuación iónica es:
+
+$$\\mathrm{2ClO_3^-+H_2O_2+2H^+\\to2ClO_2+O_2+2H_2O}.$$
+
+Al incorporar los iones espectadores, queda la molecular:
+
+$$\\mathrm{2NaClO_3+H_2O_2+H_2SO_4\\to2ClO_2+O_2+2H_2O+Na_2SO_4}.$$
+
+**b)** Las cantidades iniciales son $n(\\mathrm{H_2O_2})=0,250\\cdot0,08=0,020$ mol y $n(\\mathrm{NaClO_3})=0,200\\cdot0,15=0,030$ mol. Para consumir los $0,030$ mol de clorato hacen falta solo $0,015$ mol de peróxido. Por tanto, el **clorato de sodio es el reactivo limitante**, y se forman $0,030$ mol de $\\mathrm{ClO_2}$.
+
+A $20\\,^\\circ\\mathrm C=293$ K y $P=790/760$ atm:
+
+$$V=\\frac{nRT}{P}=\\frac{0,030\\cdot0,082\\cdot293}{790/760}\\approx0,693\\ \\mathrm L.$$
+
+**Resultado:** se obtienen unos **690 mL de dióxido de cloro**.
+
+**Explicación ampliada del procedimiento**
+
+Los coeficientes de la ecuación nos dicen que 2 moles de clorato de sodio reaccionan con un mol de H2O2 y producen dos moles de ClO2, En consecuencia, el reactivo limitante es el H2O2.
+
+---
+
+## Cuestión 1
+
+### El ejercicio
+
+- Trabaja con los elementos A, B, C y D, cuyos números atómicos son 12, 15, 17 y 19, respectivamente. Contesta estas preguntas: 
+- **a)** Escribe la configuración electrónica de cada uno de los elementos propuestos e indica en qué grupo y periodo de la tabla periódica está cada uno. 
+- **b)** Ordena justificadamente los elementos por orden creciente de su primera energía de ionización. 
+- **c)** Elige dos elementos entre los cuales se formaría un compuesto iónico y obtén su fórmula molecular. justifica la respuesta. 
+- **d)** Deduce la fórmula molecular del compuesto que se formaría entre los elementos B y C aplicando la regla del octeto y discuta el tipo de enlace que se establece entre dichos átomos.
+
+### Resolución explicada
+
+**a)** Identificamos los elementos por sus números atómicos:
+
+- **A: Mg, $Z=12$**. Configuración $1s^2\\,2s^2\\,2p^6\\,3s^2$; grupo 2 y período 3.
+- **B: P, $Z=15$**. Configuración $1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^3$; grupo 15 y período 3.
+- **C: Cl, $Z=17$**. Configuración $1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^5$; grupo 17 y período 3.
+- **D: K, $Z=19$**. Configuración $1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^6\\,4s^1$; grupo 1 y período 4.
+
+**b)** La primera energía de ionización crece, en general, de izquierda a derecha en un período y disminuye al descender en un grupo. Por tanto:
+
+$$\\mathrm{K<Mg<P<Cl},\\quad\\text{o con las letras del ejercicio: }D<A<B<C.$$
+
+**c)** Elegimos potasio y cloro. El K cede un electrón y forma $\\mathrm{K^+}$, mientras que Cl lo gana y forma $\\mathrm{Cl^-}$. La atracción entre ambos iones crea el compuesto iónico **KCl** (equivalente a DC).
+
+**d)** El fósforo (B) posee cinco electrones de valencia y puede compartir tres para completar el octeto. El cloro (C) necesita compartir uno. Se forma **PCl₃** (BC₃), con tres enlaces **covalentes** P–Cl.
+
+**Explicación ampliada del procedimiento**
+
+El período en el que se encuentran lo indica el número cuántico principal n, mientras que el grupo lo determina el número de electrones en el orbital s, s + 10 o s +10 + nº electrones p. Luego, los elementos A, B y C se encuentran en el período 3 y el D en el cuarto.
+
+b) Energía de ionización es la energía que hay que comunicar a un átomo neutro, gaseoso y en su estado electrónico fundamental, para arrancarle un electrón y convertirlo en ión monopositivo en el mismo estado gaseoso y fundamental. En los períodos esta propiedad aumenta al avanzar en él debido a que el electrón más externos, por situarse en el mismo nivel energético y aumentar la carga nuclear del átomo, es más fuertemente atraído por el núcleo y se necesita aplicar más cantidad de energía para arrancarlo; mientras que en los grupos disminuye al bajar en ellos debido a que el electrón más externos, al ir situándose en niveles energéticos cada vez más alejado del núcleo, es más débilmente atraído por él y se necesita aplicar menos cantidad de energía para arrancarlo.
+
+c) D es un elemento alcalino y C un halógeno. El elemento D pierde un electrón, convirtiéndose en el catión D+, para adquirir la configuración electrónica del gas noble anterior, y el C lo gana y se convierte en el anión C– para alcanzar la configuración electrónica del gas noble siguiente. Estos iones se unen por la fuerza atractiva de naturaleza electrostática que aparece entre ellos y que se conoce como enlace iónico. La fórmula del compuesto que se forma es DC.
+
+d) El elemento B es un no metal con covalencia 3, los tres electrones de su orbital 3p, mientras que el elemento C es también un no metal con covalencia 1, necesitando el elemento B unirse a tres elementos C para conseguir alcanzar cada uno de ellos la configuración electrónica del gas noble siguiente a ellos en la tabla periódica. La fórmula del compuesto que se forma es BC3, y la unión se produce mediante tres enlaces covalentes.
+
+---
+
+## Cuestión 2
+
+### El ejercicio
+
+Considera las especies químicas F2CO, HCN y NBr3. Contesta estas preguntas: 
+- **a)** Dibuja la estructura electrónica de Lewis de cada una de las moléculas. 
+- **b)** Deduce la disposición geométrica de los pares electrónicos que rodean al átomo central de cada molécula e indica el tipo de hibridación de los orbitales de dicho átomo. 
+- **c)** Indica la geometría de las moléculas HCN y NBr3. 
+- **d)** Discute si las moléculas de HCN y NBr3 son polares o apolares. 
+
+**Datos:** Números atómicos, Z: H = 1; C = 6; N = 7; O = 8; F = 9; Br = 35. Electronegatividad: H = 2,1; C = 2,5, N = 3,0; Br = 2,8.
+
+### Resolución explicada
+
+**a)** Representamos las estructuras de Lewis indicando sus enlaces y pares libres:
+
+- **F₂CO (fluoruro de carbonilo):** $\\mathrm{F{-}C(=O){-}F}$. El oxígeno posee dos pares libres y cada F, tres.
+- **HCN (cianuro de hidrógeno):** $\\mathrm{H{-}C{\\equiv}N{:}}$. El nitrógeno conserva un par libre.
+- **NBr₃ (tribromuro de nitrógeno):** N central unido por tres enlaces sencillos a Br y con **un par libre**; cada Br conserva tres pares libres.
+
+**b)** En F₂CO, el carbono central tiene tres regiones de densidad electrónica y adopta **geometría electrónica trigonal plana, hibridación sp²**. En HCN, el carbono tiene dos regiones y adopta **geometría lineal, sp**. En NBr₃, el nitrógeno presenta cuatro regiones (tres enlaces y un par libre), **distribución electrónica tetraédrica y sp³**.
+
+**c)** La geometría **molecular** de HCN es **lineal**; la de NBr₃ es **piramidal trigonal**.
+
+**d)** HCN es **polar** porque su distribución de enlaces no es simétrica entre H y N. NBr₃ también es **polar**: su forma piramidal impide que los dipolos de los enlaces se cancelen por completo.
+
+**Explicación ampliada del procedimiento**
+
+El átomo de C en la molécula F2CO utiliza orbitales híbridos sp2 en sus uniones con los átomos de F; y en la molécula HCN emplea orbitales híbridos para unirse al hidrógeno y N, al que también se une con dos electrones de sus orbitales 2p.
+
+En la molécula HCN el átomo de carbono utiliza dos orbitales híbridos para unirse a los átomos de H e N, al que también se une con dos electrones de sus orbitales 2p formando dos enlaces π.
+
+c) La teoría de RPECV dice que los pares de electrones compartidos y libres, se orientan en el espacio alejándose entre sí lo suficiente, para conseguir que las repulsiones electrostáticas entre ellos sean mínimas. De la orientación adquirida depende la geometría de la molécula.
+
+Sólo la molécula NBr3 posee un par de electrones libres sobre el átomo central, por lo que su geometría corresponde a la tetraédrica distorsionada, es decir, adopta una geometría piramidal trigonal.
+
+Las otras moléculas sin pares de electrones libres sobre el átomo central, presentan geometría plana triangular para la F2CO y lineal la HCN.
+
+---
+
+## Cuestión 3
+
+### El ejercicio
+
+Para el equilibrio heterogéneo: NH4HS(s) ⇄ NH3(g) + H2S(g) (ΔH = 103 kJ), deduce si las siguientes afirmaciones son verdaderas o falsas. 
+- **a)** Si se incorpora inicialmente en el reactor NH4HS, el equilibrio no se alcanza si la cantidad de reactivo introducida no supera un valor mínimo. 
+- **b)** Con las tres especies en equilibrio, la adición de más NH4HS aumenta la producción de NH3 y H2S. 
+- **c)** Con las tres especies en equilibrio, al aumentar la temperatura del reactor, la masa de NH4HS aumenta. 
+- **d)** Con las tres especies en equilibrio, si se reduce el volumen a la mitad, aumenta la cantidad de H2S formada.
+
+### Resolución explicada
+
+El equilibrio es:
+
+$$\\mathrm{NH_4HS(s)\\rightleftharpoons NH_3(g)+H_2S(g)},\\qquad\\Delta H=+103\\ \\mathrm{kJ}.$$
+
+**a) Verdadera, en un reactor cerrado de volumen fijo.** Como los gases aparecen en proporción 1:1, el sistema necesita producir una cantidad determinada para alcanzar $K_p=P_{\\mathrm{NH_3}}P_{\\mathrm{H_2S}}$. Si inicialmente hay tan poco sólido que se consume por completo antes de llegar a esas presiones, **no se establece ese equilibrio heterogéneo con las tres especies presentes**. La cantidad mínima depende del volumen, la temperatura y $K_p$.
+
+**b) Falsa.** Una vez hay sólido presente, añadir más $\\mathrm{NH_4HS}$ no cambia la expresión de la constante, que solo depende de las presiones de los gases. **No aumenta por ello la cantidad de productos de equilibrio.**
+
+**c) Falsa.** La descomposición hacia los gases es endotérmica; al aumentar la temperatura, se favorece el sentido directo y **disminuye la masa de sólido**.
+
+**d) Falsa.** Al reducir el volumen aumenta la presión. El equilibrio se desplaza hacia el lado con menos moles gaseosos, el **sólido**, y disminuye la cantidad de H₂S gaseoso.
+
+**Explicación ampliada del procedimiento**
+
+a) Falsa. El equilibrio se consigue siempre sea cual sea la cantidad de reactivo que se introduzca en el reactor, pues el equilibrio no depende de la cantidad de reactivo empleada.
+
+b) Verdadera. La adición de más reactivo incrementa su concentración y, por ello, se incrementa la reacción de descomposición aumentando la producción de los productos de reacción NH3 y H2S.
+
+c) Falsa. Por ser la reacción endotérmica, un incremento de la temperatura hace que el equilibrio se desplace en el sentido en el que se absorbe calor, hacia la derecha, decreciendo la masa de reactivo.
+
+d) Falsa. Al disminuir el volumen del reactor, el sistema reacciona desplazando el equilibrio en el sentido en el que aparece un menor número de moles, menos cantidad de materia, hacia la izquierda, por lo que disminuye la cantidad de H2S.
+
+---
+
+## Cuestión 4
+
+### El ejercicio
+
+Decide si cada afirmación es verdadera o falsa y explica tu respuesta: 
+- **a)** La mezcla de 100 mL de una disolución 0,5 M de Ba(OH)2 con 150 mL de una disolución 0,75 M de HCl tiene pH básico. 
+- **b)** La mezcla de 40 mL de HCl 2 M con 30 mL de una disolución 2 M de NH3 resulta en una disolución básica. 
+- **c)** Al añadir NH4Cl sólido a una disolución 0,5 M de NH3, el pH disminuye. 
+- **d)** Una disolución 1 M de NH4Cl tiene un pH ácido. 
+
+**Datos:** Kb(NH3)= 1,8 · 10–5; Kw = 10–14.
+
+### Resolución explicada
+
+**a) Falsa.** Los moles de base son $0,100\\cdot0,5=0,050$ mol de Ba(OH)₂, que equivalen a $0,100$ mol de $\\mathrm{OH^-}$. Los moles de HCl son $0,150\\cdot0,75=0,1125$ mol. Sobran $0,0125$ mol de ácido: el pH final es **ácido**, no básico.
+
+$$\\mathrm{Ba(OH)_2+2HCl\\longrightarrow BaCl_2+2H_2O}.$$
+
+**b) Falsa.** Los moles de HCl son $0,040\\cdot2=0,080$ mol y los de NH₃ son $0,030\\cdot2=0,060$ mol. Reaccionan en proporción 1:1:
+
+$$\\mathrm{HCl+NH_3\\longrightarrow NH_4Cl}.$$
+
+Quedan $0,020$ mol de HCl sin neutralizar, así que el medio es **ácido**.
+
+**c) Verdadera.** Al añadir NH₄Cl a NH₃ incorporamos $\\mathrm{NH_4^+}$, el ácido conjugado. Por efecto del ion común, el equilibrio $\\mathrm{NH_3+H_2O\\rightleftharpoons NH_4^++OH^-}$ se desplaza a la izquierda, **disminuye $[\\mathrm{OH^-}]$ y baja el pH**.
+
+**d) Verdadera.** El ion amonio se comporta como un ácido débil:
+
+$$\\mathrm{NH_4^++H_2O\\rightleftharpoons NH_3+H_3O^+}.$$
+
+Por ello una disolución de NH₄Cl tiene **pH menor que 7**.
+
+**Explicación ampliada del procedimiento**
+
+c) Verdadera. La disolución de NH3 es básica, y al añadirle el NH4Cl, el NH4+, ácido conjugado relativamente fuerte de la base débil NH3, se hidroliza mientras que el anión cloruro es una base conjugada muy débil del ácido muy fuerte HCl y no sufre hidrólisis. La hidrólisis del catión es: NH4+ + H2O ⇆ NH3 + H3O+, y el catión oxonio es el que proporciona a la disolución un pH ácido, lo que indica que el pH inicial de la disolución se hace menor.
+
+---
+
+## Cuestión 5
+
+### El ejercicio
+
+Considera la reacción química: A(g) + 2 B(g) → C(g). Se ha observado que, al duplicar la concentración de A, la velocidad de la reacción se cuadruplica mientras que, al disminuir la concentración de B a la mitad, la velocidad disminuye en esa misma proporción. Contesta estas preguntas: 
+- **a)** Obtén la ley de velocidad de la reacción. 
+- **b)** Dentro de un recipiente de 5 L de volumen mantenido a temperatura constante se añadieron 1 mol de A y 2 moles de B. La velocidad inicial de la reacción resultó ser 4,72 · 10–3 M · s–1. halla la constante de velocidad (con unidades). 
+- **c)** En las condiciones del apartado b), halla la velocidad de desaparición de B y la velocidad de aparición de C. 
+- **d)** Si una vez iniciada la reacción el reactor se comprime, discuta si ello producirá un aumento o una disminución en la velocidad de la reacción.
+
+### Resolución explicada
+
+**a)** Partimos de una ley de velocidad general $v=k[A]^m[B]^n$. Al duplicar A, la velocidad se cuadruplica: $2^m=4$, por lo que $m=2$. Al reducir B a la mitad, la velocidad también cae a la mitad: $(1/2)^n=1/2$, por lo que $n=1$.
+
+$$\\boxed{v=k[A]^2[B]}.$$
+
+**b)** En un recipiente de 5 L, las concentraciones iniciales son $[A]_0=1/5=0,20$ M y $[B]_0=2/5=0,40$ M. De $v_0=4,72\\cdot10^{-3}$ M/s:
+
+$$k=\\frac{4,72\\cdot10^{-3}}{(0,20)^2(0,40)}=0,295\\ \\mathrm{L^2\\,mol^{-2}s^{-1}}.$$
+
+**c)** Para la ecuación ajustada $\\mathrm{A+2B\\to C}$, la velocidad de reacción cumple:
+
+$$v=-\\frac{d[A]}{dt}=-\\frac12\\frac{d[B]}{dt}=\\frac{d[C]}{dt}.$$
+
+Por tanto, la velocidad de desaparición de B vale $2v=9,44\\cdot10^{-3}$ M/s y la de formación de C es $v=4,72\\cdot10^{-3}$ M/s.
+
+**d)** Al comprimir el reactor, aumenta la concentración de los gases. Como la ley depende de $[A]^2[B]$, **la velocidad aumenta**.
+
+**Explicación ampliada del procedimiento**
+
+d) La velocidad de reacción es directamente proporcional al producto de las concentraciones, por lo que si se comprime el reactor, disminuye el volumen y eso incrementa la concentración de los reactivos, lo que provoca un aumento de la velocidad de reacción.
+
+---
+
+## Cuestión 6
+
+### El ejercicio
+
+- **a)** Completa las siguientes reacciones químicas, nombra todas las moléculas orgánicas que intervienen, e indica qué tipo de reacción tiene lugar en cada caso: a1) CH3-CH=CH-CH3 + Br2 → a2) CH3-CH2-COOH + CH3-CH2-CH2OH 
+- **b)** Nombra o formula según corresponda: b1) dicromato de potasio; b2) fosfato de calcio; b3) Fe2O3; b4) Ca(HCO3)2.
+
+### Resolución explicada
+
+**a1)** El **but-2-eno** añade bromo al doble enlace y forma **2,3-dibromobutano**:
+
+$$\\mathrm{CH_3CH{=}CHCH_3+Br_2\\longrightarrow CH_3CHBrCHBrCH_3}.$$
+
+Es una reacción de **adición**.
+
+**a2)** El **ácido propanoico** reacciona con **propan-1-ol** y forma **propanoato de propilo** y agua:
+
+$$\\mathrm{CH_3CH_2COOH+HOCH_2CH_2CH_3\\rightleftharpoons CH_3CH_2COOCH_2CH_2CH_3+H_2O}.$$
+
+Es una **esterificación**.
+
+**b1)** Dicromato de potasio: $\\mathrm{K_2Cr_2O_7}$.
+
+**b2)** Fosfato de calcio: $\\mathrm{Ca_3(PO_4)_2}$.
+
+**b3)** $\\mathrm{Fe_2O_3}$: óxido de hierro(III).
+
+**b4)** $\\mathrm{Ca(HCO_3)_2}$: hidrogenocarbonato de calcio.
+
+---
+`,Eo=`---
+title: "Examen resuelto de Química: junio de 2023 · modelo 4"
+seoTitle: "Examen resuelto de Química: junio de 2023 · modelo 4"
+date: "2026-11-05"
+updated: "2026-11-05"
+description: "Ejercicios completos de Química explicados paso a paso, desde el planteamiento hasta la comprobación del resultado."
+tag: "Exámenes resueltos"
+category: "Química"
+relatedService: "/campus/"
+relatedPosts: "pau-quimica-acido-base-ph-calculos,pau-quimica-pilas-electroquimica-redox,pau-quimica-laboratorio-rendimiento-pureza-errores"
+image: "/assets/latex/titration-curve.svg"
+---
+
+# Examen resuelto de Química: junio de 2023 · modelo 4
+
+Este modelo sirve para practicar con la presión de un examen, pero sin quedarte a solas con una respuesta corta. Verás el razonamiento de cada apartado y las pistas que permiten revisar si el resultado tiene sentido.
+
+## A.1
+
+### El ejercicio
+
+Los iones X2+ e Y– presentan las siguientes configuraciones electrónicas: X2+ (1s2 2s2 2p6 3s2 3p6 ) e Y– (1s2 2s2 2p6 3s2 3p6 ). Contesta estas preguntas. 
+- **a)** Justifica el número atómico de los elementos X e Y, e indica su posición (periodo y grupo) en el sistema periódico. 
+- **b)** Explica con argumentos qué elemento, X o Y, tiene mayor radio atómico. 
+- **c)** Indica qué tipo de enlace presenta a temperatura ambiente cada una de las sustancias X e Y por separado. 
+- **d)** Justifica la estequiometría y el tipo de enlace del compuesto que forma el elemento X con el elemento Y.
+
+### Resolución explicada
+
+**a)** Los dos iones tienen 18 electrones, como el argón. El catión $\\mathrm{X^{2+}}$ ha perdido dos, así que el átomo neutro tiene $Z=18+2=20$: es **calcio, Ca**, grupo 2 y período 4. El anión $\\mathrm{Y^-}$ ha ganado uno, por lo que el átomo neutro tiene $Z=18-1=17$: es **cloro, Cl**, grupo 17 y período 3.
+
+**b)** El calcio tiene electrones en la cuarta capa y el cloro solo hasta la tercera; por eso el **radio del Ca es mayor** que el del Cl.
+
+**c)** El calcio, como metal, presenta **enlace metálico** en su estructura sólida. El cloro elemental forma moléculas $\\mathrm{Cl_2}$ con un **enlace covalente** Cl–Cl.
+
+**d)** Un átomo de Ca pierde dos electrones y cada Cl gana uno. Se necesitan dos cloros por cada calcio para neutralizar las cargas:
+
+$$\\mathrm{Ca^{2+}+2Cl^-\\longrightarrow CaCl_2}.$$
+
+El producto es **cloruro de calcio**, con enlace **iónico**. En términos de las letras del ejercicio, su fórmula es $\\mathrm{XY_2}$.
+
+**Explicación ampliada del procedimiento**
+
+a) El catión se forma tras la perdida de dos electrones, por ello, el elemento X tiene una cantidad de protones igual al número de electrones del catión mas dos unidades, es decir, 20. En este sentido, su configuración acaba en 4s2, encontrándose en el periodo 4, grupo 2 (alcalinotérreos) El anión se forma tras la ganancia de un electrón, por ello, el elemento Y tiene una cantidad de protones igual al número de electrones del anión menos una unidad, es decir, 17. En este sentido, su configuración termina en 3p5, situándose en el periodo 3, grupo 17 (halógenos).
+
+b) El radio atómico es una propiedad periódica que disminuye al avanzar en un período, (crece la carga nuclear y el electrón diferenciador se sitúa en el mismo nivel energético), creciendo la fuerza atractiva núcleo-electrón y con ella la disminución del volumen y, por ello el radio de los átomos.
+
+Por tanto, vemos que el elemento X es el de mayor radio atómico, por tener electrones en niveles energéticos más alejados del núcleo que el Y.
+
+c) El elemento X, un alcalinotérreo es un metal, por lo que tiene enlace metálico, mientras que el elemento Y, un halógeno es un no metal por lo que tiene enlace covalente.
+
+---
+
+## A.2
+
+### El ejercicio
+
+A, B, C, D y E son compuestos orgánicos que reaccionan según los siguientes procesos: i) A + HBr → 2−bromopropano; ii) B + C → propanoato de etilo + agua; iii) D + oxidante → propanona; iv) E + H2SO4 (concentrado) → but−2−eno. 
+- **a)** Escribe las fórmulas semidesarrolladas de los productos orgánicos de cada una de las cuatro reacciones del enunciado. 
+- **b)** Identifica, con sus fórmulas semidesarrolladas y su nombre, los compuestos A, B, C, D y E. 
+- **c)** Indica de qué tipo es cada reacción del enunciado. 
+- **d)** Di si en alguna de estas reacciones se puede obtener más de un producto. Si es así, escribe sus fórmulas semidesarrolladas y nombra dichos compuestos
+
+### Resolución explicada
+
+**a)** Los cuatro productos orgánicos pedidos son: **i)** 2-bromopropano, $\\mathrm{CH_3CHBrCH_3}$; **ii)** propanoato de etilo, $\\mathrm{CH_3CH_2COOCH_2CH_3}$; **iii)** propanona, $\\mathrm{CH_3COCH_3}$; **iv)** but-2-eno, $\\mathrm{CH_3CH{=}CHCH_3}$.
+
+**b)** Identificamos los reactivos:
+
+- **A = propeno**, $\\mathrm{CH_2{=}CHCH_3}$, al que se añade HBr.
+- **B = ácido propanoico**, $\\mathrm{CH_3CH_2COOH}$, y **C = etanol**, $\\mathrm{CH_3CH_2OH}$; pueden intercambiarse las letras.
+- **D = propan-2-ol**, $\\mathrm{CH_3CH(OH)CH_3}$; al oxidarse da propanona.
+- **E = butan-2-ol**, $\\mathrm{CH_3CH(OH)CH_2CH_3}$; pierde agua y forma but-2-eno.
+
+**c)** La reacción **i)** es una *adición* al doble enlace; la **ii)** una *esterificación*; la **iii)** una *oxidación* de alcohol secundario; y la **iv)** una *eliminación o deshidratación*.
+
+**d)** En **i)** también puede producirse **1-bromopropano**, $\\mathrm{CH_3CH_2CH_2Br}$, aunque la orientación de Markovnikov favorece el 2-bromopropano. En **iv)** puede obtenerse **but-1-eno**, $\\mathrm{CH_2{=}CHCH_2CH_3}$, además del but-2-eno mayoritario.
+
+---
+
+## A.3
+
+### El ejercicio
+
+En un laboratorio se tiene un matraz A, que contiene 15 mL de una disolución acuosa de ácido clorhídrico 0,050 M, y otro matraz B, que contiene 15 mL de una disolución acuosa de ácido acético 0,050 M. 
+- **a)** Halla el pH de cada disolución por separado. 
+- **b)** Halla la cantidad de agua que se debe añadir a la disolución más ácida para que el pH de las dos disoluciones sea el mismo. Supón volúmenes aditivos. 
+
+**Datos:** Ka (ácido acético) = 1,8·10−5.
+
+### Resolución explicada
+
+**a)** Para el ácido clorhídrico, que es fuerte, tomamos $[\\mathrm{H_3O^+}]=0,050$ M. Por eso:
+
+$$pH(\\mathrm{HCl})=-\\log(0,050)=1,30.$$
+
+El ácido acético es débil y sigue el equilibrio $\\mathrm{CH_3COOH+H_2O\\rightleftharpoons CH_3COO^-+H_3O^+}$. Si se ionizan $x$ mol/L:
+
+$$1,8\\cdot10^{-5}=\\frac{x^2}{0,050-x}\\approx\\frac{x^2}{0,050}.$$
+
+De ahí sale $x\\approx9,5\\cdot10^{-4}$ M, así que $pH(\\mathrm{CH_3COOH})\\approx3,02$.
+
+**b)** Hay que diluir el HCl, que es el de menor pH, hasta que $[\\mathrm{H_3O^+}]$ sea $9,5\\cdot10^{-4}$ M. Los moles iniciales se conservan:
+
+$$n=0,050\\cdot0,015=7,5\\cdot10^{-4}\\ \\mathrm{mol}.$$
+
+$$V_f=\\frac{n}{C_f}=\\frac{7,5\\cdot10^{-4}}{9,5\\cdot10^{-4}}\\approx0,789\\ \\mathrm L.$$
+
+Como empezamos con 15 mL, añadimos $789-15\\approx774$ mL de agua.
+
+**Resultado:** pH de HCl, $1,30$; pH del ácido acético, $3,02$; agua para diluir el HCl, **774 mL**.
+
+---
+
+## A.4
+
+### El ejercicio
+
+El pH de una disolución saturada de Ca(OH)2 en agua pura, a una cierta temperatura, es 9,36. 
+- **a)** Escribe el equilibrio de solubilidad ajustado, detallando el estado de todas las especies. 
+- **b)** Halla la solubilidad molar del hidróxido de calcio y su producto de solubilidad. 
+- **c)** Si sobre la disolución saturada de Ca(OH)2 en agua pura se adiciona nitrato de calcio, explica con argumentos el efecto que produce sobre el equilibrio, la solubilidad y la cantidad de Ca(OH)2.
+
+### Resolución explicada
+
+**a)** Escribimos la disolución del sólido:
+
+$$\\mathrm{Ca(OH)_2(s)\\rightleftharpoons Ca^{2+}(aq)+2OH^-(aq)}.$$
+
+**b)** Con el pH dado, $pOH=14-9,36=4,64$, y $[\\mathrm{OH^-}]=10^{-4,64}=2,29\\cdot10^{-5}$ M. Si la solubilidad molar es $s$, entonces $[\\mathrm{OH^-}]=2s$ y $[\\mathrm{Ca^{2+}}]=s$:
+
+$$s=\\frac{2,29\\cdot10^{-5}}2=1,15\\cdot10^{-5}\\ \\mathrm M.$$
+
+El producto de solubilidad es:
+
+$$K_{ps}=[\\mathrm{Ca^{2+}}][\\mathrm{OH^-}]^2=4s^3\\approx6,1\\cdot10^{-15}.$$
+
+**c)** El nitrato de calcio añade $\\mathrm{Ca^{2+}}$, que es un ion común. Según Le Châtelier, el equilibrio se desplaza a la izquierda para consumir parte del calcio añadido. Así **disminuye la solubilidad** y **aumenta la cantidad de sólido sin disolver**.
+
+**Explicación ampliada del procedimiento**
+
+c) La adición de nitrato de calcio produce un aumento del la concentración de iones calcio, y este aumento del ión común hace que el equilibrio se desplace hacia la izquierda para reducir la concentración de calcio, lo que provoca una disminución de la solubilidad del hidróxido y un aumento de la cantidad de Ca(OH)2 sin disolver.
+
+---
+
+## A.5
+
+### El ejercicio
+
+Para depositar totalmente el cobre en una célula electrolítica que contiene 800 mL de una disolución acuosa de sulfato de cobre (II), se hace pasar una corriente de 1,50 A durante 3 horas. 
+- **a)** Escribe la reacción que tiene lugar en el cátodo. 
+- **b)** Halla los gramos de cobre depositados. 
+- **c)** Una vez depositado todo el cobre, halla el pH de la disolución, sabiendo que la reacción que tiene lugar es: 2 Cu2+ (ac) + 2 H2O (l) → 2 Cu (s) + O2 (g) + 4 H+. Supón que al finalizar la electrólisis el volumen de la disolución se ha mantenido constante y que en el H2SO4 se disocian completamente los dos protones. 
+
+**Datos:** F = 96.485 C · mol–1; Ar(Cu) = 63,5
+
+### Resolución explicada
+
+**a)** En el cátodo los iones cobre ganan electrones:
+
+$$\\mathrm{Cu^{2+}(aq)+2e^-\\to Cu(s)}.$$
+
+**b)** La corriente circula durante $3\\cdot3600=10\\,800$ s. Como hacen falta dos electrones por átomo de cobre, la ley de Faraday nos da:
+
+$$m=\\frac{MIt}{2F}=\\frac{63,5\\cdot1,50\\cdot10800}{2\\cdot96485}\\approx5,33\\ \\mathrm g.$$
+
+**c)** Los $5,33$ g depositados equivalen a $n(\\mathrm{Cu})=5,33/63,5\\approx0,084$ mol. La ecuación global indicada produce dos moles de protones por cada mol de cobre:
+
+$$n(\\mathrm{H^+})=2\\cdot0,084=0,168\\ \\mathrm{mol}.$$
+
+En $0,800$ L, $[\\mathrm{H^+}]=0,168/0,800=0,210$ M, y de ahí:
+
+$$pH=-\\log(0,210)\\approx0,68.$$
+
+**Resultado:** $5,33$ g de cobre y **pH final 0,68**.
+
+---
+
+## B.1
+
+### El ejercicio
+
+Considera las sustancias Cl2, HBr, Fe y KI. 
+- **a)** Indica el tipo de enlace que presenta cada una de ellas. 
+- **b)** Justifica si conducen la corriente eléctrica a temperatura ambiente. 
+- **c)** Escribe las estructuras de Lewis de aquellas que sean covalentes. 
+- **d)** Justifica si cada una de ellas es soluble en agua o no.
+
+### Resolución explicada
+
+**a)** **Cl₂** y **HBr** son sustancias moleculares de enlace **covalente**; **Fe** presenta **enlace metálico**; y **KI** forma una red de **iones K⁺ e I⁻**.
+
+**b)** A temperatura ambiente, el **hierro conduce la electricidad** por la movilidad de sus electrones. El KI sólido no conduce porque los iones no pueden desplazarse, aunque sí lo hace fundido o disuelto. Las sustancias moleculares Cl₂ y HBr no conducen como sustancias puras; el **HBr disuelto en agua sí conduce** al ionizarse.
+
+**c)** La estructura de Lewis del cloro molecular es $\\mathrm{Cl{-}Cl}$, con **tres pares libres** en cada Cl. En HBr es $\\mathrm{H{-}Br}$, con **tres pares libres** en Br.
+
+**d)** El **KI es soluble** en agua porque los iones quedan hidratados; el **HBr es muy soluble** y se ioniza. El **Fe no se disuelve** como sustancia simple en agua y el **Cl₂ tiene solubilidad limitada** y puede reaccionar parcialmente con el agua.
+
+**Explicación ampliada del procedimiento**
+
+El KI es un compuesto iónico en el que los iones, con cargas eléctricas de distinto signo y gran diferencia de electronegatividad, se unen por un enlace iónico.
+
+b) Los covalentes no conducen la corriente eléctrica. El hierro es un metal que si conduce la corriente eléctrica, pues sus electrones se encuentran ocupando bandas llenas solapadas con bandas vacías que permite la circulación de los electrones por el metal. El yoduro de potasio no conduce la corriente eléctrica a temperatura ambiente puesto que es iónico y, a temperatura ambiente es sólido, por lo que sus iones no tienen movimientos si no que están en posiciones fijas.
+
+---
+
+## B.2
+
+### El ejercicio
+
+Considera los pares de compuestos siguientes: (i) etanoato de etilo y ácido butanoico; (ii) pent−1−eno y ciclopentano; (iii) but−1−eno y but−2−ino. 
+- **a)** Escribe las fórmulas semidesarrolladas de los seis compuestos. 
+- **b)** Explica con argumentos si alguno de los pares corresponde a dos compuestos isómeros. En caso afirmativo, indica de qué tipo de isómeros se trata. 
+- **c)** Indica si cada uno de los compuestos del par (ii) reaccionará con agua en medio ácido. En caso afirmativo, formula y nombra el producto mayoritario de la reacción.
+
+### Resolución explicada
+
+**a)** Escribimos las fórmulas semidesarrolladas:
+
+- **i)** Etanoato de etilo: $\\mathrm{CH_3COOCH_2CH_3}$. Ácido butanoico: $\\mathrm{CH_3CH_2CH_2COOH}$.
+- **ii)** Pent-1-eno: $\\mathrm{CH_2{=}CHCH_2CH_2CH_3}$. Ciclopentano: anillo de cinco unidades $\\mathrm{CH_2}$.
+- **iii)** But-1-eno: $\\mathrm{CH_2{=}CHCH_2CH_3}$. But-2-ino: $\\mathrm{CH_3C{\\equiv}CCH_3}$.
+
+**b)** En el par **i)** ambos tienen fórmula $\\mathrm{C_4H_8O_2}$, pero son **isómeros de función** (éster y ácido carboxílico). En el par **ii)** ambos tienen fórmula $\\mathrm{C_5H_{10}}$: son **isómeros de constitución** (alqueno de cadena abierta y cicloalcano). El par **iii)** no es isómero, porque las fórmulas moleculares son diferentes: $\\mathrm{C_4H_8}$ y $\\mathrm{C_4H_6}$.
+
+**c)** El **pent-1-eno** puede añadir agua en medio ácido siguiendo la orientación de Markovnikov:
+
+$$\\mathrm{CH_2{=}CHCH_2CH_2CH_3+H_2O\\longrightarrow CH_3CH(OH)CH_2CH_2CH_3}.$$
+
+El producto mayoritario es **pentan-2-ol**. El **ciclopentano no experimenta** esa hidratación porque no tiene doble enlace.
+
+**Explicación ampliada del procedimiento**
+
+b) La pareja I son isómeros al tener la misma formula molecular pero distinta colocación de átomos en el espacio. Son isómeros de posición por diferir la posición del grupo funcional.
+
+La pareja II son isómeros de función por diferir en el grupo funcional, La pareja iii) no tienen la misma fórmula molecular y, por tanto, no son isómeros.
+
+---
+
+## B.3
+
+### El ejercicio
+
+Se preparan disoluciones acuosas de igual concentración de las especies: ácido nítrico, cloruro de potasio, cloruro de amonio e hidróxido de potasio. Responde justificando tu respuesta a las siguientes cuestiones: 
+- **a)** ¿Qué disolución tiene mayor pH? 
+- **b)** ¿Qué disolución no cambia su pH al diluirla con agua? 
+- **c)** ¿Qué reacción se producirá al mezclar volúmenes iguales de las disoluciones de cloruro de amonio y de hidróxido de potasio? 
+- **d)** El pH de la disolución formada en el apartado c), ¿será ácido, básico o neutro? 
+
+**Datos:** Ka (NH4 + ) = 6,7·10–10
+
+### Resolución explicada
+
+**a)** La disolución de **KOH** es la de **mayor pH**, porque es una base fuerte. El HNO₃ es fuertemente ácido, el NH₄Cl ligeramente ácido y el KCl prácticamente neutro.
+
+**b)** La disolución de **KCl** mantiene un pH cercano a 7 al diluirse, porque sus iones no sufren hidrólisis apreciable.
+
+**c)** Al mezclar volúmenes iguales de NH₄Cl y KOH a la misma concentración, los moles de $\\mathrm{NH_4^+}$ y $\\mathrm{OH^-}$ coinciden. Ocurre:
+
+$$\\mathrm{NH_4^++OH^-\\longrightarrow NH_3+H_2O}.$$
+
+La reacción molecular puede escribirse $\\mathrm{NH_4Cl+KOH\\to NH_3+KCl+H_2O}$.
+
+**d)** El producto que determina el pH es el **amoníaco**, una base débil:
+
+$$\\mathrm{NH_3+H_2O\\rightleftharpoons NH_4^++OH^-}.$$
+
+Por ello, la disolución resultante es **básica**.
+
+**Explicación ampliada del procedimiento**
+
+a) El pH es un factor que mide el grado de acidez de una disolución. Es función directa de la concentración de iones oxonios en disolución. Como el ácido nítrico es un ácido fuerte su disolución tendrá un pH muy ácido (muy bajo). El cloruro potásico es una sal de ácido y base fuerte por lo que el pH de su disolución es neutro, pH = 7. El cloruro de amonio es una sal de ácido fuerte y base débil, y al ser el catión amonio el ácido conjugado relativamente fuerte de la base muy débil amoniaco, sufre hidrólisis y proporciona a la disolución un pH ligeramente ácido, pH < 7. El hidróxido de potasio es una base fuerte por lo que tendrá un pH muy básico, pH > 7.
+
+---
+
+## B.4
+
+### El ejercicio
+
+En un matraz de 3,00 L se añaden 4,38 g de C2H6. Se calienta a 627 ºC y se da el proceso: C2H6 (g) ⇌ C2H4 (g) + H2 (g), cuya Kp vale 0,050. halla: 
+- **a)** La presión inicial de C2H6. 
+- **b)** El valor de Kc. 
+- **c)** Las concentraciones de todos los gases en el equilibrio. 
+
+**Datos:** R = 0,082 atm·L·mol−1 ·K−1; Ar(H) = 1,0 u; Ar(C) = 12,0 u.
+
+### Resolución explicada
+
+**a)** La masa molar del etano $\\mathrm{C_2H_6}$ es 30 g/mol. Inicialmente:
+
+$$n_0=\\frac{4,38}{30}=0,146\\ \\mathrm{mol},\\quad T=627+273=900\\ \\mathrm K.$$
+
+$$P_0=\\frac{n_0RT}{V}=\\frac{0,146\\cdot0,082\\cdot900}{3,00}\\approx3,59\\ \\mathrm{atm}.$$
+
+**b)** En $\\mathrm{C_2H_6(g)\\rightleftharpoons C_2H_4(g)+H_2(g)}$ hay $\\Delta n=1$. Así:
+
+$$K_c=\\frac{K_p}{RT}=\\frac{0,050}{0,082\\cdot900}\\approx6,78\\cdot10^{-4}.$$
+
+**c)** La concentración inicial del etano es $0,146/3=0,0487$ M. Si reaccionan $x$ mol/L, en el equilibrio habrá $0,0487-x$ de etano y $x$ de eteno e hidrógeno. Por tanto:
+
+$$6,78\\cdot10^{-4}=\\frac{x^2}{0,0487-x}.$$
+
+Resolviendo la ecuación cuadrática sale aproximadamente $x=0,00541$ M. La composición es:
+
+$$[\\mathrm{C_2H_6}]\\approx0,0433\\ \\mathrm M,\\qquad[\\mathrm{C_2H_4}]=[\\mathrm{H_2}]\\approx0,00541\\ \\mathrm M.$$
+
+Si se desprecia $x$ frente a $0,0487$ M, se obtiene $x\\approx0,00575$ M. Aquí la solución exacta es preferible, porque esa aproximación introduce un error apreciable.
+
+---
+
+## B.5
+
+### El ejercicio
+
+Una muestra que contiene sulfuro de calcio se trata con ácido nítrico concentrado hasta reacción completa, según: CaS + HNO3 → NO + SO2 + Ca(NO3)2 + H2O 
+- **a)** Plantea y ajusta por el método del ión electrón las reacciones de oxidación, reducción, iónica y molecular. 
+- **b)** Sabiendo que al tratar 35 g de la muestra con exceso de ácido se obtienen 20,3 L de NO, medidos a 30 ºC y 780 mm Hg, halla la riqueza en CaS de la muestra. 
+
+**Datos:** Ar(S) = 32 u; Ar(Ca) = 40 u. R = 0,082 atm·L·mol−1 ·K−1 .
+
+### Resolución explicada
+
+**a)** Los cambios de oxidación son azufre de $-2$ a $+4$ y nitrógeno de $+5$ a $+2$. Ajustamos en medio ácido:
+
+$$\\begin{aligned}\\text{Oxidación: }&\\mathrm{S^{2-}+2H_2O\\to SO_2+4H^++6e^-}\\\\\\text{Reducción: }&\\mathrm{NO_3^-+4H^++3e^-\\to NO+2H_2O}.\\end{aligned}$$
+
+Multiplicamos la segunda por dos y sumamos, cancelando electrones y especies comunes:
+
+$$\\mathrm{S^{2-}+2NO_3^-+4H^+\\to SO_2+2NO+2H_2O}.$$
+
+La ecuación molecular queda:
+
+$$\\mathrm{CaS+4HNO_3\\to Ca(NO_3)_2+SO_2+2NO+2H_2O}.$$
+
+**b)** A partir de la presión, $P=780/760$ atm, del volumen $20,3$ L y de $T=30+273=303$ K:
+
+$$n(\\mathrm{NO})=\\frac{PV}{RT}=\\frac{(780/760)\\cdot20,3}{0,082\\cdot303}\\approx0,84\\ \\mathrm{mol}.$$
+
+La ecuación ajustada indica que cada mol de CaS produce dos moles de NO. Por tanto, $n(\\mathrm{CaS})=0,42$ mol y $m(\\mathrm{CaS})=0,42\\cdot72=30,24$ g.
+
+$$\\%\\,\\mathrm{CaS}=\\frac{30,24}{35}\\cdot100\\approx86,4\\%.$$
+
+**Resultado:** la muestra tiene una riqueza de **86,4 % en CaS**.
+
+---
+`,_o=`---
+title: "Examen resuelto de Química: septiembre de 2018 · modelo 1"
+seoTitle: "Examen resuelto de Química: septiembre de 2018"
+date: "2026-11-05"
+updated: "2026-11-05"
+description: "Resolución completa y clara de ejercicios de Química para practicar reacciones, cálculos y razonamiento químico."
+tag: "Exámenes resueltos"
+category: "Química"
+relatedService: "/campus/"
+relatedPosts: "pau-quimica-estequiometria-gases-disoluciones,pau-quimica-pilas-electroquimica-redox,pau-quimica-termoquimica-hess-entalpia"
+image: "/assets/latex/stoichiometry-chain.svg"
+---
+
+# Examen resuelto de Química: septiembre de 2018 · modelo 1
+
+Una buena forma de practicar es resolver primero sin mirar y volver después a las líneas que no te salieron. Aquí encontrarás todos los pasos, con la justificación que necesitas para entenderlos y no solo copiarlos.
+
+## Opción A · Problema 1
+
+### El ejercicio
+
+- El ácido sulfúrico concentrado caliente disuelve el metal cinc formándose sulfato de cinc, dióxido de azufre y agua, según la siguiente reacción (no ajustada): Zn (s) + H2SO4 (conc) + (calor) → ZnSO4 (ac) + SO2 (g) + H2O (l) 
+- **a)** Escribe la semirreacción de oxidación y la de reducción, así como la reacción global ajustada tanto en su forma iónica como molecular. 
+- **b)** Halla el volumen, en mL, de ácido sulfúrico concentrado de densidad 1,98 g · mL−1 y 95% de riqueza (en peso) necesario para oxidar 20 gramos de cinc de pureza 98%. 
+
+**Datos:** - Masas atómicas relativas. H (1); O (16); S (32); Zn (65,4).
+
+### Resolución explicada
+
+**a)** El cinc pierde dos electrones al oxidarse, y el sulfato se reduce a dióxido de azufre en medio ácido. Las semirreacciones son:
+
+$$\\begin{aligned}\\text{Oxidación: }&\\mathrm{Zn\\to Zn^{2+}+2e^-}\\\\\\text{Reducción: }&\\mathrm{SO_4^{2-}+4H^++2e^-\\to SO_2+2H_2O}.\\end{aligned}$$
+
+Como ambas intercambian dos electrones, se suman directamente:
+
+$$\\mathrm{Zn+SO_4^{2-}+4H^+\\to Zn^{2+}+SO_2+2H_2O}.$$
+
+La ecuación molecular ajustada es $\\mathrm{Zn+2H_2SO_4\\to ZnSO_4+SO_2+2H_2O}$.
+
+**b)** Los 20 g de cinc al 98 % contienen $20\\cdot0,98=19,6$ g de metal puro, es decir, $19,6/65,4\\approx0,300$ mol. Hacen falta dos moles de ácido por cada mol de cinc: $n(\\mathrm{H_2SO_4})\\approx0,599$ mol.
+
+La molaridad del ácido comercial, al 95 % en masa y con densidad 1,98 g/mL, es:
+
+$$C=\\frac{1,98\\cdot1000\\cdot0,95}{98}\\approx19,19\\ \\mathrm M.$$
+
+De ahí:
+
+$$V=\\frac{0,599}{19,19}=0,0312\\ \\mathrm L\\approx31,2\\ \\mathrm{mL}.$$
+
+**Resultado:** volumen necesario cercano a **31 mL**. El desarrollo publicado redondea antes los moles de cinc a $0,29$ y obtiene unos 30 mL.
+
+---
+
+## Opción A · Cuestión 2
+
+### El ejercicio
+
+- El trióxido de azufre, SO3, se produce cuando reacciona el dióxido de azufre, SO2, con 1oxígeno, O2, de acuerdo al equilibrio: SO2 (g) + O2 (g) ⇌ SO3 (g); ΔH = − 98,1 kJ · mol−1. Una 2 vez la mezcla gaseosa alcance el equilibrio, justifica el efecto que tendrá: 
+- **a)** El aumento de la temperatura a presión constante sobre la cantidad de SO3 (g) presente tras restablecerse el equilibrio. 
+- **b)** La adición de SO2 (g) sobre la cantidad de O2 (g) presente tras alcanzarse nuevamente el equilibrio. 
+- **c)** La disminución del volumen del reactor (manteniendo constante su temperatura) sobre la cantidad de SO2 (g) presente tras alcanzarse nuevamente el equilibrio. 
+- **d)** La adición de pentóxido de vanadio (V2O5) como catalizador de la reacción sobre la concentración de reactivos.
+
+### Resolución explicada
+
+La reacción estudiada es $\\mathrm{SO_2(g)+\\tfrac12O_2(g)\\rightleftharpoons SO_3(g)}$, con $\\Delta H=-98,1$ kJ/mol, así que es **exotérmica**.
+
+**a)** Si aumenta la temperatura, se favorece el sentido endotérmico, que es el inverso. El equilibrio se desplaza a la izquierda y **disminuye la cantidad de $\\mathrm{SO_3}$**.
+
+**b)** Si añadimos $\\mathrm{SO_2}$, aumentamos la concentración de uno de los reactivos. El sistema responde formando más $\\mathrm{SO_3}$ y, por tanto, **consume parte del $\\mathrm{O_2}$ disponible**.
+
+**c)** Al reducir el volumen sin cambiar la temperatura, aumenta la presión. El sistema favorece el lado con menos moles de gas: a la derecha hay 1 mol por cada 1,5 moles de reactivos. Así **se consume $\\mathrm{SO_2}$** y aumenta el trióxido de azufre.
+
+**d)** Añadir $\\mathrm{V_2O_5}$ como catalizador acelera tanto la reacción directa como la inversa. **No cambia las concentraciones en el equilibrio ni el valor de la constante**; solo ayuda a alcanzarlo más deprisa.
+
+**Explicación ampliada del procedimiento**
+
+a) Al elevar la temperatura, suministrar calor, el equilibrio evoluciona en el sentido en el que se produce absorción de calor, es decir, hacia el sentido endotérmico de la reacción. Como el proceso desprende calor, un aumento de la temperatura provoca un desplazamiento del equilibrio en el sentido endotérmico, hacia la izquierda, disminuyendo la cantidad de SO3.
+
+b) La introducción de SO2 aumenta su concentración, y la reacción recupera el equilibrio haciendo reaccionar SO2 y O2 para formar SO3, es decir, el equilibrio se desplaza hacia la derecha, provocando un incremento la concentración de SO3.
+
+c) Una disminución del volumen de reactor provoca un aumento de la presión (ley de Boyle- Mariotte, P · V = P´· V´), y ante esta alteración, el sistema reacciona desplazando el equilibrio en el sentido en el que aparece un menor número de moles, menos cantidad de materia, hacia la derecha, aumentando la producción de SO3.
+
+c) La adición de un catalizador a la reacción sólo afecta a su cinética, permaneciendo el equilibrio y, por tanto, el valor de Kc inalterado.
+
+---
+
+## Opción A · Problema 2
+
+### El ejercicio
+
+- En una disolución acuosa de ácido acético 0,01 M, el ácido está disociado en un 4,2 %. halla: 
+- **a)** La constante de acidez, Ka, del ácido acético. 
+- **b)** ¿Cuánto volumen de agua destilada es necesario añadir a 10 mL de una disolución 0,01 M de ácido clorhídrico para que la disolución resultante tenga el mismo pH que la disolución de ácido acético del enunciado?
+
+### Resolución explicada
+
+
+**a)** El equilibrio del ácido acético es
+
+$$\\mathrm{CH_3COOH+H_2O\\rightleftharpoons CH_3COO^-+H_3O^+}.$$
+
+Con $C_0=0,010$ M y un grado de disociación del $4,2\\%$ ($\\alpha=0,042$):
+
+| Especie | Concentración en equilibrio (M) |
+|---|---:|
+| $\\mathrm{CH_3COOH}$ | $0,010(1-0,042)=0,00958$ |
+| $\\mathrm{CH_3COO^-}$ | $0,010\\cdot0,042=0,00042$ |
+| $\\mathrm{H_3O^+}$ | $0,00042$ |
+
+$$K_a=\\frac{(4,2\\cdot10^{-4})^2}{9,58\\cdot10^{-3}}=\\boxed{1,84\\cdot10^{-5}}.$$
+
+**b)** El ácido clorhídrico es fuerte, así que su concentración final debe ser $[\\mathrm{H_3O^+}]=4,2\\cdot10^{-4}$ M. Los moles iniciales en 10 mL de HCl 0,010 M son:
+
+$$n=0,010\\cdot0,010=1,0\\cdot10^{-4}\\ \\mathrm{mol}.$$
+
+Para hallar el volumen final:
+
+$$V_f=\\frac{n}{C}=\\frac{10^{-4}}{4,2\\cdot10^{-4}}=0,2381\\ \\mathrm L=238,1\\ \\mathrm{mL}.$$
+
+El agua que debemos añadir es la diferencia con los 10 mL que ya había:
+
+$$V_{\\mathrm{agua}}=238,1-10=\\boxed{228,1\\ \\mathrm{mL}}.$$
+
+La solución proporcionada menciona **288 mL** en su resultado final, pero el cálculo anterior, con los datos del enunciado, lleva a **228 mL**.
+
+---
+
+## Opción B · Problema 1
+
+### El ejercicio
+
+- El mercurio se puede obtener calentando a unos 600 º C, en presencia de aire, el cinabrio (mineral de sulfuro de mercurio (II), HgS, impuro). La reacción que tiene lugar es la siguiente: HgS (s) + O2 (g) → Hg (g) + SO2 (g). A partir de que el cinabrio utilizado contiene un 85 % en peso de HgS y que el rendimiento del proceso es del 80%, halla: 
+- **a)** Los kilogramos de mercurio que se obtendrán a partir del tratamiento de 100 kg de cinabrio. 
+- **b)** El volumen (en litros) de SO2 obtenido en la reacción anterior, medido a 600 º C y 1 atmósfera. 
+
+**Datos:** Masas atómicas relativas. O (16); S (32); Hg (200,6); R = 0,082 atm · L · mol−1 · K−1.
+
+### Resolución explicada
+
+**a)** El cinabrio contiene un 85 % de $\\mathrm{HgS}$. De 100 kg de mineral, solo 85 kg corresponden a sulfuro de mercurio(II). La oxidación global $\\mathrm{HgS+O_2\\to Hg+SO_2}$ muestra que la proporción HgS/Hg es 1:1.
+
+La masa molar de $\\mathrm{HgS}$ es $200,6+32=232,6$ g/mol. En los 85 kg hay $85000/232,6\\approx365,4$ mol de HgS. Con un rendimiento del 80 %:
+
+$$n(\\mathrm{Hg})=365,4\\cdot0,80\\approx292,3\\ \\mathrm{mol}.$$
+
+La masa de mercurio obtenida es $292,3\\cdot200,6\\approx58645$ g, es decir, **58,65 kg**.
+
+**b)** La proporción con el dióxido de azufre también es 1:1, de modo que salen $292,3$ mol de $\\mathrm{SO_2}$. A 600 °C ($873$ K) y 1 atm:
+
+$$V=\\frac{nRT}{P}=\\frac{292,3\\cdot0,082\\cdot873}{1}\\approx2,09\\cdot10^4\\ \\mathrm L.$$
+
+**Resultado:** **58,65 kg de Hg** y alrededor de **20 930 L de $\\mathrm{SO_2}$**.
+
+**Explicación ampliada del procedimiento**
+
+a) Los coeficientes de la ecuación nos dicen que un mole de HgS (puro), proporciona un mol de Hg siendo la reacción del 100 %.
+
+---
+
+## Opción B · Problema 2
+
+### El ejercicio
+
+- El metanol, CH3OH, se forma al reaccionar del CO (g) con H2(g) según el siguiente equilibrio: CO (g) + 2 H2 (g) ⇌ CH3OH (g). En un recipiente cerrado de 2 L de capacidad, en el que previamente se ha hecho el vacío, se añaden 1 mol de CO (g) y 2 moles de H2 (g). Al llegar al equilibrio a 210 º C la presión en el interior del recipiente resulta ser de 33,82 atmósferas. halla: 
+- **a)** La presión parcial de cada uno de los gases presentes en el equilibrio a 210 º C. 
+- **b)** El valor de cada una de las constantes de equilibrio Kp y Kc. 
+
+**Datos:** R = 0,082 atm · L · K−1 · mol−1.
+
+### Resolución explicada
+
+**a)** Llamamos $x$ a los moles de CO consumidos por la reacción $\\mathrm{CO(g)+2H_2(g)\\rightleftharpoons CH_3OH(g)}$. En el equilibrio habrá $(1-x)$ mol de CO, $(2-2x)$ de hidrógeno y $x$ de metanol; en total, $3-2x$ moles.
+
+A $210+273=483$ K, $P=33,82$ atm y $V=2$ L:
+
+$$3-2x=\\frac{PV}{RT}=\\frac{33,82\\cdot2}{0,082\\cdot483}\\approx1,708.$$
+
+Despejando $x\\approx0,646$. Quedan $0,354$ mol de CO, $0,708$ de $\\mathrm{H_2}$ y $0,646$ de metanol. Para hallar cada presión parcial usamos $P_i=n_iRT/V$:
+
+$$P(\\mathrm{CO})\\approx7,01\\ \\mathrm{atm},\\quad P(\\mathrm{H_2})\\approx14,02\\ \\mathrm{atm},\\quad P(\\mathrm{CH_3OH})\\approx12,79\\ \\mathrm{atm}.$$
+
+**b)** La constante en presiones es:
+
+$$K_p=\\frac{P(\\mathrm{CH_3OH})}{P(\\mathrm{CO})\\,P(\\mathrm{H_2})^2}=\\frac{12,79}{7,01\\cdot14,02^2}\\approx9,28\\cdot10^{-3}.$$
+
+Dividiendo los moles entre los 2 L se obtienen $[\\mathrm{CO}]=0,177$ M, $[\\mathrm{H_2}]=0,354$ M y $[\\mathrm{CH_3OH}]=0,323$ M. Así:
+
+$$K_c=\\frac{0,323}{0,177\\cdot0,354^2}\\approx14,56.$$
+
+**Resultado:** $P(\\mathrm{CO})=7,01$ atm, $P(\\mathrm{H_2})=14,02$ atm, $P(\\mathrm{CH_3OH})=12,79$ atm; $K_p\\approx9,28\\cdot10^{-3}$ y $K_c\\approx14,56$.
+
+---
+
+## Opción B · Cuestión 3
+
+### El ejercicio
+
+- Considera la reacción: 2 A + 3 B → 2 C. Se ha observado que al aumentar al doble la concentración de A, la velocidad de la reacción se duplica mientras que al triplicar la concentración de B la velocidad de la reacción aumenta en un factor de 9. Responde justificando tu respuesta las siguientes cuestiones: 
+- **a)** Halla los órdenes de reacción respecto de A y B y escribe la ley de velocidad de la reacción. 
+- **b)** Si en un determinado momento la velocidad de formación de C es 6,12·10−4 M · s−1, halla la velocidad de la reacción. 
+- **c)** En las mismas condiciones del apartado b), halla la velocidad de desaparición de B. 
+- **d)** Se ha determinado que cuando las concentraciones iniciales de A y B son 0,1 y 0,2 M respectivamente, la velocidad de la reacción es 2,32·10−3 M · s−1. halla la constante de velocidad de la reacción.
+
+### Resolución explicada
+
+**a)** Si duplicar $[A]$ duplica la velocidad, el orden parcial de A es 1. Si triplicar $[B]$ multiplica la velocidad por 9, entonces $3^n=9$ y el orden de B es 2. Por tanto, la ley cinética es:
+
+$$v=k[A][B]^2.$$
+
+**b)** Para $2A+3B\\to2C$, la velocidad de reacción se expresa como $v=\\tfrac12\\,d[C]/dt$. Si la formación de C es $6,12\\cdot10^{-4}$ M/s:
+
+$$v=\\frac{6,12\\cdot10^{-4}}2=3,06\\cdot10^{-4}\\ \\mathrm{M/s}.$$
+
+**c)** La velocidad de desaparición de B es tres veces la velocidad de reacción:
+
+$$-\\frac{d[B]}{dt}=3v=9,18\\cdot10^{-4}\\ \\mathrm{M/s}.$$
+
+**d)** Con $v=2,32\\cdot10^{-3}$ M/s, $[A]=0,1$ M y $[B]=0,2$ M:
+
+$$k=\\frac{v}{[A][B]^2}=\\frac{2,32\\cdot10^{-3}}{0,1\\cdot0,2^2}=0,58\\ \\mathrm{L^2\\,mol^{-2}s^{-1}}.$$
+
+**Resultado:** orden global 3, $v=3,06\\cdot10^{-4}$ M/s, desaparición de B a $9,18\\cdot10^{-4}$ M/s y $k=0,58$ en unidades de orden tres.
+
+**Explicación ampliada del procedimiento**
+
+a) Si al aumentar la concentración de A al doble la velocidad se incrementa en una potencia de 2: 21, 22, etc, en el caso propuesto al doble, es decir, 21, el exponente de la potencia es el orden de reacción respecto al reactivo A, en este supuesto es 1; del mismo modo, si se incrementa la concentración de B al triple, y la velocidad crece en una potencia de 3: 31, 32, 33, etc, el orden de reacción respecto al reactivo B es el exponente de la potencia, y como en este supuesto la velocidad se hace nueve veces mayor, el orden de reacción de B es 2, es decir, 32.
+
+---
+`,Co=`---
+title: "Examen resuelto de Química: septiembre de 2022 · modelo 1"
+seoTitle: "Examen resuelto de Química: septiembre de 2022"
+date: "2026-11-05"
+updated: "2026-11-05"
+description: "Resuelve un examen completo de Química paso a paso: formulación, estructura, equilibrio, ácido-base, electroquímica y cálculos."
+tag: "Exámenes resueltos"
+category: "Química"
+relatedService: "/campus/"
+relatedPosts: "pau-quimica-estructura-atomica-configuracion,pau-quimica-equilibrio-quimico-estudiar,pau-quimica-pilas-electroquimica-redox"
+image: "/assets/latex/mole-map.svg"
+---
+
+# Examen resuelto de Química: septiembre de 2022 · modelo 1
+
+Aquí tienes una práctica completa resuelta con calma. Intenta pensar cada apartado unos minutos antes de leer la solución: así podrás comparar tu planteamiento con el razonamiento y localizar justo dónde se te escapa algún paso.
+
+## Cuestión A1
+
+### El ejercicio
+
+Completa la fórmula o el nombre de las siguientes sustancias, según se necesite: 
+- **a)** Seleniuro de hidrógeno; 
+- **b)** Óxido de estaño (IV); 
+- **c)** Pentan-2-ona; 
+- **d)** HClO4; 
+- **e)** CaCO3; 
+- **f)** CH2OHCH(CH3)2.
+
+### Resolución explicada
+
+**a)** Seleniuro de hidrógeno: $\\mathrm{H_2Se}$.
+
+**b)** Óxido de estaño(IV): $\\mathrm{SnO_2}$.
+
+**c)** Pentan-2-ona: $\\mathrm{CH_3{-}CO{-}CH_2{-}CH_2{-}CH_3}$.
+
+**d)** $\\mathrm{HClO_4}$: ácido perclórico.
+
+**e)** $\\mathrm{CaCO_3}$: carbonato de calcio.
+
+**f)** $\\mathrm{HOCH_2{-}CH(CH_3)_2}$: 2-metilpropan-1-ol.
+
+---
+
+## Cuestión A2
+
+### El ejercicio
+
+Completa la fórmula o el nombre de las siguientes sustancias, según se necesite: 
+- **a)** Hexafluoruro de azufre; 
+- **b)** Hidrogenofosfato de potasio; 
+- **c)** Hexan-2-amina; 
+- **d)** HBrO; 
+- **e)** TiO2; 
+- **f)** CH2=CHCH2CONH2.
+
+### Resolución explicada
+
+**a)** Hexafluoruro de azufre: $\\mathrm{SF_6}$.
+
+**b)** Hidrogenofosfato de potasio: $\\mathrm{K_2HPO_4}$.
+
+**c)** Hexan-2-amina: $\\mathrm{CH_3{-}CH(NH_2){-}CH_2{-}CH_2{-}CH_2{-}CH_3}$.
+
+**d)** $\\mathrm{HBrO}$: ácido hipobromoso.
+
+**e)** $\\mathrm{TiO_2}$: óxido de titanio(IV).
+
+**f)** $\\mathrm{CH_2{=}CH{-}CH_2{-}CONH_2}$: but-3-enamida.
+
+---
+
+## Cuestión B1
+
+### El ejercicio
+
+Indica para el isótopo 65Zn30: 
+- **a)** El número de protones, electrones y neutrones. 
+- **b)** Un conjunto posible de números cuánticos para su electrón diferenciador. 
+- **c)** El ión más estable que puede formar.
+
+### Resolución explicada
+
+**a)** En $^{65}_{30}\\mathrm{Zn}$ el número atómico es 30, así que tiene **30 protones** y, al ser neutro, **30 electrones**. Los neutrones son $65-30=35$.
+
+**b)** El zinc presenta configuración $[\\mathrm{Ar}]\\,3d^{10}4s^2$. Para uno de los electrones de su orbital $4s$, un conjunto válido de números cuánticos es $(n,l,m_l,m_s)=(4,0,0,+\\tfrac12)$, o con espín $-\\tfrac12$.
+
+**c)** El ion habitual más estable es **$\\mathrm{Zn^{2+}}$**, porque pierde los dos electrones del subnivel $4s$ y queda con configuración $[\\mathrm{Ar}]3d^{10}$.
+
+**Explicación ampliada del procedimiento**
+
+b) Electrón diferenciador es el que se encuentra más lejos del núcleo. La configuración electrónica del isótopo es: 1s2 2s2 2p6 3s2 3p6 3d10 4s2, por lo que el electrón diferenciador se encuentra en el orbital 4s, correspondiéndole los números cuánticos: (4, 0, 0, ± ½).
+
+c) El ión más estable que puede formar el isótopo es el que adquiere configuración electrónica de gas noble perdiendo los dos electrones 4s2, es decir, Zn2+.
+
+---
+
+## Cuestión B2
+
+### El ejercicio
+
+Decide si cada afirmación es verdadera o falsa y explica tu respuesta: 
+- **a)** La primera energía de ionización del magnesio es menor que la del sodio. 
+- **b)** El B3+ tiene radio iónico mayor que el Be2+. 
+- **c)** Los elementos del grupo 17, (halógenos), tienen poca tendencia a ganar electrones.
+
+### Resolución explicada
+
+**a) Falsa.** Na y Mg están en el tercer período, pero el Mg está más a la derecha y atrae más intensamente sus electrones externos. Su **primera energía de ionización es mayor**, no menor.
+
+**b) Falsa.** $\\mathrm{B^{3+}}$ y $\\mathrm{Be^{2+}}$ son isoelectrónicos ($1s^2$). El boro tiene cinco protones y el berilio cuatro, así que el núcleo del B³⁺ atrae más los dos electrones restantes: **$r(\\mathrm{B^{3+}})<r(\\mathrm{Be^{2+}})$**.
+
+**c) Falsa.** Los halógenos tienen siete electrones de valencia y necesitan solo uno para completar el octeto. Por eso presentan **alta tendencia a ganar un electrón**.
+
+**Explicación ampliada del procedimiento**
+
+c) Falsa. Afinidad electrónica es la energía que se desprende cuando un átomo neutro, gaseoso y en su estado electrónico fundamental, acepta un electrón en su nivel más externo, para convertirse en un anión mononegativo, gaseoso y en su estado electrónico fundamental.
+
+Los elementos halógenos, situados en el grupo 17, son los de mayor número atómico Z y por ello los de mayor afinidad electrónica y mayor tendencia a ganar electrones.
+
+---
+
+## Cuestión B3
+
+### El ejercicio
+
+Dadas las especies químicas H2S y PCl3: 
+- **a)** Representa las estructuras de Lewis de cada molécula. 
+- **b)** Justifica la geometría de cada molécula según la TRPECV. 
+- **c)** Indica la hibridación que presenta el átomo central de cada una.
+
+### Resolución explicada
+
+
+**a) Estructuras de Lewis.** Podemos hacer el recuento completo de los electrones mediante cuatro cantidades: $n$ (electrones necesarios para octetos y duetos), $v$ (electrones de valencia disponibles), $c=n-v$ (electrones compartidos) y $s=v-c$ (electrones no compartidos).
+
+Para $\\mathrm{H_2S}$, los dos H requieren 4 electrones y el azufre, 8, así que $n=12$. Los electrones disponibles son $v=2\\cdot1+6=8$. De ahí:
+
+$$c=12-8=4\\ e^-\\;(2\\ \\text{pares de enlace}),\\qquad s=8-4=4\\ e^-\\;(2\\ \\text{pares libres}).$$
+
+La estructura es $\\mathrm{H{-}S{-}H}$, con **dos pares libres sobre S**.
+
+En $\\mathrm{PCl_3}$, cuatro átomos necesitan $n=4\\cdot8=32$ electrones, mientras que hay $v=5+3\\cdot7=26$ disponibles:
+
+$$c=32-26=6\\ e^-\\;(3\\ \\text{enlaces}),\\qquad s=26-6=20\\ e^-.$$
+
+Por tanto, P es el átomo central, con tres enlaces simples $\\mathrm{P{-}Cl}$ y **un par libre**; cada cloro conserva tres pares libres.
+
+**b) Forma molecular.** Según la teoría de repulsión de pares electrónicos, las cuatro regiones alrededor del azufre de $\\mathrm{H_2S}$ se colocan aproximadamente en una disposición tetraédrica, pero solo dos son enlaces; por eso la forma **molecular es angular**. En $\\mathrm{PCl_3}$ hay tres enlaces y un par libre alrededor del fósforo: la forma es **piramidal trigonal**.
+
+**c) Hibridación.** En el modelo habitual de Bachillerato, ambos átomos centrales se describen como $sp^3$: en H₂S se representan dos orbitales enlazantes y dos con pares libres, mientras que en PCl₃ hay tres orbitales enlazantes y uno con el par no compartido.
+
+---
+
+## Cuestión B4
+
+### El ejercicio
+
+Di si las afirmaciones son verdaderas o falsas y explica por qué las siguientes afirmaciones: 
+- **a)** El par H3O+/OH─ es un par conjugado ácido-base. 
+- **b)** Al diluir una disolución acuosa de un ácido fuerte no se modifica el valor del pH. 
+- **c)** El pH neutro de una disolución acuosa de NaCl no se modifica al adicionar KCl.
+
+### Resolución explicada
+
+**a) Falsa.** En un par conjugado ácido–base las especies se diferencian **en un solo protón**. $\\mathrm{H_3O^+}$ y $\\mathrm{OH^-}$ no forman ese par; los pares conjugados del agua son $\\mathrm{H_3O^+/H_2O}$ y $\\mathrm{H_2O/OH^-}$.
+
+**b) Falsa.** Si diluimos un ácido fuerte, disminuye $[\\mathrm{H_3O^+}]$ y, por tanto, el **pH aumenta** (se aproxima al pH del agua en diluciones muy grandes).
+
+**c) Verdadera, aproximadamente.** NaCl y KCl son sales de ácidos y bases fuertes; ninguno de sus iones se hidroliza apreciablemente. Al añadir KCl a agua con NaCl, el medio sigue siendo **prácticamente neutro**.
+
+**Explicación ampliada del procedimiento**
+
+a) Falsa. Según la teoría de Bronsted-Lowry, ácido es la especie que cede un protón y base la que lo acepta. Un par conjugado es la forma protonada y la no protonada de un ácido y base. Un par conjugado es H3O+/H2O o H2O/OH─.
+
+b) Falsa. Un ácido fuerte se encuentra en disolución totalmente ionizado, no modificándose el grado de ionización del ácido con la dilución, pero si se altera la concentración de iones oxonios, H3O+, que disminuye y ello implica un aumento del pH de la disolución.
+
+c) Verdadera. Si a una disolución de una sal de ácido fuerte y base fuerte, con pH neutro, se le añade otra sal de un ácido fuerte y base fuerte, ambas sales se encuentran en disolución totalmente ionizada y sin alterar el valor del pH.
+
+---
+
+## Cuestión B5
+
+### El ejercicio
+
+La notación de la pila Daniell es: Zn (s)│Zn (aq) 1M│Cu2+ (aq) 1 M│Cu (s). ΔEº = 1,10 V. 
+- **a)** Escribe la semirreacción que ocurre en el ánodo. 
+- **b)** Sabiendo que el potencial estándar de reducción del electrodo Cu2+/Cu es + 0,34 V, halla el potencial estándar de reducción del electrodo Zn2+/Zn. 
+- **c)** Explica con argumentos si al cambiar el electrodo de cinc por uno de plomo aumenta o disminuye el potencial de la pila. 
+
+**Datos:** Eº (Pb2+/Pb) = ─ 0,15 V.
+
+### Resolución explicada
+
+**a)** En la pila Daniell, el zinc actúa como **ánodo** y se oxida:
+
+$$\\mathrm{Zn(s)\\longrightarrow Zn^{2+}(aq)+2e^-}.$$
+
+**b)** El cobre se reduce en el cátodo. Utilizamos $E^\\circ_{\\rm pila}=E^\\circ_{\\rm cátodo}-E^\\circ_{\\rm ánodo}$:
+
+$$1,10=0,34-E^\\circ(\\mathrm{Zn^{2+}/Zn})\\quad\\Rightarrow\\quad E^\\circ(\\mathrm{Zn^{2+}/Zn})=-0,76\\ \\mathrm V.$$
+
+**c)** Si sustituimos el Zn por Pb, con $E^\\circ(\\mathrm{Pb^{2+}/Pb})=-0,15$ V, el potencial sería:
+
+$$E^\\circ_{\\rm nueva\\ pila}=0,34-(-0,15)=0,49\\ \\mathrm V.$$
+
+**Resultado:** el potencial **disminuye** de 1,10 V a 0,49 V.
+
+---
+
+## Cuestión B6
+
+### El ejercicio
+
+- **a)** Escribe dos compuestos isómeros de fórmula molecular C2H6O. 
+- **b)** Formula el alcano con menor número de átomos de carbono que presenta isomería óptica. 
+- **c)** Considerando las moléculas de etano C2H6 y eteno C2H4, justifica cuál de ellos tiene el enlace C-C de menor longitud.
+
+### Resolución explicada
+
+**a)** Dos isómeros de fórmula $\\mathrm{C_2H_6O}$ son **etanol**, $\\mathrm{CH_3CH_2OH}$, y **metoximetano o dimetil éter**, $\\mathrm{CH_3OCH_3}$. Son isómeros de función (alcohol y éter).
+
+**b)** El alcano más pequeño que puede tener un carbono asimétrico contiene siete carbonos: **3-metilhexano**, $\\mathrm{CH_3CH_2CH(CH_3)CH_2CH_2CH_3}$. El carbono 3 está unido a cuatro grupos distintos: H, metilo, etilo y propilo.
+
+**c)** En el etano hay un enlace sencillo C–C; en el eteno, uno doble C=C. Como un enlace doble tiene mayor orden de enlace y concentra más densidad electrónica entre los núcleos, **el C=C del eteno es más corto**.
+
+**Explicación ampliada del procedimiento**
+
+b) Es el compuesto orgánico 3-metil-hexano, que posee un carbono asimétrico o quiral, con cuatro sustituyentes distintos. CH3CH(C2H5)CH2CH2CH3.
+
+c) El enlace carbono-carbono disminuye su longitud según sea simple, doble o triple, es decir, longitud descendente del enlace: simple > doble > triple, pues así crece la proporción del carácter s de los orbitales híbridos de los carbonos implicados.
+
+---
+
+## Problema C1
+
+### El ejercicio
+
+El SbCl5 se descompone en un 6,8 % a 190 ºC según la reacción: SbCl5 (g) ⇌ SbCl3 (g) + Cl2 (g), cuya Kp = 9,3 · 10─2. se incorpora una cantidad de SbCl5 (g) Dentro de un recipiente de volumen 0,5 L y se calienta a 190 ºC. halla: 
+- **a)** Masa en gramos de SbCl5 inicial. 
+- **b)** Presiones parciales de cada especie y presión total en el equilibrio. 
+
+**Datos:** Ar(Sb) = 121,8u; Ar(Cl) = 35,5 u.
+
+### Resolución explicada
+
+**a)** Usamos el grado de descomposición $\\alpha=0,068$ para el equilibrio $\\mathrm{SbCl_5(g)\\rightleftharpoons SbCl_3(g)+Cl_2(g)}$. Si la presión inicial de pentacloruro es $P_0$, en el equilibrio sus presiones son $0,932P_0$, $0,068P_0$ y $0,068P_0$, respectivamente.
+
+Por tanto:
+
+$$K_p=\\frac{(0,068P_0)^2}{0,932P_0}=9,3\\cdot10^{-2},\\qquad P_0\\approx18,74\\ \\mathrm{atm}.$$
+
+Con $T=190+273=463$ K y $V=0,5$ L, aplicamos $PV=nRT$:
+
+$$n_0=\\frac{18,74\\cdot0,5}{0,082\\cdot463}\\approx0,247\\ \\mathrm{mol}.$$
+
+La masa molar es $121,8+5\\cdot35,5=299,3$ g/mol; la masa inicial ronda **74 g** (aproximadamente 74,8 g con los redondeos del desarrollo del examen).
+
+**b)** Calculamos las presiones parciales a partir de $P_0$:
+
+$$\\begin{aligned}P(\\mathrm{SbCl_5})&=0,932\\cdot18,74=17,46\\ \\mathrm{atm},\\\\P(\\mathrm{SbCl_3})&=P(\\mathrm{Cl_2})=0,068\\cdot18,74=1,27\\ \\mathrm{atm}.\\end{aligned}$$
+
+Sumando las tres, la presión total de equilibrio es aproximadamente $20$ atm.
+
+---
+
+## Problema C2
+
+### El ejercicio
+
+- **a)** Si sabemos que en 200 mL de disolución saturada de SrF2 hay disueltos 14,6 mg de la sal. halla el producto de solubilidad. 
+- **b)** Halla si se forma precipitado de PbI2 al mezclar 50 mL de KI 1,2 · 10─3 M con 30 mL de disolución de Pb (NO3)2 3 · 10─3 M. 
+
+**Datos:** Kps (PbI2) = 7,9 · 10─9; Ar (Sr) = 87,68 u; Ar (F) = 19 u.
+
+### Resolución explicada
+
+**a)** La cantidad disuelta de fluoruro de estroncio es 14,6 mg, o $0,0146$ g. Dividimos por su masa molar ($125,68$ g/mol) y por el volumen ($0,200$ L):
+
+$$s=\\frac{0,0146}{125,68\\cdot0,200}=5,81\\cdot10^{-4}\\ \\mathrm M.$$
+
+En el equilibrio $\\mathrm{SrF_2(s)\\rightleftharpoons Sr^{2+}+2F^-}$ aparecen $s$ moles por litro de estroncio y $2s$ de fluoruro. Entonces:
+
+$$K_{ps}=s(2s)^2=4s^3\\approx7,8\\cdot10^{-10}.$$
+
+**b)** Antes de estudiar la precipitación, calculamos los moles de cada ion tras mezclar las disoluciones:
+
+$$n(\\mathrm{I^-})=0,050\\cdot1,2\\cdot10^{-3}=6,0\\cdot10^{-5}\\ \\mathrm{mol},$$
+$$n(\\mathrm{Pb^{2+}})=0,030\\cdot3,0\\cdot10^{-3}=9,0\\cdot10^{-5}\\ \\mathrm{mol}.$$
+
+El volumen final es $0,080$ L, por lo que $[\\mathrm{I^-}]=7,5\\cdot10^{-4}$ M y $[\\mathrm{Pb^{2+}}]=1,125\\cdot10^{-3}$ M. Calculamos el cociente iónico:
+
+$$Q_{ps}=[\\mathrm{Pb^{2+}}][\\mathrm{I^-}]^2=6,33\\cdot10^{-10}.$$
+
+Dado que $Q_{ps}<7,9\\cdot10^{-9}$, **no precipita $\\mathrm{PbI_2}$**.
+
+---
+
+## Problema C3
+
+### El ejercicio
+
+En una disolución acuosa 0,03 M de amoniaco, NH3, este está disociado un 2,4 %. Basándote en la reacción química correspondiente halla: 
+- **a)** El pH de la disolución y el valor de la constante de basicidad del amoniaco. 
+- **b)** La molaridad que debe tener una disolución de NH3 para que su pH = 11.
+
+### Resolución explicada
+
+
+**a)** El amoníaco reacciona con el agua como una base débil:
+
+$$\\mathrm{NH_3+H_2O\\rightleftharpoons NH_4^++OH^-}.$$
+
+La disolución inicial es $C_0=0,030$ M y se disocia un $2,4\\%$, es decir, $\\alpha=0,024$. En el equilibrio:
+
+| Especie | Concentración (M) |
+|---|---:|
+| $\\mathrm{NH_3}$ | $C_0(1-\\alpha)=0,030(0,976)=0,02928$ |
+| $\\mathrm{NH_4^+}$ | $C_0\\alpha=0,00072$ |
+| $\\mathrm{OH^-}$ | $C_0\\alpha=0,00072$ |
+
+$$K_b=\\frac{[\\mathrm{NH_4^+}][\\mathrm{OH^-}]}{[\\mathrm{NH_3}]}=\\frac{(7,2\\cdot10^{-4})^2}{0,02928}\\approx1,77\\cdot10^{-5}.$$
+
+$$pOH=-\\log(7,2\\cdot10^{-4})\\approx3,14,\\qquad pH=14-3,14=\\boxed{10,86}.$$
+
+**b)** Si buscamos $pH=11$, entonces $pOH=3$ y $[\\mathrm{OH^-}]=10^{-3}$ M. Una primera aproximación consiste en mantener $\\alpha=0,024$:
+
+$$C_0=\\frac{[\\mathrm{OH^-}]}{\\alpha}=\\frac{0,001}{0,024}=\\boxed{0,0417\\ \\mathrm M\\approx0,042\\ \\mathrm M}.$$
+
+Pero ojo: el porcentaje de ionización de una base débil depende de su concentración. Si usamos el $K_b$ obtenido en (a) y recalculamos el equilibrio sin imponer el mismo $\\alpha$, resulta $C_0\\approx0,0575$ M. Ese es el valor que respeta el equilibrio químico y el que conviene usar.
+
+---
+
+## Problema C4
+
+### El ejercicio
+
+Se cuenta con una celda electrolítica que contiene CaCl2 fundido. Si se hace pasar una corriente de 0,452 A durante 1,5 horas, halla: 
+- **a)** La cantidad en gramos de Ca que se deposita en el cátodo. 
+- **b)** El volumen de cloro gas medido a 700 mm Hg y 25 ºC que se desprenderá. 
+
+**Datos:** F = 96.500 C · mol─1; R = 0,082 atm · L · mol─1 · K─1; Ar (Ca) = 40,1 u; Ar (Cl) = 35,5 u.
+
+### Resolución explicada
+
+**a)** En el cloruro de calcio fundido, la reducción es $\\mathrm{Ca^{2+}+2e^-\\to Ca}$. La carga que circula en 1,5 horas es:
+
+$$Q=It=0,452\\cdot5400=2440,8\\ \\mathrm C.$$
+
+Aplicando la ley de Faraday con dos electrones por ion calcio:
+
+$$m(\\mathrm{Ca})=\\frac{M Q}{2F}=\\frac{40,1\\cdot2440,8}{2\\cdot96500}\\approx0,51\\ \\mathrm g.$$
+
+**b)** En el ánodo ocurre $\\mathrm{2Cl^-\\to Cl_2+2e^-}$. La cantidad de gas generada es:
+
+$$n(\\mathrm{Cl_2})=\\frac{2440,8}{2\\cdot96500}\\approx0,01265\\ \\mathrm{mol}.$$
+
+Pasamos la presión a atmósferas: $P=700/760$ atm. A $298$ K, la ley de los gases da:
+
+$$V=\\frac{nRT}{P}=\\frac{0,01265\\cdot0,082\\cdot298}{700/760}\\approx0,336\\ \\mathrm L.$$
+
+**Resultado:** se forman **0,51 g de calcio** y alrededor de **337 mL de cloro**.
+
+**Explicación ampliada del procedimiento**
+
+a) A partir de la ecuación deducida de las leyes de Faraday, se obtiene la masa de calcio que se deposita en el cátodo a la intensidad de corriente y tiempo indicados.
+
+---
+`,jo=`---
+title: "Examen resuelto de Química: septiembre de 2023 · modelo 1"
+seoTitle: "Examen resuelto de Química: septiembre de 2023"
+date: "2026-11-05"
+updated: "2026-11-05"
+description: "Práctica completa de Química con soluciones razonadas de formulación, reactividad, equilibrio y electroquímica."
+tag: "Exámenes resueltos"
+category: "Química"
+relatedService: "/campus/"
+relatedPosts: "pau-quimica-equilibrio-quimico-estudiar,pau-quimica-solubilidad-kps-precipitacion,pau-quimica-organica-mapa-reacciones"
+image: "/assets/latex/electrolysis-cell.svg"
+---
+
+# Examen resuelto de Química: septiembre de 2023 · modelo 1
+
+Úsalo como un simulacro guiado. La idea no es correr hacia la respuesta, sino ver cómo se traduce cada dato en una reacción, una ecuación o una decisión de química.
+
+## A1
+
+### El ejercicio
+
+Escribe la fórmula o el nombre de estos compuestos, según corresponda: 
+- **a)** Óxido de vanadio (V); 
+- **b)** Hidruro de plomo (IV); 
+- **c)** N-N-dimetiletanamida; 
+- **d)** Co)OH)2; 
+- **e)** Sn(ClO3)2; 
+- **f)** CH3CH2CHOHCOOH.
+
+### Resolución explicada
+
+**a)** Óxido de vanadio(V): $\\mathrm{V_2O_5}$.
+
+**b)** Hidruro de plomo(IV): $\\mathrm{PbH_4}$.
+
+**c)** N,N-dimetiletanamida: $\\mathrm{CH_3{-}CO{-}N(CH_3)_2}$.
+
+**d)** $\\mathrm{Co(OH)_2}$: hidróxido de cobalto(II).
+
+**e)** $\\mathrm{Sn(ClO_3)_2}$: clorato de estaño(II).
+
+**f)** $\\mathrm{CH_3CH_2CH(OH)COOH}$: ácido 2-hidroxibutanoico.
+
+---
+
+## A2
+
+### El ejercicio
+
+Escribe la fórmula o el nombre de estos compuestos, según corresponda: 
+- **a)** Peróxido de rubidio; 
+- **b)** Hidrogenocarbonato de sodio; 
+- **c)** Ciclohexanona; 
+- **d)** O3Cl2; 
+- **e)** H2SO3; 
+- **f)** HCOOCH2CH3.
+
+### Resolución explicada
+
+**a)** Peróxido de rubidio: $\\mathrm{Rb_2O_2}$.
+
+**b)** Hidrogenocarbonato de sodio: $\\mathrm{NaHCO_3}$.
+
+**c)** Ciclohexanona: ciclo de seis carbonos con un grupo carbonilo; fórmula $\\mathrm{C_6H_{10}O}$.
+
+**d)** $\\mathrm{Cl_2O_3}$: trióxido de dicloro (óxido de cloro(III)).
+
+**e)** $\\mathrm{H_2SO_3}$: ácido sulfuroso.
+
+**f)** $\\mathrm{HCOOCH_2CH_3}$: metanoato de etilo.
+
+---
+
+## B1
+
+### El ejercicio
+
+Dadas las configuraciones electrónicas: A = 1s2 2s2 2p5; B = 1s2 2s2 2p6 3s2 3p6 3d5 4s2; y C = 1s2 2s2 2p6 3s2. 
+- **a)** Justifica el grupo y período de los elementos A y B´ 
+- **b)** Explica el carácter metálico o no metálico de los elementos A y C. 
+- **c)** Indica los iones más estables de los elementos A y C, y escribe sus correspondientes configuraciones electrónicas.
+
+### Resolución explicada
+
+
+**a)** El mayor número cuántico principal ocupado indica el período. En A se llega hasta $n=2$, y su capa final $2s^2\\,2p^5$ contiene siete electrones: **período 2, grupo 17**, elemento flúor. En B se llega hasta $4s^2$, de manera que pertenece al **período 4**. La configuración $[\\mathrm{Ar}]\\,3d^5\\,4s^2$ identifica al **manganeso, grupo 7**. En la resolución proporcionada se indica «grupo 2» para B, pero eso no tiene en cuenta sus cinco electrones del subnivel $3d$.
+
+**b)** Tener tendencia a ceder electrones es una característica metálica; ganar electrones es propia de los no metales. A es **flúor**, situado a la derecha y arriba de la tabla, por lo que tiene marcado carácter no metálico. C termina en $3s^2$, corresponde al **magnesio** y tiene carácter metálico: puede perder sus dos electrones externos.
+
+**c)** El flúor capta un electrón y forma $\\mathrm{F^-}$; el magnesio pierde dos y forma $\\mathrm{Mg^{2+}}$. Ambas especies poseen diez electrones y quedan con configuración de neón:
+
+$$\\mathrm{F^-}:1s^2\\,2s^2\\,2p^6,\\qquad \\mathrm{Mg^{2+}}:1s^2\\,2s^2\\,2p^6.$$
+
+**Resultado:** A es un halógeno del grupo 17; B es un metal de transición del grupo 7; los iones estables son $\\mathrm{F^-}$ y $\\mathrm{Mg^{2+}}$.
+
+---
+
+## B2
+
+### El ejercicio
+
+Di si las afirmaciones son verdaderas o falsas y explica por qué: 
+- **a)** En una reacción entre gases del tipo: A (g) + 2 B (g) ⇌ 2 C (g), los valores de Kp y Kc son iguales. 
+- **b)** Para una reacción endotérmica en equilibrio, se produce un incremento de la cantidad de producto al aumentar la temperatura. 
+- **c)** Cuando una mezcla de reacción alcanza el equilibrio la formación de producto se detiene.
+
+### Resolución explicada
+
+**a) Falsa.** Para $\\mathrm{A(g)+2B(g)\\rightleftharpoons2C(g)}$, la variación de moles gaseosos es $\\Delta n=2-3=-1$. Por tanto:
+
+$$K_p=K_c(RT)^{\\Delta n}=\\frac{K_c}{RT},$$
+
+así que no coinciden en general.
+
+**b) Verdadera.** En una reacción directa **endotérmica**, aumentar la temperatura favorece el lado que absorbe calor: el equilibrio avanza hacia los productos.
+
+**c) Falsa.** Un equilibrio químico es **dinámico**: las reacciones directa e inversa siguen ocurriendo, pero con igual velocidad; por eso las concentraciones ya no cambian.
+
+**Explicación ampliada del procedimiento**
+
+b) Verdadera. Al elevar la temperatura, suministrar calor, el equilibrio evoluciona en el sentido en el que se produce absorción de calor, es decir, hacia el sentido endotérmico de la reacción. Como el proceso absorbe calor, un aumento de la temperatura hace crecer la cantidad del producto C.
+
+c) Falsa. El equilibrio que se establece en una reacción química es dinámico, lo que significa que constantemente están reaccionando reactivos para formar productos de reacción y reaccionando los productos de reacción para formar reactivos. Al realizarse ambos procesos a la misma velocidad no es observable la variación de concentración en las sustancias reaccionantes y de productos de reacción.
+
+---
+
+## B3
+
+### El ejercicio
+
+Responde a estos apartados explicando tus razones: 
+- **a)** Dados los compuestos CaF2 y CO2, identifica el tipo de enlace que predomina en cada uno de ellos. 
+- **b)** Ordena los compuestos CaF2, CO2 y H2O de menor a mayor punto de ebullición. 
+- **c)** De los compuestos NaF, KF y LiF ¿cuál tiene mayor energía reticular?
+
+### Resolución explicada
+
+**a)** En **CaF₂** predomina el enlace **iónico**, porque el calcio cede electrones a los átomos de flúor. En **CO₂** predominan los enlaces **covalentes**, entre carbono y oxígeno.
+
+**b)** Entre CO₂, H₂O y CaF₂, el orden creciente de temperatura necesaria para pasar a gas es:
+
+$$\\boxed{\\mathrm{CO_2<H_2O<CaF_2}}.$$
+
+El CO₂ es molecular y sus interacciones intermoleculares son débiles (a 1 atm sublima antes de fundir). El agua establece puentes de hidrógeno. El CaF₂ forma una red iónica muy estable y necesita temperaturas mucho más elevadas.
+
+**c)** En LiF, NaF y KF los iones tienen cargas iguales; la energía reticular aumenta al reducirse la separación entre iones. Como $\\mathrm{Li^+}$ es el menor catión de los tres, **LiF presenta mayor energía reticular en valor absoluto**.
+
+**Explicación ampliada del procedimiento**
+
+b) El punto de ebullición es la temperatura a la que un líquido pasa al estado gaseoso. Esto se debe a que el suministro de calor hace que la energía de agitación de las moléculas del compuesto supere las fuerzas intermoleculares de las mismas en el estado líquido. Mientras mayor sea las fuerzas intermoleculares, mayor es el punto de ebullición de la sustancia.
+
+---
+
+## B4
+
+### El ejercicio
+
+Dados los elementos F, Cl y Al, indica justificando tu respuesta si las siguientes afirmaciones son verdaderas o falsas: 
+- **a)** El Cl es el elemento que tiene menor energía de ionización. 
+- **b)** El Al es el elemento que tiene mayor afinidad electrónica. 
+- **c)** El F es el elemento que tiene menor radio atómico.
+
+### Resolución explicada
+
+**a) Falsa.** El Cl no tiene la menor energía de ionización: entre F, Cl y Al, el **aluminio** es el que pierde un electrón con mayor facilidad.
+
+**b) Falsa.** El Al no tiene la mayor afinidad electrónica. Los halógenos, como Cl y F, captan un electrón con mayor facilidad; de los tres, el **cloro** tiene mayor afinidad electrónica en términos de energía liberada.
+
+**c) Verdadera.** Al descender por un grupo el radio crece; por eso el flúor es menor que el cloro. También es menor que el aluminio, que posee electrones en una capa más externa.
+
+**Explicación ampliada del procedimiento**
+
+b) Falsa. Afinidad electrónica es la energía que se necesita o se desprende cuando un átomo neutro, gaseoso y en su estado electrónico fundamental, acepta un electrón en su nivel más externo, para convertirse en un anión gaseoso en su estado electrónico fundamental.
+
+c) Verdadera. El radio de los átomos disminuye al avanzar en un período de izquierda a derecha. Ello se debe a que al aumentar la carga nuclear y situarse el electrón diferenciador (electrón demás que tiene un átomo respecto al anterior en el período) en el mismo nivel energético, aumenta la fuerza atractiva núcleo-electrón diferenciador, lo que provoca una contracción del volumen del átomo y, por ello, una disminución del radio atómico.
+
+El radio de los átomos aumenta al bajar en los grupos. Ello se debe a que aunque aumente la carga nuclear, el electrón diferenciador se sitúa en niveles cada vez más alejado del núcleo, y por ello, la fuerza atractiva núcleo-electrón va haciéndose cada vez menor, lo que provoca un aumento del volumen del átomo y, por ello, un crecimiento del radio atómico.
+
+---
+
+## B5
+
+### El ejercicio
+
+Justifica si el valor de pH aumenta o disminuye cuando: 
+- **a)** Se añade CH3COONa a una disolución de CH3COOH. 
+- **b)** Se añade HCl a una disolución de NaCl. 
+- **c)** Se añade 10 mL de KOH 0,1 M a 20 mL de disolución 0,1 M de HNO3.
+
+### Resolución explicada
+
+
+**a)** El ácido acético está parcialmente ionizado:
+
+$$\\mathrm{CH_3COOH+H_2O\\rightleftharpoons CH_3COO^-+H_3O^+}.$$
+
+Al añadir acetato de sodio aumenta $[\\mathrm{CH_3COO^-}]$, el ion común. El equilibrio retrocede hacia la formación de ácido sin disociar y **disminuye la concentración de $\\mathrm{H_3O^+}$**. Por definición, cuando disminuye $[\\mathrm{H_3O^+}]$, **el pH aumenta**. El texto resuelto del ejercicio indica «disminuye» pese a describir una disminución de acidez: ese signo es inconsistente.
+
+**b)** La disolución de $\\mathrm{NaCl}$ es prácticamente neutra, porque los iones sodio y cloruro no se hidrolizan de forma apreciable. Al incorporar ácido clorhídrico, que se disocia totalmente, aumenta $[\\mathrm{H_3O^+}]$ y **el pH disminuye**. La solución entregada afirma «aumenta», pero la descripción de que la mezcla se vuelve ácida conduce a la conclusión contraria.
+
+**c)** Planteamos la neutralización:
+
+$$\\mathrm{HNO_3+KOH\\to KNO_3+H_2O}.$$
+
+Moles de ácido: $0,1\\cdot0,020=0,002$ mol. Moles de base: $0,1\\cdot0,010=0,001$ mol. Reaccionan en proporción 1:1 y quedan $0,001$ mol de ácido sin neutralizar.
+
+El volumen final es $0,020+0,010=0,030$ L, de modo que:
+
+$$[\\mathrm{H_3O^+}]=\\frac{0,001}{0,030}=3,33\\cdot10^{-2}\\ \\mathrm M,\\qquad pH=\\boxed{1,48}.$$
+
+El ácido inicial $0,1$ M tenía $pH=1$, por lo que **al agregar la base aumenta el pH**, aunque el líquido sigue siendo ácido. La división $0,001/0,030$ da $3,33\\cdot10^{-2}$ M, no $3\\cdot10^{-5}$ M; comprobar este orden de magnitud evita un salto erróneo de pH.
+
+---
+
+## B6
+
+### El ejercicio
+
+Plantea y ajusta las siguientes reacciones e indica el tipo al que pertenece: 
+- **a)** CH3CH2CH2CH3 + Br2 (luz) → 
+- **b)** CH3CH2CH2OH (H2SO4 Δ) → 
+- **c)** CH3CH=CH2 + HCl →
+
+### Resolución explicada
+
+**a)** Con bromo y luz, el butano sufre **sustitución radicalaria**. Se puede formar, por ejemplo, **1-bromobutano**:
+
+$$\\mathrm{CH_3CH_2CH_2CH_3+Br_2\\xrightarrow{h\\nu}CH_3CH_2CH_2CH_2Br+HBr}.$$
+
+También puede aparecer **2-bromobutano**, que suele ser el producto mayoritario por la mayor estabilidad del radical secundario.
+
+**b)** El propan-1-ol, calentado con ácido sulfúrico, pierde agua y forma **propeno**. Es una **eliminación o deshidratación**:
+
+$$\\mathrm{CH_3CH_2CH_2OH\\xrightarrow{H_2SO_4,\\ calor}CH_3CH{=}CH_2+H_2O}.$$
+
+**c)** El propeno añade HCl al doble enlace. Según la regla de Markovnikov se forma mayoritariamente **2-cloropropano**:
+
+$$\\mathrm{CH_3CH{=}CH_2+HCl\\longrightarrow CH_3CHClCH_3}.$$
+
+Es una **reacción de adición**.
+
+---
+
+## C1
+
+### El ejercicio
+
+Dentro de un recipiente de 2 L se añaden 4,9 g de CuO y se calienta a 1.025 º C, alcanzándose el siguiente equilibrio: 4 CuO (s) ⇌ 2 Cu2O (s) + O2 (g). Si la presión total en el equilibrio es de 0,5 atm, halla: 
+- **a)** Los moles de O2 que se han formado y la masa de CuO que queda sin descomponer. 
+- **b)** Las constantes Kp y Kc a esa temperatura. 
+
+**Datos:** R = 0,082 atm · L · mol-1· K-1; Ar(Cu) = 63,5 u; Ar(O) = 16 u.
+
+### Resolución explicada
+
+**a)** Solo el oxígeno está en fase gaseosa, de manera que su presión parcial coincide con la presión total: $0,5$ atm. Con $T=1025+273=1298$ K y $V=2$ L:
+
+$$n(\\mathrm{O_2})=\\frac{PV}{RT}=\\frac{0,5\\cdot2}{0,082\\cdot1298}\\approx9,4\\cdot10^{-3}\\ \\mathrm{mol}.$$
+
+La reacción $4\\,\\mathrm{CuO(s)}\\rightleftharpoons2\\,\\mathrm{Cu_2O(s)}+\\mathrm{O_2(g)}$ consume cuatro moles de CuO por cada mol de oxígeno generado. Se consumen $4\\cdot0,0094=0,0376$ mol de CuO. Inicialmente había $4,9/79,5\\approx0,0616$ mol, por lo que quedan aproximadamente $0,0240$ mol, equivalentes a **1,91 g de CuO**.
+
+**b)** Los sólidos puros no aparecen en la constante de equilibrio. Por eso $K_p=P(\\mathrm{O_2})=0,5$. Como $\\Delta n=1$:
+
+$$K_c=\\frac{K_p}{RT}=\\frac{0,5}{0,082\\cdot1298}\\approx4,70\\cdot10^{-3}.$$
+
+**Resultado:** $n(\\mathrm{O_2})\\approx0,0094$ mol, queda alrededor de $1,9$ g de CuO; $K_p=0,5$ y $K_c\\approx4,7\\cdot10^{-3}$.
+
+---
+
+## C2
+
+### El ejercicio
+
+Basándote en las reacciones químicas correspondientes, halla: 
+- **a)** El producto de solubilidad del CaCO3, sabiendo que 100 mL de disolución saturada en agua de dicha sal contiene 6,93 · 10–6 moles de Ca2+. 
+- **b)** La masa que quedará en el fondo de un recipiente que contiene 250 mL de disolución acuosa saturada de Ag2SO4 al evaporar el agua de la disolución. 
+
+**Datos:** Kps (Ag2SO4) = 7,7 · 10-5; Ar(Ag) = 107,9 u; Ar(S) = 32 u; Ar(O) = 16 u.
+
+### Resolución explicada
+
+**a)** El carbonato de calcio presenta el equilibrio $\\mathrm{CaCO_3(s)\\rightleftharpoons Ca^{2+}+CO_3^{2-}}$. En 100 mL hay $6,93\\cdot10^{-6}$ mol de calcio, por lo que la solubilidad molar es:
+
+$$s=\\frac{6,93\\cdot10^{-6}}{0,100}=6,93\\cdot10^{-5}\\ \\mathrm M.$$
+
+Como los dos iones aparecen en proporción 1:1, $K_{ps}=s^2=(6,93\\cdot10^{-5})^2\\approx4,80\\cdot10^{-9}$.
+
+**b)** El sulfato de plata se disuelve según $\\mathrm{Ag_2SO_4(s)\\rightleftharpoons2Ag^++SO_4^{2-}}$. Si se disuelven $s$ mol/L:
+
+$$K_{ps}=(2s)^2s=4s^3\\quad\\Rightarrow\\quad s=\\sqrt[3]{\\frac{7,7\\cdot10^{-5}}4}\\approx0,0268\\ \\mathrm M.$$
+
+En $0,250$ L hay $0,0268\\cdot0,250=0,00670$ mol. Al evaporar toda el agua, queda la sal sólida: $0,00670\\cdot311,8\\approx2,09$ g.
+
+**Resultado:** $K_{ps}(\\mathrm{CaCO_3})\\approx4,8\\cdot10^{-9}$; masa de $\\mathrm{Ag_2SO_4}$, **2,1 g**.
+
+---
+
+## C3
+
+### El ejercicio
+
+La etiqueta de una botella de HNO3 indica que la densidad es 1,014 g · L--1 y la riqueza en masa es 2,42 %. halla: 
+- **a)** La molaridad y el pH de la disolución de HNO3. 
+- **b)** El volumen de Ba(OH)2 0,1 M necesario para neutralizar 10 mL de ácido. 
+
+**Datos:** Ar(N) = 14 u; Ar(O) = 16 u; Ar(H) = 1 u.
+
+### Resolución explicada
+
+**a)** Convertimos el porcentaje másico en concentración molar. Usando la densidad y la riqueza tal como figuran en el enunciado ($1,014\\ \\mathrm{g/L}$ y $2,42\\%$):
+
+$$C=\\frac{1,014\\cdot0,0242}{63}=3,90\\cdot10^{-4}\\ \\mathrm M.$$
+
+El ácido nítrico se considera fuerte, por lo que $[\\mathrm{H_3O^+}]\\approx C$ y:
+
+$$pH=-\\log(3,90\\cdot10^{-4})\\approx3,41.$$
+
+**b)** Ajustamos la neutralización:
+
+$$\\mathrm{Ba(OH)_2+2HNO_3\\to Ba(NO_3)_2+2H_2O}.$$
+
+En 10 mL hay $n(\\mathrm{HNO_3})=3,90\\cdot10^{-4}\\cdot0,010=3,90\\cdot10^{-6}$ mol. Se necesita la mitad de esa cantidad de hidróxido de bario, $1,95\\cdot10^{-6}$ mol. Para una disolución $0,1$ M:
+
+$$V=\\frac{1,95\\cdot10^{-6}}{0,1}=1,95\\cdot10^{-5}\\ \\mathrm L=0,0195\\ \\mathrm{mL}.$$
+
+**Resultado:** $C\\approx3,9\\cdot10^{-4}$ M, $pH\\approx3,41$ y $V\\approx1,95\\cdot10^{-5}$ L. La densidad expresada en g/L es poco habitual para una disolución acuosa; el cálculo mantiene las unidades indicadas en los datos.
+
+---
+
+## C4
+
+### El ejercicio
+
+El carbono reacciona con ácido nítrico concentrado produciéndose dióxido de carbono, dióxido de nitrógeno y agua. C + HNO3 → CO2 + NO2 + H2O. 
+- **a)** Ajusta las ecuaciones iónica y molecular por el método del ión-electrón. 
+- **b)** Halla el volumen de CO2, medido a 25 º C y 1 atm de presión que se desprende cuando reaccione 1 Kg de un carbono mineral de riqueza en C del 60 % con exceso de HNO3. 
+
+**Datos:** R = 0,082 atm · L · mol-1· K-1; Ar(C) = 12 u.
+
+### Resolución explicada
+
+**a)** En el carbono, el número de oxidación pasa de 0 a +4; el nitrógeno del nitrato pasa de +5 a +4. Escribimos en medio ácido:
+
+$$\\begin{aligned}\\text{Oxidación: }&\\mathrm{C+2H_2O\\to CO_2+4H^++4e^-}\\\\\\text{Reducción: }&\\mathrm{NO_3^-+2H^++e^-\\to NO_2+H_2O}.\\end{aligned}$$
+
+Multiplicamos la reducción por 4, sumamos y cancelamos electrones, agua y protones comunes:
+
+$$\\mathrm{C+4NO_3^-+4H^+\\to CO_2+4NO_2+2H_2O}.$$
+
+La ecuación molecular queda $\\mathrm{C+4HNO_3\\to CO_2+4NO_2+2H_2O}$.
+
+**b)** De 1 kg de mineral con un 60 % de carbono, la masa de carbono puro es $600$ g, es decir, $600/12=50$ moles. La relación carbono/dióxido de carbono es 1:1, de modo que también obtenemos 50 mol de $\\mathrm{CO_2}$.
+
+$$V=\\frac{nRT}{P}=\\frac{50\\cdot0,082\\cdot298}{1}\\approx1\\,222\\ \\mathrm L.$$
+
+**Resultado:** se liberan alrededor de **1222 L de dióxido de carbono**.
+
+---
+`,So=`---
+title: "Examen resuelto de Química: septiembre de 2023 · modelo 2"
+seoTitle: "Examen resuelto de Química: septiembre de 2023 · modelo 2"
+date: "2026-11-05"
+updated: "2026-11-05"
+description: "Resolución razonada de un examen completo de Química: enlaces, equilibrio, ácido-base, redox y cálculos."
+tag: "Exámenes resueltos"
+category: "Química"
+relatedService: "/campus/"
+relatedPosts: "pau-quimica-enlace-geometria-molecular,pau-quimica-equilibrio-quimico-estudiar,pau-quimica-acido-base-ph-calculos"
+image: "/assets/latex/bonding-particles.svg"
+---
+
+# Examen resuelto de Química: septiembre de 2023 · modelo 2
+
+No hace falta saberse todo de memoria para resolverlo bien. Fíjate en qué dato activa cada método y en las comprobaciones finales: ahí está la parte más útil para repetir el proceso por tu cuenta.
+
+## 1
+
+### El ejercicio
+
+Cuando se hace reaccionar ácido nítrico con dicloro se obtiene ácido clórico, dióxido de nitrógeno y agua. 
+- **a)** Plantea y ajusta la ecuación iónica por el método del ión-electrón y escribe la ecuación molecular completa. 
+- **b)** Si al abrir la botella de ácido nítrico para hacer la reacción en el laboratorio, se nos cayera un anillo de oro dentro de la botella ¿se salvaría el anillo?, ¿y si el anillo fuera de plata? explica con argumentos las respuestas. 
+
+**Datos:** Eº(Au3+/Au) = +1,50 V; Eº(Ag+/Ag) = +0,80 V; Eº(NO3 –/NO) = +0,96 V
+
+### Resolución explicada
+
+**a)** El ácido nítrico se reduce a $\\mathrm{NO_2}$ y el cloro se oxida a clorato. Las semirreacciones en medio ácido son:
+
+$$\\mathrm{NO_3^-+2H^++e^-\\longrightarrow NO_2+H_2O},$$
+$$\\mathrm{Cl_2+6H_2O\\longrightarrow2ClO_3^-+12H^++10e^-}.$$
+
+Multiplicamos la primera por 10 y sumamos. La ecuación iónica es:
+
+$$\\mathrm{10NO_3^-+Cl_2+8H^+\\longrightarrow10NO_2+2ClO_3^-+4H_2O}.$$
+
+La ecuación molecular queda:
+
+$$\\boxed{\\mathrm{10HNO_3+Cl_2\\longrightarrow2HClO_3+10NO_2+4H_2O}}.$$
+
+**b)** Para que un metal se disuelva espontáneamente por oxidación con el nitrato, el potencial de la reacción ha de ser positivo. Con los potenciales suministrados:
+
+$$E^\\circ(\\mathrm{Au})=0,96-1,50=-0,54\\ \\mathrm V,$$
+$$E^\\circ(\\mathrm{Ag})=0,96-0,80=+0,16\\ \\mathrm V.$$
+
+**Resultado:** en las condiciones del ejercicio, **el anillo de oro se conservaría**, pero **el de plata se disolvería**.
+
+**Explicación ampliada del procedimiento**
+
+Para igualar los electrones intercambiados se multiplica por 10 la semirreacción de reducción, y para eliminarlos se suman ambas semirreacciones, apareciendo la ecuación iónica ajustada.
+
+---
+
+## 2
+
+### El ejercicio
+
+- **a)** Justifica si en las siguientes reacciones la especie de cobre usada como reactivo se comporta como agente oxidante o como agente reductor, indicando su semirreacción: i) Zn + 2 CuSO4 → ZnSO4 + Cu2SO4 ii) Cu + 1/2 Cl2 → CuCl iii) 2 Cu2O + O2 → 4 CuO 
+- **b)** Ordena las siguientes especies de menor a mayor número de oxidación del nitrógeno. justifica la respuesta. i) NaNO2; ii) N2O; iii) Na3N; iv) NO; v) N2.
+
+### Resolución explicada
+
+**a)** Analizamos cómo cambia el número de oxidación del cobre en cada proceso:
+
+**i)** $\\mathrm{Zn+2CuSO_4\\to ZnSO_4+Cu_2SO_4}$. El Cu(II) pasa a Cu(I), por lo que gana un electrón:
+
+$$\\mathrm{Cu^{2+}+e^-\\longrightarrow Cu^+}.$$
+
+Se **reduce** y, por tanto, actúa como **agente oxidante**.
+
+**ii)** $\\mathrm{Cu+\\tfrac12Cl_2\\to CuCl}$. El cobre metálico pasa a Cu(I):
+
+$$\\mathrm{Cu\\longrightarrow Cu^++e^-}.$$
+
+Se **oxida** y funciona como **reductor**.
+
+**iii)** $\\mathrm{2Cu_2O+O_2\\to4CuO}$. El cobre pasa de +1 a +2:
+
+$$\\mathrm{Cu^+\\longrightarrow Cu^{2+}+e^-}.$$
+
+También es el **reductor**.
+
+**b)** Si el oxígeno vale $-2$ y el sodio $+1$, obtenemos estos números de oxidación del nitrógeno:
+
+$\\mathrm{Na_3N}$: $-3$; $\\mathrm{N_2}$: $0$; $\\mathrm{N_2O}$: $+1$ (valor medio); $\\mathrm{NO}$: $+2$; $\\mathrm{NaNO_2}$: $+3$.
+
+Por tanto, de menor a mayor:
+
+$$\\boxed{\\mathrm{Na_3N<N_2<N_2O<NO<NaNO_2}}.$$
+
+---
+
+## 3
+
+### El ejercicio
+
+Se ha determinado que para la reacción A (g) + 2 B (g) + C (g) → 2 D (g) + E (g) la ecuación de velocidad es v = k [A]2 [B]. Contesta estas preguntas razonando las respuestas: 
+- **a)** Indica el orden parcial de los reactivos y el orden global de la reacción. 
+- **b)** ¿Cómo variará la velocidad de reacción si se duplica la concentración de A manteniendo constante la concentración de B? 
+- **c)** El reactivo C no aparece en la ecuación de velocidad, ¿se puede afirmar que no se consume durante la reacción? 
+- **d)** ¿Cómo afectará a la velocidad de reacción un aumento de volumen a temperatura constante?
+
+### Resolución explicada
+
+**a)** La ley de velocidad es $v=k[A]^2[B]$. Por los exponentes, el orden en A es **2**, en B es **1** y en C es **0**. El orden global es $2+1=3$.
+
+**b)** Si duplicamos A y mantenemos B constante:
+
+$$v'=k(2[A])^2[B]=4k[A]^2[B]=4v.$$
+
+La reacción se vuelve **cuatro veces más rápida**.
+
+**c)** No. Que C no figure en la ley de velocidad solo significa que, en las condiciones estudiadas, su concentración no modifica la velocidad. **C sí se consume** porque aparece como reactivo en la ecuación global.
+
+**d)** Al aumentar el volumen del recipiente, las concentraciones de los gases disminuyen. Puesto que $v$ depende de $[A]^2[B]$, **la velocidad disminuye**.
+
+**Explicación ampliada del procedimiento**
+
+c) En una reacción química la presencia de todos los reactivos indica que intervienen en la reacción y, por tanto, se consume. Si la concentración del reactivo C no tiene influencia en la velocidad de reacción, ello no implica que el reactivo no se consuma.
+
+---
+
+## 4
+
+### El ejercicio
+
+Fíjate en las siguientes moléculas: SCl2 y BeCl2. 
+- **a)** Representa y justifica sus estructuras de Lewis, indicando, cuando proceda, los pares de electrones no compartidos. 
+- **b)** Indica sus geometrías moleculares utilizando la teoría de repulsión de pares de electrones de la capa de valencia (TRPECV). explica con argumentos si sus geometrías electrónicas coinciden con las moleculares. 
+- **c)** Deduce la hibridación del átomo central de la molécula de BeCl2. explica con argumentos la respuesta.
+
+### Resolución explicada
+
+**a)** En **SCl₂**, el azufre tiene seis electrones de valencia. Forma dos enlaces sencillos S–Cl y conserva **dos pares de electrones libres**; cada cloro posee otros tres pares libres. Su representación de Lewis se describe como $\\mathrm{Cl{-}S{-}Cl}$, añadiendo los dos pares no enlazantes sobre S.
+
+En **BeCl₂**, el berilio tiene dos electrones de valencia, forma dos enlaces Be–Cl y **no conserva pares libres**. Cada Cl presenta tres pares sin compartir. Su representación es $\\mathrm{Cl{-}Be{-}Cl}$.
+
+**b)** Según la teoría de repulsión de pares electrónicos:
+
+- SCl₂: cuatro regiones electrónicas alrededor del azufre (dos enlaces y dos pares libres). Tiene geometría **electrónica tetraédrica**, pero **molecular angular**; no coinciden.
+- BeCl₂: dos regiones alrededor del berilio y ningún par libre. Tiene geometría **electrónica y molecular lineal**; sí coinciden.
+
+**c)** El berilio combina un orbital $2s$ y uno $2p$ para crear dos orbitales híbridos equivalentes, orientados a $180^\\circ$. Por eso la hibridación central de BeCl₂ es **sp**.
+
+**Explicación ampliada del procedimiento**
+
+El átomo de S comparte 2 electrones con los átomos de Cl y le quedan 2 pares de electrones sin compartir. Cada Cl comparte un electrón con el S y le quedan 3 pares sin compartir.
+
+b) La teoría de RPECV dice que los pares de electrones compartidos y libres, se orientan en el espacio alejándose entre sí lo suficiente, para conseguir que las repulsiones electrostáticas entre ellos sean mínimas. De la orientación adquirida depende la geometría de la molécula.
+
+En la molécula SCl2, en la que el átomo central, el S, posee dos pares de electrones libres, su geometría es angular, mientras que la de la molécula BeCl2, sin pares de electrones libres en el átomo central, Be, su geometría es lineal.
+
+c) La configuración electrónica del átomo de Be es: Be: 1s2 2s2. El átomo de Be promociona uno de sus dos electrones de valencia 2s2, a uno de los orbitales vacío 2p, y por combinación lineal de estos orbitales atómicos 2s y 2p semiocupados, se forman dos orbitales híbridos sp, que son los que utiliza el átomo de Be para unirse a los dos átomos de cloro. La hibridación del Be es sp.
+
+---
+
+## 5
+
+### El ejercicio
+
+- **a)** Escribe la configuración electrónica de los siguientes iones: H–, Ca2+, Mg2+, F–, Li+, S2–, y agrupa aquellos que sean isoelectrónicos. 
+- **b)** Explica por qué los puntos de ebullición del HF (293 K) y del HCl (188 K) son tan diferentes. 
+- **c)** Trabaja con los elementos químicos C y Si e indica justificando tu respuesta cuál de ellos tendrá un mayor radio atómico y cuál tendrá una mayor energía de ionización.
+
+### Resolución explicada
+
+**a)** Las configuraciones de los iones son:
+
+- $\\mathrm{H^-}$: $1s^2$; $\\mathrm{Li^+}$: $1s^2$.
+- $\\mathrm{Mg^{2+}}$: $1s^2\\,2s^2\\,2p^6$; $\\mathrm{F^-}$: $1s^2\\,2s^2\\,2p^6$.
+- $\\mathrm{Ca^{2+}}$: $1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^6$; $\\mathrm{S^{2-}}$: $1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^6$.
+
+Los pares **isoelectrónicos** son H⁻/Li⁺, Mg²⁺/F⁻ y Ca²⁺/S²⁻.
+
+**b)** Tanto HF como HCl son moléculas polares, pero el HF puede establecer **puentes de hidrógeno** entre moléculas, que son interacciones especialmente intensas. Por eso tiene un punto de ebullición de **293 K**, frente a los **188 K** del HCl.
+
+**c)** El carbono y el silicio pertenecen al grupo 14. Como el Si está un período por debajo, tiene **mayor radio atómico**. El carbono tiene los electrones de valencia más cerca del núcleo, por lo que presenta **mayor primera energía de ionización**.
+
+**Explicación ampliada del procedimiento**
+
+b) Los puntos de ebullición están directamente relacionados con las fuerzas intermoleculares presentes en cada sustancia; a mayor fuerza intermolecular, mayor punto de ebullición.
+
+c) El radio atómico es una propiedad periódica que disminuye al avanzar en un período de izquierda a derecha, debido a que al aumentar la carga nuclear y situarse el electrón diferenciador (electrón demás que tiene un átomo respecto al anterior en el período) en el mismo nivel energético, aumenta la fuerza atractiva núcleo-electrón diferenciador, lo que provoca una contracción de su volumen y, por ello, una disminución del radio atómico.
+
+Al bajar en un grupo aumenta el radio atómico debido a que, aunque se va incrementando la carga nuclear, los electrones se van situando en niveles cada vez más alejados del núcleo y, por ello, la fuerza atractiva núcleo-electrón va haciéndose cada vez menor y ello provoca el efecto citado.
+
+Energía de ionización: es la energía que hay que comunicar a un átomo neutro, gaseoso y en su estado electrónico fundamental, para arrancarle un electrón y convertirlo en ión monopositivo en el mismo estado gaseoso y fundamental.
+
+En los períodos esta propiedad aumenta al avanzar en él debido a que el electrón más externos, por situarse en el mismo nivel energético y aumentar la carga nuclear del átomo, es más fuertemente atraído por el núcleo y se necesita aplicar más cantidad de energía para arrancarlo; mientras que en los grupos disminuye al bajar en ellos debido a que el electrón más externos, al ir situándose en niveles energéticos cada vez más alejado del núcleo, es más débilmente atraído por él y se necesita aplicar menos cantidad de energía para arrancarlo.
+
+---
+
+## 6
+
+### El ejercicio
+
+La concentración de HCl en el estómago (jugo gástrico) es, aproximadamente, 0,08 M, y cuando existe la sensación de “acidez estomacal” el contenido de HCl en el estómago llega a valores del 0,1 M. 
+- **a)** ¿Cuál es el pH del jugo gástrico en ambas situaciones? 
+- **b)** Si tenemos sensación de “acidez estomacal” y disponemos de un antiácido que tiene una fórmula abreviada como M(OH)4, ¿Cuántos gramos del antiácido necesitaríamos ingerir para rebajar la concentración de HCl en el estómago hasta el valor adecuado de 0,08 M? Considera un volumen del estómago de 800 mL. 
+- **c)** Si en lugar de tener HCl en el jugo gástrico tuviéramos ácido acético en una concentración 0,08 M (CH3COOH, Ka = 1,8·10–5), ¿cuál sería el pH en nuestro estómago? Dato: Masa molar (M(OH)4) = 144 g/mol.
+
+### Resolución explicada
+
+**a)** El HCl es un ácido fuerte y se disocia prácticamente por completo. Así:
+
+$$\\mathrm{pH}_{\\mathrm{normal}}=-\\log(0,08)\\approx1,10,\\qquad\\mathrm{pH}_{\\mathrm{acidez}}=-\\log(0,10)=1,00.$$
+
+**b)** Para volver de $0,10$ a $0,08$ M en $0,800$ L hay que neutralizar:
+
+$$n(\\mathrm{HCl})=(0,10-0,08)\\cdot0,800=0,016\\ \\mathrm{mol}.$$
+
+Un mol de antiácido $\\mathrm{M(OH)_4}$ neutraliza cuatro moles de HCl:
+
+$$\\mathrm{M(OH)_4+4HCl\\longrightarrow MCl_4+4H_2O}.$$
+
+Por tanto, $n(\\mathrm{M(OH)_4})=0,016/4=0,004$ mol y la masa buscada es:
+
+$$m=0,004\\cdot144=0,576\\ \\mathrm g.$$
+
+**c)** Para una disolución de ácido acético $0,08$ M:
+
+$$\\mathrm{CH_3COOH+H_2O\\rightleftharpoons CH_3COO^-+H_3O^+}.$$
+
+Si $x=[\\mathrm{H_3O^+}]$:
+
+$$1,8\\cdot10^{-5}=\\frac{x^2}{0,08-x}.$$
+
+Como $x$ es pequeño, $x\\approx\\sqrt{1,8\\cdot10^{-5}\\cdot0,08}=1,20\\cdot10^{-3}$ M, de donde $\\mathrm{pH}\\approx2,92$.
+
+**Resultado:** pH normal $1,10$, pH en acidez $1,00$, antiácido $0,576$ g y pH del ácido acético $2,92$.
+
+---
+
+## 7
+
+### El ejercicio
+
+Contesta estas preguntas y explica tu razonamiento: 
+- **a)** Se cuenta con dos disoluciones acuosas de la misma concentración de KOH y NH3, ¿cuál de ellas tendrá el pOH más bajo? (Kb (NH3) = 1,8·10–5) 
+- **b)** Escribe la expresión de Kb para la especie HS– indicando el equilibrio químico al que se refiere. 
+- **c)** A 60 ºC el valor del producto iónico del agua (Kw) es 10–13. halla el valor del pH del agua a esa temperatura. 
+- **d)** Si a 10 mL de una disolución acuosa de un ácido débil HA se le añaden 10 mL de una disolución de NaOH de la misma concentración, justifique el carácter ácido, básico o neutro de la disolución resultante.
+
+### Resolución explicada
+
+**a)** A igual concentración, la disolución de **KOH** tendrá el **pOH más bajo**, ya que se disocia por completo y produce más $\\mathrm{OH^-}$ que la base débil NH₃.
+
+**b)** El ion $\\mathrm{HS^-}$ puede actuar como base aceptando un protón:
+
+$$\\mathrm{HS^-+H_2O\\rightleftharpoons H_2S+OH^-}.$$
+
+$$K_b=\\frac{[\\mathrm{H_2S}][\\mathrm{OH^-}]}{[\\mathrm{HS^-}]}.$$
+
+**c)** Si a 60 °C se cumple $K_w=10^{-13}$, el agua pura sigue siendo neutra porque $[\\mathrm{H_3O^+}]=[\\mathrm{OH^-}]$. Por tanto:
+
+$$[\\mathrm{H_3O^+}]=\\sqrt{10^{-13}}=10^{-6,5}\\quad\\Rightarrow\\quad\\mathrm{pH}=6,5.$$
+
+**d)** Mezclamos el mismo número de moles de un ácido débil HA y una base fuerte NaOH. Se neutralizan completamente:
+
+$$\\mathrm{HA+OH^-\\longrightarrow A^-+H_2O}.$$
+
+Queda la base conjugada $\\mathrm{A^-}$, que reacciona en parte con el agua:
+
+$$\\mathrm{A^-+H_2O\\rightleftharpoons HA+OH^-}.$$
+
+Como genera iones hidróxido, la disolución final es **básica**.
+
+**Explicación ampliada del procedimiento**
+
+Para saber cual es el carácter de la disolución resultante hay que conocer si la neutralización ha sido completa o si hay alguno de los reactivos en exceso.
+
+Como a igual volumen y concentración la neutralización es completa, reaccionan el mismo número de moles, n = M · V, la acidez o basicidad de la disolución resultante depende de la hidrolización de la base conjugada, fuerte, del ácido débil HA. El equilibrio de hidrolización de la base conjugada es: A– + H2O ⇄ HA + OH–, en la que la producción de iones hidróxidos pone de manifiesto que la disolución resultante es de carácter básico.
+
+---
+
+## 8
+
+### El ejercicio
+
+El clorato de potasio sólido se descompone para dar cloruro de potasio sólido y oxígeno gas. La entalpía del proceso es de – 22,2 kJ por mol de clorato descompuesto. 
+- **a)** Plantea y ajusta la ecuación de descomposición del clorato de potasio y halla la entalpía molar de formación de este reactivo. 
+- **b)** Halla el calor que se desprenderá al obtener 13,5 L de oxígeno, medidos a 25 ºC y 1,5 atmósferas, y los gramos que serán necesarios de clorato de potasio. 
+- **c)** ¿Se puede afirmar que esta reacción será espontánea a cualquier temperatura? justifica la respuesta. 
+
+**Datos:** Masas atómicas: K = 39; Cl = 35,5; O = 16. R = 0,082 atm·L· mol–1·K–1 ΔHf o (kJ·mol–1): Cloruro de potasio (s) = – 436,7.
+
+### Resolución explicada
+
+
+**a)** La ecuación de descomposición, ya ajustada, es:
+
+$$\\mathrm{2KClO_3(s)\\to2KCl(s)+3O_2(g)}.$$
+
+Por la ley de Hess, la entalpía de la reacción se obtiene restando las entalpías de formación de los reactivos a las de los productos:
+
+$$\\Delta H_r^\\circ=2\\Delta H_f^\\circ(\\mathrm{KCl})+3\\Delta H_f^\\circ(\\mathrm{O_2})-2\\Delta H_f^\\circ(\\mathrm{KClO_3}).$$
+
+El oxígeno molecular está en su estado de referencia y tiene entalpía de formación nula. Como la ecuación ajustada incluye **dos moles** de clorato, la entalpía indicada por mol debe multiplicarse por dos:
+
+$$-44,4=2(-436,7)-2\\Delta H_f^\\circ(\\mathrm{KClO_3}).$$
+
+Despejando, obtenemos:
+
+$$\\Delta H_f^\\circ(\\mathrm{KClO_3})=\\boxed{-414,5\\ \\mathrm{kJ/mol}}.$$
+
+**b)** Pasamos los $13,5$ L de oxígeno a moles con $P=1,5$ atm y $T=298$ K:
+
+$$n(\\mathrm{O_2})=\\frac{PV}{RT}=\\frac{1,5\\cdot13,5}{0,082\\cdot298}=0,829\\ \\mathrm{mol}.$$
+
+De la proporción $2\\mathrm{KClO_3}:3\\mathrm{O_2}$:
+
+$$n(\\mathrm{KClO_3})=\\frac{2}{3}\\cdot0,829=0,553\\ \\mathrm{mol},$$
+$$m(\\mathrm{KClO_3})=0,553\\cdot122,5\\approx\\boxed{67,7\\ \\mathrm g}.$$
+
+La entalpía está expresada por mol de clorato, así que el calor se calcula con los moles de $\\mathrm{KClO_3}$ obtenidos:
+
+$$q=-22,2\\cdot0,553\\approx\\boxed{-12,3\\ \\mathrm{kJ}}.$$
+
+**c)** Al liberarse calor, $\\Delta H<0$, y generarse gas a partir de sólidos, la entropía aumenta ($\\Delta S>0$). Por tanto, $\\Delta G=\\Delta H-T\\Delta S<0$ para $T>0$ dentro del planteamiento del problema: la reacción se considera espontánea a cualquier temperatura.
+
+**Comprobación de consistencia:** el signo negativo indica que la reacción libera calor, tal como corresponde a una transformación exotérmica.
+
+---
+
+## 9
+
+### El ejercicio
+
+El fosgeno (COCl2) es un intermedio importante en algunos procesos de la industria química de los plásticos y los pesticidas entre otros, aunque también es un gas venenoso. El fosgeno se descompone según el siguiente equilibrio: COCl2 (g) ⇄ CO (g) + Cl2 (g), siendo ΔH > 0. Si Dentro de un recipiente de 50 L se añaden 150 g de fosgeno a 1000K, y en el equilibrio se detecta que se han formado 100 g de Cl2, halla: 
+- **a)** Los gramos de fosgeno que quedarán sin descomponer y las presiones parciales de CO y Cl2 una vez establecido el equilibrio. 
+- **b)** Si se quiere reducir la descomposición del fosgeno, ¿qué se debe hacer con la temperatura y la presión de trabajo? 
+
+**Datos:** Masas atómicas: C = 12; Cl = 35,5; O = 16.
+
+### Resolución explicada
+
+
+**a)** El equilibrio de descomposición del fosgeno es:
+
+$$\\mathrm{COCl_2(g)\\rightleftharpoons CO(g)+Cl_2(g)}.$$
+
+Los moles de fosgeno introducidos y los moles de cloro formados se calculan con las masas molares de $99$ y $71$ g/mol:
+
+$$n_0(\\mathrm{COCl_2})=\\frac{150}{99}=1,5152\\ \\mathrm{mol},$$
+$$n(\\mathrm{Cl_2})=\\frac{100}{71}=1,4085\\ \\mathrm{mol}.$$
+
+Como la proporción es 1:1, se descompone el mismo número de moles de fosgeno que de cloro aparece. Si trabajamos **con los redondeos utilizados en la solución del examen** ($1,52$ y $1,40$ mol):
+
+$$n_{eq}(\\mathrm{COCl_2})=1,52-1,40=0,12\\ \\mathrm{mol},$$
+$$m_{eq}(\\mathrm{COCl_2})=0,12\\cdot99=\\boxed{11,88\\ \\mathrm g}.$$
+
+En cambio, usando los valores completos se obtiene $(1,5152-1,4085)\\cdot99\\approx10,6$ g. La diferencia procede de redondear pronto los moles.
+
+La estequiometría también indica que se forman $1,4$ mol de CO. Como hay igual cantidad de ambos productos gaseosos, sus presiones parciales coinciden:
+
+$$P_{\\mathrm{CO}}=P_{\\mathrm{Cl_2}}=\\frac{1,4\\cdot0,082\\cdot1000}{50}=\\boxed{2,30\\ \\mathrm{atm}}.$$
+
+**b)** La reacción directa es endotérmica ($\\Delta H>0$), por lo que **bajar la temperatura** favorece la reacción inversa, que produce fosgeno. Por otro lado, los productos suman dos moles de gas frente a un mol gaseoso en el reactivo: **aumentar la presión**, o disminuir el volumen, desplaza el equilibrio hacia el lado con menos moles, es decir, hacia el fosgeno.
+
+**Resultados de la resolución:** $11,88$ g de fosgeno con los redondeos empleados, presiones parciales de aproximadamente $2,3$ atm y, para reducir su descomposición, temperatura menor y presión mayor.
+
+---
+
+## 10
+
+### El ejercicio
+
+Indica, justificando la respuesta, si las siguientes afirmaciones son verdaderas o falsas: 
+- **a)** Como los productos de solubilidad a 18 ºC del Fe(OH)2 (Kps = 1,64·10–14) y del PbCrO4 (Kps = 1,7·10–14) son casi iguales, sus solubilidades molares en agua también lo serán. 
+- **b)** La solubilidad en agua del MgF2 (Kps = 6,4·10–9) aumenta al añadir a la disolución la sal soluble NaF. 
+- **c)** Si se preparan 150 mL de una disolución saturada de CuBr (Kps = 4,15·10–8), y después se evaporan 50 mL de agua manteniendo constante la temperatura, la concentración de los iones en la disolución no variará.
+
+### Resolución explicada
+
+**a) Falsa.** Aunque los productos de solubilidad se parezcan, las fórmulas de las sales son diferentes:
+
+$$\\mathrm{Fe(OH)_2(s)\\rightleftharpoons Fe^{2+}+2OH^-},\\qquad K_{ps}=4s^3,$$
+$$\\mathrm{PbCrO_4(s)\\rightleftharpoons Pb^{2+}+CrO_4^{2-}},\\qquad K_{ps}=s^2.$$
+
+Como la dependencia con $s$ es distinta, la solubilidad molar no tiene por qué ser parecida.
+
+**b) Falsa.** Al añadir NaF introducimos el ion común $\\mathrm{F^-}$. El equilibrio $\\mathrm{MgF_2(s)\\rightleftharpoons Mg^{2+}+2F^-}$ se desplaza hacia el sólido, así que **la solubilidad disminuye**.
+
+**c) Verdadera**, suponiendo que todavía queda sólido en contacto con la disolución. Al evaporarse parte del agua, precipita parte del CuBr, pero a temperatura constante **las concentraciones de equilibrio en la disolución saturada permanecen constantes** porque $K_{ps}$ no cambia.
+
+**Explicación ampliada del procedimiento**
+
+b) Falsa. El equilibrio de solubilidad del MgF2 es: MgF2 (s) ⇄ Mg2+ (ac) + 2 F– (ac), y al añadir NaF, se están añadiendo iones fluoruro (F–), lo que incrementa la concentración de estos iones, por lo que, según el principio de Le Chatelier, el equilibrio se desplaza en el sentido en el que se consumen dichos iones, hacia la izquierda, provocando una disminución de la solubilidad del MgF2.
+
+---
+`,zo=`---
+title: "Examen resuelto de Química: septiembre de 2023 · modelo 3"
+seoTitle: "Examen resuelto de Química: septiembre de 2023 · modelo 3"
+date: "2026-11-05"
+updated: "2026-11-05"
+description: "Una resolución completa de Química para entrenar el método en formulación, enlaces, equilibrio y problemas numéricos."
+tag: "Exámenes resueltos"
+category: "Química"
+relatedService: "/campus/"
+relatedPosts: "pau-quimica-organica-mapa-reacciones,pau-quimica-cinetica-arrhenius-velocidad,pau-quimica-volumetrias-acido-base-redox"
+image: "/assets/latex/organic-reaction-map.svg"
+---
+
+# Examen resuelto de Química: septiembre de 2023 · modelo 3
+
+Aquí la prioridad es que entiendas el recorrido. Si un cálculo se complica, vuelve a la ecuación y a las unidades: casi siempre te indican el siguiente paso mejor que una fórmula aprendida de memoria.
+
+## Problema 1
+
+### El ejercicio
+
+El nitrato de amonio, NH4NO3, es una sal que se utiliza como fertilizante, aunque, bajo ciertas condiciones, se descompone explosivamente según la ecuación química siguiente no ajustada: NH4NO3 (s) → N2 (g) + O2 (g) + H2O (l) Un bidón de 50 L contiene 0,5 kg de una sustancia que tiene un 80 % de riqueza en nitrato de amonio. Si se calienta y llegase a explotar totalmente, halla: 
+- **a)** La presión total que ejercerían los gases liberados si la temperatura del recipiente es de 75 º C. 
+- **b)** ¿Cuánto volumen de agua se obtendría? 
+
+**Datos:** Densidad del agua = 0,975 g · mL–1. Ar(H) =1,0 u; Ar(N) = 14,0 u; Ar(O) = 16,0 u. R = 0,082 atm · L · K–1 · mol–1.
+
+### Resolución explicada
+
+**a)** La cantidad de nitrato de amonio puro es $0,5\\cdot0,80=0,40\\ \\mathrm{kg}=400\\ \\mathrm{g}$. Como su masa molar es $80\\ \\mathrm{g\\,mol^{-1}}$, partimos de $5$ moles.
+
+Ajustamos la descomposición:
+
+$$2\\,\\mathrm{NH_4NO_3(s)}\\longrightarrow 2\\,\\mathrm{N_2(g)}+\\mathrm{O_2(g)}+4\\,\\mathrm{H_2O}.$$
+
+De los 5 moles iniciales salen 5 moles de $\\mathrm{N_2}$, 2,5 moles de $\\mathrm{O_2}$ y 10 moles de agua. Como el agua se considera líquida a $75\\,^\\circ\\mathrm C$, para la presión contamos **7,5 moles de gas**, no los 10 moles de agua.
+
+$$P=\\frac{nRT}{V}=\\frac{7,5\\cdot0,082\\cdot348}{50}\\approx4,28\\ \\mathrm{atm}.$$
+
+**b)** La masa de agua obtenida es $10\\cdot18=180\\ \\mathrm g$. Con la densidad indicada:
+
+$$V=\\frac{180}{0,975}=184,6\\ \\mathrm{mL}\\approx0,185\\ \\mathrm L.$$
+
+**Resultado:** $P\\approx4,28\\ \\mathrm{atm}$ y $V_{\\mathrm{agua}}\\approx185\\ \\mathrm{mL}$.
+
+---
+
+## Problema 2
+
+### El ejercicio
+
+El dióxido de carbono, CO2, reacciona con carbono, C, para dar monóxido de carbono, CO, según el equilibrio: C (s) + CO2 (g) ⇄ 2 CO (g) En un reactor de 50 L de volumen, mantenido a 700 ºC, en el que se ha hecho previamente el vacío, se incorpora CO2 hasta que la presión en su interior alcanza 0,52 atm y, posteriormente, se añade un exceso de carbono. Cuando el sistema llega al equilibrio la presión en el interior del reactor es de 0,95 atm. 
+- **a)** Halla las constantes Kp y Kc del equilibrio planteado. 
+- **b)** Si tras vaciar completamente el reactor, se incorpora únicamente CO hasta alcanzar una presión de 0,5 atm, halla la masa (en gramos) de cada uno de los tres componentes de la mezcla una vez se alcance el equilibrio. 
+
+**Datos:** Ar(C) = 12 u; Ar(O) = 16 u. R = 0,082 atm · L · K–1 · mol–1.
+
+### Resolución explicada
+
+
+**a)** La reacción es
+
+$$\\mathrm{C(s)+CO_2(g)\\rightleftharpoons 2CO(g)}.$$
+
+Inicialmente hay dióxido de carbono a $0,52$ atm en 50 L y $700\\,^{\\circ}\\mathrm C=973$ K. Sus moles son:
+
+$$n_0(\\mathrm{CO_2})=\\frac{0,52\\cdot50}{0,082\\cdot973}=0,326\\ \\mathrm{mol}.$$
+
+Si reaccionan $x$ moles, quedan $0,326-x$ mol de $\\mathrm{CO_2}$ y se forman $2x$ mol de CO. En el equilibrio, $n_\\mathrm{tot}=0,326+x$, y la presión total es $0,95$ atm:
+
+$$0,326+x=\\frac{0,95\\cdot50}{0,082\\cdot973}=0,595\\quad\\Rightarrow\\quad x=0,269\\ \\mathrm{mol}.$$
+
+Entonces hay $0,057$ mol de CO₂ y $0,538$ mol de CO. Sus concentraciones son
+
+$$[\\mathrm{CO_2}]=\\frac{0,057}{50}=0,00114\\ \\mathrm M,\\qquad[\\mathrm{CO}]=\\frac{0,538}{50}=0,01076\\ \\mathrm M.$$
+
+El desarrollo entregado redondea $[\\mathrm{CO}]$ a $0,011$ M antes de calcular $K_c$:
+
+$$K_c=\\frac{[\\mathrm{CO}]^2}{[\\mathrm{CO_2}]}\\approx\\frac{0,011^2}{0,00114}=\\boxed{0,106}.$$
+
+Como $\\Delta n=2-1=1$:
+
+$$K_p=K_c(RT)^{\\Delta n}=0,106\\cdot0,082\\cdot973\\approx\\boxed{8,46}.$$
+
+**b)** Vaciamos el reactor y lo llenamos solo de CO hasta $0,50$ atm. En el nuevo equilibrio, si se han formado $p$ atm de CO₂, las presiones son
+
+$$P_{\\mathrm{CO_2}}=p,\\qquad P_{\\mathrm{CO}}=0,50-2p.$$
+
+Introducimos esos valores en $K_p$:
+
+$$8,46=\\frac{(0,50-2p)^2}{p}\\quad\\Longrightarrow\\quad4p^2-10,46p+0,25=0.$$
+
+La raíz físicamente válida está cerca de $p=0,024$ atm, y la presión de CO restante es aproximadamente $0,45$ atm. Usando $n=PV/(RT)$ y las masas molares:
+
+$$m(\\mathrm{CO_2})\\approx0,66\\ \\mathrm g,\\qquad m(\\mathrm{CO})\\approx7,84\\ \\mathrm g.$$
+
+En la reacción inversa, $2\\mathrm{CO}\\to\\mathrm{C+CO_2}$, el carbono sólido formado tiene los mismos moles que el CO₂ formado. Con unos $0,015$ mol de CO₂, la masa coherente de carbono sería $0,015\\cdot12\\approx0,18$ g.
+
+**Resultados de la solución entregada:** $K_c=0,106$, $K_p=8,46$; $0,66$ g de CO₂, $7,84$ g de CO y **2,88 g de carbono**. Ese último dato no sale de los moles de CO₂ calculados y es una inconsistencia del desarrollo. Si se evita el redondeo temprano, las constantes y masas cambian ligeramente.
+
+---
+
+## Problema 3
+
+### El ejercicio
+
+El ácido glicólico es un ácido monoprótico, HA, que se utiliza por los dermatólogos para desvanecer arrugas y disminuir el acné debido a su carácter irritante. El efecto que produce en la piel depende de la concentración utilizada; de hecho, sólo los dermatólogos pueden utilizar disoluciones con pH por debajo de 3. 
+- **a)** Si la constante de acidez, Ka, del ácido glicólico es de 1,48 · 10–4, halla la concentración de ácido que tendrá que utilizar un dermatólogo para que el pH de la disolución que va a utilizar en un tratamiento sea de 2. 
+- **b)** Si el dermatólogo toma 20 mL de la disolución anterior y añade agua hasta un volumen total de 70 mL, ¿qué pH tendrá ahora la nueva disolución de ácido glicólico?
+
+### Resolución explicada
+
+**a)** Para este ácido monoprótico escribimos:
+
+$$\\mathrm{HA+H_2O\\rightleftharpoons A^-+H_3O^+}.$$
+
+El pH buscado es 2, por lo que $[\\mathrm{H_3O^+}]=10^{-2}=0,010\\ \\mathrm M$. Llamando $C_0$ a la concentración inicial, en equilibrio quedan $C_0-0,010$ moles por litro de ácido sin disociar.
+
+$$K_a=\\frac{(0,010)^2}{C_0-0,010}=1,48\\cdot10^{-4}.$$
+
+Despejamos:
+
+$$C_0=0,010+\\frac{10^{-4}}{1,48\\cdot10^{-4}}\\approx0,686\\ \\mathrm M.$$
+
+**b)** Se toman 20 mL de esta disolución y se diluyen **hasta un volumen total de 70 mL**. La nueva concentración formal es:
+
+$$C_1=C_0\\frac{V_0}{V_1}=0,686\\frac{20}{70}=0,196\\ \\mathrm M.$$
+
+En este nuevo equilibrio, si $x=[\\mathrm{H_3O^+}]$, entonces:
+
+$$1,48\\cdot10^{-4}=\\frac{x^2}{0,196-x}.$$
+
+Resolviendo la ecuación cuadrática se obtiene $x\\approx5,31\\cdot10^{-3}\\ \\mathrm M$ y, por tanto:
+
+$$\\mathrm{pH}=-\\log(5,31\\cdot10^{-3})\\approx2,27.$$
+
+**Resultado:** concentración inicial $0,686$ M y pH tras la dilución $\\mathbf{2,27}$.
+
+---
+
+## Problema 4
+
+### El ejercicio
+
+En el departamento de calidad de una industria se desea determinar el porcentaje de hierro en un alambre. Para ello, se disuelve, en medio ácido, un trozo de alambre que pesa 3,125 g, obteniéndose finalmente 500,0 mL de una disolución de Fe2+ (ac). Se tratan 50,0 mL de esta disolución con una disolución de dicromato de potasio 0,02 M, necesitando 32,0 mL para la reacción completa del Fe2+ (ac), según la ecuación química siguiente no ajustada: Cr2O7 2– (ac) + Fe2+ (ac) + H+ (ac) → Cr3+ (ac) + Fe3+ (ac) + H2O (l) 
+- **a)** Identifica justificadamente el agente oxidante y el reductor. Ajusta la ecuación química. 
+- **b)** Halla el porcentaje de hierro en el alambre. 
+
+**Datos:** Ar(Fe) = 55,8 u.
+
+### Resolución explicada
+
+**a)** El hierro pasa de $\\mathrm{Fe^{2+}}$ a $\\mathrm{Fe^{3+}}$ y pierde un electrón: **se oxida y actúa como reductor**. El dicromato pasa de Cr(VI) a Cr(III): **se reduce y actúa como oxidante**.
+
+Las semirreacciones en medio ácido son:
+
+$$\\mathrm{Fe^{2+}\\longrightarrow Fe^{3+}+e^-},$$
+$$\\mathrm{Cr_2O_7^{2-}+14H^++6e^-\\longrightarrow2Cr^{3+}+7H_2O}.$$
+
+Multiplicamos la primera por 6 y sumamos:
+
+$$\\boxed{\\mathrm{Cr_2O_7^{2-}+6Fe^{2+}+14H^+\\longrightarrow2Cr^{3+}+6Fe^{3+}+7H_2O}}.$$
+
+**b)** Los moles de dicromato gastados al valorar 50 mL son:
+
+$$n(\\mathrm{Cr_2O_7^{2-}})=0,020\\cdot0,0320=6,40\\cdot10^{-4}\\ \\mathrm{mol}.$$
+
+Cada mol de dicromato oxida seis de hierro(II), así que la alícuota contiene:
+
+$$n(\\mathrm{Fe^{2+}})=6\\cdot6,40\\cdot10^{-4}=3,84\\cdot10^{-3}\\ \\mathrm{mol}.$$
+
+La disolución completa tiene 500 mL, diez veces el volumen valorado: $n_{\\mathrm{Fe}}=0,0384$ mol. La masa y el porcentaje son:
+
+$$m_{\\mathrm{Fe}}=0,0384\\cdot55,8=2,1427\\ \\mathrm g,$$
+$$\\%\\mathrm{Fe}=\\frac{2,1427}{3,125}\\cdot100\\approx68,6\\%.$$
+
+**Resultado:** el alambre contiene aproximadamente un **68,6 % de hierro**.
+
+**Explicación ampliada del procedimiento**
+
+a) La especie oxidante es la que provoca la oxidación de otra reduciéndose ella. El ión Cr2O72− es la especie oxidante por oxidar al ión Fe2+ a ión Fe3+ reduciéndose él a ión Cr3+.
+
+La especie reductora es la que provoca la reducción de otra oxidándose ella. El ión Fe2+ es la especie reductora por reducir al ión Cr2O72− a Cr3+ oxidándose él a ión Fe3+.
+
+---
+
+## Cuestión 1
+
+### El ejercicio
+
+**a)** Escribe las configuraciones electrónicas de los iones $\\mathrm{Mg^{2+}}$, $\\mathrm{Ca^{2+}}$ y $\\mathrm{Fe^{2+}}$. Indica en qué grupo y período se encuentra cada elemento neutro.
+
+**b)** ¿Qué especie tiene mayor radio, el átomo de yodo o su ion yoduro $\\mathrm{I^-}$? Explica por qué.
+
+**c)** Ordena Mg, Si y S de menor a mayor primera energía de ionización y explica la tendencia.
+
+**Datos:** $Z(\\mathrm{Mg})=12$; $Z(\\mathrm{Si})=14$; $Z(\\mathrm{S})=16$; $Z(\\mathrm{Ca})=20$; $Z(\\mathrm{Fe})=26$; $Z(\\mathrm I)=53$.
+
+### Resolución explicada
+
+**a)** Para formar un catión $2+$ se pierden dos electrones del átomo neutro. Las configuraciones correctas de los iones son:
+
+- $\\mathrm{Mg^{2+}}$: $1s^2\\,2s^2\\,2p^6$. El magnesio está en el **grupo 2, período 3**.
+- $\\mathrm{Ca^{2+}}$: $1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^6$. El calcio está en el **grupo 2, período 4**.
+- $\\mathrm{Fe^{2+}}$: $1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^6\\,3d^6$. El hierro está en el **grupo 8, período 4**. En metales de transición se pierden primero los electrones $4s$.
+
+**b)** El ion yoduro $\\mathrm{I^-}$ posee un electrón más que el yodo neutro, manteniendo el mismo número de protones. Aumenta la repulsión entre electrones, así que **el radio del ion yoduro es mayor** que el del átomo.
+
+**c)** Los tres elementos están en el tercer período. En general, la primera energía de ionización aumenta de izquierda a derecha al aumentar la atracción nuclear efectiva. El orden pedido es:
+
+$$\\boxed{\\mathrm{Mg<Si<S}}.$$
+
+**Explicación ampliada del procedimiento**
+
+El magnesio se encuentra situado en el tercer período grupo dos; el calcio en el cuarto período grupo dos, y el hierro en el cuarto período grupo ocho.
+
+b) El anión posee un electrón más que el átomo neutro, y esto hace que el apantallamiento de este electrón sea superior, y como la carga nuclear es la misma, la fuerza atractiva sobre el electrón más externo del átomo es más intensa que la del anión, Esto nos indica que la contracción del volumen del átomo es superior a la del anión y, por ello, el radio del átomo es inferior al del anión.
+
+c) Potencial de ionización es la energía que hay que comunicar a un átomo neutro, gaseoso y en su estado electrónico fundamental, para arrancarle un electrón y convertirlo en ión monopositivo en el mismo estado gaseoso y fundamental. En los períodos esta propiedad aumenta al avanzar en él debido a que el electrón más externo, por situarse en el mismo nivel energético y aumentar la carga nuclear del átomo, es más fuertemente atraído por el núcleo y se necesita aplicar más cantidad de energía para arrancarlo; mientras que en los grupos disminuye al bajar en ellos debido a que el electrón más externos, al ir situándose en niveles energéticos cada vez más alejado del núcleo, es más débilmente atraído por él y se necesita aplicar menos cantidad de energía para arrancarlo.
+
+Luego, al encontrarse los tres elementos propuestos en el mismo período, siendo el magnesio el que se encuentra más a la izquierda, el S más a la derecha del mismo y el Si entre ellos, el orden creciente de la primera energía de ionización es: Mg < Si < S.
+
+---
+
+## Cuestión 2
+
+### El ejercicio
+
+- **a)** Dibuja la estructura electrónica de Lewis de las siguientes especies químicas: disulfuro de carbono CS2, dióxido de azufre SO2, sulfuro de hidrógeno H2S y formaldehído H2CO. 
+- **b)** Indica la hibridación de los átomos de C de las moléculas CS2 y H2CO. 
+- **c)** Deduce la geometría molecular de CS2 y H2CO. 
+- **d)** Deduce cuál de los dos ángulos es mayor: O–S–O o H–S–H en las moléculas de SO2 y H2S, respectivamente. 
+
+**Datos:** Números atómicos, Z: H = 1; C = 6; O = 8; S = 16.
+
+### Resolución explicada
+
+**a)** Las estructuras de Lewis pueden describirse así:
+
+- **CS₂:** $\\mathrm{S{=}C{=}S}$; cada azufre tiene dos pares libres.
+- **SO₂:** azufre central con dos enlaces a oxígeno y un par libre; podemos representar una estructura $\\mathrm{O{=}S{=}O}$, con resonancia y un total de 18 electrones de valencia.
+- **H₂S:** $\\mathrm{H{-}S{-}H}$; el azufre conserva dos pares libres.
+- **H₂CO:** $\\mathrm{H_2C{=}O}$; el oxígeno tiene dos pares libres.
+
+**b)** En CS₂ el carbono forma dos regiones de enlace, por lo que tiene hibridación **sp**. En H₂CO tiene tres regiones y su hibridación es **sp²**.
+
+**c)** Por la repulsión entre regiones electrónicas, **CS₂ es lineal** ($180^\\circ$), mientras que el entorno del carbono en **H₂CO es trigonal plano** (ángulos próximos a $120^\\circ$).
+
+**d)** El ángulo $\\mathrm{O{-}S{-}O}$ del SO₂ es mayor que el $\\mathrm{H{-}S{-}H}$ del H₂S. En SO₂ hay tres regiones electrónicas alrededor del azufre y un ángulo cercano a $120^\\circ$; en H₂S hay dos enlaces y dos pares libres, y su ángulo es mucho menor, alrededor de $92^\\circ$.
+
+**Explicación ampliada del procedimiento**
+
+b) En la molécula H2CO, el átomo de carbono emplea tres orbitales híbridos sp2 para unirse a los dos H y al O. En la molécula CS2, el átomo de carbono utiliza dos orbitales híbridos sp para unirse a los átomos de S mediante enlaces σ.
+
+---
+
+## Cuestión 3
+
+### El ejercicio
+
+El amoníaco, NH3, se obtiene industrialmente a partir de dihidrógeno, H2, y dinitrógeno, N2, según el equilibrio: N2 (g) + 3 H2 (g) ⇄ 2 NH3 (g); ΔH = – 92,6 kJ. Discute justificando tu respuesta cómo afectará cada uno de los cambios introducidos a la cantidad de NH3 presente en el reactor una vez se restablezca el equilibrio: 
+- **a)** Adicionar H2 al sistema en equilibrio, manteniendo constantes la temperatura y el volumen. 
+- **b)** Reducir el volumen del reactor a la mitad, manteniendo constante la temperatura. 
+- **c)** Añadir al reactor un número de moles de H2, N2 y NH3 tal que se dupliquen las concentraciones que había en el equilibrio, manteniendo constantes la temperatura y el volumen. 
+- **d)** Aumentar la temperatura del reactor.
+
+### Resolución explicada
+
+El equilibrio industrial de síntesis de amoníaco es:
+
+$$\\mathrm{N_2(g)+3H_2(g)\\rightleftharpoons2NH_3(g)},\\qquad\\Delta H=-92,6\\ \\mathrm{kJ}.$$
+
+**a)** Si añadimos $\\mathrm{H_2}$ a volumen y temperatura constantes, aumenta su concentración y el equilibrio se desplaza hacia la **derecha** para consumir parte del reactivo: se forma **más amoníaco**.
+
+**b)** Si reducimos el volumen a la mitad, aumenta la presión. El sistema favorece el lado con menos moles gaseosos: hay cuatro en los reactivos y solo dos en los productos. El equilibrio se desplaza hacia la **derecha**.
+
+**c)** Si duplicamos simultáneamente $[\\mathrm{N_2}]$, $[\\mathrm{H_2}]$ y $[\\mathrm{NH_3}]$, hay que comprobar el cociente de reacción:
+
+$$Q_c=\\frac{[\\mathrm{NH_3}]^2}{[\\mathrm{N_2}][\\mathrm{H_2}]^3}.$$
+
+Tras el cambio:
+
+$$Q_c'=\\frac{(2[\\mathrm{NH_3}])^2}{(2[\\mathrm{N_2}])(2[\\mathrm{H_2}])^3}=\\frac{Q_c}{4}=\\frac{K_c}{4}.$$
+
+Como $Q_c'<K_c$, el sistema evoluciona hacia **la formación de más NH₃**.
+
+**d)** La síntesis es exotérmica. Si aumentamos la temperatura, se favorece la reacción endotérmica inversa, por lo que **disminuye la cantidad de amoníaco en equilibrio**.
+
+**Explicación ampliada del procedimiento**
+
+a) La adición de H2 incrementa su concentración y en consecuencia su número de moléculas por unidad de volumen, restableciéndose el equilibrio al reaccionar moléculas de N2 e H2 para producir el producto de reacción, NH3. El equilibrio se desplaza hacia la formación de los productos de reacción.
+
+b) Una disminución del volumen del reactor provoca que el equilibrio se desplace en el sentido en el que se produce una disminución del número de moles, es decir, en el sentido en el que aparece menor cantidad de materia, hacia la derecha, aumentando por ello la cantidad de NH3 producido.
+
+d) Al elevar la temperatura el equilibrio evoluciona en el sentido en el que se produce absorción de calor, es decir, hacia el sentido endotérmico de la reacción. Como el proceso desprende calor, un aumento de la temperatura provoca una disminución de la concentración de NH3. El equilibrio se desplaza hacia la izquierda, disminuyendo la cantidad de NH3 que se produce.
+
+---
+
+## Cuestión 4
+
+### El ejercicio
+
+A partir de los potenciales estándar de reducción, responde justificando tu respuesta si los siguientes enunciados son verdaderos o falsos: 
+- **a)** Una barra de estaño es estable cuando se incorpora en una disolución acuosa de CuSO4 1 M. 
+- **b)** Al sumergir una barra de hierro en una disolución acuosa de CrCl3 1 M, se recubre con cromo. 
+- **c)** El aluminio se disuelve en una disolución acuosa de HCl 1 M. 
+- **d)** Las disoluciones acuosas de SnCl2 1 M, se pueden guardar en recipientes de aluminio. 
+
+**Datos:** Eº (V): [Al3+ (ac)/Al (s)] = – 1,68; [Cr3+ (ac)/Cr (s)] = – 0,74; [Fe2+ (ac)/Fe (s)] = – 0,44; [Sn2+ (ac)/Sn (s)] = – 0,14; [H+ (ac)/H2 (g)] = 0; [Cu2+ (ac)/Cu (s)] = + 0,34.
+
+### Resolución explicada
+
+Para decidir si un proceso redox es espontáneo, calculamos el potencial estándar: $E^\\circ_{\\rm pila}=E^\\circ_{\\rm reducción}-E^\\circ_{\\rm oxidación}$. Será espontáneo cuando el resultado sea positivo.
+
+**a) Falsa.** El estaño puede oxidarse al entrar en una disolución de $\\mathrm{Cu^{2+}}$:
+
+$$\\mathrm{Sn\\to Sn^{2+}+2e^-},\\qquad\\mathrm{Cu^{2+}+2e^-\\to Cu}.$$
+
+$$E^\\circ=0,34-(-0,14)=+0,48\\ \\mathrm V.$$
+
+Al ser positivo, el estaño **no permanece estable** en esa disolución.
+
+**b) Falsa.** Para que se depositara Cr sobre Fe necesitaríamos reducir $\\mathrm{Cr^{3+}}$ y oxidar Fe:
+
+$$E^\\circ=-0,74-(-0,44)=-0,30\\ \\mathrm V.$$
+
+No es espontáneo y **no se recubre con cromo**.
+
+**c) Verdadera.** El aluminio puede oxidarse y los protones reducirse a hidrógeno:
+
+$$E^\\circ=0-(-1,68)=+1,68\\ \\mathrm V.$$
+
+Por tanto, termodinámicamente **el Al se disuelve en HCl**.
+
+**d) Falsa.** Los iones estaño(II) pueden oxidar el aluminio del recipiente:
+
+$$E^\\circ=-0,14-(-1,68)=+1,54\\ \\mathrm V.$$
+
+La reacción sería espontánea; por eso **no es adecuado almacenar SnCl₂ en aluminio**.
+
+**Explicación ampliada del procedimiento**
+
+Al ser positivo el potencial la reacción es espontánea, lo que indica que la barra de estaño no es estable introducida en una disolución acuosa de CuSO4.
+
+Que al ser positivo, indica que se produce reacción y, por tanto, la disolución acuosa de SnCl2 no puede guardarse en un recipiente de aluminio.
+
+---
+
+## Cuestión 5
+
+### El ejercicio
+
+La ley de velocidad para la reacción A(g) + B(g) →→ C(g) + D(g) es v = k · [A]2. Di si las afirmaciones son verdaderas o falsas y explica por qué: 
+- **a)** El reactivo A se consume más deprisa que el B. 
+- **b)** La velocidad de la reacción aumentará el doble al disminuir el volumen a la mitad. 
+- **c)** Las unidades de la constante de velocidad son (tiempo)–1. 
+- **d)** Al aumentar la temperatura aumenta la velocidad de reacción.
+
+### Resolución explicada
+
+**a) Falsa.** Para $\\mathrm{A+B\\to C+D}$, los coeficientes de los dos reactivos son iguales, por lo que se consumen a la **misma velocidad estequiométrica**, aunque la ley cinética sea $v=k[A]^2$.
+
+**b) Falsa.** Al reducir el volumen a la mitad a temperatura constante, se duplica $[A]$. La nueva velocidad será:
+
+$$v'=k(2[A])^2=4k[A]^2=4v.$$
+
+La velocidad se **cuadruplica**, no se duplica.
+
+**c) Falsa.** Para una reacción de segundo orden, las unidades de la constante se obtienen despejando:
+
+$$k=\\frac{v}{[A]^2}\\quad\\Rightarrow\\quad[k]=\\frac{\\mathrm{mol\\,L^{-1}s^{-1}}}{\\mathrm{mol^2\\,L^{-2}}}=\\mathrm{L\\,mol^{-1}s^{-1}}.$$
+
+No son únicamente $\\mathrm{s^{-1}}$.
+
+**d) Verdadera.** Según la ecuación de Arrhenius, $k=Ae^{-E_a/(RT)}$. Al subir la temperatura, normalmente aumenta $k$ y, por tanto, la velocidad de reacción.
+
+**Explicación ampliada del procedimiento**
+
+a) Falsa. Los coeficientes de la ecuación nos dicen que un mol del reactivo A reacciona con un mol del reactivo B para producir un mol de cada uno de los productos C y D. Luego, si un mol de A reacciona con un mol de B, ello indica que la velocidad de consumo del reactivo A y B es la misma.
+
+b) Falsa. Si disminuye el volumen del reactor a la mitad, ello provoca que la concentración de los reactivos A y B se dupliquen, y ello provoca que la velocidad de reacción se cuadruplique. En efecto: v = k·[2·A]2 = k·4·[A]2, que indica que la velocidad de reacción se cuadruplica al disminuir el volumen del reactor a la mitad.
+
+d) Verdadera. Un análisis sobre la ecuación de Arrhenius, k = A · e R⋅T , indica que la temperatura modifica el valor de k y, por tanto, el de la velocidad de reacción. En efecto, si aumenta la temperatura la potencia incrementa su valor y, en consecuencia, aumenta el valor de la constante de velocidad y también el valor de la velocidad de reacción.
+
+---
+
+## Cuestión 6
+
+### El ejercicio
+
+Completa estas reacciones de química orgánica, escribe el nombre de las sustancias que intervienen y explica de qué tipo de reacción se trata.
+
+**a)** Propan-1-ol ($\\mathrm{CH_3CH_2CH_2OH}$) con ácido sulfúrico y calor.
+
+**b)** But-2-eno ($\\mathrm{CH_3CH{=}CHCH_3}$) con HBr.
+
+**c)** Ácido etanoico ($\\mathrm{CH_3COOH}$) con butan-1-ol ($\\mathrm{CH_3CH_2CH_2CH_2OH}$).
+
+**d)** Etino ($\\mathrm{HC{\\equiv}CH}$) con oxígeno.
+
+### Resolución explicada
+
+**a)** El propan-1-ol, al calentarlo en presencia de ácido sulfúrico, pierde una molécula de agua. Se forma **propeno**: es una **reacción de eliminación o deshidratación**.
+
+$$\\mathrm{CH_3CH_2CH_2OH\\xrightarrow{H_2SO_4,\\ calor}CH_3CH{=}CH_2+H_2O}.$$
+
+**b)** El **but-2-eno** reacciona con bromuro de hidrógeno por **adición** y origina **2-bromobutano**:
+
+$$\\mathrm{CH_3CH{=}CHCH_3+HBr\\longrightarrow CH_3CH_2CHBrCH_3}.$$
+
+**c)** El **ácido etanoico (ácido acético)** y el **butan-1-ol** reaccionan para dar **etanoato de butilo (acetato de butilo)** y agua. Es una **esterificación**:
+
+$$\\mathrm{CH_3COOH+HOCH_2CH_2CH_2CH_3\\rightleftharpoons CH_3COOCH_2CH_2CH_2CH_3+H_2O}.$$
+
+**d)** El **etino o acetileno** ($\\mathrm{HC{\\equiv}CH}$) reacciona con oxígeno. Si se plantea su **combustión completa**, los productos son dióxido de carbono y agua:
+
+$$\\mathrm{2C_2H_2+5O_2\\longrightarrow4CO_2+2H_2O}.$$
+
+---
+`,Po=`---
+title: "Examen resuelto de Química: septiembre de 2023 · modelo 4"
+seoTitle: "Examen resuelto de Química: septiembre de 2023 · modelo 4"
+date: "2026-11-05"
+updated: "2026-11-05"
+description: "Examen completo de Química resuelto de forma cercana y rigurosa, con planteamientos, operaciones y explicaciones."
+tag: "Exámenes resueltos"
+category: "Química"
+relatedService: "/campus/"
+relatedPosts: "pau-quimica-enlace-geometria-molecular,pau-quimica-equilibrio-quimico-estudiar,pau-quimica-estequiometria-gases-disoluciones"
+image: "/assets/latex/gas-laws-pv.svg"
+---
+
+# Examen resuelto de Química: septiembre de 2023 · modelo 4
+
+Puedes resolverlo de dos maneras: como simulacro cronometrado o como práctica guiada. En ambos casos, intenta justificar cada decisión; esa costumbre es la que hace que los problemas nuevos dejen de parecer distintos.
+
+## A.1
+
+### El ejercicio
+
+Trabaja con los elementos: A (Z = 17) y B (Z = 12). 
+- **a)** Escribe la configuración electrónica e indica el nombre, símbolo, grupo y periodo de ambos. 
+- **b)** Justifica cuál es el elemento de mayor energía de ionización. 
+- **c)** Justifica cuál es el ión más estable de cada elemento y escribe sus configuraciones electrónicas. 
+- **d)** Explica si el radio del ión más estable de cada elemento es mayor o menor que el de su respectivo átomo neutro.
+
+### Resolución explicada
+
+**a)** El elemento A, con $Z=17$, es **cloro (Cl)**, del grupo 17 y período 3. Su configuración es $1s^2\\,2s^2\\,2p^6\\,3s^2\\,3p^5$. El elemento B, con $Z=12$, es **magnesio (Mg)**, del grupo 2 y período 3, y presenta $1s^2\\,2s^2\\,2p^6\\,3s^2$.
+
+**b)** Ambos están en el mismo período. Como el Cl queda más a la derecha y atrae más intensamente sus electrones externos, tiene **mayor primera energía de ionización**.
+
+**c)** El cloro gana un electrón y forma **$\\mathrm{Cl^-}$**, con configuración $[\\mathrm{Ar}]$. El magnesio pierde dos y forma **$\\mathrm{Mg^{2+}}$**, con configuración $[\\mathrm{Ne}]$.
+
+**d)** Al ganar un electrón, el anión cloruro experimenta mayor repulsión entre electrones y **es más grande que Cl**. Al perder dos, el catión magnesio queda con una capa menos y **es más pequeño que Mg**.
+
+**Explicación ampliada del procedimiento**
+
+b) Llamamos energía de ionización a la energía que hace falta para arrancar un electrón a un átomo en estado gaseoso y en su estado fundamental. En un periodo aumenta al avanzar hacia la derecha por crecer el número atómico Z, e incrementarse la fuerza atractiva entre la carga nuclear y el electrón, que se encuentra más atraído por el núcleo. El elemento de mayor energía de ionización es el cloro, A.
+
+c) El ión más estable es el que tiene la configuración electrónica del gas noble más cercano, el Cl–; la configuración electrónica de los iones es: Cl–: 1s2 2s2 2p6 3s2 3p6; Mg2+:1s2 2s2 2p6.
+
+d) En general, el radio de los aniones es mayor que el de los átomos, por tener mayor número de electrones que de protones y ser menor la atracción del núcleo. El caso contrario ocurre entre los cationes, que al ser mayor el número de protones que el de electrones, es mayor la fuerza atractiva sobre los electrones y se produce una contracción del volumen de los átomos respecto a los cationes. Luego, el radio del anión Cl– es mayor que el del Cl, y el radio del catión Mg2+ es menor que el del Mg.
+
+---
+
+## A.2
+
+### El ejercicio
+
+Contesta estas preguntas: 
+- **a)** Formula el compuesto 3−bromo−4−metilpentanal. Formula y nombra un isómero de función. 
+- **b)** Formula y nombra dos isómeros de posición del éter con fórmula molecular C4H10O. 
+- **c)** Plantea y ajusta la reacción de combustión del compuesto etino. 
+- **d)** Escribe la reacción de obtención del ácido 2−metilbutanoico a partir del aldehído necesario, indicando el tipo de reacción que se produce y nombrando dicho aldehído.
+
+### Resolución explicada
+
+**a)** El **3-bromo-4-metilpentanal** se representa como $\\mathrm{CH_3CH(CH_3)CHBrCH_2CHO}$. Un isómero de función, con grupo cetona en lugar de aldehído, es la **3-bromo-4-metilpentan-2-ona**: $\\mathrm{CH_3COCHBrCH(CH_3)CH_3}$.
+
+**b)** Dos éteres con fórmula molecular $\\mathrm{C_4H_{10}O}$ son **1-metoxipropano**, $\\mathrm{CH_3OCH_2CH_2CH_3}$, y **2-metoxipropano**, $\\mathrm{CH_3OCH(CH_3)_2}$. Tienen la misma fórmula, pero cambia la posición del grupo metoxi.
+
+**c)** La combustión completa del etino ($\\mathrm{C_2H_2}$) forma dióxido de carbono y agua:
+
+$$\\mathrm{2C_2H_2+5O_2\\longrightarrow4CO_2+2H_2O}.$$
+
+**d)** Oxidamos el aldehído **2-metilbutanal**, $\\mathrm{CH_3CH_2CH(CH_3)CHO}$, para obtener el **ácido 2-metilbutanoico**, $\\mathrm{CH_3CH_2CH(CH_3)COOH}$:
+
+$$\\mathrm{CH_3CH_2CH(CH_3)CHO+[O]\\longrightarrow CH_3CH_2CH(CH_3)COOH}.$$
+
+Es una **reacción de oxidación**.
+
+**Explicación ampliada del procedimiento**
+
+a) La fórmula del compuesto es: CH3−CH(CH3)−CHBr−CH2−CHO, y un isómero de función es: CH3−CH(CH3)−CHBr−CO−CH3, de nombre 3−bromo−4−metilpentan−2−ona.
+
+b) Si el éter que se propone tiene de fórmula semidesarrollada CH3-CH2-O-CH2-CH3, los compuestos: CH3-O-CH2-CH2-CH3 (metilpropiléter), CH3-O-CH(CH3)-CH3 (metilisopropiléter) son dos isómeros de posición de este.
+
+d) El ácido que se quiere obtener se produce por oxidación del aldehído 2−metilbutanal CH3CH2CH(CH3)CHO + oxidante → CH3CH2CH(CH3)COOH (ácido2−metilbutanoico).
+
+---
+
+## A.3
+
+### El ejercicio
+
+Contesta estas preguntas: 
+- **a)** Formula el equilibrio de solubilidad del fluoruro de magnesio, indicando el estado de cada especie. Escribe la expresión para Kps en función de la solubilidad. 
+- **b)** Halla el valor de la solubilidad del fluoruro de magnesio en mol·L−1 y en g·L−1. 
+- **c)** Halla la concentración del ión fluoruro en una disolución saturada de fluoruro de magnesio. 
+- **d)** Justifica cómo varía la solubilidad del fluoruro de magnesio al añadirle un exceso de ácido fluorhídrico. 
+
+**Datos:** Kps (fluoruro de magnesio) = 5,2·10−11; Ar (F) = 19,0 u; Ar (Mg) = 24,3 u.
+
+### Resolución explicada
+
+**a)** Escribimos el equilibrio de solubilidad:
+
+$$\\mathrm{MgF_2(s)\\rightleftharpoons Mg^{2+}(aq)+2F^-(aq)}.$$
+
+Si la cantidad que se disuelve es $s$ mol/L, entonces las concentraciones iónicas son $s$ y $2s$. Así:
+
+$$K_{ps}=s(2s)^2=4s^3.$$
+
+**b)** Despejamos la solubilidad:
+
+$$s=\\sqrt[3]{\\frac{5,2\\cdot10^{-11}}4}\\approx2,35\\cdot10^{-4}\\ \\mathrm{mol/L}.$$
+
+La masa molar de $\\mathrm{MgF_2}$ es $24,3+2\\cdot19=62,3$ g/mol. Por tanto, $s\\approx2,35\\cdot10^{-4}\\cdot62,3=0,0146$ g/L.
+
+**c)** El fluoruro aparece con coeficiente 2, así que $[\\mathrm{F^-}]=2s\\approx4,7\\cdot10^{-4}$ M (aproximadamente $4,8\\cdot10^{-4}$ M redondeando $s$ a $2,4\\cdot10^{-4}$).
+
+**d)** Al añadir HF se introduce fluoruro, un ion común. Este aumento favorece la formación de sólido, desplaza el equilibrio hacia la izquierda y **reduce la solubilidad del fluoruro de magnesio** dentro del modelo de ion común que utiliza el ejercicio.
+
+**Explicación ampliada del procedimiento**
+
+d) Al añadir a la disolución ácido fluorhídrico, se incrementa la concentración de los iones F–, reaccionando el equilibrio ante esta alteración incrementando la reacción de los iones fluoruros y magnesio para producir el compuesto poco soluble, es decir, el equilibrio se desplaza hacia la izquierda, disminuyendo su solubilidad de la sal.
+
+---
+
+## A.4
+
+### El ejercicio
+
+La reacción en fase gaseosa 2 A → 2 B + C es de segundo orden. Cuando la concentración de A es 0,050M presenta una velocidad de 7,8 · 10–4 moles · L−1 · s−1. 
+- **a)** Escribe la ecuación de velocidad y deduce las unidades de la constante de velocidad. 
+- **b)** Halla la constante de velocidad y halla la velocidad cuando la concentración de A sea 0,090 M. 
+- **c)** Justifica cómo afecta a la velocidad de la reacción la presencia de un catalizador. 
+- **d)** Justifica, mediante la ecuación de Arrhenius, cómo afecta a la constante de velocidad un aumento de la temperatura.
+
+### Resolución explicada
+
+**a)** Al ser de segundo orden respecto de A, la ley cinética es:
+
+$$v=k[\\mathrm A]^2.$$
+
+Con $[v]=\\mathrm{mol\\,L^{-1}s^{-1}}$ y $[A]=\\mathrm{mol\\,L^{-1}}$, las unidades de $k$ son $\\mathrm{L\\,mol^{-1}s^{-1}}$.
+
+**b)** Usando los datos iniciales:
+
+$$k=\\frac{7,8\\cdot10^{-4}}{(0,050)^2}=0,312\\ \\mathrm{L\\,mol^{-1}s^{-1}}.$$
+
+Cuando $[A]$ pasa a $0,090$ M:
+
+$$v=0,312\\cdot(0,090)^2\\approx2,53\\cdot10^{-3}\\ \\mathrm{mol\\,L^{-1}s^{-1}}.$$
+
+**c)** Un catalizador positivo proporciona una ruta alternativa con menor energía de activación, lo que normalmente aumenta la velocidad de reacción.
+
+**d)** La ecuación de Arrhenius, $k=Ae^{-E_a/(RT)}$, muestra que al aumentar la temperatura crece el factor exponencial y, con él, $k$ (si consideramos el resto de parámetros constantes).
+
+---
+
+## A.5
+
+### El ejercicio
+
+La reacción entre dióxido de azufre y sulfato de cobre (II), en presencia de cloruro de sodio, permite preparar cloruro de cobre(I), produciéndose también sulfato de sodio y ácido sulfúrico. 
+- **a)** Formula y ajusta por el método del ión electrón las semirreacciones de oxidación y reducción que tienen lugar. Indica las especies que actúan como oxidante y reductora. 
+- **b)** Ajusta las reacciones iónica y molecular. 
+- **c)** Halla el volumen de SO2 que reacciona con 7,0 g de sulfato de cobre (II), a 1,0 atm y 25 ° C. 
+
+**Datos:** Ar ( O) = 16,0 u; Ar (S) = 32,0 u; Ar (Cu) = 63,5 u. R = 0,082 atm·L·mol–1·K–1.
+
+### Resolución explicada
+
+**a)** El dióxido de azufre se oxida a sulfato, mientras que $\\mathrm{Cu^{2+}}$ se reduce a $\\mathrm{Cu^+}$:
+
+$$\\begin{aligned}\\text{Oxidación: }&\\mathrm{SO_2+2H_2O\\to SO_4^{2-}+4H^++2e^-}\\\\\\text{Reducción: }&\\mathrm{Cu^{2+}+e^-\\to Cu^+}.\\end{aligned}$$
+
+El **agente reductor** es $\\mathrm{SO_2}$ y el **oxidante** es el ion $\\mathrm{Cu^{2+}}$ del sulfato de cobre.
+
+**b)** Duplicamos la semirreacción de reducción y sumamos:
+
+$$\\mathrm{SO_2+2H_2O+2Cu^{2+}\\to SO_4^{2-}+2Cu^++4H^+}.$$
+
+La ecuación molecular ajustada es:
+
+$$\\mathrm{SO_2+2H_2O+2CuSO_4+2NaCl\\to2CuCl+2H_2SO_4+Na_2SO_4}.$$
+
+**c)** Para $7,0$ g de $\\mathrm{CuSO_4}$, cuya masa molar es $159,5$ g/mol:
+
+$$n(\\mathrm{CuSO_4})=\\frac7{159,5}\\approx0,0439\\ \\mathrm{mol}.$$
+
+La proporción es de dos moles de sulfato de cobre por cada mol de dióxido de azufre: $n(\\mathrm{SO_2})=0,0219$ mol. A 1 atm y 298 K:
+
+$$V=\\frac{nRT}{P}=\\frac{0,0219\\cdot0,082\\cdot298}{1}\\approx0,54\\ \\mathrm L.$$
+
+**Resultado:** reaccionan unos **0,54 L de $\\mathrm{SO_2}$**.
+
+**Explicación ampliada del procedimiento**
+
+Semirreacción de reducción: Cu2+ + 1 e– → Cu+ La especie que actúa como oxidante es el CuSO4 en la que el Cu2+ se reduce a Cu, mientras que la especie reductora es el SO2, que se oxida a H2SO4.
+
+---
+
+## B.1
+
+### El ejercicio
+
+Para las moléculas: NH3 y SH2. 
+- **a)** Indica y representa la geometría molecular aplicando el método de repulsión de pares de electrones de la capa de valencia (RPECV). 
+- **b)** Indica la hibridación del átomo central. 
+- **c)** Justifica su polaridad. 
+- **d)** Justifica la fuerza intermolecular más importante que presenta cada una de ellas.
+
+### Resolución explicada
+
+**a)** En **NH₃**, el nitrógeno tiene tres enlaces N–H y un par libre: su geometría molecular es **piramidal trigonal**. En **H₂S**, el azufre tiene dos enlaces S–H y dos pares libres: la geometría es **angular**. En ambos casos la distribución electrónica corresponde a cuatro regiones de electrones.
+
+**b)** En el modelo de hibridación de Bachillerato, tanto N como S se describen con hibridación **sp³**.
+
+**c)** Las dos moléculas son **polares**. En NH₃, la forma piramidal impide que se anulen los dipolos de los enlaces; en H₂S ocurre lo mismo con su forma angular.
+
+**d)** Entre moléculas de **NH₃** destacan los **puentes de hidrógeno**, porque el H está unido a un N electronegativo. En **H₂S** no hay puentes de hidrógeno comparables: las interacciones características son **dipolo–dipolo y fuerzas de dispersión**.
+
+**Explicación ampliada del procedimiento**
+
+a) En la molécula de amoníaco, NH3, el nitrógeno, con configuración electrónica en su capa de valencia 2s2 y 2p3, por combinación lineal de los orbitales produce cuatro orbitales híbridos sp3 dirigidos hacia los vértices de un tetraedro regular, ocupando uno de ellos un par de electrones no compartidos, y los otros tres los átomos de hidrógeno, por lo que la geometría de la molécula es piramidal trigonal.
+
+En la molécula H2S, la configuración electrónica de la capa de valencia del azufre es 3s2 3p4, poseyendo covalencia 2 y 2 pares de electrones desapareados.
+
+electrones no compartidos sobre el átomo de nitrógeno, y la H2S, con geometría angular y 2 pares de electrones no compartidos sobre el átomo de azufre, proporcionan a cada molécula un momento dipolar resultante distinto de cero, siendo por ello las moléculas polares.
+
+d) NH3: La más importante es el enlace de hidrógeno. El nitrógeno, además de poseer un par de electrones no enlazados y tener un carácter muy electronegativo, es muy pequeño, lo que favorece la polaridad de la molécula y en consecuencia la formación de enlaces o puentes de hidrógeno entre ellas.
+
+---
+
+## B.2
+
+### El ejercicio
+
+Formula los reactivos y el producto mayoritario de las siguientes reacciones. Indica el tipo de reacción, la regla que sigue si es el caso, y nombra los productos. 
+- **a)** 3−metilpent−2−eno + HCl → 
+- **b)** 3−metilpentan−2−ol + H2SO4(concentrado) → 
+- **c)** Ácido pentanoico + etanol →
+
+### Resolución explicada
+
+**a)** El **3-metilpent-2-eno**, $\\mathrm{CH_3CH{=}C(CH_3)CH_2CH_3}$, añade HCl al doble enlace. Siguiendo la regla de **Markovnikov**, el cloro se incorpora al carbono más sustituido y se forma mayoritariamente **3-cloro-3-metilpentano**:
+
+$$\\mathrm{CH_3CH{=}C(CH_3)CH_2CH_3+HCl\\longrightarrow CH_3CH_2C(Cl)(CH_3)CH_2CH_3}.$$
+
+Es una **adición**.
+
+**b)** El **3-metilpentan-2-ol**, $\\mathrm{CH_3CH(OH)CH(CH_3)CH_2CH_3}$, se deshidrata con ácido sulfúrico concentrado. La regla de **Záitsev** favorece el alqueno más sustituido, **3-metilpent-2-eno**:
+
+$$\\mathrm{CH_3CH(OH)CH(CH_3)CH_2CH_3\\longrightarrow CH_3CH{=}C(CH_3)CH_2CH_3+H_2O}.$$
+
+Es una **eliminación**.
+
+**c)** El **ácido pentanoico** y el **etanol** producen el éster **pentanoato de etilo**, además de agua:
+
+$$\\mathrm{CH_3(CH_2)_3COOH+CH_3CH_2OH\\rightleftharpoons CH_3(CH_2)_3COOCH_2CH_3+H_2O}.$$
+
+Es una **esterificación o condensación**.
+
+---
+
+## B.3
+
+### El ejercicio
+
+Cuando se calientan 0,20 moles de HCONH2 a 127 ºC en un reactor de 5,0 L, tiene lugar la siguiente reacción: HCONH2 (g) ⇌ NH3 (g) + CO (g) (ΔH = + 29,4 kJ·mol–1), alcanzándose en el equilibrio una presión total de 1,6 atm. 
+- **a)** Halla las concentraciones de cada especie en el equilibrio. 
+- **b)** Halla Kc, Kp y la fracción molar del reactivo que queda sin descomponer. 
+- **c)** Justifica lo que ocurrirá en el equilibrio al aumentar la temperatura. 
+
+**Datos:** R = 0,082 atm · L · mol–1 · K–1.
+
+### Resolución explicada
+
+**a)** La descomposición $\\mathrm{HCONH_2(g)\\rightleftharpoons NH_3(g)+CO(g)}$ parte de 0,20 mol del reactivo y produce $x$ mol de cada producto. Por tanto, los moles totales en equilibrio serán $0,20+x$.
+
+Con $T=127+273=400$ K, $V=5,0$ L y $P=1,6$ atm:
+
+$$0,20+x=\\frac{PV}{RT}=\\frac{1,6\\cdot5}{0,082\\cdot400}\\approx0,244\\ \\mathrm{mol}.$$
+
+El desarrollo redondea $x\\approx0,04$ mol. Dividiendo entre el volumen:
+
+$$[\\mathrm{HCONH_2}]\\approx\\frac{0,20-0,04}{5}=0,032\\ \\mathrm M,$$
+$$[\\mathrm{NH_3}]=[\\mathrm{CO}]\\approx\\frac{0,04}{5}=0,008\\ \\mathrm M.$$
+
+**b)** La constante de concentraciones es:
+
+$$K_c=\\frac{[\\mathrm{NH_3}][\\mathrm{CO}]}{[\\mathrm{HCONH_2}]}=\\frac{0,008^2}{0,032}=2,0\\cdot10^{-3}.$$
+
+Como $\\Delta n=2-1=1$, $K_p=K_cRT\\approx0,066$. La fracción molar del reactivo que queda es aproximadamente $0,16/0,24=0,67$.
+
+**c)** La descomposición es endotérmica ($\\Delta H>0$). Si aumentamos la temperatura, el equilibrio favorece la reacción que absorbe calor: **se desplaza a la derecha**, aumentando los productos.
+
+---
+
+## B.4
+
+### El ejercicio
+
+Contesta estas preguntas: 
+- **a)** La biotina es un ácido monoprótico, HA. Una disolución de biotina 0,010 M tiene un pH de 3,3.halla la constante de disociación y el grado de disociación. 
+- **b)** Halla el volumen de una disolución de hidróxido de sodio 0,050 M necesario para neutralizar 100 mL de la disolución de HA.
+
+### Resolución explicada
+
+**a)** El ácido monoprótico reacciona así: $\\mathrm{HA+H_2O\\rightleftharpoons A^-+H_3O^+}$. Con $pH=3,3$:
+
+$$x=[\\mathrm{H_3O^+}]=10^{-3,3}\\approx5,0\\cdot10^{-4}\\ \\mathrm M.$$
+
+Inicialmente hay $0,010$ M de ácido y al llegar al equilibrio quedan $0,010-x$ M. De ahí:
+
+$$K_a=\\frac{x^2}{0,010-x}\\approx\\frac{(5,0\\cdot10^{-4})^2}{0,0095}\\approx2,6\\cdot10^{-5}.$$
+
+El grado de disociación es $\\alpha=x/C_0=0,0005/0,010=0,050=5\\%$.
+
+**b)** En la neutralización $\\mathrm{HA+NaOH\\to NaA+H_2O}$, la proporción ácido/base es 1:1. Los moles de ácido en 100 mL son $n=0,010\\cdot0,100=0,001$ mol, y se necesita la misma cantidad de NaOH.
+
+$$V=\\frac{0,001}{0,050}=0,020\\ \\mathrm L=20\\ \\mathrm{mL}.$$
+
+**Resultado:** $K_a\\approx2,6\\cdot10^{-5}$, grado de disociación del 5 % y **20 mL de NaOH**.
+
+**Explicación ampliada del procedimiento**
+
+b) Se produce en la mezcla la siguiente reacción de neutralización: HA + NaOH → NaA + H2O, cuya estequiometría indica que 1 mol de ácido reacciona con 1 mol de base. Luego, conociendo los moles de uno de los reactivos, se conocen los moles del otro.
+
+---
+
+## B.5
+
+### El ejercicio
+
+A través de una celda electrolítica que contiene una disolución acuosa de CdSO4, se hace pasar una corriente de 2,50 A durante 90 minutos, observándose que se deposita Cd y se desprende oxígeno molecular. 
+- **a)** Escribe las reacciones que se producen en el ánodo y en el cátodo, y la reacción iónica y molecular, ajustadas por el método del ión electrón, indicando el estado de las especies. 
+- **b)** Halla los gramos de Cd depositados. 
+
+**Datos:** Eº(V): Cd2+/Cd = – 0,40; O2/H2O = 1,23. F = 96.485 C·mol–1; Ar (Cd) = 112,4 u.
+
+### Resolución explicada
+
+**a)** En el cátodo se deposita cadmio al reducirse los iones $\\mathrm{Cd^{2+}}$, mientras que en el ánodo se oxida el agua:
+
+$$\\begin{aligned}\\text{Cátodo: }&\\mathrm{Cd^{2+}(aq)+2e^-\\to Cd(s)}\\\\\\text{Ánodo: }&\\mathrm{2H_2O(l)\\to O_2(g)+4H^+(aq)+4e^-}.\\end{aligned}$$
+
+Multiplicamos la semirreacción del cátodo por dos para igualar los electrones y sumamos:
+
+$$\\mathrm{2Cd^{2+}+2H_2O\\to2Cd+O_2+4H^+}.$$
+
+Con los sulfatos como iones espectadores, la reacción molecular es:
+
+$$\\mathrm{2CdSO_4+2H_2O\\to2Cd+O_2+2H_2SO_4}.$$
+
+**b)** En 90 minutos hay $t=5400$ s. La carga total es $Q=It=2,50\\cdot5400=13\\,500$ C. Por la ley de Faraday:
+
+$$m=\\frac{M Q}{2F}=\\frac{112,4\\cdot13500}{2\\cdot96485}\\approx7,86\\ \\mathrm g.$$
+
+**Resultado:** se depositan **7,86 g de cadmio**.
+
+---
+`,Ao=`---
 title: R, SPSS, Jamovi o Python: qué programa estadístico conviene usar en la universidad
 date: 2026-07-14
 updated: 2026-07-14
@@ -33494,7 +41260,7 @@ Independientemente del software, debes poder:
 El software cambia; el razonamiento estadístico permanece.
 
 Para decidir qué análisis hacer antes de abrir ningún programa, lee [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,oi=`---
+`,Lo=`---
 title: Regla de la cadena: ejercicios resueltos paso a paso
 seoTitle: "Regla de la cadena: fórmula y ejercicios resueltos"
 date: 2026-11-05
@@ -33694,7 +41460,7 @@ Si la duda está en distinguir esos casos, consulta la guía de [derivadas de pr
 La regla de la cadena traduce una idea simple: un cambio en \\(x\\) atraviesa cada capa de una función compuesta. Identifica la interior, deriva la exterior, conserva la interior y multiplica por su derivada. Después simplifica y comprueba que ningún factor de la cadena haya desaparecido.
 
 Para pasar del concepto a ejercicios de nivel universitario, puedes consultar las [clases particulares de Cálculo](/clases-particulares/calculo-universitario/).
-`,ri=`---
+`,Ho=`---
 title: Regla de L'Hôpital: cuándo utilizarla y cuándo no
 seoTitle: "Regla de L'Hôpital: cuándo usarla y ejercicios resueltos"
 date: 2026-08-23
@@ -34383,7 +42149,7 @@ En una solución escrita, deja visible la forma indeterminada antes de cada flec
 Simplifica siempre el nuevo cociente antes de decidir el paso siguiente.
 
 Si estás preparando Cálculo universitario y necesitas decidir qué técnica admite cada límite sobre tus propios ejercicios, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,si=`---
+`,Oo=`---
 title: Regresión lineal y ANOVA: cuándo utilizar cada método y cómo interpretar los resultados
 date: 2026-07-11
 updated: 2026-07-22
@@ -34551,7 +42317,7 @@ Usa esta regla:
 - Varios predictores mixtos: modelo lineal/regresión con variables codificadas.
 
 Para profundizar en regresión, lee [Econometría desde cero](/blog/econometria-desde-cero-interpretar-regresion/). Para decidir entre pruebas, revisa [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o consulta las [clases de Estadística para Psicología, ADE y Ciencias Sociales](/clases-particulares/estadistica-psicologia-ade/).
-`,ti=`---
+`,Uo=`---
 title: "Semejanza y escalas en 2º ESO: problemas resueltos"
 seoTitle: "Semejanza y escalas 2º ESO: ejercicios resueltos"
 date: 2026-10-30
@@ -34614,7 +42380,7 @@ $$
 3. Por \\(4\\).
 
 En el [Campus de Método Nebula](/campus/) la semejanza se conecta con proporcionalidad, Thales y geometría mediante ejercicios graduados para identificar la razón antes de calcular.
-`,ci=`---
+`,Mo=`---
 title: "Series de Taylor y Maclaurin: ejercicios resueltos para Ciencias e Ingeniería"
 seoTitle: "Series de Taylor y Maclaurin: ejercicios resueltos | Universidad"
 date: "2026-10-12"
@@ -34725,7 +42491,7 @@ Una aproximación sin control del error es una estimación; con una cota se conv
 - Dar muchos decimales sin decir qué orden de Taylor se ha usado ni cuánto puede fallar.
 
 El [campus virtual de Método Nebula](/contacto/) reúne explicaciones visuales de Cálculo, hojas de ejercicios con dificultad progresiva y problemas de examen desarrollados. Así puedes practicar no solo el desarrollo, sino la elección del modelo y la estimación de su error.
-`,li=`---
+`,Do=`---
 title: "Sistemas de ecuaciones en 3º ESO: problemas resueltos paso a paso"
 seoTitle: "Sistemas de ecuaciones 3º ESO: problemas resueltos"
 date: 2026-11-05
@@ -34883,7 +42649,7 @@ No debes dividir entre una expresión que puede valer cero sin haberlo comprobad
 4. Si \\(g+c=18\\) y \\(2g+4c=50\\), entonces \\(c=7\\) y \\(g=11\\).
 
 Para repasar el sentido de los pasos antes de usar métodos más rápidos, consulta la guía de [ecuaciones y sistemas en ESO](/blog/eso-matematicas-ecuaciones-sistemas-estudiar/). Si necesitas una práctica adaptada a tu curso, consulta las [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,di=`---
+`,wo=`---
 title: "t de Student en Psicología: ejercicios resueltos e interpretación"
 seoTitle: "t de Student en Psicología: ejercicios resueltos"
 date: 2026-11-05
@@ -34998,7 +42764,7 @@ Si los supuestos son débiles, no saltes directamente a una conclusión. Conside
 4. No. Solo indica que el análisis no encontró evidencia suficiente de diferencia con esos datos y supuestos.
 
 En el [Campus de Método Nebula](/campus/) este tema se conecta con elección de contrastes, p-valor, intervalos de confianza y ejercicios graduados, para practicar la decisión antes de memorizar el nombre de una prueba.
-`,ui=`---
+`,Ro=`---
 title: Teorema fundamental del cálculo: ejemplos y ejercicios
 seoTitle: "Teorema fundamental del cálculo: ejemplos y ejercicios"
 date: 2026-08-13
@@ -35735,7 +43501,7 @@ La primera parte del teorema deriva acumulaciones: $\\frac{d}{dx}\\int_a^x f(t)d
 La comprobación esencial consiste en derivar la primitiva, respetar la orientación de los límites y revisar el dominio completo. En problemas de acumulación, interpreta además el signo y las unidades: una integral definida mide cambio neto, mientras que el área o la distancia total pueden exigir dividir el intervalo.
 
 Antes de operar, identifica si buscas una derivada o una acumulación numérica, revisa continuidad y dominio, y separa cualquier singularidad. Si necesitas practicar estas decisiones con ejercicios de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,mi=`---
+`,No=`---
 title: "Termodinámica en Ingeniería: ejercicios resueltos del primer principio y ciclos"
 seoTitle: "Termodinámica: primer principio y ciclos | Ejercicios resueltos"
 date: "2026-10-15"
@@ -35837,7 +43603,7 @@ Nunca escribas una eficiencia mayor que $100\\%$: vulneraría el balance energé
 5. Interpreta el signo final: ¿entra o sale energía?, ¿quién realiza el trabajo?
 
 En el [campus virtual de Método Nebula](/contacto/) encontrarás problemas de Física y Termodinámica resueltos desde el diagrama hasta la comprobación de unidades. Practicar esa secuencia evita que la termodinámica se reduzca a un formulario desconectado del sistema físico.
-`,pi=`---
+`,Io=`---
 title: Transición al sector IT en 6 meses: una ruta realista
 date: 2026-06-04
 updated: 2026-06-04
@@ -35897,7 +43663,7 @@ En una entrevista no basta con enseñar código. Tienes que explicar cómo pensa
 La parte dura no es solo el temario. Es mantener continuidad cuando aparecen dudas, cansancio o comparación con perfiles más avanzados. Por eso conviene revisar progreso cada semana y cerrar entregables pequeños.
 
 Si estás empezando desde cero, puedes leer [Python y SQL para empezar en datos](/blog/python-y-sql-para-empezar-en-datos/) o revisar [clases de programación universitaria y fundamentos](/clases-particulares/programacion-universidad/).
-`,$i=`---
+`,Bo=`---
 title: "Valores propios y vectores propios: ejercicios resueltos de diagonalización"
 seoTitle: "Valores propios y vectores propios: ejercicios resueltos | Ingeniería"
 date: "2026-10-09"
@@ -36020,5 +43786,5 @@ No es necesario multiplicar $A$ por sí misma $n$ veces. Esta idea explica por q
 - Haz una verificación rápida: $AP=PD$ suele ser más limpia que desarrollar $PDP^{-1}$.
 
 En el [campus virtual de Método Nebula](/contacto/) puedes trabajar álgebra lineal con teoría corta, ejercicios graduados y correcciones que explican por qué cada paso es válido. Es la forma más segura de convertir un procedimiento mecánico en una herramienta para resolver problemas reales de Ingeniería.
-`;function gi(e){const a=/^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(e);if(!a)return{data:{},body:e.trim()};const i={};for(const n of a[1].split(`
-`)){const s=n.indexOf(":");if(s===-1)continue;const o=n.slice(0,s).trim();let r=n.slice(s+1).trim();(r.startsWith('"')&&r.endsWith('"')||r.startsWith("'")&&r.endsWith("'"))&&(r=r.slice(1,-1)),o&&(i[o]=r)}return{data:i,body:e.slice(a[0].length).trim()}}function fi(e){const a=e.trim().split(/\s+/).filter(Boolean).length;return Math.max(1,Math.round(a/200))}const xi=Object.assign({"../content/blog/algebra-lineal-universidad-que-estudiar-primero-errores.md":c,"../content/blog/area-entre-dos-curvas-ejercicios-resueltos.md":l,"../content/blog/bachillerato-fisica-momento-choques.md":d,"../content/blog/bachillerato-fisica-quimica-mol-estequiometria.md":u,"../content/blog/bachillerato-fisica-tiro-parabolico.md":m,"../content/blog/bachillerato-matematicas-ecuaciones-trigonometricas.md":p,"../content/blog/bachillerato-matematicas-funciones-representacion.md":$,"../content/blog/bachillerato-matematicas-logaritmos-exponenciales-ecuaciones.md":g,"../content/blog/bachillerato-matematicas-sucesiones-progresiones.md":f,"../content/blog/bachillerato-matematicas-trigonometria-triangulos.md":x,"../content/blog/bachillerato-quimica-gases-ideales.md":b,"../content/blog/bachillerato-quimica-periodicidad-configuracion.md":v,"../content/blog/bachillerato-quimica-reactivo-limitante-rendimiento-pureza.md":y,"../content/blog/caida-libre-lanzamiento-vertical-4-eso-problemas.md":h,"../content/blog/cambio-variables-jacobiano-integrales-dobles.md":q,"../content/blog/chi-cuadrado-psicologia-tablas-contingencia.md":E,"../content/blog/cinetica-quimica-orden-reaccion-arrhenius-ejercicios-resueltos.md":_,"../content/blog/circuitos-corriente-continua-problemas-resueltos-universidad.md":j,"../content/blog/como-aprobar-calculo-i-ingenieria-seis-semanas.md":C,"../content/blog/como-aprobar-estadistica-psicologia-sin-base-matematica.md":S,"../content/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas.md":z,"../content/blog/como-aprobar-matematicas-i-ade-economia.md":P,"../content/blog/como-estudiar-matematicas-sin-memorizar.md":A,"../content/blog/como-preparar-ib-mathematics-aa-ai.md":L,"../content/blog/como-preparar-pau-matematicas-ii.md":U,"../content/blog/como-resolver-limites-indeterminaciones-ejercicios.md":w,"../content/blog/continuidad-derivabilidad-diferencias-problemas.md":D,"../content/blog/derivacion-implicita-ejercicios-resueltos.md":M,"../content/blog/derivadas-2-bachillerato-ejercicios-examen.md":R,"../content/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos.md":T,"../content/blog/derivadas-parciales-gradiente-ejercicios.md":k,"../content/blog/derivadas-producto-cociente-ejercicios.md":N,"../content/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes.md":I,"../content/blog/disoluciones-tampon-henderson-hasselbalch-ejercicios-resueltos.md":O,"../content/blog/econometria-desde-cero-interpretar-regresion.md":F,"../content/blog/economia-ade-matematicas-sin-perderse.md":B,"../content/blog/ecuaciones-bicuadradas-4-eso-ejercicios.md":H,"../content/blog/ecuaciones-diferenciales-identificar-metodo-correcto.md":Q,"../content/blog/ecuaciones-segundo-grado-3-eso-ejercicios-resueltos.md":G,"../content/blog/energia-mecanica-rozamiento-4-eso-problemas.md":V,"../content/blog/errores-comunes-inferencia-estadistica.md":W,"../content/blog/eso-fisica-quimica-calor-temperatura-cambios-estado.md":K,"../content/blog/eso-fisica-quimica-densidad-presion-flotacion.md":J,"../content/blog/eso-fisica-quimica-electricidad-circuitos.md":X,"../content/blog/eso-fisica-quimica-energia-mecanica.md":Z,"../content/blog/eso-fisica-quimica-formulacion-inorganica.md":Y,"../content/blog/eso-fisica-quimica-leyes-newton-dinamica.md":ee,"../content/blog/eso-fisica-quimica-mezclas-disoluciones-separacion.md":ne,"../content/blog/eso-fisica-quimica-modelos-atomicos-tabla-periodica.md":ae,"../content/blog/eso-fisica-quimica-reacciones-ajuste-conservacion.md":ie,"../content/blog/eso-fisica-quimica-sonido-ondas.md":oe,"../content/blog/eso-fisica-quimica-trabajo-potencia-rendimiento.md":re,"../content/blog/eso-matematicas-ecuaciones-sistemas-estudiar.md":se,"../content/blog/eso-matematicas-fracciones-operaciones-problemas.md":te,"../content/blog/eso-matematicas-inecuaciones-sistemas-regiones.md":ce,"../content/blog/eso-matematicas-pitagoras-thales-geometria.md":le,"../content/blog/eso-matematicas-polinomios-factorizacion.md":de,"../content/blog/eso-matematicas-porcentajes-interes-compuesto.md":ue,"../content/blog/eso-matematicas-potencias-radicales.md":me,"../content/blog/eso-matematicas-probabilidad-estudiar.md":pe,"../content/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja.md":$e,"../content/blog/estadistica-descriptiva-eso-media-mediana-moda.md":ge,"../content/blog/estadistica-desde-cero-para-elegir-contrastes.md":fe,"../content/blog/estequiometria-universitaria-ejercicios-resueltos.md":xe,"../content/blog/estudio-completo-funcion-paso-a-paso.md":be,"../content/blog/examen-calculo-1-ingenieria-simulacro-resuelto.md":ve,"../content/blog/examen-matematicas-2-eso-modelo-resuelto.md":ye,"../content/blog/examen-matematicas-3-eso-modelo-resuelto.md":he,"../content/blog/factores-conversion-3-eso-ejercicios-resueltos.md":qe,"../content/blog/fisica-y-quimica-como-plantear-problemas.md":Ee,"../content/blog/fracciones-algebraicas-4-eso-ejercicios.md":_e,"../content/blog/funciones-lineales-afines-3-eso-ejercicios.md":je,"../content/blog/gcse-chemistry-acids-bases-salts-en.md":Ce,"../content/blog/gcse-chemistry-acids-bases-salts.md":Se,"../content/blog/gcse-chemistry-bonding-revision-en.md":ze,"../content/blog/gcse-chemistry-bonding-revision.md":Pe,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples-en.md":Ae,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples.md":Le,"../content/blog/gcse-chemistry-electrolysis-electrode-products-en.md":Ue,"../content/blog/gcse-chemistry-electrolysis-electrode-products.md":we,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles-en.md":De,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles.md":Me,"../content/blog/gcse-chemistry-equations-moles-revision-en.md":Re,"../content/blog/gcse-chemistry-equations-moles-revision.md":Te,"../content/blog/gcse-chemistry-periodic-table-groups-trends-en.md":ke,"../content/blog/gcse-chemistry-periodic-table-groups-trends.md":Ne,"../content/blog/gcse-chemistry-rates-collision-theory-en.md":Ie,"../content/blog/gcse-chemistry-rates-collision-theory.md":Oe,"../content/blog/gcse-maths-algebra-graphs-revision-en.md":Fe,"../content/blog/gcse-maths-algebra-graphs-revision.md":Be,"../content/blog/gcse-maths-circle-theorems-proof-en.md":He,"../content/blog/gcse-maths-circle-theorems-proof.md":Qe,"../content/blog/gcse-maths-histograms-cumulative-frequency-en.md":Ge,"../content/blog/gcse-maths-histograms-cumulative-frequency.md":Ve,"../content/blog/gcse-maths-probability-trees-conditional-en.md":We,"../content/blog/gcse-maths-probability-trees-conditional.md":Ke,"../content/blog/gcse-maths-resit-14-day-plan-en.md":Je,"../content/blog/gcse-maths-resit-14-day-plan.md":Xe,"../content/blog/gcse-maths-revision-plan-foundation-higher-en.md":Ze,"../content/blog/gcse-maths-revision-plan-foundation-higher.md":Ye,"../content/blog/gcse-maths-similarity-area-volume-scale-factors-en.md":en,"../content/blog/gcse-maths-similarity-area-volume-scale-factors.md":nn,"../content/blog/gcse-maths-simultaneous-equations-worked-examples-en.md":an,"../content/blog/gcse-maths-simultaneous-equations-worked-examples.md":on,"../content/blog/gcse-maths-transformations-vectors-en.md":rn,"../content/blog/gcse-maths-transformations-vectors.md":sn,"../content/blog/gcse-maths-trigonometry-bearings-en.md":tn,"../content/blog/gcse-maths-trigonometry-bearings.md":cn,"../content/blog/gcse-mock-exams-six-week-revision-plan-en.md":ln,"../content/blog/gcse-mock-exams-six-week-revision-plan.md":dn,"../content/blog/gcse-past-papers-mark-schemes-method-en.md":un,"../content/blog/gcse-past-papers-mark-schemes-method.md":mn,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples-en.md":pn,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples.md":$n,"../content/blog/gcse-physics-electricity-revision-en.md":gn,"../content/blog/gcse-physics-electricity-revision.md":fn,"../content/blog/gcse-physics-energy-work-power-efficiency-en.md":xn,"../content/blog/gcse-physics-energy-work-power-efficiency.md":bn,"../content/blog/gcse-physics-forces-exam-questions-en.md":vn,"../content/blog/gcse-physics-forces-exam-questions.md":yn,"../content/blog/gcse-physics-magnetism-motors-generators-en.md":hn,"../content/blog/gcse-physics-magnetism-motors-generators.md":qn,"../content/blog/gcse-physics-motion-graphs-stopping-distance-en.md":En,"../content/blog/gcse-physics-motion-graphs-stopping-distance.md":_n,"../content/blog/gcse-physics-radioactivity-half-life-en.md":jn,"../content/blog/gcse-physics-radioactivity-half-life.md":Cn,"../content/blog/gcse-physics-space-stars-life-cycle-en.md":Sn,"../content/blog/gcse-physics-space-stars-life-cycle.md":zn,"../content/blog/gcse-physics-thermal-heating-curves-en.md":Pn,"../content/blog/gcse-physics-thermal-heating-curves.md":An,"../content/blog/gcse-physics-waves-refraction-en.md":Ln,"../content/blog/gcse-physics-waves-refraction.md":Un,"../content/blog/geometria-analitica-4-eso-rectas-ejercicios.md":wn,"../content/blog/graficas-mru-mrua-4-eso-ejercicios.md":Dn,"../content/blog/gravitacion-eso-ley-universal-peso-ejercicios.md":Mn,"../content/blog/ib-gcse-como-preparar-examenes-internacionales.md":Rn,"../content/blog/integracion-por-partes-formula-ejercicios-resueltos.md":Tn,"../content/blog/integracion-por-sustitucion-cambio-variable-ejercicios.md":kn,"../content/blog/integral-definida-e-indefinida-diferencias-ejemplos.md":Nn,"../content/blog/integrales-dobles-ejercicios-resueltos.md":In,"../content/blog/integrales-funciones-racionales-fracciones-parciales.md":On,"../content/blog/integrales-impropias-convergencia-ejercicios.md":Fn,"../content/blog/integrales-inmediatas-ejercicios-resueltos.md":Bn,"../content/blog/integrales-trigonometricas-ejercicios-resueltos.md":Hn,"../content/blog/ley-hooke-muelles-4-eso-ejercicios.md":Qn,"../content/blog/ley-ohm-4-eso-ejercicios-resueltos.md":Gn,"../content/blog/limites-trigonometricos-ejercicios-resueltos.md":Vn,"../content/blog/matrices-determinantes-sistemas-ecuaciones-guia.md":Wn,"../content/blog/maximos-minimos-varias-variables-ejercicios.md":Kn,"../content/blog/mecanica-fluidos-bernoulli-continuidad-ejercicios-resueltos.md":Jn,"../content/blog/metodos-de-integracion-como-elegir.md":Xn,"../content/blog/microeconomia-i-tipos-problemas-examen.md":Zn,"../content/blog/molaridad-disoluciones-1-bachillerato-ejercicios.md":Yn,"../content/blog/movimiento-circular-uniforme-1-bachillerato-ejercicios.md":ea,"../content/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios.md":na,"../content/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios.md":aa,"../content/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo.md":ia,"../content/blog/pau-ccss-derivadas-optimizacion-economia.md":oa,"../content/blog/pau-ccss-inferencia-intervalos-confianza.md":ra,"../content/blog/pau-ccss-integrales-area-acumulacion.md":sa,"../content/blog/pau-ccss-matrices-modelos-economicos.md":ta,"../content/blog/pau-ccss-programacion-lineal-problemas.md":ca,"../content/blog/pau-convocatoria-extraordinaria-plan-30-dias.md":la,"../content/blog/pau-corregir-simulacros-plan-estudio.md":da,"../content/blog/pau-ebau-evau-selectividad-modelo-oficial.md":ua,"../content/blog/pau-fisica-campo-electrico-potencial-condensadores.md":ma,"../content/blog/pau-fisica-campo-gravitatorio-satelites.md":pa,"../content/blog/pau-fisica-cuantica-efecto-fotoelectrico.md":$a,"../content/blog/pau-fisica-electromagnetismo-estudiar.md":ga,"../content/blog/pau-fisica-formulario-unidades-comprobaciones.md":fa,"../content/blog/pau-fisica-graficas-datos-incertidumbre.md":xa,"../content/blog/pau-fisica-movimiento-armonico-simple.md":ba,"../content/blog/pau-fisica-nuclear-defecto-masa.md":va,"../content/blog/pau-fisica-ondas-resolver-problemas.md":ya,"../content/blog/pau-fisica-optica-lentes-espejos.md":ha,"../content/blog/pau-fisica-relatividad-especial.md":qa,"../content/blog/pau-matematicas-ccss-probabilidad-bayes.md":Ea,"../content/blog/pau-matematicas-derivabilidad-parametros-tangentes.md":_a,"../content/blog/pau-matematicas-geometria-metrica-distancias-angulos.md":ja,"../content/blog/pau-matematicas-ii-90-minutos-elegir-ejercicios.md":Ca,"../content/blog/pau-matematicas-ii-errores-restan-puntos.md":Sa,"../content/blog/pau-matematicas-ii-vectores-rectas-planos.md":za,"../content/blog/pau-matematicas-integrales-areas.md":Pa,"../content/blog/pau-matematicas-limites-asintotas.md":Aa,"../content/blog/pau-matematicas-matrices-determinantes-gauss.md":La,"../content/blog/pau-matematicas-probabilidad-distribuciones.md":Ua,"../content/blog/pau-matematicas-sistemas-parametro-rouche-frobenius.md":wa,"../content/blog/pau-quimica-acido-base-ph-calculos.md":Da,"../content/blog/pau-quimica-cinetica-arrhenius-velocidad.md":Ma,"../content/blog/pau-quimica-enlace-geometria-molecular.md":Ra,"../content/blog/pau-quimica-equilibrio-quimico-estudiar.md":Ta,"../content/blog/pau-quimica-estequiometria-gases-disoluciones.md":ka,"../content/blog/pau-quimica-estructura-atomica-configuracion.md":Na,"../content/blog/pau-quimica-laboratorio-rendimiento-pureza-errores.md":Ia,"../content/blog/pau-quimica-organica-mapa-reacciones.md":Oa,"../content/blog/pau-quimica-pilas-electroquimica-redox.md":Fa,"../content/blog/pau-quimica-solubilidad-kps-precipitacion.md":Ba,"../content/blog/pau-quimica-termoquimica-hess-entalpia.md":Ha,"../content/blog/pau-quimica-volumetrias-acido-base-redox.md":Qa,"../content/blog/plano-inclinado-1-bachillerato-ejercicios-resueltos.md":Ga,"../content/blog/preparar-pau-desde-verano-plan-septiembre.md":Va,"../content/blog/preparar-selectividad-con-calendario.md":Wa,"../content/blog/primer-proyecto-python-principiantes-datos.md":Ka,"../content/blog/probabilidad-condicionada-bayes-problemas-resueltos.md":Ja,"../content/blog/problemas-optimizacion-derivadas-ejercicios-resueltos.md":Xa,"../content/blog/proporcionalidad-directa-inversa-2-eso-ejercicios.md":Za,"../content/blog/python-y-sql-para-empezar-en-datos.md":Ya,"../content/blog/que-prueba-estadistica-utilizar-guia-test-correcto.md":ei,"../content/blog/que-son-las-derivadas-y-para-que-se-utilizan.md":ni,"../content/blog/que-son-las-integrales-y-para-que-se-utilizan.md":ai,"../content/blog/r-spss-jamovi-python-programa-estadistico-universidad.md":ii,"../content/blog/regla-cadena-ejercicios-resueltos.md":oi,"../content/blog/regla-lhopital-cuando-usarla-ejercicios.md":ri,"../content/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados.md":si,"../content/blog/semejanza-escalas-2-eso-problemas-resueltos.md":ti,"../content/blog/series-taylor-maclaurin-ejercicios-resueltos.md":ci,"../content/blog/sistemas-ecuaciones-3-eso-problemas-resueltos.md":li,"../content/blog/t-student-psicologia-ejercicios-resueltos.md":di,"../content/blog/teorema-fundamental-calculo-ejemplos-ejercicios.md":ui,"../content/blog/termodinamica-primer-principio-ciclos-ejercicios-resueltos.md":mi,"../content/blog/transicion-al-sector-it-en-6-meses.md":pi,"../content/blog/valores-propios-vectores-propios-diagonalizacion-ejercicios-resueltos.md":$i}),t=Object.entries(xi).map(([e,a])=>{const i=e.split("/").pop().replace(/\.md$/,""),{data:n,body:s}=gi(a);return{slug:i,title:n.title??i,seoTitle:n.seoTitle??"",date:n.date??"",updated:n.updated??n.date??"",description:n.description??"",tag:n.tag??"Blog",category:n.category??n.tag??"Blog",image:n.image??"/favicon.svg",language:n.language==="en"?"en":"es",translation:n.translation??"",relatedService:n.relatedService??"/contacto/",relatedPosts:n.relatedPosts?n.relatedPosts.split(",").map(o=>o.trim()).filter(Boolean):[],readingMinutes:fi(s),body:s}}).sort((e,a)=>e.date<a.date?1:e.date>a.date?-1:0);function vi(){return t}function yi(e,a=9){return Math.max(1,Math.ceil(e.length/a))}function hi(e,a,i=9){const n=(a-1)*i;return e.slice(n,n+i)}function bi(e){return t.find(a=>a.slug===e)}function qi(e){return t.filter(a=>a.category===e)}function Ei(e,a=3){const i=e.relatedPosts.map(o=>bi(o)).filter(o=>!!o),s=[...t.filter(o=>o.language===e.language),...t].filter(o=>o.slug!==e.slug&&!i.some(r=>r.slug===o.slug));return[...i,...s].slice(0,a)}function _i(e,a="es"){if(!e)return"";const i=new Date(e);return Number.isNaN(i.getTime())?e:i.toLocaleDateString(a==="en"?"en-GB":"es-ES",{day:"numeric",month:"long",year:"numeric"})}export{yi as a,bi as b,hi as c,vi as d,Ei as e,_i as f,qi as g};
+`;function To(e){const a=/^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(e);if(!a)return{data:{},body:e.trim()};const o={};for(const n of a[1].split(`
+`)){const s=n.indexOf(":");if(s===-1)continue;const i=n.slice(0,s).trim();let r=n.slice(s+1).trim();(r.startsWith('"')&&r.endsWith('"')||r.startsWith("'")&&r.endsWith("'"))&&(r=r.slice(1,-1)),i&&(o[i]=r)}return{data:o,body:e.slice(a[0].length).trim()}}function ko(e){const a=e.trim().split(/\s+/).filter(Boolean).length;return Math.max(1,Math.round(a/200))}const Fo=Object.assign({"../content/blog/algebra-lineal-universidad-que-estudiar-primero-errores.md":c,"../content/blog/area-entre-dos-curvas-ejercicios-resueltos.md":l,"../content/blog/bachillerato-fisica-momento-choques.md":d,"../content/blog/bachillerato-fisica-quimica-mol-estequiometria.md":u,"../content/blog/bachillerato-fisica-tiro-parabolico.md":m,"../content/blog/bachillerato-matematicas-ecuaciones-trigonometricas.md":p,"../content/blog/bachillerato-matematicas-funciones-representacion.md":$,"../content/blog/bachillerato-matematicas-logaritmos-exponenciales-ecuaciones.md":g,"../content/blog/bachillerato-matematicas-sucesiones-progresiones.md":f,"../content/blog/bachillerato-matematicas-trigonometria-triangulos.md":b,"../content/blog/bachillerato-quimica-gases-ideales.md":x,"../content/blog/bachillerato-quimica-periodicidad-configuracion.md":v,"../content/blog/bachillerato-quimica-reactivo-limitante-rendimiento-pureza.md":y,"../content/blog/caida-libre-lanzamiento-vertical-4-eso-problemas.md":h,"../content/blog/cambio-variables-jacobiano-integrales-dobles.md":q,"../content/blog/chi-cuadrado-psicologia-tablas-contingencia.md":E,"../content/blog/cinetica-quimica-orden-reaccion-arrhenius-ejercicios-resueltos.md":_,"../content/blog/circuitos-corriente-continua-problemas-resueltos-universidad.md":C,"../content/blog/como-aprobar-calculo-i-ingenieria-seis-semanas.md":j,"../content/blog/como-aprobar-estadistica-psicologia-sin-base-matematica.md":S,"../content/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas.md":z,"../content/blog/como-aprobar-matematicas-i-ade-economia.md":P,"../content/blog/como-estudiar-matematicas-sin-memorizar.md":A,"../content/blog/como-preparar-ib-mathematics-aa-ai.md":L,"../content/blog/como-preparar-pau-matematicas-ii.md":H,"../content/blog/como-resolver-limites-indeterminaciones-ejercicios.md":O,"../content/blog/continuidad-derivabilidad-diferencias-problemas.md":U,"../content/blog/derivacion-implicita-ejercicios-resueltos.md":M,"../content/blog/derivadas-2-bachillerato-ejercicios-examen.md":D,"../content/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos.md":w,"../content/blog/derivadas-parciales-gradiente-ejercicios.md":R,"../content/blog/derivadas-producto-cociente-ejercicios.md":N,"../content/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes.md":I,"../content/blog/disoluciones-tampon-henderson-hasselbalch-ejercicios-resueltos.md":B,"../content/blog/econometria-desde-cero-interpretar-regresion.md":T,"../content/blog/economia-ade-matematicas-sin-perderse.md":k,"../content/blog/ecuaciones-bicuadradas-4-eso-ejercicios.md":F,"../content/blog/ecuaciones-diferenciales-identificar-metodo-correcto.md":Q,"../content/blog/ecuaciones-segundo-grado-3-eso-ejercicios-resueltos.md":V,"../content/blog/energia-mecanica-rozamiento-4-eso-problemas.md":G,"../content/blog/errores-comunes-inferencia-estadistica.md":K,"../content/blog/eso-fisica-quimica-calor-temperatura-cambios-estado.md":W,"../content/blog/eso-fisica-quimica-densidad-presion-flotacion.md":J,"../content/blog/eso-fisica-quimica-electricidad-circuitos.md":Z,"../content/blog/eso-fisica-quimica-energia-mecanica.md":X,"../content/blog/eso-fisica-quimica-formulacion-inorganica.md":Y,"../content/blog/eso-fisica-quimica-leyes-newton-dinamica.md":ee,"../content/blog/eso-fisica-quimica-mezclas-disoluciones-separacion.md":ne,"../content/blog/eso-fisica-quimica-modelos-atomicos-tabla-periodica.md":ae,"../content/blog/eso-fisica-quimica-reacciones-ajuste-conservacion.md":oe,"../content/blog/eso-fisica-quimica-sonido-ondas.md":ie,"../content/blog/eso-fisica-quimica-trabajo-potencia-rendimiento.md":re,"../content/blog/eso-matematicas-ecuaciones-sistemas-estudiar.md":se,"../content/blog/eso-matematicas-fracciones-operaciones-problemas.md":te,"../content/blog/eso-matematicas-inecuaciones-sistemas-regiones.md":ce,"../content/blog/eso-matematicas-pitagoras-thales-geometria.md":le,"../content/blog/eso-matematicas-polinomios-factorizacion.md":de,"../content/blog/eso-matematicas-porcentajes-interes-compuesto.md":ue,"../content/blog/eso-matematicas-potencias-radicales.md":me,"../content/blog/eso-matematicas-probabilidad-estudiar.md":pe,"../content/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja.md":$e,"../content/blog/estadistica-descriptiva-eso-media-mediana-moda.md":ge,"../content/blog/estadistica-desde-cero-para-elegir-contrastes.md":fe,"../content/blog/estequiometria-universitaria-ejercicios-resueltos.md":be,"../content/blog/estudio-completo-funcion-paso-a-paso.md":xe,"../content/blog/examen-calculo-1-ingenieria-simulacro-resuelto.md":ve,"../content/blog/examen-matematicas-2-eso-modelo-resuelto.md":ye,"../content/blog/examen-matematicas-3-eso-modelo-resuelto.md":he,"../content/blog/factores-conversion-3-eso-ejercicios-resueltos.md":qe,"../content/blog/fisica-y-quimica-como-plantear-problemas.md":Ee,"../content/blog/fracciones-algebraicas-4-eso-ejercicios.md":_e,"../content/blog/funciones-lineales-afines-3-eso-ejercicios.md":Ce,"../content/blog/gcse-chemistry-acids-bases-salts-en.md":je,"../content/blog/gcse-chemistry-acids-bases-salts.md":Se,"../content/blog/gcse-chemistry-bonding-revision-en.md":ze,"../content/blog/gcse-chemistry-bonding-revision.md":Pe,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples-en.md":Ae,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples.md":Le,"../content/blog/gcse-chemistry-electrolysis-electrode-products-en.md":He,"../content/blog/gcse-chemistry-electrolysis-electrode-products.md":Oe,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles-en.md":Ue,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles.md":Me,"../content/blog/gcse-chemistry-equations-moles-revision-en.md":De,"../content/blog/gcse-chemistry-equations-moles-revision.md":we,"../content/blog/gcse-chemistry-periodic-table-groups-trends-en.md":Re,"../content/blog/gcse-chemistry-periodic-table-groups-trends.md":Ne,"../content/blog/gcse-chemistry-rates-collision-theory-en.md":Ie,"../content/blog/gcse-chemistry-rates-collision-theory.md":Be,"../content/blog/gcse-maths-algebra-graphs-revision-en.md":Te,"../content/blog/gcse-maths-algebra-graphs-revision.md":ke,"../content/blog/gcse-maths-circle-theorems-proof-en.md":Fe,"../content/blog/gcse-maths-circle-theorems-proof.md":Qe,"../content/blog/gcse-maths-histograms-cumulative-frequency-en.md":Ve,"../content/blog/gcse-maths-histograms-cumulative-frequency.md":Ge,"../content/blog/gcse-maths-probability-trees-conditional-en.md":Ke,"../content/blog/gcse-maths-probability-trees-conditional.md":We,"../content/blog/gcse-maths-resit-14-day-plan-en.md":Je,"../content/blog/gcse-maths-resit-14-day-plan.md":Ze,"../content/blog/gcse-maths-revision-plan-foundation-higher-en.md":Xe,"../content/blog/gcse-maths-revision-plan-foundation-higher.md":Ye,"../content/blog/gcse-maths-similarity-area-volume-scale-factors-en.md":en,"../content/blog/gcse-maths-similarity-area-volume-scale-factors.md":nn,"../content/blog/gcse-maths-simultaneous-equations-worked-examples-en.md":an,"../content/blog/gcse-maths-simultaneous-equations-worked-examples.md":on,"../content/blog/gcse-maths-transformations-vectors-en.md":rn,"../content/blog/gcse-maths-transformations-vectors.md":sn,"../content/blog/gcse-maths-trigonometry-bearings-en.md":tn,"../content/blog/gcse-maths-trigonometry-bearings.md":cn,"../content/blog/gcse-mock-exams-six-week-revision-plan-en.md":ln,"../content/blog/gcse-mock-exams-six-week-revision-plan.md":dn,"../content/blog/gcse-past-papers-mark-schemes-method-en.md":un,"../content/blog/gcse-past-papers-mark-schemes-method.md":mn,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples-en.md":pn,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples.md":$n,"../content/blog/gcse-physics-electricity-revision-en.md":gn,"../content/blog/gcse-physics-electricity-revision.md":fn,"../content/blog/gcse-physics-energy-work-power-efficiency-en.md":bn,"../content/blog/gcse-physics-energy-work-power-efficiency.md":xn,"../content/blog/gcse-physics-forces-exam-questions-en.md":vn,"../content/blog/gcse-physics-forces-exam-questions.md":yn,"../content/blog/gcse-physics-magnetism-motors-generators-en.md":hn,"../content/blog/gcse-physics-magnetism-motors-generators.md":qn,"../content/blog/gcse-physics-motion-graphs-stopping-distance-en.md":En,"../content/blog/gcse-physics-motion-graphs-stopping-distance.md":_n,"../content/blog/gcse-physics-radioactivity-half-life-en.md":Cn,"../content/blog/gcse-physics-radioactivity-half-life.md":jn,"../content/blog/gcse-physics-space-stars-life-cycle-en.md":Sn,"../content/blog/gcse-physics-space-stars-life-cycle.md":zn,"../content/blog/gcse-physics-thermal-heating-curves-en.md":Pn,"../content/blog/gcse-physics-thermal-heating-curves.md":An,"../content/blog/gcse-physics-waves-refraction-en.md":Ln,"../content/blog/gcse-physics-waves-refraction.md":Hn,"../content/blog/geometria-analitica-4-eso-rectas-ejercicios.md":On,"../content/blog/graficas-mru-mrua-4-eso-ejercicios.md":Un,"../content/blog/gravitacion-eso-ley-universal-peso-ejercicios.md":Mn,"../content/blog/ib-gcse-como-preparar-examenes-internacionales.md":Dn,"../content/blog/integracion-por-partes-formula-ejercicios-resueltos.md":wn,"../content/blog/integracion-por-sustitucion-cambio-variable-ejercicios.md":Rn,"../content/blog/integral-definida-e-indefinida-diferencias-ejemplos.md":Nn,"../content/blog/integrales-dobles-ejercicios-resueltos.md":In,"../content/blog/integrales-funciones-racionales-fracciones-parciales.md":Bn,"../content/blog/integrales-impropias-convergencia-ejercicios.md":Tn,"../content/blog/integrales-inmediatas-ejercicios-resueltos.md":kn,"../content/blog/integrales-trigonometricas-ejercicios-resueltos.md":Fn,"../content/blog/ley-hooke-muelles-4-eso-ejercicios.md":Qn,"../content/blog/ley-ohm-4-eso-ejercicios-resueltos.md":Vn,"../content/blog/limites-trigonometricos-ejercicios-resueltos.md":Gn,"../content/blog/matematicas-ii-pau-2025-andalucia.md":Kn,"../content/blog/matematicas-ii-pau-2025-aragon.md":Wn,"../content/blog/matematicas-ii-pau-2025-cantabria.md":Jn,"../content/blog/matematicas-ii-pau-2025-comunidad-valenciana.md":Zn,"../content/blog/matematicas-ii-pau-2025-madrid.md":Xn,"../content/blog/matematicas-ii-pau-2025-murcia.md":Yn,"../content/blog/matematicas-ii-pau-2025-navarra.md":ea,"../content/blog/matematicas-ii-pau-2026-andalucia.md":na,"../content/blog/matematicas-ii-pau-2026-aragon.md":aa,"../content/blog/matematicas-ii-pau-2026-asturias.md":oa,"../content/blog/matematicas-ii-pau-2026-cantabria.md":ia,"../content/blog/matematicas-ii-pau-2026-cataluna.md":ra,"../content/blog/matematicas-ii-pau-2026-comunidad-valenciana.md":sa,"../content/blog/matematicas-ii-pau-2026-madrid.md":ta,"../content/blog/matematicas-ii-pau-2026-murcia.md":ca,"../content/blog/matematicas-ii-pau-2026-pais-vasco.md":la,"../content/blog/matrices-determinantes-sistemas-ecuaciones-guia.md":da,"../content/blog/maximos-minimos-varias-variables-ejercicios.md":ua,"../content/blog/mecanica-fluidos-bernoulli-continuidad-ejercicios-resueltos.md":ma,"../content/blog/metodos-de-integracion-como-elegir.md":pa,"../content/blog/microeconomia-i-tipos-problemas-examen.md":$a,"../content/blog/molaridad-disoluciones-1-bachillerato-ejercicios.md":ga,"../content/blog/movimiento-circular-uniforme-1-bachillerato-ejercicios.md":fa,"../content/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios.md":ba,"../content/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios.md":xa,"../content/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo.md":va,"../content/blog/pau-ccss-derivadas-optimizacion-economia.md":ya,"../content/blog/pau-ccss-inferencia-intervalos-confianza.md":ha,"../content/blog/pau-ccss-integrales-area-acumulacion.md":qa,"../content/blog/pau-ccss-matrices-modelos-economicos.md":Ea,"../content/blog/pau-ccss-programacion-lineal-problemas.md":_a,"../content/blog/pau-convocatoria-extraordinaria-plan-30-dias.md":Ca,"../content/blog/pau-corregir-simulacros-plan-estudio.md":ja,"../content/blog/pau-ebau-evau-selectividad-modelo-oficial.md":Sa,"../content/blog/pau-fisica-campo-electrico-potencial-condensadores.md":za,"../content/blog/pau-fisica-campo-gravitatorio-satelites.md":Pa,"../content/blog/pau-fisica-cuantica-efecto-fotoelectrico.md":Aa,"../content/blog/pau-fisica-electromagnetismo-estudiar.md":La,"../content/blog/pau-fisica-formulario-unidades-comprobaciones.md":Ha,"../content/blog/pau-fisica-graficas-datos-incertidumbre.md":Oa,"../content/blog/pau-fisica-movimiento-armonico-simple.md":Ua,"../content/blog/pau-fisica-nuclear-defecto-masa.md":Ma,"../content/blog/pau-fisica-ondas-resolver-problemas.md":Da,"../content/blog/pau-fisica-optica-lentes-espejos.md":wa,"../content/blog/pau-fisica-relatividad-especial.md":Ra,"../content/blog/pau-matematicas-ccss-probabilidad-bayes.md":Na,"../content/blog/pau-matematicas-derivabilidad-parametros-tangentes.md":Ia,"../content/blog/pau-matematicas-geometria-metrica-distancias-angulos.md":Ba,"../content/blog/pau-matematicas-ii-90-minutos-elegir-ejercicios.md":Ta,"../content/blog/pau-matematicas-ii-errores-restan-puntos.md":ka,"../content/blog/pau-matematicas-ii-vectores-rectas-planos.md":Fa,"../content/blog/pau-matematicas-integrales-areas.md":Qa,"../content/blog/pau-matematicas-limites-asintotas.md":Va,"../content/blog/pau-matematicas-matrices-determinantes-gauss.md":Ga,"../content/blog/pau-matematicas-probabilidad-distribuciones.md":Ka,"../content/blog/pau-matematicas-sistemas-parametro-rouche-frobenius.md":Wa,"../content/blog/pau-quimica-acido-base-ph-calculos.md":Ja,"../content/blog/pau-quimica-cinetica-arrhenius-velocidad.md":Za,"../content/blog/pau-quimica-enlace-geometria-molecular.md":Xa,"../content/blog/pau-quimica-equilibrio-quimico-estudiar.md":Ya,"../content/blog/pau-quimica-estequiometria-gases-disoluciones.md":eo,"../content/blog/pau-quimica-estructura-atomica-configuracion.md":no,"../content/blog/pau-quimica-laboratorio-rendimiento-pureza-errores.md":ao,"../content/blog/pau-quimica-organica-mapa-reacciones.md":oo,"../content/blog/pau-quimica-pilas-electroquimica-redox.md":io,"../content/blog/pau-quimica-solubilidad-kps-precipitacion.md":ro,"../content/blog/pau-quimica-termoquimica-hess-entalpia.md":so,"../content/blog/pau-quimica-volumetrias-acido-base-redox.md":to,"../content/blog/plano-inclinado-1-bachillerato-ejercicios-resueltos.md":co,"../content/blog/preparar-pau-desde-verano-plan-septiembre.md":lo,"../content/blog/preparar-selectividad-con-calendario.md":uo,"../content/blog/primer-proyecto-python-principiantes-datos.md":mo,"../content/blog/probabilidad-condicionada-bayes-problemas-resueltos.md":po,"../content/blog/problemas-optimizacion-derivadas-ejercicios-resueltos.md":$o,"../content/blog/proporcionalidad-directa-inversa-2-eso-ejercicios.md":go,"../content/blog/python-y-sql-para-empezar-en-datos.md":fo,"../content/blog/que-prueba-estadistica-utilizar-guia-test-correcto.md":bo,"../content/blog/que-son-las-derivadas-y-para-que-se-utilizan.md":xo,"../content/blog/que-son-las-integrales-y-para-que-se-utilizan.md":vo,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-1.md":yo,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-2.md":ho,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-3.md":qo,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-4.md":Eo,"../content/blog/quimica-examen-resuelto-septiembre-2018-modelo-1.md":_o,"../content/blog/quimica-examen-resuelto-septiembre-2022-modelo-1.md":Co,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-1.md":jo,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-2.md":So,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-3.md":zo,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-4.md":Po,"../content/blog/r-spss-jamovi-python-programa-estadistico-universidad.md":Ao,"../content/blog/regla-cadena-ejercicios-resueltos.md":Lo,"../content/blog/regla-lhopital-cuando-usarla-ejercicios.md":Ho,"../content/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados.md":Oo,"../content/blog/semejanza-escalas-2-eso-problemas-resueltos.md":Uo,"../content/blog/series-taylor-maclaurin-ejercicios-resueltos.md":Mo,"../content/blog/sistemas-ecuaciones-3-eso-problemas-resueltos.md":Do,"../content/blog/t-student-psicologia-ejercicios-resueltos.md":wo,"../content/blog/teorema-fundamental-calculo-ejemplos-ejercicios.md":Ro,"../content/blog/termodinamica-primer-principio-ciclos-ejercicios-resueltos.md":No,"../content/blog/transicion-al-sector-it-en-6-meses.md":Io,"../content/blog/valores-propios-vectores-propios-diagonalizacion-ejercicios-resueltos.md":Bo}),t=Object.entries(Fo).map(([e,a])=>{const o=e.split("/").pop().replace(/\.md$/,""),{data:n,body:s}=To(a);return{slug:o,title:n.title??o,seoTitle:n.seoTitle??"",date:n.date??"",updated:n.updated??n.date??"",description:n.description??"",tag:n.tag??"Blog",category:n.category??n.tag??"Blog",image:n.image??"/favicon.svg",language:n.language==="en"?"en":"es",translation:n.translation??"",relatedService:n.relatedService??"/contacto/",relatedPosts:n.relatedPosts?n.relatedPosts.split(",").map(i=>i.trim()).filter(Boolean):[],readingMinutes:ko(s),body:s}}).sort((e,a)=>e.date<a.date?1:e.date>a.date?-1:0);function Vo(){return t}function Go(e,a=9){return Math.max(1,Math.ceil(e.length/a))}function Ko(e,a,o=9){const n=(a-1)*o;return e.slice(n,n+o)}function Qo(e){return t.find(a=>a.slug===e)}function Wo(e){return t.filter(a=>a.category===e)}function Jo(e,a=3){const o=e.relatedPosts.map(i=>Qo(i)).filter(i=>!!i),s=[...t.filter(i=>i.language===e.language),...t].filter(i=>i.slug!==e.slug&&!o.some(r=>r.slug===i.slug));return[...o,...s].slice(0,a)}function Zo(e,a="es"){if(!e)return"";const o=new Date(e);return Number.isNaN(o.getTime())?e:o.toLocaleDateString(a==="en"?"en-GB":"es-ES",{day:"numeric",month:"long",year:"numeric"})}export{Go as a,Qo as b,Ko as c,Vo as d,Jo as e,Zo as f,Wo as g};

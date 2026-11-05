@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Diagramas de cuerpo libre para un bloque en plano inclinado y en suelo horizontal</title>
+  <desc id="desc">A la izquierda un bloque sobre una rampa con peso, normal y rozamiento; a la derecha un bloque sobre suelo horizontal con las fuerzas principales.</desc>
+  <defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8Z" fill="#2563eb"/></marker></defs>
+  <rect width="900" height="360" fill="#f8fafc"/><g font-family="Arial, sans-serif" fill="#0f172a">
+  <text x="185" y="38" font-size="24" font-weight="700" text-anchor="middle">Plano inclinado</text><text x="665" y="38" font-size="24" font-weight="700" text-anchor="middle">Tramo horizontal</text>
+  <path d="M45 305 L350 305 L350 120Z" fill="#dbeafe" stroke="#64748b" stroke-width="4"/><g transform="rotate(-30 240 210)"><rect x="185" y="175" width="95" height="62" rx="5" fill="#60a5fa" stroke="#1e3a8a" stroke-width="3"/><text x="232" y="214" text-anchor="middle" font-size="22">bloque</text></g>
+  <line x1="232" y1="206" x2="232" y2="320" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/><text x="243" y="284" font-size="22">P = mg</text>
+  <line x1="232" y1="206" x2="173" y2="104" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/><text x="123" y="112" font-size="22">N</text>
+  <line x1="232" y1="206" x2="150" y2="252" stroke="#ef4444" stroke-width="4" marker-end="url(#a)"/><text x="72" y="270" font-size="22">f roz</text>
+  <line x1="455" y1="294" x2="850" y2="294" stroke="#64748b" stroke-width="5"/><rect x="620" y="225" width="110" height="67" rx="5" fill="#60a5fa" stroke="#1e3a8a" stroke-width="3"/><text x="675" y="266" text-anchor="middle" font-size="22">bloque</text>
+  <line x1="675" y1="225" x2="675" y2="110" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/><text x="686" y="135" font-size="22">N</text><line x1="675" y1="258" x2="675" y2="344" stroke="#2563eb" stroke-width="4" marker-end="url(#a)"/><text x="686" y="332" font-size="22">P</text><line x1="620" y1="258" x2="505" y2="258" stroke="#ef4444" stroke-width="4" marker-end="url(#a)"/><text x="495" y="240" font-size="22">f roz</text>
+  </g>
+</svg>

@@ -125,6 +125,10 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pagina/31/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/</loc>
     <priority>0.6</priority>
   </url>
@@ -222,6 +226,14 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/9/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/10/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/11/</loc>
     <priority>0.5</priority>
   </url>
   <url>
@@ -1205,6 +1217,18 @@
     <lastmod>2026-06-04</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/fisica-pau-2026-andalucia/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/fisica-pau-2026-cantabria/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/fisica-pau-2026-madrid/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/matematicas-ccss-pau-2026-andalucia/</loc>
     <lastmod>2026-11-05</lastmod>
   </url>
@@ -1273,6 +1297,18 @@
     <lastmod>2026-11-05</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/fisica-pau-2025-andalucia-extraordinaria/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/fisica-pau-2025-madrid-coi/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/fisica-pau-2025-madrid/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/matematicas-ccss-pau-2025-comunidad-valenciana-extraordinaria/</loc>
     <lastmod>2026-11-05</lastmod>
   </url>
@@ -1282,6 +1318,22 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/matematicas-ccss-pau-2025-murcia/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/fisica-pau-2024-andalucia-a/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/fisica-pau-2024-andalucia-b/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/fisica-pau-2024-cantabria/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/fisica-pau-2024-murcia/</loc>
     <lastmod>2026-11-05</lastmod>
   </url>
   <url>
@@ -1297,7 +1349,31 @@
     <lastmod>2026-11-05</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/fisica-pau-2023-cantabria/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/fisica-pau-2023-madrid-coi/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/fisica-pau-2023-madrid/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/matematicas-ccss-pau-2023-comunidad-valenciana/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/fisica-pau-2022-comunidad-valenciana-julio/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/fisica-pau-2022-comunidad-valenciana/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/fisica-pau-2022-madrid/</loc>
     <lastmod>2026-11-05</lastmod>
   </url>
   <url>

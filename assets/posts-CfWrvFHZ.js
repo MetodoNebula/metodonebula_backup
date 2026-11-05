@@ -2926,7 +2926,7 @@ Cada punto del disco, salvo excepciones de área cero, se representa dos veces. 
 Un cambio de variables útil convierte las fronteras en límites simples y reduce el integrando. Después hay que transformar también el área mediante el valor absoluto del jacobiano. En polares, recuerda $dA=r\\,dr\\,d\\theta$; en transformaciones definidas como $u(x,y)$ y $v(x,y)$, revisa si necesitas el determinante inverso.
 
 Conviene dominar antes el planteamiento de [integrales dobles y cambios de orden](/blog/integrales-dobles-ejercicios-resueltos/). Para practicar transformaciones sobre regiones de examen, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,E=`---
+`,_=`---
 title: "Chi-cuadrado en Psicología: tablas de contingencia paso a paso"
 seoTitle: "Chi-cuadrado en Psicología: tablas de contingencia"
 date: 2026-11-04
@@ -3053,7 +3053,7 @@ No uses porcentajes como datos de entrada: construye la prueba con los recuentos
 4. No. Muestra asociación; para causalidad hacen falta un diseño y controles adecuados.
 
 En el [Campus de Método Nebula](/campus/) la elección de contrastes se practica como una secuencia: pregunta, tipo de variables, diseño, supuestos, cálculo e interpretación. Así chi-cuadrado no queda como una fórmula aislada.
-`,_=`---
+`,E=`---
 title: "Cinética química: ejercicios resueltos de orden de reacción y Arrhenius"
 seoTitle: "Cinética química: orden y Arrhenius | Ejercicios resueltos"
 date: "2026-10-21"
@@ -3566,7 +3566,7 @@ Vas bien cuando puedes mirar un enunciado y decir:
 5. Cómo escribirías la conclusión.
 
 Para seguir con el mapa de decisión, lee [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,P=`---
+`,z=`---
 title: Cómo aprobar Física I en Ingeniería sin memorizar todas las fórmulas
 date: 2026-06-29
 updated: 2026-06-29
@@ -3699,7 +3699,7 @@ Si tienes un examen cerca, usa esta distribución:
 La clave está en mezclar temas en la última fase. En examen no te dicen "este problema es de energía"; tienes que reconocerlo.
 
 Si necesitas convertir tu temario en un plan de estudio concreto, revisa [clases particulares de Física para Bachillerato e Ingeniería](/clases-particulares/fisica-ingenieria/) o la guía de [cómo plantear problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/).
-`,z=`---
+`,P=`---
 title: Cómo aprobar Matemáticas I en ADE y Economía
 date: 2026-07-04
 updated: 2026-07-04
@@ -4027,7 +4027,7 @@ En las tres semanas previas, alterna tres días de bloques débiles, dos días d
 La señal de que avanzas no es que el examen “te suene”. Es que puedes decidir el método, ejecutar los pasos sin depender de una solución y explicar dónde comprobarías un resultado.
 
 Para planificar la preparación general, consulta [cómo organizar la Selectividad con un calendario](/blog/preparar-selectividad-con-calendario/). Si necesitas convertir tus modelos de PAU en un plan de trabajo y corrección adaptado a tu punto de partida, revisa las [clases particulares para Selectividad y PAU](/clases-particulares/selectividad/) o [cuéntanos tu caso](/contacto/).
-`,O=`---
+`,D=`---
 title: Cómo resolver límites: indeterminaciones y ejercicios
 seoTitle: "Cómo resolver límites: indeterminaciones y ejercicios"
 date: 2026-08-17
@@ -4905,7 +4905,7 @@ Sustituye primero y transforma solo si aparece una indeterminación. Factoriza p
 Al terminar, sustituye de nuevo en la expresión transformada, revisa el signo desde ambos lados y contrasta el orden de magnitud. Una forma indeterminada nunca es la respuesta final.
 
 Los límites sostienen continuidad, derivadas e integrales, por lo que conviene dominarlos antes de avanzar en un plan de [Cálculo I para Ingeniería](/blog/como-aprobar-calculo-i-ingenieria-seis-semanas/). Si necesitas practicar con ejercicios de tu temario y recibir corrección del razonamiento, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,D=`---
+`,M=`---
 title: Continuidad y derivabilidad: diferencias y problemas
 seoTitle: "Continuidad y derivabilidad: diferencias y ejercicios"
 date: 2026-08-31
@@ -5477,7 +5477,7 @@ En un [estudio completo de una función](/blog/estudio-completo-funcion-paso-a-p
 Para funciones a trozos, redacta las conclusiones punto por punto: dónde es continua, dónde es derivable y qué tipo de fallo aparece en cada excepción. Una única afirmación global puede ocultar condiciones laterales diferentes.
 
 Si necesitas practicar funciones a trozos, parámetros y justificaciones con el nivel de detalle de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,M=`---
+`,R=`---
 title: "Derivación implícita: método y ejercicios resueltos"
 date: "2026-09-04"
 updated: "2026-09-04"
@@ -6238,7 +6238,7 @@ La fórmula $-F_x/F_y$ no decide la pendiente porque produce $0/0$ si ambas parc
 La derivación implícita se reduce a tres hábitos: recordar que $y$ depende de $x$, aplicar la regla de la cadena y no dividir sin revisar el denominador. Con eso puedes obtener pendientes, tangentes, curvatura y razones de cambio incluso cuando despejar la variable es inviable.
 
 Si las reglas de derivación todavía no están automatizadas, repasa primero [qué son las derivadas y para qué se utilizan](/blog/que-son-las-derivadas-y-para-que-se-utilizan/). Para practicar relaciones implícitas con corrección individual, las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/) permiten detectar exactamente en qué paso se rompe el razonamiento.
-`,U=`---
+`,O=`---
 title: "Derivadas de 2º Bachillerato: ejercicios tipo examen resueltos"
 seoTitle: "Derivadas 2º Bachillerato: ejercicios de examen"
 date: 2026-10-22
@@ -6316,7 +6316,7 @@ No olvides que la función original no está definida en \\(x=1\\).
 3. \\((1-\\ln x)/x^2\\).
 
 En el [Campus de Método Nebula](/campus/) las derivadas se organizan desde reglas básicas hasta problemas de optimización y modelos de examen, con práctica graduada y corrección de errores.
-`,w=`---
+`,U=`---
 title: Derivadas e integrales universitarias: prueba de nivel con ejercicios resueltos
 date: 2026-06-23
 updated: 2026-08-12
@@ -6484,7 +6484,7 @@ Antes de enfrentarte a problemas de Cálculo I deberías poder:
 - Revisar si un resultado tiene sentido por signo, unidades o gráfica.
 
 Para profundizar, puedes leer las guías sobre [qué son las derivadas](/blog/que-son-las-derivadas-y-para-que-se-utilizan/) y [qué son las integrales](/blog/que-son-las-integrales-y-para-que-se-utilizan/). Si quieres un diagnóstico más completo, revisa [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,R=`---
+`,B=`---
 title: "Derivadas parciales y gradiente: teoría y ejercicios"
 date: "2026-09-06"
 updated: "2026-09-06"
@@ -7173,7 +7173,7 @@ Quédate con esta secuencia:
 7. No confundas existencia de parciales con diferenciabilidad.
 
 Si quieres consolidar el salto desde derivadas de una variable a cálculo multivariable, en las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/) adaptamos los ejercicios a tu temario y trabajamos tanto el cálculo como la interpretación geométrica.
-`,B=`---
+`,w=`---
 title: Derivadas de producto y cociente: ejercicios resueltos
 seoTitle: "Derivadas de producto y cociente: ejercicios resueltos"
 date: 2026-11-05
@@ -7867,7 +7867,7 @@ Con \\(u=x^2\\), queda \\(u^2+u-6=0\\), es decir \\((u+3)(u-2)=0\\). El valor \\
 3. No tiene soluciones reales.
 
 En el [Campus de Método Nebula](/campus/) las ecuaciones se organizan desde segundo grado hasta bicuadradas, con ejercicios graduados y comprobaciones para elegir el método correcto.
-`,Q=`---
+`,V=`---
 title: Ecuaciones diferenciales: cómo identificar el método correcto paso a paso
 date: 2026-06-17
 updated: 2026-06-17
@@ -8080,7 +8080,7 @@ La condición inicial se aplica al final, no al principio. Primero se encuentra 
 - Sustituir condiciones iniciales antes de terminar la solución general.
 
 Si necesitas practicar con una colección ordenada de problemas, puedes empezar por la guía de [cómo estudiar matemáticas sin memorizar fórmulas](/blog/como-estudiar-matematicas-sin-memorizar/) o pedir un diagnóstico en [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,V=`---
+`,G=`---
 title: Ecuaciones de segundo grado en 3.º ESO: ejercicios resueltos
 seoTitle: "Ecuaciones de segundo grado 3.º ESO: ejercicios resueltos"
 date: 2026-11-05
@@ -8235,7 +8235,7 @@ Como no existe raíz cuadrada real de un número negativo, la ecuación no tiene
 Primero ordena la ecuación igualándola a cero. Factoriza cuando sea claro y usa la fórmula general cuando no lo sea. El discriminante te dice cuántas soluciones reales esperar y la comprobación final confirma el resultado.
 
 Para reforzar álgebra y sistemas con ejercicios adaptados a tu nivel, consulta las [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,G=`---
+`,Q=`---
 title: "Energía mecánica con rozamiento: problemas resueltos de 4º ESO"
 seoTitle: "Energía mecánica con rozamiento 4º ESO: problemas"
 date: 2026-10-26
@@ -8391,7 +8391,7 @@ Una conclusión estadística completa debería incluir:
 La última frase importa: no prometas más de lo que el diseño permite.
 
 Para reforzar este bloque, revisa [p-valor, intervalo de confianza y tamaño del efecto](/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/) o [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,X=`---
+`,W=`---
 title: "Calor y temperatura en ESO: cómo interpretar cambios de estado y curvas de calentamiento"
 seoTitle: "Calor, temperatura y cambios de estado en ESO"
 date: "2026-07-06"
@@ -8502,7 +8502,7 @@ Un termo reduce conducción y convección con aislamiento y radiación con super
 ## Conectar partículas, energía y cálculo
 
 El campus virtual de Método Nebula enlaza modelo de partículas, calor, cambios de estado, potencia y eficiencia mediante teoría visual y ejercicios de ESO graduados. El botón de contacto permite acceder a una ruta con problemas resueltos donde cada tramo de la curva se convierte en una ecuación justificada.
-`,W=`---
+`,J=`---
 title: "Densidad, presión y flotación en ESO: por qué un objeto pesado también puede flotar"
 date: "2026-10-12"
 updated: "2026-10-12"
@@ -8636,7 +8636,7 @@ La misma comparación explica por qué un submarino modifica su flotabilidad lle
 - Olvidar que equilibrio exige igualdad de fuerzas, no ausencia de fuerzas.
 
 El campus virtual de Método Nebula desarrolla masa, volumen, densidad, presión, empuje y flotación con experimentos razonados, ejemplos y problemas progresivos. El botón de contacto permite solicitar una ruta que conecta cada fórmula con el modelo físico que la justifica.
-`,J=`---
+`,X=`---
 title: "Electricidad y circuitos en ESO: entiende qué ocurre antes de usar la ley de Ohm"
 date: "2026-10-19"
 updated: "2026-11-05"
@@ -9100,7 +9100,7 @@ Una respuesta rigurosa distingue siempre datos, modelo y conclusión: primero id
 6. Comprueba unidad, signo y sentido.
 
 El campus de Método Nebula trabaja fuerzas y dinámica desde diagramas hasta problemas graduados de ESO y Bachillerato. Contacta para detectar si el bloqueo está en el dibujo, el álgebra o la interpretación.
-`,ne=`---
+`,ae=`---
 title: "Mezclas y disoluciones en ESO: cómo elegir filtración, destilación o cromatografía con criterio"
 date: "2026-10-27"
 updated: "2026-10-27"
@@ -9195,7 +9195,7 @@ Cada etapa elimina un componente aprovechando una propiedad distinta. El orden i
 - Elegir un método sin nombrar la propiedad física que lo hace funcionar.
 
 El campus virtual de Método Nebula desarrolla materia, mezclas, disoluciones, concentración y técnicas de separación con teoría, experimentos razonados, ejercicios y preguntas competenciales. El botón de contacto permite solicitar una ruta centrada en el diseño y la justificación del procedimiento.
-`,ae=`---
+`,ne=`---
 title: "Modelos atómicos y tabla periódica en ESO: del experimento a protones, isótopos e iones"
 seoTitle: "Modelos atómicos y tabla periódica en ESO"
 date: "2026-08-06"
@@ -12388,7 +12388,3810 @@ Las unidades cúbicas requieren especial cuidado porque el factor se eleva al cu
 Los factores de conversión funcionan porque las unidades se comportan como símbolos algebraicos: deben cancelarse hasta que solo quede la unidad buscada. Escribe siempre los pasos, especialmente en áreas, volúmenes y magnitudes compuestas.
 
 Si quieres practicar problemas de Física y Química con unidades, modelos y comprobaciones, consulta las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
+`,_e=`---
+title: Física · PAU 2022 · Julio · Comunidad Valenciana — examen resuelto
+seoTitle: PAU Física Comunidad Valenciana 2022 · Julio resuelta paso a paso
+date: 2022-06-01
+updated: 2026-11-05
+description: Examen de Física de Comunidad Valenciana 2022 · Julio resuelto paso a paso para 2.º de Bachillerato.
+tag: Física PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+El potencial gravitatorio a una distancia $r$ del centro de un planeta es $V=-9{,}1\\cdot10^{8}\\ \\text{J/kg}$. La intensidad del campo en la superficie es $g_0=26\\ \\text{m/s}^2$ y el radio del planeta $R=7\\cdot10^{4}\\ \\text{km}$. Deduce una relación que dé $r$ en función de $V$, $R$ y $g_0$, y calcula $r$.
+
+### Solución explicada
+
+El potencial gravitatorio y la gravedad superficial son:
+$$V = -\\dfrac{GM}{r}, \\qquad g_0 = \\dfrac{GM}{R^2} \\;\\Rightarrow\\; GM = g_0 R^2$$
+Sustituyendo $GM$ en el potencial:
+$$V = -\\dfrac{g_0 R^2}{r} \\;\\Rightarrow\\; \\boxed{r = -\\dfrac{g_0 R^2}{V}}$$
+Numéricamente:
+$$r = -\\dfrac{26\\cdot(7\\cdot10^{7})^2}{-9{,}1\\cdot10^{8}} = 1{,}4\\cdot10^{8}\\ \\text{m} = 1{,}4\\cdot10^{5}\\ \\text{km}$$
+(es decir, $r=2R$).
+
+## Ejercicio 2
+
+### Enunciado
+
+Deduce la relación entre la energía mecánica de un satélite y el radio de su órbita circular. Dos satélites $A$ y $B$ de igual masa tienen energías mecánicas $E_A=-4\\cdot10^{10}\\ \\text{J}$ y $E_B=-2\\cdot10^{10}\\ \\text{J}$. Razona cuál tiene mayor energía cinética y cuál está más lejos del planeta.
+
+### Solución explicada
+
+En una órbita circular, la energía cinética y la mecánica son:
+$$E_c = \\dfrac{1}{2}\\dfrac{GMm}{r}, \\qquad E_p = -\\dfrac{GMm}{r}, \\qquad E = E_c + E_p = -\\dfrac{GMm}{2r}$$
+Luego **$E=-\\dfrac{GMm}{2r}$**: cuanto mayor es el radio $r$, menos negativa (mayor) es $E$. Además $E_c=-E$, es decir $E_c=\\dfrac{GMm}{2r}$.
+
+Como $|E_A|>|E_B|$ ($E_A$ es más negativa):
+- **Energía cinética:** $E_c=-E$, luego $E_{cA}=4\\cdot10^{10}\\ \\text{J} > E_{cB}=2\\cdot10^{10}\\ \\text{J}$. El satélite **A** tiene mayor energía cinética.
+- **Distancia:** $r=-\\dfrac{GMm}{2E}$; a $E$ menos negativa, mayor $r$. El satélite **B** ($E_B$ menos negativa) está **más lejos**.
+
+## Ejercicio 3
+
+### Enunciado
+
+Una carga de $3\\ \\mu\\text{C}$ entra con $\\vec{v}=10^{4}\\,\\vec{i}\\ \\text{m/s}$ en una región con campo eléctrico $\\vec{E}=10^{4}\\,\\vec{j}\\ \\text{N/C}$ y campo magnético $\\vec{B}=(\\vec{i}+\\vec{k})\\ \\text{T}$. Determina las fuerzas eléctrica, magnética y total sobre la carga.
+
+### Solución explicada
+
+**Fuerza eléctrica:**
+$$\\vec{F}_E = q\\vec{E} = 3\\cdot10^{-6}\\cdot10^{4}\\,\\vec{j} = 3\\cdot10^{-2}\\,\\vec{j}\\ \\text{N}$$
+
+**Fuerza magnética:** $\\vec{F}_B = q\\,\\vec{v}\\times\\vec{B}$. Calculamos el producto vectorial:
+$$\\vec{v}\\times\\vec{B} = (10^{4}\\,\\vec{i})\\times(\\vec{i}+\\vec{k}) = 10^{4}(\\vec{i}\\times\\vec{i}+\\vec{i}\\times\\vec{k}) = 10^{4}(\\vec{0}-\\vec{j}) = -10^{4}\\,\\vec{j}$$
+$$\\vec{F}_B = 3\\cdot10^{-6}\\cdot(-10^{4}\\,\\vec{j}) = -3\\cdot10^{-2}\\,\\vec{j}\\ \\text{N}$$
+
+**Fuerza total (Lorentz):**
+$$\\vec{F} = \\vec{F}_E + \\vec{F}_B = 3\\cdot10^{-2}\\,\\vec{j} - 3\\cdot10^{-2}\\,\\vec{j} = \\vec{0}$$
+La fuerza eléctrica y la magnética se cancelan: la fuerza total es nula (configuración tipo selector de velocidades).
+
+## Ejercicio 4
+
+### Enunciado
+
+Un circuito en forma de $\\sqsubset$ tiene una barra metálica que desliza sobre él; un campo magnético perpendicular al plano $xy$ atraviesa el circuito. Razona por qué se genera corriente inducida y cuál es su sentido (con un dibujo). Escribe la ley física en que te basas, indicando sus magnitudes.
+
+### Solución explicada
+
+Al deslizar la barra cambia el **área** encerrada por el circuito y, con ella, el **flujo magnético** $\\Phi=\\vec{B}\\cdot\\vec{S}=B\\,S\\cos\\theta$. Una variación del flujo induce una fuerza electromotriz según la **ley de Faraday-Lenz**:
+$$\\varepsilon = -\\dfrac{d\\Phi}{dt}$$
+donde $\\Phi$ es el flujo, $t$ el tiempo y el signo negativo expresa la ley de Lenz. Para la barra de longitud $L$ que se mueve con velocidad $v$, $\\dfrac{dS}{dt}=Lv$ y:
+$$|\\varepsilon| = B\\,L\\,v$$
+
+**Sentido (ley de Lenz):** la corriente inducida se opone a la variación de flujo. Si al avanzar la barra aumenta el flujo saliente, la corriente inducida circula de modo que crea un campo entrante dentro del circuito (sentido horario visto desde donde sale $\\vec{B}$); si el flujo saliente disminuye, el sentido es el contrario. En todo caso, el sentido es tal que la fuerza magnética sobre la barra ($\\vec{F}=I\\vec{L}\\times\\vec{B}$) se opone a su movimiento.
+
+## Ejercicio 5
+
+### Enunciado
+
+Una onda transversal en una cuerda es $y(x,t)=a\\,\\text{sen}(2\\pi b t - c x)$. ¿Qué magnitudes representan $a$, $b$ y $c$? ¿Cuáles son sus unidades en el SI? ¿Qué información aporta el signo negativo? ¿Qué magnitud representa el cociente $2\\pi b/c$?
+
+### Solución explicada
+
+Comparando con la forma general $y=A\\,\\text{sen}(\\omega t - k x)$:
+
+- $a = A$ es la **amplitud**; unidad: metro (**m**).
+- $2\\pi b = \\omega = 2\\pi f$ es la pulsación, luego $b = f$ es la **frecuencia**; unidad: hercio (**Hz** $=\\text{s}^{-1}$).
+- $c = k = \\dfrac{2\\pi}{\\lambda}$ es el **número de onda**; unidad: **rad·m$^{-1}$** (o m$^{-1}$).
+
+El **signo negativo** ($-cx$) indica que la onda se propaga en el **sentido positivo del eje $x$**.
+
+El cociente:
+$$\\dfrac{2\\pi b}{c} = \\dfrac{\\omega}{k} = \\lambda f = v$$
+representa la **velocidad de propagación** de la onda (unidad m/s).
+
+## Ejercicio 6
+
+### Enunciado
+
+En el fondo de una piscina de agua salada hay un foco luminoso. El rayo $A$ se refracta y sale al aire con ángulo de refracción $44^\\circ$, pero el rayo $B$ no se refracta. Determina el índice de refracción $n$ del líquido y explica por qué el rayo $B$ no se refracta.
+
+### Solución explicada
+
+**Índice de refracción (rayo $A$):** aplicando la ley de Snell en la superficie agua$\\to$aire, con $\\theta_A$ el ángulo de incidencia del rayo $A$ dentro del agua (leído de la figura) y $44^\\circ$ el de refracción en el aire:
+$$n\\,\\text{sen}\\,\\theta_A = n_{aire}\\,\\text{sen}\\,44^\\circ \\;\\Rightarrow\\; n = \\dfrac{\\text{sen}\\,44^\\circ}{\\text{sen}\\,\\theta_A}$$
+(Por ejemplo, si de la figura $\\theta_A=30^\\circ$, resultaría $n=\\dfrac{\\text{sen}\\,44^\\circ}{\\text{sen}\\,30^\\circ}=1{,}39$.)
+
+**Por qué el rayo $B$ no se refracta:** el rayo $B$ incide con un ángulo **mayor o igual que el ángulo límite** (crítico) $\\theta_c$, definido por
+$$\\text{sen}\\,\\theta_c = \\dfrac{n_{aire}}{n} = \\dfrac{1}{n}$$
+Para $\\theta_B \\ge \\theta_c$ no hay rayo refractado: se produce **reflexión total interna**, de modo que el rayo $B$ vuelve al agua en lugar de salir al aire.
+
+## Ejercicio 7
+
+### Enunciado
+
+Una persona sitúa sus gafas a $30\\ \\text{cm}$ de un objeto y obtiene sobre una pared una imagen enfocada a $2{,}7\\ \\text{m}$ de la gafa. ¿Qué potencia tiene la lente? ¿Es convergente o divergente? Razona si la persona es miope o hipermétrope.
+
+### Solución explicada
+
+La imagen se forma sobre una pared, luego es **real** ($s'>0$). Con el criterio de signos ($s<0$ para objeto real):
+$$\\dfrac{1}{s'}-\\dfrac{1}{s} = \\dfrac{1}{f'} \\;\\Rightarrow\\; \\dfrac{1}{f'} = \\dfrac{1}{2{,}7}-\\dfrac{1}{-0{,}30} = 0{,}37 + 3{,}33 = 3{,}70\\ \\text{m}^{-1}$$
+$$P = \\dfrac{1}{f'} = 3{,}70\\ \\text{D}, \\qquad f' = 0{,}27\\ \\text{m}$$
+La potencia es **positiva**: la lente es **convergente** (sólo una lente convergente forma imagen real de un objeto real sobre una pantalla).
+
+Las lentes convergentes corrigen la **hipermetropía**, por lo que la persona es **hipermétrope**.
+
+## Ejercicio 8
+
+### Enunciado
+
+Calcula la velocidad que debe tener una partícula para que su energía relativista sea el doble de su energía en reposo. ¿Sería posible que su velocidad fuera el doble de la calculada? Razónalo.
+
+### Solución explicada
+
+La energía total relativista es $E=\\gamma m_0 c^2$ y la de reposo $E_0=m_0 c^2$. La condición $E=2E_0$ implica $\\gamma=2$:
+$$\\gamma = \\dfrac{1}{\\sqrt{1-\\dfrac{v^2}{c^2}}} = 2 \\;\\Rightarrow\\; 1-\\dfrac{v^2}{c^2}=\\dfrac{1}{4} \\;\\Rightarrow\\; v = c\\sqrt{1-\\dfrac{1}{4}} = \\dfrac{\\sqrt{3}}{2}c$$
+$$v = 0{,}866\\,c = 2{,}60\\cdot10^{8}\\ \\text{m/s}$$
+
+El doble de esa velocidad sería $2v=\\sqrt{3}\\,c \\approx 1{,}73\\,c > c$, lo cual **es imposible**: ninguna partícula con masa puede alcanzar o superar la velocidad de la luz en el vacío.
+
+## Ejercicio 9
+
+### Enunciado
+
+Una sonda de $800\\ \\text{kg}$ orbita en círculo de radio $6500\\ \\text{km}$ alrededor de Venus con energía cinética $2\\cdot10^{10}\\ \\text{J}$.
+
+**(a)** Deduce la velocidad orbital y calcula la masa de Venus.
+
+**(b)** Si Venus es esférico con densidad $\\rho=5{,}24\\ \\text{g/cm}^3$, obtén la altura a la que la atracción gravitatoria sobre un cuerpo es un $36\\%$ menor que en la superficie.
+
+### Solución explicada
+
+**(a)** De $E_c=\\tfrac12 m v^2$:
+$$v = \\sqrt{\\dfrac{2E_c}{m}} = \\sqrt{\\dfrac{2\\cdot 2\\cdot10^{10}}{800}} = 7{,}07\\cdot10^{3}\\ \\text{m/s}$$
+Para órbita circular $v=\\sqrt{\\dfrac{GM}{r}}$, luego:
+$$M = \\dfrac{v^2 r}{G} = \\dfrac{(7{,}07\\cdot10^{3})^2\\cdot 6{,}5\\cdot10^{6}}{6{,}67\\cdot10^{-11}} = 4{,}87\\cdot10^{24}\\ \\text{kg}$$
+
+**(b)** El radio de Venus a partir de la densidad ($M=\\rho\\tfrac43\\pi R_V^3$):
+$$R_V = \\left(\\dfrac{3M}{4\\pi\\rho}\\right)^{1/3} = \\left(\\dfrac{3\\cdot 4{,}87\\cdot10^{24}}{4\\pi\\cdot 5240}\\right)^{1/3} = 6{,}05\\cdot10^{6}\\ \\text{m}$$
+La fuerza (y $g$) a distancia $d$ es $g\\propto 1/d^2$. Un $36\\%$ menor significa $g=0{,}64\\,g_0$:
+$$\\dfrac{R_V^2}{d^2} = 0{,}64 \\;\\Rightarrow\\; d = \\dfrac{R_V}{\\sqrt{0{,}64}} = \\dfrac{6{,}05\\cdot10^{6}}{0{,}8} = 7{,}57\\cdot10^{6}\\ \\text{m}$$
+$$h = d - R_V = 7{,}57\\cdot10^{6}-6{,}05\\cdot10^{6} = 1{,}51\\cdot10^{6}\\ \\text{m} \\approx 1514\\ \\text{km}$$
+
+## Ejercicio 10
+
+### Enunciado
+
+Una carga $q_1=-5\\ \\mu\\text{C}$ está en $A(3,-4)\\ \\text{m}$ y $q_2=4\\ \\mu\\text{C}$ en $B(0,-5)\\ \\text{m}$.
+
+**(a)** Calcula los campos de cada carga y el campo total en el origen $O(0,0)$. Represéntalos.
+
+**(b)** Calcula el potencial total en $O$ y el trabajo para traer $Q=1\\ \\mu\\text{C}$ desde el infinito hasta $O$ (potencial nulo en el infinito).
+
+### Solución explicada
+
+Distancias al origen: $r_1=\\sqrt{3^2+4^2}=5\\ \\text{m}$, $r_2=5\\ \\text{m}$.
+
+**(a)** Campo de $q_1$ (negativa, apunta de $O$ hacia $A$, dirección $(3,-4)/5$):
+$$E_1 = k\\dfrac{|q_1|}{r_1^2}=9\\cdot10^{9}\\dfrac{5\\cdot10^{-6}}{25}=1800\\ \\text{N/C} \\;\\Rightarrow\\; \\vec{E}_1=(1080\\,\\vec{i}-1440\\,\\vec{j})\\ \\text{N/C}$$
+Campo de $q_2$ (positiva, se aleja de $B$; dirección $O-B=(0,5)/5=(0,1)$):
+$$E_2 = 9\\cdot10^{9}\\dfrac{4\\cdot10^{-6}}{25}=1440\\ \\text{N/C} \\;\\Rightarrow\\; \\vec{E}_2=(0\\,\\vec{i}+1440\\,\\vec{j})\\ \\text{N/C}$$
+Total:
+$$\\vec{E}=(1080\\,\\vec{i}+0\\,\\vec{j})\\ \\text{N/C}, \\qquad |\\vec{E}|=1080\\ \\text{N/C}$$
+
+**(b)** Potencial:
+$$V_O = k\\dfrac{q_1}{r_1}+k\\dfrac{q_2}{r_2} = \\dfrac{9\\cdot10^{9}}{5}(-5\\cdot10^{-6}+4\\cdot10^{-6}) = -1800\\ \\text{V}$$
+Trabajo para traer $Q$ desde el infinito ($W_{ext}=Q\\,V_O$):
+$$W = Q\\,V_O = 10^{-6}\\cdot(-1800) = -1{,}8\\cdot10^{-3}\\ \\text{J}$$
+
+## Ejercicio 11
+
+### Enunciado
+
+Se quiere obtener de un objeto de $15\\ \\text{cm}$ una imagen invertida de $0{,}75\\ \\text{m}$ sobre una pantalla, con una lente convergente de $4\\ \\text{dioptrías}$.
+
+**(a)** ¿Dónde hay que colocar el objeto y la pantalla respecto a la lente?
+
+**(b)** Se cambia la lente por otra cuya distancia focal imagen es la mitad. ¿Cuál es su potencia? Si la distancia objeto-pantalla es $1{,}0\\ \\text{m}$, determina la menor distancia a la que hay que situar la lente respecto al objeto para enfocar en la pantalla.
+
+### Solución explicada
+
+**(a)** $f'=1/P=0{,}25\\ \\text{m}$. El aumento lateral: $m=\\dfrac{y'}{y}=\\dfrac{-0{,}75}{0{,}15}=-5$. Como $m=\\dfrac{s'}{s}$ y $\\dfrac{1}{s'}-\\dfrac{1}{s}=\\dfrac{1}{f'}$, con $s'=m\\,s$:
+$$\\dfrac{1}{m\\,s}-\\dfrac{1}{s}=\\dfrac{1}{f'} \\;\\Rightarrow\\; s=\\dfrac{f'\\left(\\tfrac{1}{m}-1\\right)}{1}=f'\\left(\\dfrac{1}{m}-1\\right)=0{,}25\\left(\\dfrac{1}{-5}-1\\right)=-0{,}30\\ \\text{m}$$
+$$s'=m\\,s = -5\\cdot(-0{,}30)=1{,}50\\ \\text{m}$$
+El objeto se coloca a $30\\ \\text{cm}$ delante de la lente y la pantalla a $1{,}5\\ \\text{m}$ detrás.
+
+**(b)** Nueva focal $f'_2=0{,}125\\ \\text{m}$, potencia $P_2=1/0{,}125=8\\ \\text{D}$. Con objeto y pantalla fijos a $D=1{,}0\\ \\text{m}$, si $p$ es la distancia lente-objeto y $q$ la lente-pantalla, $p+q=1{,}0$ y $\\dfrac{1}{f'_2}=\\dfrac{1}{p}+\\dfrac{1}{q}$ (distancias positivas):
+$$\\dfrac{1}{p}+\\dfrac{1}{q}=8, \\quad p+q=1 \\;\\Rightarrow\\; p\\,q=0{,}125$$
+$p$ y $q$ son raíces de $x^2 - x + 0{,}125=0$: $x=0{,}854\\ \\text{m}$ ó $x=0{,}146\\ \\text{m}$. La **menor** distancia lente-objeto es $p\\approx 0{,}146\\ \\text{m}\\approx 14{,}6\\ \\text{cm}$.
+
+## Ejercicio 12
+
+### Enunciado
+
+Al incidir luz de $\\lambda_1=550\\ \\text{nm}$ se obtiene una velocidad máxima de los electrones $v=296\\ \\text{km/s}$.
+
+**(a)** Calcula el trabajo de extracción del metal (en eV) y la longitud de onda umbral.
+
+**(b)** Calcula el momento lineal y la longitud de onda de De Broglie (en nm) de esos electrones.
+
+### Solución explicada
+
+**(a)** Energía cinética máxima:
+$$E_c = \\tfrac12 m v^2 = \\tfrac12\\cdot 9{,}1\\cdot10^{-31}\\cdot(2{,}96\\cdot10^{5})^2 = 3{,}99\\cdot10^{-20}\\ \\text{J} = 0{,}25\\ \\text{eV}$$
+Por Einstein $\\dfrac{hc}{\\lambda_1}=W+E_c$:
+$$W = \\dfrac{hc}{\\lambda_1}-E_c = \\dfrac{6{,}63\\cdot10^{-34}\\cdot3\\cdot10^{8}}{5{,}5\\cdot10^{-7}}-3{,}99\\cdot10^{-20} = 3{,}22\\cdot10^{-19}\\ \\text{J} = 2{,}01\\ \\text{eV}$$
+Longitud de onda umbral:
+$$\\lambda_0 = \\dfrac{hc}{W} = \\dfrac{6{,}63\\cdot10^{-34}\\cdot3\\cdot10^{8}}{3{,}22\\cdot10^{-19}} = 6{,}18\\cdot10^{-7}\\ \\text{m} = 618\\ \\text{nm}$$
+
+**(b)** Momento lineal:
+$$p = m v = 9{,}1\\cdot10^{-31}\\cdot2{,}96\\cdot10^{5} = 2{,}69\\cdot10^{-25}\\ \\text{kg·m/s}$$
+Longitud de onda de De Broglie:
+$$\\lambda_{dB} = \\dfrac{h}{p} = \\dfrac{6{,}63\\cdot10^{-34}}{2{,}69\\cdot10^{-25}} = 2{,}46\\cdot10^{-9}\\ \\text{m} = 2{,}46\\ \\text{nm}$$
 `,Ee=`---
+title: Física · PAU 2022 · Junio · Comunidad Valenciana — examen resuelto
+seoTitle: PAU Física Comunidad Valenciana 2022 · Junio resuelta paso a paso
+date: 2022-06-01
+updated: 2026-11-05
+description: Examen de Física de Comunidad Valenciana 2022 · Junio resuelto paso a paso para 2.º de Bachillerato.
+tag: Física PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+Deduzca la expresión de la velocidad de un satélite en órbita circular de radio $r$ alrededor de un planeta y la de la velocidad mínima necesaria para que se aleje indefinidamente desde esa órbita. Si al satélite se le comunica instantáneamente una velocidad igual a $1{,}5$ veces la orbital, ¿seguirá en alguna órbita o se alejará indefinidamente? Justifíquelo.
+
+### Solución explicada
+
+**Velocidad orbital.** La gravedad aporta la fuerza centrípeta:
+$$\\dfrac{G M m}{r^{2}}=\\dfrac{m v_{orb}^{2}}{r}\\ \\Rightarrow\\ v_{orb}=\\sqrt{\\dfrac{G M}{r}}$$
+
+**Velocidad de escape.** Energía mecánica nula ($\\tfrac12 m v_{esc}^{2}-\\dfrac{GMm}{r}=0$):
+$$v_{esc}=\\sqrt{\\dfrac{2G M}{r}}=\\sqrt{2}\\;v_{orb}\\approx 1{,}414\\,v_{orb}$$
+
+**Comparación.** Como $1{,}5\\,v_{orb}>1{,}414\\,v_{orb}=v_{esc}$, la velocidad comunicada supera la de escape. La energía mecánica pasa a ser positiva y el satélite describe una trayectoria abierta (hiperbólica): se alejará indefinidamente del planeta.
+
+## Ejercicio 2
+
+### Enunciado
+
+El potencial eléctrico en el punto $A$ de la figura es nulo y $q_2=1\\ \\text{nC}$. Determine el valor de la carga $q_1$ y el potencial eléctrico en el punto $B$.
+
+*(Nota: las posiciones de $q_1$, $q_2$, $A$ y $B$ las fija la figura del enunciado; aquí se desarrolla el método con las distancias $r_{iA}$, $r_{iB}$.)*
+
+### Solución explicada
+
+**Carga $q_1$.** El potencial es escalar; en $A$:
+$$V_A=k\\dfrac{q_1}{r_{1A}}+k\\dfrac{q_2}{r_{2A}}=0\\ \\Rightarrow\\ q_1=-\\,q_2\\,\\dfrac{r_{1A}}{r_{2A}}$$
+Con las distancias $r_{1A}$ y $r_{2A}$ de la figura se obtiene el valor de $q_1$ (de signo opuesto a $q_2$). Por ejemplo, si $r_{1A}=2\\,r_{2A}$, entonces $q_1=-2\\ \\text{nC}$.
+
+**Potencial en $B$.** Una vez conocida $q_1$:
+$$V_B=k\\dfrac{q_1}{r_{1B}}+k\\dfrac{q_2}{r_{2B}}$$
+sustituyendo las distancias $r_{1B}$ y $r_{2B}$ de la figura. El resultado es, en general, distinto de cero.
+
+## Ejercicio 3
+
+### Enunciado
+
+Una partícula cargada entra con velocidad constante $\\vec{v}$ en una región con un campo magnético uniforme no nulo $\\vec{B}$. Escriba la fuerza que actúa sobre la partícula y razone en qué condiciones es nula y en cuáles es máxima.
+
+### Solución explicada
+
+La fuerza magnética sobre una carga en movimiento es la fuerza de Lorentz:
+$$\\vec{F}=q\\,\\vec{v}\\times\\vec{B}$$
+Su módulo es $F=|q|\\,v\\,B\\,\\mathrm{sen}\\,\\theta$, donde $\\theta$ es el ángulo entre $\\vec{v}$ y $\\vec{B}$.
+
+**Fuerza nula** ($\\mathrm{sen}\\,\\theta=0$): cuando $\\vec{v}$ es paralela o antiparalela a $\\vec{B}$ ($\\theta=0^\\circ$ o $180^\\circ$); también si la partícula estuviera en reposo ($v=0$). En ese caso la trayectoria es rectilínea y uniforme.
+
+**Fuerza máxima** ($\\mathrm{sen}\\,\\theta=1$): cuando $\\vec{v}$ es perpendicular a $\\vec{B}$ ($\\theta=90^\\circ$), con $F_{\\max}=|q|\\,v\\,B$. Entonces la partícula describe una circunferencia (movimiento circular uniforme).
+
+## Ejercicio 4
+
+### Enunciado
+
+Por un hilo rectilíneo indefinido circula una corriente uniforme de intensidad $I$. Escriba la expresión del módulo del campo magnético $\\vec{B}$ y dibuje razonadamente dicho vector en un punto $P$ situado a distancia $d$ del hilo. Si el módulo del campo en $P$ es $100\\ \\mu\\text{T}$, deduzca cuánto vale en un punto a distancia $d/2$ (en teslas).
+
+
+### Esquema para el apartado gráfico
+
+![Esquema de líneas de campo eléctrico y de campo magnético alrededor de un conductor](/assets/latex/pau-fisica-fields.svg)
+### Solución explicada
+
+El campo de un hilo rectilíneo indefinido es:
+$$B=\\dfrac{\\mu_0 I}{2\\pi d}$$
+Su dirección es tangente a las circunferencias centradas en el hilo y contenidas en el plano perpendicular a él; el sentido lo da la regla de la mano derecha (pulgar en el sentido de $I$, dedos en el de $\\vec{B}$).
+
+Como $B\\propto 1/d$, al reducir la distancia a la mitad el campo se duplica:
+$$B(d/2)=\\dfrac{\\mu_0 I}{2\\pi (d/2)}=2\\,B(d)=2\\cdot100\\ \\mu\\text{T}=200\\ \\mu\\text{T}=2\\cdot10^{-4}\\ \\text{T}$$
+
+## Ejercicio 5
+
+### Enunciado
+
+Una fuente sonora puntual de potencia $1{,}26\\cdot10^{-4}\\ \\text{W}$ emite uniformemente en todas las direcciones. Calcule la intensidad a $10\\ \\text{m}$ de la fuente y el nivel de intensidad sonora (en dB) a esa distancia.
+
+### Solución explicada
+
+**Intensidad.** Para una fuente puntual que emite de forma isótropa, la potencia se reparte sobre una esfera:
+$$I=\\dfrac{P}{4\\pi r^{2}}=\\dfrac{1{,}26\\cdot10^{-4}}{4\\pi\\cdot10^{2}}=1{,}0\\cdot10^{-7}\\ \\text{W}\\cdot\\text{m}^{-2}$$
+
+**Nivel de intensidad sonora.**
+$$\\beta=10\\log\\dfrac{I}{I_0}=10\\log\\dfrac{1{,}0\\cdot10^{-7}}{10^{-12}}=10\\log(10^{5})=50\\ \\text{dB}$$
+
+## Ejercicio 6
+
+### Enunciado
+
+En la figura se muestran una lente, la posición de un objeto $O$ y la de la imagen $O'$ que la lente forma. Determine la distancia focal imagen de la lente, su potencia en dioptrías y el tamaño de la imagen si el objeto mide $2\\ \\text{cm}$.
+
+*(Nota: las posiciones de $O$ y $O'$ respecto a la lente las da la figura; aquí se desarrolla el método con $s$ y $s'$.)*
+
+### Solución explicada
+
+A partir de la figura se leen la distancia objeto $s$ (negativa, a la izquierda) y la distancia imagen $s'$. Con la ecuación de la lente delgada:
+$$\\dfrac{1}{s'}-\\dfrac{1}{s}=\\dfrac{1}{f'}\\ \\Rightarrow\\ f'=\\left(\\dfrac{1}{s'}-\\dfrac{1}{s}\\right)^{-1}$$
+La potencia es $P=\\dfrac{1}{f'}$ (en dioptrías, con $f'$ en metros).
+
+El tamaño de la imagen se obtiene del aumento lateral:
+$$A=\\dfrac{y'}{y}=\\dfrac{s'}{s}\\ \\Rightarrow\\ y'=A\\cdot y=\\dfrac{s'}{s}\\cdot 2\\ \\text{cm}$$
+El signo de $A$ indica si la imagen es derecha ($A>0$) o invertida ($A<0$).
+
+## Ejercicio 7
+
+### Enunciado
+
+Al iluminar un cátodo con radiación monocromática de frecuencia $f=6{,}1\\cdot10^{14}\\ \\text{Hz}$ se produce efecto fotoeléctrico, con un potencial de frenado $\\Delta V=0{,}23\\ \\text{V}$. Calcule la frecuencia umbral $f_0$ y determine el metal del cátodo.
+
+### Solución explicada
+
+El balance fotoeléctrico es $h f = W_e + E_{c,\\max}$, con $E_{c,\\max}=q\\,\\Delta V$. El trabajo de extracción:
+$$W_e=h f-q\\,\\Delta V=6{,}6\\cdot10^{-34}\\cdot6{,}1\\cdot10^{14}-1{,}6\\cdot10^{-19}\\cdot0{,}23$$
+$$W_e=4{,}026\\cdot10^{-19}-3{,}68\\cdot10^{-20}=3{,}66\\cdot10^{-19}\\ \\text{J}=2{,}3\\ \\text{eV}$$
+El trabajo de extracción es $2{,}3\\ \\text{eV}$, por lo que el metal es el **potasio**.
+
+Frecuencia umbral:
+$$f_0=\\dfrac{W_e}{h}=\\dfrac{3{,}66\\cdot10^{-19}}{6{,}6\\cdot10^{-34}}=5{,}5\\cdot10^{14}\\ \\text{Hz}$$
+
+## Ejercicio 8
+
+### Enunciado
+
+Un núcleo de $^{60}\\text{Co}$ se desintegra según $^{60}_{27}\\text{Co}\\to{}^{60}_{28}\\text{Ni}^{*}+{}^{a}_{b}X$. Razone qué partícula es $X$. El núcleo de níquel excitado $^{60}_{28}\\text{Ni}^{*}$ emite después dos fotones de $1{,}17$ y $1{,}33\\ \\text{MeV}$. Si cada segundo se emiten $10^{10}$ fotones de cada tipo, calcule la energía por unidad de tiempo (en watios) de la emisión.
+
+### Solución explicada
+
+**Identificación de $X$.** Conservación del número másico y del número atómico:
+$$A:\\ 60=60+a\\ \\Rightarrow\\ a=0;\\qquad Z:\\ 27=28+b\\ \\Rightarrow\\ b=-1$$
+La partícula $X$ tiene $A=0$ y $Z=-1$: es un **electrón** ($^{0}_{-1}e$), es decir una partícula $\\beta^{-}$ (desintegración beta menos, acompañada de un antineutrino).
+
+**Potencia de la emisión gamma.** Energía de cada fotón en julios: $1\\ \\text{MeV}=1{,}6\\cdot10^{-13}\\ \\text{J}$. Por segundo:
+$$\\dfrac{E}{t}=10^{10}\\cdot(1{,}17+1{,}33)\\cdot10^{6}\\cdot1{,}6\\cdot10^{-19}\\ \\text{J}$$
+$$=10^{10}\\cdot2{,}5\\cdot10^{6}\\cdot1{,}6\\cdot10^{-19}=4{,}0\\cdot10^{-3}\\ \\text{W}$$
+
+## Ejercicio 9
+
+### Enunciado
+
+Un planeta de radio $R_P=5000\\ \\text{km}$ emite fragmentos en erupciones volcánicas que pueden llegar a orbitar circularmente a una altura $h=400\\ \\text{km}$, donde el campo gravitatorio vale $g=7\\ \\text{m/s}^{2}$.
+
+**(a)** Deduzca las expresiones de la velocidad orbital y de la energía mecánica de un fragmento de masa $m=2\\ \\text{kg}$ en esa órbita, y calcule sus valores.
+**(b)** Calcule el campo gravitatorio en la superficie del planeta y la velocidad con la que el fragmento fue emitido desde la superficie.
+
+### Solución explicada
+
+**(a)** En la órbita, el campo gravitatorio aporta la aceleración centrípeta, $g=\\dfrac{v^{2}}{r}$:
+$$v_{orb}=\\sqrt{g\\,r}=\\sqrt{7\\cdot5{,}4\\cdot10^{6}}=6{,}15\\cdot10^{3}\\ \\text{m/s}$$
+La energía mecánica en órbita circular es $E=-\\dfrac{1}{2}m v_{orb}^{2}$ (igual a $-\\tfrac12\\,m g r$):
+$$E=-\\tfrac12\\cdot2\\cdot(6{,}15\\cdot10^{3})^{2}=-3{,}78\\cdot10^{7}\\ \\text{J}$$
+
+**(b)** El campo en la superficie, usando $g\\propto 1/r^{2}$ (mismo $GM$):
+$$g_s=g\\left(\\dfrac{r}{R_P}\\right)^{2}=7\\left(\\dfrac{5400}{5000}\\right)^{2}=8{,}16\\ \\text{m/s}^{2}$$
+Velocidad de emisión, por conservación de la energía (con $GM=g\\,r^{2}=g_s R_P^{2}$) entre superficie y órbita:
+$$\\tfrac12 m v_e^{2}-\\dfrac{GM m}{R_P}=\\tfrac12 m v_{orb}^{2}-\\dfrac{GM m}{r}$$
+$$v_e=\\sqrt{v_{orb}^{2}+2GM\\left(\\dfrac{1}{R_P}-\\dfrac{1}{r}\\right)}\\approx 6{,}62\\cdot10^{3}\\ \\text{m/s}$$
+
+## Ejercicio 10
+
+### Enunciado
+
+Una carga fija $q_1=10^{-9}\\ \\text{C}$ está a $1\\ \\text{m}$ de otra carga fija $q_2=-2q_1$.
+
+**(a)** Determine el punto de la recta que une las cargas en el que el campo eléctrico es nulo.
+**(b)** Un protón con velocidad inicial nula se libera entre $q_1$ y $q_2$, a $90\\ \\text{cm}$ de $q_2$. Determine la variación de energía potencial del protón entre ese punto y otro situado a $10\\ \\text{cm}$ de $q_2$, y la velocidad del protón al llegar a ese último punto.
+
+### Solución explicada
+
+**(a)** El campo sólo puede anularse fuera del segmento, del lado de la carga de menor módulo ($q_1$). Sea $x$ la distancia a $q_1$ hacia la izquierda; igualando módulos:
+$$\\dfrac{k|q_1|}{x^{2}}=\\dfrac{k|q_2|}{(x+1)^{2}}\\ \\Rightarrow\\ \\dfrac{x+1}{x}=\\sqrt{\\dfrac{|q_2|}{|q_1|}}=\\sqrt{2}$$
+$$x=\\dfrac{1}{\\sqrt2-1}=2{,}41\\ \\text{m}\\ \\text{a la izquierda de }q_1$$
+
+**(b)** El protón va de $x_i=0{,}10\\ \\text{m}$ (a $90\\ \\text{cm}$ de $q_2$) a $x_f=0{,}90\\ \\text{m}$ (a $10\\ \\text{cm}$ de $q_2$). Potenciales (con $q_1$ en $0$ y $q_2$ en $1\\ \\text{m}$):
+$$V_i=k\\dfrac{q_1}{0{,}10}+k\\dfrac{q_2}{0{,}90}=+70\\ \\text{V}\\qquad V_f=k\\dfrac{q_1}{0{,}90}+k\\dfrac{q_2}{0{,}10}=-170\\ \\text{V}$$
+$$\\Delta E_p=q(V_f-V_i)=1{,}6\\cdot10^{-19}\\,(-170-70)=-3{,}84\\cdot10^{-17}\\ \\text{J}$$
+La energía cinética ganada es $|\\Delta E_p|$:
+$$v=\\sqrt{\\dfrac{2\\,|\\Delta E_p|}{m_p}}=\\sqrt{\\dfrac{2\\cdot3{,}84\\cdot10^{-17}}{1{,}67\\cdot10^{-27}}}=2{,}14\\cdot10^{5}\\ \\text{m/s}$$
+
+## Ejercicio 11
+
+### Enunciado
+
+Una onda viene dada por $y(x,t)=2\\,\\mathrm{sen}(\\pi t-8\\pi x)$, con $x$ e $y$ en metros y $t$ en segundos.
+
+**(a)** Calcule la amplitud, el periodo, la frecuencia y la longitud de onda.
+**(b)** Calcule la velocidad de propagación y la velocidad de vibración de un punto situado a $1\\ \\text{m}$ del foco emisor en $t=8\\ \\text{s}$.
+
+### Solución explicada
+
+**(a)** Comparando con $y=A\\,\\mathrm{sen}(\\omega t-k x)$:
+$$A=2\\ \\text{m}\\qquad \\omega=\\pi\\ \\text{rad/s}\\ \\Rightarrow\\ T=\\dfrac{2\\pi}{\\omega}=2\\ \\text{s}\\qquad f=\\dfrac{1}{T}=0{,}5\\ \\text{Hz}$$
+$$k=8\\pi\\ \\text{rad/m}\\ \\Rightarrow\\ \\lambda=\\dfrac{2\\pi}{k}=\\dfrac{2\\pi}{8\\pi}=0{,}25\\ \\text{m}$$
+
+**(b)** Velocidad de propagación:
+$$v=\\dfrac{\\omega}{k}=\\dfrac{\\pi}{8\\pi}=0{,}125\\ \\text{m/s}$$
+Velocidad de vibración (transversal), $v_y=\\dfrac{\\partial y}{\\partial t}=2\\pi\\cos(\\pi t-8\\pi x)$. En $x=1\\ \\text{m}$, $t=8\\ \\text{s}$ el argumento es $8\\pi-8\\pi=0$:
+$$v_y=2\\pi\\cos(0)=2\\pi\\approx 6{,}28\\ \\text{m/s}$$
+
+## Ejercicio 12
+
+### Enunciado
+
+El mesón $J/\\psi$ tiene una vida media de $7{,}2\\cdot10^{-21}\\ \\text{s}$ en su sistema de referencia propio y de $1{,}1\\cdot10^{-20}\\ \\text{s}$ medida en el laboratorio, respecto al cual se mueve a velocidad relativista.
+
+**(a)** Calcule la velocidad del mesón respecto al laboratorio.
+**(b)** Calcule la energía cinética y la energía total, en MeV, en ambos sistemas de referencia.
+
+### Solución explicada
+
+**(a)** Dilatación temporal: $\\tau=\\gamma\\,\\tau_0$, luego
+$$\\gamma=\\dfrac{\\tau}{\\tau_0}=\\dfrac{1{,}1\\cdot10^{-20}}{7{,}2\\cdot10^{-21}}=1{,}528$$
+$$v=c\\sqrt{1-\\dfrac{1}{\\gamma^{2}}}=3\\cdot10^{8}\\sqrt{1-\\dfrac{1}{1{,}528^{2}}}=2{,}27\\cdot10^{8}\\ \\text{m/s}\\approx 0{,}756\\,c$$
+
+**(b)** Energía en reposo:
+$$E_0=m_0c^{2}=5{,}52\\cdot10^{-27}\\cdot(3\\cdot10^{8})^{2}=4{,}97\\cdot10^{-10}\\ \\text{J}=3105\\ \\text{MeV}$$
+**Sistema del laboratorio** (en movimiento, $\\gamma=1{,}528$):
+$$E=\\gamma E_0=1{,}528\\cdot3105=4744\\ \\text{MeV}\\qquad E_c=(\\gamma-1)E_0=1639\\ \\text{MeV}$$
+**Sistema propio** (en reposo, $\\gamma=1$): $E_c=0$ y $E=E_0=3105\\ \\text{MeV}$.
+`,Ce=`---
+title: Física · PAU 2022 · Madrid — examen resuelto
+seoTitle: PAU Física Madrid 2022 resuelta paso a paso
+date: 2022-06-01
+updated: 2026-11-05
+description: Examen de Física de Madrid 2022 resuelto paso a paso para 2.º de Bachillerato.
+tag: Física PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+Una partícula de masa $20\\ \\text{kg}$ permanece fija en el origen de coordenadas.
+
+**(a)** Calcule el campo gravitatorio generado por la masa en el punto $(8,6)\\ \\text{m}$ y la fuerza que experimentará una segunda partícula de masa $3\\ \\text{kg}$ situada en dicho punto.
+
+**(b)** Con el objetivo de alejar la segunda partícula, se le transmite una velocidad de $1{,}2\\cdot10^{-5}\\ \\text{m/s}$ en la dirección de la recta que une ambas partículas. Halle el punto más alejado del origen que alcanzará dicha partícula.
+
+### Solución explicada
+
+**(a)** La distancia del origen al punto $(8,6)$ es $d=\\sqrt{8^2+6^2}=10\\ \\text{m}$, con vector unitario $\\vec{u}_r=(0{,}8;\\,0{,}6)$.
+
+$$\\vec{g}=-\\dfrac{GM}{d^2}\\,\\vec{u}_r=-\\dfrac{6{,}67\\cdot10^{-11}\\cdot 20}{10^2}\\,(0{,}8;\\,0{,}6)$$
+
+$$\\vec{g}=\\left(-1{,}07\\cdot10^{-11}\\,\\vec{i}-8{,}0\\cdot10^{-12}\\,\\vec{j}\\right)\\ \\text{N/kg}$$
+
+La fuerza sobre la masa $m=3\\ \\text{kg}$ es $\\vec{F}=m\\,\\vec{g}$:
+
+$$\\vec{F}=\\left(-3{,}21\\cdot10^{-11}\\,\\vec{i}-2{,}40\\cdot10^{-11}\\,\\vec{j}\\right)\\ \\text{N}$$
+
+**(b)** Por conservación de la energía mecánica, con la partícula partiendo de $r_0=10\\ \\text{m}$:
+
+$$E=-\\dfrac{GMm}{r_0}+\\dfrac12 m v^2=-\\dfrac{6{,}67\\cdot10^{-11}\\cdot20\\cdot3}{10}+\\dfrac12\\cdot3\\cdot(1{,}2\\cdot10^{-5})^2=-1{,}84\\cdot10^{-10}\\ \\text{J}$$
+
+En el punto más alejado la velocidad se anula y $E=-\\dfrac{GMm}{r_{\\max}}$:
+
+$$r_{\\max}=-\\dfrac{GMm}{E}=-\\dfrac{6{,}67\\cdot10^{-11}\\cdot20\\cdot3}{-1{,}84\\cdot10^{-10}}=21{,}7\\ \\text{m}$$
+
+Como la partícula se mueve a lo largo de la recta origen–punto (dirección $\\vec{u}_r$):
+
+$$(x_{\\max},y_{\\max})=21{,}7\\,(0{,}8;\\,0{,}6)=(17{,}4;\\,13{,}0)\\ \\text{m}$$
+
+## Ejercicio 2
+
+### Enunciado
+
+Por una cuerda dispuesta a lo largo del eje $x$ viaja una onda armónica que desplaza los elementos de la cuerda en la dirección del eje $y$. Los elementos $A$ y $B$, ubicados en $x_A=0\\ \\text{m}$ y $x_B=2\\ \\text{m}$, oscilan en fase y cortan al eje $x$ cada $4\\ \\text{s}$. No hay entre $A$ y $B$ ningún otro elemento que oscile en fase con ellos.
+
+**(a)** Calcule la velocidad de propagación.
+
+**(b)** Escriba la expresión matemática de la onda, si viaja en el sentido negativo del eje $x$ y en el instante inicial $A$ y $B$ tienen desplazamiento $+10\\ \\text{cm}$ y velocidad nula.
+
+### Solución explicada
+
+**(a)** Cortar el eje cada $4\\ \\text{s}$ significa medio periodo entre dos pasos por la posición de equilibrio, luego $T=8\\ \\text{s}$. Como $A$ y $B$ son los puntos en fase más próximos, su separación es una longitud de onda: $\\lambda=2\\ \\text{m}$.
+
+$$v=\\dfrac{\\lambda}{T}=\\dfrac{2}{8}=0{,}25\\ \\text{m/s}$$
+
+**(b)** Onda que viaja hacia $-x$:
+
+$$y(x,t)=A_0\\cos\\!\\left(\\dfrac{2\\pi}{T}\\,t+\\dfrac{2\\pi}{\\lambda}\\,x+\\varphi_0\\right)$$
+
+Como en $t=0$ la velocidad es nula y el desplazamiento es máximo, $A_0=0{,}1\\ \\text{m}$ y $\\varphi_0=0$. Con $\\dfrac{2\\pi}{T}=\\dfrac{\\pi}{4}\\ \\text{rad/s}$ y $\\dfrac{2\\pi}{\\lambda}=\\pi\\ \\text{rad/m}$:
+
+$$y(x,t)=0{,}1\\,\\cos\\!\\left(\\dfrac{\\pi}{4}\\,t+\\pi x\\right)\\ \\text{(SI)}$$
+
+## Ejercicio 3
+
+### Enunciado
+
+Una varilla metálica de $20\\ \\text{cm}$ desliza sin rozamiento sobre raíles horizontales paralelos al eje $x$, de resistencia despreciable, con velocidad $\\vec{v}=2\\,\\vec{i}\\ \\text{m/s}$. Los raíles están conectados en $x=0$ por una resistencia $R=0{,}5\\ \\Omega$. En la región hay un campo magnético uniforme $\\vec{B}=-0{,}4\\,\\vec{k}\\ \\text{T}$. Calcule:
+
+**(a)** La intensidad de la corriente en el circuito.
+
+**(b)** La fuerza $\\vec{F}$ que el campo magnético ejerce sobre la varilla.
+
+### Solución explicada
+
+**(a)** El flujo es $\\Phi=B\\,x\\,L$ y varía porque cambia el área del circuito. La fem inducida:
+
+$$|\\varepsilon|=\\left|\\dfrac{d\\Phi}{dt}\\right|=B\\,L\\,\\dfrac{dx}{dt}=B\\,L\\,v=0{,}4\\cdot0{,}2\\cdot2=0{,}16\\ \\text{V}$$
+
+$$I=\\dfrac{|\\varepsilon|}{R}=\\dfrac{B\\,L\\,v}{R}=\\dfrac{0{,}16}{0{,}5}=0{,}32\\ \\text{A}$$
+
+**(b)** La fuerza sobre la varilla, con $\\vec{L}=0{,}2\\,\\vec{j}$ (según el sentido de la corriente) y $\\vec{B}=-0{,}4\\,\\vec{k}$:
+
+$$\\vec{F}=I\\,\\vec{L}\\times\\vec{B}=0{,}32\\cdot0{,}2\\,\\vec{j}\\times(-0{,}4\\,\\vec{k})=-2{,}56\\cdot10^{-2}\\,\\vec{i}\\ \\text{N}$$
+
+La fuerza se opone al movimiento (ley de Lenz), como debe ser.
+
+## Ejercicio 4
+
+### Enunciado
+
+Dos lentes convergentes idénticas están separadas $16\\ \\text{cm}$. Cuando un objeto se sitúa a cierta distancia a la izquierda de la primera lente, cada una de ellas opera con aumento igual a $-1$.
+
+**(a)** Determine la potencia de las lentes.
+
+**(b)** ¿Cuánto y hacia dónde debe desplazarse la segunda lente para que la imagen del sistema se forme en el infinito?
+
+### Solución explicada
+
+**(a)** Con la ecuación de la lente delgada $\\dfrac{1}{s'}-\\dfrac{1}{s}=\\dfrac{1}{f'}$ y $m=\\dfrac{s'}{s}=-1\\Rightarrow s'=-s$.
+
+Sustituyendo: $\\dfrac{1}{-s}-\\dfrac{1}{s}=\\dfrac{1}{f'}\\Rightarrow s=-2f'$ y $s'=2f'$. Es decir, objeto e imagen están a $2f'$ (configuración $2F$–$2F$).
+
+La imagen de la primera lente es el objeto de la segunda; la distancia entre lentes es la suma $2f'+2f'=4f'$:
+
+$$4f'=16\\ \\text{cm}\\Rightarrow f'=4\\ \\text{cm}=0{,}04\\ \\text{m}\\Rightarrow P=\\dfrac{1}{f'}=25\\ \\text{dioptrías}$$
+
+**(b)** La imagen de la primera lente se forma a $2f'=8\\ \\text{cm}$ de ella. Para que el sistema dé imagen en el infinito, esa imagen debe caer en el foco objeto de la segunda lente, es decir, la segunda lente debe estar a $f'=4\\ \\text{cm}$ de dicha imagen. Como ahora está a $8\\ \\text{cm}$, debe acercarse $4\\ \\text{cm}$: hay que desplazarla $4\\ \\text{cm}$ hacia la izquierda.
+
+## Ejercicio 5
+
+### Enunciado
+
+Una muestra contiene inicialmente $30\\ \\text{mg}$ de $^{210}\\text{Po}$, cuyo periodo de semidesintegración es $138{,}38\\ \\text{días}$. Determine:
+
+**(a)** La vida media del isótopo y la actividad inicial de la muestra.
+
+**(b)** El tiempo que debe transcurrir para que el contenido de $^{210}\\text{Po}$ se reduzca a $5\\ \\text{mg}$.
+
+### Solución explicada
+
+**(a)** Vida media:
+
+$$\\tau=\\dfrac{T_{1/2}}{\\ln 2}=\\dfrac{138{,}38}{0{,}693}=199{,}6\\ \\text{días}=1{,}72\\cdot10^{7}\\ \\text{s}$$
+
+Número inicial de núcleos:
+
+$$N_0=\\dfrac{m_0}{M}\\,N_A=\\dfrac{30\\cdot10^{-3}}{210}\\cdot6{,}02\\cdot10^{23}=8{,}6\\cdot10^{19}\\ \\text{núcleos}$$
+
+Actividad inicial ($\\lambda=1/\\tau$):
+
+$$A_0=\\lambda N_0=\\dfrac{N_0}{\\tau}=\\dfrac{8{,}6\\cdot10^{19}}{1{,}72\\cdot10^{7}}=4{,}99\\cdot10^{12}\\ \\text{Bq}$$
+
+**(b)** La masa sigue $m(t)=m_0 e^{-\\lambda t}$:
+
+$$t=\\dfrac{1}{\\lambda}\\ln\\!\\dfrac{m_0}{m}=\\tau\\,\\ln\\!\\dfrac{30}{5}=1{,}72\\cdot10^{7}\\cdot\\ln 6=3{,}09\\cdot10^{7}\\ \\text{s}\\approx357\\ \\text{días}$$
+
+## Ejercicio 6
+
+### Enunciado
+
+Marte posee la décima parte de la masa de la Tierra y la mitad de su diámetro.
+
+**(a)** Encuentre la relación entre las velocidades de escape de Marte y de la Tierra desde sus superficies.
+
+**(b)** Un objeto se lanza verticalmente desde la superficie terrestre con velocidad igual a la de escape de Marte. Despreciando el rozamiento, ¿qué altura máxima alcanzaría?
+
+### Solución explicada
+
+**(a)** La velocidad de escape es $v_e=\\sqrt{\\dfrac{2GM}{R}}$. Por tanto:
+
+$$\\dfrac{v_{eM}}{v_{eT}}=\\sqrt{\\dfrac{M_M}{M_T}\\cdot\\dfrac{R_T}{R_M}}=\\sqrt{\\dfrac{1}{10}\\cdot 2}=\\dfrac{1}{\\sqrt5}\\approx0{,}447$$
+
+**(b)** La velocidad de lanzamiento es $v=v_{eM}$, con $v_{eM}^2=\\dfrac{2GM_M}{R_M}=\\dfrac{1}{5}\\cdot\\dfrac{2GM_T}{R_T}$. Conservando la energía desde la superficie terrestre hasta la altura máxima (donde $v=0$):
+
+$$\\dfrac12 v_{eM}^2-\\dfrac{GM_T}{R_T}=-\\dfrac{GM_T}{r_{\\max}}$$
+
+$$\\dfrac{1}{5}\\dfrac{GM_T}{R_T}-\\dfrac{GM_T}{R_T}=-\\dfrac{4}{5}\\dfrac{GM_T}{R_T}=-\\dfrac{GM_T}{r_{\\max}}\\Rightarrow r_{\\max}=\\dfrac{5}{4}R_T$$
+
+$$h_{\\max}=r_{\\max}-R_T=\\dfrac{R_T}{4}=\\dfrac{6{,}37\\cdot10^{6}}{4}=1{,}59\\cdot10^{6}\\ \\text{m}=1592{,}5\\ \\text{km}$$
+
+## Ejercicio 7
+
+### Enunciado
+
+Un foco sonoro de potencia $P$ se sitúa a una altura $h$ sobre el suelo. El nivel de intensidad sonora vale $60\\ \\text{dB}$ en el punto $A$, a $100\\ \\text{m}$ del foco, y $80\\ \\text{dB}$ en el punto $B$, en el suelo en la vertical del foco.
+
+**(a)** Calcule $P$ y $h$.
+
+**(b)** ¿Cuál sería el nivel de intensidad en $B$ si se añadiese sobre él otro foco de igual potencia a una altura $h/2$?
+
+### Solución explicada
+
+**(a)** A partir de $\\beta=10\\log\\dfrac{I}{I_0}$ y $I=\\dfrac{P}{4\\pi r^2}$. En $A$:
+
+$$P=4\\pi R^2\\,I_0\\,10^{\\,\\beta_A/10}=4\\pi\\,100^2\\,10^{-12}\\,10^{6}=4\\pi\\cdot10^{-2}=0{,}126\\ \\text{W}\\approx125{,}7\\ \\text{mW}$$
+
+En $B$ (a distancia $h$):
+
+$$h=\\sqrt{\\dfrac{P}{4\\pi\\,I_0\\,10^{\\,\\beta_B/10}}}=\\sqrt{\\dfrac{4\\pi\\cdot10^{-2}}{4\\pi\\,10^{-12}\\,10^{8}}}=\\sqrt{100}=10\\ \\text{m}$$
+
+**(b)** El foco original dista $h=10\\ \\text{m}$ de $B$ (intensidad $I_B$); el nuevo foco, a $h/2$, dista $5\\ \\text{m}$, con intensidad $\\dfrac{P}{4\\pi(h/2)^2}=4I_B$. La intensidad total es $I_B+4I_B=5I_B$:
+
+$$\\beta_B'=10\\log\\dfrac{5I_B}{I_0}=\\beta_B+10\\log5=80+6{,}99=87\\ \\text{dB}$$
+
+## Ejercicio 8
+
+### Enunciado
+
+Una carga puntual positiva está en el punto $(3,4)\\ \\text{m}$. Una segunda carga puntual, también positiva y de magnitud el cuádruple de la primera, se coloca de modo que el campo eléctrico se anula en el origen.
+
+**(a)** Determine la posición de la segunda carga.
+
+**(b)** Si el potencial en el origen vale $1{,}08\\cdot10^{4}\\ \\text{V}$, encuentre el valor de las cargas.
+
+### Solución explicada
+
+**(a)** Para que $\\vec{E}=0$ en el origen, el campo de $q_2$ debe ser opuesto al de $q_1$ y de igual módulo. Como $K\\dfrac{q_1}{r_1^2}=K\\dfrac{q_2}{r_2^2}$ con $q_2=4q_1$:
+
+$$r_2=\\sqrt{\\dfrac{q_2}{q_1}}\\,r_1=2r_1=10\\ \\text{m}$$
+
+Para que los campos sean opuestos (ambas cargas positivas), $q_2$ debe estar en la prolongación de la recta origen–$q_1$ pero al otro lado, en el tercer cuadrante, a $10\\ \\text{m}$:
+
+$$\\vec{r}_2=-2\\,\\vec{r}_1=-2(3,4)=(-6,-8)\\ \\text{m}$$
+
+**(b)** El potencial en el origen es la suma escalar:
+
+$$V=K\\!\\left(\\dfrac{q_1}{r_1}+\\dfrac{q_2}{r_2}\\right)=K q_1\\!\\left(\\dfrac15+\\dfrac{4}{10}\\right)=K q_1\\cdot\\dfrac{3}{5}=1{,}08\\cdot10^{4}$$
+
+$$q_1=\\dfrac{5}{3}\\cdot\\dfrac{1{,}08\\cdot10^{4}}{9\\cdot10^{9}}=2\\cdot10^{-6}\\ \\text{C}\\quad\\Rightarrow\\quad q_2=8\\cdot10^{-6}\\ \\text{C}$$
+
+## Ejercicio 9
+
+### Enunciado
+
+Una lámina de vidrio se halla sobre un líquido de índice desconocido. La longitud de onda de la luz en el vidrio se reduce al $70\\%$ de su valor en el aire. Si se emite luz desde el líquido, los rayos con ángulos de incidencia superiores a $30^\\circ$ en la cara inferior de la lámina no se refractan al aire por la cara superior. Calcule:
+
+**(a)** El índice de refracción del vidrio.
+
+**(b)** El índice de refracción del líquido.
+
+### Solución explicada
+
+**(a)** La longitud de onda en un medio es $\\lambda=\\dfrac{\\lambda_{aire}\\,n_{aire}}{n}$, de modo que $\\lambda_{vidrio}=\\dfrac{\\lambda_{aire}}{n_{vidrio}}$. Con $\\lambda_{vidrio}=0{,}70\\,\\lambda_{aire}$:
+
+$$n_{vidrio}=\\dfrac{1}{0{,}70}=1{,}43$$
+
+**(b)** Si para incidencias $>30^\\circ$ desde el líquido ya no hay refracción al aire por la cara superior, a $30^\\circ$ el rayo emerge rasante ($90^\\circ$) al aire. Aplicando la ley de Snell en cadena líquido $\\to$ vidrio $\\to$ aire, los términos del vidrio se cancelan:
+
+$$n_{liq}\\,\\text{sen}\\,30^\\circ=n_{aire}\\,\\text{sen}\\,90^\\circ\\Rightarrow n_{liq}=\\dfrac{1}{\\text{sen}\\,30^\\circ}=2$$
+
+## Ejercicio 10
+
+### Enunciado
+
+Un electrón relativista adquiere una energía cinética igual a la energía de un fotón de $5\\cdot10^{-12}\\ \\text{m}$ de longitud de onda en el vacío. Calcule:
+
+**(a)** La energía cinética del electrón, en eV.
+
+**(b)** La velocidad del electrón.
+
+### Solución explicada
+
+**(a)** La energía cinética del electrón iguala la del fotón:
+
+$$E_c=\\dfrac{hc}{\\lambda}=\\dfrac{6{,}63\\cdot10^{-34}\\cdot3\\cdot10^{8}}{5\\cdot10^{-12}}=3{,}98\\cdot10^{-14}\\ \\text{J}$$
+
+$$E_c=\\dfrac{3{,}98\\cdot10^{-14}}{1{,}6\\cdot10^{-19}}=2{,}49\\cdot10^{5}\\ \\text{eV}$$
+
+**(b)** De la energía cinética relativista $E_c=(\\gamma-1)m_e c^2$, con $m_e c^2=8{,}19\\cdot10^{-14}\\ \\text{J}$, se obtiene $\\gamma=1+\\dfrac{E_c}{m_e c^2}=1{,}486$:
+
+$$v=c\\sqrt{1-\\dfrac{1}{\\gamma^2}}=c\\sqrt{1-\\dfrac{1}{1{,}486^2}}=0{,}740\\,c=2{,}22\\cdot10^{8}\\ \\text{m/s}$$
+`,je=`---
+title: Física · PAU 2023 · Cantabria — examen resuelto
+seoTitle: PAU Física Cantabria 2023 resuelta paso a paso
+date: 2023-06-01
+updated: 2026-11-05
+description: Examen de Física de Cantabria 2023 resuelto paso a paso para 2.º de Bachillerato.
+tag: Física PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+**Ejercicio 1.** Una onda armónica transversal en una cuerda es $y(x,t)=0{,}2\\,\\operatorname{sen}[2\\pi(t+2x)]$ (unidades SI).
+
+**(a)** Amplitud, longitud de onda y frecuencia.
+
+**(b)** Velocidad de propagación (módulo, dirección y sentido).
+
+**(c)** Velocidad y aceleración máximas de vibración de los puntos de la cuerda.
+
+### Solución explicada
+
+Desarrollando el argumento: $y=0{,}2\\,\\operatorname{sen}(2\\pi t+4\\pi x)$, de donde $\\omega=2\\pi\\ \\text{rad·s}^{-1}$ y $k=4\\pi\\ \\text{rad·m}^{-1}$.
+
+**(a)** Amplitud $A=0{,}2\\ \\text{m}$. Frecuencia y longitud de onda:
+
+$$f=\\dfrac{\\omega}{2\\pi}=1\\ \\text{Hz},\\qquad \\lambda=\\dfrac{2\\pi}{k}=\\dfrac{2\\pi}{4\\pi}=0{,}5\\ \\text{m}$$
+
+**(b)** Módulo de la velocidad de propagación:
+
+$$v=\\dfrac{\\omega}{k}=\\dfrac{2\\pi}{4\\pi}=0{,}5\\ \\text{m·s}^{-1}$$
+
+Como los términos de $t$ y de $x$ tienen el **mismo signo** ($+$), la onda se propaga en el sentido **negativo** del eje $x$.
+
+**(c)** Valores máximos de oscilación transversal:
+
+$$v_{\\max}=A\\,\\omega=0{,}2\\cdot2\\pi=1{,}26\\ \\text{m·s}^{-1}$$
+
+$$a_{\\max}=A\\,\\omega^2=0{,}2\\cdot(2\\pi)^2=7{,}90\\ \\text{m·s}^{-2}$$
+
+## Ejercicio 2
+
+### Enunciado
+
+**Ejercicio 2.** Una persona está expuesta a un nivel de intensidad sonora constante de $80\\ \\text{dB}$.
+
+**(a)** ¿A qué intensidad corresponde ese nivel?
+
+**(b)** Si la fuente es puntual y está a $15\\ \\text{m}$, ¿qué potencia emite?
+
+**(c)** Si el tímpano tiene $10\\ \\text{mm}^2$, ¿cuánta energía le llega en una hora?
+
+### Solución explicada
+
+**(a)** De $\\beta=10\\log_{10}(I/I_0)$:
+
+$$I=I_0\\cdot10^{\\beta/10}=10^{-12}\\cdot10^{8}=10^{-4}\\ \\text{W·m}^{-2}$$
+
+**(b)** Para una fuente puntual (onda esférica), $I=\\dfrac{P}{4\\pi d^2}$:
+
+$$P=I\\cdot4\\pi d^2=10^{-4}\\cdot4\\pi(15)^2=0{,}283\\ \\text{W}$$
+
+**(c)** La potencia que llega al tímpano es $P_t=I\\cdot S=10^{-4}\\cdot10^{-5}=10^{-9}\\ \\text{W}$. En una hora:
+
+$$E=P_t\\cdot t=10^{-9}\\cdot3600=3{,}6\\cdot10^{-6}\\ \\text{J}$$
+
+## Ejercicio 3
+
+### Enunciado
+
+**Ejercicio 3.** Un haz incide desde el aire sobre un vidrio con $45^\\circ$ respecto a la normal. El vidrio tiene $5\\ \\text{cm}$ de espesor (horizontal) y el rayo interior forma $62^\\circ$ con la horizontal.
+
+**(a)** Índice de refracción del vidrio.
+
+**(b)** Si la frecuencia es $3\\cdot10^{14}\\ \\text{Hz}$, longitud de onda dentro del vidrio.
+
+**(c)** Tiempo que emplea el rayo en atravesar el vidrio.
+
+### Solución explicada
+
+El rayo interior forma $62^\\circ$ con la horizontal, luego con la normal (vertical) forma $\\theta_r=90^\\circ-62^\\circ=28^\\circ$.
+
+**(a)** Ley de Snell $n_{\\text{aire}}\\operatorname{sen}45^\\circ=n\\operatorname{sen}28^\\circ$:
+
+$$n=\\dfrac{\\operatorname{sen}45^\\circ}{\\operatorname{sen}28^\\circ}=\\dfrac{0{,}707}{0{,}469}=1{,}51$$
+
+**(b)** La frecuencia no cambia. La velocidad en el vidrio es $v=\\dfrac{c}{n}$ y la longitud de onda:
+
+$$\\lambda=\\dfrac{v}{f}=\\dfrac{c}{n f}=\\dfrac{3\\cdot10^{8}}{1{,}51\\cdot3\\cdot10^{14}}=6{,}64\\cdot10^{-7}\\ \\text{m}=664\\ \\text{nm}$$
+
+**(c)** El rayo recorre dentro del vidrio un camino $L=\\dfrac{\\text{espesor}}{\\cos\\theta_r}=\\dfrac{0{,}05}{\\cos 28^\\circ}=5{,}66\\cdot10^{-2}\\ \\text{m}$. Con $v=\\dfrac{c}{n}=1{,}99\\cdot10^{8}\\ \\text{m·s}^{-1}$:
+
+$$t=\\dfrac{L}{v}=\\dfrac{5{,}66\\cdot10^{-2}}{1{,}99\\cdot10^{8}}=2{,}84\\cdot10^{-10}\\ \\text{s}$$
+
+## Ejercicio 4
+
+### Enunciado
+
+**Ejercicio 4.** Un objeto de $8\\ \\text{cm}$ está $15\\ \\text{cm}$ delante de una lente divergente de focal $|f|=5\\ \\text{cm}$. Con un trazado de rayos cualitativo, determine:
+
+**(a)** Posición de la imagen.
+
+**(b)** Altura de la imagen.
+
+**(c)** Naturaleza de la imagen (real/virtual, derecha/invertida, mayor/menor).
+
+
+### Esquema para el apartado gráfico
+
+![Trazado de rayos para una lente divergente y un espejo cóncavo](/assets/latex/pau-fisica-optics.svg)
+### Solución explicada
+
+**(a)** Con $\\dfrac{1}{s'}-\\dfrac{1}{s}=\\dfrac{1}{f'}$ y $f'=-5\\ \\text{cm}$, $s=-15\\ \\text{cm}$:
+
+$$\\dfrac{1}{s'}=\\dfrac{1}{f'}+\\dfrac{1}{s}=\\dfrac{1}{-5}+\\dfrac{1}{-15}=-\\dfrac{4}{15}\\ \\Rightarrow\\ s'=-3{,}75\\ \\text{cm}$$
+
+**(b)** Aumento lateral $M=\\dfrac{s'}{s}=\\dfrac{-3{,}75}{-15}=0{,}25$. Altura de la imagen:
+
+$$y'=M\\,y=0{,}25\\cdot8=2\\ \\text{cm}$$
+
+**(c)** Como $s'<0$ la imagen es **virtual** (del mismo lado que el objeto); $M>0$ indica **derecha** y $|M|<1$ que es **menor** que el objeto. Es el comportamiento típico de una lente divergente con un objeto real: siempre forma imagen virtual, derecha y reducida.
+
+## Ejercicio 5
+
+### Enunciado
+
+**Ejercicio 5.** Dos masas $m_1=5\\ \\text{kg}$ y $m_2=10\\ \\text{kg}$ están en $(0,0)\\ \\text{m}$ y $(0,-2)\\ \\text{m}$.
+
+**(a)** Vector fuerza gravitatoria que experimenta $m_3=100\\ \\text{g}$ situada en $(1,-2)\\ \\text{m}$.
+
+**(b)** Trabajo del campo gravitatorio al desplazar $m_3$ de $(1,-2)\\ \\text{m}$ a $(1,0)\\ \\text{m}$.
+
+**(c)** Significado físico del signo del trabajo.
+
+### Solución explicada
+
+**(a)** Fuerza de $m_1$ sobre $m_3$: vector $m_3\\!\\to\\!m_1=(-1,2)$, módulo $d_1=\\sqrt{5}=2{,}24\\ \\text{m}$:
+
+$$F_1=\\dfrac{Gm_1 m_3}{d_1^2}=\\dfrac{6{,}67\\cdot10^{-11}\\cdot5\\cdot0{,}1}{5}=6{,}67\\cdot10^{-12}\\ \\text{N}$$
+
+Componentes: $\\vec{F}_1=(-2{,}98\\cdot10^{-12},\\,5{,}97\\cdot10^{-12})\\ \\text{N}$.
+
+Fuerza de $m_2$ sobre $m_3$: vector $m_3\\!\\to\\!m_2=(-1,0)$, $d_2=1\\ \\text{m}$:
+
+$$F_2=\\dfrac{Gm_2 m_3}{d_2^2}=\\dfrac{6{,}67\\cdot10^{-11}\\cdot10\\cdot0{,}1}{1}=6{,}67\\cdot10^{-11}\\ \\text{N}\\ \\Rightarrow\\ \\vec{F}_2=(-6{,}67\\cdot10^{-11},\\,0)\\ \\text{N}$$
+
+Fuerza total:
+
+$$\\vec{F}=(-6{,}97\\cdot10^{-11},\\,5{,}97\\cdot10^{-12})\\ \\text{N},\\qquad |\\vec{F}|=6{,}99\\cdot10^{-11}\\ \\text{N}$$
+
+**(b)** El trabajo del campo es $W=m_3\\,[V_i-V_f]$ con $V=-G\\sum m_i/r_i$. En $(1,-2)$: $r_1=\\sqrt5$, $r_2=1$, $V_i=-8{,}16\\cdot10^{-10}\\ \\text{J·kg}^{-1}$. En $(1,0)$: $r_1=1$, $r_2=\\sqrt5$, $V_f=-6{,}32\\cdot10^{-10}\\ \\text{J·kg}^{-1}$.
+
+$$W=0{,}1\\,[(-8{,}16\\cdot10^{-10})-(-6{,}32\\cdot10^{-10})]=-1{,}84\\cdot10^{-11}\\ \\text{J}$$
+
+**(c)** El trabajo del campo es **negativo** porque $m_3$ se aleja de las masas (va hacia una región de mayor potencial, menos negativo): el campo gravitatorio se opone al desplazamiento, por lo que un agente externo debe aportar energía.
+
+## Ejercicio 6
+
+### Enunciado
+
+**Ejercicio 6.** Un satélite de $1000\\ \\text{kg}$ orbita la Tierra en círculo a $10000\\ \\text{km}$ de altura.
+
+**(a)** Periodo y velocidad orbital.
+
+**(b)** Energía que hubo que transmitirle para ponerlo en órbita desde la superficie.
+
+**(c)** Energía mínima para que escape de la atracción terrestre desde su órbita.
+
+### Solución explicada
+
+El radio orbital es $r=R_T+h=6370+10000=16370\\ \\text{km}=1{,}637\\cdot10^{7}\\ \\text{m}$.
+
+**(a)** Velocidad orbital $v=\\sqrt{\\dfrac{GM_T}{r}}$:
+
+$$v=\\sqrt{\\dfrac{6{,}67\\cdot10^{-11}\\cdot6\\cdot10^{24}}{1{,}637\\cdot10^{7}}}=4944\\ \\text{m·s}^{-1}$$
+
+Periodo $T=\\dfrac{2\\pi r}{v}=\\dfrac{2\\pi\\cdot1{,}637\\cdot10^{7}}{4944}=2{,}08\\cdot10^{4}\\ \\text{s}\\approx5{,}78\\ \\text{h}$.
+
+**(b)** Energía para ponerlo en órbita $=E_{\\text{órbita}}-E_{\\text{superficie}}$, con $E_{\\text{órbita}}=-\\dfrac{GM_T m}{2r}$ y $E_{\\text{superficie}}=-\\dfrac{GM_T m}{R_T}$ (reposo en la superficie):
+
+$$\\Delta E=GM_T m\\left(\\dfrac{1}{R_T}-\\dfrac{1}{2r}\\right)=5{,}06\\cdot10^{10}\\ \\text{J}$$
+
+**(c)** Energía mínima para escapar desde la órbita $=0-E_{\\text{órbita}}=\\dfrac{GM_T m}{2r}$:
+
+$$E_{\\text{escape}}=\\dfrac{6{,}67\\cdot10^{-11}\\cdot6\\cdot10^{24}\\cdot1000}{2\\cdot1{,}637\\cdot10^{7}}=1{,}22\\cdot10^{10}\\ \\text{J}$$
+
+## Ejercicio 7
+
+### Enunciado
+
+**Ejercicio 7.** **(a)** Represente las líneas de campo de una carga puntual para $q>0$ y $q<0$. Dos cargas, $-2\\ \\text{nC}$ y $3\\ \\text{nC}$, están en $(0,0)\\ \\text{cm}$ y $(4,0)\\ \\text{cm}$.
+
+**(b)** Punto $P$ del segmento que las une donde el potencial se anula.
+
+**(c)** Se coloca un protón en reposo en $P$: velocidad con que llega a $(1,0)\\ \\text{cm}$.
+
+
+### Esquema para el apartado gráfico
+
+![Esquema de líneas de campo eléctrico y de campo magnético alrededor de un conductor](/assets/latex/pau-fisica-fields.svg)
+### Solución explicada
+
+**(a)** Para $q>0$ las líneas de campo salen radialmente de la carga; para $q<0$ entran radialmente hacia ella.
+
+**(b)** En un punto $(x,0)$ del segmento ($0<x<4\\ \\text{cm}$), el potencial total se anula:
+
+$$k\\!\\left(\\dfrac{-2\\cdot10^{-9}}{x}+\\dfrac{3\\cdot10^{-9}}{4-x}\\right)=0\\ \\Rightarrow\\ \\dfrac{3}{4-x}=\\dfrac{2}{x}\\ \\Rightarrow\\ 3x=2(4-x)$$
+
+$$5x=8\\ \\Rightarrow\\ x=1{,}6\\ \\text{cm}\\ \\Rightarrow\\ P=(1{,}6,\\,0)\\ \\text{cm}$$
+
+**(c)** El potencial en $(1,0)\\ \\text{cm}$ ($r_1=1\\ \\text{cm}$, $r_2=3\\ \\text{cm}$):
+
+$$V=k\\!\\left(\\dfrac{-2\\cdot10^{-9}}{0{,}01}+\\dfrac{3\\cdot10^{-9}}{0{,}03}\\right)=9\\cdot10^{9}\\cdot(-1\\cdot10^{-7})=-900\\ \\text{V}$$
+
+Por conservación de la energía, el trabajo eléctrico sobre el protón es $W=q_p(V_P-V)=1{,}6\\cdot10^{-19}\\,[0-(-900)]=1{,}44\\cdot10^{-16}\\ \\text{J}=\\tfrac12 m_p v^2$:
+
+$$v=\\sqrt{\\dfrac{2W}{m_p}}=\\sqrt{\\dfrac{2\\cdot1{,}44\\cdot10^{-16}}{1{,}67\\cdot10^{-27}}}=4{,}15\\cdot10^{5}\\ \\text{m·s}^{-1}$$
+
+## Ejercicio 8
+
+### Enunciado
+
+**Ejercicio 8.** Un electrón entra con $\\vec{v}=10^{8}\\,\\vec{i}\\ \\text{m·s}^{-1}$ en una región con $\\vec{B}=0{,}2\\,\\vec{j}\\ \\text{T}$ y describe una trayectoria circular.
+
+**(a)** Vector fuerza que el campo ejerce sobre el electrón.
+
+**(b)** Radio de la trayectoria y periodo del movimiento.
+
+**(c)** Trayectoria con los vectores fuerza, campo y velocidad.
+
+### Solución explicada
+
+**(a)** Fuerza de Lorentz $\\vec{F}=q\\,\\vec{v}\\times\\vec{B}$ con $q=-e$:
+
+$$\\vec{F}=(-1{,}6\\cdot10^{-19})(10^{8}\\,\\vec{i})\\times(0{,}2\\,\\vec{j})=(-1{,}6\\cdot10^{-19})(2\\cdot10^{7})\\,\\vec{k}=-3{,}2\\cdot10^{-12}\\,\\vec{k}\\ \\text{N}$$
+
+(se usó $\\vec{i}\\times\\vec{j}=\\vec{k}$).
+
+**(b)** La fuerza magnética es centrípeta, $evB=\\dfrac{m_e v^2}{R}$:
+
+$$R=\\dfrac{m_e v}{eB}=\\dfrac{9{,}1\\cdot10^{-31}\\cdot10^{8}}{1{,}6\\cdot10^{-19}\\cdot0{,}2}=2{,}84\\cdot10^{-3}\\ \\text{m}$$
+
+$$T=\\dfrac{2\\pi m_e}{eB}=\\dfrac{2\\pi\\cdot9{,}1\\cdot10^{-31}}{1{,}6\\cdot10^{-19}\\cdot0{,}2}=1{,}79\\cdot10^{-10}\\ \\text{s}$$
+
+**(c)** El electrón describe una circunferencia en el plano $xz$ (perpendicular a $\\vec{B}$); la fuerza apunta en cada instante hacia el centro, $\\vec{v}$ es tangente y $\\vec{B}$ es constante en $+y$.
+
+## Ejercicio 9
+
+### Enunciado
+
+**Ejercicio 9.** Al incidir luz de $\\lambda=550\\ \\text{nm}$ sobre un material se liberan electrones con potencial de frenado $0{,}4\\ \\text{V}$.
+
+**(a)** Trabajo de extracción del metal.
+
+**(b)** Rango de longitudes de onda en que se produce efecto fotoeléctrico.
+
+**(c)** Energía cinética máxima de los electrones al incidir con $\\lambda=214\\ \\text{nm}$.
+
+### Solución explicada
+
+**(a)** Ecuación de Einstein $\\dfrac{hc}{\\lambda}=W+eV_f$, de donde:
+
+$$W=\\dfrac{hc}{\\lambda}-eV_f=\\dfrac{6{,}63\\cdot10^{-34}\\cdot3\\cdot10^{8}}{550\\cdot10^{-9}}-1{,}6\\cdot10^{-19}\\cdot0{,}4$$
+
+$$W=3{,}62\\cdot10^{-19}-0{,}64\\cdot10^{-19}=2{,}98\\cdot10^{-19}\\ \\text{J}=1{,}86\\ \\text{eV}$$
+
+**(b)** El efecto se produce si $\\dfrac{hc}{\\lambda}\\ge W$, es decir $\\lambda\\le\\lambda_0$:
+
+$$\\lambda_0=\\dfrac{hc}{W}=\\dfrac{6{,}63\\cdot10^{-34}\\cdot3\\cdot10^{8}}{2{,}98\\cdot10^{-19}}=6{,}68\\cdot10^{-7}\\ \\text{m}=668\\ \\text{nm}$$
+
+Luego hay efecto fotoeléctrico para $\\lambda\\le668\\ \\text{nm}$.
+
+**(c)** Con $\\lambda=214\\ \\text{nm}$:
+
+$$E_{c,\\max}=\\dfrac{hc}{\\lambda}-W=\\dfrac{6{,}63\\cdot10^{-34}\\cdot3\\cdot10^{8}}{214\\cdot10^{-9}}-2{,}98\\cdot10^{-19}=6{,}32\\cdot10^{-19}\\ \\text{J}=3{,}95\\ \\text{eV}$$
+
+## Ejercicio 10
+
+### Enunciado
+
+**Ejercicio 10.** El $^{210}_{84}\\text{Po}$ se desintegra por emisión $\\alpha$ dando plomo estable, con periodo de semidesintegración $138{,}4\\ \\text{días}$.
+
+**(a)** Reacción de desintegración.
+
+**(b)** Constante de desintegración.
+
+De una muestra de $10^{16}$ átomos de $^{210}\\text{Po}$:
+
+**(c)** Actividad y número de átomos de Po-210 al cabo de un año.
+
+### Solución explicada
+
+**(a)** La emisión $\\alpha$ resta 4 al número másico y 2 al atómico ($Z=82$ es el plomo):
+
+$$^{210}_{84}\\text{Po}\\ \\longrightarrow\\ ^{206}_{82}\\text{Pb}+{}^{4}_{2}\\text{He}$$
+
+**(b)** Constante de desintegración:
+
+$$\\lambda=\\dfrac{\\ln 2}{T_{1/2}}=\\dfrac{\\ln 2}{138{,}4}=5{,}01\\cdot10^{-3}\\ \\text{días}^{-1}=5{,}80\\cdot10^{-8}\\ \\text{s}^{-1}$$
+
+**(c)** Al cabo de un año ($t=365\\ \\text{días}$), $N=N_0 e^{-\\lambda t}$:
+
+$$N=10^{16}\\,e^{-5{,}01\\cdot10^{-3}\\cdot365}=10^{16}\\,e^{-1{,}83}=1{,}61\\cdot10^{15}\\ \\text{átomos}$$
+
+La actividad es $A=\\lambda N$ (con $\\lambda$ en $\\text{s}^{-1}$):
+
+$$A=5{,}80\\cdot10^{-8}\\cdot1{,}61\\cdot10^{15}=9{,}3\\cdot10^{7}\\ \\text{Bq}$$
+`,Se=`---
+title: Física · PAU 2023 · Serie alternativa · Madrid — examen resuelto
+seoTitle: PAU Física Madrid 2023 · Serie alternativa resuelta paso a paso
+date: 2023-06-01
+updated: 2026-11-05
+description: Examen de Física de Madrid 2023 · Serie alternativa resuelto paso a paso para 2.º de Bachillerato.
+tag: Física PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+El astronauta Rocannon se ha situado en una órbita circular de $4{,}36\\ \\text{h}$ de período alrededor de Fomalhaut II, un planeta de $4\\cdot10^{23}\\ \\text{kg}$ de masa y $5000\\ \\text{km}$ de radio.
+
+**(a)** Obtenga la altura de la órbita sobre la superficie de Fomalhaut II.
+
+**(b)** Rocannon dispone de $1{,}5\\cdot10^{10}\\ \\text{J}$ para escapar de Fomalhaut II desde la órbita en que se halla. Determine el valor máximo que puede tener la masa conjunta de Rocannon y su nave para lograr escapar con esa energía.
+
+### Solución explicada
+
+**(a)** En órbita circular, de $v = \\dfrac{2\\pi r}{T}$ y de la 2.ª ley de Newton $\\dfrac{GM}{r^2} = \\dfrac{v^2}{r}$ se obtiene $v = \\sqrt{\\dfrac{GM}{r}}$. Combinando ambas (3.ª ley de Kepler):
+$$r = \\sqrt[3]{\\dfrac{GM\\,T^2}{4\\pi^2}} = \\sqrt[3]{\\dfrac{6{,}67\\cdot10^{-11}\\cdot 4\\cdot10^{23}\\cdot(4{,}36\\cdot3600)^2}{4\\pi^2}} = 5{,}50\\cdot10^{6}\\ \\text{m}.$$
+La altura sobre la superficie:
+$$H = r - R = 5{,}50\\cdot10^{6} - 5\\cdot10^{6} \\approx 501\\ \\text{km}.$$
+
+**(b)** La energía mecánica en la órbita circular es
+$$E_{\\text{órbita}} = -\\dfrac{GMm}{r} + \\tfrac{1}{2}mv^2 = -\\dfrac{1}{2}\\dfrac{GMm}{r}.$$
+Para escapar, la energía final debe ser al menos cero: $E_{\\text{órbita}} + \\Delta E = 0$, de donde
+$$\\dfrac{1}{2}\\dfrac{GMm}{r} = \\Delta E\\ \\Rightarrow\\ m = \\dfrac{2 r\\,\\Delta E}{GM} = \\dfrac{2\\cdot 5{,}50\\cdot10^{6}\\cdot 1{,}5\\cdot10^{10}}{6{,}67\\cdot10^{-11}\\cdot 4\\cdot10^{23}} \\approx 6{,}19\\cdot10^{3}\\ \\text{kg}.$$
+
+## Ejercicio 2
+
+### Enunciado
+
+Una onda armónica transversal se propaga en una cuerda tensa en el sentido positivo del eje $x$, con una velocidad de $20\\ \\text{m/s}$. Sabiendo que el punto situado en $x = 0{,}5\\ \\text{m}$ oscila según la ley $y(t) = 2{,}5\\cos(10\\pi t)\\ \\text{cm}$ (con $t$ en s), determine:
+
+**(a)** La longitud de onda y el desfase inicial.
+
+**(b)** La velocidad y aceleración máximas de oscilación de un punto cualquiera de la cuerda.
+
+### Solución explicada
+
+**(a)** De $\\omega = 10\\pi\\ \\text{rad/s}$ y $v = 20\\ \\text{m/s}$:
+$$\\lambda = \\dfrac{2\\pi v}{\\omega} = \\dfrac{2\\pi\\cdot 20}{10\\pi} = 4\\ \\text{m},\\qquad k = \\dfrac{2\\pi}{\\lambda} = \\dfrac{\\pi}{2}\\ \\text{rad/m}.$$
+La onda general es $y(x,t) = A\\cos(\\omega t - kx + \\varphi)$. En $x = 0{,}5\\ \\text{m}$ debe reducirse a $2{,}5\\cos(10\\pi t)$, luego el argumento cumple $-k\\cdot 0{,}5 + \\varphi = 0$:
+$$\\varphi = k\\cdot 0{,}5 = \\dfrac{\\pi}{2}\\cdot 0{,}5 = \\dfrac{\\pi}{4}\\ \\text{rad} = 45^\\circ.$$
+
+**(b)** Derivando la elongación respecto al tiempo:
+$$v_{\\max} = A\\,\\omega = 0{,}025\\cdot 10\\pi = 0{,}79\\ \\text{m/s}.$$
+$$a_{\\max} = A\\,\\omega^2 = 0{,}025\\cdot(10\\pi)^2 = 24{,}7\\ \\text{m/s}^2.$$
+
+## Ejercicio 3
+
+### Enunciado
+
+Una espira cuadrada gira con un período de $0{,}5\\ \\text{s}$ en presencia de un campo magnético uniforme de $400\\ \\text{mT}$ perpendicular al eje de giro. Sabiendo que en el instante inicial su flujo magnético es máximo e igual a $1{,}6\\cdot10^{-2}\\ \\text{T m}^2$, determine:
+
+**(a)** La longitud del lado de la espira y la expresión del flujo magnético en función del tiempo.
+
+**(b)** La expresión de la fem inducida en función del tiempo y su valor en $t = 1\\ \\text{s}$.
+
+### Solución explicada
+
+**(a)** El flujo máximo es $\\Phi_{\\max} = B\\,a^2$ (espira cuadrada de lado $a$):
+$$a = \\sqrt{\\dfrac{\\Phi_{\\max}}{B}} = \\sqrt{\\dfrac{1{,}6\\cdot10^{-2}}{0{,}4}} = 0{,}20\\ \\text{m}.$$
+La frecuencia angular:
+$$\\omega = \\dfrac{2\\pi}{T} = \\dfrac{2\\pi}{0{,}5} = 4\\pi\\ \\text{rad/s}.$$
+Como en $t=0$ el flujo es máximo ($\\varphi = 0$):
+$$\\Phi(t) = \\Phi_{\\max}\\cos(\\omega t) = 1{,}6\\cdot10^{-2}\\cos(4\\pi t)\\ \\text{T m}^2.$$
+
+**(b)** Por la ley de Faraday:
+$$\\varepsilon(t) = -\\dfrac{d\\Phi}{dt} = \\Phi_{\\max}\\,\\omega\\,\\mathrm{sen}(\\omega t) = 1{,}6\\cdot10^{-2}\\cdot 4\\pi\\,\\mathrm{sen}(4\\pi t) = 0{,}20\\,\\mathrm{sen}(4\\pi t)\\ \\text{V}.$$
+En $t = 1\\ \\text{s}$: $\\mathrm{sen}(4\\pi\\cdot 1) = \\mathrm{sen}(4\\pi) = 0$, luego
+$$\\varepsilon(1\\ \\text{s}) = 0\\ \\text{V}.$$
+
+## Ejercicio 4
+
+### Enunciado
+
+A una distancia de $3\\ \\text{cm}$ a la izquierda de una lente se sitúa un objeto de $2\\ \\text{cm}$ de altura. La imagen es virtual, derecha y tiene una altura de $3\\ \\text{cm}$ (situación A). A continuación, se aleja el objeto hasta $18\\ \\text{cm}$ a la izquierda de la lente, formando una imagen invertida (situación B).
+
+**(a)** Calcule la distancia focal de la lente y dibuje el esquema de rayos en la situación A.
+
+**(b)** Halle el aumento lateral de la imagen en la situación B y dibuje el esquema de rayos.
+
+
+### Esquema para el apartado gráfico
+
+![Trazado de rayos para una lente divergente y un espejo cóncavo](/assets/latex/pau-fisica-optics.svg)
+### Solución explicada
+
+**(a)** El aumento lateral en A: $M_A = \\dfrac{y_A'}{y_A} = \\dfrac{3}{2} = 1{,}5$. Como $M_A = \\dfrac{s_A'}{s_A}$:
+$$s_A' = M_A\\,s_A = 1{,}5\\cdot(-3) = -4{,}5\\ \\text{cm}\\ (\\text{imagen virtual}).$$
+Con la ecuación de la lente $\\dfrac{1}{s_A'} - \\dfrac{1}{s_A} = \\dfrac{1}{f'}$:
+$$f' = \\dfrac{s_A\\,s_A'}{s_A - s_A'} = \\dfrac{(-3)(-4{,}5)}{-3-(-4{,}5)} = \\dfrac{13{,}5}{1{,}5} = 9\\ \\text{cm}.$$
+Lente convergente, $f' = +9\\ \\text{cm}$ (el objeto en A está dentro del foco → imagen virtual, derecha y mayor).
+
+**(b)** Con $s_B = -18\\ \\text{cm}$:
+$$\\dfrac{1}{s_B'} = \\dfrac{1}{f'} + \\dfrac{1}{s_B} = \\dfrac{1}{9} + \\dfrac{1}{-18} = \\dfrac{1}{18}\\ \\Rightarrow\\ s_B' = 18\\ \\text{cm}.$$
+$$M_B = \\dfrac{s_B'}{s_B} = \\dfrac{18}{-18} = -1.$$
+La imagen es real, invertida y del mismo tamaño que el objeto (el objeto está en $2f$).
+
+## Ejercicio 5
+
+### Enunciado
+
+Una célula fotoeléctrica de magnesio, cuya longitud de onda umbral es de $339\\ \\text{nm}$, se ilumina con un haz de luz de frecuencia $1{,}0\\cdot10^{15}\\ \\text{Hz}$.
+
+**(a)** Calcule la energía cinética máxima de los electrones emitidos expresada en eV.
+
+**(b)** A continuación, la célula se ilumina con un haz de frecuencia desconocida, de manera que los electrones emitidos con la energía cinética máxima tienen una longitud de onda de De Broglie de $0{,}87\\ \\text{nm}$. Halle la frecuencia de este segundo haz.
+
+### Solución explicada
+
+**(a)** Energía umbral (trabajo de extracción):
+$$W = \\dfrac{hc}{\\lambda_{\\text{umbral}}} = \\dfrac{6{,}63\\cdot10^{-34}\\cdot 3\\cdot10^{8}}{339\\cdot10^{-9}} = 5{,}87\\cdot10^{-19}\\ \\text{J} = 3{,}67\\ \\text{eV}.$$
+Energía del fotón incidente:
+$$E_{\\text{fot}} = h f = 6{,}63\\cdot10^{-34}\\cdot 1{,}0\\cdot10^{15} = 6{,}63\\cdot10^{-19}\\ \\text{J} = 4{,}14\\ \\text{eV}.$$
+Como $E_{\\text{fot}} > W$, hay emisión y:
+$$E_{c,\\max} = E_{\\text{fot}} - W = 4{,}14 - 3{,}67 = 0{,}47\\ \\text{eV}.$$
+
+**(b)** De la longitud de onda de De Broglie $\\lambda_{\\text{dB}} = \\dfrac{h}{mv}$ obtenemos la velocidad:
+$$v = \\dfrac{h}{m\\,\\lambda_{\\text{dB}}} = \\dfrac{6{,}63\\cdot10^{-34}}{9{,}1\\cdot10^{-31}\\cdot 0{,}87\\cdot10^{-9}} = 8{,}37\\cdot10^{5}\\ \\text{m/s}.$$
+La energía cinética de estos electrones:
+$$E_c = \\tfrac{1}{2}mv^2 = \\tfrac{1}{2}\\cdot 9{,}1\\cdot10^{-31}\\cdot(8{,}37\\cdot10^{5})^2 = 3{,}19\\cdot10^{-19}\\ \\text{J} = 2{,}0\\ \\text{eV}.$$
+La energía del fotón es $E_{\\text{fot}}' = E_c + W = 2{,}0 + 3{,}67 = 5{,}67\\ \\text{eV} = 9{,}07\\cdot10^{-19}\\ \\text{J}$, y su frecuencia:
+$$f' = \\dfrac{E_{\\text{fot}}'}{h} = \\dfrac{9{,}07\\cdot10^{-19}}{6{,}63\\cdot10^{-34}} \\approx 1{,}37\\cdot10^{15}\\ \\text{Hz}.$$
+
+## Ejercicio 6
+
+### Enunciado
+
+Una partícula de masa $5\\cdot10^{4}\\ \\text{kg}$ se encuentra fija en el punto $(6, 8)\\ \\text{cm}$ del plano $xy$.
+
+**(a)** Calcule el campo gravitatorio que dicha partícula genera en el origen de coordenadas.
+
+Desde el origen lanzamos una segunda partícula de masa $25\\ \\text{mg}$ con una velocidad de $5\\ \\text{mm/s}$ según la dirección que une ambas partículas, alejándola de la primera.
+
+**(b)** Obtenga la distancia máxima a la que llegará la segunda partícula respecto a la primera.
+
+### Solución explicada
+
+**(a)** La partícula está a $d_0 = \\sqrt{0{,}06^2 + 0{,}08^2} = 0{,}10\\ \\text{m}$ del origen. El campo en el origen apunta hacia la masa (en la dirección $(6,8)$), es decir con unitario $(0{,}6;\\,0{,}8)$:
+$$g = \\dfrac{GM}{d_0^2} = \\dfrac{6{,}67\\cdot10^{-11}\\cdot 5\\cdot10^{4}}{0{,}10^2} = 3{,}34\\cdot10^{-4}\\ \\text{m/s}^2.$$
+$$\\vec{g} = (2{,}00\\,\\vec{i} + 2{,}67\\,\\vec{j})\\cdot10^{-4}\\ \\text{m/s}^2.$$
+
+**(b)** Por conservación de la energía mecánica. Energía inicial (a $d_0=0{,}10\\ \\text{m}$):
+$$E_0 = -\\dfrac{GMm}{d_0} + \\tfrac{1}{2}mv_0^2 = -6{,}67\\cdot10^{-11}\\dfrac{5\\cdot10^{4}\\cdot 25\\cdot10^{-6}}{0{,}10} + \\tfrac{1}{2}\\cdot 25\\cdot10^{-6}\\cdot(5\\cdot10^{-3})^2 = -5{,}21\\cdot10^{-10}\\ \\text{J}.$$
+En el punto de máximo alejamiento la velocidad es nula, luego $E_0 = -\\dfrac{GMm}{d}$:
+$$d = -\\dfrac{GMm}{E_0} = -\\dfrac{6{,}67\\cdot10^{-11}\\cdot 5\\cdot10^{4}\\cdot 25\\cdot10^{-6}}{-5{,}21\\cdot10^{-10}} \\approx 0{,}16\\ \\text{m}.$$
+
+## Ejercicio 7
+
+### Enunciado
+
+Un coro está formado por $12$ cantantes dispuestos en una semicircunferencia de radio $R$. Cada miembro canta con un nivel de intensidad de $90\\ \\text{dB}$ medido a $1\\ \\text{m}$. Sabiendo que cuando canta el coro entero el nivel de intensidad en el centro de la semicircunferencia es de $88{,}72\\ \\text{dB}$, calcule:
+
+**(a)** La potencia sonora emitida por cada cantante.
+
+**(b)** El radio de la semicircunferencia, $R$.
+
+*Dato:* intensidad umbral, $I_0 = 10^{-12}\\ \\text{W/m}^2$.
+
+### Solución explicada
+
+**(a)** De $\\beta = 10\\log(I/I_0)$ con $\\beta_1 = 90\\ \\text{dB}$:
+$$I_{1\\text{m}} = I_0\\,10^{90/10} = 10^{-12}\\cdot10^{9} = 10^{-3}\\ \\text{W/m}^2.$$
+La potencia de cada cantante (fuente puntual, superficie esférica de radio $1\\ \\text{m}$):
+$$P = I_{1\\text{m}}\\cdot 4\\pi r^2 = 10^{-3}\\cdot 4\\pi\\cdot 1^2 = 1{,}26\\cdot10^{-2}\\ \\text{W}.$$
+
+**(b)** Los $12$ cantantes emiten $P_{12} = 12P = 0{,}151\\ \\text{W}$. El nivel en el centro da la intensidad allí:
+$$I_{\\text{centro}} = I_0\\,10^{88{,}72/10} = 7{,}44\\cdot10^{-4}\\ \\text{W/m}^2.$$
+Como todos están a distancia $R$ del centro:
+$$I_{\\text{centro}} = \\dfrac{P_{12}}{4\\pi R^2}\\ \\Rightarrow\\ R = \\sqrt{\\dfrac{P_{12}}{4\\pi I_{\\text{centro}}}} = \\sqrt{\\dfrac{0{,}151}{4\\pi\\cdot 7{,}44\\cdot10^{-4}}} \\approx 4\\ \\text{m}.$$
+
+## Ejercicio 8
+
+### Enunciado
+
+Dos cargas puntuales de $-3\\ \\mu\\text{C}$ y $+2\\ \\mu\\text{C}$ están situadas en los puntos $(-2,0)\\ \\text{m}$ y $(3,0)\\ \\text{m}$ del plano $xy$, respectivamente. Calcule:
+
+**(a)** El trabajo que realiza el campo eléctrico para traer una carga de $+4\\ \\mu\\text{C}$ desde el infinito al punto $(0,4)\\ \\text{m}$.
+
+**(b)** La fuerza total sobre la carga situada en el punto $(0,4)\\ \\text{m}$ ejercida por las otras dos.
+
+*Dato:* $K = 9\\cdot10^{9}\\ \\text{N m}^2\\text{C}^{-2}$.
+
+### Solución explicada
+
+Distancias al punto $(0,4)$: $d_1 = \\sqrt{2^2+4^2} = \\sqrt{20}\\ \\text{m}$ y $d_2 = \\sqrt{3^2+4^2} = 5\\ \\text{m}$.
+
+**(a)** Potencial en $(0,4)$:
+$$V = K\\dfrac{q_1}{d_1} + K\\dfrac{q_2}{d_2} = 9\\cdot10^{9}\\left(\\dfrac{-3\\cdot10^{-6}}{\\sqrt{20}} + \\dfrac{2\\cdot10^{-6}}{5}\\right) = -2{,}44\\cdot10^{3}\\ \\text{V}.$$
+Trabajo del campo al traer $q_3$ desde el infinito ($V_\\infty=0$):
+$$W = q_3\\,(V_\\infty - V) = -q_3\\,V = -4\\cdot10^{-6}\\cdot(-2{,}44\\cdot10^{3}) = 9{,}75\\cdot10^{-3}\\ \\text{J}.$$
+
+**(b)** Fuerzas sobre $q_3$:
+- De $q_1$ (atractiva, hacia $(-2,0)$): $F_1 = K\\dfrac{|q_1|q_3}{d_1^2} = 5{,}4\\cdot10^{-3}\\ \\text{N}$; componentes $\\vec{F}_1 = (-2{,}41\\,\\vec{i} - 4{,}83\\,\\vec{j})\\cdot10^{-3}\\ \\text{N}$.
+- De $q_2$ (repulsiva, alejándose de $(3,0)$): $F_2 = K\\dfrac{q_2 q_3}{d_2^2} = 2{,}88\\cdot10^{-3}\\ \\text{N}$; componentes $\\vec{F}_2 = (-1{,}73\\,\\vec{i} + 2{,}30\\,\\vec{j})\\cdot10^{-3}\\ \\text{N}$.
+
+Fuerza total:
+$$\\vec{F}_T = \\vec{F}_1 + \\vec{F}_2 = (-4{,}14\\,\\vec{i} - 2{,}53\\,\\vec{j})\\cdot10^{-3}\\ \\text{N}.$$
+
+## Ejercicio 9
+
+### Enunciado
+
+Un rayo de luz incide horizontalmente desde el aire sobre la cara de un prisma de vidrio de índice de refracción $1{,}33$. El prisma tiene forma de triángulo rectángulo, con ángulos de $30^\\circ$ y $60^\\circ$ (ver figura). Determine:
+
+**(a)** El ángulo de refracción del rayo del aire al vidrio.
+
+**(b)** El ángulo de refracción del vidrio al aire en la cara posterior del prisma.
+
+*Dato:* $n_{\\text{aire}} = 1$.
+
+### Solución explicada
+
+**(a)** En la primera cara, con ángulo de incidencia $30^\\circ$, ley de Snell:
+$$n_{\\text{aire}}\\,\\mathrm{sen}\\,30^\\circ = n_{\\text{vidrio}}\\,\\mathrm{sen}\\,\\theta_t\\ \\Rightarrow\\ \\mathrm{sen}\\,\\theta_t = \\dfrac{\\mathrm{sen}\\,30^\\circ}{1{,}33} = 0{,}376,$$
+$$\\theta_t = 22{,}1^\\circ.$$
+
+**(b)** Por geometría del triángulo, el ángulo de incidencia sobre la cara posterior (vidrio→aire) resulta $\\theta_i' = 7{,}92^\\circ$ (el ángulo refractado y el ángulo del prisma se combinan: los ángulos interiores del triángulo formado por los rayos y las caras suman $180^\\circ$). Aplicando Snell en la cara posterior:
+$$n_{\\text{vidrio}}\\,\\mathrm{sen}\\,7{,}92^\\circ = n_{\\text{aire}}\\,\\mathrm{sen}\\,\\theta_t'\\ \\Rightarrow\\ \\mathrm{sen}\\,\\theta_t' = 1{,}33\\cdot\\mathrm{sen}\\,7{,}92^\\circ,$$
+$$\\theta_t' = 10{,}6^\\circ.$$
+
+## Ejercicio 10
+
+### Enunciado
+
+El isótopo $^{222}\\text{Rn}$ es radiactivo y tiene un período de semidesintegración de $3{,}82\\ \\text{días}$. La legislación ambiental limita la radiactividad causada por el $^{222}\\text{Rn}$ a $300\\ \\text{Bq}$ por metro cúbico.
+
+**(a)** Calcule la constante de desintegración del $^{222}\\text{Rn}$ y la actividad inicial de $1\\ \\text{mg}$ de $^{222}\\text{Rn}$.
+
+**(b)** Determine la masa máxima de $^{222}\\text{Rn}$ que puede haber en una habitación de $20\\ \\text{m}^3$ para no superar el límite legal.
+
+*Datos:* $M_{\\text{Rn}} = 222\\ \\text{u}$; $N_A = 6{,}02\\cdot10^{23}\\ \\text{mol}^{-1}$.
+
+### Solución explicada
+
+**(a)** Constante de desintegración ($T_{1/2} = 3{,}82\\ \\text{días} = 3{,}30\\cdot10^{5}\\ \\text{s}$):
+$$\\lambda = \\dfrac{\\ln 2}{T_{1/2}} = \\dfrac{0{,}693}{3{,}30\\cdot10^{5}} = 2{,}1\\cdot10^{-6}\\ \\text{s}^{-1}\\ (= 0{,}181\\ \\text{días}^{-1}).$$
+Número de núcleos en $1\\ \\text{mg}$:
+$$N = \\dfrac{1\\cdot10^{-3}}{222}\\cdot 6{,}02\\cdot10^{23} = 2{,}71\\cdot10^{18}\\ \\text{núcleos}.$$
+Actividad inicial:
+$$A_0 = \\lambda N = 2{,}1\\cdot10^{-6}\\cdot 2{,}71\\cdot10^{18} = 5{,}69\\cdot10^{12}\\ \\text{Bq}.$$
+
+**(b)** Actividad límite en la habitación:
+$$A_{\\text{lim}} = 300\\cdot 20 = 6000\\ \\text{Bq}.$$
+Número máximo de núcleos:
+$$N_{\\text{lim}} = \\dfrac{A_{\\text{lim}}}{\\lambda} = \\dfrac{6000}{2{,}1\\cdot10^{-6}} = 2{,}86\\cdot10^{9}\\ \\text{núcleos}.$$
+Masa máxima:
+$$m_{\\text{lim}} = \\dfrac{M_{\\text{Rn}}\\,N_{\\text{lim}}}{N_A} = \\dfrac{222\\cdot 2{,}86\\cdot10^{9}}{6{,}02\\cdot10^{23}} \\approx 1{,}05\\cdot10^{-12}\\ \\text{g}.$$
+`,ze=`---
+title: Física · PAU 2023 · Madrid — examen resuelto
+seoTitle: PAU Física Madrid 2023 resuelta paso a paso
+date: 2023-06-01
+updated: 2026-11-05
+description: Examen de Física de Madrid 2023 resuelto paso a paso para 2.º de Bachillerato.
+tag: Física PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+Un satélite de la constelación OneWeb, de masa $m_S = 150\\ \\text{kg}$, se encuentra en una órbita circular alrededor de la Tierra a una altura $h = 1200\\ \\text{km}$ sobre el nivel del mar. Determine:
+
+**(a)** Las energías potencial gravitatoria y cinética que tiene el satélite en su órbita.
+
+**(b)** La energía que fue necesario comunicar al satélite para ponerlo en órbita desde la superficie de la Tierra.
+
+### Solución explicada
+
+**(a)** El radio de la órbita es $r = R_T + h = 6{,}37\\cdot10^{6} + 1{,}2\\cdot10^{6} = 7{,}57\\cdot10^{6}\\ \\text{m}$.
+
+Energía potencial gravitatoria:
+$$E_P = -\\dfrac{G\\,M_T\\,m_S}{r} = -\\dfrac{6{,}67\\cdot10^{-11}\\cdot 5{,}97\\cdot10^{24}\\cdot 150}{7{,}57\\cdot10^{6}} = -7{,}89\\cdot10^{9}\\ \\text{J}$$
+
+En una órbita circular la fuerza gravitatoria actúa como centrípeta, $\\dfrac{G\\,M_T\\,m_S}{r^2} = \\dfrac{m_S\\,v^2}{r}$, luego $v^2 = \\dfrac{G\\,M_T}{r}$. La energía cinética es:
+$$E_C = \\tfrac{1}{2}\\,m_S\\,v^2 = \\dfrac{G\\,M_T\\,m_S}{2\\,r} = 3{,}95\\cdot10^{9}\\ \\text{J}$$
+
+**(b)** La energía de satelización es la variación de energía mecánica entre la superficie (en reposo) y la órbita:
+$$E = E_{M,\\text{órbita}} - E_{M,\\text{sup}} = \\left(E_C + E_P\\right) - \\left(0 - \\dfrac{G\\,M_T\\,m_S}{R_T}\\right)$$
+$$E = -3{,}95\\cdot10^{9} + 6{,}67\\cdot10^{-11}\\,\\dfrac{5{,}97\\cdot10^{24}\\cdot 150}{6{,}37\\cdot10^{6}} = 5{,}43\\cdot10^{9}\\ \\text{J}$$
+
+## Ejercicio 2
+
+### Enunciado
+
+A lo largo de una cuerda se propaga en el sentido $+x$ una onda transversal. El periodo de oscilación y la elongación máxima de un punto cualquiera son, respectivamente, $T = 4\\cdot10^{-3}\\ \\text{s}$ y $A = 3\\ \\text{mm}$. La distancia mínima entre dos puntos que oscilan en fase es de $0{,}25\\ \\text{m}$. En el instante $t = 2\\cdot10^{-3}\\ \\text{s}$ la elongación de un punto situado en $x = +0{,}5\\ \\text{m}$ es $-1{,}5\\ \\text{mm}$ y su velocidad de oscilación en ese instante es positiva.
+
+**(a)** Halle la frecuencia angular y la velocidad de propagación de la onda.
+
+**(b)** Obtenga la expresión matemática que describe la onda.
+
+### Solución explicada
+
+**(a)** La distancia mínima entre puntos en fase es la longitud de onda, $\\lambda = 0{,}25\\ \\text{m}$.
+$$\\omega = \\dfrac{2\\pi}{T} = \\dfrac{2\\pi}{4\\cdot10^{-3}} = 500\\pi\\ \\text{rad·s}^{-1} \\approx 1{,}57\\cdot10^{3}\\ \\text{rad·s}^{-1}$$
+$$v = \\lambda\\,f = \\dfrac{\\lambda}{T} = \\dfrac{0{,}25}{4\\cdot10^{-3}} = 62{,}5\\ \\text{m·s}^{-1}$$
+
+**(b)** Escribimos $y(x,t) = A\\,\\operatorname{sen}(\\omega t - k x + \\varphi)$, con $A = 3\\cdot10^{-3}\\ \\text{m}$ y
+$$k = \\dfrac{2\\pi}{\\lambda} = \\dfrac{2\\pi}{0{,}25} = 8\\pi\\ \\text{m}^{-1}$$
+
+Imponemos la condición en $x=0{,}5\\ \\text{m}$, $t=2\\cdot10^{-3}\\ \\text{s}$:
+$$3\\cdot10^{-3}\\operatorname{sen}(500\\pi\\cdot2\\cdot10^{-3} - 8\\pi\\cdot0{,}5 + \\varphi) = -1{,}5\\cdot10^{-3}$$
+$$\\operatorname{sen}(\\pi - 4\\pi + \\varphi) = -0{,}5 \\;\\Rightarrow\\; \\operatorname{sen}(-3\\pi+\\varphi) = -0{,}5$$
+
+Hay dos soluciones, $\\varphi = \\tfrac{17\\pi}{6}$ y $\\varphi = \\tfrac{25\\pi}{6}$. La condición $v_y>0$ exige $\\cos(-3\\pi+\\varphi)>0$, que se cumple para $\\varphi = \\tfrac{17\\pi}{6} \\equiv \\tfrac{5\\pi}{6}$. Por tanto:
+$$y(x,t) = 3\\cdot10^{-3}\\,\\operatorname{sen}\\!\\left(500\\pi\\,t - 8\\pi\\,x + \\tfrac{5\\pi}{6}\\right)\\ \\text{m}$$
+con $x$ en metros y $t$ en segundos.
+
+## Ejercicio 3
+
+### Enunciado
+
+Tres cargas $-q$, $-q$ y $+2q$ se encuentran situadas en los puntos del plano $(-a,a)$, $(a,a)$ y $(0,0)$, respectivamente. En función de la constante de Coulomb $K$, de la carga $q$ y de la distancia $a$, determine:
+
+**(a)** La expresión de la fuerza electrostática que se ejerce sobre la carga situada en $(a,a)$ y la expresión del trabajo que habrá realizado esa fuerza electrostática para traer la carga $-q$ desde el infinito hasta $(a,a)$.
+
+**(b)** El flujo del campo eléctrico a través de las superficies cerradas $S_1$ (que encierra a $+2q$ y a la carga $-q$ situada en $(a,a)$) y $S_2$ (que encierra a las tres cargas).
+
+### Solución explicada
+
+**(a)** Sobre la carga $-q$ situada en $(a,a)$ actúan:
+
+Fuerza de la otra $-q$ (en $(-a,a)$, a distancia $2a$), repulsiva, dirigida según $+\\vec{\\imath}$:
+$$\\vec{F}_{1} = K\\dfrac{q^2}{(2a)^2}\\,\\vec{\\imath} = K\\dfrac{q^2}{4a^2}\\,\\vec{\\imath}$$
+
+Fuerza de la carga $+2q$ (en el origen, a distancia $a\\sqrt{2}$), atractiva, dirigida de $(a,a)$ hacia el origen, es decir según $(-\\vec{\\imath}-\\vec{\\jmath})/\\sqrt2$:
+$$\\vec{F}_{2} = K\\dfrac{2q^2}{2a^2}\\cdot\\dfrac{-\\vec{\\imath}-\\vec{\\jmath}}{\\sqrt2} = K\\dfrac{q^2}{a^2}\\left(-\\tfrac{1}{\\sqrt2}\\vec{\\imath}-\\tfrac{1}{\\sqrt2}\\vec{\\jmath}\\right)$$
+
+Sumando:
+$$\\vec{F} = K\\dfrac{q^2}{a^2}\\left[\\left(\\tfrac14-\\tfrac{1}{\\sqrt2}\\right)\\vec{\\imath} - \\tfrac{1}{\\sqrt2}\\vec{\\jmath}\\right] = K\\dfrac{q^2}{a^2}\\left(-0{,}46\\,\\vec{\\imath} - 0{,}71\\,\\vec{\\jmath}\\right)$$
+
+El trabajo de la fuerza electrostática al traer $-q$ desde el infinito es $W = -\\Delta E_p = -E_p(a,a)$, siendo
+$$E_p = K\\dfrac{(-q)(-q)}{2a} + K\\dfrac{(2q)(-q)}{a\\sqrt2} = K\\dfrac{q^2}{a}\\left(\\tfrac12 - \\tfrac{2}{\\sqrt2}\\right) = -0{,}91\\,K\\dfrac{q^2}{a}$$
+$$W = -E_p = +0{,}91\\,K\\dfrac{q^2}{a}$$
+
+**(b)** Por la ley de Gauss, $\\Phi = \\dfrac{q_{\\text{enc}}}{\\varepsilon_0} = 4\\pi K\\,q_{\\text{enc}}$.
+$$\\Phi_{S_1} = \\dfrac{+2q - q}{\\varepsilon_0} = \\dfrac{q}{\\varepsilon_0} = 4\\pi K\\,q$$
+$$\\Phi_{S_2} = \\dfrac{+2q - q - q}{\\varepsilon_0} = 0$$
+
+## Ejercicio 4
+
+### Enunciado
+
+Un objeto de $2\\ \\text{cm}$ de altura se sitúa a $18\\ \\text{cm}$ a la izquierda de una pantalla. Entre la pantalla y el objeto, a $14{,}2\\ \\text{cm}$ de este, se sitúa una lente convergente.
+
+**(a)** Determine la distancia focal que debe tener la lente para que se enfoque la imagen del objeto sobre la pantalla y el tamaño de la imagen.
+
+**(b)** A continuación se retira la pantalla y se sitúa, a $5\\ \\text{cm}$ a la derecha de la primera lente, otra lente convergente de distancia focal $1{,}2\\ \\text{cm}$. ¿Dónde se formará la nueva imagen?
+
+### Solución explicada
+
+**(a)** La pantalla está a $18\\ \\text{cm}$ del objeto y la lente a $14{,}2\\ \\text{cm}$ del objeto, luego la imagen se forma a $s' = 18 - 14{,}2 = 3{,}8\\ \\text{cm}$ a la derecha de la lente. Con el objeto en $s = -14{,}2\\ \\text{cm}$ y la ecuación de las lentes delgadas:
+$$\\dfrac{1}{s'} - \\dfrac{1}{s} = \\dfrac{1}{f'} \\;\\Rightarrow\\; \\dfrac{1}{3{,}8} - \\dfrac{1}{-14{,}2} = \\dfrac{1}{f'} \\;\\Rightarrow\\; f' = 3{,}0\\ \\text{cm}$$
+
+El aumento lateral:
+$$m = \\dfrac{s'}{s} = \\dfrac{3{,}8}{-14{,}2} = -0{,}27 \\;\\Rightarrow\\; y' = m\\,y = -0{,}27\\cdot2 = -0{,}54\\ \\text{cm}$$
+Imagen real, invertida y reducida.
+
+**(b)** La imagen anterior (a $3{,}8\\ \\text{cm}$ de la primera lente) actúa como objeto para la segunda lente, situada a $5\\ \\text{cm}$: $s_2 = 3{,}8 - 5 = -1{,}2\\ \\text{cm}$. Como $|s_2| = f'_2 = 1{,}2\\ \\text{cm}$, el objeto está en el foco objeto de la segunda lente:
+$$\\dfrac{1}{s'_2} = \\dfrac{1}{f'_2} + \\dfrac{1}{s_2} = \\dfrac{1}{1{,}2} + \\dfrac{1}{-1{,}2} = 0 \\;\\Rightarrow\\; s'_2 = \\infty$$
+La imagen final se forma en el infinito (rayos emergentes paralelos).
+
+## Ejercicio 5
+
+### Enunciado
+
+Se sospecha que un acuífero recibe aportes intermitentes de radón ($^{222}\\text{Rn}$). Se miden semanalmente actividades de muestras de un litro de agua; una medida da $14\\ \\text{Bq}$. Determine el valor de la medida de la semana siguiente (otra muestra de un litro):
+
+**(a)** Si no hubiese ningún aporte de $^{222}\\text{Rn}$ durante esa semana.
+
+**(b)** Si el cuarto día de esa semana la concentración de $^{222}\\text{Rn}$ experimentase un aumento súbito de $2\\cdot10^{-16}\\ \\text{g}$ por cada litro de agua.
+
+### Solución explicada
+
+**(a)** Sin aporte, la actividad decae exponencialmente durante $t = 7\\ \\text{días}$:
+$$A = A_0\\,2^{-t/T_{1/2}} = 14\\cdot 2^{-7/3{,}8} = 3{,}9\\ \\text{Bq}$$
+
+**(b)** El aumento de $\\Delta C = 2\\cdot10^{-16}\\ \\text{g/L}$ añade núcleos cuya actividad, al final de la semana, ha decaído durante $t' = 7-4 = 3\\ \\text{días}$. La constante de desintegración es $\\lambda = \\dfrac{\\ln 2}{T_{1/2}} = \\dfrac{\\ln 2}{3{,}8\\cdot 86400} = 2{,}11\\cdot10^{-6}\\ \\text{s}^{-1}$ y el número de átomos añadidos $N = \\dfrac{\\Delta C}{M}\\,N_A = \\dfrac{2\\cdot10^{-16}}{222}\\cdot6{,}02\\cdot10^{23} = 5{,}42\\cdot10^{5}$.
+$$\\Delta A = \\lambda\\,N\\,2^{-t'/T_{1/2}} = 2{,}11\\cdot10^{-6}\\cdot5{,}42\\cdot10^{5}\\cdot 2^{-3/3{,}8} = 0{,}66\\ \\text{Bq}$$
+
+La actividad medida será:
+$$A' = A + \\Delta A = 3{,}9 + 0{,}66 = 4{,}6\\ \\text{Bq}$$
+
+## Ejercicio 6
+
+### Enunciado
+
+Un satélite orbita la Tierra en órbita circular a una altura $h = 1600\\ \\text{km}$ sobre la superficie.
+
+**(a)** Calcule la velocidad orbital del satélite y el tiempo que tarda en dar una vuelta completa. Desprecie la interacción gravitatoria de la Luna.
+
+**(b)** Para evitar que caiga, se decide impulsarlo hacia la Luna. Determine la distancia $x$ al centro de la Tierra a la que deberá llegar para que el efecto del campo gravitatorio lunar supere al del campo terrestre.
+
+### Solución explicada
+
+**(a)** La fuerza gravitatoria es la centrípeta, luego $v = \\sqrt{\\dfrac{G\\,M_T}{R_T+h}}$. Con $r = R_T + h = 6{,}37\\cdot10^{6} + 1{,}6\\cdot10^{6} = 7{,}97\\cdot10^{6}\\ \\text{m}$:
+$$v = \\sqrt{\\dfrac{6{,}67\\cdot10^{-11}\\cdot5{,}97\\cdot10^{24}}{7{,}97\\cdot10^{6}}} = 7{,}07\\cdot10^{3}\\ \\text{m·s}^{-1} \\approx 7{,}07\\ \\text{km·s}^{-1}$$
+$$T = \\dfrac{2\\pi r}{v} = \\dfrac{2\\pi\\cdot7{,}97\\cdot10^{6}}{7{,}07\\cdot10^{3}} \\approx 7{,}08\\cdot10^{3}\\ \\text{s} \\approx 1{,}97\\ \\text{h}$$
+
+**(b)** El punto neutro cumple que los módulos de los campos terrestre y lunar se igualan, estando el satélite a distancia $x$ de la Tierra y $d-x$ de la Luna:
+$$\\dfrac{G\\,M_T}{x^2} = \\dfrac{G\\,M_L}{(d-x)^2} \\;\\Rightarrow\\; \\dfrac{x}{d-x} = \\sqrt{\\dfrac{M_T}{M_L}}$$
+$$\\dfrac{x}{3{,}84\\cdot10^{5}-x} = \\sqrt{\\dfrac{5{,}97\\cdot10^{24}}{7{,}35\\cdot10^{22}}} = 9{,}01 \\;\\Rightarrow\\; x \\approx 3{,}46\\cdot10^{5}\\ \\text{km}$$
+Más allá de esa distancia predomina el campo lunar.
+
+## Ejercicio 7
+
+### Enunciado
+
+Un observador situado a $3\\ \\text{m}$ de una fuente puntual sonora que emite en todas direcciones mide un nivel de intensidad sonora de $53\\ \\text{dB}$. Halle:
+
+**(a)** La intensidad sonora recibida por el observador y la potencia con la que emite la fuente.
+
+**(b)** La distancia a la que debe situarse el observador para que el nivel de intensidad sonora percibido se reduzca a una cuarta parte.
+
+### Solución explicada
+
+**(a)** A partir del nivel de intensidad $\\beta = 10\\log(I/I_0)$:
+$$I_1 = I_0\\,10^{\\beta_1/10} = 10^{-12}\\cdot10^{5{,}3} = 1{,}99\\cdot10^{-7}\\ \\text{W·m}^{-2}$$
+Para una fuente puntual, $I = \\dfrac{P}{4\\pi r^2}$, luego
+$$P = I_1\\,4\\pi r_1^2 = 1{,}99\\cdot10^{-7}\\cdot4\\pi\\cdot3^2 = 2{,}25\\cdot10^{-5}\\ \\text{W}$$
+
+**(b)** Un nivel igual a la cuarta parte, $\\beta_2 = 53/4 = 13{,}25\\ \\text{dB}$, corresponde a
+$$I_2 = I_0\\,10^{\\beta_2/10} = 10^{-12}\\cdot10^{1{,}325} = 2{,}11\\cdot10^{-11}\\ \\text{W·m}^{-2}$$
+Como $\\dfrac{I_1}{I_2} = \\dfrac{r_2^2}{r_1^2}$:
+$$r_2 = r_1\\sqrt{\\dfrac{I_1}{I_2}} = 3\\sqrt{\\dfrac{1{,}99\\cdot10^{-7}}{2{,}11\\cdot10^{-11}}} \\approx 291\\ \\text{m}$$
+
+## Ejercicio 8
+
+### Enunciado
+
+Un ion de $\\text{He}^+$ se sitúa inicialmente en reposo en una región donde existe un campo eléctrico homogéneo de $10^{3}\\ \\text{V·m}^{-1}$ dirigido según $+x$.
+
+**(a)** Calcule la aceleración que experimenta el ion en el instante inicial.
+
+**(b)** Determine la fuerza total sobre el ion si a los $20\\ \\mu\\text{s}$ de ser depositado se aplica un campo magnético homogéneo de $0{,}6\\ \\text{T}$ según $+y$.
+
+### Solución explicada
+
+**(a)** La masa del ion es $m = 4\\,\\text{u} = 4\\cdot1{,}66\\cdot10^{-27} = 6{,}64\\cdot10^{-27}\\ \\text{kg}$. La fuerza eléctrica es $\\vec{F} = q\\vec{E} = 1{,}6\\cdot10^{-19}\\cdot10^{3}\\,\\vec{\\imath} = 1{,}6\\cdot10^{-16}\\,\\vec{\\imath}\\ \\text{N}$, y
+$$\\vec{a} = \\dfrac{\\vec{F}}{m} = \\dfrac{1{,}6\\cdot10^{-16}}{6{,}64\\cdot10^{-27}}\\,\\vec{\\imath} = 2{,}41\\cdot10^{10}\\,\\vec{\\imath}\\ \\text{m·s}^{-2}$$
+
+**(b)** A los $20\\ \\mu\\text{s}$ la velocidad (movimiento uniformemente acelerado) es
+$$\\vec{v} = \\vec{a}\\,t = 2{,}41\\cdot10^{10}\\cdot20\\cdot10^{-6}\\,\\vec{\\imath} = 4{,}82\\cdot10^{5}\\,\\vec{\\imath}\\ \\text{m·s}^{-1}$$
+La fuerza magnética es
+$$\\vec{F}_B = q\\,(\\vec{v}\\times\\vec{B}) = 1{,}6\\cdot10^{-19}\\,(4{,}82\\cdot10^{5}\\,\\vec{\\imath}\\times0{,}6\\,\\vec{\\jmath}) = 4{,}63\\cdot10^{-14}\\,\\vec{k}\\ \\text{N}$$
+La fuerza total (sumando la eléctrica, que persiste):
+$$\\vec{F}_{\\text{total}} = 1{,}6\\cdot10^{-16}\\,\\vec{\\imath} + 4{,}63\\cdot10^{-14}\\,\\vec{k}\\ \\text{N}$$
+
+## Ejercicio 9
+
+### Enunciado
+
+Un rayo de luz incide sobre la cara izquierda de un prisma equilátero (ángulos de $60^\\circ$) de índice de refracción $1{,}66$.
+
+**(a)** Determine los ángulos $\\alpha$ (refracción en la cara de entrada) y $\\beta$ (refracción en la cara de salida) para un rayo que entra desde el aire con un ángulo de incidencia de $50^\\circ$.
+
+**(b)** Calcule el ángulo de incidencia desde el aire para que el rayo no llegue a emerger por la segunda cara (sufra reflexión total).
+
+### Solución explicada
+
+**(a)** Ley de Snell en la cara de entrada:
+$$n_0\\operatorname{sen}50^\\circ = n\\operatorname{sen}\\alpha \\;\\Rightarrow\\; \\operatorname{sen}\\alpha = \\dfrac{\\operatorname{sen}50^\\circ}{1{,}66} = 0{,}461 \\;\\Rightarrow\\; \\alpha = 27{,}5^\\circ$$
+Por la geometría del prisma, el ángulo de incidencia interno en la segunda cara es $\\gamma = 60^\\circ - \\alpha = 32{,}5^\\circ$. En la cara de salida:
+$$n\\operatorname{sen}\\gamma = n_0\\operatorname{sen}\\beta \\;\\Rightarrow\\; \\operatorname{sen}\\beta = 1{,}66\\cdot\\operatorname{sen}32{,}5^\\circ = 0{,}892 \\;\\Rightarrow\\; \\beta = 63{,}2^\\circ$$
+
+**(b)** El rayo no emerge cuando en la segunda cara se alcanza el ángulo límite, es decir $\\beta = 90^\\circ$:
+$$1{,}66\\operatorname{sen}\\gamma' = n_0\\operatorname{sen}90^\\circ \\;\\Rightarrow\\; \\operatorname{sen}\\gamma' = \\dfrac{1}{1{,}66} = 0{,}602 \\;\\Rightarrow\\; \\gamma' = 37{,}0^\\circ$$
+Entonces el ángulo de refracción en la primera cara es $\\alpha' = 60^\\circ - \\gamma' = 23{,}0^\\circ$, y por Snell en la entrada:
+$$\\operatorname{sen}\\theta_i = 1{,}66\\operatorname{sen}23{,}0^\\circ = 0{,}648 \\;\\Rightarrow\\; \\theta_i \\approx 40{,}4^\\circ$$
+Para ángulos de incidencia menores que $\\approx 40{,}4^\\circ$ el rayo sufre reflexión total en la segunda cara.
+
+## Ejercicio 10
+
+### Enunciado
+
+Para estudiar el efecto fotoeléctrico se ilumina un metal con luz de $379\\ \\text{nm}$ y de $544\\ \\text{nm}$, observándose potenciales de frenado de $2{,}5\\ \\text{V}$ y $1{,}5\\ \\text{V}$, respectivamente.
+
+**(a)** A partir de los potenciales de frenado, obtenga el valor de la constante de Planck.
+
+**(b)** Indique los valores del potencial de frenado y de la intensidad de corriente máxima para la luz de $379\\ \\text{nm}$ si se disminuye a la mitad la intensidad del haz (la corriente máxima con el haz completo era $10\\ \\text{pA}$).
+
+### Solución explicada
+
+**(a)** La ecuación del efecto fotoeléctrico, con $E_{c,\\max} = e\\,V$ (potencial de frenado), es $\\dfrac{hc}{\\lambda} = \\phi + e\\,V$. Escribiéndola para ambas longitudes de onda y restando se elimina el trabajo de extracción $\\phi$:
+$$\\dfrac{hc}{\\lambda_1} - \\dfrac{hc}{\\lambda_2} = e(V_1 - V_2)$$
+$$h = \\dfrac{e(V_1 - V_2)}{c\\left(\\dfrac{1}{\\lambda_1} - \\dfrac{1}{\\lambda_2}\\right)} = \\dfrac{1{,}6\\cdot10^{-19}(2{,}5-1{,}5)}{3\\cdot10^{8}\\left(\\dfrac{1}{379\\cdot10^{-9}}-\\dfrac{1}{544\\cdot10^{-9}}\\right)} = 6{,}66\\cdot10^{-34}\\ \\text{J·s}$$
+
+**(b)** El potencial de frenado depende solo de la frecuencia de la luz y del trabajo de extracción, no de la intensidad del haz; por tanto sigue siendo $V = 2{,}5\\ \\text{V}$. En cambio, el número de fotoelectrones (y la corriente máxima) es proporcional a la intensidad: al reducirla a la mitad, la corriente máxima pasa a $5\\ \\text{pA}$.
+`,Pe=`---
+title: Física · PAU 2024 · Modelo A · Andalucía — examen resuelto
+seoTitle: PAU Física Andalucía 2024 · Modelo A resuelta paso a paso
+date: 2024-06-01
+updated: 2026-11-05
+description: Examen de Física de Andalucía 2024 · Modelo A resuelto paso a paso para 2.º de Bachillerato.
+tag: Física PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+**(a)** Razone si son verdaderas: i) El trabajo total de las fuerzas no conservativas es igual a la variación de la energía mecánica. ii) Siempre que actúen fuerzas no conservativas la energía mecánica varía.
+
+**(b)** Un bloque de $150\\ \\text{kg}$ desliza por una superficie horizontal con rozamiento, con velocidad inicial $3\\ \\text{m·s}^{-1}$ hacia la derecha. Sobre él actúa una fuerza de $20\\ \\text{N}$ dirigida hacia la izquierda y formando $30^\\circ$ sobre la horizontal; recorre $25\\ \\text{m}$ hasta detenerse. i) Esquema de fuerzas. ii) Variaciones de energía cinética, potencial y mecánica. iii) Trabajo de cada fuerza.
+
+
+### Esquema para el apartado gráfico
+
+![Diagrama de cuerpo libre con las fuerzas que actúan sobre el bloque](/assets/latex/pau-fisica-forces.svg)
+### Solución explicada
+
+**(a)** i) **Verdadera**: $W_{\\text{no cons}}=\\Delta E_m$ (el trabajo de las fuerzas no conservativas iguala la variación de energía mecánica). ii) **Falsa**: una fuerza no conservativa perpendicular al desplazamiento (p. ej. la normal) no realiza trabajo y no cambia $E_m$.
+
+**(b)** El movimiento es horizontal, luego $\\Delta E_p=0$.
+
+ii) Variación de energía cinética (parte de $3\\ \\text{m·s}^{-1}$ y se detiene):
+$$\\Delta E_c=0-\\dfrac12(150)(3)^2=-675\\ \\text{J};\\qquad \\Delta E_p=0;\\qquad \\Delta E_m=\\Delta E_c=-675\\ \\text{J}$$
+
+iii) Trabajos:
+- Peso y normal: perpendiculares al desplazamiento $\\Rightarrow W=0$.
+- Fuerza aplicada de $20\\ \\text{N}$ (componente horizontal $20\\cos30^\\circ$ opuesta al movimiento):
+$$W_F=-20\\cos30^\\circ\\cdot25=-433\\ \\text{J}$$
+- Rozamiento: por el teorema de la energía cinética $W_{\\text{total}}=\\Delta E_c$:
+$$W_{roz}=\\Delta E_c-W_F=-675-(-433)=-242\\ \\text{J}$$
+
+## Ejercicio 2
+
+### Enunciado
+
+**(a)** i) Deduzca la velocidad de escape desde la superficie de un planeta. ii) La masa y el radio de la Tierra son $81$ y $3{,}67$ veces los de la Luna. ¿Qué relación hay entre las velocidades de escape de la Tierra y de la Luna?
+
+**(b)** Se quiere un satélite estacionario alrededor de Júpiter (mismo periodo que el planeta). Un día en Júpiter es $0{,}41$ días terrestres y $M_J=318\\,M_T$. Determine: i) el radio orbital alrededor de Júpiter; ii) la relación entre los radios orbitales de satélites estacionarios de la Tierra y de Júpiter.
+
+### Solución explicada
+
+**(a)** i) Por conservación de energía, escapar significa llegar al infinito con velocidad nula: $\\dfrac12 m v_e^2-\\dfrac{GMm}{R}=0$, de donde
+$$v_e=\\sqrt{\\dfrac{2GM}{R}}$$
+ii) Como $v_e\\propto\\sqrt{M/R}$:
+$$\\dfrac{v_{e,T}}{v_{e,L}}=\\sqrt{\\dfrac{M_T/R_T}{M_L/R_L}}=\\sqrt{\\dfrac{81}{3{,}67}}=4{,}70$$
+
+**(b)** i) Satélite estacionario: $T=T_J=0{,}41\\cdot24\\cdot3600=35\\,424\\ \\text{s}$. De la 3ª ley de Kepler $T^2=\\dfrac{4\\pi^2}{GM_J}r^3$:
+$$r=\\left(\\dfrac{GM_J T^2}{4\\pi^2}\\right)^{1/3}=\\left(\\dfrac{6{,}67\\cdot10^{-11}\\cdot1{,}9\\cdot10^{27}\\cdot(35\\,424)^2}{4\\pi^2}\\right)^{1/3}=1{,}59\\cdot10^{8}\\ \\text{m}$$
+ii) Como $r\\propto(M T^2)^{1/3}$:
+$$\\dfrac{r_J}{r_T}=\\left(\\dfrac{M_J T_J^2}{M_T T_T^2}\\right)^{1/3}=\\left(318\\cdot0{,}41^2\\right)^{1/3}=3{,}77$$
+
+## Ejercicio 3
+
+### Enunciado
+
+**(a)** Razone: i) ¿Puede ser nulo el flujo magnético a través de una espira en una región con campo magnético? ii) Si la f.e.m. inducida es nula en un instante, ¿implica que no hay flujo en ese instante?
+
+**(b)** Una bobina de $100$ espiras circulares de radio $5\\ \\text{cm}$ está en un campo uniforme dirigido según su eje, de módulo $B(t)=0{,}1-0{,}1t^2$ (SI). Determine: i) el flujo en $t=2\\ \\text{s}$; ii) la f.e.m. inducida en $t=2\\ \\text{s}$; iii) el instante en que la f.e.m. es nula.
+
+### Solución explicada
+
+**(a)** i) **Sí**: si el campo es paralelo al plano de la espira, $\\vec B\\perp\\vec S$ y $\\Phi=\\vec B\\cdot\\vec S=0$ aunque exista campo. ii) **No**: la f.e.m. depende de la **variación** del flujo ($\\varepsilon=-d\\Phi/dt$); puede ser nula justo cuando el flujo es máximo o mínimo, momento en que el flujo no es nulo.
+
+**(b)** Área de una espira: $A=\\pi R^2=\\pi(0{,}05)^2=7{,}85\\cdot10^{-3}\\ \\text{m}^2$.
+
+i) Flujo total ($N$ espiras), con $B(2)=0{,}1-0{,}1\\cdot4=-0{,}3\\ \\text{T}$:
+$$\\Phi=N B A=100\\cdot(-0{,}3)\\cdot7{,}85\\cdot10^{-3}=-0{,}236\\ \\text{Wb}$$
+
+ii) f.e.m.: $\\varepsilon=-N A\\dfrac{dB}{dt}$, con $\\dfrac{dB}{dt}=-0{,}2t$. En $t=2\\ \\text{s}$:
+$$\\varepsilon=-100\\cdot7{,}85\\cdot10^{-3}\\cdot(-0{,}2\\cdot2)=0{,}314\\ \\text{V}$$
+
+iii) $\\varepsilon=0$ cuando $\\dfrac{dB}{dt}=-0{,}2t=0\\Rightarrow t=0\\ \\text{s}$.
+
+## Ejercicio 4
+
+### Enunciado
+
+**(a)** Explique qué es una superficie equipotencial y qué forma tienen las del campo de una carga puntual. Razone el trabajo de la fuerza eléctrica sobre una carga que se mueve por una equipotencial.
+
+**(b)** Dos cargas iguales de $-1{,}2\\cdot10^{-6}\\ \\text{C}$ están en $A(0,8)\\ \\text{m}$ y $B(6,0)\\ \\text{m}$. Una tercera carga de $-1{,}5\\cdot10^{-6}\\ \\text{C}$ está en $P(3,4)\\ \\text{m}$. Calcule: i) la fuerza eléctrica total sobre la carga en $P$ (con esquema); ii) el trabajo del campo para traer la tercera carga desde el infinito hasta $P$.
+
+
+### Esquema para el apartado gráfico
+
+![Esquema de líneas de campo eléctrico y de campo magnético alrededor de un conductor](/assets/latex/pau-fisica-fields.svg)
+### Solución explicada
+
+**(a)** Una **superficie equipotencial** es el lugar geométrico de puntos con el mismo potencial. Para una carga puntual son **esferas concéntricas** centradas en la carga. El trabajo de la fuerza eléctrica sobre una carga que se mueve por una equipotencial es **nulo**, porque $W=q(V_i-V_f)=0$ si $V_i=V_f$ (la fuerza es perpendicular al desplazamiento).
+
+**(b)** Las distancias $A\\!\\to\\!P$ y $B\\!\\to\\!P$ son iguales: $\\sqrt{3^2+4^2}=5\\ \\text{m}$.
+
+i) Cada carga ejerce (ambas negativas, como $q_P$: repulsión):
+$$F=\\dfrac{K|q_A q_P|}{r^2}=\\dfrac{9\\cdot10^{9}\\cdot1{,}2\\cdot10^{-6}\\cdot1{,}5\\cdot10^{-6}}{5^2}=6{,}48\\cdot10^{-4}\\ \\text{N}$$
+$\\vec F_A$ va de $A$ a $P$: dirección $(3,-4)/5$; $\\vec F_B$ va de $B$ a $P$: dirección $(-3,4)/5$. Al sumar:
+$$\\vec F_{\\text{total}}=\\vec F_A+\\vec F_B=\\vec 0$$
+Las componentes se cancelan por simetría: la fuerza total sobre $P$ es nula.
+
+ii) Potencial en $P$ creado por $q_A$ y $q_B$:
+$$V_P=2\\cdot\\dfrac{K q_A}{5}=2\\cdot\\dfrac{9\\cdot10^{9}\\cdot(-1{,}2\\cdot10^{-6})}{5}=-4320\\ \\text{V}$$
+Trabajo del campo al traer $q_P$ desde el infinito:
+$$W=q_P(V_\\infty-V_P)=(-1{,}5\\cdot10^{-6})(0-(-4320))=-6{,}48\\cdot10^{-3}\\ \\text{J}$$
+
+## Ejercicio 5
+
+### Enunciado
+
+**(a)** Demuestre, a partir de la ecuación de onda, cómo varían la velocidad y la aceleración máximas de oscilación: i) si se duplica la amplitud sin cambiar el periodo; ii) si se duplica la frecuencia sin cambiar la amplitud.
+
+**(b)** En una cuerda se propaga $y(x,t)=0{,}2\\cos(0{,}2x+0{,}25t+\\varphi)$ (SI). Calcule: i) la frecuencia y la longitud de onda; ii) la velocidad de propagación, con dirección y sentido; iii) la velocidad máxima de oscilación.
+
+### Solución explicada
+
+**(a)** Velocidad de oscilación máxima $v_{\\max}=A\\omega$; aceleración máxima $a_{\\max}=A\\omega^2$.
+
+i) Si $A\\to2A$ con $T$ (y $\\omega$) constante: $v_{\\max}$ se **duplica** y $a_{\\max}$ se **duplica**.
+
+ii) Si $f\\to2f$ (es decir $\\omega\\to2\\omega$) con $A$ constante: $v_{\\max}=A\\omega$ se **duplica**, y $a_{\\max}=A\\omega^2$ se **cuadruplica**.
+
+**(b)** i) $\\omega=0{,}25\\ \\text{rad·s}^{-1}\\Rightarrow f=\\dfrac{\\omega}{2\\pi}=0{,}040\\ \\text{Hz}$. $k=0{,}2\\ \\text{rad·m}^{-1}\\Rightarrow \\lambda=\\dfrac{2\\pi}{k}=31{,}4\\ \\text{m}$.
+
+ii) $v=\\dfrac{\\omega}{k}=\\dfrac{0{,}25}{0{,}2}=1{,}25\\ \\text{m·s}^{-1}$. Como $x$ y $t$ aparecen con el **mismo** signo ($0{,}2x+0{,}25t$), la onda se propaga en el **sentido negativo** del eje $x$.
+
+iii) $v_{\\max}=A\\omega=0{,}2\\cdot0{,}25=0{,}05\\ \\text{m·s}^{-1}$.
+
+## Ejercicio 6
+
+### Enunciado
+
+**(a)** Un rayo monocromático duplica su longitud de onda al pasar del medio 1 al 2. i) Determine la relación entre los índices de refracción. ii) ¿El rayo se acerca o se aleja de la normal? ¿Puede haber reflexión total?
+
+**(b)** Sobre una lámina planoparalela rodeada de aire incide un rayo con $80^\\circ$ respecto a la normal. En la lámina su longitud de onda es $3\\lambda_0/4$ ($\\lambda_0$ en el aire). i) Índice de refracción de la lámina. ii) Ángulo de refracción en la lámina (con esquema). iii) Espesor de la lámina si el rayo tarda $5{,}28\\cdot10^{-10}\\ \\text{s}$ en atravesarla.
+
+
+### Esquema para el apartado gráfico
+
+![Trazado de rayos para una lente divergente y un espejo cóncavo](/assets/latex/pau-fisica-optics.svg)
+### Solución explicada
+
+**(a)** i) Como $n=c/v$ y $v=\\lambda f$ (misma $f$), $\\dfrac{n_1}{n_2}=\\dfrac{\\lambda_2}{\\lambda_1}=2$, es decir $n_1=2n_2$. ii) Al pasar a un medio de **menor índice** ($n_2<n_1$) el rayo se **aleja de la normal**; además puede darse **reflexión total** si el ángulo supera el ángulo límite.
+
+**(b)** i) Como la frecuencia no cambia, $n_{\\text{lámina}}=\\dfrac{\\lambda_0}{\\lambda_{\\text{lámina}}}=\\dfrac{\\lambda_0}{3\\lambda_0/4}=\\dfrac{4}{3}=1{,}33$.
+
+ii) Ley de Snell $n_{\\text{aire}}\\sin80^\\circ=n_{\\text{lámina}}\\sin\\theta_r$:
+$$\\sin\\theta_r=\\dfrac{\\sin80^\\circ}{4/3}=0{,}739\\ \\Rightarrow\\ \\theta_r=47{,}6^\\circ$$
+
+iii) La velocidad en la lámina es $v=\\dfrac{c}{n}=\\dfrac{3\\cdot10^{8}}{4/3}=2{,}25\\cdot10^{8}\\ \\text{m·s}^{-1}$. El camino recorrido dentro es $L=v t=2{,}25\\cdot10^{8}\\cdot5{,}28\\cdot10^{-10}=0{,}119\\ \\text{m}$. El espesor (perpendicular) es:
+$$d=L\\cos\\theta_r=0{,}119\\cdot\\cos47{,}6^\\circ=0{,}080\\ \\text{m}=8{,}0\\ \\text{cm}$$
+
+## Ejercicio 7
+
+### Enunciado
+
+**(a)** Justifique cuál de estas reacciones NO produce los productos indicados: i) $^{14}_{7}\\text{N}+n\\rightarrow\\,^{14}_{6}\\text{C}+p$; ii) $^{28}_{14}\\text{Si}+\\alpha\\rightarrow\\,^{29}_{15}\\text{P}+n$.
+
+**(b)** i) Determine $c$ y $Z$ en: $^{235}_{92}\\text{U}+^{1}_{0}n\\rightarrow\\,^{145}_{Z}\\text{La}+^{88}_{35}\\text{Br}+c\\,^{1}_{0}n$. ii) Calcule la energía liberada al fisionarse un millón de núcleos.
+
+### Solución explicada
+
+**(a)** Deben conservarse el número másico $A$ y el atómico $Z$.
+- i) $A$: $14+1=15=14+1$ ✓; $Z$: $7+0=7=6+1$ ✓. **Posible.**
+- ii) $A$: $28+4=32$, pero productos $29+1=30$; no se conserva ($Z$ tampoco: $16\\neq15$). **No produce** esos productos.
+
+**(b)** i) Conservación de $A$: $235+1=145+88+c\\Rightarrow c=3$. Conservación de $Z$: $92=Z+35\\Rightarrow Z=57$ ($^{145}_{57}\\text{La}$).
+
+ii) Defecto de masa por fisión (con $c=3$, hay $2$ neutrones netos de más en los productos):
+$$\\Delta m=m(^{235}\\text{U})+m_n-m(^{145}\\text{La})-m(^{88}\\text{Br})-3m_n$$
+$$\\Delta m=235{,}043930-144{,}921651-87{,}924074-2\\cdot1{,}008665=0{,}18088\\ \\text{u}$$
+Energía por fisión: $E_1=\\Delta m\\cdot1{,}66\\cdot10^{-27}\\cdot(3\\cdot10^{8})^2=2{,}70\\cdot10^{-11}\\ \\text{J}$.
+Para un millón ($10^{6}$) de núcleos:
+$$E=10^{6}\\cdot2{,}70\\cdot10^{-11}=2{,}70\\cdot10^{-5}\\ \\text{J}$$
+
+## Ejercicio 8
+
+### Enunciado
+
+**(a)** Dos partículas tienen la misma energía cinética. Deduzca la relación entre sus longitudes de onda de De Broglie si la masa de la primera es un tercio de la de la segunda.
+
+**(b)** Un protón se mueve a $3{,}8\\cdot10^{3}\\ \\text{m·s}^{-1}$. Determine: i) su longitud de onda de De Broglie; ii) la energía cinética de un electrón con el mismo momento lineal que el protón; iii) la velocidad de ese electrón.
+
+### Solución explicada
+
+**(a)** $\\lambda=\\dfrac{h}{p}=\\dfrac{h}{\\sqrt{2mE_c}}$. Con la misma $E_c$ y $m_1=\\dfrac{m_2}{3}$:
+$$\\dfrac{\\lambda_1}{\\lambda_2}=\\sqrt{\\dfrac{m_2}{m_1}}=\\sqrt{3}\\ \\Rightarrow\\ \\lambda_1=\\sqrt3\\,\\lambda_2$$
+La partícula más ligera tiene mayor longitud de onda.
+
+**(b)** i) $\\lambda_p=\\dfrac{h}{m_p v_p}=\\dfrac{6{,}63\\cdot10^{-34}}{1{,}67\\cdot10^{-27}\\cdot3{,}8\\cdot10^{3}}=1{,}04\\cdot10^{-10}\\ \\text{m}$.
+
+ii) Mismo momento $p=m_p v_p=6{,}35\\cdot10^{-24}\\ \\text{kg·m·s}^{-1}$. Para el electrón:
+$$E_c=\\dfrac{p^2}{2m_e}=\\dfrac{(6{,}35\\cdot10^{-24})^2}{2\\cdot9{,}1\\cdot10^{-31}}=2{,}21\\cdot10^{-17}\\ \\text{J}$$
+
+iii) $v_e=\\dfrac{p}{m_e}=\\dfrac{6{,}35\\cdot10^{-24}}{9{,}1\\cdot10^{-31}}=6{,}97\\cdot10^{6}\\ \\text{m·s}^{-1}$.
+`,Ae=`---
+title: Física · PAU 2024 · Modelo B · Andalucía — examen resuelto
+seoTitle: PAU Física Andalucía 2024 · Modelo B resuelta paso a paso
+date: 2024-06-01
+updated: 2026-11-05
+description: Examen de Física de Andalucía 2024 · Modelo B resuelto paso a paso para 2.º de Bachillerato.
+tag: Física PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+**(a)** La galaxia Andrómeda tiene una masa $1{,}5$ veces la de la Vía Láctea; a escala galáctica se tratan como masas puntuales. (i) Justifique si existe un punto entre ambas donde se anule el campo gravitatorio y, en su caso, la relación entre las distancias de ese punto a cada galaxia. (ii) ¿Se anula el potencial gravitatorio en algún punto entre ambas?
+
+**(b)** Se sitúa una masa de $3\\ \\text{kg}$ en $A(0,-2)\\ \\text{m}$ y otra de $2\\ \\text{kg}$ en $B(3,0)\\ \\text{m}$. Calcule en el origen: (i) el campo gravitatorio; (ii) el potencial gravitatorio.
+
+### Solución explicada
+
+**(a)(i)** El campo se anula donde los módulos se igualan. Si $d_1$ es la distancia a la Vía Láctea (masa $M$) y $d_2$ a Andrómeda (masa $1{,}5M$):
+$$\\dfrac{G M}{d_1^2} = \\dfrac{G\\,(1{,}5M)}{d_2^2} \\;\\Rightarrow\\; \\dfrac{d_1}{d_2} = \\sqrt{\\dfrac{1}{1{,}5}} = 0{,}816$$
+Sí existe, más cerca de la galaxia menos masiva (la Vía Láctea).
+
+**(a)(ii)** El potencial gravitatorio es siempre negativo (suma de términos $-GM/d$); entre las dos masas nunca se anula (solo en el infinito).
+
+**(b)** Distancias al origen: $r_A = 2\\ \\text{m}$ (según $-y$ desde $A$) y $r_B = 3\\ \\text{m}$ (según $+x$ desde $B$). Cada campo apunta hacia su masa.
+$$\\vec{g}_A = \\dfrac{G\\,3}{2^2}\\,(0,-1) = (0,\\,-5{,}00\\cdot10^{-11})\\ \\text{N·kg}^{-1}$$
+$$\\vec{g}_B = \\dfrac{G\\,2}{3^2}\\,(1,0) = (1{,}48\\cdot10^{-11},\\,0)\\ \\text{N·kg}^{-1}$$
+$$\\vec{g} = (1{,}48\\cdot10^{-11},\\,-5{,}00\\cdot10^{-11})\\ \\text{N·kg}^{-1}, \\quad |\\vec{g}| = 5{,}22\\cdot10^{-11}\\ \\text{N·kg}^{-1}$$
+Potencial (escalar):
+$$V = -G\\left(\\dfrac{3}{2} + \\dfrac{2}{3}\\right) = -6{,}67\\cdot10^{-11}\\cdot2{,}167 = -1{,}45\\cdot10^{-10}\\ \\text{J·kg}^{-1}$$
+
+## Ejercicio 2
+
+### Enunciado
+
+**(a)** Razone si son verdaderos: (i) Si sobre una partícula solo actúan fuerzas conservativas, su energía mecánica aumenta. (ii) Si solo actúa el rozamiento (opuesto al desplazamiento), la energía mecánica aumenta.
+
+**(b)** Una masa de $5\\ \\text{kg}$ se lanza hacia abajo por un plano inclinado sin rozamiento de $15^\\circ$ con velocidad inicial $3\\ \\text{m·s}^{-1}$. Tras recorrer $2\\ \\text{m}$ por el plano llega a una superficie horizontal con rozamiento; tras recorrer $2\\ \\text{m}$ sobre ella su velocidad es $1\\ \\text{m·s}^{-1}$. (i) Dibuje las fuerzas en cada tramo. (ii) Calcule el trabajo del rozamiento en el tramo horizontal. (iii) Calcule el coeficiente de rozamiento en el tramo horizontal.
+
+
+### Esquema para el apartado gráfico
+
+![Diagrama de cuerpo libre con las fuerzas que actúan sobre el bloque](/assets/latex/pau-fisica-forces.svg)
+### Solución explicada
+
+**(a)** (i) FALSO: con solo fuerzas conservativas la energía mecánica se CONSERVA (constante), no aumenta. (ii) FALSO: el rozamiento opuesto al movimiento realiza trabajo negativo, por lo que la energía mecánica DISMINUYE.
+
+**(b)(i)** En el plano: peso $m\\vec{g}$ (descompuesto), normal $\\vec{N}$ (no hay rozamiento). En la horizontal: peso, normal y fuerza de rozamiento $\\vec{F}_r$ opuesta al movimiento.
+
+**(b)(ii)** En el plano (sin rozamiento) la velocidad al final, por conservación de energía (desciende $h = 2\\operatorname{sen}15^\\circ$):
+$$v_1^2 = v_0^2 + 2g\\,(2\\operatorname{sen}15^\\circ) = 3^2 + 2\\cdot9{,}8\\cdot2\\cdot0{,}259 = 19{,}1 \\;\\Rightarrow\\; v_1 = 4{,}38\\ \\text{m·s}^{-1}$$
+En la horizontal, el trabajo del rozamiento es la variación de energía cinética:
+$$W_r = \\tfrac12 m v_f^2 - \\tfrac12 m v_1^2 = \\tfrac12\\cdot5\\,(1^2 - 19{,}1) = -45{,}4\\ \\text{J}$$
+
+**(b)(iii)** El rozamiento vale $F_r = \\mu\\,m g$ y $W_r = -F_r\\,d$:
+$$\\mu = \\dfrac{|W_r|}{m g\\,d} = \\dfrac{45{,}4}{5\\cdot9{,}8\\cdot2} = 0{,}46$$
+
+## Ejercicio 3
+
+### Enunciado
+
+**(a)** Razone la veracidad: (i) En una espira de radio $R$ con su plano perpendicular a un campo $B(t) = a t + b$ se induce una f.e.m. constante. (ii) Al situar una espira en reposo en un campo magnético variable con el tiempo siempre se induce f.e.m.
+
+**(b)** Una espira circular de $20\\ \\text{cm}$ de radio está en el plano $XY$ con un campo $B(t) = 3t^2 - 2t$ (S.I.) en sentido $-OZ$. (i) Obtenga el flujo magnético $\\Phi(t)$. (ii) Calcule la f.e.m. inducida en $t = 2\\ \\text{s}$. (iii) Razone el sentido de la corriente.
+
+### Solución explicada
+
+**(a)(i)** VERDADERO: con $B(t)=at+b$, $\\Phi=B\\,S=(at+b)S$ y $\\varepsilon=-\\dfrac{\\mathrm{d}\\Phi}{\\mathrm{d}t}=-a\\,S$, que es constante.
+
+**(a)(ii)** VERDADERO en general, siempre que la espira abarque flujo del campo (plano no paralelo al campo): un $B$ variable produce flujo variable y, por Faraday, f.e.m. inducida.
+
+**(b)(i)** Área $S = \\pi R^2 = \\pi(0{,}20)^2 = 0{,}1257\\ \\text{m}^2$. El flujo (en módulo):
+$$\\Phi(t) = B(t)\\,S = (3t^2 - 2t)\\cdot0{,}1257\\ \\text{Wb}$$
+
+**(b)(ii)** F.e.m. inducida:
+$$\\varepsilon = -\\dfrac{\\mathrm{d}\\Phi}{\\mathrm{d}t} = -S\\,(6t - 2)$$
+En $t = 2\\ \\text{s}$:
+$$\\varepsilon = -0{,}1257\\,(6\\cdot2 - 2) = -0{,}1257\\cdot10 = -1{,}26\\ \\text{V} \\;\\Rightarrow\\; |\\varepsilon| = 1{,}26\\ \\text{V}$$
+
+**(b)(iii)** En $t=2\\ \\text{s}$ el campo (en $-OZ$) crece en módulo ($\\mathrm{d}B/\\mathrm{d}t=6t-2=10>0$), luego el flujo entrante aumenta; por la ley de Lenz la corriente inducida circula de modo que se opone a ese aumento, creando un campo en $+OZ$ dentro de la espira (sentido antihorario visto desde $+Z$).
+
+## Ejercicio 4
+
+### Enunciado
+
+**(a)** Un electrón se mueve en línea recta y penetra en una región con un campo eléctrico y otro magnético perpendiculares entre sí. Explique la relación entre los campos y la velocidad para que la trayectoria siga siendo rectilínea.
+
+**(b)** Por dos conductores rectilíneos muy largos, paralelos y separados $2\\ \\text{m}$, circulan corrientes de $1\\ \\text{A}$ y $3\\ \\text{A}$. Determine a qué distancia del primer hilo se anula el campo magnético: (i) si las corrientes van en el mismo sentido; (ii) si van en sentidos opuestos.
+
+### Solución explicada
+
+**(a)** Para que el electrón siga recto, la fuerza de Lorentz total debe anularse: la fuerza eléctrica $q\\vec{E}$ y la magnética $q\\vec{v}\\times\\vec{B}$ han de ser iguales y opuestas. En módulo:
+$$|q|E = |q|\\,v\\,B \\;\\Rightarrow\\; v = \\dfrac{E}{B}$$
+(con $\\vec{E}\\perp\\vec{B}$ y $\\vec{v}\\perp$ a ambos). Es el fundamento del selector de velocidades.
+
+**(b)** El campo de cada hilo es $B = \\dfrac{\\mu_0 I}{2\\pi r}$. Se anula donde $\\dfrac{I_1}{r_1} = \\dfrac{I_2}{r_2}$, con $r_1+r_2=2$ (entre los hilos) o $r_2 = r_1 + 2$ (fuera).
+
+(i) **Mismo sentido:** los campos se oponen ENTRE los hilos. Sea $x$ la distancia al hilo de $1\\ \\text{A}$:
+$$\\dfrac{1}{x} = \\dfrac{3}{2-x} \\;\\Rightarrow\\; 2 - x = 3x \\;\\Rightarrow\\; x = 0{,}5\\ \\text{m}$$
+
+(ii) **Sentidos opuestos:** los campos se oponen FUERA, en el lado del hilo de menor corriente. Con $r_2 = x+2$:
+$$\\dfrac{1}{x} = \\dfrac{3}{x+2} \\;\\Rightarrow\\; x + 2 = 3x \\;\\Rightarrow\\; x = 1\\ \\text{m}$$
+(a $1\\ \\text{m}$ del hilo de $1\\ \\text{A}$, en el lado opuesto al otro hilo).
+
+## Ejercicio 5
+
+### Enunciado
+
+**(a)** Construya la imagen formada en un espejo cóncavo para un objeto situado a una distancia mayor que su radio de curvatura, explicando el trazado de rayos, e indique las características de la imagen.
+
+**(b)** Un objeto de $4\\ \\text{cm}$ se sitúa a $36\\ \\text{cm}$ de una lente delgada convergente de distancia focal $12\\ \\text{cm}$. (i) Calcule la posición y el tamaño de la imagen, indicando el criterio de signos. (ii) Realice el trazado de rayos e indique las características de la imagen.
+
+
+### Esquema para el apartado gráfico
+
+![Trazado de rayos para una lente divergente y un espejo cóncavo](/assets/latex/pau-fisica-optics.svg)
+### Solución explicada
+
+**(a)** Para un objeto más allá del centro de curvatura $C$ ($|s|>R=2f$): el rayo paralelo al eje se refleja pasando por el foco $F$; el rayo que pasa por $C$ vuelve sobre sí mismo. Su intersección da una imagen REAL, INVERTIDA y REDUCIDA, situada entre el foco $F$ y el centro $C$.
+
+**(b)(i)** Criterio de signos: la luz viaja de izquierda a derecha; distancias positivas a la derecha de la lente. Objeto real: $s=-36\\ \\text{cm}$; lente convergente: $f'=+12\\ \\text{cm}$.
+$$\\dfrac{1}{s'} - \\dfrac{1}{s} = \\dfrac{1}{f'} \\;\\Rightarrow\\; \\dfrac{1}{s'} = \\dfrac{1}{12} + \\dfrac{1}{-36} = \\dfrac{2}{36} \\;\\Rightarrow\\; s' = 18\\ \\text{cm}$$
+Aumento y tamaño:
+$$m = \\dfrac{s'}{s} = \\dfrac{18}{-36} = -0{,}5 \\;\\Rightarrow\\; y' = m\\,y = -0{,}5\\cdot4 = -2\\ \\text{cm}$$
+
+**(b)(ii)** La imagen es REAL ($s'>0$), INVERTIDA ($m<0$) y REDUCIDA ($|m|<1$), a $18\\ \\text{cm}$ a la derecha de la lente.
+
+## Ejercicio 6
+
+### Enunciado
+
+**(a)** Explique las diferencias entre ondas longitudinales y transversales, con un ejemplo de cada tipo.
+
+**(b)** Un oleaje se propaga en el sentido $+OX$. Una boya en $x = 10\\ \\text{m}$ oscila verticalmente con amplitud $0{,}4\\ \\text{m}$ y periodo $2\\ \\text{s}$; la velocidad de propagación es $0{,}5\\ \\text{m·s}^{-1}$. Determine: (i) la longitud de onda; (ii) la ecuación de onda suponiendo que en $t=0$ la boya está en su altura máxima; (iii) la velocidad máxima de oscilación de la boya.
+
+### Solución explicada
+
+**(a)** En una onda LONGITUDINAL la vibración del medio es paralela a la dirección de propagación (ejemplo: sonido en el aire). En una onda TRANSVERSAL la vibración es perpendicular a la propagación (ejemplo: ondas en una cuerda o el oleaje).
+
+**(b)(i)** Longitud de onda:
+$$\\lambda = v\\,T = 0{,}5\\cdot2 = 1\\ \\text{m}$$
+
+**(b)(ii)** Con $\\omega = \\dfrac{2\\pi}{T} = \\pi\\ \\text{rad·s}^{-1}$ y $k = \\dfrac{2\\pi}{\\lambda} = 2\\pi\\ \\text{m}^{-1}$, y máximo en la boya ($x=10\\ \\text{m}$) en $t=0$, se usa coseno con la fase ajustada:
+$$y(x,t) = 0{,}4\\cos\\!\\big[\\pi\\,t - 2\\pi\\,(x - 10)\\big]\\ \\text{m}$$
+(en $x=10$, $t=0$: $y = 0{,}4\\cos 0 = 0{,}4\\ \\text{m}$, máximo).
+
+**(b)(iii)** La velocidad de oscilación es $v_y = \\dfrac{\\partial y}{\\partial t}$, de módulo máximo
+$$v_{y,\\max} = A\\,\\omega = 0{,}4\\cdot\\pi \\approx 1{,}26\\ \\text{m·s}^{-1}$$
+
+## Ejercicio 7
+
+### Enunciado
+
+**(a)** Razone: (i) La energía de los fotoelectrones es la misma que la de los fotones absorbidos. (ii) Al irradiar un metal con luz blanca (con efecto fotoeléctrico en todo el rango), la mayor energía cinética corresponde a los fotoelectrones de la región del rojo.
+
+**(b)** Al iluminar un metal con luz de frecuencia $2{,}5\\cdot10^{15}\\ \\text{Hz}$ el potencial de frenado es $7{,}20\\ \\text{V}$; con luz de longitud de onda $1{,}8\\cdot10^{-7}\\ \\text{m}$ el potencial baja a $3{,}75\\ \\text{V}$. Determine: (i) la constante de Planck; (ii) el trabajo de extracción del metal.
+
+### Solución explicada
+
+**(a)(i)** FALSO: parte de la energía del fotón se invierte en extraer el electrón (trabajo de extracción $\\phi$); la energía cinética máxima es $E_{c,\\max} = h f - \\phi < h f$.
+
+**(a)(ii)** FALSO: la energía cinética máxima crece con la frecuencia. En la luz blanca la mayor frecuencia (y mayor $E_c$) corresponde al VIOLETA, no al rojo.
+
+**(b)(i)** Con $E_{c,\\max}=eV$: $h f = \\phi + eV$. Para las dos luces ($f_2 = c/\\lambda_2 = 1{,}667\\cdot10^{15}\\ \\text{Hz}$) y restando:
+$$h(f_1 - f_2) = e(V_1 - V_2) \\;\\Rightarrow\\; h = \\dfrac{e(V_1 - V_2)}{f_1 - f_2} = \\dfrac{1{,}6\\cdot10^{-19}(7{,}20-3{,}75)}{2{,}5\\cdot10^{15}-1{,}667\\cdot10^{15}}$$
+$$h = 6{,}62\\cdot10^{-34}\\ \\text{J·s}$$
+
+**(b)(ii)** Trabajo de extracción:
+$$\\phi = h f_1 - e V_1 = 6{,}62\\cdot10^{-34}\\cdot2{,}5\\cdot10^{15} - 1{,}6\\cdot10^{-19}\\cdot7{,}20 = 5{,}04\\cdot10^{-19}\\ \\text{J} \\approx 3{,}15\\ \\text{eV}$$
+
+## Ejercicio 8
+
+### Enunciado
+
+**(a)** Explique el concepto de defecto de masa, su expresión matemática y su relación con la estabilidad nuclear.
+
+**(b)** (i) Calcule la energía de enlace por nucleón de los nucleidos $^{3}_{1}\\text{H}$ y $^{3}_{2}\\text{He}$. (ii) Indique razonadamente cuál es más estable.
+
+### Solución explicada
+
+**(a)** El defecto de masa $\\Delta m$ es la diferencia entre la masa de los nucleones por separado y la masa del núcleo: $\\Delta m = (Z\\,m_p + N\\,m_n) - M_{\\text{núcleo}}$. Esa masa "desaparecida" se transforma en la energía de enlace $E_e = \\Delta m\\,c^2$, que mantiene unido el núcleo. Cuanto mayor es la energía de enlace POR NUCLEÓN, más estable es el núcleo.
+
+**(b)(i)** Para $^{3}_{1}\\text{H}$ ($Z=1$, $N=2$):
+$$\\Delta m = 1\\cdot1{,}007276 + 2\\cdot1{,}008665 - 3{,}016049 = 0{,}008557\\ \\text{u}$$
+$$E_e = \\Delta m\\,c^2 = 0{,}008557\\cdot1{,}66\\cdot10^{-27}\\cdot(3\\cdot10^{8})^2 = 1{,}28\\cdot10^{-12}\\ \\text{J}$$
+Por nucleón: $\\dfrac{E_e}{3} = 4{,}26\\cdot10^{-13}\\ \\text{J} \\approx 2{,}66\\ \\text{MeV/nucleón}$.
+
+Para $^{3}_{2}\\text{He}$ ($Z=2$, $N=1$):
+$$\\Delta m = 2\\cdot1{,}007276 + 1\\cdot1{,}008665 - 3{,}016029 = 0{,}007188\\ \\text{u}$$
+$$E_e = 0{,}007188\\cdot1{,}66\\cdot10^{-27}\\cdot(3\\cdot10^{8})^2 = 1{,}07\\cdot10^{-12}\\ \\text{J}$$
+Por nucleón: $\\dfrac{E_e}{3} = 3{,}58\\cdot10^{-13}\\ \\text{J} \\approx 2{,}23\\ \\text{MeV/nucleón}$.
+
+**(b)(ii)** Con los datos del enunciado, $^{3}_{1}\\text{H}$ tiene mayor energía de enlace por nucleón ($2{,}66$ frente a $2{,}23\\ \\text{MeV}$), luego resulta el más estable según este cálculo.
+`,Le=`---
+title: Física · PAU 2024 · Cantabria — examen resuelto
+seoTitle: PAU Física Cantabria 2024 resuelta paso a paso
+date: 2024-06-01
+updated: 2026-11-05
+description: Examen de Física de Cantabria 2024 resuelto paso a paso para 2.º de Bachillerato.
+tag: Física PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+Dos masas $m_1=25\\ \\text{kg}$ y $m_2=50\\ \\text{kg}$ están en los puntos $(1,1)\\ \\text{m}$ y $(-1,0)\\ \\text{m}$ respectivamente.
+
+**(a)** Calcule y represente el vector fuerza gravitatoria que experimenta una masa $m_3=500\\ \\text{g}$ situada en $(1,0)\\ \\text{m}$.
+
+**(b)** Calcule el trabajo del campo gravitatorio de $m_1$ y $m_2$ cuando $m_3$ se desplaza de $(1,0)\\ \\text{m}$ a una posición muy alejada.
+
+**(c)** Razone el significado físico del signo de ese trabajo.
+
+
+### Esquema para el apartado gráfico
+
+![Esquema de líneas de campo eléctrico y de campo magnético alrededor de un conductor](/assets/latex/pau-fisica-fields.svg)
+### Solución explicada
+
+**(a)** Distancias a $m_3$ en $(1,0)$: de $m_1$ en $(1,1)$, $r_1=1\\ \\text{m}$ (hacia $+y$); de $m_2$ en $(-1,0)$, $r_2=2\\ \\text{m}$ (hacia $-x$).
+
+$$F_1=\\dfrac{Gm_1 m_3}{r_1^2}=\\dfrac{6{,}67\\cdot10^{-11}\\cdot25\\cdot0{,}5}{1^2}=8{,}34\\cdot10^{-10}\\ \\text{N}\\ (+y)$$
+
+$$F_2=\\dfrac{Gm_2 m_3}{r_2^2}=\\dfrac{6{,}67\\cdot10^{-11}\\cdot50\\cdot0{,}5}{2^2}=4{,}17\\cdot10^{-10}\\ \\text{N}\\ (-x)$$
+
+$$\\vec{F}=(-4{,}17\\cdot10^{-10}\\,\\vec{i}+8{,}34\\cdot10^{-10}\\,\\vec{j})\\ \\text{N},\\qquad |\\vec{F}|=9{,}32\\cdot10^{-10}\\ \\text{N}$$
+
+**(b)** El trabajo del campo es $W=-\\Delta E_p=E_{p,i}-E_{p,f}$. En el infinito $E_{p,f}=0$:
+
+$$E_{p,i}=-\\dfrac{Gm_1 m_3}{r_1}-\\dfrac{Gm_2 m_3}{r_2}=-8{,}34\\cdot10^{-10}-8{,}34\\cdot10^{-10}=-1{,}67\\cdot10^{-9}\\ \\text{J}$$
+
+$$W=E_{p,i}-0=-1{,}67\\cdot10^{-9}\\ \\text{J}$$
+
+**(c)** El trabajo del campo es **negativo**: la fuerza gravitatoria es atractiva y se opone al alejamiento de $m_3$. Hay que aportar energía externa para llevar $m_3$ al infinito.
+
+## Ejercicio 2
+
+### Enunciado
+
+Una sonda de $1500\\ \\text{kg}$ orbita Saturno en trayectoria circular, con una revolución cada $32\\ \\text{horas}$. Calcule:
+
+**(a)** La velocidad orbital y el radio de la órbita.
+
+**(b)** Las energías cinética, potencial gravitatoria y total.
+
+**(c)** La energía mínima para que la sonda abandone el campo gravitatorio de Saturno.
+
+### Solución explicada
+
+**(a)** De la tercera ley de Kepler, $T^2=\\dfrac{4\\pi^2 r^3}{GM_S}$:
+
+$$r=\\left(\\dfrac{GM_S\\,T^2}{4\\pi^2}\\right)^{1/3}=\\left(\\dfrac{6{,}67\\cdot10^{-11}\\cdot5{,}68\\cdot10^{26}\\cdot(1{,}152\\cdot10^{5})^2}{4\\pi^2}\\right)^{1/3}=2{,}34\\cdot10^{8}\\ \\text{m}$$
+
+$$v=\\dfrac{2\\pi r}{T}=\\sqrt{\\dfrac{GM_S}{r}}=1{,}27\\cdot10^{4}\\ \\text{m/s}$$
+
+**(b)**
+
+$$E_c=\\dfrac12 m v^2=\\dfrac12\\cdot1500\\cdot(1{,}27\\cdot10^{4})^2=1{,}22\\cdot10^{11}\\ \\text{J}$$
+
+$$E_p=-\\dfrac{GM_S m}{r}=-2{,}43\\cdot10^{11}\\ \\text{J}$$
+
+$$E=E_c+E_p=-1{,}22\\cdot10^{11}\\ \\text{J}\\ \\left(=-E_c\\right)$$
+
+**(c)** La energía mínima para escapar es la que lleva la energía total a cero:
+
+$$E_{min}=0-E=+1{,}22\\cdot10^{11}\\ \\text{J}$$
+
+## Ejercicio 3
+
+### Enunciado
+
+Una carga situada en un punto del plano $XY$ genera en el origen un potencial de $-180\\ \\text{V}$ y un campo eléctrico de módulo $60\\ \\text{V/m}$.
+
+**(a)** Calcule el valor de la carga y su distancia al origen.
+
+**(b)** Esa carga ejerce fuerza sobre una segunda carga que se mueve desde el origen hasta el infinito; el trabajo de la fuerza eléctrica es $900\\ \\text{nJ}$. Calcule la segunda carga.
+
+**(c)** Razone la relación entre el signo del trabajo y los signos de ambas cargas.
+
+*(Nota del corrector: el valor del campo se perdió en la digitalización; se reconstruye $|\\vec{E}|=60\\ \\text{V/m}$, coherente con los datos. El apartado b no depende de ese valor.)*
+
+### Solución explicada
+
+**(a)** Para una carga puntual, $V=\\dfrac{Kq}{r}$ y $E=\\dfrac{K|q|}{r^2}$, de modo que $\\dfrac{|V|}{E}=r$:
+
+$$r=\\dfrac{|V|}{E}=\\dfrac{180}{60}=3\\ \\text{m}$$
+
+$$q=\\dfrac{V\\,r}{K}=\\dfrac{-180\\cdot3}{9\\cdot10^{9}}=-6\\cdot10^{-8}\\ \\text{C}=-60\\ \\text{nC}$$
+
+La carga es negativa (coherente con $V<0$), a $3\\ \\text{m}$ del origen.
+
+**(b)** El trabajo de la fuerza eléctrica al llevar $q_2$ del origen al infinito ($V_\\infty=0$):
+
+$$W=q_2\\,(V_{origen}-V_\\infty)=q_2\\cdot(-180)\\Rightarrow q_2=\\dfrac{900\\cdot10^{-9}}{-180}=-5\\cdot10^{-9}\\ \\text{C}=-5\\ \\text{nC}$$
+
+**(c)** Ambas cargas son **negativas**: se repelen. Al alejarse $q_2$ hacia el infinito, la fuerza eléctrica actúa a favor del desplazamiento, por eso el trabajo es **positivo**. (Si tuvieran signos opuestos, se atraerían y el trabajo sería negativo.)
+
+## Ejercicio 4
+
+### Enunciado
+
+Dos hilos conductores rectilíneos, paralelos e infinitos, están en el plano $XY$; uno sobre el eje $OX$ con $I_1=200\\ \\text{mA}$ (sentido $+x$) y el segundo paralelo a $20\\ \\text{cm}$.
+
+**(a)** Intensidad (valor y sentido) del segundo hilo para anular el campo en el punto $A$ (equidistante, a $10\\ \\text{cm}$ de cada hilo).
+
+**(b)** Intensidad para anular el campo en el punto $B$ (fuera, a $10\\ \\text{cm}$ del primer hilo por el lado opuesto al segundo).
+
+**(c)** Si $I_2=I_1$ pero de sentido opuesto, campo magnético resultante en el punto $C$, equidistante de ambos.
+
+*(Nota del corrector: las posiciones exactas de $A$, $B$ y $C$ de la figura no se conservaron; se reconstruyen de forma coherente con el enunciado.)*
+
+### Solución explicada
+
+El módulo del campo de un hilo recto a distancia $d$ es $B=\\dfrac{\\mu_0 I}{2\\pi d}$.
+
+**(a)** En $A$ (punto medio, $d_1=d_2=0{,}10\\ \\text{m}$), para dos hilos **paralelos con corrientes del mismo sentido** los campos en el punto medio son opuestos. Se anulan si son de igual módulo:
+
+$$\\dfrac{\\mu_0 I_1}{2\\pi d_1}=\\dfrac{\\mu_0 I_2}{2\\pi d_2}\\Rightarrow I_2=I_1=200\\ \\text{mA}\\ (\\text{mismo sentido},\\ +x)$$
+
+**(b)** En $B$ (fuera de ambos, a $0{,}10\\ \\text{m}$ del hilo 1 y a $0{,}30\\ \\text{m}$ del hilo 2). Fuera, los campos se anulan si las corrientes son de **sentidos opuestos** y:
+
+$$\\dfrac{I_1}{0{,}10}=\\dfrac{I_2}{0{,}30}\\Rightarrow I_2=3I_1=600\\ \\text{mA}\\ (\\text{sentido opuesto},\\ -x)$$
+
+**(c)** En $C$ (punto medio, $0{,}10\\ \\text{m}$ de cada hilo) con $I_2=I_1$ de **sentido opuesto**, los campos se suman:
+
+$$B_C=2\\cdot\\dfrac{\\mu_0 I_1}{2\\pi d}=2\\cdot\\dfrac{2\\cdot10^{-7}\\cdot0{,}2}{0{,}10}=8\\cdot10^{-7}\\ \\text{T}$$
+
+perpendicular al plano que contiene los hilos (dirección $\\pm\\vec{k}$ según los sentidos).
+
+## Ejercicio 5
+
+### Enunciado
+
+Una onda armónica transversal viaja por una cuerda hacia $-x$. Dos puntos $A$ ($x_A=0\\ \\text{m}$) y $B$ ($x_B=0{,}6\\ \\text{m}$) oscilan en fase y cortan el eje cada $0{,}06\\ \\text{s}$; ningún otro punto entre ellos está en fase. Inicialmente $A$ y $B$ tienen elongación $+0{,}005\\ \\text{m}$ y velocidad nula.
+
+**(a)** Escriba la ecuación de la onda.
+
+**(b)** Calcule la velocidad de propagación.
+
+**(c)** Determine la velocidad transversal del punto $x=0{,}3\\ \\text{m}$ en función del tiempo.
+
+### Solución explicada
+
+Pasar por el eje cada $0{,}06\\ \\text{s}$ es medio periodo: $T=0{,}12\\ \\text{s}$. Al ser $A$ y $B$ los puntos en fase consecutivos, $\\lambda=0{,}6\\ \\text{m}$.
+
+$$\\omega=\\dfrac{2\\pi}{T}=\\dfrac{2\\pi}{0{,}12}=52{,}4\\ \\text{rad/s},\\qquad k=\\dfrac{2\\pi}{\\lambda}=\\dfrac{2\\pi}{0{,}6}=10{,}5\\ \\text{rad/m}$$
+
+**(a)** Onda hacia $-x$ con elongación máxima en $t=0$ (coseno, $\\varphi_0=0$):
+
+$$y(x,t)=0{,}005\\,\\cos\\!\\left(52{,}4\\,t+10{,}5\\,x\\right)\\ \\text{(SI)}$$
+
+**(b)** $v=\\dfrac{\\lambda}{T}=\\dfrac{0{,}6}{0{,}12}=5\\ \\text{m/s}$ (en sentido $-x$).
+
+**(c)** La velocidad transversal es $v_y=\\dfrac{\\partial y}{\\partial t}=-0{,}005\\cdot52{,}4\\,\\text{sen}(52{,}4\\,t+10{,}5\\,x)$. En $x=0{,}3\\ \\text{m}$, $k x=10{,}5\\cdot0{,}3=\\pi$:
+
+$$v_y=-0{,}262\\,\\text{sen}(52{,}4\\,t+\\pi)=0{,}262\\,\\text{sen}(52{,}4\\,t)\\ \\text{m/s}$$
+
+## Ejercicio 6
+
+### Enunciado
+
+Un observador está a $10\\ \\text{m}$ de un altavoz de potencia $200\\ \\text{W}$.
+
+**(a)** Calcule la intensidad sonora en ese punto.
+
+**(b)** ¿A qué distancia debe situarse para que el nivel de intensidad sea $80\\ \\text{dB}$?
+
+**(c)** ¿Por qué factor debe disminuirse la potencia para que a $10\\ \\text{m}$ el nivel sea $80\\ \\text{dB}$?
+
+### Solución explicada
+
+**(a)** La intensidad para emisión esférica:
+
+$$I=\\dfrac{P}{4\\pi r^2}=\\dfrac{200}{4\\pi\\cdot10^2}=0{,}159\\ \\text{W/m}^2$$
+
+(Equivale a un nivel $\\beta=10\\log\\dfrac{I}{I_0}\\approx112\\ \\text{dB}$.)
+
+**(b)** Nivel $80\\ \\text{dB}\\Rightarrow I'=I_0\\,10^{8}=10^{-4}\\ \\text{W/m}^2$:
+
+$$r'=\\sqrt{\\dfrac{P}{4\\pi I'}}=\\sqrt{\\dfrac{200}{4\\pi\\cdot10^{-4}}}=399\\ \\text{m}$$
+
+**(c)** A $10\\ \\text{m}$ se quiere $I'=10^{-4}\\ \\text{W/m}^2$, que requiere potencia $P'=I'\\,4\\pi r^2=10^{-4}\\cdot4\\pi\\cdot100=0{,}126\\ \\text{W}$:
+
+$$\\dfrac{P}{P'}=\\dfrac{200}{0{,}126}\\approx1{,}59\\cdot10^{3}$$
+
+Hay que reducir la potencia por un factor $\\approx1600$.
+
+## Ejercicio 7
+
+### Enunciado
+
+Una lámina de vidrio (índice $n_v$) está entre un líquido ($n_l$) y aire ($n_a$). La longitud de onda de la luz en el vidrio es dos tercios de la del aire. Al emitir luz desde el líquido, los rayos con incidencia superior a $36^\\circ$ en la cara inferior no se refractan al aire por la cara superior.
+
+**(a)** Calcule $n_v$.
+
+**(b)** Calcule $n_l$.
+
+**(c)** Calcule el tiempo que tarda un rayo, incidiendo normalmente, en recorrer la distancia $d$ de la figura.
+
+*(Nota del corrector: el valor de $d$ no se conservó; se toma el espesor del vidrio $d=2\\ \\text{cm}$ para el cálculo numérico.)*
+
+### Solución explicada
+
+**(a)** Como $\\lambda_v=\\dfrac{\\lambda_a}{n_v}$ y $\\lambda_v=\\dfrac23\\lambda_a$:
+
+$$n_v=\\dfrac{1}{2/3}=\\dfrac32=1{,}5$$
+
+**(b)** A $36^\\circ$ de incidencia desde el líquido, el rayo emerge rasante ($90^\\circ$) al aire por la cara superior. Aplicando Snell en cadena líquido $\\to$ vidrio $\\to$ aire, el vidrio se cancela:
+
+$$n_l\\,\\text{sen}\\,36^\\circ=n_a\\,\\text{sen}\\,90^\\circ\\Rightarrow n_l=\\dfrac{1}{\\text{sen}\\,36^\\circ}=1{,}70$$
+
+**(c)** Con incidencia normal el rayo no se desvía; en el vidrio su velocidad es $v=\\dfrac{c}{n_v}$. Recorriendo un espesor $d=2\\ \\text{cm}$:
+
+$$t=\\dfrac{d}{v}=\\dfrac{n_v\\,d}{c}=\\dfrac{1{,}5\\cdot0{,}02}{3\\cdot10^{8}}=1{,}0\\cdot10^{-10}\\ \\text{s}$$
+
+## Ejercicio 8
+
+### Enunciado
+
+Con una lente convergente de distancia focal $15\\ \\text{cm}$ se quiere obtener una imagen de tamaño doble del objeto.
+
+**(a)** Posiciones de objeto e imagen si la imagen es derecha (con trazado de rayos).
+
+**(b)** Posiciones si la imagen es invertida (con trazado de rayos).
+
+**(c)** Razone la naturaleza (real/virtual) de la imagen en cada caso.
+
+
+### Esquema para el apartado gráfico
+
+![Trazado de rayos para una lente divergente y un espejo cóncavo](/assets/latex/pau-fisica-optics.svg)
+### Solución explicada
+
+Usamos $\\dfrac{1}{s'}-\\dfrac{1}{s}=\\dfrac{1}{f'}$ y $m=\\dfrac{s'}{s}$ (objeto a la izquierda, $s<0$).
+
+**(a) Imagen derecha y doble:** $m=+2\\Rightarrow s'=2s$. Entonces:
+
+$$\\dfrac{1}{2s}-\\dfrac{1}{s}=\\dfrac{1}{f'}\\Rightarrow-\\dfrac{1}{2s}=\\dfrac{1}{f'}\\Rightarrow s=-\\dfrac{f'}{2}=-7{,}5\\ \\text{cm},\\quad s'=-15\\ \\text{cm}$$
+
+Objeto a $7{,}5\\ \\text{cm}$; imagen a $15\\ \\text{cm}$ del **mismo lado** (virtual).
+
+**(b) Imagen invertida y doble:** $m=-2\\Rightarrow s'=-2s$:
+
+$$\\dfrac{1}{-2s}-\\dfrac{1}{s}=\\dfrac{1}{f'}\\Rightarrow-\\dfrac{3}{2s}=\\dfrac{1}{f'}\\Rightarrow s=-\\dfrac{3f'}{2}=-22{,}5\\ \\text{cm},\\quad s'=+45\\ \\text{cm}$$
+
+Objeto a $22{,}5\\ \\text{cm}$; imagen real a $45\\ \\text{cm}$ al otro lado.
+
+**(c)** En (a) $s'<0$: imagen **virtual**, derecha (objeto dentro de la focal). En (b) $s'>0$: imagen **real**, invertida (objeto entre $f$ y $2f$).
+
+## Ejercicio 9
+
+### Enunciado
+
+Al incidir sobre un material luz de $520\\ \\text{nm}$ se liberan electrones con potencial de frenado $0{,}5\\ \\text{V}$. Calcule:
+
+**(a)** El trabajo de extracción.
+
+**(b)** La máxima longitud de onda que provoca efecto fotoeléctrico.
+
+**(c)** La energía cinética máxima de los electrones con $\\lambda=280\\ \\text{nm}$.
+
+### Solución explicada
+
+**(a)** La ecuación de Einstein es $\\dfrac{hc}{\\lambda}=W+E_{c,\\max}$, con $E_{c,\\max}=eV_{frenado}$:
+
+$$W=\\dfrac{hc}{\\lambda}-eV=\\dfrac{6{,}63\\cdot10^{-34}\\cdot3\\cdot10^{8}}{520\\cdot10^{-9}}-1{,}6\\cdot10^{-19}\\cdot0{,}5$$
+
+$$W=3{,}83\\cdot10^{-19}-0{,}80\\cdot10^{-19}=3{,}03\\cdot10^{-19}\\ \\text{J}=1{,}89\\ \\text{eV}$$
+
+**(b)** La longitud de onda umbral cumple $W=\\dfrac{hc}{\\lambda_{\\max}}$:
+
+$$\\lambda_{\\max}=\\dfrac{hc}{W}=\\dfrac{6{,}63\\cdot10^{-34}\\cdot3\\cdot10^{8}}{3{,}03\\cdot10^{-19}}=6{,}58\\cdot10^{-7}\\ \\text{m}=658\\ \\text{nm}$$
+
+**(c)** Con $\\lambda=280\\ \\text{nm}$:
+
+$$E_{c,\\max}=\\dfrac{hc}{\\lambda}-W=\\dfrac{6{,}63\\cdot10^{-34}\\cdot3\\cdot10^{8}}{280\\cdot10^{-9}}-3{,}03\\cdot10^{-19}=4{,}08\\cdot10^{-19}\\ \\text{J}=2{,}55\\ \\text{eV}$$
+
+## Ejercicio 10
+
+### Enunciado
+
+Al cabo de $150\\ \\text{días}$, la actividad de una muestra de $10^{20}$ átomos de cierto elemento ha descendido un $40\\%$.
+
+**(a)** ¿Cuál es la constante de desintegración?
+
+**(b)** ¿Cuál es el periodo de semidesintegración?
+
+**(c)** ¿Cuál será la actividad y cuántos átomos quedarán al cabo de esos $150\\ \\text{días}$?
+
+### Solución explicada
+
+Como $A=\\lambda N$, el cociente $A/A_0=N/N_0=e^{-\\lambda t}=0{,}6$.
+
+**(a)** $$\\lambda=-\\dfrac{\\ln(0{,}6)}{t}=\\dfrac{0{,}511}{150}=3{,}41\\cdot10^{-3}\\ \\text{día}^{-1}=3{,}94\\cdot10^{-8}\\ \\text{s}^{-1}$$
+
+**(b)** $$T_{1/2}=\\dfrac{\\ln2}{\\lambda}=\\dfrac{0{,}693}{3{,}41\\cdot10^{-3}}=204\\ \\text{días}$$
+
+**(c)** Átomos restantes: $N=0{,}6\\,N_0=6\\cdot10^{19}$. Actividad:
+
+$$A=\\lambda N=3{,}94\\cdot10^{-8}\\ \\text{s}^{-1}\\cdot6\\cdot10^{19}=2{,}36\\cdot10^{12}\\ \\text{Bq}$$
+`,He=`---
+title: Física · PAU 2024 · Murcia — examen resuelto
+seoTitle: PAU Física Murcia 2024 resuelta paso a paso
+date: 2024-06-01
+updated: 2026-11-05
+description: Examen de Física de Murcia 2024 resuelto paso a paso para 2.º de Bachillerato.
+tag: Física PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+**Teoría T1.** Explique el concepto de energía potencial gravitatoria.
+
+### Solución explicada
+
+La fuerza gravitatoria es **conservativa**, por lo que puede asociarse a ella una energía potencial $E_p$ tal que el trabajo que realiza el campo entre dos puntos es $W=-\\Delta E_p=E_{p,i}-E_{p,f}$.
+
+Para dos masas puntuales $M$ y $m$ separadas una distancia $r$, tomando el origen de energías en el infinito ($E_p(\\infty)=0$), la energía potencial es:
+
+$$E_p=-\\dfrac{GMm}{r}$$
+
+Es **negativa** porque se ha de aportar energía para separar las masas hasta el infinito; mide el trabajo (cambiado de signo) necesario para traer $m$ desde el infinito hasta $r$. Se relaciona con el potencial gravitatorio $V=-\\dfrac{GM}{r}$ mediante $E_p=mV$.
+
+Propiedades: solo depende de las posiciones (no del camino); disminuye al acercarse las masas (el campo hace trabajo positivo) y aumenta (se hace menos negativa) al alejarlas. Para alturas pequeñas cerca de la superficie terrestre se recupera la aproximación $E_p\\approx mgh$.
+
+## Ejercicio 2
+
+### Enunciado
+
+**Teoría T2.** Enuncie las leyes de Faraday y de Lenz de la inducción electromagnética.
+
+### Solución explicada
+
+**Ley de Faraday.** Toda variación del flujo magnético $\\Phi=\\displaystyle\\int \\vec{B}\\cdot d\\vec{S}$ a través de un circuito induce en él una fuerza electromotriz (fem) proporcional a la rapidez con que cambia dicho flujo:
+
+$$\\varepsilon=-\\dfrac{d\\Phi}{dt}$$
+
+Para una bobina de $N$ espiras, $\\varepsilon=-N\\dfrac{d\\Phi}{dt}$. El flujo puede variar por cambio de $B$, del área $S$ o del ángulo entre $\\vec{B}$ y $\\vec{S}$.
+
+**Ley de Lenz.** El signo negativo indica el sentido de la corriente inducida: esta se opone a la variación de flujo que la genera. La corriente inducida crea un campo magnético que tiende a mantener el flujo (si el flujo aumenta, se opone; si disminuye, lo refuerza). Es una consecuencia de la conservación de la energía: el sistema reacciona oponiéndose al cambio, de modo que hay que realizar trabajo para producir la corriente.
+
+## Ejercicio 3
+
+### Enunciado
+
+**Teoría T3.** Clasifique los distintos tipos de ondas.
+
+### Solución explicada
+
+Una onda es la propagación de una perturbación que transporta energía y cantidad de movimiento sin transporte neto de materia. Se clasifican según varios criterios:
+
+**Según el medio de propagación:**
+- *Mecánicas*: necesitan un medio material (sonido, ondas en cuerdas, sísmicas, en el agua).
+- *Electromagnéticas*: se propagan también en el vacío (luz, ondas de radio, rayos X); son campos $\\vec{E}$ y $\\vec{B}$ oscilantes.
+
+**Según la dirección de vibración respecto a la de propagación:**
+- *Transversales*: la perturbación es perpendicular a la propagación (luz, onda en una cuerda).
+- *Longitudinales*: la perturbación es paralela a la propagación (sonido).
+
+**Según las dimensiones de propagación:** unidimensionales (cuerda), bidimensionales (superficie del agua) y tridimensionales (sonido, luz).
+
+**Según su frente de onda:** planas, cilíndricas o esféricas.
+
+Además pueden distinguirse ondas *armónicas* (perturbación sinusoidal) y, por su duración, *pulsos* frente a *trenes de onda*.
+
+## Ejercicio 4
+
+### Enunciado
+
+**Teoría T4.** Enuncie los postulados de la relatividad especial y sus principales repercusiones.
+
+### Solución explicada
+
+**Postulados de Einstein (1905):**
+1. *Principio de relatividad*: las leyes de la física son las mismas en todos los sistemas de referencia inerciales.
+2. *Constancia de la velocidad de la luz*: la velocidad de la luz en el vacío $c$ es la misma para todos los observadores inerciales, independientemente del movimiento de la fuente o del observador.
+
+**Repercusiones principales** (con $\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}$):
+
+- *Dilatación del tiempo*: un intervalo propio $\\Delta t_0$ se mide dilatado por otro observador, $\\Delta t=\\gamma\\,\\Delta t_0$.
+- *Contracción de la longitud*: una longitud propia $L_0$ se mide contraída en la dirección del movimiento, $L=\\dfrac{L_0}{\\gamma}$.
+- *Relatividad de la simultaneidad*: sucesos simultáneos en un sistema no lo son en otro.
+- *Equivalencia masa-energía*: $E=mc^2$; la energía total es $E=\\gamma m c^2$ y el momento $p=\\gamma m v$.
+- Ningún cuerpo con masa puede alcanzar la velocidad $c$.
+
+## Ejercicio 5
+
+### Enunciado
+
+**Cuestión C1.** Calcule el periodo (en días) y la velocidad orbital de la Luna en su trayectoria alrededor de la Tierra.
+
+### Solución explicada
+
+La atracción gravitatoria de la Tierra actúa como fuerza centrípeta de la órbita circular de la Luna:
+
+$$\\dfrac{GM_T M_L}{r^2}=M_L\\dfrac{v^2}{r}\\ \\Rightarrow\\ v=\\sqrt{\\dfrac{GM_T}{r}}=\\sqrt{\\dfrac{6{,}67\\cdot10^{-11}\\cdot6{,}0\\cdot10^{24}}{3{,}84\\cdot10^{8}}}=1{,}02\\cdot10^{3}\\ \\text{m·s}^{-1}$$
+
+El periodo se obtiene de $v=\\dfrac{2\\pi r}{T}$:
+
+$$T=\\dfrac{2\\pi r}{v}=\\dfrac{2\\pi\\cdot3{,}84\\cdot10^{8}}{1{,}02\\cdot10^{3}}=2{,}36\\cdot10^{6}\\ \\text{s}$$
+
+Pasando a días:
+
+$$T=\\dfrac{2{,}36\\cdot10^{6}}{86400}\\approx27{,}4\\ \\text{días}$$
+
+## Ejercicio 6
+
+### Enunciado
+
+**Cuestión C2.** Un altavoz emite ondas sonoras con potencia $450\\ \\text{W}$. Calcule la distancia mínima a la que debemos colocarnos para no superar el umbral de dolor ($120\\ \\text{dB}$).
+
+### Solución explicada
+
+El umbral de dolor corresponde a una intensidad obtenida de $\\beta=10\\log_{10}(I/I_0)$:
+
+$$I=I_0\\cdot10^{\\beta/10}=10^{-12}\\cdot10^{120/10}=10^{-12}\\cdot10^{12}=1\\ \\text{W·m}^{-2}$$
+
+Para una fuente puntual (onda esférica) $I=\\dfrac{P}{4\\pi d^2}$, de donde la distancia mínima:
+
+$$d=\\sqrt{\\dfrac{P}{4\\pi I}}=\\sqrt{\\dfrac{450}{4\\pi\\cdot1}}=5{,}98\\ \\text{m}\\approx6{,}0\\ \\text{m}$$
+
+## Ejercicio 7
+
+### Enunciado
+
+**Cuestión C3.** Cuatro conductores rectilíneos perpendiculares al plano, con la misma intensidad, están en los vértices de un cuadrado. Dibuje cualitativamente el campo magnético que cada corriente crea en el centro y el campo total en los dos supuestos A y B de la figura (indique con palabras si el campo es nulo).
+
+
+### Esquema para el apartado gráfico
+
+![Esquema de líneas de campo eléctrico y de campo magnético alrededor de un conductor](/assets/latex/pau-fisica-fields.svg)
+### Solución explicada
+
+Cada hilo crea en el centro un campo de módulo $B=\\dfrac{\\mu_0 I}{2\\pi d}$, siendo $d$ la distancia del vértice al centro (la misma para los cuatro). La **dirección** es perpendicular a la recta vértice-centro y el **sentido** lo da la regla de la mano derecha según entre o salga la corriente del plano.
+
+**Supuesto A** (por ejemplo, corrientes con sentidos alternados o dispuestas de forma simétrica): los campos de hilos diametralmente opuestos tienen la misma recta soporte. Cuando dos hilos opuestos llevan corrientes en el mismo sentido, sus campos en el centro son **opuestos y se cancelan**; si las cuatro contribuciones se anulan dos a dos, el **campo total es nulo**.
+
+**Supuesto B** (corrientes dispuestas de modo que las contribuciones se suman): los vectores no se cancelan y el campo total es la suma vectorial, resultando un campo **no nulo** dirigido según la simetría del conjunto (por ejemplo, a lo largo de una diagonal o de una mediana del cuadrado).
+
+La clave es: (1) dibujar cada $\\vec{B}_i$ perpendicular al radio vértice-centro con el sentido de la mano derecha, y (2) sumarlos vectorialmente. Donde la simetría empareja vectores iguales y opuestos, el resultado es cero.
+
+## Ejercicio 8
+
+### Enunciado
+
+**Cuestión C4.** Dos partículas, $A$ de masa $m$ y $B$ de masa $3m$, tienen la misma longitud de onda de De Broglie. Determine el cociente $v_B/v_A$.
+
+### Solución explicada
+
+La longitud de onda de De Broglie de una partícula es $\\lambda=\\dfrac{h}{p}=\\dfrac{h}{mv}$. Igualando las longitudes de onda:
+
+$$\\dfrac{h}{m_A v_A}=\\dfrac{h}{m_B v_B}\\ \\Rightarrow\\ m_A v_A=m_B v_B$$
+
+Es decir, tienen el mismo momento lineal. Despejando el cociente:
+
+$$\\dfrac{v_B}{v_A}=\\dfrac{m_A}{m_B}=\\dfrac{m}{3m}=\\dfrac{1}{3}$$
+
+## Ejercicio 9
+
+### Enunciado
+
+**Problema P1.** El positrón ($e^+$) es idéntico al electrón salvo el signo de su carga (positiva).
+
+**(a)** Con un $e^-$ y un $e^+$ en reposo separados $7\\ \\text{nm}$, calcule la energía que hay que aportar para separarlos una distancia infinita.
+
+**(b)** Se acelera un positrón desde el reposo con un campo eléctrico constante de $2840\\ \\text{V·m}^{-1}$. ¿Qué distancia recorre para alcanzar $1000\\ \\text{m·s}^{-1}$?
+
+**(c)** Anulado el campo eléctrico, el positrón se mueve a $1000\\ \\text{m·s}^{-1}$ perpendicular al campo magnético terrestre de $50\\ \\mu\\text{T}$. Determine el radio de su trayectoria.
+
+### Solución explicada
+
+**(a)** La energía potencial eléctrica del par ($+e$ y $-e$) a distancia $d_0$ es:
+
+$$U=\\dfrac{k\\,(+e)(-e)}{d_0}=\\dfrac{9\\cdot10^{9}\\cdot(1{,}6\\cdot10^{-19})(-1{,}6\\cdot10^{-19})}{7\\cdot10^{-9}}=-3{,}29\\cdot10^{-20}\\ \\text{J}$$
+
+Para separarlos hasta el infinito ($U_\\infty=0$) hay que aportar:
+
+$$W=U_\\infty-U=0-(-3{,}29\\cdot10^{-20})=3{,}29\\cdot10^{-20}\\ \\text{J}$$
+
+**(b)** La aceleración por la fuerza eléctrica es $a=\\dfrac{eE}{m_e}=\\dfrac{1{,}6\\cdot10^{-19}\\cdot2840}{9{,}1\\cdot10^{-31}}=4{,}99\\cdot10^{14}\\ \\text{m·s}^{-2}$. Con $v^2=2ad$:
+
+$$d=\\dfrac{v^2}{2a}=\\dfrac{(1000)^2}{2\\cdot4{,}99\\cdot10^{14}}=1{,}0\\cdot10^{-9}\\ \\text{m}=1{,}0\\ \\text{nm}$$
+
+**(c)** En el campo magnético la fuerza de Lorentz es centrípeta, $R=\\dfrac{m_e v}{eB}$:
+
+$$R=\\dfrac{9{,}1\\cdot10^{-31}\\cdot1000}{1{,}6\\cdot10^{-19}\\cdot50\\cdot10^{-6}}=1{,}14\\cdot10^{-4}\\ \\text{m}$$
+
+## Ejercicio 10
+
+### Enunciado
+
+**Problema P2.** Por una cuerda se propaga una onda armónica en sentido $+x$. La Figura 1 representa la elongación $y(x)$ en $t=0$ y la Figura 2 la elongación $y(t)$ en la posición $x=2\\ \\text{cm}$. De las gráficas se leen: amplitud $A=2\\ \\text{cm}$, longitud de onda $\\lambda=8\\ \\text{cm}$ y periodo $T=4\\ \\text{s}$.
+
+**(a)** Determine la longitud de onda, la frecuencia y la velocidad de propagación.
+
+**(b)** Escriba la ecuación de la onda $y(x,t)$.
+
+**(c)** Calcule la velocidad de vibración máxima y la aceleración máxima de un punto de la cuerda.
+
+
+### Esquema para el apartado gráfico
+
+![Onda armónica con amplitud, longitud de onda y sentido de propagación](/assets/latex/pau-fisica-wave.svg)
+### Solución explicada
+
+**(a)** Lectura de las gráficas: de la Figura 1, $\\lambda=8\\ \\text{cm}=0{,}08\\ \\text{m}$; de la Figura 2, $T=4\\ \\text{s}$. Entonces:
+
+$$f=\\dfrac{1}{T}=\\dfrac{1}{4}=0{,}25\\ \\text{Hz},\\qquad v=\\lambda f=\\dfrac{\\lambda}{T}=\\dfrac{0{,}08}{4}=0{,}02\\ \\text{m·s}^{-1}$$
+
+**(b)** Con $\\omega=2\\pi f=\\dfrac{2\\pi}{4}=1{,}57\\ \\text{rad·s}^{-1}$ y $k=\\dfrac{2\\pi}{\\lambda}=\\dfrac{2\\pi}{0{,}08}=78{,}5\\ \\text{rad·m}^{-1}$. Para una onda que avanza en $+x$:
+
+$$y(x,t)=0{,}02\\,\\operatorname{sen}\\!\\left(1{,}57\\,t-78{,}5\\,x\\right)\\ \\text{m}$$
+
+**(c)** Las magnitudes máximas de oscilación de un punto:
+
+$$v_{\\max}=A\\,\\omega=0{,}02\\cdot1{,}57=3{,}1\\cdot10^{-2}\\ \\text{m·s}^{-1}$$
+
+$$a_{\\max}=A\\,\\omega^2=0{,}02\\cdot(1{,}57)^2=4{,}9\\cdot10^{-2}\\ \\text{m·s}^{-2}$$
+
+## Ejercicio 11
+
+### Enunciado
+
+**Problema P3.** Una lente de cámara tiene focal $50\\ \\text{mm}$, índice $1{,}6$ y es planoconvexa.
+
+**(a)** Determine el radio de curvatura de la cara curva.
+
+**(b)** ¿A qué distancia de la lente hay que poner un objeto para que su imagen tenga la mitad de tamaño (en valor absoluto)?
+
+**(c)** Si un rayo incide desde el aire sobre la cara plana con $45^\\circ$ respecto a la normal, ¿qué ángulo forma dentro de la lente con la normal?
+
+### Solución explicada
+
+**(a)** Ecuación del constructor de lentes. Planoconvexa: una cara plana ($R_1\\to\\infty$) y una curva de radio $R$:
+
+$$\\dfrac{1}{f'}=(n-1)\\left(\\dfrac{1}{R_1}-\\dfrac{1}{R_2}\\right)\\ \\Rightarrow\\ \\dfrac{1}{f'}=\\dfrac{n-1}{R}\\ \\Rightarrow\\ R=(n-1)\\,f'=(1{,}6-1)\\cdot50=30\\ \\text{mm}$$
+
+**(b)** Imagen reducida y real (lente convergente): $M=\\dfrac{s'}{s}=-\\dfrac12$, luego $s'=-\\dfrac{s}{2}$. Sustituyendo en $\\dfrac{1}{s'}-\\dfrac{1}{s}=\\dfrac{1}{f'}$:
+
+$$-\\dfrac{2}{s}-\\dfrac{1}{s}=\\dfrac{1}{f'}\\ \\Rightarrow\\ -\\dfrac{3}{s}=\\dfrac{1}{f'}\\ \\Rightarrow\\ s=-3f'=-150\\ \\text{mm}$$
+
+El objeto debe colocarse a $150\\ \\text{mm}=15\\ \\text{cm}$ delante de la lente (la imagen se forma a $s'=75\\ \\text{mm}$).
+
+**(c)** Ley de Snell en la cara plana, aire→vidrio:
+
+$$\\operatorname{sen}45^\\circ=n\\operatorname{sen}\\theta\\ \\Rightarrow\\ \\operatorname{sen}\\theta=\\dfrac{\\operatorname{sen}45^\\circ}{1{,}6}=0{,}442\\ \\Rightarrow\\ \\theta=26{,}2^\\circ$$
+
+## Ejercicio 12
+
+### Enunciado
+
+**Problema P4.** El $^{131}_{53}\\text{I}$ y el $^{223}_{88}\\text{Ra}$ se usan contra el cáncer y experimentan desintegración $\\beta^-$ y $\\alpha$ respectivamente.
+
+**(a)** Escriba ambas reacciones indicando $A$, $Z$ y $N$ de los núcleos resultantes.
+
+**(b)** Si de $1\\ \\text{mg}$ de $^{131}\\text{I}$ quedan $0{,}66\\ \\text{mg}$ tras $5\\ \\text{días}$, determine la vida media del $^{131}\\text{I}$.
+
+**(c)** Calcule, en julios, la energía liberada en la desintegración $\\alpha$ de un núcleo de $^{223}\\text{Ra}$.
+
+### Solución explicada
+
+**(a)** En la $\\beta^-$ el núcleo emite un electrón (un neutrón se convierte en protón): $Z$ aumenta en 1, $A$ no cambia.
+
+$$^{131}_{53}\\text{I}\\ \\longrightarrow\\ ^{131}_{54}\\text{Xe}+{}^{\\ 0}_{-1}e+\\bar{\\nu}_e$$
+
+El núcleo resultante tiene $A=131$, $Z=54$, $N=77$.
+
+En la $\\alpha$ se emite un núcleo de helio ($^4_2\\text{He}$): $A$ disminuye en 4 y $Z$ en 2.
+
+$$^{223}_{88}\\text{Ra}\\ \\longrightarrow\\ ^{219}_{86}\\text{Rn}+{}^{4}_{2}\\text{He}$$
+
+El $^{219}_{86}\\text{Rn}$ tiene $A=219$, $Z=86$, $N=133$.
+
+**(b)** De $N=N_0 e^{-\\lambda t}$ con $N/N_0=0{,}66$ y $t=5\\ \\text{días}$:
+
+$$\\lambda=-\\dfrac{\\ln(0{,}66)}{5}=0{,}0831\\ \\text{días}^{-1}$$
+
+La vida media es $\\tau=\\dfrac{1}{\\lambda}=\\dfrac{1}{0{,}0831}=12{,}0\\ \\text{días}$. (El periodo de semidesintegración sería $T_{1/2}=\\tau\\ln 2\\approx8{,}3\\ \\text{días}$.)
+
+**(c)** Defecto de masa de la $\\alpha$:
+
+$$\\Delta m=M(\\text{Ra})-M(\\text{Rn})-M(\\text{He})=223{,}0185-219{,}0095-4{,}0026=6{,}4\\cdot10^{-3}\\ \\text{u}$$
+
+Energía liberada $Q=\\Delta m\\,c^2$:
+
+$$Q=6{,}4\\cdot10^{-3}\\cdot1{,}66\\cdot10^{-27}\\cdot(3\\cdot10^{8})^2=9{,}56\\cdot10^{-13}\\ \\text{J}$$
+`,De=`---
+title: Física · PAU 2025 · Extraordinaria · Andalucía — examen resuelto
+seoTitle: PAU Física Andalucía 2025 · Extraordinaria resuelta paso a paso
+date: 2025-06-01
+updated: 2026-11-05
+description: Examen de Física de Andalucía 2025 · Extraordinaria resuelto paso a paso para 2.º de Bachillerato.
+tag: Física PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+Discuta razonadamente si son verdaderas o falsas:
+
+**(i)** Si se realiza trabajo sobre una partícula, su energía cinética aumenta.
+**(ii)** Las fuerzas conservativas siempre realizan trabajo nulo.
+
+### Solución explicada
+
+**(i) FALSA.**
+El teorema de la energía cinética dice que es el **trabajo neto** el que iguala a $\\Delta E_c$: $W_{neto}=\\Delta E_c$. Si el trabajo (neto) es negativo (fuerza que se opone al movimiento, p. ej. un frenado), la energía cinética **disminuye**. Sólo aumenta si el trabajo neto es positivo.
+
+**(ii) FALSA.**
+Una fuerza conservativa realiza trabajo $W=-\\Delta E_p$, que en general es distinto de cero (p. ej. la gravedad al caer un cuerpo hace trabajo positivo). El trabajo de una fuerza conservativa es nulo **sólo** a lo largo de una trayectoria cerrada, o entre puntos de igual energía potencial.
+
+## Ejercicio 2
+
+### Enunciado
+
+Dos masas puntuales de $200\\ \\text{kg}$ están en $A(0,-3)\\ \\text{m}$ y $B(0,3)\\ \\text{m}$.
+
+**(i)** El campo gravitatorio en $C(4,0)\\ \\text{m}$ (apoyándose en un esquema).
+**(ii)** La fuerza sobre una masa de $3\\ \\text{kg}$ situada en el origen.
+
+
+### Esquema para el apartado gráfico
+
+![Esquema de líneas de campo eléctrico y de campo magnético alrededor de un conductor](/assets/latex/pau-fisica-fields.svg)
+### Solución explicada
+
+**(i) Campo en $C(4,0)$.**
+Cada masa dista de $C$: $r=\\sqrt{4^2+3^2}=5\\ \\text{m}$. Módulo de cada campo:
+$$g_A=g_B=\\dfrac{G\\,m}{r^2}=\\dfrac{6{,}67\\cdot10^{-11}\\cdot200}{25}=5{,}34\\cdot10^{-10}\\ \\text{N}\\cdot\\text{kg}^{-1}$$
+Los campos apuntan de $C$ hacia cada masa. Por simetría las componentes $y$ se cancelan y sólo queda componente $x$ (hacia el origen, es decir $-x$). El coseno del ángulo con el eje $x$ es $4/5$:
+$$\\vec g = -2\\,g_A\\dfrac{4}{5}\\,\\vec i = -2\\cdot5{,}34\\cdot10^{-10}\\cdot0{,}8\\,\\vec i = -8{,}54\\cdot10^{-10}\\,\\vec i\\ \\text{N}\\cdot\\text{kg}^{-1}$$
+
+**(ii) Fuerza sobre $3\\ \\text{kg}$ en el origen.**
+El origen equidista de ambas masas ($3\\ \\text{m}$), situadas simétricamente sobre el eje $y$. Los dos campos son iguales y opuestos, de modo que el campo resultante es nulo:
+$$\\vec g(0,0)=\\vec 0\\ \\Rightarrow\\ \\vec F = m\\,\\vec g = \\vec 0\\ \\text{N}$$
+
+## Ejercicio 3
+
+### Enunciado
+
+Un satélite de $1400\\ \\text{kg}$ en órbita circular tarda un día y medio en dar una vuelta a la Tierra.
+
+**(i)** El radio de la órbita.
+**(ii)** La velocidad mínima que hay que suministrarle para que abandone el campo gravitatorio terrestre desde esa órbita.
+
+### Solución explicada
+
+**(i) Radio de la órbita (3.ª ley de Kepler).**
+$$T^2=\\dfrac{4\\pi^2 r^3}{G M_T}\\ \\Rightarrow\\ r=\\sqrt[3]{\\dfrac{G M_T T^2}{4\\pi^2}}=\\sqrt[3]{\\dfrac{6{,}67\\cdot10^{-11}\\cdot5{,}98\\cdot10^{24}\\,(1{,}296\\cdot10^{5})^2}{4\\pi^2}}$$
+$$r = 5{,}54\\cdot10^{7}\\ \\text{m}$$
+
+**(ii) Velocidad para escapar desde la órbita.**
+La velocidad de escape desde el radio $r$ es:
+$$v_{esc}=\\sqrt{\\dfrac{2 G M_T}{r}}=\\sqrt{\\dfrac{2\\cdot6{,}67\\cdot10^{-11}\\cdot5{,}98\\cdot10^{24}}{5{,}54\\cdot10^{7}}}=3{,}80\\cdot10^{3}\\ \\text{m}\\cdot\\text{s}^{-1}$$
+La velocidad orbital es $v_{orb}=\\sqrt{G M_T/r}=2{,}68\\cdot10^{3}\\ \\text{m}\\cdot\\text{s}^{-1}$, de modo que el incremento necesario es $\\Delta v=v_{esc}-v_{orb}=1{,}11\\cdot10^{3}\\ \\text{m}\\cdot\\text{s}^{-1}$.
+
+## Ejercicio 4
+
+### Enunciado
+
+Discuta la veracidad:
+
+**(i)** Si no existe flujo magnético a través de una superficie, no existe campo magnético en esa región.
+**(ii)** Si el flujo magnético es muy grande, la f.e.m. inducida en una espira será también muy grande.
+
+### Solución explicada
+
+**(i) FALSA.**
+El flujo es $\\phi=B S\\cos\\theta$. Puede ser cero con $B\\ne0$: por ejemplo si el campo es paralelo a la superficie ($\\theta=90^\\circ$, $\\cos\\theta=0$), o si las líneas que entran son iguales a las que salen (flujo neto nulo en una superficie cerrada). Flujo nulo no implica campo nulo.
+
+**(ii) FALSA.**
+La f.e.m. inducida depende de la **variación** del flujo con el tiempo, $\\varepsilon=-d\\phi/dt$, no de su valor. Un flujo muy grande pero constante no induce ninguna f.e.m.; una pequeña variación rápida sí puede inducir una f.e.m. apreciable.
+
+## Ejercicio 5
+
+### Enunciado
+
+Dos conductores rectilíneos muy largos son paralelos al eje $OZ$. El primero pasa por $A(0,1)\\ \\text{m}$ con $1\\ \\text{A}$ y el segundo por $B(0,4)\\ \\text{m}$ con $2\\ \\text{A}$, ambos hacia $+z$.
+
+**(i)** El campo magnético total en $C(0,3)\\ \\text{m}$ (con esquema).
+**(ii)** La fuerza por unidad de longitud sobre el conductor de $2\\ \\text{A}$.
+
+
+### Esquema para el apartado gráfico
+
+![Esquema de líneas de campo eléctrico y de campo magnético alrededor de un conductor](/assets/latex/pau-fisica-fields.svg)
+### Solución explicada
+
+**(i) Campo en $C(0,3)$.**
+Hilo 1 dista $r_1=|3-1|=2\\ \\text{m}$; $C$ está en $+y$ respecto al hilo. Con $\\vec I\\parallel+z$, el campo en $C$ apunta en $-x$:
+$$B_1=\\dfrac{\\mu_0 I_1}{2\\pi r_1}=\\dfrac{4\\pi\\cdot10^{-7}\\cdot1}{2\\pi\\cdot2}=1{,}0\\cdot10^{-7}\\ \\text{T}\\ \\Rightarrow\\ \\vec B_1=-1{,}0\\cdot10^{-7}\\,\\vec i\\ \\text{T}$$
+Hilo 2 dista $r_2=|3-4|=1\\ \\text{m}$; $C$ está en $-y$ respecto al hilo. El campo en $C$ apunta en $+x$:
+$$B_2=\\dfrac{\\mu_0 I_2}{2\\pi r_2}=\\dfrac{4\\pi\\cdot10^{-7}\\cdot2}{2\\pi\\cdot1}=4{,}0\\cdot10^{-7}\\ \\text{T}\\ \\Rightarrow\\ \\vec B_2=+4{,}0\\cdot10^{-7}\\,\\vec i\\ \\text{T}$$
+$$\\vec B_C=(-1{,}0+4{,}0)\\cdot10^{-7}\\,\\vec i=3{,}0\\cdot10^{-7}\\,\\vec i\\ \\text{T}$$
+
+**(ii) Fuerza por unidad de longitud sobre el hilo de $2\\ \\text{A}$.**
+Distancia entre hilos $d=|4-1|=3\\ \\text{m}$. Corrientes paralelas (mismo sentido) $\\Rightarrow$ atracción:
+$$\\dfrac{F}{\\ell}=\\dfrac{\\mu_0 I_1 I_2}{2\\pi d}=\\dfrac{4\\pi\\cdot10^{-7}\\cdot1\\cdot2}{2\\pi\\cdot3}=1{,}33\\cdot10^{-7}\\ \\text{N}\\cdot\\text{m}^{-1}$$
+dirigida hacia el hilo 1 (sentido $-y$).
+
+## Ejercicio 6
+
+### Enunciado
+
+Una carga $q_1=2\\cdot10^{-9}\\ \\text{C}$ está fija en el origen y $q_2=-4\\cdot10^{-9}\\ \\text{C}$ en $A(2,0)\\ \\text{m}$.
+
+**(i)** El campo eléctrico de ambas cargas en $B(4,0)\\ \\text{m}$.
+**(ii)** El trabajo de las fuerzas del campo para trasladar $q_3=1\\cdot10^{-9}\\ \\text{C}$ desde $B$ hasta $C(0,4)\\ \\text{m}$; interprete el signo.
+
+### Solución explicada
+
+**(i) Campo en $B(4,0)$.**
+De $q_1$ (origen) a $B$: $r=4\\ \\text{m}$, campo hacia $+x$:
+$$E_1=K\\dfrac{q_1}{4^2}=9\\cdot10^{9}\\dfrac{2\\cdot10^{-9}}{16}=1{,}125\\ \\text{N}\\cdot\\text{C}^{-1}\\ (+x)$$
+De $q_2$ (en $(2,0)$, negativa) a $B$: $r=2\\ \\text{m}$, campo hacia la carga, es decir $-x$:
+$$E_2=K\\dfrac{|q_2|}{2^2}=9\\cdot10^{9}\\dfrac{4\\cdot10^{-9}}{4}=9{,}0\\ \\text{N}\\cdot\\text{C}^{-1}\\ (-x)$$
+$$\\vec E_B=(1{,}125-9{,}0)\\,\\vec i=-7{,}88\\,\\vec i\\ \\text{N}\\cdot\\text{C}^{-1}$$
+
+**(ii) Trabajo de $B$ a $C$.**
+Potencial en $B$ (distancias $4$ y $2\\ \\text{m}$):
+$$V_B=K\\dfrac{q_1}{4}+K\\dfrac{q_2}{2}=9\\cdot10^{9}\\!\\left(\\dfrac{2\\cdot10^{-9}}{4}+\\dfrac{-4\\cdot10^{-9}}{2}\\right)=-13{,}5\\ \\text{V}$$
+Potencial en $C(0,4)$ (distancia a $q_1$ es $4\\ \\text{m}$; a $q_2$ es $\\sqrt{2^2+4^2}=\\sqrt{20}=4{,}47\\ \\text{m}$):
+$$V_C=9\\cdot10^{9}\\!\\left(\\dfrac{2\\cdot10^{-9}}{4}+\\dfrac{-4\\cdot10^{-9}}{4{,}47}\\right)=-3{,}55\\ \\text{V}$$
+$$W_{B\\to C}=q_3\\,(V_B-V_C)=10^{-9}\\,(-13{,}5-(-3{,}55))=-9{,}95\\cdot10^{-9}\\ \\text{J}$$
+El trabajo del campo es **negativo**: el campo se opone al desplazamiento de $q_3$ de $B$ a $C$ (habría que aportar energía externa para moverla).
+
+## Ejercicio 7
+
+### Enunciado
+
+Razone, apoyándose en un trazado de rayos, si es verdadera o falsa la afirmación: 'un espejo esférico convexo puede producir una imagen virtual con un aumento lateral mayor que la unidad'.
+
+
+### Esquema para el apartado gráfico
+
+![Trazado de rayos para una lente divergente y un espejo cóncavo](/assets/latex/pau-fisica-optics.svg)
+### Solución explicada
+
+**Afirmación FALSA.**
+Un espejo convexo forma, para cualquier objeto real, una imagen **virtual, derecha y de menor tamaño** ($|M|<1$).
+
+Trazado de rayos: el rayo paralelo al eje se refleja divergiendo como si viniera del foco (virtual, detrás del espejo); el rayo dirigido al centro de curvatura se refleja sobre sí mismo. Las prolongaciones de los rayos reflejados se cortan detrás del espejo, dando una imagen más pequeña que el objeto y situada entre el espejo y el foco.
+
+Por tanto el aumento lateral cumple siempre $0<M<1$; **nunca** puede ser mayor que la unidad.
+
+## Ejercicio 8
+
+### Enunciado
+
+Un haz monocromático pasa del aire al agua y su longitud de onda cambia de $700$ a $525\\ \\text{nm}$.
+
+**(i)** La frecuencia del haz.
+**(ii)** El índice de refracción del agua.
+**(iii)** Su velocidad de propagación en el agua.
+
+### Solución explicada
+
+**(i) Frecuencia.**
+La frecuencia no cambia al pasar de un medio a otro; en el aire $v\\approx c$:
+$$f=\\dfrac{c}{\\lambda_{aire}}=\\dfrac{3\\cdot10^{8}}{700\\cdot10^{-9}}=4{,}29\\cdot10^{14}\\ \\text{Hz}$$
+
+**(ii) Índice de refracción del agua.**
+Como $f$ es constante, $n=\\dfrac{\\lambda_{aire}}{\\lambda_{agua}}$:
+$$n_{agua}=\\dfrac{700}{525}=1{,}33$$
+
+**(iii) Velocidad en el agua.**
+$$v=\\dfrac{c}{n_{agua}}=\\dfrac{3\\cdot10^{8}}{1{,}33}=2{,}25\\cdot10^{8}\\ \\text{m}\\cdot\\text{s}^{-1}$$
+(equivalente a $v=\\lambda_{agua}\\,f$).
+
+## Ejercicio 9
+
+### Enunciado
+
+La ecuación de una onda en una cuerda tensa es $y(x,t)=10\\sin(25t-15x)$ (SI).
+
+**(i)** La velocidad de propagación.
+**(ii)** La velocidad de oscilación en $x=0\\ \\text{m}$ y $t=5\\ \\text{s}$.
+**(iii)** La diferencia de fase entre dos puntos separados $2\\ \\text{m}$ en el mismo instante.
+
+### Solución explicada
+
+**(i) Velocidad de propagación.**
+$$v=\\dfrac{\\omega}{k}=\\dfrac{25}{15}=1{,}67\\ \\text{m}\\cdot\\text{s}^{-1}$$
+
+**(ii) Velocidad de oscilación en $x=0$, $t=5\\ \\text{s}$.**
+$$v_y=\\dfrac{\\partial y}{\\partial t}=10\\cdot25\\cos(25t-15x)=250\\cos(25t-15x)$$
+En $x=0$, $t=5\\ \\text{s}$: $v_y=250\\cos(125)$. Con $125\\ \\text{rad}$ (reducido, $\\cos125\\approx0{,}788$):
+$$v_y=250\\cdot0{,}788\\approx1{,}97\\cdot10^{2}\\ \\text{m}\\cdot\\text{s}^{-1}$$
+
+**(iii) Diferencia de fase para $\\Delta x=2\\ \\text{m}$.**
+$$\\Delta\\varphi=k\\,\\Delta x=15\\cdot2=30\\ \\text{rad}$$
+
+## Ejercicio 10
+
+### Enunciado
+
+Un mesón tiene masa $274$ veces la del electrón. Si ambas partículas tienen la misma longitud de onda de De Broglie, determine:
+
+**(i)** La relación entre sus velocidades.
+**(ii)** La relación entre sus energías cinéticas.
+
+### Solución explicada
+
+**(i) Relación de velocidades.**
+La longitud de onda de De Broglie es $\\lambda=h/(mv)$. Si $\\lambda_{mes}=\\lambda_e$, entonces $m_{mes}v_{mes}=m_e v_e$ (igual cantidad de movimiento):
+$$\\dfrac{v_e}{v_{mes}}=\\dfrac{m_{mes}}{m_e}=274$$
+El electrón se mueve $274$ veces más rápido que el mesón.
+
+**(ii) Relación de energías cinéticas.**
+Con el mismo momento $p$, $E_c=\\dfrac{p^2}{2m}$, luego $E_c\\propto1/m$:
+$$\\dfrac{E_{c,e}}{E_{c,mes}}=\\dfrac{m_{mes}}{m_e}=274$$
+La energía cinética del electrón es $274$ veces la del mesón.
+
+## Ejercicio 11
+
+### Enunciado
+
+**(i)** Determine la energía de enlace del isótopo $^{3}_{2}\\text{He}$.
+**(ii)** Sabiendo que la energía de enlace por nucleón del $^{4}_{2}\\text{He}$ es $6{,}83\\ \\text{MeV/nucleón}$, razone cuál es más estable.
+
+### Solución explicada
+
+**(i) Energía de enlace del $^{3}_{2}\\text{He}$.**
+El $^{3}_{2}\\text{He}$ tiene $2$ protones y $1$ neutrón. Defecto de masa:
+$$\\Delta m = (2m_p+m_n)-m(^{3}\\text{He}) = (2\\cdot1{,}007276+1{,}008665)-3{,}016029 = 7{,}188\\cdot10^{-3}\\ \\text{u}$$
+$$\\Delta m = 7{,}188\\cdot10^{-3}\\cdot1{,}66\\cdot10^{-27} = 1{,}193\\cdot10^{-29}\\ \\text{kg}$$
+$$E_{enlace}=\\Delta m\\,c^2 = 1{,}193\\cdot10^{-29}\\cdot(3\\cdot10^{8})^2 = 1{,}07\\cdot10^{-12}\\ \\text{J} = 6{,}71\\ \\text{MeV}$$
+
+**(ii) Comparación de estabilidad.**
+La energía de enlace **por nucleón** del $^{3}_{2}\\text{He}$ es:
+$$\\dfrac{E_{enlace}}{A}=\\dfrac{6{,}71}{3}=2{,}24\\ \\text{MeV/nucleón}$$
+Como $2{,}24\\ \\text{MeV/nucleón} < 6{,}83\\ \\text{MeV/nucleón}$, el $^{4}_{2}\\text{He}$ está **más fuertemente ligado** y es **más estable** que el $^{3}_{2}\\text{He}$.
+
+## Ejercicio 12
+
+### Enunciado
+
+Un núcleo de plutonio-239 tiene masa $239{,}05\\ \\text{u}$ y periodo de semidesintegración $24200\\ \\text{años}$.
+
+**(i)** La constante de desintegración.
+**(ii)** La actividad de una muestra de $1\\ \\text{mg}$.
+**(iii)** El tiempo para que quede el $25\\%$ de los núcleos.
+
+### Solución explicada
+
+**(i) Constante de desintegración.**
+$$\\lambda=\\dfrac{\\ln 2}{T_{1/2}}=\\dfrac{0{,}693}{24200\\cdot365\\cdot24\\cdot3600}=9{,}08\\cdot10^{-13}\\ \\text{s}^{-1}$$
+
+**(ii) Actividad de $1\\ \\text{mg}$.**
+Número de núcleos:
+$$N=\\dfrac{m}{M}N_A=\\dfrac{10^{-3}}{239{,}05}\\cdot6{,}02\\cdot10^{23}=2{,}52\\cdot10^{18}\\ \\text{núcleos}$$
+$$A=\\lambda N=9{,}08\\cdot10^{-13}\\cdot2{,}52\\cdot10^{18}=2{,}29\\cdot10^{6}\\ \\text{Bq}$$
+
+**(iii) Tiempo para el $25\\%$.**
+$N=0{,}25\\,N_0=\\left(\\tfrac12\\right)^2 N_0$ corresponde a **dos periodos**:
+$$t=2\\,T_{1/2}=2\\cdot24200=48400\\ \\text{años}$$
+`,Me=`---
+title: Física · PAU 2025 · Serie alternativa · Madrid — examen resuelto
+seoTitle: PAU Física Madrid 2025 · Serie alternativa resuelta paso a paso
+date: 2025-06-01
+updated: 2026-11-05
+description: Examen de Física de Madrid 2025 · Serie alternativa resuelto paso a paso para 2.º de Bachillerato.
+tag: Física PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+En medicina nuclear se emplea el tecnecio-99, $^{99}\\text{Tc}$. Para controlar una dosis se mide su actividad a dos tiempos desde la preparación de la muestra:
+
+| Tiempo desde la creación (h) | 4 | 16 |
+|---|---|---|
+| Actividad (Bq) | $3{,}62\\cdot10^{13}$ | $4{,}90\\cdot10^{12}$ |
+
+**(a)** Determine el periodo de semidesintegración del $^{99}\\text{Tc}$ y la actividad inicial de la muestra.
+**(b)** Calcule la masa de isótopo presente en el instante en que se preparó.
+
+### Solución explicada
+
+**(a) Periodo de semidesintegración y actividad inicial.**
+
+La actividad decae exponencialmente, $A = A_0\\,e^{-t/\\tau}$, con $\\tau$ la vida media. Entre las dos lecturas, separadas $\\Delta t = 12\\ \\text{h} = 43200\\ \\text{s}$:
+$$A_2 = A_1\\,e^{-\\Delta t/\\tau}\\ \\Rightarrow\\ \\tau = \\dfrac{-\\Delta t}{\\ln\\!\\left(\\dfrac{A_2}{A_1}\\right)} = \\dfrac{-43200}{\\ln\\!\\left(\\dfrac{4{,}90\\cdot10^{12}}{3{,}62\\cdot10^{13}}\\right)} = 2{,}16\\cdot10^{4}\\ \\text{s}$$
+El periodo de semidesintegración:
+$$T_{1/2} = \\tau\\,\\ln 2 = 2{,}16\\cdot10^{4}\\cdot 0{,}693 = 1{,}50\\cdot10^{4}\\ \\text{s}\\ (\\approx 4{,}2\\ \\text{h})$$
+La actividad inicial (en $t=0$) a partir de la lectura de $t=4\\ \\text{h}$:
+$$A_0 = A_1\\,e^{+t_1/\\tau} = 3{,}62\\cdot10^{13}\\,e^{(4\\cdot3600)/2{,}16\\cdot10^{4}} = 7{,}05\\cdot10^{13}\\ \\text{Bq}$$
+
+**(b) Masa inicial.**
+
+Como $A = \\lambda N = N/\\tau$, el número de núcleos iniciales es:
+$$N_0 = A_0\\,\\tau = 7{,}05\\cdot10^{13}\\cdot 2{,}16\\cdot10^{4} = 1{,}52\\cdot10^{18}\\ \\text{núcleos}$$
+Y la masa correspondiente:
+$$m = \\dfrac{N_0\\,M}{N_A} = \\dfrac{1{,}52\\cdot10^{18}\\cdot 98{,}9}{6{,}02\\cdot10^{23}} = 2{,}50\\cdot10^{-4}\\ \\text{g}$$
+
+## Ejercicio 2
+
+### Enunciado
+
+Un satélite de masa $300\\ \\text{kg}$ describe una órbita elíptica alrededor de la Tierra. En el perigeo dista $7000\\ \\text{km}$ de la superficie terrestre y lleva una velocidad de $6000\\ \\text{m}\\cdot\\text{s}^{-1}$; su periodo es de $6{,}08\\ \\text{horas}$.
+
+**(a)** La energía del satélite y su momento angular.
+**(b)** La máxima distancia satélite-Tierra y su velocidad en ese punto.
+**(c)** El trabajo de la fuerza gravitatoria al pasar del apogeo al perigeo.
+
+### Solución explicada
+
+**(a) Energía mecánica y momento angular (datos del perigeo).**
+$$E_m = -\\,G\\dfrac{M_T m}{r_{per}} + \\tfrac12 m v_{per}^2 = -\\,6{,}67\\cdot10^{-11}\\dfrac{5{,}97\\cdot10^{24}\\cdot300}{1{,}337\\cdot10^{7}} + \\tfrac12\\cdot300\\cdot6000^2 = -3{,}53\\cdot10^{9}\\ \\text{J}$$
+En el perigeo $\\vec{r}\\perp\\vec{v}$, luego:
+$$L = r_{per}\\,m\\,v_{per} = 1{,}337\\cdot10^{7}\\cdot300\\cdot6000 = 2{,}41\\cdot10^{13}\\ \\text{kg}\\cdot\\text{m}^2\\cdot\\text{s}^{-1}$$
+
+**(b) Distancia máxima (apogeo) y velocidad.**
+Por la 3.ª ley de Kepler se obtiene el semieje mayor:
+$$T^2 = \\dfrac{4\\pi^2 a^3}{G M_T}\\ \\Rightarrow\\ a = \\sqrt[3]{\\dfrac{T^2 G M_T}{4\\pi^2}} = 1{,}69\\cdot10^{7}\\ \\text{m}$$
+$$r_{apo} = 2a - r_{per} = 2\\cdot1{,}69\\cdot10^{7} - 1{,}337\\cdot10^{7} = 2{,}04\\cdot10^{7}\\ \\text{m}$$
+Conservación del momento angular entre apogeo y perigeo:
+$$v_{apo} = \\dfrac{L}{m\\,r_{apo}} = \\dfrac{2{,}41\\cdot10^{13}}{300\\cdot2{,}04\\cdot10^{7}} = 3{,}92\\cdot10^{3}\\ \\text{m}\\cdot\\text{s}^{-1}$$
+
+**(c) Trabajo del apogeo al perigeo.**
+La fuerza gravitatoria es conservativa, $W = -\\Delta E_p = \\Delta E_c$:
+$$W = \\tfrac12 m\\,(v_{per}^2 - v_{apo}^2) = \\tfrac12\\cdot300\\,(6000^2 - 3920^2) = 3{,}09\\cdot10^{9}\\ \\text{J}$$
+
+## Ejercicio 3
+
+### Enunciado
+
+Dos partículas puntuales $A$ y $B$ con masas $m_A = 5\\ \\text{kg}$ y $m_B = 20\\ \\text{kg}$ están en el origen y en el punto $(6,0)\\ \\text{m}$, respectivamente, en reposo.
+
+**(a)** El campo gravitatorio en el punto $(1,0)\\ \\text{m}$.
+**(b)** El punto de equilibrio entre $A$ y $B$.
+**(c)** El trabajo de la fuerza gravitatoria al desplazar una masa de $100\\ \\text{g}$ desde $(1,0)\\ \\text{m}$ hasta $(2,0)\\ \\text{m}$.
+
+### Solución explicada
+
+**(a) Campo en $(1,0)\\ \\text{m}$.**
+El campo de cada masa apunta hacia ella. En $(1,0)$: $A$ está a $1\\ \\text{m}$ (campo hacia $-x$) y $B$ a $5\\ \\text{m}$ (campo hacia $+x$):
+$$\\vec{g} = -G\\dfrac{m_A}{1^2}\\,\\vec{i} + G\\dfrac{m_B}{5^2}\\,\\vec{i} = \\left(-6{,}67\\cdot10^{-11}\\cdot5 + 6{,}67\\cdot10^{-11}\\dfrac{20}{25}\\right)\\vec{i}$$
+$$\\vec{g} = -2{,}80\\cdot10^{-10}\\,\\vec{i}\\ \\text{N}\\cdot\\text{kg}^{-1}$$
+
+**(b) Punto de equilibrio.**
+Entre ambas los campos tienen sentidos opuestos; se igualan módulos ($x$ desde $A$):
+$$G\\dfrac{5}{x^2} = G\\dfrac{20}{(6-x)^2}\\ \\Rightarrow\\ \\dfrac{(6-x)^2}{x^2} = 4\\ \\Rightarrow\\ 6-x = 2x\\ \\Rightarrow\\ x = 2\\ \\text{m}$$
+El punto de equilibrio es $(2,0)\\ \\text{m}$ (la otra raíz, $x=-6$, carece de sentido físico).
+
+**(c) Trabajo al mover $m_C$ de $(1,0)$ a $(2,0)$.**
+$W = -\\Delta E_p$ con $E_p = -G m_C\\!\\left(\\dfrac{m_A}{r_A}+\\dfrac{m_B}{r_B}\\right)$:
+$$E_{p,i} = -G\\,0{,}1\\left(\\dfrac{5}{1}+\\dfrac{20}{5}\\right) = -6{,}00\\cdot10^{-11}\\ \\text{J}$$
+$$E_{p,f} = -G\\,0{,}1\\left(\\dfrac{5}{2}+\\dfrac{20}{4}\\right) = -5{,}00\\cdot10^{-11}\\ \\text{J}$$
+$$W = -\\big(E_{p,f}-E_{p,i}\\big) = -1{,}00\\cdot10^{-11}\\ \\text{J}$$
+
+## Ejercicio 4
+
+### Enunciado
+
+Dos cargas fijas $q_1 = 1\\ \\mu\\text{C}$ y $q_2$ (desconocida) están en $(-2,0)\\ \\text{m}$ y $(4,0)\\ \\text{m}$.
+
+**(a)** El valor de $q_2$ sabiendo que el campo en $(0,2)\\ \\text{m}$ sólo tiene componente $x$.
+**(b)** El campo eléctrico total en $(0,2)\\ \\text{m}$.
+**(c)** Si $q_2$ (masa $1\\ \\text{g}$) se deja libre, la velocidad al pasar por el origen.
+
+### Solución explicada
+
+**(a) Valor de $q_2$.**
+Para que $E_y=0$ en $P$, la componente $y$ de $q_2$ debe cancelar la de $q_1$; como $q_1>0$ empuja hacia $+y$, $q_2$ debe ser **negativa** (atrae hacia sí). Igualando módulos de $E_y$ (sen del ángulo $=$ cateto vertical $/$ distancia, altura $2\\ \\text{m}$):
+$$K\\dfrac{q_1}{d_1^2}\\cdot\\dfrac{2}{d_1} = K\\dfrac{|q_2|}{d_2^2}\\cdot\\dfrac{2}{d_2}\\ \\Rightarrow\\ |q_2| = q_1\\left(\\dfrac{d_2}{d_1}\\right)^3 = 1\\cdot10^{-6}\\left(\\dfrac{\\sqrt{20}}{\\sqrt{8}}\\right)^3 = 3{,}95\\ \\mu\\text{C}$$
+$$q_2 = -3{,}95\\ \\mu\\text{C}$$
+
+**(b) Campo total en $(0,2)\\ \\text{m}$.**
+Sólo quedan las componentes $x$ (ambas hacia $+x$): $q_1$ empuja hacia $+x$ (está a la izquierda) y $q_2<0$ atrae hacia $+x$ (está a la derecha):
+$$E_x = K\\dfrac{q_1}{d_1^2}\\dfrac{2}{d_1} + K\\dfrac{|q_2|}{d_2^2}\\dfrac{4}{d_2} = 9\\cdot10^{9}\\!\\left(\\dfrac{10^{-6}\\cdot2}{8\\sqrt8} + \\dfrac{3{,}95\\cdot10^{-6}\\cdot4}{20\\sqrt{20}}\\right) = 2{,}39\\cdot10^{3}\\ \\text{N}\\cdot\\text{C}^{-1}$$
+$$\\vec{E} = 2{,}39\\cdot10^{3}\\,\\vec{i}\\ \\text{N}\\cdot\\text{C}^{-1}$$
+
+**(c) Velocidad en el origen.**
+$q_2$ parte del reposo en $(4,0)$ (dista $6\\ \\text{m}$ de $q_1$) y llega al origen (dista $2\\ \\text{m}$). Conservación de la energía:
+$$K\\dfrac{q_1 q_2}{6} = K\\dfrac{q_1 q_2}{2} + \\tfrac12 m v^2$$
+$$-5{,}925\\cdot10^{-3} = -1{,}7775\\cdot10^{-2} + \\tfrac12\\,10^{-3}v^2\\ \\Rightarrow\\ v = 4{,}87\\ \\text{m}\\cdot\\text{s}^{-1}$$
+
+## Ejercicio 5
+
+### Enunciado
+
+Una bobina cuadrada de $10$ espiras de $10\\ \\text{cm}$ de lado y resistencia total $20\\ \\Omega$ se coloca perpendicular a un campo $B(t)=B_0 e^{-t/\\tau}$ con $B_0=0{,}5\\ \\text{T}$, $\\tau=1\\ \\text{ms}$.
+
+**(a)** En $t=2\\ \\text{ms}$: el flujo magnético, la f.e.m. inducida y la intensidad.
+**(b)** A partir de $t=3\\ \\text{ms}$ el campo es constante y la bobina rota con velocidad angular $\\omega$. Calcule $\\omega$ para que la intensidad máxima sea $5\\ \\text{mA}$.
+
+### Solución explicada
+
+**(a) Flujo, f.e.m. e intensidad en $t=2\\ \\text{ms}$.**
+Con $\\vec{B}\\parallel$ normal: $\\phi = B\\,S_{tot} = B_0 e^{-t/\\tau}\\,0{,}1$. En $t=2\\ \\text{ms}$ ($t/\\tau=2$):
+$$\\phi = 0{,}5\\,e^{-2}\\,0{,}1 = 6{,}77\\cdot10^{-3}\\ \\text{Wb}$$
+$$|\\varepsilon| = \\left|\\dfrac{d\\phi}{dt}\\right| = \\dfrac{B_0 S_{tot}}{\\tau}\\,e^{-t/\\tau} = \\dfrac{0{,}05}{10^{-3}}\\,e^{-2} = 6{,}77\\ \\text{V}$$
+$$I = \\dfrac{|\\varepsilon|}{R} = \\dfrac{6{,}77}{20} = 0{,}34\\ \\text{A}$$
+
+**(b) Rotación con campo constante.**
+Ahora $B=B_0 e^{-3}$ (constante) y el flujo varía por el giro: $\\phi = B\\,S_{tot}\\cos(\\omega t)$.
+$$|\\varepsilon| = B S_{tot}\\,\\omega\\,|\\sin(\\omega t)|\\ \\Rightarrow\\ |\\varepsilon|_{máx} = B_0 e^{-3} S_{tot}\\,\\omega$$
+La intensidad máxima:
+$$I_{máx} = \\dfrac{B_0 e^{-3} S_{tot}\\,\\omega}{R} = 5\\cdot10^{-3}\\ \\Rightarrow\\ \\omega = \\dfrac{5\\cdot10^{-3}\\cdot20}{0{,}5\\,e^{-3}\\cdot0{,}1} = 40{,}2\\ \\text{rad}\\cdot\\text{s}^{-1}$$
+
+## Ejercicio 6
+
+### Enunciado
+
+A $1500\\ \\text{m}$ de la casa de Juan hay una mina donde se producen explosiones idénticas. Juan mide un nivel de intensidad de $20\\ \\text{dB}$.
+
+**(a)** La potencia de cada explosión.
+**(b)** La potencia detectada por un micrófono de $2\\ \\text{cm}^2$.
+**(c)** La casa más cercana está a $50\\ \\text{m}$; el límite legal es $55\\ \\text{dB}$. Número máximo de explosiones simultáneas sin superarlo.
+
+### Solución explicada
+
+**(a) Potencia de una explosión.**
+De $L = 10\\log(I/I_0)$ con $L=20\\ \\text{dB}$: $I = I_0\\,10^{2} = 10^{-10}\\ \\text{W}\\cdot\\text{m}^{-2}$. Para un foco puntual $I = P/(4\\pi r^2)$:
+$$P = I\\,4\\pi r_1^2 = 10^{-10}\\cdot4\\pi\\,1500^2 = 2{,}83\\cdot10^{-3}\\ \\text{W}$$
+
+**(b) Potencia en el micrófono.**
+La intensidad en la casa es $I=10^{-10}\\ \\text{W}\\cdot\\text{m}^{-2}$:
+$$P_{mic} = I\\,S_{mic} = 10^{-10}\\cdot2\\cdot10^{-4} = 2\\cdot10^{-14}\\ \\text{W}$$
+
+**(c) Número máximo de explosiones a $50\\ \\text{m}$.**
+La potencia total que da $55\\ \\text{dB}$ a $50\\ \\text{m}$:
+$$P_{máx} = 10^{5{,}5}\\,I_0\\,4\\pi r_2^2 = 10^{5{,}5}\\cdot10^{-12}\\cdot4\\pi\\,50^2 = 9{,}93\\cdot10^{-3}\\ \\text{W}$$
+Número de explosiones simultáneas:
+$$n = \\dfrac{P_{máx}}{P} = \\dfrac{9{,}93\\cdot10^{-3}}{2{,}83\\cdot10^{-3}} = 3{,}5\\ \\Rightarrow\\ n_{máx} = 3\\ \\text{explosiones}$$
+
+## Ejercicio 7
+
+### Enunciado
+
+Una lámina de vidrio ($n_{vidrio}=1{,}55$) de espesor $d$ flota sobre agua ($n_{agua}=1{,}33$); encima hay aire. Un rayo de luz monocromática de $f=7\\cdot10^{14}\\ \\text{Hz}$ incide desde el agua hacia el vidrio con $\\alpha=40^\\circ$; entre la entrada $(A)$ y la salida $(B)$ por la lámina hay $2\\ \\text{cm}$ de desplazamiento horizontal.
+
+**(a)** Las longitudes de onda del rayo en el agua y en el vidrio.
+**(b)** El espesor $d$ del vidrio y el tiempo que tarda el rayo en atravesarlo.
+**(c)** El ángulo de incidencia mínimo en la interfase agua-vidrio para que la luz no salga al aire.
+
+### Solución explicada
+
+**(a) Longitudes de onda.**
+$\\lambda = v/f = c/(n f)$:
+$$\\lambda_{agua} = \\dfrac{3\\cdot10^{8}}{1{,}33\\cdot7\\cdot10^{14}} = 3{,}22\\cdot10^{-7}\\ \\text{m} = 322\\ \\text{nm}$$
+$$\\lambda_{vidrio} = \\dfrac{3\\cdot10^{8}}{1{,}55\\cdot7\\cdot10^{14}} = 2{,}76\\cdot10^{-7}\\ \\text{m} = 276\\ \\text{nm}$$
+
+**(b) Espesor $d$ y tiempo.**
+Ley de Snell en agua-vidrio:
+$$n_{agua}\\sin40^\\circ = n_{vidrio}\\sin\\beta\\ \\Rightarrow\\ \\sin\\beta = \\dfrac{1{,}33\\sin40^\\circ}{1{,}55}\\ \\Rightarrow\\ \\beta = 33{,}5^\\circ$$
+El rayo cruza con ángulo $\\beta$ respecto a la normal (vertical). El desplazamiento horizontal se relaciona con $d$:
+$$\\tan\\beta = \\dfrac{2\\ \\text{cm}}{d}\\ \\Rightarrow\\ d = \\dfrac{2}{\\tan33{,}5^\\circ} = 3{,}02\\ \\text{cm}$$
+Recorrido dentro del vidrio: $d_{AB}=\\sqrt{d^2+2^2} = \\sqrt{3{,}02^2+2^2} = 3{,}63\\ \\text{cm}$.
+$$t = \\dfrac{d_{AB}}{v_{vidrio}} = \\dfrac{3{,}63\\cdot10^{-2}}{\\,c/1{,}55\\,} = 1{,}88\\cdot10^{-10}\\ \\text{s}$$
+
+**(c) Ángulo mínimo para reflexión total hacia el aire.**
+En vidrio-aire el ángulo límite cumple $n_{vidrio}\\sin\\beta_L = 1$. Para que el rayo llegue al vidrio con ese $\\beta_L$, por Snell en agua-vidrio $n_{agua}\\sin\\beta_{min}=n_{vidrio}\\sin\\beta_L = 1$:
+$$\\sin\\beta_{min} = \\dfrac{1}{n_{agua}} = \\dfrac{1}{1{,}33}\\ \\Rightarrow\\ \\beta_{min} = 48{,}8^\\circ$$
+`,Re=`---
+title: Física · PAU 2025 · Madrid — examen resuelto
+seoTitle: PAU Física Madrid 2025 resuelta paso a paso
+date: 2025-06-01
+updated: 2026-11-05
+description: Examen de Física de Madrid 2025 resuelto paso a paso para 2.º de Bachillerato.
+tag: Física PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+Eris es un planeta enano del sistema solar. Tiene un diámetro de $2330\\ \\text{km}$ y su densidad es de $2{,}5\\ \\text{g/cm}^3$. Su órbita es muy excéntrica: su afelio está a $1{,}45\\cdot10^{13}\\ \\text{m}$ del Sol y su perihelio a $5{,}24\\cdot10^{12}\\ \\text{m}$.
+
+**(a)** Calcule la masa del planeta y el valor de la aceleración de la gravedad en su superficie.
+
+**(b)** Sabiendo que la energía mecánica de un objeto de masa $m_1$ que orbita a otro de masa $m_2$ en órbita elíptica de semieje mayor $a$ es $E_{\\text{mec}} = -\\dfrac{G m_1 m_2}{2a}$, halle la energía mecánica de Eris y su velocidad orbital en el perihelio.
+
+*Datos:* $G = 6{,}67\\cdot10^{-11}\\ \\text{N m}^2\\text{kg}^{-2}$; $M_{\\text{Sol}} = 1{,}99\\cdot10^{30}\\ \\text{kg}$.
+
+### Solución explicada
+
+**(a)** Radio $R = D/2 = 1{,}165\\cdot10^{6}\\ \\text{m}$. Volumen y masa:
+$$V = \\tfrac{4}{3}\\pi R^3 = 6{,}62\\cdot10^{18}\\ \\text{m}^3,\\qquad M = \\rho\\,V = 2500\\cdot 6{,}62\\cdot10^{18} = 1{,}66\\cdot10^{22}\\ \\text{kg}.$$
+Gravedad superficial:
+$$g = \\dfrac{GM}{R^2} = \\dfrac{6{,}67\\cdot10^{-11}\\cdot 1{,}66\\cdot10^{22}}{(1{,}165\\cdot10^{6})^2} \\approx 0{,}82\\ \\text{m/s}^2.$$
+
+**(b)** Semieje mayor:
+$$a = \\dfrac{r_a + r_p}{2} = \\dfrac{1{,}45\\cdot10^{13} + 5{,}24\\cdot10^{12}}{2} = 9{,}87\\cdot10^{12}\\ \\text{m}.$$
+Energía mecánica:
+$$E_{\\text{mec}} = -\\dfrac{GM_{\\text{Sol}}M}{2a} = -\\dfrac{6{,}67\\cdot10^{-11}\\cdot 1{,}99\\cdot10^{30}\\cdot 1{,}66\\cdot10^{22}}{2\\cdot 9{,}87\\cdot10^{12}} \\approx -1{,}11\\cdot10^{29}\\ \\text{J}.$$
+Velocidad en el perihelio (conservación de la energía, $E_{\\text{mec}} = \\tfrac12 M v_p^2 - \\dfrac{GM_{\\text{Sol}}M}{r_p}$):
+$$v_p = \\sqrt{2GM_{\\text{Sol}}\\left(\\dfrac{1}{r_p} - \\dfrac{1}{2a}\\right)} \\approx 6{,}1\\cdot10^{3}\\ \\text{m/s}.$$
+
+## Ejercicio 2
+
+### Enunciado
+
+Un electrón de carga $-e$ y un positrón de carga $+e$ se encuentran inicialmente fijos en el plano $xy$ en las posiciones $(0, 6)\\ \\text{nm}$ y $(0, -6)\\ \\text{nm}$, respectivamente.
+
+**(a)** Obtenga el campo eléctrico en el punto $(8, 0)\\ \\text{nm}$ debido a ambas partículas.
+
+**(b)** Si al positrón se le imprime una velocidad de $-1{,}5\\cdot10^{5}\\ \\text{m/s}\\,\\vec{j}$, permaneciendo fijo el electrón, determine la máxima distancia de alejamiento entre ambas partículas.
+
+*Datos:* $K = 9\\cdot10^{9}\\ \\text{N m}^2\\text{C}^{-2}$; $e = 1{,}6\\cdot10^{-19}\\ \\text{C}$; $m_e = 9{,}1\\cdot10^{-31}\\ \\text{kg}$.
+
+### Solución explicada
+
+**(a)** La distancia de cada carga al punto $(8,0)\\ \\text{nm}$ es
+$$d = \\sqrt{6^2 + 8^2} = 10\\ \\text{nm} = 1{,}0\\cdot10^{-8}\\ \\text{m},\\qquad \\theta = \\arctan\\!\\dfrac{8}{6} = 53{,}13^\\circ.$$
+Ambas cargas tienen igual módulo y distancia, luego crean campos de igual módulo:
+$$|\\vec{E}_\\pm| = K\\dfrac{e}{d^2} = 9\\cdot10^{9}\\cdot\\dfrac{1{,}6\\cdot10^{-19}}{(10^{-8})^2} = 1{,}44\\cdot10^{7}\\ \\text{N/C}.$$
+Por la geometría (simetría respecto al eje $x$), las componentes $x$ se cancelan y las $y$ se suman:
+$$\\vec{E}_{\\text{total}} = 2\\,|\\vec{E}|\\cos\\theta\\,\\vec{j} = 1{,}73\\cdot10^{7}\\ \\text{N/C}\\,\\vec{j}.$$
+
+**(b)** Conservación de la energía entre el estado inicial $A$ (separación $2y_0 = 12\\ \\text{nm}$, positrón con velocidad $v_0$) y el de máximo alejamiento $B$ (velocidad nula). Como electrón y positrón se atraen, el positrón se aleja hasta frenarse.
+$$E_{c,A} = \\tfrac12 m_e v_0^2 = 1{,}02\\cdot10^{-20}\\ \\text{J},\\qquad E_{p,A} = -K\\dfrac{e^2}{2y_0} = -1{,}92\\cdot10^{-20}\\ \\text{J}.$$
+En $B$: $E_{c,B}=0$ y $E_{p,B} = -K\\dfrac{e^2}{d'}$. Igualando energías mecánicas:
+$$d' = -\\dfrac{K e^2}{E_{c,A} + E_{p,A}} = -\\dfrac{9\\cdot10^{9}\\cdot(1{,}6\\cdot10^{-19})^2}{1{,}02\\cdot10^{-20} - 1{,}92\\cdot10^{-20}} \\approx 2{,}57\\cdot10^{-8}\\ \\text{m}.$$
+
+## Ejercicio 3
+
+### Enunciado
+
+Una espira conductora circular de radio $20\\ \\text{cm}$ se encuentra en un campo magnético homogéneo perpendicular a su plano. Si la espira tiene una resistencia de $40\\ \\Omega$, calcule la máxima intensidad de corriente que circulará por ella en los casos:
+
+**(a)** El módulo del campo es constante, $B = 150\\ \\text{mT}$, y la espira gira en torno a uno de sus diámetros con velocidad angular $50\\ \\text{rad/s}$.
+
+**(b)** La espira está fija y el campo varía como $B = B_0\\,\\mathrm{sen}(\\omega t)$, con $B_0 = 200\\ \\text{mT}$ y $\\omega = 75\\ \\text{rad/s}$.
+
+### Solución explicada
+
+**(a)** La espira gira: el flujo es $\\Phi = B\\,\\pi r^2\\cos(\\omega t + \\varphi)$. La fem inducida:
+$$\\varepsilon = -\\dfrac{d\\Phi}{dt} = B\\,\\pi r^2\\,\\omega\\,\\mathrm{sen}(\\omega t + \\varphi)\\ \\Rightarrow\\ \\varepsilon_{\\max} = B\\,\\pi r^2\\,\\omega.$$
+$$\\varepsilon_{\\max} = 0{,}15\\cdot\\pi\\cdot(0{,}20)^2\\cdot 50 = 0{,}942\\ \\text{V}.$$
+Por la ley de Ohm:
+$$I_{\\max} = \\dfrac{\\varepsilon_{\\max}}{R} = \\dfrac{0{,}942}{40} = 0{,}0236\\ \\text{A} = 23{,}6\\ \\text{mA}.$$
+
+**(b)** La espira está fija y varía $B$: $\\Phi = B_0\\,\\mathrm{sen}(\\omega t)\\,\\pi r^2$. La fem:
+$$\\varepsilon = -\\dfrac{d\\Phi}{dt} = -B_0\\,\\omega\\cos(\\omega t)\\,\\pi r^2\\ \\Rightarrow\\ \\varepsilon_{\\max} = B_0\\,\\omega\\,\\pi r^2.$$
+$$\\varepsilon_{\\max} = 0{,}20\\cdot 75\\cdot\\pi\\cdot(0{,}20)^2 = 1{,}88\\ \\text{V}.$$
+$$I_{\\max} = \\dfrac{1{,}88}{40} = 0{,}0471\\ \\text{A} = 47{,}1\\ \\text{mA}.$$
+
+## Ejercicio 4
+
+### Enunciado
+
+Una ballena sumergida emite un sonido grave de $60\\ \\text{Hz}$ y $25\\ \\text{m}$ de longitud de onda. Un barco $A$, situado sobre su vertical, detecta el sonido $80\\ \\text{ms}$ después de ser emitido, y poco después lo detecta otro barco $B$ situado a $300\\ \\text{m}$ del barco $A$.
+
+**(a)** Halle la profundidad a la que se encuentra la ballena.
+
+**(b)** Si el barco $A$ recibe el sonido con una intensidad de $3\\ \\mu\\text{W/m}^2$, calcule la potencia del sonido emitido y el nivel de intensidad sonora que detectará el barco $B$.
+
+*Dato:* intensidad umbral, $I_0 = 1\\cdot10^{-12}\\ \\text{W/m}^2$.
+
+### Solución explicada
+
+**(a)** Velocidad del sonido en el agua:
+$$v = \\lambda f = 25\\cdot 60 = 1500\\ \\text{m/s}.$$
+Profundidad (distancia vertical ballena–barco $A$):
+$$h = v\\,t = 1500\\cdot 0{,}08 = 120\\ \\text{m}.$$
+
+**(b)** La potencia emitida se obtiene de la intensidad en $A$ (a distancia $h$), con frente esférico:
+$$P = I_A\\cdot 4\\pi h^2 = 3\\cdot10^{-6}\\cdot 4\\pi\\cdot(120)^2 = 0{,}543\\ \\text{W}.$$
+Distancia ballena–barco $B$:
+$$d = \\sqrt{D_{AB}^2 + h^2} = \\sqrt{300^2 + 120^2} = 323\\ \\text{m}.$$
+Intensidad en $B$:
+$$I_B = \\dfrac{P}{4\\pi d^2} = I_A\\left(\\dfrac{h}{d}\\right)^2 = 0{,}414\\ \\mu\\text{W/m}^2 = 4{,}14\\cdot10^{-7}\\ \\text{W/m}^2.$$
+Nivel de intensidad sonora:
+$$\\beta = 10\\log_{10}\\dfrac{I_B}{I_0} = 10\\log_{10}\\dfrac{4{,}14\\cdot10^{-7}}{10^{-12}} = 56{,}2\\ \\text{dB}.$$
+
+## Ejercicio 5
+
+### Enunciado
+
+Considere la imagen formada por una lente delgada de distancia focal $f'$ de un objeto situado a una distancia $s$ a la izquierda de la lente.
+
+**(a)** Demuestre que el aumento lateral $M$ tiene la expresión $M = \\dfrac{f'}{f' + s}$.
+
+**(b)** Razone si una lente divergente puede formar una imagen invertida.
+
+**(c)** Dibuje el trazado de rayos de la imagen formada por una lente divergente si el objeto se sitúa a una distancia doble de su distancia focal.
+
+### Solución explicada
+
+**(a)** Partimos de la ecuación gaussiana $\\dfrac{1}{s'} - \\dfrac{1}{s} = \\dfrac{1}{f'}$. Despejando $s'$:
+$$s' = \\dfrac{1}{\\tfrac{1}{f'} + \\tfrac{1}{s}} = \\dfrac{f'\\,s}{f' + s}.$$
+El aumento lateral es $M = \\dfrac{s'}{s}$, luego:
+$$M = \\dfrac{1}{s}\\cdot\\dfrac{f'\\,s}{f' + s} = \\dfrac{f'}{f' + s}.$$
+
+**(b)** Para un objeto real a la izquierda, $s < 0$. En una lente **divergente**, $f' < 0$. Entonces el numerador $f'$ es negativo y el denominador $f' + s$ también es negativo (suma de dos negativos), de modo que su cociente $M$ es **positivo**. Un aumento positivo significa imagen **derecha**: por tanto una lente divergente **nunca** forma una imagen invertida (con objeto real).
+
+**(c)** Con el objeto a $2f$ de una lente divergente: un rayo paralelo al eje emerge como si procediera del foco imagen $F'$ (situado del lado del objeto); un rayo que pasa por el centro óptico no se desvía. Las prolongaciones hacia atrás de los rayos emergentes se cortan entre la lente y el foco, dando una imagen **virtual, derecha y menor** que el objeto.
+
+## Ejercicio 6
+
+### Enunciado
+
+Las moléculas de ozono absorben luz ultravioleta (UV) de alta energía.
+
+**(a)** Halle la diferencia de energía, en electrón-voltios, entre los niveles electrónicos de la molécula de ozono que inducen la absorción de radiación de $260\\ \\text{nm}$.
+
+**(b)** Si el flujo de fotones de $260\\ \\text{nm}$ que llega a una persona es de $2{,}6\\cdot10^{14}\\ \\text{fotones/s}$, calcule la potencia que le incide debida a esos fotones UV y la energía recibida en $30\\ \\text{minutos}$.
+
+*Datos:* $e = 1{,}6\\cdot10^{-19}\\ \\text{C}$; $h = 6{,}63\\cdot10^{-34}\\ \\text{J s}$; $c = 3\\cdot10^{8}\\ \\text{m/s}$.
+
+
+### Esquema para el apartado gráfico
+
+![Trazado de rayos para una lente divergente y un espejo cóncavo](/assets/latex/pau-fisica-optics.svg)
+### Solución explicada
+
+**(a)** La energía de un fotón de $260\\ \\text{nm}$ es igual a la diferencia de energía entre niveles:
+$$E = \\dfrac{hc}{\\lambda} = \\dfrac{6{,}63\\cdot10^{-34}\\cdot 3\\cdot10^{8}}{260\\cdot10^{-9}} = 7{,}65\\cdot10^{-19}\\ \\text{J}.$$
+En electrón-voltios:
+$$E = \\dfrac{7{,}65\\cdot10^{-19}}{1{,}6\\cdot10^{-19}} = 4{,}78\\ \\text{eV}.$$
+
+**(b)** La potencia es el flujo de fotones por la energía de cada fotón:
+$$P = \\Phi\\,E = 2{,}6\\cdot10^{14}\\cdot 7{,}65\\cdot10^{-19} = 1{,}99\\cdot10^{-4}\\ \\text{W}.$$
+La energía recibida en $30\\ \\text{min} = 1800\\ \\text{s}$:
+$$E_{\\text{recibida}} = P\\,t = 1{,}99\\cdot10^{-4}\\cdot 1800 = 0{,}358\\ \\text{J}.$$
+
+## Ejercicio 7
+
+### Enunciado
+
+El mineral de cuarzo ($\\text{SiO}_2$) en superficie contiene impurezas de $^{26}\\text{Al}$, con $0{,}1\\%$ de átomos de $^{26}\\text{Al}$ respecto a los átomos de silicio. Al enterrarse el mineral, el $^{26}\\text{Al}$ se desintegra con un periodo de semidesintegración de $0{,}72$ millones de años.
+
+**(a)** Calcule la actividad de una muestra de cuarzo en superficie debida al $^{26}\\text{Al}$ si contiene $8{,}3\\cdot10^{22}$ átomos de silicio.
+
+**(b)** Se recoge una muestra de unos sedimentos con una relación de $0{,}08\\%$ de $^{26}\\text{Al}$ respecto al silicio. Obtenga la edad de formación de dichos sedimentos.
+
+### Solución explicada
+
+**(a)** Periodo en segundos: $T_{1/2} = 0{,}72\\cdot10^{6}\\ \\text{años} = 2{,}27\\cdot10^{13}\\ \\text{s}$. Vida media y constante:
+$$\\tau = \\dfrac{T_{1/2}}{\\ln 2} = 3{,}27\\cdot10^{13}\\ \\text{s},\\qquad \\lambda = \\dfrac{1}{\\tau} = 3{,}05\\cdot10^{-14}\\ \\text{s}^{-1}.$$
+Número de núcleos de $^{26}\\text{Al}$ en superficie:
+$$N_{\\text{Al}} = N_{\\text{Si}}\\cdot 10^{-3} = 8{,}3\\cdot10^{22}\\cdot 10^{-3} = 8{,}3\\cdot10^{19}\\ \\text{núcleos}.$$
+Actividad:
+$$A = \\lambda N_{\\text{Al}} = 3{,}05\\cdot10^{-14}\\cdot 8{,}3\\cdot10^{19} = 2{,}53\\cdot10^{6}\\ \\text{Bq}.$$
+
+**(b)** La relación inicial es $0{,}1\\%$ y la actual $0{,}08\\%$ (el silicio no se desintegra, sirve de referencia):
+$$\\dfrac{N_0}{N(t)} = \\dfrac{0{,}1\\%}{0{,}08\\%} = 1{,}25.$$
+De $N(t) = N_0\\,e^{-t/\\tau}$:
+$$t = \\tau\\,\\ln\\!\\dfrac{N_0}{N(t)} = 3{,}27\\cdot10^{13}\\cdot\\ln(1{,}25) = 7{,}31\\cdot10^{12}\\ \\text{s} \\approx 0{,}232\\ \\text{millones de años}.$$
+`,Oe=`---
+title: Física · PAU 2026 · Andalucía — examen resuelto
+seoTitle: PAU Física Andalucía 2026 resuelta paso a paso
+date: 2026-06-01
+updated: 2026-11-05
+description: Examen de Física de Andalucía 2026 resuelto paso a paso para 2.º de Bachillerato.
+tag: Física PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+**(a)** Razone la veracidad de: i) para que la energía mecánica se conserve es necesario que la resultante de todas las fuerzas sobre un cuerpo sea nula; ii) la energía mecánica se conserva cuando sobre un cuerpo actúan solo fuerzas conservativas.
+
+**(b)** Un niño de $15\\ \\text{kg}$ resbala desde el reposo por un tobogán de $2\\ \\text{m}$ de altura inclinado $30^\\circ$. Con coeficiente de rozamiento dinámico $0{,}25$: i) haga un esquema de fuerzas y determine el trabajo de la fuerza de rozamiento; ii) calcule la energía cinética al final y la velocidad de llegada.
+
+
+### Esquema para el apartado gráfico
+
+![Diagrama de cuerpo libre con las fuerzas que actúan sobre el bloque](/assets/latex/pau-fisica-forces.svg)
+### Solución explicada
+
+**(a)** i) **Falsa.** La energía mecánica se conserva si no actúan fuerzas no conservativas (como el rozamiento), aunque la resultante no sea nula; por ejemplo, en caída libre la resultante (el peso) no es nula y la energía mecánica se conserva. ii) **Verdadera.** Si solo actúan fuerzas conservativas, el trabajo total es $-\\Delta E_p$ y la energía mecánica $E_m=E_c+E_p$ permanece constante.
+
+**(b)** Sobre el niño actúan: peso $mg$, normal $N$ y rozamiento $F_r$ (opuesto al movimiento). La longitud del plano es $L=\\dfrac{h}{\\text{sen}\\,30^\\circ}=\\dfrac{2}{0{,}5}=4\\ \\text{m}$. La normal:
+$$N=mg\\cos30^\\circ=15\\cdot9{,}8\\cdot\\cos30^\\circ=127{,}3\\ \\text{N}$$
+i) Trabajo del rozamiento ($F_r=\\mu N$, opuesto al desplazamiento):
+$$W_{roz}=-\\mu N\\,L=-0{,}25\\cdot127{,}3\\cdot4=-127{,}3\\ \\text{J}$$
+ii) Por el teorema de la energía (parte del reposo), $E_c=mgh+W_{roz}$:
+$$E_c=15\\cdot9{,}8\\cdot2-127{,}3=294-127{,}3=166{,}7\\ \\text{J}$$
+$$v=\\sqrt{\\dfrac{2E_c}{m}}=\\sqrt{\\dfrac{2\\cdot166{,}7}{15}}=4{,}71\\ \\text{m/s}$$
+
+## Ejercicio 2
+
+### Enunciado
+
+Indique, razonando, si son ciertos: **i)** si el flujo magnético a través de una superficie es cero, entonces necesariamente el campo magnético es nulo; **ii)** la fuerza electromotriz inducida será no nula si el flujo es no nulo.
+
+### Solución explicada
+
+**i) Falsa.** El flujo es $\\Phi=\\displaystyle\\int \\vec{B}\\cdot d\\vec{S}=B\\,S\\cos\\theta$. Puede ser cero sin que $\\vec{B}$ lo sea:
+- si $\\vec{B}$ es perpendicular a la normal de la superficie ($\\theta=90^\\circ$, $\\cos\\theta=0$), o
+- si las contribuciones positivas y negativas del flujo se compensan (por ejemplo, un campo que entra por una mitad y sale por la otra).
+
+**ii) Falsa.** La fem inducida depende de la **variación** del flujo, no de su valor: $\\varepsilon=-\\dfrac{d\\Phi}{dt}$. Un flujo grande pero **constante** da fem nula; y un flujo que pasa por cero puede, en ese instante, tener máxima rapidez de variación y, por tanto, máxima fem. Lo determinante es $d\\Phi/dt$, no $\\Phi$.
+
+## Ejercicio 3
+
+### Enunciado
+
+Dos partículas idénticas de carga $q$ y masa $m$ están separadas una distancia $d$. Una se mantiene fija y la otra se aleja por la fuerza electrostática hasta duplicar la distancia inicial.
+
+**(a)** Determine la expresión del módulo de la velocidad que adquiere la partícula en el punto final.
+
+**(b)** Indique cómo cambiaría esa velocidad si se duplicara el valor de ambas cargas.
+
+### Solución explicada
+
+**(a)** Por conservación de la energía (parte del reposo). La energía potencial de dos cargas iguales a distancia $r$ es $E_p=\\dfrac{k q^2}{r}$:
+$$E_{p,i}=\\dfrac{kq^2}{d}, \\qquad E_{p,f}=\\dfrac{kq^2}{2d}$$
+La energía cinética final es $\\tfrac12 m v^2=E_{p,i}-E_{p,f}$:
+$$\\tfrac12 m v^2 = \\dfrac{kq^2}{d}-\\dfrac{kq^2}{2d} = \\dfrac{kq^2}{2d}$$
+$$\\boxed{v = \\sqrt{\\dfrac{kq^2}{m d}} = q\\sqrt{\\dfrac{k}{m d}}}$$
+
+**(b)** Si ambas cargas se duplican ($q\\to 2q$), $E_p\\propto q^2$ y $v\\propto q$. Como $v=q\\sqrt{\\dfrac{k}{md}}$, al duplicar $q$ la velocidad se **duplica** (en realidad $v\\propto q$, de modo que $v_{nueva}=2v$).
+
+## Ejercicio 4
+
+### Enunciado
+
+Una espira circular de área $40\\ \\text{cm}^2$ gira a $1500\\ \\text{rpm}$ alrededor de un diámetro perpendicular a un campo magnético uniforme de $0{,}25\\ \\text{T}$; su resistencia es $10\\ \\Omega$. En $t=0$ el flujo es máximo.
+
+**(a)** Determine el flujo magnético en función del tiempo.
+
+**(b)** Calcule la fem y la intensidad inducidas en función del tiempo. ¿La corriente es continua o alterna?
+
+### Solución explicada
+
+La velocidad angular:
+$$\\omega = 1500\\,\\dfrac{2\\pi}{60} = 157\\ \\text{rad/s}$$
+
+**(a)** Como en $t=0$ el flujo es máximo, $\\Phi=B S\\cos(\\omega t)$:
+$$\\Phi(t) = 0{,}25\\cdot 4\\cdot10^{-3}\\cos(157\\,t) = 1{,}0\\cdot10^{-3}\\cos(157\\,t)\\ \\text{Wb}$$
+
+**(b)** Fem inducida (Faraday):
+$$\\varepsilon = -\\dfrac{d\\Phi}{dt} = B S\\,\\omega\\,\\text{sen}(\\omega t) = 1{,}0\\cdot10^{-3}\\cdot157\\,\\text{sen}(157\\,t) = 0{,}157\\,\\text{sen}(157\\,t)\\ \\text{V}$$
+Intensidad (ley de Ohm):
+$$I = \\dfrac{\\varepsilon}{R} = \\dfrac{0{,}157}{10}\\,\\text{sen}(157\\,t) = 1{,}57\\cdot10^{-2}\\,\\text{sen}(157\\,t)\\ \\text{A}$$
+La fem y la corriente son **sinusoidales**: la corriente es **alterna** (cambia periódicamente de sentido). Es el principio del alternador.
+
+## Ejercicio 5
+
+### Enunciado
+
+Un electrón se lanza desde el infinito con velocidad inicial $10^{7}\\ \\text{m·s}^{-1}$ hacia una carga puntual de $-5\\ \\mu\\text{C}$ fija.
+
+**(a)** Determine la distancia a la carga en la que se anula la velocidad del electrón.
+
+**(b)** Calcule el módulo y el carácter (atractiva o repulsiva) de la fuerza a esa distancia.
+
+### Solución explicada
+
+El electrón (carga $-e$) y la carga $Q$ (negativa) se **repelen**, por lo que el electrón se frena al acercarse. La energía potencial del par es $E_p=\\dfrac{k(-e)(Q)}{r}=\\dfrac{k\\,e\\,|Q|}{r}>0$ (ambas negativas).
+
+**(a)** Conservación de la energía (en el infinito $E_p=0$, toda es cinética; en el punto de retorno $v=0$):
+$$\\tfrac12 m_e v_0^2 = \\dfrac{k\\,e\\,|Q|}{r} \\;\\Rightarrow\\; r = \\dfrac{k\\,e\\,|Q|}{\\tfrac12 m_e v_0^2}$$
+$$\\tfrac12 m_e v_0^2 = \\tfrac12\\cdot9{,}1\\cdot10^{-31}\\cdot(10^{7})^2 = 4{,}55\\cdot10^{-17}\\ \\text{J}$$
+$$r = \\dfrac{9\\cdot10^{9}\\cdot1{,}6\\cdot10^{-19}\\cdot5\\cdot10^{-6}}{4{,}55\\cdot10^{-17}} = 158\\ \\text{m}$$
+
+**(b)** La fuerza a esa distancia:
+$$F = \\dfrac{k\\,e\\,|Q|}{r^2} = \\dfrac{9\\cdot10^{9}\\cdot1{,}6\\cdot10^{-19}\\cdot5\\cdot10^{-6}}{158^2} = 2{,}9\\cdot10^{-19}\\ \\text{N}$$
+Es **repulsiva** (dos cargas negativas).
+
+## Ejercicio 6
+
+### Enunciado
+
+Se sitúa un objeto luminoso delante de una lente divergente. Dibuje el trazado de rayos e indique razonadamente las características de la imagen obtenida.
+
+
+### Esquema para el apartado gráfico
+
+![Trazado de rayos para una lente divergente y un espejo cóncavo](/assets/latex/pau-fisica-optics.svg)
+### Solución explicada
+
+Una lente **divergente** tiene $f'<0$. Para un objeto real se trazan:
+
+1. Rayo **paralelo** al eje: al salir diverge como si procediera del foco imagen $F'$ (situado en el mismo lado que el objeto); su prolongación pasa por $F'$.
+2. Rayo que pasa por el **centro óptico**: no se desvía.
+
+Las prolongaciones de los rayos emergentes se cortan en el lado del objeto. La imagen resulta:
+- **Virtual** (formada por prolongaciones, no proyectable),
+- **Derecha** (del mismo sentido que el objeto),
+- **Menor** que el objeto y situada **entre la lente y el objeto**.
+
+Esto ocurre para **cualquier** posición del objeto real, ya que con $\\dfrac{1}{s'}-\\dfrac{1}{s}=\\dfrac{1}{f'}$ ($f'<0$, $s<0$) siempre resulta $s'<0$ y $0<m<1$.
+
+## Ejercicio 7
+
+### Enunciado
+
+Una onda armónica pasa de un medio a otro y la longitud de onda en el segundo medio es la mitad que en el primero. Obtenga de forma justificada la relación entre: **i)** las velocidades de propagación en ambos medios; **ii)** la velocidad máxima de oscilación en ambos medios si no cambia la amplitud.
+
+### Solución explicada
+
+Al pasar de un medio a otro, la **frecuencia no cambia** (la impone la fuente): $f_1=f_2=f$.
+
+**i)** Como $v=\\lambda f$:
+$$\\dfrac{v_2}{v_1} = \\dfrac{\\lambda_2 f}{\\lambda_1 f} = \\dfrac{\\lambda_2}{\\lambda_1} = \\dfrac{1}{2} \\;\\Rightarrow\\; v_2 = \\dfrac{v_1}{2}$$
+La velocidad de propagación en el segundo medio es la mitad.
+
+**ii)** La velocidad máxima de oscilación de un punto es $v_{osc,max}=A\\,\\omega=A\\,2\\pi f$. Como ni la amplitud $A$ ni la frecuencia $f$ cambian:
+$$v_{osc,max,2} = v_{osc,max,1}$$
+La velocidad máxima de oscilación es la **misma** en ambos medios.
+
+## Ejercicio 8
+
+### Enunciado
+
+Se proyecta un objeto de $0{,}2\\ \\text{mm}$ con una lente convergente sobre una pantalla situada a $28\\ \\text{cm}$ a la derecha del objeto. La lente se coloca a $3{,}8\\ \\text{cm}$ del objeto.
+
+**(a)** Determine la distancia focal de la lente para enfocar en la pantalla, indicando el criterio de signos.
+
+**(b)** Determine el tamaño de la imagen.
+
+### Solución explicada
+
+Criterio de signos: distancias positivas a la derecha de la lente; objeto real $s=-3{,}8\\ \\text{cm}$; la pantalla está a $28-3{,}8=24{,}2\\ \\text{cm}$ a la derecha de la lente, $s'=+24{,}2\\ \\text{cm}$.
+
+**(a)** Ecuación de la lente delgada:
+$$\\dfrac{1}{s'}-\\dfrac{1}{s}=\\dfrac{1}{f'} \\;\\Rightarrow\\; \\dfrac{1}{f'}=\\dfrac{1}{24{,}2}-\\dfrac{1}{-3{,}8}=\\dfrac{1}{24{,}2}+\\dfrac{1}{3{,}8}=0{,}3045\\ \\text{cm}^{-1}$$
+$$f' = 3{,}28\\ \\text{cm}$$
+
+**(b)** Aumento lateral:
+$$m=\\dfrac{s'}{s}=\\dfrac{24{,}2}{-3{,}8}=-6{,}37 \\;\\Rightarrow\\; y'=m\\,y=-6{,}37\\cdot0{,}2=-1{,}27\\ \\text{mm}$$
+La imagen es real, invertida y de tamaño $|y'|\\approx1{,}3\\ \\text{mm}$.
+
+## Ejercicio 9
+
+### Enunciado
+
+La cuerda de una guitarra vibra según $y(x,t)=0{,}01\\,\\text{sen}(10\\pi x)\\cos(200\\pi t)$ (SI).
+
+**(a)** Indique qué tipo de onda es.
+
+**(b)** Calcule la amplitud y la velocidad de propagación de las ondas cuya superposición da lugar a ella.
+
+**(c)** Determine la velocidad de oscilación de un punto situado en $x=10\\ \\text{cm}$.
+
+### Solución explicada
+
+**(a)** El producto de una función solo de $x$ por otra solo de $t$ ($\\text{sen}(kx)\\cos(\\omega t)$) corresponde a una **onda estacionaria**, resultado de la superposición de dos ondas iguales que viajan en sentidos opuestos.
+
+**(b)** Comparando con $y=2A\\,\\text{sen}(kx)\\cos(\\omega t)$: la amplitud de cada onda componente cumple $2A=0{,}01\\ \\text{m}$, luego $A=5\\cdot10^{-3}\\ \\text{m}$. Con $k=10\\pi\\ \\text{rad/m}$ y $\\omega=200\\pi\\ \\text{rad/s}$:
+$$v=\\dfrac{\\omega}{k}=\\dfrac{200\\pi}{10\\pi}=20\\ \\text{m/s}$$
+
+**(c)** La velocidad de oscilación es $v_y=\\dfrac{\\partial y}{\\partial t}=-0{,}01\\cdot200\\pi\\,\\text{sen}(10\\pi x)\\,\\text{sen}(200\\pi t)$. En $x=0{,}10\\ \\text{m}$:
+$$\\text{sen}(10\\pi\\cdot0{,}10)=\\text{sen}(\\pi)=0 \\;\\Rightarrow\\; v_y=0$$
+El punto $x=10\\ \\text{cm}$ es un **nodo**: permanece en reposo (su velocidad de oscilación es nula en todo instante).
+
+## Ejercicio 10
+
+### Enunciado
+
+Se produce emisión de fotoelectrones en un metal cuando la frecuencia mínima de la radiación corresponde a luz amarilla. Razone: **i)** ¿qué sucede si se irradia con luz roja? **ii)** ¿y si se aumenta la intensidad de la radiación amarilla?
+
+### Solución explicada
+
+La condición del efecto fotoeléctrico es $h f \\ge W = h f_0$, con $f_0$ la frecuencia umbral. Aquí el umbral es la luz **amarilla**.
+
+**i) Luz roja:** la luz roja tiene **menor frecuencia** que la amarilla ($f_{rojo}<f_{amarillo}=f_0$). Entonces cada fotón tiene energía $hf<W$ y **no hay emisión** de fotoelectrones, por intensa que sea la luz roja.
+
+**ii) Más intensidad de luz amarilla:** aumentar la intensidad significa más **fotones por segundo**, pero cada fotón mantiene la misma energía $hf_0$. Por tanto se emiten **más fotoelectrones por unidad de tiempo** (mayor corriente), pero su **energía cinética máxima no cambia** (sigue siendo $E_{c,max}=hf_0-W=0$ en el umbral).
+
+## Ejercicio 11
+
+### Enunciado
+
+Un protón tiene una masa $1{,}9$ veces mayor que la de un mesón K. Razone: **i)** si tuviesen la misma longitud de onda de De Broglie, ¿cuál tendría menor velocidad? **ii)** si tuviesen la misma velocidad, ¿cuál tendría menor longitud de onda?
+
+### Solución explicada
+
+La longitud de onda de De Broglie es $\\lambda=\\dfrac{h}{p}=\\dfrac{h}{m v}$.
+
+**i) Misma $\\lambda$:** entonces $m v$ es igual para ambos: $m_p v_p = m_K v_K$. Como $m_p=1{,}9\\,m_K$:
+$$v_p = \\dfrac{m_K}{m_p}v_K = \\dfrac{v_K}{1{,}9} < v_K$$
+El **protón** (más masivo) tiene **menor velocidad**.
+
+**ii) Misma $v$:** $\\lambda=\\dfrac{h}{m v}$, luego $\\lambda\\propto\\dfrac{1}{m}$. El de mayor masa tiene menor $\\lambda$:
+$$\\lambda_p = \\dfrac{\\lambda_K}{1{,}9} < \\lambda_K$$
+El **protón** tiene **menor longitud de onda**.
+
+## Ejercicio 12
+
+### Enunciado
+
+Una fotocélula de cobre se ilumina con dos radiaciones de frecuencias $f_1=9{,}6\\cdot10^{14}\\ \\text{Hz}$ y $f_2=5{,}5\\cdot10^{15}\\ \\text{Hz}$; el trabajo de extracción del cobre es $4{,}7\\ \\text{eV}$.
+
+**(a)** ¿Cuál de las dos radiaciones produce efecto fotoeléctrico?
+
+**(b)** Calcule la velocidad máxima de los fotoelectrones emitidos por la que lo produce.
+
+### Solución explicada
+
+La frecuencia umbral es $f_0=\\dfrac{W}{h}=\\dfrac{4{,}7\\cdot1{,}6\\cdot10^{-19}}{6{,}63\\cdot10^{-34}}=1{,}13\\cdot10^{15}\\ \\text{Hz}$.
+
+**(a)** Comparando:
+- $f_1=9{,}6\\cdot10^{14}\\ \\text{Hz} < f_0$: **no** produce efecto fotoeléctrico.
+- $f_2=5{,}5\\cdot10^{15}\\ \\text{Hz} > f_0$: **sí** produce efecto fotoeléctrico.
+
+**(b)** Para $f_2$, energía cinética máxima $E_c=hf_2-W$:
+$$E_c = 6{,}63\\cdot10^{-34}\\cdot5{,}5\\cdot10^{15}-7{,}52\\cdot10^{-19} = 2{,}89\\cdot10^{-18}\\ \\text{J}$$
+$$v_{max} = \\sqrt{\\dfrac{2E_c}{m_e}} = \\sqrt{\\dfrac{2\\cdot2{,}89\\cdot10^{-18}}{9{,}1\\cdot10^{-31}}} = 2{,}52\\cdot10^{6}\\ \\text{m/s}$$
+
+## Ejercicio 13
+
+### Enunciado
+
+Un protón y un electrón se aceleran mediante una diferencia de potencial de $0{,}075\\ \\text{V}$.
+
+**(a)** Determine la energía cinética de ambas partículas.
+
+**(b)** Determine, razonadamente, las longitudes de onda de De Broglie de ambas partículas.
+
+### Solución explicada
+
+**(a)** Ambas partículas tienen la misma carga en módulo ($e$), así que adquieren la **misma energía cinética**:
+$$E_c = e\\,\\Delta V = 1{,}6\\cdot10^{-19}\\cdot0{,}075 = 1{,}2\\cdot10^{-20}\\ \\text{J} = 0{,}075\\ \\text{eV}$$
+
+**(b)** Con $E_c=\\dfrac{p^2}{2m}$, el momento es $p=\\sqrt{2mE_c}$ y la longitud de onda $\\lambda=\\dfrac{h}{\\sqrt{2mE_c}}$. Como $E_c$ es igual, $\\lambda\\propto\\dfrac{1}{\\sqrt{m}}$; la partícula más ligera (electrón) tiene mayor $\\lambda$:
+$$\\lambda_e = \\dfrac{6{,}63\\cdot10^{-34}}{\\sqrt{2\\cdot9{,}1\\cdot10^{-31}\\cdot1{,}2\\cdot10^{-20}}} = 4{,}49\\cdot10^{-9}\\ \\text{m} = 4{,}49\\ \\text{nm}$$
+$$\\lambda_p = \\dfrac{6{,}63\\cdot10^{-34}}{\\sqrt{2\\cdot1{,}67\\cdot10^{-27}\\cdot1{,}2\\cdot10^{-20}}} = 1{,}05\\cdot10^{-10}\\ \\text{m} = 0{,}105\\ \\text{nm}$$
+`,Ue=`---
+title: Física · PAU 2026 · Cantabria — examen resuelto
+seoTitle: PAU Física Cantabria 2026 resuelta paso a paso
+date: 2026-06-01
+updated: 2026-11-05
+description: Examen de Física de Cantabria 2026 resuelto paso a paso para 2.º de Bachillerato.
+tag: Física PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+Una sonda espacial de $500\\ \\text{kg}$ describe una trayectoria circular de radio $r$ en torno a Marte, completando una revolución cada $100\\ \\text{minutos}$. Su energía mecánica en órbita es $-3{,}16\\cdot10^{9}\\ \\text{J}$.
+
+**(a)** Deduzca la expresión del periodo de la órbita en función de $G$, de la masa de Marte $M_M$ y del radio $r$.
+**(b)** Calcule el radio de la órbita y la masa de Marte.
+
+
+### Esquema para el apartado gráfico
+
+![Esquema de líneas de campo eléctrico y de campo magnético alrededor de un conductor](/assets/latex/pau-fisica-fields.svg)
+### Solución explicada
+
+**(a)** En órbita circular, la gravedad es la fuerza centrípeta: $\\dfrac{G M_M m}{r^{2}}=\\dfrac{m\\,4\\pi^{2} r}{T^{2}}$, de donde (tercera ley de Kepler):
+$$T^{2}=\\dfrac{4\\pi^{2}}{G M_M}\\,r^{3}\\ \\Rightarrow\\ T=2\\pi\\sqrt{\\dfrac{r^{3}}{G M_M}}$$
+
+**(b)** La energía mecánica orbital es $E_{mec}=-\\dfrac{G M_M m}{2r}$, luego
+$$\\dfrac{G M_M}{r}=\\dfrac{-2E_{mec}}{m}=\\dfrac{2\\cdot3{,}16\\cdot10^{9}}{500}=1{,}264\\cdot10^{7}\\ \\text{(SI)}$$
+De la expresión del periodo, $G M_M=\\dfrac{4\\pi^{2} r^{3}}{T^{2}}$, así que $\\dfrac{G M_M}{r}=\\dfrac{4\\pi^{2} r^{2}}{T^{2}}$:
+$$r^{2}=\\dfrac{(G M_M/r)\\,T^{2}}{4\\pi^{2}}=\\dfrac{1{,}264\\cdot10^{7}\\cdot6000^{2}}{4\\pi^{2}}\\ \\Rightarrow\\ r=3{,}40\\cdot10^{6}\\ \\text{m}$$
+$$G M_M=\\left(\\dfrac{G M_M}{r}\\right)r=1{,}264\\cdot10^{7}\\cdot3{,}40\\cdot10^{6}=4{,}29\\cdot10^{13}\\ \\Rightarrow\\ M_M=\\dfrac{4{,}29\\cdot10^{13}}{6{,}67\\cdot10^{-11}}=6{,}43\\cdot10^{23}\\ \\text{kg}$$
+
+## Ejercicio 2
+
+### Enunciado
+
+Dos masas puntuales idénticas $m_1=m_2=10\\ \\text{kg}$ se sitúan en $P_1(0,0)\\ \\text{m}$ y $P_2(0,10)\\ \\text{m}$ del plano $xy$.
+
+**(a)** Calcule y represente el vector campo gravitatorio creado por $m_1$ y $m_2$ en el punto $(5,5)\\ \\text{m}$.
+**(b)** Calcule el trabajo del campo gravitatorio para trasladar una masa $m_3=1\\ \\text{kg}$ desde $(5,5)\\ \\text{m}$ hasta $(0,5)\\ \\text{m}$.
+**(c)** Interprete el signo del trabajo obtenido.
+
+### Solución explicada
+
+**(a)** El punto $(5,5)$ dista $r=\\sqrt{5^{2}+5^{2}}=\\sqrt{50}\\ \\text{m}$ de cada masa. Cada campo $g_i=\\dfrac{G m_i}{r^{2}}=\\dfrac{6{,}67\\cdot10^{-11}\\cdot10}{50}=1{,}334\\cdot10^{-11}\\ \\text{N/kg}$ apunta hacia su masa. Por simetría, las componentes $y$ se cancelan y sólo queda la componente $x$ (hacia el eje $y$, sentido $-\\vec{i}$):
+$$g_x=2\\,g_i\\cos45^\\circ=2\\cdot1{,}334\\cdot10^{-11}\\cdot\\dfrac{5}{\\sqrt{50}}=-1{,}89\\cdot10^{-11}\\ \\text{N/kg}$$
+$$\\vec{g}=-1{,}89\\cdot10^{-11}\\,\\vec{i}\\ \\text{N/kg}\\quad(|\\vec{g}|\\approx 1{,}9\\cdot10^{-11}\\ \\text{N/kg})$$
+
+**(b)** El trabajo del campo es $W=m_3\\,(V_i-V_f)$, con $V=-G m\\!\\left(\\tfrac{1}{r_1}+\\tfrac{1}{r_2}\\right)$.
+$$V(5,5)=-2\\cdot\\dfrac{G\\cdot10}{\\sqrt{50}}=-1{,}887\\cdot10^{-10}\\ \\text{J/kg}$$
+$$V(0,5)=-2\\cdot\\dfrac{G\\cdot10}{5}=-2{,}668\\cdot10^{-10}\\ \\text{J/kg}$$
+$$W=1\\cdot\\big(V(5,5)-V(0,5)\\big)=(-1{,}887+2{,}668)\\cdot10^{-10}=+7{,}8\\cdot10^{-11}\\ \\text{J}$$
+
+**(c)** El trabajo del campo es positivo: la masa se mueve hacia una región de potencial más negativo (más cerca de ambas masas), por lo que el campo gravitatorio acelera a $m_3$ y su energía potencial disminuye.
+
+## Ejercicio 3
+
+### Enunciado
+
+La figura muestra las trayectorias circulares de tres partículas en un campo magnético uniforme perpendicular al plano del papel y saliente. Los radios cumplen $R_1>R_2>R_3$. Las tres tienen la misma masa ($m_1=m_2=m_3$) y la misma magnitud de carga ($|q_1|=|q_2|=|q_3|$).
+
+**(a)** Deduzca el signo de las tres cargas.
+**(b)** Razone qué partícula se mueve con mayor y cuál con menor velocidad.
+**(c)** Si la partícula 2 tiene $m_2=3{,}3\\cdot10^{-27}\\ \\text{kg}$, $v_2=1{,}2\\cdot10^{6}\\ \\text{m/s}$, radio $R_2=3{,}5\\ \\text{cm}$ y $|\\vec{B}|=0{,}7\\ \\text{T}$, determine su carga.
+
+### Solución explicada
+
+El campo curva las partículas por la fuerza de Lorentz $\\vec{F}=q\\,\\vec{v}\\times\\vec{B}$, que actúa como fuerza centrípeta: $|q|vB=\\dfrac{m v^{2}}{R}$, de donde
+$$R=\\dfrac{m v}{|q|\\,B}$$
+
+**(a)** El sentido de giro fija el signo: con $\\vec{B}$ saliente, $\\vec{F}=q\\,\\vec{v}\\times\\vec{B}$ debe apuntar al centro de cada circunferencia. Las partículas que, para la velocidad indicada en la figura, giran de modo que $\\vec{v}\\times\\vec{B}$ apunta al centro son **positivas**, y las que giran en sentido contrario (su fuerza apunta al centro sólo con carga negativa) son **negativas**. Así, según el sentido de curvatura dibujado, las que se desvían hacia un lado son positivas y las que lo hacen hacia el opuesto, negativas.
+
+**(b)** Como $m$, $|q|$ y $B$ son iguales, $R=\\dfrac{m v}{|q|B}\\propto v$: a mayor radio, mayor velocidad. Por tanto la partícula **1** ($R_1$ mayor) es la más rápida y la **3** ($R_3$ menor) la más lenta.
+
+**(c)** Despejando la carga de la partícula 2:
+$$|q_2|=\\dfrac{m_2 v_2}{R_2\\,B}=\\dfrac{3{,}3\\cdot10^{-27}\\cdot1{,}2\\cdot10^{6}}{0{,}035\\cdot0{,}7}=1{,}6\\cdot10^{-19}\\ \\text{C}$$
+(una carga elemental).
+
+## Ejercicio 4
+
+### Enunciado
+
+Tres cargas eléctricas $q_1=5\\ \\mu\\text{C}$, $q_2=-20\\ \\mu\\text{C}$ y $q_3=10\\ \\mu\\text{C}$ se sitúan en $(-1,0)\\ \\text{cm}$, $(0,3)\\ \\text{cm}$ y $(2,0)\\ \\text{cm}$. Calcule:
+
+**(a)** El vector campo eléctrico en $(0,0)\\ \\text{cm}$.
+**(b)** El potencial eléctrico en $(0,0)\\ \\text{cm}$ y en $(3,3)\\ \\text{cm}$.
+**(c)** El trabajo del campo para trasladar una carga de $1\\ \\mu\\text{C}$ desde $(0,0)$ hasta $(3,3)\\ \\text{cm}$, interpretando su signo.
+
+### Solución explicada
+
+**(a)** Campo en $(0,0)$ (distancias: $q_1$ a $1\\ \\text{cm}$, $q_2$ a $3\\ \\text{cm}$, $q_3$ a $2\\ \\text{cm}$):
+$$E_1=\\dfrac{k q_1}{(0{,}01)^{2}}=4{,}5\\cdot10^{8}\\ \\text{N/C}\\ (+\\vec{i}),\\quad E_2=\\dfrac{k|q_2|}{(0{,}03)^{2}}=2{,}0\\cdot10^{8}\\ \\text{N/C}\\ (+\\vec{j}),\\quad E_3=\\dfrac{k q_3}{(0{,}02)^{2}}=2{,}25\\cdot10^{8}\\ \\text{N/C}\\ (-\\vec{i})$$
+($q_1$ positiva: se aleja, hacia $+x$; $q_3$ positiva: hacia $-x$; $q_2$ negativa: hacia ella, $+y$.)
+$$\\vec{E}=(4{,}5-2{,}25)\\cdot10^{8}\\,\\vec{i}+2{,}0\\cdot10^{8}\\,\\vec{j}=\\left(2{,}25\\cdot10^{8}\\,\\vec{i}+2{,}0\\cdot10^{8}\\,\\vec{j}\\right)\\ \\text{N/C}$$
+$$|\\vec{E}|=3{,}0\\cdot10^{8}\\ \\text{N/C}$$
+
+**(b)** Potenciales ($V=\\sum k q_i/r_i$). En $(0,0)$:
+$$V_{(0,0)}=k\\left(\\dfrac{5}{0{,}01}+\\dfrac{-20}{0{,}03}+\\dfrac{10}{0{,}02}\\right)\\cdot10^{-6}=3{,}0\\cdot10^{6}\\ \\text{V}$$
+En $(3,3)\\ \\text{cm}$ (distancias: $q_1$ a $5\\ \\text{cm}$, $q_2$ a $3\\ \\text{cm}$, $q_3$ a $\\sqrt{10}\\ \\text{cm}$):
+$$V_{(3,3)}=k\\left(\\dfrac{5}{0{,}05}+\\dfrac{-20}{0{,}03}+\\dfrac{10}{0{,}0316}\\right)\\cdot10^{-6}=-2{,}25\\cdot10^{6}\\ \\text{V}$$
+
+**(c)** Trabajo del campo:
+$$W=q\\,(V_{(0,0)}-V_{(3,3)})=10^{-6}\\,(3{,}0\\cdot10^{6}-(-2{,}25\\cdot10^{6}))=+5{,}3\\ \\text{J}$$
+Es positivo: el campo impulsa la carga positiva desde el punto de mayor potencial $(0,0)$ hacia el de menor potencial $(3,3)$.
+
+## Ejercicio 5
+
+### Enunciado
+
+Por una cuerda se propaga una onda dada (en unidades SI) por
+$$y(x,t)=0{,}02\\,\\mathrm{sen}\\!\\left(\\pi\\left(\\dfrac{4x}{3}+200\\,t\\right)\\right)$$
+
+**(a)** Determine el sentido de propagación, la amplitud, la longitud de onda, la frecuencia, el periodo y la velocidad de propagación.
+**(b)** Calcule la elongación de un punto situado en $x=\\tfrac34\\ \\text{m}$ en el instante $t=\\tfrac{1}{240}\\ \\text{s}$.
+**(c)** Calcule la velocidad transversal de ese punto en ese instante.
+
+### Solución explicada
+
+**(a)** Como $x$ y $t$ aparecen con el **mismo** signo, la onda se propaga en el sentido $-x$. Identificando:
+$$A=0{,}02\\ \\text{m}\\qquad k=\\dfrac{4\\pi}{3}\\ \\Rightarrow\\ \\lambda=\\dfrac{2\\pi}{k}=1{,}5\\ \\text{m}$$
+$$\\omega=200\\pi\\ \\Rightarrow\\ f=\\dfrac{\\omega}{2\\pi}=100\\ \\text{Hz},\\quad T=\\dfrac{1}{f}=0{,}01\\ \\text{s}$$
+$$v=\\dfrac{\\omega}{k}=\\dfrac{200\\pi}{4\\pi/3}=150\\ \\text{m/s}$$
+
+**(b)** En $x=\\tfrac34\\ \\text{m}$, $t=\\tfrac{1}{240}\\ \\text{s}$ el argumento es $\\pi\\left(\\tfrac43\\cdot\\tfrac34+200\\cdot\\tfrac{1}{240}\\right)=\\pi\\left(1+\\tfrac56\\right)=\\dfrac{11\\pi}{6}$:
+$$y=0{,}02\\,\\mathrm{sen}\\dfrac{11\\pi}{6}=0{,}02\\cdot(-0{,}5)=-0{,}01\\ \\text{m}$$
+
+**(c)** Velocidad transversal $v_y=\\dfrac{\\partial y}{\\partial t}=0{,}02\\cdot200\\pi\\,\\cos\\!\\left(\\pi\\left(\\tfrac{4x}{3}+200t\\right)\\right)$. En ese punto e instante:
+$$v_y=4\\pi\\cos\\dfrac{11\\pi}{6}=4\\pi\\cdot\\dfrac{\\sqrt3}{2}=10{,}9\\ \\text{m/s}$$
+
+## Ejercicio 6
+
+### Enunciado
+
+Un objeto de $8\\ \\text{cm}$ de altura está situado $10\\ \\text{cm}$ a la izquierda de una lente delgada divergente de $5\\ \\text{dioptrías}$.
+
+**(a)** Dibuje el trazado de rayos correspondiente.
+**(b)** Calcule la posición de la imagen y su tamaño, justificando su naturaleza (real/virtual, derecha/invertida, mayor/menor).
+
+
+### Esquema para el apartado gráfico
+
+![Trazado de rayos para una lente divergente y un espejo cóncavo](/assets/latex/pau-fisica-optics.svg)
+### Solución explicada
+
+**(a)** Rayos principales: uno paralelo al eje que, al salir, diverge como si procediera del foco imagen $F'$ (virtual, a la izquierda); otro que pasa por el centro óptico sin desviarse. Sus prolongaciones se cortan del lado del objeto, dando una imagen virtual.
+
+**(b)** Potencia negativa, $f'=1/P=-0{,}20\\ \\text{m}$. Ecuación de la lente:
+$$\\dfrac{1}{s'}-\\dfrac{1}{s}=P\\ \\Rightarrow\\ \\dfrac{1}{s'}=-5+\\dfrac{1}{-0{,}10}=-5-10=-15\\ \\text{m}^{-1}$$
+$$s'=-0{,}067\\ \\text{m}=-6{,}7\\ \\text{cm}$$
+Aumento lateral:
+$$A=\\dfrac{s'}{s}=\\dfrac{-0{,}067}{-0{,}10}=0{,}67\\ \\Rightarrow\\ y'=0{,}67\\cdot8=5{,}3\\ \\text{cm}$$
+La imagen es **virtual** ($s'<0$, al mismo lado que el objeto), **derecha** ($A>0$) y **menor** ($|A|<1$). Es el comportamiento típico de una lente divergente.
+
+## Ejercicio 7
+
+### Enunciado
+
+La actividad de una muestra de $10^{21}$ átomos desciende al $40\\%$ al cabo de $265\\ \\text{días}$. Calcule:
+
+**(a)** La constante de desintegración.
+**(b)** El periodo de semidesintegración.
+**(c)** El tiempo que debe transcurrir hasta que la actividad de la muestra sea de $10^{6}\\ \\text{Bq}$.
+
+### Solución explicada
+
+**(a)** De $N=N_0 e^{-\\lambda t}$ con $N/N_0=0{,}40$ a $t=265\\ \\text{días}$ ($=2{,}29\\cdot10^{7}\\ \\text{s}$):
+$$\\lambda=\\dfrac{-\\ln(0{,}40)}{t}=\\dfrac{0{,}916}{2{,}29\\cdot10^{7}}=4{,}0\\cdot10^{-8}\\ \\text{s}^{-1}$$
+
+**(b)** Periodo de semidesintegración:
+$$T_{1/2}=\\dfrac{\\ln 2}{\\lambda}=\\dfrac{0{,}693}{4{,}0\\cdot10^{-8}}=1{,}73\\cdot10^{7}\\ \\text{s}\\approx 200\\ \\text{días}$$
+
+**(c)** La actividad inicial es $A_0=\\lambda N_0=4{,}0\\cdot10^{-8}\\cdot10^{21}=4{,}0\\cdot10^{13}\\ \\text{Bq}$. Como $A=A_0 e^{-\\lambda t}$:
+$$t=\\dfrac{1}{\\lambda}\\ln\\dfrac{A_0}{A}=\\dfrac{1}{4{,}0\\cdot10^{-8}}\\ln\\dfrac{4{,}0\\cdot10^{13}}{10^{6}}=4{,}4\\cdot10^{8}\\ \\text{s}\\approx 13{,}9\\ \\text{años}$$
+`,Be=`---
+title: Física · PAU 2026 · Madrid — examen resuelto
+seoTitle: PAU Física Madrid 2026 resuelta paso a paso
+date: 2026-06-01
+updated: 2026-11-05
+description: Examen de Física de Madrid 2026 resuelto paso a paso para 2.º de Bachillerato.
+tag: Física PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+El satélite Hope orbita Marte en una elipse. Periodo $T=53\\ \\text{h}$; distancia mínima (periastro) al centro de Marte $r_{peri}=23000\\ \\text{km}$ y máxima (apoastro) $r_{apo}=45000\\ \\text{km}$. Masa del satélite $m=1350\\ \\text{kg}$ y momento angular $L=4{,}86\\cdot10^{13}\\ \\text{kg}\\cdot\\text{m}^2\\cdot\\text{s}^{-1}$.
+
+**(a)** La masa de Marte.
+**(b)** La velocidad en el apoastro y en el periastro.
+**(c)** La energía del satélite en la órbita.
+
+### Solución explicada
+
+**(a) Masa de Marte (3.ª ley de Kepler).**
+Semieje mayor: $a = \\dfrac{r_{peri}+r_{apo}}{2} = \\dfrac{2{,}3\\cdot10^{7}+4{,}5\\cdot10^{7}}{2} = 3{,}40\\cdot10^{7}\\ \\text{m}$.
+$$T^2 = \\dfrac{4\\pi^2 a^3}{G M}\\ \\Rightarrow\\ M = \\dfrac{4\\pi^2 a^3}{G T^2} = \\dfrac{4\\pi^2 (3{,}40\\cdot10^{7})^3}{6{,}67\\cdot10^{-11}(1{,}908\\cdot10^{5})^2} = 6{,}39\\cdot10^{23}\\ \\text{kg}$$
+
+**(b) Velocidades (conservación de $L$).**
+En apoastro y periastro $\\vec{r}\\perp\\vec{v}$, luego $L = m\\,r\\,v$:
+$$v_{apo} = \\dfrac{L}{m\\,r_{apo}} = \\dfrac{4{,}86\\cdot10^{13}}{1350\\cdot4{,}5\\cdot10^{7}} = 800\\ \\text{m}\\cdot\\text{s}^{-1}$$
+$$v_{peri} = \\dfrac{L}{m\\,r_{peri}} = \\dfrac{4{,}86\\cdot10^{13}}{1350\\cdot2{,}3\\cdot10^{7}} = 1{,}57\\cdot10^{3}\\ \\text{m}\\cdot\\text{s}^{-1}$$
+
+**(c) Energía mecánica.**
+$$E_m = -\\dfrac{G M m}{2a} = -\\dfrac{6{,}67\\cdot10^{-11}\\cdot6{,}39\\cdot10^{23}\\cdot1350}{2\\cdot3{,}40\\cdot10^{7}} = -8{,}46\\cdot10^{8}\\ \\text{J}$$
+
+## Ejercicio 2
+
+### Enunciado
+
+Un espejo esférico cóncavo tiene radio de curvatura $30\\ \\text{cm}$; un objeto de $5\\ \\text{cm}$ de altura se sitúa a $40\\ \\text{cm}$ del espejo.
+
+**(a)** La posición y el tamaño de la imagen.
+**(b)** El diagrama de rayos.
+**(c)** La posición del objeto para que la imagen sea invertida y del mismo tamaño.
+
+### Solución explicada
+
+**(a) Posición y tamaño (convenio de signos: luz incidente hacia $-$).**
+Ecuación del espejo $\\dfrac{1}{s'}+\\dfrac{1}{s}=\\dfrac{2}{R}$:
+$$\\dfrac{1}{s'} = \\dfrac{2}{R}-\\dfrac{1}{s} = \\dfrac{2}{-30}-\\dfrac{1}{-40} = -\\dfrac{1}{24}\\ \\Rightarrow\\ s' = -24\\ \\text{cm}$$
+Imagen a $24\\ \\text{cm}$ delante del espejo (real). Aumento lateral:
+$$M = -\\dfrac{s'}{s} = -\\dfrac{-24}{-40} = -0{,}6\\ \\Rightarrow\\ y' = M\\,y = -3\\ \\text{cm}$$
+El signo negativo indica imagen **invertida** (y real, por estar $s'<0$, del lado del objeto).
+
+**(b) Diagrama de rayos.**
+Con el objeto más allá del centro de curvatura $C$ (a $30\\ \\text{cm}$), la imagen es real, invertida y menor, situada entre $C$ y el foco $F$. Se trazan: rayo paralelo al eje que se refleja pasando por $F$; rayo que pasa por $C$ y vuelve sobre sí mismo; su corte da la imagen.
+
+**(c) Imagen invertida y del mismo tamaño.**
+Exigimos $M=-1$, es decir $s'=s$. En la ecuación del espejo:
+$$\\dfrac{1}{s}+\\dfrac{1}{s}=\\dfrac{2}{R}\\ \\Rightarrow\\ s = R = -30\\ \\text{cm}$$
+El objeto debe situarse en el centro de curvatura, a $30\\ \\text{cm}$ del espejo.
+
+## Ejercicio 3
+
+### Enunciado
+
+Una onda transversal avanza en el sentido $+x$ de una cuerda con $v=3\\ \\text{m}\\cdot\\text{s}^{-1}$. El punto $x=1\\ \\text{m}$ oscila según $y(t)=2\\cos\\!\\big(6\\pi t - 7\\pi/4\\big)\\ \\text{cm}$ ($t$ en s).
+
+**(a)** La longitud de onda y la fase inicial $\\varphi$.
+**(b)** La expresión matemática de la onda.
+**(c)** La velocidad de oscilación en $x=2\\ \\text{m}$, $t=3\\ \\text{s}$, y la velocidad máxima de oscilación.
+
+### Solución explicada
+
+**(a) Longitud de onda y fase inicial.**
+$$k = \\dfrac{\\omega}{v} = \\dfrac{6\\pi}{3} = 2\\pi\\ \\text{rad}\\cdot\\text{m}^{-1}\\ \\Rightarrow\\ \\lambda = \\dfrac{2\\pi}{k} = 1\\ \\text{m}$$
+Suponiendo $y(x,t)=2\\cos(6\\pi t - kx + \\varphi)$, en $x=1\\ \\text{m}$: $-k\\cdot1+\\varphi = -7\\pi/4$. Con $k=2\\pi$:
+$$-2\\pi + \\varphi = -\\dfrac{7\\pi}{4}\\ \\Rightarrow\\ \\varphi = 2\\pi - \\dfrac{7\\pi}{4} = \\dfrac{\\pi}{4}\\ \\text{rad}$$
+
+**(b) Expresión de la onda.**
+$$y(x,t) = 2\\cos\\!\\left(6\\pi t - 2\\pi x + \\dfrac{\\pi}{4}\\right)\\ \\text{cm}$$
+
+**(c) Velocidad de oscilación.**
+$$v_y(x,t) = \\dfrac{\\partial y}{\\partial t} = -12\\pi\\,\\sin\\!\\left(6\\pi t - 2\\pi x + \\dfrac{\\pi}{4}\\right)\\ \\text{cm}\\cdot\\text{s}^{-1}$$
+En $x=2\\ \\text{m}$, $t=3\\ \\text{s}$, la fase vale $18\\pi-4\\pi+\\pi/4 = 14\\pi+\\pi/4$:
+$$v_y = -12\\pi\\,\\sin\\!\\left(\\dfrac{\\pi}{4}\\right) = -26{,}7\\ \\text{cm}\\cdot\\text{s}^{-1}$$
+$$v_{y,máx} = 12\\pi = 37{,}7\\ \\text{cm}\\cdot\\text{s}^{-1}$$
+
+## Ejercicio 4
+
+### Enunciado
+
+Un hilo paralelo al eje $z$ pasa por $(4,0)\\ \\text{m}$ con $I_1=2\\ \\text{A}$ en sentido $+z$. Otro, paralelo, pasa por $(0,5)\\ \\text{m}$ con $I_2=3\\ \\text{A}$ en sentido $-z$.
+
+**(a)** El campo magnético en el origen del plano $xy$.
+**(b)** El módulo de la fuerza magnética por unidad de longitud entre los hilos.
+
+### Solución explicada
+
+**(a) Campo en el origen.**
+Módulo de cada hilo: $B=\\dfrac{\\mu_0 I}{2\\pi r}$. Hilo 1 ($r_1=4\\ \\text{m}$), con la regla de la mano derecha ($\\vec I\\parallel+z$, punto a la izquierda del hilo) el campo apunta en $-y$:
+$$\\vec{B}_1 = -\\dfrac{\\mu_0 I_1}{2\\pi r_1}\\,\\vec{j} = -\\dfrac{4\\pi\\cdot10^{-7}\\cdot2}{2\\pi\\cdot4}\\,\\vec{j} = -1{,}0\\cdot10^{-7}\\,\\vec{j}\\ \\text{T}$$
+Hilo 2 ($r_2=5\\ \\text{m}$, $\\vec I\\parallel-z$), el campo en el origen apunta en $-x$:
+$$\\vec{B}_2 = -\\dfrac{\\mu_0 I_2}{2\\pi r_2}\\,\\vec{i} = -\\dfrac{4\\pi\\cdot10^{-7}\\cdot3}{2\\pi\\cdot5}\\,\\vec{i} = -1{,}2\\cdot10^{-7}\\,\\vec{i}\\ \\text{T}$$
+$$\\vec{B} = -1{,}2\\cdot10^{-7}\\,\\vec{i} - 1{,}0\\cdot10^{-7}\\,\\vec{j}\\ \\text{T}\\quad(|\\vec B| = 1{,}56\\cdot10^{-7}\\ \\text{T})$$
+
+**(b) Fuerza por unidad de longitud.**
+Distancia entre hilos: $d=\\sqrt{4^2+5^2}=\\sqrt{41}=6{,}40\\ \\text{m}$.
+$$\\dfrac{F}{\\ell} = \\dfrac{\\mu_0 I_1 I_2}{2\\pi d} = \\dfrac{4\\pi\\cdot10^{-7}\\cdot2\\cdot3}{2\\pi\\cdot6{,}40} = 1{,}87\\cdot10^{-7}\\ \\text{N}\\cdot\\text{m}^{-1}$$
+Como las corrientes son antiparalelas, la fuerza es repulsiva.
+
+## Ejercicio 5
+
+### Enunciado
+
+Un electrón parte del reposo, es acelerado por una diferencia de potencial y entra en un campo magnético constante de $0{,}5\\ \\text{T}$ perpendicular a su velocidad, describiendo una circunferencia de $0{,}4\\ \\text{mm}$ de diámetro.
+
+**(a)** La velocidad del electrón al entrar en el campo.
+**(b)** La diferencia de potencial aplicada.
+**(c)** El módulo de la velocidad tras recorrer un cuarto de la trayectoria circular.
+
+### Solución explicada
+
+**(a) Velocidad de entrada.**
+La fuerza magnética es centrípeta, $evB = m_e v^2/r$:
+$$v = \\dfrac{e B r}{m_e} = \\dfrac{1{,}6\\cdot10^{-19}\\cdot0{,}5\\cdot2\\cdot10^{-4}}{9{,}1\\cdot10^{-31}} = 1{,}76\\cdot10^{7}\\ \\text{m}\\cdot\\text{s}^{-1}$$
+
+**(b) Diferencia de potencial.**
+El trabajo eléctrico comunica la energía cinética, $eV = \\tfrac12 m_e v^2$:
+$$V = \\dfrac{m_e v^2}{2e} = \\dfrac{9{,}1\\cdot10^{-31}(1{,}76\\cdot10^{7})^2}{2\\cdot1{,}6\\cdot10^{-19}} = 879\\ \\text{V}$$
+
+**(c) Velocidad tras un cuarto de vuelta.**
+En el campo magnético sólo hay aceleración normal (movimiento circular uniforme): el módulo de la velocidad **no cambia**.
+$$v = 1{,}76\\cdot10^{7}\\ \\text{m}\\cdot\\text{s}^{-1}$$
+
+## Ejercicio 6
+
+### Enunciado
+
+Dos materiales se iluminan con radiación de energía variable y se mide la energía cinética máxima de los fotoelectrones. De la gráfica $E_{c,máx}$ frente a energía del fotón se leen los trabajos de extracción: material 1, $W_1=2\\ \\text{eV}$; material 2, $W_2=3\\ \\text{eV}$.
+
+**(a)** La longitud de onda umbral de ambos materiales.
+**(b)** La energía cinética máxima de los fotoelectrones de cada material si $f=5\\cdot10^{14}\\ \\text{Hz}$.
+**(c)** La corriente de fotoelectrones del material 2 si los fotones tienen $4\\ \\text{eV}$ y el flujo es $2\\cdot10^{15}\\ \\text{fotones}\\cdot\\text{s}^{-1}$ (cada fotón arranca un electrón).
+
+### Solución explicada
+
+**(a) Longitudes de onda umbral.**
+$W = hc/\\lambda_0 \\Rightarrow \\lambda_0 = hc/W$:
+$$\\lambda_{0,1} = \\dfrac{6{,}63\\cdot10^{-34}\\cdot3\\cdot10^{8}}{2\\cdot1{,}6\\cdot10^{-19}} = 6{,}22\\cdot10^{-7}\\ \\text{m}\\ (622\\ \\text{nm})$$
+$$\\lambda_{0,2} = \\dfrac{6{,}63\\cdot10^{-34}\\cdot3\\cdot10^{8}}{3\\cdot1{,}6\\cdot10^{-19}} = 4{,}14\\cdot10^{-7}\\ \\text{m}\\ (414\\ \\text{nm})$$
+
+**(b) Energía cinética con $f=5\\cdot10^{14}\\ \\text{Hz}$.**
+Las frecuencias umbral son $f_{0,1}=c/\\lambda_{0,1}=4{,}83\\cdot10^{14}\\ \\text{Hz}$ y $f_{0,2}=c/\\lambda_{0,2}=7{,}24\\cdot10^{14}\\ \\text{Hz}$. Sólo $f>f_{0,1}$, de modo que **sólo el material 1 emite**:
+$$E_{c,máx} = hf - W_1 = 6{,}63\\cdot10^{-34}\\cdot5\\cdot10^{14} - 2\\cdot1{,}6\\cdot10^{-19} = 1{,}2\\cdot10^{-20}\\ \\text{J} \\approx 0{,}07\\ \\text{eV}$$
+El material 2 no emite ($f<f_{0,2}$).
+
+**(c) Corriente de fotoelectrones (material 2, fotones de $4\\ \\text{eV}$).**
+Con $4\\ \\text{eV}>W_2=3\\ \\text{eV}$ sí hay emisión; cada fotón arranca un electrón:
+$$I = \\Phi\\,e = 2\\cdot10^{15}\\cdot1{,}6\\cdot10^{-19} = 3{,}2\\cdot10^{-4}\\ \\text{A}$$
+
+## Ejercicio 7
+
+### Enunciado
+
+El yodo-131 ($T_{1/2}=8{,}02\\ \\text{días}$) se usa en terapia de tiroides. La actividad inicial máxima admisible es $7000\\ \\text{MBq}$.
+
+**(a)** La constante de desintegración del yodo-131.
+**(b)** La máxima cantidad (masa) de yodo-131 para no superar $7000\\ \\text{MBq}$.
+**(c)** El tiempo para que la actividad se reduzca al $20\\%$ de la inicial.
+
+### Solución explicada
+
+**(a) Constante de desintegración.**
+$$\\lambda = \\dfrac{\\ln 2}{T_{1/2}} = \\dfrac{0{,}693}{8{,}02\\cdot24\\cdot3600} = 1{,}00\\cdot10^{-6}\\ \\text{s}^{-1}$$
+
+**(b) Masa máxima.**
+$A_0=\\lambda N_0$, luego $N_0 = A_0/\\lambda = 7\\cdot10^{9}/1{,}00\\cdot10^{-6} = 7{,}00\\cdot10^{15}\\ \\text{núcleos}$.
+$$m_0 = \\dfrac{N_0\\,M}{N_A} = \\dfrac{7{,}00\\cdot10^{15}\\cdot130{,}9}{6{,}02\\cdot10^{23}} = 1{,}52\\cdot10^{-6}\\ \\text{g} = 1{,}52\\ \\mu\\text{g}$$
+
+**(c) Tiempo para el $20\\%$.**
+$A = A_0 e^{-\\lambda t}$ con $A=0{,}2\\,A_0$:
+$$t = -\\dfrac{\\ln 0{,}2}{\\lambda} = \\dfrac{1{,}609}{1{,}00\\cdot10^{-6}} = 1{,}61\\cdot10^{6}\\ \\text{s} = 18{,}6\\ \\text{días}$$
+`,we=`---
 title: Física y Química: cómo plantear problemas antes de calcular
 date: 2026-05-23
 updated: 2026-05-23
@@ -12458,7 +16261,7 @@ Parece lento al principio, pero acelera mucho cuando el examen mezcla temas. El 
 Para aplicar este método con contenidos de ESO, puedes practicar con las guías de [MRU](/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/), [MRUA](/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/) y [gravitación](/blog/gravitacion-eso-ley-universal-peso-ejercicios/).
 
 Si necesitas apoyo en problemas técnicos, revisa [Física para Bachillerato e Ingeniería](/clases-particulares/fisica-ingenieria/), [Química](/clases-particulares/quimica/) o [contacta](/contacto/) para organizar un plan.
-`,_e=`---
+`,Ie=`---
 title: "Fracciones algebraicas en 4º ESO: simplificar y operar con ejemplos"
 seoTitle: "Fracciones algebraicas 4º ESO: ejercicios resueltos"
 date: 2026-10-31
@@ -12555,7 +16358,7 @@ Al dividir, multiplica por la inversa de la segunda fracción.
 4. \\(x\\neq5,-5\\).
 
 En el [Campus de Método Nebula](/campus/) las fracciones algebraicas se conectan con factorización, ecuaciones y funciones mediante ejercicios graduados para que cada simplificación se pueda justificar.
-`,Ce=`---
+`,Ne=`---
 title: "Funciones lineales y afines de 3º ESO: gráficas y ejercicios"
 seoTitle: "Funciones lineales y afines 3º ESO: ejercicios"
 date: 2026-11-03
@@ -12659,7 +16462,7 @@ La cuota fija es la ordenada y el precio por contenido es la pendiente. Con \\(5
 4. El corte es \\((3,0)\\).
 
 En el [Campus de Método Nebula](/campus/) las funciones se conectan con tablas, gráficas, ecuaciones y problemas contextualizados. Así puedes practicar cada representación antes de ejercicios de examen más largos.
-`,je=`---
+`,Te=`---
 title: "GCSE Chemistry: acids, bases and salts without guessing equations"
 seoTitle: "GCSE Chemistry: acids, bases and salts step by step"
 date: "2026-10-24"
@@ -12778,7 +16581,7 @@ The titre is final reading minus initial reading. Repeating a method without con
 - Using $\\mathrm{cm^3}$ directly in $n=cV$.
 
 Método Nebula's virtual campus links particles, chemical amounts, acids, salts and experimental methods through graded GCSE questions. The contact button opens a structured practice route.
-`,Se=`---
+`,ke=`---
 title: "Química GCSE: ácidos, bases y sales con un método que evita ecuaciones al azar"
 seoTitle: "Química GCSE: ácidos, bases y sales paso a paso"
 date: "2026-10-24"
@@ -12897,7 +16700,7 @@ El volumen gastado es lectura final menos lectura inicial. Repetir sin controlar
 - Trabajar con $\\mathrm{cm^3}$ en $n=cV$.
 
 El campus virtual de Método Nebula reúne estructura de la materia, cantidades químicas, ácidos, sales y métodos experimentales con ejercicios y preguntas GCSE. El botón de contacto permite convertir estos patrones en una ruta de práctica.
-`,Pe=`---
+`,Fe=`---
 title: "GCSE Chemistry: understand bonding and explain any property"
 date: "2026-09-17"
 updated: "2026-10-28"
@@ -12982,7 +16785,7 @@ The comparison works because it applies the same reasoning chain to both materia
 Check every answer for particles, force, structure and property. If one is absent, the explanation can still be improved.
 
 Método Nebula's virtual campus develops atoms, elements and bonding through visual theory, examples, exercises, multiple-choice questions and extended responses. If you want to move from memorising definitions to building answers that earn marks, the contact button opens a level diagnosis and a structured study route.
-`,ze=`---
+`,Ve=`---
 title: "Química GCSE: entiende los enlaces y explica cualquier propiedad"
 date: "2026-09-17"
 updated: "2026-10-28"
@@ -13067,7 +16870,7 @@ La comparación funciona porque usa la misma estructura de razonamiento en ambos
 Corrige buscando los cuatro eslabones: partículas, fuerza, estructura y propiedad. Si uno no aparece, la respuesta aún puede mejorar.
 
 El campus virtual de Método Nebula desarrolla átomos, elementos y enlaces con teoría visual, ejemplos, ejercicios, preguntas de opción múltiple y preguntas de respuesta extendida. Si quieres pasar de memorizar definiciones a construir explicaciones que puntúan, el botón de contacto abre un diagnóstico del nivel y una ruta de trabajo.
-`,Ae=`---
+`,Ge=`---
 title: "GCSE Chemistry Chemical Analysis: 6 Worked Exam Questions"
 seoTitle: "GCSE Chemical Analysis: 6 Worked Questions"
 date: "2026-10-26"
@@ -13170,7 +16973,7 @@ Nitric acid removes interfering ions without adding a halide. Hydrochloric acid 
 - Using hydrochloric acid before a halide test.
 
 The Método Nebula virtual campus connects chemical analysis, bonding, ions and reactions through visual theory, required practicals, graded exercises and worked GCSE questions. Use the contact button to access a bilingual route where each test is learnt as a chain of procedure, evidence and conclusion.
-`,Le=`---
+`,Qe=`---
 title: "Química GCSE: análisis químico con 6 ejercicios resueltos"
 seoTitle: "Análisis químico GCSE: 6 ejercicios resueltos"
 date: "2026-10-26"
@@ -13273,7 +17076,7 @@ El ácido nítrico elimina interferencias sin introducir iones haluro. Utilizar 
 - Usar ácido clorhídrico antes de la prueba de haluros.
 
 El campus virtual de Método Nebula conecta análisis químico, enlace, iones y reacciones con teoría visual, prácticas obligatorias, ejercicios graduados y preguntas GCSE resueltas. El botón de contacto permite acceder a una ruta bilingüe donde cada prueba se aprende como una cadena de procedimiento, evidencia y conclusión.
-`,He=`---
+`,Ke=`---
 title: "GCSE Chemistry: electrolysis and electrode products without memorising lists"
 date: "2026-10-07"
 updated: "2026-10-28"
@@ -13384,7 +17187,7 @@ Tests do not replace half-equations. A precise extended answer distinguishes **p
 - Applying inert-electrode rules when an electrode reacts.
 
 Método Nebula's virtual campus develops electrochemistry with particle models, product prediction, half-equations, copper electrodes and fuel cells, supported by exercises and exam questions. The contact button opens a study route designed to reason out each product instead of memorising tables.
-`,Oe=`---
+`,We=`---
 title: "Química GCSE: electrólisis y productos de los electrodos sin memorizar listas"
 date: "2026-10-07"
 updated: "2026-10-07"
@@ -13499,7 +17302,7 @@ Estas pruebas no sustituyen a las semiecuaciones. Son evidencias experimentales 
 - Aplicar reglas de electrodos inertes cuando el electrodo participa.
 
 El campus virtual de Método Nebula desarrolla electroquímica con modelos de partículas, predicción de productos, semiecuaciones, electrodos de cobre y pilas de combustible, además de ejercicios y preguntas de examen. El botón de contacto permite solicitar una ruta para razonar cada producto en lugar de memorizar tablas.
-`,De=`---
+`,Je=`---
 title: "GCSE Energy Changes: Reaction Profiles, Bonds and Calorimetry Explained Precisely"
 seoTitle: "GCSE Energy Changes: Profiles and Calorimetry"
 date: "2026-07-27"
@@ -13589,7 +17392,7 @@ A strong evaluation links each limitation to the direction of its effect instead
 ## Taking chemical energy into the exam
 
 Método Nebula's virtual campus connects bonding, energy profiles, rates and equilibrium through visual theory, graded calculations and worked GCSE questions. The contact button gives access to a bilingual route where explanation, equation and experimental evaluation are practised as one skill.
-`,Me=`---
+`,Xe=`---
 title: "Cambios energéticos GCSE: perfiles de reacción, enlaces y calorimetría explicados con rigor"
 seoTitle: "Cambios energéticos GCSE: perfiles y calorimetría"
 date: "2026-07-27"
@@ -13679,7 +17482,7 @@ Una buena evaluación conecta cada limitación con la dirección del error, no s
 ## Llevar la energía química al examen
 
 El campus virtual de Método Nebula conecta enlace, perfiles energéticos, velocidad y equilibrio mediante teoría visual, cálculos graduados y preguntas GCSE resueltas. El botón de contacto da acceso a una ruta bilingüe para practicar explicación, ecuación y evaluación experimental como una sola competencia.
-`,Ue=`---
+`,Ze=`---
 title: "GCSE Chemistry: master equations and moles without the usual mistakes"
 date: "2026-09-12"
 updated: "2026-10-28"
@@ -13788,7 +17591,7 @@ The essential answers are $\\mathrm{2Mg+O_2\\rightarrow2MgO}$; 0.50 mol; the bal
 Método Nebula's virtual campus connects foundations, formulae and amounts, bonding, reactions and exam practice. Layered theory, worked examples, exercises, multiple-choice questions and exam problems make the step from concept to calculation deliberate rather than improvised.
 
 If equations make sense separately but collapse in a longer problem, the contact button opens a review of the current level and a GCSE Chemistry route with a clear goal and deadline.
-`,we=`---
+`,Ye=`---
 title: "Química GCSE: domina ecuaciones y moles con una ruta que evita los errores típicos"
 date: "2026-09-12"
 updated: "2026-10-28"
@@ -13905,7 +17708,7 @@ Las respuestas esenciales son: $\\mathrm{2Mg+O_2\\rightarrow2MgO}$; 0,50 mol; la
 El campus virtual de Método Nebula conecta fundamentos, fórmulas y cantidades, enlaces, reacciones y práctica de examen. Incluye teoría por capas, ejemplos, ejercicios, preguntas de opción múltiple, errores comunes y preguntas de examen para que el salto entre concepto y cálculo no dependa de una hoja suelta.
 
 Si las ecuaciones “se entienden” por separado pero se desordenan en un problema largo, el botón de contacto sirve para plantear el caso, revisar el nivel y construir una ruta de Química GCSE con un objetivo y una fecha claros.
-`,Re=`---
+`,ea=`---
 title: "GCSE Chemistry: the periodic table and Groups 1, 7 and 0 without memorising facts"
 seoTitle: "GCSE Chemistry: periodic table and Groups 1, 7 and 0"
 date: "2026-08-23"
@@ -13995,7 +17798,7 @@ The prediction follows from position and structure rather than recognising the e
 ## Turning trends into GCSE answers
 
 Método Nebula's virtual campus links atomic structure, bonding, the periodic table and reactions through organised theory, comparisons and GCSE questions. Use the contact button to access a bilingual route with graded exercises and worked exams so trends are reasoned rather than memorised.
-`,Be=`---
+`,aa=`---
 title: "Química GCSE: tabla periódica y grupos 1, 7 y 0 para predecir propiedades sin memorizar datos"
 seoTitle: "Química GCSE: tabla periódica y grupos 1, 7 y 0"
 date: "2026-08-23"
@@ -14085,7 +17888,7 @@ La predicción surge de posición y estructura, no de reconocer el nombre del el
 ## Convertir tendencias en respuestas GCSE
 
 El campus virtual de Método Nebula enlaza estructura atómica, enlace, tabla periódica y reacciones mediante teoría organizada, comparaciones y preguntas GCSE. El botón de contacto permite acceder a una ruta bilingüe con ejercicios graduados y exámenes resueltos, para razonar las tendencias en lugar de memorizar flechas.
-`,Ie=`---
+`,na=`---
 title: "GCSE Chemistry: rates of reaction and collision theory for explaining every graph"
 seoTitle: "GCSE Chemistry: rates and collision theory"
 date: "2026-09-23"
@@ -14178,7 +17981,7 @@ When timing a fixed product amount, $1/t$ can represent relative rate. Explain w
 ## Practising explanations that earn marks
 
 Método Nebula's virtual campus combines particle theory, graphs, practical work and graded GCSE questions. Each factor is trained through a cause–collision–result chain and model answers. Use the contact button to access this work alongside moles, chemical energetics and equilibrium.
-`,Ne=`---
+`,oa=`---
 title: "Química GCSE: velocidad de reacción y teoría de colisiones para explicar cualquier gráfica"
 seoTitle: "Química GCSE: velocidad de reacción y colisiones"
 date: "2026-09-23"
@@ -14271,7 +18074,7 @@ Si se utiliza tiempo para alcanzar una cantidad fija, una medida sencilla de vel
 ## Practicar explicaciones que sí puntúan
 
 El campus virtual de Método Nebula combina teoría de partículas, gráficas, prácticas y preguntas GCSE graduadas. Cada factor se trabaja con la cadena causa–colisión–resultado y con modelos de respuesta. Utiliza el botón de contacto si quieres acceder a este entrenamiento junto con moles, energía química y equilibrio.
-`,Te=`---
+`,ia=`---
 title: "GCSE Maths: master algebra and graphs by seeing one idea three ways"
 date: "2026-10-14"
 updated: "2026-10-28"
@@ -14352,7 +18155,7 @@ An inequality produces an interval, not only a number. Reverse the sign when mul
 Express one linear relationship as a story, equation, table and graph. Repeat with a quadratic, then solve a problem where two models intersect. This transfer is more valuable than a page of identical expansions.
 
 Método Nebula's virtual campus develops number, algebra and graphs, coordinate geometry and functions through theory, examples, practice and exam questions. The contact button can turn scattered errors into a focused Foundation or Higher route.
-`,ke=`---
+`,ra=`---
 title: "Matemáticas GCSE: domina álgebra y gráficas viendo una idea de tres formas"
 date: "2026-10-14"
 updated: "2026-10-28"
@@ -14451,7 +18254,7 @@ Resolver una desigualdad produce un intervalo, no solo un número. Si multiplica
 Toma una relación lineal y exprésala como historia, ecuación, tabla y gráfica. Repite con una cuadrática. Después resuelve una pregunta donde dos modelos se intersecten. Esa transferencia prepara mejor que una página de expansiones idénticas.
 
 El campus virtual de Método Nebula desarrolla números, álgebra y gráficas, geometría analítica y funciones con teoría, ejemplos, práctica y preguntas de examen. Si quieres convertir errores dispersos en una ruta de nivel básico o avanzado, utiliza el botón de contacto.
-`,Fe=`---
+`,sa=`---
 title: "GCSE Circle Theorems: How to Recognise the Diagram and Justify Every Angle"
 seoTitle: "GCSE Circle Theorems: Guide and Proofs"
 date: "2026-07-25"
@@ -14545,7 +18348,7 @@ A clear proof alternates statement and justification:
 ## Practising recognition and reasoning
 
 Método Nebula's virtual campus connects circle theorems, similarity, trigonometry and coordinate geometry through visual theory and graded GCSE questions. The contact button gives access to a bilingual route with fully worked identification, calculation and proof exercises.
-`,Qe=`---
+`,ta=`---
 title: "Teoremas de la circunferencia GCSE: cómo reconocer la figura y justificar cada ángulo"
 seoTitle: "Teoremas de la circunferencia GCSE: guía y pruebas"
 date: "2026-07-25"
@@ -14639,7 +18442,7 @@ Una prueba clara alterna afirmación y justificación:
 ## Practicar reconocimiento y razonamiento
 
 El campus virtual de Método Nebula conecta teoremas de la circunferencia, semejanza, trigonometría y geometría analítica con teoría visual y preguntas GCSE graduadas. El botón de contacto permite acceder a una ruta bilingüe con ejercicios de identificación, cálculo y prueba completamente resueltos.
-`,Ve=`---
+`,ca=`---
 title: "GCSE Maths: histograms and cumulative frequency without confusing height and area"
 date: "2026-10-15"
 updated: "2026-10-28"
@@ -14729,7 +18532,7 @@ A cumulative curve can estimate how many values lie below a point inside a class
 The total bar area must represent the total frequency. The final cumulative value must equal $N$, and $Q_1<\\text{median}<Q_3$ with a positive IQR.
 
 Método Nebula's virtual campus develops statistics through tables, histograms, cumulative frequency, box plots and distribution comparisons. The contact button opens a route that trains calculation and written interpretation together.
-`,Ge=`---
+`,la=`---
 title: "Matemáticas GCSE: histogramas y frecuencia acumulada sin confundir altura y área"
 date: "2026-10-15"
 updated: "2026-10-15"
@@ -14837,7 +18640,7 @@ Cuando se pregunta cuántos datos están por debajo de un valor interior de una 
 La suma de las áreas de las barras debe representar el total. La acumulada final tiene que coincidir con $N$; además, debe cumplirse $Q_1<\\text{mediana}<Q_3$ y el IQR ha de ser positivo.
 
 El campus virtual de Método Nebula desarrolla estadística con tablas, histogramas, frecuencia acumulada, diagramas de caja y comparación de distribuciones mediante ejercicios y preguntas de examen. El botón de contacto permite solicitar una ruta que trabaja conjuntamente el cálculo y la interpretación escrita.
-`,Ke=`---
+`,da=`---
 title: "GCSE Maths: probability trees and conditional probability without adding the wrong branches"
 seoTitle: "GCSE Maths: probability trees and conditional probability"
 date: "2026-09-16"
@@ -14955,7 +18758,7 @@ A condition cannot be reversed by swapping letters. $P(A\\mid B)$ and $P(B\\mid 
 ## From one tree to complete GCSE preparation
 
 Método Nebula's virtual campus connects probability, statistics and algebra through visual examples, graded practice and exam questions. Trees are trained first as structures and then as conditional calculations. Use the contact button to access a bilingual route with theory, exercises and worked models.
-`,Xe=`---
+`,ua=`---
 title: "Matemáticas GCSE: árboles de probabilidad y probabilidad condicionada sin sumar ramas equivocadas"
 seoTitle: "Matemáticas GCSE: árboles y probabilidad condicionada"
 date: "2026-09-16"
@@ -15073,7 +18876,7 @@ No se invierte una condición intercambiando letras. $P(A\\mid B)$ y $P(B\\mid A
 ## De un árbol a una preparación GCSE completa
 
 El campus virtual de Método Nebula conecta probabilidad, estadística y álgebra con ejemplos visuales, práctica graduada y preguntas de examen. Los árboles se trabajan primero como estructura y después como cálculo condicionado. El botón de contacto permite acceder a una ruta bilingüe con teoría, ejercicios y modelos resueltos.
-`,We=`---
+`,ma=`---
 title: "GCSE Maths Resit: a 14-Day Plan to Reach Grade 4 or 5"
 seoTitle: "GCSE Maths Resit: 14-Day Grade 4–5 Plan"
 date: "2026-10-01"
@@ -15162,7 +18965,7 @@ Review formulas, the error log and two representative questions. Do not attempt 
 - Ask whether the result is sensible in context.
 
 The Método Nebula virtual campus turns this schedule into a personal route: an initial diagnostic, concise theory, graded exercises, worked past papers and an error record. If Grade 4 or 5 is the target, the contact button can be used to build a fourteen-day route from your actual paper rather than a generic topic list.
-`,Je=`---
+`,$a=`---
 title: "Recuperación de Matemáticas GCSE: un plan de 14 días para alcanzar el Grade 4 o 5"
 seoTitle: "Recuperación GCSE Maths: plan de 14 días"
 date: "2026-10-01"
@@ -15251,7 +19054,7 @@ Revisa fórmulas, tarjetas de errores y dos preguntas representativas. No intent
 - Pregunta si la respuesta tiene sentido en el contexto.
 
 El campus virtual de Método Nebula convierte este plan en una ruta personal: diagnóstico inicial, teoría breve, ejercicios por dificultad, exámenes resueltos y registro de errores. Si necesitas alcanzar el Grade 4 o 5, el botón de contacto permite organizar un itinerario de catorce días alrededor de tus resultados reales, no de una lista genérica de temas.
-`,Ze=`---
+`,pa=`---
 title: "GCSE Maths: an eight-week plan to improve at Foundation or Higher"
 date: "2026-09-10"
 updated: "2026-10-28"
@@ -15345,7 +19148,7 @@ Ask: which topic no longer needs support, which error repeats, which question ca
 ## From the article to a complete route
 
 Método Nebula's virtual campus organises GCSE Mathematics by unit, with theory, worked examples, guided exercises, independent practice, exam questions, tests and error review. The contact button can turn an exam date, current tier and starting point into a realistic calendar.
-`,Ye=`---
+`,ga=`---
 title: "Matemáticas GCSE: el plan de 8 semanas para subir nota en nivel básico o avanzado"
 date: "2026-09-10"
 updated: "2026-10-28"
@@ -15447,7 +19250,7 @@ Cada domingo responde: ¿qué tema ha dejado de necesitar apoyo?, ¿qué error s
 El campus virtual de Método Nebula permite recorrer Matemáticas GCSE por unidades, con teoría, ejemplos trabajados, ejercicios guiados, práctica independiente, preguntas de examen, pruebas y revisión de errores. No sustituye el esfuerzo: evita que ese esfuerzo se disperse.
 
 Si quieres saber por dónde empezar, qué nivel encaja con la situación y cómo convertir la fecha del examen en un calendario real, utiliza el botón de contacto. La primera conversación sirve para diagnosticar, no para vender horas al azar.
-`,en=`---
+`,fa=`---
 title: "GCSE Maths: similarity and length, area and volume scale factors without mixing them up"
 seoTitle: "GCSE Maths: similarity and scale factors"
 date: "2026-08-16"
@@ -15573,7 +19376,7 @@ If the small container holds 640 mL, the large one holds 1250 mL.
 ## Turning scales into a GCSE method
 
 Método Nebula's virtual campus connects similarity, geometry, trigonometry and mensuration through visual theory, graded exercises and GCSE questions. Use the contact button to access a bilingual route where linear, square and cubic factors are trained with checks and worked models.
-`,nn=`---
+`,xa=`---
 title: "Matemáticas GCSE: semejanza y factores de escala de longitud, área y volumen sin mezclarlos"
 seoTitle: "Matemáticas GCSE: semejanza y factores de escala"
 date: "2026-08-16"
@@ -15699,7 +19502,7 @@ Si el pequeño contiene 640 mL, el grande contiene 1250 mL.
 ## Convertir escalas en un método GCSE
 
 El campus virtual de Método Nebula conecta semejanza, geometría, trigonometría y medidas mediante teoría visual, ejercicios graduados y preguntas GCSE. El botón de contacto permite acceder a una ruta bilingüe donde los factores lineal, cuadrático y cúbico se entrenan con comprobaciones y modelos resueltos.
-`,an=`---
+`,ba=`---
 title: "GCSE Maths Simultaneous Equations: 5 Worked Exam Questions"
 seoTitle: "GCSE Simultaneous Equations: 5 Worked Questions"
 date: "2026-10-20"
@@ -15869,7 +19672,7 @@ The two intersections are $(3,5)$ and $(-2,0)$. A linear-quadratic system may ha
 - Checking only one equation.
 
 The Método Nebula virtual campus brings together GCSE algebra, guided examples, graded practice and worked papers. Use the contact button to request a bilingual route that identifies whether the difficulty lies in modelling, elimination or checking and then selects the next practice set.
-`,on=`---
+`,va=`---
 title: "Matemáticas GCSE: sistemas de ecuaciones con 5 ejercicios resueltos paso a paso"
 seoTitle: "Sistemas de ecuaciones GCSE: 5 ejercicios resueltos"
 date: "2026-10-20"
@@ -16039,7 +19842,7 @@ Hay dos intersecciones: $(3,5)$ y $(-2,0)$. En estos sistemas es frecuente encon
 - Comprobar en una sola ecuación.
 
 El campus virtual de Método Nebula reúne álgebra GCSE, ejemplos guiados, ejercicios graduados y exámenes resueltos. El botón de contacto permite solicitar una ruta bilingüe que detecta si el bloqueo está en el planteamiento, la eliminación o la comprobación y propone la práctica siguiente.
-`,rn=`---
+`,ya=`---
 title: "GCSE Maths: transformations and vectors without getting lost on the grid"
 seoTitle: "GCSE Maths: transformations and vectors"
 date: "2026-10-19"
@@ -16158,7 +19961,7 @@ In a multi-mark question, write each equality and state the geometric conclusion
 - Describing the image without naming the transformation.
 
 Método Nebula's virtual campus connects geometry, coordinates, transformations and vectors through worked examples and graded GCSE questions. Contact us for a route combining accurate construction with algebraic reasoning.
-`,sn=`---
+`,ha=`---
 title: "Matemáticas GCSE: transformaciones y vectores sin perderte en el plano"
 seoTitle: "Matemáticas GCSE: transformaciones y vectores"
 date: "2026-10-19"
@@ -16277,7 +20080,7 @@ En preguntas de varios puntos, escribe cada igualdad y justifica la conclusión 
 - Describir una figura sin nombrar la transformación.
 
 El campus de Método Nebula reúne geometría, coordenadas, transformaciones y vectores con ejemplos, práctica graduada y preguntas GCSE. Contacta si quieres una ruta que combine dibujo preciso y justificación algebraica.
-`,tn=`---
+`,qa=`---
 title: "GCSE Maths: trigonometry and bearings without impossible angles"
 date: "2026-09-30"
 updated: "2026-10-28"
@@ -16371,7 +20174,7 @@ Add or subtract $180^\\circ$ and return to $000^\\circ$–$360^\\circ$. The reve
 Use this chain: north references → clockwise turns → journey triangle → internal angles → trigonometric rule → calculation → geometric check → three-digit bearing. Every step should justify the next.
 
 Método Nebula's virtual campus develops trigonometry, geometry and bearings through visual theory, guided exercises and exam-style questions. The contact button opens a route in which the diagram is a reasoning tool, not decoration.
-`,cn=`---
+`,_a=`---
 title: "Matemáticas GCSE: trigonometría y rumbos con un dibujo que evita ángulos imposibles"
 date: "2026-09-30"
 updated: "2026-09-30"
@@ -16483,7 +20286,7 @@ El rumbo inverso se obtiene sumando o restando $180^\\circ$ y ajustando al inter
 La resolución puede leerse como una cadena: nortes de referencia → giros horarios → triángulo del recorrido → ángulos internos → razón o ley trigonométrica → cálculo → comprobación geométrica → rumbo con tres cifras. Cada eslabón deja visible de dónde procede el siguiente.
 
 El campus virtual de Método Nebula desarrolla trigonometría, geometría y rumbos con teoría visual, ejercicios guiados y preguntas tipo examen. El botón de contacto abre una ruta en la que el dibujo funciona como herramienta de razonamiento y no como boceto decorativo.
-`,ln=`---
+`,Ea=`---
 title: "GCSE Mock Exams: a Six-Week Maths and Science Revision Plan"
 seoTitle: "GCSE Mocks: Six-Week Maths and Science Plan"
 date: "2026-10-04"
@@ -16558,7 +20361,7 @@ During the final 24 hours, review that page, essential equations and two represe
 Four 50-minute sessions can beat one Sunday marathon. A useful structure is 10 minutes of closed-book recall, 30 minutes of problems and 10 minutes of marking. Add one timed session at the weekend.
 
 The Método Nebula virtual campus organises GCSE Maths, Physics and Chemistry into connected routes with visual theory, graded practice, mock papers and fully reasoned solutions. Use the contact button to request a diagnostic and turn these six weeks into a calendar matched to your subjects, tier and mock date.
-`,dn=`---
+`,Ca=`---
 title: "Simulacros GCSE: plan de seis semanas para preparar Matemáticas y Ciencias"
 seoTitle: "Simulacros GCSE: plan de revisión de 6 semanas"
 date: "2026-10-04"
@@ -16633,7 +20436,7 @@ En las últimas 24 horas revisa esa lista, fórmulas esenciales y dos ejemplos r
 Cuatro sesiones semanales de 50 minutos pueden superar a una maratón dominical. Una estructura útil es: 10 minutos de recuperación sin apuntes, 30 de problemas y 10 de corrección. Añade una sesión cronometrada el fin de semana.
 
 El campus virtual de Método Nebula organiza Matemáticas, Física y Química GCSE en rutas conectadas, con teoría visual, práctica graduada, simulacros y soluciones justificadas. Desde el botón de contacto puedes solicitar un diagnóstico para transformar estas seis semanas en un calendario ajustado a tus asignaturas, nivel y fecha de simulacro.
-`,un=`---
+`,ja=`---
 title: "How to Use GCSE Past Papers and Mark Schemes Without Wasting Them"
 seoTitle: "GCSE Past Papers and Mark Schemes: a Better Method"
 date: "2026-10-07"
@@ -16721,7 +20524,7 @@ Early in revision, topic questions concentrate practice. Nearer the exam, a full
 Every paper should produce three outputs: a score, a short error list and a repair set. If it produces only a grade, it has measured the problem without changing it.
 
 The Método Nebula virtual campus connects GCSE papers to the relevant theory, graded exercises and solutions that explain where each mark comes from. Use the contact button to access a bilingual route in which every paper generates targeted practice, progress tracking and a clear next step.
-`,mn=`---
+`,Sa=`---
 title: "Cómo utilizar exámenes anteriores y criterios de corrección GCSE sin desperdiciarlos"
 seoTitle: "Exámenes anteriores GCSE: método de corrección"
 date: "2026-10-07"
@@ -16809,7 +20612,7 @@ Al principio, las preguntas por tema permiten concentrar la práctica. Más cerc
 Cada documento debe producir tres resultados: una puntuación, una lista breve de errores y un conjunto de tareas de reparación. Si solo produce una nota, has medido el problema sin corregirlo.
 
 El campus virtual de Método Nebula integra exámenes GCSE con teoría vinculada, ejercicios graduados y soluciones que explican de dónde sale cada punto. El botón de contacto permite acceder a una ruta bilingüe donde cada examen genera práctica específica, seguimiento y un siguiente paso claro.
-`,$n=`---
+`,za=`---
 title: "GCSE Physics Density, Pressure and Gas Laws: 5 Worked Questions"
 seoTitle: "GCSE Density and Pressure: 5 Worked Questions"
 date: "2026-10-23"
@@ -16930,7 +20733,7 @@ Heating a gas in a rigid container makes the particles move faster. Each collisi
 - Applying $P_1V_1=P_2V_2$ when temperature changes without justification.
 
 The Método Nebula virtual campus connects particles, density, forces, pressure and gas models through visual theory, graded exercises and worked GCSE questions. Use the contact button to request a bilingual route that trains conversions, calculations and particle explanations against exam criteria.
-`,pn=`---
+`,Pa=`---
 title: "Física GCSE: densidad, presión y gases con 5 ejercicios resueltos"
 seoTitle: "Densidad y presión GCSE: 5 ejercicios resueltos"
 date: "2026-10-23"
@@ -17051,7 +20854,7 @@ Al calentar un gas en un recipiente rígido, las partículas se mueven más depr
 - Aplicar $P_1V_1=P_2V_2$ si cambia la temperatura sin justificarlo.
 
 El campus virtual de Método Nebula conecta partículas, densidad, fuerzas, presión y modelos de gases con teoría visual, ejercicios graduados y preguntas GCSE resueltas. Desde el botón de contacto puedes solicitar una ruta bilingüe que entrena conversiones, cálculos y explicaciones microscópicas con criterios de examen.
-`,gn=`---
+`,Aa=`---
 title: "GCSE Physics: master electricity and circuits without losing formula marks"
 date: "2026-09-15"
 updated: "2026-10-28"
@@ -17140,7 +20943,7 @@ Two identical lamps are in parallel. One breaks and opens its branch. In the ide
 Begin with symbols and units, continue with one-equation problems and finish with multi-step questions combining circuits, power, energy and explanation. Move from topic practice to mixed sets and finally a timed paper.
 
 Método Nebula's virtual campus organises electricity and magnetism through theory, worked examples, exercises and exam questions. The contact button can diagnose whether the block lies in the concept, the circuit or the calculation and turn it into a concrete plan.
-`,fn=`---
+`,La=`---
 title: "Física GCSE: domina electricidad y circuitos sin perder puntos por una fórmula"
 date: "2026-09-15"
 updated: "2026-10-28"
@@ -17255,7 +21058,7 @@ Dos lámparas idénticas están en paralelo. Una se rompe y abre su rama. ¿Qué
 Empieza con símbolos y unidades; continúa con problemas de una ecuación; termina con cuestiones de varios pasos que mezclen circuitos, potencia, energía y explicación. Después haz práctica por tema, una mezcla aleatoria y finalmente un examen cronometrado.
 
 El campus virtual de Método Nebula organiza electricidad y magnetismo con teoría, ejemplos trabajados, ejercicios, preguntas de examen y revisión. Si quieres detectar si el bloqueo está en el concepto, el montaje o el cálculo, utiliza el botón de contacto y lo convertimos en un plan concreto.
-`,xn=`---
+`,Ha=`---
 title: "GCSE Physics: energy, work and power without confusing joules and watts"
 date: "2026-09-22"
 updated: "2026-10-28"
@@ -17356,7 +21159,7 @@ Do not search for a formula merely because it contains every number. Model the e
 A robust solution exposes **model → equation → substitution with units → result → check**. An efficiency between 0 and 1, power in watts and a closed energy balance provide independent checks.
 
 Método Nebula's virtual campus develops energy, work and power through visual theory, guided examples, exercise banks and exam questions. The contact button opens a route in which formulae form a connected system rather than a list to memorise.
-`,bn=`---
+`,Da=`---
 title: "Física GCSE: energía, trabajo y potencia sin confundir julios, vatios y eficiencia"
 date: "2026-09-22"
 updated: "2026-09-22"
@@ -17474,7 +21277,7 @@ Buscar una fórmula que contenga todos los números suele ocultar la física. Un
 Una solución sólida deja visible la cadena **modelo → ecuación → sustitución con unidades → resultado → comprobación**. Si la eficiencia queda entre 0 y 1, la potencia tiene unidades de W y el balance de energía cierra, hay tres comprobaciones independientes de que el razonamiento es coherente.
 
 El campus virtual de Método Nebula trabaja energía, trabajo y potencia con teoría visual, ejemplos guiados, bancos de ejercicios y preguntas de examen corregibles paso a paso. Para quienes necesitan que las fórmulas formen un sistema y no una lista para memorizar, el botón de contacto permite solicitar una ruta de estudio.
-`,vn=`---
+`,Ma=`---
 title: "GCSE Physics: a five-step method for forces and free-body diagrams"
 date: "2026-09-20"
 updated: "2026-10-28"
@@ -17565,7 +21368,7 @@ At terminal velocity, weight and drag balance: resultant force and acceleration 
 ## From the diagram to complete preparation
 
 Método Nebula's virtual campus organises measurement and motion, forces and pressure, energy and exam practice through theory, diagrams and graduated exercises. If a paper shows that formulae are known but force selection is weak, the contact button opens a focused GCSE Physics route.
-`,yn=`---
+`,Ra=`---
 title: "Física GCSE: el método de 5 pasos para dominar fuerzas y diagramas"
 date: "2026-09-20"
 updated: "2026-10-28"
@@ -17683,7 +21486,7 @@ Para la velocidad terminal, el peso y la resistencia del aire se equilibran: la 
 ## Del diagrama a una preparación completa
 
 El campus virtual de Método Nebula organiza medida y movimiento, fuerzas y presión, energía y práctica de examen con teoría, diagramas, ejemplos y ejercicios graduados. Si un examen revela que sabes las fórmulas pero no decides qué fuerzas incluir, el botón de contacto permite convertir ese patrón en una ruta específica de Física GCSE.
-`,hn=`---
+`,Oa=`---
 title: "GCSE Magnetism: How to Understand Motors, Generators and Induction Without Memorising Diagrams"
 seoTitle: "GCSE Magnetism: Motors, Generators and Induction"
 date: "2026-07-30"
@@ -17781,7 +21584,7 @@ Increasing voltage reduces current for the same power and therefore reduces $I^2
 ## Building a connected understanding of magnetism
 
 Método Nebula's virtual campus connects electricity, forces, energy, motors and generators through visual theory, graded exercises and worked GCSE questions. The contact button gives access to a bilingual route where every direction rule is practised alongside its physical explanation and calculation.
-`,qn=`---
+`,Ua=`---
 title: "Magnetismo GCSE: cómo entender motores, generadores e inducción sin memorizar dibujos"
 seoTitle: "Magnetismo GCSE: motores, generadores e inducción"
 date: "2026-07-30"
@@ -17879,7 +21682,7 @@ Elevar la tensión reduce la corriente para la misma potencia y disminuye las p�
 ## Preparar magnetismo con continuidad
 
 El campus virtual de Método Nebula conecta electricidad, fuerzas, energía, motores y generadores con teoría visual, ejercicios graduados y preguntas GCSE resueltas. El botón de contacto da acceso a un itinerario bilingüe donde cada regla de dirección se practica junto a su explicación física y su cálculo.
-`,En=`---
+`,Ba=`---
 title: "GCSE Physics: motion graphs and stopping distance without mixing up gradient and area"
 seoTitle: "GCSE Physics: motion graphs and stopping distance"
 date: "2026-08-29"
@@ -17995,7 +21798,7 @@ The stopping distance is therefore 43.2 m. In the figure, the two contributions 
 ## From one graph to an exam plan
 
 Método Nebula's virtual campus connects motion, forces, energy and road safety through structured theory, conceptual graph work and graded GCSE questions. Use the contact button to access a bilingual route with exercises and model answers so gradient, area and units become one reliable method.
-`,_n=`---
+`,wa=`---
 title: "Física GCSE: gráficas de movimiento y distancia de frenado sin confundir pendiente y área"
 seoTitle: "Física GCSE: gráficas y distancia de frenado"
 date: "2026-08-29"
@@ -18111,7 +21914,7 @@ Por tanto, la distancia de detención es 43.2 m. En la figura, ambos resultados 
 ## Del gráfico a un plan de examen
 
 El campus virtual de Método Nebula conecta movimiento, fuerzas, energía y seguridad vial mediante teoría, gráficas interactivas conceptuales y preguntas GCSE graduadas. El botón de contacto permite acceder a un itinerario bilingüe con ejercicios y modelos de respuesta, para que pendiente, área y unidades se conviertan en un método estable.
-`,Cn=`---
+`,Ia=`---
 title: "GCSE Physics: half-life and radioactivity through graphs that explain decay"
 date: "2026-10-22"
 updated: "2026-10-28"
@@ -18203,7 +22006,7 @@ Each measure should be linked to how it reduces dose.
 - Confusing contamination with irradiation.
 
 Método Nebula's virtual campus develops nuclear physics through nuclear structure, radiation, half-life, activity, safety and exam questions. The contact button opens a route connecting calculations, graphs and scientific explanations.
-`,jn=`---
+`,Na=`---
 title: "Física GCSE: vida media y radiactividad con gráficas que explican el decaimiento"
 date: "2026-10-22"
 updated: "2026-10-22"
@@ -18314,7 +22117,7 @@ Cada medida debe vincularse con cómo reduce la exposición, no recitarse como u
 - Confundir contaminación e irradiación.
 
 El campus virtual de Método Nebula desarrolla física nuclear con estructura del núcleo, radiaciones, vida media, actividad, seguridad y preguntas de examen. El botón de contacto permite solicitar una ruta que conecta cálculos, gráficas y explicaciones científicas.
-`,Sn=`---
+`,Ta=`---
 title: "GCSE Physics: stellar life cycles and H–R diagrams without memorising a list"
 seoTitle: "GCSE Physics: stellar life cycles explained"
 date: "2026-09-29"
@@ -18390,7 +22193,7 @@ equal $T$ gives $L\\propto R^2$. A therefore has ten times B's radius. There is 
 ## From one topic to complete preparation
 
 Space physics combines extended explanations, graph reading, scales and energy. Método Nebula's virtual campus organises the theory into a route, adds graded questions and demonstrates how each idea becomes an exam answer. Use the contact button if you want to practise this unit alongside waves, nuclear physics and energy.
-`,Pn=`---
+`,ka=`---
 title: "Física GCSE: ciclo de vida de las estrellas y diagrama H–R sin memorizar una lista"
 seoTitle: "Física GCSE: ciclo de vida de las estrellas"
 date: "2026-09-29"
@@ -18466,7 +22269,7 @@ si $T$ es igual, $L\\propto R^2$. Por tanto, el radio de A es diez veces el de B
 ## Del tema aislado a una preparación completa
 
 Espacio combina explicaciones largas, lectura de gráficas, escalas y energía. El campus virtual de Método Nebula reúne la teoría en una ruta, añade preguntas graduadas y muestra cómo convertir cada idea en una respuesta de examen. Si quieres practicar este bloque junto con ondas, nuclear y energía, utiliza el botón de contacto para acceder al plan adecuado.
-`,zn=`---
+`,Fa=`---
 title: "GCSE Physics: heating curves, specific heat capacity and state changes without mixing formulas"
 seoTitle: "GCSE Physics: heating curves and changes of state"
 date: "2026-10-12"
@@ -18584,7 +22387,7 @@ The experimental value of $c$ is often too high if all electrical energy is assi
 A complete answer names energy, motion, separation and forces. “Particles expand” is inaccurate: their average separation usually changes; the particles themselves do not grow.
 
 Método Nebula's virtual campus develops thermal energy, particles, state changes and heat transfer through structured theory and GCSE questions. Contact us to combine calculations and scientific explanations in one plan.
-`,An=`---
+`,Va=`---
 title: "Física GCSE: curvas de calentamiento, calor específico y cambios de estado sin mezclar fórmulas"
 seoTitle: "Física GCSE: curvas de calentamiento y cambios de estado"
 date: "2026-10-12"
@@ -18702,7 +22505,7 @@ El valor experimental suele salir demasiado alto si se atribuye al bloque toda l
 Una explicación completa nombra energía, movimiento, separación y fuerzas. “Las partículas se expanden” es impreciso: normalmente aumenta su separación; las partículas no crecen.
 
 El campus de Método Nebula desarrolla energía térmica, partículas, cambios de estado y transferencia de calor con teoría y preguntas GCSE. Contacta para practicar cálculos y explicaciones científicas en un mismo plan.
-`,Ln=`---
+`,Ga=`---
 title: "GCSE Physics: reflection and refraction without mixing up frequency, speed and wavelength"
 seoTitle: "GCSE Physics: reflection and refraction step by step"
 date: "2026-10-29"
@@ -18802,7 +22605,7 @@ Thick pencil lines, a tilted normal or measuring from the block face create syst
 Check the normal, units, direction and $v=f\\lambda$. If the wave slows down but your wavelength increases, the answer is inconsistent.
 
 Método Nebula's virtual campus links waves, light and sound through structured theory, graded questions and GCSE exam practice. Use the contact button if you want a plan with corrected diagrams and explanations.
-`,Hn=`---
+`,Qa=`---
 title: "Física GCSE: reflexión y refracción sin confundir frecuencia, velocidad y longitud de onda"
 seoTitle: "Física GCSE: reflexión y refracción paso a paso"
 date: "2026-10-29"
@@ -18902,7 +22705,7 @@ Una línea gruesa, una normal inclinada o medir desde la cara del bloque introdu
 Antes de terminar, revisa normal, unidades, dirección y relación $v=f\\lambda$. Si el medio reduce la velocidad pero tu longitud de onda aumenta, hay una incoherencia.
 
 El campus de Método Nebula conecta ondas, luz y sonido con teoría, ejercicios graduados y preguntas de examen GCSE. Si quieres practicar dibujos y explicaciones con corrección, utiliza el botón de contacto para construir un plan.
-`,On=`---
+`,Ka=`---
 title: "Geometría analítica en 4º ESO: rectas, pendientes y distancias"
 seoTitle: "Geometría analítica 4º ESO: rectas y ejercicios"
 date: 2026-10-27
@@ -18952,7 +22755,7 @@ Entre \\((0,0)\\) y \\((3,4)\\), \\(d=5\\).
 3. \\(5\\).
 
 En el [Campus de Método Nebula](/campus/) las coordenadas, rectas y distancias se conectan con funciones y geometría mediante ejercicios graduados.
-`,Dn=`---
+`,Wa=`---
 title: "Gráficas de MRU y MRUA en 4º ESO: ejercicios interpretados"
 seoTitle: "Gráficas de MRU y MRUA: ejercicios resueltos 4º ESO"
 date: 2026-11-05
@@ -19070,7 +22873,7 @@ Una velocidad negativa indica que el móvil se desplaza en el sentido contrario 
 4. El móvil se detiene en el cruce y después cambia de sentido.
 
 Para los conceptos y fórmulas de base, revisa las guías de [MRU](/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/) y [MRUA](/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/). Para practicar Física con un plan de estudio adaptado, consulta las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,Mn=`---
+`,Ja=`---
 title: "Gravitación en ESO: ley universal, masa, peso y ejercicios resueltos"
 date: "2026-08-26"
 updated: "2026-08-26"
@@ -19287,7 +23090,7 @@ $$
 Todas las masas se atraen con una fuerza que aumenta con las masas y disminuye con el cuadrado de la distancia. La masa se mide en kg y no cambia al viajar; el peso es una fuerza, se mide en N y vale $P=mg$ cerca de la Tierra. La caída libre es un MRUA con aceleración $g$.
 
 Para practicar el movimiento de caída, repasa el [MRUA con fórmulas y ejercicios](/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/). Para aprender a identificar datos, unidades y modelo antes de calcular, consulta [cómo plantear problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/). También puedes consultar las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,Un=`---
+`,Xa=`---
 title: IB y GCSE: cómo preparar exámenes internacionales con rúbrica y calendario
 date: 2026-06-10
 updated: 2026-06-10
@@ -19355,7 +23158,7 @@ Cada semana conviene responder tres preguntas:
 Esta revisión evita estudiar por inercia. En programas internacionales, donde el formato importa mucho, una preparación sin feedback acaba dejando puntos fáciles por el camino.
 
 Para organizar esa preparación puedes ver [clases para GCSE, IGCSE e IB](/clases-particulares/gcse-ib/) o [contactar](/contacto/) para revisar syllabus, fecha y objetivo.
-`,wn=`---
+`,Za=`---
 title: Integración por partes: fórmula y ejercicios resueltos
 seoTitle: "Integración por partes: fórmula, elegir u y dv, ejercicios"
 date: 2026-08-06
@@ -20036,7 +23839,7 @@ Integración por partes funciona cuando el intercambio \\(\\int u\\,dv\\to uv-\\
 Después de aplicar la fórmula, pueden ocurrir tres cosas útiles: la nueva integral es inmediata, hay que repetir partes o reaparece la integral original y se despeja. En todos los casos, la derivación del resultado es la prueba definitiva.
 
 Si quieres practicar el método con ejercicios de tu grado y recibir corrección sobre la elección de \\(u\\), los signos y la presentación, consulta las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Rn=`---
+`,Ya=`---
 title: Integración por sustitución: cambio de variable y ejercicios
 seoTitle: "Integración por sustitución: cambio de variable y ejercicios"
 date: 2026-08-12
@@ -20760,7 +24563,7 @@ La comprobación más fiable consiste en derivar: si recuperas el integrando med
 En cálculo multivariable, la misma idea exige corregir áreas mediante el determinante: consulta la guía de [cambio de variables y jacobiano en integrales dobles](/blog/cambio-variables-jacobiano-integrales-dobles/).
 
 Si estás trabajando sustituciones más exigentes en Cálculo y necesitas corregir la elección del cambio sobre ejercicios reales de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Bn=`---
+`,en=`---
 title: Integral definida e indefinida: diferencias y ejemplos
 seoTitle: "Integral definida e indefinida: diferencias y ejercicios"
 date: 2026-08-10
@@ -21469,7 +25272,7 @@ El valor queda entre \\(f(0)=1\\) y \\(f(2)=7\\), como debe ocurrir.
 La integral indefinida busca una familia de primitivas y termina con \\(+C\\). La integral definida mide una acumulación neta sobre un intervalo y termina en un número. El teorema fundamental permite calcular esa acumulación restando valores de una primitiva y explica por qué la constante desaparece.
 
 Antes de operar, identifica qué objeto pide el problema. Después comprueba por derivación y, en integrales definidas, añade controles de signo, unidades, cotas y continuidad. Si necesitas trabajar estas diferencias sobre problemas de tu grado, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,In=`---
+`,an=`---
 title: "Integrales dobles: cálculo, regiones y ejercicios resueltos"
 date: "2026-09-03"
 updated: "2026-09-03"
@@ -22087,7 +25890,7 @@ $$
 Dibuja primero y escribe después los límites. En una integral iterada, resuelve la integral interior tratando la otra variable como constante. Cambia el orden cuando simplifique el integrando o los límites, reconstruyendo siempre la región. Para áreas integra uno; para volúmenes usa altura superior menos inferior; para masas introduce la densidad.
 
 Si necesitas trabajar regiones y cambios de orden con ejercicios de tu temario, las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/) permiten practicar el planteamiento y no solo la integración mecánica.
-`,Nn=`---
+`,nn=`---
 title: Integrales de funciones racionales y fracciones parciales
 date: 2026-08-03
 updated: 2026-08-03
@@ -22849,7 +26652,7 @@ Una integral racional se resuelve en tres capas: división si la fracción es im
 El método termina cuando cada sumando encaja en una primitiva conocida. La comprobación más segura se hace antes y después de integrar: primero reuniendo la descomposición y después derivando el resultado.
 
 Si necesitas aplicar estas plantillas a ejercicios de tu asignatura y corregir la factorización o el sistema de coeficientes, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Tn=`---
+`,on=`---
 title: Integrales impropias: convergencia y ejercicios resueltos
 date: 2026-08-15
 updated: 2026-08-15
@@ -23647,7 +27450,7 @@ Una integral es impropia por un intervalo infinito, por una singularidad o por a
 La clasificación debe preceder al valor. Antes de integrar, marca sobre el intervalo cada punto fuera del dominio y estudia por separado el comportamiento local y la cola en infinito. Después elige entre cálculo exacto y comparación. Esta secuencia evita cancelaciones ilegítimas, sustituciones de $\\infty$ como si fuera un número y conclusiones basadas únicamente en que el integrando tiende a cero.
 
 Si necesitas trabajar convergencia, comparaciones y técnicas de integración sobre ejercicios de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,kn=`---
+`,rn=`---
 title: Integrales inmediatas: ejercicios resueltos paso a paso
 seoTitle: "Integrales inmediatas: ejercicios resueltos paso a paso"
 date: 2026-11-05
@@ -23812,7 +27615,7 @@ Si aparece una función dentro de otra junto con su derivada, puede corresponder
 Una integral inmediata se reconoce después de simplificar, no antes. Separa términos, identifica la primitiva y deriva tu resultado para comprobarlo. Esa rutina evita usar sustitución o partes cuando no hacen falta.
 
 Si necesitas practicar estas técnicas con ejercicios de tu temario, consulta las [clases particulares de Cálculo](/clases-particulares/calculo-universitario/).
-`,Fn=`---
+`,sn=`---
 title: "Integrales trigonométricas: ejercicios universitarios resueltos"
 seoTitle: "Integrales trigonométricas: ejercicios resueltos"
 date: 2026-10-24
@@ -23885,7 +27688,7 @@ $$
 3. \\(x/2+\\sin(2x)/4+C\\).
 
 En el [Campus de Método Nebula](/campus/) los métodos de integración se entrenan como decisiones: reconocer estructura, elegir técnica y comprobar cada primitiva.
-`,Qn=`---
+`,tn=`---
 title: "Ley de Hooke y muelles: ejercicios de 4º ESO con gráficas"
 seoTitle: "Ley de Hooke 4º ESO: muelles y ejercicios"
 date: 2026-10-25
@@ -23950,7 +27753,7 @@ Con \\(m=0{,}5\\text{ kg}\\) y \\(k=100\\text{ N/m}\\), \\(x=0{,}049\\text{ m}\\
 2. \\(80\\text{ N/m}\\).
 
 En el [Campus de Método Nebula](/campus/) fuerzas, muelles, energía y gráficas se practican como modelos conectados con ejercicios graduados.
-`,Vn=`---
+`,cn=`---
 title: "Ley de Ohm en 4º ESO: circuitos y ejercicios resueltos"
 seoTitle: "Ley de Ohm 4º ESO: ejercicios resueltos"
 date: 2026-11-02
@@ -24054,7 +27857,7 @@ La intensidad del circuito es \\(I=12/6=2\\text{ A}\\). Por tanto, las caídas d
 4. La tensión.
 
 En el [Campus de Método Nebula](/campus/) la electricidad se trabaja desde las magnitudes y los dibujos de circuito hasta problemas de serie, paralelo y potencia, con ejercicios graduados para que cada fórmula tenga un significado físico.
-`,Gn=`---
+`,ln=`---
 title: Límites trigonométricos: ejercicios resueltos y métodos
 seoTitle: "Límites trigonométricos: ejercicios resueltos paso a paso"
 date: 2026-11-05
@@ -24216,7 +28019,7 @@ Esta vía es más clara que derivar numerador y denominador sin identificar la i
 ## Resumen práctico
 
 Primero identifica cuál de los límites notables puede aparecer. Después ajusta el argumento, conserva las constantes y revisa que trabajas en radianes. Para otras indeterminaciones, consulta la guía general de [límites e indeterminaciones](/blog/como-resolver-limites-indeterminaciones-ejercicios/).
-`,Kn=`---
+`,dn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2022 · País Vasco — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II País Vasco 2022 resuelta
 date: 2022-06-01
@@ -24418,7 +28221,7 @@ $$\\begin{vmatrix} 1 & 1 & 1 \\\\ 6 & -2{,}5 & -1{,}5 \\\\ 1 & -2 & 1 \\end{vmat
 
 Por tanto el sistema es compatible determinado y lo resolvemos por Cramer:
 $$x=\\dfrac{\\begin{vmatrix} 90 & 1 & 1 \\\\ 210 & -2{,}5 & -1{,}5 \\\\ 0 & -2 & 1 \\end{vmatrix}}{-22{,}5}=50,\\quad y=\\dfrac{\\begin{vmatrix} 1 & 90 & 1 \\\\ 6 & 210 & -1{,}5 \\\\ 1 & 0 & 1 \\end{vmatrix}}{-22{,}5}=30,\\quad z=\\dfrac{\\begin{vmatrix} 1 & 1 & 90 \\\\ 6 & -2{,}5 & 210 \\\\ 1 & -2 & 0 \\end{vmatrix}}{-22{,}5}=10$$
-`,Xn=`---
+`,un=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2023 · Comunidad Valenciana — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Comunidad Valenciana 2023 resuelta
 date: 2023-06-01
@@ -24571,7 +28374,7 @@ $$f(x)=\\begin{cases} 1\\,200+5x & \\text{si } 0\\leq x\\leq 250 \\\\ 1\\,700+3x
 **(c)** La segunda empresa tiene $g(x)=1\\,200+3x$. Buscamos $x$ con $f(x)=g(x)$. En el tramo $x>900$:
 $$2\\,600+2x=1\\,200+3x\\Rightarrow x=1\\,400\\ \\text{kWh}.$$
 El importe es $g(1\\,400)=1\\,200+3\\cdot1\\,400=5\\,400$ €. Por tanto sí: con un consumo de $1\\,400$ kWh ambas pagan $5\\,400$ €.
-`,Wn=`---
+`,mn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2024 · Comunidad Valenciana — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Comunidad Valenciana 2024 resuelta
 date: 2024-06-01
@@ -24703,7 +28506,7 @@ Sumando la $1.ª$ y la $3.ª$: $4x=220\\Rightarrow x=55$. Entonces $y+z=165$.
 Sustituyendo en la $2.ª$: $1250\\cdot55+1125y+1000z=247250\\Rightarrow1125y+1000z=178500$, y con $z=165-y$:
 $$1125y+1000(165-y)=178500\\Rightarrow125y=13500\\Rightarrow y=108,\\ z=57.$$
 Comprobación: $55+108+57=220$ y $1250\\cdot55+1125\\cdot108+1000\\cdot57=247250$.
-`,Jn=`---
+`,$n=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2024 · Navarra — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Navarra 2024 resuelta
 date: 2024-06-01
@@ -24843,7 +28646,7 @@ $$4r+c=45,\\qquad 7r+3c=85$$
 De la primera $c=45-4r$; sustituyendo en la segunda: $7r+3(45-4r)=85\\Rightarrow -5r=-50\\Rightarrow r=10$. Entonces $s=30$ y $c=45-40=5$.
 
 Interpretación: **30 personas hicieron senderismo, 10 rápel y 5 ciclismo de montaña**.
-`,Zn=`---
+`,pn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2024 · País Vasco — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II País Vasco 2024 resuelta
 date: 2024-06-01
@@ -25070,7 +28873,7 @@ $$x=\\dfrac{\\begin{vmatrix} 36 & 5 & 5 \\\\ 0 & -7 & 0 \\\\ 0 & 2 & -1 \\end{vm
 $$z=\\dfrac{\\begin{vmatrix} 5 & 5 & 36 \\\\ 5 & -7 & 0 \\\\ 2 & 2 & 0 \\end{vmatrix}}{180}=\\dfrac{864}{180}=4{,}8.$$
 
 Las tres puntuaciones suman $1{,}4+1+4{,}8=7{,}2$, como exige el enunciado.
-`,Yn=`---
+`,gn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2025 · Comunidad Valenciana · Extraordinaria — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Comunidad Valenciana 2025 resuelta
 date: 2025-06-01
@@ -25205,7 +29008,7 @@ $$f'(x)=\\dfrac{(x+1)^{2}-x\\cdot 2(x+1)}{(x+1)^{4}}=\\dfrac{1-x}{(x+1)^{3}}.$$
 $f'(x)=0\\Rightarrow x=1$. Estudiando el signo: $f$ es **decreciente** en $(-\\infty,-1)$, **creciente** en $(-1,1)$ y **decreciente** en $(1,+\\infty)$. Hay un **máximo local** en $x=1$, con $f(1)=\\dfrac{1}{4}$. No hay mínimos locales.
 
 **(d)** Con dominio $\\mathbb{R}\\setminus\\{-1\\}$, paso por $(0,0)$, asíntota vertical $x=-1$, asíntota horizontal $y=0$ y máximo en $\\big(1,\\tfrac{1}{4}\\big)$, se dibuja la curva: a la izquierda de $x=-1$ decrece hacia $y=0^{-}$... creciendo hasta el máximo $(1,\\tfrac14)$ y decreciendo de nuevo hacia $y=0^{+}$.
-`,ea=`---
+`,fn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2025 · Madrid — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Madrid 2025 resuelta
 date: 2025-06-01
@@ -25349,7 +29152,7 @@ $$\\boxed{1125\\text{ kg rayada},\\ 675\\text{ kg negra con pepitas},\\ 900\\tex
 **(b)** Si el precio común es $p$ €/kg, la tercera ecuación pasa a $p(x+y+z)=5400$, es decir $2700p=5400\\Rightarrow p=2$ €/kg. Con el sistema
 $$\\begin{cases} x+y+z=2700\\\\ x-3y+z=0\\end{cases}$$
 se obtiene $y=675$ y $x+z=2025$. Como hay dos ecuaciones y tres incógnitas, el sistema es **compatible indeterminado**: la solución **no es única**. Se venderían $675$ kg de negra con pepitas y, entre rayada y negra sin pepitas, $2025$ kg repartidos de cualquier forma válida.
-`,na=`---
+`,xn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2025 · Murcia — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Murcia 2025 resuelta
 date: 2025-06-01
@@ -25525,7 +29328,7 @@ $$f'(x)=\\frac{-x^2+2x+3}{(1-x)^2},\\qquad f'(x)=0\\iff x^2-2x-3=0\\iff x=-1,\\ 
 El numerador $-x^2+2x+3$ es positivo entre $-1$ y $3$: $f$ **crece** en $(-1,1)\\cup(1,3)$ y **decrece** en $(-\\infty,-1)\\cup(3,+\\infty)$.
 
 **(d)** **Mínimo local** en $x=-1$: $f(-1)=\\dfrac{4}{2}=2$, punto $(-1,2)$. **Máximo local** en $x=3$: $f(3)=\\dfrac{12}{-2}=-6$, punto $(3,-6)$.
-`,aa=`---
+`,bn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2026 · Andalucía — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Andalucía 2026 resuelta
 date: 2026-06-01
@@ -25659,7 +29462,7 @@ $$x=25,\\quad y=40,\\quad z=55.$$
 Cada entrada Estándar cuesta $25$€, la Premium $40$€ y la VIP $55$€. La recaudación total es $1800+1000+1560=4360$€.
 
 **(b)** Estándar: $34\\cdot 25=850$€; Premium: $30\\cdot 40=1200$€; VIP: $42\\cdot 55=2310$€. La mayor recaudación se obtuvo con las entradas **VIP**, con $2310$€.
-`,oa=`---
+`,vn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2026 · Aragón — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Aragón 2026 resuelta
 date: 2026-06-01
@@ -25766,7 +29569,7 @@ $$\\begin{cases} 0{,}9n+0{,}9c+0{,}9m=117 \\\\ c=\\dfrac{n}{4} \\\\ m=2n \\end{c
 De la primera, $n+c+m=\\dfrac{117}{0{,}9}=130$. Sustituyendo:
 $$n+\\dfrac{n}{4}+2n=130\\Rightarrow \\dfrac{13n}{4}=130\\Rightarrow n=40.$$
 Entonces $c=\\dfrac{40}{4}=10$ y $m=2\\cdot 40=80$.
-`,ia=`---
+`,yn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2026 · Asturias — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Asturias 2026 resuelta
 date: 2026-06-01
@@ -26019,7 +29822,7 @@ $|F|=0\\iff m=\\pm\\sqrt2$. Para esos valores la matriz ampliada tiene rango $2>
 $$|F_x|=\\begin{vmatrix}2&1\\\\4&m\\end{vmatrix}=2m-4,\\qquad |F_y|=\\begin{vmatrix}2m&2\\\\ m^2+2&4\\end{vmatrix}=-2(m^2-4m+2),$$
 $$x=\\frac{2m-4}{m^2-2},\\qquad y=\\frac{-2(m^2-4m+2)}{m^2-2}.$$
 Por ejemplo, para $m=0$: $(x,y)=(2,2)$.
-`,ra=`---
+`,hn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2026 · Cataluña — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Cataluña 2026 resuelta
 date: 2026-06-01
@@ -26152,7 +29955,7 @@ $$P(M\\cap C)=\\dfrac{172}{2000}=0{,}086,\\qquad P(M\\mid I)=\\dfrac{178}{668}\\
 - Igual número de becados de máster y doctorado: $m=d$.
 
 Sustituyendo $g+m=933$ y $m=d$ en la primera ecuación: $933+d=1036\\Rightarrow d=103$, luego $m=103$ y $g=933-103=830$.
-`,sa=`---
+`,qn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2026 · Comunidad Valenciana — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Comunidad Valenciana 2026 resuelta
 date: 2026-06-01
@@ -26184,7 +29987,7 @@ Al ser un problema de **mínimo** sobre región no acotada (con gradiente positi
 
 **(b)** El coste mínimo es
 $$f(2,4)=5\\cdot2+4\\cdot4=10+16=26\\ \\text{€}.$$
-`,ta=`---
+`,_n=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2026 · Madrid — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Madrid 2026 resuelta
 date: 2026-06-01
@@ -26371,7 +30174,7 @@ $$\\begin{array}{c|ccccc}
 f & 16 & 9 & -3 & -8 & 7
 \\end{array}$$
 El mínimo es $f(4,-2)=-8$, alcanzado en $D(4,-2)$.
-`,ca=`---
+`,En=`---
 title: Matemáticas II · PAU 2025 · Andalucía — examen resuelto
 seoTitle: Matemáticas II · PAU 2025 · Andalucía — examen resuelto
 date: 2025-10-16
@@ -26637,7 +30440,7 @@ $$
 Antes de repetirlo, anota qué apartado te hizo detenerte: límite, estudio de función, geometría, integral o probabilidad. Practicar con ese diagnóstico es más efectivo que limitarse a comprobar el resultado final.
 
 Si quieres una planificación con ejercicios graduados, explicaciones y seguimiento, puedes trabajar estos bloques en el [Campus de Método Nebula](/campus/).
-`,la=`---
+`,Cn=`---
 title: Matemáticas II · PAU 2025 · Aragón — examen resuelto
 seoTitle: Matemáticas II · PAU 2025 · Aragón — examen resuelto
 date: 2025-10-18
@@ -26891,7 +30694,7 @@ $$
 Si fallas una opción, no memorices el último número: vuelve al primer modelo que se ha usado (matriz, producto vectorial, derivada o probabilidad condicionada) y repite un ejercicio parecido al día siguiente.
 
 Puedes practicar estas técnicas con itinerario, explicaciones y seguimiento en el [Campus de Método Nebula](/campus/).
-`,da=`---
+`,jn=`---
 title: Matemáticas II · PAU 2025 · Cantabria — examen resuelto
 seoTitle: Matemáticas II · PAU 2025 · Cantabria — examen resuelto
 date: 2025-10-20
@@ -27157,7 +30960,7 @@ $$
 Cuando corrijas, separa un error de cálculo de un error de planteamiento. El segundo indica el bloque que debes volver a entrenar; el primero suele resolverse escribiendo los pasos intermedios con más orden.
 
 Puedes practicar matrices, análisis, geometría y probabilidad con una ruta guiada en el [Campus de Método Nebula](/campus/).
-`,ua=`---
+`,Sn=`---
 title: Matemáticas II · PAU 2025 · Comunidad Valenciana — examen resuelto
 seoTitle: Matemáticas II · PAU 2025 · Comunidad Valenciana — examen resuelto
 date: 2025-10-26
@@ -27357,7 +31160,7 @@ $$
 En las cuestiones largas, deja una línea entre cada transformación y escribe siempre qué se está sustituyendo. Esa presentación hace que el corrector pueda seguir tu razonamiento incluso si cometes un pequeño error aritmético.
 
 Puedes entrenar estas técnicas de forma guiada en el [Campus de Método Nebula](/campus/).
-`,ma=`---
+`,zn=`---
 title: PAU 2025 Matemáticas II: examen resuelto de Madrid
 seoTitle: PAU 2025 Matemáticas II Madrid: examen resuelto
 date: 2026-10-20
@@ -27609,7 +31412,7 @@ Por tanto, entre quienes no son lectores habituales, aproximadamente el 47,25 % 
 Haz primero un bloque de cada pareja de alternativas y marca el primer paso que no hayas sabido justificar. Cuando lo repases, intenta explicar ese paso con tus propias palabras: es la forma más rápida de detectar si realmente dominas el método.
 
 Si quieres organizar la práctica por bloques, corregir errores recurrentes y avanzar con una ruta de estudio, puedes hacerlo en el [Campus de Método Nebula](/campus/).
-`,$a=`---
+`,Pn=`---
 title: Matemáticas II · PAU 2025 · Murcia — examen resuelto
 seoTitle: Matemáticas II · PAU 2025 · Murcia — examen resuelto
 date: 2025-10-22
@@ -27839,7 +31642,7 @@ $$
 Si se atasca una cuestión, identifica primero su familia: sistema, optimización, integral, posición relativa o distribución. A partir de ahí el camino de resolución suele ser mucho más claro.
 
 Puedes entrenar esos bloques con práctica guiada y seguimiento en el [Campus de Método Nebula](/campus/).
-`,pa=`---
+`,An=`---
 title: Matemáticas II · PAU 2025 · Navarra — examen resuelto
 seoTitle: Matemáticas II · PAU 2025 · Navarra — examen resuelto
 date: 2025-10-24
@@ -28083,7 +31886,7 @@ $$
 Aquí conviven optimización, parámetros, geometría y teoremas de análisis. Cuando repases, etiqueta cada error con uno de esos bloques: así conviertes la corrección en un plan de estudio real.
 
 Para practicar por bloques y recibir seguimiento, puedes acceder al [Campus de Método Nebula](/campus/).
-`,ga=`---
+`,Ln=`---
 title: Matemáticas II · PAU 2026 · Andalucía — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Andalucía — examen resuelto
 date: 2026-10-18
@@ -28339,7 +32142,7 @@ Haz una primera vuelta sin consultar la solución. Al corregir, señala el prime
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
 
-`,fa=`---
+`,Hn=`---
 title: Matemáticas II · PAU 2026 · Aragón — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Aragón — examen resuelto
 date: 2026-10-16
@@ -28582,7 +32385,7 @@ $$L=\\frac{(1-0)\\cdot1-1}{1}=\\boxed{0}.$$
 Haz una primera vuelta sin consultar la solución. Al corregir, señala el primer paso que no supiste justificar y repítelo al día siguiente. Así conviertes un modelo de examen en una lista concreta de técnicas que debes entrenar.
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
-`,xa=`---
+`,Dn=`---
 title: Matemáticas II · PAU 2026 · Principado de Asturias — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Principado de Asturias — examen resuelto
 date: 2026-10-14
@@ -29052,7 +32855,7 @@ La probabilidad de que la alarma salte al menos una vez es aproximadamente del *
 Haz una primera vuelta sin consultar la solución. Al corregir, señala el primer paso que no supiste justificar y repítelo al día siguiente. Así conviertes un modelo de examen en una lista concreta de técnicas que debes entrenar.
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
-`,ba=`---
+`,Mn=`---
 title: Matemáticas II · PAU 2026 · Cantabria — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Cantabria — examen resuelto
 date: 2026-10-28
@@ -29270,7 +33073,7 @@ $$
 Cuando hayas terminado un bloque, comprueba si puedes explicar por qué se ha usado cada fórmula. Ese hábito evita aprender solo la apariencia de un procedimiento.
 
 Puedes practicar estos contenidos con ejercicios guiados en el [Campus de Método Nebula](/campus/).
-`,va=`---
+`,Rn=`---
 title: Matemáticas II · PAU 2026 · Cataluña — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Cataluña — examen resuelto
 date: 2026-10-10
@@ -29553,7 +33356,7 @@ Haz una primera vuelta sin consultar la solución. Al corregir, señala el prime
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
 
-`,ya=`---
+`,On=`---
 title: Matemáticas II · PAU 2026 · Comunitat Valenciana — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Comunitat Valenciana — examen resuelto
 date: 2026-10-08
@@ -29847,7 +33650,7 @@ Haz una primera vuelta sin consultar la solución. Al corregir, señala el prime
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
 
-`,ha=`---
+`,Un=`---
 title: PAU 2026 Matemáticas II: examen resuelto de Madrid
 seoTitle: PAU 2026 Matemáticas II Madrid: examen resuelto
 date: 2026-10-18
@@ -30048,7 +33851,7 @@ $$\\boxed{y-\\frac{2e^2}{5}=\\frac{2e^2}{25}(x-2).}$$
 Elige primero una sola opción en las preguntas 4 y 5 y resuélvela con tiempo. En la corrección, anota si el bloqueo fue de planteamiento, cálculo o justificación: ese diagnóstico te dice qué entrenar en el siguiente modelo.
 
 Puedes organizar esa práctica y recibir seguimiento en el [Campus de Método Nebula](/campus/).
-`,qa=`---
+`,Bn=`---
 title: Matemáticas II · PAU 2026 · Región de Murcia — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Región de Murcia — examen resuelto
 date: 2026-10-04
@@ -30253,7 +34056,7 @@ Haz una primera vuelta sin consultar la solución. Al corregir, señala el prime
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
 
-`,Ea=`---
+`,wn=`---
 title: Matemáticas II · PAU 2026 · País Vasco — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · País Vasco — examen resuelto
 date: 2026-09-30
@@ -30486,7 +34289,7 @@ Haz una primera vuelta sin consultar la solución. Al corregir, señala el prime
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
 
-`,_a=`---
+`,In=`---
 title: Matrices, determinantes y sistemas de ecuaciones: guía completa para primero de carrera
 date: 2026-06-25
 updated: 2026-06-25
@@ -30661,7 +34464,7 @@ No hagas solo sistemas numéricos. Mezcla:
 - Problemas donde haya que decidir si usar Gauss, determinante o interpretación geométrica.
 
 Si este bloque te cuesta, empieza por [Álgebra Lineal en la universidad](/blog/algebra-lineal-universidad-que-estudiar-primero-errores/) y revisa la página de [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,Ca=`---
+`,Nn=`---
 title: "Máximos y mínimos de varias variables: guía y ejercicios"
 date: "2026-09-01"
 updated: "2026-09-01"
@@ -31231,7 +35034,7 @@ Todos los valores cumplen $f<1$, pero pueden acercarse tanto como se quiera a $1
 Primero separa el problema interior del problema de frontera. En el interior, resuelve $\\nabla f=0$ y clasifica con la hessiana; si el determinante es cero, cambia de argumento. En una región compacta, analiza cada frontera y compara todos los candidatos. Con una restricción regular, Lagrange expresa el paralelismo de los gradientes, pero no evita la comprobación final.
 
 Conviene dominar antes las [derivadas parciales y el gradiente](/blog/derivadas-parciales-gradiente-ejercicios/). Si necesitas practicar clasificaciones y restricciones con los ejercicios de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,ja=`---
+`,Tn=`---
 title: "Mecánica de fluidos: ejercicios resueltos de continuidad y Bernoulli"
 seoTitle: "Continuidad y Bernoulli: ejercicios resueltos | Fluidos"
 date: "2026-10-18"
@@ -31333,7 +35136,7 @@ La densidad se cancela: para este modelo ideal, la rapidez de salida depende de 
 - Pregunta si hay pérdidas o una bomba: si las hay, Bernoulli ideal no es suficiente.
 
 El [campus virtual de Método Nebula](/contacto/) organiza los problemas de Física para Ingeniería por modelo físico, con teoría, ejercicios guiados y exámenes resueltos. Esa práctica te enseña a reconocer cuándo usar continuidad, energía o ambas sin depender de una fórmula aislada.
-`,Sa=`---
+`,kn=`---
 title: Métodos de integración: cómo elegir la técnica adecuada
 date: 2026-08-01
 updated: 2026-08-01
@@ -31925,7 +35728,7 @@ Primero simplifica. Después busca una forma inmediata o una composición con su
 La elección no se memoriza como una lista de palabras clave. Se entrena comparando la estructura del integrando con las reglas de derivación que ya conoces y comprobando si cada transformación reduce la dificultad.
 
 Si estás preparando Cálculo universitario y necesitas aplicar este árbol de decisión a tus hojas de problemas o exámenes, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Pa=`---
+`,Fn=`---
 title: Microeconomía I: diez tipos de problemas que debes dominar antes del examen
 date: 2026-07-05
 updated: 2026-07-05
@@ -32064,7 +35867,7 @@ Para cada tipo de problema, prepara una ficha:
 - No distinguir demanda individual y demanda de mercado.
 
 Si quieres trabajar Microeconomía I desde ejercicios reales, revisa [clases particulares de Economía y ADE](/clases-particulares/economia-ade/) y la guía de [Matemáticas I en ADE y Economía](/blog/como-aprobar-matematicas-i-ade-economia/).
-`,za=`---
+`,Vn=`---
 title: "Disoluciones y molaridad en 1º Bachillerato: problemas resueltos"
 seoTitle: "Molaridad y disoluciones: ejercicios resueltos"
 date: 2026-11-05
@@ -32180,7 +35983,7 @@ La concentración baja porque el mismo soluto queda repartido en más volumen.
 4. \\(c_2=(2{,}0\\cdot50)/400=0{,}25\\text{ M}\\).
 
 La [guía de mol y estequiometría](/blog/bachillerato-fisica-quimica-mol-estequiometria/) explica las conversiones que se usan antes y después de una reacción. Para practicar química con ejercicios de tu nivel, consulta las [clases particulares de Química](/clases-particulares/quimica/).
-`,Aa=`---
+`,Gn=`---
 title: "Movimiento circular uniforme: ejercicios de 1º Bachillerato"
 seoTitle: "Movimiento circular uniforme: ejercicios resueltos"
 date: 2026-10-23
@@ -32240,7 +36043,7 @@ $$
 3. Hacia el centro de la trayectoria.
 
 En el [Campus de Método Nebula](/campus/) el movimiento circular se conecta con fuerzas, energía y representación vectorial mediante problemas graduados.
-`,La=`---
+`,Qn=`---
 title: "MRU en ESO: movimiento rectilíneo uniforme con fórmulas y ejercicios"
 seoTitle: "MRU en ESO: fórmulas, gráficas y ejercicios resueltos"
 date: "2026-08-12"
@@ -32475,7 +36278,7 @@ En MRU la trayectoria es recta y la velocidad es constante, así que $a=0$. Usa 
 Cuando la velocidad deja de ser constante, el modelo correcto pasa a ser el [MRUA: movimiento rectilíneo uniformemente acelerado](/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/). Para reforzar el método general de planteamiento, consulta también [cómo resolver problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/).
 
 Si necesitas practicar con ejercicios de tu curso, puedes consultar las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,Ha=`---
+`,Kn=`---
 title: "MRUA en ESO: movimiento rectilíneo acelerado con fórmulas y ejercicios"
 seoTitle: "MRUA en ESO: fórmulas, gráficas y ejercicios resueltos"
 date: "2026-08-19"
@@ -32691,7 +36494,7 @@ Sigue avanzando en el sentido inicial, pero más despacio.
 En MRUA la trayectoria es recta y la aceleración es constante. Usa $v=v_0+at$ para velocidades y $x=x_0+v_0t+\\frac12at^2$ para posiciones. En una gráfica $v-t$, la pendiente es la aceleración y el área es el desplazamiento.
 
 Para consolidar la base, repasa el [MRU con ejercicios](/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/) y el método de [plantear problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/). Si necesitas practicar con tu temario, puedes consultar las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,Oa=`---
+`,Wn=`---
 title: p-valor, intervalo de confianza y tamaño del efecto explicados con un mismo ejemplo
 date: 2026-07-10
 updated: 2026-07-10
@@ -32808,7 +36611,7 @@ Si te dan una salida de software, localiza:
 5. La frase de interpretación.
 
 Para evitar confusiones habituales, lee también [errores más comunes en Inferencia Estadística](/blog/errores-comunes-inferencia-estadistica/) y [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/).
-`,Da=`---
+`,Jn=`---
 title: "Derivadas en Matemáticas CCSS PAU: coste marginal, beneficio y optimización con interpretación"
 seoTitle: "Derivadas CCSS PAU: coste, beneficio y optimización"
 date: "2026-08-18"
@@ -32932,7 +36735,7 @@ Compara cambios porcentuales, por lo que es adimensional. Su interpretación dep
 ## Convertir la visibilidad en preparación
 
 Las derivadas son el clúster con mayor tracción orgánica actual de Método Nebula. Este artículo amplía esa entrada hacia CCSS y economía; el campus virtual la conecta con funciones, matrices y programación lineal mediante ejercicios y modelos PAU. El botón de contacto permite acceder al itinerario completo y a la práctica corregida.
-`,Ma=`---
+`,Xn=`---
 title: "Inferencia estadística en Matemáticas CCSS PAU: intervalos de confianza y tamaño muestral con sentido"
 seoTitle: "Inferencia estadística PAU: intervalos y tamaño muestral"
 date: "2026-10-02"
@@ -33056,7 +36859,7 @@ Comprueba las condiciones del modelo y expresa el resultado como proporción o p
 - Omitir unidades o contexto.
 
 El campus de Método Nebula reúne probabilidad, distribuciones, muestreo e inferencia con modelos PAU resueltos. Contacta para integrar fórmulas e interpretación en un plan de examen.
-`,Ua=`---
+`,Zn=`---
 title: "Integrales en Matemáticas CCSS PAU: áreas, acumulación y aplicaciones económicas con sentido"
 seoTitle: "Integrales CCSS PAU: áreas y acumulación"
 date: "2026-08-13"
@@ -33176,7 +36979,7 @@ No es la media de los extremos salvo en funciones lineales. En contexto puede re
 ## Integrar el tema en la preparación CCSS
 
 El campus virtual de Método Nebula conecta derivadas, funciones marginales, integrales, matrices y optimización mediante teoría y modelos económicos. Incluye ejercicios graduados y exámenes PAU resueltos. El botón de contacto permite acceder al recorrido y practicar tanto el cálculo como la interpretación que exige la prueba.
-`,wa=`---
+`,Yn=`---
 title: "Matrices en Matemáticas CCSS PAU: producción, costes y sistemas con interpretación económica"
 seoTitle: "Matrices CCSS PAU: producción, costes y sistemas"
 date: "2026-09-08"
@@ -33304,7 +37107,7 @@ Entonces $\\vec x_n=T^n\\vec x_0$. Antes de interpretar, comprueba si filas o co
 ## Del contexto a una solución defendible
 
 El campus virtual de Método Nebula trabaja matrices CCSS con modelos de producción, sistemas, programación lineal y probabilidad. Incluye teoría, ejercicios graduados y problemas PAU donde la interpretación cuenta tanto como la operación. El botón de contacto permite acceder al recorrido completo y practicar con corrección contextual.
-`,Ra=`---
+`,eo=`---
 title: "Matemáticas CCSS PAU: domina programación lineal y convierte enunciados en puntos"
 date: "2026-09-30"
 updated: "2026-10-28"
@@ -33404,7 +37207,7 @@ No es magia ni una regla sin motivo: es una propiedad de la geometría lineal.
 ¿Variables definidas? ¿Todas las restricciones traducidas? ¿Semiplanos verificados? ¿Vértices exactos? ¿Función objetivo evaluada? ¿Respuesta redactada con unidades? Si las seis respuestas son sí, el ejercicio está completo y el corrector puede seguir el razonamiento.
 
 El campus virtual de Método Nebula incluye Matemáticas CCSS con sistemas, representación, programación lineal, probabilidad e inferencia, organizados en teoría, ejemplos y práctica de examen. Si quieres dejar de depender de plantillas y aprender a modelizar, utiliza el botón de contacto.
-`,Ba=`---
+`,ao=`---
 title: "Convocatoria extraordinaria PAU: un plan de 30 días para remontar sin empezar de cero"
 seoTitle: "Convocatoria extraordinaria PAU: plan de 30 días"
 date: "2026-10-30"
@@ -33498,7 +37301,7 @@ Dormir no compite con el estudio: protege memoria de trabajo, lectura y control 
 La ventaja es disponer de evidencia real. Tu examen anterior revela el tipo de presión, las decisiones de tiempo y los contenidos que no se consolidaron. Utiliza esa evidencia para diseñar un plan más pequeño, más medible y más exigente en la práctica.
 
 El campus virtual de Método Nebula reúne teoría, ejercicios graduados, exámenes resueltos y rutas de recuperación para Matemáticas, Física y Química PAU. Desde el botón de contacto puedes enviar tus resultados y recibir una propuesta de 30 días centrada en los bloques que más puntos pueden devolverte, sin reiniciar todo el curso.
-`,Ia=`---
+`,no=`---
 title: "Cómo corregir un simulacro de PAU para subir nota: el sistema que convierte fallos en un plan"
 date: "2026-10-27"
 updated: "2026-10-28"
@@ -33607,7 +37410,7 @@ No necesitas un paper completo cada día. Haz el siguiente cuando hayas trabajad
 El campus virtual de Método Nebula permite pasar del diagnóstico a la unidad concreta, revisar teoría, observar ejemplos, practicar, responder preguntas de examen y volver a medir. La ventaja no es acumular contenido; es conservar una ruta entre el fallo y la siguiente evidencia.
 
 Si tienes modelos corregidos pero no sabes convertirlos en un calendario, utiliza el botón de contacto. Podemos revisar objetivo, comunidad, asignaturas, fecha y punto de partida para proponer un recorrido realista.
-`,Na=`---
+`,oo=`---
 title: "PAU, EBAU, EvAU o Selectividad: qué significa cada nombre y cómo encontrar tu modelo oficial"
 seoTitle: "PAU, EBAU, EvAU o Selectividad: guía y modelos"
 date: "2026-10-10"
@@ -33695,7 +37498,7 @@ donde $L$ representa exámenes locales, $A$ exámenes de estructura afín y $E$ 
 Una vez identificados los bloques, realiza un diagnóstico con un examen reciente, mide el porcentaje por apartado y asigna horas según frecuencia, debilidad y puntuación. El documento oficial deja de ser un archivo informativo y se convierte en el mapa de la preparación.
 
 El campus virtual de Método Nebula organiza los contenidos de PAU por materia y bloque, conecta cada explicación con ejercicios y exámenes resueltos y permite adaptar el itinerario al modelo oficial de cada alumno. Desde el botón de contacto puedes enviar tu comunidad, asignatura y convocatoria para construir una ruta precisa, sin estudiar a ciegas con materiales de otra prueba.
-`,Ta=`---
+`,io=`---
 title: "Campo eléctrico en PAU: cómo dominar potencial, trabajo y condensadores sin perder los signos"
 seoTitle: "Campo eléctrico PAU: potencial y condensadores"
 date: "2026-07-22"
@@ -33826,7 +37629,7 @@ Elegir la forma adecuada depende de qué magnitud permanece constante al cambiar
 ## Una ruta completa de electromagnetismo
 
 El campus virtual de Método Nebula conecta campo, potencial, energía, condensadores e inducción mediante teoría, ejercicios escalonados y exámenes PAU resueltos. El botón de contacto permite acceder a una ruta donde cada problema empieza con el diagrama de signos y termina con una comprobación física.
-`,ka=`---
+`,ro=`---
 title: "Campo gravitatorio PAU: 3 ejercicios resueltos de satélites, órbitas y energía"
 seoTitle: "Campo gravitatorio PAU: 3 ejercicios resueltos"
 date: "2026-10-02"
@@ -34019,7 +37822,7 @@ Hay que aportar energía. La energía final sigue siendo negativa porque el sat�
 Dibujo y radio → ley física → deducción simbólica → sustitución SI → unidades → interpretación. La deducción simbólica permite ver dependencias, detectar datos irrelevantes y conservar puntos aunque falle una operación numérica.
 
 El campus virtual de Método Nebula desarrolla campo gravitatorio, potencial, energía, satélites, órbitas y escape con teoría, demostraciones, ejercicios y problemas PAU. El botón de contacto permite solicitar una ruta centrada en el desarrollo matemático que conecta todo el bloque.
-`,Fa=`---
+`,so=`---
 title: "Física cuántica PAU: efecto fotoeléctrico y fotones para entender por qué existe una frecuencia umbral"
 seoTitle: "Efecto fotoeléctrico PAU: fotones y frecuencia umbral"
 date: "2026-10-10"
@@ -34131,7 +37934,7 @@ asocia longitud de onda a partículas con momento. En preguntas PAU conviene dis
 - Usar $c=f\\lambda$ con la velocidad de un electrón.
 
 El campus virtual de Método Nebula desarrolla cuántica, relatividad y nuclear con teoría, gráficos y problemas PAU. Contacta para entrenar conversiones, modelos y explicaciones.
-`,Qa=`---
+`,to=`---
 title: "Electromagnetismo PAU: 3 ejercicios resueltos de campos, fuerzas e inducción"
 seoTitle: "Electromagnetismo PAU: 3 ejercicios resueltos"
 date: "2026-10-24"
@@ -34288,7 +38091,7 @@ El sentido se obtiene con Lenz: la corriente inducida crea un campo que intenta 
 Dibujo → vectores → ley física → módulo → dirección → comprobación de unidades. Para inducción añade: “qué hace variar el flujo”. Esta secuencia produce soluciones legibles y conserva puntuación parcial.
 
 El campus virtual de Método Nebula desarrolla electromagnetismo con fundamentos, ejemplos visuales, ejercicios y preguntas PAU. Si quieres convertir reglas sueltas en un mapa coherente y entrenable, utiliza el botón de contacto.
-`,Va=`---
+`,co=`---
 title: "Física PAU: el formulario razonado que conecta ecuaciones, unidades y comprobaciones"
 seoTitle: "Formulario razonado de Física PAU por bloques"
 date: "2026-10-20"
@@ -34400,7 +38203,7 @@ El control dimensional detecta conversiones, exponentes y ecuaciones mal recorda
 Tapa una columna y reconstruye su contenido. Después resuelve una pregunta y marca qué información faltaba. El formulario debe reducirse con la práctica: si crece indefinidamente, está sustituyendo al razonamiento.
 
 El campus virtual de Método Nebula conecta cada ley de Física PAU con su deducción, esquema, unidades, ejercicios graduados y exámenes resueltos. Desde el botón de contacto puedes solicitar una ruta por bloques para transformar un formulario pasivo en un sistema de resolución y comprobación que funcione bajo tiempo real.
-`,Ga=`---
+`,lo=`---
 title: "Física PAU: cómo interpretar gráficas, datos experimentales e incertidumbre con rigor"
 seoTitle: "Gráficas e incertidumbre experimental en Física PAU"
 date: "2026-10-22"
@@ -34490,7 +38293,7 @@ La incertidumbre no debe expresarse con precisión artificial. Ajusta el valor a
 Termina siempre con tres elementos: magnitud obtenida, unidad y comparación física. Si la ordenada en el origen debería ser cero y no lo es, considera un error sistemático antes de atribuirlo al azar.
 
 El campus virtual de Método Nebula incluye análisis de datos, linealizaciones y preguntas experimentales dentro de cada bloque de Física PAU, con gráficas cuidadas y soluciones justificadas. El botón de contacto permite acceder a ejercicios graduados y simulacros donde cada pendiente, unidad e incertidumbre se interpreta como parte del modelo, no como un trámite gráfico.
-`,Ka=`---
+`,uo=`---
 title: "Movimiento armónico simple en PAU: de la proyección circular a energía, velocidad y aceleración"
 seoTitle: "Movimiento armónico simple PAU: método y ejercicios"
 date: "2026-10-28"
@@ -34631,7 +38434,7 @@ En una gráfica $x(t)$, la pendiente representa $v$ y la concavidad determina el
 - Aplicar la fórmula del péndulo a amplitudes grandes sin justificar.
 
 El campus virtual de Método Nebula integra MAS y ondas con teoría, ejercicios graduados y problemas PAU. El contacto sirve para diagnosticar si el bloqueo está en la fase, las derivadas o la interpretación física.
-`,Xa=`---
+`,mo=`---
 title: "Física nuclear PAU: defecto de masa, energía de enlace y radiactividad con unidades bajo control"
 seoTitle: "Física nuclear PAU: defecto de masa y energía de enlace"
 date: "2026-10-06"
@@ -34759,7 +38562,7 @@ Ambas pueden liberar energía al producir núcleos con mayor energía de enlace 
 - Aplicar una disminución lineal a una ley exponencial.
 
 El campus de Método Nebula conecta estructura nuclear, decaimiento, energía de enlace y problemas PAU. Contacta para practicar balances y conversiones con corrección detallada.
-`,Wa=`---
+`,$o=`---
 title: "Física PAU: domina ondas desde cero y convierte las fórmulas en puntos de examen"
 date: "2026-09-22"
 updated: "2026-10-28"
@@ -34864,7 +38667,7 @@ Una respuesta de calidad indica qué se conserva, qué cambia y por qué.
 Resuelve una pregunta de lectura de gráfica, otra de ecuación de onda, una de interferencia y una de energía o intensidad. Dos días después mézclalas sin encabezado. Finalmente intégralas en un modelo cronometrado de tu comunidad y corrige con su criterio oficial.
 
 El campus virtual de Método Nebula desarrolla fundamentos, movimiento armónico, ondas y óptica mediante teoría, ejemplos, ejercicios y preguntas de examen. Si quieres convertir este bloque en una fuente estable de puntos, utiliza el botón de contacto para diagnosticar el punto de partida y construir el recorrido.
-`,Ja=`---
+`,po=`---
 title: "Óptica geométrica PAU: 3 ejercicios resueltos de lentes, espejos y signos"
 seoTitle: "Óptica PAU: 3 ejercicios resueltos de lentes y espejos"
 date: "2026-10-23"
@@ -34999,7 +38802,7 @@ La imagen es real, invertida y mide la mitad que el objeto. El diagrama de rayos
 - Corregir signos “al final” en vez de mantener un convenio.
 
 El campus de Método Nebula desarrolla ondas y óptica con diagramas, ecuaciones y ejercicios PAU. Contacta si necesitas convertir el convenio de signos en un procedimiento verificable.
-`,Za=`---
+`,go=`---
 title: "Relatividad especial en Física PAU: dilatación temporal, contracción y energía sin paradojas"
 seoTitle: "Relatividad especial PAU: tiempo, longitud y energía"
 date: "2026-09-27"
@@ -35104,7 +38907,7 @@ La respuesta PAU debe especificar observador, sucesos y magnitud propia. Frases 
 ## Entrenar el bloque, no una sola fórmula
 
 En el campus virtual de Método Nebula, relatividad se trabaja junto con cuántica y nuclear mediante teoría conectada, ejemplos progresivos y problemas PAU completos. El objetivo es decidir el sistema de referencia antes de sustituir. El botón de contacto permite acceder a una ruta que combina diagnóstico, práctica y exámenes resueltos.
-`,Ya=`---
+`,fo=`---
 title: "Matemáticas CCSS PAU: probabilidad condicionada y Bayes sin confundir los sucesos"
 seoTitle: "Probabilidad condicionada y Bayes en PAU CCSS"
 date: "2026-10-17"
@@ -35203,7 +39006,7 @@ La tabla y el árbol deben producir exactamente el mismo resultado. Utilizar amb
 El denominador de Bayes debe ser al menos tan grande como el numerador porque contiene ese camino y posiblemente otros. El resultado debe estar entre 0 y 1. Además, todas las hojas del árbol deben sumar 1.
 
 El campus virtual de Método Nebula desarrolla probabilidad condicionada, árboles, tablas, teorema de la probabilidad total, Bayes y distribuciones con ejercicios graduados y modelos PAU resueltos. El botón de contacto permite acceder a una ruta que empieza por traducir el lenguaje y termina con problemas cronometrados, para que la fórmula nunca sustituya a la comprensión del suceso.
-`,eo=`---
+`,xo=`---
 title: "Derivabilidad con parámetros en PAU: continuidad, derivadas laterales y tangentes sin saltos lógicos"
 seoTitle: "Derivabilidad con parámetros PAU: método completo"
 date: "2026-09-13"
@@ -35337,7 +39140,7 @@ Una vez determinada la derivabilidad, el signo de $f'$ estudia crecimiento y dec
 ## Ampliar el clúster de mayor demanda
 
 Las consultas sobre derivadas concentran la mayor visibilidad orgánica actual de la web. Este artículo cubre una intención más avanzada y específica, mientras el campus virtual convierte esa entrada en un recorrido de continuidad, derivadas, representación y optimización. Incluye teoría, ejercicios escalonados y modelos PAU; el botón de contacto permite acceder al itinerario completo.
-`,no=`---
+`,bo=`---
 title: "Geometría métrica PAU: distancias, ángulos y posiciones relativas sin memorizar fórmulas sueltas"
 seoTitle: "Geometría métrica PAU: distancias y ángulos"
 date: "2026-09-10"
@@ -35468,7 +39271,7 @@ Este procedimiento es más seguro que intentar recordar una fórmula larga de co
 ## De la fórmula al modelo de examen
 
 El campus virtual de Método Nebula conecta vectores, rectas, planos, sistemas y geometría métrica con ejercicios visuales y modelos PAU resueltos. La práctica obliga a justificar cada vector y cada perpendicularidad. El botón de contacto permite acceder al recorrido completo y trabajar los problemas con corrección paso a paso.
-`,ao=`---
+`,vo=`---
 title: "Matemáticas II PAU: cómo repartir 90 minutos y elegir los ejercicios correctos"
 seoTitle: "Matemáticas II PAU: estrategia para 90 minutos"
 date: "2026-10-12"
@@ -35557,7 +39360,7 @@ Sustituye las soluciones cuando sea posible. En una integral definida, estima el
 Una planificación temporal no se estrena el día de la prueba. Realiza simulacros y registra tiempo planificado, tiempo real, puntos y motivo de cada desvío. Tras varias pruebas aparecerá tu patrón: lentitud algebraica, exceso de revisión temprana o mala elección inicial.
 
 El campus virtual de Método Nebula reúne teoría, ejercicios graduados y exámenes PAU resueltos con indicaciones de tiempo y criterios de corrección. El botón de contacto permite solicitar un diagnóstico para elegir una estrategia de 90 minutos basada en tus bloques fuertes, tus errores recurrentes y el modelo oficial que vas a realizar.
-`,oo=`---
+`,yo=`---
 title: "Matemáticas II PAU: 15 errores que restan puntos aunque conozcas el temario"
 seoTitle: "15 errores frecuentes en Matemáticas II PAU"
 date: "2026-10-15"
@@ -35669,7 +39472,7 @@ No intentes revisar quince elementos en cada línea. Asigna una comprobación a 
 Después de cada simulacro, cuenta errores por categoría. Si un tipo aparece tres veces, crea una tarjeta con un ejemplo y una prueba de control. El objetivo es que el fallo active automáticamente su comprobación.
 
 El campus virtual de Método Nebula trabaja estos errores con desarrollos completos, ejercicios equivalentes y exámenes PAU comentados. Desde el botón de contacto puedes enviar un simulacro corregido y organizar una ruta que no se limite a repetir teoría: identifica dónde se pierden puntos y entrena la comprobación exacta que los recupera.
-`,io=`---
+`,ho=`---
 title: "Matemáticas II PAU: domina vectores, rectas y planos sin memorizar veinte fórmulas"
 date: "2026-09-27"
 updated: "2026-10-28"
@@ -35793,7 +39596,7 @@ Pero no uses esta fórmula para cualquier distancia. Punto–recta, rectas paral
 Alterna ejercicios de construcción, posición relativa, ángulos y distancias. Luego resuelve una pregunta que combine dos partes: por ejemplo, hallar un plano y medir una distancia. Finalmente incluye el bloque en un modelo PAU con tiempo real.
 
 El campus virtual de Método Nebula desarrolla Matemáticas II desde vectores y sistemas hasta rectas, planos y geometría métrica, con ejemplos y preguntas de examen. Si quieres ordenar este bloque según los errores que realmente cometes, el botón de contacto permite iniciar el diagnóstico.
-`,ro=`---
+`,qo=`---
 title: "Integrales PAU: ejercicios resueltos de áreas, signos y parámetros"
 seoTitle: "Integrales PAU: áreas, signos y ejercicios resueltos"
 date: "2026-10-14"
@@ -35926,7 +39729,7 @@ Una buena presentación incluye ecuación de cortes, orden de las funciones, int
 - Perder signos al evaluar el extremo inferior.
 
 El campus de Método Nebula incluye teoría, métodos de integración, áreas y modelos PAU resueltos paso a paso. Contacta para organizar el bloque según tu comunidad y nota objetivo.
-`,so=`---
+`,_o=`---
 title: "Límites y asíntotas en Matemáticas II PAU: cómo decidir el método antes de calcular"
 seoTitle: "Límites y asíntotas PAU: método paso a paso"
 date: "2026-09-18"
@@ -36039,7 +39842,7 @@ Los límites determinan dominio extendido, ramas y asíntotas. Después se combi
 ## Aprovechar el clúster que ya funciona
 
 Los límites y las derivadas son ya una de las puertas de entrada orgánica más fuertes de Método Nebula. En el campus virtual, esta explicación se conecta con continuidad, representación, derivabilidad e integrales mediante ejercicios graduados y modelos PAU. El botón de contacto permite pasar de artículos sueltos a un itinerario completo con exámenes resueltos.
-`,to=`---
+`,Eo=`---
 title: "Matrices y determinantes en PAU: cuándo usar inversa, Gauss o propiedades sin hacer cuentas de más"
 date: "2026-10-25"
 updated: "2026-10-25"
@@ -36174,7 +39977,7 @@ El rango es el número de filas no nulas tras escalonar, o el orden máximo de u
 Inversa para despejar una ecuación matricial invertible; Gauss para sistemas y rangos; determinantes para invertibilidad, parámetros y simplificación; Cramer para sistemas pequeños cuando se pide explícitamente o resulta muy directo.
 
 El campus virtual de Método Nebula desarrolla matrices, determinantes, rango, inversa, Gauss, Cramer y sistemas con parámetros mediante teoría y ejercicios PAU. El botón de contacto permite solicitar una ruta para elegir el método con criterio y justificar cada operación.
-`,co=`---
+`,Co=`---
 title: "Probabilidad y distribuciones PAU: ejercicios resueltos de binomial y normal"
 seoTitle: "Probabilidad PAU: ejercicios resueltos de binomial y normal"
 date: "2026-10-17"
@@ -36296,7 +40099,7 @@ El intervalo está centrado en la media y se extiende una desviación típica a 
 Variable → modelo → suceso → cálculo → comprobación → frase final. Escribe las seis etapas incluso cuando la calculadora haga la operación central. El corrector debe ver por qué ese resultado responde a esa pregunta.
 
 El campus virtual de Método Nebula desarrolla probabilidad, distribuciones y preparación de examen con teoría, ejemplos, ejercicios y simulación. Si quieres identificar si pierdes puntos por modelo, lenguaje o cálculo, utiliza el botón de contacto.
-`,lo=`---
+`,jo=`---
 title: "Sistemas con parámetro PAU: ejercicios resueltos de Rouché–Frobenius y rangos"
 seoTitle: "Sistemas con parámetro PAU: ejercicios resueltos"
 date: "2026-10-10"
@@ -36455,7 +40258,7 @@ Esta interpretación ayuda a revisar el resultado. Si el sistema tiene tres inc�
 La discusión completa sigue una estructura verificable: matriz $A$ y ampliada → determinante o menores → valores críticos → caso general → sustitución de cada valor crítico → rangos → clasificación → resolución. Esta secuencia separa la justificación algebraica de la obtención posterior de soluciones.
 
 El campus virtual de Método Nebula desarrolla matrices, determinantes, Gauss, Rouché–Frobenius y discusión con parámetros mediante teoría y problemas PAU graduados. El botón de contacto permite solicitar una ruta para construir discusiones completas y verificables.
-`,uo=`---
+`,So=`---
 title: "Ácido-base y pH PAU: ejercicios resueltos de neutralización y equilibrio"
 seoTitle: "Ácido-base PAU: ejercicios resueltos de pH"
 date: "2026-10-02"
@@ -36579,7 +40382,7 @@ El indicador debe cambiar de color dentro del salto de pH relevante, no simpleme
 Alterna un ácido fuerte, uno débil, una neutralización y una valoración. En cada ejercicio escribe la ruta antes de calcular. Después mezcla ácido-base con equilibrio y estequiometría, como ocurre en preguntas de PAU.
 
 El campus virtual de Método Nebula desarrolla ácido-base desde especies y equilibrio hasta valoraciones y preguntas de examen, con ejemplos, ejercicios y errores comunes. Si quieres saber qué parte de la cadena falla y practicarla en orden, utiliza el botón de contacto.
-`,mo=`---
+`,zo=`---
 title: "Cinética química PAU: cómo interpretar órdenes, Arrhenius y mecanismos de reacción"
 seoTitle: "Cinética química PAU: órdenes y Arrhenius"
 date: "2026-07-18"
@@ -36695,7 +40498,7 @@ En un perfil energético, cambia la altura de la barrera, no la diferencia entre
 ## Convertir datos cinéticos en razonamiento
 
 El campus virtual de Método Nebula enlaza cinética, termoquímica y equilibrio mediante tablas experimentales, gráficos y problemas PAU resueltos. El botón de contacto permite acceder a una ruta con ejercicios por niveles para aprender a extraer la ley antes de introducir números.
-`,$o=`---
+`,Po=`---
 title: "Enlace químico PAU: geometría molecular, polaridad y fuerzas intermoleculares con una sola lógica"
 seoTitle: "Enlace químico PAU: geometría, polaridad y fuerzas"
 date: "2026-09-25"
@@ -36783,7 +40586,7 @@ Una comparación completa menciona tipo de partícula, fuerza dominante y energ�
 ## Convertir el mapa en respuestas PAU
 
 El campus virtual de Método Nebula enlaza estructura atómica, enlace, periodicidad y orgánica en una secuencia común. Incluye teoría, ejercicios de Lewis, comparaciones de propiedades y modelos PAU resueltos con el nivel de justificación exigido. El botón de contacto permite entrar en una ruta donde cada respuesta se corrige por razonamiento, no solo por resultado.
-`,po=`---
+`,Ao=`---
 title: "Equilibrio químico PAU: ejercicios resueltos con Kc, Q y Le Châtelier"
 seoTitle: "Equilibrio químico PAU: ejercicios resueltos"
 date: "2026-09-25"
@@ -36905,7 +40708,7 @@ Son preguntas frecuentes porque obligan a razonar más allá de una regla memori
 Entrena cuatro formatos: escribir $K$, comparar $Q$ y $K$, resolver una tabla y justificar una perturbación. Después mezcla equilibrio con cinética, termoquímica o ácido-base. En PAU los bloques pueden conectarse y la elección del método cuenta tanto como el cálculo.
 
 El campus virtual de Método Nebula organiza Química PAU desde fundamentos hasta cinética y equilibrio, con ejemplos guiados, ejercicios, preguntas de examen y errores comunes. Si quieres detectar qué decisión falla y convertirla en una secuencia de práctica, utiliza el botón de contacto.
-`,go=`---
+`,Lo=`---
 title: "Estequiometría PAU: gases, disoluciones y reactivo limitante con un mapa que evita atajos"
 seoTitle: "Estequiometría PAU: gases, disoluciones y moles"
 date: "2026-09-20"
@@ -37039,7 +40842,7 @@ Esta igualdad no se aplica a una reacción química que consume soluto. Si se me
 ## Del cálculo aislado al dominio de química
 
 El campus virtual de Método Nebula trabaja esta misma ruta en problemas de gases, valoraciones, equilibrio, electroquímica y termoquímica. Incluye teoría, ejercicios por niveles y modelos PAU completos para que las conversiones se conviertan en un procedimiento estable. El botón de contacto da acceso al itinerario y a la práctica corregida.
-`,fo=`---
+`,Ho=`---
 title: "Estructura atómica PAU: configuraciones electrónicas, números cuánticos y periodicidad sin contradicciones"
 seoTitle: "Estructura atómica PAU: configuración y números cuánticos"
 date: "2026-10-04"
@@ -37163,7 +40966,7 @@ La carga nuclear efectiva y el apantallamiento explican tendencias de radio, ene
 - Explicar tendencias solo con “hay más protones”, ignorando distancia y apantallamiento.
 
 El campus de Método Nebula desarrolla estructura atómica, enlace y periodicidad mediante teoría y problemas PAU. Contacta para convertir configuraciones y justificaciones en un procedimiento coherente.
-`,xo=`---
+`,Do=`---
 title: "Química PAU: laboratorio, rendimiento, pureza y análisis de errores en un mismo problema"
 seoTitle: "Rendimiento, pureza y errores de laboratorio en PAU"
 date: "2026-10-27"
@@ -37285,7 +41088,7 @@ Relaciona instrumento y función. Una balanza mide masa; una pipeta aforada tran
 Verifica conservación de átomos, unidades, reactivo limitante y sentido de los porcentajes. Si el rendimiento es menor que 100 %, la masa real debe ser menor que la teórica. Si la pureza disminuye manteniendo la masa comercial, disminuyen los moles reactivos.
 
 El campus virtual de Método Nebula integra estequiometría, disoluciones y laboratorio con problemas encadenados, esquemas y exámenes PAU resueltos. El botón de contacto permite acceder a una ruta donde pureza, reactivo limitante y rendimiento dejan de ser fórmulas separadas y se convierten en un único razonamiento verificable.
-`,bo=`---
+`,Mo=`---
 title: "Química orgánica PAU: ejercicios resueltos de reacciones, isomería y síntesis"
 seoTitle: "Química orgánica PAU: ejercicios resueltos"
 date: "2026-10-17"
@@ -37440,7 +41243,7 @@ Una respuesta rigurosa incluye:
 - Escribir el polímero conservando el doble enlace del monómero.
 
 El campus virtual de Método Nebula desarrolla nomenclatura, isomería y un mapa completo de adición, eliminación, sustitución, oxidación, esterificación y polimerización con problemas PAU. El botón de contacto permite solicitar una ruta para reconstruir transformaciones a partir de la estructura.
-`,vo=`---
+`,Ro=`---
 title: "Electroquímica PAU: cómo resolver pilas, potenciales y reacciones redox sin perder los signos"
 date: "2026-09-25"
 updated: "2026-09-25"
@@ -37562,7 +41365,7 @@ El cálculo de $E^\\circ_{\\text{pila}}$ cierra la parte energética. La represe
 - Decir que una reacción es espontánea sin relacionarlo con el signo de $E^\\circ$.
 
 El campus virtual de Método Nebula desarrolla números de oxidación, ajuste ion-electrón, pilas, potenciales, electrólisis y leyes de Faraday con ejercicios progresivos y modelos de examen. El botón de contacto permite acceder a una ruta centrada en el razonamiento completo, sin depender de reglas aisladas.
-`,yo=`---
+`,Oo=`---
 title: "Equilibrios de solubilidad PAU: cómo usar Kps, predecir precipitados y resolver el ion común"
 seoTitle: "Solubilidad y Kps PAU: precipitación e ion común"
 date: "2026-07-20"
@@ -37680,7 +41483,7 @@ Los problemas de precipitación selectiva comparan el pH o la concentración de 
 ## Integrar solubilidad con equilibrio y ácido-base
 
 El campus virtual de Método Nebula conecta $K_{ps}$ con equilibrio, pH, estequiometría y análisis químico mediante teoría, ejercicios graduados y modelos PAU resueltos. El botón de contacto permite acceder a una ruta que entrena tanto la tabla de equilibrio como la decisión química final.
-`,ho=`---
+`,Uo=`---
 title: "Termoquímica PAU: ley de Hess, entalpías y signos sin perder energía por el camino"
 seoTitle: "Termoquímica PAU: ley de Hess, entalpías y signos"
 date: "2026-10-18"
@@ -37808,7 +41611,7 @@ No todas las discrepancias se arreglan diciendo “pérdida de calor”. Una com
 - Dar el calor total cuando piden entalpía molar.
 
 El campus virtual de Método Nebula conecta termoquímica, equilibrio y espontaneidad mediante teoría y problemas PAU. El botón de contacto permite trabajar el razonamiento y no solo la tabla de datos.
-`,qo=`---
+`,Bo=`---
 title: "Química PAU: volumetrías ácido-base y redox paso a paso, sin fórmulas automáticas"
 seoTitle: "Volumetrías ácido-base y redox en Química PAU"
 date: "2026-10-25"
@@ -37919,7 +41722,7 @@ En algunas valoraciones redox, el propio reactivo actúa como indicador; en otra
 - Describir un color sin explicar qué marca.
 
 El campus virtual de Método Nebula conecta equilibrio ácido-base, redox, estequiometría y técnicas de laboratorio con ejercicios graduados y modelos PAU resueltos. Desde el botón de contacto puedes acceder a una ruta donde cada volumetría se construye desde la reacción y se comprueba con unidades, proporciones y procedimiento experimental.
-`,Eo=`---
+`,wo=`---
 title: "Plano inclinado con y sin rozamiento: ejercicios resueltos de 1º Bachillerato"
 seoTitle: "Plano inclinado: ejercicios con y sin rozamiento"
 date: 2026-11-05
@@ -38055,7 +41858,7 @@ Si la primera no supera al máximo rozamiento estático, el bloque puede permane
 4. \\(a=(20-2\\cdot9{,}8\\sin45^\\circ)/2\\approx3{,}07\\text{ m/s}^2\\), cuesta arriba.
 
 Antes de resolver problemas más largos, practica los [diagramas de cuerpo libre](/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes/) y las [leyes de Newton en ESO](/blog/eso-fisica-quimica-leyes-newton-dinamica/). Para apoyo individualizado, consulta las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,_o=`---
+`,Io=`---
 title: Preparar la PAU desde verano: plan realista para llegar fuerte a septiembre
 date: 2026-07-21
 updated: 2026-07-21
@@ -38117,7 +41920,7 @@ También conviene evitar convertir el verano en una repetición del curso. Desca
 Al terminar deberías poder nombrar tus tres bloqueos prioritarios, resolver mejor los ejercicios básicos que en la primera semana y tener un sistema de corrección. No hace falta llegar sabiendo todo el temario de PAU; hace falta que el aprendizaje de septiembre no se apoye en terreno inestable.
 
 Cuando empiece el curso, continúa con [un calendario de Selectividad que se pueda cumplir](/blog/preparar-selectividad-con-calendario/) y usa los modelos oficiales de tu comunidad. Si quieres priorizar asignaturas, nota objetivo y fechas de forma realista, puedes consultar las [clases para Selectividad y PAU](/clases-particulares/selectividad/).
-`,Co=`---
+`,No=`---
 title: Preparar la Selectividad con un calendario que sí se cumple
 date: 2026-06-07
 updated: 2026-06-07
@@ -38186,7 +41989,7 @@ El calendario debe tener colchón. Si no hay huecos, se romperá el primer día 
 En Nebula el calendario se construye con asignaturas, nota objetivo, fechas y punto de partida. Después se revisa semanalmente para ajustar prioridades.
 
 Si necesitas preparar PAU, Matemáticas, Física, Química u otra materia con un plan medible, revisa [clases particulares para Selectividad y PAU](/clases-particulares/selectividad/) o [reserva un diagnóstico](/contacto/).
-`,jo=`---
+`,To=`---
 title: Tu primer proyecto de Python para datos: qué hacer antes de aprender más librerías
 date: 2026-07-21
 updated: 2026-07-21
@@ -38255,7 +42058,7 @@ También es importante separar trabajo propio y código reutilizado. Si consulta
 Termina cuando otra persona pueda abrir el cuaderno, entender la pregunta, ejecutar las celdas y llegar a la misma conclusión. Si todavía quieres añadir una sexta visualización o una predicción, guárdala para una versión dos. Acabar y explicar un proyecto breve vale más que dejar varios a medias.
 
 Si estás decidiendo qué aprender antes, empieza por la guía [Python y SQL para empezar en datos](/blog/python-y-sql-para-empezar-en-datos/). Para trabajar Python desde la base o conectar el proyecto con una asignatura, revisa las [clases particulares de Programación](/clases-particulares/programacion-universidad/).
-`,So=`---
+`,ko=`---
 title: Probabilidad condicionada y teorema de Bayes: problemas universitarios resueltos
 date: 2026-06-27
 updated: 2026-06-27
@@ -38413,7 +42216,7 @@ Sigue siempre estos pasos:
 5. Interpreta el resultado en el contexto.
 
 Si estás preparando Estadística, también puedes leer [Estadística desde cero para elegir contrastes](/blog/estadistica-desde-cero-para-elegir-contrastes/) o revisar la página de [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,Po=`---
+`,Fo=`---
 title: Problemas de optimización con derivadas: ejercicios resueltos
 date: 2026-09-05
 updated: 2026-09-05
@@ -39042,7 +42845,7 @@ Una respuesta queda cerrada cuando recupera todas las variables originales, demu
 Si el modelo admite solo valores enteros, compara los enteros cercanos al óptimo continuo. Si el dominio es abierto o infinito, estudia sus fronteras mediante límites antes de afirmar que el mejor valor se alcanza.
 
 Si necesitas practicar modelización y comprobación sobre problemas de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,zo=`---
+`,Vo=`---
 title: "Proporcionalidad directa e inversa en 2º ESO: problemas resueltos"
 seoTitle: "Proporcionalidad directa e inversa 2º ESO: ejercicios"
 date: 2026-11-01
@@ -39121,7 +42924,7 @@ Distancia y tiempo solo son inversamente proporcionales si la distancia es fija 
 3. Inversos: a mayor velocidad, menor tiempo.
 
 En el [Campus de Método Nebula](/campus/) la proporcionalidad se conecta con porcentajes, escalas, unidades y funciones para que puedas elegir el modelo correcto antes de calcular.
-`,Ao=`---
+`,Go=`---
 title: Python y SQL para empezar en datos: qué aprender primero
 date: 2026-06-01
 updated: 2026-06-01
@@ -39199,7 +43002,7 @@ No midas el progreso por horas de vídeo. Mídelo por entregables:
 Esa evidencia es la que convierte el estudio en una base profesional.
 
 Para acompañar esta base puedes revisar [clases particulares de Programación desde cero](/clases-particulares/programacion-universidad/) o leer la ruta de [transición al sector IT en 6 meses](/blog/transicion-al-sector-it-en-6-meses/).
-`,Lo=`---
+`,Qo=`---
 title: Qué prueba estadística utilizar: guía para elegir el test correcto
 date: 2026-07-09
 updated: 2026-11-05
@@ -39409,7 +43212,7 @@ No. Responden bajo marcos distintos. La elección depende de la pregunta y de la
 El software calcula, pero no conoce tu diseño ni tu pregunta. La decisión debe estar razonada antes de seleccionar un menú.
 
 Para practicar la interpretación, continúa con [p-valor, intervalo de confianza y tamaño del efecto](/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/) o revisa las [clases de Estadística para Psicología, ADE y Ciencias Sociales](/clases-particulares/estadistica-psicologia-ade/).
-`,Ho=`---
+`,Ko=`---
 title: Qué son las derivadas y para qué se utilizan
 seoTitle: "Derivadas: qué son, para qué sirven y ejemplos"
 date: 2026-06-19
@@ -39524,7 +43327,7 @@ Para dominar derivadas, trabaja cada ejercicio en tres capas:
 Si solo practicas reglas, cualquier enunciado nuevo parece distinto. Si entiendes la derivada como ritmo de cambio, las reglas empiezan a tener dirección.
 
 Puedes continuar con [qué son las integrales y para qué se utilizan](/blog/que-son-las-integrales-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,Oo=`---
+`,Wo=`---
 title: Qué son las integrales y para qué se utilizan
 seoTitle: "Integrales: qué son, para qué sirven y ejemplos"
 date: 2026-06-21
@@ -39634,7 +43437,7 @@ Cuando entiendes la integral como acumulación, las técnicas de cálculo dejan 
 El paso siguiente es distinguir con claridad la [integral definida de la indefinida](/blog/integral-definida-e-indefinida-diferencias-ejemplos/) y aprender a reconocer la estructura del integrando. La guía de [métodos de integración y elección de técnica](/blog/metodos-de-integracion-como-elegir/) organiza ese diagnóstico; después puedes profundizar en [fracciones parciales](/blog/integrales-funciones-racionales-fracciones-parciales/) y aplicar la integral definida al [área entre dos curvas](/blog/area-entre-dos-curvas-ejercicios-resueltos/).
 
 Puedes leer también [qué son las derivadas y para qué se utilizan](/blog/que-son-las-derivadas-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,Do=`---
+`,Jo=`---
 title: "Examen resuelto de Química: junio de 2023 · modelo 1"
 seoTitle: "Examen resuelto de Química: junio de 2023"
 date: "2026-11-05"
@@ -40053,7 +43856,7 @@ $$V=\\frac{nRT}{P}=\\frac{0,224\\cdot0,082\\cdot298}{1}\\approx\\boxed{5,47\\ \\
 Comprobación rápida: al usar la misma intensidad en ambos apartados, la masa de cloro que vuelve a salir de la ley de Faraday coincide con el dato inicial. Es una buena señal de que las unidades y la especie química se han usado bien.
 
 ---
-`,Mo=`---
+`,Xo=`---
 title: "Examen resuelto de Química: junio de 2023 · modelo 2"
 seoTitle: "Examen resuelto de Química: junio de 2023 · modelo 2"
 date: "2026-11-05"
@@ -40454,7 +44257,7 @@ $$K_p=K_cRT\\approx0,577\\cdot0,082\\cdot1200\\approx56,8.$$
 **Resultado:** $m(\\mathrm{CO})\\approx13,75$ g, $m(\\mathrm C)\\approx8,05$ g, $\\alpha\\approx26,8\\%$, $K_c\\approx0,577$ y $K_p\\approx56,8$.
 
 ---
-`,Uo=`---
+`,Zo=`---
 title: "Examen resuelto de Química: junio de 2023 · modelo 3"
 seoTitle: "Examen resuelto de Química: junio de 2023 · modelo 3"
 date: "2026-11-05"
@@ -40817,7 +44620,7 @@ Es una **esterificación**.
 **b4)** $\\mathrm{Ca(HCO_3)_2}$: hidrogenocarbonato de calcio.
 
 ---
-`,wo=`---
+`,Yo=`---
 title: "Examen resuelto de Química: junio de 2023 · modelo 4"
 seoTitle: "Examen resuelto de Química: junio de 2023 · modelo 4"
 date: "2026-11-05"
@@ -41162,7 +44965,7 @@ $$\\%\\,\\mathrm{CaS}=\\frac{30,24}{35}\\cdot100\\approx86,4\\%.$$
 **Resultado:** la muestra tiene una riqueza de **86,4 % en CaS**.
 
 ---
-`,Ro=`---
+`,ei=`---
 title: "Examen resuelto de Química: septiembre de 2018 · modelo 1"
 seoTitle: "Examen resuelto de Química: septiembre de 2018"
 date: "2026-11-05"
@@ -41391,7 +45194,7 @@ $$k=\\frac{v}{[A][B]^2}=\\frac{2,32\\cdot10^{-3}}{0,1\\cdot0,2^2}=0,58\\ \\mathr
 a) Si al aumentar la concentración de A al doble la velocidad se incrementa en una potencia de 2: 21, 22, etc, en el caso propuesto al doble, es decir, 21, el exponente de la potencia es el orden de reacción respecto al reactivo A, en este supuesto es 1; del mismo modo, si se incrementa la concentración de B al triple, y la velocidad crece en una potencia de 3: 31, 32, 33, etc, el orden de reacción respecto al reactivo B es el exponente de la potencia, y como en este supuesto la velocidad se hace nueve veces mayor, el orden de reacción de B es 2, es decir, 32.
 
 ---
-`,Bo=`---
+`,ai=`---
 title: "Examen resuelto de Química: septiembre de 2022 · modelo 1"
 seoTitle: "Examen resuelto de Química: septiembre de 2022"
 date: "2026-11-05"
@@ -41760,7 +45563,7 @@ $$V=\\frac{nRT}{P}=\\frac{0,01265\\cdot0,082\\cdot298}{700/760}\\approx0,336\\ \
 a) A partir de la ecuación deducida de las leyes de Faraday, se obtiene la masa de calcio que se deposita en el cátodo a la intensidad de corriente y tiempo indicados.
 
 ---
-`,Io=`---
+`,ni=`---
 title: "Examen resuelto de Química: septiembre de 2023 · modelo 1"
 seoTitle: "Examen resuelto de Química: septiembre de 2023"
 date: "2026-11-05"
@@ -42118,7 +45921,7 @@ $$V=\\frac{nRT}{P}=\\frac{50\\cdot0,082\\cdot298}{1}\\approx1\\,222\\ \\mathrm L
 **Resultado:** se liberan alrededor de **1222 L de dióxido de carbono**.
 
 ---
-`,No=`---
+`,oi=`---
 title: "Examen resuelto de Química: septiembre de 2023 · modelo 2"
 seoTitle: "Examen resuelto de Química: septiembre de 2023 · modelo 2"
 date: "2026-11-05"
@@ -42510,7 +46313,7 @@ Como la dependencia con $s$ es distinta, la solubilidad molar no tiene por qué 
 b) Falsa. El equilibrio de solubilidad del MgF2 es: MgF2 (s) ⇄ Mg2+ (ac) + 2 F– (ac), y al añadir NaF, se están añadiendo iones fluoruro (F–), lo que incrementa la concentración de estos iones, por lo que, según el principio de Le Chatelier, el equilibrio se desplaza en el sentido en el que se consumen dichos iones, hacia la izquierda, provocando una disminución de la solubilidad del MgF2.
 
 ---
-`,To=`---
+`,ii=`---
 title: "Examen resuelto de Química: septiembre de 2023 · modelo 3"
 seoTitle: "Examen resuelto de Química: septiembre de 2023 · modelo 3"
 date: "2026-11-05"
@@ -42929,7 +46732,7 @@ $$\\mathrm{CH_3COOH+HOCH_2CH_2CH_2CH_3\\rightleftharpoons CH_3COOCH_2CH_2CH_2CH_
 $$\\mathrm{2C_2H_2+5O_2\\longrightarrow4CO_2+2H_2O}.$$
 
 ---
-`,ko=`---
+`,ri=`---
 title: "Examen resuelto de Química: septiembre de 2023 · modelo 4"
 seoTitle: "Examen resuelto de Química: septiembre de 2023 · modelo 4"
 date: "2026-11-05"
@@ -43285,7 +47088,7 @@ $$m=\\frac{M Q}{2F}=\\frac{112,4\\cdot13500}{2\\cdot96485}\\approx7,86\\ \\mathr
 **Resultado:** se depositan **7,86 g de cadmio**.
 
 ---
-`,Fo=`---
+`,si=`---
 title: R, SPSS, Jamovi o Python: qué programa estadístico conviene usar en la universidad
 date: 2026-07-14
 updated: 2026-07-14
@@ -43415,7 +47218,7 @@ Independientemente del software, debes poder:
 El software cambia; el razonamiento estadístico permanece.
 
 Para decidir qué análisis hacer antes de abrir ningún programa, lee [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,Qo=`---
+`,ti=`---
 title: Regla de la cadena: ejercicios resueltos paso a paso
 seoTitle: "Regla de la cadena: fórmula y ejercicios resueltos"
 date: 2026-11-05
@@ -43615,7 +47418,7 @@ Si la duda está en distinguir esos casos, consulta la guía de [derivadas de pr
 La regla de la cadena traduce una idea simple: un cambio en \\(x\\) atraviesa cada capa de una función compuesta. Identifica la interior, deriva la exterior, conserva la interior y multiplica por su derivada. Después simplifica y comprueba que ningún factor de la cadena haya desaparecido.
 
 Para pasar del concepto a ejercicios de nivel universitario, puedes consultar las [clases particulares de Cálculo](/clases-particulares/calculo-universitario/).
-`,Vo=`---
+`,ci=`---
 title: Regla de L'Hôpital: cuándo utilizarla y cuándo no
 seoTitle: "Regla de L'Hôpital: cuándo usarla y ejercicios resueltos"
 date: 2026-08-23
@@ -44304,7 +48107,7 @@ En una solución escrita, deja visible la forma indeterminada antes de cada flec
 Simplifica siempre el nuevo cociente antes de decidir el paso siguiente.
 
 Si estás preparando Cálculo universitario y necesitas decidir qué técnica admite cada límite sobre tus propios ejercicios, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Go=`---
+`,li=`---
 title: Regresión lineal y ANOVA: cuándo utilizar cada método y cómo interpretar los resultados
 date: 2026-07-11
 updated: 2026-07-22
@@ -44472,7 +48275,7 @@ Usa esta regla:
 - Varios predictores mixtos: modelo lineal/regresión con variables codificadas.
 
 Para profundizar en regresión, lee [Econometría desde cero](/blog/econometria-desde-cero-interpretar-regresion/). Para decidir entre pruebas, revisa [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o consulta las [clases de Estadística para Psicología, ADE y Ciencias Sociales](/clases-particulares/estadistica-psicologia-ade/).
-`,Ko=`---
+`,di=`---
 title: "Semejanza y escalas en 2º ESO: problemas resueltos"
 seoTitle: "Semejanza y escalas 2º ESO: ejercicios resueltos"
 date: 2026-10-30
@@ -44535,7 +48338,7 @@ $$
 3. Por \\(4\\).
 
 En el [Campus de Método Nebula](/campus/) la semejanza se conecta con proporcionalidad, Thales y geometría mediante ejercicios graduados para identificar la razón antes de calcular.
-`,Xo=`---
+`,ui=`---
 title: "Series de Taylor y Maclaurin: ejercicios resueltos para Ciencias e Ingeniería"
 seoTitle: "Series de Taylor y Maclaurin: ejercicios resueltos | Universidad"
 date: "2026-10-12"
@@ -44646,7 +48449,7 @@ Una aproximación sin control del error es una estimación; con una cota se conv
 - Dar muchos decimales sin decir qué orden de Taylor se ha usado ni cuánto puede fallar.
 
 El [campus virtual de Método Nebula](/contacto/) reúne explicaciones visuales de Cálculo, hojas de ejercicios con dificultad progresiva y problemas de examen desarrollados. Así puedes practicar no solo el desarrollo, sino la elección del modelo y la estimación de su error.
-`,Wo=`---
+`,mi=`---
 title: "Sistemas de ecuaciones en 3º ESO: problemas resueltos paso a paso"
 seoTitle: "Sistemas de ecuaciones 3º ESO: problemas resueltos"
 date: 2026-11-05
@@ -44804,7 +48607,7 @@ No debes dividir entre una expresión que puede valer cero sin haberlo comprobad
 4. Si \\(g+c=18\\) y \\(2g+4c=50\\), entonces \\(c=7\\) y \\(g=11\\).
 
 Para repasar el sentido de los pasos antes de usar métodos más rápidos, consulta la guía de [ecuaciones y sistemas en ESO](/blog/eso-matematicas-ecuaciones-sistemas-estudiar/). Si necesitas una práctica adaptada a tu curso, consulta las [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,Jo=`---
+`,$i=`---
 title: "t de Student en Psicología: ejercicios resueltos e interpretación"
 seoTitle: "t de Student en Psicología: ejercicios resueltos"
 date: 2026-11-05
@@ -44919,7 +48722,7 @@ Si los supuestos son débiles, no saltes directamente a una conclusión. Conside
 4. No. Solo indica que el análisis no encontró evidencia suficiente de diferencia con esos datos y supuestos.
 
 En el [Campus de Método Nebula](/campus/) este tema se conecta con elección de contrastes, p-valor, intervalos de confianza y ejercicios graduados, para practicar la decisión antes de memorizar el nombre de una prueba.
-`,Zo=`---
+`,pi=`---
 title: Teorema fundamental del cálculo: ejemplos y ejercicios
 seoTitle: "Teorema fundamental del cálculo: ejemplos y ejercicios"
 date: 2026-08-13
@@ -45656,7 +49459,7 @@ La primera parte del teorema deriva acumulaciones: $\\frac{d}{dx}\\int_a^x f(t)d
 La comprobación esencial consiste en derivar la primitiva, respetar la orientación de los límites y revisar el dominio completo. En problemas de acumulación, interpreta además el signo y las unidades: una integral definida mide cambio neto, mientras que el área o la distancia total pueden exigir dividir el intervalo.
 
 Antes de operar, identifica si buscas una derivada o una acumulación numérica, revisa continuidad y dominio, y separa cualquier singularidad. Si necesitas practicar estas decisiones con ejercicios de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Yo=`---
+`,gi=`---
 title: "Termodinámica en Ingeniería: ejercicios resueltos del primer principio y ciclos"
 seoTitle: "Termodinámica: primer principio y ciclos | Ejercicios resueltos"
 date: "2026-10-15"
@@ -45758,7 +49561,7 @@ Nunca escribas una eficiencia mayor que $100\\%$: vulneraría el balance energé
 5. Interpreta el signo final: ¿entra o sale energía?, ¿quién realiza el trabajo?
 
 En el [campus virtual de Método Nebula](/contacto/) encontrarás problemas de Física y Termodinámica resueltos desde el diagrama hasta la comprobación de unidades. Practicar esa secuencia evita que la termodinámica se reduzca a un formulario desconectado del sistema físico.
-`,ei=`---
+`,fi=`---
 title: Transición al sector IT en 6 meses: una ruta realista
 date: 2026-06-04
 updated: 2026-06-04
@@ -45818,7 +49621,7 @@ En una entrevista no basta con enseñar código. Tienes que explicar cómo pensa
 La parte dura no es solo el temario. Es mantener continuidad cuando aparecen dudas, cansancio o comparación con perfiles más avanzados. Por eso conviene revisar progreso cada semana y cerrar entregables pequeños.
 
 Si estás empezando desde cero, puedes leer [Python y SQL para empezar en datos](/blog/python-y-sql-para-empezar-en-datos/) o revisar [clases de programación universitaria y fundamentos](/clases-particulares/programacion-universidad/).
-`,ni=`---
+`,xi=`---
 title: "Valores propios y vectores propios: ejercicios resueltos de diagonalización"
 seoTitle: "Valores propios y vectores propios: ejercicios resueltos | Ingeniería"
 date: "2026-10-09"
@@ -45941,5 +49744,5 @@ No es necesario multiplicar $A$ por sí misma $n$ veces. Esta idea explica por q
 - Haz una verificación rápida: $AP=PD$ suele ser más limpia que desarrollar $PDP^{-1}$.
 
 En el [campus virtual de Método Nebula](/contacto/) puedes trabajar álgebra lineal con teoría corta, ejercicios graduados y correcciones que explican por qué cada paso es válido. Es la forma más segura de convertir un procedimiento mecánico en una herramienta para resolver problemas reales de Ingeniería.
-`;function ai(e){const a=/^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(e);if(!a)return{data:{},body:e.trim()};const o={};for(const n of a[1].split(`
-`)){const s=n.indexOf(":");if(s===-1)continue;const i=n.slice(0,s).trim();let r=n.slice(s+1).trim();(r.startsWith('"')&&r.endsWith('"')||r.startsWith("'")&&r.endsWith("'"))&&(r=r.slice(1,-1)),i&&(o[i]=r)}return{data:o,body:e.slice(a[0].length).trim()}}function oi(e){const a=e.trim().split(/\s+/).filter(Boolean).length;return Math.max(1,Math.round(a/200))}const ii=Object.assign({"../content/blog/algebra-lineal-universidad-que-estudiar-primero-errores.md":c,"../content/blog/area-entre-dos-curvas-ejercicios-resueltos.md":l,"../content/blog/bachillerato-fisica-momento-choques.md":d,"../content/blog/bachillerato-fisica-quimica-mol-estequiometria.md":u,"../content/blog/bachillerato-fisica-tiro-parabolico.md":m,"../content/blog/bachillerato-matematicas-ecuaciones-trigonometricas.md":$,"../content/blog/bachillerato-matematicas-funciones-representacion.md":p,"../content/blog/bachillerato-matematicas-logaritmos-exponenciales-ecuaciones.md":g,"../content/blog/bachillerato-matematicas-sucesiones-progresiones.md":f,"../content/blog/bachillerato-matematicas-trigonometria-triangulos.md":x,"../content/blog/bachillerato-quimica-gases-ideales.md":b,"../content/blog/bachillerato-quimica-periodicidad-configuracion.md":v,"../content/blog/bachillerato-quimica-reactivo-limitante-rendimiento-pureza.md":y,"../content/blog/caida-libre-lanzamiento-vertical-4-eso-problemas.md":h,"../content/blog/cambio-variables-jacobiano-integrales-dobles.md":q,"../content/blog/chi-cuadrado-psicologia-tablas-contingencia.md":E,"../content/blog/cinetica-quimica-orden-reaccion-arrhenius-ejercicios-resueltos.md":_,"../content/blog/circuitos-corriente-continua-problemas-resueltos-universidad.md":C,"../content/blog/como-aprobar-calculo-i-ingenieria-seis-semanas.md":j,"../content/blog/como-aprobar-estadistica-psicologia-sin-base-matematica.md":S,"../content/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas.md":P,"../content/blog/como-aprobar-matematicas-i-ade-economia.md":z,"../content/blog/como-estudiar-matematicas-sin-memorizar.md":A,"../content/blog/como-preparar-ib-mathematics-aa-ai.md":L,"../content/blog/como-preparar-pau-matematicas-ii.md":H,"../content/blog/como-resolver-limites-indeterminaciones-ejercicios.md":O,"../content/blog/continuidad-derivabilidad-diferencias-problemas.md":D,"../content/blog/derivacion-implicita-ejercicios-resueltos.md":M,"../content/blog/derivadas-2-bachillerato-ejercicios-examen.md":U,"../content/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos.md":w,"../content/blog/derivadas-parciales-gradiente-ejercicios.md":R,"../content/blog/derivadas-producto-cociente-ejercicios.md":B,"../content/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes.md":I,"../content/blog/disoluciones-tampon-henderson-hasselbalch-ejercicios-resueltos.md":N,"../content/blog/econometria-desde-cero-interpretar-regresion.md":T,"../content/blog/economia-ade-matematicas-sin-perderse.md":k,"../content/blog/ecuaciones-bicuadradas-4-eso-ejercicios.md":F,"../content/blog/ecuaciones-diferenciales-identificar-metodo-correcto.md":Q,"../content/blog/ecuaciones-segundo-grado-3-eso-ejercicios-resueltos.md":V,"../content/blog/energia-mecanica-rozamiento-4-eso-problemas.md":G,"../content/blog/errores-comunes-inferencia-estadistica.md":K,"../content/blog/eso-fisica-quimica-calor-temperatura-cambios-estado.md":X,"../content/blog/eso-fisica-quimica-densidad-presion-flotacion.md":W,"../content/blog/eso-fisica-quimica-electricidad-circuitos.md":J,"../content/blog/eso-fisica-quimica-energia-mecanica.md":Z,"../content/blog/eso-fisica-quimica-formulacion-inorganica.md":Y,"../content/blog/eso-fisica-quimica-leyes-newton-dinamica.md":ee,"../content/blog/eso-fisica-quimica-mezclas-disoluciones-separacion.md":ne,"../content/blog/eso-fisica-quimica-modelos-atomicos-tabla-periodica.md":ae,"../content/blog/eso-fisica-quimica-reacciones-ajuste-conservacion.md":oe,"../content/blog/eso-fisica-quimica-sonido-ondas.md":ie,"../content/blog/eso-fisica-quimica-trabajo-potencia-rendimiento.md":re,"../content/blog/eso-matematicas-ecuaciones-sistemas-estudiar.md":se,"../content/blog/eso-matematicas-fracciones-operaciones-problemas.md":te,"../content/blog/eso-matematicas-inecuaciones-sistemas-regiones.md":ce,"../content/blog/eso-matematicas-pitagoras-thales-geometria.md":le,"../content/blog/eso-matematicas-polinomios-factorizacion.md":de,"../content/blog/eso-matematicas-porcentajes-interes-compuesto.md":ue,"../content/blog/eso-matematicas-potencias-radicales.md":me,"../content/blog/eso-matematicas-probabilidad-estudiar.md":$e,"../content/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja.md":pe,"../content/blog/estadistica-descriptiva-eso-media-mediana-moda.md":ge,"../content/blog/estadistica-desde-cero-para-elegir-contrastes.md":fe,"../content/blog/estequiometria-universitaria-ejercicios-resueltos.md":xe,"../content/blog/estudio-completo-funcion-paso-a-paso.md":be,"../content/blog/examen-calculo-1-ingenieria-simulacro-resuelto.md":ve,"../content/blog/examen-matematicas-2-eso-modelo-resuelto.md":ye,"../content/blog/examen-matematicas-3-eso-modelo-resuelto.md":he,"../content/blog/factores-conversion-3-eso-ejercicios-resueltos.md":qe,"../content/blog/fisica-y-quimica-como-plantear-problemas.md":Ee,"../content/blog/fracciones-algebraicas-4-eso-ejercicios.md":_e,"../content/blog/funciones-lineales-afines-3-eso-ejercicios.md":Ce,"../content/blog/gcse-chemistry-acids-bases-salts-en.md":je,"../content/blog/gcse-chemistry-acids-bases-salts.md":Se,"../content/blog/gcse-chemistry-bonding-revision-en.md":Pe,"../content/blog/gcse-chemistry-bonding-revision.md":ze,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples-en.md":Ae,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples.md":Le,"../content/blog/gcse-chemistry-electrolysis-electrode-products-en.md":He,"../content/blog/gcse-chemistry-electrolysis-electrode-products.md":Oe,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles-en.md":De,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles.md":Me,"../content/blog/gcse-chemistry-equations-moles-revision-en.md":Ue,"../content/blog/gcse-chemistry-equations-moles-revision.md":we,"../content/blog/gcse-chemistry-periodic-table-groups-trends-en.md":Re,"../content/blog/gcse-chemistry-periodic-table-groups-trends.md":Be,"../content/blog/gcse-chemistry-rates-collision-theory-en.md":Ie,"../content/blog/gcse-chemistry-rates-collision-theory.md":Ne,"../content/blog/gcse-maths-algebra-graphs-revision-en.md":Te,"../content/blog/gcse-maths-algebra-graphs-revision.md":ke,"../content/blog/gcse-maths-circle-theorems-proof-en.md":Fe,"../content/blog/gcse-maths-circle-theorems-proof.md":Qe,"../content/blog/gcse-maths-histograms-cumulative-frequency-en.md":Ve,"../content/blog/gcse-maths-histograms-cumulative-frequency.md":Ge,"../content/blog/gcse-maths-probability-trees-conditional-en.md":Ke,"../content/blog/gcse-maths-probability-trees-conditional.md":Xe,"../content/blog/gcse-maths-resit-14-day-plan-en.md":We,"../content/blog/gcse-maths-resit-14-day-plan.md":Je,"../content/blog/gcse-maths-revision-plan-foundation-higher-en.md":Ze,"../content/blog/gcse-maths-revision-plan-foundation-higher.md":Ye,"../content/blog/gcse-maths-similarity-area-volume-scale-factors-en.md":en,"../content/blog/gcse-maths-similarity-area-volume-scale-factors.md":nn,"../content/blog/gcse-maths-simultaneous-equations-worked-examples-en.md":an,"../content/blog/gcse-maths-simultaneous-equations-worked-examples.md":on,"../content/blog/gcse-maths-transformations-vectors-en.md":rn,"../content/blog/gcse-maths-transformations-vectors.md":sn,"../content/blog/gcse-maths-trigonometry-bearings-en.md":tn,"../content/blog/gcse-maths-trigonometry-bearings.md":cn,"../content/blog/gcse-mock-exams-six-week-revision-plan-en.md":ln,"../content/blog/gcse-mock-exams-six-week-revision-plan.md":dn,"../content/blog/gcse-past-papers-mark-schemes-method-en.md":un,"../content/blog/gcse-past-papers-mark-schemes-method.md":mn,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples-en.md":$n,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples.md":pn,"../content/blog/gcse-physics-electricity-revision-en.md":gn,"../content/blog/gcse-physics-electricity-revision.md":fn,"../content/blog/gcse-physics-energy-work-power-efficiency-en.md":xn,"../content/blog/gcse-physics-energy-work-power-efficiency.md":bn,"../content/blog/gcse-physics-forces-exam-questions-en.md":vn,"../content/blog/gcse-physics-forces-exam-questions.md":yn,"../content/blog/gcse-physics-magnetism-motors-generators-en.md":hn,"../content/blog/gcse-physics-magnetism-motors-generators.md":qn,"../content/blog/gcse-physics-motion-graphs-stopping-distance-en.md":En,"../content/blog/gcse-physics-motion-graphs-stopping-distance.md":_n,"../content/blog/gcse-physics-radioactivity-half-life-en.md":Cn,"../content/blog/gcse-physics-radioactivity-half-life.md":jn,"../content/blog/gcse-physics-space-stars-life-cycle-en.md":Sn,"../content/blog/gcse-physics-space-stars-life-cycle.md":Pn,"../content/blog/gcse-physics-thermal-heating-curves-en.md":zn,"../content/blog/gcse-physics-thermal-heating-curves.md":An,"../content/blog/gcse-physics-waves-refraction-en.md":Ln,"../content/blog/gcse-physics-waves-refraction.md":Hn,"../content/blog/geometria-analitica-4-eso-rectas-ejercicios.md":On,"../content/blog/graficas-mru-mrua-4-eso-ejercicios.md":Dn,"../content/blog/gravitacion-eso-ley-universal-peso-ejercicios.md":Mn,"../content/blog/ib-gcse-como-preparar-examenes-internacionales.md":Un,"../content/blog/integracion-por-partes-formula-ejercicios-resueltos.md":wn,"../content/blog/integracion-por-sustitucion-cambio-variable-ejercicios.md":Rn,"../content/blog/integral-definida-e-indefinida-diferencias-ejemplos.md":Bn,"../content/blog/integrales-dobles-ejercicios-resueltos.md":In,"../content/blog/integrales-funciones-racionales-fracciones-parciales.md":Nn,"../content/blog/integrales-impropias-convergencia-ejercicios.md":Tn,"../content/blog/integrales-inmediatas-ejercicios-resueltos.md":kn,"../content/blog/integrales-trigonometricas-ejercicios-resueltos.md":Fn,"../content/blog/ley-hooke-muelles-4-eso-ejercicios.md":Qn,"../content/blog/ley-ohm-4-eso-ejercicios-resueltos.md":Vn,"../content/blog/limites-trigonometricos-ejercicios-resueltos.md":Gn,"../content/blog/matematicas-ccss-pau-2022-pais-vasco.md":Kn,"../content/blog/matematicas-ccss-pau-2023-comunidad-valenciana.md":Xn,"../content/blog/matematicas-ccss-pau-2024-comunidad-valenciana.md":Wn,"../content/blog/matematicas-ccss-pau-2024-navarra.md":Jn,"../content/blog/matematicas-ccss-pau-2024-pais-vasco.md":Zn,"../content/blog/matematicas-ccss-pau-2025-comunidad-valenciana-extraordinaria.md":Yn,"../content/blog/matematicas-ccss-pau-2025-madrid.md":ea,"../content/blog/matematicas-ccss-pau-2025-murcia.md":na,"../content/blog/matematicas-ccss-pau-2026-andalucia.md":aa,"../content/blog/matematicas-ccss-pau-2026-aragon.md":oa,"../content/blog/matematicas-ccss-pau-2026-asturias.md":ia,"../content/blog/matematicas-ccss-pau-2026-cataluna.md":ra,"../content/blog/matematicas-ccss-pau-2026-comunidad-valenciana.md":sa,"../content/blog/matematicas-ccss-pau-2026-madrid.md":ta,"../content/blog/matematicas-ii-pau-2025-andalucia.md":ca,"../content/blog/matematicas-ii-pau-2025-aragon.md":la,"../content/blog/matematicas-ii-pau-2025-cantabria.md":da,"../content/blog/matematicas-ii-pau-2025-comunidad-valenciana.md":ua,"../content/blog/matematicas-ii-pau-2025-madrid.md":ma,"../content/blog/matematicas-ii-pau-2025-murcia.md":$a,"../content/blog/matematicas-ii-pau-2025-navarra.md":pa,"../content/blog/matematicas-ii-pau-2026-andalucia.md":ga,"../content/blog/matematicas-ii-pau-2026-aragon.md":fa,"../content/blog/matematicas-ii-pau-2026-asturias.md":xa,"../content/blog/matematicas-ii-pau-2026-cantabria.md":ba,"../content/blog/matematicas-ii-pau-2026-cataluna.md":va,"../content/blog/matematicas-ii-pau-2026-comunidad-valenciana.md":ya,"../content/blog/matematicas-ii-pau-2026-madrid.md":ha,"../content/blog/matematicas-ii-pau-2026-murcia.md":qa,"../content/blog/matematicas-ii-pau-2026-pais-vasco.md":Ea,"../content/blog/matrices-determinantes-sistemas-ecuaciones-guia.md":_a,"../content/blog/maximos-minimos-varias-variables-ejercicios.md":Ca,"../content/blog/mecanica-fluidos-bernoulli-continuidad-ejercicios-resueltos.md":ja,"../content/blog/metodos-de-integracion-como-elegir.md":Sa,"../content/blog/microeconomia-i-tipos-problemas-examen.md":Pa,"../content/blog/molaridad-disoluciones-1-bachillerato-ejercicios.md":za,"../content/blog/movimiento-circular-uniforme-1-bachillerato-ejercicios.md":Aa,"../content/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios.md":La,"../content/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios.md":Ha,"../content/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo.md":Oa,"../content/blog/pau-ccss-derivadas-optimizacion-economia.md":Da,"../content/blog/pau-ccss-inferencia-intervalos-confianza.md":Ma,"../content/blog/pau-ccss-integrales-area-acumulacion.md":Ua,"../content/blog/pau-ccss-matrices-modelos-economicos.md":wa,"../content/blog/pau-ccss-programacion-lineal-problemas.md":Ra,"../content/blog/pau-convocatoria-extraordinaria-plan-30-dias.md":Ba,"../content/blog/pau-corregir-simulacros-plan-estudio.md":Ia,"../content/blog/pau-ebau-evau-selectividad-modelo-oficial.md":Na,"../content/blog/pau-fisica-campo-electrico-potencial-condensadores.md":Ta,"../content/blog/pau-fisica-campo-gravitatorio-satelites.md":ka,"../content/blog/pau-fisica-cuantica-efecto-fotoelectrico.md":Fa,"../content/blog/pau-fisica-electromagnetismo-estudiar.md":Qa,"../content/blog/pau-fisica-formulario-unidades-comprobaciones.md":Va,"../content/blog/pau-fisica-graficas-datos-incertidumbre.md":Ga,"../content/blog/pau-fisica-movimiento-armonico-simple.md":Ka,"../content/blog/pau-fisica-nuclear-defecto-masa.md":Xa,"../content/blog/pau-fisica-ondas-resolver-problemas.md":Wa,"../content/blog/pau-fisica-optica-lentes-espejos.md":Ja,"../content/blog/pau-fisica-relatividad-especial.md":Za,"../content/blog/pau-matematicas-ccss-probabilidad-bayes.md":Ya,"../content/blog/pau-matematicas-derivabilidad-parametros-tangentes.md":eo,"../content/blog/pau-matematicas-geometria-metrica-distancias-angulos.md":no,"../content/blog/pau-matematicas-ii-90-minutos-elegir-ejercicios.md":ao,"../content/blog/pau-matematicas-ii-errores-restan-puntos.md":oo,"../content/blog/pau-matematicas-ii-vectores-rectas-planos.md":io,"../content/blog/pau-matematicas-integrales-areas.md":ro,"../content/blog/pau-matematicas-limites-asintotas.md":so,"../content/blog/pau-matematicas-matrices-determinantes-gauss.md":to,"../content/blog/pau-matematicas-probabilidad-distribuciones.md":co,"../content/blog/pau-matematicas-sistemas-parametro-rouche-frobenius.md":lo,"../content/blog/pau-quimica-acido-base-ph-calculos.md":uo,"../content/blog/pau-quimica-cinetica-arrhenius-velocidad.md":mo,"../content/blog/pau-quimica-enlace-geometria-molecular.md":$o,"../content/blog/pau-quimica-equilibrio-quimico-estudiar.md":po,"../content/blog/pau-quimica-estequiometria-gases-disoluciones.md":go,"../content/blog/pau-quimica-estructura-atomica-configuracion.md":fo,"../content/blog/pau-quimica-laboratorio-rendimiento-pureza-errores.md":xo,"../content/blog/pau-quimica-organica-mapa-reacciones.md":bo,"../content/blog/pau-quimica-pilas-electroquimica-redox.md":vo,"../content/blog/pau-quimica-solubilidad-kps-precipitacion.md":yo,"../content/blog/pau-quimica-termoquimica-hess-entalpia.md":ho,"../content/blog/pau-quimica-volumetrias-acido-base-redox.md":qo,"../content/blog/plano-inclinado-1-bachillerato-ejercicios-resueltos.md":Eo,"../content/blog/preparar-pau-desde-verano-plan-septiembre.md":_o,"../content/blog/preparar-selectividad-con-calendario.md":Co,"../content/blog/primer-proyecto-python-principiantes-datos.md":jo,"../content/blog/probabilidad-condicionada-bayes-problemas-resueltos.md":So,"../content/blog/problemas-optimizacion-derivadas-ejercicios-resueltos.md":Po,"../content/blog/proporcionalidad-directa-inversa-2-eso-ejercicios.md":zo,"../content/blog/python-y-sql-para-empezar-en-datos.md":Ao,"../content/blog/que-prueba-estadistica-utilizar-guia-test-correcto.md":Lo,"../content/blog/que-son-las-derivadas-y-para-que-se-utilizan.md":Ho,"../content/blog/que-son-las-integrales-y-para-que-se-utilizan.md":Oo,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-1.md":Do,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-2.md":Mo,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-3.md":Uo,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-4.md":wo,"../content/blog/quimica-examen-resuelto-septiembre-2018-modelo-1.md":Ro,"../content/blog/quimica-examen-resuelto-septiembre-2022-modelo-1.md":Bo,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-1.md":Io,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-2.md":No,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-3.md":To,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-4.md":ko,"../content/blog/r-spss-jamovi-python-programa-estadistico-universidad.md":Fo,"../content/blog/regla-cadena-ejercicios-resueltos.md":Qo,"../content/blog/regla-lhopital-cuando-usarla-ejercicios.md":Vo,"../content/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados.md":Go,"../content/blog/semejanza-escalas-2-eso-problemas-resueltos.md":Ko,"../content/blog/series-taylor-maclaurin-ejercicios-resueltos.md":Xo,"../content/blog/sistemas-ecuaciones-3-eso-problemas-resueltos.md":Wo,"../content/blog/t-student-psicologia-ejercicios-resueltos.md":Jo,"../content/blog/teorema-fundamental-calculo-ejemplos-ejercicios.md":Zo,"../content/blog/termodinamica-primer-principio-ciclos-ejercicios-resueltos.md":Yo,"../content/blog/transicion-al-sector-it-en-6-meses.md":ei,"../content/blog/valores-propios-vectores-propios-diagonalizacion-ejercicios-resueltos.md":ni}),t=Object.entries(ii).map(([e,a])=>{const o=e.split("/").pop().replace(/\.md$/,""),{data:n,body:s}=ai(a);return{slug:o,title:n.title??o,seoTitle:n.seoTitle??"",date:n.date??"",updated:n.updated??n.date??"",description:n.description??"",tag:n.tag??"Blog",category:n.category??n.tag??"Blog",image:n.image??"/favicon.svg",language:n.language==="en"?"en":"es",translation:n.translation??"",relatedService:n.relatedService??"/contacto/",relatedPosts:n.relatedPosts?n.relatedPosts.split(",").map(i=>i.trim()).filter(Boolean):[],readingMinutes:oi(s),body:s}}).sort((e,a)=>e.date<a.date?1:e.date>a.date?-1:0);function si(){return t}function ti(e,a=9){return Math.max(1,Math.ceil(e.length/a))}function ci(e,a,o=9){const n=(a-1)*o;return e.slice(n,n+o)}function ri(e){return t.find(a=>a.slug===e)}function li(e){return t.filter(a=>a.category===e)}function di(e,a=3){const o=e.relatedPosts.map(i=>ri(i)).filter(i=>!!i),s=[...t.filter(i=>i.language===e.language),...t].filter(i=>i.slug!==e.slug&&!o.some(r=>r.slug===i.slug));return[...o,...s].slice(0,a)}function ui(e,a="es"){if(!e)return"";const o=new Date(e);return Number.isNaN(o.getTime())?e:o.toLocaleDateString(a==="en"?"en-GB":"es-ES",{day:"numeric",month:"long",year:"numeric"})}export{ti as a,ri as b,ci as c,si as d,di as e,ui as f,li as g};
+`;function bi(e){const n=/^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(e);if(!n)return{data:{},body:e.trim()};const o={};for(const a of n[1].split(`
+`)){const s=a.indexOf(":");if(s===-1)continue;const i=a.slice(0,s).trim();let r=a.slice(s+1).trim();(r.startsWith('"')&&r.endsWith('"')||r.startsWith("'")&&r.endsWith("'"))&&(r=r.slice(1,-1)),i&&(o[i]=r)}return{data:o,body:e.slice(n[0].length).trim()}}function vi(e){const n=e.trim().split(/\s+/).filter(Boolean).length;return Math.max(1,Math.round(n/200))}const yi=Object.assign({"../content/blog/algebra-lineal-universidad-que-estudiar-primero-errores.md":c,"../content/blog/area-entre-dos-curvas-ejercicios-resueltos.md":l,"../content/blog/bachillerato-fisica-momento-choques.md":d,"../content/blog/bachillerato-fisica-quimica-mol-estequiometria.md":u,"../content/blog/bachillerato-fisica-tiro-parabolico.md":m,"../content/blog/bachillerato-matematicas-ecuaciones-trigonometricas.md":$,"../content/blog/bachillerato-matematicas-funciones-representacion.md":p,"../content/blog/bachillerato-matematicas-logaritmos-exponenciales-ecuaciones.md":g,"../content/blog/bachillerato-matematicas-sucesiones-progresiones.md":f,"../content/blog/bachillerato-matematicas-trigonometria-triangulos.md":x,"../content/blog/bachillerato-quimica-gases-ideales.md":b,"../content/blog/bachillerato-quimica-periodicidad-configuracion.md":v,"../content/blog/bachillerato-quimica-reactivo-limitante-rendimiento-pureza.md":y,"../content/blog/caida-libre-lanzamiento-vertical-4-eso-problemas.md":h,"../content/blog/cambio-variables-jacobiano-integrales-dobles.md":q,"../content/blog/chi-cuadrado-psicologia-tablas-contingencia.md":_,"../content/blog/cinetica-quimica-orden-reaccion-arrhenius-ejercicios-resueltos.md":E,"../content/blog/circuitos-corriente-continua-problemas-resueltos-universidad.md":C,"../content/blog/como-aprobar-calculo-i-ingenieria-seis-semanas.md":j,"../content/blog/como-aprobar-estadistica-psicologia-sin-base-matematica.md":S,"../content/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas.md":z,"../content/blog/como-aprobar-matematicas-i-ade-economia.md":P,"../content/blog/como-estudiar-matematicas-sin-memorizar.md":A,"../content/blog/como-preparar-ib-mathematics-aa-ai.md":L,"../content/blog/como-preparar-pau-matematicas-ii.md":H,"../content/blog/como-resolver-limites-indeterminaciones-ejercicios.md":D,"../content/blog/continuidad-derivabilidad-diferencias-problemas.md":M,"../content/blog/derivacion-implicita-ejercicios-resueltos.md":R,"../content/blog/derivadas-2-bachillerato-ejercicios-examen.md":O,"../content/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos.md":U,"../content/blog/derivadas-parciales-gradiente-ejercicios.md":B,"../content/blog/derivadas-producto-cociente-ejercicios.md":w,"../content/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes.md":I,"../content/blog/disoluciones-tampon-henderson-hasselbalch-ejercicios-resueltos.md":N,"../content/blog/econometria-desde-cero-interpretar-regresion.md":T,"../content/blog/economia-ade-matematicas-sin-perderse.md":k,"../content/blog/ecuaciones-bicuadradas-4-eso-ejercicios.md":F,"../content/blog/ecuaciones-diferenciales-identificar-metodo-correcto.md":V,"../content/blog/ecuaciones-segundo-grado-3-eso-ejercicios-resueltos.md":G,"../content/blog/energia-mecanica-rozamiento-4-eso-problemas.md":Q,"../content/blog/errores-comunes-inferencia-estadistica.md":K,"../content/blog/eso-fisica-quimica-calor-temperatura-cambios-estado.md":W,"../content/blog/eso-fisica-quimica-densidad-presion-flotacion.md":J,"../content/blog/eso-fisica-quimica-electricidad-circuitos.md":X,"../content/blog/eso-fisica-quimica-energia-mecanica.md":Z,"../content/blog/eso-fisica-quimica-formulacion-inorganica.md":Y,"../content/blog/eso-fisica-quimica-leyes-newton-dinamica.md":ee,"../content/blog/eso-fisica-quimica-mezclas-disoluciones-separacion.md":ae,"../content/blog/eso-fisica-quimica-modelos-atomicos-tabla-periodica.md":ne,"../content/blog/eso-fisica-quimica-reacciones-ajuste-conservacion.md":oe,"../content/blog/eso-fisica-quimica-sonido-ondas.md":ie,"../content/blog/eso-fisica-quimica-trabajo-potencia-rendimiento.md":re,"../content/blog/eso-matematicas-ecuaciones-sistemas-estudiar.md":se,"../content/blog/eso-matematicas-fracciones-operaciones-problemas.md":te,"../content/blog/eso-matematicas-inecuaciones-sistemas-regiones.md":ce,"../content/blog/eso-matematicas-pitagoras-thales-geometria.md":le,"../content/blog/eso-matematicas-polinomios-factorizacion.md":de,"../content/blog/eso-matematicas-porcentajes-interes-compuesto.md":ue,"../content/blog/eso-matematicas-potencias-radicales.md":me,"../content/blog/eso-matematicas-probabilidad-estudiar.md":$e,"../content/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja.md":pe,"../content/blog/estadistica-descriptiva-eso-media-mediana-moda.md":ge,"../content/blog/estadistica-desde-cero-para-elegir-contrastes.md":fe,"../content/blog/estequiometria-universitaria-ejercicios-resueltos.md":xe,"../content/blog/estudio-completo-funcion-paso-a-paso.md":be,"../content/blog/examen-calculo-1-ingenieria-simulacro-resuelto.md":ve,"../content/blog/examen-matematicas-2-eso-modelo-resuelto.md":ye,"../content/blog/examen-matematicas-3-eso-modelo-resuelto.md":he,"../content/blog/factores-conversion-3-eso-ejercicios-resueltos.md":qe,"../content/blog/fisica-pau-2022-comunidad-valenciana-julio.md":_e,"../content/blog/fisica-pau-2022-comunidad-valenciana.md":Ee,"../content/blog/fisica-pau-2022-madrid.md":Ce,"../content/blog/fisica-pau-2023-cantabria.md":je,"../content/blog/fisica-pau-2023-madrid-coi.md":Se,"../content/blog/fisica-pau-2023-madrid.md":ze,"../content/blog/fisica-pau-2024-andalucia-a.md":Pe,"../content/blog/fisica-pau-2024-andalucia-b.md":Ae,"../content/blog/fisica-pau-2024-cantabria.md":Le,"../content/blog/fisica-pau-2024-murcia.md":He,"../content/blog/fisica-pau-2025-andalucia-extraordinaria.md":De,"../content/blog/fisica-pau-2025-madrid-coi.md":Me,"../content/blog/fisica-pau-2025-madrid.md":Re,"../content/blog/fisica-pau-2026-andalucia.md":Oe,"../content/blog/fisica-pau-2026-cantabria.md":Ue,"../content/blog/fisica-pau-2026-madrid.md":Be,"../content/blog/fisica-y-quimica-como-plantear-problemas.md":we,"../content/blog/fracciones-algebraicas-4-eso-ejercicios.md":Ie,"../content/blog/funciones-lineales-afines-3-eso-ejercicios.md":Ne,"../content/blog/gcse-chemistry-acids-bases-salts-en.md":Te,"../content/blog/gcse-chemistry-acids-bases-salts.md":ke,"../content/blog/gcse-chemistry-bonding-revision-en.md":Fe,"../content/blog/gcse-chemistry-bonding-revision.md":Ve,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples-en.md":Ge,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples.md":Qe,"../content/blog/gcse-chemistry-electrolysis-electrode-products-en.md":Ke,"../content/blog/gcse-chemistry-electrolysis-electrode-products.md":We,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles-en.md":Je,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles.md":Xe,"../content/blog/gcse-chemistry-equations-moles-revision-en.md":Ze,"../content/blog/gcse-chemistry-equations-moles-revision.md":Ye,"../content/blog/gcse-chemistry-periodic-table-groups-trends-en.md":ea,"../content/blog/gcse-chemistry-periodic-table-groups-trends.md":aa,"../content/blog/gcse-chemistry-rates-collision-theory-en.md":na,"../content/blog/gcse-chemistry-rates-collision-theory.md":oa,"../content/blog/gcse-maths-algebra-graphs-revision-en.md":ia,"../content/blog/gcse-maths-algebra-graphs-revision.md":ra,"../content/blog/gcse-maths-circle-theorems-proof-en.md":sa,"../content/blog/gcse-maths-circle-theorems-proof.md":ta,"../content/blog/gcse-maths-histograms-cumulative-frequency-en.md":ca,"../content/blog/gcse-maths-histograms-cumulative-frequency.md":la,"../content/blog/gcse-maths-probability-trees-conditional-en.md":da,"../content/blog/gcse-maths-probability-trees-conditional.md":ua,"../content/blog/gcse-maths-resit-14-day-plan-en.md":ma,"../content/blog/gcse-maths-resit-14-day-plan.md":$a,"../content/blog/gcse-maths-revision-plan-foundation-higher-en.md":pa,"../content/blog/gcse-maths-revision-plan-foundation-higher.md":ga,"../content/blog/gcse-maths-similarity-area-volume-scale-factors-en.md":fa,"../content/blog/gcse-maths-similarity-area-volume-scale-factors.md":xa,"../content/blog/gcse-maths-simultaneous-equations-worked-examples-en.md":ba,"../content/blog/gcse-maths-simultaneous-equations-worked-examples.md":va,"../content/blog/gcse-maths-transformations-vectors-en.md":ya,"../content/blog/gcse-maths-transformations-vectors.md":ha,"../content/blog/gcse-maths-trigonometry-bearings-en.md":qa,"../content/blog/gcse-maths-trigonometry-bearings.md":_a,"../content/blog/gcse-mock-exams-six-week-revision-plan-en.md":Ea,"../content/blog/gcse-mock-exams-six-week-revision-plan.md":Ca,"../content/blog/gcse-past-papers-mark-schemes-method-en.md":ja,"../content/blog/gcse-past-papers-mark-schemes-method.md":Sa,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples-en.md":za,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples.md":Pa,"../content/blog/gcse-physics-electricity-revision-en.md":Aa,"../content/blog/gcse-physics-electricity-revision.md":La,"../content/blog/gcse-physics-energy-work-power-efficiency-en.md":Ha,"../content/blog/gcse-physics-energy-work-power-efficiency.md":Da,"../content/blog/gcse-physics-forces-exam-questions-en.md":Ma,"../content/blog/gcse-physics-forces-exam-questions.md":Ra,"../content/blog/gcse-physics-magnetism-motors-generators-en.md":Oa,"../content/blog/gcse-physics-magnetism-motors-generators.md":Ua,"../content/blog/gcse-physics-motion-graphs-stopping-distance-en.md":Ba,"../content/blog/gcse-physics-motion-graphs-stopping-distance.md":wa,"../content/blog/gcse-physics-radioactivity-half-life-en.md":Ia,"../content/blog/gcse-physics-radioactivity-half-life.md":Na,"../content/blog/gcse-physics-space-stars-life-cycle-en.md":Ta,"../content/blog/gcse-physics-space-stars-life-cycle.md":ka,"../content/blog/gcse-physics-thermal-heating-curves-en.md":Fa,"../content/blog/gcse-physics-thermal-heating-curves.md":Va,"../content/blog/gcse-physics-waves-refraction-en.md":Ga,"../content/blog/gcse-physics-waves-refraction.md":Qa,"../content/blog/geometria-analitica-4-eso-rectas-ejercicios.md":Ka,"../content/blog/graficas-mru-mrua-4-eso-ejercicios.md":Wa,"../content/blog/gravitacion-eso-ley-universal-peso-ejercicios.md":Ja,"../content/blog/ib-gcse-como-preparar-examenes-internacionales.md":Xa,"../content/blog/integracion-por-partes-formula-ejercicios-resueltos.md":Za,"../content/blog/integracion-por-sustitucion-cambio-variable-ejercicios.md":Ya,"../content/blog/integral-definida-e-indefinida-diferencias-ejemplos.md":en,"../content/blog/integrales-dobles-ejercicios-resueltos.md":an,"../content/blog/integrales-funciones-racionales-fracciones-parciales.md":nn,"../content/blog/integrales-impropias-convergencia-ejercicios.md":on,"../content/blog/integrales-inmediatas-ejercicios-resueltos.md":rn,"../content/blog/integrales-trigonometricas-ejercicios-resueltos.md":sn,"../content/blog/ley-hooke-muelles-4-eso-ejercicios.md":tn,"../content/blog/ley-ohm-4-eso-ejercicios-resueltos.md":cn,"../content/blog/limites-trigonometricos-ejercicios-resueltos.md":ln,"../content/blog/matematicas-ccss-pau-2022-pais-vasco.md":dn,"../content/blog/matematicas-ccss-pau-2023-comunidad-valenciana.md":un,"../content/blog/matematicas-ccss-pau-2024-comunidad-valenciana.md":mn,"../content/blog/matematicas-ccss-pau-2024-navarra.md":$n,"../content/blog/matematicas-ccss-pau-2024-pais-vasco.md":pn,"../content/blog/matematicas-ccss-pau-2025-comunidad-valenciana-extraordinaria.md":gn,"../content/blog/matematicas-ccss-pau-2025-madrid.md":fn,"../content/blog/matematicas-ccss-pau-2025-murcia.md":xn,"../content/blog/matematicas-ccss-pau-2026-andalucia.md":bn,"../content/blog/matematicas-ccss-pau-2026-aragon.md":vn,"../content/blog/matematicas-ccss-pau-2026-asturias.md":yn,"../content/blog/matematicas-ccss-pau-2026-cataluna.md":hn,"../content/blog/matematicas-ccss-pau-2026-comunidad-valenciana.md":qn,"../content/blog/matematicas-ccss-pau-2026-madrid.md":_n,"../content/blog/matematicas-ii-pau-2025-andalucia.md":En,"../content/blog/matematicas-ii-pau-2025-aragon.md":Cn,"../content/blog/matematicas-ii-pau-2025-cantabria.md":jn,"../content/blog/matematicas-ii-pau-2025-comunidad-valenciana.md":Sn,"../content/blog/matematicas-ii-pau-2025-madrid.md":zn,"../content/blog/matematicas-ii-pau-2025-murcia.md":Pn,"../content/blog/matematicas-ii-pau-2025-navarra.md":An,"../content/blog/matematicas-ii-pau-2026-andalucia.md":Ln,"../content/blog/matematicas-ii-pau-2026-aragon.md":Hn,"../content/blog/matematicas-ii-pau-2026-asturias.md":Dn,"../content/blog/matematicas-ii-pau-2026-cantabria.md":Mn,"../content/blog/matematicas-ii-pau-2026-cataluna.md":Rn,"../content/blog/matematicas-ii-pau-2026-comunidad-valenciana.md":On,"../content/blog/matematicas-ii-pau-2026-madrid.md":Un,"../content/blog/matematicas-ii-pau-2026-murcia.md":Bn,"../content/blog/matematicas-ii-pau-2026-pais-vasco.md":wn,"../content/blog/matrices-determinantes-sistemas-ecuaciones-guia.md":In,"../content/blog/maximos-minimos-varias-variables-ejercicios.md":Nn,"../content/blog/mecanica-fluidos-bernoulli-continuidad-ejercicios-resueltos.md":Tn,"../content/blog/metodos-de-integracion-como-elegir.md":kn,"../content/blog/microeconomia-i-tipos-problemas-examen.md":Fn,"../content/blog/molaridad-disoluciones-1-bachillerato-ejercicios.md":Vn,"../content/blog/movimiento-circular-uniforme-1-bachillerato-ejercicios.md":Gn,"../content/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios.md":Qn,"../content/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios.md":Kn,"../content/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo.md":Wn,"../content/blog/pau-ccss-derivadas-optimizacion-economia.md":Jn,"../content/blog/pau-ccss-inferencia-intervalos-confianza.md":Xn,"../content/blog/pau-ccss-integrales-area-acumulacion.md":Zn,"../content/blog/pau-ccss-matrices-modelos-economicos.md":Yn,"../content/blog/pau-ccss-programacion-lineal-problemas.md":eo,"../content/blog/pau-convocatoria-extraordinaria-plan-30-dias.md":ao,"../content/blog/pau-corregir-simulacros-plan-estudio.md":no,"../content/blog/pau-ebau-evau-selectividad-modelo-oficial.md":oo,"../content/blog/pau-fisica-campo-electrico-potencial-condensadores.md":io,"../content/blog/pau-fisica-campo-gravitatorio-satelites.md":ro,"../content/blog/pau-fisica-cuantica-efecto-fotoelectrico.md":so,"../content/blog/pau-fisica-electromagnetismo-estudiar.md":to,"../content/blog/pau-fisica-formulario-unidades-comprobaciones.md":co,"../content/blog/pau-fisica-graficas-datos-incertidumbre.md":lo,"../content/blog/pau-fisica-movimiento-armonico-simple.md":uo,"../content/blog/pau-fisica-nuclear-defecto-masa.md":mo,"../content/blog/pau-fisica-ondas-resolver-problemas.md":$o,"../content/blog/pau-fisica-optica-lentes-espejos.md":po,"../content/blog/pau-fisica-relatividad-especial.md":go,"../content/blog/pau-matematicas-ccss-probabilidad-bayes.md":fo,"../content/blog/pau-matematicas-derivabilidad-parametros-tangentes.md":xo,"../content/blog/pau-matematicas-geometria-metrica-distancias-angulos.md":bo,"../content/blog/pau-matematicas-ii-90-minutos-elegir-ejercicios.md":vo,"../content/blog/pau-matematicas-ii-errores-restan-puntos.md":yo,"../content/blog/pau-matematicas-ii-vectores-rectas-planos.md":ho,"../content/blog/pau-matematicas-integrales-areas.md":qo,"../content/blog/pau-matematicas-limites-asintotas.md":_o,"../content/blog/pau-matematicas-matrices-determinantes-gauss.md":Eo,"../content/blog/pau-matematicas-probabilidad-distribuciones.md":Co,"../content/blog/pau-matematicas-sistemas-parametro-rouche-frobenius.md":jo,"../content/blog/pau-quimica-acido-base-ph-calculos.md":So,"../content/blog/pau-quimica-cinetica-arrhenius-velocidad.md":zo,"../content/blog/pau-quimica-enlace-geometria-molecular.md":Po,"../content/blog/pau-quimica-equilibrio-quimico-estudiar.md":Ao,"../content/blog/pau-quimica-estequiometria-gases-disoluciones.md":Lo,"../content/blog/pau-quimica-estructura-atomica-configuracion.md":Ho,"../content/blog/pau-quimica-laboratorio-rendimiento-pureza-errores.md":Do,"../content/blog/pau-quimica-organica-mapa-reacciones.md":Mo,"../content/blog/pau-quimica-pilas-electroquimica-redox.md":Ro,"../content/blog/pau-quimica-solubilidad-kps-precipitacion.md":Oo,"../content/blog/pau-quimica-termoquimica-hess-entalpia.md":Uo,"../content/blog/pau-quimica-volumetrias-acido-base-redox.md":Bo,"../content/blog/plano-inclinado-1-bachillerato-ejercicios-resueltos.md":wo,"../content/blog/preparar-pau-desde-verano-plan-septiembre.md":Io,"../content/blog/preparar-selectividad-con-calendario.md":No,"../content/blog/primer-proyecto-python-principiantes-datos.md":To,"../content/blog/probabilidad-condicionada-bayes-problemas-resueltos.md":ko,"../content/blog/problemas-optimizacion-derivadas-ejercicios-resueltos.md":Fo,"../content/blog/proporcionalidad-directa-inversa-2-eso-ejercicios.md":Vo,"../content/blog/python-y-sql-para-empezar-en-datos.md":Go,"../content/blog/que-prueba-estadistica-utilizar-guia-test-correcto.md":Qo,"../content/blog/que-son-las-derivadas-y-para-que-se-utilizan.md":Ko,"../content/blog/que-son-las-integrales-y-para-que-se-utilizan.md":Wo,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-1.md":Jo,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-2.md":Xo,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-3.md":Zo,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-4.md":Yo,"../content/blog/quimica-examen-resuelto-septiembre-2018-modelo-1.md":ei,"../content/blog/quimica-examen-resuelto-septiembre-2022-modelo-1.md":ai,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-1.md":ni,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-2.md":oi,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-3.md":ii,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-4.md":ri,"../content/blog/r-spss-jamovi-python-programa-estadistico-universidad.md":si,"../content/blog/regla-cadena-ejercicios-resueltos.md":ti,"../content/blog/regla-lhopital-cuando-usarla-ejercicios.md":ci,"../content/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados.md":li,"../content/blog/semejanza-escalas-2-eso-problemas-resueltos.md":di,"../content/blog/series-taylor-maclaurin-ejercicios-resueltos.md":ui,"../content/blog/sistemas-ecuaciones-3-eso-problemas-resueltos.md":mi,"../content/blog/t-student-psicologia-ejercicios-resueltos.md":$i,"../content/blog/teorema-fundamental-calculo-ejemplos-ejercicios.md":pi,"../content/blog/termodinamica-primer-principio-ciclos-ejercicios-resueltos.md":gi,"../content/blog/transicion-al-sector-it-en-6-meses.md":fi,"../content/blog/valores-propios-vectores-propios-diagonalizacion-ejercicios-resueltos.md":xi}),t=Object.entries(yi).map(([e,n])=>{const o=e.split("/").pop().replace(/\.md$/,""),{data:a,body:s}=bi(n);return{slug:o,title:a.title??o,seoTitle:a.seoTitle??"",date:a.date??"",updated:a.updated??a.date??"",description:a.description??"",tag:a.tag??"Blog",category:a.category??a.tag??"Blog",image:a.image??"/favicon.svg",language:a.language==="en"?"en":"es",translation:a.translation??"",relatedService:a.relatedService??"/contacto/",relatedPosts:a.relatedPosts?a.relatedPosts.split(",").map(i=>i.trim()).filter(Boolean):[],readingMinutes:vi(s),body:s}}).sort((e,n)=>e.date<n.date?1:e.date>n.date?-1:0);function qi(){return t}function _i(e,n=9){return Math.max(1,Math.ceil(e.length/n))}function Ei(e,n,o=9){const a=(n-1)*o;return e.slice(a,a+o)}function hi(e){return t.find(n=>n.slug===e)}function Ci(e){return t.filter(n=>n.category===e)}function ji(e,n=3){const o=e.relatedPosts.map(i=>hi(i)).filter(i=>!!i),s=[...t.filter(i=>i.language===e.language),...t].filter(i=>i.slug!==e.slug&&!o.some(r=>r.slug===i.slug));return[...o,...s].slice(0,n)}function Si(e,n="es"){if(!e)return"";const o=new Date(e);return Number.isNaN(o.getTime())?e:o.toLocaleDateString(n==="en"?"en-GB":"es-ES",{day:"numeric",month:"long",year:"numeric"})}export{_i as a,hi as b,Ei as c,qi as d,ji as e,Si as f,Ci as g};

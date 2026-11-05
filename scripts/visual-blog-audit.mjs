@@ -122,7 +122,7 @@ async function send(ws, method, params = {}) {
       };
       ws.addEventListener("message", onMessage);
     }),
-    15000,
+    60000,
     method,
   );
 }
@@ -150,7 +150,7 @@ const inspectionExpression = String.raw`
 
   for (const image of Array.from(document.images)) {
     image.scrollIntoView({ block: "center", inline: "nearest" });
-    for (let index = 0; index < 40 && (!image.complete || image.naturalWidth === 0); index += 1) {
+    for (let index = 0; index < 20 && !image.complete; index += 1) {
       await wait(100);
     }
   }
@@ -228,10 +228,11 @@ async function inspectViewport(ws, label, width, height, url) {
     deviceScaleFactor: 1,
     mobile: width < 600,
   });
-  const loaded = waitForPageLoad(ws);
   await send(ws, "Page.navigate", { url });
-  await loaded;
-  await wait(500);
+  // In headless Chromium the load event can be emitted before the DevTools
+  // listener is attached for a cached local page. A short paint wait is more
+  // robust here; the inspection itself waits for every image it checks.
+  await wait(1000);
 
   const result = await send(ws, "Runtime.evaluate", {
     expression: inspectionExpression,
@@ -266,11 +267,23 @@ async function inspectViewport(ws, label, width, height, url) {
   return { graphs: value.graphIssues.length, title: value.title };
 }
 
-const slugs = fs
+const allSlugs = fs
   .readdirSync(BLOG_DIR)
   .filter((file) => file.endsWith(".md"))
   .map((file) => file.replace(/\.md$/, ""))
   .sort();
+const requestedSlugs = (process.env.BLOG_VISUAL_SLUGS ?? "")
+  .split(",")
+  .map((slug) => slug.trim())
+  .filter(Boolean);
+const slugs = requestedSlugs.length
+  ? allSlugs.filter((slug) => requestedSlugs.includes(slug))
+  : allSlugs;
+
+if (requestedSlugs.length && slugs.length !== requestedSlugs.length) {
+  const missing = requestedSlugs.filter((slug) => !slugs.includes(slug));
+  throw new Error(`Unknown blog visual-audit slug(s): ${missing.join(", ")}`);
+}
 
 let chrome;
 let server;

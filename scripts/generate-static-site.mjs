@@ -156,8 +156,9 @@ function findHub(route) {
   return SITE_DATA.commercialHubs.find((hub) => hub.path === route);
 }
 
-const INLINE_PATTERN =
-  /(\\\([\s\S]+?\\\))|(\$[^$\n]+\$)|(!\[[^\]]*\]\([^)]+\))|(\[[^\]]+\]\([^)]+\))|(`[^`]+`)|(\*\*[^*]+\*\*)|(__[^_]+__)|(\*[^*]+\*)|(_[^_]+_)/g;
+const INLINE_PATTERN_SOURCE =
+  String.raw`(\\\([\s\S]+?\\\))|(\$[^$\n]+\$)|(!\[[^\]]*\]\([^)]+\))|(\[[^\]]+\]\([^)]+\))|(` +
+  String.raw`[^` + "`" + String.raw`]+` + "`" + String.raw`)|(\*\*[^*]+\*\*)|(__[^_]+__)|(\*[^*]+\*)|(_[^_]+_)`;
 
 function renderKatex(tex, displayMode = false) {
   return katex.renderToString(tex, {
@@ -205,11 +206,12 @@ function imageDimensions(src) {
 }
 
 function inlineMarkdown(text) {
+  const inlinePattern = new RegExp(INLINE_PATTERN_SOURCE, "g");
   const out = [];
   let lastIndex = 0;
   let match;
 
-  while ((match = INLINE_PATTERN.exec(text)) !== null) {
+  while ((match = inlinePattern.exec(text)) !== null) {
     if (match.index > lastIndex) {
       out.push(escapeHtml(text.slice(lastIndex, match.index)));
     }
@@ -232,12 +234,12 @@ function inlineMarkdown(text) {
         `<code class="rounded bg-white/10 px-1.5 py-0.5 font-mono text-[0.85em] text-foreground">${escapeHtml(token.slice(1, -1))}</code>`,
       );
     } else if (token.startsWith("**") || token.startsWith("__")) {
-      out.push(`<strong>${escapeHtml(token.slice(2, -2))}</strong>`);
+      out.push(`<strong>${inlineMarkdown(token.slice(2, -2))}</strong>`);
     } else {
-      out.push(`<em>${escapeHtml(token.slice(1, -1))}</em>`);
+      out.push(`<em>${inlineMarkdown(token.slice(1, -1))}</em>`);
     }
 
-    lastIndex = INLINE_PATTERN.lastIndex;
+    lastIndex = inlinePattern.lastIndex;
   }
 
   if (lastIndex < text.length) out.push(escapeHtml(text.slice(lastIndex)));

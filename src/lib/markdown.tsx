@@ -10,8 +10,9 @@ import "katex/dist/katex.min.css";
  * fences and horizontal rules.
  */
 
-const INLINE_PATTERN =
-  /(\\\([\s\S]+?\\\))|(\$[^$\n]+\$)|(!\[[^\]]*\]\([^)]+\))|(\[[^\]]+\]\([^)]+\))|(`[^`]+`)|(\*\*[^*]+\*\*)|(__[^_]+__)|(\*[^*]+\*)|(_[^_]+_)/g;
+const INLINE_PATTERN_SOURCE =
+  String.raw`(\\\([\s\S]+?\\\))|(\$[^$\n]+\$)|(!\[[^\]]*\]\([^)]+\))|(\[[^\]]+\]\([^)]+\))|(` +
+  String.raw`[^` + "`" + String.raw`]+` + "`" + String.raw`)|(\*\*[^*]+\*\*)|(__[^_]+__)|(\*[^*]+\*)|(_[^_]+_)`;
 
 function renderKatex(tex: string, displayMode = false): string {
   return katex.renderToString(tex, {
@@ -132,12 +133,13 @@ function MarkdownImage({ src, alt }: { src: string; alt: string }) {
 }
 
 function renderInline(text: string): ReactNode[] {
+  const inlinePattern = new RegExp(INLINE_PATTERN_SOURCE, "g");
   const nodes: ReactNode[] = [];
   let lastIndex = 0;
   let i = 0;
   let match: RegExpExecArray | null;
 
-  while ((match = INLINE_PATTERN.exec(text)) !== null) {
+  while ((match = inlinePattern.exec(text)) !== null) {
     if (match.index > lastIndex) {
       nodes.push(text.slice(lastIndex, match.index));
     }
@@ -176,14 +178,14 @@ function renderInline(text: string): ReactNode[] {
     } else if (token.startsWith("**") || token.startsWith("__")) {
       nodes.push(
         <strong key={i} className="font-semibold text-foreground">
-          {token.slice(2, -2)}
+          {renderInline(token.slice(2, -2))}
         </strong>,
       );
     } else {
-      nodes.push(<em key={i}>{token.slice(1, -1)}</em>);
+      nodes.push(<em key={i}>{renderInline(token.slice(1, -1))}</em>);
     }
 
-    lastIndex = INLINE_PATTERN.lastIndex;
+    lastIndex = inlinePattern.lastIndex;
     i++;
   }
 

@@ -6,7 +6,7 @@ description: Una guía práctica para elegir pruebas estadísticas a partir de l
 tag: Estadística
 category: Estadística
 relatedService: /campus/
-relatedPosts: t-student-psicologia-ejercicios-resueltos,que-prueba-estadistica-utilizar-guia-test-correcto,como-aprobar-estadistica-psicologia-sin-base-matematica
+relatedPosts: t-student-psicologia-ejercicios-resueltos,chi-cuadrado-psicologia-tablas-contingencia,que-prueba-estadistica-utilizar-guia-test-correcto
 image: /favicon.svg
 ---
 

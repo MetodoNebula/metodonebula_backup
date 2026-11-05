@@ -1,13 +1,13 @@
 ---
 title: Integración por sustitución: cambio de variable y ejercicios
-seoTitle: "Integración por sustitución: método y ejercicios resueltos"
+seoTitle: "Integración por sustitución: cambio de variable y ejercicios"
 date: 2026-08-12
-updated: 2026-10-29
-description: Aprende integración por sustitución con criterio: cómo elegir el cambio de variable, transformar diferenciales y límites, y comprobar cada resultado.
+updated: 2026-11-05
+description: Aprende integración por sustitución con cambio de variable: cómo elegir u, transformar diferenciales y límites, y resolver ejercicios paso a paso.
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: metodos-de-integracion-como-elegir,integracion-por-partes-formula-ejercicios-resueltos,que-son-las-integrales-y-para-que-se-utilizan
+relatedPosts: integrales-inmediatas-ejercicios-resueltos,metodos-de-integracion-como-elegir,integracion-por-partes-formula-ejercicios-resueltos
 image: /favicon.svg
 ---
 

@@ -1,18 +1,21 @@
 ---
 title: Teorema fundamental del cálculo: ejemplos y ejercicios
+seoTitle: "Teorema fundamental del cálculo: ejemplos y ejercicios"
 date: 2026-08-13
-updated: 2026-08-13
-description: Comprende las dos partes del teorema fundamental del cálculo, deriva integrales con límites variables y resuelve integrales definidas paso a paso.
+updated: 2026-11-05
+description: Comprende el teorema fundamental del cálculo con ejemplos: deriva integrales con límites variables y resuelve integrales definidas paso a paso.
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: integral-definida-e-indefinida-diferencias-ejemplos,que-son-las-integrales-y-para-que-se-utilizan,area-entre-dos-curvas-ejercicios-resueltos
+relatedPosts: integral-definida-e-indefinida-diferencias-ejemplos,integrales-inmediatas-ejercicios-resueltos,area-entre-dos-curvas-ejercicios-resueltos
 image: /favicon.svg
 ---
 
 El teorema fundamental del cálculo explica por qué derivar e integrar son operaciones inversas. Su primera parte afirma que una integral con extremo variable genera una función cuya derivada recupera el integrando. La segunda permite calcular una integral definida restando los valores de una primitiva en los extremos.
 
 No son dos recetas aisladas. Las dos partes describen la misma conexión entre **variación instantánea** y **acumulación total**.
+
+> **Respuesta directa.** Si \(F'(x)=f(x)\), entonces \(\int_a^b f(x)\,dx=F(b)-F(a)\). Y si \(A(x)=\int_a^x f(t)\,dt\), entonces \(A'(x)=f(x)\). La clave es distinguir la variable de integración \(t\) del límite variable \(x\).
 
 ## Qué conecta exactamente el teorema
 

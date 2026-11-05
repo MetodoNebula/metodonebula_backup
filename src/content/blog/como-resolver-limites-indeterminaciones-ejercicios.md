@@ -1,13 +1,13 @@
 ---
 title: Cómo resolver límites: indeterminaciones y ejercicios
-seoTitle: "Límites e indeterminaciones: método y ejercicios resueltos"
+seoTitle: "Cómo resolver límites: indeterminaciones y ejercicios"
 date: 2026-08-17
-updated: 2026-10-29
-description: Método completo para resolver límites: sustitución, factorización, conjugados, límites notables, infinito e indeterminaciones con ejercicios.
+updated: 2026-11-05
+description: Aprende cómo resolver límites e indeterminaciones con sustitución, factorización, conjugados, límites notables y ejercicios resueltos.
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: regla-lhopital-cuando-usarla-ejercicios,continuidad-derivabilidad-diferencias-problemas,como-aprobar-calculo-i-ingenieria-seis-semanas
+relatedPosts: limites-trigonometricos-ejercicios-resueltos,regla-lhopital-cuando-usarla-ejercicios,continuidad-derivabilidad-diferencias-problemas
 image: /favicon.svg
 ---
 

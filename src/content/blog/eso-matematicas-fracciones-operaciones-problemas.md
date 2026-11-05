@@ -2,12 +2,12 @@
 title: "Fracciones en ESO: el método para operar, simplificar y resolver problemas sin perder el sentido"
 seoTitle: "Fracciones en ESO: operaciones y problemas"
 date: "2026-07-10"
-updated: "2026-07-10"
+updated: "2026-11-05"
 description: "Domina fracciones en ESO: equivalencia, suma, resta, multiplicación, división, operaciones combinadas y problemas contextualizados."
 tag: "Matemáticas ESO"
 category: "Matemáticas ESO y Bachillerato"
-relatedService: "/clases-particulares/matematicas-universidad/"
-relatedPosts: "eso-matematicas-potencias-radicales,eso-matematicas-ecuaciones-sistemas-estudiar,eso-matematicas-porcentajes-interes-compuesto"
+relatedService: "/campus/"
+relatedPosts: "examen-matematicas-2-eso-modelo-resuelto,proporcionalidad-directa-inversa-2-eso-ejercicios,eso-matematicas-porcentajes-interes-compuesto"
 image: "/assets/latex/fraction-operations.svg"
 ---
 

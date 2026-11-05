@@ -1,12 +1,12 @@
 ---
 title: "Mol y estequiometría en Bachillerato: el mapa definitivo para resolver problemas"
 date: "2026-10-12"
-updated: "2026-10-28"
+updated: "2026-11-05"
 description: "Guía completa de mol y estequiometría en Bachillerato: conversiones, reactivo limitante, pureza, rendimiento y ejemplos resueltos."
 tag: "Bachillerato"
 category: "Física y Química"
 relatedService: "/clases-particulares/quimica/"
-relatedPosts: "pau-quimica-equilibrio-quimico-estudiar,fisica-y-quimica-como-plantear-problemas"
+relatedPosts: "molaridad-disoluciones-1-bachillerato-ejercicios,bachillerato-quimica-reactivo-limitante-rendimiento-pureza,pau-quimica-equilibrio-quimico-estudiar"
 image: "/assets/latex/mole-map.svg"
 ---
 

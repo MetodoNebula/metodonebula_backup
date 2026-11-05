@@ -2,12 +2,12 @@
 title: "Leyes de Newton en ESO: el diagrama que convierte fuerzas en una ecuación con sentido"
 seoTitle: "Leyes de Newton en ESO: fuerzas y diagramas"
 date: "2026-10-26"
-updated: "2026-10-26"
+updated: "2026-11-05"
 description: "Aprende las leyes de Newton en ESO con diagramas de fuerzas, resultante, rozamiento, peso, normal y ejercicios resueltos."
 tag: "Física ESO"
 category: "Física y Química"
 relatedService: "/clases-particulares/fisica-ingenieria/"
-relatedPosts: "diagramas-cuerpo-libre-metodo-errores-frecuentes,mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios,eso-fisica-quimica-electricidad-circuitos"
+relatedPosts: "plano-inclinado-1-bachillerato-ejercicios-resueltos,diagramas-cuerpo-libre-metodo-errores-frecuentes,mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios"
 image: "/assets/latex/forces-free-body.svg"
 ---
 

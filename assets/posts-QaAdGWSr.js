@@ -6928,17 +6928,7 @@ image: /favicon.svg
 
 Las reglas de producto y cociente se usan cuando dos funciones se multiplican o una se divide entre otra. No se obtiene la derivada multiplicando o dividiendo las derivadas: cada regla mezcla la función original de una parte con la derivada de la otra.
 
-> **Respuesta directa.** Si \\(y=u(x)v(x)\\), entonces
->
-> $$
-> y'=u'v+uv'.
-> $$
->
-> Si \\(y=u(x)/v(x)\\), con \\(v(x)\\neq0\\), entonces
->
-> $$
-> y'=\\frac{u'v-uv'}{v^2}.
-> $$
+> **Respuesta directa.** Si \\(y=u(x)v(x)\\), entonces \\(y'=u'v+uv'\\). Si \\(y=u(x)/v(x)\\), con \\(v(x)\\neq0\\), entonces \\(y'=\\frac{u'v-uv'}{v^2}\\).
 
 ## Antes de elegir una regla
 
@@ -6998,7 +6988,7 @@ $$
 \\boxed{y'=3x^2\\sin x+(x^3-1)\\cos x}.
 $$
 
-No se puede combinar más salvo que el contexto dé un valor concreto de (x).
+No se puede combinar más salvo que el contexto dé un valor concreto de \\(x\\).
 
 ### Ejemplo 3 — producto con regla de la cadena
 
@@ -7021,7 +7011,7 @@ y'=\\sqrt{x^2+1}+x\\frac{x}{\\sqrt{x^2+1}}
 =\\frac{2x^2+1}{\\sqrt{x^2+1}}.
 $$
 
-La guía de [regla de la cadena](/blog/regla-cadena-ejercicios-resueltos/) explica con detalle el factor que aparece al derivar (x^2+1).
+La guía de [regla de la cadena](/blog/regla-cadena-ejercicios-resueltos/) explica con detalle el factor que aparece al derivar \\(x^2+1\\).
 
 ## Regla del cociente
 
@@ -7082,28 +7072,28 @@ Es preferible conservar los paréntesis hasta el final: evitan perder el signo m
 - **Producto de derivadas.** \\((uv)'\\neq u'v'\\). Faltan los términos que recogen el cambio de cada factor mientras el otro permanece.
 - **Cociente de derivadas.** \\((u/v)'\\neq u'/v'\\). La regla correcta tiene dos términos en el numerador y \\(v^2\\) en el denominador.
 - **Cambiar el signo menos.** En el cociente, el orden es (u'v-uv'), no al revés.
-- **Olvidar la cadena dentro de un factor.** En (x\\cos(2x)), la derivada de (cos(2x)) es (-2\\sin(2x)).
+- **Olvidar la cadena dentro de un factor.** En \\(x\\cos(2x)\\), la derivada de \\(\\cos(2x)\\) es \\(-2\\sin(2x)\\).
 - **No simplificar antes.** Si hay factores comunes, reducir puede eliminar por completo la necesidad de usar cociente.
 
 ## Ejercicios propuestos
 
-1. Deriva (x^3\\ln x), con (x>0).
-2. Deriva ((x+1)e^{-x}).
-3. Deriva (\\frac{x^2}{x+1}).
-4. Deriva (\\frac{\\ln x}{x}), con (x>0).
-5. Deriva (x^2\\sin(3x)).
+1. Deriva \\(x^3\\ln x\\), con \\(x>0\\).
+2. Deriva \\((x+1)e^{-x}\\).
+3. Deriva \\(\\frac{x^2}{x+1}\\).
+4. Deriva \\(\\frac{\\ln x}{x}\\), con \\(x>0\\).
+5. Deriva \\(x^2\\sin(3x)\\).
 
 ## Soluciones
 
-1. (3x^2\\ln x+x^2).
-2. (e^{-x}- (x+1)e^{-x}=-xe^{-x}).
-3. (\\frac{2x(x+1)-x^2}{(x+1)^2}=\\frac{x^2+2x}{(x+1)^2}).
-4. (\\frac{1-\\ln x}{x^2}).
-5. (2x\\sin(3x)+3x^2\\cos(3x)).
+1. \\(3x^2\\ln x+x^2\\).
+2. \\(e^{-x}-(x+1)e^{-x}=-xe^{-x}\\).
+3. \\(\\frac{2x(x+1)-x^2}{(x+1)^2}=\\frac{x^2+2x}{(x+1)^2}\\).
+4. \\(\\frac{1-\\ln x}{x^2}\\).
+5. \\(2x\\sin(3x)+3x^2\\cos(3x)\\).
 
 ## Resumen práctico
 
-Usa producto cuando hay dos funciones que se multiplican y cociente cuando una función se divide entre otra que no se puede simplificar. Escribe primero (u), (v), (u') y (v'); esa preparación reduce más errores que memorizar una frase rápida. Si alguno de los factores es una función compuesta, añade la regla de la cadena dentro de ese paso.
+Usa producto cuando hay dos funciones que se multiplican y cociente cuando una función se divide entre otra que no se puede simplificar. Escribe primero \\(u\\), \\(v\\), \\(u'\\) y \\(v'\\); esa preparación reduce más errores que memorizar una frase rápida. Si alguno de los factores es una función compuesta, añade la regla de la cadena dentro de ese paso.
 
 Para practicar estas reglas con ejercicios de tu asignatura, consulta las [clases particulares de Cálculo](/clases-particulares/calculo-universitario/).
 `,T=`---
@@ -7783,7 +7773,7 @@ $$
 
 Resolverla significa encontrar los valores de \\(x\\) que hacen verdadera la igualdad. Antes de elegir un método, lleva todos los términos a un lado y simplifica: ese paso evita muchos errores de signo.
 
-> **Respuesta directa.** Si puedes factorizar, busca dos factores cuyo producto sea cero. Si no es evidente, usa la fórmula \\(x=(-b\\pm\\sqrt{b^2-4ac})/(2a)\\). Al final, sustituye cada solución en la ecuación original.
+> **Respuesta directa.** Si puedes factorizar, busca dos factores cuyo producto sea cero. Si no es evidente, usa la fórmula \\(x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}\\). Al final, sustituye cada solución en la ecuación original.
 
 ## Método 1 — factorizar
 
@@ -7817,7 +7807,7 @@ $$
 
 ## Método 2 — fórmula general
 
-Para (ax^2+bx+c=0),
+Para \\(ax^2+bx+c=0\\),
 
 $$
 \\boxed{x=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}}.
@@ -7888,27 +7878,27 @@ $$
 \\Delta=2^2-4\\cdot1\\cdot5=-16.
 $$
 
-Como no existe raíz cuadrada real de un número negativo, la ecuación no tiene solución real. Es importante escribir esa conclusión, no inventar un valor para (x).
+Como no existe raíz cuadrada real de un número negativo, la ecuación no tiene solución real. Es importante escribir esa conclusión, no inventar un valor para \\(x\\).
 
 ## Errores frecuentes
 
-- **Olvidar que (b) puede ser negativo.** En (x^2-3x+1=0), (b=-3); por eso (-b=3).
-- **No poner paréntesis al sustituir.** Son esenciales si (b) o (c) tienen signo negativo.
+- **Olvidar que \\(b\\) puede ser negativo.** En \\(x^2-3x+1=0\\), \\(b=-3\\); por eso \\(-b=3\\).
+- **No poner paréntesis al sustituir.** Son esenciales si \\(b\\) o \\(c\\) tienen signo negativo.
 - **Cambiar solo un término de lado.** Mueve todos los términos y simplifica antes de elegir método.
 - **No comprobar.** Sustituir una solución en la ecuación original detecta casi todos los fallos de cálculo.
 
 ## Ejercicios propuestos
 
-1. (x^2-7x+12=0)
-2. (x^2+6x+9=0)
-3. (3x^2-2x-1=0)
-4. (x^2+4x+8=0)
+1. \\(x^2-7x+12=0\\)
+2. \\(x^2+6x+9=0\\)
+3. \\(3x^2-2x-1=0\\)
+4. \\(x^2+4x+8=0\\)
 
 ## Soluciones
 
-1. (x=3) o (x=4).
-2. (x=-3) como raíz doble.
-3. (x=1) o (x=-1/3).
+1. \\(x=3\\) o \\(x=4\\).
+2. \\(x=-3\\) como raíz doble.
+3. \\(x=1\\) o \\(x=-1/3\\).
 4. No tiene soluciones reales.
 
 ## Resumen práctico
@@ -11860,7 +11850,7 @@ No basta multiplicar por 100: esa conversión sería correcta para longitud, no 
 
 ## Ejemplo 4 — densidad
 
-Convierte (1{,}2\\text{ g/cm}^3) a kg/m³:
+Convierte \\(1{,}2\\text{ g/cm}^3\\) a kg/m³:
 
 $$
 1{,}2\\frac{\\text{g}}{\\text{cm}^3}
@@ -11886,17 +11876,17 @@ Las unidades cúbicas requieren especial cuidado porque el factor se eleva al cu
 
 ## Ejercicios propuestos
 
-1. Convierte (0{,}75\\text{ kg}) a gramos.
-2. Convierte (15\\text{ m/s}) a km/h.
-3. Convierte (4\\text{ cm}^3) a m³.
-4. Convierte (250\\text{ mL}) a litros.
+1. Convierte \\(0{,}75\\text{ kg}\\) a gramos.
+2. Convierte \\(15\\text{ m/s}\\) a km/h.
+3. Convierte \\(4\\text{ cm}^3\\) a m³.
+4. Convierte \\(250\\text{ mL}\\) a litros.
 
 ## Soluciones
 
-1. (750\\text{ g}).
-2. (54\\text{ km/h}).
-3. (4\\cdot10^{-6}\\text{ m}^3).
-4. (0{,}25\\text{ L}).
+1. \\(750\\text{ g}\\).
+2. \\(54\\text{ km/h}\\).
+3. \\(4\\cdot10^{-6}\\text{ m}^3\\).
+4. \\(0{,}25\\text{ L}\\).
 
 ## Resumen práctico
 
@@ -22894,7 +22884,7 @@ $$
 \\boxed{-\\frac2{x^2}-2\\ln|x|+C}.
 $$
 
-La regla de potencias no sirve para (x^{-1}), porque dividiríamos entre cero al sumar uno al exponente.
+La regla de potencias no sirve para \\(x^{-1}\\), porque dividiríamos entre cero al sumar uno al exponente.
 
 ## Ejemplo 3 — exponenciales y trigonometría
 
@@ -22941,17 +22931,17 @@ Si aparece una función dentro de otra junto con su derivada, puede corresponder
 
 ## Ejercicios propuestos
 
-1. (int(6x^5-x+4)dx)
-2. (int(5/x^2+3/x)dx)
-3. (int(2\\cos x-e^x)dx)
-4. (int(x^4-1)/x^2\\,dx)
+1. \\(\\int(6x^5-x+4)\\,dx\\)
+2. \\(\\int(5/x^2+3/x)\\,dx\\)
+3. \\(\\int(2\\cos x-e^x)\\,dx\\)
+4. \\(\\int(x^4-1)/x^2\\,dx\\)
 
 ## Soluciones
 
-1. (x^6-x^2/2+4x+C).
-2. (-5/x+3\\ln|x|+C).
-3. (2\\sin x-e^x+C).
-4. Primero (x^2-x^{-2}); resultado (x^3/3+1/x+C).
+1. \\(x^6-x^2/2+4x+C\\).
+2. \\(-5/x+3\\ln|x|+C\\).
+3. \\(2\\sin x-e^x+C\\).
+4. Primero \\(x^2-x^{-2}\\); resultado \\(x^3/3+1/x+C\\).
 
 ## Resumen práctico
 
@@ -22997,7 +22987,7 @@ $$
 \\lim_{x\\to0}\\frac{\\sin(5x)}{x}.
 $$
 
-Introducimos (5x) en el denominador:
+Introducimos \\(5x\\) en el denominador:
 
 $$
 \\frac{\\sin(5x)}{x}
@@ -23105,17 +23095,17 @@ Esta vía es más clara que derivar numerador y denominador sin identificar la i
 
 ## Ejercicios propuestos
 
-1. (lim_{x\\to0}\\sin(7x)/x)
-2. (lim_{x\\to0}\\sin(2x)/\\tan(5x))
-3. (lim_{x\\to0}(1-\\cos(3x))/x^2)
-4. (lim_{x\\to0}\\tan^2x/x^2)
+1. \\(\\lim_{x\\to0}\\sin(7x)/x\\)
+2. \\(\\lim_{x\\to0}\\sin(2x)/\\tan(5x)\\)
+3. \\(\\lim_{x\\to0}(1-\\cos(3x))/x^2\\)
+4. \\(\\lim_{x\\to0}\\tan^2x/x^2\\)
 
 ## Soluciones
 
-1. (7).
-2. (2/5).
-3. (9/2).
-4. (1).
+1. \\(7\\).
+2. \\(2/5\\).
+3. \\(9/2\\).
+4. \\(1\\).
 
 ## Resumen práctico
 
@@ -32020,25 +32010,19 @@ image: /favicon.svg
 
 La regla de la cadena se utiliza cuando una función está aplicada sobre otra. En vez de derivar la expresión completa como si fuera una suma de símbolos, se deriva primero la función exterior, se conserva la interior y se multiplica por la derivada de esa función interior.
 
-> **Respuesta directa.** Si \\(y=f(g(x))\\), entonces
->
-> $$
-> y'=f'(g(x))\\,g'(x).
-> $$
->
-> Deriva la capa exterior, deja intacta la expresión interior y multiplica por su derivada.
+> **Respuesta directa.** Si \\(y=f(g(x))\\), entonces \\(y'=f'(g(x))\\,g'(x)\\). Deriva la capa exterior, deja intacta la expresión interior y multiplica por su derivada.
 
 ## Cómo reconocer una función compuesta
 
 Hay regla de la cadena cuando una expresión aparece dentro de otra operación. Algunos patrones frecuentes son:
 
-- Una potencia de un polinomio: ((3x-1)^5).
+- Una potencia de un polinomio: \\((3x-1)^5\\).
 - Una raíz con una expresión interior: \\(\\sqrt{x^2+4}\\).
 - Una exponencial: \\(e^{x^2}\\).
 - Un logaritmo: \\(\\ln(2x+3)\\).
 - Una función trigonométrica: \\(\\sin(x^3)\\).
 
-La pregunta útil es: «¿qué tendría que sustituir por una sola letra para simplificar la función?». Si eliges (u=g(x)), la expresión queda como (f(u)). Esa separación muestra la función exterior (f) y la interior (g).
+La pregunta útil es: «¿qué tendría que sustituir por una sola letra para simplificar la función?». Si eliges \\(u=g(x)\\), la expresión queda como \\(f(u)\\). Esa separación muestra la función exterior \\(f\\) y la interior \\(g\\).
 
 ## Método en cuatro pasos
 
@@ -32114,7 +32098,7 @@ $$
 \\frac{d}{dx}e^{x^3-x}.
 $$
 
-La derivada de (e^u) es (e^u), pero hay que multiplicar por (u'). Como
+La derivada de \\(e^u\\) es \\(e^u\\), pero hay que multiplicar por \\(u'\\). Como
 
 $$
 u=x^3-x,
@@ -32135,7 +32119,7 @@ $$
 \\frac{d}{dx}\\ln(4x^2+1).
 $$
 
-Para (ln u), la derivada exterior es (1/u). Por tanto,
+Para \\(\\ln u\\), la derivada exterior es \\(1/u\\). Por tanto,
 
 $$
 \\frac{d}{dx}\\ln(4x^2+1)
@@ -32187,28 +32171,28 @@ Si la duda está en distinguir esos casos, consulta la guía de [derivadas de pr
 
 - **Olvidar derivar la interior.** \\((x^2+1)^3\\) no deriva a \\(3(x^2+1)^2\\), sino a \\(6x(x^2+1)^2\\).
 - **Derivar el exponente y la base a la vez sin una regla válida.** En \\(e^{x^2}\\), la derivada no es \\(x^{2e}\\).
-- **Separar una potencia compuesta incorrectamente.** En general, ((x+1)^n) no se puede derivar término a término sin desarrollar o aplicar cadena.
-- **No usar paréntesis.** Escribe (cos(x^2)), no (cos x^2), para dejar claro qué está dentro de la función.
+- **Separar una potencia compuesta incorrectamente.** En general, \\((x+1)^n\\) no se puede derivar término a término sin desarrollar o aplicar cadena.
+- **No usar paréntesis.** Escribe \\(\\cos(x^2)\\), no \\(\\cos x^2\\), para dejar claro qué está dentro de la función.
 
 ## Ejercicios propuestos
 
-1. Deriva ((5x-2)^6).
-2. Deriva ((x^2-3x+1)^4).
-3. Deriva (cos(2x^3)).
-4. Deriva (ln(1+x^5)).
-5. Deriva (\\frac{1}{(x^2+1)^3}).
+1. Deriva \\((5x-2)^6\\).
+2. Deriva \\((x^2-3x+1)^4\\).
+3. Deriva \\(\\cos(2x^3)\\).
+4. Deriva \\(\\ln(1+x^5)\\).
+5. Deriva \\(\\frac{1}{(x^2+1)^3}\\).
 
 ## Soluciones
 
-1. (30(5x-2)^5).
-2. (4(x^2-3x+1)^3(2x-3)).
-3. (-6x^2sin(2x^3)).
-4. (5x^4/(1+x^5)).
-5. Escribe ((x^2+1)^{-3}): la derivada es (-6x(x^2+1)^{-4}), o bien (-6x/(x^2+1)^4).
+1. \\(30(5x-2)^5\\).
+2. \\(4(x^2-3x+1)^3(2x-3)\\).
+3. \\(-6x^2\\sin(2x^3)\\).
+4. \\(5x^4/(1+x^5)\\).
+5. Escribe \\((x^2+1)^{-3}\\): la derivada es \\(-6x(x^2+1)^{-4}\\), o bien \\(-6x/(x^2+1)^4\\).
 
 ## Resumen práctico
 
-La regla de la cadena traduce una idea simple: un cambio en (x) atraviesa cada capa de una función compuesta. Identifica la interior, deriva la exterior, conserva la interior y multiplica por su derivada. Después simplifica y comprueba que ningún factor de la cadena haya desaparecido.
+La regla de la cadena traduce una idea simple: un cambio en \\(x\\) atraviesa cada capa de una función compuesta. Identifica la interior, deriva la exterior, conserva la interior y multiplica por su derivada. Después simplifica y comprueba que ningún factor de la cadena haya desaparecido.
 
 Para pasar del concepto a ejercicios de nivel universitario, puedes consultar las [clases particulares de Cálculo](/clases-particulares/calculo-universitario/).
 `,Na=`---

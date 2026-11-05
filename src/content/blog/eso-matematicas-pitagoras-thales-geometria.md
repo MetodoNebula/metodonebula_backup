@@ -2,12 +2,12 @@
 title: "Pitágoras y Tales en ESO: cómo elegir el teorema correcto y resolver longitudes indirectas"
 seoTitle: "Pitágoras y Tales en ESO: problemas de geometría"
 date: "2026-07-08"
-updated: "2026-07-08"
+updated: "2026-11-05"
 description: "Aprende Pitágoras y Tales en ESO: triángulos rectángulos, semejanza, proporcionalidad, escalas, alturas y distancias indirectas."
 tag: "Matemáticas ESO"
 category: "Matemáticas ESO y Bachillerato"
-relatedService: "/clases-particulares/matematicas-universidad/"
-relatedPosts: "gcse-maths-similarity-area-volume-scale-factors,bachillerato-matematicas-trigonometria-triangulos,eso-matematicas-ecuaciones-sistemas-estudiar"
+relatedService: "/campus/"
+relatedPosts: "semejanza-escalas-2-eso-problemas-resueltos,bachillerato-matematicas-trigonometria-triangulos,eso-matematicas-ecuaciones-sistemas-estudiar"
 image: "/assets/latex/pythagoras-thales.svg"
 ---
 

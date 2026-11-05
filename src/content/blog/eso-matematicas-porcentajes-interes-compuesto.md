@@ -1,12 +1,12 @@
 ---
 title: "Porcentajes e interés compuesto en ESO: el factor multiplicativo que evita casi todos los errores"
 date: "2026-09-27"
-updated: "2026-09-27"
+updated: "2026-11-05"
 description: "Aprende porcentajes sucesivos, descuentos e interés compuesto con factores multiplicativos, ejemplos y comprobaciones para ESO."
 tag: "ESO"
 category: "Matemáticas ESO y Bachillerato"
-relatedService: "/clases-particulares/matematicas-universidad/"
-relatedPosts: "eso-matematicas-ecuaciones-sistemas-estudiar,como-estudiar-matematicas-sin-memorizar"
+relatedService: "/campus/"
+relatedPosts: "proporcionalidad-directa-inversa-2-eso-ejercicios,eso-matematicas-ecuaciones-sistemas-estudiar,como-estudiar-matematicas-sin-memorizar"
 image: "/assets/latex/compound-growth.svg"
 ---
 

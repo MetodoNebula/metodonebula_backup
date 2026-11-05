@@ -25259,12 +25259,13 @@ La concentración baja porque el mismo soluto queda repartido en más volumen.
 La [guía de mol y estequiometría](/blog/bachillerato-fisica-quimica-mol-estequiometria/) explica las conversiones que se usan antes y después de una reacción. Para practicar química con ejercicios de tu nivel, consulta las [clases particulares de Química](/clases-particulares/quimica/).
 `,On=`---
 title: "MRU en ESO: movimiento rectilíneo uniforme con fórmulas y ejercicios"
+seoTitle: "MRU en ESO: fórmulas, gráficas y ejercicios resueltos"
 date: "2026-08-12"
 updated: "2026-11-05"
-description: "Aprende MRU en ESO: posición, velocidad, tiempo y gráficas con un método claro, unidades y ejercicios resueltos."
+description: "Aprende MRU en ESO con fórmulas, posición, velocidad, tiempo, gráficas y ejercicios resueltos paso a paso."
 tag: "ESO"
 category: "Física y Química"
-relatedService: "/clases-particulares/fisica-ingenieria/"
+relatedService: "/campus/"
 relatedPosts: "graficas-mru-mrua-4-eso-ejercicios,mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios,fisica-y-quimica-como-plantear-problemas"
 image: "/assets/latex/mru-posicion-tiempo-eso.svg"
 ---
@@ -25493,12 +25494,13 @@ Cuando la velocidad deja de ser constante, el modelo correcto pasa a ser el [MRU
 Si necesitas practicar con ejercicios de tu curso, puedes consultar las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
 `,Hn=`---
 title: "MRUA en ESO: movimiento rectilíneo acelerado con fórmulas y ejercicios"
+seoTitle: "MRUA en ESO: fórmulas, gráficas y ejercicios resueltos"
 date: "2026-08-19"
 updated: "2026-11-05"
-description: "Aprende MRUA en ESO: aceleración, velocidad, posición y gráficas con ejemplos resueltos y control de unidades."
+description: "Aprende MRUA en ESO con fórmulas, aceleración, velocidad, posición, gráficas y ejercicios resueltos con unidades."
 tag: "ESO"
 category: "Física y Química"
-relatedService: "/clases-particulares/fisica-ingenieria/"
+relatedService: "/campus/"
 relatedPosts: "graficas-mru-mrua-4-eso-ejercicios,mru-eso-movimiento-rectilineo-uniforme-ejercicios,fisica-y-quimica-como-plantear-problemas"
 image: "/assets/latex/mrua-velocidad-tiempo-eso.svg"
 ---

@@ -7,7 +7,7 @@ description: "Aprende las leyes de Newton en ESO con diagramas de fuerzas, resul
 tag: "Física ESO"
 category: "Física y Química"
 relatedService: "/clases-particulares/fisica-ingenieria/"
-relatedPosts: "energia-mecanica-rozamiento-4-eso-problemas,plano-inclinado-1-bachillerato-ejercicios-resueltos,diagramas-cuerpo-libre-metodo-errores-frecuentes"
+relatedPosts: "ley-hooke-muelles-4-eso-ejercicios,energia-mecanica-rozamiento-4-eso-problemas,plano-inclinado-1-bachillerato-ejercicios-resueltos"
 image: "/assets/latex/forces-free-body.svg"
 ---
 

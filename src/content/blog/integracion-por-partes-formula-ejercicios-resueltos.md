@@ -6,7 +6,7 @@ updated: 2026-11-05
 description: Aprende integración por partes: fórmula, cómo elegir u y dv, ejemplos resueltos, casos repetidos, integrales definidas y ejercicios.
 tag: Cálculo
 category: Matemáticas universitarias
-relatedService: /clases-particulares/calculo-universitario/
+relatedService: /campus/
 relatedPosts: metodos-de-integracion-como-elegir,integracion-por-sustitucion-cambio-variable-ejercicios,que-son-las-integrales-y-para-que-se-utilizan
 image: /favicon.svg
 ---

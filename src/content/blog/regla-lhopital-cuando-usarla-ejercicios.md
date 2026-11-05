@@ -6,7 +6,7 @@ updated: 2026-11-05
 description: Aprende cuándo usar la regla de L'Hôpital, sus condiciones, cómo transformar indeterminaciones y ejercicios resueltos paso a paso.
 tag: Cálculo
 category: Matemáticas universitarias
-relatedService: /clases-particulares/calculo-universitario/
+relatedService: /campus/
 relatedPosts: como-resolver-limites-indeterminaciones-ejercicios,que-son-las-derivadas-y-para-que-se-utilizan,como-aprobar-calculo-i-ingenieria-seis-semanas
 image: /favicon.svg
 ---

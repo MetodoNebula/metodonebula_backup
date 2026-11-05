@@ -6,7 +6,7 @@ updated: 2026-11-05
 description: Aprende integración por sustitución con cambio de variable: cómo elegir u, transformar diferenciales y límites, y resolver ejercicios paso a paso.
 tag: Cálculo
 category: Matemáticas universitarias
-relatedService: /clases-particulares/calculo-universitario/
+relatedService: /campus/
 relatedPosts: integrales-inmediatas-ejercicios-resueltos,metodos-de-integracion-como-elegir,integracion-por-partes-formula-ejercicios-resueltos
 image: /favicon.svg
 ---

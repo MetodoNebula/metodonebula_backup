@@ -6,7 +6,7 @@ updated: 2026-11-05
 description: Aprende cómo resolver límites e indeterminaciones con sustitución, factorización, conjugados, límites notables y ejercicios resueltos.
 tag: Cálculo
 category: Matemáticas universitarias
-relatedService: /clases-particulares/calculo-universitario/
+relatedService: /campus/
 relatedPosts: limites-trigonometricos-ejercicios-resueltos,regla-lhopital-cuando-usarla-ejercicios,continuidad-derivabilidad-diferencias-problemas
 image: /favicon.svg
 ---

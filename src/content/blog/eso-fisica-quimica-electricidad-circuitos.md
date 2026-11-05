@@ -1,12 +1,12 @@
 ---
 title: "Electricidad y circuitos en ESO: entiende qué ocurre antes de usar la ley de Ohm"
 date: "2026-10-19"
-updated: "2026-10-28"
+updated: "2026-11-05"
 description: "Electricidad en ESO explicada con corriente, voltaje, resistencia, serie, paralelo, ley de Ohm, ejemplo y errores frecuentes."
 tag: "ESO"
 category: "Física y Química"
 relatedService: "/clases-particulares/fisica-ingenieria/"
-relatedPosts: "gcse-physics-electricity-revision,fisica-y-quimica-como-plantear-problemas"
+relatedPosts: "ley-ohm-4-eso-ejercicios-resueltos,factores-conversion-3-eso-ejercicios-resueltos,gcse-physics-electricity-revision"
 image: "/assets/latex/circuits-series-parallel.svg"
 ---
 

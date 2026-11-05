@@ -1005,7 +1005,7 @@ function postPage(post, posts) {
         <section class="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8 text-center">
           <h2 class="font-display text-2xl font-semibold text-foreground">${isEnglish ? "Would you like to turn this idea into exam marks?" : "¿Quieres convertir esta idea en puntos de examen?"}</h2>
           <p class="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">${isEnglish ? "Método Nebula combines structured theory, graded exercises and fully worked exam questions in a study plan adapted to your level and deadline." : "El campus de Método Nebula reúne teoría estructurada, ejercicios graduados y exámenes resueltos dentro de un plan adaptado a tu nivel, tu temario y tu fecha."}</p>
-          <p class="mt-6 flex flex-col justify-center gap-3 sm:flex-row"><a class="inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-action/90" href="/contacto/">${isEnglish ? "Ask about the study plan" : "Consultar el plan de estudio"}</a>${
+          <p class="mt-6 flex flex-col justify-center gap-3 sm:flex-row"><a class="inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-action/90" href="/campus/">${isEnglish ? "Explore the virtual campus" : "Conocer el Campus"}</a>${
             relatedService
               ? `<a class="inline-flex items-center justify-center rounded-full border border-white/15 px-6 py-3 text-sm font-medium text-link transition-colors hover:border-white/30 hover:bg-white/[0.05]" href="${relatedService.path}">${isEnglish ? "View related support" : "Ver apoyo relacionado"}</a>`
               : ""

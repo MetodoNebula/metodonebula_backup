@@ -648,8 +648,8 @@ function PostView({ post }: { post: Post }) {
                 : "El campus de Método Nebula reúne teoría estructurada, ejercicios graduados y exámenes resueltos dentro de un plan adaptado a tu nivel, tu temario y tu fecha."}
             </p>
             <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
-              <PrimaryCTA href="/contacto/">
-                {isEnglish ? "Ask about the study plan" : "Consultar el plan de estudio"}
+              <PrimaryCTA href="/campus/">
+                {isEnglish ? "Explore the virtual campus" : "Conocer el Campus"}
               </PrimaryCTA>
               {relatedService && (
                 <Link

@@ -1054,7 +1054,7 @@ Es una parábola porque aparece un término cuadrático negativo. Esta ecuación
 ## Entrenar la separación de movimientos
 
 El campus virtual de Método Nebula enlaza cinemática, vectores, dinámica y energía mediante teoría, ejercicios graduados y problemas de Bachillerato resueltos. El botón de contacto permite acceder a una ruta donde cada diagrama se traduce en ecuaciones antes de calcular.
-`,p=`---
+`,$=`---
 title: "Ecuaciones trigonométricas en Bachillerato: soluciones generales, identidades y círculo unitario"
 seoTitle: "Ecuaciones trigonométricas en Bachillerato"
 date: "2026-07-13"
@@ -1205,7 +1205,7 @@ Esta lectura gráfica detecta soluciones perdidas al dividir por una razón trig
 ## Entrenar periodicidad con método
 
 El campus virtual de Método Nebula conecta trigonometría, funciones, identidades y derivadas mediante teoría visual, ejercicios escalonados y problemas de Bachillerato resueltos. El botón de contacto permite acceder a una ruta donde cada solución se justifica en el círculo antes de expresarse algebraicamente.
-`,$=`---
+`,p=`---
 title: "Cómo representar cualquier función en Bachillerato: la guía que conecta todos los pasos"
 date: "2026-10-09"
 updated: "2026-11-05"
@@ -1631,7 +1631,7 @@ La suma infinita solo existe para $|r|<1$ porque los términos deben acercarse a
 Construye una tabla con $n$, $a_n$, diferencia y cociente. El patrón correcto suele hacerse visible antes de elegir fórmula.
 
 El campus de Método Nebula desarrolla sucesiones, funciones e interés compuesto con teoría y ejercicios graduados. Contacta para conectar fórmulas, gráficas y problemas contextualizados.
-`,b=`---
+`,x=`---
 title: "Trigonometría en Bachillerato: cómo elegir entre seno, coseno y tangente sin probar fórmulas"
 date: "2026-10-20"
 updated: "2026-10-20"
@@ -1762,7 +1762,7 @@ La suma de ángulos, la desigualdad triangular y la correspondencia entre el may
 - Redondear antes del resultado final.
 
 El campus virtual de Método Nebula desarrolla trigonometría desde triángulos rectángulos hasta leyes de senos y cosenos, identidades y ecuaciones, con ejemplos y práctica gradual. El botón de contacto permite solicitar una ruta basada en la estructura de cada problema.
-`,x=`---
+`,b=`---
 title: "Gases ideales en Bachillerato: presión, volumen y temperatura con unidades que no sabotean el resultado"
 seoTitle: "Gases ideales en Bachillerato: leyes y ejercicios"
 date: "2026-08-20"
@@ -3566,7 +3566,7 @@ Vas bien cuando puedes mirar un enunciado y decir:
 5. Cómo escribirías la conclusión.
 
 Para seguir con el mapa de decisión, lee [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,z=`---
+`,P=`---
 title: Cómo aprobar Física I en Ingeniería sin memorizar todas las fórmulas
 date: 2026-06-29
 updated: 2026-06-29
@@ -3699,7 +3699,7 @@ Si tienes un examen cerca, usa esta distribución:
 La clave está en mezclar temas en la última fase. En examen no te dicen "este problema es de energía"; tienes que reconocerlo.
 
 Si necesitas convertir tu temario en un plan de estudio concreto, revisa [clases particulares de Física para Bachillerato e Ingeniería](/clases-particulares/fisica-ingenieria/) o la guía de [cómo plantear problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/).
-`,P=`---
+`,z=`---
 title: Cómo aprobar Matemáticas I en ADE y Economía
 date: 2026-07-04
 updated: 2026-07-04
@@ -4905,7 +4905,7 @@ Sustituye primero y transforma solo si aparece una indeterminación. Factoriza p
 Al terminar, sustituye de nuevo en la expresión transformada, revisa el signo desde ambos lados y contrasta el orden de magnitud. Una forma indeterminada nunca es la respuesta final.
 
 Los límites sostienen continuidad, derivadas e integrales, por lo que conviene dominarlos antes de avanzar en un plan de [Cálculo I para Ingeniería](/blog/como-aprobar-calculo-i-ingenieria-seis-semanas/). Si necesitas practicar con ejercicios de tu temario y recibir corrección del razonamiento, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,U=`---
+`,D=`---
 title: Continuidad y derivabilidad: diferencias y problemas
 seoTitle: "Continuidad y derivabilidad: diferencias y ejercicios"
 date: 2026-08-31
@@ -6238,7 +6238,7 @@ La fórmula $-F_x/F_y$ no decide la pendiente porque produce $0/0$ si ambas parc
 La derivación implícita se reduce a tres hábitos: recordar que $y$ depende de $x$, aplicar la regla de la cadena y no dividir sin revisar el denominador. Con eso puedes obtener pendientes, tangentes, curvatura y razones de cambio incluso cuando despejar la variable es inviable.
 
 Si las reglas de derivación todavía no están automatizadas, repasa primero [qué son las derivadas y para qué se utilizan](/blog/que-son-las-derivadas-y-para-que-se-utilizan/). Para practicar relaciones implícitas con corrección individual, las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/) permiten detectar exactamente en qué paso se rompe el razonamiento.
-`,D=`---
+`,U=`---
 title: "Derivadas de 2º Bachillerato: ejercicios tipo examen resueltos"
 seoTitle: "Derivadas 2º Bachillerato: ejercicios de examen"
 date: 2026-10-22
@@ -7173,7 +7173,7 @@ Quédate con esta secuencia:
 7. No confundas existencia de parciales con diferenciabilidad.
 
 Si quieres consolidar el salto desde derivadas de una variable a cálculo multivariable, en las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/) adaptamos los ejercicios a tu temario y trabajamos tanto el cálculo como la interpretación geométrica.
-`,N=`---
+`,B=`---
 title: Derivadas de producto y cociente: ejercicios resueltos
 seoTitle: "Derivadas de producto y cociente: ejercicios resueltos"
 date: 2026-11-05
@@ -7507,7 +7507,7 @@ Antes de resolver, revisa:
 - La normal y el rozamiento están justificados.
 
 Si este paso te cuesta, vuelve a la guía de [Física I sin memorizar fórmulas](/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas/) o revisa [clases particulares de Física para Bachillerato e Ingeniería](/clases-particulares/fisica-ingenieria/).
-`,B=`---
+`,N=`---
 title: "Disoluciones tampón: ejercicios resueltos de Henderson–Hasselbalch"
 seoTitle: "Disoluciones tampón: Henderson-Hasselbalch | Ejercicios resueltos"
 date: "2026-10-24"
@@ -8391,7 +8391,7 @@ Una conclusión estadística completa debería incluir:
 La última frase importa: no prometas más de lo que el diseño permite.
 
 Para reforzar este bloque, revisa [p-valor, intervalo de confianza y tamaño del efecto](/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/) o [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,W=`---
+`,X=`---
 title: "Calor y temperatura en ESO: cómo interpretar cambios de estado y curvas de calentamiento"
 seoTitle: "Calor, temperatura y cambios de estado en ESO"
 date: "2026-07-06"
@@ -8502,7 +8502,7 @@ Un termo reduce conducción y convección con aislamiento y radiación con super
 ## Conectar partículas, energía y cálculo
 
 El campus virtual de Método Nebula enlaza modelo de partículas, calor, cambios de estado, potencia y eficiencia mediante teoría visual y ejercicios de ESO graduados. El botón de contacto permite acceder a una ruta con problemas resueltos donde cada tramo de la curva se convierte en una ecuación justificada.
-`,J=`---
+`,W=`---
 title: "Densidad, presión y flotación en ESO: por qué un objeto pesado también puede flotar"
 date: "2026-10-12"
 updated: "2026-10-12"
@@ -8636,7 +8636,7 @@ La misma comparación explica por qué un submarino modifica su flotabilidad lle
 - Olvidar que equilibrio exige igualdad de fuerzas, no ausencia de fuerzas.
 
 El campus virtual de Método Nebula desarrolla masa, volumen, densidad, presión, empuje y flotación con experimentos razonados, ejemplos y problemas progresivos. El botón de contacto permite solicitar una ruta que conecta cada fórmula con el modelo físico que la justifica.
-`,Z=`---
+`,J=`---
 title: "Electricidad y circuitos en ESO: entiende qué ocurre antes de usar la ley de Ohm"
 date: "2026-10-19"
 updated: "2026-11-05"
@@ -8734,7 +8734,7 @@ Un fusible o interruptor automático interrumpe el circuito cuando la corriente 
 ¿Qué ocurre con la corriente si duplicas la resistencia manteniendo $V$? Se reduce a la mitad en un componente óhmico. ¿Por qué dos ramas en paralelo tienen el mismo voltaje? Porque sus extremos están conectados a los mismos nodos. ¿Qué se conserva en una unión? La corriente total que entra es la que sale.
 
 El campus virtual de Método Nebula desarrolla electricidad con conceptos, circuitos, ejemplos guiados, ejercicios y preguntas de examen. Si quieres saber si el bloqueo está en el dibujo, la fórmula o la interpretación, utiliza el botón de contacto.
-`,X=`---
+`,Z=`---
 title: "Energía mecánica en ESO: trabajo, potencia y conservación sin confundir fuerza con energía"
 seoTitle: "Energía mecánica en ESO: trabajo y conservación"
 date: "2026-09-02"
@@ -10587,7 +10587,7 @@ Multiplica coeficientes y aplica las leyes a las potencias de 10. El coeficiente
 ## Una base para todo el campus matemático
 
 El campus virtual de Método Nebula conecta potencias y radicales con polinomios, ecuaciones, funciones y ciencias. Incluye teoría, ejercicios graduados y comprobaciones para que las reglas no sean trucos aislados. El botón de contacto permite acceder a la ruta desde ESO y continuar hacia Bachillerato.
-`,pe=`---
+`,$e=`---
 title: "Probabilidad en ESO: aprende a contar bien y evita los errores que cambian todo"
 date: "2026-10-22"
 updated: "2026-10-28"
@@ -10692,7 +10692,7 @@ La probabilidad no predice cada resultado individual; describe comportamiento a 
 Resultados: $1/3$; $3/4$; $3/5$; y la última compara modelo ideal con datos observados.
 
 El campus virtual de Método Nebula recorre fundamentos, estadística y probabilidad con teoría, árboles, ejercicios y autoevaluación. Si quieres detectar exactamente dónde se rompe el recuento y practicar en dificultad creciente, utiliza el botón de contacto.
-`,$e=`---
+`,pe=`---
 title: "Estadística descriptiva en ESO II: rango, cuartiles y diagrama de caja"
 date: "2026-09-15"
 updated: "2026-09-15"
@@ -11516,7 +11516,7 @@ Hay algunos avisos claros:
 La estadística universitaria se vuelve mucho más manejable cuando separas decisión, cálculo e interpretación. Cada parte tiene su dificultad, pero también su método de estudio.
 
 Si estás preparando probabilidad, inferencia, regresión o estadística para Bachillerato, Universidad, TFG o TFM, revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/) o [cuéntanos tu caso](/contacto/).
-`,be=`---
+`,xe=`---
 title: Estequiometría universitaria: ejercicios resueltos de dificultad progresiva
 date: 2026-07-07
 updated: 2026-07-07
@@ -11671,7 +11671,7 @@ Antes de entregar, revisa:
 - La unidad final es correcta.
 
 Para seguir practicando, revisa la guía de [Física y Química: cómo plantear problemas antes de calcular](/blog/fisica-y-quimica-como-plantear-problemas/) o la página de [clases particulares de Química](/clases-particulares/quimica/).
-`,xe=`---
+`,be=`---
 title: "Estudio completo de una función paso a paso"
 date: "2026-09-02"
 updated: "2026-09-02"
@@ -12897,7 +12897,7 @@ El volumen gastado es lectura final menos lectura inicial. Repetir sin controlar
 - Trabajar con $\\mathrm{cm^3}$ en $n=cV$.
 
 El campus virtual de Método Nebula reúne estructura de la materia, cantidades químicas, ácidos, sales y métodos experimentales con ejercicios y preguntas GCSE. El botón de contacto permite convertir estos patrones en una ruta de práctica.
-`,ze=`---
+`,Pe=`---
 title: "GCSE Chemistry: understand bonding and explain any property"
 date: "2026-09-17"
 updated: "2026-10-28"
@@ -12982,7 +12982,7 @@ The comparison works because it applies the same reasoning chain to both materia
 Check every answer for particles, force, structure and property. If one is absent, the explanation can still be improved.
 
 Método Nebula's virtual campus develops atoms, elements and bonding through visual theory, examples, exercises, multiple-choice questions and extended responses. If you want to move from memorising definitions to building answers that earn marks, the contact button opens a level diagnosis and a structured study route.
-`,Pe=`---
+`,ze=`---
 title: "Química GCSE: entiende los enlaces y explica cualquier propiedad"
 date: "2026-09-17"
 updated: "2026-10-28"
@@ -13499,7 +13499,7 @@ Estas pruebas no sustituyen a las semiecuaciones. Son evidencias experimentales 
 - Aplicar reglas de electrodos inertes cuando el electrodo participa.
 
 El campus virtual de Método Nebula desarrolla electroquímica con modelos de partículas, predicción de productos, semiecuaciones, electrodos de cobre y pilas de combustible, además de ejercicios y preguntas de examen. El botón de contacto permite solicitar una ruta para razonar cada producto en lugar de memorizar tablas.
-`,Ue=`---
+`,De=`---
 title: "GCSE Energy Changes: Reaction Profiles, Bonds and Calorimetry Explained Precisely"
 seoTitle: "GCSE Energy Changes: Profiles and Calorimetry"
 date: "2026-07-27"
@@ -13679,7 +13679,7 @@ Una buena evaluación conecta cada limitación con la dirección del error, no s
 ## Llevar la energía química al examen
 
 El campus virtual de Método Nebula conecta enlace, perfiles energéticos, velocidad y equilibrio mediante teoría visual, cálculos graduados y preguntas GCSE resueltas. El botón de contacto da acceso a una ruta bilingüe para practicar explicación, ecuación y evaluación experimental como una sola competencia.
-`,De=`---
+`,Ue=`---
 title: "GCSE Chemistry: master equations and moles without the usual mistakes"
 date: "2026-09-12"
 updated: "2026-10-28"
@@ -13995,7 +13995,7 @@ The prediction follows from position and structure rather than recognising the e
 ## Turning trends into GCSE answers
 
 Método Nebula's virtual campus links atomic structure, bonding, the periodic table and reactions through organised theory, comparisons and GCSE questions. Use the contact button to access a bilingual route with graded exercises and worked exams so trends are reasoned rather than memorised.
-`,Ne=`---
+`,Be=`---
 title: "Química GCSE: tabla periódica y grupos 1, 7 y 0 para predecir propiedades sin memorizar datos"
 seoTitle: "Química GCSE: tabla periódica y grupos 1, 7 y 0"
 date: "2026-08-23"
@@ -14178,7 +14178,7 @@ When timing a fixed product amount, $1/t$ can represent relative rate. Explain w
 ## Practising explanations that earn marks
 
 Método Nebula's virtual campus combines particle theory, graphs, practical work and graded GCSE questions. Each factor is trained through a cause–collision–result chain and model answers. Use the contact button to access this work alongside moles, chemical energetics and equilibrium.
-`,Be=`---
+`,Ne=`---
 title: "Química GCSE: velocidad de reacción y teoría de colisiones para explicar cualquier gráfica"
 seoTitle: "Química GCSE: velocidad de reacción y colisiones"
 date: "2026-09-23"
@@ -14955,7 +14955,7 @@ A condition cannot be reversed by swapping letters. $P(A\\mid B)$ and $P(B\\mid 
 ## From one tree to complete GCSE preparation
 
 Método Nebula's virtual campus connects probability, statistics and algebra through visual examples, graded practice and exam questions. Trees are trained first as structures and then as conditional calculations. Use the contact button to access a bilingual route with theory, exercises and worked models.
-`,We=`---
+`,Xe=`---
 title: "Matemáticas GCSE: árboles de probabilidad y probabilidad condicionada sin sumar ramas equivocadas"
 seoTitle: "Matemáticas GCSE: árboles y probabilidad condicionada"
 date: "2026-09-16"
@@ -15073,7 +15073,7 @@ No se invierte una condición intercambiando letras. $P(A\\mid B)$ y $P(B\\mid A
 ## De un árbol a una preparación GCSE completa
 
 El campus virtual de Método Nebula conecta probabilidad, estadística y álgebra con ejemplos visuales, práctica graduada y preguntas de examen. Los árboles se trabajan primero como estructura y después como cálculo condicionado. El botón de contacto permite acceder a una ruta bilingüe con teoría, ejercicios y modelos resueltos.
-`,Je=`---
+`,We=`---
 title: "GCSE Maths Resit: a 14-Day Plan to Reach Grade 4 or 5"
 seoTitle: "GCSE Maths Resit: 14-Day Grade 4–5 Plan"
 date: "2026-10-01"
@@ -15162,7 +15162,7 @@ Review formulas, the error log and two representative questions. Do not attempt 
 - Ask whether the result is sensible in context.
 
 The Método Nebula virtual campus turns this schedule into a personal route: an initial diagnostic, concise theory, graded exercises, worked past papers and an error record. If Grade 4 or 5 is the target, the contact button can be used to build a fourteen-day route from your actual paper rather than a generic topic list.
-`,Ze=`---
+`,Je=`---
 title: "Recuperación de Matemáticas GCSE: un plan de 14 días para alcanzar el Grade 4 o 5"
 seoTitle: "Recuperación GCSE Maths: plan de 14 días"
 date: "2026-10-01"
@@ -15251,7 +15251,7 @@ Revisa fórmulas, tarjetas de errores y dos preguntas representativas. No intent
 - Pregunta si la respuesta tiene sentido en el contexto.
 
 El campus virtual de Método Nebula convierte este plan en una ruta personal: diagnóstico inicial, teoría breve, ejercicios por dificultad, exámenes resueltos y registro de errores. Si necesitas alcanzar el Grade 4 o 5, el botón de contacto permite organizar un itinerario de catorce días alrededor de tus resultados reales, no de una lista genérica de temas.
-`,Xe=`---
+`,Ze=`---
 title: "GCSE Maths: an eight-week plan to improve at Foundation or Higher"
 date: "2026-09-10"
 updated: "2026-10-28"
@@ -16809,7 +16809,7 @@ Al principio, las preguntas por tema permiten concentrar la práctica. Más cerc
 Cada documento debe producir tres resultados: una puntuación, una lista breve de errores y un conjunto de tareas de reparación. Si solo produce una nota, has medido el problema sin corregirlo.
 
 El campus virtual de Método Nebula integra exámenes GCSE con teoría vinculada, ejercicios graduados y soluciones que explican de dónde sale cada punto. El botón de contacto permite acceder a una ruta bilingüe donde cada examen genera práctica específica, seguimiento y un siguiente paso claro.
-`,pn=`---
+`,$n=`---
 title: "GCSE Physics Density, Pressure and Gas Laws: 5 Worked Questions"
 seoTitle: "GCSE Density and Pressure: 5 Worked Questions"
 date: "2026-10-23"
@@ -16930,7 +16930,7 @@ Heating a gas in a rigid container makes the particles move faster. Each collisi
 - Applying $P_1V_1=P_2V_2$ when temperature changes without justification.
 
 The Método Nebula virtual campus connects particles, density, forces, pressure and gas models through visual theory, graded exercises and worked GCSE questions. Use the contact button to request a bilingual route that trains conversions, calculations and particle explanations against exam criteria.
-`,$n=`---
+`,pn=`---
 title: "Física GCSE: densidad, presión y gases con 5 ejercicios resueltos"
 seoTitle: "Densidad y presión GCSE: 5 ejercicios resueltos"
 date: "2026-10-23"
@@ -17255,7 +17255,7 @@ Dos lámparas idénticas están en paralelo. Una se rompe y abre su rama. ¿Qué
 Empieza con símbolos y unidades; continúa con problemas de una ecuación; termina con cuestiones de varios pasos que mezclen circuitos, potencia, energía y explicación. Después haz práctica por tema, una mezcla aleatoria y finalmente un examen cronometrado.
 
 El campus virtual de Método Nebula organiza electricidad y magnetismo con teoría, ejemplos trabajados, ejercicios, preguntas de examen y revisión. Si quieres detectar si el bloqueo está en el concepto, el montaje o el cálculo, utiliza el botón de contacto y lo convertimos en un plan concreto.
-`,bn=`---
+`,xn=`---
 title: "GCSE Physics: energy, work and power without confusing joules and watts"
 date: "2026-09-22"
 updated: "2026-10-28"
@@ -17356,7 +17356,7 @@ Do not search for a formula merely because it contains every number. Model the e
 A robust solution exposes **model → equation → substitution with units → result → check**. An efficiency between 0 and 1, power in watts and a closed energy balance provide independent checks.
 
 Método Nebula's virtual campus develops energy, work and power through visual theory, guided examples, exercise banks and exam questions. The contact button opens a route in which formulae form a connected system rather than a list to memorise.
-`,xn=`---
+`,bn=`---
 title: "Física GCSE: energía, trabajo y potencia sin confundir julios, vatios y eficiencia"
 date: "2026-09-22"
 updated: "2026-09-22"
@@ -18390,7 +18390,7 @@ equal $T$ gives $L\\propto R^2$. A therefore has ten times B's radius. There is 
 ## From one topic to complete preparation
 
 Space physics combines extended explanations, graph reading, scales and energy. Método Nebula's virtual campus organises the theory into a route, adds graded questions and demonstrates how each idea becomes an exam answer. Use the contact button if you want to practise this unit alongside waves, nuclear physics and energy.
-`,zn=`---
+`,Pn=`---
 title: "Física GCSE: ciclo de vida de las estrellas y diagrama H–R sin memorizar una lista"
 seoTitle: "Física GCSE: ciclo de vida de las estrellas"
 date: "2026-09-29"
@@ -18466,7 +18466,7 @@ si $T$ es igual, $L\\propto R^2$. Por tanto, el radio de A es diez veces el de B
 ## Del tema aislado a una preparación completa
 
 Espacio combina explicaciones largas, lectura de gráficas, escalas y energía. El campus virtual de Método Nebula reúne la teoría en una ruta, añade preguntas graduadas y muestra cómo convertir cada idea en una respuesta de examen. Si quieres practicar este bloque junto con ondas, nuclear y energía, utiliza el botón de contacto para acceder al plan adecuado.
-`,Pn=`---
+`,zn=`---
 title: "GCSE Physics: heating curves, specific heat capacity and state changes without mixing formulas"
 seoTitle: "GCSE Physics: heating curves and changes of state"
 date: "2026-10-12"
@@ -18952,7 +18952,7 @@ Entre \\((0,0)\\) y \\((3,4)\\), \\(d=5\\).
 3. \\(5\\).
 
 En el [Campus de Método Nebula](/campus/) las coordenadas, rectas y distancias se conectan con funciones y geometría mediante ejercicios graduados.
-`,Un=`---
+`,Dn=`---
 title: "Gráficas de MRU y MRUA en 4º ESO: ejercicios interpretados"
 seoTitle: "Gráficas de MRU y MRUA: ejercicios resueltos 4º ESO"
 date: 2026-11-05
@@ -19287,7 +19287,7 @@ $$
 Todas las masas se atraen con una fuerza que aumenta con las masas y disminuye con el cuadrado de la distancia. La masa se mide en kg y no cambia al viajar; el peso es una fuerza, se mide en N y vale $P=mg$ cerca de la Tierra. La caída libre es un MRUA con aceleración $g$.
 
 Para practicar el movimiento de caída, repasa el [MRUA con fórmulas y ejercicios](/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/). Para aprender a identificar datos, unidades y modelo antes de calcular, consulta [cómo plantear problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/). También puedes consultar las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,Dn=`---
+`,Un=`---
 title: IB y GCSE: cómo preparar exámenes internacionales con rúbrica y calendario
 date: 2026-06-10
 updated: 2026-06-10
@@ -20760,7 +20760,7 @@ La comprobación más fiable consiste en derivar: si recuperas el integrando med
 En cálculo multivariable, la misma idea exige corregir áreas mediante el determinante: consulta la guía de [cambio de variables y jacobiano en integrales dobles](/blog/cambio-variables-jacobiano-integrales-dobles/).
 
 Si estás trabajando sustituciones más exigentes en Cálculo y necesitas corregir la elección del cambio sobre ejercicios reales de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Nn=`---
+`,Bn=`---
 title: Integral definida e indefinida: diferencias y ejemplos
 seoTitle: "Integral definida e indefinida: diferencias y ejercicios"
 date: 2026-08-10
@@ -22087,7 +22087,7 @@ $$
 Dibuja primero y escribe después los límites. En una integral iterada, resuelve la integral interior tratando la otra variable como constante. Cambia el orden cuando simplifique el integrando o los límites, reconstruyendo siempre la región. Para áreas integra uno; para volúmenes usa altura superior menos inferior; para masas introduce la densidad.
 
 Si necesitas trabajar regiones y cambios de orden con ejercicios de tu temario, las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/) permiten practicar el planteamiento y no solo la integración mecánica.
-`,Bn=`---
+`,Nn=`---
 title: Integrales de funciones racionales y fracciones parciales
 date: 2026-08-03
 updated: 2026-08-03
@@ -24217,6 +24217,2161 @@ Esta vía es más clara que derivar numerador y denominador sin identificar la i
 
 Primero identifica cuál de los límites notables puede aparecer. Después ajusta el argumento, conserva las constantes y revisa que trabajas en radianes. Para otras indeterminaciones, consulta la guía general de [límites e indeterminaciones](/blog/como-resolver-limites-indeterminaciones-ejercicios/).
 `,Kn=`---
+title: Matemáticas Aplicadas a las CCSS II · PAU 2022 · País Vasco — examen resuelto
+seoTitle: PAU Matemáticas Aplicadas a las CCSS II País Vasco 2022 resuelta
+date: 2022-06-01
+updated: 2026-11-05
+description: Examen resuelto de Matemáticas Aplicadas a las Ciencias Sociales II de País Vasco 2022, con procedimientos completos.
+tag: Matemáticas CCSS PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+**(a)** Calcula las derivadas de las funciones
+$$f(x)=(x^2-1)(3x^3+5x)^3,\\qquad g(x)=\\dfrac{\\ln(3x)}{e^{2x}}$$
+**(b)** Determina la ecuación de la recta tangente a $h(x)=\\dfrac{3x+6}{2x+1}$ en el punto de abscisa $x=1$.
+**(c)** Determina, si existen, las asíntotas verticales y horizontales de $h(x)$.
+**(d)** Calcula $\\displaystyle\\int\\left(e^{3x}-3x^2+\\dfrac{2}{x+2}-\\dfrac{4}{(x+2)^2}\\right)dx$.
+
+### Solución
+
+**(a)** Derivada de $f$ (producto y regla de la cadena):
+$$f'(x)=2x(3x^3+5x)^3+3(3x^3+5x)^2(9x^2+5)(x^2-1)$$
+Derivada de $g$ (cociente):
+$$g'(x)=\\dfrac{\\frac{3}{3x}e^{2x}-2e^{2x}\\ln(3x)}{(e^{2x})^2}=\\dfrac{\\frac{1}{x}-2\\ln(3x)}{e^{2x}}$$
+
+**(b)** $h'(x)=\\dfrac{3(2x+1)-2(3x+6)}{(2x+1)^2}=\\dfrac{-9}{(2x+1)^2}$, de donde $h'(1)=-1$ y $h(1)=\\dfrac{9}{3}=3$. La recta tangente es
+$$y-3=-1\\,(x-1)\\ \\Rightarrow\\ y=-x+4$$
+
+**(c)** El dominio es $\\mathbb{R}\\setminus\\left\\{-\\tfrac12\\right\\}$. Asíntota **vertical** $x=-\\tfrac12$ (pues $\\lim_{x\\to-1/2}h(x)=\\pm\\infty$). Asíntota **horizontal**: $\\lim_{x\\to\\pm\\infty}\\dfrac{3x+6}{2x+1}=\\dfrac32$, luego $y=\\dfrac32$.
+
+**(d)**
+$$\\int\\left(e^{3x}-3x^2+\\frac{2}{x+2}-\\frac{4}{(x+2)^2}\\right)dx=\\frac13e^{3x}-x^3+2\\ln(x+2)+\\frac{4}{x+2}+K$$
+
+## Ejercicio 2
+
+### Enunciado
+
+En un examen de Lengua Inglesa el 30 % del alumnado obtuvo una puntuación superior a 7,6 puntos. La puntuación sigue una distribución normal de media 6,8 puntos.
+
+**(a)** Calcula la desviación típica de la distribución.
+**(b)** Si la desviación típica es 1,5 puntos, ¿qué puntuación es superada únicamente por el 20 % del alumnado?
+**(c)** Si la desviación típica es 1,5 puntos y el aprobado se obtiene con 5 o más, ¿qué porcentaje del alumnado ha aprobado?
+
+### Solución
+
+**(a)** $P(X>7{,}6)=0{,}3\\Rightarrow P(X\\leq7{,}6)=0{,}7$. Tipificando:
+$$P\\!\\left(Z\\leq\\frac{7{,}6-6{,}8}{\\sigma}\\right)=0{,}7\\Rightarrow \\frac{0{,}8}{\\sigma}=0{,}525\\Rightarrow \\sigma=\\frac{0{,}8}{0{,}525}\\approx1{,}52$$
+
+**(b)** Buscamos $k$ con $P(X>k)=0{,}2$, es decir $P(X\\leq k)=0{,}8$. El valor crítico es $z=0{,}845$:
+$$\\frac{k-6{,}8}{1{,}5}=0{,}845\\Rightarrow k=6{,}8+0{,}845\\cdot1{,}5\\approx8{,}06$$
+
+**(c)** $P(X\\geq5)=P\\!\\left(Z\\geq\\dfrac{5-6{,}8}{1{,}5}\\right)=P(Z\\geq-1{,}2)=P(Z\\leq1{,}2)=0{,}8849$.
+
+Por tanto ha aprobado aproximadamente el $88{,}5\\%$ del alumnado.
+
+## Ejercicio 3
+
+### Enunciado
+
+Para estimar el porcentaje de población vacunada frente a una enfermedad se elige una muestra aleatoria de 1000 personas; 860 responden que sí están vacunadas.
+
+**(a)** Estima, con un nivel de confianza del 95 %, el porcentaje de población vacunada.
+**(b)** Calcula el error máximo admisible para dicho nivel de confianza.
+**(c)** Interpreta los resultados obtenidos.
+
+### Solución
+
+**(a)** La proporción muestral es $\\hat{p}=0{,}86$ y $\\hat{q}=0{,}14$. El error típico es
+$$\\sqrt{\\dfrac{\\hat{p}\\hat{q}}{n}}=\\sqrt{\\dfrac{0{,}86\\cdot0{,}14}{1000}}=0{,}01097$$
+Con $z_{\\alpha/2}=1{,}96$, el intervalo de confianza para la proporción es
+$$\\left(\\hat{p}\\pm z_{\\alpha/2}\\sqrt{\\dfrac{\\hat{p}\\hat{q}}{n}}\\right)=(0{,}86\\pm1{,}96\\cdot0{,}01097)=(0{,}8385,\\ 0{,}8815)$$
+Es decir, entre el $83{,}85\\%$ y el $88{,}15\\%$.
+
+**(b)** El error máximo admisible es la semiamplitud del intervalo:
+$$E=z_{\\alpha/2}\\sqrt{\\dfrac{\\hat{p}\\hat{q}}{n}}=1{,}96\\cdot0{,}01097=0{,}0215\\ (\\approx2{,}15\\%)$$
+
+**(c)** Con un nivel de confianza del 95 %, el porcentaje de población vacunada está entre el $83{,}85\\%$ y el $88{,}15\\%$, con un error máximo del $2{,}15\\%$.
+
+## Ejercicio 4
+
+### Enunciado
+
+Un libro tiene 230 páginas en 3 capítulos. El primer capítulo tiene 100 páginas, de las cuales el 15 % tiene errores. El segundo tiene 80 páginas, de las cuales 8 tienen errores; y en el tercero, de 50 páginas, solo hay 40 sin ningún error. Abrimos el libro por una página al azar.
+
+**(a)** Probabilidad de que sea del segundo capítulo.
+**(b)** Probabilidad de que tenga errores y sea del tercer capítulo.
+**(c)** Probabilidad de que no tenga errores.
+**(d)** Si la página tiene errores, ¿cuál es la probabilidad de que sea del tercer capítulo?
+
+### Solución
+
+Sean $C_1,C_2,C_3$ los capítulos y $E$ el suceso "la página tiene errores". Las proporciones de error por capítulo son $P(E|C_1)=0{,}15$, $P(E|C_2)=\\tfrac{8}{80}=0{,}1$, $P(E|C_3)=\\tfrac{10}{50}=0{,}2$.
+
+**(a)** $P(C_2)=\\dfrac{80}{230}=0{,}3478$ (≈ $34{,}78\\%$).
+
+**(b)** $P(E\\cap C_3)=P(C_3)\\,P(E|C_3)=\\dfrac{50}{230}\\cdot\\dfrac{10}{50}=\\dfrac{10}{230}=0{,}0435$ (≈ $4{,}3\\%$).
+
+**(c)** Por probabilidad total, $P(E^c)=\\dfrac{100}{230}\\cdot\\dfrac{85}{100}+\\dfrac{80}{230}\\cdot\\dfrac{72}{80}+\\dfrac{50}{230}\\cdot\\dfrac{40}{50}=0{,}8565$ (≈ $85{,}65\\%$).
+
+**(d)** $P(E)=1-0{,}8565=0{,}1435$. Por el teorema de Bayes:
+$$P(C_3|E)=\\dfrac{P(E|C_3)\\,P(C_3)}{P(E)}=\\dfrac{\\frac{10}{50}\\cdot\\frac{50}{230}}{\\frac{33}{230}}=\\dfrac{10}{33}=0{,}303$$
+(≈ $30{,}3\\%$).
+
+## Ejercicio 5
+
+### Enunciado
+
+Sean $A,B,C,D,E$ sucesos de un experimento aleatorio.
+
+**(a)** Si $P(A)=0{,}4$, $P(B)=0{,}3$ y $P(A\\cup B)=0{,}5$, calcula $P(A\\cap B)$.
+**(b)** Si $P(C)=0{,}5$, $P(D)=0{,}6$ y $P(C\\cup D)=0{,}7$, calcula $P(C\\,|\\,D)$.
+**(c)** Si $P(A)=0{,}4$, $P(E)=0{,}6$ y $A,E$ son independientes, calcula la probabilidad de que ocurra alguno de los dos.
+
+### Solución
+
+**(a)** De $P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$:
+$$P(A\\cap B)=0{,}4+0{,}3-0{,}5=0{,}2$$
+
+**(b)** Primero $P(C\\cap D)=P(C)+P(D)-P(C\\cup D)=0{,}5+0{,}6-0{,}7=0{,}4$. Entonces
+$$P(C\\,|\\,D)=\\dfrac{P(C\\cap D)}{P(D)}=\\dfrac{0{,}4}{0{,}6}=0{,}6\\overline{6}$$
+
+**(c)** Por independencia, $P(A\\cap E)=P(A)\\,P(E)=0{,}4\\cdot0{,}6=0{,}24$. Luego
+$$P(A\\cup E)=P(A)+P(E)-P(A\\cap E)=0{,}6+0{,}4-0{,}24=0{,}76$$
+
+## Ejercicio 6
+
+### Enunciado
+
+El ayuntamiento de una ciudad ha concedido licencia para construir una urbanización de a lo sumo 120 viviendas, de dos tipos A y B. La empresa constructora dispone de un capital máximo de 15 millones de euros. El coste de construcción de una vivienda de tipo A es $100\\,000$ € y el de una de tipo B es $300\\,000$ €. El beneficio por la venta de una vivienda de tipo A es $20\\,000$ € y por una de tipo B es $40\\,000$ €.
+
+**(a)** ¿Cuántas viviendas de cada tipo deben construirse para obtener el máximo beneficio?
+**(b)** ¿A cuánto asciende dicho beneficio máximo?
+
+### Solución
+
+Sea $x$ el nº de viviendas de tipo A e $y$ el de tipo B.
+
+**Función objetivo:** $f(x,y)=20\\,000x+40\\,000y$ (beneficio a maximizar).
+
+**Restricciones:**
+$$\\begin{cases} x+y\\leq120 \\\\ x+3y\\leq150 \\\\ x\\geq0,\\ y\\geq0 \\end{cases}$$
+(la segunda se obtiene al dividir $100\\,000x+300\\,000y\\leq15\\,000\\,000$ entre $100\\,000$).
+
+**(a)** El vértice $C$ es la intersección de $x+y=120$ y $x+3y=150$: restando, $2y=30\\Rightarrow y=15$, $x=105$. Los vértices de la región factible son:
+$$A(0,0),\\quad B(120,0),\\quad C(105,15),\\quad D(0,50)$$
+Evaluamos la función objetivo:
+$$f(A)=0,\\ f(B)=2\\,400\\,000,\\ f(C)=2\\,700\\,000,\\ f(D)=2\\,000\\,000$$
+El máximo se alcanza en $C(105,15)$: deben construirse **105 viviendas de tipo A y 15 de tipo B**.
+
+**(b)** $f(C)=20\\,000\\cdot105+40\\,000\\cdot15=2\\,700\\,000$ €.
+
+## Ejercicio 7
+
+### Enunciado
+
+Sea la función
+$$f(x)=\\begin{cases} \\dfrac{2x+1}{1-2x} & \\text{si } x<0 \\\\[2mm] x^2-x-a & \\text{si } x\\geq0 \\end{cases}$$
+
+**(a)** Halla el valor del parámetro $a$ para que $f$ sea continua en $x=0$.
+**(b)** En el caso $a=2$, analiza los intervalos de crecimiento y decrecimiento y los máximos y mínimos relativos.
+**(c)** En el caso $a=2$, realiza la representación gráfica de la función.
+
+### Solución
+
+**(a)** $f$ es continua en $x=0$ si los límites laterales coinciden con $f(0)$:
+$$\\lim_{x\\to0^-}\\frac{2x+1}{1-2x}=\\frac{1}{1}=1,\\qquad \\lim_{x\\to0^+}(x^2-x-a)=-a=f(0)$$
+Imponiendo $-a=1$ se obtiene $a=-1$.
+
+**(b)** Con $a=2$, $f(x)=\\dfrac{2x+1}{1-2x}$ si $x<0$ y $f(x)=x^2-x-2$ si $x\\geq0$.
+
+*Tramo $x<0$:* $f'(x)=\\dfrac{4}{(1-2x)^2}>0$ siempre, luego $f$ es creciente en $(-\\infty,0)$ y no tiene extremos en ese tramo.
+
+*Tramo $x>0$:* $f'(x)=2x-1=0\\Rightarrow x=\\tfrac12$. Como $f''(x)=2>0$, en $x=\\tfrac12$ hay un **mínimo relativo**. Además $f$ decrece en $\\left(0,\\tfrac12\\right)$ y crece en $\\left(\\tfrac12,\\infty\\right)$.
+
+El mínimo relativo es $\\left(\\tfrac12,\\ f\\!\\left(\\tfrac12\\right)\\right)=\\left(\\tfrac12,\\ -\\tfrac94\\right)$.
+
+**Resumen:** $f$ crece en $(-\\infty,0)$ y en $\\left(\\tfrac12,\\infty\\right)$; decrece en $\\left(0,\\tfrac12\\right)$; mínimo relativo en $\\left(\\tfrac12,-\\tfrac94\\right)$.
+
+**(c)** Con tablas de valores: para $x<0$ (rama racional) pasa por $(-1,-\\tfrac13)$ y $(-\\tfrac12,0)$ y tiende a $1$ por la izquierda de $0$; para $x\\geq0$ es la parábola $x^2-x-2$ con vértice en $\\left(\\tfrac12,-\\tfrac94\\right)$, que corta el eje OX en $x=2$ y vale $-2$ en $x=0$.
+
+## Ejercicio 8
+
+### Enunciado
+
+Una determinada empresa de selección de personal realiza un test de 90 preguntas. Por cada acierto da 6 puntos; por cada fallo quita 2,5 puntos, y por cada pregunta no contestada quita 1,5 puntos. Para aprobar hay que obtener por lo menos 210 puntos.
+
+¿Cuántas preguntas hay que contestar correctamente para obtener los 210 puntos, y que el número de preguntas no contestadas más el número de aciertos sea igual al doble del número de fallos?
+
+### Solución
+
+Definimos las variables: $x$ = nº de aciertos, $y$ = nº de fallos, $z$ = nº de preguntas no contestadas.
+
+Con la información del enunciado planteamos el sistema:
+$$\\begin{cases} x+y+z=90 \\\\ 6x-2{,}5y-1{,}5z=210 \\\\ x+z=2y \\end{cases}$$
+
+Escribimos la tercera ecuación como $x-2y+z=0$. Comprobamos que puede usarse la regla de Cramer, es decir, que el determinante de la matriz de coeficientes no es nulo:
+$$\\begin{vmatrix} 1 & 1 & 1 \\\\ 6 & -2{,}5 & -1{,}5 \\\\ 1 & -2 & 1 \\end{vmatrix} = -22{,}5 \\neq 0$$
+
+Por tanto el sistema es compatible determinado y lo resolvemos por Cramer:
+$$x=\\dfrac{\\begin{vmatrix} 90 & 1 & 1 \\\\ 210 & -2{,}5 & -1{,}5 \\\\ 0 & -2 & 1 \\end{vmatrix}}{-22{,}5}=50,\\quad y=\\dfrac{\\begin{vmatrix} 1 & 90 & 1 \\\\ 6 & 210 & -1{,}5 \\\\ 1 & 0 & 1 \\end{vmatrix}}{-22{,}5}=30,\\quad z=\\dfrac{\\begin{vmatrix} 1 & 1 & 90 \\\\ 6 & -2{,}5 & 210 \\\\ 1 & -2 & 0 \\end{vmatrix}}{-22{,}5}=10$$
+`,Xn=`---
+title: Matemáticas Aplicadas a las CCSS II · PAU 2023 · Comunidad Valenciana — examen resuelto
+seoTitle: PAU Matemáticas Aplicadas a las CCSS II Comunidad Valenciana 2023 resuelta
+date: 2023-06-01
+updated: 2026-11-05
+description: Examen resuelto de Matemáticas Aplicadas a las Ciencias Sociales II de Comunidad Valenciana 2023, con procedimientos completos.
+tag: Matemáticas CCSS PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+Se dice que una matriz cuadrada $A$ es *normal* si $A^{t}A=AA^{t}$, donde $A^{t}$ es su traspuesta.
+
+Halla el valor de $x$ para que la matriz $A=\\begin{pmatrix} 2 & 1 \\\\ -1 & x \\end{pmatrix}$ sea normal.
+
+### Solución
+
+Sea $A=\\begin{pmatrix} 2 & 1 \\\\ -1 & x \\end{pmatrix}$, con traspuesta $A^{t}=\\begin{pmatrix} 2 & -1 \\\\ 1 & x \\end{pmatrix}$.
+
+Calculamos los dos productos:
+$$AA^{t}=\\begin{pmatrix} 5 & x-2 \\\\ x-2 & 1+x^2 \\end{pmatrix},\\qquad A^{t}A=\\begin{pmatrix} 5 & 2-x \\\\ 2-x & 1+x^2 \\end{pmatrix}.$$
+Imponiendo $A^{t}A=AA^{t}$, los elementos de la diagonal ya coinciden; basta igualar el elemento no diagonal:
+$$x-2=2-x\\ \\Rightarrow\\ 2x=4\\ \\Rightarrow\\ x=2.$$
+Para $x=2$ la matriz $A=\\begin{pmatrix} 2 & 1 \\\\ -1 & 2 \\end{pmatrix}$ es normal.
+
+## Ejercicio 2
+
+### Enunciado
+
+La alarma de un banco suena con probabilidad $0{,}95$ cuando hay un motivo justificado y con probabilidad $0{,}3$ cuando no lo hay. El ladrón Arsenio Lupin roba el banco (único posible motivo) con probabilidad $0{,}1$.
+
+**(a)** Calcula la probabilidad de que robe y la alarma no suene.
+
+**(b)** Si la alarma suena, ¿cuál es la probabilidad de que no esté robando?
+
+**(c)** Si la alarma no ha sonado, ¿cuál es la probabilidad de que haya robado el banco?
+
+### Solución
+
+Sean $R=$«hay robo» y $S=$«suena la alarma». Datos: $P(R)=0{,}1$, $P(\\overline{R})=0{,}9$, $P(S\\mid R)=0{,}95$, $P(S\\mid\\overline{R})=0{,}3$.
+
+**(a)** $P(R\\cap\\overline{S})=P(R)P(\\overline{S}\\mid R)=0{,}1\\cdot(1-0{,}95)=0{,}1\\cdot0{,}05=0{,}005.$
+
+**(b)** Probabilidad de que suene: $P(S)=0{,}1\\cdot0{,}95+0{,}9\\cdot0{,}3=0{,}095+0{,}27=0{,}365.$ Entonces
+$$P(\\overline{R}\\mid S)=\\frac{P(\\overline{R}\\cap S)}{P(S)}=\\frac{0{,}9\\cdot0{,}3}{0{,}365}=\\frac{0{,}27}{0{,}365}=0{,}7397.$$
+
+**(c)** $P(\\overline{S})=1-0{,}365=0{,}635$ y $P(R\\cap\\overline{S})=0{,}005$, luego
+$$P(R\\mid\\overline{S})=\\frac{0{,}005}{0{,}635}=0{,}0079.$$
+
+## Ejercicio 3
+
+### Enunciado
+
+En una agencia de viajes, el $60\\%$ de los clientes hace un viaje al año, el $30\\%$ hace dos y el $10\\%$ hace tres o más. Además, el $54\\%$ de todos los clientes está casado y hace un viaje, el $14\\%$ está casado y hace dos, y el $2\\%$ está casado y hace tres o más.
+
+**(a)** Si un cliente hace dos o más viajes, ¿cuál es la probabilidad de que no esté casado?
+
+**(b)** Siendo $G=$«no estar casado» y $H=$«hacer menos de tres viajes al año», calcula $P(G\\cup H)$.
+
+**(c)** ¿Son independientes los sucesos $J=$«estar casado» y $K=$«no hacer exactamente dos viajes»? Justifica.
+
+### Solución
+
+**(a)** $P(\\text{dos o más})=P(2)+P(3^+)=0{,}3+0{,}1=0{,}4$. Casados con dos o más: $0{,}14+0{,}02=0{,}16$. No casados con dos o más: $0{,}4-0{,}16=0{,}24$. Luego
+$$P(\\text{no casado}\\mid \\text{dos o más})=\\frac{0{,}24}{0{,}4}=0{,}6.$$
+
+**(b)** $G=$«no casado», $H=$«menos de tres viajes» (uno o dos). Por De Morgan, $\\overline{G}\\cap\\overline{H}=$«casado y tres o más viajes», cuya probabilidad es $0{,}02$. Entonces
+$$P(G\\cup H)=1-P(\\overline{G}\\cap\\overline{H})=1-0{,}02=0{,}98.$$
+
+**(c)** $J=$«casado»: $P(J)=0{,}54+0{,}14+0{,}02=0{,}70$. $K=$«no hace exactamente dos viajes»: $P(K)=1-P(2)=1-0{,}3=0{,}7$. La intersección $J\\cap K=$«casado y no hace dos viajes» $=$ casado con uno o con tres o más: $P(J\\cap K)=0{,}54+0{,}02=0{,}56$. Como
+$$P(J)\\cdot P(K)=0{,}70\\cdot0{,}7=0{,}49\\neq 0{,}56=P(J\\cap K),$$
+los sucesos **no son independientes**.
+
+## Ejercicio 4
+
+### Enunciado
+
+Para alimentar a un animal se combinan latas de dos marcas, $A$ y $B$. Cada lata de la marca $A$ cuesta $10$ € y cada lata de la marca $B$ cuesta $16$ €. La dieta diaria debe aportar unos mínimos de tres nutrientes, lo que se traduce en las restricciones $4x+2y\\geq 8$, $6x+20y\\geq 46$ y $x+12y\\geq 12$ (con $x,y\\geq0$), donde $x$ es el número de latas de la marca $A$ e $y$ el de la marca $B$.
+
+**(a)** ¿Cómo hay que combinar ambas marcas para que el precio sea mínimo?
+
+**(b)** ¿Cuál es ese precio mínimo?
+
+### Solución
+
+Función objetivo a minimizar: $F(x,y)=10x+16y$, sujeta a $4x+2y\\geq8$, $6x+20y\\geq46$, $x+12y\\geq12$, $x,y\\geq0$.
+
+La región factible es no acotada; sus vértices (cortes de las rectas de restricción) son:
+$$(0,4),\\quad (1,2),\\quad (6,\\,0{,}5),\\quad (12,0).$$
+(Por ejemplo, $(1,2)$ es el corte de $4x+2y=8$ con $6x+20y=46$.)
+
+Evaluando la función objetivo:
+$$F(0,4)=64,\\quad F(1,2)=10+32=42,\\quad F(6,0{,}5)=68,\\quad F(12,0)=120.$$
+El mínimo es $42$ € en el vértice $(1,2)$. Como la región es no acotada pero buscamos el mínimo (con coeficientes positivos), la solución óptima está en ese vértice.
+
+**(a)** La combinación óptima es **$1$ lata de la marca $A$ y $2$ latas de la marca $B$**.
+
+**(b)** El precio mínimo es $42$ €.
+
+## Ejercicio 5
+
+### Enunciado
+
+Dada la función $f(x)=\\dfrac{x^2+2x-15}{2x^2-3x-2}$:
+
+**(a)** Halla el dominio y los puntos de corte con los ejes.
+
+**(b)** Determina las asíntotas verticales y horizontales.
+
+**(c)** Calcula los intervalos de crecimiento y decrecimiento.
+
+**(d)** Calcula los máximos y mínimos locales.
+
+**(e)** Representa gráficamente la función.
+
+### Solución
+
+**(a)** Denominador: $2x^2-3x-2=0\\Rightarrow x=2$ o $x=-\\tfrac12$. Dominio: $\\mathbb{R}\\setminus\\{-0{,}5,\\ 2\\}$. Cortes con OX (numerador $=0$): $x^2+2x-15=0\\Rightarrow x=3,\\ x=-5$, es decir $(-5,0)$ y $(3,0)$. Corte con OY: $f(0)=\\dfrac{-15}{-2}=\\dfrac{15}{2}$, punto $\\big(0,\\tfrac{15}{2}\\big)$.
+
+**(b)** Asíntotas verticales en los ceros del denominador: $x=-0{,}5$ y $x=2$. Asíntota horizontal: como numerador y denominador tienen igual grado, $y=\\dfrac{1}{2}$ (cociente de coeficientes principales).
+
+**(c)-(d)** Derivando e igualando a cero se obtienen los puntos críticos $x=1$ y $x=7$. El estudio del signo de $f'$ da: $f$ **creciente** en $]1,2[\\cup]2,7[$ y **decreciente** en $]-\\infty,-\\tfrac12[\\cup]-\\tfrac12,1[\\cup]7,+\\infty[$. Por tanto:
+- Mínimo local en $x=1$: $f(1)=\\dfrac{1+2-15}{2-3-2}=\\dfrac{-12}{-3}=4$.
+- Máximo local en $x=7$: $f(7)=\\dfrac{49+14-15}{98-21-2}=\\dfrac{48}{75}=\\dfrac{16}{25}$.
+
+**(e)** Con el dominio, los cortes, las asíntotas ($x=-0{,}5$, $x=2$, $y=\\tfrac12$) y los extremos (mínimo $(1,4)$, máximo $(7,\\tfrac{16}{25})$) se traza la gráfica, con tres ramas separadas por las asíntotas verticales.
+
+## Ejercicio 6
+
+### Enunciado
+
+Una empresa paga una cuota fija mensual de $1\\,200$ € por la electricidad. Los primeros $250$ kWh cuestan $5$ € cada uno; el consumo entre $250$ y $900$ kWh cuesta $3$ € cada kWh, y el resto $2$ € cada kWh.
+
+**(a)** ¿A cuánto asciende el recibo el mes en que la empresa consumió $400$ kWh?
+
+**(b)** Obtén la función $f(x)$ que da el importe del recibo mensual si consume $x$ kWh y represéntala.
+
+**(c)** Una segunda empresa, con la misma cuota fija, paga $3$ € por cada kWh. ¿Pueden ambas empresas tener el mismo consumo y el mismo importe de recibo? En caso afirmativo, indica el consumo y el importe.
+
+### Solución
+
+**(a)** Para $400$ kWh se usa el tramo $250<x\\leq900$. El importe es $f(400)=1\\,700+3\\cdot400=1\\,700+1\\,200=2\\,900$ €.
+
+**(b)** Acumulando los costes por tramos (y asegurando continuidad en $250$ y $900$):
+$$f(x)=\\begin{cases} 1\\,200+5x & \\text{si } 0\\leq x\\leq 250 \\\\ 1\\,700+3x & \\text{si } 250< x\\leq 900 \\\\ 2\\,600+2x & \\text{si } x>900 \\end{cases}$$
+(En $x=250$: $1\\,200+1\\,250=2\\,450=1\\,700+750$; en $x=900$: $1\\,700+2\\,700=4\\,400=2\\,600+1\\,800$.) Su gráfica es una poligonal creciente de pendientes decrecientes $5$, $3$ y $2$.
+
+**(c)** La segunda empresa tiene $g(x)=1\\,200+3x$. Buscamos $x$ con $f(x)=g(x)$. En el tramo $x>900$:
+$$2\\,600+2x=1\\,200+3x\\Rightarrow x=1\\,400\\ \\text{kWh}.$$
+El importe es $g(1\\,400)=1\\,200+3\\cdot1\\,400=5\\,400$ €. Por tanto sí: con un consumo de $1\\,400$ kWh ambas pagan $5\\,400$ €.
+`,Wn=`---
+title: Matemáticas Aplicadas a las CCSS II · PAU 2024 · Comunidad Valenciana — examen resuelto
+seoTitle: PAU Matemáticas Aplicadas a las CCSS II Comunidad Valenciana 2024 resuelta
+date: 2024-06-01
+updated: 2026-11-05
+description: Examen resuelto de Matemáticas Aplicadas a las Ciencias Sociales II de Comunidad Valenciana 2024, con procedimientos completos.
+tag: Matemáticas CCSS PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+Se considera $f(x)=\\begin{cases} x^{3}+ax^{2}+24x & \\text{si } x\\leq -1 \\\\ (x-1)^{2}+3 & \\text{si } x>-1 \\end{cases}$.
+
+**(a)** Determina el valor de $a$ para que $f$ sea continua en $x=-1$ (y razona que es continua en los demás puntos para cualquier $a$).
+**(b)** Para $a=9$, calcula el máximo y el mínimo local de la rama $x\\leq-1$.
+**(c)** Para $a=0$, calcula el área limitada por $f$, el eje $OX$ y las rectas $x=2$ y $x=3$.
+
+### Solución
+
+**(a)** En cada rama $f$ es polinómica, luego continua. En $x=-1$:
+$$\\lim_{x\\to-1^{-}}(x^{3}+ax^{2}+24x)=-1+a-24=a-25,\\qquad \\lim_{x\\to-1^{+}}\\big((x-1)^{2}+3\\big)=4+3=7.$$
+Continuidad $\\Rightarrow a-25=7\\Rightarrow a=32$.
+
+**(b)** Con $a=9$, $g(x)=x^{3}+9x^{2}+24x$, $g'(x)=3x^{2}+18x+24=3(x+2)(x+4)=0\\Rightarrow x=-4,\\ x=-2$ (ambos en $x\\leq-1$).
+$g''(x)=6x+18$: $g''(-4)=-6<0\\Rightarrow$ **máximo local** en $x=-4$, $g(-4)=-16$. $g''(-2)=6>0\\Rightarrow$ **mínimo local** en $x=-2$, $g(-2)=-20$.
+
+**(c)** En $[2,3]$ se usa la rama $(x-1)^{2}+3>0$. Una primitiva es $\\dfrac{x^{3}}{3}-x^{2}+4x$, y
+$$A=\\int_{2}^{3}\\big((x-1)^{2}+3\\big)dx=\\left[\\frac{(x-1)^{3}}{3}+3x\\right]_{2}^{3}=\\left(\\frac{8}{3}+9\\right)-\\left(\\frac{1}{3}+6\\right)=\\frac{16}{3}\\approx5{,}3333\\ \\text{u}^{2}.$$
+
+## Ejercicio 2
+
+### Enunciado
+
+Sean $A=\\begin{pmatrix} 1 & 0 & -1 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}$ y $B=\\begin{pmatrix} 1 & 1 & 0 \\\\ 0 & 1 & 1 \\\\ 1 & 0 & 1 \\end{pmatrix}$, e $I$ la identidad de orden $3$.
+
+**(a)** Resuelve $X^{-1}A+A=B$ y obtén $X$.
+**(b)** Resuelve $(A-B)Y-AY=I$ y obtén $Y$.
+**(c)** Resuelve $AZA^{-1}=I$ y obtén $Z$.
+
+### Solución
+
+**(a)** $X^{-1}A+A=B\\Rightarrow X^{-1}A=B-A\\Rightarrow X^{-1}=(B-A)A^{-1}\\Rightarrow X=A\\,(B-A)^{-1}$.
+$B-A=\\begin{pmatrix} 0 & 1 & 1 \\\\ 0 & 0 & 1 \\\\ 1 & 0 & 0 \\end{pmatrix}$, con $(B-A)^{-1}=\\begin{pmatrix} 0 & 0 & 1 \\\\ 1 & -1 & 0 \\\\ 0 & 1 & 0 \\end{pmatrix}$. Entonces
+$$X=A\\,(B-A)^{-1}=\\begin{pmatrix} 0 & -1 & 1 \\\\ 1 & -1 & 0 \\\\ 0 & 1 & 0 \\end{pmatrix}.$$
+
+**(b)** $(A-B)Y-AY=(A-B-A)Y=-BY=I\\Rightarrow Y=-B^{-1}$. Como $|B|=2$ y $B^{-1}=\\dfrac12\\begin{pmatrix} 1 & -1 & 1 \\\\ 1 & 1 & -1 \\\\ -1 & 1 & 1 \\end{pmatrix}$,
+$$Y=-B^{-1}=-\\frac12\\begin{pmatrix} 1 & -1 & 1 \\\\ 1 & 1 & -1 \\\\ -1 & 1 & 1 \\end{pmatrix}.$$
+
+**(c)** $AZA^{-1}=I\\Rightarrow Z=A^{-1}IA=A^{-1}A=I$.
+
+## Ejercicio 3
+
+### Enunciado
+
+En una empresa, el $30\\%$ de los directivos conoce inglés y alemán, el $40\\%$ conoce inglés y el $40\\%$ de los que conocen alemán también conocen inglés. Se elige un directivo al azar. Calcula:
+
+**(a)** La probabilidad de que conozca alemán.
+**(b)** La probabilidad de que conozca alemán pero no inglés.
+**(c)** Sabiendo que no conoce alemán, la probabilidad de que conozca inglés.
+
+### Solución
+
+Sean $I$ (inglés) y $Al$ (alemán).
+
+**(a)** De $P(I\\mid Al)=\\dfrac{P(I\\cap Al)}{P(Al)}=0{,}40$ y $P(I\\cap Al)=0{,}30$:
+$$P(Al)=\\frac{0{,}30}{0{,}40}=0{,}75.$$
+
+**(b)** $P(Al\\cap \\overline{I})=P(Al)-P(Al\\cap I)=0{,}75-0{,}30=0{,}45$.
+
+**(c)** $P(I\\mid \\overline{Al})=\\dfrac{P(I\\cap\\overline{Al})}{P(\\overline{Al})}=\\dfrac{P(I)-P(I\\cap Al)}{1-P(Al)}=\\dfrac{0{,}40-0{,}30}{1-0{,}75}=\\dfrac{0{,}10}{0{,}25}=0{,}40$.
+
+## Ejercicio 4
+
+### Enunciado
+
+Se lanza un dado equilibrado. Si sale un número mayor que $2$, se lanza dos veces una moneda equilibrada; en caso contrario (resultado $\\leq2$), se lanza dos veces una moneda trucada en la que la cara es tres veces más probable que la cruz ($P(\\text{cara})=\\tfrac34$).
+
+**(a)** Sabiendo que han salido dos caras, halla la probabilidad de que el dado mostrara un número mayor que $2$.
+**(b)** Calcula la probabilidad de la unión de los sucesos «el dado es $\\leq2$» y «sale al menos una cara en los dos lanzamientos».
+**(c)** Estudia si los sucesos «sacar un $6$» y «obtener dos cruces» son independientes.
+
+### Solución
+
+**(a)** $P(CC)=P(CC\\mid>2)P(>2)+P(CC\\mid\\leq2)P(\\leq2)=\\dfrac14\\cdot\\dfrac23+\\dfrac{9}{16}\\cdot\\dfrac13=\\dfrac{8}{48}+\\dfrac{9}{48}=\\dfrac{17}{48}$.
+$$P(>2\\mid CC)=\\frac{\\tfrac14\\cdot\\tfrac23}{\\tfrac{17}{48}}=\\frac{8/48}{17/48}=\\frac{8}{17}\\approx0{,}4706.$$
+
+**(b)** Sea $S=\\{\\text{dado}\\leq2\\}$ ($P=\\tfrac13$) y $H=\\{\\text{al menos una cara}\\}$. $P(\\text{sin caras})=P(XX)=\\tfrac14\\cdot\\tfrac23+\\tfrac1{16}\\cdot\\tfrac13=\\tfrac{9}{48}=\\tfrac{3}{16}$, luego $P(H)=\\tfrac{13}{16}$. $P(S\\cap H)=\\tfrac13\\left(1-\\tfrac1{16}\\right)=\\tfrac{5}{16}$.
+$$P(S\\cup H)=P(S)+P(H)-P(S\\cap H)=\\frac13+\\frac{13}{16}-\\frac{5}{16}=\\frac13+\\frac12=\\frac{5}{6}\\approx0{,}8333.$$
+
+**(c)** $P(\\text{sacar }6)=\\tfrac16$; como $6>2$, moneda justa: $P(\\text{dos cruces}\\mid 6)=\\tfrac14$, luego $P(6\\cap XX)=\\tfrac16\\cdot\\tfrac14=\\tfrac{1}{24}$. Por otra parte $P(XX)=\\tfrac{3}{16}$ y $P(6)\\cdot P(XX)=\\tfrac16\\cdot\\tfrac{3}{16}=\\tfrac{1}{32}$. Como $\\tfrac{1}{24}\\neq\\tfrac{1}{32}$, los sucesos **no son independientes**.
+
+## Ejercicio 5
+
+### Enunciado
+
+Se considera la función $f(x)=\\dfrac{x^{2}-3x}{(x-1)^{2}}$.
+
+**(a)** Halla el dominio y los puntos de corte con los ejes.
+**(b)** Determina las asíntotas vertical y horizontal.
+**(c)** Estudia los intervalos de crecimiento y decrecimiento.
+**(d)** Calcula los máximos y mínimos locales.
+**(e)** Representa la gráfica de la función.
+
+### Solución
+
+**(a)** Dominio $\\mathbb{R}-\\{1\\}$. Cortes: $x^{2}-3x=0\\Rightarrow x=0,\\ x=3$, luego $(0,0)$ y $(3,0)$.
+
+**(b)** Vertical: $x=1$ (anula el denominador y no el numerador). Horizontal: como numerador y denominador tienen grado $2$, $\\displaystyle\\lim_{x\\to\\pm\\infty}f(x)=1$, luego $y=1$.
+
+**(c)-(d)** $f'(x)=\\dfrac{(2x-3)(x-1)^{2}-(x^{2}-3x)\\cdot2(x-1)}{(x-1)^{4}}=\\dfrac{x+3}{(x-1)^{3}}$.
+$f'(x)=0\\Rightarrow x=-3$. Signo de $f'$: positivo en $(-\\infty,-3)$, negativo en $(-3,1)$, positivo en $(1,+\\infty)$. Por tanto $f$ **crece** en $(-\\infty,-3)\\cup(1,+\\infty)$ y **decrece** en $(-3,1)$.
+En $x=-3$ hay un **máximo local** con $f(-3)=\\dfrac{9+9}{16}=\\dfrac{9}{8}$. No hay mínimos locales.
+
+**(e)** Dos ramas separadas por $x=1$, con asíntota horizontal $y=1$, cortes $(0,0)$ y $(3,0)$, y máximo en $\\left(-3,\\tfrac{9}{8}\\right)$.
+
+## Ejercicio 6
+
+### Enunciado
+
+Una tienda vendió $220$ televisores de tres modelos: ULED ($x$), QLED ($y$) y LD ($z$), con precios $1250$ €, $1125$ € y $1000$ €, respectivamente, recaudando $247250$ €. Además, el número de televisores ULED vendidos es la tercera parte del total vendido de los otros dos modelos (es decir, $y+z=3x$). Determina cuántos televisores de cada modelo se vendieron.
+
+### Solución
+
+Con $x$ (ULED), $y$ (QLED), $z$ (LD) el sistema es:
+$$\\begin{cases} x+y+z=220 \\\\ 1250x+1125y+1000z=247250 \\\\ 3x-y-z=0 \\end{cases}$$
+Sumando la $1.ª$ y la $3.ª$: $4x=220\\Rightarrow x=55$. Entonces $y+z=165$.
+Sustituyendo en la $2.ª$: $1250\\cdot55+1125y+1000z=247250\\Rightarrow1125y+1000z=178500$, y con $z=165-y$:
+$$1125y+1000(165-y)=178500\\Rightarrow125y=13500\\Rightarrow y=108,\\ z=57.$$
+Comprobación: $55+108+57=220$ y $1250\\cdot55+1125\\cdot108+1000\\cdot57=247250$.
+`,Jn=`---
+title: Matemáticas Aplicadas a las CCSS II · PAU 2024 · Navarra — examen resuelto
+seoTitle: PAU Matemáticas Aplicadas a las CCSS II Navarra 2024 resuelta
+date: 2024-06-01
+updated: 2026-11-05
+description: Examen resuelto de Matemáticas Aplicadas a las Ciencias Sociales II de Navarra 2024, con procedimientos completos.
+tag: Matemáticas CCSS PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+La primera derivada de una función $f$ es $f'(x)=x(x-2)^2$.
+
+**(i)** Determine los extremos relativos y los intervalos de crecimiento y decrecimiento de $f$.
+**(ii)** Determine los intervalos de concavidad y convexidad y los puntos de inflexión.
+**(iii)** Determine $f(x)$ sabiendo que $f(0)=5$.
+
+### Solución
+
+**(i)** $f'(x)=0\\Rightarrow x=0$ o $x=2$. Signo de $f'$: como $(x-2)^2\\geq0$, el signo coincide con el de $x$. Así $f'<0$ en $(-\\infty,0)$ y $f'>0$ en $(0,2)\\cup(2,\\infty)$. Por tanto $f$ **decrece en $(-\\infty,0)$** y **crece en $(0,\\infty)$**; en $x=0$ hay un **mínimo relativo** (en $x=2$ no hay extremo, pues $f'$ no cambia de signo).
+
+**(ii)** Desarrollando, $f'(x)=x^3-4x^2+4x$, de modo que $f''(x)=3x^2-8x+4=0\\Rightarrow x=2$ y $x=\\tfrac23$. Estudiando el signo de $f''$: convexa ($\\cup$) en $\\left(-\\infty,\\tfrac23\\right)$ y en $(2,\\infty)$; cóncava ($\\cap$) en $\\left(\\tfrac23,2\\right)$. Hay **puntos de inflexión en $x=\\tfrac23$ y $x=2$**.
+
+**(iii)** Integrando $f'$:
+$$f(x)=\\int (x^3-4x^2+4x)\\,dx=\\frac{x^4}{4}-\\frac{4x^3}{3}+2x^2+C$$
+Como $f(0)=5$, se tiene $C=5$. Por tanto $f(x)=\\dfrac{x^4}{4}-\\dfrac{4x^3}{3}+2x^2+5$.
+
+## Ejercicio 2
+
+### Enunciado
+
+Sea la función
+$$f(x)=\\begin{cases} -x^2-4x & \\text{si } x\\leq-1 \\\\ 4-x & \\text{si } -1<x\\leq1 \\\\ x^2-6x+8 & \\text{si } x>1 \\end{cases}$$
+
+**(i)** Estudie la continuidad de $f$, clasificando sus puntos de discontinuidad.
+**(ii)** Estudie la derivabilidad de $f$.
+**(iii)** Calcule $\\displaystyle\\int_0^2 f(x)\\,dx$.
+
+### Solución
+
+**(i)** En cada intervalo abierto $f$ es polinómica, luego continua. Estudiamos los empalmes.
+
+En $x=-1$: $f(-1)=-(-1)^2-4(-1)=-1+4=3$; $\\lim_{x\\to-1^-}(-x^2-4x)=-1+4=3$; $\\lim_{x\\to-1^+}(4-x)=5$. Como los límites laterales son $3\\neq5$, hay una **discontinuidad inevitable de salto finito** en $x=-1$.
+
+En $x=1$: $f(1)=4-1=3$; $\\lim_{x\\to1^-}(4-x)=3$; $\\lim_{x\\to1^+}(x^2-6x+8)=3$. Coinciden con $f(1)$, luego $f$ es **continua en $x=1$**.
+
+$f$ es continua en $\\mathbb{R}\\setminus\\{-1\\}$ con discontinuidad de salto finito en $x=-1$.
+
+**(ii)** La derivada en cada tramo es
+$$f'(x)=\\begin{cases} -2x-4 & x<-1 \\\\ -1 & -1<x<1 \\\\ 2x-6 & x>1 \\end{cases}$$
+En $x=-1$ no es derivable (no es continua). En $x=1$: $f'(1^-)=-1$ y $f'(1^+)=2-6=-4$; como $-1\\neq-4$, **no es derivable en $x=1$**. Por tanto $f$ es derivable en $\\mathbb{R}\\setminus\\{-1,1\\}$.
+
+**(iii)** En $[0,2]$ la función cambia de expresión en $x=1$:
+$$\\int_0^2 f(x)\\,dx=\\int_0^1(4-x)\\,dx+\\int_1^2(x^2-6x+8)\\,dx=\\frac72+\\frac43=\\frac{29}{6}$$
+
+## Ejercicio 3
+
+### Enunciado
+
+El tiempo (en días) que tardan los jóvenes de una región en encontrar trabajo relacionado con sus estudios sigue una normal de varianza $2500$ días$^2$. Una muestra da: $101, 200, 187, 69, 237, 125, 173, 235, 24, 60$.
+
+**(i)** Calcule un intervalo de confianza al 92 % para el tiempo medio e interprételo.
+**(ii)** Con la misma muestra se obtuvo otro intervalo de amplitud $68{,}62143$ días. Calcule su nivel de confianza, justificándolo.
+
+### Solución
+
+La varianza es $2500$, luego $\\sigma=50$ días; $X\\sim N(\\mu,50)$. La media muestral es
+$$\\overline{x}=\\frac{101+200+187+69+237+125+173+235+24+60}{10}=141{,}1\\ \\text{días}$$
+
+**(i)** Para el 92 %: $1-\\alpha=0{,}92\\Rightarrow\\alpha/2=0{,}04\\Rightarrow z_{\\alpha/2}=1{,}75$ (pues $P(Z\\leq z)=0{,}96$). El error es
+$$E=z_{\\alpha/2}\\dfrac{\\sigma}{\\sqrt{n}}=1{,}75\\cdot\\dfrac{50}{\\sqrt{10}}\\approx27{,}67\\ \\text{días}$$
+Intervalo: $(141{,}1-27{,}67,\\ 141{,}1+27{,}67)=(113{,}43,\\ 168{,}77)$. Con un 92 % de confianza, el tiempo medio en encontrar trabajo está entre $113{,}43$ y $168{,}77$ días.
+
+**(ii)** El error es la mitad de la amplitud: $E=\\dfrac{68{,}62143}{2}=34{,}3107$ días. Despejando:
+$$z_{\\alpha/2}=\\dfrac{E\\sqrt{n}}{\\sigma}=\\dfrac{34{,}3107\\cdot\\sqrt{10}}{50}=2{,}17$$
+En la tabla, $P(Z\\leq2{,}17)=0{,}985\\Rightarrow\\alpha/2=0{,}015\\Rightarrow1-\\alpha=0{,}97$. El nivel de confianza es del **97 %**.
+
+## Ejercicio 4
+
+### Enunciado
+
+En una encuesta a jóvenes universitarios el 40 % consulta libros en la biblioteca ($L$), el 55 % consulta vídeos con tutoriales ($T$) y el 15 % consulta ambos formatos.
+
+**(i)** Probabilidad de que consulte alguno de los dos formatos.
+**(ii)** Probabilidad de que consulte solamente uno de los dos formatos.
+**(iii)** Sabiendo que no consulta vídeos, probabilidad de que tampoco consulte libros.
+
+### Solución
+
+**(i)** $P(L\\cup T)=P(L)+P(T)-P(L\\cap T)=0{,}40+0{,}55-0{,}15=0{,}80$.
+
+**(ii)** "Solo uno" = $P(L\\cap T^c)+P(L^c\\cap T)=(0{,}40-0{,}15)+(0{,}55-0{,}15)=0{,}25+0{,}40=0{,}65$.
+
+**(iii)** $P(L^c\\,|\\,T^c)=\\dfrac{P(L^c\\cap T^c)}{P(T^c)}$. Como $P(L^c\\cap T^c)=1-P(L\\cup T)=1-0{,}80=0{,}20$ y $P(T^c)=1-0{,}55=0{,}45$:
+$$P(L^c\\,|\\,T^c)=\\dfrac{0{,}20}{0{,}45}=\\dfrac{4}{9}\\approx0{,}4444$$
+
+## Ejercicio 5
+
+### Enunciado
+
+Una empresa recibe disolvente de dos distribuidores D1 y D2. D2 tiene capacidad diaria de 20 litros y D1 el triple (60 litros). La empresa necesita al menos 50 litros al día y quiere recibir al menos 30 litros diarios más de D1 que de D2. Coste: D1 $0{,}8$ €/litro, D2 $1$ €/litro. Emisiones tóxicas: D1 $0{,}06$ mg/litro, D2 $0{,}02$ mg/litro. Se desea minimizar la contaminación sin gastar más de 80 € diarios.
+
+**(i)** Plantee el problema.
+**(ii)** Resuélvalo gráficamente e interprete la solución.
+**(iii)** Analice qué ocurriría si no se quisiera gastar más de 30 € diarios.
+
+### Solución
+
+**(i)** Minimizar $C(x,y)=0{,}06x+0{,}02y$ sujeto a
+$$\\begin{cases} 4x+5y\\leq400 \\\\ x\\leq60,\\ y\\leq20 \\\\ x+y\\geq50 \\\\ x\\geq y+30 \\\\ x,y\\geq0 \\end{cases}$$
+
+**(ii)** Los vértices de la región factible y el valor de $C$ son:
+$$A(40,10):\\ 2{,}6;\\quad B(50,20):\\ 3{,}4;\\quad C(60,20):\\ 4;\\quad D(60,0):\\ 3{,}6;\\quad E(50,0):\\ 3$$
+(El vértice $A$ es la intersección de $x=y+30$ y $x+y=50$.) El mínimo es $C(A)=2{,}6$ mg/litro. Enviando **40 litros diarios de D1 y 10 de D2** la contaminación es mínima, igual a $2{,}6$ mg/litro.
+
+**(iii)** Con la nueva condición el coste sería $0{,}8x+y\\leq30\\Rightarrow4x+5y\\leq150$. No existe ningún punto del primer cuadrante que cumpla a la vez $x+y\\geq50$ y $4x+5y\\leq150$ (la primera obliga a cantidades grandes que exceden el presupuesto). La región factible es vacía: el problema no tiene solución, las condiciones son incompatibles.
+
+## Ejercicio 6
+
+### Enunciado
+
+Una empresa de deportes de montaña vende sesiones individuales de senderismo, rápel y ciclismo de montaña. Un día concreto vende un total de 45 sesiones. Los precios por sesión y persona son 40 €, 20 € y 60 € respectivamente, recaudando 1700 € ese día. Si por cada persona que elige rápel hay tres que eligen senderismo, ¿cuántas personas han realizado cada actividad?
+
+**(i)** Plantee el sistema de ecuaciones lineales.
+**(ii)** Resuelva el sistema e interprete la solución.
+
+### Solución
+
+**(i)** Sean $s$ las sesiones de senderismo, $r$ las de rápel y $c$ las de ciclismo.
+$$\\begin{cases} s+r+c=45 \\\\ 40s+20r+60c=1700 \\\\ s=3r \\end{cases}\\ \\Longrightarrow\\ \\begin{cases} s+r+c=45 \\\\ 2s+r+3c=85 \\\\ s=3r \\end{cases}$$
+(la segunda ecuación se simplifica dividiendo entre 20).
+
+**(ii)** Sustituyendo $s=3r$ en las dos primeras:
+$$4r+c=45,\\qquad 7r+3c=85$$
+De la primera $c=45-4r$; sustituyendo en la segunda: $7r+3(45-4r)=85\\Rightarrow -5r=-50\\Rightarrow r=10$. Entonces $s=30$ y $c=45-40=5$.
+
+Interpretación: **30 personas hicieron senderismo, 10 rápel y 5 ciclismo de montaña**.
+`,Zn=`---
+title: Matemáticas Aplicadas a las CCSS II · PAU 2024 · País Vasco — examen resuelto
+seoTitle: PAU Matemáticas Aplicadas a las CCSS II País Vasco 2024 resuelta
+date: 2024-06-01
+updated: 2026-11-05
+description: Examen resuelto de Matemáticas Aplicadas a las Ciencias Sociales II de País Vasco 2024, con procedimientos completos.
+tag: Matemáticas CCSS PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+Sea $f(x)$ una función polinómica de tercer grado cuyo coeficiente del término de grado tres vale $1$.
+
+**(a)** Halla los demás coeficientes sabiendo que pasa por $(0,0)$ y que tiene un extremo relativo en $(2,-4)$.
+
+**(b)** Para $f(x)=x^3-3x^2$, determina los máximos y mínimos relativos y los puntos de inflexión.
+
+**(c)** Calcula el área de la región finita delimitada por la gráfica de $f(x)=x^3-3x^2$ y el eje de abscisas.
+
+### Solución
+
+**(a)** Sea $f(x)=x^3+ax^2+bx+c$.
+
+- $f(0)=0$, de modo que $c=0$.
+- Al usar $f(2)=-4$:
+
+$$8+4a+2b=-4\\Rightarrow2a+b=-6.$$
+
+- Como $f'(x)=3x^2+2ax+b$ y en un extremo $f'(2)=0$:
+
+$$12+4a+b=0\\Rightarrow4a+b=-12.$$
+
+Resolviendo $\\begin{cases}2a+b=-6\\\\4a+b=-12\\end{cases}$ se obtiene $a=-3$, $b=0$. Por tanto $f(x)=x^3-3x^2$.
+
+**(b)**
+$$f'(x)=3x^2-6x=0\\Rightarrow x=0\\quad\\text{o}\\quad x=2.$$
+Como $f''(x)=6x-6$:
+$$f''(0)=-6<0\\Rightarrow (0,0)\\text{ es un máximo relativo}.$$
+$$f''(2)=6>0\\Rightarrow (2,-4)\\text{ es un mínimo relativo}.$$
+Punto de inflexión: $f''(x)=0\\Rightarrow x=1$ y $f'''(1)=6\\neq 0$, luego $(1,-2)$ es punto de inflexión.
+
+**(c)** La curva corta al eje OX en $x=0$ y $x=3$ (pues $x^3-3x^2=x^2(x-3)$). En $(0,3)$ es $f(x)\\leq 0$, así que
+$$A=\\int_0^3\\bigl[0-(x^3-3x^2)\\bigr]\\,dx=\\left[-\\dfrac{x^4}{4}+x^3\\right]_0^3=-\\dfrac{81}{4}+27=\\dfrac{27}{4}\\ \\text{u}^2.$$
+
+## Ejercicio 2
+
+### Enunciado
+
+En un examen el $35\\,\\%$ del alumnado obtuvo más de $6{,}8$ puntos. La puntuación sigue una distribución normal de media $5{,}8$.
+
+**(a)** Calcula la desviación típica.
+
+**(b)** Si $\\sigma=2{,}6$, ¿qué puntuación es superada solo por el $20\\,\\%$ del alumnado?
+
+**(c)** Si $\\sigma=2{,}6$ y el Apto se obtiene con $5$ o más, ¿qué porcentaje del alumnado resulta apto?
+
+### Solución
+
+**(a)** $P(X>6{,}8)=0{,}35\\Rightarrow P(X\\leq 6{,}8)=0{,}65$. Tipificando con $z=\\dfrac{6{,}8-5{,}8}{\\sigma}=\\dfrac{1}{\\sigma}$, buscamos en la tabla $P(Z\\leq z)=0{,}65\\Rightarrow z\\approx 0{,}385$.
+$$\\dfrac{1}{\\sigma}=0{,}385\\Rightarrow \\sigma=\\dfrac{1}{0{,}385}\\approx 2{,}597.$$
+
+**(b)** Con $\\sigma=2{,}6$ buscamos $k$ con $P(X>k)=0{,}20\\Rightarrow P(X\\leq k)=0{,}80$. En la tabla $z\\approx 0{,}845$, luego
+$$k=5{,}8+0{,}845\\cdot 2{,}6\\approx 7{,}99\\approx 8.$$
+
+**(c)** $P(X\\geq 5)=P\\Bigl(Z\\geq \\dfrac{5-5{,}8}{2{,}6}\\Bigr)=P(Z\\geq -0{,}31)=P(Z\\leq 0{,}31)\\approx 0{,}6217$.
+
+## Ejercicio 3
+
+### Enunciado
+
+De $1000$ jóvenes vascos de $25$ años elegidos al azar, solo $140$ no vivían con sus padres.
+
+**(a)** Estima, con un nivel de confianza del $95\\,\\%$, el porcentaje de jóvenes vascos de $25$ años que viven con sus padres.
+
+**(b)** Calcula el error máximo admisible para ese nivel de confianza.
+
+**(c)** Interpreta los resultados.
+
+### Solución
+
+La proporción muestral de jóvenes que viven con sus padres es $\\hat p=\\dfrac{860}{1000}=0{,}86$, con $\\hat q=0{,}14$.
+
+**(a)** El intervalo de confianza para la proporción es
+$$\\Bigl(\\hat p\\pm z_{\\alpha/2}\\sqrt{\\dfrac{\\hat p\\,\\hat q}{n}}\\Bigr).$$
+Con $z_{\\alpha/2}=1{,}96$ y $\\sqrt{\\dfrac{0{,}86\\cdot 0{,}14}{1000}}\\approx 0{,}01097$:
+$$IC=(0{,}86\\pm 1{,}96\\cdot 0{,}01097)=(0{,}8385,\\;0{,}8815).$$
+
+**(b)** Error máximo admisible:
+$$e=z_{\\alpha/2}\\sqrt{\\dfrac{\\hat p\\,\\hat q}{n}}=1{,}96\\cdot 0{,}01097\\approx 0{,}0215\\;(2{,}15\\,\\%).$$
+
+**(c)** Con un nivel de confianza del $95\\,\\%$, el porcentaje de jóvenes vascos de $25$ años que viven con sus padres está entre el $83{,}85\\,\\%$ y el $88{,}15\\,\\%$, con un error máximo del $2{,}15\\,\\%$.
+
+## Ejercicio 4
+
+### Enunciado
+
+Asier tiene una urna con $4$ bolas verdes y $2$ rojas. Lanza una moneda: si sale cara extrae una bola de la urna, y si sale cruz extrae dos bolas sin reemplazamiento.
+
+**(a)** ¿Probabilidad de que haya extraído dos bolas rojas?
+
+**(b)** ¿Probabilidad de no haber extraído ninguna bola roja?
+
+**(c)** ¿Probabilidad de haber sacado al menos una bola verde?
+
+**(d)** ¿Probabilidad de que haya salido cara sabiendo que al menos una bola es verde?
+
+### Solución
+
+**(a)** Dos bolas rojas solo es posible si sale cruz:
+$$P(R_1\\cap R_2)=\\tfrac12\\cdot\\tfrac{2}{6}\\cdot\\tfrac{1}{5}=\\tfrac{1}{30}\\approx 0{,}0333\\;(3{,}33\\,\\%).$$
+
+**(b)** Ninguna roja = (cara y verde) o (cruz y dos verdes):
+$$P=\\tfrac12\\cdot\\tfrac{4}{6}+\\tfrac12\\cdot\\tfrac{4}{6}\\cdot\\tfrac{3}{5}=\\tfrac13+\\tfrac{1}{5}=\\tfrac{8}{15}\\approx 0{,}5333\\;(53{,}33\\,\\%).$$
+
+**(c)** Al menos una verde = complementario de "ninguna verde":
+$$P(\\text{al menos una verde})=1-\\Bigl[\\tfrac12\\cdot\\tfrac{2}{6}+\\tfrac12\\cdot\\tfrac{2}{6}\\cdot\\tfrac{1}{5}\\Bigr]=1-\\tfrac{1}{5}=\\tfrac{4}{5}=0{,}8\\;(80\\,\\%).$$
+
+**(d)** Por el teorema de Bayes, con $P(\\text{al menos una verde}\\mid\\text{cara})=\\tfrac{4}{6}$:
+$$P(\\text{cara}\\mid\\text{al menos una verde})=\\dfrac{\\tfrac12\\cdot\\tfrac{4}{6}}{\\tfrac{4}{5}}=\\dfrac{1/3}{4/5}=\\dfrac{5}{12}\\approx 0{,}4167\\;(41{,}67\\,\\%).$$
+
+## Ejercicio 5
+
+### Enunciado
+
+En un barrio hay dos pastelerías. El $40\\,\\%$ de la población compra en la pastelería A, el $25\\,\\%$ en la B y el $15\\,\\%$ en ambas. Se escoge una persona al azar.
+
+**(a)** ¿Probabilidad de que compre en A y no en B?
+
+**(b)** Si es cliente de A, ¿probabilidad de que también lo sea de B?
+
+**(c)** ¿Probabilidad de que no sea cliente ni de A ni de B?
+
+**(d)** ¿Son independientes los sucesos "ser cliente de A" y "ser cliente de B"?
+
+### Solución
+
+**(a)** $P(A\\cap B^c)=P(A)-P(A\\cap B)=0{,}40-0{,}15=0{,}25\\;(25\\,\\%).$
+
+**(b)** $P(B\\mid A)=\\dfrac{P(A\\cap B)}{P(A)}=\\dfrac{0{,}15}{0{,}40}=0{,}375\\;(37{,}5\\,\\%).$
+
+**(c)** Aplicamos el complemento de la unión:
+$$P(A^c\\cap B^c)=1-P(A\\cup B).$$
+Ahora sustituimos los datos:
+$$P(A\\cup B)=0{,}40+0{,}25-0{,}15=0{,}50.$$
+Por tanto,
+$$P(A^c\\cap B^c)=1-0{,}50=0{,}50\\quad(50\\,\\%).$$
+
+**(d)** Serían independientes si $P(A\\cap B)=P(A)\\cdot P(B)$. Como $P(A)\\cdot P(B)=0{,}40\\cdot 0{,}25=0{,}10\\neq 0{,}15=P(A\\cap B)$, los sucesos **no son independientes** (equivalentemente, $P(B\\mid A)=0{,}375\\neq 0{,}25=P(B)$).
+
+## Ejercicio 6
+
+### Enunciado
+
+Una pastelería elabora dos tipos de trufas: dulces y amargas. Cada trufa dulce lleva $20$ g de cacao, $20$ g de nata y $30$ g de azúcar y se vende a $1$ € la unidad. Cada trufa amarga lleva $100$ g de cacao, $20$ g de nata y $15$ g de azúcar y se vende a $1{,}3$ € la unidad. Un día la pastelería solo dispone de $30$ kg de cacao, $8$ kg de nata y $10{,}5$ kg de azúcar, y vende todo lo que elabora.
+
+**(a)** ¿Cuántas trufas de cada tipo deben elaborarse ese día para maximizar los ingresos?
+
+**(b)** ¿A cuánto asciende dicho ingreso máximo?
+
+### Solución
+
+Sea $x$ el número de trufas dulces e $y$ el de amargas.
+
+**Función objetivo (ingresos):** $f(x,y)=x+1{,}3\\,y$.
+
+**Restricciones** (en gramos, simplificadas):
+$$\\begin{cases} 20x+100y\\leq 30000 \\;\\Rightarrow\\; x+5y\\leq 1500 \\\\ 20x+20y\\leq 8000 \\;\\Rightarrow\\; x+y\\leq 400 \\\\ 30x+15y\\leq 10500 \\;\\Rightarrow\\; 2x+y\\leq 700 \\\\ x\\geq 0,\\; y\\geq 0 \\end{cases}$$
+
+**Vértices de la región factible:**
+$$A(0,0),\\quad B(0,300),\\quad C(125,275),\\quad D(300,100),\\quad E(350,0).$$
+($C$ es la intersección de $x+y=400$ y $x+5y=1500$; $D$ la de $x+y=400$ y $2x+y=700$.)
+
+**Valoración de $f$ en los vértices:**
+$$f(A)=0,\\; f(B)=390,\\; f(C)=482{,}5,\\; f(D)=430,\\; f(E)=350.$$
+
+El máximo se alcanza en $C(125,275)$.
+
+## Ejercicio 7
+
+### Enunciado
+
+**(a)** Asocia razonadamente las funciones $A)\\,f(x)=\\dfrac{x-1}{x}$, $B)\\,g(x)=\\dfrac{x}{x^2-1}$, $C)\\,h(x)=\\dfrac{x^2-1}{x}$ con sus representaciones gráficas.
+
+**(b)** En cada caso, a partir de la gráfica, indica el dominio, el recorrido y los intervalos de crecimiento y decrecimiento.
+
+### Solución
+
+**(a) Asociación por asíntotas y cortes:**
+
+- $A)\\,f(x)=\\dfrac{x-1}{x}$: no definida en $x=0$ (asíntota vertical $x=0$), asíntota horizontal $y=1$, corta en $(1,0)$. $\\Rightarrow$ gráfica (3).
+- $B)\\,g(x)=\\dfrac{x}{x^2-1}$: no definida en $x=\\pm 1$ (dos asíntotas verticales), asíntota horizontal $y=0$, pasa por $(0,0)$. $\\Rightarrow$ gráfica (1).
+- $C)\\,h(x)=\\dfrac{x^2-1}{x}$: no definida en $x=0$ (asíntota vertical), asíntota oblicua $y=x$, corta en $(\\pm 1,0)$. $\\Rightarrow$ gráfica (2).
+
+**(b) Dominio, recorrido y monotonía:**
+
+$A)\\;f(x)=\\dfrac{x-1}{x}=1-\\dfrac1x$: $\\operatorname{Dom}=\\mathbb{R}\\setminus\\{0\\}$, $\\operatorname{Rec}=\\mathbb{R}\\setminus\\{1\\}$, creciente en $(-\\infty,0)\\cup(0,+\\infty)$.
+
+$B)\\;g(x)=\\dfrac{x}{x^2-1}$: $\\operatorname{Dom}=\\mathbb{R}\\setminus\\{-1,1\\}$, $\\operatorname{Rec}=\\mathbb{R}$, decreciente en $(-\\infty,-1)\\cup(-1,1)\\cup(1,+\\infty)$.
+
+$C)\\;h(x)=\\dfrac{x^2-1}{x}=x-\\dfrac1x$: $\\operatorname{Dom}=\\mathbb{R}\\setminus\\{0\\}$, $\\operatorname{Rec}=\\mathbb{R}$, creciente en $(-\\infty,0)\\cup(0,+\\infty)$.
+
+## Ejercicio 8
+
+### Enunciado
+
+En un examen de matemáticas que constaba de tres problemas, Aitor obtuvo una calificación total de $7{,}2$ puntos. La puntuación obtenida en el primer problema fue un $40\\,\\%$ más que la obtenida en el segundo, y la del tercero fue el doble de la suma de las puntuaciones obtenidas en el primero y en el segundo.
+
+¿Cuál fue la puntuación obtenida por Aitor en cada problema?
+
+### Solución
+
+Sean $x$, $y$, $z$ las puntuaciones del primer, segundo y tercer problema.
+
+De las condiciones del enunciado se obtiene el sistema
+$$\\begin{cases} x+y+z=7{,}2 \\\\ x=1{,}4\\,y \\\\ z=2x+2y \\end{cases}\\Longrightarrow \\begin{cases} 5x+5y+5z=36 \\\\ 5x-7y=0 \\\\ 2x+2y-z=0 \\end{cases}$$
+
+**Comprobamos que se puede aplicar Cramer** (determinante de coeficientes no nulo):
+$$\\begin{vmatrix} 5 & 5 & 5 \\\\ 5 & -7 & 0 \\\\ 2 & 2 & -1 \\end{vmatrix}=180\\neq 0.$$
+
+**Regla de Cramer:**
+$$x=\\dfrac{\\begin{vmatrix} 36 & 5 & 5 \\\\ 0 & -7 & 0 \\\\ 0 & 2 & -1 \\end{vmatrix}}{180}=\\dfrac{252}{180}=1{,}4,\\quad y=\\dfrac{\\begin{vmatrix} 5 & 36 & 5 \\\\ 5 & 0 & 0 \\\\ 2 & 0 & -1 \\end{vmatrix}}{180}=\\dfrac{180}{180}=1,$$
+$$z=\\dfrac{\\begin{vmatrix} 5 & 5 & 36 \\\\ 5 & -7 & 0 \\\\ 2 & 2 & 0 \\end{vmatrix}}{180}=\\dfrac{864}{180}=4{,}8.$$
+
+Las tres puntuaciones suman $1{,}4+1+4{,}8=7{,}2$, como exige el enunciado.
+`,Yn=`---
+title: Matemáticas Aplicadas a las CCSS II · PAU 2025 · Comunidad Valenciana · Extraordinaria — examen resuelto
+seoTitle: PAU Matemáticas Aplicadas a las CCSS II Comunidad Valenciana 2025 resuelta
+date: 2025-06-01
+updated: 2026-11-05
+description: Examen resuelto de Matemáticas Aplicadas a las Ciencias Sociales II de Comunidad Valenciana 2025, con procedimientos completos.
+tag: Matemáticas CCSS PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+Dos modelos describen una magnitud (en una escala de $0$ a $1$) en función de $x\\in[0,50]$:
+$$D_{A}(x)=\\dfrac{29x+30}{3000},\\qquad D_{B}(x)=\\dfrac{x^{2}}{3000}.$$
+**(a)** Halle el valor de $x$ en que ambos modelos coinciden.
+
+**(b)** Determine el intervalo donde $D_{A}(x)< D_{B}(x)$ y el intervalo donde $D_{B}(x)< D_{A}(x)$, con $x\\in[0,50]$.
+
+**(c)** Calcule el área encerrada entre ambas curvas en cada uno de esos intervalos.
+
+### Solución
+
+**(a)** Igualamos $D_{A}(x)=D_{B}(x)$:
+$$29x+30=x^{2}\\Rightarrow x^{2}-29x-30=0\\Rightarrow (x-30)(x+1)=0\\Rightarrow x=30\\ \\text{o}\\ x=-1.$$
+La única solución válida en $[0,50]$ es $x=30$.
+
+**(b)** En $[0,30)$ se cumple $D_{B}(x)< D_{A}(x)$ y en $(30,50]$ se cumple $D_{A}(x)< D_{B}(x)$ (basta probar un punto de cada intervalo).
+
+**(c)** Primer recinto, en $[0,30]$:
+$$\\int_{0}^{30}\\big(D_{A}(x)-D_{B}(x)\\big)\\,dx=\\dfrac{1}{3000}\\int_{0}^{30}(29x+30-x^{2})\\,dx=\\dfrac{33}{20}=1{,}65.$$
+Segundo recinto, en $[30,50]$:
+$$\\int_{30}^{50}\\big(D_{B}(x)-D_{A}(x)\\big)\\,dx=\\dfrac{1}{3000}\\int_{30}^{50}(x^{2}-29x-30)\\,dx=\\dfrac{133}{45}\\approx 2{,}9556.$$
+
+## Ejercicio 2
+
+### Enunciado
+
+Se consideran las matrices
+$$A=\\begin{pmatrix} 1 & 0 & 2 \\\\ 0 & 1 & -2 \\\\ 0 & 3 & 0 \\end{pmatrix},\\quad B=\\begin{pmatrix} -3 & -1 & 0 \\\\ 1 & 0 & -1 \\end{pmatrix},\\quad C=\\begin{pmatrix} 1 & 0 & -1 \\\\ 4 & 2 & 0 \\end{pmatrix}.$$
+Resuelva la ecuación matricial
+$$2\\,X\\cdot A+B^{t}\\cdot C=I_{3},$$
+donde $I_{3}$ es la matriz identidad de orden $3$ y $B^{t}$ la traspuesta de $B$, obteniendo la matriz $X$.
+
+### Solución
+
+Despejamos $X$. De $2XA+B^{t}C=I_{3}$ se obtiene $2XA=I_{3}-B^{t}C$, es decir
+$$X=\\tfrac{1}{2}\\,(I_{3}-B^{t}C)\\,A^{-1}.$$
+Calculamos $B^{t}C$ (con $B^{t}$ de orden $3\\times 2$ y $C$ de orden $2\\times 3$):
+$$B^{t}C=\\begin{pmatrix} 1 & 2 & 3 \\\\ -1 & 0 & 1 \\\\ -4 & -2 & 0 \\end{pmatrix}.$$
+Como $\\det(A)=6\\neq 0$, existe la inversa:
+$$A^{-1}=\\begin{pmatrix} 1 & 1 & -\\tfrac{1}{3} \\\\ 0 & 0 & \\tfrac{1}{3} \\\\ 0 & -\\tfrac{1}{2} & \\tfrac{1}{6} \\end{pmatrix}.$$
+Entonces $I_{3}-B^{t}C=\\begin{pmatrix} 0 & -2 & -3 \\\\ 1 & 1 & -1 \\\\ 4 & 2 & 1 \\end{pmatrix}$ y
+$$X=\\tfrac{1}{2}(I_{3}-B^{t}C)\\,A^{-1}=\\begin{pmatrix} 0 & \\tfrac{3}{4} & -\\tfrac{7}{12} \\\\ \\tfrac{1}{2} & \\tfrac{3}{4} & -\\tfrac{1}{12} \\\\ 2 & \\tfrac{7}{4} & -\\tfrac{1}{4} \\end{pmatrix}.$$
+
+## Ejercicio 3
+
+### Enunciado
+
+Se encuesta a $2000$ ciudadanos sobre dos actividades: limpieza de parques y plantación de árboles. $800$ participaron en la limpieza, $1400$ en la plantación, $300$ en ambas y $100$ en ninguna. Se elige un ciudadano al azar.
+
+**(a)** Probabilidad de que participara en al menos una actividad.
+
+**(b)** Probabilidad de que participara en la limpieza pero no en la plantación.
+
+**(c)** Probabilidad de que participara en exactamente una actividad.
+
+**(d)** Sabiendo que no participó en la plantación, probabilidad de que tampoco participara en la limpieza.
+
+### Solución
+
+Construimos la tabla de contingencia (totales $2000$):
+
+| | Plantación | No plantación | Total |
+|---|---|---|---|
+| Limpieza | $300$ | $500$ | $800$ |
+| No limpieza | $1100$ | $100$ | $1200$ |
+| Total | $1400$ | $600$ | $2000$ |
+
+**(a)** Al menos una actividad es el complementario de "ninguna":
+$$P=\\dfrac{2000-100}{2000}=\\dfrac{1900}{2000}=0{,}95.$$
+
+**(b)** Limpieza y no plantación: $\\dfrac{500}{2000}=0{,}25$.
+
+**(c)** Exactamente una actividad: $\\dfrac{500+1100}{2000}=\\dfrac{1600}{2000}=0{,}80$.
+
+**(d)** Probabilidad condicionada:
+$$P(\\text{no limpieza}\\mid\\text{no plantación})=\\dfrac{100/2000}{600/2000}=\\dfrac{100}{600}\\approx 0{,}1667.$$
+
+## Ejercicio 4
+
+### Enunciado
+
+Una agencia programa excursiones a la montaña y a la playa. Cada excursión a la montaña proporciona un beneficio de $700$€ y cada una a la playa de $500$€. Las excursiones están sujetas a las restricciones $2x+2y\\leq 10$ y $2x+y\\leq 8$, siendo $x$ el número de excursiones a la montaña e $y$ el de excursiones a la playa.
+
+**(a)** Determine cuántas excursiones de cada tipo debe programar la agencia para maximizar el beneficio.
+
+**(b)** Calcule el beneficio máximo.
+
+### Solución
+
+Sea $x$ el número de excursiones a la montaña e $y$ el de excursiones a la playa. Se maximiza la función objetivo $f(x,y)=700x+500y$ con
+$$\\begin{cases} 2x+2y\\leq 10 \\\\ 2x+y\\leq 8 \\\\ x\\geq 0,\\ y\\geq 0 \\end{cases}$$
+**(a)** La región factible es un cuadrilátero de vértices $A(3,2)$, $B(0,5)$, $C(4,0)$ y $D(0,0)$. El vértice $A(3,2)$ es la intersección de $2x+2y=10$ y $2x+y=8$. Evaluamos $f$:
+$$\\begin{aligned} D(0,0)&\\to 0 \\\\ B(0,5)&\\to 2500 \\\\ C(4,0)&\\to 2800 \\\\ A(3,2)&\\to 3100\\ (\\text{máximo}) \\end{aligned}$$
+El máximo se alcanza en $A(3,2)$: $3$ excursiones a la montaña y $2$ a la playa.
+
+**(b)** El beneficio máximo es $f(3,2)=700\\cdot 3+500\\cdot 2=3100$€.
+
+## Ejercicio 5
+
+### Enunciado
+
+Se considera la función
+$$f(x)=\\dfrac{x}{(x+1)^{2}}.$$
+**(a)** Determine el dominio y los puntos de corte con los ejes.
+
+**(b)** Halle las asíntotas vertical y horizontal.
+
+**(c)** Estudie los intervalos de crecimiento y decrecimiento y los extremos locales.
+
+**(d)** Represente gráficamente la función a partir de los resultados anteriores.
+
+### Solución
+
+**(a)** Dominio: se anula el denominador en $x=-1$, luego $\\text{Dom}(f)=\\mathbb{R}\\setminus\\{-1\\}$. Cortes: $f(x)=0\\Rightarrow x=0$; el único corte con los ejes es $(0,0)$.
+
+**(b)** En $x=-1$: $\\lim_{x\\to -1}f(x)=-\\infty$, luego hay **asíntota vertical** $x=-1$. Como $\\lim_{x\\to\\pm\\infty}\\dfrac{x}{(x+1)^{2}}=0$, hay **asíntota horizontal** $y=0$.
+
+**(c)** Derivada:
+$$f'(x)=\\dfrac{(x+1)^{2}-x\\cdot 2(x+1)}{(x+1)^{4}}=\\dfrac{1-x}{(x+1)^{3}}.$$
+$f'(x)=0\\Rightarrow x=1$. Estudiando el signo: $f$ es **decreciente** en $(-\\infty,-1)$, **creciente** en $(-1,1)$ y **decreciente** en $(1,+\\infty)$. Hay un **máximo local** en $x=1$, con $f(1)=\\dfrac{1}{4}$. No hay mínimos locales.
+
+**(d)** Con dominio $\\mathbb{R}\\setminus\\{-1\\}$, paso por $(0,0)$, asíntota vertical $x=-1$, asíntota horizontal $y=0$ y máximo en $\\big(1,\\tfrac{1}{4}\\big)$, se dibuja la curva: a la izquierda de $x=-1$ decrece hacia $y=0^{-}$... creciendo hasta el máximo $(1,\\tfrac14)$ y decreciendo de nuevo hacia $y=0^{+}$.
+`,ea=`---
+title: Matemáticas Aplicadas a las CCSS II · PAU 2025 · Madrid — examen resuelto
+seoTitle: PAU Matemáticas Aplicadas a las CCSS II Madrid 2025 resuelta
+date: 2025-06-01
+updated: 2026-11-05
+description: Examen resuelto de Matemáticas Aplicadas a las Ciencias Sociales II de Madrid 2025, con procedimientos completos.
+tag: Matemáticas CCSS PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+Se considera $f(x)=e^{x}(-x^{2}+3)$.
+**(a)** Determina los intervalos de crecimiento y decrecimiento y clasifica, si procede, sus extremos relativos.
+**(b)** Halla el valor de la integral definida $\\displaystyle\\int_{1}^{2}\\frac{f(x)}{x\\,e^{x}}\\,dx$.
+
+### Solución
+
+**(a)** $f$ es continua y derivable en $\\mathbb{R}$.
+$$f'(x)=e^{x}(-x^2+3)+e^{x}(-2x)=e^{x}(-x^2-2x+3).$$
+Como $e^x>0$, $f'(x)=0\\iff x^2+2x-3=0\\iff x=-3$ o $x=1$. Estudiando el signo:
+- En $(-\\infty,-3)$ y $(1,+\\infty)$: $f'<0$, $f$ **decrece**.
+- En $(-3,1)$: $f'>0$, $f$ **crece**.
+
+Por tanto hay un **mínimo relativo** en $x=-3$: $f(-3)=e^{-3}(-9+3)=-6e^{-3}$, y un **máximo relativo** en $x=1$: $f(1)=e(-1+3)=2e$.
+
+**(b)** Simplificamos el integrando: $\\dfrac{f(x)}{x e^x}=\\dfrac{e^x(-x^2+3)}{x e^x}=\\dfrac{-x^2+3}{x}=-x+\\dfrac{3}{x}$. Entonces
+$$\\int_1^2\\left(-x+\\frac{3}{x}\\right)dx=\\left[-\\frac{x^2}{2}+3\\ln|x|\\right]_1^2=\\left(-2+3\\ln2\\right)-\\left(-\\tfrac12\\right)=-\\tfrac32+3\\ln2\\approx0{,}5794.$$
+
+## Ejercicio 2
+
+### Enunciado
+
+Se considera
+$$f(x)=\\begin{cases} \\dfrac{x^{2}+1}{x-1} & \\text{si } x\\le0\\\\[2mm] \\dfrac{x+a}{x+1} & \\text{si } x>0\\end{cases},\\qquad a\\in\\mathbb{R}.$$
+**(a)** Determina el valor de $a$ para que $f$ sea continua en $x=0$.
+**(b)** Calcula las asíntotas de $f(x)$.
+
+### Solución
+
+**(a)** Continuidad en $x=0$: $f(0)=\\dfrac{0+1}{0-1}=-1$ y $\\displaystyle\\lim_{x\\to0^+}\\frac{x+a}{x+1}=a$. Igualando los límites laterales con $f(0)$: $a=-1$.
+
+**(b)** Con $a=-1$, el dominio es todo $\\mathbb{R}$ (los denominadores $x-1$ para $x\\le0$ y $x+1$ para $x>0$ no se anulan en sus tramos), por lo que **no hay asíntotas verticales**.
+
+*Asíntota horizontal (en $+\\infty$):* $\\displaystyle\\lim_{x\\to+\\infty}\\frac{x-1}{x+1}=1$, luego $y=1$ es asíntota horizontal en $+\\infty$.
+
+*Asíntota oblicua (en $-\\infty$):* como $\\displaystyle\\lim_{x\\to-\\infty}\\frac{x^2+1}{x-1}=-\\infty$, buscamos $y=mx+n$:
+$$m=\\lim_{x\\to-\\infty}\\frac{x^2+1}{x(x-1)}=1,\\qquad n=\\lim_{x\\to-\\infty}\\left(\\frac{x^2+1}{x-1}-x\\right)=\\lim_{x\\to-\\infty}\\frac{x+1}{x-1}=1.$$
+Luego $y=x+1$ es asíntota oblicua en $-\\infty$.
+
+## Ejercicio 3
+
+### Enunciado
+
+Un maestro jabonero sabe que el $90\\%$ de sus pastillas pasarían el control de calidad.
+**(a)** Determina el tamaño mínimo de muestra para estimar la proporción que supera el control, con confianza del $95\\%$ y error inferior al $5\\%$.
+**(b)** Si se eligen $140$ pastillas, calcula, aproximando por la normal adecuada, la probabilidad de que al menos $120$ superen el control.
+
+### Solución
+
+**(a)** Con $z_{\\alpha/2}=1{,}96$ y $E=z_{\\alpha/2}\\sqrt{\\dfrac{pq}{n}}<0{,}05$:
+$$n>\\frac{z_{\\alpha/2}^{2}\\,p\\,q}{E^{2}}=\\frac{1{,}96^{2}\\cdot0{,}90\\cdot0{,}10}{0{,}05^{2}}=138{,}2976.$$
+Por tanto, el tamaño mínimo es $n=139$ pastillas.
+
+**(b)** Sea $X=$ "n.º de pastillas que superan el control" entre $140$, $X\\sim B(140;\\,0{,}90)$. Como $n>30$, $np=126>5$ y $nq=14>5$, aproximamos por $Y\\sim N(\\mu,\\sigma)$ con $\\mu=np=126$ y $\\sigma=\\sqrt{npq}=\\sqrt{12{,}6}\\approx3{,}55$. Con corrección de continuidad (Yates):
+$$P(X\\ge120)\\approx P\\!\\left(Z\\ge\\frac{119{,}5-126}{3{,}55}\\right)=P(Z\\ge-1{,}83)=P(Z\\le1{,}83)=0{,}9664.$$
+
+## Ejercicio 4
+
+### Enunciado
+
+El peso de las pastillas de jabón se aproxima por una normal de media $\\mu$ gramos y desviación típica $30$ gramos.
+**(a)** Se seleccionan $140$ pastillas con peso total $17500$ g. Obtén un intervalo de confianza del $99\\%$ para $\\mu$.
+**(b)** Si $\\mu=100$ g, ¿cuál sería la probabilidad de que el peso medio de una muestra de $64$ pastillas supere $110$ g?
+
+### Solución
+
+**(a)** Media muestral: $\\overline{x}=\\dfrac{17500}{140}=125$ g. Para el $99\\%$, $z_{\\alpha/2}=2{,}575$. El intervalo es
+$$\\overline{x}\\pm z_{\\alpha/2}\\frac{\\sigma}{\\sqrt n}=125\\pm2{,}575\\cdot\\frac{30}{\\sqrt{140}}=125\\pm6{,}53=(118{,}47,\\ 131{,}53).$$
+
+**(b)** Con $\\mu=100$ y $n=64$: $\\overline{X}\\sim N\\!\\left(100,\\ \\dfrac{30}{\\sqrt{64}}=\\dfrac{30}{8}=3{,}75\\right)$. Entonces
+$$P(\\overline{X}>110)=P\\!\\left(Z>\\frac{110-100}{3{,}75}\\right)=P(Z>2{,}67)=1-0{,}9962=0{,}0038.$$
+
+## Ejercicio 5
+
+### Enunciado
+
+En un concesionario, el $50\\%$ de las ventas son de microhíbridos, el $35\\%$ híbridos y el resto eléctricos enchufables. El acabado más alto de gama se vende en el $80\\%$ de los eléctricos, el $60\\%$ de los híbridos y el $45\\%$ de los microhíbridos. Se selecciona una venta al azar.
+**(a)** Probabilidad de que el coche vendido no tenga el acabado más alto de gama.
+**(b)** Si el coche tiene el acabado más alto, probabilidad de que sea eléctrico enchufable.
+
+### Solución
+
+Sean $A,B,C$ los sucesos "microhíbrido", "híbrido" y "eléctrico enchufable", con $P(A)=0{,}50$, $P(B)=0{,}35$, $P(C)=0{,}15$, y $G=$ "acabado más alto de gama".
+
+**(a)** Por probabilidad total:
+$$P(G)=0{,}45\\cdot0{,}50+0{,}60\\cdot0{,}35+0{,}80\\cdot0{,}15=0{,}225+0{,}21+0{,}12=0{,}555.$$
+Luego $P(\\overline{G})=1-0{,}555=0{,}445$.
+
+**(b)** Por Bayes:
+$$P(C\\mid G)=\\frac{P(G\\mid C)P(C)}{P(G)}=\\frac{0{,}80\\cdot0{,}15}{0{,}555}=\\frac{0{,}12}{0{,}555}\\approx0{,}2162.$$
+
+## Ejercicio 6
+
+### Enunciado
+
+De tres sucesos $A$, $B$ y $C$ se sabe que $A$ y $C$ son disjuntos, $A$ y $B$ son independientes y $P(A)=0{,}25$, $P(B)=0{,}2$, $P(B\\cap C)=0{,}05$.
+**(a)** Calcula la probabilidad de que ocurra al menos uno de los sucesos $A$ o $B$.
+**(b)** Calcula $P(\\overline{B}\\cup\\overline{C})$.
+**(c)** ¿Pueden ser independientes los sucesos $A$ y $C$?
+
+### Solución
+
+Como $A$ y $B$ son independientes, $P(A\\cap B)=P(A)P(B)=0{,}25\\cdot0{,}2=0{,}05$.
+
+**(a)** $$P(A\\cup B)=P(A)+P(B)-P(A\\cap B)=0{,}25+0{,}2-0{,}05=0{,}4.$$
+
+**(b)** Por las leyes de De Morgan, $\\overline{B}\\cup\\overline{C}=\\overline{B\\cap C}$, de modo que
+$$P(\\overline{B}\\cup\\overline{C})=1-P(B\\cap C)=1-0{,}05=0{,}95.$$
+
+**(c)** Como $P(B\\cap C)=0{,}05$, se tiene $P(C)\\ge0{,}05>0$, y además $P(A)=0{,}25>0$, luego $P(A)P(C)>0$. Pero al ser disjuntos $P(A\\cap C)=0\\neq P(A)P(C)$. Por tanto, $A$ y $C$ **no pueden ser independientes**.
+
+## Ejercicio 7
+
+### Enunciado
+
+Un frutero alquila una cámara con capacidad para $2700$ kg de sandía, que es lo que vende cada semana, de tres variedades: rayada (a $1{,}25$ €/kg), negra sin pepitas (a $2{,}75$ €/kg) y negra con pepitas (a $2{,}25$ €/kg). Quiere que, en cualquier caso, los kilos de sandía negra con pepitas sean un tercio del total de kilos de sandía sin pepitas y rayada.
+**(a)** Para recaudar exactamente $5400$ € vendiendo las $2700$ kg, ¿cuántos kilos de cada variedad debe vender?
+**(b)** ¿Es posible poner el mismo precio a todas las variedades y seguir recaudando $5400$ € con los $2700$ kg? Si es así, ¿cuál sería el precio y las cantidades? Justifica si son únicas.
+
+### Solución
+
+Sean $x=$ kg de rayada, $y=$ kg de negra con pepitas, $z=$ kg de negra sin pepitas.
+
+**(a)** El sistema es
+$$\\begin{cases} x+y+z=2700\\\\ x-3y+z=0\\\\ 1{,}25x+2{,}25y+2{,}75z=5400\\end{cases}$$
+(la segunda ecuación viene de $y=\\tfrac13(x+z)$). Resolviendo por Gauss se obtiene $z=900$, $y=675$, $x=1125$. Comprobación: $1125+675+900=2700$ y $1{,}25\\cdot1125+2{,}25\\cdot675+2{,}75\\cdot900=5400$.
+$$\\boxed{1125\\text{ kg rayada},\\ 675\\text{ kg negra con pepitas},\\ 900\\text{ kg negra sin pepitas}.}$$
+
+**(b)** Si el precio común es $p$ €/kg, la tercera ecuación pasa a $p(x+y+z)=5400$, es decir $2700p=5400\\Rightarrow p=2$ €/kg. Con el sistema
+$$\\begin{cases} x+y+z=2700\\\\ x-3y+z=0\\end{cases}$$
+se obtiene $y=675$ y $x+z=2025$. Como hay dos ecuaciones y tres incógnitas, el sistema es **compatible indeterminado**: la solución **no es única**. Se venderían $675$ kg de negra con pepitas y, entre rayada y negra sin pepitas, $2025$ kg repartidos de cualquier forma válida.
+`,na=`---
+title: Matemáticas Aplicadas a las CCSS II · PAU 2025 · Murcia — examen resuelto
+seoTitle: PAU Matemáticas Aplicadas a las CCSS II Murcia 2025 resuelta
+date: 2025-06-01
+updated: 2026-11-05
+description: Examen resuelto de Matemáticas Aplicadas a las Ciencias Sociales II de Murcia 2025, con procedimientos completos.
+tag: Matemáticas CCSS PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+La asistencia (en miles de personas) a un concierto es $N(t)=\\dfrac{20t}{(t+1)^2}$, con $0\\le t\\le5$ ($t$ en horas tras el comienzo).
+
+**(a)** Estudie el crecimiento y decrecimiento de $N(t)$. **(b)** ¿En qué hora se alcanza el máximo de asistentes y cuántos son? **(c)** Evalúe e interprete $N'(2)$. **(d)** ¿Cuántos asistentes hay a las $3$ horas?
+
+### Solución
+
+**(a)**
+$$N'(t)=\\frac{20(t+1)^2-20t\\cdot2(t+1)}{(t+1)^4}=\\frac{20(1-t)}{(t+1)^3}.$$
+$N'(t)=0\\iff t=1$. Para $0<t<1$, $N'>0$ (**crece**); para $1<t<5$, $N'<0$ (**decrece**).
+
+**(b)** El máximo se alcanza en $t=1$: $N(1)=\\dfrac{20}{4}=5$, es decir, **$5000$ personas**.
+
+**(c)** $N'(2)=\\dfrac{20(1-2)}{3^3}=-\\dfrac{20}{27}\\approx-0{,}74$. Significa que entre la segunda y la tercera hora la asistencia disminuye en unas $0{,}74$ miles, es decir, se van unas $740$ personas.
+
+**(d)** $N(3)=\\dfrac{20\\cdot3}{16}=\\dfrac{60}{16}=3{,}75$, es decir, $3750$ personas a las $3$ horas.
+
+## Ejercicio 2
+
+### Enunciado
+
+**(a)** Si $\\displaystyle\\int_0^2 f(x)\\,dx=4$, ¿cuánto vale $\\displaystyle\\int_0^2[f(x)+3]\\,dx$?
+
+**(b)** Represente el recinto limitado por $f(x)=x^2$ y $g(x)=2x+3$ y calcule su área.
+
+### Solución
+
+**(a)** Por linealidad,
+$$\\int_0^2[f(x)+3]\\,dx=\\int_0^2 f(x)\\,dx+3\\int_0^2 dx=4+3\\cdot2=10.$$
+
+**(b)** Puntos de corte: $x^2=2x+3\\Rightarrow x^2-2x-3=0\\Rightarrow x=-1,\\ x=3$. En $(-1,3)$ la recta queda por encima de la parábola, luego
+$$\\text{Área}=\\int_{-1}^{3}(2x+3-x^2)\\,dx=\\Big[x^2+3x-\\tfrac{x^3}{3}\\Big]_{-1}^{3}=9-\\Big(-\\tfrac53\\Big)=\\frac{32}{3}\\ \\text{u}^2.$$
+
+## Ejercicio 3
+
+### Enunciado
+
+**(a)** Halle los límites $a$ y $b$ para que $\\displaystyle\\int_{-2}^{1}f(x)\\,dx+\\int_{1}^{5}f(x)\\,dx=\\int_{a}^{b}f(x)\\,dx$.
+
+**(b)** Dada $f(x)=\\dfrac12 e^{x/2}$: (b.1) escriba la integral que describe el área bajo la curva entre $x=0$ y $x=4$; (b.2) calcule dicha área.
+
+### Solución
+
+**(a)** Por la aditividad respecto al intervalo,
+$$\\int_{-2}^{1}f+\\int_{1}^{5}f=\\int_{-2}^{5}f,\\qquad\\text{luego } a=-2,\\ b=5.$$
+
+**(b.1)** El área entre $x=0$ y $x=4$ es
+$$\\int_0^4 \\tfrac12 e^{x/2}\\,dx.$$
+
+**(b.2)** Una primitiva de $\\tfrac12 e^{x/2}$ es $e^{x/2}$, así que
+$$\\int_0^4 \\tfrac12 e^{x/2}\\,dx=\\big[e^{x/2}\\big]_0^4=e^2-1\\ \\text{u}^2\\approx6{,}39\\ \\text{u}^2.$$
+
+## Ejercicio 4
+
+### Enunciado
+
+Dadas $A=\\begin{pmatrix}2&-1\\\\ 1&0\\end{pmatrix}$, $B=\\begin{pmatrix}1&0\\\\ -1&1\\end{pmatrix}$ y $C=\\begin{pmatrix}1&2\\\\ 0&-1\\end{pmatrix}$:
+
+**(a)** Calcule $C^2$. **(b)** Halle $A+B+C^2$. **(c)** Encuentre $(A-B)^{-1}$. **(d)** Resuelva la ecuación matricial $AX-BX=A+B+C^2$.
+
+Además, discuta y resuelva el sistema $\\begin{cases}3x+2y-z=3\\\\ x-y+2z=4\\\\ 2x+3y-z=3\\end{cases}$.
+
+### Solución
+
+**(a)** $C^2=\\begin{pmatrix}1&2\\\\ 0&-1\\end{pmatrix}\\begin{pmatrix}1&2\\\\ 0&-1\\end{pmatrix}=\\begin{pmatrix}1&0\\\\ 0&1\\end{pmatrix}=I.$
+
+**(b)** $A+B+C^2=\\begin{pmatrix}2&-1\\\\ 1&0\\end{pmatrix}+\\begin{pmatrix}1&0\\\\ -1&1\\end{pmatrix}+\\begin{pmatrix}1&0\\\\ 0&1\\end{pmatrix}=\\begin{pmatrix}4&-1\\\\ 0&2\\end{pmatrix}.$
+
+**(c)** $A-B=\\begin{pmatrix}1&-1\\\\ 2&-1\\end{pmatrix}$, con $|A-B|=1$, luego $(A-B)^{-1}=\\begin{pmatrix}-1&1\\\\ -2&1\\end{pmatrix}.$
+
+**(d)** $AX-BX=(A-B)X=A+B+C^2\\Rightarrow X=(A-B)^{-1}(A+B+C^2)$:
+$$X=\\begin{pmatrix}-1&1\\\\ -2&1\\end{pmatrix}\\begin{pmatrix}4&-1\\\\ 0&2\\end{pmatrix}=\\begin{pmatrix}-4&3\\\\ -8&4\\end{pmatrix}.$$
+
+**Sistema:** con $\\begin{pmatrix}1&-1&2\\\\ 3&2&-1\\\\ 2&3&-1\\end{pmatrix}$, $|A|=-10\\neq0$, así que $\\operatorname{rg}(A)=3=\\operatorname{rg}(A|b)=n$: **compatible determinado**. La solución es $x=1,\\ y=1,\\ z=2$.
+
+## Ejercicio 5
+
+### Enunciado
+
+El peso (kg) de los jugadores sigue $N(\\mu,\\ 12)$ ($\\sigma=12$ kg).
+
+**(a)** Con una muestra de $64$ jugadores y media $70$ kg, calcule un intervalo de confianza al $95\\%$ para $\\mu$.
+
+**(b)** Determine el tamaño muestral mínimo para que el error en la estimación de $\\mu$ sea menor que $4$ kg con confianza del $98\\%$.
+
+**(c)** Si $\\mu=71$, ¿probabilidad de que un jugador pese más de $75$ kg?
+
+### Solución
+
+**(a)** Con $z_{\\alpha/2}=1{,}96$,
+$$IC_{95\\%}=\\Big(70-1{,}96\\cdot\\tfrac{12}{\\sqrt{64}},\\ 70+1{,}96\\cdot\\tfrac{12}{\\sqrt{64}}\\Big)=70\\pm1{,}96\\cdot1{,}5=(67{,}06,\\ 72{,}94).$$
+
+**(b)** El error cumple $\\varepsilon=z_{\\alpha/2}\\dfrac{\\sigma}{\\sqrt n}<4$. Con $z_{\\alpha/2}=2{,}33$ (nivel $98\\%$):
+$$\\sqrt n>\\frac{2{,}33\\cdot12}{4}=6{,}99\\Rightarrow n>48{,}86\\Rightarrow n=49.$$
+(Con el valor redondeado $z=2{,}34$, se obtiene $n>49{,}28\\Rightarrow n=50$; ambos valores de $z$ se admiten.)
+
+**(c)** Para un jugador, $X\\sim N(71,\\ 12)$:
+$$P(X>75)=P\\!\\left(Z>\\frac{75-71}{12}\\right)=P(Z>0{,}33)=1-0{,}6293=0{,}3707.$$
+
+## Ejercicio 6
+
+### Enunciado
+
+Se encuesta a $1000$ personas sobre fijar una edad legal para el móvil infantil: $560$ están a favor ($F$), de las que $390$ son mujeres; de las $440$ en contra, $280$ son hombres. Se elige una persona al azar.
+
+**(a)** $P(F)$. **(b)** $P(M)$ (que sea mujer). **(c)** $P(M\\cup F)$. **(d)** Si es hombre, $P(F\\mid H)$.
+
+### Solución
+
+De los datos: mujeres a favor $=390$, hombres a favor $=170$; mujeres en contra $=160$, hombres en contra $=280$. Totales: mujeres $=550$, hombres $=450$.
+
+**(a)** $P(F)=\\dfrac{560}{1000}=0{,}56.$
+
+**(b)** $P(M)=\\dfrac{550}{1000}=0{,}55.$
+
+**(c)** $P(M\\cap F)=\\dfrac{390}{1000}=0{,}39$, luego
+$$P(M\\cup F)=P(M)+P(F)-P(M\\cap F)=0{,}55+0{,}56-0{,}39=0{,}72.$$
+
+**(d)** $P(F\\mid H)=\\dfrac{P(F\\cap H)}{P(H)}=\\dfrac{170/1000}{450/1000}=\\dfrac{170}{450}=\\dfrac{17}{45}\\approx0{,}3778.$
+
+## Ejercicio 7
+
+### Enunciado
+
+Una empresa fabrica portátiles notebook ($x$) y gaming ($y$), con beneficios de $400$ € y $500$ € por unidad. Hay tres fases con límites diarios: fase 1 $2x+y\\le14$, fase 2 $x+4y\\le16$, fase 3 $x+2y\\le10$, con $x,y\\ge0$.
+
+**(a)** Formule la función objetivo y las restricciones. **(b)** Represente la región factible. **(c)** Halle sus vértices. **(d)** ¿Cuántos de cada tipo producir para maximizar el beneficio? **(e)** Calcule el beneficio máximo diario.
+
+### Solución
+
+**(a)** Objetivo: $f(x,y)=400x+500y$, sujeta a $2x+y\\le14$, $x+4y\\le16$, $x+2y\\le10$, $x,y\\ge0$.
+
+**(b)-(c)** Los vértices de la región factible son
+$$(0,0),\\ (7,0),\\ (6,2),\\ (4,3),\\ (0,4),$$
+donde $(6,2)$ es la intersección de $2x+y=14$ y $x+2y=10$, y $(4,3)$ la de $x+2y=10$ y $x+4y=16$.
+
+**(d)** Evaluando $f$:
+$$f(0,0)=0,\\ f(7,0)=2800,\\ f(6,2)=3400,\\ f(4,3)=3100,\\ f(0,4)=2000.$$
+El máximo es $3400$ en $(6,2)$: producir $6$ notebooks y $2$ gaming.
+
+**(e)** El beneficio máximo diario es $\\mathbf{3400}$ €.
+
+## Ejercicio 8
+
+### Enunciado
+
+Dada $f(x)=\\dfrac{x^2+3}{1-x}$:
+
+**(a)** Determine su dominio. **(b)** Estudie sus asíntotas. **(c)** Calcule los intervalos de crecimiento y decrecimiento. **(d)** Calcule los máximos y mínimos locales.
+
+### Solución
+
+**(a)** Se anula el denominador en $x=1$, luego $D(f)=\\mathbb{R}\\setminus\\{1\\}$.
+
+**(b)** **Asíntota vertical:** $x=1$. No hay horizontal (el grado del numerador supera al del denominador en $1$), pero sí **oblicua** $y=mx+n$:
+$$m=\\lim_{x\\to\\infty}\\frac{f(x)}{x}=-1,\\qquad n=\\lim_{x\\to\\infty}\\big(f(x)+x\\big)=-1,$$
+de modo que $y=-x-1$.
+
+**(c)** Derivando,
+$$f'(x)=\\frac{-x^2+2x+3}{(1-x)^2},\\qquad f'(x)=0\\iff x^2-2x-3=0\\iff x=-1,\\ x=3.$$
+El numerador $-x^2+2x+3$ es positivo entre $-1$ y $3$: $f$ **crece** en $(-1,1)\\cup(1,3)$ y **decrece** en $(-\\infty,-1)\\cup(3,+\\infty)$.
+
+**(d)** **Mínimo local** en $x=-1$: $f(-1)=\\dfrac{4}{2}=2$, punto $(-1,2)$. **Máximo local** en $x=3$: $f(3)=\\dfrac{12}{-2}=-6$, punto $(3,-6)$.
+`,aa=`---
+title: Matemáticas Aplicadas a las CCSS II · PAU 2026 · Andalucía — examen resuelto
+seoTitle: PAU Matemáticas Aplicadas a las CCSS II Andalucía 2026 resuelta
+date: 2026-06-01
+updated: 2026-11-05
+description: Examen resuelto de Matemáticas Aplicadas a las Ciencias Sociales II de Andalucía 2026, con procedimientos completos.
+tag: Matemáticas CCSS PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+La distancia por viaje de unos camiones sigue una $N(\\mu,\\sigma)$ con varianza $225\\ \\text{km}^2$ y media desconocida. En una muestra de $49$ viajes la media es $325$ km.
+
+**(a)** $(0{,}75$ puntos$)$ Calcule un intervalo de confianza al $97\\%$ para $\\mu$.
+
+**(b)** $(0{,}5$ puntos$)$ ¿Puede considerarse que recorren por término medio $310$ km por viaje?
+
+**(c)** $(0{,}75$ puntos$)$ ¿Cuántos viajes, como mínimo, para un intervalo al $99\\%$ con amplitud inferior a $4$ km?
+
+### Solución
+
+**(a)** $\\sigma=15$. Al $97\\%$, $z=2{,}17$:
+$$E=2{,}17\\cdot\\dfrac{15}{\\sqrt{49}}=4{,}65\\Rightarrow IC=(325-4{,}65,\\ 325+4{,}65)=(320{,}35,\\ 329{,}65).$$
+
+**(b)** $310$ km **no pertenece** al intervalo $(320{,}35,\\ 329{,}65)$, luego no puede aceptarse esa media.
+
+**(c)** Al $99\\%$, $z=2{,}575$. Amplitud $<4\\Rightarrow E<2$:
+$$n\\geq\\Big(\\dfrac{z\\sigma}{E}\\Big)^{2}=\\Big(\\dfrac{2{,}575\\cdot 15}{2}\\Big)^{2}\\approx 372{,}97\\Rightarrow n\\geq 373\\ \\text{viajes}.$$
+
+## Ejercicio 2
+
+### Enunciado
+
+**(a)** $(1$ punto$)$ Dada la población $\\{-5,-2,13,18,20\\}$, con todas las muestras de tamaño $3$ por muestreo aleatorio simple, calcule la media y la varianza de la distribución de la media muestral.
+
+**(b)** $(1$ punto$)$ Dados dos sucesos con $P(A)=0{,}75$, $P(B^{c})=0{,}8$ y $P(A\\mid B)=0{,}6$, calcule $P(A\\cap B)$, $P(B-A)$, $P(A\\cup B)$ y $P(A^{c}-B)$.
+
+### Solución
+
+**(a)** La media de las medias muestrales es la media poblacional:
+$$\\mu=\\dfrac{-5-2+13+18+20}{5}=8{,}8.$$
+Varianza poblacional: $\\sigma^{2}=\\dfrac{25+4+169+324+400}{5}-8{,}8^{2}=106{,}96$. Varianza de la media muestral: $\\dfrac{\\sigma^{2}}{3}=\\dfrac{106{,}96}{3}\\approx 35{,}65$.
+
+**(b)** $P(B)=1-0{,}8=0{,}2$. De $P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}=0{,}6$: $P(A\\cap B)=0{,}6\\cdot 0{,}2=0{,}12$.
+$P(B-A)=P(B)-P(A\\cap B)=0{,}2-0{,}12=0{,}08$.
+$P(A\\cup B)=0{,}75+0{,}2-0{,}12=0{,}83$.
+$P(A^{c}-B)=P(A^{c}\\cap B^{c})=1-P(A\\cup B)=1-0{,}83=0{,}17$.
+
+## Ejercicio 3
+
+### Enunciado
+
+Sean $A$ y $B$ sucesos con $P(A)=2P(B)$, $P(B^{c}\\mid A)=0{,}75$ y $P(A\\cap B)=0{,}2$.
+
+**(a)** $(0{,}5$ puntos$)$ Calcule $P(B)$.
+
+**(b)** $(0{,}5$ puntos$)$ Calcule la probabilidad de que no ocurra ni $A$ ni $B$. ¿Son $A^{c}$ y $B^{c}$ incompatibles?
+
+**(c)** Si el experimento se repite $1350$ veces de forma independiente, con $X$ = "número de veces que ocurre $B$": **(i)** $(0{,}25$ puntos$)$ determine la distribución de $X$; **(ii)** $(0{,}75$ puntos$)$ calcule $P(499< X\\leq 580)$.
+
+### Solución
+
+**(a)** Sea $P(B)=p$, $P(A)=2p$. Como $P(B\\mid A)=1-0{,}75=0{,}25=\\dfrac{P(A\\cap B)}{P(A)}=\\dfrac{0{,}2}{2p}$:
+$$0{,}25=\\dfrac{0{,}2}{2p}\\Rightarrow p=\\dfrac{0{,}2}{0{,}5}=0{,}4.$$
+Luego $P(B)=0{,}4$ (y $P(A)=0{,}8$).
+
+**(b)** $P(A^{c}\\cap B^{c})=1-P(A\\cup B)=1-(0{,}8+0{,}4-0{,}2)=0$. Como la intersección es vacía, $A^{c}$ y $B^{c}$ son **incompatibles**.
+
+**(c-i)** $X\\sim B(1350,\\ 0{,}4)$.
+
+**(c-ii)** Aproximamos por la normal $Y\\sim N(\\mu,\\sigma)$ con $\\mu=np=540$ y $\\sigma=\\sqrt{npq}=\\sqrt{1350\\cdot 0{,}4\\cdot 0{,}6}=18$. Con corrección de Yates:
+$$P(499< X\\leq 580)\\approx P(499{,}5< Y< 580{,}5)=P\\Big(\\dfrac{499{,}5-540}{18}< Z< \\dfrac{580{,}5-540}{18}\\Big).$$
+$$=P(-2{,}25< Z< 2{,}25)=2\\cdot 0{,}9878-1=0{,}9756.$$
+
+## Ejercicio 4
+
+### Enunciado
+
+$(3$ puntos$)$ Una empresa fabrica tableros DM y aglomerado. Cada $\\text{m}^2$ de DM consume $10\\ \\text{m}^3$ de madera triturada y da $10$€ de beneficio; cada $\\text{m}^2$ de aglomerado consume $30\\ \\text{m}^3$ y da $20$€. Como máximo puede fabricar $12\\ \\text{m}^2$ de DM y $18\\ \\text{m}^2$ de aglomerado al día; la producción conjunta se limita a $26\\ \\text{m}^2$ diarios y dispone de $600\\ \\text{m}^3$ de madera al día. Determine cuántos $\\text{m}^2$ de cada tipo maximizan el beneficio y cuál es ese beneficio.
+
+### Solución
+
+Sean $x$ los $\\text{m}^2$ de DM e $y$ los de aglomerado. Maximizar $B(x,y)=10x+20y$ con
+$$\\begin{cases} x\\leq 12 \\\\ y\\leq 18 \\\\ x+y\\leq 26 \\\\ x+3y\\leq 60 \\\\ x\\geq 0,\\ y\\geq 0 \\end{cases}$$
+Vértices y beneficio:
+$$\\begin{aligned} A(0,0)&\\to 0 \\\\ B(0,18)&\\to 360 \\\\ C(6,18)&\\to 420 \\\\ D(9,17)&\\to 430\\ (\\text{máximo}) \\\\ E(12,14)&\\to 400 \\\\ F(12,0)&\\to 120 \\end{aligned}$$
+El vértice $D(9,17)$ es la intersección de $x+y=26$ y $x+3y=60$. El máximo beneficio es $430$€.
+
+## Ejercicio 5
+
+### Enunciado
+
+Se considera la función
+$$f(x)=\\begin{cases} \\dfrac{x^{2}}{20} & \\text{si } 0\\leq x\\leq 20 \\\\[4pt] a+bx & \\text{si } 20< x\\leq 50 \\\\[4pt] 36-\\dfrac{x^{2}}{100} & \\text{si } 50< x\\leq 60 \\end{cases}$$
+siendo $a$ y $b$ reales.
+
+**(a)** $(0{,}75$ puntos$)$ Determine $a$ y $b$ para que $f$ sea continua en su dominio.
+
+**(b)** Para $a=26$ y $b=-\\dfrac{3}{10}$: **(i)** $(0{,}75$ puntos$)$ calcule los extremos relativos; **(ii)** $(0{,}5$ puntos$)$ represente $f$; **(iii)** $(1$ punto$)$ calcule el área del recinto limitado por el eje $OX$ y la gráfica de $f$.
+
+### Solución
+
+**(a)** Continuidad en $x=20$: $\\dfrac{20^{2}}{20}=20=a+20b$. Continuidad en $x=50$: $a+50b=36-\\dfrac{50^{2}}{100}=11$. Resolviendo $a+20b=20$, $a+50b=11$: $30b=-9\\Rightarrow b=-\\dfrac{3}{10}$ y $a=26$.
+
+**(b-i)** Con esos valores, $f'(x)=\\dfrac{x}{10}$ en $(0,20)$, $f'(x)=-\\dfrac{3}{10}$ en $(20,50)$ y $f'(x)=-\\dfrac{x}{50}$ en $(50,60)$. Hay **mínimo relativo** en $(0,0)$, **máximo relativo** en $(20,20)$ y **mínimo relativo** en $(60,0)$.
+
+**(b-ii)** Tabla de valores: $(0,0),(10,5),(15,11{,}25),(20,20),(30,17),(45,12{,}5),(50,11),(60,0)$: parábola creciente, recta decreciente y parábola decreciente hasta el eje.
+
+**(b-iii)** Como $f\\geq 0$ en todo el dominio, el área es
+$$\\text{Área}=\\int_{0}^{20}\\dfrac{x^{2}}{20}\\,dx+\\int_{20}^{50}\\Big(26-\\dfrac{3x}{10}\\Big)dx+\\int_{50}^{60}\\Big(36-\\dfrac{x^{2}}{100}\\Big)dx=\\dfrac{400}{3}+465+\\dfrac{170}{3}=655\\ \\text{u}^2.$$
+
+## Ejercicio 6
+
+### Enunciado
+
+En un festival de cine se venden entradas Estándar, Premium y VIP. En la sesión inaugural se vendieron $5$ Premium, $20$ Estándar y $20$ VIP, con recaudación $1800$€. En la sesión nocturna, $10$ VIP, $10$ Estándar y $5$ Premium, con $1000$€. En la clausura el número de entradas Premium superó en $4$ al resto ($12$ VIP y $4$ Estándar), con recaudación $1560$€.
+
+**(a)** $(2{,}25$ puntos$)$ Calcule el precio de cada tipo de entrada y la recaudación total.
+
+**(b)** $(0{,}75$ puntos$)$ Determine el tipo de entrada con mayor recaudación y su valor.
+
+### Solución
+
+Sean $x$, $y$, $z$ los precios de Estándar, Premium y VIP.
+**(a)** El sistema es
+$$\\begin{cases} 20x+5y+20z=1800 \\\\ 10x+5y+10z=1000 \\\\ 4x+20y+12z=1560 \\end{cases}$$
+(en la clausura las Premium fueron $12+4+4=20$). Resolviéndolo se obtiene
+$$x=25,\\quad y=40,\\quad z=55.$$
+Cada entrada Estándar cuesta $25$€, la Premium $40$€ y la VIP $55$€. La recaudación total es $1800+1000+1560=4360$€.
+
+**(b)** Estándar: $34\\cdot 25=850$€; Premium: $30\\cdot 40=1200$€; VIP: $42\\cdot 55=2310$€. La mayor recaudación se obtuvo con las entradas **VIP**, con $2310$€.
+`,oa=`---
+title: Matemáticas Aplicadas a las CCSS II · PAU 2026 · Aragón — examen resuelto
+seoTitle: PAU Matemáticas Aplicadas a las CCSS II Aragón 2026 resuelta
+date: 2026-06-01
+updated: 2026-11-05
+description: Examen resuelto de Matemáticas Aplicadas a las Ciencias Sociales II de Aragón 2026, con procedimientos completos.
+tag: Matemáticas CCSS PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+$(10$ puntos$)$ El número de descargas ilegales en función del aumento de precio $x$ (en euros) sobre un precio base de $10$€ se modeliza, para $2\\leq x\\leq 15$, por
+$$D(x)=-4x^{3}+36x^{2}+864x+400.$$
+**(a)** $(8$ puntos$)$ Calcule $D(2)$ y $D(15)$. Estudie el crecimiento y decrecimiento en $[2,15]$ y determine los valores mínimo y máximo de descargas y el precio final en que se alcanzan, indicando si son extremos relativos y/o absolutos.
+
+**(b)** $(2$ puntos$)$ Calcule los puntos de inflexión y estudie la curvatura en $[2,15]$.
+
+### Solución
+
+**(a)** $D(2)=2240$ y $D(15)=7960$. Derivada: $D'(x)=-12x^{2}+72x+864$. $D'(x)=0\\Rightarrow x^{2}-6x-72=0\\Rightarrow x=12$ o $x=-6$; solo $x=12\\in[2,15]$.
+Signo: $D'(10)=384>0$ (crece en $[2,12)$) y $D'(13)=-228<0$ (decrece en $(12,15]$). Hay **máximo relativo** en $x=12$.
+$D(12)=9040$: con un aumento de $12$€ (precio $22$€) se alcanza el **máximo absoluto** de $9040$ descargas. Como $D(2)=2240<7960=D(15)$, el **mínimo absoluto** es $2240$, con aumento de $2$€ (precio $12$€).
+
+**(b)** $D''(x)=-24x+72=0\\Rightarrow x=3$. $D''(2{,}5)=12>0$ (convexa en $[2,3)$) y $D''(10)=-168<0$ (cóncava en $(3,15]$). Hay **punto de inflexión** en $x=3$, con $D(3)=3208$, es decir $(3,3208)$.
+
+## Ejercicio 2
+
+### Enunciado
+
+$(5$ puntos$)$ El beneficio semanal (en cientos de euros) tras $x$ días de campaña se modeliza por $B(x)=3x^{2}+ax+1$. Sabiendo que el beneficio acumulado en los dos primeros días es de $3000$€, lo que equivale a
+$$\\int_{0}^{2}B(x)\\,dx=30,$$
+determine el valor del parámetro $a$.
+
+### Solución
+
+Calculamos la integral definida:
+$$\\int_{0}^{2}(3x^{2}+ax+1)\\,dx=\\Big[x^{3}+\\dfrac{a x^{2}}{2}+x\\Big]_{0}^{2}=8+2a+2=10+2a.$$
+Igualando a $30$:
+$$10+2a=30\\Rightarrow 2a=20\\Rightarrow a=10.$$
+
+## Ejercicio 3
+
+### Enunciado
+
+$(10$ puntos$)$ En una muestra de $100$ clientes, $52$ realizan compras online al menos una vez al mes.
+
+**(a)** $(5$ puntos$)$ Calcule un intervalo de confianza del $96\\%$ para la proporción. A la vista del intervalo, ¿hay motivos para dudar que la proporción real sea del $65\\%$?
+
+**(b)** $(5$ puntos$)$ Suponiendo que la proporción real coincide con la muestral, si se eligen $10$ clientes al azar con reemplazamiento, calcule la probabilidad de que exactamente $6$ realicen compras online al menos una vez al mes.
+
+### Solución
+
+**(a)** $\\hat{p}=\\dfrac{52}{100}=0{,}52$, $\\hat{q}=0{,}48$. Al $96\\%$, $z=2{,}055$:
+$$E=2{,}055\\sqrt{\\dfrac{0{,}52\\cdot 0{,}48}{100}}\\approx 0{,}1027\\Rightarrow IC=(0{,}4173,\\ 0{,}6227).$$
+Como $0{,}65>0{,}6227$ queda **fuera** del intervalo: hay motivos para dudar que la proporción real sea del $65\\%$.
+
+**(b)** $X\\sim B(10,\\ 0{,}52)$. Entonces
+$$P(X=6)=\\binom{10}{6}0{,}52^{6}\\,0{,}48^{4}=210\\cdot 0{,}52^{6}\\cdot 0{,}48^{4}\\approx 0{,}2204.$$
+
+## Ejercicio 4
+
+### Enunciado
+
+$(5$ puntos$)$ Se ofrecen tres promociones: $A$ (novelas), $B$ (manuales) y $C$ (accesorios). De cada $1000$ clientes, $300$ reciben la $A$, el $50\\%$ la $B$ y el resto la $C$. La probabilidad de compra es $0{,}6$ si recibió $A$, $0{,}8$ si recibió $B$ y $0{,}7$ si recibió $C$. Elegido al azar un cliente que ha comprado, calcule la probabilidad de que hubiera recibido la promoción $A$.
+
+### Solución
+
+Sea $D$ "realizar una compra". Por el teorema de Bayes:
+$$P(A\\mid D)=\\dfrac{P(A)P(D\\mid A)}{P(A)P(D\\mid A)+P(B)P(D\\mid B)+P(C)P(D\\mid C)}.$$
+$$P(A\\mid D)=\\dfrac{0{,}3\\cdot 0{,}6}{0{,}3\\cdot 0{,}6+0{,}5\\cdot 0{,}8+0{,}2\\cdot 0{,}7}=\\dfrac{0{,}18}{0{,}72}=\\dfrac{1}{4}=0{,}25.$$
+
+## Ejercicio 5
+
+### Enunciado
+
+$(10$ puntos$)$ Una librería prepara lotes de Novedades y de Reposición. Cada lote de Novedades requiere $3$ horas de recepción y $1$ de etiquetado; cada lote de Reposición, $1$ hora de recepción y $2$ de etiquetado. Cada departamento dispone de $100$ horas semanales. El beneficio es $500$€ por lote de Novedades y $400$€ por lote de Reposición. Además, se preparan al menos $40$ lotes en total cada semana.
+
+**(a)** $(8$ puntos$)$ Determine cuántos lotes de cada tipo maximizan el beneficio y el beneficio máximo.
+
+**(b)** $(2$ puntos$)$ Razone si preparar $10$ lotes de Novedades y $40$ de Reposición satisface las restricciones. En caso afirmativo, ¿es óptima?
+
+### Solución
+
+Sean $x$ los lotes de Novedades e $y$ los de Reposición. Maximizar $B(x,y)=500x+400y$ con
+$$\\begin{cases} 3x+y\\leq 100 \\\\ x+2y\\leq 100 \\\\ x+y\\geq 40 \\\\ x\\geq 0,\\ y\\geq 0 \\end{cases}$$
+**(a)** Vértices y beneficio:
+$$\\begin{aligned} A(0,50)&\\to 20000 \\\\ B(20,40)&\\to 26000\\ (\\text{máximo}) \\\\ C(30,10)&\\to 19000 \\\\ D(0,40)&\\to 16000 \\end{aligned}$$
+El vértice $B(20,40)$ es la intersección de $3x+y=100$ y $x+2y=100$. El máximo beneficio es $26000$€ con $20$ lotes de Novedades y $40$ de Reposición.
+
+**(b)** El punto $(10,40)$ cumple $3\\cdot 10+40=70\\leq 100$, $10+2\\cdot 40=90\\leq 100$, $10+40=50\\geq 40$ y $x,y\\geq 0$: **sí satisface** las restricciones. Pero $B(10,40)=500\\cdot 10+400\\cdot 40=21000<26000$, luego **no es óptima**.
+
+## Ejercicio 6
+
+### Enunciado
+
+$(5$ puntos$)$ Con un descuento del $10\\%$ sobre el precio original, un cliente compró una novela, un cuaderno y una mochila y pagó $117$€ en total. Antes del descuento, el precio del cuaderno era la cuarta parte del de la novela y el de la mochila el doble del de la novela. Determine el precio original de cada artículo.
+
+### Solución
+
+Sean $n$, $c$, $m$ los precios originales de novela, cuaderno y mochila.
+$$\\begin{cases} 0{,}9n+0{,}9c+0{,}9m=117 \\\\ c=\\dfrac{n}{4} \\\\ m=2n \\end{cases}$$
+De la primera, $n+c+m=\\dfrac{117}{0{,}9}=130$. Sustituyendo:
+$$n+\\dfrac{n}{4}+2n=130\\Rightarrow \\dfrac{13n}{4}=130\\Rightarrow n=40.$$
+Entonces $c=\\dfrac{40}{4}=10$ y $m=2\\cdot 40=80$.
+`,ia=`---
+title: Matemáticas Aplicadas a las CCSS II · PAU 2026 · Asturias — examen resuelto
+seoTitle: PAU Matemáticas Aplicadas a las CCSS II Asturias 2026 resuelta
+date: 2026-06-01
+updated: 2026-11-05
+description: Examen resuelto de Matemáticas Aplicadas a las Ciencias Sociales II de Asturias 2026, con procedimientos completos.
+tag: Matemáticas CCSS PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+Se construye una sucesión de figuras encadenando hexágonos, de modo que cada hexágono nuevo comparte un lado con el anterior. Contando palitos $p$ (lados) y vértices $v$ se observa: Figura 1: $6$ palitos y $6$ vértices; Figura 2: $11$ palitos y $10$ vértices; Figura 3: $16$ palitos y $14$ vértices.
+
+**(a)** Determine el número de palitos y de vértices de la figura $16$, y obtenga una fórmula general para el número de palitos.
+
+**(b)** ¿Existe alguna figura con $206$ palitos? En caso afirmativo, indique su número y cuántos vértices tiene.
+
+### Solución
+
+**(a)** Los palitos forman una progresión aritmética de primer término $6$ y diferencia $5$:
+$$p=6+5(n-1)=5n+1.$$
+Para $n=16$: $p=5\\cdot16+1=81$ palitos. Los vértices siguen $v=4n+2$, luego para $n=16$: $v=4\\cdot16+2=66$ vértices. (También $v=\\dfrac{4p+6}{5}=\\dfrac{4\\cdot81+6}{5}=66$.)
+
+**(b)** Como $p=5n+1$, un número de palitos válido debe ser un múltiplo de $5$ más $1$; $206=5\\cdot41+1$ lo cumple:
+$$5n+1=206\\ \\Rightarrow\\ n=\\frac{205}{5}=41.$$
+Es la figura $41$. Sus vértices son $v=4\\cdot41+2=166$ (o $v=\\dfrac{4\\cdot206+6}{5}=166$).
+
+## Ejercicio 2
+
+### Enunciado
+
+Las ventas (en miles de euros) de un producto $t$ meses después de su lanzamiento vienen dadas por
+$$v(t)=\\begin{cases} 2t+5, & 0<t<3\\\\ -t^2+10t+k, & 3\\le t<8\\\\ 6, & 8\\le t\\le 12\\end{cases}$$
+
+**(a)** Determine el valor de $k$ para que $v(t)$ sea continua en todo su dominio.
+
+**(b)** Estudie en qué intervalo aumentan las ventas y en qué instante alcanzan su mayor valor, indicando dicho valor.
+
+**(c)** Calcule las ventas totales acumuladas entre $t=5$ y $t=9$ mediante la integral definida $\\int_5^9 v(t)\\,dt$.
+
+### Solución
+
+**(a)** Cada trozo es polinómico, luego sólo hay que exigir continuidad en los puntos de unión $t=3$ y $t=8$.
+
+En $t=3$: $\\lim_{t\\to3^-}(2t+5)=11$ y $\\lim_{t\\to3^+}(-t^2+10t+k)=-9+30+k=21+k$. Igualando,
+$$11=21+k\\ \\Rightarrow\\ k=-10.$$
+En $t=8$ con $k=-10$: $\\lim_{t\\to8^-}(-t^2+10t-10)=-64+80-10=6$ y el tercer trozo vale $6$. Coinciden, así que $v$ es continua con $k=-10$.
+
+**(b)** En $(0,3)$: $v'(t)=2>0$, creciente. En $[3,8)$: $v'(t)=-2t+10>0\\iff t<5$. A partir de $t\\ge 8$ es constante. Por tanto las ventas **aumentan en $(0,5)$**. El máximo se alcanza en el vértice $t=5$:
+$$v(5)=-25+50-10=15,$$
+es decir, $15\\,000$ € en el quinto mes.
+
+**(c)**
+$$\\int_5^9 v(t)\\,dt=\\int_5^8(-t^2+10t-10)\\,dt+\\int_8^9 6\\,dt.$$
+$$\\int_5^8(-t^2+10t-10)\\,dt=\\Big[-\\tfrac{t^3}{3}+5t^2-10t\\Big]_5^8=36,\\qquad \\int_8^9 6\\,dt=6.$$
+Total $=36+6=42$, es decir, $42\\,000$ €.
+
+## Ejercicio 3
+
+### Enunciado
+
+En una encuesta a $n=800$ personas sobre presupuestos participativos, el intervalo de confianza al $95\\%$ para la proporción poblacional de apoyo es $(0{,}6169,\\ 0{,}6831)$.
+
+**(a)** Determine la proporción muestral $\\hat p$ y el número de personas que respondieron afirmativamente.
+
+**(b)** El intervalo contiene el valor $2/3\\approx0{,}66$. ¿Se puede garantizar con esa confianza que la proporción real supera dos tercios?
+
+**(c)** Un segundo intervalo, con la misma muestra ($n=800$, $\\hat p=0{,}65$), es $(0{,}6107,\\ 0{,}6893)$. Determine el nivel de confianza empleado.
+
+### Solución
+
+**(a)** La proporción muestral es el centro del intervalo:
+$$\\hat p=\\frac{0{,}6169+0{,}6831}{2}=0{,}65.$$
+Número de respuestas afirmativas: $n\\hat p=800\\cdot0{,}65=520$ personas.
+
+**(b)** El valor $2/3\\approx0{,}66$ está dentro del intervalo pero no es su extremo inferior; por tanto no puede asegurarse que la proporción real supere dos tercios con ese nivel de confianza.
+
+**(c)** El segundo intervalo es más ancho con la misma muestra, luego su confianza es mayor que el $95\\%$. Su semiamplitud es $\\varepsilon=0{,}6893-0{,}65=0{,}0393$. De
+$$\\varepsilon=z_{\\alpha/2}\\sqrt{\\frac{\\hat p(1-\\hat p)}{n}}\\ \\Rightarrow\\ 0{,}0393=z_{\\alpha/2}\\sqrt{\\frac{0{,}65\\cdot0{,}35}{800}}\\ \\Rightarrow\\ z_{\\alpha/2}\\approx2{,}33.$$
+Como $\\Phi(2{,}33)=0{,}99$, se tiene $1-\\alpha/2=0{,}99\\Rightarrow\\alpha=0{,}02$, de modo que el nivel de confianza es $1-\\alpha=0{,}98$ (**98 %**).
+
+## Ejercicio 4
+
+### Enunciado
+
+El gasto mensual en alquiler de una persona joven sigue $X\\sim N(\\mu,\\ 150)$ (desviación típica $\\sigma=150$ €).
+
+**(a)** Halle el tamaño muestral mínimo para estimar $\\mu$ con un error $\\varepsilon\\le20$ € y un nivel de confianza del $95\\%$.
+
+**(b)** Con cierta muestra se obtiene el intervalo de confianza $(741{,}77,\\ 758{,}23)$. Determine la media muestral $\\overline{x}$.
+
+**(c)** Explique de qué depende el error de estimación $\\varepsilon=z_{\\alpha/2}\\dfrac{\\sigma}{\\sqrt n}$ si se mantienen fijos el nivel de confianza y $\\sigma$.
+
+### Solución
+
+**(a)** El tamaño mínimo cumple
+$$n\\ge\\left(\\frac{z_{\\alpha/2}\\,\\sigma}{\\varepsilon}\\right)^2=\\left(\\frac{1{,}96\\cdot150}{20}\\right)^2=(14{,}7)^2=216{,}09,$$
+luego $n=217$ personas.
+
+**(b)** La media muestral es el centro del intervalo:
+$$\\overline{x}=\\frac{741{,}77+758{,}23}{2}=\\frac{1500}{2}=750\\ \\text{€}.$$
+
+**(c)** Con $z_{\\alpha/2}$ y $\\sigma$ constantes, $\\varepsilon$ depende sólo de $n$ y es inversamente proporcional a $\\sqrt n$: al aumentar la muestra, el error disminuye. No depende del valor concreto de $\\overline{x}$.
+
+## Ejercicio 5
+
+### Enunciado
+
+En una población estudiantil, los estratos son alto $A$, medio $M$ y bajo $B$ con $P(A)=0{,}2$, $P(M)=0{,}5$, $P(B)=0{,}3$. La probabilidad de abandonar los estudios $D$ según el estrato es $P(D/A)=0{,}05$, $P(D/M)=0{,}15$, $P(D/B)=0{,}3$.
+
+**(a)** Si una persona ha abandonado, ¿a qué estrato es más probable que pertenezca?
+
+**(b)** ¿Existe relación entre el abandono y el estrato socioeconómico?
+
+**(c)** Entre quienes acuden al servicio de orientación $O$ se sabe que $P(D/O)=0{,}12$. ¿Influye la orientación en el abandono?
+
+### Solución
+
+**(a)** Probabilidad total de abandono:
+$$P(D)=0{,}2\\cdot0{,}05+0{,}5\\cdot0{,}15+0{,}3\\cdot0{,}3=0{,}01+0{,}075+0{,}09=0{,}175.$$
+Por el teorema de Bayes:
+$$P(A/D)=\\frac{0{,}01}{0{,}175}\\approx0{,}0571,\\quad P(M/D)=\\frac{0{,}075}{0{,}175}\\approx0{,}4286,\\quad P(B/D)=\\frac{0{,}09}{0{,}175}\\approx0{,}5143.$$
+Lo más probable es que pertenezca al **estrato bajo** $B$.
+
+**(b)** Sí existe relación: $P(D/A)=0{,}05$, $P(D/M)=0{,}15$, $P(D/B)=0{,}3$ no son iguales. A menor nivel económico, mayor tasa de abandono, luego $D$ depende del estrato.
+
+**(c)** Como $P(D/O)=0{,}12<0{,}175=P(D)$, acudir a orientación reduce la probabilidad de abandono: influye (la disminuye).
+
+## Ejercicio 6
+
+### Enunciado
+
+Una persona compra ropa en plataformas de segunda mano $S$ con $P(S)=0{,}7$, o en tiendas tradicionales $T$ con $P(T)=0{,}3$. La probabilidad de donar ropa a una ONG $D$ es $P(D/S)=0{,}6$ y $P(D/T)=0{,}2$.
+
+**(a)** Calcule la probabilidad de que una persona compre en segunda mano y done ropa, $P(S\\cap D)$.
+
+**(b)** ¿Es donar ropa independiente del lugar de compra?
+
+**(c)** Si una persona dona ropa, ¿cuál es la probabilidad de que compre en tiendas tradicionales, $P(T/D)$?
+
+### Solución
+
+**(a)**
+$$P(S\\cap D)=P(S)\\cdot P(D/S)=0{,}7\\cdot0{,}6=0{,}42.$$
+
+**(b)** La probabilidad total de donar es
+$$P(D)=P(S)P(D/S)+P(T)P(D/T)=0{,}7\\cdot0{,}6+0{,}3\\cdot0{,}2=0{,}42+0{,}06=0{,}48.$$
+Como $P(D/S)=0{,}6\\neq0{,}48=P(D)$, los sucesos $D$ y $S$ **no son independientes**: donar depende del lugar de compra.
+
+**(c)** Por Bayes,
+$$P(T/D)=\\frac{P(T)\\cdot P(D/T)}{P(D)}=\\frac{0{,}3\\cdot0{,}2}{0{,}48}=\\frac{0{,}06}{0{,}48}=\\frac18=0{,}125.$$
+
+## Ejercicio 7
+
+### Enunciado
+
+Una furgoneta transporta mesas ($x$) y sillas ($y$). Por peso: $25x+8y\\le 800$. Por volumen: $0{,}6x+0{,}2y\\le 15$ (equivalente a $3x+y\\le 75$). Por criterio de carga se exige al menos dos sillas por mesa: $2x\\le y$. Además $x,y\\ge 0$ (y en la práctica enteros).
+
+**(a)** Identifique la región factible y sus vértices.
+
+**(b)** Razone si la restricción de peso $25x+8y\\le 800$ limita realmente la solución, y si el punto $(1{,}15,\\,2{,}3)$ puede ser solución.
+
+**(c)** Se quiere maximizar el beneficio $z(x,y)=35x+10y$ (en €). Determine el óptimo.
+
+### Solución
+
+**(a)** Las restricciones activas son $x=0$, $3x+y=75$ y $y=2x$. Los vértices del recinto son:
+$$E=(0,0),\\qquad B=(0,75),\\qquad C=(15,30),$$
+donde $C$ es la intersección de $y=2x$ con $3x+y=75$: $3x+2x=75\\Rightarrow x=15,\\ y=30$. (En $B$ y $C$ se cumple $25x+8y\\le 800$.)
+
+**(b)** La inecuación de peso $25x+8y\\le 800$ es **redundante**: no interviene en los lados del recinto (en $C$ vale $615\\le 800$), luego el peso no limita la solución. El punto $(1{,}15,\\,2{,}3)$ está dentro de la región, pero **no es solución válida** porque las coordenadas no son enteras (no se pueden enviar fracciones de mesas o sillas).
+
+**(c)** Evaluamos $z=35x+10y$ en los vértices:
+$$z(B)=35\\cdot0+10\\cdot75=750,\\quad z(C)=35\\cdot15+10\\cdot30=825,\\quad z(E)=0.$$
+El máximo es $825$ € en $C=(15,30)$: enviar $15$ mesas y $30$ sillas.
+
+## Ejercicio 8
+
+### Enunciado
+
+Se dan tres funciones y tres gráficas numeradas. Una de las funciones, $(A)$, está definida a trozos; otra, $(B)$, es una función cuadrática (parábola); y la tercera es $(C)$: $g(x)=e^{-x}+1$.
+
+**(a)** Empareje cada función con su gráfica, justificando el criterio utilizado.
+
+**(b)** Para la función $g(x)=e^{-x}+1$: estudie su dominio, su monotonía (calculando $g'(x)$) y su comportamiento cuando $x\\to\\infty$. Razone si $g$ puede alcanzar en algún momento el valor $1{,}5$ y si puede tomar valores inferiores a $1$.
+
+**(c)** Un técnico propone usar $g(x)$ para modelizar las visualizaciones de un fenómeno viral (en cientos de miles). Razone si es adecuado.
+
+### Solución
+
+**(a)** La única función definida a trozos es $(A)$, que se corresponde con la gráfica que presenta un cambio de comportamiento (la $(3)$). La función cuadrática $(B)$ es una parábola, que se corresponde con la gráfica simétrica respecto a un eje vertical (la $(1)$). Por exclusión —o por ser la única siempre decreciente (desde $+\\infty$ hacia la asíntota $y=1$), con un decrecimiento rápido al principio y cada vez más suave— la exponencial $(C)=g(x)=e^{-x}+1$ se empareja con la gráfica $(2)$.
+
+**(b)** $g(x)=e^{-x}+1$ está definida en todo $\\mathbb{R}$. Su derivada es
+$$g'(x)=-e^{-x}<0\\quad\\text{para todo }x,$$
+luego $g$ es **estrictamente decreciente**. Además
+$$\\lim_{x\\to\\infty}\\big(e^{-x}+1\\big)=0+1=1,$$
+por lo que $y=1$ es asíntota horizontal. Como $g$ decrece desde valores altos hacia $1$ sin alcanzarlo, cruza el nivel $1{,}5$ una sola vez (por ejemplo $g(1)=e^{-1}+1\\approx 1{,}368<1{,}5$) y **nunca** toma valores inferiores a $1$.
+
+**(c)** No es adecuado: un fenómeno viral se caracteriza por un crecimiento inicial rápido, y $g$ es siempre decreciente; además las visualizaciones acabarían estabilizándose por encima de $100\\,000$ (el valor $1$), sin el habitual "olvido" que las llevaría a decrecer hacia $0$.
+
+## Ejercicio 9
+
+### Enunciado
+
+Un servicio asistencial reparte horas de fisioterapia ($x$) y de asistencia doméstica ($y$) según el sistema
+$$\\begin{cases} x+2y=5\\\\ ax+6y=15\\end{cases}$$
+
+**(a)** Determine el valor de $a$ para que el sistema tenga infinitas soluciones y proponga una de ellas con sentido en el contexto.
+
+**(b)** Para $a=1$, discuta y resuelva el sistema, comprobando que la solución tiene sentido (horas no negativas).
+
+### Solución
+
+**(a)** El sistema es compatible indeterminado (infinitas soluciones) si las dos ecuaciones son proporcionales:
+$$\\frac{1}{a}=\\frac{2}{6}=\\frac{5}{15}=\\frac13\\ \\Rightarrow\\ a=3.$$
+Entonces ambas ecuaciones equivalen a $x+2y=5$. Tomando $x=1$: $1+2y=5\\Rightarrow y=2$. La solución $(x,y)=(1,2)$ —$1$ hora de fisioterapia y $2$ de asistencia— verifica también $3x+6y=15$: $3+12=15$. ✓
+
+**(b)** Para $a=1$:
+$$\\begin{cases} x+2y=5\\\\ x+6y=15\\end{cases},\\qquad |A|=\\begin{vmatrix}1&2\\\\1&6\\end{vmatrix}=6-2=4\\neq0,$$
+luego es **compatible determinado** (solución única). Por Cramer:
+$$x=\\frac{\\begin{vmatrix}5&2\\\\15&6\\end{vmatrix}}{4}=\\frac{0}{4}=0,\\qquad y=\\frac{\\begin{vmatrix}1&5\\\\1&15\\end{vmatrix}}{4}=\\frac{10}{4}=2{,}5.$$
+La solución $(0,\\ 2{,}5)$ tiene coordenadas no negativas: $0$ horas de fisioterapia y $2{,}5$ horas de asistencia.
+
+## Ejercicio 10
+
+### Enunciado
+
+Se consideran $A=\\begin{pmatrix}1&m\\\\ m&2\\end{pmatrix}$, $B=\\begin{pmatrix}m&1\\\\ 1&0\\end{pmatrix}$, $C=\\begin{pmatrix}x\\\\ y\\end{pmatrix}$, $D=\\begin{pmatrix}m\\\\ 1\\end{pmatrix}$ y $E=\\begin{pmatrix}1-m\\\\ 1\\end{pmatrix}$, y la ecuación $A\\cdot B\\cdot C=2(D+E)$.
+
+**(a)** Calcule $A\\cdot B$ y escriba el sistema que resulta de $A\\cdot B\\cdot C=2(D+E)$.
+
+**(b)** Determine los valores de $m$ para los que el sistema NO tiene solución.
+
+**(c)** Para el resto de valores, resuelva el sistema (dando, por ejemplo, la solución para $m=0$).
+
+### Solución
+
+**(a)**
+$$A\\cdot B=\\begin{pmatrix}1&m\\\\ m&2\\end{pmatrix}\\begin{pmatrix}m&1\\\\ 1&0\\end{pmatrix}=\\begin{pmatrix}2m&1\\\\ m^2+2&m\\end{pmatrix}.$$
+Como $D+E=\\begin{pmatrix}1\\\\2\\end{pmatrix}$, se tiene $2(D+E)=\\begin{pmatrix}2\\\\4\\end{pmatrix}$, y la ecuación $A\\cdot B\\cdot C=2(D+E)$ da el sistema
+$$\\begin{cases} 2mx+y=2\\\\ (m^2+2)x+my=4.\\end{cases}$$
+
+**(b)** El determinante de la matriz de coeficientes es
+$$|F|=\\begin{vmatrix}2m&1\\\\ m^2+2&m\\end{vmatrix}=2m^2-(m^2+2)=m^2-2.$$
+$|F|=0\\iff m=\\pm\\sqrt2$. Para esos valores la matriz ampliada tiene rango $2>$ rango de $F$, de modo que el sistema es **incompatible**: no tiene solución para $m=\\pm\\sqrt2$.
+
+**(c)** Si $m\\neq\\pm\\sqrt2$, es compatible determinado. Por Cramer,
+$$|F_x|=\\begin{vmatrix}2&1\\\\4&m\\end{vmatrix}=2m-4,\\qquad |F_y|=\\begin{vmatrix}2m&2\\\\ m^2+2&4\\end{vmatrix}=-2(m^2-4m+2),$$
+$$x=\\frac{2m-4}{m^2-2},\\qquad y=\\frac{-2(m^2-4m+2)}{m^2-2}.$$
+Por ejemplo, para $m=0$: $(x,y)=(2,2)$.
+`,ra=`---
+title: Matemáticas Aplicadas a las CCSS II · PAU 2026 · Cataluña — examen resuelto
+seoTitle: PAU Matemáticas Aplicadas a las CCSS II Cataluña 2026 resuelta
+date: 2026-06-01
+updated: 2026-11-05
+description: Examen resuelto de Matemáticas Aplicadas a las Ciencias Sociales II de Cataluña 2026, con procedimientos completos.
+tag: Matemáticas CCSS PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+El número de seguidores de un médico divulgador, en función del tiempo $t$ (en semanas), es $f(t)=10t^3-120t^2+450t+700$, con $t\\in[0,10]$.
+
+**(1.1)** ¿Cuántos seguidores tiene al principio y al cabo de $10$ semanas? Estudia los intervalos de crecimiento y decrecimiento, determina los extremos locales y esboza la gráfica.
+
+**(1.2)** ¿En qué semana cuelga el vídeo polémico (pierde seguidores) y cuántos tiene? ¿En qué semana cuelga el vídeo de éxito? A lo largo de las $10$ semanas, ¿cuándo tiene más seguidores?
+
+### Solución
+
+**(1.1)** Valores en los extremos del intervalo:
+$$f(0)=700,\\qquad f(10)=10000-12000+4500+700=3200.$$
+
+Derivada: $f'(t)=30t^2-240t+450=30(t^2-8t+15)=30(t-3)(t-5)$, que se anula en $t=3$ y $t=5$.
+
+- En $[0,3)$: $f'(1)=240>0$, creciente.
+- En $(3,5)$: $f'(4)=-30<0$, decreciente.
+- En $(5,10]$: $f'(6)=90>0$, creciente.
+
+Por tanto hay un **máximo relativo** en $t=3$, $f(3)=270-1080+1350+700=1240$, y un **mínimo relativo** en $t=5$, $f(5)=1250-3000+2250+700=1200$.
+
+**(1.2)** El vídeo polémico (pierde seguidores, empieza a decrecer) lo cuelga en la **semana $3$**, cuando tiene $1240$ seguidores. El vídeo de éxito (vuelve a crecer) lo cuelga en la **semana $5$** (mínimo, $1200$ seguidores). Comparando el máximo relativo ($1240$) con el valor final $f(10)=3200$, el máximo absoluto en $[0,10]$ está en $t=10$: tiene más seguidores al final, con $3200$.
+
+## Ejercicio 2
+
+### Enunciado
+
+La tabla recoge los estudiantes de grado (G), máster (M) y doctorado (D) en las facultades de Ciencias (C), Ingeniería (I) y Letras (L):
+
+| Facultad | G | M | D | Total |
+|---|---|---|---|---|
+| Ciencias | 450 | 172 | 41 | 663 |
+| Ingeniería | 445 | 178 | 45 | 668 |
+| Letras | 438 | 183 | 48 | 669 |
+| Total | 1333 | 533 | 134 | 2000 |
+
+**(4.1)** Si se escoge un estudiante al azar, ¿probabilidad de que sea de doctorado de Letras? Si se escoge al azar un estudiante de máster, ¿probabilidad de que estudie en Ingeniería?
+
+**(4.2)** Expresa la tabla (sin totales) como matriz $3\\times 3$ y calcula, con un producto de matrices, el vector con el total de estudiantes de grado, máster y doctorado. Si grado paga $1000$ €, máster $1500$ € y doctorado $500$ €, calcula mediante producto de matrices el importe total de matrículas.
+
+### Solución
+
+**(4.1)** Por la regla de Laplace:
+$$P(D\\cap L)=\\dfrac{48}{2000}=0{,}024.$$
+$$P(I\\mid M)=\\dfrac{178}{533}\\approx 0{,}334.$$
+
+**(4.2)** Matriz de la tabla (filas = facultades, columnas = G, M, D):
+$$T=\\begin{pmatrix} 450 & 172 & 41 \\\\ 445 & 178 & 45 \\\\ 438 & 183 & 48 \\end{pmatrix}.$$
+Multiplicando por la fila $(1\\;1\\;1)$ se obtiene el total por nivel:
+$$(1\\;\\;1\\;\\;1)\\cdot T=(1333\\;\\;533\\;\\;134).$$
+Multiplicando este vector por la columna de precios:
+$$(1333\\;\\;533\\;\\;134)\\begin{pmatrix} 1000 \\\\ 1500 \\\\ 500 \\end{pmatrix}=1333\\cdot 1000+533\\cdot 1500+134\\cdot 500=2199500\\ \\text{€}.$$
+
+## Ejercicio 3
+
+### Enunciado
+
+Una empresa considera una página web eficiente si carga en menos de $3$ s y afirma que al menos el $50\\,\\%$ de las que gestiona son eficientes. Se toma una muestra de $n=2500$ páginas.
+
+**(3.1)** Suponiendo $p=0{,}5$ de que una página sea eficiente (independiente del resto), sea $X$ el número de páginas eficientes de la muestra. ¿Qué distribución sigue $X$? Calcula la probabilidad de que como mucho $1299$ sean eficientes, usando la aproximación normal sin corrección por continuidad.
+
+**(3.2)** En la muestra se obtiene media del tiempo de carga $\\overline{x}=2{,}95$ s y desviación típica muestral $s=0{,}38$ s. Construye un intervalo de confianza del $95\\,\\%$ para el tiempo medio de carga. ¿Qué puede decirse sobre la afirmación de la empresa?
+
+### Solución
+
+**(3.1)** $X$ sigue una distribución binomial $X\\sim B(2500,\\,0{,}5)$. Como $n$ es grande, se aproxima por una normal $Y\\sim\\mathcal N(\\mu,\\sigma)$ con
+$$\\mu=np=2500\\cdot 0{,}5=1250,\\qquad \\sigma=\\sqrt{npq}=\\sqrt{2500\\cdot 0{,}5\\cdot 0{,}5}=25.$$
+Sin corrección por continuidad:
+$$P(X\\leq 1299)\\approx P\\Bigl(Z\\leq \\dfrac{1299-1250}{25}\\Bigr)=P(Z\\leq 1{,}96)=0{,}975.$$
+
+**(3.2)** Con $z_{\\alpha/2}=1{,}96$, el error es
+$$E=z_{\\alpha/2}\\dfrac{s}{\\sqrt n}=1{,}96\\cdot\\dfrac{0{,}38}{\\sqrt{2500}}=1{,}96\\cdot 0{,}0076\\approx 0{,}015\\ \\text{s}.$$
+El intervalo de confianza del $95\\,\\%$ para la media es
+$$\\Bigl(2{,}95-0{,}015,\\;2{,}95+0{,}015\\Bigr)=(2{,}935,\\;2{,}965)\\ \\text{s}.$$
+Como el extremo superior $2{,}965<3$, con confianza $95\\,\\%$ el tiempo medio de carga es inferior a $3$ s, lo que respalda la afirmación de que al menos el $50\\,\\%$ de las páginas son eficientes.
+
+## Ejercicio 4
+
+### Enunciado
+
+Un campesino vende cajas de fresas ($f$), albaricoques ($a$) y cerezas ($c$). Un pedido de $5$ cajas de fresas, $3$ de albaricoques y $4$ de cerezas cuesta $120$ €; otro de $2$ cajas de fresas, $1$ de albaricoques y $3$ de cerezas cuesta $56$ €.
+
+**(2.1)** Calcula el precio de una caja de fresas y de una de albaricoques en función del precio de una caja de cerezas. Con ello, calcula el precio de un pedido de $6$ cajas de fresas, $4$ de albaricoques y $2$ de cerezas.
+
+**(2.2)** Si una caja de albaricoques cuesta $12{,}50$ €, calcula el precio de las otras dos.
+
+### Solución
+
+**(2.1)** El sistema tiene $2$ ecuaciones y $3$ incógnitas, luego es compatible indeterminado: expresamos $f$ y $a$ en función de $c$.
+
+De $2f+a+3c=56$ se despeja $a=56-2f-3c$. Sustituyendo en $5f+3a+4c=120$:
+$$5f+3(56-2f-3c)+4c=120\\Rightarrow 168-f-5c=120\\Rightarrow f=48-5c.$$
+Y entonces $a=56-2(48-5c)-3c=7c-40$.
+
+El pedido de $6$ cajas de fresas, $4$ de albaricoques y $2$ de cerezas cuesta
+$$6f+4a+2c=6(48-5c)+4(7c-40)+2c=288-30c+28c-160+2c=128\\ \\text{€}.$$
+(El resultado no depende de $c$.)
+
+**(2.2)** Si $a=12{,}50$, de $a=7c-40$: $12{,}5=7c-40\\Rightarrow c=\\dfrac{52{,}5}{7}=7{,}5$ €. Entonces $f=48-5\\cdot 7{,}5=10{,}5$ €.
+
+## Ejercicio 5
+
+### Enunciado
+
+Con la misma tabla de estudiantes de grado (G), máster (M) y doctorado (D) en Ciencias (C), Ingeniería (I) y Letras (L) (totales G$=1333$, M$=533$, D$=134$; total $2000$):
+
+**(4.1)** Si se escoge un estudiante al azar, ¿probabilidad de que sea de máster de Ciencias? Si se escoge al azar un estudiante de Ingeniería, ¿probabilidad de que curse un máster?
+
+**(4.2)** Hay $1036$ estudiantes con beca. Considerando conjuntamente grado y máster, la mitad están becados, y hay el mismo número de becados de máster que de doctorado. Determina cuántos becados hay de cada nivel (grado, máster y doctorado).
+
+### Solución
+
+**(4.1)** Por la regla de Laplace:
+$$P(M\\cap C)=\\dfrac{172}{2000}=0{,}086,\\qquad P(M\\mid I)=\\dfrac{178}{668}\\approx 0{,}2665.$$
+
+**(4.2)** Sean $g$, $m$, $d$ los becados de grado, máster y doctorado.
+- Total becados: $g+m+d=1036$.
+- La mitad de los estudiantes de grado y máster están becados: $g+m=\\dfrac{1333+533}{2}=933$.
+- Igual número de becados de máster y doctorado: $m=d$.
+
+Sustituyendo $g+m=933$ y $m=d$ en la primera ecuación: $933+d=1036\\Rightarrow d=103$, luego $m=103$ y $g=933-103=830$.
+`,sa=`---
+title: Matemáticas Aplicadas a las CCSS II · PAU 2026 · Comunidad Valenciana — examen resuelto
+seoTitle: PAU Matemáticas Aplicadas a las CCSS II Comunidad Valenciana 2026 resuelta
+date: 2026-06-01
+updated: 2026-11-05
+description: Examen resuelto de Matemáticas Aplicadas a las Ciencias Sociales II de Comunidad Valenciana 2026, con procedimientos completos.
+tag: Matemáticas CCSS PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+Se prepara una mezcla con dos fertilizantes: NutriMax ($x$ litros, $5$ €/L) y BioGrow ($y$ litros, $4$ €/L). La mezcla debe cumplir tres requisitos nutricionales mínimos, que se traducen en las restricciones $2x+y\\ge8$, $x+y\\ge6$ y $x+2y\\ge10$ (además de $x,y\\ge0$).
+
+**(a)** Escriba la función objetivo y las restricciones, y determine la región factible y la combinación de coste mínimo.
+
+**(b)** Calcule el coste mínimo.
+
+### Solución
+
+**(a)** Con $x$ = litros de NutriMax e $y$ = litros de BioGrow, se minimiza el coste
+$$f(x,y)=5x+4y$$
+sujeto a
+$$\\begin{cases}2x+y\\ge8\\\\ x+y\\ge6\\\\ x+2y\\ge10\\\\ x,y\\ge0.\\end{cases}$$
+La región factible es **no acotada**, con vértices $A(0,8)$, $B(2,4)$ (intersección de $x+y=6$ y $x+2y=10$, que también cumple $2x+y=8$) y $C(10,0)$. Evaluamos el coste:
+$$f(A)=5\\cdot0+4\\cdot8=32,\\quad f(B)=5\\cdot2+4\\cdot4=26,\\quad f(C)=5\\cdot10=50.$$
+Al ser un problema de **mínimo** sobre región no acotada (con gradiente positivo), el óptimo está en un vértice: el coste mínimo se alcanza en $B(2,4)$, es decir, **$2$ litros de NutriMax y $4$ litros de BioGrow**.
+
+**(b)** El coste mínimo es
+$$f(2,4)=5\\cdot2+4\\cdot4=10+16=26\\ \\text{€}.$$
+`,ta=`---
+title: Matemáticas Aplicadas a las CCSS II · PAU 2026 · Madrid — examen resuelto
+seoTitle: PAU Matemáticas Aplicadas a las CCSS II Madrid 2026 resuelta
+date: 2026-06-01
+updated: 2026-11-05
+description: Examen resuelto de Matemáticas Aplicadas a las Ciencias Sociales II de Madrid 2026, con procedimientos completos.
+tag: Matemáticas CCSS PAU
+category: Selectividad
+---
+
+## Ejercicio 1
+
+### Enunciado
+
+Considere la función real $f(x)=x(1-x^2)+e^{-\\lambda x}$, donde $\\lambda$ es un parámetro real.
+
+**(a)** (1 punto) Calcule $F(x)$, la primitiva de $f(x)$ tal que $F(0)=1$.
+
+**(b)** (1 punto) Obtenga el área entre la curva de $f(x)$ y el eje horizontal en el intervalo $[0,1]$.
+
+**(c)** (0,5 puntos) ¿Para qué valores de $\\lambda$ es $f'(0)$ positiva?
+
+### Solución
+
+**(a) Primitiva con $F(0)=1$.**
+$$F(x)=\\int\\left(x-x^3+e^{-\\lambda x}\\right)dx=\\dfrac{x^2}{2}-\\dfrac{x^4}{4}-\\dfrac{e^{-\\lambda x}}{\\lambda}+C.$$
+Imponiendo $F(0)=1$: $-\\dfrac{1}{\\lambda}+C=1\\Rightarrow C=1+\\dfrac{1}{\\lambda}=\\dfrac{\\lambda+1}{\\lambda}$. Así
+$$F(x)=\\dfrac{x^2}{2}-\\dfrac{x^4}{4}-\\dfrac{e^{-\\lambda x}}{\\lambda}+\\dfrac{\\lambda+1}{\\lambda}.$$
+
+**(b) Área en $[0,1]$.**
+En $[0,1]$ se tiene $f(x)>0$, así que el área es $\\displaystyle\\int_0^1 f(x)\\,dx=F(1)-F(0)$:
+$$\\int_0^1 f(x)\\,dx=\\left(\\dfrac12-\\dfrac14-\\dfrac{e^{-\\lambda}}{\\lambda}\\right)-\\left(-\\dfrac{1}{\\lambda}\\right)=\\dfrac14+\\dfrac{1-e^{-\\lambda}}{\\lambda}\\ \\text{u}^2.$$
+
+**(c) Signo de $f'(0)$.**
+$f'(x)=1-3x^2-\\lambda e^{-\\lambda x}$, luego $f'(0)=1-\\lambda$. Entonces $f'(0)>0\\iff\\lambda<1$.
+
+## Ejercicio 2
+
+### Enunciado
+
+Sea la función real definida por
+$$f(x)=\\begin{cases} \\dfrac{x+2}{(x-2)^2} & \\text{si } x<0,\\\\[2mm] \\dfrac{x^2+x^3}{x^2+1} & \\text{si } x\\geq0. \\end{cases}$$
+
+**(a)** (0,5 puntos) Determine razonadamente el dominio de $f(x)$.
+
+**(b)** (0,5 puntos) Estudie la continuidad de $f(x)$ en $x=0$.
+
+**(c)** (0,5 puntos) Calcule la asíntota de $f(x)$ cuando $x\\to-\\infty$.
+
+**(d)** (1 punto) Calcule la asíntota de $f(x)$ cuando $x\\to+\\infty$.
+
+### Solución
+
+**(a) Dominio.**
+En la rama $x<0$, $(x-2)^2=0$ solo en $x=2\\notin(-\\infty,0)$, luego está definida en todo $x<0$. En la rama $x\\geq0$, $x^2+1>0$ siempre. Por tanto $\\text{Dom}\\,f=\\mathbb{R}$.
+
+**(b) Continuidad en $x=0$.**
+$f(0)=\\dfrac{0}{1}=0$.
+$$\\lim_{x\\to0^-}\\dfrac{x+2}{(x-2)^2}=\\dfrac{2}{4}=\\dfrac12,\\qquad \\lim_{x\\to0^+}\\dfrac{x^2+x^3}{x^2+1}=0.$$
+Como los límites laterales no coinciden ($\\tfrac12\\neq0$), $f$ **no es continua** en $x=0$ (discontinuidad de salto).
+
+**(c) Asíntota cuando $x\\to-\\infty$.**
+$$\\lim_{x\\to-\\infty}\\dfrac{x+2}{(x-2)^2}=\\lim_{x\\to-\\infty}\\dfrac{x+2}{x^2-4x+4}=0.$$
+Asíntota horizontal $y=0$ (no hay asíntota oblicua por ese lado).
+
+**(d) Asíntota cuando $x\\to+\\infty$.**
+El grado del numerador supera en una unidad al del denominador: hay asíntota oblicua $y=mx+n$.
+$$m=\\lim_{x\\to+\\infty}\\dfrac{f(x)}{x}=\\lim_{x\\to+\\infty}\\dfrac{x^2+x^3}{x^3+x}=1,$$
+$$n=\\lim_{x\\to+\\infty}\\left(f(x)-x\\right)=\\lim_{x\\to+\\infty}\\dfrac{x^2+x^3-x(x^2+1)}{x^2+1}=\\lim_{x\\to+\\infty}\\dfrac{x^2-x}{x^2+1}=1.$$
+Asíntota oblicua $y=x+1$.
+
+## Ejercicio 3
+
+### Enunciado
+
+Considere las matrices
+$$A=\\begin{pmatrix} 1/2 & 1 & 3/2 \\\\ 1 & 1/2 & 1 \\\\ 3/2 & 1 & 1/2 \\end{pmatrix},\\qquad B=\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 1/2 & 0 \\\\ 0 & 0 & 1/4 \\end{pmatrix}.$$
+
+**(a)** (1,5 puntos) Calcule la matriz $X$ en la ecuación matricial $AXB=A+B$.
+
+**(b)** (1 punto) Calcule el determinante $|C^2B|$, siendo $C=2(A^{-1})^t$. (Nota: $M^t$ denota la traspuesta de $M$.)
+
+### Solución
+
+**(a) Despeje de $X$.**
+Como $|A|=1\\neq0$ y $B$ es diagonal invertible, de $AXB=A+B$ multiplicamos por $A^{-1}$ a la izquierda y por $B^{-1}$ a la derecha:
+$$X=A^{-1}(A+B)B^{-1}=A^{-1}AB^{-1}+A^{-1}BB^{-1}=B^{-1}+A^{-1}.$$
+Con $A^{-1}=\\begin{pmatrix} -3/4 & 1 & 1/4 \\\\ 1 & -2 & 1 \\\\ 1/4 & 1 & -3/4 \\end{pmatrix}$ y $B^{-1}=\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & 4 \\end{pmatrix}$:
+$$X=B^{-1}+A^{-1}=\\begin{pmatrix} 1/4 & 1 & 1/4 \\\\ 1 & 0 & 1 \\\\ 1/4 & 1 & 13/4 \\end{pmatrix}.$$
+
+**(b) Determinante $|C^2B|$.**
+Por propiedades: $|C^2B|=|C|^2\\,|B|$. Como $B$ es diagonal, $|B|=1\\cdot\\tfrac12\\cdot\\tfrac14=\\tfrac18$. Además
+$$|C|=|2(A^{-1})^t|=2^3\\,|(A^{-1})^t|=8\\,|A^{-1}|=\\dfrac{8}{|A|}=8.$$
+Por tanto $|C^2B|=|C|^2|B|=8^2\\cdot\\dfrac18=\\dfrac{64}{8}=8.$
+
+## Ejercicio 4
+
+### Enunciado
+
+El barómetro de octubre de 2025 del CIS entrevistó a $4029$ personas. De los $333$ entrevistados de $18$ a $24$ años, un $35{,}5\\%$ menciona "la vivienda" como uno de los tres principales problemas de España.
+
+**(a)** (1,5 puntos) Calcule el intervalo de confianza al $95\\%$ para la proporción de jóvenes de $18$ a $24$ años que consideran la vivienda uno de los tres principales problemas en octubre de 2025.
+
+**(b)** (1 punto) Para el barómetro de noviembre se quiere estimar de nuevo esa proporción con un margen de error de cinco puntos porcentuales y nivel de confianza del $97\\%$. Calcule el tamaño de muestra necesario, asumiendo $p=0{,}355$.
+
+### Solución
+
+**(a) Intervalo de confianza al $95\\%$.**
+Como $n\\hat{p}=118{,}2>5$ y $n(1-\\hat{p})=214{,}8>5$, es válida la aproximación normal. Con $\\alpha=0{,}05$, $z_{\\alpha/2}=1{,}96$:
+$$IC=\\hat{p}\\pm z_{\\alpha/2}\\sqrt{\\dfrac{\\hat{p}(1-\\hat{p})}{n}}=0{,}355\\pm1{,}96\\sqrt{\\dfrac{0{,}355\\cdot0{,}645}{333}}.$$
+$$=0{,}355\\pm0{,}0514=(0{,}3036,\\ 0{,}4064).$$
+
+**(b) Tamaño muestral.**
+Al $97\\%$: $\\alpha=0{,}03$, $z_{\\alpha/2}\\approx2{,}17$. De $E=z_{\\alpha/2}\\sqrt{\\dfrac{\\hat{p}(1-\\hat{p})}{n}}$ despejamos
+$$n\\geq\\dfrac{z_{\\alpha/2}^2\\,\\hat{p}(1-\\hat{p})}{E^2}=\\dfrac{2{,}17^2\\cdot0{,}355\\cdot0{,}645}{0{,}05^2}\\approx431{,}29.$$
+Se requiere $n=432$ entrevistados.
+
+## Ejercicio 5
+
+### Enunciado
+
+Sean $A$, $B$ y $C$ tres sucesos de los que se conoce:
+$$P(A)=0{,}4,\\ P(B)=0{,}6,\\ P(C)=0{,}5,\\ P(A\\mid C)=0{,}6,\\ P(B\\mid C)=0{,}8,$$
+$$P(A\\cap B\\mid C)=P(A\\mid C)P(B\\mid C),\\qquad P(A\\cap B\\mid \\overline{C})=0{,}08.$$
+
+**(a)** (1 punto) Determine si $A$ y $B$ son independientes.
+
+**(b)** (1,5 puntos) Determine la probabilidad de que $C$ ocurra sabiendo que $A$ y $B$ ocurrieron.
+
+### Solución
+
+**(a) Independencia de $A$ y $B$.**
+Por la probabilidad total, usando que $A$ y $B$ son condicionalmente independientes dado $C$ ($P(A\\cap B\\mid C)=0{,}6\\cdot0{,}8=0{,}48$):
+$$P(A\\cap B)=P(A\\cap B\\mid C)P(C)+P(A\\cap B\\mid \\overline{C})P(\\overline{C})=0{,}48\\cdot0{,}5+0{,}08\\cdot0{,}5=0{,}28.$$
+Como $P(A)P(B)=0{,}4\\cdot0{,}6=0{,}24\\neq0{,}28=P(A\\cap B)$, los sucesos $A$ y $B$ **no son independientes**.
+
+**(b) $P(C\\mid A\\cap B)$.**
+Por la regla de Bayes:
+$$P(C\\mid A\\cap B)=\\dfrac{P(A\\cap B\\mid C)P(C)}{P(A\\cap B)}=\\dfrac{0{,}48\\cdot0{,}5}{0{,}28}=\\dfrac{0{,}24}{0{,}28}\\approx0{,}8571.$$
+
+## Ejercicio 6
+
+### Enunciado
+
+En un laboratorio se realiza un test de calidad. El $3\\%$ de los productos tiene defecto grave, el $7\\%$ defecto leve y el resto no tiene defectos. El test da positivo el $98\\%$ de las veces si el defecto es grave, el $80\\%$ si es leve y el $5\\%$ si no hay defecto.
+
+**(a)** (1,2 puntos) Calcule la probabilidad de que el test de un producto al azar dé negativo.
+
+**(b)** (1,3 puntos) Si el test ha dado positivo, calcule la probabilidad de que el defecto sea grave.
+
+### Solución
+
+Sean $G$ (defecto grave), $L$ (defecto leve), $N$ (sin defecto), y $+/-$ el resultado del test. Entonces $P(-\\mid G)=0{,}02$, $P(-\\mid L)=0{,}20$, $P(-\\mid N)=0{,}95$.
+
+**(a) Test negativo (probabilidad total).**
+$$P(-)=P(-\\mid G)P(G)+P(-\\mid L)P(L)+P(-\\mid N)P(N)$$
+$$=0{,}02\\cdot0{,}03+0{,}20\\cdot0{,}07+0{,}95\\cdot0{,}90=0{,}0006+0{,}014+0{,}855=0{,}8696.$$
+
+**(b) Defecto grave dado positivo (Bayes).**
+$$P(+)=0{,}98\\cdot0{,}03+0{,}80\\cdot0{,}07+0{,}05\\cdot0{,}90=0{,}0294+0{,}056+0{,}045=0{,}1304.$$
+$$P(G\\mid +)=\\dfrac{P(+\\mid G)P(G)}{P(+)}=\\dfrac{0{,}0294}{0{,}1304}\\approx0{,}2255.$$
+
+## Ejercicio 7
+
+### Enunciado
+
+Considere la región $S$ del plano delimitada por las restricciones
+$$x\\leq6,\\quad 3y-2x\\leq10,\\quad 3y\\geq2-2x,\\quad x\\leq10-y,\\quad y\\geq x-6.$$
+
+**(a)** (2 puntos) Calcule las coordenadas de los vértices de $S$ y represente gráficamente la región.
+
+**(b)** (0,5 puntos) Se desea minimizar el triple de $y$ menos la mitad de $x$ en $S$. Indique el valor mínimo y el punto donde se alcanza.
+
+### Solución
+
+**(a) Vértices de $S$.**
+Escribimos las restricciones como $x\\leq6$, $-2x+3y\\leq10$, $2x+3y\\geq2$, $x+y\\leq10$, $x-y\\leq6$. Intersecando las rectas activas se obtienen los vértices:
+$$A(4,6),\\quad B(6,4),\\quad C(6,0),\\quad D(4,-2),\\quad E(-2,2).$$
+(Por ejemplo, $A$ es $x+y=10$ con $-2x+3y=10$; $C$ es $x=6$ con $2x+3y=2$; $D$ es $x=6$... y $x-y=6$ cortando con $2x+3y=2$ da $D(4,-2)$; $E$ es $2x+3y=2$ con $-2x+3y=10$.)
+
+**(b) Minimización de $f(x,y)=3y-\\dfrac{x}{2}$.**
+Evaluamos en los vértices:
+$$\\begin{array}{c|ccccc}
+\\text{Vértice} & A(4,6) & B(6,4) & C(6,0) & D(4,-2) & E(-2,2)\\\\\\hline
+f & 16 & 9 & -3 & -8 & 7
+\\end{array}$$
+El mínimo es $f(4,-2)=-8$, alcanzado en $D(4,-2)$.
+`,ca=`---
 title: Matemáticas II · PAU 2025 · Andalucía — examen resuelto
 seoTitle: Matemáticas II · PAU 2025 · Andalucía — examen resuelto
 date: 2025-10-16
@@ -24482,7 +26637,7 @@ $$
 Antes de repetirlo, anota qué apartado te hizo detenerte: límite, estudio de función, geometría, integral o probabilidad. Practicar con ese diagnóstico es más efectivo que limitarse a comprobar el resultado final.
 
 Si quieres una planificación con ejercicios graduados, explicaciones y seguimiento, puedes trabajar estos bloques en el [Campus de Método Nebula](/campus/).
-`,Wn=`---
+`,la=`---
 title: Matemáticas II · PAU 2025 · Aragón — examen resuelto
 seoTitle: Matemáticas II · PAU 2025 · Aragón — examen resuelto
 date: 2025-10-18
@@ -24736,7 +26891,7 @@ $$
 Si fallas una opción, no memorices el último número: vuelve al primer modelo que se ha usado (matriz, producto vectorial, derivada o probabilidad condicionada) y repite un ejercicio parecido al día siguiente.
 
 Puedes practicar estas técnicas con itinerario, explicaciones y seguimiento en el [Campus de Método Nebula](/campus/).
-`,Jn=`---
+`,da=`---
 title: Matemáticas II · PAU 2025 · Cantabria — examen resuelto
 seoTitle: Matemáticas II · PAU 2025 · Cantabria — examen resuelto
 date: 2025-10-20
@@ -25002,7 +27157,7 @@ $$
 Cuando corrijas, separa un error de cálculo de un error de planteamiento. El segundo indica el bloque que debes volver a entrenar; el primero suele resolverse escribiendo los pasos intermedios con más orden.
 
 Puedes practicar matrices, análisis, geometría y probabilidad con una ruta guiada en el [Campus de Método Nebula](/campus/).
-`,Zn=`---
+`,ua=`---
 title: Matemáticas II · PAU 2025 · Comunidad Valenciana — examen resuelto
 seoTitle: Matemáticas II · PAU 2025 · Comunidad Valenciana — examen resuelto
 date: 2025-10-26
@@ -25202,7 +27357,7 @@ $$
 En las cuestiones largas, deja una línea entre cada transformación y escribe siempre qué se está sustituyendo. Esa presentación hace que el corrector pueda seguir tu razonamiento incluso si cometes un pequeño error aritmético.
 
 Puedes entrenar estas técnicas de forma guiada en el [Campus de Método Nebula](/campus/).
-`,Xn=`---
+`,ma=`---
 title: PAU 2025 Matemáticas II: examen resuelto de Madrid
 seoTitle: PAU 2025 Matemáticas II Madrid: examen resuelto
 date: 2026-10-20
@@ -25454,7 +27609,7 @@ Por tanto, entre quienes no son lectores habituales, aproximadamente el 47,25 % 
 Haz primero un bloque de cada pareja de alternativas y marca el primer paso que no hayas sabido justificar. Cuando lo repases, intenta explicar ese paso con tus propias palabras: es la forma más rápida de detectar si realmente dominas el método.
 
 Si quieres organizar la práctica por bloques, corregir errores recurrentes y avanzar con una ruta de estudio, puedes hacerlo en el [Campus de Método Nebula](/campus/).
-`,Yn=`---
+`,$a=`---
 title: Matemáticas II · PAU 2025 · Murcia — examen resuelto
 seoTitle: Matemáticas II · PAU 2025 · Murcia — examen resuelto
 date: 2025-10-22
@@ -25684,7 +27839,7 @@ $$
 Si se atasca una cuestión, identifica primero su familia: sistema, optimización, integral, posición relativa o distribución. A partir de ahí el camino de resolución suele ser mucho más claro.
 
 Puedes entrenar esos bloques con práctica guiada y seguimiento en el [Campus de Método Nebula](/campus/).
-`,ea=`---
+`,pa=`---
 title: Matemáticas II · PAU 2025 · Navarra — examen resuelto
 seoTitle: Matemáticas II · PAU 2025 · Navarra — examen resuelto
 date: 2025-10-24
@@ -25928,7 +28083,7 @@ $$
 Aquí conviven optimización, parámetros, geometría y teoremas de análisis. Cuando repases, etiqueta cada error con uno de esos bloques: así conviertes la corrección en un plan de estudio real.
 
 Para practicar por bloques y recibir seguimiento, puedes acceder al [Campus de Método Nebula](/campus/).
-`,na=`---
+`,ga=`---
 title: Matemáticas II · PAU 2026 · Andalucía — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Andalucía — examen resuelto
 date: 2026-10-18
@@ -26184,7 +28339,7 @@ Haz una primera vuelta sin consultar la solución. Al corregir, señala el prime
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
 
-`,aa=`---
+`,fa=`---
 title: Matemáticas II · PAU 2026 · Aragón — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Aragón — examen resuelto
 date: 2026-10-16
@@ -26427,7 +28582,7 @@ $$L=\\frac{(1-0)\\cdot1-1}{1}=\\boxed{0}.$$
 Haz una primera vuelta sin consultar la solución. Al corregir, señala el primer paso que no supiste justificar y repítelo al día siguiente. Así conviertes un modelo de examen en una lista concreta de técnicas que debes entrenar.
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
-`,oa=`---
+`,xa=`---
 title: Matemáticas II · PAU 2026 · Principado de Asturias — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Principado de Asturias — examen resuelto
 date: 2026-10-14
@@ -26897,7 +29052,7 @@ La probabilidad de que la alarma salte al menos una vez es aproximadamente del *
 Haz una primera vuelta sin consultar la solución. Al corregir, señala el primer paso que no supiste justificar y repítelo al día siguiente. Así conviertes un modelo de examen en una lista concreta de técnicas que debes entrenar.
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
-`,ia=`---
+`,ba=`---
 title: Matemáticas II · PAU 2026 · Cantabria — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Cantabria — examen resuelto
 date: 2026-10-28
@@ -27115,7 +29270,7 @@ $$
 Cuando hayas terminado un bloque, comprueba si puedes explicar por qué se ha usado cada fórmula. Ese hábito evita aprender solo la apariencia de un procedimiento.
 
 Puedes practicar estos contenidos con ejercicios guiados en el [Campus de Método Nebula](/campus/).
-`,ra=`---
+`,va=`---
 title: Matemáticas II · PAU 2026 · Cataluña — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Cataluña — examen resuelto
 date: 2026-10-10
@@ -27398,7 +29553,7 @@ Haz una primera vuelta sin consultar la solución. Al corregir, señala el prime
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
 
-`,sa=`---
+`,ya=`---
 title: Matemáticas II · PAU 2026 · Comunitat Valenciana — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Comunitat Valenciana — examen resuelto
 date: 2026-10-08
@@ -27692,7 +29847,7 @@ Haz una primera vuelta sin consultar la solución. Al corregir, señala el prime
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
 
-`,ta=`---
+`,ha=`---
 title: PAU 2026 Matemáticas II: examen resuelto de Madrid
 seoTitle: PAU 2026 Matemáticas II Madrid: examen resuelto
 date: 2026-10-18
@@ -27893,7 +30048,7 @@ $$\\boxed{y-\\frac{2e^2}{5}=\\frac{2e^2}{25}(x-2).}$$
 Elige primero una sola opción en las preguntas 4 y 5 y resuélvela con tiempo. En la corrección, anota si el bloqueo fue de planteamiento, cálculo o justificación: ese diagnóstico te dice qué entrenar en el siguiente modelo.
 
 Puedes organizar esa práctica y recibir seguimiento en el [Campus de Método Nebula](/campus/).
-`,ca=`---
+`,qa=`---
 title: Matemáticas II · PAU 2026 · Región de Murcia — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Región de Murcia — examen resuelto
 date: 2026-10-04
@@ -28098,7 +30253,7 @@ Haz una primera vuelta sin consultar la solución. Al corregir, señala el prime
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
 
-`,la=`---
+`,Ea=`---
 title: Matemáticas II · PAU 2026 · País Vasco — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · País Vasco — examen resuelto
 date: 2026-09-30
@@ -28331,7 +30486,7 @@ Haz una primera vuelta sin consultar la solución. Al corregir, señala el prime
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
 
-`,da=`---
+`,_a=`---
 title: Matrices, determinantes y sistemas de ecuaciones: guía completa para primero de carrera
 date: 2026-06-25
 updated: 2026-06-25
@@ -28506,7 +30661,7 @@ No hagas solo sistemas numéricos. Mezcla:
 - Problemas donde haya que decidir si usar Gauss, determinante o interpretación geométrica.
 
 Si este bloque te cuesta, empieza por [Álgebra Lineal en la universidad](/blog/algebra-lineal-universidad-que-estudiar-primero-errores/) y revisa la página de [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,ua=`---
+`,Ca=`---
 title: "Máximos y mínimos de varias variables: guía y ejercicios"
 date: "2026-09-01"
 updated: "2026-09-01"
@@ -29076,7 +31231,7 @@ Todos los valores cumplen $f<1$, pero pueden acercarse tanto como se quiera a $1
 Primero separa el problema interior del problema de frontera. En el interior, resuelve $\\nabla f=0$ y clasifica con la hessiana; si el determinante es cero, cambia de argumento. En una región compacta, analiza cada frontera y compara todos los candidatos. Con una restricción regular, Lagrange expresa el paralelismo de los gradientes, pero no evita la comprobación final.
 
 Conviene dominar antes las [derivadas parciales y el gradiente](/blog/derivadas-parciales-gradiente-ejercicios/). Si necesitas practicar clasificaciones y restricciones con los ejercicios de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,ma=`---
+`,ja=`---
 title: "Mecánica de fluidos: ejercicios resueltos de continuidad y Bernoulli"
 seoTitle: "Continuidad y Bernoulli: ejercicios resueltos | Fluidos"
 date: "2026-10-18"
@@ -29178,7 +31333,7 @@ La densidad se cancela: para este modelo ideal, la rapidez de salida depende de 
 - Pregunta si hay pérdidas o una bomba: si las hay, Bernoulli ideal no es suficiente.
 
 El [campus virtual de Método Nebula](/contacto/) organiza los problemas de Física para Ingeniería por modelo físico, con teoría, ejercicios guiados y exámenes resueltos. Esa práctica te enseña a reconocer cuándo usar continuidad, energía o ambas sin depender de una fórmula aislada.
-`,pa=`---
+`,Sa=`---
 title: Métodos de integración: cómo elegir la técnica adecuada
 date: 2026-08-01
 updated: 2026-08-01
@@ -29770,7 +31925,7 @@ Primero simplifica. Después busca una forma inmediata o una composición con su
 La elección no se memoriza como una lista de palabras clave. Se entrena comparando la estructura del integrando con las reglas de derivación que ya conoces y comprobando si cada transformación reduce la dificultad.
 
 Si estás preparando Cálculo universitario y necesitas aplicar este árbol de decisión a tus hojas de problemas o exámenes, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,$a=`---
+`,Pa=`---
 title: Microeconomía I: diez tipos de problemas que debes dominar antes del examen
 date: 2026-07-05
 updated: 2026-07-05
@@ -29909,7 +32064,7 @@ Para cada tipo de problema, prepara una ficha:
 - No distinguir demanda individual y demanda de mercado.
 
 Si quieres trabajar Microeconomía I desde ejercicios reales, revisa [clases particulares de Economía y ADE](/clases-particulares/economia-ade/) y la guía de [Matemáticas I en ADE y Economía](/blog/como-aprobar-matematicas-i-ade-economia/).
-`,ga=`---
+`,za=`---
 title: "Disoluciones y molaridad en 1º Bachillerato: problemas resueltos"
 seoTitle: "Molaridad y disoluciones: ejercicios resueltos"
 date: 2026-11-05
@@ -30025,7 +32180,7 @@ La concentración baja porque el mismo soluto queda repartido en más volumen.
 4. \\(c_2=(2{,}0\\cdot50)/400=0{,}25\\text{ M}\\).
 
 La [guía de mol y estequiometría](/blog/bachillerato-fisica-quimica-mol-estequiometria/) explica las conversiones que se usan antes y después de una reacción. Para practicar química con ejercicios de tu nivel, consulta las [clases particulares de Química](/clases-particulares/quimica/).
-`,fa=`---
+`,Aa=`---
 title: "Movimiento circular uniforme: ejercicios de 1º Bachillerato"
 seoTitle: "Movimiento circular uniforme: ejercicios resueltos"
 date: 2026-10-23
@@ -30085,7 +32240,7 @@ $$
 3. Hacia el centro de la trayectoria.
 
 En el [Campus de Método Nebula](/campus/) el movimiento circular se conecta con fuerzas, energía y representación vectorial mediante problemas graduados.
-`,ba=`---
+`,La=`---
 title: "MRU en ESO: movimiento rectilíneo uniforme con fórmulas y ejercicios"
 seoTitle: "MRU en ESO: fórmulas, gráficas y ejercicios resueltos"
 date: "2026-08-12"
@@ -30320,7 +32475,7 @@ En MRU la trayectoria es recta y la velocidad es constante, así que $a=0$. Usa 
 Cuando la velocidad deja de ser constante, el modelo correcto pasa a ser el [MRUA: movimiento rectilíneo uniformemente acelerado](/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/). Para reforzar el método general de planteamiento, consulta también [cómo resolver problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/).
 
 Si necesitas practicar con ejercicios de tu curso, puedes consultar las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,xa=`---
+`,Ha=`---
 title: "MRUA en ESO: movimiento rectilíneo acelerado con fórmulas y ejercicios"
 seoTitle: "MRUA en ESO: fórmulas, gráficas y ejercicios resueltos"
 date: "2026-08-19"
@@ -30536,7 +32691,7 @@ Sigue avanzando en el sentido inicial, pero más despacio.
 En MRUA la trayectoria es recta y la aceleración es constante. Usa $v=v_0+at$ para velocidades y $x=x_0+v_0t+\\frac12at^2$ para posiciones. En una gráfica $v-t$, la pendiente es la aceleración y el área es el desplazamiento.
 
 Para consolidar la base, repasa el [MRU con ejercicios](/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/) y el método de [plantear problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/). Si necesitas practicar con tu temario, puedes consultar las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,va=`---
+`,Oa=`---
 title: p-valor, intervalo de confianza y tamaño del efecto explicados con un mismo ejemplo
 date: 2026-07-10
 updated: 2026-07-10
@@ -30653,7 +32808,7 @@ Si te dan una salida de software, localiza:
 5. La frase de interpretación.
 
 Para evitar confusiones habituales, lee también [errores más comunes en Inferencia Estadística](/blog/errores-comunes-inferencia-estadistica/) y [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/).
-`,ya=`---
+`,Da=`---
 title: "Derivadas en Matemáticas CCSS PAU: coste marginal, beneficio y optimización con interpretación"
 seoTitle: "Derivadas CCSS PAU: coste, beneficio y optimización"
 date: "2026-08-18"
@@ -30777,7 +32932,7 @@ Compara cambios porcentuales, por lo que es adimensional. Su interpretación dep
 ## Convertir la visibilidad en preparación
 
 Las derivadas son el clúster con mayor tracción orgánica actual de Método Nebula. Este artículo amplía esa entrada hacia CCSS y economía; el campus virtual la conecta con funciones, matrices y programación lineal mediante ejercicios y modelos PAU. El botón de contacto permite acceder al itinerario completo y a la práctica corregida.
-`,ha=`---
+`,Ma=`---
 title: "Inferencia estadística en Matemáticas CCSS PAU: intervalos de confianza y tamaño muestral con sentido"
 seoTitle: "Inferencia estadística PAU: intervalos y tamaño muestral"
 date: "2026-10-02"
@@ -30901,7 +33056,7 @@ Comprueba las condiciones del modelo y expresa el resultado como proporción o p
 - Omitir unidades o contexto.
 
 El campus de Método Nebula reúne probabilidad, distribuciones, muestreo e inferencia con modelos PAU resueltos. Contacta para integrar fórmulas e interpretación en un plan de examen.
-`,qa=`---
+`,Ua=`---
 title: "Integrales en Matemáticas CCSS PAU: áreas, acumulación y aplicaciones económicas con sentido"
 seoTitle: "Integrales CCSS PAU: áreas y acumulación"
 date: "2026-08-13"
@@ -31021,7 +33176,7 @@ No es la media de los extremos salvo en funciones lineales. En contexto puede re
 ## Integrar el tema en la preparación CCSS
 
 El campus virtual de Método Nebula conecta derivadas, funciones marginales, integrales, matrices y optimización mediante teoría y modelos económicos. Incluye ejercicios graduados y exámenes PAU resueltos. El botón de contacto permite acceder al recorrido y practicar tanto el cálculo como la interpretación que exige la prueba.
-`,Ea=`---
+`,wa=`---
 title: "Matrices en Matemáticas CCSS PAU: producción, costes y sistemas con interpretación económica"
 seoTitle: "Matrices CCSS PAU: producción, costes y sistemas"
 date: "2026-09-08"
@@ -31149,7 +33304,7 @@ Entonces $\\vec x_n=T^n\\vec x_0$. Antes de interpretar, comprueba si filas o co
 ## Del contexto a una solución defendible
 
 El campus virtual de Método Nebula trabaja matrices CCSS con modelos de producción, sistemas, programación lineal y probabilidad. Incluye teoría, ejercicios graduados y problemas PAU donde la interpretación cuenta tanto como la operación. El botón de contacto permite acceder al recorrido completo y practicar con corrección contextual.
-`,_a=`---
+`,Ra=`---
 title: "Matemáticas CCSS PAU: domina programación lineal y convierte enunciados en puntos"
 date: "2026-09-30"
 updated: "2026-10-28"
@@ -31249,7 +33404,7 @@ No es magia ni una regla sin motivo: es una propiedad de la geometría lineal.
 ¿Variables definidas? ¿Todas las restricciones traducidas? ¿Semiplanos verificados? ¿Vértices exactos? ¿Función objetivo evaluada? ¿Respuesta redactada con unidades? Si las seis respuestas son sí, el ejercicio está completo y el corrector puede seguir el razonamiento.
 
 El campus virtual de Método Nebula incluye Matemáticas CCSS con sistemas, representación, programación lineal, probabilidad e inferencia, organizados en teoría, ejemplos y práctica de examen. Si quieres dejar de depender de plantillas y aprender a modelizar, utiliza el botón de contacto.
-`,Ca=`---
+`,Ba=`---
 title: "Convocatoria extraordinaria PAU: un plan de 30 días para remontar sin empezar de cero"
 seoTitle: "Convocatoria extraordinaria PAU: plan de 30 días"
 date: "2026-10-30"
@@ -31343,7 +33498,7 @@ Dormir no compite con el estudio: protege memoria de trabajo, lectura y control 
 La ventaja es disponer de evidencia real. Tu examen anterior revela el tipo de presión, las decisiones de tiempo y los contenidos que no se consolidaron. Utiliza esa evidencia para diseñar un plan más pequeño, más medible y más exigente en la práctica.
 
 El campus virtual de Método Nebula reúne teoría, ejercicios graduados, exámenes resueltos y rutas de recuperación para Matemáticas, Física y Química PAU. Desde el botón de contacto puedes enviar tus resultados y recibir una propuesta de 30 días centrada en los bloques que más puntos pueden devolverte, sin reiniciar todo el curso.
-`,ja=`---
+`,Ia=`---
 title: "Cómo corregir un simulacro de PAU para subir nota: el sistema que convierte fallos en un plan"
 date: "2026-10-27"
 updated: "2026-10-28"
@@ -31452,7 +33607,7 @@ No necesitas un paper completo cada día. Haz el siguiente cuando hayas trabajad
 El campus virtual de Método Nebula permite pasar del diagnóstico a la unidad concreta, revisar teoría, observar ejemplos, practicar, responder preguntas de examen y volver a medir. La ventaja no es acumular contenido; es conservar una ruta entre el fallo y la siguiente evidencia.
 
 Si tienes modelos corregidos pero no sabes convertirlos en un calendario, utiliza el botón de contacto. Podemos revisar objetivo, comunidad, asignaturas, fecha y punto de partida para proponer un recorrido realista.
-`,Sa=`---
+`,Na=`---
 title: "PAU, EBAU, EvAU o Selectividad: qué significa cada nombre y cómo encontrar tu modelo oficial"
 seoTitle: "PAU, EBAU, EvAU o Selectividad: guía y modelos"
 date: "2026-10-10"
@@ -31540,7 +33695,7 @@ donde $L$ representa exámenes locales, $A$ exámenes de estructura afín y $E$ 
 Una vez identificados los bloques, realiza un diagnóstico con un examen reciente, mide el porcentaje por apartado y asigna horas según frecuencia, debilidad y puntuación. El documento oficial deja de ser un archivo informativo y se convierte en el mapa de la preparación.
 
 El campus virtual de Método Nebula organiza los contenidos de PAU por materia y bloque, conecta cada explicación con ejercicios y exámenes resueltos y permite adaptar el itinerario al modelo oficial de cada alumno. Desde el botón de contacto puedes enviar tu comunidad, asignatura y convocatoria para construir una ruta precisa, sin estudiar a ciegas con materiales de otra prueba.
-`,za=`---
+`,Ta=`---
 title: "Campo eléctrico en PAU: cómo dominar potencial, trabajo y condensadores sin perder los signos"
 seoTitle: "Campo eléctrico PAU: potencial y condensadores"
 date: "2026-07-22"
@@ -31671,7 +33826,7 @@ Elegir la forma adecuada depende de qué magnitud permanece constante al cambiar
 ## Una ruta completa de electromagnetismo
 
 El campus virtual de Método Nebula conecta campo, potencial, energía, condensadores e inducción mediante teoría, ejercicios escalonados y exámenes PAU resueltos. El botón de contacto permite acceder a una ruta donde cada problema empieza con el diagrama de signos y termina con una comprobación física.
-`,Pa=`---
+`,ka=`---
 title: "Campo gravitatorio PAU: 3 ejercicios resueltos de satélites, órbitas y energía"
 seoTitle: "Campo gravitatorio PAU: 3 ejercicios resueltos"
 date: "2026-10-02"
@@ -31864,7 +34019,7 @@ Hay que aportar energía. La energía final sigue siendo negativa porque el sat�
 Dibujo y radio → ley física → deducción simbólica → sustitución SI → unidades → interpretación. La deducción simbólica permite ver dependencias, detectar datos irrelevantes y conservar puntos aunque falle una operación numérica.
 
 El campus virtual de Método Nebula desarrolla campo gravitatorio, potencial, energía, satélites, órbitas y escape con teoría, demostraciones, ejercicios y problemas PAU. El botón de contacto permite solicitar una ruta centrada en el desarrollo matemático que conecta todo el bloque.
-`,Aa=`---
+`,Fa=`---
 title: "Física cuántica PAU: efecto fotoeléctrico y fotones para entender por qué existe una frecuencia umbral"
 seoTitle: "Efecto fotoeléctrico PAU: fotones y frecuencia umbral"
 date: "2026-10-10"
@@ -31976,7 +34131,7 @@ asocia longitud de onda a partículas con momento. En preguntas PAU conviene dis
 - Usar $c=f\\lambda$ con la velocidad de un electrón.
 
 El campus virtual de Método Nebula desarrolla cuántica, relatividad y nuclear con teoría, gráficos y problemas PAU. Contacta para entrenar conversiones, modelos y explicaciones.
-`,La=`---
+`,Qa=`---
 title: "Electromagnetismo PAU: 3 ejercicios resueltos de campos, fuerzas e inducción"
 seoTitle: "Electromagnetismo PAU: 3 ejercicios resueltos"
 date: "2026-10-24"
@@ -32133,7 +34288,7 @@ El sentido se obtiene con Lenz: la corriente inducida crea un campo que intenta 
 Dibujo → vectores → ley física → módulo → dirección → comprobación de unidades. Para inducción añade: “qué hace variar el flujo”. Esta secuencia produce soluciones legibles y conserva puntuación parcial.
 
 El campus virtual de Método Nebula desarrolla electromagnetismo con fundamentos, ejemplos visuales, ejercicios y preguntas PAU. Si quieres convertir reglas sueltas en un mapa coherente y entrenable, utiliza el botón de contacto.
-`,Ha=`---
+`,Va=`---
 title: "Física PAU: el formulario razonado que conecta ecuaciones, unidades y comprobaciones"
 seoTitle: "Formulario razonado de Física PAU por bloques"
 date: "2026-10-20"
@@ -32245,7 +34400,7 @@ El control dimensional detecta conversiones, exponentes y ecuaciones mal recorda
 Tapa una columna y reconstruye su contenido. Después resuelve una pregunta y marca qué información faltaba. El formulario debe reducirse con la práctica: si crece indefinidamente, está sustituyendo al razonamiento.
 
 El campus virtual de Método Nebula conecta cada ley de Física PAU con su deducción, esquema, unidades, ejercicios graduados y exámenes resueltos. Desde el botón de contacto puedes solicitar una ruta por bloques para transformar un formulario pasivo en un sistema de resolución y comprobación que funcione bajo tiempo real.
-`,Oa=`---
+`,Ga=`---
 title: "Física PAU: cómo interpretar gráficas, datos experimentales e incertidumbre con rigor"
 seoTitle: "Gráficas e incertidumbre experimental en Física PAU"
 date: "2026-10-22"
@@ -32335,7 +34490,7 @@ La incertidumbre no debe expresarse con precisión artificial. Ajusta el valor a
 Termina siempre con tres elementos: magnitud obtenida, unidad y comparación física. Si la ordenada en el origen debería ser cero y no lo es, considera un error sistemático antes de atribuirlo al azar.
 
 El campus virtual de Método Nebula incluye análisis de datos, linealizaciones y preguntas experimentales dentro de cada bloque de Física PAU, con gráficas cuidadas y soluciones justificadas. El botón de contacto permite acceder a ejercicios graduados y simulacros donde cada pendiente, unidad e incertidumbre se interpreta como parte del modelo, no como un trámite gráfico.
-`,Ua=`---
+`,Ka=`---
 title: "Movimiento armónico simple en PAU: de la proyección circular a energía, velocidad y aceleración"
 seoTitle: "Movimiento armónico simple PAU: método y ejercicios"
 date: "2026-10-28"
@@ -32476,7 +34631,7 @@ En una gráfica $x(t)$, la pendiente representa $v$ y la concavidad determina el
 - Aplicar la fórmula del péndulo a amplitudes grandes sin justificar.
 
 El campus virtual de Método Nebula integra MAS y ondas con teoría, ejercicios graduados y problemas PAU. El contacto sirve para diagnosticar si el bloqueo está en la fase, las derivadas o la interpretación física.
-`,Ma=`---
+`,Xa=`---
 title: "Física nuclear PAU: defecto de masa, energía de enlace y radiactividad con unidades bajo control"
 seoTitle: "Física nuclear PAU: defecto de masa y energía de enlace"
 date: "2026-10-06"
@@ -32604,7 +34759,7 @@ Ambas pueden liberar energía al producir núcleos con mayor energía de enlace 
 - Aplicar una disminución lineal a una ley exponencial.
 
 El campus de Método Nebula conecta estructura nuclear, decaimiento, energía de enlace y problemas PAU. Contacta para practicar balances y conversiones con corrección detallada.
-`,Da=`---
+`,Wa=`---
 title: "Física PAU: domina ondas desde cero y convierte las fórmulas en puntos de examen"
 date: "2026-09-22"
 updated: "2026-10-28"
@@ -32709,7 +34864,7 @@ Una respuesta de calidad indica qué se conserva, qué cambia y por qué.
 Resuelve una pregunta de lectura de gráfica, otra de ecuación de onda, una de interferencia y una de energía o intensidad. Dos días después mézclalas sin encabezado. Finalmente intégralas en un modelo cronometrado de tu comunidad y corrige con su criterio oficial.
 
 El campus virtual de Método Nebula desarrolla fundamentos, movimiento armónico, ondas y óptica mediante teoría, ejemplos, ejercicios y preguntas de examen. Si quieres convertir este bloque en una fuente estable de puntos, utiliza el botón de contacto para diagnosticar el punto de partida y construir el recorrido.
-`,wa=`---
+`,Ja=`---
 title: "Óptica geométrica PAU: 3 ejercicios resueltos de lentes, espejos y signos"
 seoTitle: "Óptica PAU: 3 ejercicios resueltos de lentes y espejos"
 date: "2026-10-23"
@@ -32844,7 +34999,7 @@ La imagen es real, invertida y mide la mitad que el objeto. El diagrama de rayos
 - Corregir signos “al final” en vez de mantener un convenio.
 
 El campus de Método Nebula desarrolla ondas y óptica con diagramas, ecuaciones y ejercicios PAU. Contacta si necesitas convertir el convenio de signos en un procedimiento verificable.
-`,Ra=`---
+`,Za=`---
 title: "Relatividad especial en Física PAU: dilatación temporal, contracción y energía sin paradojas"
 seoTitle: "Relatividad especial PAU: tiempo, longitud y energía"
 date: "2026-09-27"
@@ -32949,7 +35104,7 @@ La respuesta PAU debe especificar observador, sucesos y magnitud propia. Frases 
 ## Entrenar el bloque, no una sola fórmula
 
 En el campus virtual de Método Nebula, relatividad se trabaja junto con cuántica y nuclear mediante teoría conectada, ejemplos progresivos y problemas PAU completos. El objetivo es decidir el sistema de referencia antes de sustituir. El botón de contacto permite acceder a una ruta que combina diagnóstico, práctica y exámenes resueltos.
-`,Na=`---
+`,Ya=`---
 title: "Matemáticas CCSS PAU: probabilidad condicionada y Bayes sin confundir los sucesos"
 seoTitle: "Probabilidad condicionada y Bayes en PAU CCSS"
 date: "2026-10-17"
@@ -33048,7 +35203,7 @@ La tabla y el árbol deben producir exactamente el mismo resultado. Utilizar amb
 El denominador de Bayes debe ser al menos tan grande como el numerador porque contiene ese camino y posiblemente otros. El resultado debe estar entre 0 y 1. Además, todas las hojas del árbol deben sumar 1.
 
 El campus virtual de Método Nebula desarrolla probabilidad condicionada, árboles, tablas, teorema de la probabilidad total, Bayes y distribuciones con ejercicios graduados y modelos PAU resueltos. El botón de contacto permite acceder a una ruta que empieza por traducir el lenguaje y termina con problemas cronometrados, para que la fórmula nunca sustituya a la comprensión del suceso.
-`,Ia=`---
+`,eo=`---
 title: "Derivabilidad con parámetros en PAU: continuidad, derivadas laterales y tangentes sin saltos lógicos"
 seoTitle: "Derivabilidad con parámetros PAU: método completo"
 date: "2026-09-13"
@@ -33182,7 +35337,7 @@ Una vez determinada la derivabilidad, el signo de $f'$ estudia crecimiento y dec
 ## Ampliar el clúster de mayor demanda
 
 Las consultas sobre derivadas concentran la mayor visibilidad orgánica actual de la web. Este artículo cubre una intención más avanzada y específica, mientras el campus virtual convierte esa entrada en un recorrido de continuidad, derivadas, representación y optimización. Incluye teoría, ejercicios escalonados y modelos PAU; el botón de contacto permite acceder al itinerario completo.
-`,Ba=`---
+`,no=`---
 title: "Geometría métrica PAU: distancias, ángulos y posiciones relativas sin memorizar fórmulas sueltas"
 seoTitle: "Geometría métrica PAU: distancias y ángulos"
 date: "2026-09-10"
@@ -33313,7 +35468,7 @@ Este procedimiento es más seguro que intentar recordar una fórmula larga de co
 ## De la fórmula al modelo de examen
 
 El campus virtual de Método Nebula conecta vectores, rectas, planos, sistemas y geometría métrica con ejercicios visuales y modelos PAU resueltos. La práctica obliga a justificar cada vector y cada perpendicularidad. El botón de contacto permite acceder al recorrido completo y trabajar los problemas con corrección paso a paso.
-`,Ta=`---
+`,ao=`---
 title: "Matemáticas II PAU: cómo repartir 90 minutos y elegir los ejercicios correctos"
 seoTitle: "Matemáticas II PAU: estrategia para 90 minutos"
 date: "2026-10-12"
@@ -33402,7 +35557,7 @@ Sustituye las soluciones cuando sea posible. En una integral definida, estima el
 Una planificación temporal no se estrena el día de la prueba. Realiza simulacros y registra tiempo planificado, tiempo real, puntos y motivo de cada desvío. Tras varias pruebas aparecerá tu patrón: lentitud algebraica, exceso de revisión temprana o mala elección inicial.
 
 El campus virtual de Método Nebula reúne teoría, ejercicios graduados y exámenes PAU resueltos con indicaciones de tiempo y criterios de corrección. El botón de contacto permite solicitar un diagnóstico para elegir una estrategia de 90 minutos basada en tus bloques fuertes, tus errores recurrentes y el modelo oficial que vas a realizar.
-`,ka=`---
+`,oo=`---
 title: "Matemáticas II PAU: 15 errores que restan puntos aunque conozcas el temario"
 seoTitle: "15 errores frecuentes en Matemáticas II PAU"
 date: "2026-10-15"
@@ -33514,7 +35669,7 @@ No intentes revisar quince elementos en cada línea. Asigna una comprobación a 
 Después de cada simulacro, cuenta errores por categoría. Si un tipo aparece tres veces, crea una tarjeta con un ejemplo y una prueba de control. El objetivo es que el fallo active automáticamente su comprobación.
 
 El campus virtual de Método Nebula trabaja estos errores con desarrollos completos, ejercicios equivalentes y exámenes PAU comentados. Desde el botón de contacto puedes enviar un simulacro corregido y organizar una ruta que no se limite a repetir teoría: identifica dónde se pierden puntos y entrena la comprobación exacta que los recupera.
-`,Fa=`---
+`,io=`---
 title: "Matemáticas II PAU: domina vectores, rectas y planos sin memorizar veinte fórmulas"
 date: "2026-09-27"
 updated: "2026-10-28"
@@ -33638,7 +35793,7 @@ Pero no uses esta fórmula para cualquier distancia. Punto–recta, rectas paral
 Alterna ejercicios de construcción, posición relativa, ángulos y distancias. Luego resuelve una pregunta que combine dos partes: por ejemplo, hallar un plano y medir una distancia. Finalmente incluye el bloque en un modelo PAU con tiempo real.
 
 El campus virtual de Método Nebula desarrolla Matemáticas II desde vectores y sistemas hasta rectas, planos y geometría métrica, con ejemplos y preguntas de examen. Si quieres ordenar este bloque según los errores que realmente cometes, el botón de contacto permite iniciar el diagnóstico.
-`,Qa=`---
+`,ro=`---
 title: "Integrales PAU: ejercicios resueltos de áreas, signos y parámetros"
 seoTitle: "Integrales PAU: áreas, signos y ejercicios resueltos"
 date: "2026-10-14"
@@ -33771,7 +35926,7 @@ Una buena presentación incluye ecuación de cortes, orden de las funciones, int
 - Perder signos al evaluar el extremo inferior.
 
 El campus de Método Nebula incluye teoría, métodos de integración, áreas y modelos PAU resueltos paso a paso. Contacta para organizar el bloque según tu comunidad y nota objetivo.
-`,Va=`---
+`,so=`---
 title: "Límites y asíntotas en Matemáticas II PAU: cómo decidir el método antes de calcular"
 seoTitle: "Límites y asíntotas PAU: método paso a paso"
 date: "2026-09-18"
@@ -33884,7 +36039,7 @@ Los límites determinan dominio extendido, ramas y asíntotas. Después se combi
 ## Aprovechar el clúster que ya funciona
 
 Los límites y las derivadas son ya una de las puertas de entrada orgánica más fuertes de Método Nebula. En el campus virtual, esta explicación se conecta con continuidad, representación, derivabilidad e integrales mediante ejercicios graduados y modelos PAU. El botón de contacto permite pasar de artículos sueltos a un itinerario completo con exámenes resueltos.
-`,Ga=`---
+`,to=`---
 title: "Matrices y determinantes en PAU: cuándo usar inversa, Gauss o propiedades sin hacer cuentas de más"
 date: "2026-10-25"
 updated: "2026-10-25"
@@ -34019,7 +36174,7 @@ El rango es el número de filas no nulas tras escalonar, o el orden máximo de u
 Inversa para despejar una ecuación matricial invertible; Gauss para sistemas y rangos; determinantes para invertibilidad, parámetros y simplificación; Cramer para sistemas pequeños cuando se pide explícitamente o resulta muy directo.
 
 El campus virtual de Método Nebula desarrolla matrices, determinantes, rango, inversa, Gauss, Cramer y sistemas con parámetros mediante teoría y ejercicios PAU. El botón de contacto permite solicitar una ruta para elegir el método con criterio y justificar cada operación.
-`,Ka=`---
+`,co=`---
 title: "Probabilidad y distribuciones PAU: ejercicios resueltos de binomial y normal"
 seoTitle: "Probabilidad PAU: ejercicios resueltos de binomial y normal"
 date: "2026-10-17"
@@ -34141,7 +36296,7 @@ El intervalo está centrado en la media y se extiende una desviación típica a 
 Variable → modelo → suceso → cálculo → comprobación → frase final. Escribe las seis etapas incluso cuando la calculadora haga la operación central. El corrector debe ver por qué ese resultado responde a esa pregunta.
 
 El campus virtual de Método Nebula desarrolla probabilidad, distribuciones y preparación de examen con teoría, ejemplos, ejercicios y simulación. Si quieres identificar si pierdes puntos por modelo, lenguaje o cálculo, utiliza el botón de contacto.
-`,Wa=`---
+`,lo=`---
 title: "Sistemas con parámetro PAU: ejercicios resueltos de Rouché–Frobenius y rangos"
 seoTitle: "Sistemas con parámetro PAU: ejercicios resueltos"
 date: "2026-10-10"
@@ -34300,7 +36455,7 @@ Esta interpretación ayuda a revisar el resultado. Si el sistema tiene tres inc�
 La discusión completa sigue una estructura verificable: matriz $A$ y ampliada → determinante o menores → valores críticos → caso general → sustitución de cada valor crítico → rangos → clasificación → resolución. Esta secuencia separa la justificación algebraica de la obtención posterior de soluciones.
 
 El campus virtual de Método Nebula desarrolla matrices, determinantes, Gauss, Rouché–Frobenius y discusión con parámetros mediante teoría y problemas PAU graduados. El botón de contacto permite solicitar una ruta para construir discusiones completas y verificables.
-`,Ja=`---
+`,uo=`---
 title: "Ácido-base y pH PAU: ejercicios resueltos de neutralización y equilibrio"
 seoTitle: "Ácido-base PAU: ejercicios resueltos de pH"
 date: "2026-10-02"
@@ -34424,7 +36579,7 @@ El indicador debe cambiar de color dentro del salto de pH relevante, no simpleme
 Alterna un ácido fuerte, uno débil, una neutralización y una valoración. En cada ejercicio escribe la ruta antes de calcular. Después mezcla ácido-base con equilibrio y estequiometría, como ocurre en preguntas de PAU.
 
 El campus virtual de Método Nebula desarrolla ácido-base desde especies y equilibrio hasta valoraciones y preguntas de examen, con ejemplos, ejercicios y errores comunes. Si quieres saber qué parte de la cadena falla y practicarla en orden, utiliza el botón de contacto.
-`,Za=`---
+`,mo=`---
 title: "Cinética química PAU: cómo interpretar órdenes, Arrhenius y mecanismos de reacción"
 seoTitle: "Cinética química PAU: órdenes y Arrhenius"
 date: "2026-07-18"
@@ -34540,7 +36695,7 @@ En un perfil energético, cambia la altura de la barrera, no la diferencia entre
 ## Convertir datos cinéticos en razonamiento
 
 El campus virtual de Método Nebula enlaza cinética, termoquímica y equilibrio mediante tablas experimentales, gráficos y problemas PAU resueltos. El botón de contacto permite acceder a una ruta con ejercicios por niveles para aprender a extraer la ley antes de introducir números.
-`,Xa=`---
+`,$o=`---
 title: "Enlace químico PAU: geometría molecular, polaridad y fuerzas intermoleculares con una sola lógica"
 seoTitle: "Enlace químico PAU: geometría, polaridad y fuerzas"
 date: "2026-09-25"
@@ -34628,7 +36783,7 @@ Una comparación completa menciona tipo de partícula, fuerza dominante y energ�
 ## Convertir el mapa en respuestas PAU
 
 El campus virtual de Método Nebula enlaza estructura atómica, enlace, periodicidad y orgánica en una secuencia común. Incluye teoría, ejercicios de Lewis, comparaciones de propiedades y modelos PAU resueltos con el nivel de justificación exigido. El botón de contacto permite entrar en una ruta donde cada respuesta se corrige por razonamiento, no solo por resultado.
-`,Ya=`---
+`,po=`---
 title: "Equilibrio químico PAU: ejercicios resueltos con Kc, Q y Le Châtelier"
 seoTitle: "Equilibrio químico PAU: ejercicios resueltos"
 date: "2026-09-25"
@@ -34750,7 +36905,7 @@ Son preguntas frecuentes porque obligan a razonar más allá de una regla memori
 Entrena cuatro formatos: escribir $K$, comparar $Q$ y $K$, resolver una tabla y justificar una perturbación. Después mezcla equilibrio con cinética, termoquímica o ácido-base. En PAU los bloques pueden conectarse y la elección del método cuenta tanto como el cálculo.
 
 El campus virtual de Método Nebula organiza Química PAU desde fundamentos hasta cinética y equilibrio, con ejemplos guiados, ejercicios, preguntas de examen y errores comunes. Si quieres detectar qué decisión falla y convertirla en una secuencia de práctica, utiliza el botón de contacto.
-`,eo=`---
+`,go=`---
 title: "Estequiometría PAU: gases, disoluciones y reactivo limitante con un mapa que evita atajos"
 seoTitle: "Estequiometría PAU: gases, disoluciones y moles"
 date: "2026-09-20"
@@ -34884,7 +37039,7 @@ Esta igualdad no se aplica a una reacción química que consume soluto. Si se me
 ## Del cálculo aislado al dominio de química
 
 El campus virtual de Método Nebula trabaja esta misma ruta en problemas de gases, valoraciones, equilibrio, electroquímica y termoquímica. Incluye teoría, ejercicios por niveles y modelos PAU completos para que las conversiones se conviertan en un procedimiento estable. El botón de contacto da acceso al itinerario y a la práctica corregida.
-`,no=`---
+`,fo=`---
 title: "Estructura atómica PAU: configuraciones electrónicas, números cuánticos y periodicidad sin contradicciones"
 seoTitle: "Estructura atómica PAU: configuración y números cuánticos"
 date: "2026-10-04"
@@ -35008,7 +37163,7 @@ La carga nuclear efectiva y el apantallamiento explican tendencias de radio, ene
 - Explicar tendencias solo con “hay más protones”, ignorando distancia y apantallamiento.
 
 El campus de Método Nebula desarrolla estructura atómica, enlace y periodicidad mediante teoría y problemas PAU. Contacta para convertir configuraciones y justificaciones en un procedimiento coherente.
-`,ao=`---
+`,xo=`---
 title: "Química PAU: laboratorio, rendimiento, pureza y análisis de errores en un mismo problema"
 seoTitle: "Rendimiento, pureza y errores de laboratorio en PAU"
 date: "2026-10-27"
@@ -35130,7 +37285,7 @@ Relaciona instrumento y función. Una balanza mide masa; una pipeta aforada tran
 Verifica conservación de átomos, unidades, reactivo limitante y sentido de los porcentajes. Si el rendimiento es menor que 100 %, la masa real debe ser menor que la teórica. Si la pureza disminuye manteniendo la masa comercial, disminuyen los moles reactivos.
 
 El campus virtual de Método Nebula integra estequiometría, disoluciones y laboratorio con problemas encadenados, esquemas y exámenes PAU resueltos. El botón de contacto permite acceder a una ruta donde pureza, reactivo limitante y rendimiento dejan de ser fórmulas separadas y se convierten en un único razonamiento verificable.
-`,oo=`---
+`,bo=`---
 title: "Química orgánica PAU: ejercicios resueltos de reacciones, isomería y síntesis"
 seoTitle: "Química orgánica PAU: ejercicios resueltos"
 date: "2026-10-17"
@@ -35285,7 +37440,7 @@ Una respuesta rigurosa incluye:
 - Escribir el polímero conservando el doble enlace del monómero.
 
 El campus virtual de Método Nebula desarrolla nomenclatura, isomería y un mapa completo de adición, eliminación, sustitución, oxidación, esterificación y polimerización con problemas PAU. El botón de contacto permite solicitar una ruta para reconstruir transformaciones a partir de la estructura.
-`,io=`---
+`,vo=`---
 title: "Electroquímica PAU: cómo resolver pilas, potenciales y reacciones redox sin perder los signos"
 date: "2026-09-25"
 updated: "2026-09-25"
@@ -35407,7 +37562,7 @@ El cálculo de $E^\\circ_{\\text{pila}}$ cierra la parte energética. La represe
 - Decir que una reacción es espontánea sin relacionarlo con el signo de $E^\\circ$.
 
 El campus virtual de Método Nebula desarrolla números de oxidación, ajuste ion-electrón, pilas, potenciales, electrólisis y leyes de Faraday con ejercicios progresivos y modelos de examen. El botón de contacto permite acceder a una ruta centrada en el razonamiento completo, sin depender de reglas aisladas.
-`,ro=`---
+`,yo=`---
 title: "Equilibrios de solubilidad PAU: cómo usar Kps, predecir precipitados y resolver el ion común"
 seoTitle: "Solubilidad y Kps PAU: precipitación e ion común"
 date: "2026-07-20"
@@ -35525,7 +37680,7 @@ Los problemas de precipitación selectiva comparan el pH o la concentración de 
 ## Integrar solubilidad con equilibrio y ácido-base
 
 El campus virtual de Método Nebula conecta $K_{ps}$ con equilibrio, pH, estequiometría y análisis químico mediante teoría, ejercicios graduados y modelos PAU resueltos. El botón de contacto permite acceder a una ruta que entrena tanto la tabla de equilibrio como la decisión química final.
-`,so=`---
+`,ho=`---
 title: "Termoquímica PAU: ley de Hess, entalpías y signos sin perder energía por el camino"
 seoTitle: "Termoquímica PAU: ley de Hess, entalpías y signos"
 date: "2026-10-18"
@@ -35653,7 +37808,7 @@ No todas las discrepancias se arreglan diciendo “pérdida de calor”. Una com
 - Dar el calor total cuando piden entalpía molar.
 
 El campus virtual de Método Nebula conecta termoquímica, equilibrio y espontaneidad mediante teoría y problemas PAU. El botón de contacto permite trabajar el razonamiento y no solo la tabla de datos.
-`,to=`---
+`,qo=`---
 title: "Química PAU: volumetrías ácido-base y redox paso a paso, sin fórmulas automáticas"
 seoTitle: "Volumetrías ácido-base y redox en Química PAU"
 date: "2026-10-25"
@@ -35764,7 +37919,7 @@ En algunas valoraciones redox, el propio reactivo actúa como indicador; en otra
 - Describir un color sin explicar qué marca.
 
 El campus virtual de Método Nebula conecta equilibrio ácido-base, redox, estequiometría y técnicas de laboratorio con ejercicios graduados y modelos PAU resueltos. Desde el botón de contacto puedes acceder a una ruta donde cada volumetría se construye desde la reacción y se comprueba con unidades, proporciones y procedimiento experimental.
-`,co=`---
+`,Eo=`---
 title: "Plano inclinado con y sin rozamiento: ejercicios resueltos de 1º Bachillerato"
 seoTitle: "Plano inclinado: ejercicios con y sin rozamiento"
 date: 2026-11-05
@@ -35900,7 +38055,7 @@ Si la primera no supera al máximo rozamiento estático, el bloque puede permane
 4. \\(a=(20-2\\cdot9{,}8\\sin45^\\circ)/2\\approx3{,}07\\text{ m/s}^2\\), cuesta arriba.
 
 Antes de resolver problemas más largos, practica los [diagramas de cuerpo libre](/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes/) y las [leyes de Newton en ESO](/blog/eso-fisica-quimica-leyes-newton-dinamica/). Para apoyo individualizado, consulta las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,lo=`---
+`,_o=`---
 title: Preparar la PAU desde verano: plan realista para llegar fuerte a septiembre
 date: 2026-07-21
 updated: 2026-07-21
@@ -35962,7 +38117,7 @@ También conviene evitar convertir el verano en una repetición del curso. Desca
 Al terminar deberías poder nombrar tus tres bloqueos prioritarios, resolver mejor los ejercicios básicos que en la primera semana y tener un sistema de corrección. No hace falta llegar sabiendo todo el temario de PAU; hace falta que el aprendizaje de septiembre no se apoye en terreno inestable.
 
 Cuando empiece el curso, continúa con [un calendario de Selectividad que se pueda cumplir](/blog/preparar-selectividad-con-calendario/) y usa los modelos oficiales de tu comunidad. Si quieres priorizar asignaturas, nota objetivo y fechas de forma realista, puedes consultar las [clases para Selectividad y PAU](/clases-particulares/selectividad/).
-`,uo=`---
+`,Co=`---
 title: Preparar la Selectividad con un calendario que sí se cumple
 date: 2026-06-07
 updated: 2026-06-07
@@ -36031,7 +38186,7 @@ El calendario debe tener colchón. Si no hay huecos, se romperá el primer día 
 En Nebula el calendario se construye con asignaturas, nota objetivo, fechas y punto de partida. Después se revisa semanalmente para ajustar prioridades.
 
 Si necesitas preparar PAU, Matemáticas, Física, Química u otra materia con un plan medible, revisa [clases particulares para Selectividad y PAU](/clases-particulares/selectividad/) o [reserva un diagnóstico](/contacto/).
-`,mo=`---
+`,jo=`---
 title: Tu primer proyecto de Python para datos: qué hacer antes de aprender más librerías
 date: 2026-07-21
 updated: 2026-07-21
@@ -36100,7 +38255,7 @@ También es importante separar trabajo propio y código reutilizado. Si consulta
 Termina cuando otra persona pueda abrir el cuaderno, entender la pregunta, ejecutar las celdas y llegar a la misma conclusión. Si todavía quieres añadir una sexta visualización o una predicción, guárdala para una versión dos. Acabar y explicar un proyecto breve vale más que dejar varios a medias.
 
 Si estás decidiendo qué aprender antes, empieza por la guía [Python y SQL para empezar en datos](/blog/python-y-sql-para-empezar-en-datos/). Para trabajar Python desde la base o conectar el proyecto con una asignatura, revisa las [clases particulares de Programación](/clases-particulares/programacion-universidad/).
-`,po=`---
+`,So=`---
 title: Probabilidad condicionada y teorema de Bayes: problemas universitarios resueltos
 date: 2026-06-27
 updated: 2026-06-27
@@ -36258,7 +38413,7 @@ Sigue siempre estos pasos:
 5. Interpreta el resultado en el contexto.
 
 Si estás preparando Estadística, también puedes leer [Estadística desde cero para elegir contrastes](/blog/estadistica-desde-cero-para-elegir-contrastes/) o revisar la página de [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,$o=`---
+`,Po=`---
 title: Problemas de optimización con derivadas: ejercicios resueltos
 date: 2026-09-05
 updated: 2026-09-05
@@ -36887,7 +39042,7 @@ Una respuesta queda cerrada cuando recupera todas las variables originales, demu
 Si el modelo admite solo valores enteros, compara los enteros cercanos al óptimo continuo. Si el dominio es abierto o infinito, estudia sus fronteras mediante límites antes de afirmar que el mejor valor se alcanza.
 
 Si necesitas practicar modelización y comprobación sobre problemas de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,go=`---
+`,zo=`---
 title: "Proporcionalidad directa e inversa en 2º ESO: problemas resueltos"
 seoTitle: "Proporcionalidad directa e inversa 2º ESO: ejercicios"
 date: 2026-11-01
@@ -36966,7 +39121,7 @@ Distancia y tiempo solo son inversamente proporcionales si la distancia es fija 
 3. Inversos: a mayor velocidad, menor tiempo.
 
 En el [Campus de Método Nebula](/campus/) la proporcionalidad se conecta con porcentajes, escalas, unidades y funciones para que puedas elegir el modelo correcto antes de calcular.
-`,fo=`---
+`,Ao=`---
 title: Python y SQL para empezar en datos: qué aprender primero
 date: 2026-06-01
 updated: 2026-06-01
@@ -37044,7 +39199,7 @@ No midas el progreso por horas de vídeo. Mídelo por entregables:
 Esa evidencia es la que convierte el estudio en una base profesional.
 
 Para acompañar esta base puedes revisar [clases particulares de Programación desde cero](/clases-particulares/programacion-universidad/) o leer la ruta de [transición al sector IT en 6 meses](/blog/transicion-al-sector-it-en-6-meses/).
-`,bo=`---
+`,Lo=`---
 title: Qué prueba estadística utilizar: guía para elegir el test correcto
 date: 2026-07-09
 updated: 2026-11-05
@@ -37254,7 +39409,7 @@ No. Responden bajo marcos distintos. La elección depende de la pregunta y de la
 El software calcula, pero no conoce tu diseño ni tu pregunta. La decisión debe estar razonada antes de seleccionar un menú.
 
 Para practicar la interpretación, continúa con [p-valor, intervalo de confianza y tamaño del efecto](/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/) o revisa las [clases de Estadística para Psicología, ADE y Ciencias Sociales](/clases-particulares/estadistica-psicologia-ade/).
-`,xo=`---
+`,Ho=`---
 title: Qué son las derivadas y para qué se utilizan
 seoTitle: "Derivadas: qué son, para qué sirven y ejemplos"
 date: 2026-06-19
@@ -37369,7 +39524,7 @@ Para dominar derivadas, trabaja cada ejercicio en tres capas:
 Si solo practicas reglas, cualquier enunciado nuevo parece distinto. Si entiendes la derivada como ritmo de cambio, las reglas empiezan a tener dirección.
 
 Puedes continuar con [qué son las integrales y para qué se utilizan](/blog/que-son-las-integrales-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,vo=`---
+`,Oo=`---
 title: Qué son las integrales y para qué se utilizan
 seoTitle: "Integrales: qué son, para qué sirven y ejemplos"
 date: 2026-06-21
@@ -37479,7 +39634,7 @@ Cuando entiendes la integral como acumulación, las técnicas de cálculo dejan 
 El paso siguiente es distinguir con claridad la [integral definida de la indefinida](/blog/integral-definida-e-indefinida-diferencias-ejemplos/) y aprender a reconocer la estructura del integrando. La guía de [métodos de integración y elección de técnica](/blog/metodos-de-integracion-como-elegir/) organiza ese diagnóstico; después puedes profundizar en [fracciones parciales](/blog/integrales-funciones-racionales-fracciones-parciales/) y aplicar la integral definida al [área entre dos curvas](/blog/area-entre-dos-curvas-ejercicios-resueltos/).
 
 Puedes leer también [qué son las derivadas y para qué se utilizan](/blog/que-son-las-derivadas-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,yo=`---
+`,Do=`---
 title: "Examen resuelto de Química: junio de 2023 · modelo 1"
 seoTitle: "Examen resuelto de Química: junio de 2023"
 date: "2026-11-05"
@@ -37898,7 +40053,7 @@ $$V=\\frac{nRT}{P}=\\frac{0,224\\cdot0,082\\cdot298}{1}\\approx\\boxed{5,47\\ \\
 Comprobación rápida: al usar la misma intensidad en ambos apartados, la masa de cloro que vuelve a salir de la ley de Faraday coincide con el dato inicial. Es una buena señal de que las unidades y la especie química se han usado bien.
 
 ---
-`,ho=`---
+`,Mo=`---
 title: "Examen resuelto de Química: junio de 2023 · modelo 2"
 seoTitle: "Examen resuelto de Química: junio de 2023 · modelo 2"
 date: "2026-11-05"
@@ -38299,7 +40454,7 @@ $$K_p=K_cRT\\approx0,577\\cdot0,082\\cdot1200\\approx56,8.$$
 **Resultado:** $m(\\mathrm{CO})\\approx13,75$ g, $m(\\mathrm C)\\approx8,05$ g, $\\alpha\\approx26,8\\%$, $K_c\\approx0,577$ y $K_p\\approx56,8$.
 
 ---
-`,qo=`---
+`,Uo=`---
 title: "Examen resuelto de Química: junio de 2023 · modelo 3"
 seoTitle: "Examen resuelto de Química: junio de 2023 · modelo 3"
 date: "2026-11-05"
@@ -38662,7 +40817,7 @@ Es una **esterificación**.
 **b4)** $\\mathrm{Ca(HCO_3)_2}$: hidrogenocarbonato de calcio.
 
 ---
-`,Eo=`---
+`,wo=`---
 title: "Examen resuelto de Química: junio de 2023 · modelo 4"
 seoTitle: "Examen resuelto de Química: junio de 2023 · modelo 4"
 date: "2026-11-05"
@@ -39007,7 +41162,7 @@ $$\\%\\,\\mathrm{CaS}=\\frac{30,24}{35}\\cdot100\\approx86,4\\%.$$
 **Resultado:** la muestra tiene una riqueza de **86,4 % en CaS**.
 
 ---
-`,_o=`---
+`,Ro=`---
 title: "Examen resuelto de Química: septiembre de 2018 · modelo 1"
 seoTitle: "Examen resuelto de Química: septiembre de 2018"
 date: "2026-11-05"
@@ -39236,7 +41391,7 @@ $$k=\\frac{v}{[A][B]^2}=\\frac{2,32\\cdot10^{-3}}{0,1\\cdot0,2^2}=0,58\\ \\mathr
 a) Si al aumentar la concentración de A al doble la velocidad se incrementa en una potencia de 2: 21, 22, etc, en el caso propuesto al doble, es decir, 21, el exponente de la potencia es el orden de reacción respecto al reactivo A, en este supuesto es 1; del mismo modo, si se incrementa la concentración de B al triple, y la velocidad crece en una potencia de 3: 31, 32, 33, etc, el orden de reacción respecto al reactivo B es el exponente de la potencia, y como en este supuesto la velocidad se hace nueve veces mayor, el orden de reacción de B es 2, es decir, 32.
 
 ---
-`,Co=`---
+`,Bo=`---
 title: "Examen resuelto de Química: septiembre de 2022 · modelo 1"
 seoTitle: "Examen resuelto de Química: septiembre de 2022"
 date: "2026-11-05"
@@ -39605,7 +41760,7 @@ $$V=\\frac{nRT}{P}=\\frac{0,01265\\cdot0,082\\cdot298}{700/760}\\approx0,336\\ \
 a) A partir de la ecuación deducida de las leyes de Faraday, se obtiene la masa de calcio que se deposita en el cátodo a la intensidad de corriente y tiempo indicados.
 
 ---
-`,jo=`---
+`,Io=`---
 title: "Examen resuelto de Química: septiembre de 2023 · modelo 1"
 seoTitle: "Examen resuelto de Química: septiembre de 2023"
 date: "2026-11-05"
@@ -39963,7 +42118,7 @@ $$V=\\frac{nRT}{P}=\\frac{50\\cdot0,082\\cdot298}{1}\\approx1\\,222\\ \\mathrm L
 **Resultado:** se liberan alrededor de **1222 L de dióxido de carbono**.
 
 ---
-`,So=`---
+`,No=`---
 title: "Examen resuelto de Química: septiembre de 2023 · modelo 2"
 seoTitle: "Examen resuelto de Química: septiembre de 2023 · modelo 2"
 date: "2026-11-05"
@@ -40355,7 +42510,7 @@ Como la dependencia con $s$ es distinta, la solubilidad molar no tiene por qué 
 b) Falsa. El equilibrio de solubilidad del MgF2 es: MgF2 (s) ⇄ Mg2+ (ac) + 2 F– (ac), y al añadir NaF, se están añadiendo iones fluoruro (F–), lo que incrementa la concentración de estos iones, por lo que, según el principio de Le Chatelier, el equilibrio se desplaza en el sentido en el que se consumen dichos iones, hacia la izquierda, provocando una disminución de la solubilidad del MgF2.
 
 ---
-`,zo=`---
+`,To=`---
 title: "Examen resuelto de Química: septiembre de 2023 · modelo 3"
 seoTitle: "Examen resuelto de Química: septiembre de 2023 · modelo 3"
 date: "2026-11-05"
@@ -40774,7 +42929,7 @@ $$\\mathrm{CH_3COOH+HOCH_2CH_2CH_2CH_3\\rightleftharpoons CH_3COOCH_2CH_2CH_2CH_
 $$\\mathrm{2C_2H_2+5O_2\\longrightarrow4CO_2+2H_2O}.$$
 
 ---
-`,Po=`---
+`,ko=`---
 title: "Examen resuelto de Química: septiembre de 2023 · modelo 4"
 seoTitle: "Examen resuelto de Química: septiembre de 2023 · modelo 4"
 date: "2026-11-05"
@@ -41130,7 +43285,7 @@ $$m=\\frac{M Q}{2F}=\\frac{112,4\\cdot13500}{2\\cdot96485}\\approx7,86\\ \\mathr
 **Resultado:** se depositan **7,86 g de cadmio**.
 
 ---
-`,Ao=`---
+`,Fo=`---
 title: R, SPSS, Jamovi o Python: qué programa estadístico conviene usar en la universidad
 date: 2026-07-14
 updated: 2026-07-14
@@ -41260,7 +43415,7 @@ Independientemente del software, debes poder:
 El software cambia; el razonamiento estadístico permanece.
 
 Para decidir qué análisis hacer antes de abrir ningún programa, lee [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,Lo=`---
+`,Qo=`---
 title: Regla de la cadena: ejercicios resueltos paso a paso
 seoTitle: "Regla de la cadena: fórmula y ejercicios resueltos"
 date: 2026-11-05
@@ -41460,7 +43615,7 @@ Si la duda está en distinguir esos casos, consulta la guía de [derivadas de pr
 La regla de la cadena traduce una idea simple: un cambio en \\(x\\) atraviesa cada capa de una función compuesta. Identifica la interior, deriva la exterior, conserva la interior y multiplica por su derivada. Después simplifica y comprueba que ningún factor de la cadena haya desaparecido.
 
 Para pasar del concepto a ejercicios de nivel universitario, puedes consultar las [clases particulares de Cálculo](/clases-particulares/calculo-universitario/).
-`,Ho=`---
+`,Vo=`---
 title: Regla de L'Hôpital: cuándo utilizarla y cuándo no
 seoTitle: "Regla de L'Hôpital: cuándo usarla y ejercicios resueltos"
 date: 2026-08-23
@@ -42149,7 +44304,7 @@ En una solución escrita, deja visible la forma indeterminada antes de cada flec
 Simplifica siempre el nuevo cociente antes de decidir el paso siguiente.
 
 Si estás preparando Cálculo universitario y necesitas decidir qué técnica admite cada límite sobre tus propios ejercicios, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Oo=`---
+`,Go=`---
 title: Regresión lineal y ANOVA: cuándo utilizar cada método y cómo interpretar los resultados
 date: 2026-07-11
 updated: 2026-07-22
@@ -42317,7 +44472,7 @@ Usa esta regla:
 - Varios predictores mixtos: modelo lineal/regresión con variables codificadas.
 
 Para profundizar en regresión, lee [Econometría desde cero](/blog/econometria-desde-cero-interpretar-regresion/). Para decidir entre pruebas, revisa [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o consulta las [clases de Estadística para Psicología, ADE y Ciencias Sociales](/clases-particulares/estadistica-psicologia-ade/).
-`,Uo=`---
+`,Ko=`---
 title: "Semejanza y escalas en 2º ESO: problemas resueltos"
 seoTitle: "Semejanza y escalas 2º ESO: ejercicios resueltos"
 date: 2026-10-30
@@ -42380,7 +44535,7 @@ $$
 3. Por \\(4\\).
 
 En el [Campus de Método Nebula](/campus/) la semejanza se conecta con proporcionalidad, Thales y geometría mediante ejercicios graduados para identificar la razón antes de calcular.
-`,Mo=`---
+`,Xo=`---
 title: "Series de Taylor y Maclaurin: ejercicios resueltos para Ciencias e Ingeniería"
 seoTitle: "Series de Taylor y Maclaurin: ejercicios resueltos | Universidad"
 date: "2026-10-12"
@@ -42491,7 +44646,7 @@ Una aproximación sin control del error es una estimación; con una cota se conv
 - Dar muchos decimales sin decir qué orden de Taylor se ha usado ni cuánto puede fallar.
 
 El [campus virtual de Método Nebula](/contacto/) reúne explicaciones visuales de Cálculo, hojas de ejercicios con dificultad progresiva y problemas de examen desarrollados. Así puedes practicar no solo el desarrollo, sino la elección del modelo y la estimación de su error.
-`,Do=`---
+`,Wo=`---
 title: "Sistemas de ecuaciones en 3º ESO: problemas resueltos paso a paso"
 seoTitle: "Sistemas de ecuaciones 3º ESO: problemas resueltos"
 date: 2026-11-05
@@ -42649,7 +44804,7 @@ No debes dividir entre una expresión que puede valer cero sin haberlo comprobad
 4. Si \\(g+c=18\\) y \\(2g+4c=50\\), entonces \\(c=7\\) y \\(g=11\\).
 
 Para repasar el sentido de los pasos antes de usar métodos más rápidos, consulta la guía de [ecuaciones y sistemas en ESO](/blog/eso-matematicas-ecuaciones-sistemas-estudiar/). Si necesitas una práctica adaptada a tu curso, consulta las [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,wo=`---
+`,Jo=`---
 title: "t de Student en Psicología: ejercicios resueltos e interpretación"
 seoTitle: "t de Student en Psicología: ejercicios resueltos"
 date: 2026-11-05
@@ -42764,7 +44919,7 @@ Si los supuestos son débiles, no saltes directamente a una conclusión. Conside
 4. No. Solo indica que el análisis no encontró evidencia suficiente de diferencia con esos datos y supuestos.
 
 En el [Campus de Método Nebula](/campus/) este tema se conecta con elección de contrastes, p-valor, intervalos de confianza y ejercicios graduados, para practicar la decisión antes de memorizar el nombre de una prueba.
-`,Ro=`---
+`,Zo=`---
 title: Teorema fundamental del cálculo: ejemplos y ejercicios
 seoTitle: "Teorema fundamental del cálculo: ejemplos y ejercicios"
 date: 2026-08-13
@@ -43501,7 +45656,7 @@ La primera parte del teorema deriva acumulaciones: $\\frac{d}{dx}\\int_a^x f(t)d
 La comprobación esencial consiste en derivar la primitiva, respetar la orientación de los límites y revisar el dominio completo. En problemas de acumulación, interpreta además el signo y las unidades: una integral definida mide cambio neto, mientras que el área o la distancia total pueden exigir dividir el intervalo.
 
 Antes de operar, identifica si buscas una derivada o una acumulación numérica, revisa continuidad y dominio, y separa cualquier singularidad. Si necesitas practicar estas decisiones con ejercicios de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,No=`---
+`,Yo=`---
 title: "Termodinámica en Ingeniería: ejercicios resueltos del primer principio y ciclos"
 seoTitle: "Termodinámica: primer principio y ciclos | Ejercicios resueltos"
 date: "2026-10-15"
@@ -43603,7 +45758,7 @@ Nunca escribas una eficiencia mayor que $100\\%$: vulneraría el balance energé
 5. Interpreta el signo final: ¿entra o sale energía?, ¿quién realiza el trabajo?
 
 En el [campus virtual de Método Nebula](/contacto/) encontrarás problemas de Física y Termodinámica resueltos desde el diagrama hasta la comprobación de unidades. Practicar esa secuencia evita que la termodinámica se reduzca a un formulario desconectado del sistema físico.
-`,Io=`---
+`,ei=`---
 title: Transición al sector IT en 6 meses: una ruta realista
 date: 2026-06-04
 updated: 2026-06-04
@@ -43663,7 +45818,7 @@ En una entrevista no basta con enseñar código. Tienes que explicar cómo pensa
 La parte dura no es solo el temario. Es mantener continuidad cuando aparecen dudas, cansancio o comparación con perfiles más avanzados. Por eso conviene revisar progreso cada semana y cerrar entregables pequeños.
 
 Si estás empezando desde cero, puedes leer [Python y SQL para empezar en datos](/blog/python-y-sql-para-empezar-en-datos/) o revisar [clases de programación universitaria y fundamentos](/clases-particulares/programacion-universidad/).
-`,Bo=`---
+`,ni=`---
 title: "Valores propios y vectores propios: ejercicios resueltos de diagonalización"
 seoTitle: "Valores propios y vectores propios: ejercicios resueltos | Ingeniería"
 date: "2026-10-09"
@@ -43786,5 +45941,5 @@ No es necesario multiplicar $A$ por sí misma $n$ veces. Esta idea explica por q
 - Haz una verificación rápida: $AP=PD$ suele ser más limpia que desarrollar $PDP^{-1}$.
 
 En el [campus virtual de Método Nebula](/contacto/) puedes trabajar álgebra lineal con teoría corta, ejercicios graduados y correcciones que explican por qué cada paso es válido. Es la forma más segura de convertir un procedimiento mecánico en una herramienta para resolver problemas reales de Ingeniería.
-`;function To(e){const a=/^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(e);if(!a)return{data:{},body:e.trim()};const o={};for(const n of a[1].split(`
-`)){const s=n.indexOf(":");if(s===-1)continue;const i=n.slice(0,s).trim();let r=n.slice(s+1).trim();(r.startsWith('"')&&r.endsWith('"')||r.startsWith("'")&&r.endsWith("'"))&&(r=r.slice(1,-1)),i&&(o[i]=r)}return{data:o,body:e.slice(a[0].length).trim()}}function ko(e){const a=e.trim().split(/\s+/).filter(Boolean).length;return Math.max(1,Math.round(a/200))}const Fo=Object.assign({"../content/blog/algebra-lineal-universidad-que-estudiar-primero-errores.md":c,"../content/blog/area-entre-dos-curvas-ejercicios-resueltos.md":l,"../content/blog/bachillerato-fisica-momento-choques.md":d,"../content/blog/bachillerato-fisica-quimica-mol-estequiometria.md":u,"../content/blog/bachillerato-fisica-tiro-parabolico.md":m,"../content/blog/bachillerato-matematicas-ecuaciones-trigonometricas.md":p,"../content/blog/bachillerato-matematicas-funciones-representacion.md":$,"../content/blog/bachillerato-matematicas-logaritmos-exponenciales-ecuaciones.md":g,"../content/blog/bachillerato-matematicas-sucesiones-progresiones.md":f,"../content/blog/bachillerato-matematicas-trigonometria-triangulos.md":b,"../content/blog/bachillerato-quimica-gases-ideales.md":x,"../content/blog/bachillerato-quimica-periodicidad-configuracion.md":v,"../content/blog/bachillerato-quimica-reactivo-limitante-rendimiento-pureza.md":y,"../content/blog/caida-libre-lanzamiento-vertical-4-eso-problemas.md":h,"../content/blog/cambio-variables-jacobiano-integrales-dobles.md":q,"../content/blog/chi-cuadrado-psicologia-tablas-contingencia.md":E,"../content/blog/cinetica-quimica-orden-reaccion-arrhenius-ejercicios-resueltos.md":_,"../content/blog/circuitos-corriente-continua-problemas-resueltos-universidad.md":C,"../content/blog/como-aprobar-calculo-i-ingenieria-seis-semanas.md":j,"../content/blog/como-aprobar-estadistica-psicologia-sin-base-matematica.md":S,"../content/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas.md":z,"../content/blog/como-aprobar-matematicas-i-ade-economia.md":P,"../content/blog/como-estudiar-matematicas-sin-memorizar.md":A,"../content/blog/como-preparar-ib-mathematics-aa-ai.md":L,"../content/blog/como-preparar-pau-matematicas-ii.md":H,"../content/blog/como-resolver-limites-indeterminaciones-ejercicios.md":O,"../content/blog/continuidad-derivabilidad-diferencias-problemas.md":U,"../content/blog/derivacion-implicita-ejercicios-resueltos.md":M,"../content/blog/derivadas-2-bachillerato-ejercicios-examen.md":D,"../content/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos.md":w,"../content/blog/derivadas-parciales-gradiente-ejercicios.md":R,"../content/blog/derivadas-producto-cociente-ejercicios.md":N,"../content/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes.md":I,"../content/blog/disoluciones-tampon-henderson-hasselbalch-ejercicios-resueltos.md":B,"../content/blog/econometria-desde-cero-interpretar-regresion.md":T,"../content/blog/economia-ade-matematicas-sin-perderse.md":k,"../content/blog/ecuaciones-bicuadradas-4-eso-ejercicios.md":F,"../content/blog/ecuaciones-diferenciales-identificar-metodo-correcto.md":Q,"../content/blog/ecuaciones-segundo-grado-3-eso-ejercicios-resueltos.md":V,"../content/blog/energia-mecanica-rozamiento-4-eso-problemas.md":G,"../content/blog/errores-comunes-inferencia-estadistica.md":K,"../content/blog/eso-fisica-quimica-calor-temperatura-cambios-estado.md":W,"../content/blog/eso-fisica-quimica-densidad-presion-flotacion.md":J,"../content/blog/eso-fisica-quimica-electricidad-circuitos.md":Z,"../content/blog/eso-fisica-quimica-energia-mecanica.md":X,"../content/blog/eso-fisica-quimica-formulacion-inorganica.md":Y,"../content/blog/eso-fisica-quimica-leyes-newton-dinamica.md":ee,"../content/blog/eso-fisica-quimica-mezclas-disoluciones-separacion.md":ne,"../content/blog/eso-fisica-quimica-modelos-atomicos-tabla-periodica.md":ae,"../content/blog/eso-fisica-quimica-reacciones-ajuste-conservacion.md":oe,"../content/blog/eso-fisica-quimica-sonido-ondas.md":ie,"../content/blog/eso-fisica-quimica-trabajo-potencia-rendimiento.md":re,"../content/blog/eso-matematicas-ecuaciones-sistemas-estudiar.md":se,"../content/blog/eso-matematicas-fracciones-operaciones-problemas.md":te,"../content/blog/eso-matematicas-inecuaciones-sistemas-regiones.md":ce,"../content/blog/eso-matematicas-pitagoras-thales-geometria.md":le,"../content/blog/eso-matematicas-polinomios-factorizacion.md":de,"../content/blog/eso-matematicas-porcentajes-interes-compuesto.md":ue,"../content/blog/eso-matematicas-potencias-radicales.md":me,"../content/blog/eso-matematicas-probabilidad-estudiar.md":pe,"../content/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja.md":$e,"../content/blog/estadistica-descriptiva-eso-media-mediana-moda.md":ge,"../content/blog/estadistica-desde-cero-para-elegir-contrastes.md":fe,"../content/blog/estequiometria-universitaria-ejercicios-resueltos.md":be,"../content/blog/estudio-completo-funcion-paso-a-paso.md":xe,"../content/blog/examen-calculo-1-ingenieria-simulacro-resuelto.md":ve,"../content/blog/examen-matematicas-2-eso-modelo-resuelto.md":ye,"../content/blog/examen-matematicas-3-eso-modelo-resuelto.md":he,"../content/blog/factores-conversion-3-eso-ejercicios-resueltos.md":qe,"../content/blog/fisica-y-quimica-como-plantear-problemas.md":Ee,"../content/blog/fracciones-algebraicas-4-eso-ejercicios.md":_e,"../content/blog/funciones-lineales-afines-3-eso-ejercicios.md":Ce,"../content/blog/gcse-chemistry-acids-bases-salts-en.md":je,"../content/blog/gcse-chemistry-acids-bases-salts.md":Se,"../content/blog/gcse-chemistry-bonding-revision-en.md":ze,"../content/blog/gcse-chemistry-bonding-revision.md":Pe,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples-en.md":Ae,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples.md":Le,"../content/blog/gcse-chemistry-electrolysis-electrode-products-en.md":He,"../content/blog/gcse-chemistry-electrolysis-electrode-products.md":Oe,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles-en.md":Ue,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles.md":Me,"../content/blog/gcse-chemistry-equations-moles-revision-en.md":De,"../content/blog/gcse-chemistry-equations-moles-revision.md":we,"../content/blog/gcse-chemistry-periodic-table-groups-trends-en.md":Re,"../content/blog/gcse-chemistry-periodic-table-groups-trends.md":Ne,"../content/blog/gcse-chemistry-rates-collision-theory-en.md":Ie,"../content/blog/gcse-chemistry-rates-collision-theory.md":Be,"../content/blog/gcse-maths-algebra-graphs-revision-en.md":Te,"../content/blog/gcse-maths-algebra-graphs-revision.md":ke,"../content/blog/gcse-maths-circle-theorems-proof-en.md":Fe,"../content/blog/gcse-maths-circle-theorems-proof.md":Qe,"../content/blog/gcse-maths-histograms-cumulative-frequency-en.md":Ve,"../content/blog/gcse-maths-histograms-cumulative-frequency.md":Ge,"../content/blog/gcse-maths-probability-trees-conditional-en.md":Ke,"../content/blog/gcse-maths-probability-trees-conditional.md":We,"../content/blog/gcse-maths-resit-14-day-plan-en.md":Je,"../content/blog/gcse-maths-resit-14-day-plan.md":Ze,"../content/blog/gcse-maths-revision-plan-foundation-higher-en.md":Xe,"../content/blog/gcse-maths-revision-plan-foundation-higher.md":Ye,"../content/blog/gcse-maths-similarity-area-volume-scale-factors-en.md":en,"../content/blog/gcse-maths-similarity-area-volume-scale-factors.md":nn,"../content/blog/gcse-maths-simultaneous-equations-worked-examples-en.md":an,"../content/blog/gcse-maths-simultaneous-equations-worked-examples.md":on,"../content/blog/gcse-maths-transformations-vectors-en.md":rn,"../content/blog/gcse-maths-transformations-vectors.md":sn,"../content/blog/gcse-maths-trigonometry-bearings-en.md":tn,"../content/blog/gcse-maths-trigonometry-bearings.md":cn,"../content/blog/gcse-mock-exams-six-week-revision-plan-en.md":ln,"../content/blog/gcse-mock-exams-six-week-revision-plan.md":dn,"../content/blog/gcse-past-papers-mark-schemes-method-en.md":un,"../content/blog/gcse-past-papers-mark-schemes-method.md":mn,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples-en.md":pn,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples.md":$n,"../content/blog/gcse-physics-electricity-revision-en.md":gn,"../content/blog/gcse-physics-electricity-revision.md":fn,"../content/blog/gcse-physics-energy-work-power-efficiency-en.md":bn,"../content/blog/gcse-physics-energy-work-power-efficiency.md":xn,"../content/blog/gcse-physics-forces-exam-questions-en.md":vn,"../content/blog/gcse-physics-forces-exam-questions.md":yn,"../content/blog/gcse-physics-magnetism-motors-generators-en.md":hn,"../content/blog/gcse-physics-magnetism-motors-generators.md":qn,"../content/blog/gcse-physics-motion-graphs-stopping-distance-en.md":En,"../content/blog/gcse-physics-motion-graphs-stopping-distance.md":_n,"../content/blog/gcse-physics-radioactivity-half-life-en.md":Cn,"../content/blog/gcse-physics-radioactivity-half-life.md":jn,"../content/blog/gcse-physics-space-stars-life-cycle-en.md":Sn,"../content/blog/gcse-physics-space-stars-life-cycle.md":zn,"../content/blog/gcse-physics-thermal-heating-curves-en.md":Pn,"../content/blog/gcse-physics-thermal-heating-curves.md":An,"../content/blog/gcse-physics-waves-refraction-en.md":Ln,"../content/blog/gcse-physics-waves-refraction.md":Hn,"../content/blog/geometria-analitica-4-eso-rectas-ejercicios.md":On,"../content/blog/graficas-mru-mrua-4-eso-ejercicios.md":Un,"../content/blog/gravitacion-eso-ley-universal-peso-ejercicios.md":Mn,"../content/blog/ib-gcse-como-preparar-examenes-internacionales.md":Dn,"../content/blog/integracion-por-partes-formula-ejercicios-resueltos.md":wn,"../content/blog/integracion-por-sustitucion-cambio-variable-ejercicios.md":Rn,"../content/blog/integral-definida-e-indefinida-diferencias-ejemplos.md":Nn,"../content/blog/integrales-dobles-ejercicios-resueltos.md":In,"../content/blog/integrales-funciones-racionales-fracciones-parciales.md":Bn,"../content/blog/integrales-impropias-convergencia-ejercicios.md":Tn,"../content/blog/integrales-inmediatas-ejercicios-resueltos.md":kn,"../content/blog/integrales-trigonometricas-ejercicios-resueltos.md":Fn,"../content/blog/ley-hooke-muelles-4-eso-ejercicios.md":Qn,"../content/blog/ley-ohm-4-eso-ejercicios-resueltos.md":Vn,"../content/blog/limites-trigonometricos-ejercicios-resueltos.md":Gn,"../content/blog/matematicas-ii-pau-2025-andalucia.md":Kn,"../content/blog/matematicas-ii-pau-2025-aragon.md":Wn,"../content/blog/matematicas-ii-pau-2025-cantabria.md":Jn,"../content/blog/matematicas-ii-pau-2025-comunidad-valenciana.md":Zn,"../content/blog/matematicas-ii-pau-2025-madrid.md":Xn,"../content/blog/matematicas-ii-pau-2025-murcia.md":Yn,"../content/blog/matematicas-ii-pau-2025-navarra.md":ea,"../content/blog/matematicas-ii-pau-2026-andalucia.md":na,"../content/blog/matematicas-ii-pau-2026-aragon.md":aa,"../content/blog/matematicas-ii-pau-2026-asturias.md":oa,"../content/blog/matematicas-ii-pau-2026-cantabria.md":ia,"../content/blog/matematicas-ii-pau-2026-cataluna.md":ra,"../content/blog/matematicas-ii-pau-2026-comunidad-valenciana.md":sa,"../content/blog/matematicas-ii-pau-2026-madrid.md":ta,"../content/blog/matematicas-ii-pau-2026-murcia.md":ca,"../content/blog/matematicas-ii-pau-2026-pais-vasco.md":la,"../content/blog/matrices-determinantes-sistemas-ecuaciones-guia.md":da,"../content/blog/maximos-minimos-varias-variables-ejercicios.md":ua,"../content/blog/mecanica-fluidos-bernoulli-continuidad-ejercicios-resueltos.md":ma,"../content/blog/metodos-de-integracion-como-elegir.md":pa,"../content/blog/microeconomia-i-tipos-problemas-examen.md":$a,"../content/blog/molaridad-disoluciones-1-bachillerato-ejercicios.md":ga,"../content/blog/movimiento-circular-uniforme-1-bachillerato-ejercicios.md":fa,"../content/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios.md":ba,"../content/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios.md":xa,"../content/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo.md":va,"../content/blog/pau-ccss-derivadas-optimizacion-economia.md":ya,"../content/blog/pau-ccss-inferencia-intervalos-confianza.md":ha,"../content/blog/pau-ccss-integrales-area-acumulacion.md":qa,"../content/blog/pau-ccss-matrices-modelos-economicos.md":Ea,"../content/blog/pau-ccss-programacion-lineal-problemas.md":_a,"../content/blog/pau-convocatoria-extraordinaria-plan-30-dias.md":Ca,"../content/blog/pau-corregir-simulacros-plan-estudio.md":ja,"../content/blog/pau-ebau-evau-selectividad-modelo-oficial.md":Sa,"../content/blog/pau-fisica-campo-electrico-potencial-condensadores.md":za,"../content/blog/pau-fisica-campo-gravitatorio-satelites.md":Pa,"../content/blog/pau-fisica-cuantica-efecto-fotoelectrico.md":Aa,"../content/blog/pau-fisica-electromagnetismo-estudiar.md":La,"../content/blog/pau-fisica-formulario-unidades-comprobaciones.md":Ha,"../content/blog/pau-fisica-graficas-datos-incertidumbre.md":Oa,"../content/blog/pau-fisica-movimiento-armonico-simple.md":Ua,"../content/blog/pau-fisica-nuclear-defecto-masa.md":Ma,"../content/blog/pau-fisica-ondas-resolver-problemas.md":Da,"../content/blog/pau-fisica-optica-lentes-espejos.md":wa,"../content/blog/pau-fisica-relatividad-especial.md":Ra,"../content/blog/pau-matematicas-ccss-probabilidad-bayes.md":Na,"../content/blog/pau-matematicas-derivabilidad-parametros-tangentes.md":Ia,"../content/blog/pau-matematicas-geometria-metrica-distancias-angulos.md":Ba,"../content/blog/pau-matematicas-ii-90-minutos-elegir-ejercicios.md":Ta,"../content/blog/pau-matematicas-ii-errores-restan-puntos.md":ka,"../content/blog/pau-matematicas-ii-vectores-rectas-planos.md":Fa,"../content/blog/pau-matematicas-integrales-areas.md":Qa,"../content/blog/pau-matematicas-limites-asintotas.md":Va,"../content/blog/pau-matematicas-matrices-determinantes-gauss.md":Ga,"../content/blog/pau-matematicas-probabilidad-distribuciones.md":Ka,"../content/blog/pau-matematicas-sistemas-parametro-rouche-frobenius.md":Wa,"../content/blog/pau-quimica-acido-base-ph-calculos.md":Ja,"../content/blog/pau-quimica-cinetica-arrhenius-velocidad.md":Za,"../content/blog/pau-quimica-enlace-geometria-molecular.md":Xa,"../content/blog/pau-quimica-equilibrio-quimico-estudiar.md":Ya,"../content/blog/pau-quimica-estequiometria-gases-disoluciones.md":eo,"../content/blog/pau-quimica-estructura-atomica-configuracion.md":no,"../content/blog/pau-quimica-laboratorio-rendimiento-pureza-errores.md":ao,"../content/blog/pau-quimica-organica-mapa-reacciones.md":oo,"../content/blog/pau-quimica-pilas-electroquimica-redox.md":io,"../content/blog/pau-quimica-solubilidad-kps-precipitacion.md":ro,"../content/blog/pau-quimica-termoquimica-hess-entalpia.md":so,"../content/blog/pau-quimica-volumetrias-acido-base-redox.md":to,"../content/blog/plano-inclinado-1-bachillerato-ejercicios-resueltos.md":co,"../content/blog/preparar-pau-desde-verano-plan-septiembre.md":lo,"../content/blog/preparar-selectividad-con-calendario.md":uo,"../content/blog/primer-proyecto-python-principiantes-datos.md":mo,"../content/blog/probabilidad-condicionada-bayes-problemas-resueltos.md":po,"../content/blog/problemas-optimizacion-derivadas-ejercicios-resueltos.md":$o,"../content/blog/proporcionalidad-directa-inversa-2-eso-ejercicios.md":go,"../content/blog/python-y-sql-para-empezar-en-datos.md":fo,"../content/blog/que-prueba-estadistica-utilizar-guia-test-correcto.md":bo,"../content/blog/que-son-las-derivadas-y-para-que-se-utilizan.md":xo,"../content/blog/que-son-las-integrales-y-para-que-se-utilizan.md":vo,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-1.md":yo,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-2.md":ho,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-3.md":qo,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-4.md":Eo,"../content/blog/quimica-examen-resuelto-septiembre-2018-modelo-1.md":_o,"../content/blog/quimica-examen-resuelto-septiembre-2022-modelo-1.md":Co,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-1.md":jo,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-2.md":So,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-3.md":zo,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-4.md":Po,"../content/blog/r-spss-jamovi-python-programa-estadistico-universidad.md":Ao,"../content/blog/regla-cadena-ejercicios-resueltos.md":Lo,"../content/blog/regla-lhopital-cuando-usarla-ejercicios.md":Ho,"../content/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados.md":Oo,"../content/blog/semejanza-escalas-2-eso-problemas-resueltos.md":Uo,"../content/blog/series-taylor-maclaurin-ejercicios-resueltos.md":Mo,"../content/blog/sistemas-ecuaciones-3-eso-problemas-resueltos.md":Do,"../content/blog/t-student-psicologia-ejercicios-resueltos.md":wo,"../content/blog/teorema-fundamental-calculo-ejemplos-ejercicios.md":Ro,"../content/blog/termodinamica-primer-principio-ciclos-ejercicios-resueltos.md":No,"../content/blog/transicion-al-sector-it-en-6-meses.md":Io,"../content/blog/valores-propios-vectores-propios-diagonalizacion-ejercicios-resueltos.md":Bo}),t=Object.entries(Fo).map(([e,a])=>{const o=e.split("/").pop().replace(/\.md$/,""),{data:n,body:s}=To(a);return{slug:o,title:n.title??o,seoTitle:n.seoTitle??"",date:n.date??"",updated:n.updated??n.date??"",description:n.description??"",tag:n.tag??"Blog",category:n.category??n.tag??"Blog",image:n.image??"/favicon.svg",language:n.language==="en"?"en":"es",translation:n.translation??"",relatedService:n.relatedService??"/contacto/",relatedPosts:n.relatedPosts?n.relatedPosts.split(",").map(i=>i.trim()).filter(Boolean):[],readingMinutes:ko(s),body:s}}).sort((e,a)=>e.date<a.date?1:e.date>a.date?-1:0);function Vo(){return t}function Go(e,a=9){return Math.max(1,Math.ceil(e.length/a))}function Ko(e,a,o=9){const n=(a-1)*o;return e.slice(n,n+o)}function Qo(e){return t.find(a=>a.slug===e)}function Wo(e){return t.filter(a=>a.category===e)}function Jo(e,a=3){const o=e.relatedPosts.map(i=>Qo(i)).filter(i=>!!i),s=[...t.filter(i=>i.language===e.language),...t].filter(i=>i.slug!==e.slug&&!o.some(r=>r.slug===i.slug));return[...o,...s].slice(0,a)}function Zo(e,a="es"){if(!e)return"";const o=new Date(e);return Number.isNaN(o.getTime())?e:o.toLocaleDateString(a==="en"?"en-GB":"es-ES",{day:"numeric",month:"long",year:"numeric"})}export{Go as a,Qo as b,Ko as c,Vo as d,Jo as e,Zo as f,Wo as g};
+`;function ai(e){const a=/^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(e);if(!a)return{data:{},body:e.trim()};const o={};for(const n of a[1].split(`
+`)){const s=n.indexOf(":");if(s===-1)continue;const i=n.slice(0,s).trim();let r=n.slice(s+1).trim();(r.startsWith('"')&&r.endsWith('"')||r.startsWith("'")&&r.endsWith("'"))&&(r=r.slice(1,-1)),i&&(o[i]=r)}return{data:o,body:e.slice(a[0].length).trim()}}function oi(e){const a=e.trim().split(/\s+/).filter(Boolean).length;return Math.max(1,Math.round(a/200))}const ii=Object.assign({"../content/blog/algebra-lineal-universidad-que-estudiar-primero-errores.md":c,"../content/blog/area-entre-dos-curvas-ejercicios-resueltos.md":l,"../content/blog/bachillerato-fisica-momento-choques.md":d,"../content/blog/bachillerato-fisica-quimica-mol-estequiometria.md":u,"../content/blog/bachillerato-fisica-tiro-parabolico.md":m,"../content/blog/bachillerato-matematicas-ecuaciones-trigonometricas.md":$,"../content/blog/bachillerato-matematicas-funciones-representacion.md":p,"../content/blog/bachillerato-matematicas-logaritmos-exponenciales-ecuaciones.md":g,"../content/blog/bachillerato-matematicas-sucesiones-progresiones.md":f,"../content/blog/bachillerato-matematicas-trigonometria-triangulos.md":x,"../content/blog/bachillerato-quimica-gases-ideales.md":b,"../content/blog/bachillerato-quimica-periodicidad-configuracion.md":v,"../content/blog/bachillerato-quimica-reactivo-limitante-rendimiento-pureza.md":y,"../content/blog/caida-libre-lanzamiento-vertical-4-eso-problemas.md":h,"../content/blog/cambio-variables-jacobiano-integrales-dobles.md":q,"../content/blog/chi-cuadrado-psicologia-tablas-contingencia.md":E,"../content/blog/cinetica-quimica-orden-reaccion-arrhenius-ejercicios-resueltos.md":_,"../content/blog/circuitos-corriente-continua-problemas-resueltos-universidad.md":C,"../content/blog/como-aprobar-calculo-i-ingenieria-seis-semanas.md":j,"../content/blog/como-aprobar-estadistica-psicologia-sin-base-matematica.md":S,"../content/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas.md":P,"../content/blog/como-aprobar-matematicas-i-ade-economia.md":z,"../content/blog/como-estudiar-matematicas-sin-memorizar.md":A,"../content/blog/como-preparar-ib-mathematics-aa-ai.md":L,"../content/blog/como-preparar-pau-matematicas-ii.md":H,"../content/blog/como-resolver-limites-indeterminaciones-ejercicios.md":O,"../content/blog/continuidad-derivabilidad-diferencias-problemas.md":D,"../content/blog/derivacion-implicita-ejercicios-resueltos.md":M,"../content/blog/derivadas-2-bachillerato-ejercicios-examen.md":U,"../content/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos.md":w,"../content/blog/derivadas-parciales-gradiente-ejercicios.md":R,"../content/blog/derivadas-producto-cociente-ejercicios.md":B,"../content/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes.md":I,"../content/blog/disoluciones-tampon-henderson-hasselbalch-ejercicios-resueltos.md":N,"../content/blog/econometria-desde-cero-interpretar-regresion.md":T,"../content/blog/economia-ade-matematicas-sin-perderse.md":k,"../content/blog/ecuaciones-bicuadradas-4-eso-ejercicios.md":F,"../content/blog/ecuaciones-diferenciales-identificar-metodo-correcto.md":Q,"../content/blog/ecuaciones-segundo-grado-3-eso-ejercicios-resueltos.md":V,"../content/blog/energia-mecanica-rozamiento-4-eso-problemas.md":G,"../content/blog/errores-comunes-inferencia-estadistica.md":K,"../content/blog/eso-fisica-quimica-calor-temperatura-cambios-estado.md":X,"../content/blog/eso-fisica-quimica-densidad-presion-flotacion.md":W,"../content/blog/eso-fisica-quimica-electricidad-circuitos.md":J,"../content/blog/eso-fisica-quimica-energia-mecanica.md":Z,"../content/blog/eso-fisica-quimica-formulacion-inorganica.md":Y,"../content/blog/eso-fisica-quimica-leyes-newton-dinamica.md":ee,"../content/blog/eso-fisica-quimica-mezclas-disoluciones-separacion.md":ne,"../content/blog/eso-fisica-quimica-modelos-atomicos-tabla-periodica.md":ae,"../content/blog/eso-fisica-quimica-reacciones-ajuste-conservacion.md":oe,"../content/blog/eso-fisica-quimica-sonido-ondas.md":ie,"../content/blog/eso-fisica-quimica-trabajo-potencia-rendimiento.md":re,"../content/blog/eso-matematicas-ecuaciones-sistemas-estudiar.md":se,"../content/blog/eso-matematicas-fracciones-operaciones-problemas.md":te,"../content/blog/eso-matematicas-inecuaciones-sistemas-regiones.md":ce,"../content/blog/eso-matematicas-pitagoras-thales-geometria.md":le,"../content/blog/eso-matematicas-polinomios-factorizacion.md":de,"../content/blog/eso-matematicas-porcentajes-interes-compuesto.md":ue,"../content/blog/eso-matematicas-potencias-radicales.md":me,"../content/blog/eso-matematicas-probabilidad-estudiar.md":$e,"../content/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja.md":pe,"../content/blog/estadistica-descriptiva-eso-media-mediana-moda.md":ge,"../content/blog/estadistica-desde-cero-para-elegir-contrastes.md":fe,"../content/blog/estequiometria-universitaria-ejercicios-resueltos.md":xe,"../content/blog/estudio-completo-funcion-paso-a-paso.md":be,"../content/blog/examen-calculo-1-ingenieria-simulacro-resuelto.md":ve,"../content/blog/examen-matematicas-2-eso-modelo-resuelto.md":ye,"../content/blog/examen-matematicas-3-eso-modelo-resuelto.md":he,"../content/blog/factores-conversion-3-eso-ejercicios-resueltos.md":qe,"../content/blog/fisica-y-quimica-como-plantear-problemas.md":Ee,"../content/blog/fracciones-algebraicas-4-eso-ejercicios.md":_e,"../content/blog/funciones-lineales-afines-3-eso-ejercicios.md":Ce,"../content/blog/gcse-chemistry-acids-bases-salts-en.md":je,"../content/blog/gcse-chemistry-acids-bases-salts.md":Se,"../content/blog/gcse-chemistry-bonding-revision-en.md":Pe,"../content/blog/gcse-chemistry-bonding-revision.md":ze,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples-en.md":Ae,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples.md":Le,"../content/blog/gcse-chemistry-electrolysis-electrode-products-en.md":He,"../content/blog/gcse-chemistry-electrolysis-electrode-products.md":Oe,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles-en.md":De,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles.md":Me,"../content/blog/gcse-chemistry-equations-moles-revision-en.md":Ue,"../content/blog/gcse-chemistry-equations-moles-revision.md":we,"../content/blog/gcse-chemistry-periodic-table-groups-trends-en.md":Re,"../content/blog/gcse-chemistry-periodic-table-groups-trends.md":Be,"../content/blog/gcse-chemistry-rates-collision-theory-en.md":Ie,"../content/blog/gcse-chemistry-rates-collision-theory.md":Ne,"../content/blog/gcse-maths-algebra-graphs-revision-en.md":Te,"../content/blog/gcse-maths-algebra-graphs-revision.md":ke,"../content/blog/gcse-maths-circle-theorems-proof-en.md":Fe,"../content/blog/gcse-maths-circle-theorems-proof.md":Qe,"../content/blog/gcse-maths-histograms-cumulative-frequency-en.md":Ve,"../content/blog/gcse-maths-histograms-cumulative-frequency.md":Ge,"../content/blog/gcse-maths-probability-trees-conditional-en.md":Ke,"../content/blog/gcse-maths-probability-trees-conditional.md":Xe,"../content/blog/gcse-maths-resit-14-day-plan-en.md":We,"../content/blog/gcse-maths-resit-14-day-plan.md":Je,"../content/blog/gcse-maths-revision-plan-foundation-higher-en.md":Ze,"../content/blog/gcse-maths-revision-plan-foundation-higher.md":Ye,"../content/blog/gcse-maths-similarity-area-volume-scale-factors-en.md":en,"../content/blog/gcse-maths-similarity-area-volume-scale-factors.md":nn,"../content/blog/gcse-maths-simultaneous-equations-worked-examples-en.md":an,"../content/blog/gcse-maths-simultaneous-equations-worked-examples.md":on,"../content/blog/gcse-maths-transformations-vectors-en.md":rn,"../content/blog/gcse-maths-transformations-vectors.md":sn,"../content/blog/gcse-maths-trigonometry-bearings-en.md":tn,"../content/blog/gcse-maths-trigonometry-bearings.md":cn,"../content/blog/gcse-mock-exams-six-week-revision-plan-en.md":ln,"../content/blog/gcse-mock-exams-six-week-revision-plan.md":dn,"../content/blog/gcse-past-papers-mark-schemes-method-en.md":un,"../content/blog/gcse-past-papers-mark-schemes-method.md":mn,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples-en.md":$n,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples.md":pn,"../content/blog/gcse-physics-electricity-revision-en.md":gn,"../content/blog/gcse-physics-electricity-revision.md":fn,"../content/blog/gcse-physics-energy-work-power-efficiency-en.md":xn,"../content/blog/gcse-physics-energy-work-power-efficiency.md":bn,"../content/blog/gcse-physics-forces-exam-questions-en.md":vn,"../content/blog/gcse-physics-forces-exam-questions.md":yn,"../content/blog/gcse-physics-magnetism-motors-generators-en.md":hn,"../content/blog/gcse-physics-magnetism-motors-generators.md":qn,"../content/blog/gcse-physics-motion-graphs-stopping-distance-en.md":En,"../content/blog/gcse-physics-motion-graphs-stopping-distance.md":_n,"../content/blog/gcse-physics-radioactivity-half-life-en.md":Cn,"../content/blog/gcse-physics-radioactivity-half-life.md":jn,"../content/blog/gcse-physics-space-stars-life-cycle-en.md":Sn,"../content/blog/gcse-physics-space-stars-life-cycle.md":Pn,"../content/blog/gcse-physics-thermal-heating-curves-en.md":zn,"../content/blog/gcse-physics-thermal-heating-curves.md":An,"../content/blog/gcse-physics-waves-refraction-en.md":Ln,"../content/blog/gcse-physics-waves-refraction.md":Hn,"../content/blog/geometria-analitica-4-eso-rectas-ejercicios.md":On,"../content/blog/graficas-mru-mrua-4-eso-ejercicios.md":Dn,"../content/blog/gravitacion-eso-ley-universal-peso-ejercicios.md":Mn,"../content/blog/ib-gcse-como-preparar-examenes-internacionales.md":Un,"../content/blog/integracion-por-partes-formula-ejercicios-resueltos.md":wn,"../content/blog/integracion-por-sustitucion-cambio-variable-ejercicios.md":Rn,"../content/blog/integral-definida-e-indefinida-diferencias-ejemplos.md":Bn,"../content/blog/integrales-dobles-ejercicios-resueltos.md":In,"../content/blog/integrales-funciones-racionales-fracciones-parciales.md":Nn,"../content/blog/integrales-impropias-convergencia-ejercicios.md":Tn,"../content/blog/integrales-inmediatas-ejercicios-resueltos.md":kn,"../content/blog/integrales-trigonometricas-ejercicios-resueltos.md":Fn,"../content/blog/ley-hooke-muelles-4-eso-ejercicios.md":Qn,"../content/blog/ley-ohm-4-eso-ejercicios-resueltos.md":Vn,"../content/blog/limites-trigonometricos-ejercicios-resueltos.md":Gn,"../content/blog/matematicas-ccss-pau-2022-pais-vasco.md":Kn,"../content/blog/matematicas-ccss-pau-2023-comunidad-valenciana.md":Xn,"../content/blog/matematicas-ccss-pau-2024-comunidad-valenciana.md":Wn,"../content/blog/matematicas-ccss-pau-2024-navarra.md":Jn,"../content/blog/matematicas-ccss-pau-2024-pais-vasco.md":Zn,"../content/blog/matematicas-ccss-pau-2025-comunidad-valenciana-extraordinaria.md":Yn,"../content/blog/matematicas-ccss-pau-2025-madrid.md":ea,"../content/blog/matematicas-ccss-pau-2025-murcia.md":na,"../content/blog/matematicas-ccss-pau-2026-andalucia.md":aa,"../content/blog/matematicas-ccss-pau-2026-aragon.md":oa,"../content/blog/matematicas-ccss-pau-2026-asturias.md":ia,"../content/blog/matematicas-ccss-pau-2026-cataluna.md":ra,"../content/blog/matematicas-ccss-pau-2026-comunidad-valenciana.md":sa,"../content/blog/matematicas-ccss-pau-2026-madrid.md":ta,"../content/blog/matematicas-ii-pau-2025-andalucia.md":ca,"../content/blog/matematicas-ii-pau-2025-aragon.md":la,"../content/blog/matematicas-ii-pau-2025-cantabria.md":da,"../content/blog/matematicas-ii-pau-2025-comunidad-valenciana.md":ua,"../content/blog/matematicas-ii-pau-2025-madrid.md":ma,"../content/blog/matematicas-ii-pau-2025-murcia.md":$a,"../content/blog/matematicas-ii-pau-2025-navarra.md":pa,"../content/blog/matematicas-ii-pau-2026-andalucia.md":ga,"../content/blog/matematicas-ii-pau-2026-aragon.md":fa,"../content/blog/matematicas-ii-pau-2026-asturias.md":xa,"../content/blog/matematicas-ii-pau-2026-cantabria.md":ba,"../content/blog/matematicas-ii-pau-2026-cataluna.md":va,"../content/blog/matematicas-ii-pau-2026-comunidad-valenciana.md":ya,"../content/blog/matematicas-ii-pau-2026-madrid.md":ha,"../content/blog/matematicas-ii-pau-2026-murcia.md":qa,"../content/blog/matematicas-ii-pau-2026-pais-vasco.md":Ea,"../content/blog/matrices-determinantes-sistemas-ecuaciones-guia.md":_a,"../content/blog/maximos-minimos-varias-variables-ejercicios.md":Ca,"../content/blog/mecanica-fluidos-bernoulli-continuidad-ejercicios-resueltos.md":ja,"../content/blog/metodos-de-integracion-como-elegir.md":Sa,"../content/blog/microeconomia-i-tipos-problemas-examen.md":Pa,"../content/blog/molaridad-disoluciones-1-bachillerato-ejercicios.md":za,"../content/blog/movimiento-circular-uniforme-1-bachillerato-ejercicios.md":Aa,"../content/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios.md":La,"../content/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios.md":Ha,"../content/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo.md":Oa,"../content/blog/pau-ccss-derivadas-optimizacion-economia.md":Da,"../content/blog/pau-ccss-inferencia-intervalos-confianza.md":Ma,"../content/blog/pau-ccss-integrales-area-acumulacion.md":Ua,"../content/blog/pau-ccss-matrices-modelos-economicos.md":wa,"../content/blog/pau-ccss-programacion-lineal-problemas.md":Ra,"../content/blog/pau-convocatoria-extraordinaria-plan-30-dias.md":Ba,"../content/blog/pau-corregir-simulacros-plan-estudio.md":Ia,"../content/blog/pau-ebau-evau-selectividad-modelo-oficial.md":Na,"../content/blog/pau-fisica-campo-electrico-potencial-condensadores.md":Ta,"../content/blog/pau-fisica-campo-gravitatorio-satelites.md":ka,"../content/blog/pau-fisica-cuantica-efecto-fotoelectrico.md":Fa,"../content/blog/pau-fisica-electromagnetismo-estudiar.md":Qa,"../content/blog/pau-fisica-formulario-unidades-comprobaciones.md":Va,"../content/blog/pau-fisica-graficas-datos-incertidumbre.md":Ga,"../content/blog/pau-fisica-movimiento-armonico-simple.md":Ka,"../content/blog/pau-fisica-nuclear-defecto-masa.md":Xa,"../content/blog/pau-fisica-ondas-resolver-problemas.md":Wa,"../content/blog/pau-fisica-optica-lentes-espejos.md":Ja,"../content/blog/pau-fisica-relatividad-especial.md":Za,"../content/blog/pau-matematicas-ccss-probabilidad-bayes.md":Ya,"../content/blog/pau-matematicas-derivabilidad-parametros-tangentes.md":eo,"../content/blog/pau-matematicas-geometria-metrica-distancias-angulos.md":no,"../content/blog/pau-matematicas-ii-90-minutos-elegir-ejercicios.md":ao,"../content/blog/pau-matematicas-ii-errores-restan-puntos.md":oo,"../content/blog/pau-matematicas-ii-vectores-rectas-planos.md":io,"../content/blog/pau-matematicas-integrales-areas.md":ro,"../content/blog/pau-matematicas-limites-asintotas.md":so,"../content/blog/pau-matematicas-matrices-determinantes-gauss.md":to,"../content/blog/pau-matematicas-probabilidad-distribuciones.md":co,"../content/blog/pau-matematicas-sistemas-parametro-rouche-frobenius.md":lo,"../content/blog/pau-quimica-acido-base-ph-calculos.md":uo,"../content/blog/pau-quimica-cinetica-arrhenius-velocidad.md":mo,"../content/blog/pau-quimica-enlace-geometria-molecular.md":$o,"../content/blog/pau-quimica-equilibrio-quimico-estudiar.md":po,"../content/blog/pau-quimica-estequiometria-gases-disoluciones.md":go,"../content/blog/pau-quimica-estructura-atomica-configuracion.md":fo,"../content/blog/pau-quimica-laboratorio-rendimiento-pureza-errores.md":xo,"../content/blog/pau-quimica-organica-mapa-reacciones.md":bo,"../content/blog/pau-quimica-pilas-electroquimica-redox.md":vo,"../content/blog/pau-quimica-solubilidad-kps-precipitacion.md":yo,"../content/blog/pau-quimica-termoquimica-hess-entalpia.md":ho,"../content/blog/pau-quimica-volumetrias-acido-base-redox.md":qo,"../content/blog/plano-inclinado-1-bachillerato-ejercicios-resueltos.md":Eo,"../content/blog/preparar-pau-desde-verano-plan-septiembre.md":_o,"../content/blog/preparar-selectividad-con-calendario.md":Co,"../content/blog/primer-proyecto-python-principiantes-datos.md":jo,"../content/blog/probabilidad-condicionada-bayes-problemas-resueltos.md":So,"../content/blog/problemas-optimizacion-derivadas-ejercicios-resueltos.md":Po,"../content/blog/proporcionalidad-directa-inversa-2-eso-ejercicios.md":zo,"../content/blog/python-y-sql-para-empezar-en-datos.md":Ao,"../content/blog/que-prueba-estadistica-utilizar-guia-test-correcto.md":Lo,"../content/blog/que-son-las-derivadas-y-para-que-se-utilizan.md":Ho,"../content/blog/que-son-las-integrales-y-para-que-se-utilizan.md":Oo,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-1.md":Do,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-2.md":Mo,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-3.md":Uo,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-4.md":wo,"../content/blog/quimica-examen-resuelto-septiembre-2018-modelo-1.md":Ro,"../content/blog/quimica-examen-resuelto-septiembre-2022-modelo-1.md":Bo,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-1.md":Io,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-2.md":No,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-3.md":To,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-4.md":ko,"../content/blog/r-spss-jamovi-python-programa-estadistico-universidad.md":Fo,"../content/blog/regla-cadena-ejercicios-resueltos.md":Qo,"../content/blog/regla-lhopital-cuando-usarla-ejercicios.md":Vo,"../content/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados.md":Go,"../content/blog/semejanza-escalas-2-eso-problemas-resueltos.md":Ko,"../content/blog/series-taylor-maclaurin-ejercicios-resueltos.md":Xo,"../content/blog/sistemas-ecuaciones-3-eso-problemas-resueltos.md":Wo,"../content/blog/t-student-psicologia-ejercicios-resueltos.md":Jo,"../content/blog/teorema-fundamental-calculo-ejemplos-ejercicios.md":Zo,"../content/blog/termodinamica-primer-principio-ciclos-ejercicios-resueltos.md":Yo,"../content/blog/transicion-al-sector-it-en-6-meses.md":ei,"../content/blog/valores-propios-vectores-propios-diagonalizacion-ejercicios-resueltos.md":ni}),t=Object.entries(ii).map(([e,a])=>{const o=e.split("/").pop().replace(/\.md$/,""),{data:n,body:s}=ai(a);return{slug:o,title:n.title??o,seoTitle:n.seoTitle??"",date:n.date??"",updated:n.updated??n.date??"",description:n.description??"",tag:n.tag??"Blog",category:n.category??n.tag??"Blog",image:n.image??"/favicon.svg",language:n.language==="en"?"en":"es",translation:n.translation??"",relatedService:n.relatedService??"/contacto/",relatedPosts:n.relatedPosts?n.relatedPosts.split(",").map(i=>i.trim()).filter(Boolean):[],readingMinutes:oi(s),body:s}}).sort((e,a)=>e.date<a.date?1:e.date>a.date?-1:0);function si(){return t}function ti(e,a=9){return Math.max(1,Math.ceil(e.length/a))}function ci(e,a,o=9){const n=(a-1)*o;return e.slice(n,n+o)}function ri(e){return t.find(a=>a.slug===e)}function li(e){return t.filter(a=>a.category===e)}function di(e,a=3){const o=e.relatedPosts.map(i=>ri(i)).filter(i=>!!i),s=[...t.filter(i=>i.language===e.language),...t].filter(i=>i.slug!==e.slug&&!o.some(r=>r.slug===i.slug));return[...o,...s].slice(0,a)}function ui(e,a="es"){if(!e)return"";const o=new Date(e);return Number.isNaN(o.getTime())?e:o.toLocaleDateString(a==="en"?"en-GB":"es-ES",{day:"numeric",month:"long",year:"numeric"})}export{ti as a,ri as b,ci as c,si as d,di as e,ui as f,li as g};

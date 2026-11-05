@@ -117,6 +117,14 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pagina/29/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/pagina/30/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/</loc>
     <priority>0.6</priority>
   </url>
@@ -206,6 +214,14 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/7/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/8/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/9/</loc>
     <priority>0.5</priority>
   </url>
   <url>
@@ -1189,6 +1205,30 @@
     <lastmod>2026-06-04</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/matematicas-ccss-pau-2026-andalucia/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ccss-pau-2026-aragon/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ccss-pau-2026-asturias/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ccss-pau-2026-cataluna/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ccss-pau-2026-comunidad-valenciana/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ccss-pau-2026-madrid/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/python-y-sql-para-empezar-en-datos/</loc>
     <lastmod>2026-06-01</lastmod>
   </url>
@@ -1230,6 +1270,38 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/matematicas-ii-pau-2025-andalucia/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ccss-pau-2025-comunidad-valenciana-extraordinaria/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ccss-pau-2025-madrid/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ccss-pau-2025-murcia/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ccss-pau-2024-comunidad-valenciana/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ccss-pau-2024-navarra/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ccss-pau-2024-pais-vasco/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ccss-pau-2023-comunidad-valenciana/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/matematicas-ccss-pau-2022-pais-vasco/</loc>
     <lastmod>2026-11-05</lastmod>
   </url>
   <url>

@@ -6,7 +6,7 @@ description: "Guía completa para estudiar y representar funciones en Bachillera
 tag: "Bachillerato"
 category: "Matemáticas ESO y Bachillerato"
 relatedService: "/clases-particulares/matematicas-universidad/"
-relatedPosts: "funciones-lineales-afines-3-eso-ejercicios,estudio-completo-funcion-paso-a-paso,continuidad-derivabilidad-diferencias-problemas"
+relatedPosts: "geometria-analitica-4-eso-rectas-ejercicios,funciones-lineales-afines-3-eso-ejercicios,estudio-completo-funcion-paso-a-paso"
 image: "/assets/latex/function-study.svg"
 ---
 

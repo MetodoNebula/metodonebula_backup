@@ -209,6 +209,14 @@ const inspectionExpression = String.raw`
     .slice(0, 5)
     .map((element) => (element.textContent || "").trim().slice(0, 100));
 
+  const visibleMathScrollbars = Array.from(
+    document.querySelectorAll("article p .katex, article li .katex, .nebula-math .katex-display"),
+  )
+    .filter((element) => getComputedStyle(element).overflowX === "auto")
+    .filter((element) => getComputedStyle(element).scrollbarWidth !== "none")
+    .slice(0, 5)
+    .map((element) => (element.textContent || "").trim().slice(0, 100));
+
   // A page can load without throwing while leaving source delimiters or TeX
   // commands visible. Treat that as a rendering error, not as valid content.
   const rawLatex = [];
@@ -235,6 +243,7 @@ const inspectionExpression = String.raw`
     overflowElements,
     graphIssues,
     katexIssues,
+    visibleMathScrollbars,
     rawLatex,
   };
 })()
@@ -281,6 +290,8 @@ async function inspectViewport(ws, label, width, height, url) {
     failures.push(`element overflow ${value.overflowElements.join(" | ")}`);
   if (badGraphs.length) failures.push(`graph issues ${JSON.stringify(badGraphs)}`);
   if (value.katexIssues.length) failures.push(`katex overflow ${value.katexIssues.join(" | ")}`);
+  if (value.visibleMathScrollbars.length)
+    failures.push(`visible math scrollbars ${value.visibleMathScrollbars.join(" | ")}`);
   if (value.rawLatex.length) failures.push(`unrendered LaTeX ${value.rawLatex.join(" | ")}`);
   if (failures.length) throw new Error(`${label} ${url}: ${failures.join("; ")}`);
 

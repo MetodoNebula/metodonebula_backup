@@ -292,6 +292,7 @@
   max-width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
+  scrollbar-width: none;
 }
 
 /* Keep long inline derivations readable on narrow screens without allowing them
@@ -303,6 +304,7 @@ article li .katex {
   overflow-x: auto;
   overflow-y: hidden;
   vertical-align: bottom;
+  scrollbar-width: none;
 }
 
 /* A line containing a long inline formula must scroll locally, never widen the
@@ -312,6 +314,16 @@ article li,
 article nav {
   max-width: 100%;
   overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.nebula-math .katex-display::-webkit-scrollbar,
+article p .katex::-webkit-scrollbar,
+article li .katex::-webkit-scrollbar,
+article p::-webkit-scrollbar,
+article li::-webkit-scrollbar,
+article nav::-webkit-scrollbar {
+  display: none;
 }
 
 @media (max-width: 640px) {

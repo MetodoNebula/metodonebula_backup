@@ -61,9 +61,9 @@ assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2
 assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff
 assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2
 assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf
-assets/blog-B3ZPw83b.js
+assets/blog-BHwoZACP.js
 assets/blog-Cp579UoJ.css
-assets/index-CF2d4F2Q.js
+assets/index-DCCUlw2F.js
 assets/index-zP2Pl7fj.css
 assets/latex/area-between-curves.svg
 assets/latex/arrhenius-energy.svg
@@ -184,8 +184,8 @@ assets/latex/triangle-strategy.svg
 assets/latex/unit-circle-solutions.svg
 assets/latex/vectors-planes.svg
 assets/latex/wave-anatomy.svg
-assets/pages-ClT5Lxo0.js
-assets/posts-CtFAFbFx.js
+assets/pages-BaH2LTQe.js
+assets/posts-CoCxYgTv.js
 blog/algebra-lineal-universidad-que-estudiar-primero-errores/index.html
 blog/area-entre-dos-curvas-ejercicios-resueltos/index.html
 blog/bachillerato-fisica-momento-choques/index.html
@@ -243,6 +243,7 @@ blog/como-preparar-pau-matematicas-ii/index.html
 blog/como-resolver-limites-indeterminaciones-ejercicios/index.html
 blog/continuidad-derivabilidad-diferencias-problemas/index.html
 blog/derivacion-implicita-ejercicios-resueltos/index.html
+blog/derivadas-2-bachillerato-ejercicios-examen/index.html
 blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos/index.html
 blog/derivadas-parciales-gradiente-ejercicios/index.html
 blog/derivadas-producto-cociente-ejercicios/index.html
@@ -279,6 +280,9 @@ blog/estadistica-descriptiva-eso-media-mediana-moda/index.html
 blog/estadistica-desde-cero-para-elegir-contrastes/index.html
 blog/estequiometria-universitaria-ejercicios-resueltos/index.html
 blog/estudio-completo-funcion-paso-a-paso/index.html
+blog/examen-calculo-1-ingenieria-simulacro-resuelto/index.html
+blog/examen-matematicas-2-eso-modelo-resuelto/index.html
+blog/examen-matematicas-3-eso-modelo-resuelto/index.html
 blog/factores-conversion-3-eso-ejercicios-resueltos/index.html
 blog/fisica-y-quimica-como-plantear-problemas/index.html
 blog/fracciones-algebraicas-4-eso-ejercicios/index.html
@@ -355,6 +359,7 @@ blog/integrales-dobles-ejercicios-resueltos/index.html
 blog/integrales-funciones-racionales-fracciones-parciales/index.html
 blog/integrales-impropias-convergencia-ejercicios/index.html
 blog/integrales-inmediatas-ejercicios-resueltos/index.html
+blog/integrales-trigonometricas-ejercicios-resueltos/index.html
 blog/ley-hooke-muelles-4-eso-ejercicios/index.html
 blog/ley-ohm-4-eso-ejercicios-resueltos/index.html
 blog/limites-trigonometricos-ejercicios-resueltos/index.html
@@ -364,6 +369,7 @@ blog/mecanica-fluidos-bernoulli-continuidad-ejercicios-resueltos/index.html
 blog/metodos-de-integracion-como-elegir/index.html
 blog/microeconomia-i-tipos-problemas-examen/index.html
 blog/molaridad-disoluciones-1-bachillerato-ejercicios/index.html
+blog/movimiento-circular-uniforme-1-bachillerato-ejercicios/index.html
 blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/index.html
 blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/index.html
 blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/index.html
@@ -383,6 +389,7 @@ blog/pagina/21/index.html
 blog/pagina/22/index.html
 blog/pagina/23/index.html
 blog/pagina/24/index.html
+blog/pagina/25/index.html
 blog/pagina/3/index.html
 blog/pagina/4/index.html
 blog/pagina/5/index.html

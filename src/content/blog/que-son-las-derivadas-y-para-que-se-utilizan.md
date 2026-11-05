@@ -6,8 +6,8 @@ updated: 2026-11-05
 description: Una guía clara para entender las derivadas como pendiente, ritmo de cambio y herramienta para optimizar funciones.
 tag: Cálculo
 category: Matemáticas universitarias
-relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: regla-cadena-ejercicios-resueltos,derivadas-producto-cociente-ejercicios,problemas-optimizacion-derivadas-ejercicios-resueltos
+relatedService: /campus/
+relatedPosts: derivadas-2-bachillerato-ejercicios-examen,regla-cadena-ejercicios-resueltos,derivadas-producto-cociente-ejercicios
 image: /favicon.svg
 ---
 

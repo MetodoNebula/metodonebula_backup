@@ -6,7 +6,7 @@ description: Aprende a reconocer qué método de integración conviene usar, con
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: integracion-por-sustitucion-cambio-variable-ejercicios,integracion-por-partes-formula-ejercicios-resueltos,integrales-funciones-racionales-fracciones-parciales
+relatedPosts: integrales-trigonometricas-ejercicios-resueltos,integracion-por-sustitucion-cambio-variable-ejercicios,integracion-por-partes-formula-ejercicios-resueltos
 image: /favicon.svg
 ---
 

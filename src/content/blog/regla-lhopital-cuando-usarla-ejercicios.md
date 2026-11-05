@@ -1,9 +1,9 @@
 ---
 title: Regla de L'Hôpital: cuándo utilizarla y cuándo no
-seoTitle: "Regla de L'Hôpital: cuándo usarla, condiciones y errores"
+seoTitle: "Regla de L'Hôpital: cuándo usarla y ejercicios resueltos"
 date: 2026-08-23
-updated: 2026-10-29
-description: Aprende cuándo se puede aplicar la regla de L'Hôpital, cómo transformar otras indeterminaciones y qué errores evitar con ejercicios resueltos.
+updated: 2026-11-05
+description: Aprende cuándo usar la regla de L'Hôpital, sus condiciones, cómo transformar indeterminaciones y ejercicios resueltos paso a paso.
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/

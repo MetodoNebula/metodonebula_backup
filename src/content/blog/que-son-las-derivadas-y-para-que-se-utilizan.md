@@ -2,12 +2,12 @@
 title: Qué son las derivadas y para qué se utilizan
 seoTitle: "Derivadas: qué son, para qué sirven y ejemplos"
 date: 2026-06-19
-updated: 2026-10-29
+updated: 2026-11-05
 description: Una guía clara para entender las derivadas como pendiente, ritmo de cambio y herramienta para optimizar funciones.
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/
-relatedPosts: continuidad-derivabilidad-diferencias-problemas,problemas-optimizacion-derivadas-ejercicios-resueltos,como-resolver-limites-indeterminaciones-ejercicios
+relatedPosts: regla-cadena-ejercicios-resueltos,derivadas-producto-cociente-ejercicios,problemas-optimizacion-derivadas-ejercicios-resueltos
 image: /favicon.svg
 ---
 
@@ -16,6 +16,10 @@ Una derivada mide **cómo cambia una magnitud cuando cambia otra**. En una gráf
 La dificultad no está solo en aplicar reglas. Está en entender qué pregunta responde la derivada.
 
 > **Respuesta directa.** Una derivada es el ritmo de cambio instantáneo de una función. Sirve para calcular pendientes, velocidades, tasas de crecimiento y puntos máximos o mínimos. Su valor no solo se calcula: debe interpretarse dentro del problema y con las unidades correspondientes.
+
+## Elige la regla según la estructura
+
+Antes de derivar, identifica qué operación domina la función. Si una función está dentro de otra, consulta la [regla de la cadena con ejercicios resueltos](/blog/regla-cadena-ejercicios-resueltos/). Si aparecen dos funciones multiplicadas o divididas, utiliza la guía de [derivadas de producto y cociente](/blog/derivadas-producto-cociente-ejercicios/). Esta decisión inicial evita aplicar una fórmula correcta a una estructura equivocada.
 
 ## La idea básica
 

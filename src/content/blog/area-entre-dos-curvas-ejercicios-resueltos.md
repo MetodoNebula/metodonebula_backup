@@ -1,8 +1,8 @@
 ---
 title: Área entre dos curvas: planteamiento y ejercicios resueltos
-seoTitle: "Área entre curvas: método y ejercicios resueltos"
+seoTitle: "Área entre dos curvas: ejercicios resueltos paso a paso"
 date: 2026-08-08
-updated: 2026-10-29
+updated: 2026-11-05
 description: Aprende a calcular el área entre curvas: intersecciones, función superior e inferior, cambios de signo y ejercicios resueltos paso a paso.
 tag: Cálculo
 category: Matemáticas universitarias

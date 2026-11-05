@@ -1,12 +1,12 @@
 ---
 title: "MRU en ESO: movimiento rectilíneo uniforme con fórmulas y ejercicios"
 date: "2026-08-12"
-updated: "2026-08-12"
+updated: "2026-11-05"
 description: "Aprende MRU en ESO: posición, velocidad, tiempo y gráficas con un método claro, unidades y ejercicios resueltos."
 tag: "ESO"
 category: "Física y Química"
 relatedService: "/clases-particulares/fisica-ingenieria/"
-relatedPosts: "mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios,gravitacion-eso-ley-universal-peso-ejercicios,fisica-y-quimica-como-plantear-problemas"
+relatedPosts: "graficas-mru-mrua-4-eso-ejercicios,mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios,fisica-y-quimica-como-plantear-problemas"
 image: "/assets/latex/mru-posicion-tiempo-eso.svg"
 ---
 

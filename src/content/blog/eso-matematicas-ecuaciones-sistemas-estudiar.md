@@ -1,12 +1,12 @@
 ---
 title: "Ecuaciones y sistemas en ESO: el método para entenderlos y no volver a temer los signos"
 date: "2026-10-04"
-updated: "2026-10-28"
+updated: "2026-11-05"
 description: "Aprende ecuaciones y sistemas en ESO con equivalencia, traducción de problemas, métodos, ejemplos, comprobación y errores frecuentes."
 tag: "ESO"
 category: "Matemáticas ESO y Bachillerato"
 relatedService: "/clases-particulares/matematicas-universidad/"
-relatedPosts: "como-estudiar-matematicas-sin-memorizar,estadistica-descriptiva-eso-media-mediana-moda"
+relatedPosts: "sistemas-ecuaciones-3-eso-problemas-resueltos,ecuaciones-segundo-grado-3-eso-ejercicios-resueltos,como-estudiar-matematicas-sin-memorizar"
 image: "/assets/latex/equations-balance.svg"
 ---
 

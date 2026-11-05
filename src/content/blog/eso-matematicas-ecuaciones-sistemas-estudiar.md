@@ -6,7 +6,7 @@ description: "Aprende ecuaciones y sistemas en ESO con equivalencia, traducción
 tag: "ESO"
 category: "Matemáticas ESO y Bachillerato"
 relatedService: "/clases-particulares/matematicas-universidad/"
-relatedPosts: "ecuaciones-bicuadradas-4-eso-ejercicios,sistemas-ecuaciones-3-eso-problemas-resueltos,ecuaciones-segundo-grado-3-eso-ejercicios-resueltos"
+relatedPosts: "examen-matematicas-3-eso-modelo-resuelto,ecuaciones-bicuadradas-4-eso-ejercicios,sistemas-ecuaciones-3-eso-problemas-resueltos"
 image: "/assets/latex/equations-balance.svg"
 ---
 

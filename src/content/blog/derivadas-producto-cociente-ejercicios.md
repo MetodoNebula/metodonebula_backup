@@ -13,17 +13,7 @@ image: /favicon.svg
 
 Las reglas de producto y cociente se usan cuando dos funciones se multiplican o una se divide entre otra. No se obtiene la derivada multiplicando o dividiendo las derivadas: cada regla mezcla la función original de una parte con la derivada de la otra.
 
-> **Respuesta directa.** Si \(y=u(x)v(x)\), entonces
->
-> $$
-> y'=u'v+uv'.
-> $$
->
-> Si \(y=u(x)/v(x)\), con \(v(x)\neq0\), entonces
->
-> $$
-> y'=\frac{u'v-uv'}{v^2}.
-> $$
+> **Respuesta directa.** Si \(y=u(x)v(x)\), entonces \(y'=u'v+uv'\). Si \(y=u(x)/v(x)\), con \(v(x)\neq0\), entonces \(y'=\frac{u'v-uv'}{v^2}\).
 
 ## Antes de elegir una regla
 
@@ -83,7 +73,7 @@ $$
 \boxed{y'=3x^2\sin x+(x^3-1)\cos x}.
 $$
 
-No se puede combinar más salvo que el contexto dé un valor concreto de (x).
+No se puede combinar más salvo que el contexto dé un valor concreto de \(x\).
 
 ### Ejemplo 3 — producto con regla de la cadena
 
@@ -106,7 +96,7 @@ y'=\sqrt{x^2+1}+x\frac{x}{\sqrt{x^2+1}}
 =\frac{2x^2+1}{\sqrt{x^2+1}}.
 $$
 
-La guía de [regla de la cadena](/blog/regla-cadena-ejercicios-resueltos/) explica con detalle el factor que aparece al derivar (x^2+1).
+La guía de [regla de la cadena](/blog/regla-cadena-ejercicios-resueltos/) explica con detalle el factor que aparece al derivar \(x^2+1\).
 
 ## Regla del cociente
 
@@ -167,27 +157,27 @@ Es preferible conservar los paréntesis hasta el final: evitan perder el signo m
 - **Producto de derivadas.** \((uv)'\neq u'v'\). Faltan los términos que recogen el cambio de cada factor mientras el otro permanece.
 - **Cociente de derivadas.** \((u/v)'\neq u'/v'\). La regla correcta tiene dos términos en el numerador y \(v^2\) en el denominador.
 - **Cambiar el signo menos.** En el cociente, el orden es (u'v-uv'), no al revés.
-- **Olvidar la cadena dentro de un factor.** En (x\cos(2x)), la derivada de (cos(2x)) es (-2\sin(2x)).
+- **Olvidar la cadena dentro de un factor.** En \(x\cos(2x)\), la derivada de \(\cos(2x)\) es \(-2\sin(2x)\).
 - **No simplificar antes.** Si hay factores comunes, reducir puede eliminar por completo la necesidad de usar cociente.
 
 ## Ejercicios propuestos
 
-1. Deriva (x^3\ln x), con (x>0).
-2. Deriva ((x+1)e^{-x}).
-3. Deriva (\frac{x^2}{x+1}).
-4. Deriva (\frac{\ln x}{x}), con (x>0).
-5. Deriva (x^2\sin(3x)).
+1. Deriva \(x^3\ln x\), con \(x>0\).
+2. Deriva \((x+1)e^{-x}\).
+3. Deriva \(\frac{x^2}{x+1}\).
+4. Deriva \(\frac{\ln x}{x}\), con \(x>0\).
+5. Deriva \(x^2\sin(3x)\).
 
 ## Soluciones
 
-1. (3x^2\ln x+x^2).
-2. (e^{-x}- (x+1)e^{-x}=-xe^{-x}).
-3. (\frac{2x(x+1)-x^2}{(x+1)^2}=\frac{x^2+2x}{(x+1)^2}).
-4. (\frac{1-\ln x}{x^2}).
-5. (2x\sin(3x)+3x^2\cos(3x)).
+1. \(3x^2\ln x+x^2\).
+2. \(e^{-x}-(x+1)e^{-x}=-xe^{-x}\).
+3. \(\frac{2x(x+1)-x^2}{(x+1)^2}=\frac{x^2+2x}{(x+1)^2}\).
+4. \(\frac{1-\ln x}{x^2}\).
+5. \(2x\sin(3x)+3x^2\cos(3x)\).
 
 ## Resumen práctico
 
-Usa producto cuando hay dos funciones que se multiplican y cociente cuando una función se divide entre otra que no se puede simplificar. Escribe primero (u), (v), (u') y (v'); esa preparación reduce más errores que memorizar una frase rápida. Si alguno de los factores es una función compuesta, añade la regla de la cadena dentro de ese paso.
+Usa producto cuando hay dos funciones que se multiplican y cociente cuando una función se divide entre otra que no se puede simplificar. Escribe primero \(u\), \(v\), \(u'\) y \(v'\); esa preparación reduce más errores que memorizar una frase rápida. Si alguno de los factores es una función compuesta, añade la regla de la cadena dentro de ese paso.
 
 Para practicar estas reglas con ejercicios de tu asignatura, consulta las [clases particulares de Cálculo](/clases-particulares/calculo-universitario/).

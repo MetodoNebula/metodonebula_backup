@@ -37,7 +37,7 @@ $$
 \lim_{x\to0}\frac{\sin(5x)}{x}.
 $$
 
-Introducimos (5x) en el denominador:
+Introducimos \(5x\) en el denominador:
 
 $$
 \frac{\sin(5x)}{x}
@@ -145,17 +145,17 @@ Esta vía es más clara que derivar numerador y denominador sin identificar la i
 
 ## Ejercicios propuestos
 
-1. (lim_{x\to0}\sin(7x)/x)
-2. (lim_{x\to0}\sin(2x)/\tan(5x))
-3. (lim_{x\to0}(1-\cos(3x))/x^2)
-4. (lim_{x\to0}\tan^2x/x^2)
+1. \(\lim_{x\to0}\sin(7x)/x\)
+2. \(\lim_{x\to0}\sin(2x)/\tan(5x)\)
+3. \(\lim_{x\to0}(1-\cos(3x))/x^2\)
+4. \(\lim_{x\to0}\tan^2x/x^2\)
 
 ## Soluciones
 
-1. (7).
-2. (2/5).
-3. (9/2).
-4. (1).
+1. \(7\).
+2. \(2/5\).
+3. \(9/2\).
+4. \(1\).
 
 ## Resumen práctico
 

@@ -13,25 +13,19 @@ image: /favicon.svg
 
 La regla de la cadena se utiliza cuando una función está aplicada sobre otra. En vez de derivar la expresión completa como si fuera una suma de símbolos, se deriva primero la función exterior, se conserva la interior y se multiplica por la derivada de esa función interior.
 
-> **Respuesta directa.** Si \(y=f(g(x))\), entonces
->
-> $$
-> y'=f'(g(x))\,g'(x).
-> $$
->
-> Deriva la capa exterior, deja intacta la expresión interior y multiplica por su derivada.
+> **Respuesta directa.** Si \(y=f(g(x))\), entonces \(y'=f'(g(x))\,g'(x)\). Deriva la capa exterior, deja intacta la expresión interior y multiplica por su derivada.
 
 ## Cómo reconocer una función compuesta
 
 Hay regla de la cadena cuando una expresión aparece dentro de otra operación. Algunos patrones frecuentes son:
 
-- Una potencia de un polinomio: ((3x-1)^5).
+- Una potencia de un polinomio: \((3x-1)^5\).
 - Una raíz con una expresión interior: \(\sqrt{x^2+4}\).
 - Una exponencial: \(e^{x^2}\).
 - Un logaritmo: \(\ln(2x+3)\).
 - Una función trigonométrica: \(\sin(x^3)\).
 
-La pregunta útil es: «¿qué tendría que sustituir por una sola letra para simplificar la función?». Si eliges (u=g(x)), la expresión queda como (f(u)). Esa separación muestra la función exterior (f) y la interior (g).
+La pregunta útil es: «¿qué tendría que sustituir por una sola letra para simplificar la función?». Si eliges \(u=g(x)\), la expresión queda como \(f(u)\). Esa separación muestra la función exterior \(f\) y la interior \(g\).
 
 ## Método en cuatro pasos
 
@@ -107,7 +101,7 @@ $$
 \frac{d}{dx}e^{x^3-x}.
 $$
 
-La derivada de (e^u) es (e^u), pero hay que multiplicar por (u'). Como
+La derivada de \(e^u\) es \(e^u\), pero hay que multiplicar por \(u'\). Como
 
 $$
 u=x^3-x,
@@ -128,7 +122,7 @@ $$
 \frac{d}{dx}\ln(4x^2+1).
 $$
 
-Para (ln u), la derivada exterior es (1/u). Por tanto,
+Para \(\ln u\), la derivada exterior es \(1/u\). Por tanto,
 
 $$
 \frac{d}{dx}\ln(4x^2+1)
@@ -180,27 +174,27 @@ Si la duda está en distinguir esos casos, consulta la guía de [derivadas de pr
 
 - **Olvidar derivar la interior.** \((x^2+1)^3\) no deriva a \(3(x^2+1)^2\), sino a \(6x(x^2+1)^2\).
 - **Derivar el exponente y la base a la vez sin una regla válida.** En \(e^{x^2}\), la derivada no es \(x^{2e}\).
-- **Separar una potencia compuesta incorrectamente.** En general, ((x+1)^n) no se puede derivar término a término sin desarrollar o aplicar cadena.
-- **No usar paréntesis.** Escribe (cos(x^2)), no (cos x^2), para dejar claro qué está dentro de la función.
+- **Separar una potencia compuesta incorrectamente.** En general, \((x+1)^n\) no se puede derivar término a término sin desarrollar o aplicar cadena.
+- **No usar paréntesis.** Escribe \(\cos(x^2)\), no \(\cos x^2\), para dejar claro qué está dentro de la función.
 
 ## Ejercicios propuestos
 
-1. Deriva ((5x-2)^6).
-2. Deriva ((x^2-3x+1)^4).
-3. Deriva (cos(2x^3)).
-4. Deriva (ln(1+x^5)).
-5. Deriva (\frac{1}{(x^2+1)^3}).
+1. Deriva \((5x-2)^6\).
+2. Deriva \((x^2-3x+1)^4\).
+3. Deriva \(\cos(2x^3)\).
+4. Deriva \(\ln(1+x^5)\).
+5. Deriva \(\frac{1}{(x^2+1)^3}\).
 
 ## Soluciones
 
-1. (30(5x-2)^5).
-2. (4(x^2-3x+1)^3(2x-3)).
-3. (-6x^2sin(2x^3)).
-4. (5x^4/(1+x^5)).
-5. Escribe ((x^2+1)^{-3}): la derivada es (-6x(x^2+1)^{-4}), o bien (-6x/(x^2+1)^4).
+1. \(30(5x-2)^5\).
+2. \(4(x^2-3x+1)^3(2x-3)\).
+3. \(-6x^2\sin(2x^3)\).
+4. \(5x^4/(1+x^5)\).
+5. Escribe \((x^2+1)^{-3}\): la derivada es \(-6x(x^2+1)^{-4}\), o bien \(-6x/(x^2+1)^4\).
 
 ## Resumen práctico
 
-La regla de la cadena traduce una idea simple: un cambio en (x) atraviesa cada capa de una función compuesta. Identifica la interior, deriva la exterior, conserva la interior y multiplica por su derivada. Después simplifica y comprueba que ningún factor de la cadena haya desaparecido.
+La regla de la cadena traduce una idea simple: un cambio en \(x\) atraviesa cada capa de una función compuesta. Identifica la interior, deriva la exterior, conserva la interior y multiplica por su derivada. Después simplifica y comprueba que ningún factor de la cadena haya desaparecido.
 
 Para pasar del concepto a ejercicios de nivel universitario, puedes consultar las [clases particulares de Cálculo](/clases-particulares/calculo-universitario/).

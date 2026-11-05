@@ -97,7 +97,7 @@ No basta multiplicar por 100: esa conversión sería correcta para longitud, no 
 
 ## Ejemplo 4 — densidad
 
-Convierte (1{,}2\text{ g/cm}^3) a kg/m³:
+Convierte \(1{,}2\text{ g/cm}^3\) a kg/m³:
 
 $$
 1{,}2\frac{\text{g}}{\text{cm}^3}
@@ -123,17 +123,17 @@ Las unidades cúbicas requieren especial cuidado porque el factor se eleva al cu
 
 ## Ejercicios propuestos
 
-1. Convierte (0{,}75\text{ kg}) a gramos.
-2. Convierte (15\text{ m/s}) a km/h.
-3. Convierte (4\text{ cm}^3) a m³.
-4. Convierte (250\text{ mL}) a litros.
+1. Convierte \(0{,}75\text{ kg}\) a gramos.
+2. Convierte \(15\text{ m/s}\) a km/h.
+3. Convierte \(4\text{ cm}^3\) a m³.
+4. Convierte \(250\text{ mL}\) a litros.
 
 ## Soluciones
 
-1. (750\text{ g}).
-2. (54\text{ km/h}).
-3. (4\cdot10^{-6}\text{ m}^3).
-4. (0{,}25\text{ L}).
+1. \(750\text{ g}\).
+2. \(54\text{ km/h}\).
+3. \(4\cdot10^{-6}\text{ m}^3\).
+4. \(0{,}25\text{ L}\).
 
 ## Resumen práctico
 

@@ -99,7 +99,7 @@ $$
 \boxed{-\frac2{x^2}-2\ln|x|+C}.
 $$
 
-La regla de potencias no sirve para (x^{-1}), porque dividiríamos entre cero al sumar uno al exponente.
+La regla de potencias no sirve para \(x^{-1}\), porque dividiríamos entre cero al sumar uno al exponente.
 
 ## Ejemplo 3 — exponenciales y trigonometría
 
@@ -146,17 +146,17 @@ Si aparece una función dentro de otra junto con su derivada, puede corresponder
 
 ## Ejercicios propuestos
 
-1. (int(6x^5-x+4)dx)
-2. (int(5/x^2+3/x)dx)
-3. (int(2\cos x-e^x)dx)
-4. (int(x^4-1)/x^2\,dx)
+1. \(\int(6x^5-x+4)\,dx\)
+2. \(\int(5/x^2+3/x)\,dx\)
+3. \(\int(2\cos x-e^x)\,dx\)
+4. \(\int(x^4-1)/x^2\,dx\)
 
 ## Soluciones
 
-1. (x^6-x^2/2+4x+C).
-2. (-5/x+3\ln|x|+C).
-3. (2\sin x-e^x+C).
-4. Primero (x^2-x^{-2}); resultado (x^3/3+1/x+C).
+1. \(x^6-x^2/2+4x+C\).
+2. \(-5/x+3\ln|x|+C\).
+3. \(2\sin x-e^x+C\).
+4. Primero \(x^2-x^{-2}\); resultado \(x^3/3+1/x+C\).
 
 ## Resumen práctico
 

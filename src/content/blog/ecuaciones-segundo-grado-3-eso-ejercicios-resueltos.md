@@ -20,7 +20,7 @@ $$
 
 Resolverla significa encontrar los valores de \(x\) que hacen verdadera la igualdad. Antes de elegir un método, lleva todos los términos a un lado y simplifica: ese paso evita muchos errores de signo.
 
-> **Respuesta directa.** Si puedes factorizar, busca dos factores cuyo producto sea cero. Si no es evidente, usa la fórmula \(x=(-b\pm\sqrt{b^2-4ac})/(2a)\). Al final, sustituye cada solución en la ecuación original.
+> **Respuesta directa.** Si puedes factorizar, busca dos factores cuyo producto sea cero. Si no es evidente, usa la fórmula \(x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}\). Al final, sustituye cada solución en la ecuación original.
 
 ## Método 1 — factorizar
 
@@ -54,7 +54,7 @@ $$
 
 ## Método 2 — fórmula general
 
-Para (ax^2+bx+c=0),
+Para \(ax^2+bx+c=0\),
 
 $$
 \boxed{x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}}.
@@ -125,27 +125,27 @@ $$
 \Delta=2^2-4\cdot1\cdot5=-16.
 $$
 
-Como no existe raíz cuadrada real de un número negativo, la ecuación no tiene solución real. Es importante escribir esa conclusión, no inventar un valor para (x).
+Como no existe raíz cuadrada real de un número negativo, la ecuación no tiene solución real. Es importante escribir esa conclusión, no inventar un valor para \(x\).
 
 ## Errores frecuentes
 
-- **Olvidar que (b) puede ser negativo.** En (x^2-3x+1=0), (b=-3); por eso (-b=3).
-- **No poner paréntesis al sustituir.** Son esenciales si (b) o (c) tienen signo negativo.
+- **Olvidar que \(b\) puede ser negativo.** En \(x^2-3x+1=0\), \(b=-3\); por eso \(-b=3\).
+- **No poner paréntesis al sustituir.** Son esenciales si \(b\) o \(c\) tienen signo negativo.
 - **Cambiar solo un término de lado.** Mueve todos los términos y simplifica antes de elegir método.
 - **No comprobar.** Sustituir una solución en la ecuación original detecta casi todos los fallos de cálculo.
 
 ## Ejercicios propuestos
 
-1. (x^2-7x+12=0)
-2. (x^2+6x+9=0)
-3. (3x^2-2x-1=0)
-4. (x^2+4x+8=0)
+1. \(x^2-7x+12=0\)
+2. \(x^2+6x+9=0\)
+3. \(3x^2-2x-1=0\)
+4. \(x^2+4x+8=0\)
 
 ## Soluciones
 
-1. (x=3) o (x=4).
-2. (x=-3) como raíz doble.
-3. (x=1) o (x=-1/3).
+1. \(x=3\) o \(x=4\).
+2. \(x=-3\) como raíz doble.
+3. \(x=1\) o \(x=-1/3\).
 4. No tiene soluciones reales.
 
 ## Resumen práctico

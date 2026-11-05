@@ -1,12 +1,12 @@
 ---
 title: "Cómo representar cualquier función en Bachillerato: la guía que conecta todos los pasos"
 date: "2026-10-09"
-updated: "2026-10-28"
+updated: "2026-11-05"
 description: "Guía completa para estudiar y representar funciones en Bachillerato: dominio, cortes, límites, derivadas, concavidad y ejemplo."
 tag: "Bachillerato"
 category: "Matemáticas ESO y Bachillerato"
 relatedService: "/clases-particulares/matematicas-universidad/"
-relatedPosts: "estudio-completo-funcion-paso-a-paso,continuidad-derivabilidad-diferencias-problemas"
+relatedPosts: "funciones-lineales-afines-3-eso-ejercicios,estudio-completo-funcion-paso-a-paso,continuidad-derivabilidad-diferencias-problemas"
 image: "/assets/latex/function-study.svg"
 ---
 

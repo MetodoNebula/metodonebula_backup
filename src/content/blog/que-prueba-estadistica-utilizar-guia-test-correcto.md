@@ -1,12 +1,12 @@
 ---
 title: Qué prueba estadística utilizar: guía para elegir el test correcto
 date: 2026-07-09
-updated: 2026-07-22
+updated: 2026-11-05
 description: Guía práctica para elegir la prueba estadística correcta según la pregunta, el tipo de variable, el número de grupos y el diseño del estudio.
 tag: Estadística
 category: Estadística
-relatedService: /clases-particulares/estadistica-psicologia-ade/
-relatedPosts: como-aprobar-estadistica-psicologia-sin-base-matematica,regresion-lineal-anova-cuando-utilizar-interpretar-resultados,estadistica-desde-cero-para-elegir-contrastes
+relatedService: /campus/
+relatedPosts: t-student-psicologia-ejercicios-resueltos,chi-cuadrado-psicologia-tablas-contingencia,estadistica-desde-cero-para-elegir-contrastes
 image: /favicon.svg
 ---
 

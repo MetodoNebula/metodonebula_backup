@@ -209,6 +209,20 @@ const inspectionExpression = String.raw`
     .slice(0, 5)
     .map((element) => (element.textContent || "").trim().slice(0, 100));
 
+  // A page can load without throwing while leaving source delimiters or TeX
+  // commands visible. Treat that as a rendering error, not as valid content.
+  const rawLatex = [];
+  const walker = document.createTreeWalker(article || document.body, NodeFilter.SHOW_TEXT);
+  let textNode;
+  while ((textNode = walker.nextNode()) && rawLatex.length < 5) {
+    const parent = textNode.parentElement;
+    if (!parent || parent.closest(".katex, script, style, code, pre")) continue;
+    const text = textNode.textContent || "";
+    if (/\$|\\(?:begin|end|frac|text|cdot|left|right|quad|dfrac|operatorname)\b/.test(text)) {
+      rawLatex.push((text.trim() || parent.outerHTML).slice(0, 180));
+    }
+  }
+
   return {
     hasArticle: Boolean(article),
     title: document.querySelector("h1")?.textContent?.trim() || "",
@@ -221,6 +235,7 @@ const inspectionExpression = String.raw`
     overflowElements,
     graphIssues,
     katexIssues,
+    rawLatex,
   };
 })()
 `;
@@ -266,6 +281,7 @@ async function inspectViewport(ws, label, width, height, url) {
     failures.push(`element overflow ${value.overflowElements.join(" | ")}`);
   if (badGraphs.length) failures.push(`graph issues ${JSON.stringify(badGraphs)}`);
   if (value.katexIssues.length) failures.push(`katex overflow ${value.katexIssues.join(" | ")}`);
+  if (value.rawLatex.length) failures.push(`unrendered LaTeX ${value.rawLatex.join(" | ")}`);
   if (failures.length) throw new Error(`${label} ${url}: ${failures.join("; ")}`);
 
   return { graphs: value.graphIssues.length, title: value.title };

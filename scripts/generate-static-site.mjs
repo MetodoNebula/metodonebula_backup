@@ -4,6 +4,8 @@ import katex from "katex";
 
 const ROOT = process.cwd();
 const DIST = path.join(ROOT, "dist");
+const VISUAL_ASSET_DIR = path.join(ROOT, "assets", "latex");
+const PUBLIC_VISUAL_ASSET_DIR = path.join(ROOT, "public", "assets", "latex");
 const SITE_DATA = JSON.parse(fs.readFileSync(path.join(ROOT, "src/content/site.json"), "utf8"));
 const SITE_URL = SITE_DATA.site.url;
 const BLOG_PAGE_SIZE = 9;
@@ -12,6 +14,16 @@ const FEATURED_POST_SLUGS = [
   "como-aprobar-calculo-i-ingenieria-seis-semanas",
   "preparar-selectividad-con-calendario",
 ];
+
+function syncVisualAssets() {
+  if (!fs.existsSync(VISUAL_ASSET_DIR)) return;
+  fs.mkdirSync(PUBLIC_VISUAL_ASSET_DIR, { recursive: true });
+  for (const file of fs.readdirSync(VISUAL_ASSET_DIR)) {
+    if (path.extname(file).toLowerCase() === ".svg") {
+      fs.copyFileSync(path.join(VISUAL_ASSET_DIR, file), path.join(PUBLIC_VISUAL_ASSET_DIR, file));
+    }
+  }
+}
 
 function escapeHtml(value = "") {
   return String(value)
@@ -260,6 +272,16 @@ function markdownToHtml(md) {
       i++;
       continue;
     }
+    // Accept a display formula after a short lead-in such as "(a)". Without
+    // this, the inline parser consumes the first of the two opening dollars.
+    const inlineDisplayMath = /^(.*?)\$\$([\s\S]+?)\$\$(.*?)$/.exec(line);
+    if (inlineDisplayMath && (inlineDisplayMath[1].trim() || inlineDisplayMath[3].trim())) {
+      if (inlineDisplayMath[1].trim()) out.push(`<p>${inlineMarkdown(inlineDisplayMath[1].trim())}</p>`);
+      out.push(displayMathHtml(inlineDisplayMath[2].trim()));
+      if (inlineDisplayMath[3].trim()) out.push(`<p>${inlineMarkdown(inlineDisplayMath[3].trim())}</p>`);
+      i++;
+      continue;
+    }
     if (line.trim().startsWith("```")) {
       const code = [];
       i++;
@@ -377,6 +399,8 @@ function markdownToHtml(md) {
       lines[i].trim() &&
       !/^#{1,6}\s+/.test(lines[i]) &&
       !lines[i].trim().startsWith("```") &&
+      !lines[i].trim().startsWith("$$") &&
+      !lines[i].trim().startsWith("\\[") &&
       !/^\s*[-*]\s+/.test(lines[i]) &&
       !/^\s*\d+\.\s+/.test(lines[i]) &&
       !(
@@ -1571,6 +1595,12 @@ function writeRss(posts) {
 }
 
 function copyStaticFiles() {
+  syncVisualAssets();
+  if (fs.existsSync(PUBLIC_VISUAL_ASSET_DIR)) {
+    fs.cpSync(PUBLIC_VISUAL_ASSET_DIR, path.join(DIST, "assets", "latex"), {
+      recursive: true,
+    });
+  }
   fs.writeFileSync(path.join(DIST, "CNAME"), "metodonebula.es\n");
   fs.writeFileSync(path.join(DIST, ".nojekyll"), "");
 }

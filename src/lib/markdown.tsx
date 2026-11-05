@@ -236,6 +236,29 @@ function parseBlocks(md: string): ReactNode[] {
       continue;
     }
 
+    // Keep a display formula as its own block even if an author prefixes it
+    // with a short marker such as "(a)".
+    const inlineDisplayMath = /^(.*?)\$\$([\s\S]+?)\$\$(.*?)$/.exec(line);
+    if (inlineDisplayMath && (inlineDisplayMath[1].trim() || inlineDisplayMath[3].trim())) {
+      if (inlineDisplayMath[1].trim()) {
+        out.push(
+          <p key={key++} className="my-5 leading-relaxed text-foreground/85">
+            {renderInline(inlineDisplayMath[1].trim())}
+          </p>,
+        );
+      }
+      out.push(<MathMarkup key={key++} tex={inlineDisplayMath[2].trim()} displayMode />);
+      if (inlineDisplayMath[3].trim()) {
+        out.push(
+          <p key={key++} className="my-5 leading-relaxed text-foreground/85">
+            {renderInline(inlineDisplayMath[3].trim())}
+          </p>,
+        );
+      }
+      i++;
+      continue;
+    }
+
     if (line.trim().startsWith("$$") || line.trim().startsWith("\\[")) {
       const opener = line.trim().startsWith("$$") ? "$$" : "\\[";
       const closer = opener === "$$" ? "$$" : "\\]";
@@ -445,6 +468,8 @@ function parseBlocks(md: string): ReactNode[] {
       !isBlank(lines[i]) &&
       !isHeading(lines[i]) &&
       !isFence(lines[i]) &&
+      !lines[i].trim().startsWith("$$") &&
+      !lines[i].trim().startsWith("\\[") &&
       !isQuote(lines[i]) &&
       !isUl(lines[i]) &&
       !isOl(lines[i]) &&

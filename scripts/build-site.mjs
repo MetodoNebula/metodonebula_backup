@@ -6,6 +6,8 @@ const root = process.cwd();
 const indexPath = path.join(root, "index.html");
 const sourcePath = path.join(root, "index.source.html");
 const originalIndex = fs.existsSync(indexPath) ? fs.readFileSync(indexPath, "utf8") : "";
+const visualSourceDir = path.join(root, "assets", "latex");
+const visualPublicDir = path.join(root, "public", "assets", "latex");
 
 function run(command, args) {
   const result = spawnSync(command, args, {
@@ -19,6 +21,14 @@ function run(command, args) {
 }
 
 try {
+  if (fs.existsSync(visualSourceDir)) {
+    fs.mkdirSync(visualPublicDir, { recursive: true });
+    for (const file of fs.readdirSync(visualSourceDir)) {
+      if (path.extname(file).toLowerCase() === ".svg") {
+        fs.copyFileSync(path.join(visualSourceDir, file), path.join(visualPublicDir, file));
+      }
+    }
+  }
   fs.copyFileSync(sourcePath, indexPath);
   run("npx", ["vite", "build"]);
   run("node", ["scripts/generate-static-site.mjs"]);

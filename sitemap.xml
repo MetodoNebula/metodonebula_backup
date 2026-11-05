@@ -153,6 +153,10 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/categoria/matematicas-eso-bachillerato/pagina/3/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/economia-y-ade/</loc>
     <priority>0.6</priority>
   </url>
@@ -275,6 +279,10 @@
   <url>
     <loc>https://metodonebula.es/blog/pau-convocatoria-extraordinaria-plan-30-dias/</loc>
     <lastmod>2026-10-30</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/semejanza-escalas-2-eso-problemas-resueltos/</loc>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/gcse-physics-waves-refraction-en/</loc>
@@ -946,7 +954,7 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/eso-matematicas-pitagoras-thales-geometria/</loc>
-    <lastmod>2026-07-08</lastmod>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/estequiometria-universitaria-ejercicios-resueltos/</loc>

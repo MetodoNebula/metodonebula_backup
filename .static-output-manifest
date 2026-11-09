@@ -62,9 +62,9 @@ assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff
 assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2
 assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf
 assets/blog-Cp579UoJ.css
-assets/blog-FhKYzFQ6.js
+assets/blog-Dnpfud4q.js
+assets/index-CGKCtMxy.js
 assets/index-DMVryaoR.css
-assets/index-mzp85fhZ.js
 assets/latex/area-between-curves.svg
 assets/latex/arrhenius-energy.svg
 assets/latex/atomic-energy-levels.svg
@@ -188,8 +188,9 @@ assets/latex/triangle-strategy.svg
 assets/latex/unit-circle-solutions.svg
 assets/latex/vectors-planes.svg
 assets/latex/wave-anatomy.svg
-assets/pages-C5Eh2Krs.js
-assets/posts-BrTrg5Xi.js
+assets/pages-IIMQvsNS.js
+assets/posts-Dm0rSlFr.js
+blog/algebra-lineal-nucleo-imagen-rango-ejercicios/index.html
 blog/algebra-lineal-universidad-que-estudiar-primero-errores/index.html
 blog/area-entre-dos-curvas-ejercicios-resueltos/index.html
 blog/bachillerato-fisica-momento-choques/index.html
@@ -216,6 +217,7 @@ blog/categoria/examenes-internacionales/pagina/4/index.html
 blog/categoria/examenes-internacionales/pagina/5/index.html
 blog/categoria/examenes-internacionales/pagina/6/index.html
 blog/categoria/examenes-internacionales/pagina/7/index.html
+blog/categoria/examenes-internacionales/pagina/8/index.html
 blog/categoria/fisica-y-quimica/index.html
 blog/categoria/fisica-y-quimica/pagina/2/index.html
 blog/categoria/fisica-y-quimica/pagina/3/index.html
@@ -340,6 +342,7 @@ blog/gcse-maths-histograms-cumulative-frequency-en/index.html
 blog/gcse-maths-histograms-cumulative-frequency/index.html
 blog/gcse-maths-probability-trees-conditional-en/index.html
 blog/gcse-maths-probability-trees-conditional/index.html
+blog/gcse-maths-quadratic-equations-completing-square-en/index.html
 blog/gcse-maths-resit-14-day-plan-en/index.html
 blog/gcse-maths-resit-14-day-plan/index.html
 blog/gcse-maths-revision-plan-foundation-higher-en/index.html
@@ -380,6 +383,7 @@ blog/geometria-analitica-4-eso-rectas-ejercicios/index.html
 blog/graficas-mru-mrua-4-eso-ejercicios/index.html
 blog/gravitacion-eso-ley-universal-peso-ejercicios/index.html
 blog/ib-gcse-como-preparar-examenes-internacionales/index.html
+blog/ib-mathematics-internal-assessment-metodo-ideas/index.html
 blog/index.html
 blog/integracion-por-partes-formula-ejercicios-resueltos/index.html
 blog/integracion-por-sustitucion-cambio-variable-ejercicios/index.html
@@ -531,6 +535,7 @@ blog/r-spss-jamovi-python-programa-estadistico-universidad/index.html
 blog/regla-cadena-ejercicios-resueltos/index.html
 blog/regla-lhopital-cuando-usarla-ejercicios/index.html
 blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados/index.html
+blog/regresion-logistica-odds-ratio-interpretacion/index.html
 blog/semejanza-escalas-2-eso-problemas-resueltos/index.html
 blog/series-taylor-maclaurin-ejercicios-resueltos/index.html
 blog/sistemas-ecuaciones-3-eso-problemas-resueltos/index.html

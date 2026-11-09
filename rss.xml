@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
+      <title>Regresión logística: cómo interpretar odds ratio, probabilidades y resultados</title>
+      <link>https://metodonebula.es/blog/regresion-logistica-odds-ratio-interpretacion/</link>
+      <guid>https://metodonebula.es/blog/regresion-logistica-odds-ratio-interpretacion/</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Guía de regresión logística: variable respuesta binaria, logit, odds ratio, intervalos de confianza, predicción y errores de interpretación.</description>
+    </item>
+    <item>
+      <title>Núcleo, imagen y rango de una aplicación lineal: ejercicios resueltos paso a paso</title>
+      <link>https://metodonebula.es/blog/algebra-lineal-nucleo-imagen-rango-ejercicios/</link>
+      <guid>https://metodonebula.es/blog/algebra-lineal-nucleo-imagen-rango-ejercicios/</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Aprende a calcular núcleo, imagen y rango de una aplicación lineal con matrices, Gauss, bases, dimensión y ejercicios resueltos.</description>
+    </item>
+    <item>
+      <title>IB Mathematics Internal Assessment: cómo elegir una pregunta y construir un método propio</title>
+      <link>https://metodonebula.es/blog/ib-mathematics-internal-assessment-metodo-ideas/</link>
+      <guid>https://metodonebula.es/blog/ib-mathematics-internal-assessment-metodo-ideas/</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Guía para plantear una Internal Assessment de IB Mathematics: pregunta, datos, matemáticas, interpretación, estructura y revisión ética.</description>
+    </item>
+    <item>
+      <title>GCSE Maths: quadratic equations and completing the square step by step</title>
+      <link>https://metodonebula.es/blog/gcse-maths-quadratic-equations-completing-square-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-maths-quadratic-equations-completing-square-en/</guid>
+      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Quadratic equations GCSE: factorising, the quadratic formula, completing the square, discriminant and exam-style checks.</description>
+    </item>
+    <item>
       <title>Subir nota en Selectividad 2027: estrategia para ganar puntos sin estudiar al azar</title>
       <link>https://metodonebula.es/blog/subir-nota-selectividad-2027-estrategia/</link>
       <guid>https://metodonebula.es/blog/subir-nota-selectividad-2027-estrategia/</guid>

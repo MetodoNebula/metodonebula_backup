@@ -4198,7 +4198,7 @@ Para planificar la preparación general, consulta [cómo organizar la Selectivid
 title: Cómo resolver límites: indeterminaciones y ejercicios
 seoTitle: "Cómo resolver límites: indeterminaciones y ejercicios"
 date: 2026-08-17
-updated: 2026-11-05
+updated: 2026-11-09
 description: Aprende cómo resolver límites e indeterminaciones con sustitución, factorización, conjugados, límites notables y ejercicios resueltos.
 tag: Cálculo
 category: Matemáticas universitarias
@@ -5070,6 +5070,10 @@ $$
 Sustituye primero y transforma solo si aparece una indeterminación. Factoriza polinomios, racionaliza diferencias con raíces, reúne fracciones, ajusta los límites notables y divide por el término dominante en infinito. Los laterales deciden la existencia en puntos problemáticos; el encaje controla oscilaciones acotadas.
 
 Al terminar, sustituye de nuevo en la expresión transformada, revisa el signo desde ambos lados y contrasta el orden de magnitud. Una forma indeterminada nunca es la respuesta final.
+
+## Límites para Selectividad: cómo ganar seguridad
+
+En una pregunta de PAU, el procedimiento puntúa porque muestra qué indeterminación has reconocido y por qué la transformación elegida es válida. Entrena la secuencia “sustituir, nombrar la forma, transformar y comprobar” antes de pasar a ejercicios completos. La [preparación de Matemáticas para Selectividad 2027](/preparacion-examenes/matematicas-selectividad/) conecta límites con continuidad, derivadas y simulacros para practicar esos pasos con contexto.
 
 Los límites sostienen continuidad, derivadas e integrales, por lo que conviene dominarlos antes de avanzar en un plan de [Cálculo I para Ingeniería](/blog/como-aprobar-calculo-i-ingenieria-seis-semanas/). Si necesitas practicar con ejercicios de tu temario y recibir corrección del razonamiento, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
 `,O=`---
@@ -24012,6 +24016,10 @@ Integración por partes funciona cuando el intercambio \\(\\int u\\,dv\\to uv-\\
 
 Después de aplicar la fórmula, pueden ocurrir tres cosas útiles: la nueva integral es inmediata, hay que repetir partes o reaparece la integral original y se despeja. En todos los casos, la derivación del resultado es la prueba definitiva.
 
+## Practicar integrales para la PAU
+
+Para una pregunta de Selectividad, escribe primero qué vas a tomar como \\(u\\) y qué parte integrarás como \\(dv\\). Esa línea hace visible tu decisión y ayuda a detectar un mal planteamiento antes de arrastrar signos. Alterna ejercicios cortos con problemas de modelo y revisa siempre derivando el resultado. El [Campus](/campus/) y la [preparación de Matemáticas para Selectividad](/preparacion-examenes/matematicas-selectividad/) ofrecen una ruta de práctica y corrección para convertir ese método en autonomía.
+
 Si quieres practicar el método con ejercicios de tu grado y recibir corrección sobre la elección de \\(u\\), los signos y la presentación, consulta las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
 `,nn=`---
 title: Integración por sustitución: cambio de variable y ejercicios
@@ -24735,6 +24743,10 @@ Una sustitución buena identifica la función interior, incorpora su derivada y 
 La comprobación más fiable consiste en derivar: si recuperas el integrando mediante la regla de la cadena, el cambio y los coeficientes son correctos. Si el método no elimina \\(x\\) o produce una integral peor, no insistas; revisa si corresponde simplificar, usar partes o aplicar otra técnica.
 
 En cálculo multivariable, la misma idea exige corregir áreas mediante el determinante: consulta la guía de [cambio de variables y jacobiano en integrales dobles](/blog/cambio-variables-jacobiano-integrales-dobles/).
+
+## Sustitución e integrales en Selectividad
+
+Si preparas Matemáticas para PAU, no memorices un cambio de variable como una receta aislada. Identifica la función interior, comprueba que aparece su derivada —quizá con un factor constante— y deja el cambio escrito antes de operar. Después practica ejercicios de tu comunidad con un reloj y revisa si el problema pedía además interpretar una integral definida. En la [preparación de Matemáticas para Selectividad 2027](/preparacion-examenes/matematicas-selectividad/) puedes organizar esa práctica por tipos de ejercicio.
 
 Si estás trabajando sustituciones más exigentes en Cálculo y necesitas corregir la elección del cambio sobre ejercicios reales de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
 `,on=`---
@@ -43565,6 +43577,10 @@ Para dominar derivadas, trabaja cada ejercicio en tres capas:
 
 Si solo practicas reglas, cualquier enunciado nuevo parece distinto. Si entiendes la derivada como ritmo de cambio, las reglas empiezan a tener dirección.
 
+## Si estás preparando Selectividad
+
+En Matemáticas II, una derivada suele ser el comienzo del razonamiento, no el final: hay que usarla para estudiar crecimiento, extremos, curvatura o una situación de optimización y justificar cada decisión. Cuando la técnica básica ya es segura, practica preguntas de modelo con tiempo y corrige el primer paso que te hizo desviarte. El [itinerario de Matemáticas para Selectividad 2027](/preparacion-examenes/matematicas-selectividad/) reúne esa práctica por bloques, simulacros y exámenes resueltos.
+
 Puedes continuar con [qué son las integrales y para qué se utilizan](/blog/que-son-las-integrales-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
 `,Yo=`---
 title: Qué son las integrales y para qué se utilizan
@@ -43672,6 +43688,10 @@ Antes de resolver, pregúntate:
 - Si la integral representa área, distancia, probabilidad, coste u otra magnitud.
 
 Cuando entiendes la integral como acumulación, las técnicas de cálculo dejan de parecer recetas sueltas y empiezan a tener sentido.
+
+## Integrales en Matemáticas de Selectividad
+
+En PAU, una integral puede pedir una primitiva, un área o la interpretación de una cantidad acumulada. Antes de elegir una técnica, dibuja o describe qué representa el integrando, marca los límites si los hay y comprueba las unidades al final. Si necesitas ordenar ese trabajo con modelos y simulacros, revisa la [preparación online de Matemáticas para Selectividad 2027](/preparacion-examenes/matematicas-selectividad/).
 
 El paso siguiente es distinguir con claridad la [integral definida de la indefinida](/blog/integral-definida-e-indefinida-diferencias-ejemplos/) y aprender a reconocer la estructura del integrando. La guía de [métodos de integración y elección de técnica](/blog/metodos-de-integracion-como-elegir/) organiza ese diagnóstico; después puedes profundizar en [fracciones parciales](/blog/integrales-funciones-racionales-fracciones-parciales/) y aplicar la integral definida al [área entre dos curvas](/blog/area-entre-dos-curvas-ejercicios-resueltos/).
 

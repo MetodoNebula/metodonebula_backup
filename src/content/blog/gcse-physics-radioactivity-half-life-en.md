@@ -1,8 +1,9 @@
 ---
 title: "GCSE Physics: half-life and radioactivity through graphs that explain decay"
+seoTitle: "Half-Life GCSE Physics: Radioactive Decay, Graphs and Questions"
 date: "2026-10-22"
-updated: "2026-10-28"
-description: "Understand radioactive decay and half-life in GCSE Physics: randomness, exponential curves, activity, calculations and safety."
+updated: "2026-11-09"
+description: "Half-life GCSE Physics explained: radioactive decay, activity, graphs, calculations, safety and exam-style questions."
 tag: "GCSE"
 category: "Exámenes internacionales"
 relatedService: "/clases-particulares/gcse-ib/"

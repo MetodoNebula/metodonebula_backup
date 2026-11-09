@@ -1,9 +1,9 @@
 ---
 title: "Equilibrios de solubilidad PAU: cómo usar Kps, predecir precipitados y resolver el ion común"
-seoTitle: "Solubilidad y Kps PAU: precipitación e ion común"
+seoTitle: "Kps y solubilidad PAU: precipitación, Q y ejercicios"
 date: "2026-07-20"
-updated: "2026-07-20"
-description: "Resuelve equilibrios de solubilidad PAU: Kps, solubilidad molar, cociente de reacción, precipitación, ion común y efecto del pH."
+updated: "2026-11-09"
+description: "Kps y solubilidad PAU: solubilidad molar, cociente Q, precipitación, ion común, pH y ejercicios resueltos."
 tag: "PAU"
 category: "Selectividad"
 relatedService: "/clases-particulares/selectividad/"

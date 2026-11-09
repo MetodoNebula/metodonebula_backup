@@ -1,9 +1,9 @@
 ---
 title: "Física cuántica PAU: efecto fotoeléctrico y fotones para entender por qué existe una frecuencia umbral"
-seoTitle: "Efecto fotoeléctrico PAU: fotones y frecuencia umbral"
+seoTitle: "Efecto fotoeléctrico PAU: fórmula de Einstein y ejercicios"
 date: "2026-10-10"
-updated: "2026-10-10"
-description: "Domina el efecto fotoeléctrico en Física PAU: fotones, trabajo de extracción, frecuencia umbral, potencial de frenado y gráficas."
+updated: "2026-11-09"
+description: "Efecto fotoeléctrico PAU: fórmula de Einstein, fotones, frecuencia umbral, potencial de frenado, gráficas y ejercicios."
 tag: "PAU"
 category: "Selectividad"
 relatedService: "/clases-particulares/selectividad/"

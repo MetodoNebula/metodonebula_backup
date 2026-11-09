@@ -1,9 +1,9 @@
 ---
 title: "GCSE Maths: similarity and length, area and volume scale factors without mixing them up"
-seoTitle: "GCSE Maths: similarity and scale factors"
+seoTitle: "Similarity and Scale Factors GCSE: Length, Area and Volume"
 date: "2026-08-16"
-updated: "2026-08-16"
-description: "Master GCSE similarity: linear, area and volume scale factors, similar triangles, missing lengths and inverse problems."
+updated: "2026-11-09"
+description: "Similarity and scale factors for GCSE: length, area and volume calculations, similar triangles, missing lengths and inverse questions."
 tag: "GCSE"
 category: "Exámenes internacionales"
 relatedService: "/clases-particulares/gcse-ib/"

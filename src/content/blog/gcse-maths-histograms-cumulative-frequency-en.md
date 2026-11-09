@@ -1,8 +1,9 @@
 ---
 title: "GCSE Maths: histograms and cumulative frequency without confusing height and area"
+seoTitle: "Histograms and Cumulative Frequency GCSE: Density and Questions"
 date: "2026-10-15"
-updated: "2026-10-28"
-description: "Learn histograms, frequency density and cumulative frequency in GCSE Maths through calculation, interpretation and error checks."
+updated: "2026-11-09"
+description: "Histograms and cumulative frequency GCSE guide: frequency density, reading graphs, estimates and exam-style questions."
 tag: "GCSE"
 category: "Exámenes internacionales"
 relatedService: "/clases-particulares/gcse-ib/"

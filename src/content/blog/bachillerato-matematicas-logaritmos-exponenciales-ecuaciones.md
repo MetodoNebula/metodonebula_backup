@@ -1,9 +1,9 @@
 ---
 title: "Logaritmos y exponenciales en Bachillerato: cómo resolver ecuaciones controlando el dominio"
-seoTitle: "Logaritmos y exponenciales en Bachillerato"
+seoTitle: "Logaritmos y exponenciales en Bachillerato: ecuaciones y ejercicios"
 date: "2026-07-15"
-updated: "2026-07-15"
-description: "Resuelve ecuaciones logarítmicas y exponenciales en Bachillerato: propiedades, dominio, cambio de base, modelización y comprobación."
+updated: "2026-11-09"
+description: "Logaritmos y exponenciales en Bachillerato: ecuaciones, propiedades, dominio, cambio de base y ejercicios resueltos."
 tag: "Matemáticas Bachillerato"
 category: "Matemáticas ESO y Bachillerato"
 relatedService: "/clases-particulares/matematicas-universidad/"

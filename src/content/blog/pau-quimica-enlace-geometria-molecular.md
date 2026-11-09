@@ -1,9 +1,9 @@
 ---
 title: "Enlace químico PAU: geometría molecular, polaridad y fuerzas intermoleculares con una sola lógica"
-seoTitle: "Enlace químico PAU: geometría, polaridad y fuerzas"
+seoTitle: "Geometría molecular y polaridad PAU: VSEPR, Lewis y ejercicios"
 date: "2026-09-25"
-updated: "2026-09-25"
-description: "Domina enlace químico PAU: Lewis, geometría VSEPR, polaridad, hibridación, fuerzas intermoleculares y propiedades."
+updated: "2026-11-09"
+description: "Geometría molecular y polaridad PAU: Lewis, VSEPR, hibridación, fuerzas intermoleculares y ejercicios."
 tag: "PAU"
 category: "Selectividad"
 relatedService: "/clases-particulares/selectividad/"

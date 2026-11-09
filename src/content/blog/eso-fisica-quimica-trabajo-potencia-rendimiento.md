@@ -1,9 +1,9 @@
 ---
 title: "Trabajo, potencia y rendimiento en ESO: cómo seguir la energía sin confundir fórmulas"
-seoTitle: "Trabajo, potencia y rendimiento en ESO"
+seoTitle: "Trabajo, potencia y rendimiento en ESO: fórmulas y ejercicios"
 date: "2026-07-03"
-updated: "2026-07-03"
-description: "Aprende trabajo, potencia y rendimiento en ESO: fuerzas, energía cinética y potencial, máquinas, unidades y problemas resueltos."
+updated: "2026-11-09"
+description: "Trabajo, potencia y rendimiento en ESO: fórmulas, unidades, energía y problemas resueltos paso a paso."
 tag: "Física y Química ESO"
 category: "Física y Química"
 relatedService: "/clases-particulares/fisica-ingenieria/"

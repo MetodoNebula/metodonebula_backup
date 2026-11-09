@@ -1,8 +1,9 @@
 ---
 title: "Gravitación en ESO: ley universal, masa, peso y ejercicios resueltos"
+seoTitle: "Gravitación en ESO: ley de Newton, masa, peso y ejercicios"
 date: "2026-08-26"
-updated: "2026-08-26"
-description: "Aprende gravitación en ESO: fuerza gravitatoria, ley de Newton, diferencia entre masa y peso, caída libre y ejercicios resueltos."
+updated: "2026-11-09"
+description: "Gravitación en ESO: ley de Newton, masa, peso, caída libre, fuerza gravitatoria y ejercicios resueltos."
 tag: "ESO"
 category: "Física y Química"
 relatedService: "/clases-particulares/fisica-ingenieria/"

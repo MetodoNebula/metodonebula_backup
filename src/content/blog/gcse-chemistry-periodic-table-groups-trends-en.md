@@ -1,9 +1,9 @@
 ---
 title: "GCSE Chemistry: the periodic table and Groups 1, 7 and 0 without memorising facts"
-seoTitle: "GCSE Chemistry: periodic table and Groups 1, 7 and 0"
+seoTitle: "Periodic Table GCSE: Groups 1, 7 and 0 Trends and Questions"
 date: "2026-08-23"
-updated: "2026-08-23"
-description: "Master the GCSE periodic table: electronic structure, metals, Groups 1, 7 and 0, trends and displacement reactions."
+updated: "2026-11-09"
+description: "Periodic table GCSE guide: Groups 1, 7 and 0, reactivity trends, electron structure, displacement and exam questions."
 tag: "GCSE"
 category: "Exámenes internacionales"
 relatedService: "/clases-particulares/gcse-ib/"

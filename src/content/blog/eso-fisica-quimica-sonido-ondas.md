@@ -1,9 +1,9 @@
 ---
 title: "Sonido y ondas en ESO: frecuencia, amplitud y velocidad sin confundir tono con volumen"
-seoTitle: "Sonido y ondas en ESO: frecuencia, amplitud y velocidad"
+seoTitle: "Sonido y ondas en ESO: fórmulas, frecuencia y ejercicios"
 date: "2026-10-08"
-updated: "2026-10-08"
-description: "Entiende sonido y ondas en ESO: amplitud, frecuencia, longitud de onda, velocidad, tono, volumen, eco y ejercicios."
+updated: "2026-11-09"
+description: "Sonido y ondas en ESO: frecuencia, amplitud, velocidad, tono, eco, fórmulas y ejercicios resueltos."
 tag: "Física ESO"
 category: "Física y Química"
 relatedService: "/clases-particulares/fisica-ingenieria/"

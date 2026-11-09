@@ -1,9 +1,9 @@
 ---
 title: "GCSE Circle Theorems: How to Recognise the Diagram and Justify Every Angle"
-seoTitle: "GCSE Circle Theorems: Guide and Proofs"
+seoTitle: "Circle Theorems GCSE: Rules, Proofs and Exam Questions"
 date: "2026-07-25"
-updated: "2026-07-25"
-description: "Master GCSE circle theorems: angles at the centre, same segment, diameter, tangents, cyclic quadrilaterals and geometric proofs."
+updated: "2026-11-09"
+description: "Circle theorems GCSE explained: angle rules, proofs, tangents, cyclic quadrilaterals and exam-style questions with reasons."
 tag: "GCSE"
 category: "Exámenes internacionales"
 relatedService: "/clases-particulares/gcse-ib/"

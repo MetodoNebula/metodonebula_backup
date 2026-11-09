@@ -1,8 +1,9 @@
 ---
 title: "Mezclas y disoluciones en ESO: cómo elegir filtración, destilación o cromatografía con criterio"
+seoTitle: "Mezclas y disoluciones en ESO: métodos de separación"
 date: "2026-10-27"
-updated: "2026-10-27"
-description: "Guía de ESO para distinguir sustancias, mezclas y disoluciones y elegir métodos de separación según propiedades físicas."
+updated: "2026-11-09"
+description: "Mezclas y disoluciones en ESO: filtración, decantación, destilación y cromatografía explicadas con ejercicios."
 tag: "ESO"
 category: "Física y Química"
 relatedService: "/clases-particulares/fisica-quimica/"

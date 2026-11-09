@@ -61,9 +61,9 @@ assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2
 assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff
 assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2
 assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf
-assets/blog-B97DAQ_k.js
 assets/blog-Cp579UoJ.css
-assets/index-1BMIoiRs.js
+assets/blog-DIvWUwEA.js
+assets/index-CsPRq8wy.js
 assets/index-DMVryaoR.css
 assets/latex/area-between-curves.svg
 assets/latex/arrhenius-energy.svg
@@ -188,8 +188,8 @@ assets/latex/triangle-strategy.svg
 assets/latex/unit-circle-solutions.svg
 assets/latex/vectors-planes.svg
 assets/latex/wave-anatomy.svg
-assets/pages-CAKrfseB.js
-assets/posts-ffJyiS9w.js
+assets/pages-CnCdhaZ6.js
+assets/posts-5Sgk5jOM.js
 blog/algebra-lineal-universidad-que-estudiar-primero-errores/index.html
 blog/area-entre-dos-curvas-ejercicios-resueltos/index.html
 blog/bachillerato-fisica-momento-choques/index.html
@@ -243,6 +243,9 @@ blog/categoria/selectividad/pagina/9/index.html
 blog/chi-cuadrado-psicologia-tablas-contingencia/index.html
 blog/cinetica-quimica-orden-reaccion-arrhenius-ejercicios-resueltos/index.html
 blog/circuitos-corriente-continua-problemas-resueltos-universidad/index.html
+blog/clases-fisica-quimica-selectividad-2027/index.html
+blog/clases-matematicas-ii-selectividad-2027/index.html
+blog/clases-selectividad-2027-online-plan-personalizado/index.html
 blog/como-aprobar-calculo-i-ingenieria-seis-semanas/index.html
 blog/como-aprobar-estadistica-psicologia-sin-base-matematica/index.html
 blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas/index.html
@@ -453,6 +456,7 @@ blog/pagina/29/index.html
 blog/pagina/3/index.html
 blog/pagina/30/index.html
 blog/pagina/31/index.html
+blog/pagina/32/index.html
 blog/pagina/4/index.html
 blog/pagina/5/index.html
 blog/pagina/6/index.html
@@ -502,6 +506,7 @@ blog/pau-quimica-solubilidad-kps-precipitacion/index.html
 blog/pau-quimica-termoquimica-hess-entalpia/index.html
 blog/pau-quimica-volumetrias-acido-base-redox/index.html
 blog/plano-inclinado-1-bachillerato-ejercicios-resueltos/index.html
+blog/preparar-pau-2027-desde-enero-calendario/index.html
 blog/preparar-pau-desde-verano-plan-septiembre/index.html
 blog/preparar-selectividad-con-calendario/index.html
 blog/primer-proyecto-python-principiantes-datos/index.html
@@ -529,6 +534,7 @@ blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados/index.html
 blog/semejanza-escalas-2-eso-problemas-resueltos/index.html
 blog/series-taylor-maclaurin-ejercicios-resueltos/index.html
 blog/sistemas-ecuaciones-3-eso-problemas-resueltos/index.html
+blog/subir-nota-selectividad-2027-estrategia/index.html
 blog/t-student-psicologia-ejercicios-resueltos/index.html
 blog/teorema-fundamental-calculo-ejemplos-ejercicios/index.html
 blog/termodinamica-primer-principio-ciclos-ejercicios-resueltos/index.html

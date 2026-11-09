@@ -129,6 +129,10 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pagina/32/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/</loc>
     <priority>0.6</priority>
   </url>
@@ -267,6 +271,26 @@
   <url>
     <loc>https://metodonebula.es/blog/categoria/carrera-tecnologica/</loc>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/subir-nota-selectividad-2027-estrategia/</loc>
+    <lastmod>2026-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/clases-fisica-quimica-selectividad-2027/</loc>
+    <lastmod>2026-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/clases-matematicas-ii-selectividad-2027/</loc>
+    <lastmod>2026-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/preparar-pau-2027-desde-enero-calendario/</loc>
+    <lastmod>2026-11-09</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/clases-selectividad-2027-online-plan-personalizado/</loc>
+    <lastmod>2026-11-09</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/derivadas-producto-cociente-ejercicios/</loc>

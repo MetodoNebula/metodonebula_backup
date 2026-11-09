@@ -105,6 +105,10 @@ Antes de resolver, pregúntate:
 
 Cuando entiendes la integral como acumulación, las técnicas de cálculo dejan de parecer recetas sueltas y empiezan a tener sentido.
 
+## Integrales en Matemáticas de Selectividad
+
+En PAU, una integral puede pedir una primitiva, un área o la interpretación de una cantidad acumulada. Antes de elegir una técnica, dibuja o describe qué representa el integrando, marca los límites si los hay y comprueba las unidades al final. Si necesitas ordenar ese trabajo con modelos y simulacros, revisa la [preparación online de Matemáticas para Selectividad 2027](/preparacion-examenes/matematicas-selectividad/).
+
 El paso siguiente es distinguir con claridad la [integral definida de la indefinida](/blog/integral-definida-e-indefinida-diferencias-ejemplos/) y aprender a reconocer la estructura del integrando. La guía de [métodos de integración y elección de técnica](/blog/metodos-de-integracion-como-elegir/) organiza ese diagnóstico; después puedes profundizar en [fracciones parciales](/blog/integrales-funciones-racionales-fracciones-parciales/) y aplicar la integral definida al [área entre dos curvas](/blog/area-entre-dos-curvas-ejercicios-resueltos/).
 
 Puedes leer también [qué son las derivadas y para qué se utilizan](/blog/que-son-las-derivadas-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).

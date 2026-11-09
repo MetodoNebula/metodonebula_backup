@@ -678,4 +678,8 @@ Integración por partes funciona cuando el intercambio \(\int u\,dv\to uv-\int v
 
 Después de aplicar la fórmula, pueden ocurrir tres cosas útiles: la nueva integral es inmediata, hay que repetir partes o reaparece la integral original y se despeja. En todos los casos, la derivación del resultado es la prueba definitiva.
 
+## Practicar integrales para la PAU
+
+Para una pregunta de Selectividad, escribe primero qué vas a tomar como \(u\) y qué parte integrarás como \(dv\). Esa línea hace visible tu decisión y ayuda a detectar un mal planteamiento antes de arrastrar signos. Alterna ejercicios cortos con problemas de modelo y revisa siempre derivando el resultado. El [Campus](/campus/) y la [preparación de Matemáticas para Selectividad](/preparacion-examenes/matematicas-selectividad/) ofrecen una ruta de práctica y corrección para convertir ese método en autonomía.
+
 Si quieres practicar el método con ejercicios de tu grado y recibir corrección sobre la elección de \(u\), los signos y la presentación, consulta las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).

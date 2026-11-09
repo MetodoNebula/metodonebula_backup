@@ -721,4 +721,8 @@ La comprobación más fiable consiste en derivar: si recuperas el integrando med
 
 En cálculo multivariable, la misma idea exige corregir áreas mediante el determinante: consulta la guía de [cambio de variables y jacobiano en integrales dobles](/blog/cambio-variables-jacobiano-integrales-dobles/).
 
+## Sustitución e integrales en Selectividad
+
+Si preparas Matemáticas para PAU, no memorices un cambio de variable como una receta aislada. Identifica la función interior, comprueba que aparece su derivada —quizá con un factor constante— y deja el cambio escrito antes de operar. Después practica ejercicios de tu comunidad con un reloj y revisa si el problema pedía además interpretar una integral definida. En la [preparación de Matemáticas para Selectividad 2027](/preparacion-examenes/matematicas-selectividad/) puedes organizar esa práctica por tipos de ejercicio.
+
 Si estás trabajando sustituciones más exigentes en Cálculo y necesitas corregir la elección del cambio sobre ejercicios reales de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).

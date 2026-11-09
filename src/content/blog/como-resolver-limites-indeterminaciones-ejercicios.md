@@ -2,7 +2,7 @@
 title: Cómo resolver límites: indeterminaciones y ejercicios
 seoTitle: "Cómo resolver límites: indeterminaciones y ejercicios"
 date: 2026-08-17
-updated: 2026-11-05
+updated: 2026-11-09
 description: Aprende cómo resolver límites e indeterminaciones con sustitución, factorización, conjugados, límites notables y ejercicios resueltos.
 tag: Cálculo
 category: Matemáticas universitarias
@@ -874,5 +874,9 @@ $$
 Sustituye primero y transforma solo si aparece una indeterminación. Factoriza polinomios, racionaliza diferencias con raíces, reúne fracciones, ajusta los límites notables y divide por el término dominante en infinito. Los laterales deciden la existencia en puntos problemáticos; el encaje controla oscilaciones acotadas.
 
 Al terminar, sustituye de nuevo en la expresión transformada, revisa el signo desde ambos lados y contrasta el orden de magnitud. Una forma indeterminada nunca es la respuesta final.
+
+## Límites para Selectividad: cómo ganar seguridad
+
+En una pregunta de PAU, el procedimiento puntúa porque muestra qué indeterminación has reconocido y por qué la transformación elegida es válida. Entrena la secuencia “sustituir, nombrar la forma, transformar y comprobar” antes de pasar a ejercicios completos. La [preparación de Matemáticas para Selectividad 2027](/preparacion-examenes/matematicas-selectividad/) conecta límites con continuidad, derivadas y simulacros para practicar esos pasos con contexto.
 
 Los límites sostienen continuidad, derivadas e integrales, por lo que conviene dominarlos antes de avanzar en un plan de [Cálculo I para Ingeniería](/blog/como-aprobar-calculo-i-ingenieria-seis-semanas/). Si necesitas practicar con ejercicios de tu temario y recibir corrección del razonamiento, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).

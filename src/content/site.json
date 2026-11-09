@@ -678,10 +678,10 @@
     },
     {
       "path": "/clases-particulares/selectividad/",
-      "title": "Clases particulares para Selectividad y PAU | Método Nebula",
-      "description": "Preparación de Selectividad y PAU con calendario, simulacros, bloques de estudio y seguimiento hasta el examen.",
-      "h1": "Clases particulares para Selectividad y PAU",
-      "audience": "Para alumnos que necesitan convertir el temario de bachillerato en un plan semanal realista hasta el examen.",
+      "title": "Clases de Selectividad y PAU 2027 online | Método Nebula",
+      "description": "Clases online de Selectividad y PAU 2027: diagnóstico, calendario, simulacros y corrección para Matemáticas, Física y Química.",
+      "h1": "Clases de Selectividad y PAU 2027",
+      "audience": "Para alumnado de 2º de Bachillerato que busca clases online de Selectividad en 2027 y necesita convertir el temario en un plan semanal realista hasta el examen.",
       "problems": [
         "Estudiar lo cómodo y evitar lo que baja nota.",
         "No saber repartir asignaturas por semanas.",
@@ -695,6 +695,14 @@
         "Química",
         "Calendario PAU",
         "Simulacros y corrección"
+      ],
+      "resourcesHeading": "Qué trabajamos para Selectividad 2027",
+      "resources": [
+        "Diagnóstico inicial por asignatura para localizar los puntos que más condicionan la nota.",
+        "Ruta semanal con teoría imprescindible, ejercicios graduados y preguntas de modelo.",
+        "Exámenes resueltos para entrenar planteamiento, justificación, unidades y presentación.",
+        "Simulacros cronometrados y revisión del tiempo invertido en cada apartado.",
+        "Registro de errores para decidir qué recuperar entre sesiones y qué bloque mantener."
       ],
       "method": [
         "Diagnóstico de asignaturas y nota objetivo.",
@@ -985,10 +993,10 @@
       "path": "/preparacion-examenes/matematicas-selectividad/",
       "parentPath": "/preparacion-examenes/",
       "parentLabel": "Preparación de exámenes",
-      "title": "Matemáticas para Selectividad y PAU | Método Nebula",
-      "description": "Prepara Matemáticas II o Aplicadas para Selectividad en el Campus: teoría, ejercicios graduados, exámenes PAU resueltos, simulacros y calendario adaptado.",
-      "h1": "Cómo preparar Matemáticas para Selectividad y PAU",
-      "audience": "Un itinerario del Campus para alumnos de 2º de Bachillerato que necesitan ordenar Matemáticas II o Matemáticas Aplicadas, practicar modelos oficiales y llegar al examen con una estrategia comprobada.",
+      "title": "Preparación de Matemáticas para Selectividad 2027 | Método Nebula",
+      "description": "Preparación online de Matemáticas para Selectividad 2027: Matemáticas II o Aplicadas, teoría, ejercicios PAU, simulacros y calendario.",
+      "h1": "Preparación de Matemáticas para Selectividad 2027",
+      "audience": "Un itinerario online del Campus para alumnado de 2º de Bachillerato que busca preparar Matemáticas II o Matemáticas Aplicadas para Selectividad 2027 con modelos, práctica y un plan semanal.",
       "quickAnswer": "Para preparar Matemáticas de Selectividad hay que diagnosticar primero los bloques débiles, organizar un calendario realista, practicar ejercicios oficiales por tipo, corregir cada error y terminar con simulacros cronometrados. El campus reúne teoría, ejercicios graduados y exámenes resueltos para que cada semana tenga un objetivo medible.",
       "problems": [
         "No saber priorizar entre bloques.",
@@ -1063,6 +1071,9 @@
         "como-preparar-pau-matematicas-ii",
         "preparar-selectividad-con-calendario",
         "preparar-pau-desde-verano-plan-septiembre",
+        "clases-selectividad-2027-online-plan-personalizado",
+        "preparar-pau-2027-desde-enero-calendario",
+        "clases-matematicas-ii-selectividad-2027",
         "pau-corregir-simulacros-plan-estudio",
         "pau-matematicas-matrices-determinantes-gauss",
         "pau-matematicas-sistemas-parametro-rouche-frobenius",

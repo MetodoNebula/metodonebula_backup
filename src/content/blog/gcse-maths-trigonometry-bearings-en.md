@@ -1,8 +1,9 @@
 ---
 title: "GCSE Maths: trigonometry and bearings without impossible angles"
+seoTitle: "Bearings and Trigonometry GCSE: Questions, Rules and Methods"
 date: "2026-09-30"
-updated: "2026-10-28"
-description: "Solve bearings and trigonometry in GCSE Maths using north lines, SOHCAHTOA, sine and cosine rules, and geometric checks."
+updated: "2026-11-09"
+description: "Bearings and trigonometry GCSE: north lines, SOHCAHTOA, sine and cosine rules, diagrams and exam-style questions."
 tag: "GCSE"
 category: "Exámenes internacionales"
 relatedService: "/clases-particulares/gcse-ib/"

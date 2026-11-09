@@ -1,9 +1,9 @@
 ---
 title: "PAU, EBAU, EvAU o Selectividad: qué significa cada nombre y cómo encontrar tu modelo oficial"
-seoTitle: "PAU, EBAU, EvAU o Selectividad: guía y modelos"
+seoTitle: "PAU, EBAU, EvAU o Selectividad: diferencias y modelos"
 date: "2026-10-10"
-updated: "2026-10-10"
-description: "Diferencias entre PAU, EBAU, EvAU y Selectividad y método para localizar el modelo, criterios y exámenes oficiales de tu comunidad."
+updated: "2026-11-09"
+description: "PAU, EBAU, EvAU o Selectividad: diferencias entre nombres y cómo encontrar modelos, criterios y exámenes de tu comunidad."
 tag: "PAU"
 category: "Selectividad"
 relatedService: "/clases-particulares/selectividad/"

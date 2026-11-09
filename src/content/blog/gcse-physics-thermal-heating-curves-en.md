@@ -1,9 +1,9 @@
 ---
 title: "GCSE Physics: heating curves, specific heat capacity and state changes without mixing formulas"
-seoTitle: "GCSE Physics: heating curves and changes of state"
+seoTitle: "Heating Curves GCSE Physics: Specific Heat Capacity and Questions"
 date: "2026-10-12"
-updated: "2026-10-12"
-description: "Understand GCSE heating curves, specific heat capacity, latent heat, particle explanations and energy conservation."
+updated: "2026-11-09"
+description: "Heating curves GCSE Physics: specific heat capacity, latent heat, changes of state, particle models and questions."
 tag: "GCSE"
 category: "Exámenes internacionales"
 relatedService: "/clases-particulares/gcse-ib/"
@@ -91,7 +91,7 @@ $$
 
 With a 700 W heater, the time is $60000/700\approx86$ s rather than 60 s. The remaining energy heats the container and surroundings; it has not disappeared.
 
-## Experiment to determine $c$
+## Experiment to determine the specific heat capacity
 
 Measure the block mass, place a heater and thermometer in good thermal contact and record temperature while the electrical power is known. For heating time $t$:
 

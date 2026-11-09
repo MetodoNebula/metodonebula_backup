@@ -649,7 +649,7 @@ function PostView({ post }: { post: Post }) {
             </p>
             <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
               <PrimaryCTA href="/campus/">
-                {isEnglish ? "Explore the virtual campus" : "Conocer el Campus"}
+                {isEnglish ? "See how the virtual campus works" : "Ver cómo funciona el Campus"}
               </PrimaryCTA>
               {relatedService && (
                 <Link

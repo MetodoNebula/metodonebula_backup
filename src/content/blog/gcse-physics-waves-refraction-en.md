@@ -1,9 +1,9 @@
 ---
 title: "GCSE Physics: reflection and refraction without mixing up frequency, speed and wavelength"
-seoTitle: "GCSE Physics: reflection and refraction step by step"
+seoTitle: "Reflection and Refraction GCSE Physics: Rules and Questions"
 date: "2026-10-29"
-updated: "2026-10-29"
-description: "Master reflection and refraction in GCSE Physics: normals, angles, speed, frequency, wavelength and exam explanations."
+updated: "2026-11-09"
+description: "Reflection and refraction GCSE Physics: normals, angles, wave speed, wavelength, frequency and exam questions."
 tag: "GCSE"
 category: "Exámenes internacionales"
 relatedService: "/clases-particulares/gcse-ib/"

@@ -1,9 +1,9 @@
 ---
 title: "Configuración electrónica y tabla periódica en Bachillerato: cómo justificar tendencias sin memorizar flechas"
-seoTitle: "Configuración electrónica y periodicidad en Bachillerato"
+seoTitle: "Configuración electrónica y tabla periódica en Bachillerato"
 date: "2026-10-21"
-updated: "2026-10-21"
-description: "Entiende configuración electrónica y propiedades periódicas: radio, ionización, electronegatividad, apantallamiento e iones."
+updated: "2026-11-09"
+description: "Configuración electrónica y tabla periódica en Bachillerato: radio, ionización, electronegatividad, apantallamiento e iones."
 tag: "Química Bachillerato"
 category: "Física y Química"
 relatedService: "/clases-particulares/quimica/"

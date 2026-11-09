@@ -1,9 +1,9 @@
 ---
 title: Integral definida e indefinida: diferencias y ejemplos
-seoTitle: "Integral definida e indefinida: diferencias y ejercicios"
+seoTitle: "Integral definida e indefinida: diferencias, fórmula y ejemplos"
 date: 2026-08-10
-updated: 2026-11-05
-description: Distingue integral definida e indefinida: significado, notación, constante de integración, teorema fundamental y ejercicios resueltos.
+updated: 2026-11-09
+description: Diferencias entre integral definida e indefinida, su fórmula, significado y ejemplos resueltos. Aprende cuándo aparece la constante C y cómo evaluar límites.
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/

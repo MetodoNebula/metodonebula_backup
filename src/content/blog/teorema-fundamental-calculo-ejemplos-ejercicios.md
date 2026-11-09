@@ -1,9 +1,9 @@
 ---
 title: Teorema fundamental del cálculo: ejemplos y ejercicios
-seoTitle: "Teorema fundamental del cálculo: ejemplos y ejercicios"
+seoTitle: "Teorema fundamental del cálculo: fórmula, ejemplos y ejercicios"
 date: 2026-08-13
-updated: 2026-11-05
-description: Comprende el teorema fundamental del cálculo con ejemplos: deriva integrales con límites variables y resuelve integrales definidas paso a paso.
+updated: 2026-11-09
+description: Teorema fundamental del cálculo explicado con fórmula, ejemplos y ejercicios. Aprende a derivar integrales y calcular integrales definidas paso a paso.
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /clases-particulares/calculo-universitario/

@@ -1,9 +1,9 @@
 ---
 title: Qué son las derivadas y para qué se utilizan
-seoTitle: "Derivadas: qué son, para qué sirven y ejemplos"
+seoTitle: "Qué son las derivadas: definición, para qué sirven y ejemplos"
 date: 2026-06-19
-updated: 2026-11-05
-description: Una guía clara para entender las derivadas como pendiente, ritmo de cambio y herramienta para optimizar funciones.
+updated: 2026-11-09
+description: Descubre qué son las derivadas, qué miden y para qué sirven. Explicación con pendiente, tasa de cambio, ejemplos y aplicaciones paso a paso.
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /campus/

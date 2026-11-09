@@ -1,9 +1,9 @@
 ---
 title: Integración por sustitución: cambio de variable y ejercicios
-seoTitle: "Integración por sustitución: cambio de variable y ejercicios"
+seoTitle: "Integral por sustitución: cambio de variable, fórmula y ejercicios"
 date: 2026-08-12
-updated: 2026-11-05
-description: Aprende integración por sustitución con cambio de variable: cómo elegir u, transformar diferenciales y límites, y resolver ejercicios paso a paso.
+updated: 2026-11-09
+description: Aprende integración por sustitución con cambio de variable. Identifica cuándo usarla, elige u, transforma dx y resuelve ejercicios paso a paso.
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /campus/

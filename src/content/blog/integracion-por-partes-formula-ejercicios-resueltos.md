@@ -1,9 +1,9 @@
 ---
 title: Integración por partes: fórmula y ejercicios resueltos
-seoTitle: "Integración por partes: fórmula, elegir u y dv, ejercicios"
+seoTitle: "Fórmula de integración por partes: elegir u y dv + ejercicios"
 date: 2026-08-06
-updated: 2026-11-05
-description: Aprende integración por partes: fórmula, cómo elegir u y dv, ejemplos resueltos, casos repetidos, integrales definidas y ejercicios.
+updated: 2026-11-09
+description: Fórmula de integración por partes explicada paso a paso: cómo elegir u y dv, cuándo usarla, ejemplos resueltos e integrales definidas.
 tag: Cálculo
 category: Matemáticas universitarias
 relatedService: /campus/

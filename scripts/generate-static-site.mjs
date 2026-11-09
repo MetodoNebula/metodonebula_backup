@@ -1171,6 +1171,10 @@ function commercialHubPage(page, posts) {
 }
 
 function servicePage(page, posts) {
+  const primaryCtaPath = page.ctaPath ?? "/contacto/";
+  const secondaryCta = page.secondaryCtaLabel
+    ? `<a class="ml-4" href="/contacto/">${escapeHtml(page.secondaryCtaLabel)}</a>`
+    : "";
   const related = page.relatedPosts
     .map((slug) => posts.find((post) => post.slug === slug))
     .filter(Boolean)
@@ -1230,7 +1234,7 @@ function servicePage(page, posts) {
             : ""
         }
         <h2>Siguiente paso</h2><p>${escapeHtml(page.nextStep)}</p>
-        <p><a href="/contacto/">${escapeHtml(page.ctaLabel ?? "Solicitar diagnóstico")}</a></p>
+        <p><a href="${primaryCtaPath}">${escapeHtml(page.ctaLabel ?? "Solicitar diagnóstico")}</a>${secondaryCta}</p>
       `,
     }),
   };

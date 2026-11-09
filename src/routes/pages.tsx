@@ -458,9 +458,17 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
                 {page.diagnosisHeading ?? "Diagnóstico inicial"}
               </AccentHeading>
               <p className="mt-3 text-sm text-muted-foreground">{page.nextStep}</p>
-              <PrimaryCTA href="/contacto/" className="mt-5 w-full">
+              <PrimaryCTA href={page.ctaPath ?? "/contacto/"} className="mt-5 w-full">
                 {page.ctaLabel ?? "Solicitar diagnóstico inicial"}
               </PrimaryCTA>
+              {page.secondaryCtaLabel && (
+                <Link
+                  to="/contacto/"
+                  className="mt-4 inline-flex w-full items-center justify-center text-sm font-medium text-link underline-offset-4 hover:underline"
+                >
+                  {page.secondaryCtaLabel}
+                </Link>
+              )}
             </div>
             {relatedPosts.length > 0 && (
               <div className="rounded-3xl border border-white/8 bg-white/[0.02] p-6">

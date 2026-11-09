@@ -49,6 +49,8 @@ export type ServicePage = {
   nextStep: string;
   diagnosisHeading?: string;
   ctaLabel?: string;
+  ctaPath?: string;
+  secondaryCtaLabel?: string;
   faq: Array<{ q: string; a: string }>;
   relatedPosts: string[];
   parentPath?: string;

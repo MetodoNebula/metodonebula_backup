@@ -716,6 +716,10 @@
       "studentInput": "Comunidad autónoma o prueba concreta, asignaturas, nota objetivo, calendario oficial y exámenes de años anteriores si se usan en clase.",
       "reasonableOutcomes": "Una planificación semanal más realista, criterios de prioridad y práctica cronometrada. La nota final depende del punto de partida, tiempo disponible y trabajo propio.",
       "nextStep": "Solicitar diagnóstico con asignaturas, fechas y nota objetivo aproximada.",
+      "diagnosisHeading": "Preparación PAU 2027",
+      "ctaLabel": "Ver cómo funciona el Campus",
+      "ctaPath": "/campus/",
+      "secondaryCtaLabel": "Solicitar diagnóstico",
       "faq": [
         {
           "q": "¿Cuánto antes conviene empezar?",
@@ -1045,6 +1049,8 @@
       "diagnosisHeading": "Plan inicial de Selectividad",
       "nextStep": "Indica tu comunidad autónoma, modalidad, convocatoria, nota objetivo y último resultado. Con esos datos se puede definir el bloque prioritario y el primer calendario de trabajo.",
       "ctaLabel": "Conocer el Campus de Selectividad",
+      "ctaPath": "/campus/",
+      "secondaryCtaLabel": "Solicitar diagnóstico",
       "faq": [
         {
           "q": "¿Cómo preparar Matemáticas para Selectividad sin estudiar temas al azar?",

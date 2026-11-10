@@ -1,6 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
+      <title>IB Mathematics AI: regression, correlation and technology interpretation</title>
+      <link>https://metodonebula.es/blog/ib-mathematics-ai-regression-correlation-technology-en/</link>
+      <guid>https://metodonebula.es/blog/ib-mathematics-ai-regression-correlation-technology-en/</guid>
+      <pubDate>Sat, 19 Dec 2026 00:00:00 GMT</pubDate>
+      <description>IB Mathematics AI regression and correlation explained with technology output, residuals, interpolation, extrapolation and interpretation.</description>
+    </item>
+    <item>
+      <title>IB Mathematics AA: differential equations and modelling</title>
+      <link>https://metodonebula.es/blog/ib-mathematics-aa-differential-equations-modelling-en/</link>
+      <guid>https://metodonebula.es/blog/ib-mathematics-aa-differential-equations-modelling-en/</guid>
+      <pubDate>Thu, 17 Dec 2026 00:00:00 GMT</pubDate>
+      <description>IB Mathematics AA differential equations explained with separation of variables, initial conditions, exponential models and interpretation.</description>
+    </item>
+    <item>
+      <title>IB Chemistry: equilibrium, Kc and Le Châtelier explained</title>
+      <link>https://metodonebula.es/blog/ib-chemistry-equilibrium-kc-le-chatelier-en/</link>
+      <guid>https://metodonebula.es/blog/ib-chemistry-equilibrium-kc-le-chatelier-en/</guid>
+      <pubDate>Tue, 15 Dec 2026 00:00:00 GMT</pubDate>
+      <description>IB Chemistry equilibrium explained with dynamic equilibrium, Kc expressions, reaction quotient and Le Châtelier reasoning.</description>
+    </item>
+    <item>
+      <title>IB Chemistry: stoichiometry, moles and limiting reagent problems</title>
+      <link>https://metodonebula.es/blog/ib-chemistry-stoichiometry-moles-limiting-reagent-en/</link>
+      <guid>https://metodonebula.es/blog/ib-chemistry-stoichiometry-moles-limiting-reagent-en/</guid>
+      <pubDate>Sun, 13 Dec 2026 00:00:00 GMT</pubDate>
+      <description>IB Chemistry stoichiometry explained through balanced equations, moles, concentrations, gases and limiting reagent calculations.</description>
+    </item>
+    <item>
+      <title>IB Physics Data Booklet: waves, fields and electricity explained</title>
+      <link>https://metodonebula.es/blog/ib-physics-data-booklet-waves-fields-electricity-en/</link>
+      <guid>https://metodonebula.es/blog/ib-physics-data-booklet-waves-fields-electricity-en/</guid>
+      <pubDate>Fri, 11 Dec 2026 00:00:00 GMT</pubDate>
+      <description>IB Physics waves, fields and electricity formulas explained with units, vector direction and original worked applications.</description>
+    </item>
+    <item>
+      <title>IB Physics Formula Booklet: mechanics, units and worked problems</title>
+      <link>https://metodonebula.es/blog/ib-physics-formula-booklet-mechanics-units-worked-problems-en/</link>
+      <guid>https://metodonebula.es/blog/ib-physics-formula-booklet-mechanics-units-worked-problems-en/</guid>
+      <pubDate>Wed, 09 Dec 2026 00:00:00 GMT</pubDate>
+      <description>IB Physics mechanics formulas explained with SI units, vector signs, energy, momentum and original worked problems.</description>
+    </item>
+    <item>
       <title>Núcleo, imagen y rango de una aplicación lineal: ejercicios resueltos paso a paso</title>
       <link>https://metodonebula.es/blog/algebra-lineal-nucleo-imagen-rango-ejercicios/</link>
       <guid>https://metodonebula.es/blog/algebra-lineal-nucleo-imagen-rango-ejercicios/</guid>

@@ -52,11 +52,36 @@ $$
 
 The field direction is away from a positive source charge and toward a negative source charge. Do not confuse the direction of the field with the force on a negative test charge; that force points opposite to the field.
 
+## Worked problem: voltage, energy and charge
+
+A charge of $3.0\ \mathrm{mC}$ passes through a potential difference of $24\ \mathrm{V}$. The energy transferred is
+
+$$
+W=QV=(3.0\times10^{-3})(24)=7.2\times10^{-2}\ \mathrm{J}.
+$$
+
+The prefix conversion is the decisive step. Using $3.0$ instead of $3.0\times10^{-3}$ would make the answer one thousand times too large.
+
+## What a graph can tell you
+
+For a uniform electric field, a graph of potential difference against distance has a constant gradient whose magnitude is the field strength. For a non-uniform field around a point charge, neither field strength nor potential changes linearly with distance. Identify the model before interpreting a gradient.
+
+## A wave boundary calculation
+
+A $500\ \mathrm{Hz}$ wave enters a material where its speed falls from $340\ \mathrm{m\,s^{-1}}$ to $250\ \mathrm{m\,s^{-1}}$. The source fixes the frequency, so it remains $500\ \mathrm{Hz}$. Its new wavelength is
+
+$$
+\lambda=\frac{v}{f}=\frac{250}{500}=0.50\ \mathrm{m}.
+$$
+
+The old wavelength was $0.68\ \mathrm{m}$, so the wavelength changes with the speed. This separates a physical argument from a formula substitution and avoids the common, incorrect claim that frequency changes at the boundary.
+
 ## Reading data safely
 
 - Write prefixes explicitly: mA is $10^{-3}$ A and mV is $10^{-3}$ V.
 - Keep wavelength in metres when using SI wave speed.
 - State a potential reference when interpreting electric potential.
 - Give field and force directions with words, arrows or signed axes.
+- Field strength is N C$^{-1}$ or V m$^{-1}$, whereas potential is J C$^{-1}$.
 
 For worked practice in a specific IB syllabus, use [GCSE and IB preparation](/clases-particulares/gcse-ib/). The connected GCSE guides on [waves](/blog/gcse-physics-waves-refraction-en/) and [electricity](/blog/gcse-physics-electricity-revision-en/) reinforce the same physical reasoning.

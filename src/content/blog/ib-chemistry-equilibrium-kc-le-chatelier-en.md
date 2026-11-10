@@ -46,6 +46,26 @@ Increasing the concentration of a reactant raises the denominator of $Q_c$ and m
 
 Pressure affects gaseous equilibria when the number of gas moles differs between sides. It does not automatically favour a reaction merely because pressure changed.
 
+## Worked equilibrium table
+
+For $\mathrm{A}\rightleftharpoons\mathrm{B}$, suppose initially $[\mathrm A]=0.80$ and $[\mathrm B]=0.20\ \mathrm{mol\,dm^{-3}}$. If $0.15\ \mathrm{mol\,dm^{-3}}$ of A reacts forward, the equilibrium concentrations are $[\mathrm A]=0.65$ and $[\mathrm B]=0.35$.
+
+$$
+K_c=\frac{[\mathrm B]}{[\mathrm A]}=\frac{0.35}{0.65}=0.538.
+$$
+
+For coefficients other than one, the changes must follow the stoichiometric ratio. That is why the balanced equation comes before the table.
+
+## Temperature deserves a separate argument
+
+Changing concentration or pressure changes $Q_c$ while $K_c$ stays fixed at constant temperature. Changing temperature changes $K_c$ itself. State whether the forward reaction is exothermic or endothermic before predicting the direction.
+
+## Pressure is a particle-count argument
+
+For a gaseous equilibrium, decreasing the volume makes all gas concentrations larger at once. The direction then depends on which side has fewer moles of gas. For $\mathrm{N_2}+3\mathrm{H_2}\rightleftharpoons2\mathrm{NH_3}$, four moles of gas on the left correspond to two on the right, so compression favours the right-hand side. If both sides have the same number of gaseous moles, pressure has no positional effect even though individual concentrations changed.
+
+This reasoning applies only to gases. A solid added to a heterogeneous equilibrium does not enter the concentration expression in the usual school-level model.
+
 ## Essential checks
 
 - Balance before writing $K_c$.

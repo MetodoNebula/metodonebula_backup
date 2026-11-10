@@ -62,11 +62,34 @@ $$
 
 For collisions in an isolated system, total momentum is conserved. Kinetic energy is conserved only in elastic collisions, so do not assume it without justification.
 
+## Worked problem: force from motion data
+
+A $0.80\ \mathrm{kg}$ trolley moves east at $2.5\ \mathrm{m\,s^{-1}}$. A constant westward resultant force acts for $0.40\ \mathrm{s}$ and leaves it moving east at $1.5\ \mathrm{m\,s^{-1}}$.
+
+Take east as positive. The momentum change is
+
+$$
+\Delta p=m(v-u)=0.80(1.5-2.5)=-0.80\ \mathrm{kg\,m\,s^{-1}}.
+$$
+
+Therefore $F=\Delta p/\Delta t=-2.0\ \mathrm{N}$. The negative sign agrees with the stated westward force. A magnitude alone would lose the vector information supplied by the calculation.
+
+## Choosing between energy and kinematics
+
+Use kinematics when time, displacement, velocity and constant acceleration are connected. Use energy when the path is not important but work and changes in energy are. A falling object with air resistance is not an automatic conservation-of-mechanical-energy question: resistance transfers energy to the surroundings.
+
+## Force-time graphs: area has a meaning
+
+The area under a force-time graph is impulse, so it gives the change in momentum. A constant $6.0\ \mathrm{N}$ force acting for $0.30\ \mathrm{s}$ has an impulse of $1.8\ \mathrm{N\,s}$. For a triangular pulse, use $\tfrac12\times\text{base}\times\text{height}$ rather than the rectangle rule. In either case, attach a direction: an impulse can reduce a positive momentum or reverse it.
+
+This is also a useful consistency check. If a graph gives a positive impulse but the calculated final velocity is smaller on a positive axis, one of the signs has been reversed.
+
 ## Formula-booklet checks
 
 - Convert kilometres per hour to metres per second before using mechanics equations.
 - Keep velocity signs in one dimension; a negative result may be physically correct.
 - Use newtons, joules, kilograms and seconds consistently.
 - State the system before claiming conservation of energy or momentum.
+- Quote a sensible number of significant figures from the data supplied.
 
 This article explains the mechanics formulas rather than reproducing any official booklet. For individual IB Physics support with your current syllabus and paper format, see [GCSE and IB preparation](/clases-particulares/gcse-ib/).

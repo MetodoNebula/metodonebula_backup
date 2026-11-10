@@ -54,6 +54,32 @@ $$
 
 It is not a correction factor to apply before working out the limiting reactant. First find the theoretical amount from the balanced equation, then compare it with what was obtained.
 
+## Worked problem: concentration to mass
+
+What mass of sodium chloride is present in $150\ \mathrm{cm^3}$ of a $0.200\ \mathrm{mol\,dm^{-3}}$ solution? First, $150\ \mathrm{cm^3}=0.150\ \mathrm{dm^3}$.
+
+$$
+n=cV=0.200\times0.150=0.0300\ \mathrm{mol}.
+$$
+
+With $M(\mathrm{NaCl})=58.44\ \mathrm{g\,mol^{-1}}$,
+
+$$
+m=nM=0.0300\times58.44=1.75\ \mathrm{g}.
+$$
+
+The calculation has two distinct conversions: volume to dm$^3$, then moles to mass. Combining them in one unexplained calculator line makes mistakes difficult to find.
+
+## Experimental quantities are not exact
+
+Measured masses, volumes and concentrations carry uncertainty. Keep guard digits during calculation, report an appropriate final precision and distinguish an experimental yield below 100% from an arithmetic error.
+
+## A gas-volume route through a calculation
+
+If a reaction question gives a gas volume, the same route still applies: volume becomes amount, the balanced-equation ratio is used, and the requested quantity is recovered at the end. Do not apply a molar gas volume before checking the stated temperature and pressure. Those conditions decide which relationship is valid.
+
+For example, if a stated molar volume is $24.0\ \mathrm{dm^3\,mol^{-1}}$, then $0.480\ \mathrm{dm^3}$ represents $0.0200\ \mathrm{mol}$. That conversion is a starting point, not evidence that any other species also has $0.0200\ \mathrm{mol}$: the coefficients decide that next step.
+
 ## Errors worth checking
 
 - Coefficients change mole ratios, never subscripts in a formula.

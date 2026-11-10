@@ -133,6 +133,10 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/pagina/33/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/</loc>
     <priority>0.6</priority>
   </url>
@@ -146,6 +150,10 @@
   </url>
   <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/pagina/4/</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/pagina/5/</loc>
     <priority>0.5</priority>
   </url>
   <url>
@@ -275,6 +283,26 @@
   <url>
     <loc>https://metodonebula.es/blog/categoria/carrera-tecnologica/</loc>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/ib-mathematics-aa-numeros-complejos-forma-polar/</loc>
+    <lastmod>2026-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/normalizacion-bases-datos-1fn-2fn-3fn/</loc>
+    <lastmod>2026-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/regresion-multiple-r2-ajustado-multicolinealidad/</loc>
+    <lastmod>2026-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/diagonalizacion-matrices-autovalores-autovectores-ejercicios/</loc>
+    <lastmod>2026-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/multiplicadores-lagrange-extremos-restricciones-ejercicios/</loc>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/regresion-logistica-odds-ratio-interpretacion/</loc>

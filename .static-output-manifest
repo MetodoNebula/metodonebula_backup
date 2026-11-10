@@ -61,10 +61,10 @@ assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2
 assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff
 assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2
 assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf
+assets/blog-B-ZHrBOE.js
 assets/blog-Cp579UoJ.css
-assets/blog-Dnpfud4q.js
-assets/index-CGKCtMxy.js
 assets/index-DMVryaoR.css
+assets/index-L5C-M2rl.js
 assets/latex/area-between-curves.svg
 assets/latex/arrhenius-energy.svg
 assets/latex/atomic-energy-levels.svg
@@ -188,8 +188,8 @@ assets/latex/triangle-strategy.svg
 assets/latex/unit-circle-solutions.svg
 assets/latex/vectors-planes.svg
 assets/latex/wave-anatomy.svg
-assets/pages-IIMQvsNS.js
-assets/posts-Dm0rSlFr.js
+assets/pages-C9VdLead.js
+assets/posts-d7d5vHVQ.js
 blog/algebra-lineal-nucleo-imagen-rango-ejercicios/index.html
 blog/algebra-lineal-universidad-que-estudiar-primero-errores/index.html
 blog/area-entre-dos-curvas-ejercicios-resueltos/index.html
@@ -230,6 +230,7 @@ blog/categoria/matematicas-universitarias/index.html
 blog/categoria/matematicas-universitarias/pagina/2/index.html
 blog/categoria/matematicas-universitarias/pagina/3/index.html
 blog/categoria/matematicas-universitarias/pagina/4/index.html
+blog/categoria/matematicas-universitarias/pagina/5/index.html
 blog/categoria/programacion-y-datos/index.html
 blog/categoria/selectividad/index.html
 blog/categoria/selectividad/pagina/10/index.html
@@ -262,6 +263,7 @@ blog/derivadas-2-bachillerato-ejercicios-examen/index.html
 blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos/index.html
 blog/derivadas-parciales-gradiente-ejercicios/index.html
 blog/derivadas-producto-cociente-ejercicios/index.html
+blog/diagonalizacion-matrices-autovalores-autovectores-ejercicios/index.html
 blog/diagramas-cuerpo-libre-metodo-errores-frecuentes/index.html
 blog/disoluciones-tampon-henderson-hasselbalch-ejercicios-resueltos/index.html
 blog/econometria-desde-cero-interpretar-regresion/index.html
@@ -383,6 +385,7 @@ blog/geometria-analitica-4-eso-rectas-ejercicios/index.html
 blog/graficas-mru-mrua-4-eso-ejercicios/index.html
 blog/gravitacion-eso-ley-universal-peso-ejercicios/index.html
 blog/ib-gcse-como-preparar-examenes-internacionales/index.html
+blog/ib-mathematics-aa-numeros-complejos-forma-polar/index.html
 blog/ib-mathematics-internal-assessment-metodo-ideas/index.html
 blog/index.html
 blog/integracion-por-partes-formula-ejercicios-resueltos/index.html
@@ -435,6 +438,8 @@ blog/molaridad-disoluciones-1-bachillerato-ejercicios/index.html
 blog/movimiento-circular-uniforme-1-bachillerato-ejercicios/index.html
 blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/index.html
 blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/index.html
+blog/multiplicadores-lagrange-extremos-restricciones-ejercicios/index.html
+blog/normalizacion-bases-datos-1fn-2fn-3fn/index.html
 blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/index.html
 blog/pagina/10/index.html
 blog/pagina/11/index.html
@@ -461,6 +466,7 @@ blog/pagina/3/index.html
 blog/pagina/30/index.html
 blog/pagina/31/index.html
 blog/pagina/32/index.html
+blog/pagina/33/index.html
 blog/pagina/4/index.html
 blog/pagina/5/index.html
 blog/pagina/6/index.html
@@ -536,6 +542,7 @@ blog/regla-cadena-ejercicios-resueltos/index.html
 blog/regla-lhopital-cuando-usarla-ejercicios/index.html
 blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados/index.html
 blog/regresion-logistica-odds-ratio-interpretacion/index.html
+blog/regresion-multiple-r2-ajustado-multicolinealidad/index.html
 blog/semejanza-escalas-2-eso-problemas-resueltos/index.html
 blog/series-taylor-maclaurin-ejercicios-resueltos/index.html
 blog/sistemas-ecuaciones-3-eso-problemas-resueltos/index.html

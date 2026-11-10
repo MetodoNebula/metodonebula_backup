@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
+      <title>IB Mathematics AA: números complejos, forma polar y teorema de De Moivre</title>
+      <link>https://metodonebula.es/blog/ib-mathematics-aa-numeros-complejos-forma-polar/</link>
+      <guid>https://metodonebula.es/blog/ib-mathematics-aa-numeros-complejos-forma-polar/</guid>
+      <pubDate>Mon, 07 Dec 2026 00:00:00 GMT</pubDate>
+      <description>Números complejos para IB Mathematics AA: forma cartesiana y polar, argumento, módulo, potencias, raíces y De Moivre.</description>
+    </item>
+    <item>
+      <title>Normalización de bases de datos: 1FN, 2FN y 3FN con ejemplo completo</title>
+      <link>https://metodonebula.es/blog/normalizacion-bases-datos-1fn-2fn-3fn/</link>
+      <guid>https://metodonebula.es/blog/normalizacion-bases-datos-1fn-2fn-3fn/</guid>
+      <pubDate>Sat, 05 Dec 2026 00:00:00 GMT</pubDate>
+      <description>Normalización SQL explicada con dependencias funcionales, claves, primera, segunda y tercera forma normal y un ejemplo paso a paso.</description>
+    </item>
+    <item>
+      <title>Regresión múltiple: R² ajustado, multicolinealidad y diagnóstico del modelo</title>
+      <link>https://metodonebula.es/blog/regresion-multiple-r2-ajustado-multicolinealidad/</link>
+      <guid>https://metodonebula.es/blog/regresion-multiple-r2-ajustado-multicolinealidad/</guid>
+      <pubDate>Thu, 03 Dec 2026 00:00:00 GMT</pubDate>
+      <description>Interpreta regresión múltiple con coeficientes, R² ajustado, residuos, VIF, multicolinealidad e intervalos de confianza.</description>
+    </item>
+    <item>
+      <title>Diagonalización de matrices: autovalores, autovectores y ejercicios resueltos</title>
+      <link>https://metodonebula.es/blog/diagonalizacion-matrices-autovalores-autovectores-ejercicios/</link>
+      <guid>https://metodonebula.es/blog/diagonalizacion-matrices-autovalores-autovectores-ejercicios/</guid>
+      <pubDate>Tue, 01 Dec 2026 00:00:00 GMT</pubDate>
+      <description>Diagonalización de matrices explicada con autovalores, autovectores, multiplicidad, matriz P, matriz D y comprobaciones.</description>
+    </item>
+    <item>
+      <title>Multiplicadores de Lagrange: máximos y mínimos con restricciones</title>
+      <link>https://metodonebula.es/blog/multiplicadores-lagrange-extremos-restricciones-ejercicios/</link>
+      <guid>https://metodonebula.es/blog/multiplicadores-lagrange-extremos-restricciones-ejercicios/</guid>
+      <pubDate>Sun, 29 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Resuelve máximos y mínimos con restricciones mediante multiplicadores de Lagrange: gradiente, sistema, candidatos y comprobación.</description>
+    </item>
+    <item>
       <title>Regresión logística: cómo interpretar odds ratio, probabilidades y resultados</title>
       <link>https://metodonebula.es/blog/regresion-logistica-odds-ratio-interpretacion/</link>
       <guid>https://metodonebula.es/blog/regresion-logistica-odds-ratio-interpretacion/</guid>

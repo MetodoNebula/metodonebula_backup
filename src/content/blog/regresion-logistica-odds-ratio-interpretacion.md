@@ -1,8 +1,8 @@
 ---
 title: "Regresión logística: cómo interpretar odds ratio, probabilidades y resultados"
 seoTitle: "Regresión logística: interpretar odds ratio y probabilidades"
-date: "2026-11-27"
-updated: "2026-11-09"
+date: "2026-11-10"
+updated: "2026-11-10"
 description: "Guía de regresión logística: variable respuesta binaria, logit, odds ratio, intervalos de confianza, predicción y errores de interpretación."
 tag: "Estadística"
 category: "Estadística"

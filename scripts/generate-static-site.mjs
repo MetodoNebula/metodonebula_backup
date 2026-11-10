@@ -8,11 +8,12 @@ const VISUAL_ASSET_DIR = path.join(ROOT, "assets", "latex");
 const PUBLIC_VISUAL_ASSET_DIR = path.join(ROOT, "public", "assets", "latex");
 const SITE_DATA = JSON.parse(fs.readFileSync(path.join(ROOT, "src/content/site.json"), "utf8"));
 const SITE_URL = SITE_DATA.site.url;
-const BLOG_PAGE_SIZE = 9;
+const BLOG_PAGE_SIZE = 12;
 const FEATURED_POST_SLUGS = [
   "que-prueba-estadistica-utilizar-guia-test-correcto",
   "como-aprobar-calculo-i-ingenieria-seis-semanas",
   "preparar-selectividad-con-calendario",
+  "pau-matematicas-integrales-areas",
 ];
 
 function syncVisualAssets() {
@@ -813,6 +814,7 @@ function blogIndexPage(posts, pageNumber = 1) {
     title,
     description,
     route,
+    robots: pageNumber > 1 ? "noindex,follow" : "index,follow",
     priority: pageNumber === 1 ? page.priority : "0.5",
     prev: pageNumber > 1 ? blogPagePath(pageNumber - 1) : undefined,
     next: pageNumber < pages ? blogPagePath(pageNumber + 1) : undefined,
@@ -908,6 +910,7 @@ function blogCategoryPage(category, posts, pageNumber = 1) {
     title,
     description,
     route,
+    robots: pageNumber > 1 ? "noindex,follow" : "index,follow",
     priority: pageNumber === 1 ? "0.6" : "0.5",
     prev: pageNumber > 1 ? blogCategoryPagePath(category.slug, pageNumber - 1) : undefined,
     next: pageNumber < pages ? blogCategoryPagePath(category.slug, pageNumber + 1) : undefined,
@@ -971,6 +974,9 @@ function postPage(post, posts) {
     "@type": "BlogPosting",
     headline: post.title,
     description: post.description,
+    articleSection: post.category,
+    keywords: `${post.category}, ${post.tag}`,
+    wordCount: post.body.trim().split(/\s+/).filter(Boolean).length,
     author: {
       "@type": "EducationalOrganization",
       name: SITE_DATA.site.displayName,

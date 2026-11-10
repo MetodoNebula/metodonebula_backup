@@ -30,6 +30,7 @@ const FEATURED_POST_SLUGS = [
   "que-prueba-estadistica-utilizar-guia-test-correcto",
   "como-aprobar-calculo-i-ingenieria-seis-semanas",
   "preparar-selectividad-con-calendario",
+  "pau-matematicas-integrales-areas",
 ];
 
 function JsonLd({ data }: { data: object }) {
@@ -190,6 +191,7 @@ function BlogIndexView({
         ? page.description
         : `Página ${currentPage} del blog de Método Nebula: guías académicas, problemas resueltos y estrategias de estudio.`,
     path,
+    robots: currentPage > 1 ? "noindex,follow" : "index,follow",
     prevPath: currentPage > 1 ? blogPagePath(currentPage - 1) : undefined,
     nextPath: currentPage < totalPages ? blogPagePath(currentPage + 1) : undefined,
   });
@@ -350,6 +352,7 @@ function BlogCategoryView({
     title,
     description,
     path,
+    robots: currentPage > 1 ? "noindex,follow" : "index,follow",
     prevPath: currentPage > 1 ? blogCategoryPagePath(category.slug, currentPage - 1) : undefined,
     nextPath:
       currentPage < totalPages ? blogCategoryPagePath(category.slug, currentPage + 1) : undefined,
@@ -491,6 +494,9 @@ function PostView({ post }: { post: Post }) {
     "@type": "BlogPosting",
     headline: post.title,
     description: post.description,
+    articleSection: post.category,
+    keywords: `${post.category}, ${post.tag}`,
+    wordCount: post.body.trim().split(/\s+/).filter(Boolean).length,
     author: {
       "@type": "EducationalOrganization",
       name: siteData.site.displayName,

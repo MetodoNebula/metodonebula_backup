@@ -1,8 +1,8 @@
 ---
 title: "Subir nota en Selectividad 2027: estrategia para ganar puntos sin estudiar al azar"
 seoTitle: "Cómo subir nota en Selectividad 2027: estrategia y plan de PAU"
-date: "2026-11-19"
-updated: "2026-11-09"
+date: "2026-11-10"
+updated: "2026-11-10"
 description: "Cómo subir nota en Selectividad 2027: prioriza asignaturas, corrige errores, usa simulacros y construye un plan de estudio realista."
 tag: "Selectividad 2027"
 category: "Selectividad"

@@ -1,7 +1,7 @@
 ---
 title: "Multiplicadores de Lagrange: máximos y mínimos con restricciones"
 seoTitle: "Multiplicadores de Lagrange: extremos con restricciones y ejercicios"
-date: "2026-11-29"
+date: "2026-11-10"
 updated: "2026-11-10"
 description: "Resuelve máximos y mínimos con restricciones mediante multiplicadores de Lagrange: gradiente, sistema, candidatos y comprobación."
 tag: "Cálculo universitario"

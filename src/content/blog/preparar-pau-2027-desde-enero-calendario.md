@@ -1,8 +1,8 @@
 ---
 title: "Preparar la PAU 2027 desde enero: calendario realista para llegar con práctica"
 seoTitle: "Preparar la PAU 2027 desde enero: calendario y plan de estudio"
-date: "2026-11-13"
-updated: "2026-11-09"
+date: "2026-11-10"
+updated: "2026-11-10"
 description: "Plan para preparar la PAU 2027 desde enero: diagnóstico, calendario semanal, repasos, exámenes y corrección de errores."
 tag: "Selectividad 2027"
 category: "Selectividad"

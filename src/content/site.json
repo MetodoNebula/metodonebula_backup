@@ -116,6 +116,13 @@
       "pillarPost": "fisica-y-quimica-como-plantear-problemas"
     },
     {
+      "name": "Química",
+      "slug": "quimica",
+      "description": "Formulación, estructura, equilibrio, reactividad y exámenes resueltos de Química con razonamiento paso a paso.",
+      "relatedService": "/clases-particulares/quimica/",
+      "pillarPost": "pau-quimica-estequiometria-gases-disoluciones"
+    },
+    {
       "name": "Matemáticas ESO y Bachillerato",
       "slug": "matematicas-eso-bachillerato",
       "description": "Álgebra, funciones, probabilidad y estrategias para construir una base sólida antes de la PAU.",

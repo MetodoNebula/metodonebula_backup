@@ -86,6 +86,9 @@ for (const file of htmlFiles) {
     : relative === "index.html"
       ? "/"
       : `/${relative.replace(/index\.html$/, "")}`;
+  const isPaginatedArchive = /^\/blog(?:\/categoria\/[^/]+)?\/pagina\/\d+\/$/.test(
+    withTrailingSlash(route),
+  );
   const title = getFirst(/<title>([\s\S]*?)<\/title>/i, html);
   const description = getFirst(
     /<meta\s+name=["']description["']\s+content=["']([^"']+)["'][^>]*>/i,
@@ -151,6 +154,10 @@ for (const file of htmlFiles) {
   if (is404) {
     if (!/noindex/i.test(robots)) fail(`${relative}: 404 must use noindex`);
     if (canonicalCount !== 0) fail(`${relative}: 404 must not include a canonical`);
+  } else if (isPaginatedArchive) {
+    if (!/noindex/i.test(robots)) {
+      fail(`${relative}: paginated archive must use noindex,follow`);
+    }
   } else if (/noindex/i.test(robots)) {
     fail(`${relative}: indexable page contains noindex`);
   }

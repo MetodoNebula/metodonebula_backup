@@ -1,7 +1,7 @@
 ---
 title: "Diagonalización de matrices: autovalores, autovectores y ejercicios resueltos"
 seoTitle: "Diagonalización de matrices: autovalores y autovectores paso a paso"
-date: "2026-12-01"
+date: "2026-11-10"
 updated: "2026-11-10"
 description: "Diagonalización de matrices explicada con autovalores, autovectores, multiplicidad, matriz P, matriz D y comprobaciones."
 tag: "Álgebra Lineal"

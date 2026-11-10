@@ -1,8 +1,8 @@
 ---
 title: "Clases de Selectividad 2027 online: cómo elegir apoyo y preparar la PAU con un plan"
 seoTitle: "Clases de Selectividad 2027 online: plan para preparar la PAU"
-date: "2026-11-11"
-updated: "2026-11-09"
+date: "2026-11-10"
+updated: "2026-11-10"
 description: "Clases de Selectividad 2027 online: cómo organizar la PAU, elegir apoyo en Matemáticas, Física o Química y estudiar con un plan medible."
 tag: "Selectividad 2027"
 category: "Selectividad"

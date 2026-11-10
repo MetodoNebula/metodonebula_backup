@@ -1,7 +1,7 @@
 ---
 title: "IB Mathematics AA: números complejos, forma polar y teorema de De Moivre"
 seoTitle: "IB Mathematics AA: números complejos, forma polar y De Moivre"
-date: "2026-12-07"
+date: "2026-11-10"
 updated: "2026-11-10"
 description: "Números complejos para IB Mathematics AA: forma cartesiana y polar, argumento, módulo, potencias, raíces y De Moivre."
 tag: "IB Mathematics"

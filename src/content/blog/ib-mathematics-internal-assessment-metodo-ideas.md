@@ -1,8 +1,8 @@
 ---
 title: "IB Mathematics Internal Assessment: cómo elegir una pregunta y construir un método propio"
 seoTitle: "IB Mathematics IA: pregunta, método y estructura sin perder autoría"
-date: "2026-11-23"
-updated: "2026-11-09"
+date: "2026-11-10"
+updated: "2026-11-10"
 description: "Guía para plantear una Internal Assessment de IB Mathematics: pregunta, datos, matemáticas, interpretación, estructura y revisión ética."
 tag: "IB Mathematics"
 category: "Exámenes internacionales"

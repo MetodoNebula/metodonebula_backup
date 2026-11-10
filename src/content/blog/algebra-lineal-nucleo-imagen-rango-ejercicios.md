@@ -1,8 +1,8 @@
 ---
 title: "Núcleo, imagen y rango de una aplicación lineal: ejercicios resueltos paso a paso"
 seoTitle: "Núcleo, imagen y rango: cómo resolver ejercicios de Álgebra Lineal"
-date: "2026-11-25"
-updated: "2026-11-09"
+date: "2026-11-10"
+updated: "2026-11-10"
 description: "Aprende a calcular núcleo, imagen y rango de una aplicación lineal con matrices, Gauss, bases, dimensión y ejercicios resueltos."
 tag: "Álgebra Lineal"
 category: "Matemáticas universitarias"

@@ -1,8 +1,8 @@
 ---
 title: "GCSE Maths: quadratic equations and completing the square step by step"
 seoTitle: "Quadratic Equations GCSE: Factorising, Formula and Completing Square"
-date: "2026-11-21"
-updated: "2026-11-09"
+date: "2026-11-10"
+updated: "2026-11-10"
 description: "Quadratic equations GCSE: factorising, the quadratic formula, completing the square, discriminant and exam-style checks."
 tag: "GCSE"
 category: "Exámenes internacionales"

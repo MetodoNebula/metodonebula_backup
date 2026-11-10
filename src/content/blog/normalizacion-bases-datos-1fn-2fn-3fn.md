@@ -1,7 +1,7 @@
 ---
 title: "Normalización de bases de datos: 1FN, 2FN y 3FN con ejemplo completo"
 seoTitle: "Normalización de bases de datos: 1FN, 2FN y 3FN explicadas"
-date: "2026-12-05"
+date: "2026-11-10"
 updated: "2026-11-10"
 description: "Normalización SQL explicada con dependencias funcionales, claves, primera, segunda y tercera forma normal y un ejemplo paso a paso."
 tag: "SQL y datos"

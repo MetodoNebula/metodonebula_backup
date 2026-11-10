@@ -33,7 +33,7 @@ export type Post = {
   body: string;
 };
 
-export const BLOG_PAGE_SIZE = 9;
+export const BLOG_PAGE_SIZE = 12;
 
 type Frontmatter = Record<string, string>;
 

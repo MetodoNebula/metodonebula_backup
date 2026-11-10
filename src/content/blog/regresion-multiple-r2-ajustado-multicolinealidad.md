@@ -1,7 +1,7 @@
 ---
 title: "Regresión múltiple: R² ajustado, multicolinealidad y diagnóstico del modelo"
 seoTitle: "Regresión múltiple: R² ajustado, VIF y multicolinealidad"
-date: "2026-12-03"
+date: "2026-11-10"
 updated: "2026-11-10"
 description: "Interpreta regresión múltiple con coeficientes, R² ajustado, residuos, VIF, multicolinealidad e intervalos de confianza."
 tag: "Estadística"

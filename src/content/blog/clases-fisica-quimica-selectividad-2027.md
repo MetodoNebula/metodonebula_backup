@@ -1,8 +1,8 @@
 ---
 title: "Clases de Física y Química para Selectividad 2027: cómo preparar problemas de PAU"
 seoTitle: "Clases de Física y Química Selectividad 2027: preparación PAU"
-date: "2026-11-17"
-updated: "2026-11-09"
+date: "2026-11-10"
+updated: "2026-11-10"
 description: "Clases de Física y Química para Selectividad 2027: estrategia de problemas, fórmulas, unidades, razonamiento y exámenes PAU."
 tag: "Física y Química PAU"
 category: "Selectividad"

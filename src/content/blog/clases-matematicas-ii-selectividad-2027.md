@@ -1,8 +1,8 @@
 ---
 title: "Clases de Matemáticas II para Selectividad 2027: qué practicar para mejorar en PAU"
 seoTitle: "Clases de Matemáticas II Selectividad 2027: plan para PAU"
-date: "2026-11-15"
-updated: "2026-11-09"
+date: "2026-11-10"
+updated: "2026-11-10"
 description: "Clases de Matemáticas II para Selectividad 2027: diagnóstico, bloques de PAU, ejercicios oficiales, corrección y simulacros."
 tag: "Matemáticas II PAU"
 category: "Selectividad"

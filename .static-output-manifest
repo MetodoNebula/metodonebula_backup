@@ -61,10 +61,10 @@ assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2
 assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff
 assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2
 assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf
+assets/blog-C0hoPd-a.js
 assets/blog-Cp579UoJ.css
-assets/blog-Qk1ULHp5.js
-assets/index-B_Yasxze.js
 assets/index-DMVryaoR.css
+assets/index-DWk7Z6Il.js
 assets/latex/area-between-curves.svg
 assets/latex/arrhenius-energy.svg
 assets/latex/atomic-energy-levels.svg
@@ -188,8 +188,9 @@ assets/latex/triangle-strategy.svg
 assets/latex/unit-circle-solutions.svg
 assets/latex/vectors-planes.svg
 assets/latex/wave-anatomy.svg
-assets/pages-BxgMYEJZ.js
-assets/posts-D86XvQ8Y.js
+assets/pages-n41GNY_z.js
+assets/posts-Cy6_w2JV.js
+blog/ajuste-ecuaciones-quimicas-3-eso-ejercicios/index.html
 blog/algebra-lineal-nucleo-imagen-rango-ejercicios/index.html
 blog/algebra-lineal-universidad-que-estudiar-primero-errores/index.html
 blog/area-entre-dos-curvas-ejercicios-resueltos/index.html
@@ -313,6 +314,7 @@ blog/fisica-pau-2026-cantabria/index.html
 blog/fisica-pau-2026-madrid/index.html
 blog/fisica-y-quimica-como-plantear-problemas/index.html
 blog/fracciones-algebraicas-4-eso-ejercicios/index.html
+blog/funciones-cuadraticas-parabolas-4-eso-ejercicios/index.html
 blog/funciones-lineales-afines-3-eso-ejercicios/index.html
 blog/gcse-chemistry-acids-bases-salts-en/index.html
 blog/gcse-chemistry-acids-bases-salts/index.html
@@ -447,6 +449,7 @@ blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/index.html
 blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/index.html
 blog/multiplicadores-lagrange-extremos-restricciones-ejercicios/index.html
 blog/normalizacion-bases-datos-1fn-2fn-3fn/index.html
+blog/notacion-cientifica-4-eso-ejercicios-resueltos/index.html
 blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/index.html
 blog/pagina/10/index.html
 blog/pagina/11/index.html

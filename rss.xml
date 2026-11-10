@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
+      <title>IB Mathematics AI probability: binomial and normal distributions</title>
+      <link>https://metodonebula.es/blog/ib-mathematics-ai-binomial-normal-distribution-en/</link>
+      <guid>https://metodonebula.es/blog/ib-mathematics-ai-binomial-normal-distribution-en/</guid>
+      <pubDate>Tue, 29 Dec 2026 00:00:00 GMT</pubDate>
+      <description>IB Mathematics AI probability distributions explained with binomial conditions, normal-model standardization, technology and worked examples.</description>
+    </item>
+    <item>
+      <title>IB Mathematics AA integration: areas, volumes and interpretation</title>
+      <link>https://metodonebula.es/blog/ib-mathematics-aa-integration-applications-en/</link>
+      <guid>https://metodonebula.es/blog/ib-mathematics-aa-integration-applications-en/</guid>
+      <pubDate>Sun, 27 Dec 2026 00:00:00 GMT</pubDate>
+      <description>IB Mathematics AA integration explained with definite integrals, signed area, volumes of revolution and fully worked original examples.</description>
+    </item>
+    <item>
+      <title>IB Chemistry organic reactions: mechanisms, functional groups and evidence</title>
+      <link>https://metodonebula.es/blog/ib-chemistry-organic-reaction-mechanisms-en/</link>
+      <guid>https://metodonebula.es/blog/ib-chemistry-organic-reaction-mechanisms-en/</guid>
+      <pubDate>Fri, 25 Dec 2026 00:00:00 GMT</pubDate>
+      <description>IB Chemistry organic reactions explained through functional groups, reaction mechanisms, conditions, structural formulas and original examples.</description>
+    </item>
+    <item>
+      <title>IB Chemistry acids, bases, pH and titration calculations</title>
+      <link>https://metodonebula.es/blog/ib-chemistry-acids-bases-ph-titration-en/</link>
+      <guid>https://metodonebula.es/blog/ib-chemistry-acids-bases-ph-titration-en/</guid>
+      <pubDate>Wed, 23 Dec 2026 00:00:00 GMT</pubDate>
+      <description>IB Chemistry acids and bases explained with pH, conjugate pairs, strong and weak acids, titration calculations and worked examples.</description>
+    </item>
+    <item>
+      <title>IB Physics uncertainties and graphs: data analysis with worked examples</title>
+      <link>https://metodonebula.es/blog/ib-physics-uncertainties-graphs-data-analysis-en/</link>
+      <guid>https://metodonebula.es/blog/ib-physics-uncertainties-graphs-data-analysis-en/</guid>
+      <pubDate>Mon, 21 Dec 2026 00:00:00 GMT</pubDate>
+      <description>IB Physics data analysis explained through uncertainty, percentage uncertainty, gradients, error bars and original worked examples.</description>
+    </item>
+    <item>
       <title>IB Mathematics AI: regression, correlation and technology interpretation</title>
       <link>https://metodonebula.es/blog/ib-mathematics-ai-regression-correlation-technology-en/</link>
       <guid>https://metodonebula.es/blog/ib-mathematics-ai-regression-correlation-technology-en/</guid>

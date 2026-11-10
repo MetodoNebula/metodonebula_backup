@@ -1,102 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
-      <title>IB Mathematics AA: números complejos, forma polar y teorema de De Moivre</title>
-      <link>https://metodonebula.es/blog/ib-mathematics-aa-numeros-complejos-forma-polar/</link>
-      <guid>https://metodonebula.es/blog/ib-mathematics-aa-numeros-complejos-forma-polar/</guid>
-      <pubDate>Mon, 07 Dec 2026 00:00:00 GMT</pubDate>
-      <description>Números complejos para IB Mathematics AA: forma cartesiana y polar, argumento, módulo, potencias, raíces y De Moivre.</description>
-    </item>
-    <item>
-      <title>Normalización de bases de datos: 1FN, 2FN y 3FN con ejemplo completo</title>
-      <link>https://metodonebula.es/blog/normalizacion-bases-datos-1fn-2fn-3fn/</link>
-      <guid>https://metodonebula.es/blog/normalizacion-bases-datos-1fn-2fn-3fn/</guid>
-      <pubDate>Sat, 05 Dec 2026 00:00:00 GMT</pubDate>
-      <description>Normalización SQL explicada con dependencias funcionales, claves, primera, segunda y tercera forma normal y un ejemplo paso a paso.</description>
-    </item>
-    <item>
-      <title>Regresión múltiple: R² ajustado, multicolinealidad y diagnóstico del modelo</title>
-      <link>https://metodonebula.es/blog/regresion-multiple-r2-ajustado-multicolinealidad/</link>
-      <guid>https://metodonebula.es/blog/regresion-multiple-r2-ajustado-multicolinealidad/</guid>
-      <pubDate>Thu, 03 Dec 2026 00:00:00 GMT</pubDate>
-      <description>Interpreta regresión múltiple con coeficientes, R² ajustado, residuos, VIF, multicolinealidad e intervalos de confianza.</description>
-    </item>
-    <item>
-      <title>Diagonalización de matrices: autovalores, autovectores y ejercicios resueltos</title>
-      <link>https://metodonebula.es/blog/diagonalizacion-matrices-autovalores-autovectores-ejercicios/</link>
-      <guid>https://metodonebula.es/blog/diagonalizacion-matrices-autovalores-autovectores-ejercicios/</guid>
-      <pubDate>Tue, 01 Dec 2026 00:00:00 GMT</pubDate>
-      <description>Diagonalización de matrices explicada con autovalores, autovectores, multiplicidad, matriz P, matriz D y comprobaciones.</description>
-    </item>
-    <item>
-      <title>Multiplicadores de Lagrange: máximos y mínimos con restricciones</title>
-      <link>https://metodonebula.es/blog/multiplicadores-lagrange-extremos-restricciones-ejercicios/</link>
-      <guid>https://metodonebula.es/blog/multiplicadores-lagrange-extremos-restricciones-ejercicios/</guid>
-      <pubDate>Sun, 29 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Resuelve máximos y mínimos con restricciones mediante multiplicadores de Lagrange: gradiente, sistema, candidatos y comprobación.</description>
-    </item>
-    <item>
-      <title>Regresión logística: cómo interpretar odds ratio, probabilidades y resultados</title>
-      <link>https://metodonebula.es/blog/regresion-logistica-odds-ratio-interpretacion/</link>
-      <guid>https://metodonebula.es/blog/regresion-logistica-odds-ratio-interpretacion/</guid>
-      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Guía de regresión logística: variable respuesta binaria, logit, odds ratio, intervalos de confianza, predicción y errores de interpretación.</description>
-    </item>
-    <item>
       <title>Núcleo, imagen y rango de una aplicación lineal: ejercicios resueltos paso a paso</title>
       <link>https://metodonebula.es/blog/algebra-lineal-nucleo-imagen-rango-ejercicios/</link>
       <guid>https://metodonebula.es/blog/algebra-lineal-nucleo-imagen-rango-ejercicios/</guid>
-      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
       <description>Aprende a calcular núcleo, imagen y rango de una aplicación lineal con matrices, Gauss, bases, dimensión y ejercicios resueltos.</description>
-    </item>
-    <item>
-      <title>IB Mathematics Internal Assessment: cómo elegir una pregunta y construir un método propio</title>
-      <link>https://metodonebula.es/blog/ib-mathematics-internal-assessment-metodo-ideas/</link>
-      <guid>https://metodonebula.es/blog/ib-mathematics-internal-assessment-metodo-ideas/</guid>
-      <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Guía para plantear una Internal Assessment de IB Mathematics: pregunta, datos, matemáticas, interpretación, estructura y revisión ética.</description>
-    </item>
-    <item>
-      <title>GCSE Maths: quadratic equations and completing the square step by step</title>
-      <link>https://metodonebula.es/blog/gcse-maths-quadratic-equations-completing-square-en/</link>
-      <guid>https://metodonebula.es/blog/gcse-maths-quadratic-equations-completing-square-en/</guid>
-      <pubDate>Sat, 21 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Quadratic equations GCSE: factorising, the quadratic formula, completing the square, discriminant and exam-style checks.</description>
-    </item>
-    <item>
-      <title>Subir nota en Selectividad 2027: estrategia para ganar puntos sin estudiar al azar</title>
-      <link>https://metodonebula.es/blog/subir-nota-selectividad-2027-estrategia/</link>
-      <guid>https://metodonebula.es/blog/subir-nota-selectividad-2027-estrategia/</guid>
-      <pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Cómo subir nota en Selectividad 2027: prioriza asignaturas, corrige errores, usa simulacros y construye un plan de estudio realista.</description>
     </item>
     <item>
       <title>Clases de Física y Química para Selectividad 2027: cómo preparar problemas de PAU</title>
       <link>https://metodonebula.es/blog/clases-fisica-quimica-selectividad-2027/</link>
       <guid>https://metodonebula.es/blog/clases-fisica-quimica-selectividad-2027/</guid>
-      <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
       <description>Clases de Física y Química para Selectividad 2027: estrategia de problemas, fórmulas, unidades, razonamiento y exámenes PAU.</description>
     </item>
     <item>
       <title>Clases de Matemáticas II para Selectividad 2027: qué practicar para mejorar en PAU</title>
       <link>https://metodonebula.es/blog/clases-matematicas-ii-selectividad-2027/</link>
       <guid>https://metodonebula.es/blog/clases-matematicas-ii-selectividad-2027/</guid>
-      <pubDate>Sun, 15 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
       <description>Clases de Matemáticas II para Selectividad 2027: diagnóstico, bloques de PAU, ejercicios oficiales, corrección y simulacros.</description>
-    </item>
-    <item>
-      <title>Preparar la PAU 2027 desde enero: calendario realista para llegar con práctica</title>
-      <link>https://metodonebula.es/blog/preparar-pau-2027-desde-enero-calendario/</link>
-      <guid>https://metodonebula.es/blog/preparar-pau-2027-desde-enero-calendario/</guid>
-      <pubDate>Fri, 13 Nov 2026 00:00:00 GMT</pubDate>
-      <description>Plan para preparar la PAU 2027 desde enero: diagnóstico, calendario semanal, repasos, exámenes y corrección de errores.</description>
     </item>
     <item>
       <title>Clases de Selectividad 2027 online: cómo elegir apoyo y preparar la PAU con un plan</title>
       <link>https://metodonebula.es/blog/clases-selectividad-2027-online-plan-personalizado/</link>
       <guid>https://metodonebula.es/blog/clases-selectividad-2027-online-plan-personalizado/</guid>
-      <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
       <description>Clases de Selectividad 2027 online: cómo organizar la PAU, elegir apoyo en Matemáticas, Física o Química y estudiar con un plan medible.</description>
+    </item>
+    <item>
+      <title>Diagonalización de matrices: autovalores, autovectores y ejercicios resueltos</title>
+      <link>https://metodonebula.es/blog/diagonalizacion-matrices-autovalores-autovectores-ejercicios/</link>
+      <guid>https://metodonebula.es/blog/diagonalizacion-matrices-autovalores-autovectores-ejercicios/</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Diagonalización de matrices explicada con autovalores, autovectores, multiplicidad, matriz P, matriz D y comprobaciones.</description>
+    </item>
+    <item>
+      <title>GCSE Maths: quadratic equations and completing the square step by step</title>
+      <link>https://metodonebula.es/blog/gcse-maths-quadratic-equations-completing-square-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-maths-quadratic-equations-completing-square-en/</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Quadratic equations GCSE: factorising, the quadratic formula, completing the square, discriminant and exam-style checks.</description>
+    </item>
+    <item>
+      <title>IB Mathematics AA: números complejos, forma polar y teorema de De Moivre</title>
+      <link>https://metodonebula.es/blog/ib-mathematics-aa-numeros-complejos-forma-polar/</link>
+      <guid>https://metodonebula.es/blog/ib-mathematics-aa-numeros-complejos-forma-polar/</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Números complejos para IB Mathematics AA: forma cartesiana y polar, argumento, módulo, potencias, raíces y De Moivre.</description>
+    </item>
+    <item>
+      <title>IB Mathematics Internal Assessment: cómo elegir una pregunta y construir un método propio</title>
+      <link>https://metodonebula.es/blog/ib-mathematics-internal-assessment-metodo-ideas/</link>
+      <guid>https://metodonebula.es/blog/ib-mathematics-internal-assessment-metodo-ideas/</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Guía para plantear una Internal Assessment de IB Mathematics: pregunta, datos, matemáticas, interpretación, estructura y revisión ética.</description>
+    </item>
+    <item>
+      <title>Multiplicadores de Lagrange: máximos y mínimos con restricciones</title>
+      <link>https://metodonebula.es/blog/multiplicadores-lagrange-extremos-restricciones-ejercicios/</link>
+      <guid>https://metodonebula.es/blog/multiplicadores-lagrange-extremos-restricciones-ejercicios/</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Resuelve máximos y mínimos con restricciones mediante multiplicadores de Lagrange: gradiente, sistema, candidatos y comprobación.</description>
+    </item>
+    <item>
+      <title>Normalización de bases de datos: 1FN, 2FN y 3FN con ejemplo completo</title>
+      <link>https://metodonebula.es/blog/normalizacion-bases-datos-1fn-2fn-3fn/</link>
+      <guid>https://metodonebula.es/blog/normalizacion-bases-datos-1fn-2fn-3fn/</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Normalización SQL explicada con dependencias funcionales, claves, primera, segunda y tercera forma normal y un ejemplo paso a paso.</description>
+    </item>
+    <item>
+      <title>Preparar la PAU 2027 desde enero: calendario realista para llegar con práctica</title>
+      <link>https://metodonebula.es/blog/preparar-pau-2027-desde-enero-calendario/</link>
+      <guid>https://metodonebula.es/blog/preparar-pau-2027-desde-enero-calendario/</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Plan para preparar la PAU 2027 desde enero: diagnóstico, calendario semanal, repasos, exámenes y corrección de errores.</description>
+    </item>
+    <item>
+      <title>Regresión logística: cómo interpretar odds ratio, probabilidades y resultados</title>
+      <link>https://metodonebula.es/blog/regresion-logistica-odds-ratio-interpretacion/</link>
+      <guid>https://metodonebula.es/blog/regresion-logistica-odds-ratio-interpretacion/</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Guía de regresión logística: variable respuesta binaria, logit, odds ratio, intervalos de confianza, predicción y errores de interpretación.</description>
+    </item>
+    <item>
+      <title>Regresión múltiple: R² ajustado, multicolinealidad y diagnóstico del modelo</title>
+      <link>https://metodonebula.es/blog/regresion-multiple-r2-ajustado-multicolinealidad/</link>
+      <guid>https://metodonebula.es/blog/regresion-multiple-r2-ajustado-multicolinealidad/</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Interpreta regresión múltiple con coeficientes, R² ajustado, residuos, VIF, multicolinealidad e intervalos de confianza.</description>
+    </item>
+    <item>
+      <title>Subir nota en Selectividad 2027: estrategia para ganar puntos sin estudiar al azar</title>
+      <link>https://metodonebula.es/blog/subir-nota-selectividad-2027-estrategia/</link>
+      <guid>https://metodonebula.es/blog/subir-nota-selectividad-2027-estrategia/</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Cómo subir nota en Selectividad 2027: prioriza asignaturas, corrige errores, usa simulacros y construye un plan de estudio realista.</description>
     </item>
     <item>
       <title>Derivadas de producto y cociente: ejercicios resueltos</title>

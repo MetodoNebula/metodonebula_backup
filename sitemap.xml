@@ -9,160 +9,12 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/pagina/2/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/3/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/4/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/5/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/6/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/7/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/8/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/9/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/10/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/11/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/12/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/13/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/14/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/15/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/16/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/17/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/18/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/19/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/20/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/21/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/22/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/23/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/24/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/25/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/26/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/27/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/28/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/29/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/30/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/31/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/32/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/pagina/33/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/pagina/2/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/pagina/3/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/pagina/4/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/matematicas-universitarias/pagina/5/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://metodonebula.es/blog/categoria/estadistica/</loc>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/estadistica/pagina/2/</loc>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/categoria/programacion-y-datos/</loc>
@@ -173,32 +25,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/categoria/fisica-y-quimica/pagina/2/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/fisica-y-quimica/pagina/3/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/fisica-y-quimica/pagina/4/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/fisica-y-quimica/pagina/5/</loc>
-    <priority>0.5</priority>
+    <loc>https://metodonebula.es/blog/categoria/quimica/</loc>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/categoria/matematicas-eso-bachillerato/</loc>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/matematicas-eso-bachillerato/pagina/2/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/matematicas-eso-bachillerato/pagina/3/</loc>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/categoria/economia-y-ade/</loc>
@@ -209,91 +41,27 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/2/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/3/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/4/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/5/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/6/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/7/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/8/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/9/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/10/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/selectividad/pagina/11/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/</loc>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/pagina/2/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/pagina/3/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/pagina/4/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/pagina/5/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/pagina/6/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/pagina/7/</loc>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/categoria/examenes-internacionales/pagina/8/</loc>
-    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/categoria/carrera-tecnologica/</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/ib-mathematics-aa-numeros-complejos-forma-polar/</loc>
+    <loc>https://metodonebula.es/blog/algebra-lineal-nucleo-imagen-rango-ejercicios/</loc>
     <lastmod>2026-11-10</lastmod>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/normalizacion-bases-datos-1fn-2fn-3fn/</loc>
+    <loc>https://metodonebula.es/blog/clases-fisica-quimica-selectividad-2027/</loc>
     <lastmod>2026-11-10</lastmod>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/regresion-multiple-r2-ajustado-multicolinealidad/</loc>
+    <loc>https://metodonebula.es/blog/clases-matematicas-ii-selectividad-2027/</loc>
+    <lastmod>2026-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/clases-selectividad-2027-online-plan-personalizado/</loc>
     <lastmod>2026-11-10</lastmod>
   </url>
   <url>
@@ -301,44 +69,40 @@
     <lastmod>2026-11-10</lastmod>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/gcse-maths-quadratic-equations-completing-square-en/</loc>
+    <lastmod>2026-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/ib-mathematics-aa-numeros-complejos-forma-polar/</loc>
+    <lastmod>2026-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/ib-mathematics-internal-assessment-metodo-ideas/</loc>
+    <lastmod>2026-11-10</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/multiplicadores-lagrange-extremos-restricciones-ejercicios/</loc>
     <lastmod>2026-11-10</lastmod>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/regresion-logistica-odds-ratio-interpretacion/</loc>
-    <lastmod>2026-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/algebra-lineal-nucleo-imagen-rango-ejercicios/</loc>
-    <lastmod>2026-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/ib-mathematics-internal-assessment-metodo-ideas/</loc>
-    <lastmod>2026-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/gcse-maths-quadratic-equations-completing-square-en/</loc>
-    <lastmod>2026-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/subir-nota-selectividad-2027-estrategia/</loc>
-    <lastmod>2026-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/clases-fisica-quimica-selectividad-2027/</loc>
-    <lastmod>2026-11-09</lastmod>
-  </url>
-  <url>
-    <loc>https://metodonebula.es/blog/clases-matematicas-ii-selectividad-2027/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <loc>https://metodonebula.es/blog/normalizacion-bases-datos-1fn-2fn-3fn/</loc>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/preparar-pau-2027-desde-enero-calendario/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
-    <loc>https://metodonebula.es/blog/clases-selectividad-2027-online-plan-personalizado/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <loc>https://metodonebula.es/blog/regresion-logistica-odds-ratio-interpretacion/</loc>
+    <lastmod>2026-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/regresion-multiple-r2-ajustado-multicolinealidad/</loc>
+    <lastmod>2026-11-10</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/subir-nota-selectividad-2027-estrategia/</loc>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
     <loc>https://metodonebula.es/blog/derivadas-producto-cociente-ejercicios/</loc>

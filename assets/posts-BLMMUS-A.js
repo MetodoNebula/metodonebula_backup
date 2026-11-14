@@ -1,7 +1,7 @@
 const c=`---
 title: "Ajuste de ecuaciones químicas en 3 ESO: método y ejercicios resueltos"
 seoTitle: "Ajuste de ecuaciones químicas 3 ESO: ejercicios resueltos"
-date: "2027-01-08"
+date: "2026-11-09"
 updated: "2026-11-10"
 description: "Aprende a ajustar ecuaciones químicas en 3 ESO con conservación de masa, coeficientes, método paso a paso y ejemplos completos."
 tag: "Física y Química ESO"
@@ -3784,7 +3784,7 @@ La corrección profunda es la parte que más alumnos evitan. También es la que 
 Vas bien cuando puedes explicar qué método usar antes de empezar a operar, cuando detectas dominios y restricciones sin que te lo recuerden, y cuando tus soluciones tienen una línea narrativa clara: planteamiento, método, cálculo e interpretación.
 
 Si necesitas convertir este plan en un calendario adaptado a tu asignatura concreta, revisa la página de [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/) o [cuéntanos tu caso](/contacto/).
-`,H=`---
+`,w=`---
 title: Cómo aprobar Estadística en Psicología sin tener una buena base matemática
 date: 2026-07-08
 updated: 2026-07-08
@@ -3894,7 +3894,7 @@ Vas bien cuando puedes mirar un enunciado y decir:
 5. Cómo escribirías la conclusión.
 
 Para seguir con el mapa de decisión, lee [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,w=`---
+`,H=`---
 title: Cómo aprobar Física I en Ingeniería sin memorizar todas las fórmulas
 date: 2026-06-29
 updated: 2026-06-29
@@ -6648,7 +6648,7 @@ No olvides que la función original no está definida en \\(x=1\\).
 3. \\((1-\\ln x)/x^2\\).
 
 En el [Campus de Método Nebula](/campus/) las derivadas se organizan desde reglas básicas hasta problemas de optimización y modelos de examen, con práctica graduada y corrección de errores.
-`,N=`---
+`,k=`---
 title: Derivadas e integrales universitarias: prueba de nivel con ejercicios resueltos
 date: 2026-06-23
 updated: 2026-08-12
@@ -6816,7 +6816,7 @@ Antes de enfrentarte a problemas de Cálculo I deberías poder:
 - Revisar si un resultado tiene sentido por signo, unidades o gráfica.
 
 Para profundizar, puedes leer las guías sobre [qué son las derivadas](/blog/que-son-las-derivadas-y-para-que-se-utilizan/) y [qué son las integrales](/blog/que-son-las-integrales-y-para-que-se-utilizan/). Si quieres un diagnóstico más completo, revisa [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,k=`---
+`,N=`---
 title: "Derivadas parciales y gradiente: teoría y ejercicios"
 date: "2026-09-06"
 updated: "2026-09-06"
@@ -13504,7 +13504,7 @@ $$E_c=\\dfrac{3{,}98\\cdot10^{-14}}{1{,}6\\cdot10^{-19}}=2{,}49\\cdot10^{5}\\ \\
 **(b)** De la energía cinética relativista $E_c=(\\gamma-1)m_e c^2$, con $m_e c^2=8{,}19\\cdot10^{-14}\\ \\text{J}$, se obtiene $\\gamma=1+\\dfrac{E_c}{m_e c^2}=1{,}486$:
 
 $$v=c\\sqrt{1-\\dfrac{1}{\\gamma^2}}=c\\sqrt{1-\\dfrac{1}{1{,}486^2}}=0{,}740\\,c=2{,}22\\cdot10^{8}\\ \\text{m/s}$$
-`,He=`---
+`,we=`---
 title: Física · PAU 2023 · Cantabria — examen resuelto
 seoTitle: PAU Física Cantabria 2023 resuelta paso a paso
 date: 2023-06-01
@@ -13813,7 +13813,7 @@ $$N=10^{16}\\,e^{-5{,}01\\cdot10^{-3}\\cdot365}=10^{16}\\,e^{-1{,}83}=1{,}61\\cd
 La actividad es $A=\\lambda N$ (con $\\lambda$ en $\\text{s}^{-1}$):
 
 $$A=5{,}80\\cdot10^{-8}\\cdot1{,}61\\cdot10^{15}=9{,}3\\cdot10^{7}\\ \\text{Bq}$$
-`,we=`---
+`,He=`---
 title: Física · PAU 2023 · Serie alternativa · Madrid — examen resuelto
 seoTitle: PAU Física Madrid 2023 · Serie alternativa resuelta paso a paso
 date: 2023-06-01
@@ -15959,7 +15959,7 @@ $$A = \\lambda N_{\\text{Al}} = 3{,}05\\cdot10^{-14}\\cdot 8{,}3\\cdot10^{19} = 
 $$\\dfrac{N_0}{N(t)} = \\dfrac{0{,}1\\%}{0{,}08\\%} = 1{,}25.$$
 De $N(t) = N_0\\,e^{-t/\\tau}$:
 $$t = \\tau\\,\\ln\\!\\dfrac{N_0}{N(t)} = 3{,}27\\cdot10^{13}\\cdot\\ln(1{,}25) = 7{,}31\\cdot10^{12}\\ \\text{s} \\approx 0{,}232\\ \\text{millones de años}.$$
-`,Ne=`---
+`,ke=`---
 title: Física · PAU 2026 · Andalucía — examen resuelto
 seoTitle: PAU Física Andalucía 2026 resuelta paso a paso
 date: 2026-06-01
@@ -16233,7 +16233,7 @@ $$E_c = e\\,\\Delta V = 1{,}6\\cdot10^{-19}\\cdot0{,}075 = 1{,}2\\cdot10^{-20}\\
 **(b)** Con $E_c=\\dfrac{p^2}{2m}$, el momento es $p=\\sqrt{2mE_c}$ y la longitud de onda $\\lambda=\\dfrac{h}{\\sqrt{2mE_c}}$. Como $E_c$ es igual, $\\lambda\\propto\\dfrac{1}{\\sqrt{m}}$; la partícula más ligera (electrón) tiene mayor $\\lambda$:
 $$\\lambda_e = \\dfrac{6{,}63\\cdot10^{-34}}{\\sqrt{2\\cdot9{,}1\\cdot10^{-31}\\cdot1{,}2\\cdot10^{-20}}} = 4{,}49\\cdot10^{-9}\\ \\text{m} = 4{,}49\\ \\text{nm}$$
 $$\\lambda_p = \\dfrac{6{,}63\\cdot10^{-34}}{\\sqrt{2\\cdot1{,}67\\cdot10^{-27}\\cdot1{,}2\\cdot10^{-20}}} = 1{,}05\\cdot10^{-10}\\ \\text{m} = 0{,}105\\ \\text{nm}$$
-`,ke=`---
+`,Ne=`---
 title: Física · PAU 2026 · Cantabria — examen resuelto
 seoTitle: PAU Física Cantabria 2026 resuelta paso a paso
 date: 2026-06-01
@@ -16760,7 +16760,7 @@ En el [Campus de Método Nebula](/campus/) las fracciones algebraicas se conecta
 `,Qe=`---
 title: "Funciones cuadráticas y parábolas en 4 ESO: ejercicios resueltos"
 seoTitle: "Funciones cuadráticas 4 ESO: parábolas y ejercicios resueltos"
-date: "2027-01-06"
+date: "2026-11-07"
 updated: "2026-11-10"
 description: "Guía de funciones cuadráticas en 4 ESO: forma de la parábola, vértice, cortes con ejes, signo y ejercicios desarrollados paso a paso."
 tag: "Matemáticas ESO"
@@ -20865,7 +20865,7 @@ El rumbo inverso se obtiene sumando o restando $180^\\circ$ y ajustando al inter
 La resolución puede leerse como una cadena: nortes de referencia → giros horarios → triángulo del recorrido → ángulos internos → razón o ley trigonométrica → cálculo → comprobación geométrica → rumbo con tres cifras. Cada eslabón deja visible de dónde procede el siguiente.
 
 El campus virtual de Método Nebula desarrolla trigonometría, geometría y rumbos con teoría visual, ejercicios guiados y preguntas tipo examen. El botón de contacto abre una ruta en la que el dibujo funciona como herramienta de razonamiento y no como boceto decorativo.
-`,Ha=`---
+`,wa=`---
 title: "GCSE Mock Exams: a Six-Week Maths and Science Revision Plan"
 seoTitle: "GCSE Mocks: Six-Week Maths and Science Plan"
 date: "2026-10-04"
@@ -20940,7 +20940,7 @@ During the final 24 hours, review that page, essential equations and two represe
 Four 50-minute sessions can beat one Sunday marathon. A useful structure is 10 minutes of closed-book recall, 30 minutes of problems and 10 minutes of marking. Add one timed session at the weekend.
 
 The Método Nebula virtual campus organises GCSE Maths, Physics and Chemistry into connected routes with visual theory, graded practice, mock papers and fully reasoned solutions. Use the contact button to request a diagnostic and turn these six weeks into a calendar matched to your subjects, tier and mock date.
-`,wa=`---
+`,Ha=`---
 title: "Simulacros GCSE: plan de seis semanas para preparar Matemáticas y Ciencias"
 seoTitle: "Simulacros GCSE: plan de revisión de 6 semanas"
 date: "2026-10-04"
@@ -21856,7 +21856,7 @@ Buscar una fórmula que contenga todos los números suele ocultar la física. Un
 Una solución sólida deja visible la cadena **modelo → ecuación → sustitución con unidades → resultado → comprobación**. Si la eficiencia queda entre 0 y 1, la potencia tiene unidades de W y el balance de energía cierra, hay tres comprobaciones independientes de que el razonamiento es coherente.
 
 El campus virtual de Método Nebula trabaja energía, trabajo y potencia con teoría visual, ejemplos guiados, bancos de ejercicios y preguntas de examen corregibles paso a paso. Para quienes necesitan que las fórmulas formen un sistema y no una lista para memorizar, el botón de contacto permite solicitar una ruta de estudio.
-`,Na=`---
+`,ka=`---
 title: "GCSE Physics: a five-step method for forces and free-body diagrams"
 date: "2026-09-20"
 updated: "2026-10-28"
@@ -21947,7 +21947,7 @@ At terminal velocity, weight and drag balance: resultant force and acceleration 
 ## From the diagram to complete preparation
 
 Método Nebula's virtual campus organises measurement and motion, forces and pressure, energy and exam practice through theory, diagrams and graduated exercises. If a paper shows that formulae are known but force selection is weak, the contact button opens a focused GCSE Physics route.
-`,ka=`---
+`,Na=`---
 title: "Física GCSE: el método de 5 pasos para dominar fuerzas y diagramas"
 date: "2026-09-20"
 updated: "2026-10-28"
@@ -23286,9 +23286,105 @@ Antes de terminar, revisa normal, unidades, dirección y relación $v=f\\lambda$
 
 El campus de Método Nebula conecta ondas, luz y sonido con teoría, ejercicios graduados y preguntas de examen GCSE. Si quieres practicar dibujos y explicaciones con corrección, utiliza el botón de contacto para construir un plan.
 `,nn=`---
+title: "GCSE revision resources for Maths, Physics and Chemistry: a structured route"
+seoTitle: "GCSE Revision Resources for Maths, Physics and Chemistry"
+date: "2026-11-11"
+updated: "2026-11-14"
+description: "A structured set of GCSE revision resources for Maths, Physics and Chemistry: theory, worked examples, practice and exam questions in the Método Nebula Campus."
+tag: "GCSE"
+category: "Exámenes internacionales"
+relatedService: "/campus/"
+relatedPosts: "gcse-tutor-metodo-nebula-campus-en,gcse-maths-revision-plan-foundation-higher-en,gcse-physics-forces-exam-questions-en"
+image: "/favicon.svg"
+language: "en"
+---
+
+Searching for GCSE revision resources often produces a disconnected mix of videos, worksheets and past papers. Each may be useful, but a student who does not know which idea is missing can spend hours revising the wrong thing. A better resource route connects explanation, worked reasoning, independent practice and exam application in that order.
+
+> **Direct answer.** The Método Nebula Campus organises GCSE Maths, Physics and Chemistry into topic routes. Each route starts with the underlying idea, makes the method visible in worked examples, adds graded practice and then moves to exam-style questions. It is designed for Foundation or Higher preparation where appropriate, not for random resource collection.
+
+## What a useful GCSE resource must make clear
+
+A page of answers is not enough when a pupil is stuck. They need to see the decision that comes before the calculation: which quantities matter, which diagram is needed, why a formula applies or why a chemical equation has a particular ratio.
+
+For that reason, each useful study sequence should answer four questions:
+
+1. What is the idea or model behind the question?
+2. What steps turn the information into a mathematical or scientific statement?
+3. How is the method checked before accepting a final answer?
+4. What changes when the same idea appears in an unfamiliar exam context?
+
+The Campus is built around this sequence. It avoids treating a revision resource as a one-off answer and instead gives the student a way to return to the exact stage where a method breaks down.
+
+## GCSE Mathematics resources: method before speed
+
+In Mathematics, a topic label can conceal very different weaknesses. “Algebra” may mean expanding brackets, rearranging a formula, factorising, solving a quadratic or reading a graph. The next exercise should depend on that distinction.
+
+For example, to solve
+
+$$
+3(x-2)=2x+5,
+$$
+
+the first task is to expand without changing the equality:
+
+$$
+3x-6=2x+5.
+$$
+
+Then collect the $x$ terms and constants consistently to obtain $x=11$. The final check substitutes 11 into the original equation: both sides give 27. A resource that only gives “11” does not reveal where a student who answered 9 or 17 went wrong.
+
+The Campus connects this sort of worked reasoning to independent algebra, graphs, statistics and geometry questions. The student can start with a guided example, then practise a changed version and finally use an exam-style problem. See the linked [GCSE Maths route](/blog/gcse-maths-revision-plan-foundation-higher-en/) for how Foundation and Higher study can be prioritised.
+
+## GCSE Physics resources: connect model, diagram and unit
+
+Physics questions often look numerical but begin with a model. A force question is not solved by choosing the first formula that contains a force. First identify the object, the forces acting on it and the direction in which the result will be interpreted.
+
+If a $2.0\\ \\mathrm{kg}$ object has a resultant force of $6.0\\ \\mathrm{N}$, then
+
+$$
+a=\\frac{F}{m}=\\frac{6.0}{2.0}=3.0\\ \\mathrm{m\\,s^{-2}}.
+$$
+
+The word *resultant* is essential. A driving force alone would not be the correct $F$ if a resistive force also acts. The unit check confirms the calculation: newtons divided by kilograms gives metres per second squared.
+
+Campus resources use diagrams, explanations and graduated calculations so that forces, energy, electricity and waves do not become isolated formula lists. The aim is to practise a complete physical argument, including the units and the conclusion.
+
+## GCSE Chemistry resources: preserve the chemical meaning
+
+Chemistry revision becomes more efficient when formulae, particles and quantities are connected. In an equation, coefficients describe ratios; they do not alter the substances. For example,
+
+$$
+2\\mathrm{H_2}+\\mathrm{O_2}\\rightarrow2\\mathrm{H_2O}
+$$
+
+has four hydrogen atoms and two oxygen atoms on each side. Changing the subscript in $\\mathrm{H_2O}$ would create a different substance rather than balance the reaction.
+
+The same care carries into mole calculations, acids, electrolysis and bonding. Campus material develops these as connected routes, with explanations followed by examples and questions that change the context without changing the underlying chemical principle.
+
+## Why the Campus is more useful than a folder of downloads
+
+The [Método Nebula Campus](/campus/) gives students a defined study route:
+
+- theory organised by subject and topic;
+- examples with the intermediate reasoning shown;
+- exercises that increase in difficulty rather than jump immediately to a full paper;
+- exam questions for applying the method under realistic wording; and
+- material that can be revisited whenever a mock or homework reveals a gap.
+
+It is especially useful for a student who has a specific weak topic but does not need a new generic timetable. A missed question can be traced back to its prerequisite explanation, then rebuilt through practice before it reappears in a mixed paper.
+
+## Using the resources with a tutor or independently
+
+The Campus works as an independent route and also supports individual lessons. In a tuition session, a tutor can identify whether the difficulty lies in the concept, representation, calculation or exam wording. The student then has the matching Campus material for practice between sessions, rather than relying on memory of a single explanation.
+
+No resource bank can guarantee a grade. Progress depends on the starting point, time available and whether practice is attempted honestly. What a structured platform can do is make the next action clear and give the student evidence of whether the method transfers to a new question.
+
+Explore [how the Campus works](/campus/) or see [GCSE and IB support](/clases-particulares/gcse-ib/) to match the resource route to a subject, tier and upcoming assessment.
+`,on=`---
 title: "GCSE Tutor: structured support with Método Nebula and the Campus"
 seoTitle: "GCSE Tutor for Maths, Physics and Chemistry | Método Nebula"
-date: "2027-01-02"
+date: "2026-11-03"
 updated: "2026-11-10"
 description: "Looking for a GCSE tutor? Método Nebula combines tailored Maths, Physics and Chemistry tuition with a virtual Campus for systematic practice."
 tag: "GCSE"
@@ -23358,7 +23454,7 @@ That structure is useful for pupils who need to recover a foundation, prepare fo
 No tutor or Campus can guarantee a grade without knowing the starting point, available time and work completed between lessons. Método Nebula instead offers a transparent process: diagnose, explain, practise, review and adapt. Progress is measured through increasingly independent questions and exam-style reasoning, not through a promise based on hours alone.
 
 For a tailored GCSE route, visit [GCSE and IB tuition](/clases-particulares/gcse-ib/) or [see how the Campus works](/campus/). Share the subject, exam board, tier, exam date and a recent question or mock paper to start with a useful academic diagnosis.
-`,on=`---
+`,rn=`---
 title: "Geometría analítica en 4º ESO: rectas, pendientes y distancias"
 seoTitle: "Geometría analítica 4º ESO: rectas y ejercicios"
 date: 2026-10-27
@@ -23408,7 +23504,7 @@ Entre \\((0,0)\\) y \\((3,4)\\), \\(d=5\\).
 3. \\(5\\).
 
 En el [Campus de Método Nebula](/campus/) las coordenadas, rectas y distancias se conectan con funciones y geometría mediante ejercicios graduados.
-`,rn=`---
+`,sn=`---
 title: "Gráficas de MRU y MRUA en 4º ESO: ejercicios interpretados"
 seoTitle: "Gráficas de MRU y MRUA: ejercicios resueltos 4º ESO"
 date: 2026-11-05
@@ -23526,7 +23622,7 @@ Una velocidad negativa indica que el móvil se desplaza en el sentido contrario 
 4. El móvil se detiene en el cruce y después cambia de sentido.
 
 Para los conceptos y fórmulas de base, revisa las guías de [MRU](/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/) y [MRUA](/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/). Para practicar Física con un plan de estudio adaptado, consulta las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,sn=`---
+`,tn=`---
 title: "Gravitación en ESO: ley universal, masa, peso y ejercicios resueltos"
 seoTitle: "Gravitación en ESO: ley de Newton, masa, peso y ejercicios"
 date: "2026-08-26"
@@ -23744,10 +23840,10 @@ $$
 Todas las masas se atraen con una fuerza que aumenta con las masas y disminuye con el cuadrado de la distancia. La masa se mide en kg y no cambia al viajar; el peso es una fuerza, se mide en N y vale $P=mg$ cerca de la Tierra. La caída libre es un MRUA con aceleración $g$.
 
 Para practicar el movimiento de caída, repasa el [MRUA con fórmulas y ejercicios](/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/). Para aprender a identificar datos, unidades y modelo antes de calcular, consulta [cómo plantear problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/). También puedes consultar las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,tn=`---
+`,cn=`---
 title: "IB Chemistry acids, bases, pH and titration calculations"
 seoTitle: "IB Chemistry Acids, Bases, pH and Titration Calculations"
-date: "2026-12-23"
+date: "2026-10-24"
 updated: "2026-11-10"
 description: "IB Chemistry acids and bases explained with pH, conjugate pairs, strong and weak acids, titration calculations and worked examples."
 tag: "IB Chemistry"
@@ -23835,10 +23931,10 @@ Select concordant titres before calculating a mean, and report the volume to the
 - Ask whether the question concerns an equivalence point, an endpoint or an equilibrium mixture.
 
 For original calculation practice and feedback on chemical explanations, use [GCSE and IB preparation](/clases-particulares/gcse-ib/).
-`,cn=`---
+`,ln=`---
 title: "IB Chemistry: equilibrium, Kc and Le Châtelier explained"
 seoTitle: "IB Chemistry: Equilibrium, Kc and Le Châtelier"
-date: "2026-12-15"
+date: "2026-10-16"
 updated: "2026-11-10"
 description: "IB Chemistry equilibrium explained with dynamic equilibrium, Kc expressions, reaction quotient and Le Châtelier reasoning."
 tag: "IB Chemistry"
@@ -23911,10 +24007,10 @@ This reasoning applies only to gases. A solid added to a heterogeneous equilibri
 - Use a table of initial, change and equilibrium amounts when algebra is needed.
 
 For original practice and feedback on the reasoning, see [GCSE and IB preparation](/clases-particulares/gcse-ib/). This connects naturally with [stoichiometry](/blog/ib-chemistry-stoichiometry-moles-limiting-reagent-en/) and rate ideas from [collision theory](/blog/gcse-chemistry-rates-collision-theory-en/).
-`,ln=`---
+`,dn=`---
 title: "IB Chemistry organic reactions: mechanisms, functional groups and evidence"
 seoTitle: "IB Chemistry Organic Reactions and Mechanisms Explained"
-date: "2026-12-25"
+date: "2026-10-26"
 updated: "2026-11-10"
 description: "IB Chemistry organic reactions explained through functional groups, reaction mechanisms, conditions, structural formulas and original examples."
 tag: "IB Chemistry"
@@ -23988,10 +24084,10 @@ When a reaction has not been memorised, compare reactant and product systematica
 - Check whether the requested answer needs a product, a reagent, conditions, an equation or an explanation.
 
 This approach is more reliable than guessing from a long reaction map, and it links structure directly to reactivity. For calculation work that often accompanies organic synthesis questions, see [IB Chemistry stoichiometry](/blog/ib-chemistry-stoichiometry-moles-limiting-reagent-en/).
-`,dn=`---
+`,un=`---
 title: "IB Chemistry: stoichiometry, moles and limiting reagent problems"
 seoTitle: "IB Chemistry: Stoichiometry, Moles and Limiting Reagent Problems"
-date: "2026-12-13"
+date: "2026-10-14"
 updated: "2026-11-10"
 description: "IB Chemistry stoichiometry explained through balanced equations, moles, concentrations, gases and limiting reagent calculations."
 tag: "IB Chemistry"
@@ -24078,7 +24174,7 @@ For example, if a stated molar volume is $24.0\\ \\mathrm{dm^3\\,mol^{-1}}$, the
 - Round only at the end unless a question specifies otherwise.
 
 For Chemistry support based on your programme and assessment format, see [GCSE and IB preparation](/clases-particulares/gcse-ib/). The linked guide on [equations and moles](/blog/gcse-chemistry-equations-moles-revision-en/) provides additional practice foundations.
-`,un=`---
+`,mn=`---
 title: IB y GCSE: cómo preparar exámenes internacionales con rúbrica y calendario
 date: 2026-06-10
 updated: 2026-06-10
@@ -24146,10 +24242,10 @@ Cada semana conviene responder tres preguntas:
 Esta revisión evita estudiar por inercia. En programas internacionales, donde el formato importa mucho, una preparación sin feedback acaba dejando puntos fáciles por el camino.
 
 Para organizar esa preparación puedes ver [clases para GCSE, IGCSE e IB](/clases-particulares/gcse-ib/) o [contactar](/contacto/) para revisar syllabus, fecha y objetivo.
-`,mn=`---
+`,$n=`---
 title: "IB Mathematics AA: differential equations and modelling"
 seoTitle: "IB Mathematics AA: Differential Equations and Modelling"
-date: "2026-12-17"
+date: "2026-10-18"
 updated: "2026-11-10"
 description: "IB Mathematics AA differential equations explained with separation of variables, initial conditions, exponential models and interpretation."
 tag: "IB Mathematics"
@@ -24246,10 +24342,10 @@ The result is smaller than 120, as the negative rate predicts. A numerical answe
 IB Mathematics content and assessment differ between AA/AI and SL/HL, and a revised AA course begins first teaching in 2027. Check your own course guide and session before assuming that a method is assessed in the same way. This article develops separable-model mathematics; it does not replace the current subject guide.
 
 For connected calculus work, see [derivatives](/blog/que-son-las-derivadas-y-para-que-se-utilizan/) and [integrals](/blog/que-son-las-integrales-y-para-que-se-utilizan/). The [IB Mathematics preparation route](/preparacion-examenes/ib-mathematics/) can adapt practice to AA/AI and SL/HL.
-`,$n=`---
+`,pn=`---
 title: "IB Mathematics AA integration: areas, volumes and interpretation"
 seoTitle: "IB Mathematics AA Integration: Areas, Volumes and Applications"
-date: "2026-12-27"
+date: "2026-10-28"
 updated: "2026-11-10"
 description: "IB Mathematics AA integration explained with definite integrals, signed area, volumes of revolution and fully worked original examples."
 tag: "IB Mathematics"
@@ -24340,7 +24436,7 @@ For a rate such as litres per minute, integrating over minutes gives litres. A b
 - Reporting an answer without units or a conclusion in context.
 
 The 2027 Mathematics AA update retains a focus on functions and calculus while changing some course details, so students should check the guide that applies to their own session. This article gives original practice mathematics, not reproduced assessment questions. For connected modelling, read [differential equations](/blog/ib-mathematics-aa-differential-equations-modelling-en/).
-`,pn=`---
+`,gn=`---
 title: "IB Mathematics AA: números complejos, forma polar y teorema de De Moivre"
 seoTitle: "IB Mathematics AA: números complejos, forma polar y De Moivre"
 date: "2026-11-10"
@@ -24407,10 +24503,10 @@ Las raíces quedan regularmente espaciadas sobre un círculo.
 - Un argumento puede diferir en múltiplos de $2\\pi$ sin cambiar el número complejo.
 
 Para integrar este bloque con el estilo de preguntas AA y tus condiciones de examen, consulta la [preparación de IB Mathematics](/preparacion-examenes/ib-mathematics/) y la guía de [IB Mathematics AA y AI](/blog/como-preparar-ib-mathematics-aa-ai/).
-`,gn=`---
+`,fn=`---
 title: "IB Mathematics AI probability: binomial and normal distributions"
 seoTitle: "IB Mathematics AI Binomial and Normal Distributions"
-date: "2026-12-29"
+date: "2026-10-30"
 updated: "2026-11-10"
 description: "IB Mathematics AI probability distributions explained with binomial conditions, normal-model standardization, technology and worked examples."
 tag: "IB Mathematics"
@@ -24490,10 +24586,10 @@ A normal model can assign a small probability to an impossible negative value if
 - Give a probability as a decimal or percentage with sensible rounding and an interpretation in context.
 
 The current Mathematics AI material treats technology as a tool for calculation and interpretation, not a replacement for model selection. Pair this with [regression and residuals](/blog/ib-mathematics-ai-regression-correlation-technology-en/) to strengthen the modelling side of statistics.
-`,fn=`---
+`,xn=`---
 title: "IB Mathematics AI: regression, correlation and technology interpretation"
 seoTitle: "IB Mathematics AI: Regression, Correlation and Technology"
-date: "2026-12-19"
+date: "2026-10-20"
 updated: "2026-11-10"
 description: "IB Mathematics AI regression and correlation explained with technology output, residuals, interpolation, extrapolation and interpretation."
 tag: "IB Mathematics"
@@ -24567,7 +24663,7 @@ Suppose a scatter plot rises more steeply as $x$ increases. A linear, quadratic 
 The current AI guide expects students to select, fit, test and reflect on models, including reasonable domains and the danger of extrapolation. Compare a linear, exponential or quadratic shape before selecting one, and explain why the model is appropriate for the context rather than merely reporting the calculator output.
 
 For deeper statistical interpretation, consult [regression and ANOVA](/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados/). The [IB Mathematics preparation route](/preparacion-examenes/ib-mathematics/) can connect technology output with the wording expected in assessment.
-`,xn=`---
+`,bn=`---
 title: "IB Mathematics Internal Assessment: cómo elegir una pregunta y construir un método propio"
 seoTitle: "IB Mathematics IA: pregunta, método y estructura sin perder autoría"
 date: "2026-11-10"
@@ -24622,10 +24718,10 @@ Evita introducir resultados antes de explicar cómo se obtuvieron. Una gráfica 
 - ¿Has seguido las indicaciones vigentes de tu centro y asignatura?
 
 La preparación puede incluir orientación sobre la pregunta, explicación de técnicas y feedback sobre un borrador propio, pero no sustituye la autoría del alumno. Para organizar AA o AI, SL o HL y tus fechas reales, consulta la [preparación de IB Mathematics](/preparacion-examenes/ib-mathematics/) o la guía para [preparar IB Mathematics AA y AI](/blog/como-preparar-ib-mathematics-aa-ai/).
-`,bn=`---
+`,vn=`---
 title: "IB Physics Data Booklet: waves, fields and electricity explained"
 seoTitle: "IB Physics Data Booklet: Waves, Fields and Electricity Formulas"
-date: "2026-12-11"
+date: "2026-10-12"
 updated: "2026-11-10"
 description: "IB Physics waves, fields and electricity formulas explained with units, vector direction and original worked applications."
 tag: "IB Physics"
@@ -24709,10 +24805,10 @@ The old wavelength was $0.68\\ \\mathrm{m}$, so the wavelength changes with the 
 - Field strength is N C$^{-1}$ or V m$^{-1}$, whereas potential is J C$^{-1}$.
 
 For worked practice in a specific IB syllabus, use [GCSE and IB preparation](/clases-particulares/gcse-ib/). The connected GCSE guides on [waves](/blog/gcse-physics-waves-refraction-en/) and [electricity](/blog/gcse-physics-electricity-revision-en/) reinforce the same physical reasoning.
-`,vn=`---
+`,yn=`---
 title: "IB Physics Formula Booklet: mechanics, units and worked problems"
 seoTitle: "IB Physics Formula Booklet: Mechanics, Units and Worked Problems"
-date: "2026-12-09"
+date: "2026-10-10"
 updated: "2026-11-10"
 description: "IB Physics mechanics formulas explained with SI units, vector signs, energy, momentum and original worked problems."
 tag: "IB Physics"
@@ -24804,10 +24900,10 @@ This is also a useful consistency check. If a graph gives a positive impulse but
 - Quote a sensible number of significant figures from the data supplied.
 
 This article explains the mechanics formulas rather than reproducing any official booklet. For individual IB Physics support with your current syllabus and paper format, see [GCSE and IB preparation](/clases-particulares/gcse-ib/).
-`,yn=`---
+`,hn=`---
 title: "IB Physics uncertainties and graphs: data analysis with worked examples"
 seoTitle: "IB Physics Uncertainties, Graphs and Data Analysis"
-date: "2026-12-21"
+date: "2026-10-22"
 updated: "2026-11-10"
 description: "IB Physics data analysis explained through uncertainty, percentage uncertainty, gradients, error bars and original worked examples."
 tag: "IB Physics"
@@ -24896,10 +24992,83 @@ If the uncertainty bars overlap a proposed line, the data may be consistent with
 - Use uncertainty to qualify a conclusion rather than hiding a disagreement.
 
 This guide uses original examples rather than reproducing assessment material. For tailored work on experimental reasoning and physics calculations, see [GCSE and IB preparation](/clases-particulares/gcse-ib/).
-`,hn=`---
+`,qn=`---
+title: "IB study resources for Mathematics, Physics and Chemistry"
+seoTitle: "IB Study Resources for Mathematics, Physics and Chemistry"
+date: "2026-11-13"
+updated: "2026-11-14"
+description: "IB study resources for Mathematics, Physics and Chemistry with original worked reasoning, topic routes and structured practice in the Método Nebula Campus."
+tag: "IB"
+category: "Exámenes internacionales"
+relatedService: "/campus/"
+relatedPosts: "ib-tutor-metodo-nebula-campus-en,ib-physics-uncertainties-graphs-data-analysis-en,ib-mathematics-ai-regression-correlation-technology-en"
+image: "/favicon.svg"
+language: "en"
+---
+
+IB study resources need to do more than list formulas or provide isolated answers. Students work across distinct Mathematics courses and science topics where the method, command term and quality of explanation matter as much as the final result. The most useful resource is therefore one that makes the reasoning visible and gives enough structured practice to use it independently.
+
+> **Direct answer.** Método Nebula's virtual Campus provides original study routes for IB Mathematics, Physics and Chemistry. It combines concise theory, fully worked examples, graded practice and exam-style application, while individual support can adapt the route to the student's exact course, level and assessment date.
+
+## Start from the exact IB course
+
+IB Mathematics is not one syllabus. A student in Analysis and Approaches may need algebraic and calculus fluency, while a student in Applications and Interpretation may need to select, interpret and evaluate a model using technology. Physics and Chemistry also require students to communicate scientific reasoning, not simply reach a numerical answer.
+
+For this reason, a useful resource path begins with the student's course and unit. It should not send every student to the same revision checklist. The first question is whether the difficulty is conceptual, procedural, interpretative or due to assessment communication.
+
+## IB Mathematics: preserve the meaning of a result
+
+Consider regression in an Applications and Interpretation context. If technology gives
+
+$$
+\\widehat y=12.4+3.18x,
+$$
+
+the gradient means a predicted change of $3.18$ units in $y$ for each one-unit increase in $x$, within the observed domain. It does not prove a causal relationship. A complete answer must also consider the scatter plot, residuals, reasonable domain and any extrapolation.
+
+The Campus develops this chain through original examples: select a candidate model, interpret its parameters, check residual behaviour and state a conclusion with limits. The resource becomes valuable because it shows what the calculator output means rather than presenting output as the conclusion. Read the connected guide on [IB Mathematics AI regression](/blog/ib-mathematics-ai-regression-correlation-technology-en/) for a worked example.
+
+## IB Physics: data are part of the argument
+
+Physics study resources should connect equations, units, diagrams and experimental uncertainty. If a derived density uses measured mass and volume, a complete solution does not stop at division. It reports a sensible uncertainty and identifies which measurement limits the result.
+
+Suppose a result is $\\rho=3.00\\ \\mathrm{g\\,cm^{-3}}$ with a combined percentage uncertainty of $2\\%$. The reported value is approximately
+
+$$
+\\rho=(3.00\\pm0.06)\\ \\mathrm{g\\,cm^{-3}}.
+$$
+
+That form communicates the scale of the measurement and prepares the student to assess a graph or compare a result with an expected value. The [IB Physics uncertainty and graph guide](/blog/ib-physics-uncertainties-graphs-data-analysis-en/) develops the calculation and its interpretation step by step.
+
+## IB Chemistry: keep structure, ratio and equilibrium distinct
+
+In Chemistry, students frequently lose marks by mixing three separate tasks. A balanced equation gives a stoichiometric ratio. A mole calculation converts a measured quantity into amount of substance. An equilibrium expression describes a chemical system under particular conditions. Treating them as one formula shortcut causes errors that look like arithmetic mistakes but begin in the chemistry.
+
+For example, before a titration concentration can be calculated, the reaction must be balanced and the titre converted to dm$^3$. Only then does $n=cV$ have a clear role. Campus study routes make these stages explicit with examples and variations, so a student can see which link in the chain needs more practice.
+
+## What is inside the Campus route
+
+The [Método Nebula Campus](/campus/) is designed as a study environment rather than a collection of unranked files. It brings together:
+
+- theory organised into topics and appropriate levels;
+- worked examples that show intermediate decisions;
+- graded practice before a student is asked to combine several techniques;
+- questions that require interpretation as well as calculation; and
+- connected learning across Mathematics, Physics and Chemistry.
+
+This structure is useful when a mock result identifies several gaps. A student can revisit the exact prerequisite, complete focused practice and then test the method in a wider problem. It reduces the tendency to rewatch general explanations while avoiding the difficult question that actually needs work.
+
+## Combining independent study with support
+
+Some students need only a reliable resource route; others benefit from a tutor who can diagnose why an attempted answer failed. The Campus supports both. It provides material for independent work and a common reference point between lessons, allowing feedback to refer to a specific concept and set of practice instead of a vague instruction to “revise the topic”.
+
+The platform does not replace the student's own thinking or guarantee a result. It gives that work structure: understand, attempt, check, correct and apply again in a changed context.
+
+For support that starts from the student's exact programme, visit [IB and GCSE tuition](/clases-particulares/gcse-ib/) or [explore the virtual Campus](/campus/).
+`,_n=`---
 title: "IB Tutor: how Método Nebula supports Mathematics, Physics and Chemistry"
 seoTitle: "IB Tutor for Mathematics, Physics and Chemistry | Método Nebula"
-date: "2026-12-31"
+date: "2026-11-01"
 updated: "2026-11-10"
 description: "Looking for an IB tutor? Discover Método Nebula's structured support for IB Mathematics, Physics and Chemistry, combining tailored sessions with the virtual Campus."
 tag: "IB"
@@ -24965,7 +25134,7 @@ The Campus does not promise that watching content replaces study. Its value is s
 IB courses and assessment arrangements can differ by subject, level and session. Método Nebula therefore works from the student's own syllabus and materials rather than claiming that one sequence suits everybody. The work can be explained in English or Spanish when that improves understanding, while the final mathematical and scientific communication is practised in the language and format required by the course.
 
 For individual tuition and an explanation of the relevant Campus route, visit [GCSE and IB support](/clases-particulares/gcse-ib/) or [explore the virtual Campus](/campus/). Bring the subject, level, upcoming assessment date and one recent piece of work: that is enough to begin with a specific diagnosis.
-`,qn=`---
+`,En=`---
 title: Integración por partes: fórmula y ejercicios resueltos
 seoTitle: "Fórmula de integración por partes: elegir u y dv + ejercicios"
 date: 2026-08-06
@@ -25650,7 +25819,7 @@ Después de aplicar la fórmula, pueden ocurrir tres cosas útiles: la nueva int
 Para una pregunta de Selectividad, escribe primero qué vas a tomar como \\(u\\) y qué parte integrarás como \\(dv\\). Esa línea hace visible tu decisión y ayuda a detectar un mal planteamiento antes de arrastrar signos. Alterna ejercicios cortos con problemas de modelo y revisa siempre derivando el resultado. El [Campus](/campus/) y la [preparación de Matemáticas para Selectividad](/preparacion-examenes/matematicas-selectividad/) ofrecen una ruta de práctica y corrección para convertir ese método en autonomía.
 
 Si quieres practicar el método con ejercicios de tu grado y recibir corrección sobre la elección de \\(u\\), los signos y la presentación, consulta las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,_n=`---
+`,Cn=`---
 title: Integración por sustitución: cambio de variable y ejercicios
 seoTitle: "Integral por sustitución: cambio de variable, fórmula y ejercicios"
 date: 2026-08-12
@@ -26378,7 +26547,7 @@ En cálculo multivariable, la misma idea exige corregir áreas mediante el deter
 Si preparas Matemáticas para PAU, no memorices un cambio de variable como una receta aislada. Identifica la función interior, comprueba que aparece su derivada —quizá con un factor constante— y deja el cambio escrito antes de operar. Después practica ejercicios de tu comunidad con un reloj y revisa si el problema pedía además interpretar una integral definida. En la [preparación de Matemáticas para Selectividad 2027](/preparacion-examenes/matematicas-selectividad/) puedes organizar esa práctica por tipos de ejercicio.
 
 Si estás trabajando sustituciones más exigentes en Cálculo y necesitas corregir la elección del cambio sobre ejercicios reales de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,En=`---
+`,jn=`---
 title: Integral definida e indefinida: diferencias y ejemplos
 seoTitle: "Integral definida e indefinida: diferencias, fórmula y ejemplos"
 date: 2026-08-10
@@ -27087,7 +27256,7 @@ El valor queda entre \\(f(0)=1\\) y \\(f(2)=7\\), como debe ocurrir.
 La integral indefinida busca una familia de primitivas y termina con \\(+C\\). La integral definida mide una acumulación neta sobre un intervalo y termina en un número. El teorema fundamental permite calcular esa acumulación restando valores de una primitiva y explica por qué la constante desaparece.
 
 Antes de operar, identifica qué objeto pide el problema. Después comprueba por derivación y, en integrales definidas, añade controles de signo, unidades, cotas y continuidad. Si necesitas trabajar estas diferencias sobre problemas de tu grado, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Cn=`---
+`,Sn=`---
 title: "Integrales dobles: cálculo, regiones y ejercicios resueltos"
 date: "2026-09-03"
 updated: "2026-09-03"
@@ -27705,7 +27874,7 @@ $$
 Dibuja primero y escribe después los límites. En una integral iterada, resuelve la integral interior tratando la otra variable como constante. Cambia el orden cuando simplifique el integrando o los límites, reconstruyendo siempre la región. Para áreas integra uno; para volúmenes usa altura superior menos inferior; para masas introduce la densidad.
 
 Si necesitas trabajar regiones y cambios de orden con ejercicios de tu temario, las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/) permiten practicar el planteamiento y no solo la integración mecánica.
-`,jn=`---
+`,Pn=`---
 title: Integrales de funciones racionales y fracciones parciales
 date: 2026-08-03
 updated: 2026-08-03
@@ -28467,7 +28636,7 @@ Una integral racional se resuelve en tres capas: división si la fracción es im
 El método termina cuando cada sumando encaja en una primitiva conocida. La comprobación más segura se hace antes y después de integrar: primero reuniendo la descomposición y después derivando el resultado.
 
 Si necesitas aplicar estas plantillas a ejercicios de tu asignatura y corregir la factorización o el sistema de coeficientes, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Sn=`---
+`,zn=`---
 title: Integrales impropias: convergencia y ejercicios resueltos
 date: 2026-08-15
 updated: 2026-08-15
@@ -29265,7 +29434,7 @@ Una integral es impropia por un intervalo infinito, por una singularidad o por a
 La clasificación debe preceder al valor. Antes de integrar, marca sobre el intervalo cada punto fuera del dominio y estudia por separado el comportamiento local y la cola en infinito. Después elige entre cálculo exacto y comparación. Esta secuencia evita cancelaciones ilegítimas, sustituciones de $\\infty$ como si fuera un número y conclusiones basadas únicamente en que el integrando tiende a cero.
 
 Si necesitas trabajar convergencia, comparaciones y técnicas de integración sobre ejercicios de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Pn=`---
+`,An=`---
 title: Integrales inmediatas: ejercicios resueltos paso a paso
 seoTitle: "Integrales inmediatas: ejercicios resueltos paso a paso"
 date: 2026-11-05
@@ -29430,7 +29599,7 @@ Si aparece una función dentro de otra junto con su derivada, puede corresponder
 Una integral inmediata se reconoce después de simplificar, no antes. Separa términos, identifica la primitiva y deriva tu resultado para comprobarlo. Esa rutina evita usar sustitución o partes cuando no hacen falta.
 
 Si necesitas practicar estas técnicas con ejercicios de tu temario, consulta las [clases particulares de Cálculo](/clases-particulares/calculo-universitario/).
-`,zn=`---
+`,Ln=`---
 title: "Integrales trigonométricas: ejercicios universitarios resueltos"
 seoTitle: "Integrales trigonométricas: ejercicios resueltos"
 date: 2026-10-24
@@ -29503,7 +29672,7 @@ $$
 3. \\(x/2+\\sin(2x)/4+C\\).
 
 En el [Campus de Método Nebula](/campus/) los métodos de integración se entrenan como decisiones: reconocer estructura, elegir técnica y comprobar cada primitiva.
-`,An=`---
+`,wn=`---
 title: "Ley de Hooke y muelles: ejercicios de 4º ESO con gráficas"
 seoTitle: "Ley de Hooke 4º ESO: muelles y ejercicios"
 date: 2026-10-25
@@ -29568,7 +29737,7 @@ Con \\(m=0{,}5\\text{ kg}\\) y \\(k=100\\text{ N/m}\\), \\(x=0{,}049\\text{ m}\\
 2. \\(80\\text{ N/m}\\).
 
 En el [Campus de Método Nebula](/campus/) fuerzas, muelles, energía y gráficas se practican como modelos conectados con ejercicios graduados.
-`,Ln=`---
+`,Hn=`---
 title: "Ley de Ohm en 4º ESO: circuitos y ejercicios resueltos"
 seoTitle: "Ley de Ohm 4º ESO: ejercicios resueltos"
 date: 2026-11-02
@@ -29672,7 +29841,7 @@ La intensidad del circuito es \\(I=12/6=2\\text{ A}\\). Por tanto, las caídas d
 4. La tensión.
 
 En el [Campus de Método Nebula](/campus/) la electricidad se trabaja desde las magnitudes y los dibujos de circuito hasta problemas de serie, paralelo y potencia, con ejercicios graduados para que cada fórmula tenga un significado físico.
-`,Hn=`---
+`,Mn=`---
 title: Límites trigonométricos: ejercicios resueltos y métodos
 seoTitle: "Límites trigonométricos: ejercicios resueltos paso a paso"
 date: 2026-11-05
@@ -29834,7 +30003,7 @@ Esta vía es más clara que derivar numerador y denominador sin identificar la i
 ## Resumen práctico
 
 Primero identifica cuál de los límites notables puede aparecer. Después ajusta el argumento, conserva las constantes y revisa que trabajas en radianes. Para otras indeterminaciones, consulta la guía general de [límites e indeterminaciones](/blog/como-resolver-limites-indeterminaciones-ejercicios/).
-`,wn=`---
+`,Dn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2022 · País Vasco — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II País Vasco 2022 resuelta
 date: 2022-06-01
@@ -30036,7 +30205,7 @@ $$\\begin{vmatrix} 1 & 1 & 1 \\\\ 6 & -2{,}5 & -1{,}5 \\\\ 1 & -2 & 1 \\end{vmat
 
 Por tanto el sistema es compatible determinado y lo resolvemos por Cramer:
 $$x=\\dfrac{\\begin{vmatrix} 90 & 1 & 1 \\\\ 210 & -2{,}5 & -1{,}5 \\\\ 0 & -2 & 1 \\end{vmatrix}}{-22{,}5}=50,\\quad y=\\dfrac{\\begin{vmatrix} 1 & 90 & 1 \\\\ 6 & 210 & -1{,}5 \\\\ 1 & 0 & 1 \\end{vmatrix}}{-22{,}5}=30,\\quad z=\\dfrac{\\begin{vmatrix} 1 & 1 & 90 \\\\ 6 & -2{,}5 & 210 \\\\ 1 & -2 & 0 \\end{vmatrix}}{-22{,}5}=10$$
-`,Mn=`---
+`,Rn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2023 · Comunidad Valenciana — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Comunidad Valenciana 2023 resuelta
 date: 2023-06-01
@@ -30189,7 +30358,7 @@ $$f(x)=\\begin{cases} 1\\,200+5x & \\text{si } 0\\leq x\\leq 250 \\\\ 1\\,700+3x
 **(c)** La segunda empresa tiene $g(x)=1\\,200+3x$. Buscamos $x$ con $f(x)=g(x)$. En el tramo $x>900$:
 $$2\\,600+2x=1\\,200+3x\\Rightarrow x=1\\,400\\ \\text{kWh}.$$
 El importe es $g(1\\,400)=1\\,200+3\\cdot1\\,400=5\\,400$ €. Por tanto sí: con un consumo de $1\\,400$ kWh ambas pagan $5\\,400$ €.
-`,Dn=`---
+`,Bn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2024 · Comunidad Valenciana — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Comunidad Valenciana 2024 resuelta
 date: 2024-06-01
@@ -30321,7 +30490,7 @@ Sumando la $1.ª$ y la $3.ª$: $4x=220\\Rightarrow x=55$. Entonces $y+z=165$.
 Sustituyendo en la $2.ª$: $1250\\cdot55+1125y+1000z=247250\\Rightarrow1125y+1000z=178500$, y con $z=165-y$:
 $$1125y+1000(165-y)=178500\\Rightarrow125y=13500\\Rightarrow y=108,\\ z=57.$$
 Comprobación: $55+108+57=220$ y $1250\\cdot55+1125\\cdot108+1000\\cdot57=247250$.
-`,Rn=`---
+`,On=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2024 · Navarra — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Navarra 2024 resuelta
 date: 2024-06-01
@@ -30461,7 +30630,7 @@ $$4r+c=45,\\qquad 7r+3c=85$$
 De la primera $c=45-4r$; sustituyendo en la segunda: $7r+3(45-4r)=85\\Rightarrow -5r=-50\\Rightarrow r=10$. Entonces $s=30$ y $c=45-40=5$.
 
 Interpretación: **30 personas hicieron senderismo, 10 rápel y 5 ciclismo de montaña**.
-`,Bn=`---
+`,Un=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2024 · País Vasco — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II País Vasco 2024 resuelta
 date: 2024-06-01
@@ -30688,7 +30857,7 @@ $$x=\\dfrac{\\begin{vmatrix} 36 & 5 & 5 \\\\ 0 & -7 & 0 \\\\ 0 & 2 & -1 \\end{vm
 $$z=\\dfrac{\\begin{vmatrix} 5 & 5 & 36 \\\\ 5 & -7 & 0 \\\\ 2 & 2 & 0 \\end{vmatrix}}{180}=\\dfrac{864}{180}=4{,}8.$$
 
 Las tres puntuaciones suman $1{,}4+1+4{,}8=7{,}2$, como exige el enunciado.
-`,On=`---
+`,In=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2025 · Comunidad Valenciana · Extraordinaria — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Comunidad Valenciana 2025 resuelta
 date: 2025-06-01
@@ -30823,7 +30992,7 @@ $$f'(x)=\\dfrac{(x+1)^{2}-x\\cdot 2(x+1)}{(x+1)^{4}}=\\dfrac{1-x}{(x+1)^{3}}.$$
 $f'(x)=0\\Rightarrow x=1$. Estudiando el signo: $f$ es **decreciente** en $(-\\infty,-1)$, **creciente** en $(-1,1)$ y **decreciente** en $(1,+\\infty)$. Hay un **máximo local** en $x=1$, con $f(1)=\\dfrac{1}{4}$. No hay mínimos locales.
 
 **(d)** Con dominio $\\mathbb{R}\\setminus\\{-1\\}$, paso por $(0,0)$, asíntota vertical $x=-1$, asíntota horizontal $y=0$ y máximo en $\\big(1,\\tfrac{1}{4}\\big)$, se dibuja la curva: a la izquierda de $x=-1$ decrece hacia $y=0^{-}$... creciendo hasta el máximo $(1,\\tfrac14)$ y decreciendo de nuevo hacia $y=0^{+}$.
-`,Un=`---
+`,Tn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2025 · Madrid — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Madrid 2025 resuelta
 date: 2025-06-01
@@ -30967,7 +31136,7 @@ $$\\boxed{1125\\text{ kg rayada},\\ 675\\text{ kg negra con pepitas},\\ 900\\tex
 **(b)** Si el precio común es $p$ €/kg, la tercera ecuación pasa a $p(x+y+z)=5400$, es decir $2700p=5400\\Rightarrow p=2$ €/kg. Con el sistema
 $$\\begin{cases} x+y+z=2700\\\\ x-3y+z=0\\end{cases}$$
 se obtiene $y=675$ y $x+z=2025$. Como hay dos ecuaciones y tres incógnitas, el sistema es **compatible indeterminado**: la solución **no es única**. Se venderían $675$ kg de negra con pepitas y, entre rayada y negra sin pepitas, $2025$ kg repartidos de cualquier forma válida.
-`,In=`---
+`,kn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2025 · Murcia — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Murcia 2025 resuelta
 date: 2025-06-01
@@ -31143,7 +31312,7 @@ $$f'(x)=\\frac{-x^2+2x+3}{(1-x)^2},\\qquad f'(x)=0\\iff x^2-2x-3=0\\iff x=-1,\\ 
 El numerador $-x^2+2x+3$ es positivo entre $-1$ y $3$: $f$ **crece** en $(-1,1)\\cup(1,3)$ y **decrece** en $(-\\infty,-1)\\cup(3,+\\infty)$.
 
 **(d)** **Mínimo local** en $x=-1$: $f(-1)=\\dfrac{4}{2}=2$, punto $(-1,2)$. **Máximo local** en $x=3$: $f(3)=\\dfrac{12}{-2}=-6$, punto $(3,-6)$.
-`,Tn=`---
+`,Nn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2026 · Andalucía — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Andalucía 2026 resuelta
 date: 2026-06-01
@@ -31277,7 +31446,7 @@ $$x=25,\\quad y=40,\\quad z=55.$$
 Cada entrada Estándar cuesta $25$€, la Premium $40$€ y la VIP $55$€. La recaudación total es $1800+1000+1560=4360$€.
 
 **(b)** Estándar: $34\\cdot 25=850$€; Premium: $30\\cdot 40=1200$€; VIP: $42\\cdot 55=2310$€. La mayor recaudación se obtuvo con las entradas **VIP**, con $2310$€.
-`,Nn=`---
+`,Fn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2026 · Aragón — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Aragón 2026 resuelta
 date: 2026-06-01
@@ -31384,7 +31553,7 @@ $$\\begin{cases} 0{,}9n+0{,}9c+0{,}9m=117 \\\\ c=\\dfrac{n}{4} \\\\ m=2n \\end{c
 De la primera, $n+c+m=\\dfrac{117}{0{,}9}=130$. Sustituyendo:
 $$n+\\dfrac{n}{4}+2n=130\\Rightarrow \\dfrac{13n}{4}=130\\Rightarrow n=40.$$
 Entonces $c=\\dfrac{40}{4}=10$ y $m=2\\cdot 40=80$.
-`,kn=`---
+`,Vn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2026 · Asturias — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Asturias 2026 resuelta
 date: 2026-06-01
@@ -31637,7 +31806,7 @@ $|F|=0\\iff m=\\pm\\sqrt2$. Para esos valores la matriz ampliada tiene rango $2>
 $$|F_x|=\\begin{vmatrix}2&1\\\\4&m\\end{vmatrix}=2m-4,\\qquad |F_y|=\\begin{vmatrix}2m&2\\\\ m^2+2&4\\end{vmatrix}=-2(m^2-4m+2),$$
 $$x=\\frac{2m-4}{m^2-2},\\qquad y=\\frac{-2(m^2-4m+2)}{m^2-2}.$$
 Por ejemplo, para $m=0$: $(x,y)=(2,2)$.
-`,Fn=`---
+`,Gn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2026 · Cataluña — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Cataluña 2026 resuelta
 date: 2026-06-01
@@ -31770,7 +31939,7 @@ $$P(M\\cap C)=\\dfrac{172}{2000}=0{,}086,\\qquad P(M\\mid I)=\\dfrac{178}{668}\\
 - Igual número de becados de máster y doctorado: $m=d$.
 
 Sustituyendo $g+m=933$ y $m=d$ en la primera ecuación: $933+d=1036\\Rightarrow d=103$, luego $m=103$ y $g=933-103=830$.
-`,Vn=`---
+`,Qn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2026 · Comunidad Valenciana — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Comunidad Valenciana 2026 resuelta
 date: 2026-06-01
@@ -31802,7 +31971,7 @@ Al ser un problema de **mínimo** sobre región no acotada (con gradiente positi
 
 **(b)** El coste mínimo es
 $$f(2,4)=5\\cdot2+4\\cdot4=10+16=26\\ \\text{€}.$$
-`,Gn=`---
+`,Kn=`---
 title: Matemáticas Aplicadas a las CCSS II · PAU 2026 · Madrid — examen resuelto
 seoTitle: PAU Matemáticas Aplicadas a las CCSS II Madrid 2026 resuelta
 date: 2026-06-01
@@ -31989,7 +32158,7 @@ $$\\begin{array}{c|ccccc}
 f & 16 & 9 & -3 & -8 & 7
 \\end{array}$$
 El mínimo es $f(4,-2)=-8$, alcanzado en $D(4,-2)$.
-`,Qn=`---
+`,Wn=`---
 title: Matemáticas II · PAU 2025 · Andalucía — examen resuelto
 seoTitle: Matemáticas II · PAU 2025 · Andalucía — examen resuelto
 date: 2025-10-16
@@ -32255,7 +32424,7 @@ $$
 Antes de repetirlo, anota qué apartado te hizo detenerte: límite, estudio de función, geometría, integral o probabilidad. Practicar con ese diagnóstico es más efectivo que limitarse a comprobar el resultado final.
 
 Si quieres una planificación con ejercicios graduados, explicaciones y seguimiento, puedes trabajar estos bloques en el [Campus de Método Nebula](/campus/).
-`,Kn=`---
+`,Jn=`---
 title: Matemáticas II · PAU 2025 · Aragón — examen resuelto
 seoTitle: Matemáticas II · PAU 2025 · Aragón — examen resuelto
 date: 2025-10-18
@@ -32509,7 +32678,7 @@ $$
 Si fallas una opción, no memorices el último número: vuelve al primer modelo que se ha usado (matriz, producto vectorial, derivada o probabilidad condicionada) y repite un ejercicio parecido al día siguiente.
 
 Puedes practicar estas técnicas con itinerario, explicaciones y seguimiento en el [Campus de Método Nebula](/campus/).
-`,Wn=`---
+`,Xn=`---
 title: Matemáticas II · PAU 2025 · Cantabria — examen resuelto
 seoTitle: Matemáticas II · PAU 2025 · Cantabria — examen resuelto
 date: 2025-10-20
@@ -32775,7 +32944,7 @@ $$
 Cuando corrijas, separa un error de cálculo de un error de planteamiento. El segundo indica el bloque que debes volver a entrenar; el primero suele resolverse escribiendo los pasos intermedios con más orden.
 
 Puedes practicar matrices, análisis, geometría y probabilidad con una ruta guiada en el [Campus de Método Nebula](/campus/).
-`,Jn=`---
+`,Zn=`---
 title: Matemáticas II · PAU 2025 · Comunidad Valenciana — examen resuelto
 seoTitle: Matemáticas II · PAU 2025 · Comunidad Valenciana — examen resuelto
 date: 2025-10-26
@@ -32975,7 +33144,7 @@ $$
 En las cuestiones largas, deja una línea entre cada transformación y escribe siempre qué se está sustituyendo. Esa presentación hace que el corrector pueda seguir tu razonamiento incluso si cometes un pequeño error aritmético.
 
 Puedes entrenar estas técnicas de forma guiada en el [Campus de Método Nebula](/campus/).
-`,Xn=`---
+`,Yn=`---
 title: PAU 2025 Matemáticas II: examen resuelto de Madrid
 seoTitle: PAU 2025 Matemáticas II Madrid: examen resuelto
 date: 2026-10-20
@@ -33227,7 +33396,7 @@ Por tanto, entre quienes no son lectores habituales, aproximadamente el 47,25 % 
 Haz primero un bloque de cada pareja de alternativas y marca el primer paso que no hayas sabido justificar. Cuando lo repases, intenta explicar ese paso con tus propias palabras: es la forma más rápida de detectar si realmente dominas el método.
 
 Si quieres organizar la práctica por bloques, corregir errores recurrentes y avanzar con una ruta de estudio, puedes hacerlo en el [Campus de Método Nebula](/campus/).
-`,Zn=`---
+`,eo=`---
 title: Matemáticas II · PAU 2025 · Murcia — examen resuelto
 seoTitle: Matemáticas II · PAU 2025 · Murcia — examen resuelto
 date: 2025-10-22
@@ -33457,7 +33626,7 @@ $$
 Si se atasca una cuestión, identifica primero su familia: sistema, optimización, integral, posición relativa o distribución. A partir de ahí el camino de resolución suele ser mucho más claro.
 
 Puedes entrenar esos bloques con práctica guiada y seguimiento en el [Campus de Método Nebula](/campus/).
-`,Yn=`---
+`,ao=`---
 title: Matemáticas II · PAU 2025 · Navarra — examen resuelto
 seoTitle: Matemáticas II · PAU 2025 · Navarra — examen resuelto
 date: 2025-10-24
@@ -33701,7 +33870,7 @@ $$
 Aquí conviven optimización, parámetros, geometría y teoremas de análisis. Cuando repases, etiqueta cada error con uno de esos bloques: así conviertes la corrección en un plan de estudio real.
 
 Para practicar por bloques y recibir seguimiento, puedes acceder al [Campus de Método Nebula](/campus/).
-`,eo=`---
+`,no=`---
 title: Matemáticas II · PAU 2026 · Andalucía — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Andalucía — examen resuelto
 date: 2026-10-18
@@ -33957,7 +34126,7 @@ Haz una primera vuelta sin consultar la solución. Al corregir, señala el prime
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
 
-`,ao=`---
+`,oo=`---
 title: Matemáticas II · PAU 2026 · Aragón — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Aragón — examen resuelto
 date: 2026-10-16
@@ -34200,7 +34369,7 @@ $$L=\\frac{(1-0)\\cdot1-1}{1}=\\boxed{0}.$$
 Haz una primera vuelta sin consultar la solución. Al corregir, señala el primer paso que no supiste justificar y repítelo al día siguiente. Así conviertes un modelo de examen en una lista concreta de técnicas que debes entrenar.
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
-`,no=`---
+`,io=`---
 title: Matemáticas II · PAU 2026 · Principado de Asturias — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Principado de Asturias — examen resuelto
 date: 2026-10-14
@@ -34670,7 +34839,7 @@ La probabilidad de que la alarma salte al menos una vez es aproximadamente del *
 Haz una primera vuelta sin consultar la solución. Al corregir, señala el primer paso que no supiste justificar y repítelo al día siguiente. Así conviertes un modelo de examen en una lista concreta de técnicas que debes entrenar.
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
-`,oo=`---
+`,ro=`---
 title: Matemáticas II · PAU 2026 · Cantabria — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Cantabria — examen resuelto
 date: 2026-10-28
@@ -34888,7 +35057,7 @@ $$
 Cuando hayas terminado un bloque, comprueba si puedes explicar por qué se ha usado cada fórmula. Ese hábito evita aprender solo la apariencia de un procedimiento.
 
 Puedes practicar estos contenidos con ejercicios guiados en el [Campus de Método Nebula](/campus/).
-`,io=`---
+`,so=`---
 title: Matemáticas II · PAU 2026 · Cataluña — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Cataluña — examen resuelto
 date: 2026-10-10
@@ -35171,7 +35340,7 @@ Haz una primera vuelta sin consultar la solución. Al corregir, señala el prime
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
 
-`,ro=`---
+`,to=`---
 title: Matemáticas II · PAU 2026 · Comunitat Valenciana — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Comunitat Valenciana — examen resuelto
 date: 2026-10-08
@@ -35465,7 +35634,7 @@ Haz una primera vuelta sin consultar la solución. Al corregir, señala el prime
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
 
-`,so=`---
+`,co=`---
 title: PAU 2026 Matemáticas II: examen resuelto de Madrid
 seoTitle: PAU 2026 Matemáticas II Madrid: examen resuelto
 date: 2026-10-18
@@ -35666,7 +35835,7 @@ $$\\boxed{y-\\frac{2e^2}{5}=\\frac{2e^2}{25}(x-2).}$$
 Elige primero una sola opción en las preguntas 4 y 5 y resuélvela con tiempo. En la corrección, anota si el bloqueo fue de planteamiento, cálculo o justificación: ese diagnóstico te dice qué entrenar en el siguiente modelo.
 
 Puedes organizar esa práctica y recibir seguimiento en el [Campus de Método Nebula](/campus/).
-`,to=`---
+`,lo=`---
 title: Matemáticas II · PAU 2026 · Región de Murcia — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · Región de Murcia — examen resuelto
 date: 2026-10-04
@@ -35871,7 +36040,7 @@ Haz una primera vuelta sin consultar la solución. Al corregir, señala el prime
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
 
-`,co=`---
+`,uo=`---
 title: Matemáticas II · PAU 2026 · País Vasco — examen resuelto
 seoTitle: Matemáticas II · PAU 2026 · País Vasco — examen resuelto
 date: 2026-09-30
@@ -36104,7 +36273,7 @@ Haz una primera vuelta sin consultar la solución. Al corregir, señala el prime
 
 Si quieres trabajar estos bloques con una ruta de práctica, explicaciones y seguimiento, tienes el [Campus de Método Nebula](/campus/).
 
-`,lo=`---
+`,mo=`---
 title: Matrices, determinantes y sistemas de ecuaciones: guía completa para primero de carrera
 date: 2026-06-25
 updated: 2026-06-25
@@ -36279,7 +36448,7 @@ No hagas solo sistemas numéricos. Mezcla:
 - Problemas donde haya que decidir si usar Gauss, determinante o interpretación geométrica.
 
 Si este bloque te cuesta, empieza por [Álgebra Lineal en la universidad](/blog/algebra-lineal-universidad-que-estudiar-primero-errores/) y revisa la página de [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,uo=`---
+`,$o=`---
 title: "Máximos y mínimos de varias variables: guía y ejercicios"
 date: "2026-09-01"
 updated: "2026-09-01"
@@ -36849,7 +37018,7 @@ Todos los valores cumplen $f<1$, pero pueden acercarse tanto como se quiera a $1
 Primero separa el problema interior del problema de frontera. En el interior, resuelve $\\nabla f=0$ y clasifica con la hessiana; si el determinante es cero, cambia de argumento. En una región compacta, analiza cada frontera y compara todos los candidatos. Con una restricción regular, Lagrange expresa el paralelismo de los gradientes, pero no evita la comprobación final.
 
 Conviene dominar antes las [derivadas parciales y el gradiente](/blog/derivadas-parciales-gradiente-ejercicios/). Si necesitas practicar clasificaciones y restricciones con los ejercicios de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,mo=`---
+`,po=`---
 title: "Mecánica de fluidos: ejercicios resueltos de continuidad y Bernoulli"
 seoTitle: "Continuidad y Bernoulli: ejercicios resueltos | Fluidos"
 date: "2026-10-18"
@@ -36951,7 +37120,7 @@ La densidad se cancela: para este modelo ideal, la rapidez de salida depende de 
 - Pregunta si hay pérdidas o una bomba: si las hay, Bernoulli ideal no es suficiente.
 
 El [campus virtual de Método Nebula](/contacto/) organiza los problemas de Física para Ingeniería por modelo físico, con teoría, ejercicios guiados y exámenes resueltos. Esa práctica te enseña a reconocer cuándo usar continuidad, energía o ambas sin depender de una fórmula aislada.
-`,$o=`---
+`,go=`---
 title: Métodos de integración: cómo elegir la técnica adecuada
 date: 2026-08-01
 updated: 2026-08-01
@@ -37543,7 +37712,7 @@ Primero simplifica. Después busca una forma inmediata o una composición con su
 La elección no se memoriza como una lista de palabras clave. Se entrena comparando la estructura del integrando con las reglas de derivación que ya conoces y comprobando si cada transformación reduce la dificultad.
 
 Si estás preparando Cálculo universitario y necesitas aplicar este árbol de decisión a tus hojas de problemas o exámenes, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,po=`---
+`,fo=`---
 title: Microeconomía I: diez tipos de problemas que debes dominar antes del examen
 date: 2026-07-05
 updated: 2026-07-05
@@ -37682,7 +37851,7 @@ Para cada tipo de problema, prepara una ficha:
 - No distinguir demanda individual y demanda de mercado.
 
 Si quieres trabajar Microeconomía I desde ejercicios reales, revisa [clases particulares de Economía y ADE](/clases-particulares/economia-ade/) y la guía de [Matemáticas I en ADE y Economía](/blog/como-aprobar-matematicas-i-ade-economia/).
-`,go=`---
+`,xo=`---
 title: "Disoluciones y molaridad en 1º Bachillerato: problemas resueltos"
 seoTitle: "Molaridad y disoluciones: ejercicios resueltos"
 date: 2026-11-05
@@ -37798,7 +37967,7 @@ La concentración baja porque el mismo soluto queda repartido en más volumen.
 4. \\(c_2=(2{,}0\\cdot50)/400=0{,}25\\text{ M}\\).
 
 La [guía de mol y estequiometría](/blog/bachillerato-fisica-quimica-mol-estequiometria/) explica las conversiones que se usan antes y después de una reacción. Para practicar química con ejercicios de tu nivel, consulta las [clases particulares de Química](/clases-particulares/quimica/).
-`,fo=`---
+`,bo=`---
 title: "Movimiento circular uniforme: ejercicios de 1º Bachillerato"
 seoTitle: "Movimiento circular uniforme: ejercicios resueltos"
 date: 2026-10-23
@@ -37858,7 +38027,7 @@ $$
 3. Hacia el centro de la trayectoria.
 
 En el [Campus de Método Nebula](/campus/) el movimiento circular se conecta con fuerzas, energía y representación vectorial mediante problemas graduados.
-`,xo=`---
+`,vo=`---
 title: "MRU en ESO: movimiento rectilíneo uniforme con fórmulas y ejercicios"
 seoTitle: "MRU en ESO: fórmulas, gráficas y ejercicios resueltos"
 date: "2026-08-12"
@@ -38093,7 +38262,7 @@ En MRU la trayectoria es recta y la velocidad es constante, así que $a=0$. Usa 
 Cuando la velocidad deja de ser constante, el modelo correcto pasa a ser el [MRUA: movimiento rectilíneo uniformemente acelerado](/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/). Para reforzar el método general de planteamiento, consulta también [cómo resolver problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/).
 
 Si necesitas practicar con ejercicios de tu curso, puedes consultar las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,bo=`---
+`,yo=`---
 title: "MRUA en ESO: movimiento rectilíneo acelerado con fórmulas y ejercicios"
 seoTitle: "MRUA en ESO: fórmulas, gráficas y ejercicios resueltos"
 date: "2026-08-19"
@@ -38309,7 +38478,7 @@ Sigue avanzando en el sentido inicial, pero más despacio.
 En MRUA la trayectoria es recta y la aceleración es constante. Usa $v=v_0+at$ para velocidades y $x=x_0+v_0t+\\frac12at^2$ para posiciones. En una gráfica $v-t$, la pendiente es la aceleración y el área es el desplazamiento.
 
 Para consolidar la base, repasa el [MRU con ejercicios](/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/) y el método de [plantear problemas de Física y Química](/blog/fisica-y-quimica-como-plantear-problemas/). Si necesitas practicar con tu temario, puedes consultar las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,vo=`---
+`,ho=`---
 title: "Multiplicadores de Lagrange: máximos y mínimos con restricciones"
 seoTitle: "Multiplicadores de Lagrange: extremos con restricciones y ejercicios"
 date: "2026-11-10"
@@ -38372,7 +38541,7 @@ junto con ambas ecuaciones de restricción. Antes de derivar, comprueba que las 
 - Ignorar extremos de frontera cuando la región los tiene.
 
 Para repasar gradiente y derivadas parciales, continúa con [derivadas parciales y gradiente](/blog/derivadas-parciales-gradiente-ejercicios/). En las [clases de Cálculo universitario](/clases-particulares/calculo-universitario/) se puede trabajar el planteamiento y la comprobación con el formato concreto de tu asignatura.
-`,yo=`---
+`,qo=`---
 title: "Normalización de bases de datos: 1FN, 2FN y 3FN con ejemplo completo"
 seoTitle: "Normalización de bases de datos: 1FN, 2FN y 3FN explicadas"
 date: "2026-11-10"
@@ -38430,10 +38599,10 @@ Supón que Asignatura guarda \`profesor_id\`, \`profesor_nombre\` y \`departamen
 Pregúntate qué sucede si cambias el profesor, añades un alumno sin matrícula o borras la última matrícula de una asignatura. Si el diseño obliga a actualizar muchas filas o hace desaparecer un hecho independiente, probablemente hay una dependencia mal ubicada.
 
 La normalización no sustituye a pensar en consultas, índices y uso real de los datos, pero da una base fiable para hacerlo. Continúa con [Python y SQL para empezar en datos](/blog/python-y-sql-para-empezar-en-datos/) o profundiza en la ruta de [Python, SQL y Data Engineering](/formacion-it/python-sql-data-engineering/).
-`,ho=`---
+`,_o=`---
 title: "Notación científica en 4 ESO: cómo operar y ejercicios resueltos"
 seoTitle: "Notación científica 4 ESO: ejercicios resueltos paso a paso"
-date: "2027-01-04"
+date: "2026-11-05"
 updated: "2026-11-10"
 description: "Aprende notación científica en 4 ESO con potencias de diez, operaciones, orden de magnitud, cifras significativas y ejercicios desarrollados."
 tag: "Matemáticas ESO"
@@ -38542,7 +38711,7 @@ El orden de magnitud aproxima una cantidad a la potencia de diez más representa
 - Dar un resultado sin unidad en un problema físico o químico.
 
 En el [Campus de Método Nebula](/campus/) este contenido se conecta con potencias, conversiones de unidades y problemas de Física y Química mediante explicaciones, ejemplos resueltos y práctica gradual. Así la notación científica deja de ser una regla aislada y se convierte en una herramienta para entender cantidades reales.
-`,qo=`---
+`,Eo=`---
 title: p-valor, intervalo de confianza y tamaño del efecto explicados con un mismo ejemplo
 date: 2026-07-10
 updated: 2026-07-10
@@ -38659,7 +38828,7 @@ Si te dan una salida de software, localiza:
 5. La frase de interpretación.
 
 Para evitar confusiones habituales, lee también [errores más comunes en Inferencia Estadística](/blog/errores-comunes-inferencia-estadistica/) y [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/).
-`,_o=`---
+`,Co=`---
 title: "Derivadas en Matemáticas CCSS PAU: coste marginal, beneficio y optimización con interpretación"
 seoTitle: "Derivadas CCSS PAU: coste, beneficio y optimización"
 date: "2026-08-18"
@@ -38783,7 +38952,7 @@ Compara cambios porcentuales, por lo que es adimensional. Su interpretación dep
 ## Convertir la visibilidad en preparación
 
 Las derivadas son el clúster con mayor tracción orgánica actual de Método Nebula. Este artículo amplía esa entrada hacia CCSS y economía; el campus virtual la conecta con funciones, matrices y programación lineal mediante ejercicios y modelos PAU. El botón de contacto permite acceder al itinerario completo y a la práctica corregida.
-`,Eo=`---
+`,jo=`---
 title: "Inferencia estadística en Matemáticas CCSS PAU: intervalos de confianza y tamaño muestral con sentido"
 seoTitle: "Inferencia estadística PAU: intervalos y tamaño muestral"
 date: "2026-10-02"
@@ -38907,7 +39076,7 @@ Comprueba las condiciones del modelo y expresa el resultado como proporción o p
 - Omitir unidades o contexto.
 
 El campus de Método Nebula reúne probabilidad, distribuciones, muestreo e inferencia con modelos PAU resueltos. Contacta para integrar fórmulas e interpretación en un plan de examen.
-`,Co=`---
+`,So=`---
 title: "Integrales en Matemáticas CCSS PAU: áreas, acumulación y aplicaciones económicas con sentido"
 seoTitle: "Integrales CCSS PAU: áreas y acumulación"
 date: "2026-08-13"
@@ -39027,7 +39196,7 @@ No es la media de los extremos salvo en funciones lineales. En contexto puede re
 ## Integrar el tema en la preparación CCSS
 
 El campus virtual de Método Nebula conecta derivadas, funciones marginales, integrales, matrices y optimización mediante teoría y modelos económicos. Incluye ejercicios graduados y exámenes PAU resueltos. El botón de contacto permite acceder al recorrido y practicar tanto el cálculo como la interpretación que exige la prueba.
-`,jo=`---
+`,Po=`---
 title: "Matrices en Matemáticas CCSS PAU: producción, costes y sistemas con interpretación económica"
 seoTitle: "Matrices CCSS PAU: producción, costes y sistemas"
 date: "2026-09-08"
@@ -39155,7 +39324,7 @@ Entonces $\\vec x_n=T^n\\vec x_0$. Antes de interpretar, comprueba si filas o co
 ## Del contexto a una solución defendible
 
 El campus virtual de Método Nebula trabaja matrices CCSS con modelos de producción, sistemas, programación lineal y probabilidad. Incluye teoría, ejercicios graduados y problemas PAU donde la interpretación cuenta tanto como la operación. El botón de contacto permite acceder al recorrido completo y practicar con corrección contextual.
-`,So=`---
+`,zo=`---
 title: "Matemáticas CCSS PAU: domina programación lineal y convierte enunciados en puntos"
 date: "2026-09-30"
 updated: "2026-10-28"
@@ -39255,7 +39424,7 @@ No es magia ni una regla sin motivo: es una propiedad de la geometría lineal.
 ¿Variables definidas? ¿Todas las restricciones traducidas? ¿Semiplanos verificados? ¿Vértices exactos? ¿Función objetivo evaluada? ¿Respuesta redactada con unidades? Si las seis respuestas son sí, el ejercicio está completo y el corrector puede seguir el razonamiento.
 
 El campus virtual de Método Nebula incluye Matemáticas CCSS con sistemas, representación, programación lineal, probabilidad e inferencia, organizados en teoría, ejemplos y práctica de examen. Si quieres dejar de depender de plantillas y aprender a modelizar, utiliza el botón de contacto.
-`,Po=`---
+`,Ao=`---
 title: "Convocatoria extraordinaria PAU: un plan de 30 días para remontar sin empezar de cero"
 seoTitle: "Convocatoria extraordinaria PAU: plan de 30 días"
 date: "2026-10-30"
@@ -39349,7 +39518,7 @@ Dormir no compite con el estudio: protege memoria de trabajo, lectura y control 
 La ventaja es disponer de evidencia real. Tu examen anterior revela el tipo de presión, las decisiones de tiempo y los contenidos que no se consolidaron. Utiliza esa evidencia para diseñar un plan más pequeño, más medible y más exigente en la práctica.
 
 El campus virtual de Método Nebula reúne teoría, ejercicios graduados, exámenes resueltos y rutas de recuperación para Matemáticas, Física y Química PAU. Desde el botón de contacto puedes enviar tus resultados y recibir una propuesta de 30 días centrada en los bloques que más puntos pueden devolverte, sin reiniciar todo el curso.
-`,zo=`---
+`,Lo=`---
 title: "Cómo corregir un simulacro de PAU para subir nota: el sistema que convierte fallos en un plan"
 date: "2026-10-27"
 updated: "2026-10-28"
@@ -39458,7 +39627,7 @@ No necesitas un paper completo cada día. Haz el siguiente cuando hayas trabajad
 El campus virtual de Método Nebula permite pasar del diagnóstico a la unidad concreta, revisar teoría, observar ejemplos, practicar, responder preguntas de examen y volver a medir. La ventaja no es acumular contenido; es conservar una ruta entre el fallo y la siguiente evidencia.
 
 Si tienes modelos corregidos pero no sabes convertirlos en un calendario, utiliza el botón de contacto. Podemos revisar objetivo, comunidad, asignaturas, fecha y punto de partida para proponer un recorrido realista.
-`,Ao=`---
+`,wo=`---
 title: "PAU, EBAU, EvAU o Selectividad: qué significa cada nombre y cómo encontrar tu modelo oficial"
 seoTitle: "PAU, EBAU, EvAU o Selectividad: diferencias y modelos"
 date: "2026-10-10"
@@ -39546,7 +39715,7 @@ donde $L$ representa exámenes locales, $A$ exámenes de estructura afín y $E$ 
 Una vez identificados los bloques, realiza un diagnóstico con un examen reciente, mide el porcentaje por apartado y asigna horas según frecuencia, debilidad y puntuación. El documento oficial deja de ser un archivo informativo y se convierte en el mapa de la preparación.
 
 El campus virtual de Método Nebula organiza los contenidos de PAU por materia y bloque, conecta cada explicación con ejercicios y exámenes resueltos y permite adaptar el itinerario al modelo oficial de cada alumno. Desde el botón de contacto puedes enviar tu comunidad, asignatura y convocatoria para construir una ruta precisa, sin estudiar a ciegas con materiales de otra prueba.
-`,Lo=`---
+`,Ho=`---
 title: "Campo eléctrico en PAU: cómo dominar potencial, trabajo y condensadores sin perder los signos"
 seoTitle: "Campo eléctrico PAU: potencial y condensadores"
 date: "2026-07-22"
@@ -39677,7 +39846,7 @@ Elegir la forma adecuada depende de qué magnitud permanece constante al cambiar
 ## Una ruta completa de electromagnetismo
 
 El campus virtual de Método Nebula conecta campo, potencial, energía, condensadores e inducción mediante teoría, ejercicios escalonados y exámenes PAU resueltos. El botón de contacto permite acceder a una ruta donde cada problema empieza con el diagrama de signos y termina con una comprobación física.
-`,Ho=`---
+`,Mo=`---
 title: "Campo gravitatorio PAU: 3 ejercicios resueltos de satélites, órbitas y energía"
 seoTitle: "Campo gravitatorio PAU: 3 ejercicios resueltos"
 date: "2026-10-02"
@@ -39870,7 +40039,7 @@ Hay que aportar energía. La energía final sigue siendo negativa porque el sat�
 Dibujo y radio → ley física → deducción simbólica → sustitución SI → unidades → interpretación. La deducción simbólica permite ver dependencias, detectar datos irrelevantes y conservar puntos aunque falle una operación numérica.
 
 El campus virtual de Método Nebula desarrolla campo gravitatorio, potencial, energía, satélites, órbitas y escape con teoría, demostraciones, ejercicios y problemas PAU. El botón de contacto permite solicitar una ruta centrada en el desarrollo matemático que conecta todo el bloque.
-`,wo=`---
+`,Do=`---
 title: "Física cuántica PAU: efecto fotoeléctrico y fotones para entender por qué existe una frecuencia umbral"
 seoTitle: "Efecto fotoeléctrico PAU: fórmula de Einstein y ejercicios"
 date: "2026-10-10"
@@ -39982,7 +40151,7 @@ asocia longitud de onda a partículas con momento. En preguntas PAU conviene dis
 - Usar $c=f\\lambda$ con la velocidad de un electrón.
 
 El campus virtual de Método Nebula desarrolla cuántica, relatividad y nuclear con teoría, gráficos y problemas PAU. Contacta para entrenar conversiones, modelos y explicaciones.
-`,Mo=`---
+`,Ro=`---
 title: "Electromagnetismo PAU: 3 ejercicios resueltos de campos, fuerzas e inducción"
 seoTitle: "Electromagnetismo PAU: 3 ejercicios resueltos"
 date: "2026-10-24"
@@ -40139,7 +40308,7 @@ El sentido se obtiene con Lenz: la corriente inducida crea un campo que intenta 
 Dibujo → vectores → ley física → módulo → dirección → comprobación de unidades. Para inducción añade: “qué hace variar el flujo”. Esta secuencia produce soluciones legibles y conserva puntuación parcial.
 
 El campus virtual de Método Nebula desarrolla electromagnetismo con fundamentos, ejemplos visuales, ejercicios y preguntas PAU. Si quieres convertir reglas sueltas en un mapa coherente y entrenable, utiliza el botón de contacto.
-`,Do=`---
+`,Bo=`---
 title: "Física PAU: el formulario razonado que conecta ecuaciones, unidades y comprobaciones"
 seoTitle: "Formulario razonado de Física PAU por bloques"
 date: "2026-10-20"
@@ -40251,7 +40420,7 @@ El control dimensional detecta conversiones, exponentes y ecuaciones mal recorda
 Tapa una columna y reconstruye su contenido. Después resuelve una pregunta y marca qué información faltaba. El formulario debe reducirse con la práctica: si crece indefinidamente, está sustituyendo al razonamiento.
 
 El campus virtual de Método Nebula conecta cada ley de Física PAU con su deducción, esquema, unidades, ejercicios graduados y exámenes resueltos. Desde el botón de contacto puedes solicitar una ruta por bloques para transformar un formulario pasivo en un sistema de resolución y comprobación que funcione bajo tiempo real.
-`,Ro=`---
+`,Oo=`---
 title: "Física PAU: cómo interpretar gráficas, datos experimentales e incertidumbre con rigor"
 seoTitle: "Gráficas e incertidumbre experimental en Física PAU"
 date: "2026-10-22"
@@ -40341,7 +40510,7 @@ La incertidumbre no debe expresarse con precisión artificial. Ajusta el valor a
 Termina siempre con tres elementos: magnitud obtenida, unidad y comparación física. Si la ordenada en el origen debería ser cero y no lo es, considera un error sistemático antes de atribuirlo al azar.
 
 El campus virtual de Método Nebula incluye análisis de datos, linealizaciones y preguntas experimentales dentro de cada bloque de Física PAU, con gráficas cuidadas y soluciones justificadas. El botón de contacto permite acceder a ejercicios graduados y simulacros donde cada pendiente, unidad e incertidumbre se interpreta como parte del modelo, no como un trámite gráfico.
-`,Bo=`---
+`,Uo=`---
 title: "Movimiento armónico simple en PAU: de la proyección circular a energía, velocidad y aceleración"
 seoTitle: "Movimiento armónico simple PAU: método y ejercicios"
 date: "2026-10-28"
@@ -40482,7 +40651,7 @@ En una gráfica $x(t)$, la pendiente representa $v$ y la concavidad determina el
 - Aplicar la fórmula del péndulo a amplitudes grandes sin justificar.
 
 El campus virtual de Método Nebula integra MAS y ondas con teoría, ejercicios graduados y problemas PAU. El contacto sirve para diagnosticar si el bloqueo está en la fase, las derivadas o la interpretación física.
-`,Oo=`---
+`,Io=`---
 title: "Física nuclear PAU: defecto de masa, energía de enlace y radiactividad con unidades bajo control"
 seoTitle: "Física nuclear PAU: defecto de masa y energía de enlace"
 date: "2026-10-06"
@@ -40610,7 +40779,7 @@ Ambas pueden liberar energía al producir núcleos con mayor energía de enlace 
 - Aplicar una disminución lineal a una ley exponencial.
 
 El campus de Método Nebula conecta estructura nuclear, decaimiento, energía de enlace y problemas PAU. Contacta para practicar balances y conversiones con corrección detallada.
-`,Uo=`---
+`,To=`---
 title: "Física PAU: domina ondas desde cero y convierte las fórmulas en puntos de examen"
 date: "2026-09-22"
 updated: "2026-10-28"
@@ -40715,7 +40884,7 @@ Una respuesta de calidad indica qué se conserva, qué cambia y por qué.
 Resuelve una pregunta de lectura de gráfica, otra de ecuación de onda, una de interferencia y una de energía o intensidad. Dos días después mézclalas sin encabezado. Finalmente intégralas en un modelo cronometrado de tu comunidad y corrige con su criterio oficial.
 
 El campus virtual de Método Nebula desarrolla fundamentos, movimiento armónico, ondas y óptica mediante teoría, ejemplos, ejercicios y preguntas de examen. Si quieres convertir este bloque en una fuente estable de puntos, utiliza el botón de contacto para diagnosticar el punto de partida y construir el recorrido.
-`,Io=`---
+`,ko=`---
 title: "Óptica geométrica PAU: 3 ejercicios resueltos de lentes, espejos y signos"
 seoTitle: "Óptica PAU: 3 ejercicios resueltos de lentes y espejos"
 date: "2026-10-23"
@@ -40850,7 +41019,7 @@ La imagen es real, invertida y mide la mitad que el objeto. El diagrama de rayos
 - Corregir signos “al final” en vez de mantener un convenio.
 
 El campus de Método Nebula desarrolla ondas y óptica con diagramas, ecuaciones y ejercicios PAU. Contacta si necesitas convertir el convenio de signos en un procedimiento verificable.
-`,To=`---
+`,No=`---
 title: "Relatividad especial en Física PAU: dilatación temporal, contracción y energía sin paradojas"
 seoTitle: "Relatividad especial PAU: tiempo, longitud y energía"
 date: "2026-09-27"
@@ -40955,7 +41124,7 @@ La respuesta PAU debe especificar observador, sucesos y magnitud propia. Frases 
 ## Entrenar el bloque, no una sola fórmula
 
 En el campus virtual de Método Nebula, relatividad se trabaja junto con cuántica y nuclear mediante teoría conectada, ejemplos progresivos y problemas PAU completos. El objetivo es decidir el sistema de referencia antes de sustituir. El botón de contacto permite acceder a una ruta que combina diagnóstico, práctica y exámenes resueltos.
-`,No=`---
+`,Fo=`---
 title: "Matemáticas CCSS PAU: probabilidad condicionada y Bayes sin confundir los sucesos"
 seoTitle: "Probabilidad condicionada y Bayes en PAU CCSS"
 date: "2026-10-17"
@@ -41054,7 +41223,7 @@ La tabla y el árbol deben producir exactamente el mismo resultado. Utilizar amb
 El denominador de Bayes debe ser al menos tan grande como el numerador porque contiene ese camino y posiblemente otros. El resultado debe estar entre 0 y 1. Además, todas las hojas del árbol deben sumar 1.
 
 El campus virtual de Método Nebula desarrolla probabilidad condicionada, árboles, tablas, teorema de la probabilidad total, Bayes y distribuciones con ejercicios graduados y modelos PAU resueltos. El botón de contacto permite acceder a una ruta que empieza por traducir el lenguaje y termina con problemas cronometrados, para que la fórmula nunca sustituya a la comprensión del suceso.
-`,ko=`---
+`,Vo=`---
 title: "Derivabilidad con parámetros en PAU: continuidad, derivadas laterales y tangentes sin saltos lógicos"
 seoTitle: "Derivabilidad con parámetros PAU: método completo"
 date: "2026-09-13"
@@ -41188,7 +41357,7 @@ Una vez determinada la derivabilidad, el signo de $f'$ estudia crecimiento y dec
 ## Ampliar el clúster de mayor demanda
 
 Las consultas sobre derivadas concentran la mayor visibilidad orgánica actual de la web. Este artículo cubre una intención más avanzada y específica, mientras el campus virtual convierte esa entrada en un recorrido de continuidad, derivadas, representación y optimización. Incluye teoría, ejercicios escalonados y modelos PAU; el botón de contacto permite acceder al itinerario completo.
-`,Fo=`---
+`,Go=`---
 title: "Geometría métrica PAU: distancias, ángulos y posiciones relativas sin memorizar fórmulas sueltas"
 seoTitle: "Geometría métrica PAU: distancias y ángulos"
 date: "2026-09-10"
@@ -41319,7 +41488,7 @@ Este procedimiento es más seguro que intentar recordar una fórmula larga de co
 ## De la fórmula al modelo de examen
 
 El campus virtual de Método Nebula conecta vectores, rectas, planos, sistemas y geometría métrica con ejercicios visuales y modelos PAU resueltos. La práctica obliga a justificar cada vector y cada perpendicularidad. El botón de contacto permite acceder al recorrido completo y trabajar los problemas con corrección paso a paso.
-`,Vo=`---
+`,Qo=`---
 title: "Matemáticas II PAU: cómo repartir 90 minutos y elegir los ejercicios correctos"
 seoTitle: "Matemáticas II PAU: estrategia para 90 minutos"
 date: "2026-10-12"
@@ -41408,7 +41577,7 @@ Sustituye las soluciones cuando sea posible. En una integral definida, estima el
 Una planificación temporal no se estrena el día de la prueba. Realiza simulacros y registra tiempo planificado, tiempo real, puntos y motivo de cada desvío. Tras varias pruebas aparecerá tu patrón: lentitud algebraica, exceso de revisión temprana o mala elección inicial.
 
 El campus virtual de Método Nebula reúne teoría, ejercicios graduados y exámenes PAU resueltos con indicaciones de tiempo y criterios de corrección. El botón de contacto permite solicitar un diagnóstico para elegir una estrategia de 90 minutos basada en tus bloques fuertes, tus errores recurrentes y el modelo oficial que vas a realizar.
-`,Go=`---
+`,Ko=`---
 title: "Matemáticas II PAU: 15 errores que restan puntos aunque conozcas el temario"
 seoTitle: "15 errores frecuentes en Matemáticas II PAU"
 date: "2026-10-15"
@@ -41520,7 +41689,7 @@ No intentes revisar quince elementos en cada línea. Asigna una comprobación a 
 Después de cada simulacro, cuenta errores por categoría. Si un tipo aparece tres veces, crea una tarjeta con un ejemplo y una prueba de control. El objetivo es que el fallo active automáticamente su comprobación.
 
 El campus virtual de Método Nebula trabaja estos errores con desarrollos completos, ejercicios equivalentes y exámenes PAU comentados. Desde el botón de contacto puedes enviar un simulacro corregido y organizar una ruta que no se limite a repetir teoría: identifica dónde se pierden puntos y entrena la comprobación exacta que los recupera.
-`,Qo=`---
+`,Wo=`---
 title: "Matemáticas II PAU: domina vectores, rectas y planos sin memorizar veinte fórmulas"
 date: "2026-09-27"
 updated: "2026-10-28"
@@ -41644,7 +41813,7 @@ Pero no uses esta fórmula para cualquier distancia. Punto–recta, rectas paral
 Alterna ejercicios de construcción, posición relativa, ángulos y distancias. Luego resuelve una pregunta que combine dos partes: por ejemplo, hallar un plano y medir una distancia. Finalmente incluye el bloque en un modelo PAU con tiempo real.
 
 El campus virtual de Método Nebula desarrolla Matemáticas II desde vectores y sistemas hasta rectas, planos y geometría métrica, con ejemplos y preguntas de examen. Si quieres ordenar este bloque según los errores que realmente cometes, el botón de contacto permite iniciar el diagnóstico.
-`,Ko=`---
+`,Jo=`---
 title: "Integrales PAU: ejercicios resueltos de áreas, signos y parámetros"
 seoTitle: "Integrales PAU: áreas, signos y ejercicios resueltos"
 date: "2026-10-14"
@@ -41777,7 +41946,7 @@ Una buena presentación incluye ecuación de cortes, orden de las funciones, int
 - Perder signos al evaluar el extremo inferior.
 
 El campus de Método Nebula incluye teoría, métodos de integración, áreas y modelos PAU resueltos paso a paso. Contacta para organizar el bloque según tu comunidad y nota objetivo.
-`,Wo=`---
+`,Xo=`---
 title: "Límites y asíntotas en Matemáticas II PAU: cómo decidir el método antes de calcular"
 seoTitle: "Límites y asíntotas PAU: método paso a paso"
 date: "2026-09-18"
@@ -41890,7 +42059,7 @@ Los límites determinan dominio extendido, ramas y asíntotas. Después se combi
 ## Aprovechar el clúster que ya funciona
 
 Los límites y las derivadas son ya una de las puertas de entrada orgánica más fuertes de Método Nebula. En el campus virtual, esta explicación se conecta con continuidad, representación, derivabilidad e integrales mediante ejercicios graduados y modelos PAU. El botón de contacto permite pasar de artículos sueltos a un itinerario completo con exámenes resueltos.
-`,Jo=`---
+`,Zo=`---
 title: "Matrices y determinantes en PAU: cuándo usar inversa, Gauss o propiedades sin hacer cuentas de más"
 date: "2026-10-25"
 updated: "2026-10-25"
@@ -42025,7 +42194,7 @@ El rango es el número de filas no nulas tras escalonar, o el orden máximo de u
 Inversa para despejar una ecuación matricial invertible; Gauss para sistemas y rangos; determinantes para invertibilidad, parámetros y simplificación; Cramer para sistemas pequeños cuando se pide explícitamente o resulta muy directo.
 
 El campus virtual de Método Nebula desarrolla matrices, determinantes, rango, inversa, Gauss, Cramer y sistemas con parámetros mediante teoría y ejercicios PAU. El botón de contacto permite solicitar una ruta para elegir el método con criterio y justificar cada operación.
-`,Xo=`---
+`,Yo=`---
 title: "Probabilidad y distribuciones PAU: ejercicios resueltos de binomial y normal"
 seoTitle: "Probabilidad PAU: ejercicios resueltos de binomial y normal"
 date: "2026-10-17"
@@ -42147,7 +42316,7 @@ El intervalo está centrado en la media y se extiende una desviación típica a 
 Variable → modelo → suceso → cálculo → comprobación → frase final. Escribe las seis etapas incluso cuando la calculadora haga la operación central. El corrector debe ver por qué ese resultado responde a esa pregunta.
 
 El campus virtual de Método Nebula desarrolla probabilidad, distribuciones y preparación de examen con teoría, ejemplos, ejercicios y simulación. Si quieres identificar si pierdes puntos por modelo, lenguaje o cálculo, utiliza el botón de contacto.
-`,Zo=`---
+`,ei=`---
 title: "Sistemas con parámetro PAU: ejercicios resueltos de Rouché–Frobenius y rangos"
 seoTitle: "Sistemas con parámetro PAU: ejercicios resueltos"
 date: "2026-10-10"
@@ -42306,7 +42475,7 @@ Esta interpretación ayuda a revisar el resultado. Si el sistema tiene tres inc�
 La discusión completa sigue una estructura verificable: matriz $A$ y ampliada → determinante o menores → valores críticos → caso general → sustitución de cada valor crítico → rangos → clasificación → resolución. Esta secuencia separa la justificación algebraica de la obtención posterior de soluciones.
 
 El campus virtual de Método Nebula desarrolla matrices, determinantes, Gauss, Rouché–Frobenius y discusión con parámetros mediante teoría y problemas PAU graduados. El botón de contacto permite solicitar una ruta para construir discusiones completas y verificables.
-`,Yo=`---
+`,ai=`---
 title: "Ácido-base y pH PAU: ejercicios resueltos de neutralización y equilibrio"
 seoTitle: "Ácido-base PAU: ejercicios resueltos de pH"
 date: "2026-10-02"
@@ -42430,7 +42599,7 @@ El indicador debe cambiar de color dentro del salto de pH relevante, no simpleme
 Alterna un ácido fuerte, uno débil, una neutralización y una valoración. En cada ejercicio escribe la ruta antes de calcular. Después mezcla ácido-base con equilibrio y estequiometría, como ocurre en preguntas de PAU.
 
 El campus virtual de Método Nebula desarrolla ácido-base desde especies y equilibrio hasta valoraciones y preguntas de examen, con ejemplos, ejercicios y errores comunes. Si quieres saber qué parte de la cadena falla y practicarla en orden, utiliza el botón de contacto.
-`,ei=`---
+`,ni=`---
 title: "Cinética química PAU: cómo interpretar órdenes, Arrhenius y mecanismos de reacción"
 seoTitle: "Cinética química PAU: órdenes y Arrhenius"
 date: "2026-07-18"
@@ -42546,7 +42715,7 @@ En un perfil energético, cambia la altura de la barrera, no la diferencia entre
 ## Convertir datos cinéticos en razonamiento
 
 El campus virtual de Método Nebula enlaza cinética, termoquímica y equilibrio mediante tablas experimentales, gráficos y problemas PAU resueltos. El botón de contacto permite acceder a una ruta con ejercicios por niveles para aprender a extraer la ley antes de introducir números.
-`,ai=`---
+`,oi=`---
 title: "Enlace químico PAU: geometría molecular, polaridad y fuerzas intermoleculares con una sola lógica"
 seoTitle: "Geometría molecular y polaridad PAU: VSEPR, Lewis y ejercicios"
 date: "2026-09-25"
@@ -42634,7 +42803,7 @@ Una comparación completa menciona tipo de partícula, fuerza dominante y energ�
 ## Convertir el mapa en respuestas PAU
 
 El campus virtual de Método Nebula enlaza estructura atómica, enlace, periodicidad y orgánica en una secuencia común. Incluye teoría, ejercicios de Lewis, comparaciones de propiedades y modelos PAU resueltos con el nivel de justificación exigido. El botón de contacto permite entrar en una ruta donde cada respuesta se corrige por razonamiento, no solo por resultado.
-`,ni=`---
+`,ii=`---
 title: "Equilibrio químico PAU: ejercicios resueltos con Kc, Q y Le Châtelier"
 seoTitle: "Equilibrio químico PAU: ejercicios resueltos"
 date: "2026-09-25"
@@ -42756,7 +42925,7 @@ Son preguntas frecuentes porque obligan a razonar más allá de una regla memori
 Entrena cuatro formatos: escribir $K$, comparar $Q$ y $K$, resolver una tabla y justificar una perturbación. Después mezcla equilibrio con cinética, termoquímica o ácido-base. En PAU los bloques pueden conectarse y la elección del método cuenta tanto como el cálculo.
 
 El campus virtual de Método Nebula organiza Química PAU desde fundamentos hasta cinética y equilibrio, con ejemplos guiados, ejercicios, preguntas de examen y errores comunes. Si quieres detectar qué decisión falla y convertirla en una secuencia de práctica, utiliza el botón de contacto.
-`,oi=`---
+`,ri=`---
 title: "Estequiometría PAU: gases, disoluciones y reactivo limitante con un mapa que evita atajos"
 seoTitle: "Estequiometría PAU: gases, disoluciones y moles"
 date: "2026-09-20"
@@ -42890,7 +43059,7 @@ Esta igualdad no se aplica a una reacción química que consume soluto. Si se me
 ## Del cálculo aislado al dominio de química
 
 El campus virtual de Método Nebula trabaja esta misma ruta en problemas de gases, valoraciones, equilibrio, electroquímica y termoquímica. Incluye teoría, ejercicios por niveles y modelos PAU completos para que las conversiones se conviertan en un procedimiento estable. El botón de contacto da acceso al itinerario y a la práctica corregida.
-`,ii=`---
+`,si=`---
 title: "Estructura atómica PAU: configuraciones electrónicas, números cuánticos y periodicidad sin contradicciones"
 seoTitle: "Estructura atómica PAU: configuración y números cuánticos"
 date: "2026-10-04"
@@ -43014,7 +43183,7 @@ La carga nuclear efectiva y el apantallamiento explican tendencias de radio, ene
 - Explicar tendencias solo con “hay más protones”, ignorando distancia y apantallamiento.
 
 El campus de Método Nebula desarrolla estructura atómica, enlace y periodicidad mediante teoría y problemas PAU. Contacta para convertir configuraciones y justificaciones en un procedimiento coherente.
-`,ri=`---
+`,ti=`---
 title: "Química PAU: laboratorio, rendimiento, pureza y análisis de errores en un mismo problema"
 seoTitle: "Rendimiento, pureza y errores de laboratorio en PAU"
 date: "2026-10-27"
@@ -43136,7 +43305,7 @@ Relaciona instrumento y función. Una balanza mide masa; una pipeta aforada tran
 Verifica conservación de átomos, unidades, reactivo limitante y sentido de los porcentajes. Si el rendimiento es menor que 100 %, la masa real debe ser menor que la teórica. Si la pureza disminuye manteniendo la masa comercial, disminuyen los moles reactivos.
 
 El campus virtual de Método Nebula integra estequiometría, disoluciones y laboratorio con problemas encadenados, esquemas y exámenes PAU resueltos. El botón de contacto permite acceder a una ruta donde pureza, reactivo limitante y rendimiento dejan de ser fórmulas separadas y se convierten en un único razonamiento verificable.
-`,si=`---
+`,ci=`---
 title: "Química orgánica PAU: ejercicios resueltos de reacciones, isomería y síntesis"
 seoTitle: "Química orgánica PAU: ejercicios resueltos"
 date: "2026-10-17"
@@ -43291,7 +43460,7 @@ Una respuesta rigurosa incluye:
 - Escribir el polímero conservando el doble enlace del monómero.
 
 El campus virtual de Método Nebula desarrolla nomenclatura, isomería y un mapa completo de adición, eliminación, sustitución, oxidación, esterificación y polimerización con problemas PAU. El botón de contacto permite solicitar una ruta para reconstruir transformaciones a partir de la estructura.
-`,ti=`---
+`,li=`---
 title: "Electroquímica PAU: cómo resolver pilas, potenciales y reacciones redox sin perder los signos"
 date: "2026-09-25"
 updated: "2026-09-25"
@@ -43413,7 +43582,7 @@ El cálculo de $E^\\circ_{\\text{pila}}$ cierra la parte energética. La represe
 - Decir que una reacción es espontánea sin relacionarlo con el signo de $E^\\circ$.
 
 El campus virtual de Método Nebula desarrolla números de oxidación, ajuste ion-electrón, pilas, potenciales, electrólisis y leyes de Faraday con ejercicios progresivos y modelos de examen. El botón de contacto permite acceder a una ruta centrada en el razonamiento completo, sin depender de reglas aisladas.
-`,ci=`---
+`,di=`---
 title: "Equilibrios de solubilidad PAU: cómo usar Kps, predecir precipitados y resolver el ion común"
 seoTitle: "Kps y solubilidad PAU: precipitación, Q y ejercicios"
 date: "2026-07-20"
@@ -43531,7 +43700,7 @@ Los problemas de precipitación selectiva comparan el pH o la concentración de 
 ## Integrar solubilidad con equilibrio y ácido-base
 
 El campus virtual de Método Nebula conecta $K_{ps}$ con equilibrio, pH, estequiometría y análisis químico mediante teoría, ejercicios graduados y modelos PAU resueltos. El botón de contacto permite acceder a una ruta que entrena tanto la tabla de equilibrio como la decisión química final.
-`,li=`---
+`,ui=`---
 title: "Termoquímica PAU: ley de Hess, entalpías y signos sin perder energía por el camino"
 seoTitle: "Termoquímica PAU: ley de Hess, entalpías y signos"
 date: "2026-10-18"
@@ -43659,7 +43828,7 @@ No todas las discrepancias se arreglan diciendo “pérdida de calor”. Una com
 - Dar el calor total cuando piden entalpía molar.
 
 El campus virtual de Método Nebula conecta termoquímica, equilibrio y espontaneidad mediante teoría y problemas PAU. El botón de contacto permite trabajar el razonamiento y no solo la tabla de datos.
-`,di=`---
+`,mi=`---
 title: "Química PAU: volumetrías ácido-base y redox paso a paso, sin fórmulas automáticas"
 seoTitle: "Volumetrías ácido-base y redox en Química PAU"
 date: "2026-10-25"
@@ -43770,7 +43939,7 @@ En algunas valoraciones redox, el propio reactivo actúa como indicador; en otra
 - Describir un color sin explicar qué marca.
 
 El campus virtual de Método Nebula conecta equilibrio ácido-base, redox, estequiometría y técnicas de laboratorio con ejercicios graduados y modelos PAU resueltos. Desde el botón de contacto puedes acceder a una ruta donde cada volumetría se construye desde la reacción y se comprueba con unidades, proporciones y procedimiento experimental.
-`,ui=`---
+`,$i=`---
 title: "Plano inclinado con y sin rozamiento: ejercicios resueltos de 1º Bachillerato"
 seoTitle: "Plano inclinado: ejercicios con y sin rozamiento"
 date: 2026-11-05
@@ -43906,7 +44075,7 @@ Si la primera no supera al máximo rozamiento estático, el bloque puede permane
 4. \\(a=(20-2\\cdot9{,}8\\sin45^\\circ)/2\\approx3{,}07\\text{ m/s}^2\\), cuesta arriba.
 
 Antes de resolver problemas más largos, practica los [diagramas de cuerpo libre](/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes/) y las [leyes de Newton en ESO](/blog/eso-fisica-quimica-leyes-newton-dinamica/). Para apoyo individualizado, consulta las [clases particulares de Física](/clases-particulares/fisica-ingenieria/).
-`,mi=`---
+`,pi=`---
 title: "Preparar la PAU 2027 desde enero: calendario realista para llegar con práctica"
 seoTitle: "Preparar la PAU 2027 desde enero: calendario y plan de estudio"
 date: "2026-11-10"
@@ -43971,7 +44140,7 @@ Deja huecos reales. Si cada tarde está ocupada, el calendario se rompe en cuant
 El [Campus](/campus/) puede servirte como estructura entre clases: teoría clara, práctica graduada y resolución razonada. Para Matemáticas, el [plan de preparación de Selectividad](/preparacion-examenes/matematicas-selectividad/) organiza los bloques, los modelos y la corrección.
 
 Las fechas, modelos y criterios de la convocatoria 2027 deben verificarse con tu comunidad autónoma cuando estén disponibles. Mientras tanto, puedes empezar la parte que más determina el resultado: construir una rutina que convierta cada error en una práctica concreta.
-`,$i=`---
+`,gi=`---
 title: Preparar la PAU desde verano: plan realista para llegar fuerte a septiembre
 date: 2026-07-21
 updated: 2026-07-21
@@ -44033,7 +44202,7 @@ También conviene evitar convertir el verano en una repetición del curso. Desca
 Al terminar deberías poder nombrar tus tres bloqueos prioritarios, resolver mejor los ejercicios básicos que en la primera semana y tener un sistema de corrección. No hace falta llegar sabiendo todo el temario de PAU; hace falta que el aprendizaje de septiembre no se apoye en terreno inestable.
 
 Cuando empiece el curso, continúa con [un calendario de Selectividad que se pueda cumplir](/blog/preparar-selectividad-con-calendario/) y usa los modelos oficiales de tu comunidad. Si quieres priorizar asignaturas, nota objetivo y fechas de forma realista, puedes consultar las [clases para Selectividad y PAU](/clases-particulares/selectividad/).
-`,pi=`---
+`,fi=`---
 title: Preparar la Selectividad con un calendario que sí se cumple
 date: 2026-06-07
 updated: 2026-06-07
@@ -44102,7 +44271,7 @@ El calendario debe tener colchón. Si no hay huecos, se romperá el primer día 
 En Nebula el calendario se construye con asignaturas, nota objetivo, fechas y punto de partida. Después se revisa semanalmente para ajustar prioridades.
 
 Si necesitas preparar PAU, Matemáticas, Física, Química u otra materia con un plan medible, revisa [clases particulares para Selectividad y PAU](/clases-particulares/selectividad/) o [reserva un diagnóstico](/contacto/).
-`,gi=`---
+`,xi=`---
 title: Tu primer proyecto de Python para datos: qué hacer antes de aprender más librerías
 date: 2026-07-21
 updated: 2026-07-21
@@ -44171,7 +44340,7 @@ También es importante separar trabajo propio y código reutilizado. Si consulta
 Termina cuando otra persona pueda abrir el cuaderno, entender la pregunta, ejecutar las celdas y llegar a la misma conclusión. Si todavía quieres añadir una sexta visualización o una predicción, guárdala para una versión dos. Acabar y explicar un proyecto breve vale más que dejar varios a medias.
 
 Si estás decidiendo qué aprender antes, empieza por la guía [Python y SQL para empezar en datos](/blog/python-y-sql-para-empezar-en-datos/). Para trabajar Python desde la base o conectar el proyecto con una asignatura, revisa las [clases particulares de Programación](/clases-particulares/programacion-universidad/).
-`,fi=`---
+`,bi=`---
 title: Probabilidad condicionada y teorema de Bayes: problemas universitarios resueltos
 date: 2026-06-27
 updated: 2026-06-27
@@ -44329,7 +44498,7 @@ Sigue siempre estos pasos:
 5. Interpreta el resultado en el contexto.
 
 Si estás preparando Estadística, también puedes leer [Estadística desde cero para elegir contrastes](/blog/estadistica-desde-cero-para-elegir-contrastes/) o revisar la página de [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,xi=`---
+`,vi=`---
 title: Problemas de optimización con derivadas: ejercicios resueltos
 date: 2026-09-05
 updated: 2026-09-05
@@ -44958,7 +45127,7 @@ Una respuesta queda cerrada cuando recupera todas las variables originales, demu
 Si el modelo admite solo valores enteros, compara los enteros cercanos al óptimo continuo. Si el dominio es abierto o infinito, estudia sus fronteras mediante límites antes de afirmar que el mejor valor se alcanza.
 
 Si necesitas practicar modelización y comprobación sobre problemas de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,bi=`---
+`,yi=`---
 title: "Proporcionalidad directa e inversa en 2º ESO: problemas resueltos"
 seoTitle: "Proporcionalidad directa e inversa 2º ESO: ejercicios"
 date: 2026-11-01
@@ -45037,7 +45206,7 @@ Distancia y tiempo solo son inversamente proporcionales si la distancia es fija 
 3. Inversos: a mayor velocidad, menor tiempo.
 
 En el [Campus de Método Nebula](/campus/) la proporcionalidad se conecta con porcentajes, escalas, unidades y funciones para que puedas elegir el modelo correcto antes de calcular.
-`,vi=`---
+`,hi=`---
 title: Python y SQL para empezar en datos: qué aprender primero
 date: 2026-06-01
 updated: 2026-06-01
@@ -45115,7 +45284,7 @@ No midas el progreso por horas de vídeo. Mídelo por entregables:
 Esa evidencia es la que convierte el estudio en una base profesional.
 
 Para acompañar esta base puedes revisar [clases particulares de Programación desde cero](/clases-particulares/programacion-universidad/) o leer la ruta de [transición al sector IT en 6 meses](/blog/transicion-al-sector-it-en-6-meses/).
-`,yi=`---
+`,qi=`---
 title: Qué prueba estadística utilizar: guía para elegir el test correcto
 date: 2026-07-09
 updated: 2026-11-05
@@ -45325,7 +45494,7 @@ No. Responden bajo marcos distintos. La elección depende de la pregunta y de la
 El software calcula, pero no conoce tu diseño ni tu pregunta. La decisión debe estar razonada antes de seleccionar un menú.
 
 Para practicar la interpretación, continúa con [p-valor, intervalo de confianza y tamaño del efecto](/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/) o revisa las [clases de Estadística para Psicología, ADE y Ciencias Sociales](/clases-particulares/estadistica-psicologia-ade/).
-`,hi=`---
+`,_i=`---
 title: Qué son las derivadas y para qué se utilizan
 seoTitle: "Qué son las derivadas: definición, para qué sirven y ejemplos"
 date: 2026-06-19
@@ -45444,7 +45613,7 @@ Si solo practicas reglas, cualquier enunciado nuevo parece distinto. Si entiende
 En Matemáticas II, una derivada suele ser el comienzo del razonamiento, no el final: hay que usarla para estudiar crecimiento, extremos, curvatura o una situación de optimización y justificar cada decisión. Cuando la técnica básica ya es segura, practica preguntas de modelo con tiempo y corrige el primer paso que te hizo desviarte. El [itinerario de Matemáticas para Selectividad 2027](/preparacion-examenes/matematicas-selectividad/) reúne esa práctica por bloques, simulacros y exámenes resueltos.
 
 Puedes continuar con [qué son las integrales y para qué se utilizan](/blog/que-son-las-integrales-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,qi=`---
+`,Ei=`---
 title: Qué son las integrales y para qué se utilizan
 seoTitle: "Qué son las integrales: para qué sirven, tipos y ejemplos"
 date: 2026-06-21
@@ -45558,7 +45727,7 @@ En PAU, una integral puede pedir una primitiva, un área o la interpretación de
 El paso siguiente es distinguir con claridad la [integral definida de la indefinida](/blog/integral-definida-e-indefinida-diferencias-ejemplos/) y aprender a reconocer la estructura del integrando. La guía de [métodos de integración y elección de técnica](/blog/metodos-de-integracion-como-elegir/) organiza ese diagnóstico; después puedes profundizar en [fracciones parciales](/blog/integrales-funciones-racionales-fracciones-parciales/) y aplicar la integral definida al [área entre dos curvas](/blog/area-entre-dos-curvas-ejercicios-resueltos/).
 
 Puedes leer también [qué son las derivadas y para qué se utilizan](/blog/que-son-las-derivadas-y-para-que-se-utilizan/) o revisar [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,_i=`---
+`,Ci=`---
 title: "Examen resuelto de Química: junio de 2023 · modelo 1"
 seoTitle: "Examen resuelto de Química: junio de 2023"
 date: "2026-11-05"
@@ -45977,7 +46146,7 @@ $$V=\\frac{nRT}{P}=\\frac{0,224\\cdot0,082\\cdot298}{1}\\approx\\boxed{5,47\\ \\
 Comprobación rápida: al usar la misma intensidad en ambos apartados, la masa de cloro que vuelve a salir de la ley de Faraday coincide con el dato inicial. Es una buena señal de que las unidades y la especie química se han usado bien.
 
 ---
-`,Ei=`---
+`,ji=`---
 title: "Examen resuelto de Química: junio de 2023 · modelo 2"
 seoTitle: "Examen resuelto de Química: junio de 2023 · modelo 2"
 date: "2026-11-05"
@@ -46378,7 +46547,7 @@ $$K_p=K_cRT\\approx0,577\\cdot0,082\\cdot1200\\approx56,8.$$
 **Resultado:** $m(\\mathrm{CO})\\approx13,75$ g, $m(\\mathrm C)\\approx8,05$ g, $\\alpha\\approx26,8\\%$, $K_c\\approx0,577$ y $K_p\\approx56,8$.
 
 ---
-`,Ci=`---
+`,Si=`---
 title: "Examen resuelto de Química: junio de 2023 · modelo 3"
 seoTitle: "Examen resuelto de Química: junio de 2023 · modelo 3"
 date: "2026-11-05"
@@ -46741,7 +46910,7 @@ Es una **esterificación**.
 **b4)** $\\mathrm{Ca(HCO_3)_2}$: hidrogenocarbonato de calcio.
 
 ---
-`,ji=`---
+`,Pi=`---
 title: "Examen resuelto de Química: junio de 2023 · modelo 4"
 seoTitle: "Examen resuelto de Química: junio de 2023 · modelo 4"
 date: "2026-11-05"
@@ -47086,7 +47255,7 @@ $$\\%\\,\\mathrm{CaS}=\\frac{30,24}{35}\\cdot100\\approx86,4\\%.$$
 **Resultado:** la muestra tiene una riqueza de **86,4 % en CaS**.
 
 ---
-`,Si=`---
+`,zi=`---
 title: "Examen resuelto de Química: septiembre de 2018 · modelo 1"
 seoTitle: "Examen resuelto de Química: septiembre de 2018"
 date: "2026-11-05"
@@ -47315,7 +47484,7 @@ $$k=\\frac{v}{[A][B]^2}=\\frac{2,32\\cdot10^{-3}}{0,1\\cdot0,2^2}=0,58\\ \\mathr
 a) Si al aumentar la concentración de A al doble la velocidad se incrementa en una potencia de 2: 21, 22, etc, en el caso propuesto al doble, es decir, 21, el exponente de la potencia es el orden de reacción respecto al reactivo A, en este supuesto es 1; del mismo modo, si se incrementa la concentración de B al triple, y la velocidad crece en una potencia de 3: 31, 32, 33, etc, el orden de reacción respecto al reactivo B es el exponente de la potencia, y como en este supuesto la velocidad se hace nueve veces mayor, el orden de reacción de B es 2, es decir, 32.
 
 ---
-`,Pi=`---
+`,Ai=`---
 title: "Examen resuelto de Química: septiembre de 2022 · modelo 1"
 seoTitle: "Examen resuelto de Química: septiembre de 2022"
 date: "2026-11-05"
@@ -47684,7 +47853,7 @@ $$V=\\frac{nRT}{P}=\\frac{0,01265\\cdot0,082\\cdot298}{700/760}\\approx0,336\\ \
 a) A partir de la ecuación deducida de las leyes de Faraday, se obtiene la masa de calcio que se deposita en el cátodo a la intensidad de corriente y tiempo indicados.
 
 ---
-`,zi=`---
+`,Li=`---
 title: "Examen resuelto de Química: septiembre de 2023 · modelo 1"
 seoTitle: "Examen resuelto de Química: septiembre de 2023"
 date: "2026-11-05"
@@ -48042,7 +48211,7 @@ $$V=\\frac{nRT}{P}=\\frac{50\\cdot0,082\\cdot298}{1}\\approx1\\,222\\ \\mathrm L
 **Resultado:** se liberan alrededor de **1222 L de dióxido de carbono**.
 
 ---
-`,Ai=`---
+`,wi=`---
 title: "Examen resuelto de Química: septiembre de 2023 · modelo 2"
 seoTitle: "Examen resuelto de Química: septiembre de 2023 · modelo 2"
 date: "2026-11-05"
@@ -48434,7 +48603,7 @@ Como la dependencia con $s$ es distinta, la solubilidad molar no tiene por qué 
 b) Falsa. El equilibrio de solubilidad del MgF2 es: MgF2 (s) ⇄ Mg2+ (ac) + 2 F– (ac), y al añadir NaF, se están añadiendo iones fluoruro (F–), lo que incrementa la concentración de estos iones, por lo que, según el principio de Le Chatelier, el equilibrio se desplaza en el sentido en el que se consumen dichos iones, hacia la izquierda, provocando una disminución de la solubilidad del MgF2.
 
 ---
-`,Li=`---
+`,Hi=`---
 title: "Examen resuelto de Química: septiembre de 2023 · modelo 3"
 seoTitle: "Examen resuelto de Química: septiembre de 2023 · modelo 3"
 date: "2026-11-05"
@@ -48853,7 +49022,7 @@ $$\\mathrm{CH_3COOH+HOCH_2CH_2CH_2CH_3\\rightleftharpoons CH_3COOCH_2CH_2CH_2CH_
 $$\\mathrm{2C_2H_2+5O_2\\longrightarrow4CO_2+2H_2O}.$$
 
 ---
-`,Hi=`---
+`,Mi=`---
 title: "Examen resuelto de Química: septiembre de 2023 · modelo 4"
 seoTitle: "Examen resuelto de Química: septiembre de 2023 · modelo 4"
 date: "2026-11-05"
@@ -49209,7 +49378,7 @@ $$m=\\frac{M Q}{2F}=\\frac{112,4\\cdot13500}{2\\cdot96485}\\approx7,86\\ \\mathr
 **Resultado:** se depositan **7,86 g de cadmio**.
 
 ---
-`,wi=`---
+`,Di=`---
 title: R, SPSS, Jamovi o Python: qué programa estadístico conviene usar en la universidad
 date: 2026-07-14
 updated: 2026-07-14
@@ -49339,7 +49508,7 @@ Independientemente del software, debes poder:
 El software cambia; el razonamiento estadístico permanece.
 
 Para decidir qué análisis hacer antes de abrir ningún programa, lee [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o revisa [clases particulares de Estadística y Probabilidad](/clases-particulares/estadistica-universidad/).
-`,Mi=`---
+`,Ri=`---
 title: Regla de la cadena: ejercicios resueltos paso a paso
 seoTitle: "Regla de la cadena: fórmula y ejercicios resueltos"
 date: 2026-11-05
@@ -49539,7 +49708,7 @@ Si la duda está en distinguir esos casos, consulta la guía de [derivadas de pr
 La regla de la cadena traduce una idea simple: un cambio en \\(x\\) atraviesa cada capa de una función compuesta. Identifica la interior, deriva la exterior, conserva la interior y multiplica por su derivada. Después simplifica y comprueba que ningún factor de la cadena haya desaparecido.
 
 Para pasar del concepto a ejercicios de nivel universitario, puedes consultar las [clases particulares de Cálculo](/clases-particulares/calculo-universitario/).
-`,Di=`---
+`,Bi=`---
 title: Regla de L'Hôpital: cuándo utilizarla y cuándo no
 seoTitle: "Regla de L'Hôpital: cuándo usarla y ejercicios resueltos"
 date: 2026-08-23
@@ -50228,7 +50397,7 @@ En una solución escrita, deja visible la forma indeterminada antes de cada flec
 Simplifica siempre el nuevo cociente antes de decidir el paso siguiente.
 
 Si estás preparando Cálculo universitario y necesitas decidir qué técnica admite cada límite sobre tus propios ejercicios, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Ri=`---
+`,Oi=`---
 title: Regresión lineal y ANOVA: cuándo utilizar cada método y cómo interpretar los resultados
 seoTitle: "Regresión lineal o ANOVA: cuándo usar cada método"
 date: 2026-07-11
@@ -50397,7 +50566,7 @@ Usa esta regla:
 - Varios predictores mixtos: modelo lineal/regresión con variables codificadas.
 
 Para profundizar en regresión, lee [Econometría desde cero](/blog/econometria-desde-cero-interpretar-regresion/). Para decidir entre pruebas, revisa [qué prueba estadística utilizar](/blog/que-prueba-estadistica-utilizar-guia-test-correcto/) o consulta las [clases de Estadística para Psicología, ADE y Ciencias Sociales](/clases-particulares/estadistica-psicologia-ade/).
-`,Bi=`---
+`,Ui=`---
 title: "Regresión logística: cómo interpretar odds ratio, probabilidades y resultados"
 seoTitle: "Regresión logística: interpretar odds ratio y probabilidades"
 date: "2026-11-10"
@@ -50444,7 +50613,7 @@ Un intervalo de confianza para el odds ratio ayuda a ver la precisión. Si un in
 ## Una forma responsable de terminar un ejercicio
 
 Describe qué resultado está modelizado, qué predictores aparecen, cuál es el odds ratio relevante y qué limitación debe tener en cuenta el lector. Para decidir si este modelo es el adecuado frente a otros análisis, revisa la guía de [regresión lineal y ANOVA](/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados/) o busca apoyo en [Estadística universitaria](/clases-particulares/estadistica-universidad/).
-`,Oi=`---
+`,Ii=`---
 title: "Regresión múltiple: R² ajustado, multicolinealidad y diagnóstico del modelo"
 seoTitle: "Regresión múltiple: R² ajustado, VIF y multicolinealidad"
 date: "2026-11-10"
@@ -50493,7 +50662,7 @@ donde $R_j^2$ procede de predecir $X_j$ con los demás predictores. No hay un um
 - Informa de intervalos de confianza además de p-valores.
 
 Para distinguir este modelo de otros análisis, consulta [regresión lineal y ANOVA](/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados/). Las [clases de Estadística universitaria](/clases-particulares/estadistica-universidad/) pueden centrarse en interpretar tu salida de R, SPSS, Jamovi o Python sin sustituir tu trabajo académico.
-`,Ui=`---
+`,Ti=`---
 title: "Semejanza y escalas en 2º ESO: problemas resueltos"
 seoTitle: "Semejanza y escalas 2º ESO: ejercicios resueltos"
 date: 2026-10-30
@@ -50556,7 +50725,7 @@ $$
 3. Por \\(4\\).
 
 En el [Campus de Método Nebula](/campus/) la semejanza se conecta con proporcionalidad, Thales y geometría mediante ejercicios graduados para identificar la razón antes de calcular.
-`,Ii=`---
+`,ki=`---
 title: "Series de Taylor y Maclaurin: ejercicios resueltos para Ciencias e Ingeniería"
 seoTitle: "Series de Taylor y Maclaurin: ejercicios resueltos | Universidad"
 date: "2026-10-12"
@@ -50667,7 +50836,7 @@ Una aproximación sin control del error es una estimación; con una cota se conv
 - Dar muchos decimales sin decir qué orden de Taylor se ha usado ni cuánto puede fallar.
 
 El [campus virtual de Método Nebula](/contacto/) reúne explicaciones visuales de Cálculo, hojas de ejercicios con dificultad progresiva y problemas de examen desarrollados. Así puedes practicar no solo el desarrollo, sino la elección del modelo y la estimación de su error.
-`,Ti=`---
+`,Ni=`---
 title: "Sistemas de ecuaciones en 3º ESO: problemas resueltos paso a paso"
 seoTitle: "Sistemas de ecuaciones 3º ESO: problemas resueltos"
 date: 2026-11-05
@@ -50825,7 +50994,7 @@ No debes dividir entre una expresión que puede valer cero sin haberlo comprobad
 4. Si \\(g+c=18\\) y \\(2g+4c=50\\), entonces \\(c=7\\) y \\(g=11\\).
 
 Para repasar el sentido de los pasos antes de usar métodos más rápidos, consulta la guía de [ecuaciones y sistemas en ESO](/blog/eso-matematicas-ecuaciones-sistemas-estudiar/). Si necesitas una práctica adaptada a tu curso, consulta las [clases particulares de Matemáticas](/clases-particulares/matematicas-universidad/).
-`,Ni=`---
+`,Fi=`---
 title: "Subir nota en Selectividad 2027: estrategia para ganar puntos sin estudiar al azar"
 seoTitle: "Cómo subir nota en Selectividad 2027: estrategia y plan de PAU"
 date: "2026-11-10"
@@ -50873,7 +51042,7 @@ Anota también qué sí funcionó. Saber qué estrategia te permitió resolver u
 El [Campus](/campus/) ofrece una ruta de teoría, práctica y exámenes resueltos para que el esfuerzo entre simulacros tenga dirección. Si tu objetivo está especialmente ligado a Matemáticas, revisa la [preparación de Matemáticas para PAU](/preparacion-examenes/matematicas-selectividad/).
 
 Los requisitos de acceso, ponderaciones y condiciones de la convocatoria 2027 deben confirmarse con las fuentes oficiales de tu universidad y comunidad autónoma. La estrategia de estudio sí puede empezar ya: diagnosticar, priorizar, practicar y corregir de forma repetible.
-`,ki=`---
+`,Vi=`---
 title: "t de Student en Psicología: ejercicios resueltos e interpretación"
 seoTitle: "t de Student en Psicología: ejercicios resueltos"
 date: 2026-11-05
@@ -50988,7 +51157,7 @@ Si los supuestos son débiles, no saltes directamente a una conclusión. Conside
 4. No. Solo indica que el análisis no encontró evidencia suficiente de diferencia con esos datos y supuestos.
 
 En el [Campus de Método Nebula](/campus/) este tema se conecta con elección de contrastes, p-valor, intervalos de confianza y ejercicios graduados, para practicar la decisión antes de memorizar el nombre de una prueba.
-`,Fi=`---
+`,Gi=`---
 title: Teorema fundamental del cálculo: ejemplos y ejercicios
 seoTitle: "Teorema fundamental del cálculo: fórmula, ejemplos y ejercicios"
 date: 2026-08-13
@@ -51725,7 +51894,7 @@ La primera parte del teorema deriva acumulaciones: $\\frac{d}{dx}\\int_a^x f(t)d
 La comprobación esencial consiste en derivar la primitiva, respetar la orientación de los límites y revisar el dominio completo. En problemas de acumulación, interpreta además el signo y las unidades: una integral definida mide cambio neto, mientras que el área o la distancia total pueden exigir dividir el intervalo.
 
 Antes de operar, identifica si buscas una derivada o una acumulación numérica, revisa continuidad y dominio, y separa cualquier singularidad. Si necesitas practicar estas decisiones con ejercicios de tu asignatura, puedes consultar las [clases particulares de Cálculo universitario](/clases-particulares/calculo-universitario/).
-`,Vi=`---
+`,Qi=`---
 title: "Termodinámica en Ingeniería: ejercicios resueltos del primer principio y ciclos"
 seoTitle: "Termodinámica: primer principio y ciclos | Ejercicios resueltos"
 date: "2026-10-15"
@@ -51827,7 +51996,7 @@ Nunca escribas una eficiencia mayor que $100\\%$: vulneraría el balance energé
 5. Interpreta el signo final: ¿entra o sale energía?, ¿quién realiza el trabajo?
 
 En el [campus virtual de Método Nebula](/contacto/) encontrarás problemas de Física y Termodinámica resueltos desde el diagrama hasta la comprobación de unidades. Practicar esa secuencia evita que la termodinámica se reduzca a un formulario desconectado del sistema físico.
-`,Gi=`---
+`,Ki=`---
 title: Transición al sector IT en 6 meses: una ruta realista
 date: 2026-06-04
 updated: 2026-06-04
@@ -51887,7 +52056,7 @@ En una entrevista no basta con enseñar código. Tienes que explicar cómo pensa
 La parte dura no es solo el temario. Es mantener continuidad cuando aparecen dudas, cansancio o comparación con perfiles más avanzados. Por eso conviene revisar progreso cada semana y cerrar entregables pequeños.
 
 Si estás empezando desde cero, puedes leer [Python y SQL para empezar en datos](/blog/python-y-sql-para-empezar-en-datos/) o revisar [clases de programación universitaria y fundamentos](/clases-particulares/programacion-universidad/).
-`,Qi=`---
+`,Wi=`---
 title: "Valores propios y vectores propios: ejercicios resueltos de diagonalización"
 seoTitle: "Valores propios y vectores propios: ejercicios resueltos | Ingeniería"
 date: "2026-10-09"
@@ -52010,5 +52179,5 @@ No es necesario multiplicar $A$ por sí misma $n$ veces. Esta idea explica por q
 - Haz una verificación rápida: $AP=PD$ suele ser más limpia que desarrollar $PDP^{-1}$.
 
 En el [campus virtual de Método Nebula](/contacto/) puedes trabajar álgebra lineal con teoría corta, ejercicios graduados y correcciones que explican por qué cada paso es válido. Es la forma más segura de convertir un procedimiento mecánico en una herramienta para resolver problemas reales de Ingeniería.
-`;function Ki(e){const n=/^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(e);if(!n)return{data:{},body:e.trim()};const o={};for(const a of n[1].split(`
-`)){const s=a.indexOf(":");if(s===-1)continue;const i=a.slice(0,s).trim();let r=a.slice(s+1).trim();(r.startsWith('"')&&r.endsWith('"')||r.startsWith("'")&&r.endsWith("'"))&&(r=r.slice(1,-1)),i&&(o[i]=r)}return{data:o,body:e.slice(n[0].length).trim()}}function Wi(e){const n=e.trim().split(/\s+/).filter(Boolean).length;return Math.max(1,Math.round(n/200))}const Ji=Object.assign({"../content/blog/ajuste-ecuaciones-quimicas-3-eso-ejercicios.md":c,"../content/blog/algebra-lineal-nucleo-imagen-rango-ejercicios.md":l,"../content/blog/algebra-lineal-universidad-que-estudiar-primero-errores.md":d,"../content/blog/area-entre-dos-curvas-ejercicios-resueltos.md":u,"../content/blog/bachillerato-fisica-momento-choques.md":m,"../content/blog/bachillerato-fisica-quimica-mol-estequiometria.md":$,"../content/blog/bachillerato-fisica-tiro-parabolico.md":p,"../content/blog/bachillerato-matematicas-ecuaciones-trigonometricas.md":g,"../content/blog/bachillerato-matematicas-funciones-representacion.md":f,"../content/blog/bachillerato-matematicas-logaritmos-exponenciales-ecuaciones.md":x,"../content/blog/bachillerato-matematicas-sucesiones-progresiones.md":b,"../content/blog/bachillerato-matematicas-trigonometria-triangulos.md":v,"../content/blog/bachillerato-quimica-gases-ideales.md":y,"../content/blog/bachillerato-quimica-periodicidad-configuracion.md":h,"../content/blog/bachillerato-quimica-reactivo-limitante-rendimiento-pureza.md":q,"../content/blog/caida-libre-lanzamiento-vertical-4-eso-problemas.md":_,"../content/blog/cambio-variables-jacobiano-integrales-dobles.md":E,"../content/blog/chi-cuadrado-psicologia-tablas-contingencia.md":C,"../content/blog/cinetica-quimica-orden-reaccion-arrhenius-ejercicios-resueltos.md":j,"../content/blog/circuitos-corriente-continua-problemas-resueltos-universidad.md":S,"../content/blog/clases-fisica-quimica-selectividad-2027.md":P,"../content/blog/clases-matematicas-ii-selectividad-2027.md":z,"../content/blog/clases-selectividad-2027-online-plan-personalizado.md":A,"../content/blog/como-aprobar-calculo-i-ingenieria-seis-semanas.md":L,"../content/blog/como-aprobar-estadistica-psicologia-sin-base-matematica.md":H,"../content/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas.md":w,"../content/blog/como-aprobar-matematicas-i-ade-economia.md":M,"../content/blog/como-estudiar-matematicas-sin-memorizar.md":D,"../content/blog/como-preparar-ib-mathematics-aa-ai.md":R,"../content/blog/como-preparar-pau-matematicas-ii.md":B,"../content/blog/como-resolver-limites-indeterminaciones-ejercicios.md":O,"../content/blog/continuidad-derivabilidad-diferencias-problemas.md":U,"../content/blog/derivacion-implicita-ejercicios-resueltos.md":I,"../content/blog/derivadas-2-bachillerato-ejercicios-examen.md":T,"../content/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos.md":N,"../content/blog/derivadas-parciales-gradiente-ejercicios.md":k,"../content/blog/derivadas-producto-cociente-ejercicios.md":F,"../content/blog/diagonalizacion-matrices-autovalores-autovectores-ejercicios.md":V,"../content/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes.md":G,"../content/blog/disoluciones-tampon-henderson-hasselbalch-ejercicios-resueltos.md":Q,"../content/blog/econometria-desde-cero-interpretar-regresion.md":K,"../content/blog/economia-ade-matematicas-sin-perderse.md":W,"../content/blog/ecuaciones-bicuadradas-4-eso-ejercicios.md":J,"../content/blog/ecuaciones-diferenciales-identificar-metodo-correcto.md":X,"../content/blog/ecuaciones-segundo-grado-3-eso-ejercicios-resueltos.md":Z,"../content/blog/energia-mecanica-rozamiento-4-eso-problemas.md":Y,"../content/blog/errores-comunes-inferencia-estadistica.md":ee,"../content/blog/eso-fisica-quimica-calor-temperatura-cambios-estado.md":ae,"../content/blog/eso-fisica-quimica-densidad-presion-flotacion.md":ne,"../content/blog/eso-fisica-quimica-electricidad-circuitos.md":oe,"../content/blog/eso-fisica-quimica-energia-mecanica.md":ie,"../content/blog/eso-fisica-quimica-formulacion-inorganica.md":re,"../content/blog/eso-fisica-quimica-leyes-newton-dinamica.md":se,"../content/blog/eso-fisica-quimica-mezclas-disoluciones-separacion.md":te,"../content/blog/eso-fisica-quimica-modelos-atomicos-tabla-periodica.md":ce,"../content/blog/eso-fisica-quimica-reacciones-ajuste-conservacion.md":le,"../content/blog/eso-fisica-quimica-sonido-ondas.md":de,"../content/blog/eso-fisica-quimica-trabajo-potencia-rendimiento.md":ue,"../content/blog/eso-matematicas-ecuaciones-sistemas-estudiar.md":me,"../content/blog/eso-matematicas-fracciones-operaciones-problemas.md":$e,"../content/blog/eso-matematicas-inecuaciones-sistemas-regiones.md":pe,"../content/blog/eso-matematicas-pitagoras-thales-geometria.md":ge,"../content/blog/eso-matematicas-polinomios-factorizacion.md":fe,"../content/blog/eso-matematicas-porcentajes-interes-compuesto.md":xe,"../content/blog/eso-matematicas-potencias-radicales.md":be,"../content/blog/eso-matematicas-probabilidad-estudiar.md":ve,"../content/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja.md":ye,"../content/blog/estadistica-descriptiva-eso-media-mediana-moda.md":he,"../content/blog/estadistica-desde-cero-para-elegir-contrastes.md":qe,"../content/blog/estequiometria-universitaria-ejercicios-resueltos.md":_e,"../content/blog/estudio-completo-funcion-paso-a-paso.md":Ee,"../content/blog/examen-calculo-1-ingenieria-simulacro-resuelto.md":Ce,"../content/blog/examen-matematicas-2-eso-modelo-resuelto.md":je,"../content/blog/examen-matematicas-3-eso-modelo-resuelto.md":Se,"../content/blog/factores-conversion-3-eso-ejercicios-resueltos.md":Pe,"../content/blog/fisica-pau-2022-comunidad-valenciana-julio.md":ze,"../content/blog/fisica-pau-2022-comunidad-valenciana.md":Ae,"../content/blog/fisica-pau-2022-madrid.md":Le,"../content/blog/fisica-pau-2023-cantabria.md":He,"../content/blog/fisica-pau-2023-madrid-coi.md":we,"../content/blog/fisica-pau-2023-madrid.md":Me,"../content/blog/fisica-pau-2024-andalucia-a.md":De,"../content/blog/fisica-pau-2024-andalucia-b.md":Re,"../content/blog/fisica-pau-2024-cantabria.md":Be,"../content/blog/fisica-pau-2024-murcia.md":Oe,"../content/blog/fisica-pau-2025-andalucia-extraordinaria.md":Ue,"../content/blog/fisica-pau-2025-madrid-coi.md":Ie,"../content/blog/fisica-pau-2025-madrid.md":Te,"../content/blog/fisica-pau-2026-andalucia.md":Ne,"../content/blog/fisica-pau-2026-cantabria.md":ke,"../content/blog/fisica-pau-2026-madrid.md":Fe,"../content/blog/fisica-y-quimica-como-plantear-problemas.md":Ve,"../content/blog/fracciones-algebraicas-4-eso-ejercicios.md":Ge,"../content/blog/funciones-cuadraticas-parabolas-4-eso-ejercicios.md":Qe,"../content/blog/funciones-lineales-afines-3-eso-ejercicios.md":Ke,"../content/blog/gcse-chemistry-acids-bases-salts-en.md":We,"../content/blog/gcse-chemistry-acids-bases-salts.md":Je,"../content/blog/gcse-chemistry-bonding-revision-en.md":Xe,"../content/blog/gcse-chemistry-bonding-revision.md":Ze,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples-en.md":Ye,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples.md":ea,"../content/blog/gcse-chemistry-electrolysis-electrode-products-en.md":aa,"../content/blog/gcse-chemistry-electrolysis-electrode-products.md":na,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles-en.md":oa,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles.md":ia,"../content/blog/gcse-chemistry-equations-moles-revision-en.md":ra,"../content/blog/gcse-chemistry-equations-moles-revision.md":sa,"../content/blog/gcse-chemistry-periodic-table-groups-trends-en.md":ta,"../content/blog/gcse-chemistry-periodic-table-groups-trends.md":ca,"../content/blog/gcse-chemistry-rates-collision-theory-en.md":la,"../content/blog/gcse-chemistry-rates-collision-theory.md":da,"../content/blog/gcse-maths-algebra-graphs-revision-en.md":ua,"../content/blog/gcse-maths-algebra-graphs-revision.md":ma,"../content/blog/gcse-maths-circle-theorems-proof-en.md":$a,"../content/blog/gcse-maths-circle-theorems-proof.md":pa,"../content/blog/gcse-maths-histograms-cumulative-frequency-en.md":ga,"../content/blog/gcse-maths-histograms-cumulative-frequency.md":fa,"../content/blog/gcse-maths-probability-trees-conditional-en.md":xa,"../content/blog/gcse-maths-probability-trees-conditional.md":ba,"../content/blog/gcse-maths-quadratic-equations-completing-square-en.md":va,"../content/blog/gcse-maths-resit-14-day-plan-en.md":ya,"../content/blog/gcse-maths-resit-14-day-plan.md":ha,"../content/blog/gcse-maths-revision-plan-foundation-higher-en.md":qa,"../content/blog/gcse-maths-revision-plan-foundation-higher.md":_a,"../content/blog/gcse-maths-similarity-area-volume-scale-factors-en.md":Ea,"../content/blog/gcse-maths-similarity-area-volume-scale-factors.md":Ca,"../content/blog/gcse-maths-simultaneous-equations-worked-examples-en.md":ja,"../content/blog/gcse-maths-simultaneous-equations-worked-examples.md":Sa,"../content/blog/gcse-maths-transformations-vectors-en.md":Pa,"../content/blog/gcse-maths-transformations-vectors.md":za,"../content/blog/gcse-maths-trigonometry-bearings-en.md":Aa,"../content/blog/gcse-maths-trigonometry-bearings.md":La,"../content/blog/gcse-mock-exams-six-week-revision-plan-en.md":Ha,"../content/blog/gcse-mock-exams-six-week-revision-plan.md":wa,"../content/blog/gcse-past-papers-mark-schemes-method-en.md":Ma,"../content/blog/gcse-past-papers-mark-schemes-method.md":Da,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples-en.md":Ra,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples.md":Ba,"../content/blog/gcse-physics-electricity-revision-en.md":Oa,"../content/blog/gcse-physics-electricity-revision.md":Ua,"../content/blog/gcse-physics-energy-work-power-efficiency-en.md":Ia,"../content/blog/gcse-physics-energy-work-power-efficiency.md":Ta,"../content/blog/gcse-physics-forces-exam-questions-en.md":Na,"../content/blog/gcse-physics-forces-exam-questions.md":ka,"../content/blog/gcse-physics-magnetism-motors-generators-en.md":Fa,"../content/blog/gcse-physics-magnetism-motors-generators.md":Va,"../content/blog/gcse-physics-motion-graphs-stopping-distance-en.md":Ga,"../content/blog/gcse-physics-motion-graphs-stopping-distance.md":Qa,"../content/blog/gcse-physics-radioactivity-half-life-en.md":Ka,"../content/blog/gcse-physics-radioactivity-half-life.md":Wa,"../content/blog/gcse-physics-space-stars-life-cycle-en.md":Ja,"../content/blog/gcse-physics-space-stars-life-cycle.md":Xa,"../content/blog/gcse-physics-thermal-heating-curves-en.md":Za,"../content/blog/gcse-physics-thermal-heating-curves.md":Ya,"../content/blog/gcse-physics-waves-refraction-en.md":en,"../content/blog/gcse-physics-waves-refraction.md":an,"../content/blog/gcse-tutor-metodo-nebula-campus-en.md":nn,"../content/blog/geometria-analitica-4-eso-rectas-ejercicios.md":on,"../content/blog/graficas-mru-mrua-4-eso-ejercicios.md":rn,"../content/blog/gravitacion-eso-ley-universal-peso-ejercicios.md":sn,"../content/blog/ib-chemistry-acids-bases-ph-titration-en.md":tn,"../content/blog/ib-chemistry-equilibrium-kc-le-chatelier-en.md":cn,"../content/blog/ib-chemistry-organic-reaction-mechanisms-en.md":ln,"../content/blog/ib-chemistry-stoichiometry-moles-limiting-reagent-en.md":dn,"../content/blog/ib-gcse-como-preparar-examenes-internacionales.md":un,"../content/blog/ib-mathematics-aa-differential-equations-modelling-en.md":mn,"../content/blog/ib-mathematics-aa-integration-applications-en.md":$n,"../content/blog/ib-mathematics-aa-numeros-complejos-forma-polar.md":pn,"../content/blog/ib-mathematics-ai-binomial-normal-distribution-en.md":gn,"../content/blog/ib-mathematics-ai-regression-correlation-technology-en.md":fn,"../content/blog/ib-mathematics-internal-assessment-metodo-ideas.md":xn,"../content/blog/ib-physics-data-booklet-waves-fields-electricity-en.md":bn,"../content/blog/ib-physics-formula-booklet-mechanics-units-worked-problems-en.md":vn,"../content/blog/ib-physics-uncertainties-graphs-data-analysis-en.md":yn,"../content/blog/ib-tutor-metodo-nebula-campus-en.md":hn,"../content/blog/integracion-por-partes-formula-ejercicios-resueltos.md":qn,"../content/blog/integracion-por-sustitucion-cambio-variable-ejercicios.md":_n,"../content/blog/integral-definida-e-indefinida-diferencias-ejemplos.md":En,"../content/blog/integrales-dobles-ejercicios-resueltos.md":Cn,"../content/blog/integrales-funciones-racionales-fracciones-parciales.md":jn,"../content/blog/integrales-impropias-convergencia-ejercicios.md":Sn,"../content/blog/integrales-inmediatas-ejercicios-resueltos.md":Pn,"../content/blog/integrales-trigonometricas-ejercicios-resueltos.md":zn,"../content/blog/ley-hooke-muelles-4-eso-ejercicios.md":An,"../content/blog/ley-ohm-4-eso-ejercicios-resueltos.md":Ln,"../content/blog/limites-trigonometricos-ejercicios-resueltos.md":Hn,"../content/blog/matematicas-ccss-pau-2022-pais-vasco.md":wn,"../content/blog/matematicas-ccss-pau-2023-comunidad-valenciana.md":Mn,"../content/blog/matematicas-ccss-pau-2024-comunidad-valenciana.md":Dn,"../content/blog/matematicas-ccss-pau-2024-navarra.md":Rn,"../content/blog/matematicas-ccss-pau-2024-pais-vasco.md":Bn,"../content/blog/matematicas-ccss-pau-2025-comunidad-valenciana-extraordinaria.md":On,"../content/blog/matematicas-ccss-pau-2025-madrid.md":Un,"../content/blog/matematicas-ccss-pau-2025-murcia.md":In,"../content/blog/matematicas-ccss-pau-2026-andalucia.md":Tn,"../content/blog/matematicas-ccss-pau-2026-aragon.md":Nn,"../content/blog/matematicas-ccss-pau-2026-asturias.md":kn,"../content/blog/matematicas-ccss-pau-2026-cataluna.md":Fn,"../content/blog/matematicas-ccss-pau-2026-comunidad-valenciana.md":Vn,"../content/blog/matematicas-ccss-pau-2026-madrid.md":Gn,"../content/blog/matematicas-ii-pau-2025-andalucia.md":Qn,"../content/blog/matematicas-ii-pau-2025-aragon.md":Kn,"../content/blog/matematicas-ii-pau-2025-cantabria.md":Wn,"../content/blog/matematicas-ii-pau-2025-comunidad-valenciana.md":Jn,"../content/blog/matematicas-ii-pau-2025-madrid.md":Xn,"../content/blog/matematicas-ii-pau-2025-murcia.md":Zn,"../content/blog/matematicas-ii-pau-2025-navarra.md":Yn,"../content/blog/matematicas-ii-pau-2026-andalucia.md":eo,"../content/blog/matematicas-ii-pau-2026-aragon.md":ao,"../content/blog/matematicas-ii-pau-2026-asturias.md":no,"../content/blog/matematicas-ii-pau-2026-cantabria.md":oo,"../content/blog/matematicas-ii-pau-2026-cataluna.md":io,"../content/blog/matematicas-ii-pau-2026-comunidad-valenciana.md":ro,"../content/blog/matematicas-ii-pau-2026-madrid.md":so,"../content/blog/matematicas-ii-pau-2026-murcia.md":to,"../content/blog/matematicas-ii-pau-2026-pais-vasco.md":co,"../content/blog/matrices-determinantes-sistemas-ecuaciones-guia.md":lo,"../content/blog/maximos-minimos-varias-variables-ejercicios.md":uo,"../content/blog/mecanica-fluidos-bernoulli-continuidad-ejercicios-resueltos.md":mo,"../content/blog/metodos-de-integracion-como-elegir.md":$o,"../content/blog/microeconomia-i-tipos-problemas-examen.md":po,"../content/blog/molaridad-disoluciones-1-bachillerato-ejercicios.md":go,"../content/blog/movimiento-circular-uniforme-1-bachillerato-ejercicios.md":fo,"../content/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios.md":xo,"../content/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios.md":bo,"../content/blog/multiplicadores-lagrange-extremos-restricciones-ejercicios.md":vo,"../content/blog/normalizacion-bases-datos-1fn-2fn-3fn.md":yo,"../content/blog/notacion-cientifica-4-eso-ejercicios-resueltos.md":ho,"../content/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo.md":qo,"../content/blog/pau-ccss-derivadas-optimizacion-economia.md":_o,"../content/blog/pau-ccss-inferencia-intervalos-confianza.md":Eo,"../content/blog/pau-ccss-integrales-area-acumulacion.md":Co,"../content/blog/pau-ccss-matrices-modelos-economicos.md":jo,"../content/blog/pau-ccss-programacion-lineal-problemas.md":So,"../content/blog/pau-convocatoria-extraordinaria-plan-30-dias.md":Po,"../content/blog/pau-corregir-simulacros-plan-estudio.md":zo,"../content/blog/pau-ebau-evau-selectividad-modelo-oficial.md":Ao,"../content/blog/pau-fisica-campo-electrico-potencial-condensadores.md":Lo,"../content/blog/pau-fisica-campo-gravitatorio-satelites.md":Ho,"../content/blog/pau-fisica-cuantica-efecto-fotoelectrico.md":wo,"../content/blog/pau-fisica-electromagnetismo-estudiar.md":Mo,"../content/blog/pau-fisica-formulario-unidades-comprobaciones.md":Do,"../content/blog/pau-fisica-graficas-datos-incertidumbre.md":Ro,"../content/blog/pau-fisica-movimiento-armonico-simple.md":Bo,"../content/blog/pau-fisica-nuclear-defecto-masa.md":Oo,"../content/blog/pau-fisica-ondas-resolver-problemas.md":Uo,"../content/blog/pau-fisica-optica-lentes-espejos.md":Io,"../content/blog/pau-fisica-relatividad-especial.md":To,"../content/blog/pau-matematicas-ccss-probabilidad-bayes.md":No,"../content/blog/pau-matematicas-derivabilidad-parametros-tangentes.md":ko,"../content/blog/pau-matematicas-geometria-metrica-distancias-angulos.md":Fo,"../content/blog/pau-matematicas-ii-90-minutos-elegir-ejercicios.md":Vo,"../content/blog/pau-matematicas-ii-errores-restan-puntos.md":Go,"../content/blog/pau-matematicas-ii-vectores-rectas-planos.md":Qo,"../content/blog/pau-matematicas-integrales-areas.md":Ko,"../content/blog/pau-matematicas-limites-asintotas.md":Wo,"../content/blog/pau-matematicas-matrices-determinantes-gauss.md":Jo,"../content/blog/pau-matematicas-probabilidad-distribuciones.md":Xo,"../content/blog/pau-matematicas-sistemas-parametro-rouche-frobenius.md":Zo,"../content/blog/pau-quimica-acido-base-ph-calculos.md":Yo,"../content/blog/pau-quimica-cinetica-arrhenius-velocidad.md":ei,"../content/blog/pau-quimica-enlace-geometria-molecular.md":ai,"../content/blog/pau-quimica-equilibrio-quimico-estudiar.md":ni,"../content/blog/pau-quimica-estequiometria-gases-disoluciones.md":oi,"../content/blog/pau-quimica-estructura-atomica-configuracion.md":ii,"../content/blog/pau-quimica-laboratorio-rendimiento-pureza-errores.md":ri,"../content/blog/pau-quimica-organica-mapa-reacciones.md":si,"../content/blog/pau-quimica-pilas-electroquimica-redox.md":ti,"../content/blog/pau-quimica-solubilidad-kps-precipitacion.md":ci,"../content/blog/pau-quimica-termoquimica-hess-entalpia.md":li,"../content/blog/pau-quimica-volumetrias-acido-base-redox.md":di,"../content/blog/plano-inclinado-1-bachillerato-ejercicios-resueltos.md":ui,"../content/blog/preparar-pau-2027-desde-enero-calendario.md":mi,"../content/blog/preparar-pau-desde-verano-plan-septiembre.md":$i,"../content/blog/preparar-selectividad-con-calendario.md":pi,"../content/blog/primer-proyecto-python-principiantes-datos.md":gi,"../content/blog/probabilidad-condicionada-bayes-problemas-resueltos.md":fi,"../content/blog/problemas-optimizacion-derivadas-ejercicios-resueltos.md":xi,"../content/blog/proporcionalidad-directa-inversa-2-eso-ejercicios.md":bi,"../content/blog/python-y-sql-para-empezar-en-datos.md":vi,"../content/blog/que-prueba-estadistica-utilizar-guia-test-correcto.md":yi,"../content/blog/que-son-las-derivadas-y-para-que-se-utilizan.md":hi,"../content/blog/que-son-las-integrales-y-para-que-se-utilizan.md":qi,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-1.md":_i,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-2.md":Ei,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-3.md":Ci,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-4.md":ji,"../content/blog/quimica-examen-resuelto-septiembre-2018-modelo-1.md":Si,"../content/blog/quimica-examen-resuelto-septiembre-2022-modelo-1.md":Pi,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-1.md":zi,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-2.md":Ai,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-3.md":Li,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-4.md":Hi,"../content/blog/r-spss-jamovi-python-programa-estadistico-universidad.md":wi,"../content/blog/regla-cadena-ejercicios-resueltos.md":Mi,"../content/blog/regla-lhopital-cuando-usarla-ejercicios.md":Di,"../content/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados.md":Ri,"../content/blog/regresion-logistica-odds-ratio-interpretacion.md":Bi,"../content/blog/regresion-multiple-r2-ajustado-multicolinealidad.md":Oi,"../content/blog/semejanza-escalas-2-eso-problemas-resueltos.md":Ui,"../content/blog/series-taylor-maclaurin-ejercicios-resueltos.md":Ii,"../content/blog/sistemas-ecuaciones-3-eso-problemas-resueltos.md":Ti,"../content/blog/subir-nota-selectividad-2027-estrategia.md":Ni,"../content/blog/t-student-psicologia-ejercicios-resueltos.md":ki,"../content/blog/teorema-fundamental-calculo-ejemplos-ejercicios.md":Fi,"../content/blog/termodinamica-primer-principio-ciclos-ejercicios-resueltos.md":Vi,"../content/blog/transicion-al-sector-it-en-6-meses.md":Gi,"../content/blog/valores-propios-vectores-propios-diagonalizacion-ejercicios-resueltos.md":Qi}),t=Object.entries(Ji).map(([e,n])=>{const o=e.split("/").pop().replace(/\.md$/,""),{data:a,body:s}=Ki(n);return{slug:o,title:a.title??o,seoTitle:a.seoTitle??"",date:a.date??"",updated:a.updated??a.date??"",description:a.description??"",tag:a.tag??"Blog",category:a.category??a.tag??"Blog",image:a.image??"/favicon.svg",language:a.language==="en"?"en":"es",translation:a.translation??"",relatedService:a.relatedService??"/contacto/",relatedPosts:a.relatedPosts?a.relatedPosts.split(",").map(i=>i.trim()).filter(Boolean):[],readingMinutes:Wi(s),body:s}}).sort((e,n)=>e.date<n.date?1:e.date>n.date?-1:0);function Zi(){return t}function Yi(e,n=12){return Math.max(1,Math.ceil(e.length/n))}function er(e,n,o=12){const a=(n-1)*o;return e.slice(a,a+o)}function Xi(e){return t.find(n=>n.slug===e)}function ar(e){return t.filter(n=>n.category===e)}function nr(e,n=3){const o=e.relatedPosts.map(i=>Xi(i)).filter(i=>!!i),s=[...t.filter(i=>i.language===e.language),...t].filter(i=>i.slug!==e.slug&&!o.some(r=>r.slug===i.slug));return[...o,...s].slice(0,n)}function or(e,n="es"){if(!e)return"";const o=new Date(e);return Number.isNaN(o.getTime())?e:o.toLocaleDateString(n==="en"?"en-GB":"es-ES",{day:"numeric",month:"long",year:"numeric"})}export{Yi as a,Xi as b,er as c,Zi as d,nr as e,or as f,ar as g};
+`;function Ji(e){const n=/^---\s*\n([\s\S]*?)\n---\s*\n?/.exec(e);if(!n)return{data:{},body:e.trim()};const o={};for(const a of n[1].split(`
+`)){const s=a.indexOf(":");if(s===-1)continue;const i=a.slice(0,s).trim();let r=a.slice(s+1).trim();(r.startsWith('"')&&r.endsWith('"')||r.startsWith("'")&&r.endsWith("'"))&&(r=r.slice(1,-1)),i&&(o[i]=r)}return{data:o,body:e.slice(n[0].length).trim()}}function Xi(e){const n=e.trim().split(/\s+/).filter(Boolean).length;return Math.max(1,Math.round(n/200))}const Zi=Object.assign({"../content/blog/ajuste-ecuaciones-quimicas-3-eso-ejercicios.md":c,"../content/blog/algebra-lineal-nucleo-imagen-rango-ejercicios.md":l,"../content/blog/algebra-lineal-universidad-que-estudiar-primero-errores.md":d,"../content/blog/area-entre-dos-curvas-ejercicios-resueltos.md":u,"../content/blog/bachillerato-fisica-momento-choques.md":m,"../content/blog/bachillerato-fisica-quimica-mol-estequiometria.md":$,"../content/blog/bachillerato-fisica-tiro-parabolico.md":p,"../content/blog/bachillerato-matematicas-ecuaciones-trigonometricas.md":g,"../content/blog/bachillerato-matematicas-funciones-representacion.md":f,"../content/blog/bachillerato-matematicas-logaritmos-exponenciales-ecuaciones.md":x,"../content/blog/bachillerato-matematicas-sucesiones-progresiones.md":b,"../content/blog/bachillerato-matematicas-trigonometria-triangulos.md":v,"../content/blog/bachillerato-quimica-gases-ideales.md":y,"../content/blog/bachillerato-quimica-periodicidad-configuracion.md":h,"../content/blog/bachillerato-quimica-reactivo-limitante-rendimiento-pureza.md":q,"../content/blog/caida-libre-lanzamiento-vertical-4-eso-problemas.md":_,"../content/blog/cambio-variables-jacobiano-integrales-dobles.md":E,"../content/blog/chi-cuadrado-psicologia-tablas-contingencia.md":C,"../content/blog/cinetica-quimica-orden-reaccion-arrhenius-ejercicios-resueltos.md":j,"../content/blog/circuitos-corriente-continua-problemas-resueltos-universidad.md":S,"../content/blog/clases-fisica-quimica-selectividad-2027.md":P,"../content/blog/clases-matematicas-ii-selectividad-2027.md":z,"../content/blog/clases-selectividad-2027-online-plan-personalizado.md":A,"../content/blog/como-aprobar-calculo-i-ingenieria-seis-semanas.md":L,"../content/blog/como-aprobar-estadistica-psicologia-sin-base-matematica.md":w,"../content/blog/como-aprobar-fisica-i-ingenieria-sin-memorizar-formulas.md":H,"../content/blog/como-aprobar-matematicas-i-ade-economia.md":M,"../content/blog/como-estudiar-matematicas-sin-memorizar.md":D,"../content/blog/como-preparar-ib-mathematics-aa-ai.md":R,"../content/blog/como-preparar-pau-matematicas-ii.md":B,"../content/blog/como-resolver-limites-indeterminaciones-ejercicios.md":O,"../content/blog/continuidad-derivabilidad-diferencias-problemas.md":U,"../content/blog/derivacion-implicita-ejercicios-resueltos.md":I,"../content/blog/derivadas-2-bachillerato-ejercicios-examen.md":T,"../content/blog/derivadas-integrales-universitarias-prueba-nivel-ejercicios-resueltos.md":k,"../content/blog/derivadas-parciales-gradiente-ejercicios.md":N,"../content/blog/derivadas-producto-cociente-ejercicios.md":F,"../content/blog/diagonalizacion-matrices-autovalores-autovectores-ejercicios.md":V,"../content/blog/diagramas-cuerpo-libre-metodo-errores-frecuentes.md":G,"../content/blog/disoluciones-tampon-henderson-hasselbalch-ejercicios-resueltos.md":Q,"../content/blog/econometria-desde-cero-interpretar-regresion.md":K,"../content/blog/economia-ade-matematicas-sin-perderse.md":W,"../content/blog/ecuaciones-bicuadradas-4-eso-ejercicios.md":J,"../content/blog/ecuaciones-diferenciales-identificar-metodo-correcto.md":X,"../content/blog/ecuaciones-segundo-grado-3-eso-ejercicios-resueltos.md":Z,"../content/blog/energia-mecanica-rozamiento-4-eso-problemas.md":Y,"../content/blog/errores-comunes-inferencia-estadistica.md":ee,"../content/blog/eso-fisica-quimica-calor-temperatura-cambios-estado.md":ae,"../content/blog/eso-fisica-quimica-densidad-presion-flotacion.md":ne,"../content/blog/eso-fisica-quimica-electricidad-circuitos.md":oe,"../content/blog/eso-fisica-quimica-energia-mecanica.md":ie,"../content/blog/eso-fisica-quimica-formulacion-inorganica.md":re,"../content/blog/eso-fisica-quimica-leyes-newton-dinamica.md":se,"../content/blog/eso-fisica-quimica-mezclas-disoluciones-separacion.md":te,"../content/blog/eso-fisica-quimica-modelos-atomicos-tabla-periodica.md":ce,"../content/blog/eso-fisica-quimica-reacciones-ajuste-conservacion.md":le,"../content/blog/eso-fisica-quimica-sonido-ondas.md":de,"../content/blog/eso-fisica-quimica-trabajo-potencia-rendimiento.md":ue,"../content/blog/eso-matematicas-ecuaciones-sistemas-estudiar.md":me,"../content/blog/eso-matematicas-fracciones-operaciones-problemas.md":$e,"../content/blog/eso-matematicas-inecuaciones-sistemas-regiones.md":pe,"../content/blog/eso-matematicas-pitagoras-thales-geometria.md":ge,"../content/blog/eso-matematicas-polinomios-factorizacion.md":fe,"../content/blog/eso-matematicas-porcentajes-interes-compuesto.md":xe,"../content/blog/eso-matematicas-potencias-radicales.md":be,"../content/blog/eso-matematicas-probabilidad-estudiar.md":ve,"../content/blog/estadistica-descriptiva-eso-cuartiles-rango-diagrama-caja.md":ye,"../content/blog/estadistica-descriptiva-eso-media-mediana-moda.md":he,"../content/blog/estadistica-desde-cero-para-elegir-contrastes.md":qe,"../content/blog/estequiometria-universitaria-ejercicios-resueltos.md":_e,"../content/blog/estudio-completo-funcion-paso-a-paso.md":Ee,"../content/blog/examen-calculo-1-ingenieria-simulacro-resuelto.md":Ce,"../content/blog/examen-matematicas-2-eso-modelo-resuelto.md":je,"../content/blog/examen-matematicas-3-eso-modelo-resuelto.md":Se,"../content/blog/factores-conversion-3-eso-ejercicios-resueltos.md":Pe,"../content/blog/fisica-pau-2022-comunidad-valenciana-julio.md":ze,"../content/blog/fisica-pau-2022-comunidad-valenciana.md":Ae,"../content/blog/fisica-pau-2022-madrid.md":Le,"../content/blog/fisica-pau-2023-cantabria.md":we,"../content/blog/fisica-pau-2023-madrid-coi.md":He,"../content/blog/fisica-pau-2023-madrid.md":Me,"../content/blog/fisica-pau-2024-andalucia-a.md":De,"../content/blog/fisica-pau-2024-andalucia-b.md":Re,"../content/blog/fisica-pau-2024-cantabria.md":Be,"../content/blog/fisica-pau-2024-murcia.md":Oe,"../content/blog/fisica-pau-2025-andalucia-extraordinaria.md":Ue,"../content/blog/fisica-pau-2025-madrid-coi.md":Ie,"../content/blog/fisica-pau-2025-madrid.md":Te,"../content/blog/fisica-pau-2026-andalucia.md":ke,"../content/blog/fisica-pau-2026-cantabria.md":Ne,"../content/blog/fisica-pau-2026-madrid.md":Fe,"../content/blog/fisica-y-quimica-como-plantear-problemas.md":Ve,"../content/blog/fracciones-algebraicas-4-eso-ejercicios.md":Ge,"../content/blog/funciones-cuadraticas-parabolas-4-eso-ejercicios.md":Qe,"../content/blog/funciones-lineales-afines-3-eso-ejercicios.md":Ke,"../content/blog/gcse-chemistry-acids-bases-salts-en.md":We,"../content/blog/gcse-chemistry-acids-bases-salts.md":Je,"../content/blog/gcse-chemistry-bonding-revision-en.md":Xe,"../content/blog/gcse-chemistry-bonding-revision.md":Ze,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples-en.md":Ye,"../content/blog/gcse-chemistry-chemical-analysis-worked-examples.md":ea,"../content/blog/gcse-chemistry-electrolysis-electrode-products-en.md":aa,"../content/blog/gcse-chemistry-electrolysis-electrode-products.md":na,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles-en.md":oa,"../content/blog/gcse-chemistry-energy-changes-reaction-profiles.md":ia,"../content/blog/gcse-chemistry-equations-moles-revision-en.md":ra,"../content/blog/gcse-chemistry-equations-moles-revision.md":sa,"../content/blog/gcse-chemistry-periodic-table-groups-trends-en.md":ta,"../content/blog/gcse-chemistry-periodic-table-groups-trends.md":ca,"../content/blog/gcse-chemistry-rates-collision-theory-en.md":la,"../content/blog/gcse-chemistry-rates-collision-theory.md":da,"../content/blog/gcse-maths-algebra-graphs-revision-en.md":ua,"../content/blog/gcse-maths-algebra-graphs-revision.md":ma,"../content/blog/gcse-maths-circle-theorems-proof-en.md":$a,"../content/blog/gcse-maths-circle-theorems-proof.md":pa,"../content/blog/gcse-maths-histograms-cumulative-frequency-en.md":ga,"../content/blog/gcse-maths-histograms-cumulative-frequency.md":fa,"../content/blog/gcse-maths-probability-trees-conditional-en.md":xa,"../content/blog/gcse-maths-probability-trees-conditional.md":ba,"../content/blog/gcse-maths-quadratic-equations-completing-square-en.md":va,"../content/blog/gcse-maths-resit-14-day-plan-en.md":ya,"../content/blog/gcse-maths-resit-14-day-plan.md":ha,"../content/blog/gcse-maths-revision-plan-foundation-higher-en.md":qa,"../content/blog/gcse-maths-revision-plan-foundation-higher.md":_a,"../content/blog/gcse-maths-similarity-area-volume-scale-factors-en.md":Ea,"../content/blog/gcse-maths-similarity-area-volume-scale-factors.md":Ca,"../content/blog/gcse-maths-simultaneous-equations-worked-examples-en.md":ja,"../content/blog/gcse-maths-simultaneous-equations-worked-examples.md":Sa,"../content/blog/gcse-maths-transformations-vectors-en.md":Pa,"../content/blog/gcse-maths-transformations-vectors.md":za,"../content/blog/gcse-maths-trigonometry-bearings-en.md":Aa,"../content/blog/gcse-maths-trigonometry-bearings.md":La,"../content/blog/gcse-mock-exams-six-week-revision-plan-en.md":wa,"../content/blog/gcse-mock-exams-six-week-revision-plan.md":Ha,"../content/blog/gcse-past-papers-mark-schemes-method-en.md":Ma,"../content/blog/gcse-past-papers-mark-schemes-method.md":Da,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples-en.md":Ra,"../content/blog/gcse-physics-density-pressure-gas-laws-worked-examples.md":Ba,"../content/blog/gcse-physics-electricity-revision-en.md":Oa,"../content/blog/gcse-physics-electricity-revision.md":Ua,"../content/blog/gcse-physics-energy-work-power-efficiency-en.md":Ia,"../content/blog/gcse-physics-energy-work-power-efficiency.md":Ta,"../content/blog/gcse-physics-forces-exam-questions-en.md":ka,"../content/blog/gcse-physics-forces-exam-questions.md":Na,"../content/blog/gcse-physics-magnetism-motors-generators-en.md":Fa,"../content/blog/gcse-physics-magnetism-motors-generators.md":Va,"../content/blog/gcse-physics-motion-graphs-stopping-distance-en.md":Ga,"../content/blog/gcse-physics-motion-graphs-stopping-distance.md":Qa,"../content/blog/gcse-physics-radioactivity-half-life-en.md":Ka,"../content/blog/gcse-physics-radioactivity-half-life.md":Wa,"../content/blog/gcse-physics-space-stars-life-cycle-en.md":Ja,"../content/blog/gcse-physics-space-stars-life-cycle.md":Xa,"../content/blog/gcse-physics-thermal-heating-curves-en.md":Za,"../content/blog/gcse-physics-thermal-heating-curves.md":Ya,"../content/blog/gcse-physics-waves-refraction-en.md":en,"../content/blog/gcse-physics-waves-refraction.md":an,"../content/blog/gcse-revision-resources-maths-physics-chemistry-en.md":nn,"../content/blog/gcse-tutor-metodo-nebula-campus-en.md":on,"../content/blog/geometria-analitica-4-eso-rectas-ejercicios.md":rn,"../content/blog/graficas-mru-mrua-4-eso-ejercicios.md":sn,"../content/blog/gravitacion-eso-ley-universal-peso-ejercicios.md":tn,"../content/blog/ib-chemistry-acids-bases-ph-titration-en.md":cn,"../content/blog/ib-chemistry-equilibrium-kc-le-chatelier-en.md":ln,"../content/blog/ib-chemistry-organic-reaction-mechanisms-en.md":dn,"../content/blog/ib-chemistry-stoichiometry-moles-limiting-reagent-en.md":un,"../content/blog/ib-gcse-como-preparar-examenes-internacionales.md":mn,"../content/blog/ib-mathematics-aa-differential-equations-modelling-en.md":$n,"../content/blog/ib-mathematics-aa-integration-applications-en.md":pn,"../content/blog/ib-mathematics-aa-numeros-complejos-forma-polar.md":gn,"../content/blog/ib-mathematics-ai-binomial-normal-distribution-en.md":fn,"../content/blog/ib-mathematics-ai-regression-correlation-technology-en.md":xn,"../content/blog/ib-mathematics-internal-assessment-metodo-ideas.md":bn,"../content/blog/ib-physics-data-booklet-waves-fields-electricity-en.md":vn,"../content/blog/ib-physics-formula-booklet-mechanics-units-worked-problems-en.md":yn,"../content/blog/ib-physics-uncertainties-graphs-data-analysis-en.md":hn,"../content/blog/ib-study-resources-mathematics-physics-chemistry-en.md":qn,"../content/blog/ib-tutor-metodo-nebula-campus-en.md":_n,"../content/blog/integracion-por-partes-formula-ejercicios-resueltos.md":En,"../content/blog/integracion-por-sustitucion-cambio-variable-ejercicios.md":Cn,"../content/blog/integral-definida-e-indefinida-diferencias-ejemplos.md":jn,"../content/blog/integrales-dobles-ejercicios-resueltos.md":Sn,"../content/blog/integrales-funciones-racionales-fracciones-parciales.md":Pn,"../content/blog/integrales-impropias-convergencia-ejercicios.md":zn,"../content/blog/integrales-inmediatas-ejercicios-resueltos.md":An,"../content/blog/integrales-trigonometricas-ejercicios-resueltos.md":Ln,"../content/blog/ley-hooke-muelles-4-eso-ejercicios.md":wn,"../content/blog/ley-ohm-4-eso-ejercicios-resueltos.md":Hn,"../content/blog/limites-trigonometricos-ejercicios-resueltos.md":Mn,"../content/blog/matematicas-ccss-pau-2022-pais-vasco.md":Dn,"../content/blog/matematicas-ccss-pau-2023-comunidad-valenciana.md":Rn,"../content/blog/matematicas-ccss-pau-2024-comunidad-valenciana.md":Bn,"../content/blog/matematicas-ccss-pau-2024-navarra.md":On,"../content/blog/matematicas-ccss-pau-2024-pais-vasco.md":Un,"../content/blog/matematicas-ccss-pau-2025-comunidad-valenciana-extraordinaria.md":In,"../content/blog/matematicas-ccss-pau-2025-madrid.md":Tn,"../content/blog/matematicas-ccss-pau-2025-murcia.md":kn,"../content/blog/matematicas-ccss-pau-2026-andalucia.md":Nn,"../content/blog/matematicas-ccss-pau-2026-aragon.md":Fn,"../content/blog/matematicas-ccss-pau-2026-asturias.md":Vn,"../content/blog/matematicas-ccss-pau-2026-cataluna.md":Gn,"../content/blog/matematicas-ccss-pau-2026-comunidad-valenciana.md":Qn,"../content/blog/matematicas-ccss-pau-2026-madrid.md":Kn,"../content/blog/matematicas-ii-pau-2025-andalucia.md":Wn,"../content/blog/matematicas-ii-pau-2025-aragon.md":Jn,"../content/blog/matematicas-ii-pau-2025-cantabria.md":Xn,"../content/blog/matematicas-ii-pau-2025-comunidad-valenciana.md":Zn,"../content/blog/matematicas-ii-pau-2025-madrid.md":Yn,"../content/blog/matematicas-ii-pau-2025-murcia.md":eo,"../content/blog/matematicas-ii-pau-2025-navarra.md":ao,"../content/blog/matematicas-ii-pau-2026-andalucia.md":no,"../content/blog/matematicas-ii-pau-2026-aragon.md":oo,"../content/blog/matematicas-ii-pau-2026-asturias.md":io,"../content/blog/matematicas-ii-pau-2026-cantabria.md":ro,"../content/blog/matematicas-ii-pau-2026-cataluna.md":so,"../content/blog/matematicas-ii-pau-2026-comunidad-valenciana.md":to,"../content/blog/matematicas-ii-pau-2026-madrid.md":co,"../content/blog/matematicas-ii-pau-2026-murcia.md":lo,"../content/blog/matematicas-ii-pau-2026-pais-vasco.md":uo,"../content/blog/matrices-determinantes-sistemas-ecuaciones-guia.md":mo,"../content/blog/maximos-minimos-varias-variables-ejercicios.md":$o,"../content/blog/mecanica-fluidos-bernoulli-continuidad-ejercicios-resueltos.md":po,"../content/blog/metodos-de-integracion-como-elegir.md":go,"../content/blog/microeconomia-i-tipos-problemas-examen.md":fo,"../content/blog/molaridad-disoluciones-1-bachillerato-ejercicios.md":xo,"../content/blog/movimiento-circular-uniforme-1-bachillerato-ejercicios.md":bo,"../content/blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios.md":vo,"../content/blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios.md":yo,"../content/blog/multiplicadores-lagrange-extremos-restricciones-ejercicios.md":ho,"../content/blog/normalizacion-bases-datos-1fn-2fn-3fn.md":qo,"../content/blog/notacion-cientifica-4-eso-ejercicios-resueltos.md":_o,"../content/blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo.md":Eo,"../content/blog/pau-ccss-derivadas-optimizacion-economia.md":Co,"../content/blog/pau-ccss-inferencia-intervalos-confianza.md":jo,"../content/blog/pau-ccss-integrales-area-acumulacion.md":So,"../content/blog/pau-ccss-matrices-modelos-economicos.md":Po,"../content/blog/pau-ccss-programacion-lineal-problemas.md":zo,"../content/blog/pau-convocatoria-extraordinaria-plan-30-dias.md":Ao,"../content/blog/pau-corregir-simulacros-plan-estudio.md":Lo,"../content/blog/pau-ebau-evau-selectividad-modelo-oficial.md":wo,"../content/blog/pau-fisica-campo-electrico-potencial-condensadores.md":Ho,"../content/blog/pau-fisica-campo-gravitatorio-satelites.md":Mo,"../content/blog/pau-fisica-cuantica-efecto-fotoelectrico.md":Do,"../content/blog/pau-fisica-electromagnetismo-estudiar.md":Ro,"../content/blog/pau-fisica-formulario-unidades-comprobaciones.md":Bo,"../content/blog/pau-fisica-graficas-datos-incertidumbre.md":Oo,"../content/blog/pau-fisica-movimiento-armonico-simple.md":Uo,"../content/blog/pau-fisica-nuclear-defecto-masa.md":Io,"../content/blog/pau-fisica-ondas-resolver-problemas.md":To,"../content/blog/pau-fisica-optica-lentes-espejos.md":ko,"../content/blog/pau-fisica-relatividad-especial.md":No,"../content/blog/pau-matematicas-ccss-probabilidad-bayes.md":Fo,"../content/blog/pau-matematicas-derivabilidad-parametros-tangentes.md":Vo,"../content/blog/pau-matematicas-geometria-metrica-distancias-angulos.md":Go,"../content/blog/pau-matematicas-ii-90-minutos-elegir-ejercicios.md":Qo,"../content/blog/pau-matematicas-ii-errores-restan-puntos.md":Ko,"../content/blog/pau-matematicas-ii-vectores-rectas-planos.md":Wo,"../content/blog/pau-matematicas-integrales-areas.md":Jo,"../content/blog/pau-matematicas-limites-asintotas.md":Xo,"../content/blog/pau-matematicas-matrices-determinantes-gauss.md":Zo,"../content/blog/pau-matematicas-probabilidad-distribuciones.md":Yo,"../content/blog/pau-matematicas-sistemas-parametro-rouche-frobenius.md":ei,"../content/blog/pau-quimica-acido-base-ph-calculos.md":ai,"../content/blog/pau-quimica-cinetica-arrhenius-velocidad.md":ni,"../content/blog/pau-quimica-enlace-geometria-molecular.md":oi,"../content/blog/pau-quimica-equilibrio-quimico-estudiar.md":ii,"../content/blog/pau-quimica-estequiometria-gases-disoluciones.md":ri,"../content/blog/pau-quimica-estructura-atomica-configuracion.md":si,"../content/blog/pau-quimica-laboratorio-rendimiento-pureza-errores.md":ti,"../content/blog/pau-quimica-organica-mapa-reacciones.md":ci,"../content/blog/pau-quimica-pilas-electroquimica-redox.md":li,"../content/blog/pau-quimica-solubilidad-kps-precipitacion.md":di,"../content/blog/pau-quimica-termoquimica-hess-entalpia.md":ui,"../content/blog/pau-quimica-volumetrias-acido-base-redox.md":mi,"../content/blog/plano-inclinado-1-bachillerato-ejercicios-resueltos.md":$i,"../content/blog/preparar-pau-2027-desde-enero-calendario.md":pi,"../content/blog/preparar-pau-desde-verano-plan-septiembre.md":gi,"../content/blog/preparar-selectividad-con-calendario.md":fi,"../content/blog/primer-proyecto-python-principiantes-datos.md":xi,"../content/blog/probabilidad-condicionada-bayes-problemas-resueltos.md":bi,"../content/blog/problemas-optimizacion-derivadas-ejercicios-resueltos.md":vi,"../content/blog/proporcionalidad-directa-inversa-2-eso-ejercicios.md":yi,"../content/blog/python-y-sql-para-empezar-en-datos.md":hi,"../content/blog/que-prueba-estadistica-utilizar-guia-test-correcto.md":qi,"../content/blog/que-son-las-derivadas-y-para-que-se-utilizan.md":_i,"../content/blog/que-son-las-integrales-y-para-que-se-utilizan.md":Ei,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-1.md":Ci,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-2.md":ji,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-3.md":Si,"../content/blog/quimica-examen-resuelto-junio-2023-modelo-4.md":Pi,"../content/blog/quimica-examen-resuelto-septiembre-2018-modelo-1.md":zi,"../content/blog/quimica-examen-resuelto-septiembre-2022-modelo-1.md":Ai,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-1.md":Li,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-2.md":wi,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-3.md":Hi,"../content/blog/quimica-examen-resuelto-septiembre-2023-modelo-4.md":Mi,"../content/blog/r-spss-jamovi-python-programa-estadistico-universidad.md":Di,"../content/blog/regla-cadena-ejercicios-resueltos.md":Ri,"../content/blog/regla-lhopital-cuando-usarla-ejercicios.md":Bi,"../content/blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados.md":Oi,"../content/blog/regresion-logistica-odds-ratio-interpretacion.md":Ui,"../content/blog/regresion-multiple-r2-ajustado-multicolinealidad.md":Ii,"../content/blog/semejanza-escalas-2-eso-problemas-resueltos.md":Ti,"../content/blog/series-taylor-maclaurin-ejercicios-resueltos.md":ki,"../content/blog/sistemas-ecuaciones-3-eso-problemas-resueltos.md":Ni,"../content/blog/subir-nota-selectividad-2027-estrategia.md":Fi,"../content/blog/t-student-psicologia-ejercicios-resueltos.md":Vi,"../content/blog/teorema-fundamental-calculo-ejemplos-ejercicios.md":Gi,"../content/blog/termodinamica-primer-principio-ciclos-ejercicios-resueltos.md":Qi,"../content/blog/transicion-al-sector-it-en-6-meses.md":Ki,"../content/blog/valores-propios-vectores-propios-diagonalizacion-ejercicios-resueltos.md":Wi}),t=Object.entries(Zi).map(([e,n])=>{const o=e.split("/").pop().replace(/\.md$/,""),{data:a,body:s}=Ji(n);return{slug:o,title:a.title??o,seoTitle:a.seoTitle??"",date:a.date??"",updated:a.updated??a.date??"",description:a.description??"",tag:a.tag??"Blog",category:a.category??a.tag??"Blog",image:a.image??"/favicon.svg",language:a.language==="en"?"en":"es",translation:a.translation??"",relatedService:a.relatedService??"/contacto/",relatedPosts:a.relatedPosts?a.relatedPosts.split(",").map(i=>i.trim()).filter(Boolean):[],readingMinutes:Xi(s),body:s}}).sort((e,n)=>e.date<n.date?1:e.date>n.date?-1:0);function er(){return t}function ar(e,n=12){return Math.max(1,Math.ceil(e.length/n))}function nr(e,n,o=12){const a=(n-1)*o;return e.slice(a,a+o)}function Yi(e){return t.find(n=>n.slug===e)}function or(e){return t.filter(n=>n.category===e)}function ir(e,n=3){const o=e.relatedPosts.map(i=>Yi(i)).filter(i=>!!i),s=[...t.filter(i=>i.language===e.language),...t].filter(i=>i.slug!==e.slug&&!o.some(r=>r.slug===i.slug));return[...o,...s].slice(0,n)}function rr(e,n="es"){if(!e)return"";const o=new Date(e);return Number.isNaN(o.getTime())?e:o.toLocaleDateString(n==="en"?"en-GB":"es-ES",{day:"numeric",month:"long",year:"numeric"})}export{ar as a,Yi as b,nr as c,er as d,ir as e,rr as f,or as g};

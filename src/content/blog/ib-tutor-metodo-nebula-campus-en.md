@@ -1,7 +1,7 @@
 ---
 title: "IB Tutor: how Método Nebula supports Mathematics, Physics and Chemistry"
 seoTitle: "IB Tutor for Mathematics, Physics and Chemistry | Método Nebula"
-date: "2026-12-31"
+date: "2026-11-01"
 updated: "2026-11-10"
 description: "Looking for an IB tutor? Discover Método Nebula's structured support for IB Mathematics, Physics and Chemistry, combining tailored sessions with the virtual Campus."
 tag: "IB"

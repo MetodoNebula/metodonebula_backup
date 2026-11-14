@@ -1,7 +1,7 @@
 ---
 title: "IB Physics Data Booklet: waves, fields and electricity explained"
 seoTitle: "IB Physics Data Booklet: Waves, Fields and Electricity Formulas"
-date: "2026-12-11"
+date: "2026-10-12"
 updated: "2026-11-10"
 description: "IB Physics waves, fields and electricity formulas explained with units, vector direction and original worked applications."
 tag: "IB Physics"

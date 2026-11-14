@@ -1,7 +1,7 @@
 ---
 title: "IB Physics uncertainties and graphs: data analysis with worked examples"
 seoTitle: "IB Physics Uncertainties, Graphs and Data Analysis"
-date: "2026-12-21"
+date: "2026-10-22"
 updated: "2026-11-10"
 description: "IB Physics data analysis explained through uncertainty, percentage uncertainty, gradients, error bars and original worked examples."
 tag: "IB Physics"

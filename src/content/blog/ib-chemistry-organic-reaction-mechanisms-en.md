@@ -1,7 +1,7 @@
 ---
 title: "IB Chemistry organic reactions: mechanisms, functional groups and evidence"
 seoTitle: "IB Chemistry Organic Reactions and Mechanisms Explained"
-date: "2026-12-25"
+date: "2026-10-26"
 updated: "2026-11-10"
 description: "IB Chemistry organic reactions explained through functional groups, reaction mechanisms, conditions, structural formulas and original examples."
 tag: "IB Chemistry"

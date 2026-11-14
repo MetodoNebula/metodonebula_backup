@@ -1,7 +1,7 @@
 ---
 title: "Notación científica en 4 ESO: cómo operar y ejercicios resueltos"
 seoTitle: "Notación científica 4 ESO: ejercicios resueltos paso a paso"
-date: "2027-01-04"
+date: "2026-11-05"
 updated: "2026-11-10"
 description: "Aprende notación científica en 4 ESO con potencias de diez, operaciones, orden de magnitud, cifras significativas y ejercicios desarrollados."
 tag: "Matemáticas ESO"

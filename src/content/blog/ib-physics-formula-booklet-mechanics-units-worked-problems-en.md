@@ -1,7 +1,7 @@
 ---
 title: "IB Physics Formula Booklet: mechanics, units and worked problems"
 seoTitle: "IB Physics Formula Booklet: Mechanics, Units and Worked Problems"
-date: "2026-12-09"
+date: "2026-10-10"
 updated: "2026-11-10"
 description: "IB Physics mechanics formulas explained with SI units, vector signs, energy, momentum and original worked problems."
 tag: "IB Physics"

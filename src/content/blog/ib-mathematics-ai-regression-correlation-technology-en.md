@@ -1,7 +1,7 @@
 ---
 title: "IB Mathematics AI: regression, correlation and technology interpretation"
 seoTitle: "IB Mathematics AI: Regression, Correlation and Technology"
-date: "2026-12-19"
+date: "2026-10-20"
 updated: "2026-11-10"
 description: "IB Mathematics AI regression and correlation explained with technology output, residuals, interpolation, extrapolation and interpretation."
 tag: "IB Mathematics"

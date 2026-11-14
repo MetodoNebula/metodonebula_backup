@@ -1,7 +1,7 @@
 ---
 title: "IB Mathematics AI probability: binomial and normal distributions"
 seoTitle: "IB Mathematics AI Binomial and Normal Distributions"
-date: "2026-12-29"
+date: "2026-10-30"
 updated: "2026-11-10"
 description: "IB Mathematics AI probability distributions explained with binomial conditions, normal-model standardization, technology and worked examples."
 tag: "IB Mathematics"

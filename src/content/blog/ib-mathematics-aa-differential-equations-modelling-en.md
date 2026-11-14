@@ -1,7 +1,7 @@
 ---
 title: "IB Mathematics AA: differential equations and modelling"
 seoTitle: "IB Mathematics AA: Differential Equations and Modelling"
-date: "2026-12-17"
+date: "2026-10-18"
 updated: "2026-11-10"
 description: "IB Mathematics AA differential equations explained with separation of variables, initial conditions, exponential models and interpretation."
 tag: "IB Mathematics"

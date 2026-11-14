@@ -1,7 +1,7 @@
 ---
 title: "IB Chemistry: stoichiometry, moles and limiting reagent problems"
 seoTitle: "IB Chemistry: Stoichiometry, Moles and Limiting Reagent Problems"
-date: "2026-12-13"
+date: "2026-10-14"
 updated: "2026-11-10"
 description: "IB Chemistry stoichiometry explained through balanced equations, moles, concentrations, gases and limiting reagent calculations."
 tag: "IB Chemistry"

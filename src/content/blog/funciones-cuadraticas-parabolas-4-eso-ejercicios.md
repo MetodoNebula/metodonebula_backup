@@ -1,7 +1,7 @@
 ---
 title: "Funciones cuadráticas y parábolas en 4 ESO: ejercicios resueltos"
 seoTitle: "Funciones cuadráticas 4 ESO: parábolas y ejercicios resueltos"
-date: "2027-01-06"
+date: "2026-11-07"
 updated: "2026-11-10"
 description: "Guía de funciones cuadráticas en 4 ESO: forma de la parábola, vértice, cortes con ejes, signo y ejercicios desarrollados paso a paso."
 tag: "Matemáticas ESO"

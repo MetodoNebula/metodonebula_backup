@@ -1,7 +1,7 @@
 ---
 title: "IB Chemistry acids, bases, pH and titration calculations"
 seoTitle: "IB Chemistry Acids, Bases, pH and Titration Calculations"
-date: "2026-12-23"
+date: "2026-10-24"
 updated: "2026-11-10"
 description: "IB Chemistry acids and bases explained with pH, conjugate pairs, strong and weak acids, titration calculations and worked examples."
 tag: "IB Chemistry"

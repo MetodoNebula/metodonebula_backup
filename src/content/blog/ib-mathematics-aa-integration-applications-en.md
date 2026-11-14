@@ -1,7 +1,7 @@
 ---
 title: "IB Mathematics AA integration: areas, volumes and interpretation"
 seoTitle: "IB Mathematics AA Integration: Areas, Volumes and Applications"
-date: "2026-12-27"
+date: "2026-10-28"
 updated: "2026-11-10"
 description: "IB Mathematics AA integration explained with definite integrals, signed area, volumes of revolution and fully worked original examples."
 tag: "IB Mathematics"

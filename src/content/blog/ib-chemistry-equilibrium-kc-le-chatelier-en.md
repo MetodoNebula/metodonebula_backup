@@ -1,7 +1,7 @@
 ---
 title: "IB Chemistry: equilibrium, Kc and Le Châtelier explained"
 seoTitle: "IB Chemistry: Equilibrium, Kc and Le Châtelier"
-date: "2026-12-15"
+date: "2026-10-16"
 updated: "2026-11-10"
 description: "IB Chemistry equilibrium explained with dynamic equilibrium, Kc expressions, reaction quotient and Le Châtelier reasoning."
 tag: "IB Chemistry"

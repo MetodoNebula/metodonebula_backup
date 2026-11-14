@@ -1,7 +1,7 @@
 ---
 title: "Ajuste de ecuaciones químicas en 3 ESO: método y ejercicios resueltos"
 seoTitle: "Ajuste de ecuaciones químicas 3 ESO: ejercicios resueltos"
-date: "2027-01-08"
+date: "2026-11-09"
 updated: "2026-11-10"
 description: "Aprende a ajustar ecuaciones químicas en 3 ESO con conservación de masa, coeficientes, método paso a paso y ejemplos completos."
 tag: "Física y Química ESO"

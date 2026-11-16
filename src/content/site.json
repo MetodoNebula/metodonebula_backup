@@ -36,8 +36,8 @@
       "kind": "home",
       "title": "Clases particulares online desde ESO hasta Universidad | Método Nebula",
       "description": "Clases particulares online de Matemáticas, Física, Estadística y Programación para ESO, Bachillerato, Selectividad y Universidad, con plan personalizado.",
-      "h1": "Clases particulares online de Matemáticas, Física, Estadística y Programación",
-      "intro": "Para estudiantes de ESO, Bachillerato, Selectividad y Universidad que necesitan entender, practicar con criterio y avanzar con un plan personalizado y seguimiento real.",
+      "h1": "Entender cambia la forma de avanzar.",
+      "intro": "Clases particulares con rigor académico y atención real. Graduado en Matemáticas, Máster en Big Data e Inteligencia Artificial y más de seis años enseñando.",
       "priority": "1.0"
     },
     {
@@ -577,7 +577,12 @@
           "a": "A menudo sí. Se integran las herramientas necesarias sin convertirlo en otra asignatura."
         }
       ],
-      "relatedPosts": ["fisica-y-quimica-como-plantear-problemas", "mru-eso-movimiento-rectilineo-uniforme-ejercicios", "mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios", "gravitacion-eso-ley-universal-peso-ejercicios"],
+      "relatedPosts": [
+        "fisica-y-quimica-como-plantear-problemas",
+        "mru-eso-movimiento-rectilineo-uniforme-ejercicios",
+        "mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios",
+        "gravitacion-eso-ley-universal-peso-ejercicios"
+      ],
       "parentPath": "/clases-particulares/",
       "parentLabel": "Clases particulares",
       "modality": "Sesiones online individuales con pizarra compartida, diagramas, control de unidades y problemas del programa de Ingeniería.",

@@ -277,9 +277,11 @@ function markdownToHtml(md) {
     // this, the inline parser consumes the first of the two opening dollars.
     const inlineDisplayMath = /^(.*?)\$\$([\s\S]+?)\$\$(.*?)$/.exec(line);
     if (inlineDisplayMath && (inlineDisplayMath[1].trim() || inlineDisplayMath[3].trim())) {
-      if (inlineDisplayMath[1].trim()) out.push(`<p>${inlineMarkdown(inlineDisplayMath[1].trim())}</p>`);
+      if (inlineDisplayMath[1].trim())
+        out.push(`<p>${inlineMarkdown(inlineDisplayMath[1].trim())}</p>`);
       out.push(displayMathHtml(inlineDisplayMath[2].trim()));
-      if (inlineDisplayMath[3].trim()) out.push(`<p>${inlineMarkdown(inlineDisplayMath[3].trim())}</p>`);
+      if (inlineDisplayMath[3].trim())
+        out.push(`<p>${inlineMarkdown(inlineDisplayMath[3].trim())}</p>`);
       i++;
       continue;
     }
@@ -698,13 +700,13 @@ function homePage() {
       ],
     },
     {
-      title: "Preparación con fecha",
+      title: "Preparación de exámenes",
       href: "/preparacion-examenes/",
       text: "Selectividad, recuperaciones, exámenes universitarios, IB, GCSE, IGCSE y pruebas de acceso.",
       links: ["/clases-particulares/selectividad/", "/clases-particulares/gcse-ib/"],
     },
     {
-      title: "Formación tecnológica",
+      title: "Formación IT",
       href: "/formacion-it/",
       text: "Python, SQL, datos, IA, proyectos y entrevistas técnicas como línea independiente.",
       links: ["/clases-particulares/programacion-universidad/"],
@@ -755,21 +757,28 @@ function homePage() {
       },
     ],
     body: shell({
-      label: "Bienvenido a Nebula",
+      label: "Clases particulares · Preparación académica",
       h1: page.h1,
       intro: page.intro,
       breadcrumbs: null,
       children: `
-        ${styledHeading("No vendemos horas. Diseñamos planes.", 2)}
-        <div class="grid gap-5 md:grid-cols-3">
-          <article class="rounded-2xl border border-white/8 p-5"><h3>Diagnóstico</h3><p>Revisión de nivel, temario, fecha y bloqueo principal.</p></article>
-          <article class="rounded-2xl border border-white/8 p-5"><h3>Planificación</h3><p>Bloques de trabajo con prioridades y calendario.</p></article>
-          <article class="rounded-2xl border border-white/8 p-5"><h3>Seguimiento</h3><p>Práctica, revisión de errores y ajustes semanales.</p></article>
-        </div>
-        ${styledHeading("Oferta organizada", 2)}
+        ${styledHeading("Formación y experiencia detrás de cada clase", 2)}
+        <p>Graduado en Matemáticas · Máster en Big Data e Inteligencia Artificial · Más de seis años enseñando.</p>
+        <p><a href="https://www.tusclasesparticulares.com/profesores/nebula-lambda.htm">Leer opiniones de alumnos</a></p>
+        ${styledHeading("Tu objetivo marca el camino. El método permanece.", 2)}
         <div class="space-y-6">${serviceHtml}</div>
+        ${styledHeading("Un ejemplo de razonamiento", 2)}
+        <p>En un caso de probabilidad condicional, 19 alertas reales y 98 falsas alarmas muestran por qué una alerta implica un 16,2 % de probabilidad de defecto. La tasa inicial importa tanto como la precisión del detector.</p>
+        ${styledHeading("El método Nebula", 2)}
+        <div class="grid gap-5 md:grid-cols-3">
+          <article class="rounded-2xl border border-white/8 p-5"><h3>Diagnóstico inicial</h3><p>Entendemos el punto de partida, el temario y el objetivo.</p></article>
+          <article class="rounded-2xl border border-white/8 p-5"><h3>Material y práctica</h3><p>Ejercicios adaptados a cada objetivo.</p></article>
+          <article class="rounded-2xl border border-white/8 p-5"><h3>Seguimiento continuo</h3><p>Revisamos el progreso y ajustamos el plan.</p></article>
+        </div>
+        ${styledHeading("Un campus para seguir practicando.", 2)}
+        <p>Teoría, ejercicios y exámenes resueltos de Matemáticas, Física y Química. <a href="/campus/">Explorar el campus</a>.</p>
         ${styledHeading("Siguiente paso", 2)}
-        <p><a href="/contacto/">Solicitar diagnóstico</a> · <a href="/blog/">Leer guías académicas</a> · <a href="/metodologia/">Ver el método</a></p>
+        <p><a href="/contacto/">Solicitar diagnóstico</a> · <a href="/clases-particulares/">Explorar los programas</a> · <a href="/metodologia/">Ver el método</a></p>
       `,
     }),
   };

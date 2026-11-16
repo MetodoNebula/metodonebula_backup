@@ -234,6 +234,21 @@
   }
 }
 
+.nebula-wordmark {
+  display: inline-block;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.2rem;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.nebula-wordmark-footer {
+  font-size: 2rem;
+}
+
 .skip-link {
   position: fixed;
   left: 1rem;

@@ -78,21 +78,7 @@ export function GhostCTA({
 }
 
 export function NebulaLogo({ className = "" }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 32 32" className={className} aria-hidden="true">
-      <defs>
-        <linearGradient id="ng" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0%" stopColor="#2F6BFF" />
-          <stop offset="60%" stopColor="#7C5CFF" />
-          <stop offset="100%" stopColor="#D6B15E" />
-        </linearGradient>
-      </defs>
-      <circle cx="16" cy="16" r="14" fill="none" stroke="url(#ng)" strokeWidth="1.2" />
-      <circle cx="16" cy="16" r="3" fill="url(#ng)" />
-      <circle cx="26" cy="10" r="1.5" fill="#D6B15E" />
-      <circle cx="6" cy="22" r="1" fill="#2CEBFF" />
-    </svg>
-  );
+  return <span className={`nebula-wordmark ${className}`}>Nebula</span>;
 }
 
 /* -------------------------------------------------------------------------- */
@@ -142,9 +128,8 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-white/5 bg-background/70 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <Link to="/" className="flex min-h-11 items-center gap-2">
-          <NebulaLogo className="h-7 w-7" />
-          <span className="font-display text-lg font-semibold tracking-tight">Método Nebula</span>
+        <Link to="/" className="flex min-h-11 items-center" aria-label="Método Nebula, inicio">
+          <NebulaLogo />
         </Link>
         <nav className="hidden items-center gap-5 lg:flex" aria-label="Navegación principal">
           {NAV_LINKS.map((l) => (
@@ -214,9 +199,8 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
-            <div className="flex items-center gap-2">
-              <NebulaLogo className="h-7 w-7" />
-              <span className="font-display text-lg font-semibold">Método Nebula</span>
+            <div className="flex items-center">
+              <NebulaLogo className="nebula-wordmark-footer" />
             </div>
             <p className="mt-4 max-w-sm text-sm text-muted-foreground">
               Enseñanza privada con diagnóstico, planificación, materiales y seguimiento desde ESO

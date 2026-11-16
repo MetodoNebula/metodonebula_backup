@@ -49,6 +49,14 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://metodonebula.es/blog/gcse-ib-tutor-spain-questions-parents-en/</loc>
+    <lastmod>2026-11-17</lastmod>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/blog/ib-mathematics-2027-curriculum-what-changes-en/</loc>
+    <lastmod>2026-11-17</lastmod>
+  </url>
+  <url>
     <loc>https://metodonebula.es/blog/ib-study-resources-mathematics-physics-chemistry-en/</loc>
     <lastmod>2026-11-14</lastmod>
   </url>
@@ -1338,7 +1346,11 @@
   </url>
   <url>
     <loc>https://metodonebula.es/clases-particulares/gcse-ib/</loc>
-    <priority>0.65</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://metodonebula.es/campus/gcse-ib/</loc>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://metodonebula.es/clases-particulares/calculo-universitario/</loc>

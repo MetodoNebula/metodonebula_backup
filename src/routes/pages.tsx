@@ -740,6 +740,7 @@ export function CampusPage() {
       "Universidad",
       "Profundiza en Cálculo, Álgebra, Física y Química con desarrollo matemático y método.",
     ],
+    ["GCSE e IB", "Estudia con materiales y práctica de examen adaptados a tu programa y nivel."],
   ];
 
   return (
@@ -765,7 +766,11 @@ export function CampusPage() {
           ],
         }}
       />
-      <PageHero label="Campus virtual" page={page} breadcrumbs={[{ label: "Campus", href: page.path }]} />
+      <PageHero
+        label="Campus virtual"
+        page={page}
+        breadcrumbs={[{ label: "Campus", href: page.path }]}
+      />
 
       <section className="py-16 md:py-20">
         <div className="mx-auto max-w-7xl px-6">
@@ -779,9 +784,9 @@ export function CampusPage() {
                 resultado.
               </p>
               <p className="mt-4 max-w-2xl leading-relaxed text-muted-foreground">
-                El acceso se adapta al nivel y a las asignaturas que necesitas trabajar. Para
-                conocer el contenido disponible y el encaje con tu objetivo, escríbenos
-                directamente.
+                Ahora también disponible para GCSE e IB. El acceso se adapta al programa, nivel y
+                asignaturas que necesitas trabajar. Para conocer el contenido disponible y el encaje
+                con tu objetivo, escríbenos directamente.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <a
@@ -831,7 +836,9 @@ export function CampusPage() {
                     <subject.icon className="h-5 w-5 text-spark" />
                   </div>
                   <h3 className="mt-5 font-display text-xl font-semibold">{subject.title}</h3>
-                  <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{subject.text}</p>
+                  <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
+                    {subject.text}
+                  </p>
                 </article>
               ))}
             </div>
@@ -839,7 +846,7 @@ export function CampusPage() {
 
           <section className="mt-16">
             <AccentHeading className="text-2xl">Contenido adaptado a tu etapa</AccentHeading>
-            <div className="mt-7 grid gap-4 md:grid-cols-3">
+            <div className="mt-7 grid gap-4 md:grid-cols-2 xl:grid-cols-4">
               {levels.map(([title, text], index) => (
                 <article
                   key={title}
@@ -863,8 +870,8 @@ export function CampusPage() {
               Cuéntanos tu nivel y las asignaturas que quieres trabajar
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-muted-foreground">
-              Te explicamos qué parte del campus puede ayudarte y cómo acceder. Puedes contactar
-              por teléfono o por Instagram.
+              Te explicamos qué parte del campus puede ayudarte y cómo acceder. Puedes contactar por
+              teléfono o por Instagram.
             </p>
             <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
               <a

@@ -149,8 +149,10 @@ export default function NebulaLanding() {
         <a className="campus-promo landing-wrap" href="/campus/">
           <BookOpen size={24} />
           <div>
-            <span className="editorial-label">DESCUBRE EL CAMPUS VIRTUAL</span>
-            <p>Tu espacio de teoría, ejercicios y exámenes resueltos.</p>
+            <span className="editorial-label">NOVEDAD · GCSE E IB EN EL CAMPUS</span>
+            <p>
+              Tu espacio de teoría, ejercicios y exámenes resueltos. Ahora también para GCSE e IB.
+            </p>
           </div>
           <span className="campus-promo-link">
             Entrar al campus <ArrowUpRight size={18} />
@@ -484,7 +486,10 @@ export default function NebulaLanding() {
           <div>
             <p className="editorial-label">EL APRENDIZAJE SIGUE AQUÍ</p>
             <h2>Un campus para seguir practicando.</h2>
-            <p>Teoría, ejercicios y exámenes resueltos de Matemáticas, Física y Química.</p>
+            <p>
+              Teoría, ejercicios y exámenes resueltos de Matemáticas, Física y Química. También
+              disponible para GCSE e IB.
+            </p>
           </div>
           <a className="editorial-link" href="/campus/">
             Explorar el campus <ArrowRight size={16} />

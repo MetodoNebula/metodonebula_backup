@@ -776,7 +776,7 @@ function homePage() {
           <article class="rounded-2xl border border-white/8 p-5"><h3>Seguimiento continuo</h3><p>Revisamos el progreso y ajustamos el plan.</p></article>
         </div>
         ${styledHeading("Un campus para seguir practicando.", 2)}
-        <p>Teoría, ejercicios y exámenes resueltos de Matemáticas, Física y Química. <a href="/campus/">Explorar el campus</a>.</p>
+        <p>Teoría, ejercicios y exámenes resueltos de Matemáticas, Física y Química. Ahora también disponible para GCSE e IB. <a href="/campus/">Explorar el campus</a>.</p>
         ${styledHeading("Siguiente paso", 2)}
         <p><a href="/contacto/">Solicitar diagnóstico</a> · <a href="/clases-particulares/">Explorar los programas</a> · <a href="/metodologia/">Ver el método</a></p>
       `,
@@ -1450,6 +1450,7 @@ function campusPage() {
     ["ESO", "Construye base, corrige lagunas y aprende a razonar antes de memorizar."],
     ["Bachillerato", "Conecta teoría, problemas tipo y preparación de exámenes."],
     ["Universidad", "Profundiza con desarrollo matemático y método en asignaturas exigentes."],
+    ["GCSE e IB", "Materiales y práctica de examen adaptados al programa y nivel."],
   ]
     .map(
       ([title, text], index) =>
@@ -1469,12 +1470,12 @@ function campusPage() {
     escapeHtml(instagram) +
     '" target="_blank" rel="noopener noreferrer">Escribir por Instagram</a></p>';
   const children = [
-    '<div class="grid gap-8 lg:grid-cols-[1.08fr_0.92fr]"><section><h2>Estudia con un recorrido, no con recursos sueltos</h2><p>El campus reúne explicaciones directas, ejercicios resueltos paso a paso y materiales para preparar exámenes. Está pensado para entender el procedimiento, practicarlo con orden y comprobar qué idea hay detrás de cada resultado.</p><p>El acceso se adapta al nivel y a las asignaturas que necesitas trabajar. Para conocer el contenido disponible y el encaje con tu objetivo, escríbenos directamente.</p>',
+    '<div class="grid gap-8 lg:grid-cols-[1.08fr_0.92fr]"><section><h2>Estudia con un recorrido, no con recursos sueltos</h2><p>El campus reúne explicaciones directas, ejercicios resueltos paso a paso y materiales para preparar exámenes. Está pensado para entender el procedimiento, practicarlo con orden y comprobar qué idea hay detrás de cada resultado.</p><p>Ahora también disponible para GCSE e IB. El acceso se adapta al programa, nivel y asignaturas que necesitas trabajar. Para conocer el contenido disponible y el encaje con tu objetivo, escríbenos directamente.</p>',
     contactButtons,
     '</section><aside class="nebula-card rounded-3xl p-7"><p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Dentro del campus</p><ul class="mt-6 space-y-4"><li>Teoría clara organizada por temas y niveles.</li><li>Ejercicios resueltos con desarrollo matemático riguroso.</li><li>Problemas de examen para practicar con contexto.</li><li>Una ruta útil para repasar, recuperar base o avanzar.</li></ul></aside></div>',
     '<h2>Tres áreas, una forma de estudiar</h2><div class="grid gap-5 md:grid-cols-3">',
     subjectCards,
-    '</div><h2>Contenido adaptado a tu etapa</h2><div class="grid gap-4 md:grid-cols-3">',
+    '</div><h2>Contenido adaptado a tu etapa</h2><div class="grid gap-4 md:grid-cols-2 xl:grid-cols-4">',
     levelCards,
     '</div><section class="mt-14 rounded-3xl border border-spark/25 bg-spark/5 p-8 text-center"><p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Acceso e información</p><h2 class="mt-4">Cuéntanos tu nivel y las asignaturas que quieres trabajar</h2><p>Te explicamos qué parte del campus puede ayudarte y cómo acceder. Puedes contactar por teléfono o por Instagram.</p>',
     contactButtons,

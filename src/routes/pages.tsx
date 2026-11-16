@@ -463,7 +463,7 @@ export function ServiceDetailPage({ page }: { page: ServicePage }) {
               </PrimaryCTA>
               {page.secondaryCtaLabel && (
                 <Link
-                  to="/contacto/"
+                  to={page.secondaryCtaPath ?? "/contacto/"}
                   className="mt-4 inline-flex w-full items-center justify-center text-sm font-medium text-link underline-offset-4 hover:underline"
                 >
                   {page.secondaryCtaLabel}
@@ -740,7 +740,10 @@ export function CampusPage() {
       "Universidad",
       "Profundiza en Cálculo, Álgebra, Física y Química con desarrollo matemático y método.",
     ],
-    ["GCSE e IB", "Estudia con materiales y práctica de examen adaptados a tu programa y nivel."],
+    [
+      "GCSE, IGCSE e IB",
+      "Rutas de Maths, Physics y Chemistry adaptadas a programa, nivel, exam board y fecha.",
+    ],
   ];
 
   return (
@@ -784,39 +787,37 @@ export function CampusPage() {
                 resultado.
               </p>
               <p className="mt-4 max-w-2xl leading-relaxed text-muted-foreground">
-                Ahora también disponible para GCSE e IB. El acceso se adapta al programa, nivel y
-                asignaturas que necesitas trabajar. Para conocer el contenido disponible y el encaje
-                con tu objetivo, escríbenos directamente.
+                Para GCSE, IGCSE e IB, las rutas se organizan por asignatura, programa, nivel y
+                fecha de examen. Puedes trabajar Maths, Physics o Chemistry y añadir clases
+                individuales cuando necesites diagnóstico y feedback.
               </p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+                <Link
+                  to="/campus/gcse-ib/"
+                  className="inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[0_10px_40px_-10px_oklch(0.62_0.22_265/0.7)] transition-all hover:-translate-y-0.5 hover:bg-action/90"
+                >
+                  Ver rutas GCSE e IB
+                  <ArrowRight className="h-4 w-4" />
+                </Link>
                 <a
                   href="tel:+34684731762"
-                  className="inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground shadow-[0_10px_40px_-10px_oklch(0.62_0.22_265/0.7)] transition-all hover:-translate-y-0.5 hover:bg-action/90"
+                  className="inline-flex items-center justify-center gap-2 rounded-full border border-white/15 bg-white/[0.03] px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:border-spark/50 hover:bg-spark/10"
                 >
                   <MessageCircle className="h-4 w-4" />
                   Llamar al {WHATSAPP_NUMBER}
-                </a>
-                <a
-                  href={INSTAGRAM_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 rounded-full border border-white/15 bg-white/[0.03] px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:border-spark/50 hover:bg-spark/10"
-                >
-                  <Instagram className="h-4 w-4 text-spark" />
-                  Escribir por Instagram
                 </a>
               </div>
             </div>
             <aside className="nebula-card rounded-3xl p-7">
               <p className="text-xs font-semibold uppercase tracking-[0.18em] text-spark">
-                Dentro del campus
+              Dentro de cada ruta
               </p>
               <ul className="mt-6 space-y-5">
                 {[
-                  "Teoría clara organizada por temas y niveles.",
-                  "Ejercicios resueltos con desarrollo matemático riguroso.",
-                  "Problemas de examen para practicar con contexto.",
-                  "Una ruta útil para repasar, recuperar base o avanzar.",
+                  "Teoría y vocabulario organizados por programa, tema y nivel.",
+                  "Ejemplos resueltos con razonamiento, unidades y comunicación visibles.",
+                  "Práctica graduada antes de pasar a preguntas de examen.",
+                  "Revisión de errores para decidir el siguiente paso de estudio.",
                 ].map((item) => (
                   <li key={item} className="flex gap-3 text-sm leading-relaxed text-foreground/90">
                     <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-spark" />
@@ -862,16 +863,37 @@ export function CampusPage() {
             </div>
           </section>
 
+          <section className="mt-16 rounded-3xl border border-spark/25 bg-spark/[0.06] p-8 md:p-10">
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-spark">
+              Campus internacional
+            </p>
+            <h2 className="mt-4 max-w-3xl font-display text-3xl font-semibold md:text-4xl">
+              GCSE, IGCSE e IB: empieza desde tu programa, no desde un temario genérico
+            </h2>
+            <p className="mt-4 max-w-3xl leading-relaxed text-muted-foreground">
+              La ruta específica diferencia GCSE e IGCSE por asignatura y nivel cuando corresponda,
+              y en IB confirma AA o AI y SL o HL antes de recomendar contenidos. Incluye qué enviar
+              para recibir una orientación útil.
+            </p>
+            <Link
+              to="/campus/gcse-ib/"
+              className="mt-7 inline-flex items-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-action/90"
+            >
+              Explorar el Campus GCSE e IB
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </section>
+
           <section className="mt-16 rounded-3xl border border-spark/25 bg-spark/[0.06] p-8 text-center md:p-11">
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-spark">
               Acceso e información
             </p>
             <h2 className="mx-auto mt-4 max-w-2xl font-display text-3xl font-semibold md:text-4xl">
-              Cuéntanos tu nivel y las asignaturas que quieres trabajar
+              Cuéntanos programa, nivel y la asignatura que quieres trabajar
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-muted-foreground">
-              Te explicamos qué parte del campus puede ayudarte y cómo acceder. Puedes contactar por
-              teléfono o por Instagram.
+              Si indicas GCSE, IGCSE o IB; asignatura; nivel; exam board si aplica; y fecha del
+              próximo mock o examen, podemos orientarte hacia la ruta más útil.
             </p>
             <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
               <a

@@ -52,10 +52,10 @@
     {
       "path": "/campus/",
       "kind": "campus",
-      "title": "Campus virtual de Física, Química y Matemáticas | Método Nebula",
-      "description": "Campus virtual de Método Nebula con teoría, ejercicios resueltos y preparación de Matemáticas, Física y Química para ESO, Bachillerato, Universidad, GCSE e IB.",
-      "h1": "Campus virtual de Física, Química y Matemáticas",
-      "intro": "Un espacio de estudio con teoría estructurada, ejercicios razonados y exámenes resueltos. Ahora también disponible para GCSE e IB.",
+      "title": "Campus GCSE e IB de Matemáticas y Ciencias | Método Nebula",
+      "description": "Campus online para GCSE, IGCSE e IB con teoría, ejemplos resueltos y rutas de Matemáticas, Física y Química adaptadas a programa, nivel y examen.",
+      "h1": "Campus virtual para GCSE, IGCSE e IB",
+      "intro": "Teoría estructurada, ejercicios razonados y práctica de examen para Matemáticas, Física y Química. Cada ruta parte del programa, nivel y fecha reales.",
       "priority": "0.8"
     },
     {
@@ -747,10 +747,11 @@
     },
     {
       "path": "/clases-particulares/gcse-ib/",
-      "title": "Clases particulares para GCSE, IGCSE e IB | Método Nebula",
-      "description": "Preparación personalizada para GCSE, IGCSE e IB en asignaturas cuantitativas con rúbrica, calendario y práctica guiada.",
-      "h1": "Clases particulares para GCSE, IGCSE e IB",
-      "audience": "For students who need structured academic support in international programmes while keeping explanations clear in Spanish or English when needed.",
+      "title": "Tutor GCSE, IGCSE e IB online de Maths y Science | Método Nebula",
+      "description": "Clases particulares online de GCSE, IGCSE e IB para Maths, Physics y Chemistry, con diagnóstico por programa, nivel, exam board y fecha de examen.",
+      "h1": "Tutor online para GCSE, IGCSE e IB: Maths y Science",
+      "heroLabel": "Programas internacionales",
+      "audience": "Clases online individuales para estudiantes de GCSE, IGCSE e IB que quieren trabajar Matemáticas, Física o Química con un plan alineado con su curso, sus mocks y su examen final.",
       "problems": [
         "No entender la rúbrica o el tipo de respuesta esperado.",
         "Practicar ejercicios sin medir tiempo ni criterio.",
@@ -758,37 +759,122 @@
         "Llegar a mocks sin revisión de errores acumulados."
       ],
       "topics": [
-        "Mathematics",
-        "Physics",
-        "Chemistry",
-        "Exam technique",
-        "Internal assessment support",
-        "Revisión planning"
+        "GCSE e IGCSE Maths: Foundation o Higher cuando corresponda",
+        "GCSE e IGCSE Physics y Chemistry: contenido, cálculos y respuestas escritas",
+        "IB Mathematics: AA o AI, SL o HL",
+        "IB Physics y Chemistry: razonamiento, datos y comunicación científica",
+        "Técnica de examen, past papers y markschemes",
+        "Orientación ética para la exploración matemática de IB"
       ],
       "method": [
-        "Diagnostic review of syllabus, level and exam board.",
-        "Calendar aligned with mocks and final exams.",
-        "Worked examples and independent practice.",
-        "Rubric-aware feedback.",
-        "Progress tracking until exam week."
+        "Confirmamos asignatura, programa, nivel, exam board y próxima fecha relevante.",
+        "Revisamos un mock, pregunta o material de clase para localizar el primer bloqueo.",
+        "Explicamos el concepto con un ejemplo completo y una forma de comprobarlo.",
+        "Practicamos una variante de forma autónoma y corregimos con el criterio de evaluación disponible.",
+        "Dejamos una ruta de Campus para consolidar entre sesiones y revisamos el progreso semanal."
       ],
-      "profile": "El enfoque combina estructura académica y claridad bilingüe cuando el programa lo requiere.",
-      "differentiator": "El trabajo se adapta al syllabus y a la rúbrica, con práctica de contenido, timing y forma de justificar respuestas. La explicación puede alternar español e inglés cuando aporte claridad.",
+      "modality": "Las clases son online e individuales. La explicación puede ser en español o inglés cuando ayude a entender, pero se practica siempre la terminología y el formato de respuesta que exige la asignatura.",
+      "profile": "El enfoque combina formación matemática, estructura de estudio y explicaciones bilingües cuando el programa lo requiere.",
+      "differentiator": "No se presenta GCSE, IGCSE o IB como un temario genérico: se parte del curso exacto, del nivel y de una evidencia reciente. Las sesiones se conectan con una ruta de Campus para que el trabajo continúe entre clases.",
       "studentInput": "Programa, exam board, nivel, calendario de mocks, rúbricas y ejemplos de respuestas corregidas si existen.",
       "reasonableOutcomes": "Más alineación con la rúbrica, mejor gestión del tiempo y práctica enfocada a examen. Las expectativas se ajustan al calendario y al nivel inicial.",
-      "nextStep": "Solicitar diagnóstico con programa, asignatura, exam board y fecha de mock o examen final.",
+      "nextStep": "Envía programa, asignatura, nivel, exam board si aplica, fecha del próximo mock o examen y una pregunta reciente. Con ello se puede proponer una ruta de clases y Campus concreta.",
       "faq": [
         {
           "q": "¿Las clases pueden adaptarse al temario internacional?",
-          "a": "Sí, siempre partiendo del syllabus y materiales concretos que aporte el alumno."
+          "a": "Sí. Se parte del syllabus, materiales del centro, nivel, exam board y criterios de evaluación que aporte el alumno."
         },
         {
           "q": "¿Se trabaja técnica de examen?",
-          "a": "Sí. Se práctica contenido, tiempo, rúbrica y forma de justificar respuestas."
+          "a": "Sí. Se practica contenido, tiempo, markscheme o rúbrica cuando esté disponible y la forma de justificar respuestas."
+        },
+        {
+          "q": "¿El Campus sustituye las clases?",
+          "a": "El Campus permite estudiar con una ruta entre sesiones o de forma autónoma. Las clases añaden diagnóstico, explicación adaptada y feedback sobre el trabajo del alumno."
+        },
+        {
+          "q": "¿Hacéis la Internal Assessment o trabajos evaluables?",
+          "a": "No. Se puede orientar el planteamiento, explicar técnicas y dar feedback para que el trabajo, las decisiones y la redacción sigan siendo del estudiante."
         }
       ],
-      "relatedPosts": ["ib-gcse-como-preparar-examenes-internacionales"],
-      "priority": "0.65"
+      "relatedPosts": ["ib-tutor-metodo-nebula-campus-en", "gcse-tutor-metodo-nebula-campus-en", "ib-gcse-como-preparar-examenes-internacionales"],
+      "relatedServices": ["/campus/", "/preparacion-examenes/ib-mathematics/"],
+      "priority": "0.8"
+    },
+    {
+      "path": "/campus/gcse-ib/",
+      "parentPath": "/campus/",
+      "parentLabel": "Campus virtual",
+      "title": "Campus GCSE e IB de Maths, Physics y Chemistry | Método Nebula",
+      "description": "Campus GCSE, IGCSE e IB para Matemáticas, Física y Química: teoría, ejemplos resueltos, práctica graduada y rutas adaptadas a curso, nivel y examen.",
+      "h1": "Campus GCSE e IB para Maths, Physics y Chemistry",
+      "heroLabel": "Campus internacional",
+      "audience": "Un espacio de estudio online para alumnado de GCSE, IGCSE e IB que necesita una ruta clara entre clase, práctica y examen en Matemáticas, Física o Química.",
+      "quickAnswer": "El Campus organiza teoría, ejemplos resueltos, práctica graduada y preguntas de examen en rutas que se ajustan al programa, nivel y fecha del alumno. Puede usarse como apoyo autónomo o como continuidad entre clases individuales.",
+      "problemsHeading": "Cuando estudiar con recursos sueltos no basta",
+      "problems": [
+        "Tienes apuntes, vídeos y worksheets, pero no sabes qué revisar primero.",
+        "Un mock muestra fallos, pero no queda claro si el origen es contenido, método, vocabulario o tiempo.",
+        "Practicas con preguntas de un nivel, programa o exam board distinto al tuyo.",
+        "Después de una clase entiendes el ejemplo, pero no tienes una secuencia para consolidarlo solo."
+      ],
+      "topicsHeading": "Rutas que pueden organizarse en el Campus",
+      "topics": [
+        "GCSE e IGCSE Maths: álgebra, gráficas, geometría, probabilidad y estadística",
+        "GCSE e IGCSE Physics: modelos, diagramas, ecuaciones, unidades y explicaciones",
+        "GCSE e IGCSE Chemistry: partículas, ecuaciones, moles, reactividad y análisis",
+        "IB Mathematics AA y AI, en SL o HL, según la asignatura del alumno",
+        "IB Physics y Chemistry: cálculos, interpretación de datos y comunicación científica",
+        "Práctica de preguntas tipo examen y revisión de errores"
+      ],
+      "resourcesHeading": "Cómo se estudia dentro de una ruta",
+      "resources": [
+        "Una explicación breve para reconstruir la idea antes de hacer ejercicios.",
+        "Ejemplos trabajados con los pasos, unidades, diagramas o justificaciones visibles.",
+        "Práctica graduada para pasar de una técnica aislada a una pregunta con contexto.",
+        "Preguntas de examen para comprobar si el método se mantiene bajo condiciones reales.",
+        "Un registro de errores que convierte cada resultado de mock en la siguiente tarea."
+      ],
+      "methodHeading": "Del diagnóstico a la práctica independiente",
+      "method": [
+        "Definir programa, asignatura, nivel, exam board si aplica y fecha objetivo.",
+        "Elegir una evidencia inicial: un mock, una pregunta corregida o un bloque que esté costando.",
+        "Empezar por el prerrequisito necesario, no por la pregunta más difícil.",
+        "Avanzar de ejemplo guiado a práctica independiente y después a examen.",
+        "Volver al error tras unas horas o días para verificar que el método se ha consolidado."
+      ],
+      "modality": "El acceso y la ruta se explican a partir del programa y del objetivo del alumno. Cuando se combina con clases, el Campus permite continuar el trabajo entre sesiones con materiales seleccionados para el siguiente paso.",
+      "profile": "Método Nebula combina formación matemática, una forma de estudio estructurada y recursos originales para materias cuantitativas.",
+      "differentiator": "El Campus no se plantea como una biblioteca de enlaces. Cada recurso tiene una función en una secuencia: entender, ver un ejemplo, practicar, comprobar y corregir. La ruta se adapta al curso concreto en vez de prometer un contenido único para todos los programas.",
+      "studentInput": "Programa, asignatura, nivel, exam board si aplica, fecha de mock o examen y una pregunta o resultado reciente.",
+      "reasonableOutcomes": "Una secuencia de estudio más clara, práctica más relevante y mejor trazabilidad de los errores. El resultado académico depende del punto de partida, tiempo disponible y trabajo realizado.",
+      "nextStep": "Solicita una orientación indicando programa, asignatura, nivel y fecha. Así se puede explicar qué ruta del Campus encaja y si conviene acompañarla con clases individuales.",
+      "diagnosisHeading": "Encuentra tu ruta de Campus",
+      "ctaLabel": "Solicitar orientación",
+      "ctaPath": "/contacto/",
+      "secondaryCtaLabel": "Ver las clases para GCSE e IB",
+      "secondaryCtaPath": "/clases-particulares/gcse-ib/",
+      "faq": [
+        {
+          "q": "¿Para qué programas sirve el Campus?",
+          "a": "Se organiza para GCSE, IGCSE e IB en Matemáticas, Física y Química, partiendo del programa y nivel concreto del alumno."
+        },
+        {
+          "q": "¿Se diferencia entre IB Mathematics AA y AI?",
+          "a": "Sí. Antes de proponer la ruta se confirma si el alumno cursa AA o AI y si está en SL o HL."
+        },
+        {
+          "q": "¿Necesito saber mi exam board?",
+          "a": "Ayuda a alinear materiales y preguntas. Si no lo sabes, basta con aportar un examen, una guía o los materiales de clase para identificarlo."
+        },
+        {
+          "q": "¿Puede combinarse con tutoría?",
+          "a": "Sí. Las clases se usan para diagnosticar y corregir; el Campus deja una ruta de práctica concreta entre sesiones."
+        }
+      ],
+      "relatedPosts": ["ib-study-resources-mathematics-physics-chemistry-en", "gcse-revision-resources-maths-physics-chemistry-en", "ib-mathematics-2027-curriculum-what-changes-en"],
+      "relatedServices": ["/clases-particulares/gcse-ib/", "/preparacion-examenes/ib-mathematics/"],
+      "priority": "0.9"
     },
     {
       "path": "/clases-particulares/calculo-universitario/",

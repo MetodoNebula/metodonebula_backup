@@ -146,16 +146,17 @@ export default function NebulaLanding() {
           </div>
         </section>
 
-        <a className="campus-promo landing-wrap" href="/campus/">
+        <a className="campus-promo landing-wrap" href="/campus/gcse-ib/">
           <BookOpen size={24} />
           <div>
             <span className="editorial-label">NOVEDAD · GCSE E IB EN EL CAMPUS</span>
             <p>
-              Tu espacio de teoría, ejercicios y exámenes resueltos. Ahora también para GCSE e IB.
+              Rutas de Maths, Physics y Chemistry para GCSE, IGCSE e IB: teoría, práctica y
+              preguntas de examen conectadas.
             </p>
           </div>
           <span className="campus-promo-link">
-            Entrar al campus <ArrowUpRight size={18} />
+            Ver el Campus internacional <ArrowUpRight size={18} />
           </span>
         </a>
 

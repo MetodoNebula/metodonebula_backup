@@ -51,6 +51,7 @@ export type ServicePage = {
   ctaLabel?: string;
   ctaPath?: string;
   secondaryCtaLabel?: string;
+  secondaryCtaPath?: string;
   faq: Array<{ q: string; a: string }>;
   relatedPosts: string[];
   parentPath?: string;

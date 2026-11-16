@@ -9,10 +9,24 @@ import { Link } from "../lib/router";
 /*  Shared building blocks                                                    */
 /* -------------------------------------------------------------------------- */
 
-export function SectionLabel({ children }: { children: React.ReactNode }) {
+export function SectionLabel({
+  children,
+  tone = "blue",
+}: {
+  children: React.ReactNode;
+  tone?: "blue" | "gold";
+}) {
+  const toneClasses =
+    tone === "gold"
+      ? "border-spark/30 bg-spark/10 text-spark"
+      : "border-action/30 bg-action/10 text-link";
+  const dotClasses = tone === "gold" ? "bg-spark" : "bg-action";
+
   return (
-    <span className="inline-flex items-center gap-2 rounded-full border border-spark/30 bg-spark/10 px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] text-spark">
-      <span className="h-1.5 w-1.5 rounded-full bg-spark" />
+    <span
+      className={`inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-medium uppercase tracking-[0.18em] ${toneClasses}`}
+    >
+      <span className={`h-1.5 w-1.5 rounded-full ${dotClasses}`} />
       {children}
     </span>
   );
@@ -86,15 +100,12 @@ export function NebulaLogo({ className = "" }: { className?: string }) {
 /* -------------------------------------------------------------------------- */
 
 const NAV_LINKS = [
-  { href: "/", label: "Inicio" },
   { href: "/clases-particulares/", label: "Clases" },
   { href: "/preparacion-examenes/", label: "Exámenes" },
-  { href: "/tfg-tfm/", label: "TFG/TFM" },
   { href: "/formacion-it/", label: "Formación IT" },
   { href: "/metodologia/", label: "Método" },
   { href: "/campus/", label: "Campus", featured: true },
   { href: "/blog/", label: "Blog" },
-  { href: "/contacto/", label: "Contacto" },
 ];
 
 export function PageShell({ children }: { children: React.ReactNode }) {
@@ -135,7 +146,7 @@ export function Navbar() {
           <NebulaLogo className="h-7 w-7" />
           <span className="font-display text-lg font-semibold tracking-tight">Método Nebula</span>
         </Link>
-        <nav className="hidden items-center gap-4 xl:gap-5 lg:flex">
+        <nav className="hidden items-center gap-5 lg:flex" aria-label="Navegación principal">
           {NAV_LINKS.map((l) => (
             <Link
               key={l.href}

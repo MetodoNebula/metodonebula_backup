@@ -21,6 +21,7 @@ function run(command, args) {
 }
 
 try {
+  run("node", ["scripts/generate-landing-math.mjs"]);
   if (fs.existsSync(visualSourceDir)) {
     fs.mkdirSync(visualPublicDir, { recursive: true });
     for (const file of fs.readdirSync(visualSourceDir)) {

@@ -3,7 +3,7 @@
     "universidad": "Universidad de Alicante",
     "carreras": [
       {
-        "nombre": "DOBLE GRADO EN DERECHO Y ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS",
+        "nombre": "Doble Grado en Derecho y Administración y Dirección de Empresas",
         "asignaturas": [
           {
             "asignatura": "CONTABILIDAD FINANCIERA III",
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "nombre": "DOBLE GRADO EN DERECHO Y CRIMINOLOGÍA",
+        "nombre": "Doble Grado en Derecho y Criminología",
         "asignaturas": [
           {
             "asignatura": "INTRODUCCIÓN A LA ESTADÍSTICA",
@@ -45,7 +45,7 @@
         ]
       },
       {
-        "nombre": "DOBLE GRADO EN FÍSICA Y MATEMÁTICAS",
+        "nombre": "Doble Grado en Física y Matemáticas",
         "asignaturas": [
           {
             "asignatura": "ANÁLISIS DE UNA VARIABLE REAL II",
@@ -202,7 +202,7 @@
         ]
       },
       {
-        "nombre": "DOBLE GRADO EN INGENIERÍA INFORMÁTICA Y ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS",
+        "nombre": "Doble Grado en Ingeniería Informática y Administración y Dirección de Empresas",
         "asignaturas": [
           {
             "asignatura": "CONTABILIDAD FINANCIERA I",
@@ -239,7 +239,7 @@
         ]
       },
       {
-        "nombre": "DOBLE GRADO EN TURISMO Y ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS",
+        "nombre": "Doble Grado en Turismo y Administración y Dirección de Empresas",
         "asignaturas": [
           {
             "asignatura": "INTRODUCCIÓN A LA MACROECONOMÍA",
@@ -252,7 +252,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS",
+        "nombre": "Grado en Administración y Dirección de Empresas",
         "asignaturas": [
           {
             "asignatura": "CONTABILIDAD FINANCIERA II",
@@ -321,7 +321,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN ARQUITECTURA TÉCNICA",
+        "nombre": "Grado en Arquitectura Técnica",
         "asignaturas": [
           {
             "asignatura": "FUNDAMENTOS DE MATEMÁTICA APLICADA I",
@@ -350,7 +350,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN BIOLOGÍA",
+        "nombre": "Grado en Biología",
         "asignaturas": [
           {
             "asignatura": "ESTADÍSTICA",
@@ -371,7 +371,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN CIENCIAS DEL MAR",
+        "nombre": "Grado en Ciencias del Mar",
         "asignaturas": [
           {
             "asignatura": "ESTADÍSTICA",
@@ -408,7 +408,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN ECONOMÍA",
+        "nombre": "Grado en Economía",
         "asignaturas": [
           {
             "asignatura": "CONTABILIDAD FINANCIERA",
@@ -525,7 +525,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN ENFERMERÍA",
+        "nombre": "Grado en Enfermería",
         "asignaturas": [
           {
             "asignatura": "BIOESTADÍSTICA",
@@ -538,7 +538,20 @@
         ]
       },
       {
-        "nombre": "GRADO EN FÍSICA",
+        "nombre": "Grado en Fisioterapia",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística",
+            "codigo": "107",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Física",
         "asignaturas": [
           {
             "asignatura": "ANÁLISIS DE VARIABLE COMPLEJA",
@@ -647,7 +660,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN INGENIERÍA AEROESPACIAL",
+        "nombre": "Grado en Ingeniería Aeroespacial",
         "asignaturas": [
           {
             "asignatura": "FUNDAMENTOS FÍSICOS DE LA INGENIERÍA AEROESPACIAL 1",
@@ -700,7 +713,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN INGENIERÍA BIOMÉDICA",
+        "nombre": "Grado en Ingeniería Biomédica",
         "asignaturas": [
           {
             "asignatura": "ESTADÍSTICA",
@@ -753,7 +766,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN INGENIERÍA CIVIL",
+        "nombre": "Grado en Ingeniería Civil",
         "asignaturas": [
           {
             "asignatura": "FUNDAMENTOS FÍSICOS DE LA INGENIERÍA CIVIL",
@@ -798,36 +811,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN INGENIERÍA EN SONIDO E IMAGEN EN TELECOMUNICACIÓN",
-        "asignaturas": [
-          {
-            "asignatura": "FUNDAMENTOS FÍSICOS DE LA INGENIERÍA II",
-            "codigo": "20008",
-            "ects": 6.0,
-            "curso": null,
-            "semestre": "es igual o superior a 5 no es necesario presentarse al examen final.",
-            "tipo": "BÁSICA (Curso: 1)"
-          },
-          {
-            "asignatura": "MATEMÁTICAS BÁSICAS",
-            "codigo": "20004",
-            "ects": 6.0,
-            "curso": null,
-            "semestre": ", se obtendrá siguiendo la ponderación:",
-            "tipo": "BÁSICA (Curso: 1)"
-          },
-          {
-            "asignatura": "MATEMÁTICAS I",
-            "codigo": "20009",
-            "ects": 6.0,
-            "curso": null,
-            "semestre": ", se obtendrá siguiendo la ponderación:",
-            "tipo": "BÁSICA (Curso: 1)"
-          }
-        ]
-      },
-      {
-        "nombre": "GRADO EN INGENIERÍA INFORMÁTICA",
+        "nombre": "Grado en Ingeniería Informática",
         "asignaturas": [
           {
             "asignatura": "ESTADÍSTICA",
@@ -856,7 +840,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN INGENIERÍA MULTIMEDIA",
+        "nombre": "Grado en Ingeniería Multimedia",
         "asignaturas": [
           {
             "asignatura": "ESTADÍSTICA",
@@ -893,7 +877,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN INGENIERÍA ROBÓTICA",
+        "nombre": "Grado en Ingeniería Robótica",
         "asignaturas": [
           {
             "asignatura": "AMPLIACIÓN DE FÍSICA",
@@ -946,7 +930,36 @@
         ]
       },
       {
-        "nombre": "GRADO EN LOGOPEDIA",
+        "nombre": "Grado en Ingeniería en Sonido e Imagen en Telecomunicación",
+        "asignaturas": [
+          {
+            "asignatura": "FUNDAMENTOS FÍSICOS DE LA INGENIERÍA II",
+            "codigo": "20008",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "es igual o superior a 5 no es necesario presentarse al examen final.",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "MATEMÁTICAS BÁSICAS",
+            "codigo": "20004",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": ", se obtendrá siguiendo la ponderación:",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "MATEMÁTICAS I",
+            "codigo": "20009",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": ", se obtendrá siguiendo la ponderación:",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Logopedia",
         "asignaturas": [
           {
             "asignatura": "BIOESTADÍSTICA",
@@ -959,8 +972,16 @@
         ]
       },
       {
-        "nombre": "GRADO EN MATEMÁTICAS",
+        "nombre": "Grado en Matemáticas",
         "asignaturas": [
+          {
+            "asignatura": "Cálculo Numérico I",
+            "codigo": "25025",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": 2,
+            "tipo": "Obligatoria"
+          },
           {
             "asignatura": "ALGEBRA LINEAL II",
             "codigo": "25016",
@@ -1124,7 +1145,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN MEDICINA",
+        "nombre": "Grado en Medicina",
         "asignaturas": [
           {
             "asignatura": "BIOESTADÍSTICA",
@@ -1137,7 +1158,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN NUTRICIÓN HUMANA Y DIETÉTICA",
+        "nombre": "Grado en Nutrición Humana y Dietética",
         "asignaturas": [
           {
             "asignatura": "BIOESTADÍSTICA",
@@ -1150,7 +1171,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN ÓPTICA Y OPTOMETRÍA",
+        "nombre": "Grado en Óptica y Optometría",
         "asignaturas": [
           {
             "asignatura": "ESTADÍSTICA",
@@ -1177,32 +1198,6 @@
             "tipo": "BÁSICA (Curso: 1)"
           }
         ]
-      },
-      {
-        "nombre": "Grado en Matemáticas",
-        "asignaturas": [
-          {
-            "asignatura": "Cálculo Numérico I",
-            "codigo": "25025",
-            "ects": 6.0,
-            "curso": 2,
-            "semestre": 2,
-            "tipo": "Obligatoria"
-          }
-        ]
-      },
-      {
-        "nombre": "Graduado/a en Fisioterapia por la Universidad de Málaga.",
-        "asignaturas": [
-          {
-            "asignatura": "Estadística",
-            "codigo": "107",
-            "ects": 6.0,
-            "curso": 1,
-            "semestre": "2º",
-            "tipo": null
-          }
-        ]
       }
     ]
   },
@@ -1210,7 +1205,7 @@
     "universidad": "Universidad de Cádiz",
     "carreras": [
       {
-        "nombre": "GRADO EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS",
+        "nombre": "Grado en Administración y Dirección de Empresas",
         "asignaturas": [
           {
             "asignatura": "Econometría",
@@ -1279,7 +1274,20 @@
         ]
       },
       {
-        "nombre": "GRADO EN BIOTECNOLOGÍA",
+        "nombre": "Grado en Bioquímica",
+        "asignaturas": [
+          {
+            "asignatura": "Matemáticas Generales Aplicadas a la Bioquímica",
+            "codigo": "103",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Biotecnología",
         "asignaturas": [
           {
             "asignatura": "Estadística",
@@ -1308,7 +1316,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN CIENCIAS AMBIENTALES",
+        "nombre": "Grado en Ciencias Ambientales",
         "asignaturas": [
           {
             "asignatura": "Estadística",
@@ -1345,7 +1353,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN CIENCIAS DE LA ACTIVIDAD FÍSICA Y DEL DEPORTE",
+        "nombre": "Grado en Ciencias de la Actividad Física y del Deporte",
         "asignaturas": [
           {
             "asignatura": "Estadística Aplicada A La Actividad",
@@ -1358,7 +1366,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN CIENCIAS DEL MAR",
+        "nombre": "Grado en Ciencias del Mar",
         "asignaturas": [
           {
             "asignatura": "Cálculo Numérico E Informática",
@@ -1395,7 +1403,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN CRIMINOLOGÍA Y SEGURIDAD",
+        "nombre": "Grado en Criminología y Seguridad",
         "asignaturas": [
           {
             "asignatura": "Estadística",
@@ -1416,7 +1424,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN ENOLOGÍA",
+        "nombre": "Grado en Enología",
         "asignaturas": [
           {
             "asignatura": "Estadística",
@@ -1445,7 +1453,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN FINANZAS Y CONTABILIDAD",
+        "nombre": "Grado en Finanzas y Contabilidad",
         "asignaturas": [
           {
             "asignatura": "Estadística",
@@ -1474,7 +1482,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN FISIOTERAPIA",
+        "nombre": "Grado en Fisioterapia",
         "asignaturas": [
           {
             "asignatura": "Estadística E Introducción A La",
@@ -1487,7 +1495,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN GESTIÓN Y ADMINISTRACIÓN PÚBLICA",
+        "nombre": "Grado en Gestión y Administración Pública",
         "asignaturas": [
           {
             "asignatura": "Introducción A La Estadística",
@@ -1500,7 +1508,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN INGENIERÍA AEROESPACIAL",
+        "nombre": "Grado en Ingeniería Aeroespacial",
         "asignaturas": [
           {
             "asignatura": "Ampliación De Matemáticas",
@@ -1545,7 +1553,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN INGENIERÍA CIVIL",
+        "nombre": "Grado en Ingeniería Civil",
         "asignaturas": [
           {
             "asignatura": "Ampliación De Matemáticas",
@@ -1582,7 +1590,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN INGENIERÍA ELECTRÓNICA INDUSTRIAL",
+        "nombre": "Grado en Ingeniería Electrónica Industrial",
         "asignaturas": [
           {
             "asignatura": "Ampliación De Matemáticas",
@@ -1627,7 +1635,20 @@
         ]
       },
       {
-        "nombre": "GRADO EN INGENIERÍA ELÉCTRICA",
+        "nombre": "Grado en Ingeniería Electrónica de Telecomunicación",
+        "asignaturas": [
+          {
+            "asignatura": "Matemáticas 4",
+            "codigo": "201",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "2º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería Eléctrica",
         "asignaturas": [
           {
             "asignatura": "Ampliación De Matemáticas",
@@ -1672,118 +1693,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN INGENIERÍA EN DISEÑO INDUSTRIAL Y DESARROLLO DEL PRODUCTO",
-        "asignaturas": [
-          {
-            "asignatura": "Ampliación De Matemáticas",
-            "codigo": "21717011",
-            "ects": null,
-            "curso": null,
-            "semestre": "Idioma CASTELLANO",
-            "tipo": null
-          },
-          {
-            "asignatura": "Cálculo",
-            "codigo": "21717002",
-            "ects": null,
-            "curso": null,
-            "semestre": "Idioma CASTELLANO",
-            "tipo": null
-          },
-          {
-            "asignatura": "Estadística",
-            "codigo": "21717001",
-            "ects": null,
-            "curso": null,
-            "semestre": "Idioma CASTELLANO",
-            "tipo": null
-          },
-          {
-            "asignatura": "Álgebra Y Geometría",
-            "codigo": "21717007",
-            "ects": null,
-            "curso": null,
-            "semestre": "Idioma CASTELLANO",
-            "tipo": null
-          }
-        ]
-      },
-      {
-        "nombre": "GRADO EN INGENIERÍA EN ENERGÍAS RENOVABLES",
-        "asignaturas": [
-          {
-            "asignatura": "Cálculo",
-            "codigo": "10623002",
-            "ects": null,
-            "curso": null,
-            "semestre": "Idioma CASTELLANO",
-            "tipo": null
-          },
-          {
-            "asignatura": "Estadística",
-            "codigo": "10623006",
-            "ects": null,
-            "curso": null,
-            "semestre": "Idioma CASTELLANO",
-            "tipo": null
-          },
-          {
-            "asignatura": "Álgebra Y Geometría",
-            "codigo": "10623001",
-            "ects": null,
-            "curso": null,
-            "semestre": "Idioma CASTELLANO",
-            "tipo": null
-          }
-        ]
-      },
-      {
-        "nombre": "GRADO EN INGENIERÍA EN TECNOLOGÍAS INDUSTRIALES",
-        "asignaturas": [
-          {
-            "asignatura": "Ampliación De Matemáticas",
-            "codigo": "10618004",
-            "ects": null,
-            "curso": null,
-            "semestre": "Idioma CASTELLANO",
-            "tipo": null
-          },
-          {
-            "asignatura": "Cálculo",
-            "codigo": "10618002",
-            "ects": null,
-            "curso": null,
-            "semestre": "Idioma CASTELLANO",
-            "tipo": null
-          },
-          {
-            "asignatura": "Estadística",
-            "codigo": "10618003",
-            "ects": null,
-            "curso": null,
-            "semestre": "Idioma CASTELLANO",
-            "tipo": null
-          },
-          {
-            "asignatura": "Modelos Matemáticos Y",
-            "codigo": "21715071",
-            "ects": null,
-            "curso": null,
-            "semestre": "Idioma CASTELLANO",
-            "tipo": null
-          },
-          {
-            "asignatura": "Álgebra Y Geometría",
-            "codigo": "10618001",
-            "ects": null,
-            "curso": null,
-            "semestre": "Idioma CASTELLANO",
-            "tipo": null
-          }
-        ]
-      },
-      {
-        "nombre": "GRADO EN INGENIERÍA INFORMÁTICA",
+        "nombre": "Grado en Ingeniería Informática",
         "asignaturas": [
           {
             "asignatura": "Cálculo",
@@ -1820,7 +1730,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN INGENIERÍA MARÍTIMA",
+        "nombre": "Grado en Ingeniería Marítima",
         "asignaturas": [
           {
             "asignatura": "Ampliación De Matemáticas",
@@ -1857,7 +1767,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN INGENIERÍA MECÁNICA",
+        "nombre": "Grado en Ingeniería Mecánica",
         "asignaturas": [
           {
             "asignatura": "Ampliación De Matemáticas",
@@ -1902,7 +1812,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN INGENIERÍA QUÍMICA",
+        "nombre": "Grado en Ingeniería Química",
         "asignaturas": [
           {
             "asignatura": "Ampliación De Matemáticas",
@@ -1939,7 +1849,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN INGENIERÍA RADIOELECTRÓNICA",
+        "nombre": "Grado en Ingeniería Radioelectrónica",
         "asignaturas": [
           {
             "asignatura": "Estadística Y Optimización",
@@ -1952,7 +1862,144 @@
         ]
       },
       {
-        "nombre": "GRADO EN MARINA",
+        "nombre": "Grado en Ingeniería Telemática",
+        "asignaturas": [
+          {
+            "asignatura": "Matemáticas 4",
+            "codigo": "211",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "2º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería de Sonido e Imagen",
+        "asignaturas": [
+          {
+            "asignatura": "Matemáticas 4",
+            "codigo": "201",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "2º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería en Diseño Industrial y Desarrollo del Producto",
+        "asignaturas": [
+          {
+            "asignatura": "Ampliación De Matemáticas",
+            "codigo": "21717011",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Cálculo",
+            "codigo": "21717002",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "21717001",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra Y Geometría",
+            "codigo": "21717007",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería en Energías Renovables",
+        "asignaturas": [
+          {
+            "asignatura": "Cálculo",
+            "codigo": "10623002",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "10623006",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra Y Geometría",
+            "codigo": "10623001",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería en Tecnologías Industriales",
+        "asignaturas": [
+          {
+            "asignatura": "Ampliación De Matemáticas",
+            "codigo": "10618004",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Cálculo",
+            "codigo": "10618002",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "10618003",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Modelos Matemáticos Y",
+            "codigo": "21715071",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra Y Geometría",
+            "codigo": "10618001",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Marina",
         "asignaturas": [
           {
             "asignatura": "Estadística Y Optimización",
@@ -1965,7 +2012,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN MARKETING E INVESTIGACIÓN DE MERCADOS",
+        "nombre": "Grado en Marketing e Investigación de Mercados",
         "asignaturas": [
           {
             "asignatura": "Estadística",
@@ -1994,8 +2041,16 @@
         ]
       },
       {
-        "nombre": "GRADO EN MATEMÁTICAS",
+        "nombre": "Grado en Matemáticas",
         "asignaturas": [
+          {
+            "asignatura": "Modelización",
+            "codigo": "401",
+            "ects": 6.0,
+            "curso": 4,
+            "semestre": "2º",
+            "tipo": null
+          },
           {
             "asignatura": "Inferencia Estadística",
             "codigo": "40209024",
@@ -2063,7 +2118,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN MEDICINA",
+        "nombre": "Grado en Medicina",
         "asignaturas": [
           {
             "asignatura": "Bioestadística",
@@ -2076,7 +2131,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN NÁUTICA Y TRANSPORTE MARÍTIMO",
+        "nombre": "Grado en Náutica y Transporte Marítimo",
         "asignaturas": [
           {
             "asignatura": "Estadística Y Optimización",
@@ -2089,7 +2144,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN PSICOLOGÍA",
+        "nombre": "Grado en Psicología",
         "asignaturas": [
           {
             "asignatura": "Análisis De Datos En Psicología I",
@@ -2110,7 +2165,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN QUÍMICA",
+        "nombre": "Grado en Química",
         "asignaturas": [
           {
             "asignatura": "Estadística",
@@ -2123,7 +2178,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN RECURSOS HUMANOS",
+        "nombre": "Grado en Recursos Humanos",
         "asignaturas": [
           {
             "asignatura": "Estadística",
@@ -2136,7 +2191,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN TRABAJO SOCIAL",
+        "nombre": "Grado en Trabajo Social",
         "asignaturas": [
           {
             "asignatura": "Estadística",
@@ -2157,7 +2212,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN TURISMO",
+        "nombre": "Grado en Turismo",
         "asignaturas": [
           {
             "asignatura": "Técnicas Estadísticas Para Turismo",
@@ -2170,33 +2225,7 @@
         ]
       },
       {
-        "nombre": "Graduado en Biotecnología",
-        "asignaturas": [
-          {
-            "asignatura": "Estadística",
-            "codigo": "27106",
-            "ects": null,
-            "curso": 1,
-            "semestre": "Primer semestre",
-            "tipo": "Formación básica"
-          }
-        ]
-      },
-      {
-        "nombre": "Graduado en Ciencias Ambientales 668 - Graduado en Ciencias Ambientales",
-        "asignaturas": [
-          {
-            "asignatura": "Estadística",
-            "codigo": "25209",
-            "ects": null,
-            "curso": 2,
-            "semestre": "668 - Primer semestre",
-            "tipo": "Formación básica"
-          }
-        ]
-      },
-      {
-        "nombre": "Graduado en Óptica y Optometría 661 - Graduado en Óptica y Optometría",
+        "nombre": "Grado en Óptica y Optometría",
         "asignaturas": [
           {
             "asignatura": "Métodos estadísticos para óptica y optometría",
@@ -2209,72 +2238,7 @@
         ]
       },
       {
-        "nombre": "Graduado/a en Bioquímica por la Universidad de Málaga.",
-        "asignaturas": [
-          {
-            "asignatura": "Matemáticas Generales Aplicadas a la Bioquímica",
-            "codigo": "103",
-            "ects": 6.0,
-            "curso": 1,
-            "semestre": "1º",
-            "tipo": null
-          }
-        ]
-      },
-      {
-        "nombre": "Graduado/a en Ingeniería Electrónica de Telecomunicación por la Universidad de Málaga.",
-        "asignaturas": [
-          {
-            "asignatura": "Matemáticas 4",
-            "codigo": "201",
-            "ects": 6.0,
-            "curso": 2,
-            "semestre": "2º",
-            "tipo": null
-          }
-        ]
-      },
-      {
-        "nombre": "Graduado/a en Ingeniería Telemática por la Universidad de Málaga.",
-        "asignaturas": [
-          {
-            "asignatura": "Matemáticas 4",
-            "codigo": "211",
-            "ects": 6.0,
-            "curso": 2,
-            "semestre": "2º",
-            "tipo": null
-          }
-        ]
-      },
-      {
-        "nombre": "Graduado/a en Ingeniería de Sonido e Imagen por la Universidad de Málaga.",
-        "asignaturas": [
-          {
-            "asignatura": "Matemáticas 4",
-            "codigo": "201",
-            "ects": 6.0,
-            "curso": 2,
-            "semestre": "2º",
-            "tipo": null
-          }
-        ]
-      },
-      {
-        "nombre": "Graduado/a en Matemáticas por la Universidad de Málaga.",
-        "asignaturas": [
-          {
-            "asignatura": "Modelización",
-            "codigo": "401",
-            "ects": 6.0,
-            "curso": 4,
-            "semestre": "2º",
-            "tipo": null
-          }
-        ]
-      },
-      {
-        "nombre": "MÁSTER EN FISIOTERAPIA NEUROLÓGICA",
+        "nombre": "Máster en Fisioterapia Neurológica",
         "asignaturas": [
           {
             "asignatura": "Métodos Estadísticos Aplicados A",
@@ -2287,7 +2251,7 @@
         ]
       },
       {
-        "nombre": "MÁSTER EN MATEMÁTICAS",
+        "nombre": "Máster en Matemáticas",
         "asignaturas": [
           {
             "asignatura": "Modelizacion. Procesos",
@@ -2305,7 +2269,7 @@
     "universidad": "Universidad de Murcia",
     "carreras": [
       {
-        "nombre": "GRADO EN BIOLOGÍA",
+        "nombre": "Grado en Biología",
         "asignaturas": [
           {
             "asignatura": "BIOESTADÍSTICA",
@@ -2334,7 +2298,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN BIOQUÍMICA",
+        "nombre": "Grado en Bioquímica",
         "asignaturas": [
           {
             "asignatura": "BIOINFORMÁTICA",
@@ -2363,7 +2327,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN BIOTECNOLOGÍA",
+        "nombre": "Grado en Biotecnología",
         "asignaturas": [
           {
             "asignatura": "BIOESTADÍSTICA PARA BIOTECNOLOGÍA",
@@ -2400,7 +2364,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN CIENCIA Y TECNOLOGÍA DE LOS ALIMENTOS",
+        "nombre": "Grado en Ciencia y Tecnología de los Alimentos",
         "asignaturas": [
           {
             "asignatura": "ESTADÍSTICA",
@@ -2421,7 +2385,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN ENFERMERÍA (MURCIA)",
+        "nombre": "Grado en Enfermería",
         "asignaturas": [
           {
             "asignatura": "BIOESTADÍSTICA",
@@ -2434,7 +2398,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN FARMACIA",
+        "nombre": "Grado en Farmacia",
         "asignaturas": [
           {
             "asignatura": "BIOESTADÍSTICA",
@@ -2455,7 +2419,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN FISIOTERAPIA",
+        "nombre": "Grado en Fisioterapia",
         "asignaturas": [
           {
             "asignatura": "ESTADÍSTICA Y MÉTODOS DE INVESTIGACIÓN EN FISIOTERAPIA",
@@ -2468,7 +2432,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN FÍSICA",
+        "nombre": "Grado en Física",
         "asignaturas": [
           {
             "asignatura": "CÁLCULO",
@@ -2585,7 +2549,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN MATEMÁTICAS",
+        "nombre": "Grado en Matemáticas",
         "asignaturas": [
           {
             "asignatura": "AMPLIACIÓN DE PROBABILIDAD",
@@ -2830,7 +2794,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN MEDICINA",
+        "nombre": "Grado en Medicina",
         "asignaturas": [
           {
             "asignatura": "BIOESTADÍSTICA",
@@ -2843,7 +2807,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN NUTRICIÓN HUMANA Y DIETÉTICA",
+        "nombre": "Grado en Nutrición Humana y Dietética",
         "asignaturas": [
           {
             "asignatura": "BIOESTADÍSTICA",
@@ -2856,7 +2820,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN PSICOLOGÍA",
+        "nombre": "Grado en Psicología",
         "asignaturas": [
           {
             "asignatura": "ANÁLISIS DE DATOS EN PSICOLOGÍA",
@@ -2877,7 +2841,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN QUÍMICA",
+        "nombre": "Grado en Química",
         "asignaturas": [
           {
             "asignatura": "FÍSICA I",
@@ -2906,7 +2870,7 @@
         ]
       },
       {
-        "nombre": "GRADO EN ÓPTICA Y OPTOMETRÍA",
+        "nombre": "Grado en Óptica y Optometría",
         "asignaturas": [
           {
             "asignatura": "FUNDAMENTOS DE FÍSICA",
@@ -2948,7 +2912,7 @@
     "universidad": "Universidad de Málaga",
     "carreras": [
       {
-        "nombre": "Graduado/a en Biología por la Universidad de Málaga.",
+        "nombre": "Grado en Biología",
         "asignaturas": [
           {
             "asignatura": "Física",
@@ -2977,7 +2941,7 @@
         ]
       },
       {
-        "nombre": "Graduado/a en Bioquímica por la Universidad de Málaga.",
+        "nombre": "Grado en Bioquímica",
         "asignaturas": [
           {
             "asignatura": "Estadística Aplicada a la Bioquímica",
@@ -2998,7 +2962,7 @@
         ]
       },
       {
-        "nombre": "Graduado/a en Ciberseguridad e Inteligencia Artificial por la Universidad de Málaga.",
+        "nombre": "Grado en Ciberseguridad e Inteligencia Artificial",
         "asignaturas": [
           {
             "asignatura": "Matemáticas I",
@@ -3027,7 +2991,7 @@
         ]
       },
       {
-        "nombre": "Graduado/a en Ciencias Ambientales por la Universidad de Málaga.",
+        "nombre": "Grado en Ciencias Ambientales",
         "asignaturas": [
           {
             "asignatura": "Física",
@@ -3048,7 +3012,7 @@
         ]
       },
       {
-        "nombre": "Graduado/a en Enfermería por la Universidad de Málaga.",
+        "nombre": "Grado en Enfermería",
         "asignaturas": [
           {
             "asignatura": "Bioestadística",
@@ -3061,7 +3025,7 @@
         ]
       },
       {
-        "nombre": "Graduado/a en Ingeniería Electrónica de Telecomunicación por la Universidad de Málaga.",
+        "nombre": "Grado en Ingeniería Electrónica de Telecomunicación",
         "asignaturas": [
           {
             "asignatura": "Física",
@@ -3098,7 +3062,7 @@
         ]
       },
       {
-        "nombre": "Graduado/a en Ingeniería Informática por la Universidad de Málaga.",
+        "nombre": "Grado en Ingeniería Informática",
         "asignaturas": [
           {
             "asignatura": "Cálculo para la Computación",
@@ -3135,7 +3099,7 @@
         ]
       },
       {
-        "nombre": "Graduado/a en Ingeniería Mecánica por la Universidad de Málaga.",
+        "nombre": "Grado en Ingeniería Mecánica",
         "asignaturas": [
           {
             "asignatura": "Ampliación de Cálculo",
@@ -3196,7 +3160,7 @@
         ]
       },
       {
-        "nombre": "Graduado/a en Ingeniería Química por la Universidad de Málaga.",
+        "nombre": "Grado en Ingeniería Química",
         "asignaturas": [
           {
             "asignatura": "Cálculo",
@@ -3241,7 +3205,7 @@
         ]
       },
       {
-        "nombre": "Graduado/a en Ingeniería Telemática por la Universidad de Málaga.",
+        "nombre": "Grado en Ingeniería Telemática",
         "asignaturas": [
           {
             "asignatura": "Física",
@@ -3278,7 +3242,7 @@
         ]
       },
       {
-        "nombre": "Graduado/a en Ingeniería de Sistemas de Telecomunicación por la Universidad de Málaga.",
+        "nombre": "Grado en Ingeniería de Sistemas de Telecomunicación",
         "asignaturas": [
           {
             "asignatura": "Física",
@@ -3291,7 +3255,7 @@
         ]
       },
       {
-        "nombre": "Graduado/a en Ingeniería de Sonido e Imagen por la Universidad de Málaga.",
+        "nombre": "Grado en Ingeniería de Sonido e Imagen",
         "asignaturas": [
           {
             "asignatura": "Física",
@@ -3328,7 +3292,7 @@
         ]
       },
       {
-        "nombre": "Graduado/a en Ingeniería de la Salud por la Universidad de Málaga.",
+        "nombre": "Grado en Ingeniería de la Salud",
         "asignaturas": [
           {
             "asignatura": "Ampliación de Cálculo",
@@ -3389,7 +3353,7 @@
         ]
       },
       {
-        "nombre": "Graduado/a en Ingeniería del Software por la Universidad de Málaga.",
+        "nombre": "Grado en Ingeniería del Software",
         "asignaturas": [
           {
             "asignatura": "Cálculo para la Computación",
@@ -3434,7 +3398,7 @@
         ]
       },
       {
-        "nombre": "Graduado/a en Ingeniería en Tecnologías Industriales por la Universidad de Málaga.",
+        "nombre": "Grado en Ingeniería en Tecnologías Industriales",
         "asignaturas": [
           {
             "asignatura": "Ampliación de Cálculo",
@@ -3487,7 +3451,7 @@
         ]
       },
       {
-        "nombre": "Graduado/a en Matemáticas por la Universidad de Málaga.",
+        "nombre": "Grado en Matemáticas",
         "asignaturas": [
           {
             "asignatura": "Análisis Matemático I",
@@ -3764,7 +3728,7 @@
         ]
       },
       {
-        "nombre": "Graduado/a en Podología por la Universidad de Málaga.",
+        "nombre": "Grado en Podología",
         "asignaturas": [
           {
             "asignatura": "Bioestadística",
@@ -3777,7 +3741,7 @@
         ]
       },
       {
-        "nombre": "Graduado/a en Química por la Universidad de Málaga.",
+        "nombre": "Grado en Química",
         "asignaturas": [
           {
             "asignatura": "Física I",
@@ -3819,33 +3783,7 @@
     "universidad": "Universidad de Zaragoza",
     "carreras": [
       {
-        "nombre": "Complementos de formación Máster/Doctorado 434 - Graduado en Ingeniería Mecánica 662 - Graduado en Ingeniería Mecánica",
-        "asignaturas": [
-          {
-            "asignatura": "Mecánica de fluidos",
-            "codigo": "29716",
-            "ects": null,
-            "curso": 662,
-            "semestre": "Segundo semestre",
-            "tipo": "434 - Obligatoria"
-          }
-        ]
-      },
-      {
-        "nombre": "Complementos de formación Máster/Doctorado 581 - Graduado en Ingeniería de Tecnologías y Servicios de Telecomunicación 656 - Graduado en Ingeniería de Tecnologías de Telecomunicación",
-        "asignaturas": [
-          {
-            "asignatura": "Señales y sistemas",
-            "codigo": "30305",
-            "ects": null,
-            "curso": 581,
-            "semestre": "Primer semestre",
-            "tipo": "656 - Obligatoria"
-          }
-        ]
-      },
-      {
-        "nombre": "Graduado en Biotecnología",
+        "nombre": "Grado en Biotecnología",
         "asignaturas": [
           {
             "asignatura": "Física",
@@ -3866,7 +3804,7 @@
         ]
       },
       {
-        "nombre": "Graduado en Estudios para la Defensa y Seguridad",
+        "nombre": "Grado en Estudios para la Defensa y Seguridad",
         "asignaturas": [
           {
             "asignatura": "Matemáticas I",
@@ -3895,20 +3833,7 @@
         ]
       },
       {
-        "nombre": "Graduado en Física",
-        "asignaturas": [
-          {
-            "asignatura": "Probabilidad y estadística",
-            "codigo": "26959",
-            "ects": null,
-            "curso": 1,
-            "semestre": "Segundo semestre",
-            "tipo": "Formación básica"
-          }
-        ]
-      },
-      {
-        "nombre": "Graduado en Física 719 - Graduado en Física",
+        "nombre": "Grado en Física",
         "asignaturas": [
           {
             "asignatura": "Análisis matemático",
@@ -3943,6 +3868,14 @@
             "tipo": "Formación básica"
           },
           {
+            "asignatura": "Probabilidad y estadística",
+            "codigo": "26959",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
             "asignatura": "Álgebra I",
             "codigo": "26902",
             "ects": null,
@@ -3961,7 +3894,7 @@
         ]
       },
       {
-        "nombre": "Graduado en Ingeniería Biomédica",
+        "nombre": "Grado en Ingeniería Biomédica",
         "asignaturas": [
           {
             "asignatura": "Cálculo",
@@ -4054,7 +3987,7 @@
         ]
       },
       {
-        "nombre": "Graduado en Ingeniería Civil",
+        "nombre": "Grado en Ingeniería Civil",
         "asignaturas": [
           {
             "asignatura": "Física general",
@@ -4099,36 +4032,7 @@
         ]
       },
       {
-        "nombre": "Graduado en Ingeniería Electrónica y Automática 444 - Graduado en Ingeniería Electrónica y Automática 664 - Graduado en Ingeniería Electrónica y Automática 676 - Graduado en Ingeniería Electrónica y Automática (modalidad presencial)",
-        "asignaturas": [
-          {
-            "asignatura": "Física I",
-            "codigo": "29802",
-            "ects": null,
-            "curso": 1,
-            "semestre": "676-Primer semestre",
-            "tipo": "Formación básica"
-          },
-          {
-            "asignatura": "Física II",
-            "codigo": "29807",
-            "ects": null,
-            "curso": 1,
-            "semestre": "676-Segundo semestre",
-            "tipo": "Formación básica"
-          },
-          {
-            "asignatura": "Estadística",
-            "codigo": "29815",
-            "ects": null,
-            "curso": 662,
-            "semestre": "Primer semestre o Segundo semestre",
-            "tipo": "Formación básica"
-          }
-        ]
-      },
-      {
-        "nombre": "Graduado en Ingeniería Electrónica y Automática 676 - Graduado en Ingeniería Electrónica y Automática (modalidad presencial)",
+        "nombre": "Grado en Ingeniería Electrónica y Automática",
         "asignaturas": [
           {
             "asignatura": "Cálculo",
@@ -4147,17 +4051,41 @@
             "tipo": "Formación básica"
           },
           {
+            "asignatura": "Física I",
+            "codigo": "29802",
+            "ects": null,
+            "curso": 1,
+            "semestre": "676-Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Física II",
+            "codigo": "29807",
+            "ects": null,
+            "curso": 1,
+            "semestre": "676-Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
             "asignatura": "Álgebra",
             "codigo": "29862",
             "ects": null,
             "curso": 1,
             "semestre": "662-Primer semestre o Segundo semestre",
             "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "29815",
+            "ects": null,
+            "curso": 662,
+            "semestre": "Primer semestre o Segundo semestre",
+            "tipo": "Formación básica"
           }
         ]
       },
       {
-        "nombre": "Graduado en Ingeniería Informática 443 - Graduado en Ingeniería Informática 716 - Graduado en Ingeniería Informática 727 - Graduado en Ingeniería Informática",
+        "nombre": "Grado en Ingeniería Informática",
         "asignaturas": [
           {
             "asignatura": "Estadística",
@@ -4186,7 +4114,7 @@
         ]
       },
       {
-        "nombre": "Graduado en Ingeniería Mecánica",
+        "nombre": "Grado en Ingeniería Mecánica",
         "asignaturas": [
           {
             "asignatura": "Cálculo",
@@ -4205,19 +4133,6 @@
             "tipo": "Formación básica"
           },
           {
-            "asignatura": "Álgebra",
-            "codigo": "29762",
-            "ects": null,
-            "curso": 1,
-            "semestre": "662-Primer semestre o Segundo semestre",
-            "tipo": "Formación básica"
-          }
-        ]
-      },
-      {
-        "nombre": "Graduado en Ingeniería Mecánica 662 - Graduado en Ingeniería Mecánica",
-        "asignaturas": [
-          {
             "asignatura": "Física I",
             "codigo": "29701",
             "ects": null,
@@ -4234,6 +4149,14 @@
             "tipo": "Formación básica"
           },
           {
+            "asignatura": "Álgebra",
+            "codigo": "29762",
+            "ects": null,
+            "curso": 1,
+            "semestre": "662-Primer semestre o Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
             "asignatura": "Estadística",
             "codigo": "29708",
             "ects": null,
@@ -4244,7 +4167,7 @@
         ]
       },
       {
-        "nombre": "Graduado en Ingeniería de Organización Industrial (modalidad virtual)",
+        "nombre": "Grado en Ingeniería de Organización Industrial",
         "asignaturas": [
           {
             "asignatura": "Estadística",
@@ -4329,7 +4252,7 @@
         ]
       },
       {
-        "nombre": "Graduado en Ingeniería de Tecnologías y Servicios de Telecomunicación 656 - Graduado en Ingeniería de Tecnologías de Telecomunicación",
+        "nombre": "Grado en Ingeniería de Tecnologías y Servicios de Telecomunicación",
         "asignaturas": [
           {
             "asignatura": "Cálculo",
@@ -4382,7 +4305,7 @@
         ]
       },
       {
-        "nombre": "Graduado en Ingeniería en Diseño Industrial y Desarrollo de Producto",
+        "nombre": "Grado en Ingeniería en Diseño Industrial y Desarrollo de Producto",
         "asignaturas": [
           {
             "asignatura": "Física I",
@@ -4427,7 +4350,7 @@
         ]
       },
       {
-        "nombre": "Graduado en Matemáticas",
+        "nombre": "Grado en Matemáticas",
         "asignaturas": [
           {
             "asignatura": "Análisis Matemático I",
@@ -4462,6 +4385,22 @@
             "tipo": "Formación básica"
           },
           {
+            "asignatura": "Grafos y combinatoria",
+            "codigo": "27005",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Números y conjuntos",
+            "codigo": "27004",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
             "asignatura": "Álgebra Lineal I",
             "codigo": "27053",
             "ects": null,
@@ -4492,35 +4431,6 @@
             "curso": 2,
             "semestre": "Segundo semestre",
             "tipo": "Obligatoria"
-          },
-          {
-            "asignatura": "Modelos Estocásticos",
-            "codigo": "27062",
-            "ects": null,
-            "curso": 4,
-            "semestre": "Primer semestre",
-            "tipo": "Optativa"
-          }
-        ]
-      },
-      {
-        "nombre": "Graduado en Matemáticas 647 - Graduado en Matemáticas",
-        "asignaturas": [
-          {
-            "asignatura": "Grafos y combinatoria",
-            "codigo": "27005",
-            "ects": null,
-            "curso": 1,
-            "semestre": "Segundo semestre",
-            "tipo": "Obligatoria"
-          },
-          {
-            "asignatura": "Números y conjuntos",
-            "codigo": "27004",
-            "ects": null,
-            "curso": 1,
-            "semestre": "Primer semestre",
-            "tipo": "Formación básica"
           },
           {
             "asignatura": "Análisis numérico I",
@@ -4635,6 +4545,14 @@
             "tipo": "Obligatoria"
           },
           {
+            "asignatura": "Modelos Estocásticos",
+            "codigo": "27062",
+            "ects": null,
+            "curso": 4,
+            "semestre": "Primer semestre",
+            "tipo": "Optativa"
+          },
+          {
             "asignatura": "Teoría de la probabilidad",
             "codigo": "27032",
             "ects": null,
@@ -4653,7 +4571,7 @@
         ]
       },
       {
-        "nombre": "Graduado en Química",
+        "nombre": "Grado en Química",
         "asignaturas": [
           {
             "asignatura": "Física I",
@@ -4690,7 +4608,7 @@
         ]
       },
       {
-        "nombre": "Graduado en Óptica y Optometría",
+        "nombre": "Grado en Óptica y Optometría",
         "asignaturas": [
           {
             "asignatura": "Matemáticas",
@@ -4699,12 +4617,7 @@
             "curso": 1,
             "semestre": "Primer semestre",
             "tipo": "Formación básica"
-          }
-        ]
-      },
-      {
-        "nombre": "Graduado en Óptica y Optometría 661 - Graduado en Óptica y Optometría",
-        "asignaturas": [
+          },
           {
             "asignatura": "Óptica Física",
             "codigo": "26809",
@@ -4720,106 +4633,6 @@
   {
     "universidad": "Universitat Politècnica de València",
     "carreras": [
-      {
-        "nombre": "Bachelor's Degree in Communication Networks and Systems",
-        "asignaturas": [
-          {
-            "asignatura": "Advanced algebra for engineering",
-            "codigo": "15731",
-            "ects": 11.0,
-            "curso": null,
-            "semestre": null,
-            "tipo": "Basic Training"
-          },
-          {
-            "asignatura": "Fundamental physics",
-            "codigo": "15732",
-            "ects": 9.0,
-            "curso": null,
-            "semestre": null,
-            "tipo": "Basic Training"
-          },
-          {
-            "asignatura": "Mathematics I",
-            "codigo": "15729",
-            "ects": 9.0,
-            "curso": null,
-            "semestre": null,
-            "tipo": "Basic Training"
-          },
-          {
-            "asignatura": "Mathematics II",
-            "codigo": "15730",
-            "ects": 6.0,
-            "curso": null,
-            "semestre": null,
-            "tipo": "Basic Training"
-          }
-        ]
-      },
-      {
-        "nombre": "Bachelor's Degree in Computer Science and Technology",
-        "asignaturas": [
-          {
-            "asignatura": "Discrete mathematics",
-            "codigo": "15773",
-            "ects": 6.0,
-            "curso": null,
-            "semestre": null,
-            "tipo": "Basic Training"
-          },
-          {
-            "asignatura": "Mathematics I",
-            "codigo": "15774",
-            "ects": 9.0,
-            "curso": null,
-            "semestre": null,
-            "tipo": "Basic Training"
-          },
-          {
-            "asignatura": "Mathematics II",
-            "codigo": "15775",
-            "ects": 6.0,
-            "curso": null,
-            "semestre": null,
-            "tipo": "Basic Training"
-          },
-          {
-            "asignatura": "Physics",
-            "codigo": "15792",
-            "ects": 9.0,
-            "curso": null,
-            "semestre": null,
-            "tipo": "Compulsory"
-          }
-        ]
-      },
-      {
-        "nombre": "Bachelor's Degree in Data Science",
-        "asignaturas": [
-          {
-            "asignatura": "Scalable Machine Learning techniques",
-            "codigo": "14009",
-            "ects": 6.0,
-            "curso": null,
-            "semestre": null,
-            "tipo": "Compulsory"
-          }
-        ]
-      },
-      {
-        "nombre": "Bachelor's degree in Engineering Physics",
-        "asignaturas": [
-          {
-            "asignatura": "Quantum Mechanics",
-            "codigo": "14495",
-            "ects": 6.0,
-            "curso": null,
-            "semestre": null,
-            "tipo": "Compulsory"
-          }
-        ]
-      },
       {
         "nombre": "Grado en Administración y Dirección de Empresas",
         "asignaturas": [
@@ -5125,6 +4938,14 @@
             "curso": null,
             "semestre": null,
             "tipo": null
+          },
+          {
+            "asignatura": "Scalable Machine Learning techniques",
+            "codigo": "14009",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Compulsory"
           }
         ]
       },
@@ -5162,6 +4983,43 @@
             "curso": null,
             "semestre": null,
             "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Informática y Tecnología",
+        "asignaturas": [
+          {
+            "asignatura": "Discrete mathematics",
+            "codigo": "15773",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Basic Training"
+          },
+          {
+            "asignatura": "Mathematics I",
+            "codigo": "15774",
+            "ects": 9.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Basic Training"
+          },
+          {
+            "asignatura": "Mathematics II",
+            "codigo": "15775",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Basic Training"
+          },
+          {
+            "asignatura": "Physics",
+            "codigo": "15792",
+            "ects": 9.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Compulsory"
           }
         ]
       },
@@ -5581,6 +5439,14 @@
             "curso": null,
             "semestre": null,
             "tipo": null
+          },
+          {
+            "asignatura": "Quantum Mechanics",
+            "codigo": "14495",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Compulsory"
           }
         ]
       },
@@ -6433,6 +6299,43 @@
             "curso": null,
             "semestre": null,
             "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Redes y Sistemas de Comunicación",
+        "asignaturas": [
+          {
+            "asignatura": "Advanced algebra for engineering",
+            "codigo": "15731",
+            "ects": 11.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Basic Training"
+          },
+          {
+            "asignatura": "Fundamental physics",
+            "codigo": "15732",
+            "ects": 9.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Basic Training"
+          },
+          {
+            "asignatura": "Mathematics I",
+            "codigo": "15729",
+            "ects": 9.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Basic Training"
+          },
+          {
+            "asignatura": "Mathematics II",
+            "codigo": "15730",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Basic Training"
           }
         ]
       }

@@ -31,6 +31,7 @@ const ServiceOverviewPage = lazy(() =>
   pagesModule().then((module) => ({ default: module.ServiceOverviewPage })),
 );
 const SitemapPage = lazy(() => pagesModule().then((module) => ({ default: module.SitemapPage })));
+const UniversityCoveragePage = lazy(() => import("./routes/university-coverage"));
 
 export default function App() {
   const pathname = usePathname();
@@ -59,6 +60,7 @@ export default function App() {
       return <BlogPost slug={decodeURIComponent(path.slice("/blog/".length))} />;
     }
     if (path === "/clases-particulares/universidad") return <ServiceOverviewPage />;
+    if (path === "/campus/universidad") return <UniversityCoveragePage />;
     if (path === "/campus") return <CampusPage />;
     const hub = findCommercialHub(path);
     if (hub) return <CommercialHubPage page={hub} />;

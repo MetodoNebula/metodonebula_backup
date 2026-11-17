@@ -7,6 +7,9 @@ const DIST = path.join(ROOT, "dist");
 const VISUAL_ASSET_DIR = path.join(ROOT, "assets", "latex");
 const PUBLIC_VISUAL_ASSET_DIR = path.join(ROOT, "public", "assets", "latex");
 const SITE_DATA = JSON.parse(fs.readFileSync(path.join(ROOT, "src/content/site.json"), "utf8"));
+const UNIVERSITY_COVERAGE = JSON.parse(
+  fs.readFileSync(path.join(ROOT, "src/content/university-coverage.json"), "utf8"),
+);
 const SITE_URL = SITE_DATA.site.url;
 const BLOG_PAGE_SIZE = 12;
 const FEATURED_POST_SLUGS = [
@@ -1259,6 +1262,7 @@ function htmlSitemapPage(posts) {
   const mainLinks = [
     ["/", "Inicio"],
     ["/campus/", "Campus virtual"],
+    ["/campus/universidad/", "Comprobar asignatura universitaria"],
     ...SITE_DATA.commercialHubs.map((hub) => [hub.path, hub.label]),
     [SITE_DATA.serviceOverview.path, "Preparación universitaria"],
     ["/metodologia/", "Metodología"],
@@ -1477,7 +1481,7 @@ function campusPage() {
     subjectCards,
     '</div><h2>Contenido adaptado a tu etapa</h2><div class="grid gap-4 md:grid-cols-2 xl:grid-cols-4">',
     levelCards,
-    '</div><section class="mt-14 rounded-3xl border border-spark/25 bg-spark/5 p-8"><p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Campus internacional</p><h2 class="mt-4">GCSE, IGCSE e IB: empieza desde tu programa, no desde un temario genérico</h2><p>La ruta específica confirma la asignatura, el nivel y la fecha antes de recomendar contenidos. <a href="/campus/gcse-ib/">Explorar el Campus GCSE e IB</a>.</p></section><section class="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8"><p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Campus universitario</p><h2 class="mt-4">También disponible para Ciencias, Ingeniería, Economía y ADE</h2><p>El Campus se amplía para acompañar asignaturas universitarias cuantitativas. La ruta parte de tu grado, asignatura y convocatoria para ordenar teoría, problemas y práctica de Cálculo, Álgebra, Física, Química, Estadística, Economía y ADE.</p><p><a href="/clases-particulares/universidad/">Ver materias universitarias</a>.</p></section><section class="mt-14 rounded-3xl border border-spark/25 bg-spark/5 p-8 text-center"><p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Acceso e información</p><h2 class="mt-4">Cuéntanos programa, nivel y la asignatura que quieres trabajar</h2><p>Si estudias GCSE, IGCSE o IB, indica asignatura, nivel, exam board y fecha del próximo mock o examen. Si estudias en la Universidad, indica grado, asignatura y convocatoria; así podemos orientarte hacia la ruta más útil.</p>',
+    '</div><section class="mt-14 rounded-3xl border border-spark/25 bg-spark/5 p-8"><p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Campus internacional</p><h2 class="mt-4">GCSE, IGCSE e IB: empieza desde tu programa, no desde un temario genérico</h2><p>La ruta específica confirma la asignatura, el nivel y la fecha antes de recomendar contenidos. <a href="/campus/gcse-ib/">Explorar el Campus GCSE e IB</a>.</p></section><section class="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8"><p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Campus universitario</p><h2 class="mt-4">También disponible para Ciencias, Ingeniería, Economía y ADE</h2><p>El Campus se amplía para acompañar asignaturas universitarias cuantitativas. La ruta parte de tu grado, asignatura y convocatoria para ordenar teoría, problemas y práctica de Cálculo, Álgebra, Física, Química, Estadística, Economía y ADE.</p><p><a href="/campus/universidad/">Comprobar mi asignatura</a>.</p></section><section class="mt-14 rounded-3xl border border-spark/25 bg-spark/5 p-8 text-center"><p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Acceso e información</p><h2 class="mt-4">Cuéntanos programa, nivel y la asignatura que quieres trabajar</h2><p>Si estudias GCSE, IGCSE o IB, indica asignatura, nivel, exam board y fecha del próximo mock o examen. Si estudias en la Universidad, indica grado, asignatura y convocatoria; así podemos orientarte hacia la ruta más útil.</p>',
     contactButtons,
     "</section>",
   ].join("");
@@ -1505,6 +1509,73 @@ function campusPage() {
       intro: page.intro,
       breadcrumbs: [{ label: "Campus", href: page.path }],
       children,
+    }),
+  };
+}
+
+function universityCoveragePage() {
+  const catalog = UNIVERSITY_COVERAGE.map((university) => ({
+    universidad: university.universidad,
+    carreras: university.carreras
+      .map((degree) => ({
+        nombre: degree.nombre,
+        asignaturas: degree.asignaturas.filter(
+          (subject) => subject.asignatura && !/^GD_[A-Z]_\d+/.test(subject.asignatura),
+        ),
+      }))
+      .filter((degree) => degree.asignaturas.length),
+  }))
+    .filter((university) => university.carreras.length)
+    .sort((a, b) => a.universidad.localeCompare(b.universidad, "es"));
+  const subjectCount = catalog.reduce(
+    (count, university) => count + university.carreras.reduce((total, degree) => total + degree.asignaturas.length, 0),
+    0,
+  );
+  const payload = JSON.stringify(catalog).replace(/</g, "\\u003c");
+  return {
+    route: "/campus/universidad/",
+    title: "Comprueba tu asignatura universitaria | Campus Método Nebula",
+    description: "Busca tu universidad, grado y asignatura para comprobar si está cubierta por el Campus universitario de Método Nebula.",
+    h1: "Comprueba si tu asignatura está cubierta",
+    intro: "Busca por universidad, grado o asignatura. El catálogo reúne las materias universitarias disponibles en el Campus de Ciencias, Ingeniería, Economía y ADE.",
+    priority: "0.8",
+    jsonLd: [
+      { "@context": "https://schema.org", "@type": "WebPage", name: "Comprobar asignatura universitaria", description: "Buscador de cobertura del Campus universitario de Método Nebula por universidad, grado y asignatura.", url: absoluteUrl("/campus/universidad/"), inLanguage: "es" },
+      breadcrumbJsonLd([["Inicio", "/"], ["Campus", "/campus/"], ["Universidad", "/campus/universidad/"]]),
+    ],
+    body: shell({
+      label: "Campus universitario",
+      h1: "Comprueba si tu asignatura está cubierta",
+      intro: "Busca por universidad, grado o asignatura. El catálogo reúne las materias universitarias disponibles en el Campus de Ciencias, Ingeniería, Economía y ADE.",
+      breadcrumbs: [{ label: "Campus", href: "/campus/" }, { label: "Universidad", href: "/campus/universidad/" }],
+      children: `
+        <section class="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
+          <div class="nebula-card rounded-3xl p-6 md:p-8">
+            <h2>Encuentra tu asignatura</h2>
+            <p>Consulta ${subjectCount} asignaturas catalogadas de ${catalog.length} universidades. Selecciona universidad y grado, o busca directamente por materia.</p>
+            <div class="mt-7 grid gap-4 md:grid-cols-2">
+              <label class="text-sm font-medium">Universidad<select id="coverage-university" class="mt-2 w-full rounded-xl border border-white/15 bg-background px-3 py-3 text-sm text-foreground"><option value="">Selecciona una universidad</option></select></label>
+              <label class="text-sm font-medium">Grado<select id="coverage-degree" disabled class="mt-2 w-full rounded-xl border border-white/15 bg-background px-3 py-3 text-sm text-foreground disabled:cursor-not-allowed disabled:opacity-50"><option value="">Elige antes universidad</option></select></label>
+            </div>
+            <label class="mt-4 block text-sm font-medium">Asignatura<input id="coverage-query" type="search" placeholder="Ej.: Cálculo, Estadística, Microeconomía…" class="mt-2 w-full rounded-xl border border-white/15 bg-background px-3 py-3 text-sm text-foreground placeholder:text-muted-foreground"></label>
+            <div id="coverage-results" class="mt-6" aria-live="polite"><p class="text-sm text-muted-foreground">Selecciona un grado o escribe al menos dos letras para buscar.</p></div>
+          </div>
+          <aside id="coverage-status" class="rounded-3xl border border-spark/25 bg-spark/[0.06] p-6 md:p-8">
+            <p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Campus universitario</p><h2 class="mt-4">Tu búsqueda, en un clic</h2><p class="mt-3 text-sm text-muted-foreground">Al elegir una asignatura verás si figura en la cobertura actual del Campus y sus datos de referencia.</p>
+            <div class="mt-8 border-t border-spark/20 pt-6"><p class="text-sm text-muted-foreground">¿No aparece tu asignatura o tienes dudas sobre el encaje? Indica grado, materia y convocatoria para revisarlo contigo.</p><p class="mt-5"><a class="inline-flex rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground no-underline" href="/contacto/">Solicitar revisión</a></p></div>
+          </aside>
+        </section>
+        <script>(() => {
+          const catalog = ${payload}; const universitySelect = document.getElementById("coverage-university"); const degreeSelect = document.getElementById("coverage-degree"); const queryInput = document.getElementById("coverage-query"); const results = document.getElementById("coverage-results"); const status = document.getElementById("coverage-status");
+          const normalise = (value) => String(value).normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").toLowerCase(); const escapeHtml = (value) => String(value ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/\"/g, "&quot;");
+          universitySelect.insertAdjacentHTML("beforeend", catalog.map((item) => '<option value="' + escapeHtml(item.universidad) + '">' + escapeHtml(item.universidad) + "</option>").join(""));
+          const currentUniversity = () => catalog.find((item) => item.universidad === universitySelect.value); const currentDegree = () => { const university = currentUniversity(); return university && university.carreras.find((item) => item.nombre === degreeSelect.value); };
+          const subjectPool = () => { const university = currentUniversity(); const degree = currentDegree(); if (university && degree) return degree.asignaturas.map((subject) => ({ ...subject, university: university.universidad, degree: degree.nombre })); return catalog.flatMap((item) => item.carreras.flatMap((degree) => degree.asignaturas.map((subject) => ({ ...subject, university: item.universidad, degree: degree.nombre })))); };
+          function showStatus(subject) { status.innerHTML = '<p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Asignatura cubierta</p><h2 class="mt-4">' + escapeHtml(subject.asignatura) + '</h2><p class="mt-3 text-sm text-muted-foreground">Esta asignatura figura en el catálogo actual del Campus universitario.</p><dl class="mt-6 space-y-3 text-sm"><div><dt class="text-muted-foreground">Universidad</dt><dd class="mt-1 font-medium">' + escapeHtml(subject.university) + '</dd></div><div><dt class="text-muted-foreground">Grado</dt><dd class="mt-1 font-medium">' + escapeHtml(subject.degree) + '</dd></div>' + (subject.codigo ? '<div><dt class="text-muted-foreground">Código</dt><dd class="mt-1 font-medium">' + escapeHtml(subject.codigo) + '</dd></div>' : '') + (subject.ects ? '<div><dt class="text-muted-foreground">Créditos</dt><dd class="mt-1 font-medium">' + escapeHtml(subject.ects) + ' ECTS</dd></div>' : '') + '</dl><div class="mt-8 border-t border-spark/20 pt-6"><p class="text-sm text-muted-foreground">¿Necesitas confirmar el encaje o revisar el plan de estudio?</p><p class="mt-5"><a class="inline-flex rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground no-underline" href="/contacto/">Solicitar revisión</a></p></div>'; }
+          function renderResults() { const term = normalise(queryInput.value).trim(); const degree = currentDegree(); if (!degree && term.length < 2) { results.innerHTML = '<p class="text-sm text-muted-foreground">Selecciona un grado o escribe al menos dos letras para buscar.</p>'; return; } const matches = subjectPool().filter((subject) => !term || normalise(subject.asignatura).includes(term)).slice(0, 30); if (!matches.length) { results.innerHTML = '<p class="text-sm text-muted-foreground">No hay coincidencias en el catálogo con esos filtros.</p>'; return; } results.innerHTML = '<ul class="divide-y divide-white/8 overflow-hidden rounded-2xl border border-white/8">' + matches.map((subject, index) => '<li><button type="button" data-index="' + index + '" class="w-full px-4 py-4 text-left transition-colors hover:bg-spark/10"><span class="block font-medium text-foreground">' + escapeHtml(subject.asignatura) + '</span><span class="mt-1 block text-xs text-muted-foreground">' + escapeHtml(subject.degree) + ' · ' + escapeHtml(subject.university) + '</span></button></li>').join("") + '</ul>'; results.querySelectorAll("button[data-index]").forEach((button) => button.addEventListener("click", () => { const subject = matches[Number(button.dataset.index)]; queryInput.value = subject.asignatura; showStatus(subject); })); }
+          universitySelect.addEventListener("change", () => { const university = currentUniversity(); degreeSelect.disabled = !university; degreeSelect.innerHTML = '<option value="">' + (university ? 'Selecciona un grado' : 'Elige antes universidad') + '</option>' + (university ? university.carreras.map((degree) => '<option value="' + escapeHtml(degree.nombre) + '">' + escapeHtml(degree.nombre) + '</option>').join("") : ""); renderResults(); }); degreeSelect.addEventListener("change", renderResults); queryInput.addEventListener("input", renderResults);
+        })();</script>
+      `,
     }),
   };
 }
@@ -1664,6 +1735,7 @@ const pages = [
   serviceOverviewPage(),
   ...SITE_DATA.servicePages.map((page) => servicePage(page, posts)),
   campusPage(),
+  universityCoveragePage(),
   htmlSitemapPage(posts),
   corePage("about"),
   corePage("method"),

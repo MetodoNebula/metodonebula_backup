@@ -1,0 +1,6467 @@
+[
+  {
+    "universidad": "Universidad de Alicante",
+    "carreras": [
+      {
+        "nombre": "DOBLE GRADO EN DERECHO Y ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS",
+        "asignaturas": [
+          {
+            "asignatura": "CONTABILIDAD FINANCIERA III",
+            "codigo": "22021",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "de tiempo para realizar cada prueba que",
+            "tipo": "OBLIGATORIA (Curso: 3)"
+          },
+          {
+            "asignatura": "ESTADÍSTICA E INTRODUCCIÓN A LA ECONOMETRÍA",
+            "codigo": "22010",
+            "ects": 9.0,
+            "curso": null,
+            "semestre": "a clases prácticas, presentaciones en clase,",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          }
+        ]
+      },
+      {
+        "nombre": "DOBLE GRADO EN DERECHO Y CRIMINOLOGÍA",
+        "asignaturas": [
+          {
+            "asignatura": "INTRODUCCIÓN A LA ESTADÍSTICA",
+            "codigo": "18508",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Examen Examen final con los contenidos de la EXAMEN FINAL 50",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "TÉCNICAS DE INVESTIGACIÓN CUANTITATIVAS Y CUALITATIVAS",
+            "codigo": "18512",
+            "ects": 9.0,
+            "curso": null,
+            "semestre": "Pruebas Realización de un proyecto de ACTIVIDADES DE 20",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          }
+        ]
+      },
+      {
+        "nombre": "DOBLE GRADO EN FÍSICA Y MATEMÁTICAS",
+        "asignaturas": [
+          {
+            "asignatura": "ANÁLISIS DE UNA VARIABLE REAL II",
+            "codigo": "25015",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Examen El examen final abarcará todo el contenido de EXAMEN FINAL 70",
+            "tipo": "OBLIGATORIA (Curso: 1)"
+          },
+          {
+            "asignatura": "ANÁLISIS REAL DE VARIAS VARIABLES I",
+            "codigo": "25021",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Prueba Examen, que constará de preguntas teóricas EXAMEN FINAL 75",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          },
+          {
+            "asignatura": "ANÁLISIS REAL DE VARIAS VARIABLES II",
+            "codigo": "25028",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "escritas.",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          },
+          {
+            "asignatura": "ECUACIONES ALGEBRAICAS",
+            "codigo": "25039",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Examen Se realizará un examen en el que cada EXAMEN FINAL 80",
+            "tipo": "OBLIGATORIA (Curso: 4)"
+          },
+          {
+            "asignatura": "ECUACIONES EN DERIVADAS PARCIALES",
+            "codigo": "25041",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Examen Resolución de ejercicios, problemas y EXAMEN FINAL 40",
+            "tipo": "OBLIGATORIA (Curso: 5)"
+          },
+          {
+            "asignatura": "ELECTROMAGNETISMO I",
+            "codigo": "26232",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "del segundo curso. El resto de asignaturas de este bloque",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          },
+          {
+            "asignatura": "FÍSICA I",
+            "codigo": "26200",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": ", no hay asignaturas previas a las que dé continuidad, pero guarda estrecha relación con",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FÍSICA II",
+            "codigo": "26201",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "de la titulación a fin de desarrollar",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "INFERENCIA ESTADÍSTICA",
+            "codigo": "25035",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "de carácter teórico- EVALUACIÓN",
+            "tipo": "OBLIGATORIA (Curso: 4)"
+          },
+          {
+            "asignatura": "INTRODUCCIÓN A LA ESTADÍSTICA",
+            "codigo": "25017",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "en clase",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "MECÁNICA NEWTONIANA Y RELATIVIDAD",
+            "codigo": "26228",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "(EP) y un examen final al terminar el mismo (EF) que a",
+            "tipo": "OBLIGATORIA (Curso: 3)"
+          },
+          {
+            "asignatura": "MÉTODOS ANALÍTICOS PARA EDO",
+            "codigo": "25024",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": ".",
+            "tipo": "OBLIGATORIA (Curso: 3)"
+          },
+          {
+            "asignatura": "OPTIMIZACIÓN I",
+            "codigo": "25033",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": ", puntuada de 0 a 10.",
+            "tipo": "OBLIGATORIA (Curso: 4)"
+          },
+          {
+            "asignatura": "PROBABILIDAD",
+            "codigo": "25026",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "en clase",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          },
+          {
+            "asignatura": "PROCESOS ESTOCÁSTICOS",
+            "codigo": "25060",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Fechas de pruebas de evaluación oficiales para el curso 2026-27",
+            "tipo": "OPTATIVA (Curso: 5)"
+          },
+          {
+            "asignatura": "TERMODINÁMICA",
+            "codigo": "26202",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "(EP) y un examen final al terminar el mismo (EF) que a",
+            "tipo": "BÁSICA (Curso: 2)"
+          },
+          {
+            "asignatura": "TOPOLOGÍA AVANZADA",
+            "codigo": "25031",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": ", en una fecha acordada con el alumnado que asista a clase",
+            "tipo": "OBLIGATORIA (Curso: 3)"
+          },
+          {
+            "asignatura": "TOPOLOGÍA BÁSICA",
+            "codigo": "25022",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "profesor y las circunstancias del grupo.",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          },
+          {
+            "asignatura": "ÁLGEBRA LINEAL I",
+            "codigo": "25011",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "clases y en",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "DOBLE GRADO EN INGENIERÍA INFORMÁTICA Y ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS",
+        "asignaturas": [
+          {
+            "asignatura": "CONTABILIDAD FINANCIERA I",
+            "codigo": "22007",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "entrega de exposición en el aula, realización de pruebas",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "MATEMÁTICA DE LAS OPERACIONES FINANCIERAS",
+            "codigo": "22013",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Tarea a Entrega de una tarea sobre el primer bloque ACTIVIDADES DE 9",
+            "tipo": "OBLIGATORIA (Curso: 3)"
+          },
+          {
+            "asignatura": "MATEMÁTICA DISCRETA",
+            "codigo": "34006",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "controles",
+            "tipo": "BÁSICA (Curso: 2)"
+          },
+          {
+            "asignatura": "MATEMÁTICAS 2",
+            "codigo": "34007",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "en las sesiones de teoría para la evaluación continua de",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "DOBLE GRADO EN TURISMO Y ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS",
+        "asignaturas": [
+          {
+            "asignatura": "INTRODUCCIÓN A LA MACROECONOMÍA",
+            "codigo": "22006",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Examen Examen con preguntas teoricas y practicas. EXAMEN FINAL 50",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS",
+        "asignaturas": [
+          {
+            "asignatura": "CONTABILIDAD FINANCIERA II",
+            "codigo": "22016",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "parte de la asignatura por continua. Será necesario que",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          },
+          {
+            "asignatura": "FINANZAS",
+            "codigo": "22022",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": ", 6 ECTS). La materia de Finanzas, de la que forma parte la asignatura de Finanzas, se completa con las asignaturas Fianzas",
+            "tipo": "OBLIGATORIA (Curso: 3)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS DE ECONOMÍA DE LA EMPRESA",
+            "codigo": "22003",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Prueba Prueba objetiva tipo test de la teoría de los ACTIVIDADES DE 25",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "INTRODUCCIÓN A LA ESTADÍSTICA",
+            "codigo": "22009",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "a clases prácticas, presentaciones en clase,",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "INTRODUCCIÓN A LA MICROECONOMÍA",
+            "codigo": "22001",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "de acuerdo al calendario que publica la Facultad de Ciencias Económicas y Empresariales para la",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "MACROECONOMÍA INTERMEDIA",
+            "codigo": "22017",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": ".",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          },
+          {
+            "asignatura": "MATEMÁTICAS I",
+            "codigo": "22000",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Examen Abarcará toda la materia impartida. Se EXAMEN FINAL 50",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "MATEMÁTICAS II",
+            "codigo": "22005",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "EXAMEN Se hará un examen final de toda la EXAMEN FINAL 50",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN ARQUITECTURA TÉCNICA",
+        "asignaturas": [
+          {
+            "asignatura": "FUNDAMENTOS DE MATEMÁTICA APLICADA I",
+            "codigo": "16000",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": ". Estas actividades consisten en la realización de cuestionarios teóricos",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS DE MATEMÁTICA APLICADA II",
+            "codigo": "16005",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": ". Estas actividades consisten en la realización de cuestionarios teóricos",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "GEOMETRÍA DESCRIPTIVA",
+            "codigo": "16002",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "y",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN BIOLOGÍA",
+        "asignaturas": [
+          {
+            "asignatura": "ESTADÍSTICA",
+            "codigo": "26516",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "dirigidos",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FÍSICA",
+            "codigo": "26517",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "(Puntuada de 0 a 10)",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN CIENCIAS DEL MAR",
+        "asignaturas": [
+          {
+            "asignatura": "ESTADÍSTICA",
+            "codigo": "28516",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "dirigidos secciones del mismo incluídos los resultados",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "ESTADÍSTICA APLICADA A LOS RECURSOS MARINOS",
+            "codigo": "24534",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "manuscritos, en formato de artículo científico,",
+            "tipo": "OBLIGATORIA (Curso: 3)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS DE MATEMÁTICAS",
+            "codigo": "24511",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "en clase.",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FÍSICA",
+            "codigo": "28517",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "(Puntuada de 0 a 10)",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN ECONOMÍA",
+        "asignaturas": [
+          {
+            "asignatura": "CONTABILIDAD FINANCIERA",
+            "codigo": "35007",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "entrega de realización de pruebas presenciales, entre",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "ECONOMETRÍA I",
+            "codigo": "35018",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "del segundo año. Antes de esta asignatura los",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          },
+          {
+            "asignatura": "ECONOMETRÍA II",
+            "codigo": "35024",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "del tercer año. Los",
+            "tipo": "OBLIGATORIA (Curso: 3)"
+          },
+          {
+            "asignatura": "ESTADÍSTICA I",
+            "codigo": "35009",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "EN CLASES prácticas y participación en ellas, controles",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "ESTADÍSTICA II",
+            "codigo": "35014",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Examen Se realizará (aproximadamente) en la ACTIVIDADES DE 30",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          },
+          {
+            "asignatura": "INTRODUCCIÓN A LA MACROECONOMÍA",
+            "codigo": "35005",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "En el sistema de evaluación 1 contará por",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "INTRODUCCIÓN A LA MICROECONOMÍA",
+            "codigo": "35000",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Si un alumno no ha podido asistir a algún",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "MACROECONOMÍA INTERMEDIA",
+            "codigo": "35010",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": ".",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          },
+          {
+            "asignatura": "MACROECONOMÍA INTERNACIONAL",
+            "codigo": "35025",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "de la primera parte del",
+            "tipo": "OBLIGATORIA (Curso: 3)"
+          },
+          {
+            "asignatura": "MATEMÁTICAS I",
+            "codigo": "35002",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "siguientes fechas provisionales:",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "MATEMÁTICAS II",
+            "codigo": "35008",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "APROXIMADAMENTE SEMANA 7-8",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "MATEMÁTICAS III",
+            "codigo": "35013",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "CONTROL En el control 1, entrarán los Temas 1 a 6, ACTIVIDADES DE 65",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          },
+          {
+            "asignatura": "MICROECONOMÍA AVANZADA",
+            "codigo": "35020",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "SEGUNDO El segundo control comprenderá la materia ACTIVIDADES DE 50",
+            "tipo": "OBLIGATORIA (Curso: 3)"
+          },
+          {
+            "asignatura": "MICROECONOMÍA INTERMEDIA",
+            "codigo": "35006",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "de primer curso. Se encuadra dentro de la materia Análisis Económico.",
+            "tipo": "BÁSICA (Curso: 2)"
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN ENFERMERÍA",
+        "asignaturas": [
+          {
+            "asignatura": "BIOESTADÍSTICA",
+            "codigo": "27005",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Prueba práctica: Resolución de problemas",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN FÍSICA",
+        "asignaturas": [
+          {
+            "asignatura": "ANÁLISIS DE VARIABLE COMPLEJA",
+            "codigo": "26224",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": ".",
+            "tipo": "OBLIGATORIA (Curso: 3)"
+          },
+          {
+            "asignatura": "ANÁLISIS MATEMÁTICO I",
+            "codigo": "26203",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "trabajos de",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "ANÁLISIS MATEMÁTICO II",
+            "codigo": "26204",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "de primer curso del Grado de Físicas.",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "ELECTROMAGNETISMO II",
+            "codigo": "26233",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "semana 8 del curso e incluirá los temas",
+            "tipo": "OBLIGATORIA (Curso: 3)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS MATEMÁTICOS PARA LA FÍSICA",
+            "codigo": "26218",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "problemas relacionados con los contenidos",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FÍSICA III",
+            "codigo": "26246",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "del segundo año.",
+            "tipo": "BÁSICA (Curso: 2)"
+          },
+          {
+            "asignatura": "MECÁNICA ANALÍTICA",
+            "codigo": "26227",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "(EP) y un examen final al terminar el mismo (EF) que a",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          },
+          {
+            "asignatura": "MECÁNICA ESTADÍSTICA",
+            "codigo": "26231",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Informe(s) Informe(s) sobre las prácticas de ordenador ACTIVIDADES DE 10",
+            "tipo": "OBLIGATORIA (Curso: 3)"
+          },
+          {
+            "asignatura": "MÉTODOS ANALÍTICOS PARA ECUACIONES DIFERENCIALES",
+            "codigo": "26222",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": ".",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          },
+          {
+            "asignatura": "MÉTODOS MATEMÁTICOS PARA LA FÍSICA I",
+            "codigo": "26226",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "podrán ser realizadas de forma individual o",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          },
+          {
+            "asignatura": "MÉTODOS MATEMÁTICOS PARA LA FÍSICA II",
+            "codigo": "26223",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "sobre los contenidos teórico- EVALUACIÓN",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          },
+          {
+            "asignatura": "ÁLGEBRA Y GEOMETRÍA I",
+            "codigo": "26205",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Examen Examen, que constará de problemas teórico- EXAMEN FINAL 70",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "ÁLGEBRA Y GEOMETRÍA II",
+            "codigo": "26225",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Prueba Examen que consistirá en la resolución de EXAMEN FINAL 70",
+            "tipo": "OBLIGATORIA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN INGENIERÍA AEROESPACIAL",
+        "asignaturas": [
+          {
+            "asignatura": "FUNDAMENTOS FÍSICOS DE LA INGENIERÍA AEROESPACIAL 1",
+            "codigo": "33802",
+            "ects": 9.0,
+            "curso": null,
+            "semestre": "Las experiencias de laboratorio se evalúan",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS FÍSICOS DE LA INGENIERÍA AEROESPACIAL 2",
+            "codigo": "33806",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "EVALUACIÓN como unos problemas a desarrollar y",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS MATEMÁTICOS DE LA INGENIERÍA 1",
+            "codigo": "33803",
+            "ects": 9.0,
+            "curso": null,
+            "semestre": ") del",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS MATEMÁTICOS DE LA INGENIERÍA 2",
+            "codigo": "33804",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "problemas",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS QUÍMICOS DE LA INGENIERÍA AEROESPACIAL",
+            "codigo": "33807",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "relacionados con la realización de la práctica,",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "MÉTODOS MATEMÁTICOS DE LA INGENIERÍA AEROESPACIAL",
+            "codigo": "33808",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "del primer curso.",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN INGENIERÍA BIOMÉDICA",
+        "asignaturas": [
+          {
+            "asignatura": "ESTADÍSTICA",
+            "codigo": "33607",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "entregadas.",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS FÍSICOS DE LA INGENIERÍA I",
+            "codigo": "33603",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "del primer curso y",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS FÍSICOS DE LA INGENIERÍA II",
+            "codigo": "33609",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "del primer curso.",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "MATEMÁTICAS I",
+            "codigo": "33601",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "del primer curso.",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "MATEMÁTICAS II",
+            "codigo": "33606",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "del primer curso, pertenece al módulo de Formación Básica y dentro de éste, forma parte",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "QUÍMICA",
+            "codigo": "33602",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Eventualmente podrán plantearse controles",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN INGENIERÍA CIVIL",
+        "asignaturas": [
+          {
+            "asignatura": "FUNDAMENTOS FÍSICOS DE LA INGENIERÍA CIVIL",
+            "codigo": "33501",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Prácticas Se evaluará la asistencia y realización de las ACTIVIDADES DE 15",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS MATEMÁTICOS DE LA INGENIERÍA I",
+            "codigo": "33500",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "del primer curso del Grado en Ingeniería Civil.",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS MATEMÁTICOS DE LA INGENIERÍA II",
+            "codigo": "33505",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "del primer curso del Grado en Ingeniería Civil.",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS MATEMÁTICOS DE LA INGENIERÍA III",
+            "codigo": "33508",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "del primer curso.",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS QUÍMICOS DE LA INGENIERÍA CIVIL",
+            "codigo": "33502",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "del grado en",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN INGENIERÍA EN SONIDO E IMAGEN EN TELECOMUNICACIÓN",
+        "asignaturas": [
+          {
+            "asignatura": "FUNDAMENTOS FÍSICOS DE LA INGENIERÍA II",
+            "codigo": "20008",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "es igual o superior a 5 no es necesario presentarse al examen final.",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "MATEMÁTICAS BÁSICAS",
+            "codigo": "20004",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": ", se obtendrá siguiendo la ponderación:",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "MATEMÁTICAS I",
+            "codigo": "20009",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": ", se obtendrá siguiendo la ponderación:",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN INGENIERÍA INFORMÁTICA",
+        "asignaturas": [
+          {
+            "asignatura": "ESTADÍSTICA",
+            "codigo": "34011",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "publicados con antelación.",
+            "tipo": "BÁSICA (Curso: 2)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS FÍSICOS DE LA INFORMÁTICA",
+            "codigo": "34003",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "semanas 7 (P1) y 12 (P2) en el horario de la",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "MATEMÁTICAS 1",
+            "codigo": "34002",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Actividades, ejercicios y",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN INGENIERÍA MULTIMEDIA",
+        "asignaturas": [
+          {
+            "asignatura": "ESTADÍSTICA",
+            "codigo": "21007",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "y 5. Resolución de las actividades de forma",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS DE LA FÍSICA",
+            "codigo": "21000",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "es igual o superior a 5 no es necesario presentarse al examen final.",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "MATEMÁTICAS I",
+            "codigo": "21003",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "motivar al estudiante a controlar sus avances",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "MATEMÁTICAS II",
+            "codigo": "21006",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "al estudiantado y controlar sus avances en",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN INGENIERÍA ROBÓTICA",
+        "asignaturas": [
+          {
+            "asignatura": "AMPLIACIÓN DE FÍSICA",
+            "codigo": "33712",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "de 2º curso.",
+            "tipo": "BÁSICA (Curso: 2)"
+          },
+          {
+            "asignatura": "AMPLIACIÓN DE MATEMÁTICA APLICADA",
+            "codigo": "33711",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "del segundo curso del Grado en Ingeniería Robótica.",
+            "tipo": "BÁSICA (Curso: 2)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS DE MATEMÁTICA APLICADA I",
+            "codigo": "33701",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Elimina materia si la calificación obtenida es",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS DE MATEMÁTICA APLICADA II",
+            "codigo": "33706",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "CLASES TEORICO PRACTICAS (9.00",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS FÍSICOS DE LA INGENIERÍA I",
+            "codigo": "33702",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": ".",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS FÍSICOS DE LA INGENIERÍA II",
+            "codigo": "33707",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Primer Examen de teoría y problemas de los temas ACTIVIDADES DE 30",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN LOGOPEDIA",
+        "asignaturas": [
+          {
+            "asignatura": "BIOESTADÍSTICA",
+            "codigo": "27607",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Prueba práctica: Resolución de problemas e",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN MATEMÁTICAS",
+        "asignaturas": [
+          {
+            "asignatura": "ALGEBRA LINEAL II",
+            "codigo": "25016",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "clases y en",
+            "tipo": "OBLIGATORIA (Curso: 1)"
+          },
+          {
+            "asignatura": "ANÁLISIS DE DATOS I",
+            "codigo": "25042",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "(no",
+            "tipo": "OBLIGATORIA (Curso: 4)"
+          },
+          {
+            "asignatura": "ANÁLISIS DE DATOS II",
+            "codigo": "25062",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "exposiciones orales, problemas, test y",
+            "tipo": "OPTATIVA (Curso: 4)"
+          },
+          {
+            "asignatura": "ANÁLISIS DE UNA VARIABLE REAL I",
+            "codigo": "25012",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Prueba inicial Prueba inicial de contenidos elementales en ACTIVIDADES DE 10",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "ANÁLISIS FUNCIONAL",
+            "codigo": "25037",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Esta prueba consistirá en contestar de forma",
+            "tipo": "OBLIGATORIA (Curso: 3)"
+          },
+          {
+            "asignatura": "CURVAS Y SUPERFICIES",
+            "codigo": "25029",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "trabajos",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          },
+          {
+            "asignatura": "CÁLCULO NUMÉRICO I",
+            "codigo": "25025",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "en las prácticas de ordenador, para los",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          },
+          {
+            "asignatura": "CÁLCULO NUMÉRICO II",
+            "codigo": "25040",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "del cuarto curso del Grado en Matemáticas. Se ubica en el módulo",
+            "tipo": "OBLIGATORIA (Curso: 4)"
+          },
+          {
+            "asignatura": "ESTRUCTURAS ALGEBRAICAS",
+            "codigo": "25034",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Examen Se realizará un examen en el que cada EXAMEN FINAL 80",
+            "tipo": "OBLIGATORIA (Curso: 3)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS MATEMÁTICOS I",
+            "codigo": "25013",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "y la nota del examen final,",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FUNDAMENTOS MATEMÁTICOS II",
+            "codigo": "25043",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Examen El examen final abarcará todo el contenido de EXAMEN FINAL 50",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FÍSICA",
+            "codigo": "25010",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Pruebas Se realizará una pruebas teórico-práctica ACTIVIDADES DE 20",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FÍSICA II",
+            "codigo": "25019",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "de la titulación a fin de desarrollar la teoría física. Para abordar ciertos temas de física, se",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "GEOMETRÍA LINEAL",
+            "codigo": "25023",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": ".",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          },
+          {
+            "asignatura": "MÉTODOS CUALITATIVOS PARA EDO",
+            "codigo": "25032",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Segunda Prueba escrita correspondiente a los temas ACTIVIDADES DE 45",
+            "tipo": "OBLIGATORIA (Curso: 3)"
+          },
+          {
+            "asignatura": "OPTIMIZACIÓN II",
+            "codigo": "25038",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Prácticas Realización de una prueba para evaluar los ACTIVIDADES DE 35",
+            "tipo": "OBLIGATORIA (Curso: 3)"
+          },
+          {
+            "asignatura": "PROGRAMACIÓN LINEAL",
+            "codigo": "25027",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "realizado individualmente, de forma",
+            "tipo": "OBLIGATORIA (Curso: 2)"
+          },
+          {
+            "asignatura": "SERIES TEMPORALES",
+            "codigo": "25070",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Trabajo dirigido Cada estudiante individualmente o en ACTIVIDADES DE 30",
+            "tipo": "OPTATIVA (Curso: 4)"
+          },
+          {
+            "asignatura": "TEORÍA DE JUEGOS",
+            "codigo": "25071",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Written tests Written tests on the course material that will ACTIVIDADES DE 85",
+            "tipo": "OPTATIVA (Curso: 4)"
+          },
+          {
+            "asignatura": "TEORÍA GLOBAL DE SUPERFICIES",
+            "codigo": "25036",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "trabajos",
+            "tipo": "OBLIGATORIA (Curso: 3)"
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN MEDICINA",
+        "asignaturas": [
+          {
+            "asignatura": "BIOESTADÍSTICA",
+            "codigo": "27204",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Prueba práctica: Resolución de problemas",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN NUTRICIÓN HUMANA Y DIETÉTICA",
+        "asignaturas": [
+          {
+            "asignatura": "BIOESTADÍSTICA",
+            "codigo": "27509",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "práctico. (25%) e inferencia estadística (75%). La nota",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN ÓPTICA Y OPTOMETRÍA",
+        "asignaturas": [
+          {
+            "asignatura": "ESTADÍSTICA",
+            "codigo": "24019",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "en clase y con algunas cuestiones teóricas).",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "FÍSICA",
+            "codigo": "24012",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "del primer curso.",
+            "tipo": "BÁSICA (Curso: 1)"
+          },
+          {
+            "asignatura": "MATEMÁTICAS",
+            "codigo": "24013",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Prueba Examen que consistirá en problemas teórico- EXAMEN FINAL 80",
+            "tipo": "BÁSICA (Curso: 1)"
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Matemáticas",
+        "asignaturas": [
+          {
+            "asignatura": "Cálculo Numérico I",
+            "codigo": "25025",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": 2,
+            "tipo": "Obligatoria"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Fisioterapia por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística",
+            "codigo": "107",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "universidad": "Universidad de Cádiz",
+    "carreras": [
+      {
+        "nombre": "GRADO EN ADMINISTRACIÓN Y DIRECCIÓN DE EMPRESAS",
+        "asignaturas": [
+          {
+            "asignatura": "Econometría",
+            "codigo": "21506015",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Economía",
+            "codigo": "21506009",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "21506003",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística Avanzada",
+            "codigo": "21506016",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Macroeconomía",
+            "codigo": "21506013",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas",
+            "codigo": "21506004",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Microeconomía",
+            "codigo": "21506010",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Métodos Cuantitativos Para La",
+            "codigo": "21506017",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN BIOTECNOLOGÍA",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística",
+            "codigo": "40211011",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas I",
+            "codigo": "40211001",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas Ii",
+            "codigo": "40211002",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN CIENCIAS AMBIENTALES",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística",
+            "codigo": "42306005",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística Aplicada",
+            "codigo": "42306018",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas I",
+            "codigo": "42306003",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas Ii",
+            "codigo": "42306012",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN CIENCIAS DE LA ACTIVIDAD FÍSICA Y DEL DEPORTE",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística Aplicada A La Actividad",
+            "codigo": "41122017",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN CIENCIAS DEL MAR",
+        "asignaturas": [
+          {
+            "asignatura": "Cálculo Numérico E Informática",
+            "codigo": "42307014",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Ecuaciones Diferenciales",
+            "codigo": "42307007",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística Aplicada",
+            "codigo": "42307020",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas",
+            "codigo": "42307003",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN CRIMINOLOGÍA Y SEGURIDAD",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística",
+            "codigo": "30311007",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística Aplicada A La",
+            "codigo": "30304014",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN ENOLOGÍA",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística",
+            "codigo": "40212006",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas I",
+            "codigo": "40212004",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas Ii",
+            "codigo": "40212005",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN FINANZAS Y CONTABILIDAD",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística",
+            "codigo": "21507003",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística Avanzada",
+            "codigo": "21507013",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas",
+            "codigo": "21507004",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN FISIOTERAPIA",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística E Introducción A La",
+            "codigo": "20808006",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN GESTIÓN Y ADMINISTRACIÓN PÚBLICA",
+        "asignaturas": [
+          {
+            "asignatura": "Introducción A La Estadística",
+            "codigo": "31308004",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN INGENIERÍA AEROESPACIAL",
+        "asignaturas": [
+          {
+            "asignatura": "Ampliación De Matemáticas",
+            "codigo": "21716011",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Cálculo",
+            "codigo": "21716001",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "21716002",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Métodos Numéricos Avanzados",
+            "codigo": "21716022",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra Y Geometría",
+            "codigo": "21716006",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN INGENIERÍA CIVIL",
+        "asignaturas": [
+          {
+            "asignatura": "Ampliación De Matemáticas",
+            "codigo": "10617004",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Cálculo",
+            "codigo": "10624002",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "10617003",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra Y Geometría",
+            "codigo": "10624001",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN INGENIERÍA ELECTRÓNICA INDUSTRIAL",
+        "asignaturas": [
+          {
+            "asignatura": "Ampliación De Matemáticas",
+            "codigo": "21719004",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Cálculo",
+            "codigo": "10620002",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "10620003",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Modelos Matemáticos Y",
+            "codigo": "21719041",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra Y Geometría",
+            "codigo": "10620001",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN INGENIERÍA ELÉCTRICA",
+        "asignaturas": [
+          {
+            "asignatura": "Ampliación De Matemáticas",
+            "codigo": "10619004",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Cálculo",
+            "codigo": "10619002",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "10619003",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Modelos Matemáticos Y",
+            "codigo": "21718040",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra Y Geometría",
+            "codigo": "10619001",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN INGENIERÍA EN DISEÑO INDUSTRIAL Y DESARROLLO DEL PRODUCTO",
+        "asignaturas": [
+          {
+            "asignatura": "Ampliación De Matemáticas",
+            "codigo": "21717011",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Cálculo",
+            "codigo": "21717002",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "21717001",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra Y Geometría",
+            "codigo": "21717007",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN INGENIERÍA EN ENERGÍAS RENOVABLES",
+        "asignaturas": [
+          {
+            "asignatura": "Cálculo",
+            "codigo": "10623002",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "10623006",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra Y Geometría",
+            "codigo": "10623001",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN INGENIERÍA EN TECNOLOGÍAS INDUSTRIALES",
+        "asignaturas": [
+          {
+            "asignatura": "Ampliación De Matemáticas",
+            "codigo": "10618004",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Cálculo",
+            "codigo": "10618002",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "10618003",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Modelos Matemáticos Y",
+            "codigo": "21715071",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra Y Geometría",
+            "codigo": "10618001",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN INGENIERÍA INFORMÁTICA",
+        "asignaturas": [
+          {
+            "asignatura": "Cálculo",
+            "codigo": "21714009",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "21714002",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemática Discreta",
+            "codigo": "21714010",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra",
+            "codigo": "21714008",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN INGENIERÍA MARÍTIMA",
+        "asignaturas": [
+          {
+            "asignatura": "Ampliación De Matemáticas",
+            "codigo": "40906003",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Cálculo",
+            "codigo": "40906001",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística Y Optimización",
+            "codigo": "40906004",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra Lineal Y Geometría",
+            "codigo": "40906002",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN INGENIERÍA MECÁNICA",
+        "asignaturas": [
+          {
+            "asignatura": "Ampliación De Matemáticas",
+            "codigo": "10621004",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Cálculo",
+            "codigo": "10621002",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "10621003",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Modelos Matemáticos Y",
+            "codigo": "21720044",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra Y Geometría",
+            "codigo": "10621001",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN INGENIERÍA QUÍMICA",
+        "asignaturas": [
+          {
+            "asignatura": "Ampliación De Matemáticas",
+            "codigo": "40210004",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Cálculo",
+            "codigo": "40210001",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística Y Optimización",
+            "codigo": "40210003",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra Y Geometría",
+            "codigo": "40210002",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN INGENIERÍA RADIOELECTRÓNICA",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística Y Optimización",
+            "codigo": "41415004",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN MARINA",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística Y Optimización",
+            "codigo": "41413004",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN MARKETING E INVESTIGACIÓN DE MERCADOS",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística",
+            "codigo": "31315009",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO INGLÉS",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística Avanzada",
+            "codigo": "31315011",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO INGLÉS",
+            "tipo": null
+          },
+          {
+            "asignatura": "Métodos Estadísticos",
+            "codigo": "31315027",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN MATEMÁTICAS",
+        "asignaturas": [
+          {
+            "asignatura": "Inferencia Estadística",
+            "codigo": "40209024",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Introducción A La Probabilidad Y A",
+            "codigo": "40209006",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Modelos De La Investigación",
+            "codigo": "40209042",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Modelos Del Análisis",
+            "codigo": "40209041",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Procesos Estocásticos Y Series",
+            "codigo": "40209040",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Programación Matemática",
+            "codigo": "40209027",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "TEORÍA DE GRUPOS",
+            "codigo": "7289",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre 2º Cuatrimestre 2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "Teoría De La Probabilidad",
+            "codigo": "40209023",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN MEDICINA",
+        "asignaturas": [
+          {
+            "asignatura": "Bioestadística",
+            "codigo": "20105020",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN NÁUTICA Y TRANSPORTE MARÍTIMO",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística Y Optimización",
+            "codigo": "41414004",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN PSICOLOGÍA",
+        "asignaturas": [
+          {
+            "asignatura": "Análisis De Datos En Psicología I",
+            "codigo": "41121002",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Análisis De Datos En Psicología Ii",
+            "codigo": "41121007",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN QUÍMICA",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística",
+            "codigo": "40208006",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN RECURSOS HUMANOS",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística",
+            "codigo": "20409010",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN TRABAJO SOCIAL",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística",
+            "codigo": "30408004",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          },
+          {
+            "asignatura": "Técnicas Cuantitativas",
+            "codigo": "1363902",
+            "ects": null,
+            "curso": null,
+            "semestre": "correspondiente o, en su",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN TURISMO",
+        "asignaturas": [
+          {
+            "asignatura": "Técnicas Estadísticas Para Turismo",
+            "codigo": "31314008",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Biotecnología",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística",
+            "codigo": "27106",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Ciencias Ambientales 668 - Graduado en Ciencias Ambientales",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística",
+            "codigo": "25209",
+            "ects": null,
+            "curso": 2,
+            "semestre": "668 - Primer semestre",
+            "tipo": "Formación básica"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Óptica y Optometría 661 - Graduado en Óptica y Optometría",
+        "asignaturas": [
+          {
+            "asignatura": "Métodos estadísticos para óptica y optometría",
+            "codigo": "26813",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Bioquímica por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Matemáticas Generales Aplicadas a la Bioquímica",
+            "codigo": "103",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Ingeniería Electrónica de Telecomunicación por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Matemáticas 4",
+            "codigo": "201",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "2º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Ingeniería Telemática por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Matemáticas 4",
+            "codigo": "211",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "2º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Ingeniería de Sonido e Imagen por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Matemáticas 4",
+            "codigo": "201",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "2º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Matemáticas por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Modelización",
+            "codigo": "401",
+            "ects": 6.0,
+            "curso": 4,
+            "semestre": "2º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "MÁSTER EN FISIOTERAPIA NEUROLÓGICA",
+        "asignaturas": [
+          {
+            "asignatura": "Métodos Estadísticos Aplicados A",
+            "codigo": "863001",
+            "ects": null,
+            "curso": null,
+            "semestre": "correspondiente o, en su",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "MÁSTER EN MATEMÁTICAS",
+        "asignaturas": [
+          {
+            "asignatura": "Modelizacion. Procesos",
+            "codigo": "263304",
+            "ects": null,
+            "curso": null,
+            "semestre": "Idioma CASTELLANO",
+            "tipo": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "universidad": "Universidad de Murcia",
+    "carreras": [
+      {
+        "nombre": "GRADO EN BIOLOGÍA",
+        "asignaturas": [
+          {
+            "asignatura": "BIOESTADÍSTICA",
+            "codigo": "6213",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "FÍSICA",
+            "codigo": "6206",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "MATEMÁTICAS",
+            "codigo": "6207",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN BIOQUÍMICA",
+        "asignaturas": [
+          {
+            "asignatura": "BIOINFORMÁTICA",
+            "codigo": "1769",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "FÍSICA",
+            "codigo": "1750",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "MATEMÁTICAS",
+            "codigo": "1752",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN BIOTECNOLOGÍA",
+        "asignaturas": [
+          {
+            "asignatura": "BIOESTADÍSTICA PARA BIOTECNOLOGÍA",
+            "codigo": "6975",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "BIOINFORMÁTICA",
+            "codigo": "6273",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "FUNDAMENTOS DE FÍSICA PARA BIOTECNOLOGÍA",
+            "codigo": "6973",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "FUNDAMENTOS MATEMÁTICOS DE LA BIOTECNOLOGÍA",
+            "codigo": "6258",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN CIENCIA Y TECNOLOGÍA DE LOS ALIMENTOS",
+        "asignaturas": [
+          {
+            "asignatura": "ESTADÍSTICA",
+            "codigo": "1700",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "MATEMÁTICAS",
+            "codigo": "1697",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN ENFERMERÍA (MURCIA)",
+        "asignaturas": [
+          {
+            "asignatura": "BIOESTADÍSTICA",
+            "codigo": "6621",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN FARMACIA",
+        "asignaturas": [
+          {
+            "asignatura": "BIOESTADÍSTICA",
+            "codigo": "7123",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "FÍSICA",
+            "codigo": "7118",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN FISIOTERAPIA",
+        "asignaturas": [
+          {
+            "asignatura": "ESTADÍSTICA Y MÉTODOS DE INVESTIGACIÓN EN FISIOTERAPIA",
+            "codigo": "4058",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN FÍSICA",
+        "asignaturas": [
+          {
+            "asignatura": "CÁLCULO",
+            "codigo": "7433",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "ELECTROMAGNETISMO I",
+            "codigo": "7441",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "ESPACIOS DE HILBERT",
+            "codigo": "7450",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre 2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "FÍSICA ESTADÍSTICA",
+            "codigo": "7454",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "FÍSICA GENERAL I",
+            "codigo": "7430",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "FÍSICA GENERAL II",
+            "codigo": "7436",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre 2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "FÍSICA MATEMÁTICA",
+            "codigo": "7437",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "INTRODUCCIÓN A LAS ECUACIONES DIFERENCIALES",
+            "codigo": "7444",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "MECÁNICA I",
+            "codigo": "7442",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "MÉTODOS MATEMÁTICOS DE LA FÍSICA I",
+            "codigo": "7438",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "MÉTODOS MATEMÁTICOS DE LA FÍSICA II",
+            "codigo": "7440",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "MÉTODOS MATEMÁTICOS DE LA FÍSICA III",
+            "codigo": "7446",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "PROBABILIDAD Y ESTADÍSTICA PARA LA FÍSICA",
+            "codigo": "7439",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "ÁLGEBRA",
+            "codigo": "7431",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN MATEMÁTICAS",
+        "asignaturas": [
+          {
+            "asignatura": "AMPLIACIÓN DE PROBABILIDAD",
+            "codigo": "7302",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "AMPLIACIÓN DE ÁLGEBRA LINEAL Y GEOMETRÍA",
+            "codigo": "7281",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "ANÁLISIS DE FOURIER Y APLICACIONES",
+            "codigo": "7303",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "ANÁLISIS NUMÉRICO I",
+            "codigo": "7282",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "ANÁLISIS NUMÉRICO II",
+            "codigo": "7296",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre 2º Cuatrimestre 2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "CONJUNTOS Y NÚMEROS",
+            "codigo": "7273",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "ECUACIONES ALGEBRAICAS",
+            "codigo": "7297",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre 2º Cuatrimestre 2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "ECUACIONES DIFERENCIALES ORDINARIAS",
+            "codigo": "7286",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre 2º Cuatrimestre 2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "ECUACIONES EN DERIVADAS PARCIALES Y SERIES DE FOURIER",
+            "codigo": "7298",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre 2º Cuatrimestre 2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "ELEMENTOS DE GEOMETRÍA DIFERENCIAL",
+            "codigo": "7299",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre 2º Cuatrimestre 2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "ESTADÍSTICA MATEMÁTICA",
+            "codigo": "7300",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre 2º Cuatrimestre 2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "ESTADÍSTICA MULTIVARIANTE",
+            "codigo": "7301",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "FUNCIONES DE VARIABLE COMPLEJA",
+            "codigo": "7291",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "FUNCIONES DE VARIABLE REAL I",
+            "codigo": "7274",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "FUNCIONES DE VARIABLE REAL II",
+            "codigo": "7278",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre 2º Cuatrimestre 2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "FUNCIONES DE VARIAS VARIABLES I",
+            "codigo": "7283",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "FUNCIONES DE VARIAS VARIABLES II",
+            "codigo": "7284",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "FUNCIONES DE VARIAS VARIABLES III",
+            "codigo": "7287",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre 2º Cuatrimestre 2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "GEOMETRÍA DE CURVAS Y SUPERFICIES",
+            "codigo": "7292",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "GRAFOS Y OPTIMIZACIÓN DISCRETA",
+            "codigo": "7293",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre 2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "INTRODUCCIÓN AL MÉTODO MATEMÁTICO",
+            "codigo": "7276",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "MATEMÁTICAS DE LOS MERCADOS FINANCIEROS",
+            "codigo": "7317",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre 2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "MODELIZACIÓN CON ECUACIONES DIFERENCIALES",
+            "codigo": "7318",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre 2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "OPTIMIZACIÓN LINEAL",
+            "codigo": "7285",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "PROBABILIDAD I",
+            "codigo": "7288",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre 2º Cuatrimestre 2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "PROBABILIDAD II",
+            "codigo": "7294",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "TOPOLOGÍA BÁSICA",
+            "codigo": "7280",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre 2º Cuatrimestre 2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "TOPOLOGÍA DE SUPERFICIES",
+            "codigo": "7290",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre 2º Cuatrimestre 2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "ÁLGEBRA LINEAL",
+            "codigo": "7272",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "ÁLGEBRA Y GEOMETRÍA LINEAL",
+            "codigo": "7277",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre 2º Cuatrimestre 2º Cuatrimestre",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN MEDICINA",
+        "asignaturas": [
+          {
+            "asignatura": "BIOESTADÍSTICA",
+            "codigo": "6903",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN NUTRICIÓN HUMANA Y DIETÉTICA",
+        "asignaturas": [
+          {
+            "asignatura": "BIOESTADÍSTICA",
+            "codigo": "6797",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN PSICOLOGÍA",
+        "asignaturas": [
+          {
+            "asignatura": "ANÁLISIS DE DATOS EN PSICOLOGÍA",
+            "codigo": "1006",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "MODELOS ESTADÍSTICOS EN PSICOLOGÍA",
+            "codigo": "1011",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN QUÍMICA",
+        "asignaturas": [
+          {
+            "asignatura": "FÍSICA I",
+            "codigo": "1616",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre 1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "MATEMÁTICAS I",
+            "codigo": "1618",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "MATEMÁTICAS II",
+            "codigo": "1619",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "GRADO EN ÓPTICA Y OPTOMETRÍA",
+        "asignaturas": [
+          {
+            "asignatura": "FUNDAMENTOS DE FÍSICA",
+            "codigo": "1093",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "GEOMETRÍA Y ESTADÍSTICA",
+            "codigo": "1095",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "ÁLGEBRA LINEAL Y CÁLCULO",
+            "codigo": "1096",
+            "ects": null,
+            "curso": null,
+            "semestre": "1º Cuatrimestre",
+            "tipo": null
+          },
+          {
+            "asignatura": "ÓPTICA FÍSICA",
+            "codigo": "1102",
+            "ects": null,
+            "curso": null,
+            "semestre": "2º Cuatrimestre",
+            "tipo": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "universidad": "Universidad de Málaga",
+    "carreras": [
+      {
+        "nombre": "Graduado/a en Biología por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Física",
+            "codigo": "106",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas",
+            "codigo": "102",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "204",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "1º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Bioquímica por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística Aplicada a la Bioquímica",
+            "codigo": "106",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Biofísica",
+            "codigo": "201",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "1º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Ciberseguridad e Inteligencia Artificial por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Matemáticas I",
+            "codigo": "103",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas II",
+            "codigo": "109",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Probabilidad y Estadística",
+            "codigo": "202",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "1º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Ciencias Ambientales por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Física",
+            "codigo": "107",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas",
+            "codigo": "103",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Enfermería por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Bioestadística",
+            "codigo": "103",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Ingeniería Electrónica de Telecomunicación por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Física",
+            "codigo": "105",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas 1",
+            "codigo": "107",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas 2",
+            "codigo": "108",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas 3",
+            "codigo": "109",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "1º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Ingeniería Informática por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Cálculo para la Computación",
+            "codigo": "106",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estructuras Algebraicas",
+            "codigo": "107",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemática Discreta",
+            "codigo": "104",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Métodos Estadísticos",
+            "codigo": "205",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "1º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Ingeniería Mecánica por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Ampliación de Cálculo",
+            "codigo": "106",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Análisis Vectorial y Estadístico",
+            "codigo": "107",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Cálculo",
+            "codigo": "102",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Física I",
+            "codigo": "105",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Física II",
+            "codigo": "108",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra Lineal",
+            "codigo": "101",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Ampliación de Física",
+            "codigo": "206",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "2º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Ingeniería Química por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Cálculo",
+            "codigo": "101",
+            "ects": 9.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "105",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Física I",
+            "codigo": "102",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Física II",
+            "codigo": "107",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra",
+            "codigo": "104",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Ingeniería Telemática por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Física",
+            "codigo": "103",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas 1",
+            "codigo": "102",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas 2",
+            "codigo": "105",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas 3",
+            "codigo": "202",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "1º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Ingeniería de Sistemas de Telecomunicación por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Física",
+            "codigo": "104",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Ingeniería de Sonido e Imagen por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Física",
+            "codigo": "104",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas 1",
+            "codigo": "101",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas 2",
+            "codigo": "109",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas 3",
+            "codigo": "202",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "1º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Ingeniería de la Salud por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Ampliación de Cálculo",
+            "codigo": "106",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Cálculo",
+            "codigo": "102",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "107",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Física I",
+            "codigo": "104",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Física II",
+            "codigo": "108",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra Lineal",
+            "codigo": "105",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Ampliación de Matemáticas",
+            "codigo": "201",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "1º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Ingeniería del Software por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Cálculo para la Computación",
+            "codigo": "106",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estructuras Algebraicas",
+            "codigo": "107",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemática Discreta",
+            "codigo": "104",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Métodos Estadísticos",
+            "codigo": "205",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Modelado y Simulación de Sistemas",
+            "codigo": "862",
+            "ects": 6.0,
+            "curso": 3,
+            "semestre": "2º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Ingeniería en Tecnologías Industriales por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Ampliación de Cálculo",
+            "codigo": "106",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Cálculo",
+            "codigo": "102",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "107",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Física I",
+            "codigo": "103",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Física II",
+            "codigo": "109",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra Lineal",
+            "codigo": "101",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Matemáticas por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Análisis Matemático I",
+            "codigo": "103",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Análisis Matemático II",
+            "codigo": "104",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Fundamentos de Probabilidad y Estadística",
+            "codigo": "106",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Geometría I",
+            "codigo": "101",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Geometría II",
+            "codigo": "102",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemática Discreta",
+            "codigo": "109",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra I",
+            "codigo": "105",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra II",
+            "codigo": "108",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Análisis Matemático III",
+            "codigo": "206",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Análisis Matemático IV",
+            "codigo": "207",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Análisis Numérico Matricial",
+            "codigo": "209",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Ecuaciones Diferenciales I",
+            "codigo": "208",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Física I",
+            "codigo": "201",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Física II",
+            "codigo": "202",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Geometría III",
+            "codigo": "204",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Métodos Numéricos",
+            "codigo": "210",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Topología I",
+            "codigo": "205",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra III",
+            "codigo": "211",
+            "ects": 6.0,
+            "curso": 2,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Análisis Numérico",
+            "codigo": "310",
+            "ects": 6.0,
+            "curso": 3,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Ecuaciones Diferenciales II",
+            "codigo": "305",
+            "ects": 6.0,
+            "curso": 3,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Geometría IV",
+            "codigo": "301",
+            "ects": 6.0,
+            "curso": 3,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Inferencia Estadística",
+            "codigo": "308",
+            "ects": 6.0,
+            "curso": 3,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Modelos Probabilísticos",
+            "codigo": "307",
+            "ects": 6.0,
+            "curso": 3,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Optimización",
+            "codigo": "306",
+            "ects": 6.0,
+            "curso": 3,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Variable Compleja",
+            "codigo": "304",
+            "ects": 6.0,
+            "curso": 3,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Análisis Funcional",
+            "codigo": "409",
+            "ects": 6.0,
+            "curso": 4,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Análisis Numérico de Ecuaciones en Derivadas Parciales",
+            "codigo": "418",
+            "ects": 6.0,
+            "curso": 4,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Análisis Real y Complejo",
+            "codigo": "410",
+            "ects": 6.0,
+            "curso": 4,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Análisis de Datos Multivariantes",
+            "codigo": "413",
+            "ects": 6.0,
+            "curso": 4,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Análisis de Datos e Inferencia",
+            "codigo": "412",
+            "ects": 6.0,
+            "curso": 4,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Ecuaciones en Derivadas Parciales y Análisis de Fourier",
+            "codigo": "419",
+            "ects": 6.0,
+            "curso": 4,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Investigación Operativa",
+            "codigo": "415",
+            "ects": 6.0,
+            "curso": 4,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Procesos Estocásticos y Series Temporales",
+            "codigo": "414",
+            "ects": 6.0,
+            "curso": 4,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Teoría de la Probabilidad",
+            "codigo": "411",
+            "ects": 6.0,
+            "curso": 4,
+            "semestre": "1º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Podología por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Bioestadística",
+            "codigo": "107",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado/a en Química por la Universidad de Málaga.",
+        "asignaturas": [
+          {
+            "asignatura": "Física I",
+            "codigo": "102",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Física II",
+            "codigo": "106",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas para químicos I",
+            "codigo": "104",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "1º",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas para químicos II",
+            "codigo": "109",
+            "ects": 6.0,
+            "curso": 1,
+            "semestre": "2º",
+            "tipo": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "universidad": "Universidad de Zaragoza",
+    "carreras": [
+      {
+        "nombre": "Complementos de formación Máster/Doctorado 434 - Graduado en Ingeniería Mecánica 662 - Graduado en Ingeniería Mecánica",
+        "asignaturas": [
+          {
+            "asignatura": "Mecánica de fluidos",
+            "codigo": "29716",
+            "ects": null,
+            "curso": 662,
+            "semestre": "Segundo semestre",
+            "tipo": "434 - Obligatoria"
+          }
+        ]
+      },
+      {
+        "nombre": "Complementos de formación Máster/Doctorado 581 - Graduado en Ingeniería de Tecnologías y Servicios de Telecomunicación 656 - Graduado en Ingeniería de Tecnologías de Telecomunicación",
+        "asignaturas": [
+          {
+            "asignatura": "Señales y sistemas",
+            "codigo": "30305",
+            "ects": null,
+            "curso": 581,
+            "semestre": "Primer semestre",
+            "tipo": "656 - Obligatoria"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Biotecnología",
+        "asignaturas": [
+          {
+            "asignatura": "Física",
+            "codigo": "27102",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Anual",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Matemáticas",
+            "codigo": "27101",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Anual",
+            "tipo": "Formación básica"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Estudios para la Defensa y Seguridad",
+        "asignaturas": [
+          {
+            "asignatura": "Matemáticas I",
+            "codigo": "32200",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "32216",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Matemáticas II",
+            "codigo": "32210",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Física",
+        "asignaturas": [
+          {
+            "asignatura": "Probabilidad y estadística",
+            "codigo": "26959",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Física 719 - Graduado en Física",
+        "asignaturas": [
+          {
+            "asignatura": "Análisis matemático",
+            "codigo": "26903",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Cálculo diferencial",
+            "codigo": "26908",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Fundamentos de física I",
+            "codigo": "26900",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Fundamentos de física II",
+            "codigo": "26905",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Álgebra I",
+            "codigo": "26902",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Álgebra II",
+            "codigo": "26907",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Ingeniería Biomédica",
+        "asignaturas": [
+          {
+            "asignatura": "Cálculo",
+            "codigo": "32100",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Ecuaciones diferenciales",
+            "codigo": "32102",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Física I",
+            "codigo": "32104",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Física II",
+            "codigo": "32105",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Álgebra",
+            "codigo": "32101",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Bioestadística",
+            "codigo": "32103",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Biomecánica",
+            "codigo": "32128",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Primer semestre",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Fundamentos de Electrónica",
+            "codigo": "32118",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Segundo semestre",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Fundamentos de Ingeniería de Materiales",
+            "codigo": "32114",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Segundo semestre",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Mecánica de Fluidos",
+            "codigo": "32115",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Segundo semestre",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Procesado de Señales Biomédicas",
+            "codigo": "32124",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Segundo semestre",
+            "tipo": "Obligatoria"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Ingeniería Civil",
+        "asignaturas": [
+          {
+            "asignatura": "Física general",
+            "codigo": "28703",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Matemática aplicada a la Ingeniería II",
+            "codigo": "28705",
+            "ects": 30.0,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Matemática aplicada a la ingeniería I",
+            "codigo": "28700",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Electrotecnia",
+            "codigo": "28710",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "28711",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Ingeniería Electrónica y Automática 444 - Graduado en Ingeniería Electrónica y Automática 664 - Graduado en Ingeniería Electrónica y Automática 676 - Graduado en Ingeniería Electrónica y Automática (modalidad presencial)",
+        "asignaturas": [
+          {
+            "asignatura": "Física I",
+            "codigo": "29802",
+            "ects": null,
+            "curso": 1,
+            "semestre": "676-Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Física II",
+            "codigo": "29807",
+            "ects": null,
+            "curso": 1,
+            "semestre": "676-Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "29815",
+            "ects": null,
+            "curso": 662,
+            "semestre": "Primer semestre o Segundo semestre",
+            "tipo": "Formación básica"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Ingeniería Electrónica y Automática 676 - Graduado en Ingeniería Electrónica y Automática (modalidad presencial)",
+        "asignaturas": [
+          {
+            "asignatura": "Cálculo",
+            "codigo": "29861",
+            "ects": null,
+            "curso": 1,
+            "semestre": "676-Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Ecuaciones diferenciales",
+            "codigo": "29863",
+            "ects": null,
+            "curso": 1,
+            "semestre": "676-Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Álgebra",
+            "codigo": "29862",
+            "ects": null,
+            "curso": 1,
+            "semestre": "662-Primer semestre o Segundo semestre",
+            "tipo": "Formación básica"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Ingeniería Informática 443 - Graduado en Ingeniería Informática 716 - Graduado en Ingeniería Informática 727 - Graduado en Ingeniería Informática",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística",
+            "codigo": "30207",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Física y electrónica",
+            "codigo": "30206",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Matemática discreta",
+            "codigo": "30208",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Ingeniería Mecánica",
+        "asignaturas": [
+          {
+            "asignatura": "Cálculo",
+            "codigo": "29761",
+            "ects": null,
+            "curso": 1,
+            "semestre": "662-Primer semestre o Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Ecuaciones diferenciales",
+            "codigo": "29763",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre o Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Álgebra",
+            "codigo": "29762",
+            "ects": null,
+            "curso": 1,
+            "semestre": "662-Primer semestre o Segundo semestre",
+            "tipo": "Formación básica"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Ingeniería Mecánica 662 - Graduado en Ingeniería Mecánica",
+        "asignaturas": [
+          {
+            "asignatura": "Física I",
+            "codigo": "29701",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre o Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Física II",
+            "codigo": "29706",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre o Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "29708",
+            "ects": null,
+            "curso": 662,
+            "semestre": "Primer semestre o Segundo semestre",
+            "tipo": "Formación básica"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Ingeniería de Organización Industrial (modalidad virtual)",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística",
+            "codigo": "31306",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Física I",
+            "codigo": "31302",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Física II",
+            "codigo": "31303",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Matemáticas I",
+            "codigo": "31305",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Matemáticas II",
+            "codigo": "31307",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Fundamentos de electrotecnia",
+            "codigo": "31318",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Segundo semestre",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Investigación operativa",
+            "codigo": "31329",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Primer semestre",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Matemáticas III",
+            "codigo": "31308",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Mecánica de fluidos",
+            "codigo": "31324",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Segundo semestre",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Ampliación de investigación operativa",
+            "codigo": "31331",
+            "ects": null,
+            "curso": 3,
+            "semestre": "Primer semestre",
+            "tipo": "Obligatoria"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Ingeniería de Tecnologías y Servicios de Telecomunicación 656 - Graduado en Ingeniería de Tecnologías de Telecomunicación",
+        "asignaturas": [
+          {
+            "asignatura": "Cálculo",
+            "codigo": "30368",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Cálculo vectorial y diferencial",
+            "codigo": "30370",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Fundamentos de física",
+            "codigo": "30301",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Matemáticas para la telecomunicación",
+            "codigo": "30372",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "656 - Formación básica"
+          },
+          {
+            "asignatura": "Álgebra",
+            "codigo": "30369",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Probabilidad y procesos",
+            "codigo": "30308",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Ingeniería en Diseño Industrial y Desarrollo de Producto",
+        "asignaturas": [
+          {
+            "asignatura": "Física I",
+            "codigo": "25866",
+            "ects": null,
+            "curso": 1,
+            "semestre": "107-Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Física II",
+            "codigo": "25869",
+            "ects": null,
+            "curso": 1,
+            "semestre": "107-Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Matemáticas I",
+            "codigo": "25867",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre o Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Matemáticas II",
+            "codigo": "25870",
+            "ects": null,
+            "curso": 1,
+            "semestre": "107-Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Estadística y fiabilidad de producto",
+            "codigo": "25812",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Matemáticas",
+        "asignaturas": [
+          {
+            "asignatura": "Análisis Matemático I",
+            "codigo": "27054",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Análisis Matemático II",
+            "codigo": "27057",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Física I",
+            "codigo": "27055",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Física II",
+            "codigo": "27058",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Álgebra Lineal I",
+            "codigo": "27053",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Álgebra Lineal II",
+            "codigo": "27056",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Análisis Matemático III",
+            "codigo": "27059",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Primer semestre",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Análisis Matemático IV",
+            "codigo": "27060",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Segundo semestre",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Modelos Estocásticos",
+            "codigo": "27062",
+            "ects": null,
+            "curso": 4,
+            "semestre": "Primer semestre",
+            "tipo": "Optativa"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Matemáticas 647 - Graduado en Matemáticas",
+        "asignaturas": [
+          {
+            "asignatura": "Grafos y combinatoria",
+            "codigo": "27005",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Números y conjuntos",
+            "codigo": "27004",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Análisis numérico I",
+            "codigo": "27007",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Anual",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Ecuaciones diferenciales ordinarias",
+            "codigo": "27009",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Anual",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Estructuras algebraicas",
+            "codigo": "27011",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Segundo semestre",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Geometría lineal",
+            "codigo": "27010",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Primer semestre",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Introducción a la probabilidad y la estadística",
+            "codigo": "27012",
+            "ects": null,
+            "curso": 2,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Análisis numérico II",
+            "codigo": "27015",
+            "ects": null,
+            "curso": 3,
+            "semestre": "Anual",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Cálculo de probabilidades",
+            "codigo": "27016",
+            "ects": null,
+            "curso": 3,
+            "semestre": "Primer semestre",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Ecuaciones en derivadas parciales",
+            "codigo": "27020",
+            "ects": null,
+            "curso": 3,
+            "semestre": "Segundo semestre",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Estadística matemática",
+            "codigo": "27019",
+            "ects": null,
+            "curso": 3,
+            "semestre": "Segundo semestre",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Geometría de curvas y superficies",
+            "codigo": "27013",
+            "ects": null,
+            "curso": 3,
+            "semestre": "Anual",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Investigación operativa",
+            "codigo": "27018",
+            "ects": null,
+            "curso": 3,
+            "semestre": "Primer semestre",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Variable compleja",
+            "codigo": "27014",
+            "ects": null,
+            "curso": 3,
+            "semestre": "Anual",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Análisis de Fourier",
+            "codigo": "27035",
+            "ects": null,
+            "curso": 4,
+            "semestre": "Segundo semestre",
+            "tipo": "Optativa"
+          },
+          {
+            "asignatura": "Modelización matemática",
+            "codigo": "27022",
+            "ects": null,
+            "curso": 4,
+            "semestre": "Primer semestre",
+            "tipo": "Obligatoria"
+          },
+          {
+            "asignatura": "Teoría de la probabilidad",
+            "codigo": "27032",
+            "ects": null,
+            "curso": 4,
+            "semestre": "Segundo semestre",
+            "tipo": "Optativa"
+          },
+          {
+            "asignatura": "Técnicas de regresión",
+            "codigo": "27033",
+            "ects": null,
+            "curso": 4,
+            "semestre": "Primer semestre",
+            "tipo": "Optativa"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Química",
+        "asignaturas": [
+          {
+            "asignatura": "Física I",
+            "codigo": "29421",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Física II",
+            "codigo": "29422",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Matemáticas I",
+            "codigo": "29423",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          },
+          {
+            "asignatura": "Matemáticas II",
+            "codigo": "29424",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Segundo semestre",
+            "tipo": "Formación básica"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Óptica y Optometría",
+        "asignaturas": [
+          {
+            "asignatura": "Matemáticas",
+            "codigo": "32401",
+            "ects": null,
+            "curso": 1,
+            "semestre": "Primer semestre",
+            "tipo": "Formación básica"
+          }
+        ]
+      },
+      {
+        "nombre": "Graduado en Óptica y Optometría 661 - Graduado en Óptica y Optometría",
+        "asignaturas": [
+          {
+            "asignatura": "Óptica Física",
+            "codigo": "26809",
+            "ects": null,
+            "curso": 2,
+            "semestre": "661 - Segundo semestre",
+            "tipo": "Obligatoria"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "universidad": "Universitat Politècnica de València",
+    "carreras": [
+      {
+        "nombre": "Bachelor's Degree in Communication Networks and Systems",
+        "asignaturas": [
+          {
+            "asignatura": "Advanced algebra for engineering",
+            "codigo": "15731",
+            "ects": 11.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Basic Training"
+          },
+          {
+            "asignatura": "Fundamental physics",
+            "codigo": "15732",
+            "ects": 9.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Basic Training"
+          },
+          {
+            "asignatura": "Mathematics I",
+            "codigo": "15729",
+            "ects": 9.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Basic Training"
+          },
+          {
+            "asignatura": "Mathematics II",
+            "codigo": "15730",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Basic Training"
+          }
+        ]
+      },
+      {
+        "nombre": "Bachelor's Degree in Computer Science and Technology",
+        "asignaturas": [
+          {
+            "asignatura": "Discrete mathematics",
+            "codigo": "15773",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Basic Training"
+          },
+          {
+            "asignatura": "Mathematics I",
+            "codigo": "15774",
+            "ects": 9.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Basic Training"
+          },
+          {
+            "asignatura": "Mathematics II",
+            "codigo": "15775",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Basic Training"
+          },
+          {
+            "asignatura": "Physics",
+            "codigo": "15792",
+            "ects": 9.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Compulsory"
+          }
+        ]
+      },
+      {
+        "nombre": "Bachelor's Degree in Data Science",
+        "asignaturas": [
+          {
+            "asignatura": "Scalable Machine Learning techniques",
+            "codigo": "14009",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Compulsory"
+          }
+        ]
+      },
+      {
+        "nombre": "Bachelor's degree in Engineering Physics",
+        "asignaturas": [
+          {
+            "asignatura": "Quantum Mechanics",
+            "codigo": "14495",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": "Compulsory"
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Administración y Dirección de Empresas",
+        "asignaturas": [
+          {
+            "asignatura": "GD_J_11814_2026_C_159_20260619222509",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_J_11816_2026_C_159_20260619222513",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_J_11827_2026_C_159_20260619222537",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_J_11827_2026_C_159_20260619222537 (1)",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_J_11835_2026_C_159_20260619222557",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_J_13915_2026_C_159_20260911220002",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_J_13916_2026_C_159_20260619222644",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "del primer curso. Es una asignatura instrumental.",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_M_11738_2026_C_158_20260619222255",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_M_11739_2026_C_158_20260619222257",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_M_11750_2026_C_158_20260619222323",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_M_11759_2026_C_158_20260619222346",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_M_11760_2026_C_158_20260619222348",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_M_11762_2026_C_158_20260619222353",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_M_11763_2026_C_158_20260619222355",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Arquitectura Técnica",
+        "asignaturas": [
+          {
+            "asignatura": "GD_H_15597_2026_C_238_20260619225520",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_H_15598_2026_C_238_20260619225523",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Biotecnología",
+        "asignaturas": [
+          {
+            "asignatura": "GD_S_11113_2026_C_150_20260619221721",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "B. Se",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_S_11114_2026_C_150_20260619221725",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_S_11115_2026_C_150_20260626220013",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_S_11116_2026_C_150_20260619221727",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_S_11117_2026_C_150_20260619221729",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": ", se realizará un",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_S_13681_2026_C_150_20260619221838",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_S_13682_2026_C_150_20260619221840",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ciencia de Datos",
+        "asignaturas": [
+          {
+            "asignatura": "GD_R_13998_2026_C_236_20260618223041",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_13999_2026_C_236_20260618223044",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "del grado de Ciencia de Datos y consta de 6 créditos.",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_14005_2026_C_236_20260618223055",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_14006_2026_C_189_20260618221738",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_14007_2026_C_189_20260618221741",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_14010_2026_C_189_20260618221745",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "y otra al final del mismo),",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_14011_2026_C_189_20260618221748",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_14022_2026_C_189_20260618221812",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_14023_2026_C_189_20260618221815",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_14024_2026_C_189_20260618221817",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_14025_2026_C_189_20260618221819",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_15606_2026_C_236_20260618223100",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_15607_2026_C_236_20260618223102",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Informática Industrial y Robótica",
+        "asignaturas": [
+          {
+            "asignatura": "GD_R_14523_2026_C_206_20260618222547",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_14524_2026_C_206_20260618222549",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_14525_2026_C_206_20260618222551",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_14530_2026_C_206_20260618222603",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería Aeroespacial",
+        "asignaturas": [
+          {
+            "asignatura": "GD_E_15409_2026_C_231_20260619225413",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_E_15410_2026_C_231_20260619225416",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_E_15411_2026_C_231_20260619225418",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_E_15412_2026_C_231_20260619225420",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_E_15432_2026_C_231_20260619225454",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería Biomédica",
+        "asignaturas": [
+          {
+            "asignatura": "GD_D_15469_2026_C_232_20260618222927",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_15471_2026_C_232_20260618222929",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_15472_2026_C_232_20260618222931",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_15475_2026_C_232_20260618222934",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería Civil",
+        "asignaturas": [
+          {
+            "asignatura": "GD_C_14812_2026_C_213_20260619224910",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_C_14813_2026_C_213_20260619224913",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_C_14814_2026_C_213_20260619224915",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_C_14815_2026_C_213_20260619224917",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_C_14816_2026_C_213_20260619224919",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "con un peso sobre la nota final de un 40% (Parcial 1) y un 40% (Parcial",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_C_14820_2026_C_213_20260619224928",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_C_14821_2026_C_213_20260619224930",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "), más un \"examen de recuperación\" de dichos",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería Electrónica Industrial y Automática",
+        "asignaturas": [
+          {
+            "asignatura": "GD_E_12131_2026_C_163_20260619223334",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_E_12132_2026_C_163_20260619223336",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "en",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_E_12133_2026_C_163_20260619223338",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_E_12134_2026_C_163_20260619223341",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "s, es competencia de la Escuela el fijar las fechas, que se",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería Eléctrica",
+        "asignaturas": [
+          {
+            "asignatura": "GD_E_11994_2026_C_161_20260619222928",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_E_11995_2026_C_161_20260619222930",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "en",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_E_11996_2026_C_161_20260619222932",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_E_11997_2026_C_161_20260619222935",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_E_11998_2026_C_161_20260619222937",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería Forestal y del Medio Natural",
+        "asignaturas": [
+          {
+            "asignatura": "GD_S_10998_2026_C_149_20260619221544",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_S_10999_2026_C_149_20260619221546",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_S_11000_2026_C_149_20260619221549",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_S_11001_2026_C_149_20260619221552",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_S_11022_2026_C_149_20260619221633",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería Física",
+        "asignaturas": [
+          {
+            "asignatura": "GD_T_14480_2026_C_205_20260618222412",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14481_2026_C_205_20260618222414",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14482_2026_C_205_20260618222417",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14483_2026_C_205_20260618222419",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14484_2026_C_205_20260618222421",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14485_2026_C_205_20260618222424",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14490_2026_C_205_20260618222436",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14491_2026_C_205_20260618222439",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "de segundo curso, están íntimamente",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14492_2026_C_205_20260618222441",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14493_2026_C_205_20260618222443",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": ", se realizará un sondeo entre los integrantes del equipo para determinar el grado de implicación de",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14494_2026_C_205_20260618222445",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14496_2026_C_205_20260618222448",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14497_2026_C_205_20260618222450",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14498_2026_C_205_20260618222452",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14505_2026_C_205_20260618222509",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14510_2026_C_205_20260618222521",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14511_2026_C_205_20260618222524",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14512_2026_C_205_20260618222527",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería Geomática y Topografía",
+        "asignaturas": [
+          {
+            "asignatura": "GD_G_11332_2026_C_153_20260618220004",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_G_11333_2026_C_153_20260618220007",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_G_11334_2026_C_153_20260618220009",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_G_11351_2026_C_153_20260618220049",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_G_11360_2026_C_153_20260618220113",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_G_11361_2026_C_153_20260618220116",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_G_11362_2026_C_153_20260618220118",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_G_11366_2026_C_153_20260618220128",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_G_11367_2026_C_153_20260618220130",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería Informática",
+        "asignaturas": [
+          {
+            "asignatura": "GD_R_11539_2026_C_156_20260618220621",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_11540_2026_C_156_20260618220623",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_11545_2026_C_156_20260618220634",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_11546_2026_C_156_20260618220637",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "del grado en Ingeniería Informática y consta de 6 créditos.",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_11547_2026_C_156_20260618220639",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "del primer curso. Por tanto, es una asignatura instrumental donde se pretende que el",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_11551_2026_C_156_20260618220648",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería Mecánica",
+        "asignaturas": [
+          {
+            "asignatura": "GD_E_12557_2026_C_169_20260619223544",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_E_12558_2026_C_169_20260619223547",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": ", el estudiantado será evaluado mediante los sistemas de evaluación descritos en esta guía, de manera",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_E_12559_2026_C_169_20260619223550",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_E_12560_2026_C_169_20260619223552",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_E_12561_2026_C_169_20260619223554",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "del primer curso del Grado de Ingeniería",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_E_12570_2026_C_169_20260619223615",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería Química",
+        "asignaturas": [
+          {
+            "asignatura": "GD_D_12260_2026_C_235_20260618223017",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_12261_2026_C_235_20260618223019",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_12262_2026_C_235_20260618223021",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_13963_2026_C_235_20260618223033",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_13985_2026_C_235_20260618223035",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería de Organización Industrial",
+        "asignaturas": [
+          {
+            "asignatura": "GD_D_11468_2026_C_155_20260618220359",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_11469_2026_C_155_20260618220401",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_11470_2026_C_155_20260618220404",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_11471_2026_C_155_20260618220406",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_11472_2026_C_155_20260618220408",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_11490_2026_C_155_20260618220450",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_11495_2026_C_155_20260618220502",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_11496_2026_C_155_20260618220505",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_11501_2026_C_155_20260618220516",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería de Tecnologías de Telecomunicación",
+        "asignaturas": [
+          {
+            "asignatura": "GD_T_15307_2026_C_229_20260618222908",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_15308_2026_C_229_20260618222910",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_15309_2026_C_229_20260618222913",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_15322_2026_C_229_20260618222919",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_15323_2026_C_229_20260618222922",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": ". Las pruebas de recuperación se regulan en el apartado",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_15324_2026_C_229_20260618222925",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería de Tecnologías de Telecomunicación, Sonido e Imagen",
+        "asignaturas": [
+          {
+            "asignatura": "GD_Q_15367_2026_C_230_20260622220800",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "con una ponderación del 37,5% para cada uno de ellos.",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_Q_15368_2026_C_230_20260622220802",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "B y proporciona los",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_Q_15369_2026_C_230_20260924220109",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_Q_15387_2026_C_230_20260622220813",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "del primer curso en donde ya se han dado las bases necesarias en el primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_Q_15388_2026_C_230_20260924220111",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería de la Energía",
+        "asignaturas": [
+          {
+            "asignatura": "GD_D_10169_2026_C_174_20260618221231",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_12927_2026_C_174_20260618221233",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_12928_2026_C_174_20260618221236",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_12929_2026_C_174_20260618221237",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_12930_2026_C_174_20260618221240",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_12948_2026_C_174_20260618221325",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_12949_2026_C_174_20260618221327",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería en Diseño Industrial y Desarrollo de Productos",
+        "asignaturas": [
+          {
+            "asignatura": "GD_E_10265_2026_C_142_20260619220137",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "). No habrá recuperación de cada práctica por separado.",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_E_10266_2026_C_142_20260619220140",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_E_10270_2026_C_142_20260619220150",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_E_10320_2026_C_142_20260619220332",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería en Tecnologías Industriales",
+        "asignaturas": [
+          {
+            "asignatura": "GD_D_11398_2026_C_154_20260618220152",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_11399_2026_C_154_20260618220154",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_11400_2026_C_154_20260618220157",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_11401_2026_C_154_20260618220159",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_11402_2026_C_154_20260618220202",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_11433_2026_C_154_20260618220316",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_11434_2026_C_154_20260618220319",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_11435_2026_C_154_20260618220321",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_D_11436_2026_C_154_20260618220323",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Inteligencia Artificial",
+        "asignaturas": [
+          {
+            "asignatura": "GD_R_14761_2026_C_220_20260618222725",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_14762_2026_C_220_20260618222727",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "del primer curso. Por tanto, es una asignatura instrumental donde se pretende que el",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_14763_2026_C_220_20260618222729",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_14764_2026_C_220_20260618222732",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": ", no se presuponen asignaturas previas. No obstante, sería deseable que los",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_14765_2026_C_220_20260618222734",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_R_15063_2026_C_220_20260618222747",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "del segundo curso del Grado en Inteligencia Artificial y forma parte de la",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Matemáticas",
+        "asignaturas": [
+          {
+            "asignatura": "GD_T_14313_2026_C_198_20260618222257",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14314_2026_C_198_20260618222300",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14315_2026_C_198_20260618222303",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "(en horas lectivas) y el segundo parcial (35%) se realizará en la fecha del examen final",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14316_2026_C_198_20260618222305",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14317_2026_C_198_20260618222307",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14318_2026_C_198_20260618222309",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "y la participación activa y rigurosa en clase o prácticas. Las menciones de Matrícula de Honor no se",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14319_2026_C_198_20260618222312",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14320_2026_C_198_20260618222315",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14323_2026_C_198_20260618222321",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "del segundo curso (tercer semestre global) dentro del plan de estudios del",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14324_2026_C_198_20260618222324",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14325_2026_C_198_20260618222326",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14326_2026_C_198_20260618222328",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": ") dentro del plan de estudios del Grado de Matemáticas.",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14327_2026_C_198_20260618222330",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": ") dentro del plan de estudios del Grado de Matemáticas.",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14328_2026_C_198_20260618222333",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14329_2026_C_198_20260618222336",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14330_2026_C_198_20260618222338",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "de segundo curso de la titulación. Los contenidos que aparecen en el programa",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14331_2026_C_198_20260618222341",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "de cuarto curso de la titulación. Los contenidos que aparecen en el programa",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14332_2026_C_198_20260618222343",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14333_2026_C_198_20260618222345",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14334_2026_C_198_20260618222348",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14335_2026_C_198_20260618222351",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14336_2026_C_198_20260618222354",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14337_2026_C_198_20260618222356",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14338_2026_C_198_20260618222358",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14340_2026_C_198_20260618222403",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "s anteriores con el objetivo de elaborar modelos matemáticos sobre",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14341_2026_C_198_20260618222405",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": "(en horas lectivas) y otra en la fecha de evaluación",
+            "tipo": null
+          },
+          {
+            "asignatura": "GD_T_14342_2026_C_198_20260618222407",
+            "codigo": "",
+            "ects": null,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "universidad": "Universitat de València",
+    "carreras": [
+      {
+        "nombre": "Grau / Estudis propis Europeu",
+        "asignaturas": [
+          {
+            "asignatura": "Matemàtica financera",
+            "codigo": "35804",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "1313 - Grau en Administració i Direcció Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques II",
+            "codigo": "35817",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "1313 - Grau en Administració i Direcció Segon",
+            "tipo": null
+          }
+        ]
+      }
+    ]
+  }
+]

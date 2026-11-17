@@ -902,10 +902,10 @@ export function CampusPage() {
               de Cálculo, Álgebra, Física, Química, Estadística, Economía y ADE.
             </p>
             <Link
-              to="/clases-particulares/universidad/"
+              to="/campus/universidad/"
               className="mt-7 inline-flex items-center gap-2 rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-link transition-colors hover:border-spark/50 hover:bg-spark/10"
             >
-              Ver materias universitarias
+              Comprobar mi asignatura
               <ArrowRight className="h-4 w-4" />
             </Link>
           </section>

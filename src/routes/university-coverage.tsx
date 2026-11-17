@@ -76,10 +76,10 @@ export default function UniversityCoveragePage() {
 
   const matches = useMemo(() => {
     const terms = normalise(query).trim();
-    const source = degree || terms.length >= 2 ? scopedSubjects : [];
+    const source = terms.length >= 2 ? scopedSubjects : [];
     return source
       .filter((subject) => !terms || normalise(subject.asignatura).includes(terms))
-      .slice(0, 30);
+      .slice(0, 8);
   }, [degree, query, scopedSubjects]);
 
   const choose = (subject: CourseMatch) => {
@@ -168,25 +168,29 @@ export default function UniversityCoveragePage() {
             </label>
 
             <div className="mt-6" aria-live="polite">
-              {!degree && query.trim().length < 2 ? (
-                <p className="text-sm text-muted-foreground">Selecciona un grado o escribe al menos dos letras para buscar.</p>
+              {query.trim().length < 2 ? (
+                <p className="text-sm text-muted-foreground">
+                  {degree ? "Ahora escribe al menos dos letras de la asignatura." : "Escribe al menos dos letras de la asignatura para buscar."}
+                </p>
               ) : matches.length ? (
-                <ul className="divide-y divide-white/8 overflow-hidden rounded-2xl border border-white/8">
-                  {matches.map((subject) => (
-                    <li key={`${subject.university}-${subject.degree}-${subject.codigo}-${subject.asignatura}`}>
-                      <button
-                        type="button"
-                        onClick={() => choose(subject)}
-                        className="w-full px-4 py-4 text-left transition-colors hover:bg-spark/10"
-                      >
-                        <span className="block font-medium text-foreground">{subject.asignatura}</span>
-                        <span className="mt-1 block text-xs text-muted-foreground">
-                          {subject.degree} · {subject.university}
-                        </span>
-                      </button>
-                    </li>
-                  ))}
-                </ul>
+                <div className="max-h-80 overflow-y-auto rounded-2xl border border-white/8">
+                  <ul className="divide-y divide-white/8">
+                    {matches.map((subject) => (
+                      <li key={`${subject.university}-${subject.degree}-${subject.codigo}-${subject.asignatura}`}>
+                        <button
+                          type="button"
+                          onClick={() => choose(subject)}
+                          className="w-full px-4 py-4 text-left transition-colors hover:bg-spark/10"
+                        >
+                          <span className="block font-medium text-foreground">{subject.asignatura}</span>
+                          <span className="mt-1 block text-xs text-muted-foreground">
+                            {subject.degree} · {subject.university}
+                          </span>
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
               ) : (
                 <p className="text-sm text-muted-foreground">No hay coincidencias en el catálogo con esos filtros.</p>
               )}

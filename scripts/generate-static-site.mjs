@@ -776,7 +776,7 @@ function homePage() {
           <article class="rounded-2xl border border-white/8 p-5"><h3>Seguimiento continuo</h3><p>Revisamos el progreso y ajustamos el plan.</p></article>
         </div>
         ${styledHeading("Un campus para seguir practicando.", 2)}
-        <p>Rutas de Maths, Physics y Chemistry para GCSE, IGCSE e IB: teoría, práctica y preguntas de examen conectadas. <a href="/campus/gcse-ib/">Explorar el Campus internacional</a>.</p>
+        <p>Rutas de Maths, Physics y Chemistry para GCSE, IGCSE e IB, y recorridos universitarios de Ciencias, Ingeniería, Economía y ADE. <a href="/campus/">Explorar el Campus</a>.</p>
         ${styledHeading("Siguiente paso", 2)}
         <p><a href="/contacto/">Solicitar diagnóstico</a> · <a href="/clases-particulares/">Explorar los programas</a> · <a href="/metodologia/">Ver el método</a></p>
       `,
@@ -1449,7 +1449,7 @@ function campusPage() {
   const levelCards = [
     ["ESO", "Construye base, corrige lagunas y aprende a razonar antes de memorizar."],
     ["Bachillerato", "Conecta teoría, problemas tipo y preparación de exámenes."],
-    ["Universidad", "Profundiza con desarrollo matemático y método en asignaturas exigentes."],
+    ["Universidad", "Rutas para Ciencias, Ingeniería, Economía y ADE: Cálculo, Álgebra, Física, Química y Estadística con método."],
     ["GCSE e IB", "Materiales y práctica de examen adaptados al programa y nivel."],
   ]
     .map(
@@ -1470,14 +1470,14 @@ function campusPage() {
     escapeHtml(instagram) +
     '" target="_blank" rel="noopener noreferrer">Escribir por Instagram</a></p>';
   const children = [
-    '<div class="grid gap-8 lg:grid-cols-[1.08fr_0.92fr]"><section><h2>Estudia con un recorrido, no con recursos sueltos</h2><p>El campus reúne explicaciones directas, ejercicios resueltos paso a paso y materiales para preparar exámenes. Está pensado para entender el procedimiento, practicarlo con orden y comprobar qué idea hay detrás de cada resultado.</p><p>Para GCSE, IGCSE e IB, las rutas se organizan por asignatura, programa, nivel y fecha de examen. Puedes trabajar Maths, Physics o Chemistry y añadir clases individuales cuando necesites diagnóstico y feedback.</p><p><a href="/campus/gcse-ib/">Ver rutas GCSE e IB</a></p>',
+    '<div class="grid gap-8 lg:grid-cols-[1.08fr_0.92fr]"><section><h2>Estudia con un recorrido, no con recursos sueltos</h2><p>El campus reúne explicaciones directas, ejercicios resueltos paso a paso y materiales para preparar exámenes. Está pensado para entender el procedimiento, practicarlo con orden y comprobar qué idea hay detrás de cada resultado.</p><p>También está disponible para Universidad: Ciencias, Ingeniería, Economía y ADE. Puedes trabajar Cálculo, Álgebra, Física, Química, Estadística y materias cuantitativas con una secuencia ajustada a tu asignatura y a tus exámenes.</p><p>Para GCSE, IGCSE e IB, las rutas se organizan por asignatura, programa, nivel y fecha de examen. Puedes trabajar Maths, Physics o Chemistry y añadir clases individuales cuando necesites diagnóstico y feedback.</p><p><a href="/campus/gcse-ib/">Ver rutas GCSE e IB</a></p>',
     contactButtons,
     '</section><aside class="nebula-card rounded-3xl p-7"><p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Dentro del campus</p><ul class="mt-6 space-y-4"><li>Teoría clara organizada por temas y niveles.</li><li>Ejercicios resueltos con desarrollo matemático riguroso.</li><li>Problemas de examen para practicar con contexto.</li><li>Una ruta útil para repasar, recuperar base o avanzar.</li></ul></aside></div>',
     '<h2>Tres áreas, una forma de estudiar</h2><div class="grid gap-5 md:grid-cols-3">',
     subjectCards,
     '</div><h2>Contenido adaptado a tu etapa</h2><div class="grid gap-4 md:grid-cols-2 xl:grid-cols-4">',
     levelCards,
-    '</div><section class="mt-14 rounded-3xl border border-spark/25 bg-spark/5 p-8"><p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Campus internacional</p><h2 class="mt-4">GCSE, IGCSE e IB: empieza desde tu programa, no desde un temario genérico</h2><p>La ruta específica confirma la asignatura, el nivel y la fecha antes de recomendar contenidos. <a href="/campus/gcse-ib/">Explorar el Campus GCSE e IB</a>.</p></section><section class="mt-14 rounded-3xl border border-spark/25 bg-spark/5 p-8 text-center"><p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Acceso e información</p><h2 class="mt-4">Cuéntanos programa, nivel y la asignatura que quieres trabajar</h2><p>Si indicas GCSE, IGCSE o IB; asignatura; nivel; exam board si aplica; y fecha del próximo mock o examen, podemos orientarte hacia la ruta más útil.</p>',
+    '</div><section class="mt-14 rounded-3xl border border-spark/25 bg-spark/5 p-8"><p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Campus internacional</p><h2 class="mt-4">GCSE, IGCSE e IB: empieza desde tu programa, no desde un temario genérico</h2><p>La ruta específica confirma la asignatura, el nivel y la fecha antes de recomendar contenidos. <a href="/campus/gcse-ib/">Explorar el Campus GCSE e IB</a>.</p></section><section class="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8"><p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Campus universitario</p><h2 class="mt-4">También disponible para Ciencias, Ingeniería, Economía y ADE</h2><p>El Campus se amplía para acompañar asignaturas universitarias cuantitativas. La ruta parte de tu grado, asignatura y convocatoria para ordenar teoría, problemas y práctica de Cálculo, Álgebra, Física, Química, Estadística, Economía y ADE.</p><p><a href="/clases-particulares/universidad/">Ver materias universitarias</a>.</p></section><section class="mt-14 rounded-3xl border border-spark/25 bg-spark/5 p-8 text-center"><p class="text-xs font-semibold uppercase tracking-[0.18em] text-spark">Acceso e información</p><h2 class="mt-4">Cuéntanos programa, nivel y la asignatura que quieres trabajar</h2><p>Si estudias GCSE, IGCSE o IB, indica asignatura, nivel, exam board y fecha del próximo mock o examen. Si estudias en la Universidad, indica grado, asignatura y convocatoria; así podemos orientarte hacia la ruta más útil.</p>',
     contactButtons,
     "</section>",
   ].join("");

@@ -52,10 +52,10 @@
     {
       "path": "/campus/",
       "kind": "campus",
-      "title": "Campus GCSE e IB de Matemáticas y Ciencias | Método Nebula",
-      "description": "Campus online para GCSE, IGCSE e IB con teoría, ejemplos resueltos y rutas de Matemáticas, Física y Química adaptadas a programa, nivel y examen.",
-      "h1": "Campus virtual para GCSE, IGCSE e IB",
-      "intro": "Teoría estructurada, ejercicios razonados y práctica de examen para Matemáticas, Física y Química. Cada ruta parte del programa, nivel y fecha reales.",
+      "title": "Campus para GCSE, IB y Universidad | Método Nebula",
+      "description": "Campus online para GCSE, IGCSE, IB y Universidad con teoría, ejemplos resueltos y rutas de Matemáticas, Ciencias, Ingeniería, Economía y ADE.",
+      "h1": "Campus virtual para GCSE, IB y Universidad",
+      "intro": "Teoría estructurada, ejercicios razonados y práctica para Matemáticas, Ciencias, Ingeniería, Economía y ADE. Cada ruta parte del programa, nivel y objetivo reales.",
       "priority": "0.8"
     },
     {

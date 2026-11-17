@@ -146,17 +146,17 @@ export default function NebulaLanding() {
           </div>
         </section>
 
-        <a className="campus-promo landing-wrap" href="/campus/gcse-ib/">
+        <a className="campus-promo landing-wrap" href="/campus/">
           <BookOpen size={24} />
           <div>
-            <span className="editorial-label">NOVEDAD · GCSE E IB EN EL CAMPUS</span>
+            <span className="editorial-label">NOVEDAD · CAMPUS PARA GCSE, IB Y UNIVERSIDAD</span>
             <p>
-              Rutas de Maths, Physics y Chemistry para GCSE, IGCSE e IB: teoría, práctica y
-              preguntas de examen conectadas.
+              Rutas de Maths, Physics y Chemistry para GCSE, IGCSE e IB, y nuevos recorridos
+              universitarios de Ciencias, Ingeniería, Economía y ADE.
             </p>
           </div>
           <span className="campus-promo-link">
-            Ver el Campus internacional <ArrowUpRight size={18} />
+            Ver el Campus <ArrowUpRight size={18} />
           </span>
         </a>
 
@@ -488,8 +488,8 @@ export default function NebulaLanding() {
             <p className="editorial-label">EL APRENDIZAJE SIGUE AQUÍ</p>
             <h2>Un campus para seguir practicando.</h2>
             <p>
-              Teoría, ejercicios y exámenes resueltos de Matemáticas, Física y Química. También
-              disponible para GCSE e IB.
+              Teoría, ejercicios y exámenes resueltos de Matemáticas, Física y Química. Disponible
+              para GCSE, IB y Universidad: Ciencias, Ingeniería, Economía y ADE.
             </p>
           </div>
           <a className="editorial-link" href="/campus/">

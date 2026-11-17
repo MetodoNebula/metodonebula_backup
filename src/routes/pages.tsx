@@ -738,7 +738,7 @@ export function CampusPage() {
     ],
     [
       "Universidad",
-      "Profundiza en Cálculo, Álgebra, Física y Química con desarrollo matemático y método.",
+      "Rutas para Ciencias, Ingeniería, Economía y ADE: Cálculo, Álgebra, Física, Química y Estadística con método.",
     ],
     [
       "GCSE, IGCSE e IB",
@@ -785,6 +785,11 @@ export function CampusPage() {
                 materiales para preparar exámenes. Está pensado para que puedas entender el
                 procedimiento, practicarlo con orden y comprobar qué idea hay detrás de cada
                 resultado.
+              </p>
+              <p className="mt-4 max-w-2xl leading-relaxed text-muted-foreground">
+                También está disponible para Universidad: Ciencias, Ingeniería, Economía y ADE.
+                Puedes trabajar Cálculo, Álgebra, Física, Química, Estadística y materias
+                cuantitativas con una secuencia ajustada a tu asignatura y a tus exámenes.
               </p>
               <p className="mt-4 max-w-2xl leading-relaxed text-muted-foreground">
                 Para GCSE, IGCSE e IB, las rutas se organizan por asignatura, programa, nivel y
@@ -884,6 +889,27 @@ export function CampusPage() {
             </Link>
           </section>
 
+          <section className="mt-16 rounded-3xl border border-white/10 bg-white/[0.02] p-8 md:p-10">
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-spark">
+              Campus universitario
+            </p>
+            <h2 className="mt-4 max-w-3xl font-display text-3xl font-semibold md:text-4xl">
+              También disponible para Ciencias, Ingeniería, Economía y ADE
+            </h2>
+            <p className="mt-4 max-w-3xl leading-relaxed text-muted-foreground">
+              El Campus se amplía para acompañar asignaturas universitarias cuantitativas. La ruta
+              parte de tu grado, asignatura y convocatoria para ordenar teoría, problemas y práctica
+              de Cálculo, Álgebra, Física, Química, Estadística, Economía y ADE.
+            </p>
+            <Link
+              to="/clases-particulares/universidad/"
+              className="mt-7 inline-flex items-center gap-2 rounded-full border border-white/15 px-6 py-3 text-sm font-semibold text-link transition-colors hover:border-spark/50 hover:bg-spark/10"
+            >
+              Ver materias universitarias
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </section>
+
           <section className="mt-16 rounded-3xl border border-spark/25 bg-spark/[0.06] p-8 text-center md:p-11">
             <p className="text-xs font-semibold uppercase tracking-[0.18em] text-spark">
               Acceso e información
@@ -892,8 +918,9 @@ export function CampusPage() {
               Cuéntanos programa, nivel y la asignatura que quieres trabajar
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-muted-foreground">
-              Si indicas GCSE, IGCSE o IB; asignatura; nivel; exam board si aplica; y fecha del
-              próximo mock o examen, podemos orientarte hacia la ruta más útil.
+              Si estudias GCSE, IGCSE o IB, indica asignatura, nivel, exam board y fecha del próximo
+              mock o examen. Si estudias en la Universidad, indica grado, asignatura y convocatoria;
+              así podemos orientarte hacia la ruta más útil.
             </p>
             <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
               <a

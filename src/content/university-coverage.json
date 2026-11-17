@@ -6442,11 +6442,51 @@
     "universidad": "Universitat de València",
     "carreras": [
       {
-        "nombre": "Grau / Estudis propis Europeu",
+        "nombre": "Grado en Administración y Dirección de Empresas",
         "asignaturas": [
+          {
+            "asignatura": "Econometria",
+            "codigo": "35820",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "1313 - Grau en Administració i Direcció Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística bàsica",
+            "codigo": "35818",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "1313 - Grau en Administració i Direcció Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Introducció a la inferència estadística",
+            "codigo": "35819",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "1313 - Grau en Administració i Direcció Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Macroeconomia",
+            "codigo": "35809",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "1313 - Grau en Administració i Direcció Primer",
+            "tipo": null
+          },
           {
             "asignatura": "Matemàtica financera",
             "codigo": "35804",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "1313 - Grau en Administració i Direcció Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques I",
+            "codigo": "35816",
             "ects": 6.0,
             "curso": null,
             "semestre": "1313 - Grau en Administració i Direcció Primer",
@@ -6458,6 +6498,954 @@
             "ects": 6.0,
             "curso": null,
             "semestre": "1313 - Grau en Administració i Direcció Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Microeconomia",
+            "codigo": "35808",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "1313 - Grau en Administració i Direcció Segon",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Biología",
+        "asignaturas": [
+          {
+            "asignatura": "Física",
+            "codigo": "33069",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas",
+            "codigo": "36829",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Bioquímica y Ciencias Biomédicas",
+        "asignaturas": [
+          {
+            "asignatura": "Física",
+            "codigo": "33121",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas I",
+            "codigo": "33122",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas II",
+            "codigo": "33123",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ciencia de Datos",
+        "asignaturas": [
+          {
+            "asignatura": "Anàlisi matemàtica",
+            "codigo": "36407",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtica Discreta",
+            "codigo": "36406",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Optimització",
+            "codigo": "36416",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Probabilitat i simulació",
+            "codigo": "36409",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Àlgebra",
+            "codigo": "36408",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Primer",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ciencias Ambientales",
+        "asignaturas": [
+          {
+            "asignatura": "Física",
+            "codigo": "33076",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas I",
+            "codigo": "33075",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas II",
+            "codigo": "33101",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Criminología",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística",
+            "codigo": "35059",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Primer",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Economía",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística I",
+            "codigo": "36107",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística II",
+            "codigo": "36163",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Macroeconomia I",
+            "codigo": "36120",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Macroeconomia II",
+            "codigo": "36121",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques I",
+            "codigo": "36109",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques II",
+            "codigo": "36110",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Microeconomia I",
+            "codigo": "36123",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Microeconomia II",
+            "codigo": "36124",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Teoria de jocs i conducta estratègica",
+            "codigo": "36125",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Primer",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Enfermería",
+        "asignaturas": [
+          {
+            "asignatura": "Bioestadística i TIC aplicades a les ciències de la salut",
+            "codigo": "34369",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Primer",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Farmacia",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística",
+            "codigo": "34067",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Facultat de Farmàcia i Ciències Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Fisicoquímica",
+            "codigo": "34063",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Facultat de Farmàcia i Ciències Segon",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Finanzas y Contabilidad",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística I",
+            "codigo": "35934",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques I",
+            "codigo": "35932",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques II",
+            "codigo": "35933",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Principis d'economia (macroeconomia)",
+            "codigo": "35927",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Principis d'economia (microeconomia)",
+            "codigo": "35926",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Primer",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Fisioterapia",
+        "asignaturas": [
+          {
+            "asignatura": "Biomecànica i física aplicada",
+            "codigo": "33003",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística",
+            "codigo": "33005",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Segon",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Física",
+        "asignaturas": [
+          {
+            "asignatura": "Cálculo I",
+            "codigo": "34238",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Cálculo II",
+            "codigo": "34239",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Física Estadística",
+            "codigo": "34246",
+            "ects": 4.5,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Física General I",
+            "codigo": "34233",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Física General II",
+            "codigo": "34234",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Física General III",
+            "codigo": "34235",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Mecánica I",
+            "codigo": "34242",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Mecánica II",
+            "codigo": "34244",
+            "ects": 7.5,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Métodos Estadísticos y Numéricos",
+            "codigo": "34249",
+            "ects": 8.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Métodos Matemáticos I",
+            "codigo": "34247",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Métodos Matemáticos II",
+            "codigo": "34248",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Oscilaciones y Ondas",
+            "codigo": "34243",
+            "ects": 4.5,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Termodinámica",
+            "codigo": "34245",
+            "ects": 7.5,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra y Geometría I",
+            "codigo": "34236",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra y Geometría II",
+            "codigo": "34237",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería Electrónica Industrial",
+        "asignaturas": [
+          {
+            "asignatura": "Física I",
+            "codigo": "34915",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Física II",
+            "codigo": "34916",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques I",
+            "codigo": "34912",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques II",
+            "codigo": "34913",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques III",
+            "codigo": "34914",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Segon",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería Electrónica de Telecomunicación",
+        "asignaturas": [
+          {
+            "asignatura": "Física I",
+            "codigo": "34789",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "1402 - Grau en Enginyeria Electrònica de Escola Tècnica Superior Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Física II",
+            "codigo": "34790",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "1402 - Grau en Enginyeria Electrònica de Escola Tècnica Superior Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques I",
+            "codigo": "34786",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "1402 - Grau en Enginyeria Electrònica de Escola Tècnica Superior Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques II",
+            "codigo": "34787",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "1402 - Grau en Enginyeria Electrònica de Escola Tècnica Superior Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques III",
+            "codigo": "34788",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "1402 - Grau en Enginyeria Electrònica de Escola Tècnica Superior Primer",
+            "tipo": "Formació Básica"
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería Química",
+        "asignaturas": [
+          {
+            "asignatura": "Física I",
+            "codigo": "34746",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Física II",
+            "codigo": "34747",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques I",
+            "codigo": "34743",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques II",
+            "codigo": "34744",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques III",
+            "codigo": "34745",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Segon",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Ingeniería Telemática",
+        "asignaturas": [
+          {
+            "asignatura": "Fonaments matemàtics de les comunicacions",
+            "codigo": "34890",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Física I",
+            "codigo": "34873",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Física II",
+            "codigo": "34874",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques I",
+            "codigo": "34870",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques II",
+            "codigo": "34871",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques III",
+            "codigo": "34872",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Escola Tècnica Superior Primer",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Matemáticas",
+        "asignaturas": [
+          {
+            "asignatura": "Análisis Funcional",
+            "codigo": "34173",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Análisis Matemático I",
+            "codigo": "34151",
+            "ects": 12.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Análisis Matemático II",
+            "codigo": "34156",
+            "ects": 12.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Análisis Matemático III",
+            "codigo": "34157",
+            "ects": 9.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Aproximación Numérica",
+            "codigo": "34162",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Ecuaciones Algebraicas",
+            "codigo": "34169",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Ecuaciones Diferenciales Ordinarias",
+            "codigo": "34170",
+            "ects": 9.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Ecuaciones en Derivadas Parciales",
+            "codigo": "34171",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística Básica",
+            "codigo": "34152",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística Matemática",
+            "codigo": "34167",
+            "ects": 9.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Estructuras Algebraicas",
+            "codigo": "34168",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Física",
+            "codigo": "34153",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Geometría Diferencial Clásica",
+            "codigo": "34165",
+            "ects": 12.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemática Básica",
+            "codigo": "34148",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemática Discreta",
+            "codigo": "34149",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Modelización Estadística",
+            "codigo": "34177",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Modelización Matemática",
+            "codigo": "34172",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Modelos de Investigación Operativa",
+            "codigo": "34178",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "y nunca mediante la realización de un",
+            "tipo": null
+          },
+          {
+            "asignatura": "Métodos Numéricos Avanzados",
+            "codigo": "34181",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Métodos Numéricos para el Álgebra Lineal",
+            "codigo": "34161",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Probabilidad",
+            "codigo": "34166",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Topología",
+            "codigo": "34164",
+            "ects": 12.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra Lineal y Geometría I",
+            "codigo": "34150",
+            "ects": 12.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Álgebra Lineal y Geometría II",
+            "codigo": "34155",
+            "ects": 9.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Medicina",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística",
+            "codigo": "34454",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Facultat de Medicina i Primer",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Negocios Internacionales",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística",
+            "codigo": "35887",
+            "ects": 4.5,
+            "curso": null,
+            "semestre": "Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Macroeconomia",
+            "codigo": "35880",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques",
+            "codigo": "35882",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemàtiques financeres",
+            "codigo": "35883",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Segon",
+            "tipo": null
+          },
+          {
+            "asignatura": "Microeconomia",
+            "codigo": "35878",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Segon",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Psicología",
+        "asignaturas": [
+          {
+            "asignatura": "Estadística I",
+            "codigo": "36244",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Facultat de Psicologia i Primer",
+            "tipo": null
+          },
+          {
+            "asignatura": "Estadística II",
+            "codigo": "36245",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": "Facultat de Psicologia i Segon",
+            "tipo": null
+          }
+        ]
+      },
+      {
+        "nombre": "Grado en Química",
+        "asignaturas": [
+          {
+            "asignatura": "Física I",
+            "codigo": "34189",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Física II",
+            "codigo": "34190",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas I",
+            "codigo": "34187",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
+            "tipo": null
+          },
+          {
+            "asignatura": "Matemáticas II",
+            "codigo": "34188",
+            "ects": 6.0,
+            "curso": null,
+            "semestre": null,
             "tipo": null
           }
         ]

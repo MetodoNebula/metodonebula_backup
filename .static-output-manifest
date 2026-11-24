@@ -61,10 +61,10 @@ assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2
 assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff
 assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2
 assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf
-assets/blog-DUUFshaC.js
-assets/circle-check-B6cox6D5.js
+assets/blog-CYuX7gWp.js
+assets/circle-check-CO_1psEQ.js
 assets/index-D4CGmXSy.css
-assets/index-y0jfuLtb.js
+assets/index-DRt1pRvR.js
 assets/latex/area-between-curves.svg
 assets/latex/arrhenius-energy.svg
 assets/latex/atomic-energy-levels.svg
@@ -188,9 +188,9 @@ assets/latex/triangle-strategy.svg
 assets/latex/unit-circle-solutions.svg
 assets/latex/vectors-planes.svg
 assets/latex/wave-anatomy.svg
-assets/pages-Dopn5mcv.js
-assets/posts-bjkxTc-j.js
-assets/university-coverage-B9M2VZM_.js
+assets/pages-BJ2AJR4_.js
+assets/posts-CJW8SF33.js
+assets/university-coverage-D7aNRykL.js
 blog/ajuste-ecuaciones-quimicas-3-eso-ejercicios/index.html
 blog/algebra-lineal-nucleo-imagen-rango-ejercicios/index.html
 blog/algebra-lineal-universidad-que-estudiar-primero-errores/index.html
@@ -242,6 +242,7 @@ blog/categoria/selectividad/pagina/8/index.html
 blog/chi-cuadrado-psicologia-tablas-contingencia/index.html
 blog/cinetica-quimica-orden-reaccion-arrhenius-ejercicios-resueltos/index.html
 blog/circuitos-corriente-continua-problemas-resueltos-universidad/index.html
+blog/clases-calculo-analisis-matematico-universidad/index.html
 blog/clases-didactica-matematicas-magisterio/index.html
 blog/clases-fisica-quimica-selectividad-2027/index.html
 blog/clases-matematicas-ii-selectividad-2027/index.html
@@ -268,6 +269,7 @@ blog/economia-ade-matematicas-sin-perderse/index.html
 blog/ecuaciones-bicuadradas-4-eso-ejercicios/index.html
 blog/ecuaciones-diferenciales-identificar-metodo-correcto/index.html
 blog/ecuaciones-segundo-grado-3-eso-ejercicios-resueltos/index.html
+blog/electromagnetismo-universidad-campo-potencial-circuitos/index.html
 blog/energia-mecanica-rozamiento-4-eso-problemas/index.html
 blog/errores-comunes-inferencia-estadistica/index.html
 blog/eso-fisica-quimica-calor-temperatura-cambios-estado/index.html
@@ -450,6 +452,7 @@ blog/mecanica-fluidos-bernoulli-continuidad-ejercicios-resueltos/index.html
 blog/metodos-de-integracion-como-elegir/index.html
 blog/microeconomia-i-tipos-problemas-examen/index.html
 blog/molaridad-disoluciones-1-bachillerato-ejercicios/index.html
+blog/momento-inercia-eje-paralelo-ingenieria/index.html
 blog/movimiento-circular-uniforme-1-bachillerato-ejercicios/index.html
 blog/mru-eso-movimiento-rectilineo-uniforme-ejercicios/index.html
 blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/index.html
@@ -554,6 +557,7 @@ blog/regresion-lineal-anova-cuando-utilizar-interpretar-resultados/index.html
 blog/regresion-logistica-odds-ratio-interpretacion/index.html
 blog/regresion-multiple-r2-ajustado-multicolinealidad/index.html
 blog/semejanza-escalas-2-eso-problemas-resueltos/index.html
+blog/series-numericas-criterios-convergencia-universidad/index.html
 blog/series-taylor-maclaurin-ejercicios-resueltos/index.html
 blog/sistemas-ecuaciones-3-eso-problemas-resueltos/index.html
 blog/subir-nota-selectividad-2027-estrategia/index.html

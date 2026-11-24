@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
+      <title>Clases de Cálculo y Análisis Matemático para Universidad: integrales, funciones y Taylor</title>
+      <link>https://metodonebula.es/blog/clases-calculo-analisis-matematico-universidad/</link>
+      <guid>https://metodonebula.es/blog/clases-calculo-analisis-matematico-universidad/</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Clases de Cálculo y Análisis Matemático para Universidad e Ingeniería: funciones, límites, derivadas, integrales, series de Taylor y preparación de exámenes.</description>
+    </item>
+    <item>
+      <title>Electromagnetismo universitario: campo, potencial, circuitos e inducción</title>
+      <link>https://metodonebula.es/blog/electromagnetismo-universidad-campo-potencial-circuitos/</link>
+      <guid>https://metodonebula.es/blog/electromagnetismo-universidad-campo-potencial-circuitos/</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Guía para preparar Electromagnetismo universitario en Física e Ingeniería: campo eléctrico, potencial, Gauss, circuitos, campo magnético e inducción.</description>
+    </item>
+    <item>
+      <title>Momento de inercia: problemas resueltos para Física e Ingeniería</title>
+      <link>https://metodonebula.es/blog/momento-inercia-eje-paralelo-ingenieria/</link>
+      <guid>https://metodonebula.es/blog/momento-inercia-eje-paralelo-ingenieria/</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Aprende a resolver problemas de momento de inercia en Física e Ingeniería: eje de giro, teorema de ejes paralelos, energía rotacional y errores típicos.</description>
+    </item>
+    <item>
+      <title>Series numéricas y criterios de convergencia: guía para Cálculo y Análisis Matemático</title>
+      <link>https://metodonebula.es/blog/series-numericas-criterios-convergencia-universidad/</link>
+      <guid>https://metodonebula.es/blog/series-numericas-criterios-convergencia-universidad/</guid>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Aprende a decidir la convergencia de series numéricas en Cálculo universitario: comparación, cociente, raíz, alternadas y errores frecuentes de examen.</description>
+    </item>
+    <item>
       <title>Clases de Didáctica de las Matemáticas para Magisterio: cómo preparar la asignatura</title>
       <link>https://metodonebula.es/blog/clases-didactica-matematicas-magisterio/</link>
       <guid>https://metodonebula.es/blog/clases-didactica-matematicas-magisterio/</guid>

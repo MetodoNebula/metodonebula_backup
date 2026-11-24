@@ -38442,8 +38442,8 @@ El par $\\tau$ juega el papel de la fuerza; $I$, el de la masa; y $\\alpha$, el 
 Algunos resultados habituales son:
 
 $$
-I_{\\text{aro}}=MR^2,qquad
-I_{\\text{disco}}=\\frac12MR^2,qquad
+I_{\\text{aro}}=MR^2,\\qquad
+I_{\\text{disco}}=\\frac12MR^2,\\qquad
 I_{\\text{barra, centro}}=\\frac1{12}ML^2.
 $$
 
@@ -38477,7 +38477,7 @@ $$
 En rodadura sin deslizamiento se suma a la energía de traslación:
 
 $$
-K=\\frac12Mv_{CM}^2+\\frac12I_{CM}\\omega^2,qquad v_{CM}=R\\omega.
+K=\\frac12Mv_{CM}^2+\\frac12I_{CM}\\omega^2,\\qquad v_{CM}=R\\omega.
 $$
 
 Por eso una esfera, un disco y un aro no bajan igual por un plano inclinado aunque tengan la misma masa y radio: su distribución de masa cambia la parte de energía asociada al giro.

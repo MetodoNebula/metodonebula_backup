@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
+      <title>Elasticidad precio de la demanda e ingreso total: ejercicios resueltos de Microeconomía</title>
+      <link>https://metodonebula.es/blog/elasticidad-demanda-ingreso-total-ejercicios-microeconomia/</link>
+      <guid>https://metodonebula.es/blog/elasticidad-demanda-ingreso-total-ejercicios-microeconomia/</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Elasticidad precio de la demanda explicada con ejercicios de Microeconomía: cálculo, interpretación e ingreso total para alumnos de ADE y Economía.</description>
+    </item>
+    <item>
+      <title>Equilibrio químico: Kc, Kp y Le Châtelier con ejercicios universitarios</title>
+      <link>https://metodonebula.es/blog/equilibrio-quimico-kc-kp-le-chatelier-ejercicios-universidad/</link>
+      <guid>https://metodonebula.es/blog/equilibrio-quimico-kc-kp-le-chatelier-ejercicios-universidad/</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Guía de equilibrio químico para universidad: cómo calcular Kc y Kp, usar el cociente de reacción y predecir desplazamientos con Le Châtelier.</description>
+    </item>
+    <item>
+      <title>GCSE Maths Ratio, Proportion and Percentages: Exam Questions Step by Step</title>
+      <link>https://metodonebula.es/blog/gcse-maths-ratio-proportion-percentages-exam-questions-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-maths-ratio-proportion-percentages-exam-questions-en/</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <description>GCSE Maths ratio, proportion and percentage exam questions explained step by step, including reverse percentages, compound change and common mark-losing errors.</description>
+    </item>
+    <item>
+      <title>Potencia estadística y tamaño muestral: cómo interpretar un resultado no significativo</title>
+      <link>https://metodonebula.es/blog/potencia-estadistica-tamano-muestral-como-interpretar/</link>
+      <guid>https://metodonebula.es/blog/potencia-estadistica-tamano-muestral-como-interpretar/</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Aprende qué son la potencia estadística, el tamaño muestral y el error de tipo II, y cómo interpretar un p-valor no significativo en un ejercicio universitario.</description>
+    </item>
+    <item>
+      <title>SQL JOIN: INNER JOIN y LEFT JOIN con ejercicios resueltos</title>
+      <link>https://metodonebula.es/blog/sql-joins-inner-left-ejercicios-resueltos/</link>
+      <guid>https://metodonebula.es/blog/sql-joins-inner-left-ejercicios-resueltos/</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Aprende a elegir INNER JOIN o LEFT JOIN en SQL con tablas de ejemplo, consultas explicadas y errores habituales en ejercicios de universidad y datos.</description>
+    </item>
+    <item>
       <title>Clases de Cálculo y Análisis Matemático para Universidad: integrales, funciones y Taylor</title>
       <link>https://metodonebula.es/blog/clases-calculo-analisis-matematico-universidad/</link>
       <guid>https://metodonebula.es/blog/clases-calculo-analisis-matematico-universidad/</guid>

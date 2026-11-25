@@ -61,10 +61,10 @@ assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2
 assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff
 assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2
 assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf
-assets/blog-CbzApMMO.js
-assets/circle-check-B4qPiEaX.js
+assets/blog-CsES-eCc.js
+assets/circle-check-hfYY3Db-.js
+assets/index-52HIwSoK.js
 assets/index-D4CGmXSy.css
-assets/index-DpcHT6xk.js
 assets/latex/area-between-curves.svg
 assets/latex/arrhenius-energy.svg
 assets/latex/atomic-energy-levels.svg
@@ -188,9 +188,9 @@ assets/latex/triangle-strategy.svg
 assets/latex/unit-circle-solutions.svg
 assets/latex/vectors-planes.svg
 assets/latex/wave-anatomy.svg
-assets/pages-0wjyW5-p.js
-assets/posts-CoCT37vj.js
-assets/university-coverage-BQxrCSPr.js
+assets/pages-A3uCv52X.js
+assets/posts-wBSveYjG.js
+assets/university-coverage-qn9XCH5h.js
 blog/ajuste-ecuaciones-quimicas-3-eso-ejercicios/index.html
 blog/algebra-lineal-nucleo-imagen-rango-ejercicios/index.html
 blog/algebra-lineal-universidad-que-estudiar-primero-errores/index.html
@@ -269,8 +269,10 @@ blog/economia-ade-matematicas-sin-perderse/index.html
 blog/ecuaciones-bicuadradas-4-eso-ejercicios/index.html
 blog/ecuaciones-diferenciales-identificar-metodo-correcto/index.html
 blog/ecuaciones-segundo-grado-3-eso-ejercicios-resueltos/index.html
+blog/elasticidad-demanda-ingreso-total-ejercicios-microeconomia/index.html
 blog/electromagnetismo-universidad-campo-potencial-circuitos/index.html
 blog/energia-mecanica-rozamiento-4-eso-problemas/index.html
+blog/equilibrio-quimico-kc-kp-le-chatelier-ejercicios-universidad/index.html
 blog/errores-comunes-inferencia-estadistica/index.html
 blog/eso-fisica-quimica-calor-temperatura-cambios-estado/index.html
 blog/eso-fisica-quimica-densidad-presion-flotacion/index.html
@@ -346,6 +348,7 @@ blog/gcse-maths-histograms-cumulative-frequency/index.html
 blog/gcse-maths-probability-trees-conditional-en/index.html
 blog/gcse-maths-probability-trees-conditional/index.html
 blog/gcse-maths-quadratic-equations-completing-square-en/index.html
+blog/gcse-maths-ratio-proportion-percentages-exam-questions-en/index.html
 blog/gcse-maths-resit-14-day-plan-en/index.html
 blog/gcse-maths-resit-14-day-plan/index.html
 blog/gcse-maths-revision-plan-foundation-higher-en/index.html
@@ -529,6 +532,7 @@ blog/pau-quimica-solubilidad-kps-precipitacion/index.html
 blog/pau-quimica-termoquimica-hess-entalpia/index.html
 blog/pau-quimica-volumetrias-acido-base-redox/index.html
 blog/plano-inclinado-1-bachillerato-ejercicios-resueltos/index.html
+blog/potencia-estadistica-tamano-muestral-como-interpretar/index.html
 blog/preparar-pau-2027-desde-enero-calendario/index.html
 blog/preparar-pau-desde-verano-plan-septiembre/index.html
 blog/preparar-selectividad-con-calendario/index.html
@@ -560,6 +564,7 @@ blog/semejanza-escalas-2-eso-problemas-resueltos/index.html
 blog/series-numericas-criterios-convergencia-universidad/index.html
 blog/series-taylor-maclaurin-ejercicios-resueltos/index.html
 blog/sistemas-ecuaciones-3-eso-problemas-resueltos/index.html
+blog/sql-joins-inner-left-ejercicios-resueltos/index.html
 blog/subir-nota-selectividad-2027-estrategia/index.html
 blog/t-student-psicologia-ejercicios-resueltos/index.html
 blog/teorema-fundamental-calculo-ejemplos-ejercicios/index.html

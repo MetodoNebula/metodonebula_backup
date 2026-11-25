@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
+      <title>Ácidos, bases, pH y titulaciones: ejercicios resueltos de Química universitaria</title>
+      <link>https://metodonebula.es/blog/acidos-bases-ph-titulaciones-ejercicios-universidad/</link>
+      <guid>https://metodonebula.es/blog/acidos-bases-ph-titulaciones-ejercicios-universidad/</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Ácidos, bases, pH y valoraciones ácido-base explicados con ejercicios de Química General: Ka, Kb, neutralización y punto de equivalencia.</description>
+    </item>
+    <item>
+      <title>ANOVA de un factor y pruebas post hoc: ejercicios resueltos para universidad</title>
+      <link>https://metodonebula.es/blog/anova-un-factor-post-hoc-ejercicios-universidad/</link>
+      <guid>https://metodonebula.es/blog/anova-un-factor-post-hoc-ejercicios-universidad/</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Aprende a interpretar un ANOVA de un factor, comprobar supuestos y elegir pruebas post hoc con un ejemplo paso a paso de nivel universitario.</description>
+    </item>
+    <item>
+      <title>Contabilidad financiera en ADE: asientos, libro diario y balance paso a paso</title>
+      <link>https://metodonebula.es/blog/contabilidad-financiera-ade-asientos-libro-diario-balance/</link>
+      <guid>https://metodonebula.es/blog/contabilidad-financiera-ade-asientos-libro-diario-balance/</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Guía de contabilidad financiera para ADE: cómo razonar asientos, registrar compras y ventas y comprobar el balance sin aprender apuntes de memoria.</description>
+    </item>
+    <item>
       <title>Elasticidad precio de la demanda e ingreso total: ejercicios resueltos de Microeconomía</title>
       <link>https://metodonebula.es/blog/elasticidad-demanda-ingreso-total-ejercicios-microeconomia/</link>
       <guid>https://metodonebula.es/blog/elasticidad-demanda-ingreso-total-ejercicios-microeconomia/</guid>
@@ -15,6 +36,13 @@
       <description>Guía de equilibrio químico para universidad: cómo calcular Kc y Kp, usar el cociente de reacción y predecir desplazamientos con Le Châtelier.</description>
     </item>
     <item>
+      <title>GCSE Biology Enzymes: Required Practical, Graphs and Exam Questions</title>
+      <link>https://metodonebula.es/blog/gcse-biology-enzymes-required-practical-en/</link>
+      <guid>https://metodonebula.es/blog/gcse-biology-enzymes-required-practical-en/</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <description>GCSE Biology enzymes explained through the required practical: variables, graphs, temperature, pH, denaturation and exam-question method.</description>
+    </item>
+    <item>
       <title>GCSE Maths Ratio, Proportion and Percentages: Exam Questions Step by Step</title>
       <link>https://metodonebula.es/blog/gcse-maths-ratio-proportion-percentages-exam-questions-en/</link>
       <guid>https://metodonebula.es/blog/gcse-maths-ratio-proportion-percentages-exam-questions-en/</guid>
@@ -27,6 +55,13 @@
       <guid>https://metodonebula.es/blog/potencia-estadistica-tamano-muestral-como-interpretar/</guid>
       <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
       <description>Aprende qué son la potencia estadística, el tamaño muestral y el error de tipo II, y cómo interpretar un p-valor no significativo en un ejercicio universitario.</description>
+    </item>
+    <item>
+      <title>Python: listas, diccionarios y funciones con ejercicios resueltos</title>
+      <link>https://metodonebula.es/blog/python-listas-diccionarios-funciones-ejercicios-universidad/</link>
+      <guid>https://metodonebula.es/blog/python-listas-diccionarios-funciones-ejercicios-universidad/</guid>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Aprende a usar listas, diccionarios y funciones en Python con ejercicios resueltos para universidad, programación y análisis de datos.</description>
     </item>
     <item>
       <title>SQL JOIN: INNER JOIN y LEFT JOIN con ejercicios resueltos</title>

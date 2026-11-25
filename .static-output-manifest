@@ -61,10 +61,10 @@ assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2
 assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff
 assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2
 assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf
-assets/blog-CsES-eCc.js
-assets/circle-check-hfYY3Db-.js
-assets/index-52HIwSoK.js
+assets/blog-CV73XZJS.js
+assets/circle-check-COVddhkX.js
 assets/index-D4CGmXSy.css
+assets/index-h0qy6bWV.js
 assets/latex/area-between-curves.svg
 assets/latex/arrhenius-energy.svg
 assets/latex/atomic-energy-levels.svg
@@ -188,12 +188,14 @@ assets/latex/triangle-strategy.svg
 assets/latex/unit-circle-solutions.svg
 assets/latex/vectors-planes.svg
 assets/latex/wave-anatomy.svg
-assets/pages-A3uCv52X.js
-assets/posts-wBSveYjG.js
-assets/university-coverage-qn9XCH5h.js
+assets/pages-BIbJHBbD.js
+assets/posts-CDdK6aZa.js
+assets/university-coverage-CXGuftAJ.js
+blog/acidos-bases-ph-titulaciones-ejercicios-universidad/index.html
 blog/ajuste-ecuaciones-quimicas-3-eso-ejercicios/index.html
 blog/algebra-lineal-nucleo-imagen-rango-ejercicios/index.html
 blog/algebra-lineal-universidad-que-estudiar-primero-errores/index.html
+blog/anova-un-factor-post-hoc-ejercicios-universidad/index.html
 blog/area-entre-dos-curvas-ejercicios-resueltos/index.html
 blog/bachillerato-fisica-momento-choques/index.html
 blog/bachillerato-fisica-quimica-mol-estequiometria/index.html
@@ -255,6 +257,7 @@ blog/como-estudiar-matematicas-sin-memorizar/index.html
 blog/como-preparar-ib-mathematics-aa-ai/index.html
 blog/como-preparar-pau-matematicas-ii/index.html
 blog/como-resolver-limites-indeterminaciones-ejercicios/index.html
+blog/contabilidad-financiera-ade-asientos-libro-diario-balance/index.html
 blog/continuidad-derivabilidad-diferencias-problemas/index.html
 blog/derivacion-implicita-ejercicios-resueltos/index.html
 blog/derivadas-2-bachillerato-ejercicios-examen/index.html
@@ -322,6 +325,7 @@ blog/fisica-y-quimica-como-plantear-problemas/index.html
 blog/fracciones-algebraicas-4-eso-ejercicios/index.html
 blog/funciones-cuadraticas-parabolas-4-eso-ejercicios/index.html
 blog/funciones-lineales-afines-3-eso-ejercicios/index.html
+blog/gcse-biology-enzymes-required-practical-en/index.html
 blog/gcse-chemistry-acids-bases-salts-en/index.html
 blog/gcse-chemistry-acids-bases-salts/index.html
 blog/gcse-chemistry-bonding-revision-en/index.html
@@ -482,6 +486,7 @@ blog/pagina/24/index.html
 blog/pagina/25/index.html
 blog/pagina/26/index.html
 blog/pagina/27/index.html
+blog/pagina/28/index.html
 blog/pagina/3/index.html
 blog/pagina/4/index.html
 blog/pagina/5/index.html
@@ -540,6 +545,7 @@ blog/primer-proyecto-python-principiantes-datos/index.html
 blog/probabilidad-condicionada-bayes-problemas-resueltos/index.html
 blog/problemas-optimizacion-derivadas-ejercicios-resueltos/index.html
 blog/proporcionalidad-directa-inversa-2-eso-ejercicios/index.html
+blog/python-listas-diccionarios-funciones-ejercicios-universidad/index.html
 blog/python-y-sql-para-empezar-en-datos/index.html
 blog/que-prueba-estadistica-utilizar-guia-test-correcto/index.html
 blog/que-son-las-derivadas-y-para-que-se-utilizan/index.html

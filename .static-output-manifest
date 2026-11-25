@@ -61,10 +61,10 @@ assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2
 assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff
 assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2
 assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf
-assets/blog-CV73XZJS.js
-assets/circle-check-COVddhkX.js
+assets/blog-BCRoBwSu.js
+assets/circle-check-CbuQrdZT.js
 assets/index-D4CGmXSy.css
-assets/index-h0qy6bWV.js
+assets/index-DpSBbxV7.js
 assets/latex/area-between-curves.svg
 assets/latex/arrhenius-energy.svg
 assets/latex/atomic-energy-levels.svg
@@ -188,9 +188,9 @@ assets/latex/triangle-strategy.svg
 assets/latex/unit-circle-solutions.svg
 assets/latex/vectors-planes.svg
 assets/latex/wave-anatomy.svg
-assets/pages-BIbJHBbD.js
-assets/posts-CDdK6aZa.js
-assets/university-coverage-CXGuftAJ.js
+assets/pages-BDZt34Le.js
+assets/posts-S9sd2qtq.js
+assets/university-coverage-BrIAuN5K.js
 blog/acidos-bases-ph-titulaciones-ejercicios-universidad/index.html
 blog/ajuste-ecuaciones-quimicas-3-eso-ejercicios/index.html
 blog/algebra-lineal-nucleo-imagen-rango-ejercicios/index.html
@@ -221,6 +221,7 @@ blog/categoria/examenes-internacionales/pagina/4/index.html
 blog/categoria/examenes-internacionales/pagina/5/index.html
 blog/categoria/examenes-internacionales/pagina/6/index.html
 blog/categoria/examenes-internacionales/pagina/7/index.html
+blog/categoria/examenes-internacionales/pagina/8/index.html
 blog/categoria/fisica-y-quimica/index.html
 blog/categoria/fisica-y-quimica/pagina/2/index.html
 blog/categoria/fisica-y-quimica/pagina/3/index.html
@@ -233,6 +234,7 @@ blog/categoria/matematicas-universitarias/pagina/3/index.html
 blog/categoria/matematicas-universitarias/pagina/4/index.html
 blog/categoria/programacion-y-datos/index.html
 blog/categoria/quimica/index.html
+blog/categoria/quimica/pagina/2/index.html
 blog/categoria/selectividad/index.html
 blog/categoria/selectividad/pagina/2/index.html
 blog/categoria/selectividad/pagina/3/index.html
@@ -326,6 +328,7 @@ blog/fracciones-algebraicas-4-eso-ejercicios/index.html
 blog/funciones-cuadraticas-parabolas-4-eso-ejercicios/index.html
 blog/funciones-lineales-afines-3-eso-ejercicios/index.html
 blog/gcse-biology-enzymes-required-practical-en/index.html
+blog/gcse-biology-osmosis-required-practical-en/index.html
 blog/gcse-chemistry-acids-bases-salts-en/index.html
 blog/gcse-chemistry-acids-bases-salts/index.html
 blog/gcse-chemistry-bonding-revision-en/index.html
@@ -420,9 +423,11 @@ blog/integrales-funciones-racionales-fracciones-parciales/index.html
 blog/integrales-impropias-convergencia-ejercicios/index.html
 blog/integrales-inmediatas-ejercicios-resueltos/index.html
 blog/integrales-trigonometricas-ejercicios-resueltos/index.html
+blog/kps-precipitacion-selectiva-ion-comun-ejercicios/index.html
 blog/ley-hooke-muelles-4-eso-ejercicios/index.html
 blog/ley-ohm-4-eso-ejercicios-resueltos/index.html
 blog/limites-trigonometricos-ejercicios-resueltos/index.html
+blog/mann-whitney-wilcoxon-psicologia-ejercicios/index.html
 blog/matematicas-ccss-pau-2022-pais-vasco/index.html
 blog/matematicas-ccss-pau-2023-comunidad-valenciana/index.html
 blog/matematicas-ccss-pau-2024-comunidad-valenciana/index.html
@@ -570,6 +575,7 @@ blog/semejanza-escalas-2-eso-problemas-resueltos/index.html
 blog/series-numericas-criterios-convergencia-universidad/index.html
 blog/series-taylor-maclaurin-ejercicios-resueltos/index.html
 blog/sistemas-ecuaciones-3-eso-problemas-resueltos/index.html
+blog/sql-group-by-having-count-sum-ejercicios/index.html
 blog/sql-joins-inner-left-ejercicios-resueltos/index.html
 blog/subir-nota-selectividad-2027-estrategia/index.html
 blog/t-student-psicologia-ejercicios-resueltos/index.html
@@ -577,6 +583,7 @@ blog/teorema-fundamental-calculo-ejemplos-ejercicios/index.html
 blog/termodinamica-primer-principio-ciclos-ejercicios-resueltos/index.html
 blog/transicion-al-sector-it-en-6-meses/index.html
 blog/valores-propios-vectores-propios-diagonalizacion-ejercicios-resueltos/index.html
+blog/van-tir-ejercicio-inversion-finanzas-ade/index.html
 campus/gcse-ib/index.html
 campus/index.html
 campus/universidad/index.html

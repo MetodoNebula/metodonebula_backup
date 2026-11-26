@@ -19,29 +19,29 @@ En Álgebra Lineal, Maxima es muy eficaz para revisar operaciones largas, pero e
 
 Una matriz se construye por filas:
 
-~~~maxima
+```maxima
 A : matrix([2,-1,0],
            [1, 3,4],
            [0, 2,1])$
 B : matrix([1,2],
            [3,4],
            [5,6])$
-~~~
+```
 
 Antes de multiplicar, comprueba las dimensiones con mat_nrows y mat_ncols:
 
-~~~maxima
+```maxima
 [mat_nrows(A), mat_ncols(A)];
 [mat_nrows(B), mat_ncols(B)];
-~~~
+```
 
 El producto $AB$ solo existe si el número de columnas de $A$ coincide con el número de filas de $B$. Maxima avisará de una incompatibilidad, pero en un examen debes detectar esa condición antes de pulsar Enter.
 
 La transpuesta se obtiene con transpose:
 
-~~~maxima
+```maxima
 transpose(B);
-~~~
+```
 
 ## Sistemas lineales: qué devuelve linsolve
 
@@ -56,20 +56,20 @@ $$
 
 puedes usar:
 
-~~~maxima
+```maxima
 linsolve([2*x-y = 1, x+3*y = 9], [x,y]);
-~~~
+```
 
 La salida representa una lista de soluciones. En un sistema compatible determinado aparecerá un único par. En un sistema compatible indeterminado, Maxima puede dejar un parámetro libre; eso es información sobre la dimensión del espacio de soluciones, no un error del programa.
 
 Cuando el problema está dado como $Ax=b$, conserva la estructura matricial y comprueba el resultado:
 
-~~~maxima
+```maxima
 A : matrix([2,-1],[1,3])$
 b : matrix([1],[9])$
 xsol : invert(A).b$
 ratsimp(A.xsol-b);
-~~~
+```
 
 La última línea debe dar la matriz cero. Esta vía requiere que $A$ sea cuadrada e invertible; no la uses de forma automática para un sistema rectangular o singular.
 
@@ -77,10 +77,10 @@ La última línea debe dar la matriz cero. Esta vía requiere que $A$ sea cuadra
 
 Para una matriz cuadrada:
 
-~~~maxima
+```maxima
 determinant(A);
 rank(A);
-~~~
+```
 
 Un determinante no nulo implica que la matriz cuadrada es invertible y tiene rango completo. Sin embargo, el determinante no sirve para estudiar de manera general matrices rectangulares. Para ellas, el rango es el objeto adecuado.
 
@@ -97,12 +97,12 @@ No sustituyas todas esas frases por una captura de salida de Maxima.
 
 Para una aplicación $T(x)=Ax$, el núcleo es el conjunto de soluciones de $Ax=0$. Por ejemplo:
 
-~~~maxima
+```maxima
 C : matrix([1,2,3],
            [2,4,6])$
 linsolve([x+2*y+3*z = 0,
           2*x+4*y+6*z = 0], [x,y,z]);
-~~~
+```
 
 La salida debe traducirse a una forma paramétrica. Si, por ejemplo, quedan parámetros libres $y=s$ y $z=t$, escribe cada solución como combinación lineal de vectores y extrae una base. Maxima puede resolver la ecuación; el paso de convertir parámetros a base sigue siendo una decisión matemática que debes explicar.
 
@@ -112,29 +112,29 @@ Para la imagen, las columnas pivote de una reducción por filas se identifican e
 
 Para una matriz cuadrada $M$:
 
-~~~maxima
+```maxima
 M : matrix([4,1],
            [2,3])$
 eigenvalues(M);
 eigenvectors(M);
-~~~
+```
 
 La función eigenvalues devuelve autovalores y sus multiplicidades; eigenvectors añade listas de autovectores. Antes de ejecutar, puedes verificar el polinomio característico:
 
-~~~maxima
+```maxima
 expand(determinant(M - lambda*ident(2)));
 solve(%, lambda);
-~~~
+```
 
 Esta comprobación es importante cuando el ejercicio pide desarrollar el método. Usar eigenvalues para verificar no equivale a haber demostrado cómo se obtiene el polinomio característico.
 
 Para comprobar un par $(\lambda,v)$:
 
-~~~maxima
+```maxima
 lambda : 5$
 v : matrix([1],[1])$
 ratsimp(M.v - lambda*v);
-~~~
+```
 
 El resultado debe ser la matriz columna nula.
 
@@ -144,15 +144,15 @@ Una matriz de tamaño $n$ es diagonalizable cuando reúne $n$ autovectores linea
 
 Si construyes una matriz $P$ con autovectores por columnas y una diagonal $D$ con sus autovalores en el mismo orden, verifica:
 
-~~~maxima
+```maxima
 ratsimp(M.P - P.D);
-~~~
+```
 
 o, si $P$ es invertible:
 
-~~~maxima
+```maxima
 ratsimp(invert(P).M.P - D);
-~~~
+```
 
 La correspondencia de orden es crucial. Colocar autovalores y autovectores en órdenes distintos produce una diagonalización aparentemente razonable pero falsa.
 

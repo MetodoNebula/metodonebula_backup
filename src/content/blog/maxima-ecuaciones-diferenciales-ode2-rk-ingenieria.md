@@ -25,10 +25,10 @@ $$
 
 la entrada correcta es:
 
-~~~maxima
+```maxima
 eq : 'diff(y,x) = -2*y$
 ode2(eq, y, x);
-~~~
+```
 
 La comilla en 'diff crea la forma no evaluada de la derivada. Si omites esa comilla, Maxima intenta derivar y respecto a x antes de haber definido la función, y el planteamiento no representa la EDO deseada.
 
@@ -44,10 +44,10 @@ Esa constante no es un resultado molesto: representa la familia de soluciones co
 
 Si además sabes que $y(0)=3$, guarda primero la solución general y aplica la condición:
 
-~~~maxima
+```maxima
 solg : ode2(eq, y, x)$
 sol : ic1(solg, x = 0, y = 3);
-~~~
+```
 
 Debes obtener una expresión equivalente a:
 
@@ -59,10 +59,10 @@ No confundas el segundo argumento de ic1 con una sustitución libre. La estructu
 
 Comprueba la condición y la ecuación por separado:
 
-~~~maxima
+```maxima
 ev(rhs(sol), x = 0);
 ratsimp(diff(rhs(sol),x) + 2*rhs(sol));
-~~~
+```
 
 La primera salida debe ser 3 y la segunda 0. Esa doble comprobación es muy útil antes de entregar una práctica.
 
@@ -76,21 +76,21 @@ $$
 
 escribe:
 
-~~~maxima
+```maxima
 eq2 : 'diff(y,x,2) + 4*y = 0$
 solg2 : ode2(eq2, y, x)$
 sol2 : ic2(solg2, x = 0, y = 1,
            'diff(y,x) = 0);
-~~~
+```
 
 La condición de velocidad inicial requiere de nuevo la forma no evaluada 'diff(y,x). Un error habitual es sustituirla por una sintaxis de derivada que Maxima evalúa antes de usarla como condición.
 
 El resultado debe ser equivalente a $y(x)=\cos(2x)$. Verifica tanto posición como velocidad inicial:
 
-~~~maxima
+```maxima
 ev(rhs(sol2), x = 0);
 ev(diff(rhs(sol2),x), x = 0);
-~~~
+```
 
 ## Un modelo de Ingeniería: oscilador amortiguado
 
@@ -102,18 +102,18 @@ $$
 
 puedes mantener parámetros simbólicos:
 
-~~~maxima
+```maxima
 ode : m*'diff(x,t,2) + c*'diff(x,t) + k*x = 0$
 ode2(ode, x, t);
-~~~
+```
 
 Maxima puede devolver una forma dependiente de relaciones entre parámetros. Para una práctica concreta, sustituye valores después de plantear el modelo:
 
-~~~maxima
+```maxima
 odenum : ev(ode, m = 1, c = 2, k = 10)$
 solg : ode2(odenum, x, t)$
 ic2(solg, t = 0, x = 0.1, 'diff(x,t) = 0);
-~~~
+```
 
 Primero decide matemáticamente si es subamortiguado, crítico o sobreamortiguado a partir de $c^2-4mk$. La salida simbólica no sustituye esa interpretación física.
 
@@ -129,10 +129,10 @@ $$
 
 usa rk:
 
-~~~maxima
+```maxima
 datos : rk(t-x^2, x, 1, [t,0,8,0.1])$
 plot2d([discrete, datos], [xlabel,"t"], [ylabel,"x"]);
-~~~
+```
 
 La lista datos contiene pares de la forma [t,x]. No es una expresión cerrada $x(t)$; es una aproximación en nodos espaciados 0,1 unidades.
 
@@ -140,12 +140,12 @@ La lista datos contiene pares de la forma [t,x]. No es una expresión cerrada $x
 
 No elijas el paso solo porque es cómodo. Repite el cálculo con un paso menor y compara valores representativos:
 
-~~~maxima
+```maxima
 a : rk(t-x^2, x, 1, [t,0,4,0.1])$
 b : rk(t-x^2, x, 1, [t,0,4,0.05])$
 last(a);
 last(b);
-~~~
+```
 
 Si el valor final cambia de forma importante, el paso original no era suficiente para la precisión requerida. El análisis también debe considerar estabilidad, rigidez y el intervalo del problema; Maxima no decide esos criterios de modelización.
 
@@ -153,17 +153,17 @@ Si el valor final cambia de forma importante, el paso original no era suficiente
 
 Si sol contiene una ecuación, la función rhs extrae el miembro derecho para dibujarlo:
 
-~~~maxima
+```maxima
 plot2d(rhs(sol2), [x,0,10],
        [xlabel,"x"], [ylabel,"y"]);
-~~~
+```
 
 Graficar la ecuación completa en lugar de rhs(sol2) es un error frecuente. Para comparar dos soluciones, pasa una lista de expresiones:
 
-~~~maxima
+```maxima
 plot2d([rhs(sol2), exp(-x)], [x,0,5],
        [legend,"oscilador","referencia"]);
-~~~
+```
 
 Un gráfico ayuda a descubrir un signo incorrecto, pero no demuestra satisfacción de una condición inicial. Para eso, sustituye explícitamente y calcula el residuo.
 

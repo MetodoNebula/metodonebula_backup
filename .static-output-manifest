@@ -61,10 +61,10 @@ assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2
 assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff
 assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2
 assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf
-assets/blog-BaRpMHjs.js
-assets/circle-check-DwgEuO6c.js
-assets/index-0jed3Vtg.js
-assets/index-D4CGmXSy.css
+assets/blog-DOyX5fiG.js
+assets/circle-check-DFaedGCZ.js
+assets/index-CYPlftDS.css
+assets/index-Ce9NpA-D.js
 assets/latex/area-between-curves.svg
 assets/latex/arrhenius-energy.svg
 assets/latex/atomic-energy-levels.svg
@@ -188,9 +188,9 @@ assets/latex/triangle-strategy.svg
 assets/latex/unit-circle-solutions.svg
 assets/latex/vectors-planes.svg
 assets/latex/wave-anatomy.svg
-assets/pages-CKv6Y7lc.js
-assets/posts-Bs_iXZzN.js
-assets/university-coverage-BJahuBYt.js
+assets/pages-B3BM4zPI.js
+assets/posts-uKq1WRuG.js
+assets/university-coverage-BQmDGplX.js
 blog/acidos-bases-ph-titulaciones-ejercicios-universidad/index.html
 blog/ajuste-ecuaciones-quimicas-3-eso-ejercicios/index.html
 blog/algebra-lineal-nucleo-imagen-rango-ejercicios/index.html
@@ -462,6 +462,9 @@ blog/matematicas-ii-pau-2026-madrid/index.html
 blog/matematicas-ii-pau-2026-murcia/index.html
 blog/matematicas-ii-pau-2026-pais-vasco/index.html
 blog/matrices-determinantes-sistemas-ecuaciones-guia/index.html
+blog/maxima-algebra-lineal-matrices-autovalores-ingenieria/index.html
+blog/maxima-calculo-limites-derivadas-integrales-ingenieria/index.html
+blog/maxima-ecuaciones-diferenciales-ode2-rk-ingenieria/index.html
 blog/maximos-minimos-varias-variables-ejercicios/index.html
 blog/mecanica-fluidos-bernoulli-continuidad-ejercicios-resueltos/index.html
 blog/metodos-de-integracion-como-elegir/index.html

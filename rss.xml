@@ -22,6 +22,27 @@
       <description>Integrales de línea, campos conservativos y teorema de Green explicados con ejercicios de Cálculo Vectorial para estudiantes de Ingeniería.</description>
     </item>
     <item>
+      <title>Maxima para Álgebra Lineal en Ingeniería: matrices, sistemas, autovalores y verificación</title>
+      <link>https://metodonebula.es/blog/maxima-algebra-lineal-matrices-autovalores-ingenieria/</link>
+      <guid>https://metodonebula.es/blog/maxima-algebra-lineal-matrices-autovalores-ingenieria/</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Guía técnica de Maxima para Álgebra Lineal: creación de matrices, resolución de sistemas, rango, determinante, autovalores, autovectores y comprobaciones.</description>
+    </item>
+    <item>
+      <title>Maxima para Cálculo en Ingeniería: límites, derivadas, integrales y comprobación de resultados</title>
+      <link>https://metodonebula.es/blog/maxima-calculo-limites-derivadas-integrales-ingenieria/</link>
+      <guid>https://metodonebula.es/blog/maxima-calculo-limites-derivadas-integrales-ingenieria/</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Tutorial práctico de Maxima para Cálculo de Ingeniería: sintaxis de límites, derivadas, integrales definidas e impropias, simplificación y verificación de resultados.</description>
+    </item>
+    <item>
+      <title>Maxima para ecuaciones diferenciales: ode2, condiciones iniciales, rk y gráficas</title>
+      <link>https://metodonebula.es/blog/maxima-ecuaciones-diferenciales-ode2-rk-ingenieria/</link>
+      <guid>https://metodonebula.es/blog/maxima-ecuaciones-diferenciales-ode2-rk-ingenieria/</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Tutorial detallado de Maxima para EDO en Ingeniería: ode2, ic1, ic2, solución numérica Runge–Kutta rk, representación y comprobación de condiciones iniciales.</description>
+    </item>
+    <item>
       <title>Mínimos cuadrados y proyección ortogonal: ajuste lineal con Álgebra Lineal</title>
       <link>https://metodonebula.es/blog/minimos-cuadrados-proyeccion-ortogonal-algebra-lineal/</link>
       <guid>https://metodonebula.es/blog/minimos-cuadrados-proyeccion-ortogonal-algebra-lineal/</guid>

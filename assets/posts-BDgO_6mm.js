@@ -38165,29 +38165,29 @@ En Álgebra Lineal, Maxima es muy eficaz para revisar operaciones largas, pero e
 
 Una matriz se construye por filas:
 
-~~~maxima
+\`\`\`maxima
 A : matrix([2,-1,0],
            [1, 3,4],
            [0, 2,1])$
 B : matrix([1,2],
            [3,4],
            [5,6])$
-~~~
+\`\`\`
 
 Antes de multiplicar, comprueba las dimensiones con mat_nrows y mat_ncols:
 
-~~~maxima
+\`\`\`maxima
 [mat_nrows(A), mat_ncols(A)];
 [mat_nrows(B), mat_ncols(B)];
-~~~
+\`\`\`
 
 El producto $AB$ solo existe si el número de columnas de $A$ coincide con el número de filas de $B$. Maxima avisará de una incompatibilidad, pero en un examen debes detectar esa condición antes de pulsar Enter.
 
 La transpuesta se obtiene con transpose:
 
-~~~maxima
+\`\`\`maxima
 transpose(B);
-~~~
+\`\`\`
 
 ## Sistemas lineales: qué devuelve linsolve
 
@@ -38202,20 +38202,20 @@ $$
 
 puedes usar:
 
-~~~maxima
+\`\`\`maxima
 linsolve([2*x-y = 1, x+3*y = 9], [x,y]);
-~~~
+\`\`\`
 
 La salida representa una lista de soluciones. En un sistema compatible determinado aparecerá un único par. En un sistema compatible indeterminado, Maxima puede dejar un parámetro libre; eso es información sobre la dimensión del espacio de soluciones, no un error del programa.
 
 Cuando el problema está dado como $Ax=b$, conserva la estructura matricial y comprueba el resultado:
 
-~~~maxima
+\`\`\`maxima
 A : matrix([2,-1],[1,3])$
 b : matrix([1],[9])$
 xsol : invert(A).b$
 ratsimp(A.xsol-b);
-~~~
+\`\`\`
 
 La última línea debe dar la matriz cero. Esta vía requiere que $A$ sea cuadrada e invertible; no la uses de forma automática para un sistema rectangular o singular.
 
@@ -38223,10 +38223,10 @@ La última línea debe dar la matriz cero. Esta vía requiere que $A$ sea cuadra
 
 Para una matriz cuadrada:
 
-~~~maxima
+\`\`\`maxima
 determinant(A);
 rank(A);
-~~~
+\`\`\`
 
 Un determinante no nulo implica que la matriz cuadrada es invertible y tiene rango completo. Sin embargo, el determinante no sirve para estudiar de manera general matrices rectangulares. Para ellas, el rango es el objeto adecuado.
 
@@ -38243,12 +38243,12 @@ No sustituyas todas esas frases por una captura de salida de Maxima.
 
 Para una aplicación $T(x)=Ax$, el núcleo es el conjunto de soluciones de $Ax=0$. Por ejemplo:
 
-~~~maxima
+\`\`\`maxima
 C : matrix([1,2,3],
            [2,4,6])$
 linsolve([x+2*y+3*z = 0,
           2*x+4*y+6*z = 0], [x,y,z]);
-~~~
+\`\`\`
 
 La salida debe traducirse a una forma paramétrica. Si, por ejemplo, quedan parámetros libres $y=s$ y $z=t$, escribe cada solución como combinación lineal de vectores y extrae una base. Maxima puede resolver la ecuación; el paso de convertir parámetros a base sigue siendo una decisión matemática que debes explicar.
 
@@ -38258,29 +38258,29 @@ Para la imagen, las columnas pivote de una reducción por filas se identifican e
 
 Para una matriz cuadrada $M$:
 
-~~~maxima
+\`\`\`maxima
 M : matrix([4,1],
            [2,3])$
 eigenvalues(M);
 eigenvectors(M);
-~~~
+\`\`\`
 
 La función eigenvalues devuelve autovalores y sus multiplicidades; eigenvectors añade listas de autovectores. Antes de ejecutar, puedes verificar el polinomio característico:
 
-~~~maxima
+\`\`\`maxima
 expand(determinant(M - lambda*ident(2)));
 solve(%, lambda);
-~~~
+\`\`\`
 
 Esta comprobación es importante cuando el ejercicio pide desarrollar el método. Usar eigenvalues para verificar no equivale a haber demostrado cómo se obtiene el polinomio característico.
 
 Para comprobar un par $(\\lambda,v)$:
 
-~~~maxima
+\`\`\`maxima
 lambda : 5$
 v : matrix([1],[1])$
 ratsimp(M.v - lambda*v);
-~~~
+\`\`\`
 
 El resultado debe ser la matriz columna nula.
 
@@ -38290,15 +38290,15 @@ Una matriz de tamaño $n$ es diagonalizable cuando reúne $n$ autovectores linea
 
 Si construyes una matriz $P$ con autovectores por columnas y una diagonal $D$ con sus autovalores en el mismo orden, verifica:
 
-~~~maxima
+\`\`\`maxima
 ratsimp(M.P - P.D);
-~~~
+\`\`\`
 
 o, si $P$ es invertible:
 
-~~~maxima
+\`\`\`maxima
 ratsimp(invert(P).M.P - D);
-~~~
+\`\`\`
 
 La correspondencia de orden es crucial. Colocar autovalores y autovectores en órdenes distintos produce una diagonalización aparentemente razonable pero falsa.
 
@@ -38340,19 +38340,19 @@ Maxima es especialmente útil en Cálculo cuando se usa como verificador de un p
 
 Maxima termina cada instrucción con punto y coma para mostrar el resultado o con dólar para ejecutarla sin imprimirlo:
 
-~~~maxima
+\`\`\`maxima
 f(x) : x^3*exp(-x)$
 f(2);
-~~~
+\`\`\`
 
 Usa asterisco para multiplicar y paréntesis cuando una expresión pueda interpretarse de más de una forma. Por ejemplo, escribe 1/(x+1), no 1/x+1, si quieres el inverso de toda la suma.
 
 Las asignaciones se hacen con dos puntos. La igualdad matemática se escribe con = y se usa, por ejemplo, en solve u ode2. Esta diferencia es esencial:
 
-~~~maxima
+\`\`\`maxima
 a : 3$
 solve(a*x = 12, x);
-~~~
+\`\`\`
 
 La segunda línea resuelve una ecuación; no reasigna la variable x.
 
@@ -38360,55 +38360,55 @@ La segunda línea resuelve una ecuación; no reasigna la variable x.
 
 Para calcular un límite bilateral:
 
-~~~maxima
+\`\`\`maxima
 limit((sin(x)-x)/x^3, x, 0);
-~~~
+\`\`\`
 
 El resultado es $-1/6$. Antes de abrir Maxima, identifica la forma $0/0$ y piensa qué método usarías en un examen: desarrollo de Taylor o L'Hôpital. Después, usa el resultado para comprobar el signo y el factor.
 
 Para límites laterales:
 
-~~~maxima
+\`\`\`maxima
 limit(1/x, x, 0, plus);
 limit(1/x, x, 0, minus);
-~~~
+\`\`\`
 
 Si los resultados difieren, el límite bilateral no existe. No escribas solo el que devuelve una calculadora: el sentido de aproximación forma parte del problema.
 
 Para infinito se utilizan inf y minf:
 
-~~~maxima
+\`\`\`maxima
 limit((3*x^2-x+1)/(x^2+4), x, inf);
-~~~
+\`\`\`
 
 ## Derivadas y derivadas parciales
 
 La derivada ordinaria se obtiene con diff:
 
-~~~maxima
+\`\`\`maxima
 g : x^2*log(x)$
 diff(g, x);
-~~~
+\`\`\`
 
 Para una derivada segunda:
 
-~~~maxima
+\`\`\`maxima
 diff(g, x, 2);
-~~~
+\`\`\`
 
 En varias variables, puedes encadenar pares variable–orden:
 
-~~~maxima
+\`\`\`maxima
 u : x^2*y^3 + sin(x*y)$
 diff(u, x, 2, y, 1);
-~~~
+\`\`\`
 
 Una comprobación potente de una integral es derivar tu resultado y simplificar la diferencia:
 
-~~~maxima
+\`\`\`maxima
 F : x^2*log(x)/2 - x^2/4$
 ratsimp(diff(F, x) - x*log(x));
-~~~
+\`\`\`
 
 Si Maxima devuelve 0, has verificado la derivada en el sentido simbólico. Eso no sustituye revisar el dominio: $x\\log x$ requiere $x>0$ en el contexto real habitual.
 
@@ -38416,9 +38416,9 @@ Si Maxima devuelve 0, has verificado la derivada en el sentido simbólico. Eso n
 
 Para pedir una primitiva:
 
-~~~maxima
+\`\`\`maxima
 integrate(x*log(x), x);
-~~~
+\`\`\`
 
 No des por hecho que toda salida está resuelta. Maxima puede dejar una forma nominal, reconocible por una integral sin evaluar. En ese caso, prueba a simplificar la expresión, factorizar o cambiar de estrategia matemática. La documentación oficial indica que integrate reconoce varios casos especiales, pero no garantiza una forma cerrada para cualquier integrando.
 
@@ -38434,23 +38434,23 @@ Un buen flujo de trabajo es:
 
 La sintaxis de una integral definida es:
 
-~~~maxima
+\`\`\`maxima
 integrate(exp(-x^2), x, 0, 1);
-~~~
+\`\`\`
 
 Para una impropia en infinito:
 
-~~~maxima
+\`\`\`maxima
 integrate(1/(1+x^2), x, 0, inf);
-~~~
+\`\`\`
 
 No confundas que Maxima produzca un valor con haber demostrado convergencia. En una práctica o examen, justifica por qué el extremo impropio se interpreta mediante un límite y revisa discontinuidades internas.
 
 Por ejemplo, para una integral con singularidad en cero, separa el análisis matemático de la orden:
 
-~~~maxima
+\`\`\`maxima
 limit(integrate(x^(-p), x, a, 1), a, 0, plus);
-~~~
+\`\`\`
 
 Aquí tú decides después para qué valores de $p$ existe ese límite.
 
@@ -38458,11 +38458,11 @@ Aquí tú decides después para qué valores de $p$ existe ese límite.
 
 Maxima puede derivar numerador y denominador, pero el criterio de L'Hôpital lo pones tú. Para una expresión $N(x)/D(x)$:
 
-~~~maxima
+\`\`\`maxima
 N : exp(x)-1$
 D : x$
 limit(diff(N,x)/diff(D,x), x, 0);
-~~~
+\`\`\`
 
 Solo tiene sentido después de haber verificado que la forma inicial es $0/0$ o $\\infty/\\infty$, y que las condiciones del teorema son aplicables. En la solución escrita, explica la indeterminación y muestra cada paso relevante; no pegues la salida del programa.
 
@@ -38470,17 +38470,17 @@ Solo tiene sentido después de haber verificado que la forma inicial es $0/0$ o 
 
 Con una expresión simbólica, ev permite evaluar bajo condiciones. Para obtener una aproximación decimal, usa numer:
 
-~~~maxima
+\`\`\`maxima
 h : integrate(sin(x)/x, x, 0, 1)$
 ev(h, numer);
-~~~
+\`\`\`
 
 Para explorar el comportamiento de una función antes de resolver un problema de optimización:
 
-~~~maxima
+\`\`\`maxima
 plot2d([sin(x)/x, 1-x^2/6], [x,-4,4],
        [legend, "sin(x)/x", "Taylor orden 2"]);
-~~~
+\`\`\`
 
 El gráfico sirve para detectar una escala absurda o una aproximación local que se usa demasiado lejos de su centro. No prueba una igualdad matemática.
 
@@ -38524,10 +38524,10 @@ $$
 
 la entrada correcta es:
 
-~~~maxima
+\`\`\`maxima
 eq : 'diff(y,x) = -2*y$
 ode2(eq, y, x);
-~~~
+\`\`\`
 
 La comilla en 'diff crea la forma no evaluada de la derivada. Si omites esa comilla, Maxima intenta derivar y respecto a x antes de haber definido la función, y el planteamiento no representa la EDO deseada.
 
@@ -38543,10 +38543,10 @@ Esa constante no es un resultado molesto: representa la familia de soluciones co
 
 Si además sabes que $y(0)=3$, guarda primero la solución general y aplica la condición:
 
-~~~maxima
+\`\`\`maxima
 solg : ode2(eq, y, x)$
 sol : ic1(solg, x = 0, y = 3);
-~~~
+\`\`\`
 
 Debes obtener una expresión equivalente a:
 
@@ -38558,10 +38558,10 @@ No confundas el segundo argumento de ic1 con una sustitución libre. La estructu
 
 Comprueba la condición y la ecuación por separado:
 
-~~~maxima
+\`\`\`maxima
 ev(rhs(sol), x = 0);
 ratsimp(diff(rhs(sol),x) + 2*rhs(sol));
-~~~
+\`\`\`
 
 La primera salida debe ser 3 y la segunda 0. Esa doble comprobación es muy útil antes de entregar una práctica.
 
@@ -38575,21 +38575,21 @@ $$
 
 escribe:
 
-~~~maxima
+\`\`\`maxima
 eq2 : 'diff(y,x,2) + 4*y = 0$
 solg2 : ode2(eq2, y, x)$
 sol2 : ic2(solg2, x = 0, y = 1,
            'diff(y,x) = 0);
-~~~
+\`\`\`
 
 La condición de velocidad inicial requiere de nuevo la forma no evaluada 'diff(y,x). Un error habitual es sustituirla por una sintaxis de derivada que Maxima evalúa antes de usarla como condición.
 
 El resultado debe ser equivalente a $y(x)=\\cos(2x)$. Verifica tanto posición como velocidad inicial:
 
-~~~maxima
+\`\`\`maxima
 ev(rhs(sol2), x = 0);
 ev(diff(rhs(sol2),x), x = 0);
-~~~
+\`\`\`
 
 ## Un modelo de Ingeniería: oscilador amortiguado
 
@@ -38601,18 +38601,18 @@ $$
 
 puedes mantener parámetros simbólicos:
 
-~~~maxima
+\`\`\`maxima
 ode : m*'diff(x,t,2) + c*'diff(x,t) + k*x = 0$
 ode2(ode, x, t);
-~~~
+\`\`\`
 
 Maxima puede devolver una forma dependiente de relaciones entre parámetros. Para una práctica concreta, sustituye valores después de plantear el modelo:
 
-~~~maxima
+\`\`\`maxima
 odenum : ev(ode, m = 1, c = 2, k = 10)$
 solg : ode2(odenum, x, t)$
 ic2(solg, t = 0, x = 0.1, 'diff(x,t) = 0);
-~~~
+\`\`\`
 
 Primero decide matemáticamente si es subamortiguado, crítico o sobreamortiguado a partir de $c^2-4mk$. La salida simbólica no sustituye esa interpretación física.
 
@@ -38628,10 +38628,10 @@ $$
 
 usa rk:
 
-~~~maxima
+\`\`\`maxima
 datos : rk(t-x^2, x, 1, [t,0,8,0.1])$
 plot2d([discrete, datos], [xlabel,"t"], [ylabel,"x"]);
-~~~
+\`\`\`
 
 La lista datos contiene pares de la forma [t,x]. No es una expresión cerrada $x(t)$; es una aproximación en nodos espaciados 0,1 unidades.
 
@@ -38639,12 +38639,12 @@ La lista datos contiene pares de la forma [t,x]. No es una expresión cerrada $x
 
 No elijas el paso solo porque es cómodo. Repite el cálculo con un paso menor y compara valores representativos:
 
-~~~maxima
+\`\`\`maxima
 a : rk(t-x^2, x, 1, [t,0,4,0.1])$
 b : rk(t-x^2, x, 1, [t,0,4,0.05])$
 last(a);
 last(b);
-~~~
+\`\`\`
 
 Si el valor final cambia de forma importante, el paso original no era suficiente para la precisión requerida. El análisis también debe considerar estabilidad, rigidez y el intervalo del problema; Maxima no decide esos criterios de modelización.
 
@@ -38652,17 +38652,17 @@ Si el valor final cambia de forma importante, el paso original no era suficiente
 
 Si sol contiene una ecuación, la función rhs extrae el miembro derecho para dibujarlo:
 
-~~~maxima
+\`\`\`maxima
 plot2d(rhs(sol2), [x,0,10],
        [xlabel,"x"], [ylabel,"y"]);
-~~~
+\`\`\`
 
 Graficar la ecuación completa en lugar de rhs(sol2) es un error frecuente. Para comparar dos soluciones, pasa una lista de expresiones:
 
-~~~maxima
+\`\`\`maxima
 plot2d([rhs(sol2), exp(-x)], [x,0,5],
        [legend,"oscilador","referencia"]);
-~~~
+\`\`\`
 
 Un gráfico ayuda a descubrir un signo incorrecto, pero no demuestra satisfacción de una condición inicial. Para eso, sustituye explícitamente y calcula el residuo.
 

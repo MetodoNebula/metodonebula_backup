@@ -1,6 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
+      <title>Cerchas en estática: método de los nudos y de las secciones con ejercicios</title>
+      <link>https://metodonebula.es/blog/cerchas-estatica-metodo-nudos-secciones-ingenieria/</link>
+      <guid>https://metodonebula.es/blog/cerchas-estatica-metodo-nudos-secciones-ingenieria/</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Cómo resolver cerchas planas en Estática mediante el método de los nudos y de las secciones: reacciones, tracción, compresión y errores de examen.</description>
+    </item>
+    <item>
+      <title>Circuitos RLC en corriente alterna: fasores, impedancia y resonancia</title>
+      <link>https://metodonebula.es/blog/circuitos-rlc-fasores-resonancia-ingenieria/</link>
+      <guid>https://metodonebula.es/blog/circuitos-rlc-fasores-resonancia-ingenieria/</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Circuitos RLC de corriente alterna para Ingeniería: cómo usar fasores, impedancia compleja, desfase, potencia y frecuencia de resonancia.</description>
+    </item>
+    <item>
+      <title>Integrales de línea y teorema de Green: ejercicios para Ingeniería</title>
+      <link>https://metodonebula.es/blog/integrales-linea-teorema-green-ingenieria-ejercicios/</link>
+      <guid>https://metodonebula.es/blog/integrales-linea-teorema-green-ingenieria-ejercicios/</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Integrales de línea, campos conservativos y teorema de Green explicados con ejercicios de Cálculo Vectorial para estudiantes de Ingeniería.</description>
+    </item>
+    <item>
+      <title>Mínimos cuadrados y proyección ortogonal: ajuste lineal con Álgebra Lineal</title>
+      <link>https://metodonebula.es/blog/minimos-cuadrados-proyeccion-ortogonal-algebra-lineal/</link>
+      <guid>https://metodonebula.es/blog/minimos-cuadrados-proyeccion-ortogonal-algebra-lineal/</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Ejercicio de mínimos cuadrados para Ingeniería: matriz de diseño, ecuaciones normales, proyección ortogonal y lectura geométrica del ajuste lineal.</description>
+    </item>
+    <item>
+      <title>Oscilador armónico amortiguado: ecuaciones diferenciales para Ingeniería</title>
+      <link>https://metodonebula.es/blog/oscilador-armonico-amortiguado-ecuaciones-diferenciales-ingenieria/</link>
+      <guid>https://metodonebula.es/blog/oscilador-armonico-amortiguado-ecuaciones-diferenciales-ingenieria/</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Oscilador armónico amortiguado explicado con ecuaciones diferenciales: casos subamortiguado, crítico y sobreamortiguado para Física e Ingeniería.</description>
+    </item>
+    <item>
       <title>Ácidos, bases, pH y titulaciones: ejercicios resueltos de Química universitaria</title>
       <link>https://metodonebula.es/blog/acidos-bases-ph-titulaciones-ejercicios-universidad/</link>
       <guid>https://metodonebula.es/blog/acidos-bases-ph-titulaciones-ejercicios-universidad/</guid>

@@ -61,10 +61,10 @@ assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2
 assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff
 assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2
 assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf
-assets/blog-Dyawh1N8.js
-assets/circle-check-DNd7VF8d.js
+assets/blog-BaRpMHjs.js
+assets/circle-check-DwgEuO6c.js
+assets/index-0jed3Vtg.js
 assets/index-D4CGmXSy.css
-assets/index-_0xUCppF.js
 assets/latex/area-between-curves.svg
 assets/latex/arrhenius-energy.svg
 assets/latex/atomic-energy-levels.svg
@@ -188,9 +188,9 @@ assets/latex/triangle-strategy.svg
 assets/latex/unit-circle-solutions.svg
 assets/latex/vectors-planes.svg
 assets/latex/wave-anatomy.svg
-assets/pages-BG6iViME.js
-assets/posts-BynC1yUC.js
-assets/university-coverage-DNX1K2DL.js
+assets/pages-CKv6Y7lc.js
+assets/posts-Bs_iXZzN.js
+assets/university-coverage-BJahuBYt.js
 blog/acidos-bases-ph-titulaciones-ejercicios-universidad/index.html
 blog/ajuste-ecuaciones-quimicas-3-eso-ejercicios/index.html
 blog/algebra-lineal-nucleo-imagen-rango-ejercicios/index.html
@@ -243,9 +243,11 @@ blog/categoria/selectividad/pagina/5/index.html
 blog/categoria/selectividad/pagina/6/index.html
 blog/categoria/selectividad/pagina/7/index.html
 blog/categoria/selectividad/pagina/8/index.html
+blog/cerchas-estatica-metodo-nudos-secciones-ingenieria/index.html
 blog/chi-cuadrado-psicologia-tablas-contingencia/index.html
 blog/cinetica-quimica-orden-reaccion-arrhenius-ejercicios-resueltos/index.html
 blog/circuitos-corriente-continua-problemas-resueltos-universidad/index.html
+blog/circuitos-rlc-fasores-resonancia-ingenieria/index.html
 blog/clases-calculo-analisis-matematico-universidad/index.html
 blog/clases-didactica-matematicas-magisterio/index.html
 blog/clases-fisica-quimica-selectividad-2027/index.html
@@ -422,6 +424,7 @@ blog/integrales-dobles-ejercicios-resueltos/index.html
 blog/integrales-funciones-racionales-fracciones-parciales/index.html
 blog/integrales-impropias-convergencia-ejercicios/index.html
 blog/integrales-inmediatas-ejercicios-resueltos/index.html
+blog/integrales-linea-teorema-green-ingenieria-ejercicios/index.html
 blog/integrales-trigonometricas-ejercicios-resueltos/index.html
 blog/kps-precipitacion-selectiva-ion-comun-ejercicios/index.html
 blog/ley-hooke-muelles-4-eso-ejercicios/index.html
@@ -463,6 +466,7 @@ blog/maximos-minimos-varias-variables-ejercicios/index.html
 blog/mecanica-fluidos-bernoulli-continuidad-ejercicios-resueltos/index.html
 blog/metodos-de-integracion-como-elegir/index.html
 blog/microeconomia-i-tipos-problemas-examen/index.html
+blog/minimos-cuadrados-proyeccion-ortogonal-algebra-lineal/index.html
 blog/molaridad-disoluciones-1-bachillerato-ejercicios/index.html
 blog/momento-inercia-eje-paralelo-ingenieria/index.html
 blog/movimiento-circular-uniforme-1-bachillerato-ejercicios/index.html
@@ -471,6 +475,7 @@ blog/mrua-eso-movimiento-rectilineo-uniformemente-acelerado-ejercicios/index.htm
 blog/multiplicadores-lagrange-extremos-restricciones-ejercicios/index.html
 blog/normalizacion-bases-datos-1fn-2fn-3fn/index.html
 blog/notacion-cientifica-4-eso-ejercicios-resueltos/index.html
+blog/oscilador-armonico-amortiguado-ecuaciones-diferenciales-ingenieria/index.html
 blog/p-valor-intervalo-confianza-tamano-efecto-ejemplo/index.html
 blog/pagina/10/index.html
 blog/pagina/11/index.html
@@ -492,6 +497,7 @@ blog/pagina/25/index.html
 blog/pagina/26/index.html
 blog/pagina/27/index.html
 blog/pagina/28/index.html
+blog/pagina/29/index.html
 blog/pagina/3/index.html
 blog/pagina/4/index.html
 blog/pagina/5/index.html

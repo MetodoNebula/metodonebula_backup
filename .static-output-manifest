@@ -61,10 +61,10 @@ assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2
 assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff
 assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2
 assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf
-assets/blog-BH1cQvE9.js
-assets/circle-check-DyMDgTVm.js
+assets/blog-Cu9nP0d6.js
+assets/circle-check-CAss67cm.js
+assets/index-CASBbZuu.js
 assets/index-CYPlftDS.css
-assets/index-DRkD4Ov_.js
 assets/latex/area-between-curves.svg
 assets/latex/arrhenius-energy.svg
 assets/latex/atomic-energy-levels.svg
@@ -188,9 +188,9 @@ assets/latex/triangle-strategy.svg
 assets/latex/unit-circle-solutions.svg
 assets/latex/vectors-planes.svg
 assets/latex/wave-anatomy.svg
-assets/pages-GQyesixk.js
-assets/posts-BDgO_6mm.js
-assets/university-coverage-BmLdTH3u.js
+assets/pages-DZYHp7IE.js
+assets/posts-DcF0rQaL.js
+assets/university-coverage-3MkUcqZE.js
 blog/acidos-bases-ph-titulaciones-ejercicios-universidad/index.html
 blog/ajuste-ecuaciones-quimicas-3-eso-ejercicios/index.html
 blog/algebra-lineal-nucleo-imagen-rango-ejercicios/index.html
@@ -461,6 +461,9 @@ blog/matematicas-ii-pau-2026-comunidad-valenciana/index.html
 blog/matematicas-ii-pau-2026-madrid/index.html
 blog/matematicas-ii-pau-2026-murcia/index.html
 blog/matematicas-ii-pau-2026-pais-vasco/index.html
+blog/matlab-fzero-integral-trapz-ingenieria/index.html
+blog/matlab-ode45-oscilador-amortiguado-ingenieria/index.html
+blog/matlab-sistemas-lineales-condicionamiento-ingenieria/index.html
 blog/matrices-determinantes-sistemas-ecuaciones-guia/index.html
 blog/maxima-algebra-lineal-matrices-autovalores-ingenieria/index.html
 blog/maxima-calculo-limites-derivadas-integrales-ingenieria/index.html

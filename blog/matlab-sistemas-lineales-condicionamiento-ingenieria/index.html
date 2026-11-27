@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="es-ES" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <script type="module" crossorigin src="/assets/index-CASBbZuu.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CYPlftDS.css">
+      <title>MATLAB para sistemas lineales: A\\b, rango y condicionamiento</title>
+    <meta name="description" content="Guía práctica de MATLAB para sistemas lineales de Ingeniería: operador A\\b, sistemas sobredeterminados, residuo, rango, condicionamiento y errores numéricos.">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://metodonebula.es/blog/matlab-sistemas-lineales-condicionamiento-ingenieria/">
+    <meta property="og:title" content="MATLAB para sistemas lineales: A\\b, rango y condicionamiento">
+    <meta property="og:description" content="Guía práctica de MATLAB para sistemas lineales de Ingeniería: operador A\\b, sistemas sobredeterminados, residuo, rango, condicionamiento y errores numéricos.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://metodonebula.es/blog/matlab-sistemas-lineales-condicionamiento-ingenieria/">
+    <meta property="og:image" content="https://metodonebula.es/og-nebula.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MATLAB para sistemas lineales: A\\b, rango y condicionamiento">
+    <meta name="twitter:description" content="Guía práctica de MATLAB para sistemas lineales de Ingeniería: operador A\\b, sistemas sobredeterminados, residuo, rango, condicionamiento y errores numéricos.">
+    <meta name="twitter:image" content="https://metodonebula.es/og-nebula.png">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"MATLAB para sistemas lineales en Ingeniería: barra inversa, rango y condicionamiento","description":"Guía práctica de MATLAB para sistemas lineales de Ingeniería: operador A\\\\b, sistemas sobredeterminados, residuo, rango, condicionamiento y errores numéricos.","articleSection":"Matemáticas universitarias","keywords":"Matemáticas universitarias, MATLAB","wordCount":872,"author":{"@type":"EducationalOrganization","name":"Método Nebula","url":"https://metodonebula.es/"},"datePublished":"2026-11-27","dateModified":"2026-11-27","mainEntityOfPage":"https://metodonebula.es/blog/matlab-sistemas-lineales-condicionamiento-ingenieria/","inLanguage":"es-ES","publisher":{"@type":"EducationalOrganization","name":"Método Nebula","logo":{"@type":"ImageObject","url":"https://metodonebula.es/favicon.svg"}},"image":"https://metodonebula.es/og-nebula.png"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://metodonebula.es/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://metodonebula.es/blog/"},{"@type":"ListItem","position":3,"name":"MATLAB para sistemas lineales en Ingeniería: barra inversa, rango y condicionamiento","item":"https://metodonebula.es/blog/matlab-sistemas-lineales-condicionamiento-ingenieria/"}]}</script>
+  </head>
+  <body>
+    <div id="root">
+    <main class="min-h-screen bg-background text-foreground antialiased">
+      <section class="relative overflow-hidden border-b border-white/5 px-6 py-16">
+        <div class="nebula-aurora pointer-events-none absolute inset-0 opacity-60"></div>
+        <div class="pointer-events-none absolute inset-x-0 bottom-0 h-px blog-title-line opacity-70"></div>
+        <div class="relative mx-auto max-w-7xl">
+          <nav aria-label="Migas de pan" class="text-sm text-muted-foreground"><a class="text-link transition-colors hover:text-link" href="/">Inicio</a> / <a class="text-link transition-colors hover:text-link" href="/blog/">Blog</a> / <span>MATLAB para sistemas lineales en Ingeniería: barra inversa, rango y condicionamiento</span></nav>
+          <p class="mt-8 inline-flex rounded-full border px-3 py-1 text-sm uppercase tracking-[0.18em] border-spark/35 bg-spark/10 text-spark">Matemáticas universitarias</p>
+          <h1 class="mt-5 max-w-4xl font-display text-4xl font-bold text-foreground">MATLAB para sistemas lineales en Ingeniería: barra inversa, rango y condicionamiento</h1>
+          <p class="mt-5 max-w-2xl text-lg text-muted-foreground">Guía práctica de MATLAB para sistemas lineales de Ingeniería: operador A\\b, sistemas sobredeterminados, residuo, rango, condicionamiento y errores numéricos.</p>
+        </div>
+      </section>
+      <section class="px-6 py-14">
+        <div class="mx-auto max-w-7xl [&_a]:font-medium [&_a]:text-link [&_a]:underline-offset-4 [&_a]:transition-colors [&_a:hover]:text-link">
+        
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
+      
+      <span>2026-11-27</span>
+      <span>4 min de lectura</span>
+    </div>
+  
+        
+        
+    <nav aria-label="Índice del artículo" class="mb-10 rounded-3xl border border-white/8 bg-white/[0.02] p-6 text-sm">
+      <p class="font-display font-semibold text-foreground">Índice</p>
+      <ol class="mt-4 space-y-2">
+        <li><a class="break-words text-link underline-offset-4 hover:underline" href="#construir-el-problema-sin-perder-dimensiones">Construir el problema sin perder dimensiones</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#el-operador-correcto-x-a-b">El operador correcto: x = A\\b</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#sistema-sobredeterminado-ajuste-por-minimos-cuadrados">Sistema sobredeterminado: ajuste por mínimos cuadrados</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#sistema-subdeterminado-una-solucion-basica-no-es-todas-las-soluciones">Sistema subdeterminado: una solución básica no es todas las soluciones</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#rango-y-singularidad">Rango y singularidad</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#escala-y-residuo-relativo">Escala y residuo relativo</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#minimos-cuadrados-no-formes-ecuaciones-normales-por-defecto">Mínimos cuadrados: no formes ecuaciones normales por defecto</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#errores-practicos-que-cambian-el-resultado">Errores prácticos que cambian el resultado</a></li>
+      </ol>
+    </nav>
+  
+        <article><p>En MATLAB, resolver un sistema lineal no significa calcular una inversa por costumbre. El operador de barra inversa elige algoritmos adecuados a la estructura de <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span> y sirve tanto para sistemas cuadrados como para problemas de mínimos cuadrados. Pero su resultado debe interpretarse: una solución puede existir y aun así ser numéricamente poco fiable si la matriz está mal condicionada.</p>
+<blockquote class="my-6 border-l-2 border-action/70 bg-white/[0.02] py-2 pr-4 pl-5 text-foreground/80 italic"><strong>Objetivo de este artículo.</strong> Resolver y verificar sistemas <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mi>x</mi><mo>=</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">Ax=b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">b</span></span></span></span> en MATLAB, distinguir sistema cuadrado, sobredeterminado y subdeterminado, y diagnosticar cuándo un número aparentemente correcto merece desconfianza.</blockquote>
+<h2 id="construir-el-problema-sin-perder-dimensiones" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Construir el problema sin perder dimensiones</h2>
+<p>Una matriz se introduce por filas; los espacios o comas separan columnas y el punto y coma separa filas:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">A = [2 -1  0;
+     1  3  4;
+     0  2  1];
+
+b = [1; 9; 3];
+size(A)
+size(b)</code></pre>
+<p>El vector b debe ser columna si quieres representar <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mi>x</mi><mo>=</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">Ax=b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">b</span></span></span></span>. Antes de ejecutar una operación, comprueba que A tiene tantas filas como entradas tiene b. MATLAB puede emitir un error de dimensiones, pero anticiparlo evita confundir una traspuesta con un dato físico distinto.</p>
+<h2 id="el-operador-correcto-x-a-b" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">El operador correcto: x = A\\b</h2>
+<p>Para un sistema cuadrado no singular:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">A = [2 -1; 1 3];
+b = [1; 9];
+
+x = A\b
+residuo = A*x - b
+norm(residuo)</code></pre>
+<p>El operador A barra inversa b resuelve <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mi>x</mi><mo>=</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">Ax=b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">b</span></span></span></span>. No se lee como una división numérica ordinaria. El residuo es la primera comprobación: su norma debería ser pequeña respecto a la escala de b, aunque que sea pequeña no basta para asegurar que x tenga muchos dígitos correctos.</p>
+<p>Evita este patrón como solución habitual:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">x = inv(A)*b;</code></pre>
+<p>La inversa explícita hace más trabajo, suele ser menos estable y oculta el tipo de problema que estás resolviendo. Puede ser útil en una demostración concreta, pero no es la herramienta estándar para obtener x.</p>
+<h2 id="sistema-sobredeterminado-ajuste-por-minimos-cuadrados" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Sistema sobredeterminado: ajuste por mínimos cuadrados</h2>
+<p>En un ajuste con más ecuaciones que incógnitas, por ejemplo datos experimentales frente a un modelo lineal:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">A = [1 0;
+     1 1;
+     1 2;
+     1 3];
+
+b = [1.1; 1.9; 3.2; 3.8];
+
+x = A\b;
+ajuste = A*x;
+r = b - ajuste;
+norm(r)</code></pre>
+<p>Aquí MATLAB devuelve un vector que minimiza <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">∥</mo><mi>A</mi><mi>x</mi><mo>−</mo><mi>b</mi><msub><mo stretchy="false">∥</mo><mn>2</mn></msub></mrow><annotation encoding="application/x-tex">\lVert Ax-b\rVert_2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">∥</span><span class="mord mathnormal">A</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal">b</span><span class="mclose"><span class="mclose">∥</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>. No debes escribir que ha “resuelto exactamente” las cuatro ecuaciones salvo que el residuo sea cero. La condición geométrica verificable es que el residuo sea ortogonal al espacio columna de A:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">A'*r</code></pre>
+<p>La salida debería ser cercana a cero, con un margen coherente con la aritmética de punto flotante.</p>
+<h2 id="sistema-subdeterminado-una-solucion-basica-no-es-todas-las-soluciones" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Sistema subdeterminado: una solución básica no es todas las soluciones</h2>
+<p>Si hay menos ecuaciones que incógnitas, MATLAB puede devolver una solución básica:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">A = [1 1 1;
+     1 2 3];
+
+b = [2; 4];
+
+x = A\b
+rank(A)</code></pre>
+<p>Eso no describe automáticamente el espacio completo de soluciones. Para una entrega de Álgebra Lineal, usa reducción, rango–nulidad y una base del núcleo para parametrizar la familia. MATLAB ayuda a comprobar; no reemplaza la argumentación.</p>
+<h2 id="rango-y-singularidad" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Rango y singularidad</h2>
+<p>Las funciones rank y rcond responden preguntas distintas:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">rank(A)
+rcond(A)</code></pre>
+<p>rank estima el número de direcciones independientes, con una tolerancia numérica. rcond estima el recíproco de una medida de condicionamiento para matrices cuadradas. Si rcond es muy pequeño, la matriz está cerca de ser singular y pequeñas perturbaciones en datos pueden producir grandes cambios en la solución.</p>
+<p>Para inspeccionar una matriz mal condicionada puedes usar la matriz de Hilbert:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">H = hilb(8);
+cond(H)
+rcond(H)</code></pre>
+<p>No es un problema de que MATLAB “falle”. Es una propiedad del problema: los datos no contienen información suficiente para recuperar una solución estable con muchos dígitos.</p>
+<h2 id="escala-y-residuo-relativo" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Escala y residuo relativo</h2>
+<p>Un residuo absoluto de <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mn>10</mn><mrow><mo>−</mo><mn>8</mn></mrow></msup></mrow><annotation encoding="application/x-tex">10^{-8}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord">1</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">−</span><span class="mord mtight">8</span></span></span></span></span></span></span></span></span></span></span></span> puede ser excelente o pésimo según las unidades. Usa un indicador relativo:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">resRel = norm(A*x - b) / norm(b)</code></pre>
+<p>Si b puede ser nulo, adapta la comprobación. Además, un residuo pequeño no implica siempre error pequeño en x: una matriz con condición alta puede amplificarlo. Este contraste entre residuo y condicionamiento es frecuente en Métodos Numéricos.</p>
+<h2 id="minimos-cuadrados-no-formes-ecuaciones-normales-por-defecto" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Mínimos cuadrados: no formes ecuaciones normales por defecto</h2>
+<p>Para un problema sobredeterminado, esta expresión es matemáticamente conocida:</p>
+<div role="group" aria-label="Fórmula matemática: (A^TA)x=A^Tb." class="nebula-math my-7 overflow-x-auto rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-5 text-center"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mo stretchy="false">(</mo><msup><mi>A</mi><mi>T</mi></msup><mi>A</mi><mo stretchy="false">)</mo><mi>x</mi><mo>=</mo><msup><mi>A</mi><mi>T</mi></msup><mi>b</mi><mi mathvariant="normal">.</mi></mrow><annotation encoding="application/x-tex">(A^TA)x=A^Tb.</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1413em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8913em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.1389em;">T</span></span></span></span></span></span></span></span><span class="mord mathnormal">A</span><span class="mclose">)</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8913em;"></span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8913em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.1389em;">T</span></span></span></span></span></span></span></span><span class="mord mathnormal">b</span><span class="mord">.</span></span></span></span></span></div>
+<p>Sin embargo, formar <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>A</mi><mi>T</mi></msup><mi>A</mi></mrow><annotation encoding="application/x-tex">A^TA</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8413em;"></span><span class="mord"><span class="mord mathnormal">A</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8413em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.1389em;">T</span></span></span></span></span></span></span></span><span class="mord mathnormal">A</span></span></span></span> puede empeorar el condicionamiento. La instrucción A barra inversa b evita que tengas que construirlo manualmente y aprovecha factorizaciones internas más adecuadas. Si el ejercicio pide derivar ecuaciones normales, muéstralas; si pide calcular de forma fiable, usa la herramienta apropiada.</p>
+<h2 id="errores-practicos-que-cambian-el-resultado" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Errores prácticos que cambian el resultado</h2>
+<ul class="my-5 space-y-2 pl-1"><li class="flex items-start gap-3 text-foreground/85"><span class="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-action"></span><span>Usar / en lugar de \\: resuelven problemas matriciales distintos.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-action"></span><span>Escribir b como vector fila cuando el modelo necesita columna.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-action"></span><span>Aplicar inv(A)*b a cualquier matriz.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-action"></span><span>Llamar solución exacta a un ajuste con residuo no nulo.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-action"></span><span>Interpretar rank como una verdad exacta sin considerar la tolerancia y la escala.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-action"></span><span>Ignorar cond o rcond ante datos casi dependientes.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-action"></span><span>Usar números con unidades mezcladas sin escalar el problema.</span></li></ul>
+<p>Para comprender la teoría que hay bajo los comandos, revisa <a class="font-medium text-link underline underline-offset-4 transition-colors hover:text-link" href="/blog/matrices-determinantes-sistemas-ecuaciones-guia/">matrices, determinantes y sistemas</a> y <a class="font-medium text-link underline underline-offset-4 transition-colors hover:text-link" href="/blog/minimos-cuadrados-proyeccion-ortogonal-algebra-lineal/">mínimos cuadrados y proyección ortogonal</a>. Las <a class="font-medium text-link underline underline-offset-4 transition-colors hover:text-link" href="/clases-particulares/matematicas-universidad/">clases de Matemáticas universitarias</a> pueden trabajar el tipo de sistemas y tolerancias que aparecen en tu grado.</p>
+<p>La sintaxis de A barra inversa b y los casos cuadrado, sobredeterminado y subdeterminado siguen la <a class="font-medium text-link underline underline-offset-4 transition-colors hover:text-link" href="https://www.mathworks.com/help/matlab/math/systems-of-linear-equations.html">documentación oficial de MathWorks</a>.</p></article>
+        <aside aria-label="Autor del artículo" class="mt-12 rounded-3xl border border-white/10 bg-white/[0.02] p-6">
+          <p class="text-xs font-medium uppercase tracking-[0.18em] text-spark">Autoría</p>
+          <h2 class="mt-2 font-display text-xl font-semibold">Método Nebula</h2>
+          <p class="mt-2 text-sm text-muted-foreground">Contenido revisado por el responsable docente de Método Nebula, graduado en Matemáticas, con formación de máster en Big Data e Inteligencia Artificial y experiencia docente y tecnológica.</p>
+          <p class="mt-4"><a href="/sobre-nebula/">Conocer el método y el perfil docente</a> · <a href="https://www.tusclasesparticulares.com/profesores/nebula-lambda.htm">Ver perfil profesional</a></p>
+        </aside>
+        <section class="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8 text-center">
+          <h2 class="font-display text-2xl font-semibold text-foreground">¿Quieres convertir esta idea en puntos de examen?</h2>
+          <p class="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">El campus de Método Nebula reúne teoría estructurada, ejercicios graduados y exámenes resueltos dentro de un plan adaptado a tu nivel, tu temario y tu fecha.</p>
+          <p class="mt-6 flex flex-col justify-center gap-3 sm:flex-row"><a class="inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-action/90" href="/campus/">Ver cómo funciona el Campus</a><a class="inline-flex items-center justify-center rounded-full border border-white/15 px-6 py-3 text-sm font-medium text-link transition-colors hover:border-white/30 hover:bg-white/[0.05]" href="/clases-particulares/matematicas-universidad/">Ver apoyo relacionado</a></p>
+        </section>
+        <section class="mt-12 border-t border-white/5 pt-8 text-sm text-muted-foreground">Este artículo forma parte del clúster de <a href="/blog/categoria/matematicas-universitarias/">Matemáticas universitarias</a>. Servicio relacionado: <a href="/clases-particulares/matematicas-universidad/">Clases particulares de Matemáticas desde ESO hasta Universidad</a>.</section>
+        <h2 id="lecturas-relacionadas" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Lecturas relacionadas</h2><div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+    <a href="/blog/matrices-determinantes-sistemas-ecuaciones-guia/" class="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1">
+      
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
+      <span class="rounded-full border border-spark/40 bg-spark/10 px-3 py-1 font-medium uppercase tracking-[0.18em] text-spark">Matemáticas universitarias</span>
+      <span>2026-06-25</span>
+      <span>3 min de lectura</span>
+    </div>
+  
+      <h3 class="mt-5 font-display font-semibold leading-snug text-foreground text-lg transition-colors group-hover:text-spark">Matrices, determinantes y sistemas de ecuaciones: guía completa para primero de carrera</h3>
+      <p class="mt-3 grow text-sm leading-relaxed text-muted-foreground">Guía de matrices, determinantes y sistemas de ecuaciones para primero de carrera: rango, Gauss, inversa y discusión de soluciones.</p>
+      <span class="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">Leer entrada</span>
+    </a>
+  
+    <a href="/blog/minimos-cuadrados-proyeccion-ortogonal-algebra-lineal/" class="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1">
+      
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
+      <span class="rounded-full border border-spark/40 bg-spark/10 px-3 py-1 font-medium uppercase tracking-[0.18em] text-spark">Matemáticas universitarias</span>
+      <span>2026-11-27</span>
+      <span>2 min de lectura</span>
+    </div>
+  
+      <h3 class="mt-5 font-display font-semibold leading-snug text-foreground text-lg transition-colors group-hover:text-spark">Mínimos cuadrados y proyección ortogonal: ajuste lineal con Álgebra Lineal</h3>
+      <p class="mt-3 grow text-sm leading-relaxed text-muted-foreground">Ejercicio de mínimos cuadrados para Ingeniería: matriz de diseño, ecuaciones normales, proyección ortogonal y lectura geométrica del ajuste lineal.</p>
+      <span class="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">Leer entrada</span>
+    </a>
+  
+    <a href="/blog/maxima-algebra-lineal-matrices-autovalores-ingenieria/" class="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1">
+      
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
+      <span class="rounded-full border border-spark/40 bg-spark/10 px-3 py-1 font-medium uppercase tracking-[0.18em] text-spark">Matemáticas universitarias</span>
+      <span>2026-11-27</span>
+      <span>4 min de lectura</span>
+    </div>
+  
+      <h3 class="mt-5 font-display font-semibold leading-snug text-foreground text-lg transition-colors group-hover:text-spark">Maxima para Álgebra Lineal en Ingeniería: matrices, sistemas, autovalores y verificación</h3>
+      <p class="mt-3 grow text-sm leading-relaxed text-muted-foreground">Guía técnica de Maxima para Álgebra Lineal: creación de matrices, resolución de sistemas, rango, determinante, autovalores, autovectores y comprobaciones.</p>
+      <span class="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">Leer entrada</span>
+    </a>
+  </div>
+      </div>
+      </section>
+      <footer class="border-t border-white/5 px-6 py-8 text-sm text-muted-foreground">
+        <nav class="mx-auto flex max-w-7xl flex-wrap gap-x-5 gap-y-2" aria-label="Navegación secundaria">
+          <a class="text-link transition-colors hover:text-link" href="/mapa-del-sitio/">Mapa del sitio</a>
+          <a class="text-link transition-colors hover:text-link" href="/campus/">Campus virtual</a>
+          <a class="text-link transition-colors hover:text-link" href="/blog/">Blog</a>
+          <a class="text-link transition-colors hover:text-link" href="/clases-particulares/universidad/">Clases desde ESO</a>
+          <a class="text-link transition-colors hover:text-link" href="/contacto/">Contacto</a>
+        </nav>
+      </footer>
+    </main>
+  </div>
+  </body>
+</html>

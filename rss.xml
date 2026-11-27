@@ -22,6 +22,27 @@
       <description>Integrales de línea, campos conservativos y teorema de Green explicados con ejercicios de Cálculo Vectorial para estudiantes de Ingeniería.</description>
     </item>
     <item>
+      <title>MATLAB fzero, integral y trapz: raíces e integración numérica con datos de Ingeniería</title>
+      <link>https://metodonebula.es/blog/matlab-fzero-integral-trapz-ingenieria/</link>
+      <guid>https://metodonebula.es/blog/matlab-fzero-integral-trapz-ingenieria/</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Cómo usar fzero, integral y trapz en MATLAB para Ingeniería: intervalos con cambio de signo, integración de funciones, datos experimentales no uniformes y validación.</description>
+    </item>
+    <item>
+      <title>MATLAB ode45 para vibraciones: oscilador amortiguado, tolerancias y eventos</title>
+      <link>https://metodonebula.es/blog/matlab-ode45-oscilador-amortiguado-ingenieria/</link>
+      <guid>https://metodonebula.es/blog/matlab-ode45-oscilador-amortiguado-ingenieria/</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Cómo resolver un oscilador amortiguado con ode45 en MATLAB: sistema de primer orden, condiciones iniciales, RelTol, AbsTol, gráficas y eventos.</description>
+    </item>
+    <item>
+      <title>MATLAB para sistemas lineales en Ingeniería: barra inversa, rango y condicionamiento</title>
+      <link>https://metodonebula.es/blog/matlab-sistemas-lineales-condicionamiento-ingenieria/</link>
+      <guid>https://metodonebula.es/blog/matlab-sistemas-lineales-condicionamiento-ingenieria/</guid>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Guía práctica de MATLAB para sistemas lineales de Ingeniería: operador A\\b, sistemas sobredeterminados, residuo, rango, condicionamiento y errores numéricos.</description>
+    </item>
+    <item>
       <title>Maxima para Álgebra Lineal en Ingeniería: matrices, sistemas, autovalores y verificación</title>
       <link>https://metodonebula.es/blog/maxima-algebra-lineal-matrices-autovalores-ingenieria/</link>
       <guid>https://metodonebula.es/blog/maxima-algebra-lineal-matrices-autovalores-ingenieria/</guid>

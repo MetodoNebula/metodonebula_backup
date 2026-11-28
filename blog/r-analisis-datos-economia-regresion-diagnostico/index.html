@@ -10,7 +10,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
     />
-    <script type="module" crossorigin src="/assets/index-xsSm_bdL.js"></script>
+    <script type="module" crossorigin src="/assets/index-C_FQrYG9.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CYPlftDS.css">
       <title>R para análisis de datos económicos: regresión y diagnóstico</title>
     <meta name="description" content="Tutorial de R para Economía: importar datos, limpiar valores perdidos, estimar una regresión lineal, diagnosticar residuos, interpretar coeficientes y predecir.">
@@ -27,7 +27,7 @@
     <meta name="twitter:title" content="R para análisis de datos económicos: regresión y diagnóstico">
     <meta name="twitter:description" content="Tutorial de R para Economía: importar datos, limpiar valores perdidos, estimar una regresión lineal, diagnosticar residuos, interpretar coeficientes y predecir.">
     <meta name="twitter:image" content="https://metodonebula.es/og-nebula.png">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"R para análisis de datos en Economía: regresión, diagnóstico y predicción reproducible","description":"Tutorial de R para Economía: importar datos, limpiar valores perdidos, estimar una regresión lineal, diagnosticar residuos, interpretar coeficientes y predecir.","articleSection":"Economía y ADE","keywords":"Economía y ADE, R y Economía","wordCount":1233,"author":{"@type":"EducationalOrganization","name":"Método Nebula","url":"https://metodonebula.es/"},"datePublished":"2026-11-28","dateModified":"2026-11-28","mainEntityOfPage":"https://metodonebula.es/blog/r-analisis-datos-economia-regresion-diagnostico/","inLanguage":"es-ES","publisher":{"@type":"EducationalOrganization","name":"Método Nebula","logo":{"@type":"ImageObject","url":"https://metodonebula.es/favicon.svg"}},"image":"https://metodonebula.es/og-nebula.png"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"R para análisis de datos en Economía: regresión, diagnóstico y predicción reproducible","description":"Tutorial de R para Economía: importar datos, limpiar valores perdidos, estimar una regresión lineal, diagnosticar residuos, interpretar coeficientes y predecir.","articleSection":"Economía y ADE","keywords":"Economía y ADE, R y Economía","wordCount":1258,"author":{"@type":"EducationalOrganization","name":"Método Nebula","url":"https://metodonebula.es/"},"datePublished":"2026-11-28","dateModified":"2026-11-28","mainEntityOfPage":"https://metodonebula.es/blog/r-analisis-datos-economia-regresion-diagnostico/","inLanguage":"es-ES","publisher":{"@type":"EducationalOrganization","name":"Método Nebula","logo":{"@type":"ImageObject","url":"https://metodonebula.es/favicon.svg"}},"image":"https://metodonebula.es/og-nebula.png"}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://metodonebula.es/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://metodonebula.es/blog/"},{"@type":"ListItem","position":3,"name":"R para análisis de datos en Economía: regresión, diagnóstico y predicción reproducible","item":"https://metodonebula.es/blog/r-analisis-datos-economia-regresion-diagnostico/"}]}</script>
   </head>
   <body>
@@ -57,7 +57,7 @@
     <nav aria-label="Índice del artículo" class="mb-10 rounded-3xl border border-white/8 bg-white/[0.02] p-6 text-sm">
       <p class="font-display font-semibold text-foreground">Índice</p>
       <ol class="mt-4 space-y-2">
-        <li><a class="break-words text-link underline-offset-4 hover:underline" href="#el-ejemplo-economico-y-las-unidades">El ejemplo económico y las unidades</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#importar-y-revisar-antes-de-limpiar">Importar y revisar antes de limpiar</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#crear-variables-con-significado-economico">Crear variables con significado económico</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#estimar-una-regresion-multiple">Estimar una regresión múltiple</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#ejemplo-ejecutado-en-r-codigo-y-salida-verificable">Ejemplo ejecutado en R: código y salida verificable</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#diagnostico-el-modelo-no-termina-en-summary">Diagnóstico: el modelo no termina en summary</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#interacciones-y-terminos-no-lineales">Interacciones y términos no lineales</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#prediccion-media-esperada-y-observacion-futura">Predicción: media esperada y observación futura</a></li>
+        <li><a class="break-words text-link underline-offset-4 hover:underline" href="#el-ejemplo-economico-y-las-unidades">El ejemplo económico y las unidades</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#importar-y-revisar-antes-de-limpiar">Importar y revisar antes de limpiar</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#crear-variables-con-significado-economico">Crear variables con significado económico</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#estimar-una-regresion-multiple">Estimar una regresión múltiple</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#ejemplo-practico-regresion-prediccion-y-error">Ejemplo práctico: regresión, predicción y error</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#diagnostico-el-modelo-no-termina-en-summary">Diagnóstico: el modelo no termina en summary</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#interacciones-y-terminos-no-lineales">Interacciones y términos no lineales</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#prediccion-media-esperada-y-observacion-futura">Predicción: media esperada y observación futura</a></li>
       </ol>
     </nav>
   
@@ -105,8 +105,8 @@ coef(modelo)
 confint(modelo)</code></pre>
 <p>La fórmula se lee como respuesta a la izquierda y explicativas a la derecha. El resumen presenta coeficientes, errores estándar, estadísticos t y medidas globales, pero no sustituye una interpretación.</p>
 <p>Si el coeficiente de log_precio fuese -1.2, la lectura condicional sería: dentro de este modelo y esta muestra, un aumento del 1 % en precio se asocia con una caída aproximada del 1,2 % en ventas, manteniendo renta y publicidad constantes. No afirma automáticamente que subir el precio cause ese efecto: puede haber endogeneidad, estacionalidad u otras variables omitidas.</p>
-<h2 id="ejemplo-ejecutado-en-r-codigo-y-salida-verificable" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Ejemplo ejecutado en R: código y salida verificable</h2>
-<p>Para que el resultado no dependa de un archivo externo, este ejemplo crea una muestra determinista de 20 observaciones. Se ejecutó con R 4.5.2 antes de publicar el artículo:</p>
+<h2 id="ejemplo-practico-regresion-prediccion-y-error" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Ejemplo práctico: regresión, predicción y error</h2>
+<p>Para que el ejemplo no dependa de un archivo externo, se crea una muestra didáctica de 20 observaciones. Cada bloque muestra su resultado inmediatamente después.</p>
 <pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">datos &lt;- data.frame(
   ventas = c(118,123,130,128,142,150,149,160,168,172,
              180,191,197,205,214,221,229,238,246,254),
@@ -121,28 +121,33 @@ datos$log_ventas &lt;- log(datos$ventas)
 datos$log_precio &lt;- log(datos$precio)
 datos$log_renta &lt;- log(datos$renta)
 
-modelo &lt;- lm(
+round(datos[1:2, c(&quot;ventas&quot;, &quot;log_ventas&quot;, &quot;log_precio&quot;, &quot;log_renta&quot;)], 4)</code></pre>
+<p><strong>Resultado</strong></p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">  ventas log_ventas log_precio log_renta
+1    118     4.7707     2.3795    4.6052
+2    123     4.8122     2.3609    4.6151</code></pre>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">modelo &lt;- lm(
   log_ventas ~ log_precio + log_renta + publicidad,
   data = datos
 )
 
-nuevo &lt;- data.frame(
+round(coef(modelo), 4)</code></pre>
+<p><strong>Resultado</strong></p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">(Intercept)  log_precio   log_renta  publicidad
+     4.2272     -2.3154      1.2925      0.0305</code></pre>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">nuevo &lt;- data.frame(
   log_precio = log(9.2),
   log_renta = log(117),
   publicidad = 9
 )
 
-round(coef(modelo), 4)
-round(predict(modelo, nuevo, interval = &quot;prediction&quot;), 4)
-round(sqrt(mean(residuals(modelo)^2)), 4)</code></pre>
-<p>La consola de R produjo:</p>
-<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">(Intercept)  log_precio   log_renta  publicidad
-     4.2272     -2.3154      1.2925      0.0305
-
-    fit    lwr    upr
-1 5.518 5.3976 5.6385
-
-[1] 0.0241</code></pre>
+round(predict(modelo, nuevo, interval = &quot;prediction&quot;), 4)</code></pre>
+<p><strong>Resultado</strong></p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">    fit    lwr    upr
+1 5.518 5.3976 5.6385</code></pre>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">round(sqrt(mean(residuals(modelo)^2)), 4)</code></pre>
+<p><strong>Resultado</strong></p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">[1] 0.0241</code></pre>
 <p>La última línea es la raíz del error cuadrático medio de los residuos en escala logarítmica. El intervalo de la segunda salida es de predicción, no de confianza. Como estos datos son didácticos y construidos, sus coeficientes verifican sintaxis y flujo de trabajo; no constituyen una estimación causal de un mercado real.</p>
 <h2 id="diagnostico-el-modelo-no-termina-en-summary" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Diagnóstico: el modelo no termina en summary</h2>
 <p>Los gráficos básicos del objeto lm muestran residuos frente a ajustados, normalidad aproximada, escala–localización e influencia:</p>

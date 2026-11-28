@@ -10,7 +10,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
     />
-    <script type="module" crossorigin src="/assets/index-xsSm_bdL.js"></script>
+    <script type="module" crossorigin src="/assets/index-C_FQrYG9.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CYPlftDS.css">
       <title>R para series temporales económicas: ARIMA y previsión</title>
     <meta name="description" content="Tutorial de R para series temporales económicas: objeto ts, descomposición, estacionalidad, ACF/PACF, ARIMA, diagnósticos y previsión mensual.">
@@ -27,7 +27,7 @@
     <meta name="twitter:title" content="R para series temporales económicas: ARIMA y previsión">
     <meta name="twitter:description" content="Tutorial de R para series temporales económicas: objeto ts, descomposición, estacionalidad, ACF/PACF, ARIMA, diagnósticos y previsión mensual.">
     <meta name="twitter:image" content="https://metodonebula.es/og-nebula.png">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"R para series temporales económicas: estacionalidad, ARIMA y previsión con datos mensuales","description":"Tutorial de R para series temporales económicas: objeto ts, descomposición, estacionalidad, ACF/PACF, ARIMA, diagnósticos y previsión mensual.","articleSection":"Economía y ADE","keywords":"Economía y ADE, R y Economía","wordCount":1397,"author":{"@type":"EducationalOrganization","name":"Método Nebula","url":"https://metodonebula.es/"},"datePublished":"2026-11-28","dateModified":"2026-11-28","mainEntityOfPage":"https://metodonebula.es/blog/r-series-temporales-economia-arima-prevision/","inLanguage":"es-ES","publisher":{"@type":"EducationalOrganization","name":"Método Nebula","logo":{"@type":"ImageObject","url":"https://metodonebula.es/favicon.svg"}},"image":"https://metodonebula.es/og-nebula.png"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"R para series temporales económicas: estacionalidad, ARIMA y previsión con datos mensuales","description":"Tutorial de R para series temporales económicas: objeto ts, descomposición, estacionalidad, ACF/PACF, ARIMA, diagnósticos y previsión mensual.","articleSection":"Economía y ADE","keywords":"Economía y ADE, R y Economía","wordCount":1396,"author":{"@type":"EducationalOrganization","name":"Método Nebula","url":"https://metodonebula.es/"},"datePublished":"2026-11-28","dateModified":"2026-11-28","mainEntityOfPage":"https://metodonebula.es/blog/r-series-temporales-economia-arima-prevision/","inLanguage":"es-ES","publisher":{"@type":"EducationalOrganization","name":"Método Nebula","logo":{"@type":"ImageObject","url":"https://metodonebula.es/favicon.svg"}},"image":"https://metodonebula.es/og-nebula.png"}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://metodonebula.es/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://metodonebula.es/blog/"},{"@type":"ListItem","position":3,"name":"R para series temporales económicas: estacionalidad, ARIMA y previsión con datos mensuales","item":"https://metodonebula.es/blog/r-series-temporales-economia-arima-prevision/"}]}</script>
   </head>
   <body>
@@ -57,7 +57,7 @@
     <nav aria-label="Índice del artículo" class="mb-10 rounded-3xl border border-white/8 bg-white/[0.02] p-6 text-sm">
       <p class="font-display font-semibold text-foreground">Índice</p>
       <ol class="mt-4 space-y-2">
-        <li><a class="break-words text-link underline-offset-4 hover:underline" href="#la-tabla-base-debe-tener-tiempo-regular">La tabla base debe tener tiempo regular</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#crear-una-serie-mensual-con-ts">Crear una serie mensual con ts</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#transformacion-y-lectura-economica">Transformación y lectura económica</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#descomposicion-tendencia-estacionalidad-y-residuo">Descomposición: tendencia, estacionalidad y residuo</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#autocorrelacion-antes-de-arima">Autocorrelación antes de ARIMA</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#ajustar-un-modelo-arima-con-r-base">Ajustar un modelo ARIMA con R base</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#ejemplo-ejecutado-en-r-stl-arima-y-salida-reproducible">Ejemplo ejecutado en R: STL, ARIMA y salida reproducible</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#diagnostico-de-residuos-del-modelo">Diagnóstico de residuos del modelo</a></li>
+        <li><a class="break-words text-link underline-offset-4 hover:underline" href="#la-tabla-base-debe-tener-tiempo-regular">La tabla base debe tener tiempo regular</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#crear-una-serie-mensual-con-ts">Crear una serie mensual con ts</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#transformacion-y-lectura-economica">Transformación y lectura económica</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#descomposicion-tendencia-estacionalidad-y-residuo">Descomposición: tendencia, estacionalidad y residuo</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#autocorrelacion-antes-de-arima">Autocorrelación antes de ARIMA</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#ajustar-un-modelo-arima-con-r-base">Ajustar un modelo ARIMA con R base</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#ejemplo-practico-stl-arima-y-prevision-a-tres-meses">Ejemplo práctico: STL, ARIMA y previsión a tres meses</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#diagnostico-de-residuos-del-modelo">Diagnóstico de residuos del modelo</a></li>
       </ol>
     </nav>
   
@@ -123,8 +123,8 @@ pacf(crecimiento, main = &quot;PACF de crecimiento&quot;)</code></pre>
 
 modelo</code></pre>
 <p>La diferenciación d igual a 1 combate una tendencia estocástica; D igual a 1 en la parte estacional aplica una diferencia a doce meses. No diferencies por rutina: una diferenciación excesiva puede introducir dependencia artificial y hacer el modelo más difícil de interpretar.</p>
-<h2 id="ejemplo-ejecutado-en-r-stl-arima-y-salida-reproducible" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Ejemplo ejecutado en R: STL, ARIMA y salida reproducible</h2>
-<p>El siguiente ejemplo genera 96 meses de datos con una semilla fija. Se ejecutó con R 4.5.2; por eso las componentes, coeficientes y previsiones que aparecen después no son deducciones manuales, sino la salida del programa:</p>
+<h2 id="ejemplo-practico-stl-arima-y-prevision-a-tres-meses" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Ejemplo práctico: STL, ARIMA y previsión a tres meses</h2>
+<p>El siguiente ejemplo genera 96 meses de datos con una semilla fija. Cada bloque incorpora el resultado que produce para que puedas contrastar tu consola paso a paso.</p>
 <pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">set.seed(20261128)
 
 t &lt;- 1:96
@@ -134,29 +134,29 @@ log_ventas &lt;- log(ventas_ts)
 
 stl_ventas &lt;- stl(log_ventas, s.window = &quot;periodic&quot;)
 
-modelo &lt;- arima(
+round(tail(stl_ventas$time.series, 1), 4)</code></pre>
+<p><strong>Resultado</strong></p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">         seasonal  trend remainder
+Dec 2025   0.0083 5.6176    0.0131</code></pre>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">modelo &lt;- arima(
   log_ventas,
   order = c(1, 1, 0),
   seasonal = list(order = c(0, 1, 1), period = 12)
 )
 
-pred &lt;- predict(modelo, n.ahead = 3)
-
-round(tail(stl_ventas$time.series, 1), 4)
 round(modelo$coef, 4)
-round(modelo$aic, 4)
-round(pred$pred, 4)
-round(pred$se, 4)</code></pre>
-<p>La salida obtenida fue:</p>
-<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">         seasonal  trend remainder
-Dec 2025   0.0083 5.6176    0.0131
-
-    ar1    sma1
+round(modelo$aic, 4)</code></pre>
+<p><strong>Resultado</strong></p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">    ar1    sma1
 -0.5088 -0.8445
 
-[1] -385.688
+[1] -385.688</code></pre>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">pred &lt;- predict(modelo, n.ahead = 3)
 
-        Jan    Feb    Mar
+round(pred$pred, 4)
+round(pred$se, 4)</code></pre>
+<p><strong>Resultado</strong></p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">        Jan    Feb    Mar
 2026 5.6842 5.7042 5.7288
 
         Jan    Feb    Mar

@@ -10,7 +10,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
     />
-    <script type="module" crossorigin src="/assets/index-xsSm_bdL.js"></script>
+    <script type="module" crossorigin src="/assets/index-C_FQrYG9.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CYPlftDS.css">
       <title>Maxima para Álgebra Lineal: matrices y autovalores en Ingeniería</title>
     <meta name="description" content="Guía técnica de Maxima para Álgebra Lineal: creación de matrices, resolución de sistemas, rango, determinante, autovalores, autovectores y comprobaciones.">
@@ -27,7 +27,7 @@
     <meta name="twitter:title" content="Maxima para Álgebra Lineal: matrices y autovalores en Ingeniería">
     <meta name="twitter:description" content="Guía técnica de Maxima para Álgebra Lineal: creación de matrices, resolución de sistemas, rango, determinante, autovalores, autovectores y comprobaciones.">
     <meta name="twitter:image" content="https://metodonebula.es/og-nebula.png">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Maxima para Álgebra Lineal en Ingeniería: matrices, sistemas, autovalores y verificación","description":"Guía técnica de Maxima para Álgebra Lineal: creación de matrices, resolución de sistemas, rango, determinante, autovalores, autovectores y comprobaciones.","articleSection":"Matemáticas universitarias","keywords":"Matemáticas universitarias, Maxima","wordCount":999,"author":{"@type":"EducationalOrganization","name":"Método Nebula","url":"https://metodonebula.es/"},"datePublished":"2026-11-27","dateModified":"2026-11-27","mainEntityOfPage":"https://metodonebula.es/blog/maxima-algebra-lineal-matrices-autovalores-ingenieria/","inLanguage":"es-ES","publisher":{"@type":"EducationalOrganization","name":"Método Nebula","logo":{"@type":"ImageObject","url":"https://metodonebula.es/favicon.svg"}},"image":"https://metodonebula.es/og-nebula.png"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Maxima para Álgebra Lineal en Ingeniería: matrices, sistemas, autovalores y verificación","description":"Guía técnica de Maxima para Álgebra Lineal: creación de matrices, resolución de sistemas, rango, determinante, autovalores, autovectores y comprobaciones.","articleSection":"Matemáticas universitarias","keywords":"Matemáticas universitarias, Maxima","wordCount":1001,"author":{"@type":"EducationalOrganization","name":"Método Nebula","url":"https://metodonebula.es/"},"datePublished":"2026-11-27","dateModified":"2026-11-28","mainEntityOfPage":"https://metodonebula.es/blog/maxima-algebra-lineal-matrices-autovalores-ingenieria/","inLanguage":"es-ES","publisher":{"@type":"EducationalOrganization","name":"Método Nebula","logo":{"@type":"ImageObject","url":"https://metodonebula.es/favicon.svg"}},"image":"https://metodonebula.es/og-nebula.png"}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://metodonebula.es/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://metodonebula.es/blog/"},{"@type":"ListItem","position":3,"name":"Maxima para Álgebra Lineal en Ingeniería: matrices, sistemas, autovalores y verificación","item":"https://metodonebula.es/blog/maxima-algebra-lineal-matrices-autovalores-ingenieria/"}]}</script>
   </head>
   <body>
@@ -57,7 +57,7 @@
     <nav aria-label="Índice del artículo" class="mb-10 rounded-3xl border border-white/8 bg-white/[0.02] p-6 text-sm">
       <p class="font-display font-semibold text-foreground">Índice</p>
       <ol class="mt-4 space-y-2">
-        <li><a class="break-words text-link underline-offset-4 hover:underline" href="#crear-matrices-y-reconocer-sus-dimensiones">Crear matrices y reconocer sus dimensiones</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#sistemas-lineales-que-devuelve-linsolve">Sistemas lineales: qué devuelve linsolve</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#determinante-rango-e-invertibilidad">Determinante, rango e invertibilidad</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#nucleo-e-imagen-comprobar-no-adivinar">Núcleo e imagen: comprobar, no adivinar</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#autovalores-y-autovectores">Autovalores y autovectores</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#salida-comprobada-en-maxima-5-50-0">Salida comprobada en Maxima 5.50.0</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#diagonalizacion-la-condicion-que-no-debes-omitir">Diagonalización: la condición que no debes omitir</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#precision-exacta-frente-a-decimal">Precisión exacta frente a decimal</a></li>
+        <li><a class="break-words text-link underline-offset-4 hover:underline" href="#crear-matrices-y-reconocer-sus-dimensiones">Crear matrices y reconocer sus dimensiones</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#sistemas-lineales-que-devuelve-linsolve">Sistemas lineales: qué devuelve linsolve</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#determinante-rango-e-invertibilidad">Determinante, rango e invertibilidad</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#nucleo-e-imagen-comprobar-no-adivinar">Núcleo e imagen: comprobar, no adivinar</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#autovalores-y-autovectores">Autovalores y autovectores</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#diagonalizacion-la-condicion-que-no-debes-omitir">Diagonalización: la condición que no debes omitir</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#precision-exacta-frente-a-decimal">Precisión exacta frente a decimal</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#errores-que-maxima-no-arregla">Errores que Maxima no arregla</a></li>
       </ol>
     </nav>
   
@@ -71,12 +71,21 @@
 B : matrix([1,2],
            [3,4],
            [5,6])$</code></pre>
-<p>Antes de multiplicar, comprueba las dimensiones con mat<em>nrows y mat</em>ncols:</p>
-<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">[mat_nrows(A), mat_ncols(A)];
-[mat_nrows(B), mat_ncols(B)];</code></pre>
+<p><strong>Resultado</strong></p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">A = matrix([2, -1, 0], [1, 3, 4], [0, 2, 1])
+B = matrix([1, 2], [3, 4], [5, 6])</code></pre>
+<p>Antes de multiplicar, comprueba las dimensiones con matrix_size:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">matrix_size(A);
+matrix_size(B);</code></pre>
+<p><strong>Resultado</strong></p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">[3, 3]
+[3, 2]</code></pre>
 <p>El producto <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mi>B</mi></mrow><annotation encoding="application/x-tex">AB</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span><span class="mord mathnormal" style="margin-right:0.0502em;">B</span></span></span></span> solo existe si el número de columnas de <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span> coincide con el número de filas de <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>B</mi></mrow><annotation encoding="application/x-tex">B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.0502em;">B</span></span></span></span>. Maxima avisará de una incompatibilidad, pero en un examen debes detectar esa condición antes de pulsar Enter.</p>
 <p>La transpuesta se obtiene con transpose:</p>
 <pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">transpose(B);</code></pre>
+<p><strong>Resultado</strong></p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">matrix([1, 3, 5],
+       [2, 4, 6])</code></pre>
 <h2 id="sistemas-lineales-que-devuelve-linsolve" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Sistemas lineales: qué devuelve linsolve</h2>
 <p>Para resolver:</p>
 <div role="group" aria-label="Fórmula matemática: \begin{cases}
@@ -88,17 +97,25 @@ x+3y=9
 \end{cases}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:3em;vertical-align:-1.25em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size4">{</span></span><span class="mord"><span class="mtable"><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.69em;"><span style="top:-3.69em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord">2</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal" style="margin-right:0.0359em;">y</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord">1</span></span></span><span style="top:-2.25em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">3</span><span class="mord mathnormal" style="margin-right:0.0359em;">y</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mord">9</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.19em;"><span></span></span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></div>
 <p>puedes usar:</p>
 <pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">linsolve([2*x-y = 1, x+3*y = 9], [x,y]);</code></pre>
+<p><strong>Resultado</strong></p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">[x = 12/7, y = 17/7]</code></pre>
 <p>La salida representa una lista de soluciones. En un sistema compatible determinado aparecerá un único par. En un sistema compatible indeterminado, Maxima puede dejar un parámetro libre; eso es información sobre la dimensión del espacio de soluciones, no un error del programa.</p>
 <p>Cuando el problema está dado como <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mi>x</mi><mo>=</mo><mi>b</mi></mrow><annotation encoding="application/x-tex">Ax=b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">b</span></span></span></span>, conserva la estructura matricial y comprueba el resultado:</p>
 <pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">A : matrix([2,-1],[1,3])$
 b : matrix([1],[9])$
 xsol : invert(A).b$
 ratsimp(A.xsol-b);</code></pre>
+<p><strong>Resultado</strong></p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">matrix([0],
+       [0])</code></pre>
 <p>La última línea debe dar la matriz cero. Esta vía requiere que <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi></mrow><annotation encoding="application/x-tex">A</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span></span></span></span> sea cuadrada e invertible; no la uses de forma automática para un sistema rectangular o singular.</p>
 <h2 id="determinante-rango-e-invertibilidad" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Determinante, rango e invertibilidad</h2>
 <p>Para una matriz cuadrada:</p>
 <pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">determinant(A);
 rank(A);</code></pre>
+<p><strong>Resultado</strong></p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">7
+2</code></pre>
 <p>Un determinante no nulo implica que la matriz cuadrada es invertible y tiene rango completo. Sin embargo, el determinante no sirve para estudiar de manera general matrices rectangulares. Para ellas, el rango es el objeto adecuado.</p>
 <p>Un flujo correcto para un ejercicio es:</p>
 <ol class="my-5 list-none space-y-2 pl-0"><li class="flex items-start gap-3 text-foreground/85"><span class="font-display text-sm font-semibold text-action">1.</span><span>Identificar el tamaño de la matriz.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="font-display text-sm font-semibold text-action">2.</span><span>Calcular o justificar el rango.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="font-display text-sm font-semibold text-action">3.</span><span>Aplicar rango–nulidad si se pide el núcleo.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="font-display text-sm font-semibold text-action">4.</span><span>Concluir compatibilidad de un sistema con rango de la matriz ampliada cuando proceda.</span></li></ol>
@@ -109,6 +126,8 @@ rank(A);</code></pre>
            [2,4,6])$
 linsolve([x+2*y+3*z = 0,
           2*x+4*y+6*z = 0], [x,y,z]);</code></pre>
+<p><strong>Resultado</strong></p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">[x = -2 %r2 - 3 %r1, y = %r2, z = %r1]</code></pre>
 <p>La salida debe traducirse a una forma paramétrica. Si, por ejemplo, quedan parámetros libres <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>y</mi><mo>=</mo><mi>s</mi></mrow><annotation encoding="application/x-tex">y=s</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.0359em;">y</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">s</span></span></span></span> y <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>z</mi><mo>=</mo><mi>t</mi></mrow><annotation encoding="application/x-tex">z=t</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.044em;">z</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6151em;"></span><span class="mord mathnormal">t</span></span></span></span>, escribe cada solución como combinación lineal de vectores y extrae una base. Maxima puede resolver la ecuación; el paso de convertir parámetros a base sigue siendo una decisión matemática que debes explicar.</p>
 <p>Para la imagen, las columnas pivote de una reducción por filas se identifican en la matriz original, no en una matriz reducida si se pide una base del espacio columna. Este detalle evita uno de los errores más frecuentes.</p>
 <h2 id="autovalores-y-autovectores" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Autovalores y autovectores</h2>
@@ -117,34 +136,40 @@ linsolve([x+2*y+3*z = 0,
            [2,3])$
 eigenvalues(M);
 eigenvectors(M);</code></pre>
+<p><strong>Resultado</strong></p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">[[5, 2], [1, 1]]
+[[[5, 2], [1, 1]], [[[1, 1]], [[1, -2]]]]</code></pre>
 <p>La función eigenvalues devuelve autovalores y sus multiplicidades; eigenvectors añade listas de autovectores. Antes de ejecutar, puedes verificar el polinomio característico:</p>
 <pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">expand(determinant(M - lambda*ident(2)));
 solve(%, lambda);</code></pre>
+<p><strong>Resultado</strong></p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">lambda^2 - 7 lambda + 10
+[lambda = 5, lambda = 2]</code></pre>
 <p>Esta comprobación es importante cuando el ejercicio pide desarrollar el método. Usar eigenvalues para verificar no equivale a haber demostrado cómo se obtiene el polinomio característico.</p>
 <p>Para comprobar un par <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">(</mo><mi>λ</mi><mo separator="true">,</mo><mi>v</mi><mo stretchy="false">)</mo></mrow><annotation encoding="application/x-tex">(\lambda,v)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">(</span><span class="mord mathnormal">λ</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.0359em;">v</span><span class="mclose">)</span></span></span></span>:</p>
 <pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">lambda : 5$
 v : matrix([1],[1])$
 ratsimp(M.v - lambda*v);</code></pre>
+<p><strong>Resultado</strong></p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">matrix([0],
+       [0])</code></pre>
 <p>El resultado debe ser la matriz columna nula.</p>
-<h2 id="salida-comprobada-en-maxima-5-50-0" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Salida comprobada en Maxima 5.50.0</h2>
-<p>Los comandos de sistemas y autovalores del artículo se ejecutaron directamente en Maxima 5.50.0. Esta fue la salida relevante:</p>
-<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">(%o1)  [x = 12/7, y = 17/7]
-
-(%o3)  [x = - 2 %r2 - 3 %r1, y = %r2, z = %r1]
-
-(%o5)  (3 - lambda) (4 - lambda) - 2
-(%o6)  [[5, 2], [1, 1]]
-
-         [ 0 ]
-(%o9)  [   ]
-         [ 0 ]</code></pre>
-<p>La primera línea resuelve el sistema de dos incógnitas. La segunda confirma que el sistema homogéneo tiene dos parámetros libres. Para la matriz M del ejemplo, Maxima devuelve los autovalores 5 y 2, ambos de multiplicidad uno; la última salida confirma que el vector columna (1,1) es un autovector asociado a 5.</p>
 <h2 id="diagonalizacion-la-condicion-que-no-debes-omitir" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Diagonalización: la condición que no debes omitir</h2>
 <p>Una matriz de tamaño <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span> es diagonalizable cuando reúne <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span> autovectores linealmente independientes. No basta con que tenga autovalores.</p>
 <p>Si construyes una matriz <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi></mrow><annotation encoding="application/x-tex">P</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.1389em;">P</span></span></span></span> con autovectores por columnas y una diagonal <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>D</mi></mrow><annotation encoding="application/x-tex">D</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.0278em;">D</span></span></span></span> con sus autovalores en el mismo orden, verifica:</p>
-<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">ratsimp(M.P - P.D);</code></pre>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">P : matrix([1,1],
+           [1,-2])$
+D : matrix([5,0],
+           [0,2])$
+ratsimp(M.P - P.D);</code></pre>
+<p><strong>Resultado</strong></p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">matrix([0, 0],
+       [0, 0])</code></pre>
 <p>o, si <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi></mrow><annotation encoding="application/x-tex">P</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.1389em;">P</span></span></span></span> es invertible:</p>
 <pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">ratsimp(invert(P).M.P - D);</code></pre>
+<p><strong>Resultado</strong></p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">matrix([0, 0],
+       [0, 0])</code></pre>
 <p>La correspondencia de orden es crucial. Colocar autovalores y autovectores en órdenes distintos produce una diagonalización aparentemente razonable pero falsa.</p>
 <h2 id="precision-exacta-frente-a-decimal" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Precisión exacta frente a decimal</h2>
 <p>Maxima mantiene racionales exactos cuando escribes 1/3, pero usa aproximaciones si introduces 0.333. Para una demostración de Álgebra Lineal, trabaja con enteros, fracciones y raíces exactas mientras sea posible. Pasa a formato numérico al final con numer solo si el contexto es numérico.</p>

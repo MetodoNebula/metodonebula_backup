@@ -145,6 +145,26 @@ limit(diff(N,x)/diff(D,x), x, 0);
 
 Solo tiene sentido después de haber verificado que la forma inicial es $0/0$ o $\infty/\infty$, y que las condiciones del teorema son aplicables. En la solución escrita, explica la indeterminación y muestra cada paso relevante; no pegues la salida del programa.
 
+## Salida comprobada en Maxima 5.50.0
+
+Los siguientes comandos del artículo se ejecutaron en Maxima 5.50.0. La sesión devolvió:
+
+```text
+(%o1)  - 1/6
+(%o2)  inf
+(%o3)  minf
+(%o4)  2 x log(x) + x
+
+         x^2 log(x)   x^2
+(%o5)  ──────────── - ───
+              2         4
+
+(%o6)  0
+(%o7)  %pi/2
+```
+
+Los resultados corresponden, por este orden, al límite de (sin(x)-x)/x^3, los límites laterales de 1/x, la derivada de x^2 log(x), la integral de x log(x), su verificación por derivación y la integral impropia de 1/(1+x^2). Esto permite usar Maxima como control efectivo del cálculo manual, sin sustituir el análisis de dominio o convergencia.
+
 ## Sustitución numérica, precisión y gráficos
 
 Con una expresión simbólica, ev permite evaluar bajo condiciones. Para obtener una aproximación decimal, usa numer:

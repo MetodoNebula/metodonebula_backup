@@ -138,6 +138,25 @@ ratsimp(M.v - lambda*v);
 
 El resultado debe ser la matriz columna nula.
 
+## Salida comprobada en Maxima 5.50.0
+
+Los comandos de sistemas y autovalores del artículo se ejecutaron directamente en Maxima 5.50.0. Esta fue la salida relevante:
+
+```text
+(%o1)  [x = 12/7, y = 17/7]
+
+(%o3)  [x = - 2 %r2 - 3 %r1, y = %r2, z = %r1]
+
+(%o5)  (3 - lambda) (4 - lambda) - 2
+(%o6)  [[5, 2], [1, 1]]
+
+         [ 0 ]
+(%o9)  [   ]
+         [ 0 ]
+```
+
+La primera línea resuelve el sistema de dos incógnitas. La segunda confirma que el sistema homogéneo tiene dos parámetros libres. Para la matriz M del ejemplo, Maxima devuelve los autovalores 5 y 2, ambos de multiplicidad uno; la última salida confirma que el vector columna (1,1) es un autovector asociado a 5.
+
 ## Diagonalización: la condición que no debes omitir
 
 Una matriz de tamaño $n$ es diagonalizable cuando reúne $n$ autovectores linealmente independientes. No basta con que tenga autovalores.

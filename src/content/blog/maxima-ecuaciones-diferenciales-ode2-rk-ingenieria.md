@@ -60,7 +60,7 @@ No confundas el segundo argumento de ic1 con una sustitución libre. La estructu
 Comprueba la condición y la ecuación por separado:
 
 ```maxima
-ev(rhs(sol), x = 0);
+subst(0, x, rhs(sol));
 ratsimp(diff(rhs(sol),x) + 2*rhs(sol));
 ```
 
@@ -88,9 +88,29 @@ La condición de velocidad inicial requiere de nuevo la forma no evaluada 'diff(
 El resultado debe ser equivalente a $y(x)=\cos(2x)$. Verifica tanto posición como velocidad inicial:
 
 ```maxima
-ev(rhs(sol2), x = 0);
-ev(diff(rhs(sol2),x), x = 0);
+subst(0, x, rhs(sol2));
+subst(0, x, diff(rhs(sol2),x));
 ```
+
+subst sustituye de forma local y evita que una asignación temporal de x afecte a la comprobación siguiente en una sesión de consola.
+
+## Salida comprobada en Maxima 5.50.0
+
+El siguiente resultado se obtuvo ejecutando ode2, ic1 e ic2 en Maxima 5.50.0:
+
+```text
+(%o2)  y = %e^(- 2 x) %c
+(%o3)  y = 3 %e^(- 2 x)
+(%o4)  3
+(%o5)  0
+
+(%o7)  y = %k1 sin(2 x) + %k2 cos(2 x)
+(%o8)  y = cos(2 x)
+(%o9)  1
+(%o10) 0
+```
+
+Las dos primeras líneas son la solución general y la particular de la EDO de primer orden; las siguientes validan tanto la condición y(0)=3 como el residuo de la ecuación. La segunda parte muestra la solución general del oscilador y la solución cos(2x) que satisface posición inicial 1 y velocidad inicial 0.
 
 ## Un modelo de Ingeniería: oscilador amortiguado
 

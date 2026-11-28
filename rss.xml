@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"><channel><title>Blog de Método Nebula</title><link>https://metodonebula.es/blog/</link><description>Guías académicas y de carrera de Método Nebula.</description>
     <item>
+      <title>R para análisis de datos en Economía: regresión, diagnóstico y predicción reproducible</title>
+      <link>https://metodonebula.es/blog/r-analisis-datos-economia-regresion-diagnostico/</link>
+      <guid>https://metodonebula.es/blog/r-analisis-datos-economia-regresion-diagnostico/</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Tutorial de R para Economía: importar datos, limpiar valores perdidos, estimar una regresión lineal, diagnosticar residuos, interpretar coeficientes y predecir.</description>
+    </item>
+    <item>
+      <title>R para series temporales económicas: estacionalidad, ARIMA y previsión con datos mensuales</title>
+      <link>https://metodonebula.es/blog/r-series-temporales-economia-arima-prevision/</link>
+      <guid>https://metodonebula.es/blog/r-series-temporales-economia-arima-prevision/</guid>
+      <pubDate>Sat, 28 Nov 2026 00:00:00 GMT</pubDate>
+      <description>Tutorial de R para series temporales económicas: objeto ts, descomposición, estacionalidad, ACF/PACF, ARIMA, diagnósticos y previsión mensual.</description>
+    </item>
+    <item>
       <title>Cerchas en estática: método de los nudos y de las secciones con ejercicios</title>
       <link>https://metodonebula.es/blog/cerchas-estatica-metodo-nudos-secciones-ingenieria/</link>
       <guid>https://metodonebula.es/blog/cerchas-estatica-metodo-nudos-secciones-ingenieria/</guid>

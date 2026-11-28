@@ -61,9 +61,9 @@ assets/KaTeX_Size4-Regular-Dl5lxZxV.woff2
 assets/KaTeX_Typewriter-Regular-C0xS9mPB.woff
 assets/KaTeX_Typewriter-Regular-CO6r4hn1.woff2
 assets/KaTeX_Typewriter-Regular-D3Ib7_Hf.ttf
-assets/blog-Cu9nP0d6.js
-assets/circle-check-CAss67cm.js
-assets/index-CASBbZuu.js
+assets/blog-BKhbpPtv.js
+assets/circle-check-DFeUx6VD.js
+assets/index-BMa6QyZ-.js
 assets/index-CYPlftDS.css
 assets/latex/area-between-curves.svg
 assets/latex/arrhenius-energy.svg
@@ -188,9 +188,9 @@ assets/latex/triangle-strategy.svg
 assets/latex/unit-circle-solutions.svg
 assets/latex/vectors-planes.svg
 assets/latex/wave-anatomy.svg
-assets/pages-DZYHp7IE.js
-assets/posts-DcF0rQaL.js
-assets/university-coverage-3MkUcqZE.js
+assets/pages-D8I20Ex4.js
+assets/posts-CfXViiLW.js
+assets/university-coverage-DrHQKOVp.js
 blog/acidos-bases-ph-titulaciones-ejercicios-universidad/index.html
 blog/ajuste-ecuaciones-quimicas-3-eso-ejercicios/index.html
 blog/algebra-lineal-nucleo-imagen-rango-ejercicios/index.html
@@ -577,6 +577,8 @@ blog/quimica-examen-resuelto-septiembre-2023-modelo-1/index.html
 blog/quimica-examen-resuelto-septiembre-2023-modelo-2/index.html
 blog/quimica-examen-resuelto-septiembre-2023-modelo-3/index.html
 blog/quimica-examen-resuelto-septiembre-2023-modelo-4/index.html
+blog/r-analisis-datos-economia-regresion-diagnostico/index.html
+blog/r-series-temporales-economia-arima-prevision/index.html
 blog/r-spss-jamovi-python-programa-estadistico-universidad/index.html
 blog/regla-cadena-ejercicios-resueltos/index.html
 blog/regla-lhopital-cuando-usarla-ejercicios/index.html

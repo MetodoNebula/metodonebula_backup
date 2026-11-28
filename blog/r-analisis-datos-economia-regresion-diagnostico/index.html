@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="es-ES" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    />
+    <script type="module" crossorigin src="/assets/index-BMa6QyZ-.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CYPlftDS.css">
+      <title>R para análisis de datos económicos: regresión y diagnóstico</title>
+    <meta name="description" content="Tutorial de R para Economía: importar datos, limpiar valores perdidos, estimar una regresión lineal, diagnosticar residuos, interpretar coeficientes y predecir.">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://metodonebula.es/blog/r-analisis-datos-economia-regresion-diagnostico/">
+    <meta property="og:title" content="R para análisis de datos económicos: regresión y diagnóstico">
+    <meta property="og:description" content="Tutorial de R para Economía: importar datos, limpiar valores perdidos, estimar una regresión lineal, diagnosticar residuos, interpretar coeficientes y predecir.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://metodonebula.es/blog/r-analisis-datos-economia-regresion-diagnostico/">
+    <meta property="og:image" content="https://metodonebula.es/og-nebula.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="R para análisis de datos económicos: regresión y diagnóstico">
+    <meta name="twitter:description" content="Tutorial de R para Economía: importar datos, limpiar valores perdidos, estimar una regresión lineal, diagnosticar residuos, interpretar coeficientes y predecir.">
+    <meta name="twitter:image" content="https://metodonebula.es/og-nebula.png">
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"R para análisis de datos en Economía: regresión, diagnóstico y predicción reproducible","description":"Tutorial de R para Economía: importar datos, limpiar valores perdidos, estimar una regresión lineal, diagnosticar residuos, interpretar coeficientes y predecir.","articleSection":"Economía y ADE","keywords":"Economía y ADE, R y Economía","wordCount":1052,"author":{"@type":"EducationalOrganization","name":"Método Nebula","url":"https://metodonebula.es/"},"datePublished":"2026-11-28","dateModified":"2026-11-28","mainEntityOfPage":"https://metodonebula.es/blog/r-analisis-datos-economia-regresion-diagnostico/","inLanguage":"es-ES","publisher":{"@type":"EducationalOrganization","name":"Método Nebula","logo":{"@type":"ImageObject","url":"https://metodonebula.es/favicon.svg"}},"image":"https://metodonebula.es/og-nebula.png"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://metodonebula.es/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://metodonebula.es/blog/"},{"@type":"ListItem","position":3,"name":"R para análisis de datos en Economía: regresión, diagnóstico y predicción reproducible","item":"https://metodonebula.es/blog/r-analisis-datos-economia-regresion-diagnostico/"}]}</script>
+  </head>
+  <body>
+    <div id="root">
+    <main class="min-h-screen bg-background text-foreground antialiased">
+      <section class="relative overflow-hidden border-b border-white/5 px-6 py-16">
+        <div class="nebula-aurora pointer-events-none absolute inset-0 opacity-60"></div>
+        <div class="pointer-events-none absolute inset-x-0 bottom-0 h-px blog-title-line opacity-70"></div>
+        <div class="relative mx-auto max-w-7xl">
+          <nav aria-label="Migas de pan" class="text-sm text-muted-foreground"><a class="text-link transition-colors hover:text-link" href="/">Inicio</a> / <a class="text-link transition-colors hover:text-link" href="/blog/">Blog</a> / <span>R para análisis de datos en Economía: regresión, diagnóstico y predicción reproducible</span></nav>
+          <p class="mt-8 inline-flex rounded-full border px-3 py-1 text-sm uppercase tracking-[0.18em] border-spark/35 bg-spark/10 text-spark">Economía y ADE</p>
+          <h1 class="mt-5 max-w-4xl font-display text-4xl font-bold text-foreground">R para análisis de datos en Economía: regresión, diagnóstico y predicción reproducible</h1>
+          <p class="mt-5 max-w-2xl text-lg text-muted-foreground">Tutorial de R para Economía: importar datos, limpiar valores perdidos, estimar una regresión lineal, diagnosticar residuos, interpretar coeficientes y predecir.</p>
+        </div>
+      </section>
+      <section class="px-6 py-14">
+        <div class="mx-auto max-w-7xl [&_a]:font-medium [&_a]:text-link [&_a]:underline-offset-4 [&_a]:transition-colors [&_a:hover]:text-link">
+        
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
+      
+      <span>2026-11-28</span>
+      <span>5 min de lectura</span>
+    </div>
+  
+        
+        
+    <nav aria-label="Índice del artículo" class="mb-10 rounded-3xl border border-white/8 bg-white/[0.02] p-6 text-sm">
+      <p class="font-display font-semibold text-foreground">Índice</p>
+      <ol class="mt-4 space-y-2">
+        <li><a class="break-words text-link underline-offset-4 hover:underline" href="#el-ejemplo-economico-y-las-unidades">El ejemplo económico y las unidades</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#importar-y-revisar-antes-de-limpiar">Importar y revisar antes de limpiar</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#crear-variables-con-significado-economico">Crear variables con significado económico</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#estimar-una-regresion-multiple">Estimar una regresión múltiple</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#diagnostico-el-modelo-no-termina-en-summary">Diagnóstico: el modelo no termina en summary</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#interacciones-y-terminos-no-lineales">Interacciones y términos no lineales</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#prediccion-media-esperada-y-observacion-futura">Predicción: media esperada y observación futura</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#tabla-minima-de-resultados-reproducibles">Tabla mínima de resultados reproducibles</a></li>
+      </ol>
+    </nav>
+  
+        <article><p>En Economía, R es útil cuando el análisis se puede repetir y auditar: desde la importación hasta la tabla final, cada decisión queda escrita. Una regresión con una línea de código puede ser rápida; una regresión que documenta unidades, valores perdidos, diagnóstico y alcance de la predicción es defendible en una práctica, un TFG o un informe.</p>
+<blockquote class="my-6 border-l-2 border-action/70 bg-white/[0.02] py-2 pr-4 pl-5 text-foreground/80 italic"><strong>Objetivo de este artículo.</strong> Construir un flujo completo en R para estudiar ventas, precios y renta: importar una tabla, auditar datos, estimar un modelo lineal, revisar supuestos y realizar una predicción sin confundir asociación con causalidad.</blockquote>
+<h2 id="el-ejemplo-economico-y-las-unidades" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">El ejemplo económico y las unidades</h2>
+<p>Imagina una base mensual con las variables ventas, precio, renta y publicidad. Cada fila contiene un mes. Antes de modelar, establece las unidades: unidades vendidas, euros por unidad, índice de renta disponible e inversión publicitaria en miles de euros.</p>
+<p>Si cada fila es un mes, no puedes interpretar el resultado como si cada observación fuese un consumidor independiente. La frecuencia y el diseño condicionan qué significan los errores estándar y la causalidad.</p>
+<h2 id="importar-y-revisar-antes-de-limpiar" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Importar y revisar antes de limpiar</h2>
+<p>Para importar un CSV estándar:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">datos &lt;- read.csv(
+  &quot;ventas_mensuales.csv&quot;,
+  na.strings = c(&quot;&quot;, &quot;NA&quot;, &quot;.&quot;),
+  stringsAsFactors = FALSE
+)
+
+str(datos)
+summary(datos)
+colSums(is.na(datos))</code></pre>
+<p>No elimines valores perdidos solo porque impiden ejecutar lm. Primero averigua si son errores de carga, meses sin actividad, una variable no observada o un patrón relacionado con el resultado. Las decisiones de limpieza deben poder explicarse.</p>
+<p>Comprueba intervalos imposibles y duplicados:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">subset(datos, precio &lt;= 0 | ventas &lt; 0)
+sum(duplicated(datos))</code></pre>
+<p>Un precio cero puede significar promoción, dato faltante codificado como cero o un error. Cada caso requiere una respuesta distinta.</p>
+<h2 id="crear-variables-con-significado-economico" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Crear variables con significado económico</h2>
+<p>En muchos modelos de demanda interesa trabajar con logaritmos si las variables son positivas:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">datos$log_ventas &lt;- log(datos$ventas)
+datos$log_precio &lt;- log(datos$precio)
+datos$log_renta &lt;- log(datos$renta)</code></pre>
+<p>En un modelo log-log, el coeficiente de log_precio se interpreta aproximadamente como elasticidad: el cambio porcentual esperado en ventas ante un cambio porcentual en precio, manteniendo constantes los otros regresores. Esa lectura requiere explicar el dominio y no usar logaritmos sobre cero o números negativos.</p>
+<p>Para conservar explícita la muestra empleada:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">vars &lt;- c(&quot;log_ventas&quot;, &quot;log_precio&quot;, &quot;log_renta&quot;, &quot;publicidad&quot;)
+muestra &lt;- datos[complete.cases(datos[vars]), vars]
+nrow(muestra)</code></pre>
+<p>Anota cuántas filas has perdido y por qué. Cambiar de muestra entre modelos sin decirlo puede alterar resultados y comparaciones.</p>
+<h2 id="estimar-una-regresion-multiple" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Estimar una regresión múltiple</h2>
+<p>Un modelo lineal se ajusta con una fórmula:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">modelo &lt;- lm(
+  log_ventas ~ log_precio + log_renta + publicidad,
+  data = muestra
+)
+
+summary(modelo)
+coef(modelo)
+confint(modelo)</code></pre>
+<p>La fórmula se lee como respuesta a la izquierda y explicativas a la derecha. El resumen presenta coeficientes, errores estándar, estadísticos t y medidas globales, pero no sustituye una interpretación.</p>
+<p>Si el coeficiente de log_precio fuese -1.2, la lectura condicional sería: dentro de este modelo y esta muestra, un aumento del 1 % en precio se asocia con una caída aproximada del 1,2 % en ventas, manteniendo renta y publicidad constantes. No afirma automáticamente que subir el precio cause ese efecto: puede haber endogeneidad, estacionalidad u otras variables omitidas.</p>
+<h2 id="diagnostico-el-modelo-no-termina-en-summary" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Diagnóstico: el modelo no termina en summary</h2>
+<p>Los gráficos básicos del objeto lm muestran residuos frente a ajustados, normalidad aproximada, escala–localización e influencia:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">par(mfrow = c(2, 2))
+plot(modelo)
+par(mfrow = c(1, 1))</code></pre>
+<p>Busca patrones, no una estética perfecta. Una curvatura en residuos frente a valores ajustados puede indicar no linealidad; una dispersión que aumenta con el ajuste puede sugerir heterocedasticidad; puntos con gran influencia requieren revisión de datos y contexto.</p>
+<p>Extrae métricas específicas:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">res &lt;- residuals(modelo)
+ajustados &lt;- fitted(modelo)
+hatvalues(modelo)
+cooks.distance(modelo)</code></pre>
+<p>No borres una observación solo porque tiene una distancia de Cook alta. Comprueba si es un error, un episodio económico real o un caso que exige un modelo más adecuado.</p>
+<h2 id="interacciones-y-terminos-no-lineales" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Interacciones y términos no lineales</h2>
+<p>Si sospechas que el efecto de publicidad depende de la renta, expresa la interacción:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">m_interaccion &lt;- lm(
+  log_ventas ~ log_precio + log_renta * publicidad,
+  data = muestra
+)
+
+summary(m_interaccion)</code></pre>
+<p>El asterisco añade efectos principales e interacción. No interpretes un coeficiente de interacción aislado sin evaluar el efecto marginal en valores concretos de las variables implicadas.</p>
+<p>Para un término cuadrático de precio:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">m_cuadratico &lt;- lm(
+  log_ventas ~ log_precio + I(log_precio^2) + log_renta,
+  data = muestra
+)</code></pre>
+<p>La función I evita que el operador tenga el significado especial de la sintaxis de fórmulas. Este detalle evita muchos errores de prácticas.</p>
+<h2 id="prediccion-media-esperada-y-observacion-futura" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Predicción: media esperada y observación futura</h2>
+<p>Para estimar ventas esperadas en un escenario:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">nuevo &lt;- data.frame(
+  log_precio = log(12),
+  log_renta = log(105),
+  publicidad = 8
+)
+
+predict(modelo, newdata = nuevo, interval = &quot;confidence&quot;)
+predict(modelo, newdata = nuevo, interval = &quot;prediction&quot;)</code></pre>
+<p>El intervalo de confianza se refiere a la media esperada del modelo; el intervalo de predicción incluye además la variabilidad de una observación futura y suele ser más ancho. No intercambies ambas preguntas en un informe comercial o económico.</p>
+<p>Las etiquetas de las columnas en nuevo deben coincidir con las del modelo. Si has ajustado transformaciones, introdúcelas de la misma forma; no pases precio si el modelo se entrenó con log_precio.</p>
+<h2 id="tabla-minima-de-resultados-reproducibles" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Tabla mínima de resultados reproducibles</h2>
+<p>Un análisis entregable debería dejar claros:</p>
+<ol class="my-5 list-none space-y-2 pl-0"><li class="flex items-start gap-3 text-foreground/85"><span class="font-display text-sm font-semibold text-action">1.</span><span>Origen y frecuencia de los datos.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="font-display text-sm font-semibold text-action">2.</span><span>Definición y unidades de cada variable.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="font-display text-sm font-semibold text-action">3.</span><span>Reglas de limpieza y tamaño de la muestra final.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="font-display text-sm font-semibold text-action">4.</span><span>Fórmula del modelo.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="font-display text-sm font-semibold text-action">5.</span><span>Coeficientes con incertidumbre.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="font-display text-sm font-semibold text-action">6.</span><span>Diagnóstico de residuos e influencia.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="font-display text-sm font-semibold text-action">7.</span><span>Qué puede y qué no puede concluirse causalmente.</span></li></ol>
+<h2 id="errores-frecuentes-en-economia-con-r" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Errores frecuentes en Economía con R</h2>
+<ul class="my-5 space-y-2 pl-1"><li class="flex items-start gap-3 text-foreground/85"><span class="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-action"></span><span>Importar números con coma decimal sin comprobar cómo quedaron leídos.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-action"></span><span>Ajustar un modelo con valores perdidos sin declarar la muestra efectiva.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-action"></span><span>Interpretar un coeficiente log-log sin comprobar que todas las variables sean positivas.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-action"></span><span>Usar <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msup><mi>R</mi><mn>2</mn></msup></mrow><annotation encoding="application/x-tex">R^2</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.0077em;">R</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span></span></span></span> como prueba de causalidad.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-action"></span><span>Predecir fuera del rango de precio o renta observado sin advertir extrapolación.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-action"></span><span>Confundir intervalo de confianza con intervalo de predicción.</span></li><li class="flex items-start gap-3 text-foreground/85"><span class="mt-2.5 h-1.5 w-1.5 shrink-0 rounded-full bg-action"></span><span>Presentar una tabla de R sin explicar la unidad económica del coeficiente.</span></li></ul>
+<p>Para profundizar en la lectura econométrica, continúa con <a class="font-medium text-link underline underline-offset-4 transition-colors hover:text-link" href="/blog/econometria-desde-cero-interpretar-regresion/">cómo interpretar una regresión</a> y <a class="font-medium text-link underline underline-offset-4 transition-colors hover:text-link" href="/blog/regresion-multiple-r2-ajustado-multicolinealidad/">R² ajustado y multicolinealidad</a>. Las <a class="font-medium text-link underline underline-offset-4 transition-colors hover:text-link" href="/clases-particulares/economia-ade/">clases particulares de Economía y ADE</a> pueden trabajar datos reales, Econometría, Estadística o tu práctica en R.</p>
+<p>La sintaxis de lm, residuals y predict se basa en la <a class="font-medium text-link underline underline-offset-4 transition-colors hover:text-link" href="https://stat.ethz.ch/R-manual/R-devel/library/stats/html/lm.html">documentación oficial de R para modelos lineales</a> y <a class="font-medium text-link underline underline-offset-4 transition-colors hover:text-link" href="https://stat.ethz.ch/R-manual/R-devel/library/stats/html/predict.lm.html">predicciones de objetos lm</a>.</p></article>
+        <aside aria-label="Autor del artículo" class="mt-12 rounded-3xl border border-white/10 bg-white/[0.02] p-6">
+          <p class="text-xs font-medium uppercase tracking-[0.18em] text-spark">Autoría</p>
+          <h2 class="mt-2 font-display text-xl font-semibold">Método Nebula</h2>
+          <p class="mt-2 text-sm text-muted-foreground">Contenido revisado por el responsable docente de Método Nebula, graduado en Matemáticas, con formación de máster en Big Data e Inteligencia Artificial y experiencia docente y tecnológica.</p>
+          <p class="mt-4"><a href="/sobre-nebula/">Conocer el método y el perfil docente</a> · <a href="https://www.tusclasesparticulares.com/profesores/nebula-lambda.htm">Ver perfil profesional</a></p>
+        </aside>
+        <section class="mt-14 rounded-3xl border border-white/10 bg-white/[0.02] p-8 text-center">
+          <h2 class="font-display text-2xl font-semibold text-foreground">¿Quieres convertir esta idea en puntos de examen?</h2>
+          <p class="mx-auto mt-3 max-w-xl text-sm text-muted-foreground">El campus de Método Nebula reúne teoría estructurada, ejercicios graduados y exámenes resueltos dentro de un plan adaptado a tu nivel, tu temario y tu fecha.</p>
+          <p class="mt-6 flex flex-col justify-center gap-3 sm:flex-row"><a class="inline-flex items-center justify-center gap-2 rounded-full bg-action px-6 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-action/90" href="/campus/">Ver cómo funciona el Campus</a><a class="inline-flex items-center justify-center rounded-full border border-white/15 px-6 py-3 text-sm font-medium text-link transition-colors hover:border-white/30 hover:bg-white/[0.05]" href="/clases-particulares/economia-ade/">Ver apoyo relacionado</a></p>
+        </section>
+        <section class="mt-12 border-t border-white/5 pt-8 text-sm text-muted-foreground">Este artículo forma parte del clúster de <a href="/blog/categoria/economia-y-ade/">Economía y ADE</a>. Servicio relacionado: <a href="/clases-particulares/economia-ade/">Clases particulares de Economía y ADE</a>.</section>
+        <h2 id="lecturas-relacionadas" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Lecturas relacionadas</h2><div class="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+    <a href="/blog/econometria-desde-cero-interpretar-regresion/" class="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1">
+      
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
+      <span class="rounded-full border border-spark/40 bg-spark/10 px-3 py-1 font-medium uppercase tracking-[0.18em] text-spark">Estadística</span>
+      <span>2026-07-06</span>
+      <span>2 min de lectura</span>
+    </div>
+  
+      <h3 class="mt-5 font-display font-semibold leading-snug text-foreground text-lg transition-colors group-hover:text-spark">Econometría desde cero: cómo interpretar una regresión correctamente</h3>
+      <p class="mt-3 grow text-sm leading-relaxed text-muted-foreground">Guía de Econometría desde cero para interpretar una regresión: coeficientes, significación, R², supuestos y errores frecuentes.</p>
+      <span class="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">Leer entrada</span>
+    </a>
+  
+    <a href="/blog/regresion-multiple-r2-ajustado-multicolinealidad/" class="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1">
+      
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
+      <span class="rounded-full border border-spark/40 bg-spark/10 px-3 py-1 font-medium uppercase tracking-[0.18em] text-spark">Estadística</span>
+      <span>2026-11-10</span>
+      <span>2 min de lectura</span>
+    </div>
+  
+      <h3 class="mt-5 font-display font-semibold leading-snug text-foreground text-lg transition-colors group-hover:text-spark">Regresión múltiple: R² ajustado, multicolinealidad y diagnóstico del modelo</h3>
+      <p class="mt-3 grow text-sm leading-relaxed text-muted-foreground">Interpreta regresión múltiple con coeficientes, R² ajustado, residuos, VIF, multicolinealidad e intervalos de confianza.</p>
+      <span class="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">Leer entrada</span>
+    </a>
+  
+    <a href="/blog/van-tir-ejercicio-inversion-finanzas-ade/" class="nebula-card group flex h-full flex-col rounded-3xl p-7 transition-transform hover:-translate-y-1">
+      
+    <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
+      <span class="rounded-full border border-spark/40 bg-spark/10 px-3 py-1 font-medium uppercase tracking-[0.18em] text-spark">Economía y ADE</span>
+      <span>2026-11-25</span>
+      <span>3 min de lectura</span>
+    </div>
+  
+      <h3 class="mt-5 font-display font-semibold leading-snug text-foreground text-lg transition-colors group-hover:text-spark">VAN y TIR: cómo resolver un ejercicio de inversión en Finanzas para ADE</h3>
+      <p class="mt-3 grow text-sm leading-relaxed text-muted-foreground">Ejercicio resuelto de VAN y TIR para Finanzas en ADE: flujos de caja, tasa de descuento, decisión de inversión y errores habituales.</p>
+      <span class="mt-6 inline-flex items-center gap-2 text-sm font-medium text-link">Leer entrada</span>
+    </a>
+  </div>
+      </div>
+      </section>
+      <footer class="border-t border-white/5 px-6 py-8 text-sm text-muted-foreground">
+        <nav class="mx-auto flex max-w-7xl flex-wrap gap-x-5 gap-y-2" aria-label="Navegación secundaria">
+          <a class="text-link transition-colors hover:text-link" href="/mapa-del-sitio/">Mapa del sitio</a>
+          <a class="text-link transition-colors hover:text-link" href="/campus/">Campus virtual</a>
+          <a class="text-link transition-colors hover:text-link" href="/blog/">Blog</a>
+          <a class="text-link transition-colors hover:text-link" href="/clases-particulares/universidad/">Clases desde ESO</a>
+          <a class="text-link transition-colors hover:text-link" href="/contacto/">Contacto</a>
+        </nav>
+      </footer>
+    </main>
+  </div>
+  </body>
+</html>

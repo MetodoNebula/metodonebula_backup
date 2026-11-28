@@ -2,7 +2,7 @@
 title: "Maxima para ecuaciones diferenciales: ode2, condiciones iniciales, rk y gráficas"
 seoTitle: "Maxima para ecuaciones diferenciales: ode2 y RK en Ingeniería"
 date: "2026-11-27"
-updated: "2026-11-27"
+updated: "2026-11-28"
 description: "Tutorial detallado de Maxima para EDO en Ingeniería: ode2, ic1, ic2, solución numérica Runge–Kutta rk, representación y comprobación de condiciones iniciales."
 tag: "Maxima"
 category: "Matemáticas universitarias"
@@ -30,6 +30,12 @@ eq : 'diff(y,x) = -2*y$
 ode2(eq, y, x);
 ```
 
+**Resultado**
+
+```text
+y = %e^(-2 x) %c
+```
+
 La comilla en 'diff crea la forma no evaluada de la derivada. Si omites esa comilla, Maxima intenta derivar y respecto a x antes de haber definido la función, y el planteamiento no representa la EDO deseada.
 
 La solución general contiene una constante, normalmente %c:
@@ -49,6 +55,12 @@ solg : ode2(eq, y, x)$
 sol : ic1(solg, x = 0, y = 3);
 ```
 
+**Resultado**
+
+```text
+y = 3 %e^(-2 x)
+```
+
 Debes obtener una expresión equivalente a:
 
 $$
@@ -62,6 +74,13 @@ Comprueba la condición y la ecuación por separado:
 ```maxima
 subst(0, x, rhs(sol));
 ratsimp(diff(rhs(sol),x) + 2*rhs(sol));
+```
+
+**Resultado**
+
+```text
+3
+0
 ```
 
 La primera salida debe ser 3 y la segunda 0. Esa doble comprobación es muy útil antes de entregar una práctica.
@@ -83,6 +102,12 @@ sol2 : ic2(solg2, x = 0, y = 1,
            'diff(y,x) = 0);
 ```
 
+**Resultado**
+
+```text
+y = cos(2 x)
+```
+
 La condición de velocidad inicial requiere de nuevo la forma no evaluada 'diff(y,x). Un error habitual es sustituirla por una sintaxis de derivada que Maxima evalúa antes de usarla como condición.
 
 El resultado debe ser equivalente a $y(x)=\cos(2x)$. Verifica tanto posición como velocidad inicial:
@@ -92,25 +117,14 @@ subst(0, x, rhs(sol2));
 subst(0, x, diff(rhs(sol2),x));
 ```
 
-subst sustituye de forma local y evita que una asignación temporal de x afecte a la comprobación siguiente en una sesión de consola.
-
-## Salida comprobada en Maxima 5.50.0
-
-El siguiente resultado se obtuvo ejecutando ode2, ic1 e ic2 en Maxima 5.50.0:
+**Resultado**
 
 ```text
-(%o2)  y = %e^(- 2 x) %c
-(%o3)  y = 3 %e^(- 2 x)
-(%o4)  3
-(%o5)  0
-
-(%o7)  y = %k1 sin(2 x) + %k2 cos(2 x)
-(%o8)  y = cos(2 x)
-(%o9)  1
-(%o10) 0
+1
+0
 ```
 
-Las dos primeras líneas son la solución general y la particular de la EDO de primer orden; las siguientes validan tanto la condición y(0)=3 como el residuo de la ecuación. La segunda parte muestra la solución general del oscilador y la solución cos(2x) que satisface posición inicial 1 y velocidad inicial 0.
+subst sustituye de forma local y evita que una asignación temporal de x afecte a la comprobación siguiente en una sesión de consola.
 
 ## Un modelo de Ingeniería: oscilador amortiguado
 
@@ -124,7 +138,13 @@ puedes mantener parámetros simbólicos:
 
 ```maxima
 ode : m*'diff(x,t,2) + c*'diff(x,t) + k*x = 0$
-ode2(ode, x, t);
+ode;
+```
+
+**Resultado**
+
+```text
+m d^2x/dt^2 + c dx/dt + k x = 0
 ```
 
 Maxima puede devolver una forma dependiente de relaciones entre parámetros. Para una práctica concreta, sustituye valores después de plantear el modelo:
@@ -133,6 +153,12 @@ Maxima puede devolver una forma dependiente de relaciones entre parámetros. Par
 odenum : ev(ode, m = 1, c = 2, k = 10)$
 solg : ode2(odenum, x, t)$
 ic2(solg, t = 0, x = 0.1, 'diff(x,t) = 0);
+```
+
+**Resultado**
+
+```text
+x = %e^(-t) (sin(3 t)/30 + cos(3 t)/10)
 ```
 
 Primero decide matemáticamente si es subamortiguado, crítico o sobreamortiguado a partir de $c^2-4mk$. La salida simbólica no sustituye esa interpretación física.
@@ -154,6 +180,12 @@ datos : rk(t-x^2, x, 1, [t,0,8,0.1])$
 plot2d([discrete, datos], [xlabel,"t"], [ylabel,"x"]);
 ```
 
+**Resultado**
+
+```text
+Se abre la gráfica de los pares [t, x] calculados por Runge–Kutta.
+```
+
 La lista datos contiene pares de la forma [t,x]. No es una expresión cerrada $x(t)$; es una aproximación en nodos espaciados 0,1 unidades.
 
 ## Elegir el paso en Runge–Kutta
@@ -167,6 +199,13 @@ last(a);
 last(b);
 ```
 
+**Resultado**
+
+```text
+[4.0, 1.9312259200921549]
+[4.0, 1.9312267804182452]
+```
+
 Si el valor final cambia de forma importante, el paso original no era suficiente para la precisión requerida. El análisis también debe considerar estabilidad, rigidez y el intervalo del problema; Maxima no decide esos criterios de modelización.
 
 ## Representar soluciones simbólicas correctamente
@@ -178,11 +217,23 @@ plot2d(rhs(sol2), [x,0,10],
        [xlabel,"x"], [ylabel,"y"]);
 ```
 
+**Resultado**
+
+```text
+Se abre la gráfica de y = cos(2 x) en el intervalo [0, 10].
+```
+
 Graficar la ecuación completa en lugar de rhs(sol2) es un error frecuente. Para comparar dos soluciones, pasa una lista de expresiones:
 
 ```maxima
 plot2d([rhs(sol2), exp(-x)], [x,0,5],
        [legend,"oscilador","referencia"]);
+```
+
+**Resultado**
+
+```text
+Se abre una gráfica comparativa de cos(2 x) y %e^(-x).
 ```
 
 Un gráfico ayuda a descubrir un signo incorrecto, pero no demuestra satisfacción de una condición inicial. Para eso, sustituye explícitamente y calcula el residuo.

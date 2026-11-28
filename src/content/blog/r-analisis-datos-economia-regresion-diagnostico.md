@@ -89,9 +89,9 @@ La fórmula se lee como respuesta a la izquierda y explicativas a la derecha. El
 
 Si el coeficiente de log_precio fuese -1.2, la lectura condicional sería: dentro de este modelo y esta muestra, un aumento del 1 % en precio se asocia con una caída aproximada del 1,2 % en ventas, manteniendo renta y publicidad constantes. No afirma automáticamente que subir el precio cause ese efecto: puede haber endogeneidad, estacionalidad u otras variables omitidas.
 
-## Ejemplo ejecutado en R: código y salida verificable
+## Ejemplo práctico: regresión, predicción y error
 
-Para que el resultado no dependa de un archivo externo, este ejemplo crea una muestra determinista de 20 observaciones. Se ejecutó con R 4.5.2 antes de publicar el artículo:
+Para que el ejemplo no dependa de un archivo externo, se crea una muestra didáctica de 20 observaciones. Cada bloque muestra su resultado inmediatamente después.
 
 ```r
 datos <- data.frame(
@@ -108,31 +108,57 @@ datos$log_ventas <- log(datos$ventas)
 datos$log_precio <- log(datos$precio)
 datos$log_renta <- log(datos$renta)
 
+round(datos[1:2, c("ventas", "log_ventas", "log_precio", "log_renta")], 4)
+```
+
+**Resultado**
+
+```text
+  ventas log_ventas log_precio log_renta
+1    118     4.7707     2.3795    4.6052
+2    123     4.8122     2.3609    4.6151
+```
+
+```r
 modelo <- lm(
   log_ventas ~ log_precio + log_renta + publicidad,
   data = datos
 )
 
+round(coef(modelo), 4)
+```
+
+**Resultado**
+
+```text
+(Intercept)  log_precio   log_renta  publicidad
+     4.2272     -2.3154      1.2925      0.0305
+```
+
+```r
 nuevo <- data.frame(
   log_precio = log(9.2),
   log_renta = log(117),
   publicidad = 9
 )
 
-round(coef(modelo), 4)
 round(predict(modelo, nuevo, interval = "prediction"), 4)
+```
+
+**Resultado**
+
+```text
+    fit    lwr    upr
+1 5.518 5.3976 5.6385
+```
+
+```r
 round(sqrt(mean(residuals(modelo)^2)), 4)
 ```
 
-La consola de R produjo:
+**Resultado**
 
 ```text
-(Intercept)  log_precio   log_renta  publicidad
-     4.2272     -2.3154      1.2925      0.0305
-
-    fit    lwr    upr
-1 5.518 5.3976 5.6385
-
 [1] 0.0241
 ```
 

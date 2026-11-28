@@ -2,7 +2,7 @@
 title: "Maxima para Cálculo en Ingeniería: límites, derivadas, integrales y comprobación de resultados"
 seoTitle: "Maxima para Cálculo: límites, derivadas e integrales en Ingeniería"
 date: "2026-11-27"
-updated: "2026-11-27"
+updated: "2026-11-28"
 description: "Tutorial práctico de Maxima para Cálculo de Ingeniería: sintaxis de límites, derivadas, integrales definidas e impropias, simplificación y verificación de resultados."
 tag: "Maxima"
 category: "Matemáticas universitarias"
@@ -20,8 +20,14 @@ Maxima es especialmente útil en Cálculo cuando se usa como verificador de un p
 Maxima termina cada instrucción con punto y coma para mostrar el resultado o con dólar para ejecutarla sin imprimirlo:
 
 ```maxima
-f(x) : x^3*exp(-x)$
+f(x) := x^3*exp(-x)$
 f(2);
+```
+
+**Resultado**
+
+```text
+8 %e^-2
 ```
 
 Usa asterisco para multiplicar y paréntesis cuando una expresión pueda interpretarse de más de una forma. Por ejemplo, escribe 1/(x+1), no 1/x+1, si quieres el inverso de toda la suma.
@@ -31,6 +37,12 @@ Las asignaciones se hacen con dos puntos. La igualdad matemática se escribe con
 ```maxima
 a : 3$
 solve(a*x = 12, x);
+```
+
+**Resultado**
+
+```text
+[x = 4]
 ```
 
 La segunda línea resuelve una ecuación; no reasigna la variable x.
@@ -43,6 +55,12 @@ Para calcular un límite bilateral:
 limit((sin(x)-x)/x^3, x, 0);
 ```
 
+**Resultado**
+
+```text
+- 1/6
+```
+
 El resultado es $-1/6$. Antes de abrir Maxima, identifica la forma $0/0$ y piensa qué método usarías en un examen: desarrollo de Taylor o L'Hôpital. Después, usa el resultado para comprobar el signo y el factor.
 
 Para límites laterales:
@@ -52,12 +70,25 @@ limit(1/x, x, 0, plus);
 limit(1/x, x, 0, minus);
 ```
 
+**Resultado**
+
+```text
+inf
+minf
+```
+
 Si los resultados difieren, el límite bilateral no existe. No escribas solo el que devuelve una calculadora: el sentido de aproximación forma parte del problema.
 
 Para infinito se utilizan inf y minf:
 
 ```maxima
 limit((3*x^2-x+1)/(x^2+4), x, inf);
+```
+
+**Resultado**
+
+```text
+3
 ```
 
 ## Derivadas y derivadas parciales
@@ -69,10 +100,22 @@ g : x^2*log(x)$
 diff(g, x);
 ```
 
+**Resultado**
+
+```text
+2 x log(x) + x
+```
+
 Para una derivada segunda:
 
 ```maxima
 diff(g, x, 2);
+```
+
+**Resultado**
+
+```text
+2 log(x) + 3
 ```
 
 En varias variables, puedes encadenar pares variable–orden:
@@ -82,11 +125,23 @@ u : x^2*y^3 + sin(x*y)$
 diff(u, x, 2, y, 1);
 ```
 
+**Resultado**
+
+```text
+- 2 y sin(x y) - x y^2 cos(x y) + 6 y^2
+```
+
 Una comprobación potente de una integral es derivar tu resultado y simplificar la diferencia:
 
 ```maxima
 F : x^2*log(x)/2 - x^2/4$
 ratsimp(diff(F, x) - x*log(x));
+```
+
+**Resultado**
+
+```text
+0
 ```
 
 Si Maxima devuelve 0, has verificado la derivada en el sentido simbólico. Eso no sustituye revisar el dominio: $x\log x$ requiere $x>0$ en el contexto real habitual.
@@ -97,6 +152,12 @@ Para pedir una primitiva:
 
 ```maxima
 integrate(x*log(x), x);
+```
+
+**Resultado**
+
+```text
+x^2 log(x)/2 - x^2/4
 ```
 
 No des por hecho que toda salida está resuelta. Maxima puede dejar una forma nominal, reconocible por una integral sin evaluar. En ese caso, prueba a simplificar la expresión, factorizar o cambiar de estrategia matemática. La documentación oficial indica que integrate reconoce varios casos especiales, pero no garantiza una forma cerrada para cualquier integrando.
@@ -117,10 +178,22 @@ La sintaxis de una integral definida es:
 integrate(exp(-x^2), x, 0, 1);
 ```
 
+**Resultado**
+
+```text
+sqrt(%pi) erf(1)/2
+```
+
 Para una impropia en infinito:
 
 ```maxima
 integrate(1/(1+x^2), x, 0, inf);
+```
+
+**Resultado**
+
+```text
+%pi/2
 ```
 
 No confundas que Maxima produzca un valor con haber demostrado convergencia. En una práctica o examen, justifica por qué el extremo impropio se interpreta mediante un límite y revisa discontinuidades internas.
@@ -128,7 +201,14 @@ No confundas que Maxima produzca un valor con haber demostrado convergencia. En 
 Por ejemplo, para una integral con singularidad en cero, separa el análisis matemático de la orden:
 
 ```maxima
-limit(integrate(x^(-p), x, a, 1), a, 0, plus);
+assume(p > 0, p < 1)$
+limit((1-a^(1-p))/(1-p), a, 0, plus);
+```
+
+**Resultado**
+
+```text
+1/(1 - p)
 ```
 
 Aquí tú decides después para qué valores de $p$ existe ese límite.
@@ -143,27 +223,13 @@ D : x$
 limit(diff(N,x)/diff(D,x), x, 0);
 ```
 
-Solo tiene sentido después de haber verificado que la forma inicial es $0/0$ o $\infty/\infty$, y que las condiciones del teorema son aplicables. En la solución escrita, explica la indeterminación y muestra cada paso relevante; no pegues la salida del programa.
-
-## Salida comprobada en Maxima 5.50.0
-
-Los siguientes comandos del artículo se ejecutaron en Maxima 5.50.0. La sesión devolvió:
+**Resultado**
 
 ```text
-(%o1)  - 1/6
-(%o2)  inf
-(%o3)  minf
-(%o4)  2 x log(x) + x
-
-         x^2 log(x)   x^2
-(%o5)  ──────────── - ───
-              2         4
-
-(%o6)  0
-(%o7)  %pi/2
+1
 ```
 
-Los resultados corresponden, por este orden, al límite de (sin(x)-x)/x^3, los límites laterales de 1/x, la derivada de x^2 log(x), la integral de x log(x), su verificación por derivación y la integral impropia de 1/(1+x^2). Esto permite usar Maxima como control efectivo del cálculo manual, sin sustituir el análisis de dominio o convergencia.
+Solo tiene sentido después de haber verificado que la forma inicial es $0/0$ o $\infty/\infty$, y que las condiciones del teorema son aplicables. En la solución escrita, explica la indeterminación y muestra cada paso relevante; no pegues la salida del programa.
 
 ## Sustitución numérica, precisión y gráficos
 
@@ -171,7 +237,13 @@ Con una expresión simbólica, ev permite evaluar bajo condiciones. Para obtener
 
 ```maxima
 h : integrate(sin(x)/x, x, 0, 1)$
-ev(h, numer);
+float(rectform(ev(h, numer)));
+```
+
+**Resultado**
+
+```text
+0.946083070367183
 ```
 
 Para explorar el comportamiento de una función antes de resolver un problema de optimización:
@@ -179,6 +251,12 @@ Para explorar el comportamiento de una función antes de resolver un problema de
 ```maxima
 plot2d([sin(x)/x, 1-x^2/6], [x,-4,4],
        [legend, "sin(x)/x", "Taylor orden 2"]);
+```
+
+**Resultado**
+
+```text
+Se abre una gráfica con sin(x)/x y su aproximación de Taylor de orden 2.
 ```
 
 El gráfico sirve para detectar una escala absurda o una aproximación local que se usa demasiado lejos de su centro. No prueba una igualdad matemática.

@@ -126,9 +126,9 @@ modelo
 
 La diferenciación d igual a 1 combate una tendencia estocástica; D igual a 1 en la parte estacional aplica una diferencia a doce meses. No diferencies por rutina: una diferenciación excesiva puede introducir dependencia artificial y hacer el modelo más difícil de interpretar.
 
-## Ejemplo ejecutado en R: STL, ARIMA y salida reproducible
+## Ejemplo práctico: STL, ARIMA y previsión a tres meses
 
-El siguiente ejemplo genera 96 meses de datos con una semilla fija. Se ejecutó con R 4.5.2; por eso las componentes, coeficientes y previsiones que aparecen después no son deducciones manuales, sino la salida del programa:
+El siguiente ejemplo genera 96 meses de datos con una semilla fija. Cada bloque incorpora el resultado que produce para que puedas contrastar tu consola paso a paso.
 
 ```r
 set.seed(20261128)
@@ -140,32 +140,46 @@ log_ventas <- log(ventas_ts)
 
 stl_ventas <- stl(log_ventas, s.window = "periodic")
 
+round(tail(stl_ventas$time.series, 1), 4)
+```
+
+**Resultado**
+
+```text
+         seasonal  trend remainder
+Dec 2025   0.0083 5.6176    0.0131
+```
+
+```r
 modelo <- arima(
   log_ventas,
   order = c(1, 1, 0),
   seasonal = list(order = c(0, 1, 1), period = 12)
 )
 
-pred <- predict(modelo, n.ahead = 3)
-
-round(tail(stl_ventas$time.series, 1), 4)
 round(modelo$coef, 4)
 round(modelo$aic, 4)
-round(pred$pred, 4)
-round(pred$se, 4)
 ```
 
-La salida obtenida fue:
+**Resultado**
 
 ```text
-         seasonal  trend remainder
-Dec 2025   0.0083 5.6176    0.0131
-
     ar1    sma1
 -0.5088 -0.8445
 
 [1] -385.688
+```
 
+```r
+pred <- predict(modelo, n.ahead = 3)
+
+round(pred$pred, 4)
+round(pred$se, 4)
+```
+
+**Resultado**
+
+```text
         Jan    Feb    Mar
 2026 5.6842 5.7042 5.7288
 

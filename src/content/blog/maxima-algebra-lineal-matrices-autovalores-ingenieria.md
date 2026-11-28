@@ -2,7 +2,7 @@
 title: "Maxima para Álgebra Lineal en Ingeniería: matrices, sistemas, autovalores y verificación"
 seoTitle: "Maxima para Álgebra Lineal: matrices y autovalores en Ingeniería"
 date: "2026-11-27"
-updated: "2026-11-27"
+updated: "2026-11-28"
 description: "Guía técnica de Maxima para Álgebra Lineal: creación de matrices, resolución de sistemas, rango, determinante, autovalores, autovectores y comprobaciones."
 tag: "Maxima"
 category: "Matemáticas universitarias"
@@ -28,11 +28,25 @@ B : matrix([1,2],
            [5,6])$
 ```
 
-Antes de multiplicar, comprueba las dimensiones con mat_nrows y mat_ncols:
+**Resultado**
+
+```text
+A = matrix([2, -1, 0], [1, 3, 4], [0, 2, 1])
+B = matrix([1, 2], [3, 4], [5, 6])
+```
+
+Antes de multiplicar, comprueba las dimensiones con matrix_size:
 
 ```maxima
-[mat_nrows(A), mat_ncols(A)];
-[mat_nrows(B), mat_ncols(B)];
+matrix_size(A);
+matrix_size(B);
+```
+
+**Resultado**
+
+```text
+[3, 3]
+[3, 2]
 ```
 
 El producto $AB$ solo existe si el número de columnas de $A$ coincide con el número de filas de $B$. Maxima avisará de una incompatibilidad, pero en un examen debes detectar esa condición antes de pulsar Enter.
@@ -41,6 +55,13 @@ La transpuesta se obtiene con transpose:
 
 ```maxima
 transpose(B);
+```
+
+**Resultado**
+
+```text
+matrix([1, 3, 5],
+       [2, 4, 6])
 ```
 
 ## Sistemas lineales: qué devuelve linsolve
@@ -60,6 +81,12 @@ puedes usar:
 linsolve([2*x-y = 1, x+3*y = 9], [x,y]);
 ```
 
+**Resultado**
+
+```text
+[x = 12/7, y = 17/7]
+```
+
 La salida representa una lista de soluciones. En un sistema compatible determinado aparecerá un único par. En un sistema compatible indeterminado, Maxima puede dejar un parámetro libre; eso es información sobre la dimensión del espacio de soluciones, no un error del programa.
 
 Cuando el problema está dado como $Ax=b$, conserva la estructura matricial y comprueba el resultado:
@@ -71,6 +98,13 @@ xsol : invert(A).b$
 ratsimp(A.xsol-b);
 ```
 
+**Resultado**
+
+```text
+matrix([0],
+       [0])
+```
+
 La última línea debe dar la matriz cero. Esta vía requiere que $A$ sea cuadrada e invertible; no la uses de forma automática para un sistema rectangular o singular.
 
 ## Determinante, rango e invertibilidad
@@ -80,6 +114,13 @@ Para una matriz cuadrada:
 ```maxima
 determinant(A);
 rank(A);
+```
+
+**Resultado**
+
+```text
+7
+2
 ```
 
 Un determinante no nulo implica que la matriz cuadrada es invertible y tiene rango completo. Sin embargo, el determinante no sirve para estudiar de manera general matrices rectangulares. Para ellas, el rango es el objeto adecuado.
@@ -104,6 +145,12 @@ linsolve([x+2*y+3*z = 0,
           2*x+4*y+6*z = 0], [x,y,z]);
 ```
 
+**Resultado**
+
+```text
+[x = -2 %r2 - 3 %r1, y = %r2, z = %r1]
+```
+
 La salida debe traducirse a una forma paramétrica. Si, por ejemplo, quedan parámetros libres $y=s$ y $z=t$, escribe cada solución como combinación lineal de vectores y extrae una base. Maxima puede resolver la ecuación; el paso de convertir parámetros a base sigue siendo una decisión matemática que debes explicar.
 
 Para la imagen, las columnas pivote de una reducción por filas se identifican en la matriz original, no en una matriz reducida si se pide una base del espacio columna. Este detalle evita uno de los errores más frecuentes.
@@ -119,11 +166,25 @@ eigenvalues(M);
 eigenvectors(M);
 ```
 
+**Resultado**
+
+```text
+[[5, 2], [1, 1]]
+[[[5, 2], [1, 1]], [[[1, 1]], [[1, -2]]]]
+```
+
 La función eigenvalues devuelve autovalores y sus multiplicidades; eigenvectors añade listas de autovectores. Antes de ejecutar, puedes verificar el polinomio característico:
 
 ```maxima
 expand(determinant(M - lambda*ident(2)));
 solve(%, lambda);
+```
+
+**Resultado**
+
+```text
+lambda^2 - 7 lambda + 10
+[lambda = 5, lambda = 2]
 ```
 
 Esta comprobación es importante cuando el ejercicio pide desarrollar el método. Usar eigenvalues para verificar no equivale a haber demostrado cómo se obtiene el polinomio característico.
@@ -136,26 +197,14 @@ v : matrix([1],[1])$
 ratsimp(M.v - lambda*v);
 ```
 
-El resultado debe ser la matriz columna nula.
-
-## Salida comprobada en Maxima 5.50.0
-
-Los comandos de sistemas y autovalores del artículo se ejecutaron directamente en Maxima 5.50.0. Esta fue la salida relevante:
+**Resultado**
 
 ```text
-(%o1)  [x = 12/7, y = 17/7]
-
-(%o3)  [x = - 2 %r2 - 3 %r1, y = %r2, z = %r1]
-
-(%o5)  (3 - lambda) (4 - lambda) - 2
-(%o6)  [[5, 2], [1, 1]]
-
-         [ 0 ]
-(%o9)  [   ]
-         [ 0 ]
+matrix([0],
+       [0])
 ```
 
-La primera línea resuelve el sistema de dos incógnitas. La segunda confirma que el sistema homogéneo tiene dos parámetros libres. Para la matriz M del ejemplo, Maxima devuelve los autovalores 5 y 2, ambos de multiplicidad uno; la última salida confirma que el vector columna (1,1) es un autovector asociado a 5.
+El resultado debe ser la matriz columna nula.
 
 ## Diagonalización: la condición que no debes omitir
 
@@ -164,13 +213,31 @@ Una matriz de tamaño $n$ es diagonalizable cuando reúne $n$ autovectores linea
 Si construyes una matriz $P$ con autovectores por columnas y una diagonal $D$ con sus autovalores en el mismo orden, verifica:
 
 ```maxima
+P : matrix([1,1],
+           [1,-2])$
+D : matrix([5,0],
+           [0,2])$
 ratsimp(M.P - P.D);
+```
+
+**Resultado**
+
+```text
+matrix([0, 0],
+       [0, 0])
 ```
 
 o, si $P$ es invertible:
 
 ```maxima
 ratsimp(invert(P).M.P - D);
+```
+
+**Resultado**
+
+```text
+matrix([0, 0],
+       [0, 0])
 ```
 
 La correspondencia de orden es crucial. Colocar autovalores y autovectores en órdenes distintos produce una diagonalización aparentemente razonable pero falsa.

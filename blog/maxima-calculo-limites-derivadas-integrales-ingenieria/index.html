@@ -10,7 +10,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
     />
-    <script type="module" crossorigin src="/assets/index-sAMZYBap.js"></script>
+    <script type="module" crossorigin src="/assets/index-xsSm_bdL.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CYPlftDS.css">
       <title>Maxima para Cálculo: límites, derivadas e integrales en Ingeniería</title>
     <meta name="description" content="Tutorial práctico de Maxima para Cálculo de Ingeniería: sintaxis de límites, derivadas, integrales definidas e impropias, simplificación y verificación de resultados.">
@@ -27,7 +27,7 @@
     <meta name="twitter:title" content="Maxima para Cálculo: límites, derivadas e integrales en Ingeniería">
     <meta name="twitter:description" content="Tutorial práctico de Maxima para Cálculo de Ingeniería: sintaxis de límites, derivadas, integrales definidas e impropias, simplificación y verificación de resultados.">
     <meta name="twitter:image" content="https://metodonebula.es/og-nebula.png">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Maxima para Cálculo en Ingeniería: límites, derivadas, integrales y comprobación de resultados","description":"Tutorial práctico de Maxima para Cálculo de Ingeniería: sintaxis de límites, derivadas, integrales definidas e impropias, simplificación y verificación de resultados.","articleSection":"Matemáticas universitarias","keywords":"Matemáticas universitarias, Maxima","wordCount":890,"author":{"@type":"EducationalOrganization","name":"Método Nebula","url":"https://metodonebula.es/"},"datePublished":"2026-11-27","dateModified":"2026-11-27","mainEntityOfPage":"https://metodonebula.es/blog/maxima-calculo-limites-derivadas-integrales-ingenieria/","inLanguage":"es-ES","publisher":{"@type":"EducationalOrganization","name":"Método Nebula","logo":{"@type":"ImageObject","url":"https://metodonebula.es/favicon.svg"}},"image":"https://metodonebula.es/og-nebula.png"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Maxima para Cálculo en Ingeniería: límites, derivadas, integrales y comprobación de resultados","description":"Tutorial práctico de Maxima para Cálculo de Ingeniería: sintaxis de límites, derivadas, integrales definidas e impropias, simplificación y verificación de resultados.","articleSection":"Matemáticas universitarias","keywords":"Matemáticas universitarias, Maxima","wordCount":990,"author":{"@type":"EducationalOrganization","name":"Método Nebula","url":"https://metodonebula.es/"},"datePublished":"2026-11-27","dateModified":"2026-11-27","mainEntityOfPage":"https://metodonebula.es/blog/maxima-calculo-limites-derivadas-integrales-ingenieria/","inLanguage":"es-ES","publisher":{"@type":"EducationalOrganization","name":"Método Nebula","logo":{"@type":"ImageObject","url":"https://metodonebula.es/favicon.svg"}},"image":"https://metodonebula.es/og-nebula.png"}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://metodonebula.es/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://metodonebula.es/blog/"},{"@type":"ListItem","position":3,"name":"Maxima para Cálculo en Ingeniería: límites, derivadas, integrales y comprobación de resultados","item":"https://metodonebula.es/blog/maxima-calculo-limites-derivadas-integrales-ingenieria/"}]}</script>
   </head>
   <body>
@@ -49,7 +49,7 @@
     <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
       
       <span>2026-11-27</span>
-      <span>4 min de lectura</span>
+      <span>5 min de lectura</span>
     </div>
   
         
@@ -57,7 +57,7 @@
     <nav aria-label="Índice del artículo" class="mb-10 rounded-3xl border border-white/8 bg-white/[0.02] p-6 text-sm">
       <p class="font-display font-semibold text-foreground">Índice</p>
       <ol class="mt-4 space-y-2">
-        <li><a class="break-words text-link underline-offset-4 hover:underline" href="#antes-de-ejecutar-reglas-minimas-de-sintaxis">Antes de ejecutar: reglas mínimas de sintaxis</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#limites-confirmar-una-hipotesis-no-sustituirla">Límites: confirmar una hipótesis, no sustituirla</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#derivadas-y-derivadas-parciales">Derivadas y derivadas parciales</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#integrales-indefinidas-verifica-y-mira-si-queda-sin-evaluar">Integrales indefinidas: verifica y mira si queda sin evaluar</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#integral-definida-e-impropia">Integral definida e impropia</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#l-hopital-usalo-como-contraste-no-como-atajo-automatico">L'Hôpital: úsalo como contraste, no como atajo automático</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#sustitucion-numerica-precision-y-graficos">Sustitución numérica, precisión y gráficos</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#errores-concretos-que-bloquean-ejercicios">Errores concretos que bloquean ejercicios</a></li>
+        <li><a class="break-words text-link underline-offset-4 hover:underline" href="#antes-de-ejecutar-reglas-minimas-de-sintaxis">Antes de ejecutar: reglas mínimas de sintaxis</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#limites-confirmar-una-hipotesis-no-sustituirla">Límites: confirmar una hipótesis, no sustituirla</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#derivadas-y-derivadas-parciales">Derivadas y derivadas parciales</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#integrales-indefinidas-verifica-y-mira-si-queda-sin-evaluar">Integrales indefinidas: verifica y mira si queda sin evaluar</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#integral-definida-e-impropia">Integral definida e impropia</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#l-hopital-usalo-como-contraste-no-como-atajo-automatico">L'Hôpital: úsalo como contraste, no como atajo automático</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#salida-comprobada-en-maxima-5-50-0">Salida comprobada en Maxima 5.50.0</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#sustitucion-numerica-precision-y-graficos">Sustitución numérica, precisión y gráficos</a></li>
       </ol>
     </nav>
   
@@ -116,6 +116,20 @@ ratsimp(diff(F, x) - x*log(x));</code></pre>
 D : x$
 limit(diff(N,x)/diff(D,x), x, 0);</code></pre>
 <p>Solo tiene sentido después de haber verificado que la forma inicial es <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>0</mn><mi mathvariant="normal">/</mi><mn>0</mn></mrow><annotation encoding="application/x-tex">0/0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">0/0</span></span></span></span> o <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi mathvariant="normal">∞</mi><mi mathvariant="normal">/</mi><mi mathvariant="normal">∞</mi></mrow><annotation encoding="application/x-tex">\infty/\infty</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord">∞/∞</span></span></span></span>, y que las condiciones del teorema son aplicables. En la solución escrita, explica la indeterminación y muestra cada paso relevante; no pegues la salida del programa.</p>
+<h2 id="salida-comprobada-en-maxima-5-50-0" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Salida comprobada en Maxima 5.50.0</h2>
+<p>Los siguientes comandos del artículo se ejecutaron en Maxima 5.50.0. La sesión devolvió:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">(%o1)  - 1/6
+(%o2)  inf
+(%o3)  minf
+(%o4)  2 x log(x) + x
+
+         x^2 log(x)   x^2
+(%o5)  ──────────── - ───
+              2         4
+
+(%o6)  0
+(%o7)  %pi/2</code></pre>
+<p>Los resultados corresponden, por este orden, al límite de (sin(x)-x)/x^3, los límites laterales de 1/x, la derivada de x^2 log(x), la integral de x log(x), su verificación por derivación y la integral impropia de 1/(1+x^2). Esto permite usar Maxima como control efectivo del cálculo manual, sin sustituir el análisis de dominio o convergencia.</p>
 <h2 id="sustitucion-numerica-precision-y-graficos" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Sustitución numérica, precisión y gráficos</h2>
 <p>Con una expresión simbólica, ev permite evaluar bajo condiciones. Para obtener una aproximación decimal, usa numer:</p>
 <pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">h : integrate(sin(x)/x, x, 0, 1)$

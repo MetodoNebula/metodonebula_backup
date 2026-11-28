@@ -38800,6 +38800,25 @@ ratsimp(M.v - lambda*v);
 
 El resultado debe ser la matriz columna nula.
 
+## Salida comprobada en Maxima 5.50.0
+
+Los comandos de sistemas y autovalores del artículo se ejecutaron directamente en Maxima 5.50.0. Esta fue la salida relevante:
+
+\`\`\`text
+(%o1)  [x = 12/7, y = 17/7]
+
+(%o3)  [x = - 2 %r2 - 3 %r1, y = %r2, z = %r1]
+
+(%o5)  (3 - lambda) (4 - lambda) - 2
+(%o6)  [[5, 2], [1, 1]]
+
+         [ 0 ]
+(%o9)  [   ]
+         [ 0 ]
+\`\`\`
+
+La primera línea resuelve el sistema de dos incógnitas. La segunda confirma que el sistema homogéneo tiene dos parámetros libres. Para la matriz M del ejemplo, Maxima devuelve los autovalores 5 y 2, ambos de multiplicidad uno; la última salida confirma que el vector columna (1,1) es un autovector asociado a 5.
+
 ## Diagonalización: la condición que no debes omitir
 
 Una matriz de tamaño $n$ es diagonalizable cuando reúne $n$ autovectores linealmente independientes. No basta con que tenga autovalores.
@@ -38982,6 +39001,26 @@ limit(diff(N,x)/diff(D,x), x, 0);
 
 Solo tiene sentido después de haber verificado que la forma inicial es $0/0$ o $\\infty/\\infty$, y que las condiciones del teorema son aplicables. En la solución escrita, explica la indeterminación y muestra cada paso relevante; no pegues la salida del programa.
 
+## Salida comprobada en Maxima 5.50.0
+
+Los siguientes comandos del artículo se ejecutaron en Maxima 5.50.0. La sesión devolvió:
+
+\`\`\`text
+(%o1)  - 1/6
+(%o2)  inf
+(%o3)  minf
+(%o4)  2 x log(x) + x
+
+         x^2 log(x)   x^2
+(%o5)  ──────────── - ───
+              2         4
+
+(%o6)  0
+(%o7)  %pi/2
+\`\`\`
+
+Los resultados corresponden, por este orden, al límite de (sin(x)-x)/x^3, los límites laterales de 1/x, la derivada de x^2 log(x), la integral de x log(x), su verificación por derivación y la integral impropia de 1/(1+x^2). Esto permite usar Maxima como control efectivo del cálculo manual, sin sustituir el análisis de dominio o convergencia.
+
 ## Sustitución numérica, precisión y gráficos
 
 Con una expresión simbólica, ev permite evaluar bajo condiciones. Para obtener una aproximación decimal, usa numer:
@@ -39075,7 +39114,7 @@ No confundas el segundo argumento de ic1 con una sustitución libre. La estructu
 Comprueba la condición y la ecuación por separado:
 
 \`\`\`maxima
-ev(rhs(sol), x = 0);
+subst(0, x, rhs(sol));
 ratsimp(diff(rhs(sol),x) + 2*rhs(sol));
 \`\`\`
 
@@ -39103,9 +39142,29 @@ La condición de velocidad inicial requiere de nuevo la forma no evaluada 'diff(
 El resultado debe ser equivalente a $y(x)=\\cos(2x)$. Verifica tanto posición como velocidad inicial:
 
 \`\`\`maxima
-ev(rhs(sol2), x = 0);
-ev(diff(rhs(sol2),x), x = 0);
+subst(0, x, rhs(sol2));
+subst(0, x, diff(rhs(sol2),x));
 \`\`\`
+
+subst sustituye de forma local y evita que una asignación temporal de x afecte a la comprobación siguiente en una sesión de consola.
+
+## Salida comprobada en Maxima 5.50.0
+
+El siguiente resultado se obtuvo ejecutando ode2, ic1 e ic2 en Maxima 5.50.0:
+
+\`\`\`text
+(%o2)  y = %e^(- 2 x) %c
+(%o3)  y = 3 %e^(- 2 x)
+(%o4)  3
+(%o5)  0
+
+(%o7)  y = %k1 sin(2 x) + %k2 cos(2 x)
+(%o8)  y = cos(2 x)
+(%o9)  1
+(%o10) 0
+\`\`\`
+
+Las dos primeras líneas son la solución general y la particular de la EDO de primer orden; las siguientes validan tanto la condición y(0)=3 como el residuo de la ecuación. La segunda parte muestra la solución general del oscilador y la solución cos(2x) que satisface posición inicial 1 y velocidad inicial 0.
 
 ## Un modelo de Ingeniería: oscilador amortiguado
 

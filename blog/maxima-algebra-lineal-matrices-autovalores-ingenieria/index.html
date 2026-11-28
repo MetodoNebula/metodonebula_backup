@@ -10,7 +10,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
     />
-    <script type="module" crossorigin src="/assets/index-sAMZYBap.js"></script>
+    <script type="module" crossorigin src="/assets/index-xsSm_bdL.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CYPlftDS.css">
       <title>Maxima para Álgebra Lineal: matrices y autovalores en Ingeniería</title>
     <meta name="description" content="Guía técnica de Maxima para Álgebra Lineal: creación de matrices, resolución de sistemas, rango, determinante, autovalores, autovectores y comprobaciones.">
@@ -27,7 +27,7 @@
     <meta name="twitter:title" content="Maxima para Álgebra Lineal: matrices y autovalores en Ingeniería">
     <meta name="twitter:description" content="Guía técnica de Maxima para Álgebra Lineal: creación de matrices, resolución de sistemas, rango, determinante, autovalores, autovectores y comprobaciones.">
     <meta name="twitter:image" content="https://metodonebula.es/og-nebula.png">
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Maxima para Álgebra Lineal en Ingeniería: matrices, sistemas, autovalores y verificación","description":"Guía técnica de Maxima para Álgebra Lineal: creación de matrices, resolución de sistemas, rango, determinante, autovalores, autovectores y comprobaciones.","articleSection":"Matemáticas universitarias","keywords":"Matemáticas universitarias, Maxima","wordCount":875,"author":{"@type":"EducationalOrganization","name":"Método Nebula","url":"https://metodonebula.es/"},"datePublished":"2026-11-27","dateModified":"2026-11-27","mainEntityOfPage":"https://metodonebula.es/blog/maxima-algebra-lineal-matrices-autovalores-ingenieria/","inLanguage":"es-ES","publisher":{"@type":"EducationalOrganization","name":"Método Nebula","logo":{"@type":"ImageObject","url":"https://metodonebula.es/favicon.svg"}},"image":"https://metodonebula.es/og-nebula.png"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Maxima para Álgebra Lineal en Ingeniería: matrices, sistemas, autovalores y verificación","description":"Guía técnica de Maxima para Álgebra Lineal: creación de matrices, resolución de sistemas, rango, determinante, autovalores, autovectores y comprobaciones.","articleSection":"Matemáticas universitarias","keywords":"Matemáticas universitarias, Maxima","wordCount":999,"author":{"@type":"EducationalOrganization","name":"Método Nebula","url":"https://metodonebula.es/"},"datePublished":"2026-11-27","dateModified":"2026-11-27","mainEntityOfPage":"https://metodonebula.es/blog/maxima-algebra-lineal-matrices-autovalores-ingenieria/","inLanguage":"es-ES","publisher":{"@type":"EducationalOrganization","name":"Método Nebula","logo":{"@type":"ImageObject","url":"https://metodonebula.es/favicon.svg"}},"image":"https://metodonebula.es/og-nebula.png"}</script>
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://metodonebula.es/"},{"@type":"ListItem","position":2,"name":"Blog","item":"https://metodonebula.es/blog/"},{"@type":"ListItem","position":3,"name":"Maxima para Álgebra Lineal en Ingeniería: matrices, sistemas, autovalores y verificación","item":"https://metodonebula.es/blog/maxima-algebra-lineal-matrices-autovalores-ingenieria/"}]}</script>
   </head>
   <body>
@@ -49,7 +49,7 @@
     <div class="flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-muted-foreground">
       
       <span>2026-11-27</span>
-      <span>4 min de lectura</span>
+      <span>5 min de lectura</span>
     </div>
   
         
@@ -57,7 +57,7 @@
     <nav aria-label="Índice del artículo" class="mb-10 rounded-3xl border border-white/8 bg-white/[0.02] p-6 text-sm">
       <p class="font-display font-semibold text-foreground">Índice</p>
       <ol class="mt-4 space-y-2">
-        <li><a class="break-words text-link underline-offset-4 hover:underline" href="#crear-matrices-y-reconocer-sus-dimensiones">Crear matrices y reconocer sus dimensiones</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#sistemas-lineales-que-devuelve-linsolve">Sistemas lineales: qué devuelve linsolve</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#determinante-rango-e-invertibilidad">Determinante, rango e invertibilidad</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#nucleo-e-imagen-comprobar-no-adivinar">Núcleo e imagen: comprobar, no adivinar</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#autovalores-y-autovectores">Autovalores y autovectores</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#diagonalizacion-la-condicion-que-no-debes-omitir">Diagonalización: la condición que no debes omitir</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#precision-exacta-frente-a-decimal">Precisión exacta frente a decimal</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#errores-que-maxima-no-arregla">Errores que Maxima no arregla</a></li>
+        <li><a class="break-words text-link underline-offset-4 hover:underline" href="#crear-matrices-y-reconocer-sus-dimensiones">Crear matrices y reconocer sus dimensiones</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#sistemas-lineales-que-devuelve-linsolve">Sistemas lineales: qué devuelve linsolve</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#determinante-rango-e-invertibilidad">Determinante, rango e invertibilidad</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#nucleo-e-imagen-comprobar-no-adivinar">Núcleo e imagen: comprobar, no adivinar</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#autovalores-y-autovectores">Autovalores y autovectores</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#salida-comprobada-en-maxima-5-50-0">Salida comprobada en Maxima 5.50.0</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#diagonalizacion-la-condicion-que-no-debes-omitir">Diagonalización: la condición que no debes omitir</a></li><li><a class="break-words text-link underline-offset-4 hover:underline" href="#precision-exacta-frente-a-decimal">Precisión exacta frente a decimal</a></li>
       </ol>
     </nav>
   
@@ -126,6 +126,19 @@ solve(%, lambda);</code></pre>
 v : matrix([1],[1])$
 ratsimp(M.v - lambda*v);</code></pre>
 <p>El resultado debe ser la matriz columna nula.</p>
+<h2 id="salida-comprobada-en-maxima-5-50-0" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Salida comprobada en Maxima 5.50.0</h2>
+<p>Los comandos de sistemas y autovalores del artículo se ejecutaron directamente en Maxima 5.50.0. Esta fue la salida relevante:</p>
+<pre class="my-6 w-full max-w-full overflow-x-auto rounded-2xl border border-white/10 bg-black/40 p-5 text-sm"><code class="block min-w-0 whitespace-pre-wrap break-words font-mono text-foreground/90">(%o1)  [x = 12/7, y = 17/7]
+
+(%o3)  [x = - 2 %r2 - 3 %r1, y = %r2, z = %r1]
+
+(%o5)  (3 - lambda) (4 - lambda) - 2
+(%o6)  [[5, 2], [1, 1]]
+
+         [ 0 ]
+(%o9)  [   ]
+         [ 0 ]</code></pre>
+<p>La primera línea resuelve el sistema de dos incógnitas. La segunda confirma que el sistema homogéneo tiene dos parámetros libres. Para la matriz M del ejemplo, Maxima devuelve los autovalores 5 y 2, ambos de multiplicidad uno; la última salida confirma que el vector columna (1,1) es un autovector asociado a 5.</p>
 <h2 id="diagonalizacion-la-condicion-que-no-debes-omitir" class="mt-12 mb-4 border-l-2 border-action pl-4 font-display font-semibold nebula-heading-text">Diagonalización: la condición que no debes omitir</h2>
 <p>Una matriz de tamaño <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span> es diagonalizable cuando reúne <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span> autovectores linealmente independientes. No basta con que tenga autovalores.</p>
 <p>Si construyes una matriz <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi></mrow><annotation encoding="application/x-tex">P</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.1389em;">P</span></span></span></span> con autovectores por columnas y una diagonal <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>D</mi></mrow><annotation encoding="application/x-tex">D</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.0278em;">D</span></span></span></span> con sus autovalores en el mismo orden, verifica:</p>

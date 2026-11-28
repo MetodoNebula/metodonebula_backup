@@ -52725,6 +52725,55 @@ La fórmula se lee como respuesta a la izquierda y explicativas a la derecha. El
 
 Si el coeficiente de log_precio fuese -1.2, la lectura condicional sería: dentro de este modelo y esta muestra, un aumento del 1 % en precio se asocia con una caída aproximada del 1,2 % en ventas, manteniendo renta y publicidad constantes. No afirma automáticamente que subir el precio cause ese efecto: puede haber endogeneidad, estacionalidad u otras variables omitidas.
 
+## Ejemplo ejecutado en R: código y salida verificable
+
+Para que el resultado no dependa de un archivo externo, este ejemplo crea una muestra determinista de 20 observaciones. Se ejecutó con R 4.5.2 antes de publicar el artículo:
+
+\`\`\`r
+datos <- data.frame(
+  ventas = c(118,123,130,128,142,150,149,160,168,172,
+             180,191,197,205,214,221,229,238,246,254),
+  precio = c(10.8,10.6,10.7,10.5,10.4,10.3,10.2,10.1,10.0,9.9,
+             9.8,9.7,9.8,9.6,9.5,9.4,9.3,9.2,9.1,9.0),
+  renta = c(100,101,100,102,103,104,104,105,106,107,
+            108,108,109,110,111,112,113,114,115,116),
+  publicidad = c(4,4,5,4,5,6,5,6,6,7,6,7,8,7,8,8,9,9,10,9)
+)
+
+datos$log_ventas <- log(datos$ventas)
+datos$log_precio <- log(datos$precio)
+datos$log_renta <- log(datos$renta)
+
+modelo <- lm(
+  log_ventas ~ log_precio + log_renta + publicidad,
+  data = datos
+)
+
+nuevo <- data.frame(
+  log_precio = log(9.2),
+  log_renta = log(117),
+  publicidad = 9
+)
+
+round(coef(modelo), 4)
+round(predict(modelo, nuevo, interval = "prediction"), 4)
+round(sqrt(mean(residuals(modelo)^2)), 4)
+\`\`\`
+
+La consola de R produjo:
+
+\`\`\`text
+(Intercept)  log_precio   log_renta  publicidad
+     4.2272     -2.3154      1.2925      0.0305
+
+    fit    lwr    upr
+1 5.518 5.3976 5.6385
+
+[1] 0.0241
+\`\`\`
+
+La última línea es la raíz del error cuadrático medio de los residuos en escala logarítmica. El intervalo de la segunda salida es de predicción, no de confianza. Como estos datos son didácticos y construidos, sus coeficientes verifican sintaxis y flujo de trabajo; no constituyen una estimación causal de un mercado real.
+
 ## Diagnóstico: el modelo no termina en summary
 
 Los gráficos básicos del objeto lm muestran residuos frente a ajustados, normalidad aproximada, escala–localización e influencia:
@@ -52945,6 +52994,55 @@ modelo
 \`\`\`
 
 La diferenciación d igual a 1 combate una tendencia estocástica; D igual a 1 en la parte estacional aplica una diferencia a doce meses. No diferencies por rutina: una diferenciación excesiva puede introducir dependencia artificial y hacer el modelo más difícil de interpretar.
+
+## Ejemplo ejecutado en R: STL, ARIMA y salida reproducible
+
+El siguiente ejemplo genera 96 meses de datos con una semilla fija. Se ejecutó con R 4.5.2; por eso las componentes, coeficientes y previsiones que aparecen después no son deducciones manuales, sino la salida del programa:
+
+\`\`\`r
+set.seed(20261128)
+
+t <- 1:96
+ventas <- 200 + 0.75*t + 22*sin(2*pi*t/12) + rnorm(96, 0, 4)
+ventas_ts <- ts(ventas, start = c(2018, 1), frequency = 12)
+log_ventas <- log(ventas_ts)
+
+stl_ventas <- stl(log_ventas, s.window = "periodic")
+
+modelo <- arima(
+  log_ventas,
+  order = c(1, 1, 0),
+  seasonal = list(order = c(0, 1, 1), period = 12)
+)
+
+pred <- predict(modelo, n.ahead = 3)
+
+round(tail(stl_ventas$time.series, 1), 4)
+round(modelo$coef, 4)
+round(modelo$aic, 4)
+round(pred$pred, 4)
+round(pred$se, 4)
+\`\`\`
+
+La salida obtenida fue:
+
+\`\`\`text
+         seasonal  trend remainder
+Dec 2025   0.0083 5.6176    0.0131
+
+    ar1    sma1
+-0.5088 -0.8445
+
+[1] -385.688
+
+        Jan    Feb    Mar
+2026 5.6842 5.7042 5.7288
+
+        Jan    Feb    Mar
+2026 0.0212 0.0237 0.0285
+\`\`\`
+
+Las tres últimas líneas de calendario son pronósticos y errores estándar en escala logarítmica. Para comunicar unidades o euros, hay que especificar la transformación inversa y el tratamiento de su sesgo; no basta con presentar exp de un pronóstico como si fuera automáticamente la media esperada original.
 
 ## Diagnóstico de residuos del modelo
 

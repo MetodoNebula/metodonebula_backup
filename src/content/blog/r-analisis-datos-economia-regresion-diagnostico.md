@@ -89,6 +89,55 @@ La fórmula se lee como respuesta a la izquierda y explicativas a la derecha. El
 
 Si el coeficiente de log_precio fuese -1.2, la lectura condicional sería: dentro de este modelo y esta muestra, un aumento del 1 % en precio se asocia con una caída aproximada del 1,2 % en ventas, manteniendo renta y publicidad constantes. No afirma automáticamente que subir el precio cause ese efecto: puede haber endogeneidad, estacionalidad u otras variables omitidas.
 
+## Ejemplo ejecutado en R: código y salida verificable
+
+Para que el resultado no dependa de un archivo externo, este ejemplo crea una muestra determinista de 20 observaciones. Se ejecutó con R 4.5.2 antes de publicar el artículo:
+
+```r
+datos <- data.frame(
+  ventas = c(118,123,130,128,142,150,149,160,168,172,
+             180,191,197,205,214,221,229,238,246,254),
+  precio = c(10.8,10.6,10.7,10.5,10.4,10.3,10.2,10.1,10.0,9.9,
+             9.8,9.7,9.8,9.6,9.5,9.4,9.3,9.2,9.1,9.0),
+  renta = c(100,101,100,102,103,104,104,105,106,107,
+            108,108,109,110,111,112,113,114,115,116),
+  publicidad = c(4,4,5,4,5,6,5,6,6,7,6,7,8,7,8,8,9,9,10,9)
+)
+
+datos$log_ventas <- log(datos$ventas)
+datos$log_precio <- log(datos$precio)
+datos$log_renta <- log(datos$renta)
+
+modelo <- lm(
+  log_ventas ~ log_precio + log_renta + publicidad,
+  data = datos
+)
+
+nuevo <- data.frame(
+  log_precio = log(9.2),
+  log_renta = log(117),
+  publicidad = 9
+)
+
+round(coef(modelo), 4)
+round(predict(modelo, nuevo, interval = "prediction"), 4)
+round(sqrt(mean(residuals(modelo)^2)), 4)
+```
+
+La consola de R produjo:
+
+```text
+(Intercept)  log_precio   log_renta  publicidad
+     4.2272     -2.3154      1.2925      0.0305
+
+    fit    lwr    upr
+1 5.518 5.3976 5.6385
+
+[1] 0.0241
+```
+
+La última línea es la raíz del error cuadrático medio de los residuos en escala logarítmica. El intervalo de la segunda salida es de predicción, no de confianza. Como estos datos son didácticos y construidos, sus coeficientes verifican sintaxis y flujo de trabajo; no constituyen una estimación causal de un mercado real.
+
 ## Diagnóstico: el modelo no termina en summary
 
 Los gráficos básicos del objeto lm muestran residuos frente a ajustados, normalidad aproximada, escala–localización e influencia:
